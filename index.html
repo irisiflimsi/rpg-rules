@@ -4,17 +4,20 @@
   <meta charset="UTF-8"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
   <style>
-    :root { --blue: darkgreen; }
+    :root { --nav: darkgreen; --drop: lightgreen; --mid: green }
     nav h2 { padding-bottom:64px }
-    nav { height:100%; width:300px; top:0; position:fixed; color:#fff; background-color: var(--blue); padding:8px 16px; font-weight:bold }
+    nav { height:100%; width:300px; top:0; position:fixed; color:#fff; background-color: var(--nav); padding:8px 16px; font-weight:bold }
     nav a { display:inline-block; text-decoration:none; color:white; width:100%; padding:8px 16px }
     nav a:hover { color:#000; background-color:#fff }
     *,*:before,*:after { box-sizing:inherit }
     body,h1,h2,h3 { margin:10px 0; font-family:"Merriweather" }
     body { box-sizing:border-box; line-height:1.5; font-size: 18px }
-    h1 { font-weight:bold; font-size:48px; color:var(--blue)  }
+    h1 { font-weight:bold; font-size:48px; color:var(--nav)  }
     h2 { font-weight:bold; font-size:30px; color:#fff }
-    h3 { font-weight:bold; font-size:24px; color:var(--blue) }
+    h3 { font-weight:bold; font-size:24px; color:var(--nav) }
+    tr:nth-child(even) td { background: var(--drop) }
+    tr:nth-child(odd) td { background: var(--mid) }
+    td { padding:8px 16px }
     .main { margin-left:340px; margin-right:40px }
     .container { margin-top:50px; padding:8px 16px }
     .title { margin-top:50px; padding:8px 16px; font-size:64px }
@@ -41,6 +44,16 @@
       <p>
         Das Hauptaugenmerk bei diesem Regelwerk ist auf die Übertragbarkeit auf verschiedene Schwierigkeiten. Höhere Fähigkeiten verhalten sich zu höheren Schwierigkeiten genauso, wie niedrigere Fähigkeiten zu niedriegeren Schwierigkeiten. Es werden, solange man sich in derselben "Dimension" bewegt, dieselben Regeln genommen. Eine Konsequenz daraus ist auch, dass die Übergange zwischen verschiedenen Stärken flüssiger sind, also keine ungewöhnlichen Sprünge vorhanden sind. 
       </p>
+<table>
+<tr>
+<td>a</td>
+<td>b</td>
+</tr>
+<tr>
+<td>c</td>
+<td>d</td>
+</tr>
+</table>
     </div>
   </div>
 </body>
