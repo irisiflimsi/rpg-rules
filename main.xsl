@@ -29,6 +29,7 @@
   <xsl:template match="n1"><em>1</em></xsl:template>
   <xsl:template match="n2"><em>2</em></xsl:template>
   <xsl:template match="n3"><em>3</em></xsl:template>
+  <xsl:template match="n5"><em>5</em></xsl:template>
   <xsl:template match="n7"><em>7</em></xsl:template>
   <xsl:template match="n10"><em>10</em></xsl:template>
 
