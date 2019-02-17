@@ -1,0 +1,128 @@
+:root {
+    --navbg: #009a31;
+    --h1: #009a31;
+    --h3: #009a31;
+    --head: #c6e7ce;
+    --tde: #ceffce;
+    --tdo: #84cf96;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+nav {
+    height: 100%;
+    width: 300px;
+    top: 0;
+    position: fixed;
+    color: #fff;
+    background-color: var(--navbg);
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+nav h2 {
+    padding-bottom: 64px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 8px 16px;
+}
+
+nav a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+
+body, h1, h2, h3 {
+    margin: 10px 0;
+    font-family: "Merriweather";
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color:var(--h1);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--h3);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+caption {
+    font-weight: bold;
+    padding: 8px;
+    caption-side: bottom;
+}
+
+tr:nth-child(even) td {
+    background: var(--tde);
+}
+
+tr:nth-child(odd) td {
+    background: var(--tdo);
+}
+
+th {
+    width: 50px;
+    background: var(--h3);
+}
+
+td {
+    width: 50px;
+    padding: 4px 8px;
+}
+
+li {
+    padding: 4px 8px;
+}
+
+.main {
+    margin-left: 340px;
+    margin-right: 40px;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 8px 16px;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 8px 16px;
+    font-size: 64px;
+    color: var(--head);
+}
+
+.indent {
+    text-indent: 2em;
+    font-size: 15px;
+}
