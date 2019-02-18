@@ -286,9 +286,8 @@
           tactical control to the actor/character.  Sometimes a wall needs
           to be torn down, no matter how long it takes.  Sometimes only a
           certain amount of digging can be done before it is interrupted.
-          The most important decision to make is choosing the right
-          dimensions.  A predominate dimension applicable to many tasks is
-          <em>time</em>.
+          A very important choice is that of the right dimensions.  A
+          predominate dimension applicable to many tasks is <em>time</em>.
         </p>
         <h3 id="combo">Combinations</h3>
         <p>
