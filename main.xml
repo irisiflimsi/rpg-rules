@@ -170,7 +170,17 @@
             <td>95-100</td>
           </tr>
         </table>
-        <p/>
+        <p>
+          In order to keep the probabilities correct, all rolls should
+          be made in secret and the result only be exposed when necessary.
+          In many situtations this is highly impractical, you therefore
+          need to decide, when to sacrifice correctness for playability.
+          We will see in later sections examples of this.  But it should
+          be obvious that a player will rather break of a long lasting
+          activity when he knows it will not end well. Think of a race,
+          where everyone knows the probable outcome after a few meters
+          have been run.
+        </p>
         <h3 id="prob_ex">Examples</h3>
         <p>
           The most generic way to roll the dice would be to roll <d5/>
@@ -289,7 +299,19 @@
           A very important choice is that of the right dimensions.  A
           predominate dimension applicable to many tasks is <em>time</em>.
         </p>
+        <p>
+          You should always try to create <em>scalable</em> dimensions and
+          this is generally not hard. Time, distance, and weight are classic
+          examples of such dimensions, But also skills such as knowledge can 
+          be made scalable.
+        </p>
         <h3 id="combo">Combinations</h3>
+        <p>
+          The following rule only applies when you deem it prudent. It
+          combines several actors into one and that only makes sense,
+          if resolving the situation takes less time than rolling them
+          individually.
+        </p>
         <p>
           Sometimes several people (or more generally <em>actors</em>)
           will want to join forces to expedite an action.  Jointly
@@ -392,20 +414,6 @@
           column index.)
         </p>
 <!--
-    <p>
-      Zeiten, Strecken und Gewichte sind skalierbare Dimensionen.  Sie
-      sind fast beliebig zerteilbar und eignen sich für Addition,
-      Multiplikation, etc..
-    </p>
-    <p>
-      Würfelergebnisse sind stets geheim und werden einzeln, d.h. nach
-      einzelnen Progressionswürfeln, offenbart, um die möglichen
-      Dauern ab einer Minimaldauer festzustellen bzw, zu verlängern.
-      Entscheidungen, eine Aktion abzubrechen, werden dadurch in
-      Unkenntnis des potentiellen Erfolges getroffen und verändern
-      dadurch nicht die Verteilung.  (Magische "Spickzauber" ergeben
-      dadurch Sinn.)
-    </p>
     <table>
       <tr>
         <td class="mark">0</td><td class="mark">1</td><td class="mark">2</td><td class="mark">3</td>
@@ -520,6 +528,9 @@
         <td class="mark">b</td>
       </tr>
     </table>
+          Würfelergebnisse sind stets geheim und werden einzeln, d.h. nach
+          einzelnen Progressionswürfeln, offenbart, um die möglichen
+          Dauern ab einer Minimaldauer festzustellen bzw, zu verlängern.
     <p>
       In der oben stehenden Tabelle wird für eine gegebene Dauer
       ermittelt, wie man zu der Dauer aufschliesst, die bei 10 Punkten
