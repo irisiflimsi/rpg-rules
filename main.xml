@@ -181,6 +181,10 @@
           where everyone knows the probable outcome after a few meters
           have been run.
         </p>
+        <p>
+          In case a more precise outcome needs to be rolled, roll a <d10/>
+          for as many digits after the decimal point as needed.
+        </p>
         <h3 id="prob_ex">Examples</h3>
         <p>
           The most generic way to roll the dice would be to roll <d5/>
@@ -217,6 +221,11 @@
               the negative sequence shows <em>3,6,9,4,4,1</em>.  The
               result is positive <em>12</em> and negative <em>5</em>
               with a net result of <em>+7</em>.
+            </li>
+            <li>
+              If you decide that <em>+7</em> is not precise enough, a
+              roll of <n3/> and <n5/> on a <d10/> (each) gives are
+              finer result of <em>+7.35</em>.
             </li>
           </ul>
         </p>
@@ -305,6 +314,17 @@
           examples of such dimensions, But also skills such as knowledge can 
           be made scalable.
         </p>
+        <p>
+          Once you have decided on some effects for a scalable dimension, you
+          will have a list like <em>skill 0: 1 minute, skill 10: 2 minutes,
+          ...</em>. The skill level will be in steps of 10 (remember the
+          design guidelines), while the values depend on the dimension and the
+          concrete skill. The above may be a skill of <em>Holding Breath</em>,
+          but for a skill called <em>Ten-Second-Dash</em> the list may look like
+          <em>skill 0: 30 meters, skill 40: 100 meters</em>. To have the
+          appropriate intermediate steps, both in skill level and dimension,
+          use the following table.
+        </p>
         <h3 id="combo">Combinations</h3>
         <p>
           The following rule only applies when you deem it prudent. It
@@ -330,7 +350,7 @@
           actors into one.  Take the difference in bonus (<em>skill
           level</em>) as column index and the bonus an equal skill
           should give as row index.  Cross-indexing gives the bonus,
-          the actor with the higher skill levbel should receive.
+          the actor with the higher skill level should receive.
         </p>
         <table>
           <caption>Table 3</caption>
@@ -402,11 +422,24 @@
           better character plus <n7/> to the combined actor.
         </p>
         <p>
+          The standard example of taking the best skill roll of two
+          would best equate to using row <n5/> in the table.  If you
+          have two actors that both must succeed a test, then you
+          should use -<n5/>, which is equivalent to using the fifth row
+          for the <em>reverse</em> roll. Keep in mind that the reversal
+          of <em>positive</em> and <em>negative</em> roll, also changes
+          who of the twp has the higher skill level.
+        </p>
+        <p>
           The rule can be applied multiple times and its application
           does not depend on the order or sub-grouping of several
           actors, thereby adhering to the outline given in the
           motivational section.  In order to keep this rule simple,
-          the results were rounded.  If you want to expand the table
+          the results were rounded. Using the rule multiple times, always
+          group two actors of similar skill value together.
+	      </p>
+	      <p>
+          If you want to expand the table
           for higher differences or mitigate rounding errors for
           repeated applications and you are willing to go through the
           mathematics of it, the formula in the last row can be used.
