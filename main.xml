@@ -323,7 +323,131 @@
           but for a skill called <em>Ten-Second-Dash</em> the list may look like
           <em>skill 0: 30 meters, skill 40: 100 meters</em>. To have the
           appropriate intermediate steps, both in skill level and dimension,
-          use the following table.
+          use the following table.  On the far left and right side you will find
+          the typical values for skill level <em>n</em> and <em>n+10</em> in
+          inceasing fashion. By reading from righht to left you can easily
+          accommodate for descreasing values.  Use the next to lowest row for
+          that.
+        </p>
+        <p>
+          Finally, this is a <em>utility</em> table. Often, the instinctive
+          <em>linear interpolation</em> - dividing the difference into equal 
+          steps and taking the appropriate step - is not to far from the
+          <em>smoother</em> version the table gives you. 
+        </p>
+        <table>
+          <caption>Table 3</caption>
+          <tr>
+            <th>0</th><th>1</th><th>2</th><th>3</th>
+            <th>4</th><th>5</th><th>6</th><th>7</th>
+            <th>8</th><th>9</th><th>10</th>
+          </tr>
+          <tr>
+            <th>10</th><td>11</td><td>11</td><td>12</td>
+            <td>13</td><td>14</td><td>15</td><td>16</td>
+            <td>17</td><td>19</td><th>20</th>
+          </tr>
+          <tr>
+            <th>10</th><td>11</td><td>12</td><td>14</td>
+            <td>16</td><td>17</td><td>19</td><td>22</td>
+            <td>24</td><td>27</td><th>30</th>
+          </tr>
+          <tr>
+            <th>10</th><td>12</td><td>14</td><td>17</td>
+            <td>20</td><td>24</td><td>29</td><td>35</td>
+            <td>42</td><td>50</td><th>60</th>
+          </tr>
+          <tr>
+            <th>10</th><td>13</td><td>16</td><td>20</td>
+            <td>25</td><td>32</td><td>40</td><td>50</td>
+            <td>63</td><td>79</td><th>100</th>
+          </tr>
+          <tr>
+            <th>20</th><td>21</td><td>22</td><td>23</td>
+            <td>24</td><td>24</td><td>26</td><td>27</td>
+            <td>28</td><td>29</td><th>30</th>
+          </tr>
+          <tr>
+            <th>20</th><td>22</td><td>25</td><td>28</td>
+            <td>31</td><td>35</td><td>39</td><td>43</td>
+            <td>48</td><td>54</td><th>60</th>
+          </tr>
+          <tr>
+            <th>20</th><td>23</td><td>28</td><td>32</td>
+            <td>38</td><td>45</td><td>53</td><td>62</td>
+            <td>72</td><td>85</td><th>100</th>
+          </tr>
+          <tr>
+            <th>20</th><td>25</td><td>32</td><td>40</td>
+            <td>50</td><td>63</td><td>80</td><td>100</td>
+            <td>130</td><td>160</td><th>200</th>
+          </tr>
+          <tr>
+            <th>30</th><td>32</td><td>34</td><td>37</td>
+            <td>40</td><td>42</td><td>45</td><td>49</td>
+            <td>52</td><td>56</td><th>60</th>
+          </tr>
+          <tr>
+            <th>30</th><td>34</td><td>38</td><td>43</td>
+            <td>49</td><td>55</td><td>62</td><td>70</td>
+            <td>79</td><td>89</td><th>100</th>
+          </tr>
+          <tr>
+            <th>30</th><td>36</td><td>44</td><td>53</td>
+            <td>64</td><td>77</td><td>94</td><td>110</td>
+            <td>140</td><td>170</td><th>200</th>
+          </tr>
+          <tr>
+            <th>30</th><td>38</td><td>48</td><td>60</td>
+            <td>75</td><td>95</td><td>120</td><td>150</td>
+            <td>190</td><td>240</td><th>300</th>
+          </tr>
+          <tr>
+            <th>60</th><td>63</td><td>66</td><td>70</td>
+            <td>74</td clasd><td>77</td><td>82</td><td>86</td>
+            <td>90</td><td>95</td><th>100</th>
+          </tr>
+          <tr>
+            <th>60</th><td>68</td><td>76</td><td>86</td>
+            <td>97</td><td>110</td><td>120</td><td>140</td>
+            <td>160</td><td>180</td><th>200</th>
+          </tr>
+          <tr>
+            <th>60</th><td>70</td><td>83</td><td>97</td>
+            <td>110</td><td>130</td><td>160</td><td>190</td>
+            <td>220</td><td>260</td><th>300</th>
+          </tr>
+          <tr>
+            <th>60</th><td>76</td><td>95</td><td>120</td>
+            <td>150</td><td>190</td><td>240</td><td>300</td>
+            <td>380</td><td>480</td><th>600</th>
+          </tr>
+          <tr>
+            <th>0</th><th>1</th><th>2</th><th>3</th>
+            <th>4</th><th>5</th><th>6</th><th>7</th>
+            <th>8</th><th>9</th><th>10</th>
+          </tr>
+          <tr>
+            <th>&#945</td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,1</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,2</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,3</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,4</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,5</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,6</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,7</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,8</sup></font></td>
+            <td><font size="-1">&#945(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946</mtext><mtext>&#945</mtext></mfrac></math>)<sup>0,9</sup></font></td>
+            <th>&#946</td>
+          </tr>
+        </table>
+        <p>
+          As always, the numbers in the table have been rounded.
+          If you want to expand the table for other differences or
+          mitigate rounding errors and you are willing to go through
+          the mathematics of it, the formula in the last row can be
+          used. (The variable &#945; being the
+          row index and &#946; the column index.)
         </p>
         <h3 id="combo">Combinations</h3>
         <p>
@@ -353,7 +477,7 @@
           the actor with the higher skill level should receive.
         </p>
         <table>
-          <caption>Table 3</caption>
+          <caption>Table 4</caption>
           <tr>
             <th>0</th><th>1</th><th>2</th><th>3</th>
             <th>4</th><th>5</th><th>6</th><th>7</th>
@@ -423,12 +547,13 @@
         </p>
         <p>
           The standard example of taking the best skill roll of two
+          (this is the same as requiring at least one of the two to succeed.)
           would best equate to using row <n5/> in the table.  If you
           have two actors that both must succeed a test, then you
           should use -<n5/>, which is equivalent to using the fifth row
           for the <em>reverse</em> roll. Keep in mind that the reversal
           of <em>positive</em> and <em>negative</em> roll, also changes
-          who of the twp has the higher skill level.
+          who of the two has the higher skill level.
         </p>
         <p>
           The rule can be applied multiple times and its application
@@ -439,128 +564,27 @@
           group two actors of similar skill value together.
 	      </p>
 	      <p>
-          If you want to expand the table
-          for higher differences or mitigate rounding errors for
-          repeated applications and you are willing to go through the
-          mathematics of it, the formula in the last row can be used.
-          (The variable &#945; being the row index and &#946; the
-          column index.)
+          As a more elaborate example, say you have four characters in a room
+          searching for something and you have determined that this technically
+          means that either of those characters could find it, i.e. all would
+          have to roll against a set diffculty. But you want just one roll. 
+          These characters have a skill level of <n5>, <n7>, <em>13</em>, and
+          <em>17</em>. Taking the first two, because they are closest to each
+          other, we combine them into an actor with <n11/>. (The difference
+          between the two is <n2/> and from the above we know that we should 
+          use row five. We add the <n4/> we find o the higher <n7/>.) Now we
+          combine <n11/> and <em>13</em> in the same manner to <em>17</em>.
+          In the last step, we combine the two <em>17</em>s into a <em>22</em>
+          by way of the zero'th column.
+	      </p>
+	      <p>
+          If you want to expand the table for higher differences or
+          mitigate rounding errors for repeated applications and you
+          are willing to go through the mathematics of it, the formula
+          in the last row can be used. (The variable &#945; being the
+          row index and &#946; the column index.)
         </p>
 <!--
-    <table>
-      <tr>
-        <td class="mark">0</td><td class="mark">1</td><td class="mark">2</td><td class="mark">3</td>
-        <td class="mark">4</td><td class="mark">5</td><td class="mark">6</td><td class="mark">7</td>
-        <td class="mark">8</td><td class="mark">9</td><td class="mark">10</td>
-      </tr>
-      <tr>
-        <td colspan="11" class="sep"></td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>11</td><td>11</td><td>12</td>
-        <td>13</td><td>14</td><td>15</td><td>16</td>
-        <td>17</td><td>19</td><td class="mark">20</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>11</td><td>12</td><td>14</td>
-        <td>16</td><td>17</td><td>19</td><td>22</td>
-        <td>24</td><td>27</td><td class="mark">30</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>12</td><td>14</td><td>17</td>
-        <td>20</td><td>24</td><td>29</td><td>35</td>
-        <td>42</td><td>50</td><td class="mark">60</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>13</td><td>16</td><td>20</td>
-        <td>25</td><td>32</td><td>40</td><td>50</td>
-        <td>63</td><td>79</td><td class="mark">100</td>
-      </tr>
-      <tr>
-        <td colspan="11" class="sep"></td>
-      </tr>
-        <tr><td class="mark">20</td><td>21</td><td>22</td><td>23</td>
-        <td>24</td><td>24</td><td>26</td><td>27</td>
-        <td>28</td><td>29</td><td class="mark">30</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>22</td><td>25</td><td>28</td>
-        <td>31</td><td>35</td><td>39</td><td>43</td>
-        <td>48</td><td>54</td><td class="mark">60</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>23</td><td>28</td><td>32</td>
-        <td>38</td><td>45</td><td>53</td><td>62</td>
-        <td>72</td><td>85</td><td class="mark">100</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>25</td><td>32</td><td>40</td>
-        <td>50</td><td>63</td><td>80</td><td>100</td>
-        <td>130</td><td>160</td><td class="mark">200</td>
-      </tr>
-      <tr>
-        <td colspan="11" class="sep"></td>
-      </tr>
-      <tr>
-        <td class="mark">30</td><td>32</td><td>34</td><td>37</td>
-        <td>40</td><td>42</td><td>45</td><td>49</td>
-        <td>52</td><td>56</td><td class="mark">60</td>
-      </tr>
-      <tr>
-        <td class="mark">30</td><td>34</td><td>38</td><td>43</td>
-        <td>49</td><td>55</td><td>62</td><td>70</td>
-        <td>79</td><td>89</td><td class="mark">100</td>
-      </tr>
-      <tr>
-        <td class="mark">30</td><td>36</td><td>44</td><td>53</td>
-        <td>64</td><td>77</td><td>94</td><td>110</td>
-        <td>140</td><td>170</td><td class="mark">200</td>
-      </tr>
-      <tr>
-        <td class="mark">30</td><td>38</td><td>48</td><td>60</td>
-        <td>75</td><td>95</td><td>120</td><td>150</td>
-        <td>190</td><td>240</td><td class="mark">300</td>
-      </tr>
-      <tr>
-        <td colspan="11" class="sep"></td>
-      </tr>
-      <tr>
-        <td class="mark">60</td><td>63</td><td>66</td><td>70</td>
-        <td>74</td><td>77</td><td>82</td><td>86</td>
-        <td>90</td><td>95</td><td class="mark">100</td>
-      </tr>
-      <tr>
-        <td class="mark">60</td><td>68</td><td>76</td><td>86</td>
-        <td>97</td><td>110</td><td>120</td><td>140</td>
-        <td>160</td><td>180</td><td class="mark">200</td>
-      </tr>
-      <tr>
-        <td class="mark">60</td><td>70</td><td>83</td><td>97</td>
-        <td>110</td><td>130</td><td>160</td><td>190</td>
-        <td>220</td><td>260</td><td class="mark">300</td>
-      </tr>
-      <tr>
-        <td class="mark">60</td><td>76</td><td>95</td><td>120</td>
-        <td>150</td><td>190</td><td>240</td><td>300</td>
-        <td>380</td><td>480</td><td class="mark">600</td>
-      </tr>
-      <tr>
-        <td colspan="11" class="sep"></td>
-      </tr>
-      <tr>
-        <td class="mark">a</td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,1</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,2</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,3</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,4</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,5</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,6</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,7</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,8</sup></font></td>
-        <td class="mark"><font size="-1">a(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>b</mtext><mtext>a</mtext></mfrac></math>)<sup>0,9</sup></font></td>
-        <td class="mark">b</td>
-      </tr>
-    </table>
           Würfelergebnisse sind stets geheim und werden einzeln, d.h. nach
           einzelnen Progressionswürfeln, offenbart, um die möglichen
           Dauern ab einer Minimaldauer festzustellen bzw, zu verlängern.
