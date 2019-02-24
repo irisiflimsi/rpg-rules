@@ -63,19 +63,19 @@
       <div class="container">
         <h1 id="basic">Basic Rule</h1>
         <p>
-          You roll a <d5/> until you roll a <n1/> and the
-          count the number of dice that did not show up a <n1/>.
-          That is the same as the number of dice you actually rolled
-          minus one.  The higher you get, the better, therefore we
-          call it the <em>positive</em> roll.  This roll is dominated
-          by the active character, or more generally, the actor.  Of
-          course, there is a <em>negative</em> roll that is associated
-          with the passive resistance or impediment, which is handled
-          in the same way.  These two numbers are subtracted.  The
-          result will be a whole number (i.e. a positive or negative
-          number without fractional part).  An understanding of this
-          rule is crucial, so we elaborate a bit by listing the
-          probabilities involved as well as some examples.
+          You roll a <d5/> until you roll a <n1/> and the count the
+          number of dice that did not show up a <n1/>.  That is the
+          same as the number of dice you actually rolled minus one.
+          The higher you get, the better, therefore we call it the
+          <em>positive</em> roll.  This roll is dominated by the
+          active character, or more generally, the actor.  Of course,
+          there is a <em>negative</em> roll that is associated with
+          the passive resistance or impediment, which is handled in
+          the same way.  These two numbers are subtracted.  The result
+          will be a whole number (i.e. a positive or negative number
+          without fractional part).  An understanding of this rule is
+          crucial, so we elaborate a bit by listing the probabilities
+          involved as well as some examples.
         </p>
         <h3 id="prob">Probabilities</h3>
         <p>
@@ -85,8 +85,8 @@
           is always the same.  Then third row gives the percentage
           chance that you have of achieving the result in the
           corresponding first row.  These you could achieve by rolling
-          a <d100/> in order to cut down on the number of dice
-          to roll.  All but the first column of this row are
+          a <d100/> in order to cut down on the number of dice to
+          roll.  All but the first column of this row are
           approximations.
         </p>
         <p>
@@ -172,18 +172,18 @@
         </table>
         <p>
           In order to keep the probabilities correct, all rolls should
-          be made in secret and the result only be exposed when necessary.
-          In many situtations this is highly impractical, you therefore
-          need to decide, when to sacrifice correctness for playability.
-          We will see in later sections examples of this.  But it should
-          be obvious that a player will rather break of a long lasting
-          activity when he knows it will not end well. Think of a race,
-          where everyone knows the probable outcome after a few meters
-          have been run.
+          be made in secret and the result only be exposed when
+          necessary.  In many situtations this is highly impractical,
+          you therefore need to decide, when to sacrifice correctness
+          for playability.  We will see in later sections examples of
+          this.  But it should be obvious that a player will rather
+          break of a long lasting activity when he knows it will not
+          end well.  Think of a race, where everyone knows the
+          probable outcome after a few meters have been run.
         </p>
         <p>
-          In case a more precise outcome needs to be rolled, roll a <d10/>
-          for as many digits after the decimal point as needed.
+          In case a more precise outcome needs to be rolled, roll a
+          <d10/> for as many digits after the decimal point as needed.
         </p>
         <h3 id="prob_ex">Examples</h3>
         <p>
@@ -209,18 +209,19 @@
             </li>
             <li>
               Another decision is to use the combined table, and a
-              <em>28</em> is rolled, which results in <em>-3</em>.
+              <em>28</em> is rolled, which results in -<n3/>.
             </li>
             <li>
               A more exotic roll would be the sequence <em>96, 99, 93,
-              61</em> on the <d100/>.  The result would be <em>34</em>.
+              61</em> on the <d100/>.  The result would be
+              <em>34</em>.
             </li>
             <li>
               Using the standard method, the positive sequence on a
-              <d10/> shows <em>3,8,10,7,9,4,6,3,10,10,8,4,2</em> and
-              the negative sequence shows <em>3,6,9,4,4,1</em>.  The
-              result is positive <em>12</em> and negative <em>5</em>
-              with a net result of <em>+7</em>.
+              <d10/> shows <em>3, 8, 10, 7, 9, 4, 6, 3, 10, 10, 8, 4,
+              2</em> and the negative sequence shows <em>3, 6, 9, 4,
+              4, 1</em>.  The result is positive <em>12</em> and
+              negative <em>5</em> with a net result of <em>+7</em>.
             </li>
             <li>
               If you decide that <em>+7</em> is not precise enough, a
@@ -245,7 +246,7 @@
               determine the outcome.
             </li>
             <li>
-              Scaling with respect to difficulty. Imagine that one
+              Scaling with respect to difficulty.  Imagine that one
               character is particularly string with a certain skill,
               but he also attempts more difficult tasks.  Imagine the
               child character climbing the neighborhood tree and as a
@@ -281,8 +282,8 @@
         <p>
           <em>Skills</em> (or <em>Attributes</em>, etc.) should be
           designed as to properly apply to genre-typical situations
-          and <em>tests</em>. Whether generic skills and attributes or
-          stylized, specific skills are used, depends on the genre.
+          and <em>tests</em>.  Whether generic skills and attributes
+          or stylized, specific skills are used, depends on the genre.
           Such specialized application is not of importance at this
           stage.
         </p>
@@ -297,43 +298,47 @@
         </p>
         <h3 id="dim">Dimensionen</h3>
         <p>
-          Skill tests may succeed completely, partially, or not at all.  It
-          may take more or less time to complete a task.  Actions or tasks
-          are therefore split into several appropriate dimensions, such
-          that an action can succeed or fail in each dimension separately.
-          The sense of introducing dimensions into the rules is to give
-          tactical control to the actor/character.  Sometimes a wall needs
-          to be torn down, no matter how long it takes.  Sometimes only a
-          certain amount of digging can be done before it is interrupted.
-          A very important choice is that of the right dimensions.  A
-          predominate dimension applicable to many tasks is <em>time</em>.
+          Skill tests may succeed completely, partially, or not at
+          all.  It may take more or less time to complete a task.
+          Actions or tasks are therefore split into several
+          appropriate dimensions, such that an action can succeed or
+          fail in each dimension separately.  The sense of introducing
+          dimensions into the rules is to give tactical control to the
+          actor/character.  Sometimes a wall needs to be torn down, no
+          matter how long it takes.  Sometimes only a certain amount
+          of digging can be done before it is interrupted.  A very
+          important choice is that of the right dimensions.  A
+          predominate dimension applicable to many tasks is
+          <em>time</em>.
         </p>
         <p>
-          You should always try to create <em>scalable</em> dimensions and
-          this is generally not hard. Time, distance, and weight are classic
-          examples of such dimensions, But also skills such as knowledge can 
-          be made scalable.
+          You should always try to create <em>scalable</em> dimensions
+          and this is generally not hard.  Time, distance, and weight
+          are classic examples of such dimensions, But also skills
+          such as knowledge can be made scalable.
         </p>
         <p>
-          Once you have decided on some effects for a scalable dimension, you
-          will have a list like <em>skill 0: 1 minute, skill 10: 2 minutes,
-          ...</em>. The skill level will be in steps of 10 (remember the
-          design guidelines), while the values depend on the dimension and the
-          concrete skill. The above may be a skill of <em>Holding Breath</em>,
-          but for a skill called <em>Ten-Second-Dash</em> the list may look like
-          <em>skill 0: 30 meters, skill 40: 100 meters</em>. To have the
-          appropriate intermediate steps, both in skill level and dimension,
-          use the following table.  On the far left and right side you will find
-          the typical values for skill level <em>n</em> and <em>n+10</em> in
-          inceasing fashion. By reading from righht to left you can easily
-          accommodate for descreasing values.  Use the next to lowest row for
-          that.
+          Once you have decided on some effects for a scalable
+          dimension, you will have a list like <em>skill 0: 1 minute,
+          skill 10: 2 minutes, ...</em>.  The skill level will be in
+          steps of 10 (remember the design guidelines), while the
+          values depend on the dimension and the concrete skill.  The
+          above may be a skill of <em>Holding Breath</em>, but for a
+          skill called <em>Ten-Second-Dash</em> the list may look like
+          <em>skill 0: 30 meters, skill 40: 100 meters</em>.  To have
+          the appropriate intermediate steps, both in skill level and
+          dimension, use the following table.  On the far left and
+          right side you will find the typical values for skill level
+          <em>n</em> and <em>n+10</em> in inceasing fashion.  By
+          reading from righht to left you can easily accommodate for
+          descreasing values.  Use the next to lowest row for that.
         </p>
         <p>
-          Finally, this is a <em>utility</em> table. Often, the instinctive
-          <em>linear interpolation</em> - dividing the difference into equal 
-          steps and taking the appropriate step - is not to far from the
-          <em>smoother</em> version the table gives you. 
+          Finally, this is a <em>utility</em> table.  Often, the
+          instinctive <em>linear interpolation</em> - dividing the
+          difference into equal steps and taking the appropriate step
+          - is not to far from the <em>smoother</em> version the table
+          gives you.
         </p>
         <table>
           <caption>Table 3</caption>
@@ -362,6 +367,7 @@
             <td>25</td><td>32</td><td>40</td><td>50</td>
             <td>63</td><td>79</td><th>100</th>
           </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
           <tr>
             <th>20</th><td>21</td><td>22</td><td>23</td>
             <td>24</td><td>24</td><td>26</td><td>27</td>
@@ -382,6 +388,7 @@
             <td>50</td><td>63</td><td>80</td><td>100</td>
             <td>130</td><td>160</td><th>200</th>
           </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
           <tr>
             <th>30</th><td>32</td><td>34</td><td>37</td>
             <td>40</td><td>42</td><td>45</td><td>49</td>
@@ -402,6 +409,7 @@
             <td>75</td><td>95</td><td>120</td><td>150</td>
             <td>190</td><td>240</td><th>300</th>
           </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
           <tr>
             <th>60</th><td>63</td><td>66</td><td>70</td>
             <td>74</td><td>77</td><td>82</td><td>86</td>
@@ -423,38 +431,37 @@
             <td>380</td><td>480</td><th>600</th>
           </tr>
           <tr>
-            <th>0</th><th>1</th><th>2</th><th>3</th>
-            <th>4</th><th>5</th><th>6</th><th>7</th>
-            <th>8</th><th>9</th><th>10</th>
+            <th>10</th><th>9</th><th>8</th><th>7</th>
+            <th>6</th><th>5</th><th>4</th><th>3</th>
+            <th>2</th><th>1</th><th>0</th>
           </tr>
           <tr>
             <th>&#945;</th>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,1</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,2</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,3</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,4</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,5</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,6</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,7</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,8</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0,9</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.1</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.2</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.3</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.4</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.5</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.6</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.7</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.8</sup></font></td>
+            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.9</sup></font></td>
             <th>&#946;</th>
           </tr>
         </table>
         <p>
-          As always, the numbers in the table have been rounded.
-          If you want to expand the table for other differences or
-          mitigate rounding errors and you are willing to go through
-          the mathematics of it, the formula in the last row can be
-          used. (The variable &#945; being the
-          row index and &#946; the column index.)
+          The numbers in the table have been rounded.  If you want to
+          expand the table for other differences or mitigate rounding
+          errors and you are willing to go through the mathematics of
+          it, the formula in the last row can be used.  (The variable
+          &#945; being the left and &#946; the right end.)
         </p>
         <h3 id="combo">Combinations</h3>
         <p>
-          The following rule only applies when you deem it prudent. It
-          combines several actors into one and that only makes sense,
-          if resolving the situation takes less time than rolling them
-          individually.
+          The following rule only applies when you deem it prudent.
+          It combines several actors into one and that only makes
+          sense, if resolving the situation takes less time than
+          rolling them individually.
         </p>
         <p>
           Sometimes several people (or more generally <em>actors</em>)
@@ -536,7 +543,8 @@
           <tr>
             <th>&#945;</th><td>...</td><td>...</td><td>...</td>
             <td>...</td><td>...</td><td>...</td><td>...</td>
-            <td colspan="4"><em>&#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)</em></td>
+            <td>...</td>
+            <td colspan="3"><em>&#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)</em></td>
           </tr>
         </table>
         <p>
@@ -547,41 +555,44 @@
         </p>
         <p>
           The standard example of taking the best skill roll of two
-          (this is the same as requiring at least one of the two to succeed.)
-          would best equate to using row <n5/> in the table.  If you
-          have two actors that both must succeed a test, then you
-          should use -<n5/>, which is equivalent to using the fifth row
-          for the <em>reverse</em> roll. Keep in mind that the reversal
-          of <em>positive</em> and <em>negative</em> roll, also changes
-          who of the two has the higher skill level.
+          (this is the same as requiring at least one of the two to
+          succeed.)  would best equate to using row <n5/> in the
+          table.  If you have two actors that both must succeed a
+          test, then you should use -<n5/>, which is equivalent to
+          using the fifth row for the <em>reverse</em> roll.  Keep in
+          mind that the reversal of <em>positive</em> and
+          <em>negative</em> roll, also changes who of the two has the
+          higher skill level.
         </p>
         <p>
           The rule can be applied multiple times and its application
           does not depend on the order or sub-grouping of several
           actors, thereby adhering to the outline given in the
           motivational section.  In order to keep this rule simple,
-          the results were rounded. Using the rule multiple times, always
-          group two actors of similar skill value together.
+          the results were rounded.  Using the rule multiple times,
+          always group two actors of similar skill value together.
 	</p>
 	<p>
-          As a more elaborate example, say you have four characters in a room
-          searching for something and you have determined that this technically
-          means that either of those characters could find it, i.e. all would
-          have to roll against a set diffculty. But you want just one roll. 
-          These characters have a skill level of <n5/>, <n7/>, <em>13</em>, and
-          <em>17</em>. Taking the first two, because they are closest to each
-          other, we combine them into an actor with <n11/>. (The difference
-          between the two is <n2/> and from the above we know that we should 
-          use row five. We add the <n4/> we find o the higher <n7/>.) Now we
-          combine <n11/> and <em>13</em> in the same manner to <em>17</em>.
-          In the last step, we combine the two <em>17</em>s into a <em>22</em>
-          by way of the zero'th column.
+          As a more elaborate example, say you have four characters in
+          a room searching for something and you have determined that
+          this technically means that either of those characters could
+          find it, i.e. all would have to roll against a set
+          diffculty.  But you want just one roll.  These characters
+          have a skill level of <n5/>, <n7/>, <em>13</em>, and
+          <em>17</em>.  Taking the first two, because they are closest
+          to each other, we combine them into an actor with <n11/>.
+          (The difference between the two is <n2/> and from the above
+          we know that we should use row five.  We add the <n4/> we
+          find o the higher <n7/>.) Now we combine <n11/> and
+          <em>13</em> in the same manner to <em>17</em>.  In the last
+          step, we combine the two <em>17</em>s into a <em>22</em> by
+          way of the zero'th column.
 	</p>
 	<p>
           If you want to expand the table for higher differences or
           mitigate rounding errors for repeated applications and you
           are willing to go through the mathematics of it, the formula
-          in the last row can be used. (The variable &#945; being the
+          in the last row can be used.  (The variable &#945; being the
           row index and &#946; the column index.)
         </p>
 <!--
