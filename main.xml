@@ -562,13 +562,13 @@
           motivational section.  In order to keep this rule simple,
           the results were rounded. Using the rule multiple times, always
           group two actors of similar skill value together.
-	      </p>
-	      <p>
+	</p>
+	<p>
           As a more elaborate example, say you have four characters in a room
           searching for something and you have determined that this technically
           means that either of those characters could find it, i.e. all would
           have to roll against a set diffculty. But you want just one roll. 
-          These characters have a skill level of <n5>, <n7>, <em>13</em>, and
+          These characters have a skill level of <n5/>, <n7/>, <em>13</em>, and
           <em>17</em>. Taking the first two, because they are closest to each
           other, we combine them into an actor with <n11/>. (The difference
           between the two is <n2/> and from the above we know that we should 
@@ -576,8 +576,8 @@
           combine <n11/> and <em>13</em> in the same manner to <em>17</em>.
           In the last step, we combine the two <em>17</em>s into a <em>22</em>
           by way of the zero'th column.
-	      </p>
-	      <p>
+	</p>
+	<p>
           If you want to expand the table for higher differences or
           mitigate rounding errors for repeated applications and you
           are willing to go through the mathematics of it, the formula
