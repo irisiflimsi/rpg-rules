@@ -11,7 +11,9 @@
     <body>
       <nav>
         <div class="container">
-          <h2>RPG Rules</h2>
+          <h2>
+            <xsl:value-of select="//title"/>
+          </h2>
         </div>
         <div>
           <xsl:apply-templates select="//div[@class='container']" mode="toc"/>
@@ -32,6 +34,10 @@
   <xsl:template match="n5"><em>5</em></xsl:template>
   <xsl:template match="n7"><em>7</em></xsl:template>
   <xsl:template match="n10"><em>10</em></xsl:template>
+  <xsl:template match="n20"><em>20</em></xsl:template>
+  <xsl:template match="n30"><em>30</em></xsl:template>
+  <xsl:template match="n100"><em>100</em></xsl:template>
+  <xsl:template match="s0"><sub>0</sub></xsl:template>
 
   <xsl:template match="div" mode="toc">
     <xsl:for-each select="h1">

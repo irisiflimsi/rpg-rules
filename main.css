@@ -122,6 +122,31 @@ li {
     color: var(--head);
 }
 
+.explain {
+    list-style-type: none;
+    padding: 8px 16px;
+}
+
+.explain li:first-child {
+    border-top: 2px solid var(--tde);
+    border-bottom: 1px solid var(--tde);
+}
+
+.explain li {
+    border-top: 1px solid var(--tde);
+    border-bottom: 1px solid var(--tde);
+}
+
+.explain li:last-child {
+    border-top: 1px solid var(--tde);
+    border-bottom: 2px solid var(--tde);
+}
+
+.list {
+    text-decoration: none;
+    color: var(--h3);
+}
+
 .indent {
     text-indent: 2em;
     font-size: 15px;
