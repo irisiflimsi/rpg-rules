@@ -111,34 +111,62 @@
             animals.  New techniques may be developped.
           </li>
         </ul>
+        <h3 id="k">Charm Skills</h3>
+        <p>
+          Understanding animals or humans as a skill works in the same
+          scales, even though the mechanisms are different.  Some
+          applications of the skill require additional "investments",
+          for example providing food or mutual touch.  These skills
+          can be used without consciously (actively) doing so.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> For NN befriending a subject without
+            outside aid is a game of chance.
+          </li>
+          <li>
+            <b>Level 10:</b> At this level, understanding the
+            situation from the subjects point of view can be
+            leveraged.
+          </li>
+          <li>
+            <b>Level 20:</b> Empathy for the subject can be projected
+            to it, appealing to the subject's unconscious.
+          </li>
+          <li>
+            <b>Level 30:</b> Instinctively foreseeing reactions of the
+            subject to various potential actions you can adjust your
+            actual action accordingly.
+          </li>
+        </ul>
         <h3 id="k">Knowledge Skills</h3>
         <p>
           All knowledge skills work in the same manner, regardless of
           how difficult it is to achieve a certain level of expertise.
           Keep in mind the meta-rule from the introduction.
-          <ul class="explain">
-            <li>
-              <b>Level 0:</b> NN barely knows that a domain for such
-              knowledge exists.  With some luck, he can guess whether
-              a general topic belongs to that domain or not.
-            </li>
-            <li>
-              <b>Level 10:</b> With this level, the basic concepts are
-              known, the more esoteric concepts have been heard of but
-              cannot be applied.
-            </li>
-            <li>
-              <b>Level 20:</b> All concepts of the domain are known
-              and can be applied with confidence.  There are only a
-              few topics escaping the grasps of this expert.
-            </li>
-            <li>
-              <b>Level 30:</b> Mastery of the subject matter as far as
-              humanly possible.  Genuin research or creation of new
-              substance is possible.
-            </li>
-          </ul>
         </p>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> NN barely knows that a domain for such
+            knowledge exists.  With some luck, he can guess whether a
+            general topic belongs to that domain or not.
+          </li>
+          <li>
+            <b>Level 10:</b> With this level, the basic concepts are
+            known, the more esoteric concepts have been heard of but
+            cannot be applied.
+          </li>
+          <li>
+            <b>Level 20:</b> All concepts of the domain are known and
+            can be applied with confidence.  There are only a few
+            topics escaping the grasps of this expert.
+          </li>
+          <li>
+            <b>Level 30:</b> Mastery of the subject matter as far as
+            humanly possible.  Genuine research or creation of new
+            substance is possible.
+          </li>
+        </ul>
       </div>
     </div>
   </body>
