@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html>
   <head>
-    <title>WH Rules</title>
+    <title>Generic Fantasy Rules</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" href="main.css"/>
@@ -10,14 +10,14 @@
   </head>
   <body>
     <div class="main">
-      <div class="title">WH Rules</div>
+      <div class="title">Generic Fantasy Rules</div>
       
       <div class="container">
         <h1 id="assess">General Assessments</h1>
         <p>
-          Warhammer, and in particular Warhammer 2, as a rule set has
-          many genre-specific rules, that will not interest us here.
-          As an example take Insanity Points.  We are only interested
+          Most Fantasy RPG games, as a rule set have many genre-specific
+	        rules, that will not interest us here.  As an example take
+          Insanity Points in War Hammer 2.  We are only interested
           in resolving skill rolls and conflicts in general.  We leave
           the genre rules untouched, For instance, the guild structure
           can be added on top.
@@ -25,7 +25,8 @@
         <p>
           When applying our meta-rule &#8212; <em>10 points difference
           grant a <n10/>:<n1/> chance of winning</em> &#8212; we find
-          that Warhammer provides approximately 4 levels.  There are a
+          that many games, for example Warhammer, Harnmaster, Runequest,
+          and Rolemaster provides approximately 4 levels.  There are a
           lot of generalizations happening here, but basically these
           levels are at <n5/>%, <em>34</em>%, <em>84</em>% and
           <em>95</em>%.  The most activity being in the middle range,
@@ -35,7 +36,8 @@
           rules is to weed out such discrepencies.
         </p>
         <p>
-          To distinguish between this rules set and the Warhammer 2
+          To distinguish between this rules set and the analyzed rules,
+          e.g. Warhammer 2
           rules, we put a subscript <n0/> to the original rules, like
           &#8220;rules<s0/>&#8221;.  The rules we describe here do not
           get a subscript.
