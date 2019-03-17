@@ -70,7 +70,11 @@
           Some skills are explained in descriptive levels.  Some are
           grouped, where practical.
         </p>
-        <h3 id="acare">Animal Care</h3>
+        <h3 id="acare">Care</h3>
+        <p>
+          This is general animal care, but also applies to humans as
+          a healing skill, adapted accordingly.
+        </p>
         <ul class="explain">
           <li>
             <b>Level 0:</b> NN knows the uses and obvious differences
@@ -196,7 +200,8 @@
           All knowledge skills work in the same manner, regardless of
           how difficult it is to achieve a certain level of expertise.
           Keep in mind the meta-rule from the introduction.
-          <em>Evaluate</em> is also a knowledge skill.
+          <em>Evaluate</em>, or <em>Navigation</em> is also a knowledge
+          skill.
         </p>
         <ul class="explain">
           <li>
@@ -220,6 +225,14 @@
             substance is possible.
           </li>
         </ul>
+        <h3 id="out">Outdoor Survival</h3>
+        <h3 id="perf">Perform</h3>
+        <h3 id="craft">Crafts</h3>
+        <h3 id="perf">Sport-like Skills</h3>
+        <p>
+          <em>Swim, Drive, Sail, Row, Climb, Running</em> all fall in
+          this category.
+        </p>
       </div>
     </div>
   </body>
