@@ -15,32 +15,25 @@
       <div class="container">
         <h1 id="assess">General Assessments</h1>
         <p>
-          Most Fantasy RPG games, as a rule set have many genre-specific
-	        rules, that will not interest us here.  As an example take
-          Insanity Points in War Hammer 2.  We are only interested
-          in resolving skill rolls and conflicts in general.  We leave
-          the genre rules untouched, For instance, the guild structure
-          can be added on top.
+          Most Fantasy RPG games, as a rule set have many
+          genre-specific rules, that will not interest us here.  As an
+          example take Insanity Points in War Hammer 2.  We are only
+          interested in resolving skill rolls and conflicts in
+          general.  We leave the genre rules untouched.  As another
+          example, the guild structure can be added on top.
         </p>
         <p>
           When applying our meta-rule &#8212; <em>10 points difference
           grant a <n10/>:<n1/> chance of winning</em> &#8212; we find
-          that many games, for example Warhammer, Harnmaster, Runequest,
-          and Rolemaster provides approximately 4 levels.  There are a
-          lot of generalizations happening here, but basically these
-          levels are at <n5/>%, <em>34</em>%, <em>84</em>% and
-          <em>95</em>%.  The most activity being in the middle range,
-          we conclude that a +<n5/>% bonus should be a +<n1/> in our
-          skill charts.  Of course, at the edge of the scale<s0/>,
-          such a bonus is vastly more important.  The purpose of these
-          rules is to weed out such discrepencies.
-        </p>
-        <p>
-          To distinguish between this rules set and the analyzed rules,
-          e.g. Warhammer 2
-          rules, we put a subscript <n0/> to the original rules, like
-          &#8220;rules<s0/>&#8221;.  The rules we describe here do not
-          get a subscript.
+          that many games, for example Warhammer, Harnmaster,
+          Runequest, and Rolemaster provide approximately 4 levels.
+          There are a lot of generalizations happening here, but
+          basically these levels are at <n5/>%, <em>34</em>%,
+          <em>84</em>% and <em>95</em>%.  The most activity being in
+          the middle range, we conclude that a +<n5/>% bonus should be
+          a +<n1/> in our skill charts.  Of course, at the edge of the
+          scale<s0/>, such a bonus is vastly more important.  The
+          purpose of these rules is to weed out such discrepencies.
         </p>
         <p>
           We <em>normalize</em> any skill with respect to an
@@ -50,30 +43,33 @@
           &#8220;N&#8221;ormalized &#8220;N&#8221;obody, <em>NN</em>
           for short.
         </p>
+	<h3 id="precis">Precision</h3>
+	<p>
+	  Precision depends on the context, but principally you should
+	  not be more exact than <n10/>%. (No more than one decimal
+	  point.)  As smallest units we will use the second, the gramm
+	  and the centimeter.
+	</p>
       </div>
       <div class="container">
         <h1 id="skills">Skills</h1>
         <p>
-          All skills<s0/> listed in the rulebook are skills in this
-          sense.  Additionally, all attributes<s0/> that are measured
-          <n0/>-<n100/>, such as <em>WS</em>, are skills.  The
-          remainder of attributes<s0/> are not used (as such).
+          Skill Tests can be given descriptive levels, here we choose
+          <em>Very Easy&#160;(-20), Easy&#160;(-10), Average&#160;(0),
+          Hard&#160;(10), Very Hard&#160;(20), Extremely
+          Hard&#160;(30)</em>.  Note that any difference of <n20/> or
+          more is regularly not worth rolling.
         </p>
         <p>
-          Skill Tests according to the descriptive levels in the
-          book<s0/> are <em>Very Easy&#160;(-20), Easy&#160;(-10),
-          Routine&#160;(0), Average&#160;(10), Challenging&#160;(20),
-          Hard&#160;(30), Very Hard&#160;(40)</em>.  Note that any
-          difference of <n20/> is regularly not worth rolling.
-        </p>
-        <p>
-          Some skills are explained in descriptive levels.  Some are
-          grouped, where practical.
+          Skills listed explicitely are explained in descriptive terms
+          for their levels.  Many skills are grouped; where practical,
+          they can be separated or more can be created as speciality of a more
+          generic skill.  Sometimes skills strad
         </p>
         <h3 id="acare">Care</h3>
         <p>
-          This is general animal care, but also applies to humans as
-          a healing skill, adapted accordingly.
+          This is intended for <em>Animal Care</em>, but can also be
+          applied to humans as <em>Healing</em>, adapted accordingly.
         </p>
         <ul class="explain">
           <li>
@@ -95,29 +91,7 @@
             Esoteric conditions can be detected and possibly treated.
           </li>
         </ul>
-        <h3 id="atrain">Animal Training</h3>
-        <ul class="explain">
-          <li>
-            <b>Level 0:</b> NN knows animals that can be trained and
-            the general abilities of such animals.
-          </li>
-          <li>
-            <b>Level 10:</b> With this level, simple training methods
-            for many animals are known.  The success can be gauged and
-            &#8220;tricks&#8221; trained that way.
-          </li>
-          <li>
-            <b>Level 20:</b> Complex training methods for animals are
-            known, as well as special abilities that can be harnessed
-            thereby.
-          </li>
-          <li>
-            <b>Level 30:</b> At this stage, anything that can be
-            trained by humans is possible.  Even to more exotic
-            animals.  New techniques may be developped.
-          </li>
-        </ul>
-        <h3 id="charm">Charm Skills</h3>
+        <h3 id="charm">Charm</h3>
         <p>
           Understanding animals or humans as a skill works in the same
           scales, even though the mechanisms are different.  Some
@@ -125,83 +99,61 @@
           for example providing food or mutual touch.  These skills
           can be used without consciously (actively) doing so.
         </p>
-        <ul class="explain">
+	<ul class="explain">
           <li>
-            <b>Level 0:</b> NN can say that obvious markings belong to
-            a trail or not.
+	    <b>Level 0:</b> For NN befriending a subject without
+	    outside aid is a game of chance.
           </li>
           <li>
-            <b>Level 10:</b> At this level, recent, normal trails of
-            medium-sized (or larger) animals may be followed.  Small
-            markings within sensory range can be identified as
-            belonging together.
+            <b>Level 10:</b> At this level, understanding the
+            situation from the subjects point of view can be
+            leveraged.
           </li>
           <li>
-            <b>Level 20:</b> Small animal trails, older trails, or
-            irregular trails may be followed.  Different type of
-            markings and behavioral guesses of the quarry aid in
-            extending a trail.
+	    <b>Level 20:</b> Empathy for the subject can be projected
+	    to it, appealing to the subject's unconscious.
+          </li>
+          <li>
+	    <b>Level 30:</b> Instinctively foreseeing reactions of the
+	    subject to various potential actions you can adjust your
+	    actual action accordingly.
+          </li>
+        </ul>
+        <h3 id="out">Outdoor</h3>
+        <p>
+	  This includes <em>Tracking, Survival</em>, or
+	  <em>Trapping</em>.
+	</p>
+	<ul class="explain">
+          <li>
+            <b>Level 0:</b> NN can detect obvious natural markings.
+          </li>
+          <li>
+            <b>Level 10:</b> Perceive common wilderness markings and
+            use connections between them.
+          </li>
+          <li>
+            <b>Level 20:</b> Small, older, and irregular signs are
+            observed and used, behavior of inhabitants guessed at.
           </li>
           <li>
             <b>Level 30:</b> Almost all markings, even miniscule and
-            ephemeral, are noticed and incorporated into useful
-            estimates of behavior.
+            ephemeral, are noticed.  Reasonable estimates of behavior
+            of other denizens of the area are at your disposal.
           </li>
         </ul>
-        <h3 id="trail">Follow Trail</h3>
-        <ul class="explain">
-          <li>
-            <b>Level 0:</b> NN barely knows that a domain for such
-            knowledge exists.  With some luck, he can guess whether a
-            general topic belongs to that domain or not.
-          </li>
-          <li>
-            <b>Level 10:</b> With this level, the basic concepts are
-            known, the more esoteric concepts have been heard of but
-            cannot be applied.
-          </li>
-          <li>
-            <b>Level 20:</b> All concepts of the domain are known and
-            can be applied with confidence.  There are only a few
-            topics escaping the grasps of this expert.
-          </li>
-          <li>
-            <b>Level 30:</b> Mastery of the subject matter as far as
-            humanly possible.  Genuine research or creation of new
-            substance is possible.
-          </li>
-        </ul>
-        <h3 id="trail">Gamble</h3>
-        <ul class="explain">
-          <li>
-            <b>Level 0:</b> NN can differentiate between games of
-            chance, intellect, and skill.  (This does not mean he can
-            identify them correctly.)
-          </li>
-          <li>
-            <b>Level 10:</b> With a few games played, probabilities
-            can be gauged and reasonably successful strategies can be
-            devised.
-          </li>
-          <li>
-            <b>Level 20:</b> Obscure rules can be used to your
-            advantage, strategies are almost optimal, and
-            sleight-of-hand tricks may be applied.  (Particularly the
-            latter may be dangerous.)
-          </li>
-          <li>
-            <b>Level 30:</b> Professional understanding of games of
-            chance, including all &#8220;tricks in the book&#8221;,
-            which may be applied.
-          </li>
-        </ul>
-        <h3 id="know">Knowledge Skills</h3>
+        <h3 id="know">Knowledge</h3>
         <p>
           All knowledge skills work in the same manner, regardless of
           how difficult it is to achieve a certain level of expertise.
           Keep in mind the meta-rule from the introduction.
-          <em>Evaluate</em>, or <em>Navigation</em> is also a knowledge
-          skill.
+          <em>Evaluate, Navigation, Plant Biology, Animal Biology,
+          Medicine, Alchemy, Gamble, Mechanics, Languages, Scripts,
+          Etiquette, Art</em>, and <em>Music</em> are knowledge
+          skills.  Note that not applications of knowledge are without
+          danger.  For example, using sleight-of-hand in a game of
+          chance is usually considered unfair.  Hiding such skill
+          application often is a different skill.
         </p>
         <ul class="explain">
           <li>
@@ -225,19 +177,66 @@
             substance is possible.
           </li>
         </ul>
-        <h3 id="out">Outdoor Survival</h3>
-        <h3 id="perf">Perform</h3>
-        <h3 id="craft">Crafts</h3>
-        <h3 id="sport">Sport-like Skills</h3>
+        <h3 id="sport">Sports</h3>
         <p>
-          <em>Swim, Drive, Sail, Row, Climb, Running</em> all fall in
-          this category.
+          <em>Swim, Drive, Sail, Row, Climb</em>, and <em>Running</em>
+          all fall in this category.
         </p>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> NN knows what the discipline is about and
+            knows his limits.
+          </li>
+          <li>
+            <b>Level 10:</b> Any equipment or common techniques can be
+            used as intended.
+          </li>
+          <li>
+            <b>Level 20:</b> Improved equipment or special techniques
+            can be used towards advantage.
+          </li>
+          <li>
+            <b>Level 30:</b> New equipment or techniques may be
+            invented (usually applying only to special cases.)
+          </li>
+        </ul>
+        <h3 id="craft">Crafts</h3>
+	<p>
+	  Just as Knowledge skills, crafting skills come in many
+	  varieties.  For example, <em>Drawing, Music, Acting, Animal
+	  Training, Artisanry, Juweler, Engineering, Masonry, Leather
+	  working, Smithing</em>, or <em>Clothier.</em>
+	</p>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> NN knows, what type of tools are needed
+            for the craft.
+          </li>
+          <li>
+            <b>Level 10:</b> Journeyman level, most tasks can be
+            accomplished routinely.
+          </li>
+          <li>
+            <b>Level 20:</b> Mastery of the craft, can accomplish all
+            complex tasks of the craft.
+          </li>
+          <li>
+            <b>Level 30:</b> reknown expert in the craft, may invent
+            new techniques or tools.
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1 id="talent">Talents</h1>
+	<p>
+	  Talents, also known as Feats or Traits, constitute modfiers
+	  to skill rolls that apply under special circumstances.
+	</p>
       </div>
     </div>
   </body>
-<!--
-          Würfelergebnisse sind stets geheim und werden einzeln, d.h. nach
+  <!--
+      Würfelergebnisse sind stets geheim und werden einzeln, d.h. nach
           einzelnen Progressionswürfeln, offenbart, um die möglichen
           Dauern ab einer Minimaldauer festzustellen bzw, zu verlängern.
     <p>
@@ -362,25 +361,6 @@
 	<td>Physische Vernichtung</td>
       </tr>
     </table>
-    <h1>Konkrete Regeln</h1>
-    <p>
-      Gemeint ist eine Fantasy-Welt, wie sie physikalisch weit
-      verbreitet als "verbessertes" Mittelalter beschrieben werden
-      kann.  Technisch und soziologisch etwa auf der Stufe des
-      europäischen 14. Jahrhundert.  Krankheiten, sowie andere
-      langfristige Unannehmlichkeiten werden ignoriert bzw. gekürzt.
-      Der Magie wird ein separates Kapitel zu widmen sein.
-    </p>
-    <h2>Genauigkeit</h2>
-    <p>
-      Grundsätzlich abhängig vom jeweiligen Kontext, ist nie mit
-      größerer Genauigkeit als 10% zu rechnen ("Eine Stelle nach dem
-      Komma").
-    </p>
-    <p>
-      Als kleinste Einheiten sollen die Sekunde, das Gramm und der
-      Zentimeter dienen.
-    </p>
     <h2>Kampf</h2>
     <p>
       Es dauert 10 Sekunden, bis NN einem anderen NN seine
@@ -456,371 +436,5 @@
         <td class="mark">12</td><td>Physische Vernichtung</td>
       </tr>
     </table>
-    <h2>Einige Fertigkeiten</h2>
-    <p>
-      Alle Fertigkeiten dienen als Richtschnur und Punkte sind
-      entsprechend der Charakterentwicklung, dass heißt je nach
-      erlerntem Beruf oder Werdegang, zu wählen. Insbesondere sind die
-      Fertigkeiten nicht disjunkt gewählt oder Unterfertigkeiten als
-      exklusiv der Oberfertigkeit zu zu ordnen.
-    </p>
-    <p>
-      Beim Entwerfen der Eckpunkte der Fähigkeiten ist zu beachten,
-      dass eine Spreizung von Stufen zu deutlicheren Ergebnissen
-      führt, eine engere Lage der Stufen bedeutet einen größeren
-      Einfluß des Zufalls.
-    </p>
-    <p>
-      Fertigkeiten sind bewußt weit in ihren Ausmaßen gewählt, um ein
-      heldenhaftes, bzw. "übermenschliches" Handeln zu ermöglichen.
-      Ansonsten stehlen bei den Dimensione die Beispiele eine passive
-      Probe um eine ganze Stufe niedriger dar.
-    </p>
-    <h4 class="h4">Sport</h4>
-    <h4 class="h5">Kampf</h4>
-    <p>
-      Siehe Abschnitt 2.2. Die 100%-Größe ist die eines anderen NN und
-      es wird vorausgesetzt, dass dieser (<em>passive</em>) sich nicht
-      treffen lassen will.
-    </p>
-    <h4 class="h5">Leichtathletik</h4>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Rennen (10s)</td>
-        <td class="mark">Ebenes Springen (2s)</td>
-        <td class="mark">Ausdauer</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>5 m/s</td>
-        <td>2 m</td><td>-0.1 Stufe / s</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>7 m/s</td>
-        <td>2.8 m</td><td>-0.03 Stufe / s</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>10 m/s</td>
-        <td>4 m</td><td>-0.01 Stufe / s</td>
-      </tr>
-    </table>
-    <h4 class="h5">Kraftsport</h4>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Heben (10s)</td>
-        <td colspan="2" class="mark">Werfen (3s)</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>50 kg</td>
-        <td>100 g</td><td>30 m</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>100 kg</td>
-        <td>100 g</td><td>30 m</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>150 kg</td>
-        <td>200 g</td><td>100 m</td>
-      </tr>
-    </table>
-    <h4 class="h4">Natur</h4>
-    <p>
-      Grundsätzlich geht es bei Naturkenntnissen einerseits um das
-      Wissen selbst, aber auch um seine Anwendbarkeit. Die Dimensionen
-      sind immer enstprechend zu interpretieren, es sei denn, es ist
-      offensichtlich anders gemeint.
-    </p>
-    <h4 class="h5">Biologie</h4>
-    <p>
-      Die Wirkungsklassen bei Pflanzen und Tieren fallen als erstes in
-      <em>gefährlich</em> und <em>ungefährlich</em> und spalten sich
-      später in verschiedene Grade.
-    </p>
-    <h4 class="h6">Pflanzen</h4>
-    <p>
-      Die Wirkungsklassen spalten sich bis in verschiedene heilende
-      Klassen (wundstillend, schmerzstillend,...) und bis in
-      verschiedene Giftklassen (schnellwirkendes Nervengift, kritische
-      Magenkoliken hervorrufend,...). Bei Wirkungsorten geht man meist
-      vom speziellen zum allgemeinen; Schritte zum spezielleren (wirkt
-      nur bei Frauen oder wirkt nur bei Hunden) sind aber ebenfalls
-      schwieriger.  Der Wirkungsort kann aber auch unbelebte Natur
-      darstellen (Pilzbefall).
-    </p>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Heimische Arten</td>
-        <td class="mark">Fremde Arten</td>
-        <td class="mark">Wirkungsklassen</td>
-        <td class="mark">Ort</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>30%</td><td>0%</td><td>2</td><td>Menschen</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>60%</td><td>20%</td><td>4</td><td>Menschen, Haustiere</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>90%</td><td>40%</td><td>8</td><td>Heimische Arten</td>
-      </tr>
-    </table>
-    <h4 class="h6">Tiere</h4>
-    <p>
-      Die Wirkungsklassen spalten sich bis in verschiedene Nutzklassen
-      (Milch, Wolle,...) und bis in verschiedene Gefahrenklassen
-      (körperlich überlegen und aggressiv, giftiger Biss, zerfrißt
-      Holzhäuser,...)
-    </p>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Heimische Arten</td>
-        <td class="mark">Fremde Arten</td>
-        <td class="mark">Wirkungsklassen</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>30% heimische</td><td>0% fremde</td><td>2</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>60% heimische</td><td>20% fremde</td><td>4</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>90% heimische</td><td>40% fremde</td><td>8</td>
-      </tr>
-    </table>
-    <h4 class="h5">Medizin</h4>
-    <p>
-      Die Diagnoseklassen spalten sich in Gefahrenklassen (kann
-      Komplikationen haben, ist ansteckend,...) und Heilungsklassen
-      (braucht Ruhe, Salben, Schienen,...). Da Krankheiten und
-      Verletzungen sehr vielfältig sein können, hier aber abstrahiert
-      werden soll, ist alleine ein Bonus auf die Selbstheilung
-      verzeichnet.  Siehe auch das Beispiel zu den Regeln der
-      <em>Doppelte Umkehrung</em>.
-    </p>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Diagnoseklassen</td>
-        <td class="mark">Therapie</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>2</td><td>+1</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>4</td><td>+10</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>8</td><td>+40</td>
-      </tr>
-    </table>
-    <h4 class="h5">Mechanik/Chemie</h4>
-    <p>
-      Es geht um grundsätzliches Wissen, wie es im "mittelalterlichen"
-      Kontext allgemein angewendet werden könnte.  Für die
-      Wissensgruppen sind Beispiele angegeben, denn in der möglichen
-      Breite kann es nicht erschöpfend dargelegt werden.  Andererseits
-      sind die Gebiete recht weit gefasst, so dass die
-      "professionelle" Anwendung eher anderen Fertigkeiten zugeordnet
-      werden sollte. (Etwa Waffenschmied, Maurer, Pyrotechniker)
-    </p>
-    <table>
-      <tr>
-        <td class="mark">0</td><td class="l">Schleudern, Biegen, Brechen, Verbrennen,...</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td class="l">Spleissen, Flaschenzug, Ton, Hüttenbau, verschieden heiße Flammen,...</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td class="l">Metallerze, Stahl, Juwelen, Architektur, Farben, Musikinstrumente,...</td>
-      </tr>
-    </table>
-    <h4 class="h4">Sozial</h4>
-    <h4 class="h5">Sprachen</h4>
-    <p>
-      Auch die Hochsprache gilt als ein Dialekt.  Dialekte können
-      verschieden weit von der "Normsprache" entfernt sein.
-      Entsprechende Abzüge sind also zu berücksichtigen.
-    </p>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Verständnis</td>
-        <td class="mark">Ausdruck</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>50%</td><td>50%</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>100%</td><td>100%</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>150%</td><td>150%</td>
-      </tr>
-    </table>
-    <h4 class="h5">Schrift</h4>
-    <p>
-      Schriften sind von den Werten wie Sprachen zu behandeln.
-      Beachte, dass zum einen etwa bei alphabetischen Schriften, zum
-      Textverständnis Sprach- und Schrift beherrschft werden müssen,
-      bei symbolischen Sprachen kann dagegen die Schrift sogar als
-      Übersetzungmedium dienen.  Nicht jede Kombination ist verfügbar.
-    </p>
-    <h4 class="h5">Etikette</h4>
-    <p>
-      Es geht um grundsätzliches Wissen, wie es im "mittelalterlichen"
-      Kontext allgemein angewendet werden könnte.  Für die
-      Wissensgruppen sind Beispiele angegeben, denn in der möglichen
-      Breite kann es nicht erschöpfend dargelegt werden.  Andererseits
-      sind die Gebiete recht weit gefasst, so dass die
-      "professionelle" Anwendung eher anderen Fertigkeiten zugeordnet
-      werden sollte.  (Etwa Butler, Tänzer, Priester)
-    </p>
-    <table>
-      <tr>
-        <td class="mark">0</td><td class="l">Freude, Trauer erkennen, allgemeine Geschlechts- und Altersunterschiede,...</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td class="l">Bitte, Danke, allgemeine Anreden, Kleidungsunterschiede, allgemeine Rangunterschiede,...</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td class="l">Rituale (Tänze, Religion,...), spezifische Rangunterschiede (Militär,...), Jargon</td>
-      </tr>
-    </table>
-    <h4 class="h5">Kunst</h4>
-    <p>
-      Nicht alle Kunstformen und -medien sind ausspezifiziert, es sind
-      Beispiele gebracht.  Es geht nicht um Vollständigkeit, sondern
-      um Vergleichbarkeit und Einheitlichkeit, wo es es notwendig
-      wird.
-    </p>
-    <h4 class="h6">Musik</h4>
-    <p>
-      Es geht darum, Harmonien im Musikstil zu erkennen und
-      zu reproduzieren.  Der Ausdruck wird im einfachsten Fall die
-      Singstimme oder Tanzschritte beinhalten.  (Tanzen könnte auch
-      eine separate Fertigkeit sein.)
-    </p>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Instrumente</td>
-        <td class="mark">Kenntnisse</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>0</td><td>einfache Kinderlieder/-tänze</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>1</td><td>allgemeine Rituallieder/-tänze</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>2</td><td>spezielle Kunstlieder/-tänze</td>
-      </tr>
-    </table>
-    <h4 class="h6">Zeichnen</h4>
-    <p>
-      Zeichnen umfasst Malen und überschneidet sich in manchen Bereichen mit Schrift.
-    </p>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Kenntnisse</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>Kohle, einfache Pinselstriche</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>mehrfarbiges Zeichnen, schwierige Materialien</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>verschiedene Zeichenstile, Fälschen</td>
-      </tr>
-    </table>
-    <h4 class="h4">Handwerk</h4>
-    <p>
-      Handwerksfertigkeiten sind entsprechend der Art, wie sie gelehrt
-      werden, aufzuschreiben.  Dies ist die passgerechteste Form und
-      eignet sich am besten für einen Vergleich.  Im Folgenden sind
-      wieder nur Beispiele aufgelistet und zum Teil werden
-      Fertigkeiten unterschiedlicher Natur zusammengefasst.  Soweit
-      dies im konkreten Spiele keinen Sinn ergibt und nur der
-      Beispielhaftigkeit geschuldet ist, sind die Fertigkeiten weiter
-      auszuarbeiten.  Überlagerungen von Fertigkeiten sind vorhanden.
-    </p>
-    <h4 class="h5">Kunsthandwerk</h4>
-    <p>
-      Plausible Kentnisse der jeweiligen Stufe sind für einige
-      Kunstgewerke aufgelistet. 
-    </p>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Goldschmied</td>
-        <td class="mark">Juwelenschleifen</td>
-        <td class="mark">Feinmechanik</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td colspan="3">Unterschiede im Kunsthandwerk erkennen</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>Mechanisch</td><td>Steinarten unterscheiden</td><td>Werkzeuge benutzen</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>Chemisch</td><td>Details kreieren</td><td>Uhren konstruieren</td>
-      </tr>
-    </table>
-    <h4 class="h5">Ingenieurskunst</h4>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Kenntnisse</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>Erkennen von Ingenieurleistung</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>Kuppelbau, Einfache Hängebrücke, Komposit(pfeil)bogen</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>Kanalisation, Hängebrücke mit Stützen, Schußwaffen</td>
-      </tr>
-    </table>
-    <h4 class="h5">Bau</h4>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Kenntnisse</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>Steine stapeln, Bretter nageln</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>Maurergeselle, Zimmermanngeselle</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>Maurermeister, Zimmermannmeister</td>
-      </tr>
-    </table>
-    <h4 class="h5">Verarbeitung</h4>
-    <table>
-      <tr>
-        <td class="mark">Stufe</td>
-        <td class="mark">Leder</td>
-        <td class="mark">Stoff</td>
-        <td class="mark">Metall</td>
-      </tr>
-      <tr>
-        <td class="mark">0</td><td>Häuten</td><td>Schneiden</td><td>Biegen</td>
-      </tr>
-      <tr>
-        <td class="mark">10</td><td>Sattel</td><td>Säcke, Poncho</td><td>Hufeisen, Topf</td>
-      </tr>
-      <tr>
-        <td class="mark">20</td><td>Lederanzug</td><td>Hemd, Hose</td><td>Klingen, Läufe</td>
-      </tr>
-    </table>
-    <h1>Beispiele</h1>
--->
+  -->
 </html>
