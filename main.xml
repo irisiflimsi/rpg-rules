@@ -598,11 +598,16 @@
       </div>
       <div class="container">
         <h1 id="concret">Concrete Rules</h1>
-        <h3 id="gf">Generic Fantasy</h3>
+        <h3 id="gf">Fantasy</h3>
         <p>
-          <a class="list" href="gf.xml">&#x27a4;</a> A first example
+          <a class="list" href="gf.xml">&#x27a4;</a> A fantasy example
           of the simple conversion is seen here.  (Click on the
           arrow.)
+        </p>
+        <p>
+          <a class="list" href="oper.xml">&#x27a4;</a> Operational
+          rules with concrete numbers to rule concrete situations.
+          (Click on the arrow.)
         </p>
       </div>
     </div>

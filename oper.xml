@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="main.xsl"?>
+<html>
+  <head>
+    <title>Operational Rules</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="oper.css"/>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">Operational Rules</div>
+
+      <div class="container">
+	<h1 id="list">List of Skills</h1>
+	<h3 id="trfi">Track and Field</h3>
+	<table>
+          <caption>Table 1</caption>
+ 	  <tr>
+            <th>Level</th>
+            <th>Run (10s)</th>
+            <th>Level Jump (2s)</th>
+            <th>Endurance</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>5 m/s</td>
+            <td>2 m</td><td>-0.1 Stufe / s</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>7 m/s</td>
+            <td>2.8 m</td><td>-0.03 Stufe / s</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>10 m/s</td>
+            <td>4 m</td><td>-0.01 Stufe / s</td>
+	  </tr>
+	</table>
+	<h3 class="str">Strength</h3>
+	<table>
+          <caption>Table 2</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Lift (10s)</th>
+            <th colspan="2">Throw (3s)</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>50 kg</td>
+            <td>100 g</td><td>30 m</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>100 kg</td>
+            <td>100 g</td><td>30 m</td>
+	  </tr>
+	  <tr>
+            <td class="mark">20</td><td>150 kg</td>
+            <td>200 g</td><td>100 m</td>
+	  </tr>
+	</table>
+	<h3 id="plant">Plants</h3>
+	<p>
+	  The <em>Effect classes</em> are split into <em>pain
+	  suppressant, blood clot, ...</em> for healing, for poisons
+	  they are <em>nerve poison, inducing stomache colics,
+	  ...</em>.
+	</p>
+	<table class="c5">
+          <caption>Table 3</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Local Species</th>
+            <th>Foreign Species</th>
+            <th>Effect Classes</th>
+            <th>Location</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>30%</td><td>0%</td><td>2</td><td>Humans</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>60%</td><td>20%</td><td>4</td><td>Domestic Animals</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>90%</td><td>40%</td><td>8</td><td>Local Species</td>
+	  </tr>
+	</table>
+	<h3 id="animal">Animals</h3>
+	<p>
+	  The <em>Effect classes</em> are split into use classes
+	  <em>milk, wool, ...</em> and danger classes <em>physically
+	  superior, aggressive, poison bite, devours wooden building,
+	  ...</em>.
+	</p>
+	<table>
+          <caption>Table 4</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Local Species</th>
+            <th>Foreign Species</th>
+            <th>Effect Classes</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>30%</td><td>0%</td><td>2</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>60%</td><td>20%</td><td>4</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>90%</td><td>40%</td><td>8</td>
+	  </tr>
+	</table>
+	<h3 id="med">Medicine</h3>
+	<p>
+	  Diagnostic classes are split into hazard classes
+	  <em>contagious, may have complications, ...</em> and healing
+	  classes <em>needs rest, ointments, splints, ...</em>.  Since
+	  diseases and wounds come in many forms, we abstract here and
+	  only provide a bonus to self-healing in <em>therapy</em>.
+	</p>
+	<table class="c3">
+          <caption>Table 5</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Diagnostic Classes</th>
+            <th>Therapy</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>2</td><td>+1</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>4</td><td>+10</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>8</td><td>+40</td>
+	  </tr>
+	</table>
+	<h3 id="mech">Mechanics/Alchemy</h3>
+	<table>
+          <caption>Table 6</caption>
+	  <tr>
+	    <th>Level</th><th style="width:600px;">Technology Mastered</th>
+	  </tr>
+	  <tr>
+	    <td>0</td><td>Spinning, Bending, Breaking, Burning, ...</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>Splicing, Pullies, Pottery, Hut building, Flames of different temperatures, ...</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>Metal ores, Steel, Juwels, Architecture, Colors, Musical instruments, ...</td>
+	  </tr>
+	</table>
+	<h3 id="lang">Languages</h3>
+	<table>
+          <caption>Table 7</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Understanding</th>
+            <th>Expression</th>
+            <th>Script</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>50%</td><td>50%</td><td>50%</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>100%</td><td>100%</td><td>100%</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>150%</td><td>150%</td><td>150%</td>
+	  </tr>
+	</table>
+	<h3 id="etiq">Etiquette</h3>
+	<table>
+          <caption>Table 8</caption>
+	  <tr>
+	    <th>Level</th><th style="width:600px;">Social Techniques Mastered</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td class="l">Detecct joy or grief, general differences in age and gender, ...</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td class="l">Please, thank you, general address, differences in rank, clothing, ...</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td class="l">Rituals (dance, religion, ...), specific differences in rank (military), jargon</td>
+	  </tr>
+	</table>
+	<h3 id="music">Music</h3>
+	<table>
+          <caption>Table 9</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Instruments</th>
+            <th style="width:400px;">Knowledge</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>0</td><td>simple songs and dances for chilren</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>1</td><td>general ritual dances and songs</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>2</td><td>specific artistic songs or dances</td>
+	  </tr>
+	</table>
+	<h3 id="draw">Drawing</h3>
+	<table>
+          <caption>Table 10</caption>
+	  <tr>
+            <th>Level</th>
+            <th style="width:600px;">Knowledge</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>Coal, simple strokes with brush</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>multi-color drawing, difficult materials</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>different styles/techniques, forgery</td>
+	  </tr>
+	</table>
+	<h3 id="artisan">Arts and Crafts</h3>
+	<table>
+          <caption>Table 11</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Goldsmith</th>
+            <th>Juwelcraft</th>
+            <th>Precision mechanics</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td colspan="3">Note differences in quality</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>Mechanical</td><td>Differences in gemstones</td><td>Use toold of trade</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>Chemical</td><td>Create details</td><td>Construct clocks</td>
+	  </tr>
+	</table>
+	<h3 id="engineer">Engineering</h3>
+	<table>
+          <caption>Table 12</caption>
+	  <tr>
+            <th>Level</th>
+            <th style="width:600px;">Knowledge</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>Detect Engineering works</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>domes, simple suspension bridge, composite bow</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>sewers, complex suspension bridge, firearms</td>
+	  </tr>
+	</table>
+	<h3 id="process">Processing</h3>
+	<table>
+          <caption>Table 13</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Leather</th>
+            <th>Cloth</th>
+            <th>Metal</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>Skinning</td><td>Cutting</td><td>Bending</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>Saddle</td><td>Sack, Poncho</td><td>Horseshoe, pot</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>Leather suit</td><td>Shirt, pants</td><td>Blade, Barrel</td>
+	  </tr>
+	</table>
+      </div>
+    </div>
+  </body>
+</html>
