@@ -14,7 +14,7 @@
 
       <div class="container">
 	<h1 id="list">List of Skills</h1>
-	<h3 id="trfi">Track and Field</h3>
+	<h3 id="trfi">Track &#038; Field</h3>
 	<table>
           <caption>Table 1</caption>
  	  <tr>
@@ -219,7 +219,7 @@
             <td>20</td><td>different styles/techniques, forgery</td>
 	  </tr>
 	</table>
-	<h3 id="artisan">Arts and Crafts</h3>
+	<h3 id="artisan">Arts &#038; Crafts</h3>
 	<table>
           <caption>Table 11</caption>
 	  <tr>
