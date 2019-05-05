@@ -2,11 +2,6 @@ table {
     margin-left: 2em;
 }
 
-.c5 td {
-    width: 160px;
-}
-}
-
 th {
     width: 200px;
 }
@@ -29,4 +24,8 @@ td {
 
 .c3 td {
     width: 266px;
+}
+
+svg {
+    margin: 2em;
 }

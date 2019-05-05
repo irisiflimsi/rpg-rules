@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
-<html>
+<html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
     <title>Operational Rules</title>
     <meta charset="UTF-8" />
@@ -14,7 +14,19 @@
 
       <div class="container">
 	<h1 id="list">List of Skills</h1>
+        <p>
+          Where multiple scalable dimensions are given, a certain
+          skill level only applies to one, i.e. of multiple dimensions
+          shall be increased, multiple skill levels must be available.
+        </p>
+        <p>
+          Specialties apply, in particular at higher levels, for each
+          skill.
+        </p>
 	<h3 id="trfi">Track &#038; Field</h3>
+        <p>
+          Each column is a separate skill.
+        </p>
 	<table>
           <caption>Table 1</caption>
  	  <tr>
@@ -37,6 +49,9 @@
 	  </tr>
 	</table>
 	<h3 class="str">Strength</h3>
+        <p>
+          Each column is a separate skill.
+        </p>
 	<table>
           <caption>Table 2</caption>
 	  <tr>
@@ -62,7 +77,7 @@
 	  The <em>Effect classes</em> are split into <em>pain
 	  suppressant, blood clot, ...</em> for healing, for poisons
 	  they are <em>nerve poison, inducing stomache colics,
-	  ...</em>.
+	  ...</em>.  Columns represent separate dimensions.
 	</p>
 	<table class="c5">
           <caption>Table 3</caption>
@@ -88,7 +103,7 @@
 	  The <em>Effect classes</em> are split into use classes
 	  <em>milk, wool, ...</em> and danger classes <em>physically
 	  superior, aggressive, poison bite, devours wooden building,
-	  ...</em>.
+	  ...</em>.  Columns represent separate dimensions.
 	</p>
 	<table>
           <caption>Table 4</caption>
@@ -115,6 +130,7 @@
 	  classes <em>needs rest, ointments, splints, ...</em>.  Since
 	  diseases and wounds come in many forms, we abstract here and
 	  only provide a bonus to self-healing in <em>therapy</em>.
+	  Columns represent separate dimensions.
 	</p>
 	<table class="c3">
           <caption>Table 5</caption>
@@ -150,22 +166,25 @@
 	  </tr>
 	</table>
 	<h3 id="lang">Languages</h3>
+        <p>
+          Columns represent separate dimensions. Note that script and
+          oral language use are separate skills.
+        </p>
 	<table>
           <caption>Table 7</caption>
 	  <tr>
             <th>Level</th>
-            <th>Understanding</th>
-            <th>Expression</th>
-            <th>Script</th>
+            <th style="width:300px;">Understanding</th>
+            <th style="width:300px;">Expression</th>
 	  </tr>
 	  <tr>
-            <td>0</td><td>50%</td><td>50%</td><td>50%</td>
+            <td>0</td><td>50%</td><td>50%</td>
 	  </tr>
 	  <tr>
-            <td>10</td><td>100%</td><td>100%</td><td>100%</td>
+            <td>10</td><td>100%</td><td>100%</td>
 	  </tr>
 	  <tr>
-            <td>20</td><td>150%</td><td>150%</td><td>150%</td>
+            <td>20</td><td>150%</td><td>150%</td>
 	  </tr>
 	</table>
 	<h3 id="etiq">Etiquette</h3>
@@ -185,6 +204,9 @@
 	  </tr>
 	</table>
 	<h3 id="music">Music</h3>
+        <p>
+	  Columns represent separate dimensions.
+	</p>
 	<table>
           <caption>Table 9</caption>
 	  <tr>
@@ -193,7 +215,7 @@
             <th style="width:400px;">Knowledge</th>
 	  </tr>
 	  <tr>
-            <td>0</td><td>0</td><td>simple songs and dances for chilren</td>
+            <td>0</td><td>0</td><td>simple songs and dances for children</td>
 	  </tr>
 	  <tr>
             <td>10</td><td>1</td><td>general ritual dances and songs</td>
@@ -220,6 +242,9 @@
 	  </tr>
 	</table>
 	<h3 id="artisan">Arts &#038; Crafts</h3>
+        <p>
+	  Columns represent separate skills.
+	</p>
 	<table>
           <caption>Table 11</caption>
 	  <tr>
@@ -232,13 +257,17 @@
             <td>0</td><td colspan="3">Note differences in quality</td>
 	  </tr>
 	  <tr>
-            <td>10</td><td>Mechanical</td><td>Differences in gemstones</td><td>Use toold of trade</td>
+            <td>10</td><td>Mechanical</td><td>Differences in gemstones</td><td>Use tools of trade</td>
 	  </tr>
 	  <tr>
             <td>20</td><td>Chemical</td><td>Create details</td><td>Construct clocks</td>
 	  </tr>
 	</table>
 	<h3 id="engineer">Engineering</h3>
+        <p>
+	  Separate skills should be devised for different engineering
+	  domains.
+	</p>
 	<table>
           <caption>Table 12</caption>
 	  <tr>
@@ -256,7 +285,10 @@
 	  </tr>
 	</table>
 	<h3 id="process">Processing</h3>
-	<table>
+        <p>
+          Columns represent separate skills.
+	</p>
+        <table>
           <caption>Table 13</caption>
 	  <tr>
             <th>Level</th>
@@ -274,6 +306,87 @@
             <td>20</td><td>Leather suit</td><td>Shirt, pants</td><td>Blade, Barrel</td>
 	  </tr>
 	</table>
+	<h3 id="combat">Combat</h3>
+        <p>
+          Columns represent separate dimensions. Different fighting
+          styles should represent different skills: <em>Bows, Sling,
+          Blowgun, Throw, Hand weapon &amp; Shield, Double-Handed
+          Weapons, Unarmed/Small Weapon, Polearms</em>.
+        </p>
+	<table>
+          <caption>Table 14</caption>
+	  <tr>
+            <th>Level</th>
+            <th>Time</th>
+            <th>Effekt</th>
+            <th>Accuracy</th>
+	  </tr>
+	  <tr>
+            <td>0</td><td>3m</td><td>-10</td><td>0</td>
+	  </tr>
+	  <tr>
+            <td>10</td><td>1m</td><td>-20</td><td>10</td>
+	  </tr>
+	  <tr>
+            <td>20</td><td>20s</td><td>-30</td><td>20</td>
+	  </tr>
+	</table>
+        <svg:svg width="620" height="620">
+          <svg:g transform="translate(310 310)">
+            <svg:circle cx="0" cy="0" r="305" stroke="#000" stroke-width="2" fill="#009a31"/>
+            <svg:text x="-124" y="0" fill="#fff" transform="scale(2.4)">-5</svg:text>
+            <svg:text x="101" y="0" fill="#fff" transform="scale(2.4)">-5</svg:text>
+            <svg:circle cx="0" cy="0" r="244" stroke="#000" stroke-width="2" fill="#19a644"/>
+            <svg:text x="-124" y="0" fill="#fff" transform="scale(1.92)">-4</svg:text>
+            <svg:text x="101" y="0" fill="#fff" transform="scale(1.92)">-4</svg:text>
+            <svg:circle cx="0" cy="0" r="195" stroke="#000" stroke-width="2" fill="#48bd68"/>
+            <svg:text x="-124" y="0" fill="#fff" transform="scale(1.536)">-3</svg:text>
+            <svg:text x="101" y="0" fill="#fff" transform="scale(1.536)">-3</svg:text>
+            <svg:circle cx="0" cy="0" r="156" stroke="#000" stroke-width="2" fill="#77d58c"/>
+            <svg:text x="-124" y="0" fill="#fff" transform="scale(1.2288)">-2</svg:text>
+            <svg:text x="101" y="0" fill="#fff" transform="scale(1.2288)">-2</svg:text>
+            <svg:circle cx="0" cy="0" r="125" stroke="#000" stroke-width="2" fill="#a6ebb0"/>
+            <svg:text x="-124" y="0" fill="#fff" transform="scale(1)">-1</svg:text>
+            <svg:text x="101" y="0" fill="#fff" transform="scale(1)">-1</svg:text>
+            <svg:circle cx="0" cy="0" r="100" stroke="#000" stroke-width="2" fill="#ceffce"/>
+          </svg:g>
+          <svg:g transform="translate(310 310) scale(0.33)">
+            <svg:circle cx="0" cy="0" r="305" stroke="#444" stroke-width="2" fill="#009a31"/>
+            <svg:text x="-120" y="0" fill="#fff" transform="scale(2.4)">0</svg:text>
+            <svg:text x="105" y="0" fill="#fff" transform="scale(2.4)">0</svg:text>
+            <svg:circle cx="0" cy="0" r="244" stroke="#444" stroke-width="2" fill="#19a644"/>
+            <svg:text x="-120" y="0" fill="#fff" transform="scale(1.92)">1</svg:text>
+            <svg:text x="105" y="0" fill="#fff" transform="scale(1.92)">1</svg:text>
+            <svg:circle cx="0" cy="0" r="195" stroke="#444" stroke-width="2" fill="#48bd68"/>
+            <svg:text x="-120" y="0" fill="#fff" transform="scale(1.536)">2</svg:text>
+            <svg:text x="105" y="0" fill="#fff" transform="scale(1.536)">2</svg:text>
+            <svg:circle cx="0" cy="0" r="156" stroke="#444" stroke-width="2" fill="#77d58c"/>
+            <svg:text x="-120" y="0" fill="#fff" transform="scale(1.2288)">3</svg:text>
+            <svg:text x="105" y="0" fill="#fff" transform="scale(1.2288)">3</svg:text>
+            <svg:circle cx="0" cy="0" r="125" stroke="#444" stroke-width="2" fill="#a6ebb0"/>
+            <svg:text x="-120" y="0" fill="#fff" transform="scale(1)">4</svg:text>
+            <svg:text x="105" y="0" fill="#fff" transform="scale(1)">4</svg:text>
+            <svg:circle cx="0" cy="0" r="100" stroke="#444" stroke-width="2" fill="#ceffce"/>
+          </svg:g>
+          <svg:g transform="translate(310 310) rotate(22.5)">
+            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(0)"/>
+            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(45)"/>
+            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(90)"/>
+            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(135)"/>
+          </svg:g>
+          <svg:text x="284" y="316" fill="#000">1</svg:text>
+          <svg:text x="290" y="300" fill="#000">2</svg:text>
+          <svg:text x="305" y="294" fill="#000">3</svg:text>
+          <svg:text x="320" y="300" fill="#000">4</svg:text>
+          <svg:text x="327" y="316" fill="#000">5</svg:text>
+          <svg:text x="320" y="332" fill="#000">6</svg:text>
+          <svg:text x="305" y="338" fill="#000">7</svg:text>
+          <svg:text x="290" y="332" fill="#000">8</svg:text>
+        </svg:svg>
+	<h3 id="misc">Miscellaneous</h3>
+        <p>
+          Stealth, Observation, Riding
+        </p>
       </div>
     </div>
   </body>

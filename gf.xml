@@ -246,6 +246,28 @@
             new techniques or tools.
           </li>
         </ul>
+        <h3 id="craft">Combat</h3>
+        <p>
+          Appropriate separate skills are available for different weapon groups.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> NN knows, which weapons are appropriate
+            for the skill and will not injure himself with them.
+          </li>
+          <li>
+            <b>Level 10:</b> Handles the weapon with ease and knows
+            its tactics.
+          </li>
+          <li>
+            <b>Level 20:</b> Professional soldiers with veteran
+            experience.
+          </li>
+          <li>
+            <b>Level 30:</b> Legendary mastery of the weapon,
+            including specialized tactics.
+          </li>
+        </ul>
       </div>
       <div class="container">
         <h1 id="talent">Talents</h1>
