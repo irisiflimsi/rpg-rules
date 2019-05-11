@@ -13,325 +13,372 @@
       <div class="title">Operational Rules</div>
 
       <div class="container">
-	<h1 id="list">List of Skills</h1>
+	<h1 id="char">Character</h1>
+        <p>
+          Any time an ML opens at <em>SB/n</em>, the result is
+          calculated as follows.  The intention is to average out
+          excessive attribute rolls that should not be changing skill
+          levels by various multiples.  (E.g. with 18 the SB is
+          already worth SBx3 for 6, which seems unlikely as far as
+          education is concerned.  The rule presented here levels some
+          of that.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>n=1</b>: Simply take SB.
+          </li>
+          <li>
+            <b>n=2</b>: Calculate SB', which is SB increased or
+            decreased by 1 to bring it closer to 10.  (Instead of
+            passing 10, take SB'=10.)  Then take SB + SB' as result.
+          </li>
+          <li>
+            <b>n=3</b>: Calculate SB'', which is SB increased or
+            decreased by 2 to bring it closer to 10.  (Instead of
+            passing 10, take SB''=10.)  Then take SB + SB' + SB'' as
+            result.
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+	<h1 id="skills">Skills</h1>
         <p>
           Where multiple scalable dimensions are given, a certain
           skill level only applies to one, i.e. of multiple dimensions
           shall be increased, multiple skill levels must be available.
+          Specialties apply as per "original" rules, in particular at
+          higher levels, for each skill.  The source for these is
+          <em>Harnmaster 3</em>.
         </p>
-        <p>
-          Specialties apply, in particular at higher levels, for each
-          skill.
-        </p>
-	<h3 id="trfi">Track &#038; Field</h3>
-        <p>
-          Each column is a separate skill.
-        </p>
+	<h3 id="phys">Physical</h3>
 	<table>
           <caption>Table 1</caption>
  	  <tr>
             <th>Level</th>
-            <th>Run (10s)</th>
-            <th>Level Jump (2s)</th>
-            <th>Endurance</th>
+            <th>Acrobatics</th>
+            <th>Climbing</th>
+            <th>Dancing</th>
+            <th>Jumping</th>
+            <th>Skiing</th>
+            <th>Swimming</th>
+            <th>Throwing</th>
 	  </tr>
 	  <tr>
-            <td>0</td><td>5 m/s</td>
-            <td>2 m</td><td>-0.1 Stufe / s</td>
+            <td>0</td>
+            <td>No tricks / 1x speed</td>
+            <td>30° / 1/4 m/s</td>
+            <td>Rhythmic Move</td>
+            <td>0,5 m ▲ / 2 m ▶</td>
+            <td>walk 0.5 m/s</td>
+            <td>0.1 m/s / Bft 1 / dive 5s</td>
+            <td>10 m</td>
 	  </tr>
 	  <tr>
-            <td>10</td><td>7 m/s</td>
-            <td>2.8 m</td><td>-0.03 Stufe / s</td>
+            <td>10</td>
+            <td>Simple tricks / 2x</td>
+            <td>60° / 1/2 m/s</td>
+            <td>Simple, folk dance</td>
+            <td>1 m ▲ / 4 m ▶</td>
+            <td>walk 1.5 m/s</td>
+            <td>0.6 m/s / Bft 3 / dive 15s</td>
+            <td>30 m</td>
 	  </tr>
 	  <tr>
-            <td>20</td><td>10 m/s</td>
-            <td>4 m</td><td>-0.01 Stufe / s</td>
+            <td>20</td>
+            <td>Complex tricks / 3x</td>
+            <td>90° / 1 m/s</td>
+            <td>Complex, ritual dance</td>
+            <td>1.5 m ▲ / 6 m ▶</td>
+            <td>walk 2 m/s</td>
+            <td>1 m/s / Bft 5 / dive 30s</td>
+            <td>60 m</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>Original tricks / 4x</td>
+            <td>120° / 2 m/s</td>
+            <td>Original dance</td>
+            <td>2 m ▲ / 8 m ▶</td>
+            <td>walk 3 m/s</td>
+            <td>1.5 m/s / Bft 7 / dive 60s</td>
+            <td>100 m</td>
 	  </tr>
 	</table>
-	<h3 class="str">Strength</h3>
-        <p>
-          Each column is a separate skill.
-        </p>
+	<h3 id="com">Communication</h3>
 	<table>
           <caption>Table 2</caption>
 	  <tr>
             <th>Level</th>
-            <th>Lift (10s)</th>
-            <th colspan="2">Throw (3s)</th>
+            <th>Acting</th>
+            <th>Intrigue</th>
+            <th>Lovecraft</th>
+            <th>Musician / Singing</th>
+            <th>Oratory / Rhetoric</th>
+            <th>Language / Script</th>
 	  </tr>
 	  <tr>
-            <td>0</td><td>50 kg</td>
-            <td>100 g</td><td>30 m</td>
+            <td>0</td>
+            <td>play self</td>
+            <td>own class</td>
+            <td>instinctive</td>
+            <td>Simple, child's songs</td>
+            <td>Speech</td>
+            <td>10%</td>
 	  </tr>
 	  <tr>
-            <td>10</td><td>100 kg</td>
-            <td>100 g</td><td>30 m</td>
+            <td>10</td>
+            <td>play archetype</td>
+            <td>+1 class </td>
+            <td>experienced</td>
+            <td>General, ritual songs</td>
+            <td>People listen to you</td>
+            <td>50%</td>
 	  </tr>
 	  <tr>
-            <td class="mark">20</td><td>150 kg</td>
-            <td>200 g</td><td>100 m</td>
+            <td>20</td>
+            <td>play individual</td>
+            <td>+2 class</td>
+            <td>professional</td>
+            <td>Artistic songs</td>
+            <td>People consider you</td>
+            <td>100%</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>play original</td>
+            <td>+3 class</td>
+            <td>elite/exotic</td>
+            <td>Unique songs</td>
+            <td>People cannot deny you</td>
+            <td>150%</td>
 	  </tr>
 	</table>
-	<h3 id="plant">Plants</h3>
-	<p>
-	  The <em>Effect classes</em> are split into <em>pain
-	  suppressant, blood clot, ...</em> for healing, for poisons
-	  they are <em>nerve poison, inducing stomache colics,
-	  ...</em>.  Columns represent separate dimensions.
-	</p>
-	<table class="c5">
+	<h3 id="craft">Craft &amp; Lore</h3>
+	<table>
           <caption>Table 3</caption>
 	  <tr>
             <th>Level</th>
-            <th>Local Species</th>
-            <th>Foreign Species</th>
-            <th>Effect Classes</th>
-            <th>Location</th>
+            <th>Agriculture / Fishing / Foraging / Milling</th>
+            <th>Alchemy / Perfumery</th>
+            <th>Animalcraft</th>
+            <th>Astrology / Runecraft / Tarotry</th>
+            <th>Brewing / Cookery / Masonry / Textilcraft</th>
+            <th>Ceramics / Engineering / Hidework / Jewelcraft / Metalcraft / Weaponcraft / Woodcraft</th>
 	  </tr>
 	  <tr>
-            <td>0</td><td>30%</td><td>0%</td><td>2</td><td>Humans</td>
+            <td>0</td>
+            <td>10% yield / 1 kind</td>
+            <td>1 compound</td>
+            <td>1 trick / INT 6</td>
+            <td>1/10 correct / 360 days</td>
+            <td>1 recipe</td>
+            <td>Quality -1 / 0 recipes</td>
 	  </tr>
 	  <tr>
-            <td>10</td><td>60%</td><td>20%</td><td>4</td><td>Domestic Animals</td>
+            <td>10</td>
+            <td>30% yield / 3 kind</td>
+            <td>3 compounds</td>
+            <td>3 tricks / INT 5</td>
+            <td>1/6 correct / 60 days</td>
+            <td>3 recipes</td>
+            <td>Quality 0 / 1 recipe</td>
 	  </tr>
 	  <tr>
-            <td>20</td><td>90%</td><td>40%</td><td>8</td><td>Local Species</td>
+            <td>20</td>
+            <td>100% yield / 6 kind</td>
+            <td>10 compounds</td>
+            <td>10 tricks / INT 4</td>
+            <td>1/3 correct / 10 days</td>
+            <td>10 recipes</td>
+            <td>Quality 1.5 / 3 recipes</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>150% yield / 12 kind</td>
+            <td>30 compounds</td>
+            <td>30 tricks / INT 3</td>
+            <td>1 correct / 2 days</td>
+            <td>30 recipes</td>
+            <td>Quality 3 / 10 recipes</td>
+	  </tr>
+	  <tr>
+            <th>Level</th>
+            <th>Drawing</th>
+            <th>Embalming</th>
+            <th>Fletching / Milling / Piloting</th>
+            <th>Folklore</th>
+            <th>Heraldry, Herblore</th>
+            <th>Law</th>
+	  </tr>
+	  <tr>
+            <td>0</td>
+            <td>Simple strokes</td>
+            <td>1x decay speed</td>
+            <td>10% yield</td>
+            <td>Top myth / 10% known</td>
+            <td>1 active / 10% passive</td>
+            <td>Ignore / Local</td>
+	  </tr>
+	  <tr>
+            <td>10</td>
+            <td>Draw/Paint</td>
+            <td>1/3x decay speed</td>
+            <td>30% yield</td>
+            <td>Great myths / 30% known</td>
+            <td>3 active / 30% passive</td>
+            <td>Notice / Feudal</td>
+	  </tr>
+	  <tr>
+            <td>20</td>
+            <td>Different Styles</td>
+            <td>1/10x decay speed</td>
+            <td>60% yield</td>
+            <td>Most myths / 60% known</td>
+            <td>10 active / 60% passive</td>
+            <td>Consideration / Guild</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>Forgery possible</td>
+            <td>1/60x decay speed</td>
+            <td>100% yield</td>
+            <td>All myths / 100% known</td>
+            <td>30 active / 100% passive</td>
+            <td>Involvement / Religion</td>
+	  </tr>
+	  <tr>
+            <th>Level</th>
+            <th>Mathematics</th>
+            <th>Seamanship / Shipwright</th>
+            <th>Survival / Tracking</th>
+            <th>Timbercraft</th>
+            <th>Weatherlore</th>
+            <th/>
+	  </tr>
+	  <tr>
+            <td>0</td>
+            <td>Single digits</td>
+            <td>Coracle</td>
+            <td>Local conditions</td>
+            <td>10% yield / 1 kind</td>
+            <td>20% accurate / 4 h</td>
+            <td/>
+	  </tr>
+	  <tr>
+            <td>10</td>
+            <td>Multiple digits</td>
+            <td>Dingy</td>
+            <td>Familiar conditions</td>
+            <td>30% yield / 3 kind</td>
+            <td>30% accurate / 8 h</td>
+            <td/>
+	  </tr>
+	  <tr>
+            <td>20</td>
+            <td>Abstractions</td>
+            <td>Two-Master</td>
+            <td>Related conditions</td>
+            <td>60% yield / 6 kind</td>
+            <td>60% / 24 h</td>
+            <td/>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>Unique Insights</td>
+            <td>Any ship</td>
+            <td>Any conditions</td>
+            <td>100% yield / 12 kind</td>
+            <td>100% / 1 week</td>
+            <td/>
 	  </tr>
 	</table>
-	<h3 id="animal">Animals</h3>
-	<p>
-	  The <em>Effect classes</em> are split into use classes
-	  <em>milk, wool, ...</em> and danger classes <em>physically
-	  superior, aggressive, poison bite, devours wooden building,
-	  ...</em>.  Columns represent separate dimensions.
-	</p>
+	<h3 id="key">Attributes</h3>
 	<table>
           <caption>Table 4</caption>
 	  <tr>
             <th>Level</th>
-            <th>Local Species</th>
-            <th>Foreign Species</th>
-            <th>Effect Classes</th>
+            <th>Strength</th>
+            <th>Eyesight</th>
 	  </tr>
 	  <tr>
-            <td>0</td><td>30%</td><td>0%</td><td>2</td>
+            <td>-10</td>
+            <td>lift 10 kg</td>
+            <td>6 mm/m</td>
 	  </tr>
 	  <tr>
-            <td>10</td><td>60%</td><td>20%</td><td>4</td>
+            <td>0</td>
+            <td>lift 20 kg</td>
+            <td>3 mm/m</td>
 	  </tr>
 	  <tr>
-            <td>20</td><td>90%</td><td>40%</td><td>8</td>
+            <td>10</td>
+            <td>lift 40 kg</td>
+            <td>2 mm/m</td>
+	  </tr>
+	  <tr>
+            <td>20</td>
+            <td>lift 60 kg</td>
+            <td>1.4 mm/m</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>lift 80 kg</td>
+            <td>1 mm/m</td>
 	  </tr>
 	</table>
-	<h3 id="med">Medicine</h3>
-	<p>
-	  Diagnostic classes are split into hazard classes
-	  <em>contagious, may have complications, ...</em> and healing
-	  classes <em>needs rest, ointments, splints, ...</em>.  Since
-	  diseases and wounds come in many forms, we abstract here and
-	  only provide a bonus to self-healing in <em>therapy</em>.
-	  Columns represent separate dimensions.
-	</p>
-	<table class="c3">
+	<h3 id="animal">Combat</h3>
+        <p>
+          Fighting styles are separate skills.  Often fighting styles
+          are equated with the predominant weapon they are used with.
+        </p>
+        <ul class="explain">
+          <li>Close quarter</li>
+          <li>Blowgun</li>
+          <li>Archery</li>
+          <li>Net</li>
+          <li>Sling</li>
+          <li>Polearm</li>
+          <li>One-handed Weapon &amp; Parry</li>
+          <li>Two-handed Weapon</li>
+          <li>Thrown Spear</li>
+          <li>Whip</li>
+        </ul>
+        <p>
+          Most of these skills can be combined with fighting from
+          horseback.
+        </p>
+	<table>
           <caption>Table 5</caption>
 	  <tr>
             <th>Level</th>
-            <th>Diagnostic Classes</th>
-            <th>Therapy</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td>2</td><td>+1</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>4</td><td>+10</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>8</td><td>+40</td>
-	  </tr>
-	</table>
-	<h3 id="mech">Mechanics/Alchemy</h3>
-	<table>
-          <caption>Table 6</caption>
-	  <tr>
-	    <th>Level</th><th style="width:600px;">Technology Mastered</th>
-	  </tr>
-	  <tr>
-	    <td>0</td><td>Spinning, Bending, Breaking, Burning, ...</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>Splicing, Pullies, Pottery, Hut building, Flames of different temperatures, ...</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>Metal ores, Steel, Juwels, Architecture, Colors, Musical instruments, ...</td>
-	  </tr>
-	</table>
-	<h3 id="lang">Languages</h3>
-        <p>
-          Columns represent separate dimensions. Note that script and
-          oral language use are separate skills.
-        </p>
-	<table>
-          <caption>Table 7</caption>
-	  <tr>
-            <th>Level</th>
-            <th style="width:300px;">Understanding</th>
-            <th style="width:300px;">Expression</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td>50%</td><td>50%</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>100%</td><td>100%</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>150%</td><td>150%</td>
-	  </tr>
-	</table>
-	<h3 id="etiq">Etiquette</h3>
-	<table>
-          <caption>Table 8</caption>
-	  <tr>
-	    <th>Level</th><th style="width:600px;">Social Techniques Mastered</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td class="l">Detecct joy or grief, general differences in age and gender, ...</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td class="l">Please, thank you, general address, differences in rank, clothing, ...</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td class="l">Rituals (dance, religion, ...), specific differences in rank (military), jargon</td>
-	  </tr>
-	</table>
-	<h3 id="music">Music</h3>
-        <p>
-	  Columns represent separate dimensions.
-	</p>
-	<table>
-          <caption>Table 9</caption>
-	  <tr>
-            <th>Level</th>
-            <th>Instruments</th>
-            <th style="width:400px;">Knowledge</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td>0</td><td>simple songs and dances for children</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>1</td><td>general ritual dances and songs</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>2</td><td>specific artistic songs or dances</td>
-	  </tr>
-	</table>
-	<h3 id="draw">Drawing</h3>
-	<table>
-          <caption>Table 10</caption>
-	  <tr>
-            <th>Level</th>
-            <th style="width:600px;">Knowledge</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td>Coal, simple strokes with brush</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>multi-color drawing, difficult materials</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>different styles/techniques, forgery</td>
-	  </tr>
-	</table>
-	<h3 id="artisan">Arts &#038; Crafts</h3>
-        <p>
-	  Columns represent separate skills.
-	</p>
-	<table>
-          <caption>Table 11</caption>
-	  <tr>
-            <th>Level</th>
-            <th>Goldsmith</th>
-            <th>Juwelcraft</th>
-            <th>Precision mechanics</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td colspan="3">Note differences in quality</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>Mechanical</td><td>Differences in gemstones</td><td>Use tools of trade</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>Chemical</td><td>Create details</td><td>Construct clocks</td>
-	  </tr>
-	</table>
-	<h3 id="engineer">Engineering</h3>
-        <p>
-	  Separate skills should be devised for different engineering
-	  domains.
-	</p>
-	<table>
-          <caption>Table 12</caption>
-	  <tr>
-            <th>Level</th>
-            <th style="width:600px;">Knowledge</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td>Detect Engineering works</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>domes, simple suspension bridge, composite bow</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>sewers, complex suspension bridge, firearms</td>
-	  </tr>
-	</table>
-	<h3 id="process">Processing</h3>
-        <p>
-          Columns represent separate skills.
-	</p>
-        <table>
-          <caption>Table 13</caption>
-	  <tr>
-            <th>Level</th>
-            <th>Leather</th>
-            <th>Cloth</th>
-            <th>Metal</th>
-	  </tr>
-	  <tr>
-            <td>0</td><td>Skinning</td><td>Cutting</td><td>Bending</td>
-	  </tr>
-	  <tr>
-            <td>10</td><td>Saddle</td><td>Sack, Poncho</td><td>Horseshoe, pot</td>
-	  </tr>
-	  <tr>
-            <td>20</td><td>Leather suit</td><td>Shirt, pants</td><td>Blade, Barrel</td>
-	  </tr>
-	</table>
-	<h3 id="combat">Combat</h3>
-        <p>
-          Columns represent separate dimensions. Different fighting
-          styles should represent different skills: <em>Bows, Sling,
-          Blowgun, Throw, Hand weapon &amp; Shield, Double-Handed
-          Weapons, Unarmed/Small Weapon, Polearms</em>.
-        </p>
-	<table>
-          <caption>Table 14</caption>
-	  <tr>
-            <th>Level</th>
+            <th>Injury</th>
             <th>Time</th>
-            <th>Effekt</th>
-            <th>Accuracy</th>
 	  </tr>
 	  <tr>
-            <td>0</td><td>3m</td><td>-10</td><td>0</td>
+            <td>0</td>
+            <td>-10</td>
+            <td>30 s</td>
 	  </tr>
 	  <tr>
-            <td>10</td><td>1m</td><td>-20</td><td>10</td>
+            <td>10</td>
+            <td>-20</td>
+            <td>20 s</td>
 	  </tr>
 	  <tr>
-            <td>20</td><td>20s</td><td>-30</td><td>20</td>
+            <td>20</td>
+            <td>-30</td>
+            <td>10 s</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>-40</td>
+            <td>6 s</td>
 	  </tr>
 	</table>
-        <svg:svg width="620" height="620">
+        <!--svg:svg width="620" height="620">
           <svg:g transform="translate(310 310)">
             <svg:circle cx="0" cy="0" r="305" stroke="#000" stroke-width="2" fill="#009a31"/>
             <svg:text x="-124" y="0" fill="#fff" transform="scale(2.4)">-5</svg:text>
@@ -382,11 +429,83 @@
           <svg:text x="320" y="332" fill="#000">6</svg:text>
           <svg:text x="305" y="338" fill="#000">7</svg:text>
           <svg:text x="290" y="332" fill="#000">8</svg:text>
-        </svg:svg>
+        </svg:svg-->
 	<h3 id="misc">Miscellaneous</h3>
         <p>
-          Stealth, Observation, Riding
+          The following skills are simply opposed to each other and
+          require no separate explanatory anchors.
         </p>
+        <ul class="explain">
+          <li>
+            Mental Conflict <b>vs.</b> Mental Conflict
+          </li>
+          <li>
+            Legerdemain, Stealth <b>vs.</b> Awareness, Smell, Taste,
+            Touch, and Eyesight
+          </li>
+        </ul>
+        <p>
+          Riding is used as a conflict resolution addition for general
+          combat from horseback.
+        </p>
+	<table>
+          <caption>Table 6</caption>
+          <tr>
+            <th>Level</th>
+            <th>Appraisal Error</th>
+            <th>Stars</th>
+            <th>Enhancement</th>
+            <th>Quality</th>
+	  </tr>
+	  <tr>
+            <td>0</td>
+            <td>100% (0 - &#8734;)</td>
+            <td>-1 &#9733;</td>
+            <td>1/10</td>
+            <td>0</td>
+	  </tr>
+	  <tr>
+            <td>10</td>
+            <td>60% (0.4 - 2.5)</td>
+            <td>1 &#9733;</td>
+            <td>1</td>
+            <td>+2</td>
+	  </tr>
+	  <tr>
+            <td>20</td>
+            <td>20% (0.8 - 1.25)</td>
+            <td>3 &#9733;</td>
+            <td>2</td>
+            <td>+3</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>6% (0.94 - 106)</td>
+            <td>5 &#9733;</td>
+            <td>3</td>
+            <td>+4</td>
+	  </tr>
+        </table>
+        <p>
+          Enhancement and quality should be considered separate
+          dimensions for craft skills.
+        </p>
+      </div>
+      <div class="container">
+	<h1 id="mods">Modifiers</h1>
+        <p>
+          Situational modifiers may apply, usually through reasonable
+          estimates of the situation at hand.  Remember that addition
+          rules for conflict resolution from the generic section of
+          the rules may apply.
+        </p>
+        <p>
+          <em>Load</em>: Divide the load in pounds by 10 and and
+          subtract strength.  If this exceeds zero, subtract this from
+          any physical or combat skill.
+        </p>
+        <!--Condition, Ritual, Lockcraft, Physician, Piety, Stamina,
+             Riding, Fatigue, Injury-->
       </div>
     </div>
   </body>

@@ -1,5 +1,19 @@
+:root {
+    --navbg: #9a0031;
+    --h1: #9a0031;
+    --h3: #9a0031;
+    --head: #e7c6ce;
+    --tde: #ffcece;
+    --tdo: #cf8496;
+}
+
 table {
+    font-size: 75%;
     margin-left: 2em;
+}
+
+ul.explain {
+    font-size: 80%;
 }
 
 th {
@@ -8,22 +22,6 @@ th {
 
 td {
     width: 200px;
-}
-
-.c5 th {
-    width: 160px;
-}
-
-.c5 td {
-    width: 160px;
-}
-
-.c3 th {
-    width: 266px;
-}
-
-.c3 td {
-    width: 266px;
 }
 
 svg {

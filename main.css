@@ -92,6 +92,7 @@ tr:nth-child(odd) td {
 
 th {
     width: 50px;
+    color: white;
     background: var(--h3);
 }
 
