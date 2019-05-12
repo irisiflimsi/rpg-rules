@@ -23,6 +23,16 @@
     </body>
   </xsl:template>
 
+  <xsl:template match="table">
+    <table>
+      <caption>
+        <xsl:text>Table&#160;</xsl:text>
+        <xsl:number level="any"/>
+      </caption>
+      <xsl:apply-templates select="tr"/>
+    </table>
+  </xsl:template>
+
   <xsl:template match="d100"><em>d100</em></xsl:template>
   <xsl:template match="d10"><em>d10</em></xsl:template>
   <xsl:template match="d6"><em>d6</em></xsl:template>

@@ -55,7 +55,6 @@
         </p>
 	<h3 id="phys">Physical</h3>
 	<table>
-          <caption>Table 1</caption>
  	  <tr>
             <th>Level</th>
             <th>Acrobatics</th>
@@ -109,7 +108,6 @@
 	</table>
 	<h3 id="com">Communication</h3>
 	<table>
-          <caption>Table 2</caption>
 	  <tr>
             <th>Level</th>
             <th>Acting</th>
@@ -158,7 +156,6 @@
 	</table>
 	<h3 id="craft">Craft &amp; Lore</h3>
 	<table>
-          <caption>Table 3</caption>
 	  <tr>
             <th>Level</th>
             <th>Agriculture / Fishing / Foraging / Milling</th>
@@ -297,36 +294,41 @@
 	</table>
 	<h3 id="key">Attributes</h3>
 	<table>
-          <caption>Table 4</caption>
 	  <tr>
             <th>Level</th>
             <th>Strength</th>
             <th>Eyesight</th>
+            <th>Move</th>
 	  </tr>
 	  <tr>
             <td>-10</td>
             <td>lift 10 kg</td>
             <td>6 mm/m</td>
+            <td>2 m/s</td>
 	  </tr>
 	  <tr>
             <td>0</td>
             <td>lift 20 kg</td>
             <td>3 mm/m</td>
+            <td>3 m/s</td>
 	  </tr>
 	  <tr>
             <td>10</td>
             <td>lift 40 kg</td>
             <td>2 mm/m</td>
+            <td>4 m/s</td>
 	  </tr>
 	  <tr>
             <td>20</td>
             <td>lift 60 kg</td>
             <td>1.4 mm/m</td>
+            <td>6 m/s</td>
 	  </tr>
 	  <tr>
             <td>30</td>
             <td>lift 80 kg</td>
             <td>1 mm/m</td>
+            <td>10 m/s</td>
 	  </tr>
 	</table>
 	<h3 id="animal">Combat</h3>
@@ -334,24 +336,48 @@
           Fighting styles are separate skills.  Often fighting styles
           are equated with the predominant weapon they are used with.
         </p>
-        <ul class="explain">
-          <li>Close quarter</li>
-          <li>Blowgun</li>
-          <li>Archery</li>
-          <li>Net</li>
-          <li>Sling</li>
-          <li>Polearm</li>
-          <li>One-handed Weapon &amp; Parry</li>
-          <li>Two-handed Weapon</li>
-          <li>Thrown Spear</li>
-          <li>Whip</li>
-        </ul>
+	<table>
+	  <tr>
+            <th>Skill</th>
+            <th>Weapons</th>
+	  </tr>
+	  <tr>
+            <td>Close quarter</td>
+            <td>Hand/Arm</td>
+	  </tr>
+	  <tr>
+            <td>Blowgun</td>
+	  </tr>
+	  <tr>
+            <td>Archery</td>
+	  </tr>
+	  <tr>
+            <td>Net</td>
+	  </tr>
+	  <tr>
+            <td>Sling</td>
+	  </tr>
+	  <tr>
+            <td>Polearm</td>
+	  </tr>
+	  <tr>
+            <td>One-handed Weapon &amp; Parry</td>
+	  </tr>
+	  <tr>
+            <td>Two-handed Weapon</td>
+	  </tr>
+	  <tr>
+            <td>Thrown Spear</td>
+	  </tr>
+	  <tr>
+            <td>Whip</td>
+	  </tr>
+	</table>
         <p>
           Most of these skills can be combined with fighting from
           horseback.
         </p>
 	<table>
-          <caption>Table 5</caption>
 	  <tr>
             <th>Level</th>
             <th>Injury</th>
@@ -449,7 +475,6 @@
           combat from horseback.
         </p>
 	<table>
-          <caption>Table 6</caption>
           <tr>
             <th>Level</th>
             <th>Appraisal Error</th>
@@ -490,23 +515,69 @@
           Enhancement and quality should be considered separate
           dimensions for craft skills.
         </p>
-      </div>
-      <div class="container">
-	<h1 id="mods">Modifiers</h1>
         <p>
           Situational modifiers may apply, usually through reasonable
           estimates of the situation at hand.  Remember that addition
           rules for conflict resolution from the generic section of
           the rules may apply.
         </p>
+        <ul class="explain">
+          <li>
+            <em>Load</em>: Divide the load in pounds by 10 and and
+            subtract strength.  If this exceeds zero, subtract this
+            from any physical or combat skill.
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+	<h1 id="combat">Combat</h1>
         <p>
-          <em>Load</em>: Divide the load in pounds by 10 and and
-          subtract strength.  If this exceeds zero, subtract this from
-          any physical or combat skill.
+          In order to avoid being injured - or worse - in combat, a
+          defendant can improve his passive resistance by using his
+          Agility and the combat skill he uses to attack.  They
+          are added through row 1 from table 4 of the main page.
         </p>
-        <!--Condition, Ritual, Lockcraft, Physician, Piety, Stamina,
-             Riding, Fatigue, Injury-->
+	<table>
+	  <tr>
+            <th>Level</th>
+            <th>B</th>
+            <th>E</th>
+            <th>P</th>
+	  </tr>
+	  <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+	  </tr>
+	  <tr>
+            <td>10</td>
+            <td>-5</td>
+            <td>-2</td>
+            <td>-2</td>
+	  </tr>
+	  <tr>
+            <td>20</td>
+            <td>-10</td>
+            <td>-4</td>
+            <td>-4</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>-15</td>
+            <td>-6</td>
+            <td>-6</td>
+	  </tr>
+	</table>
+        <p>
+          The weapon B/E/P values are obvious additions to the
+          appropriatre injury dimension.  The A/D numbers are used as
+          additional modifiers (divided by five) when the weapon is
+          used in accord with its fighting style.
+        </p>
       </div>
     </div>
+        <!--Condition, Ritual, Lockcraft, Physician, Piety, Stamina,
+             Riding, Fatigue, Injury, Weapon Quality-->
   </body>
 </html>
