@@ -339,38 +339,62 @@
 	<table>
 	  <tr>
             <th>Skill</th>
-            <th>Weapons</th>
+            <th class="wide">Weapons</th>
 	  </tr>
 	  <tr>
             <td>Close quarter</td>
-            <td>Hand/Arm</td>
+            <td>
+              Hand/Arm, Foot/Leg/Knee, Head, Knife, Dagger, Taburi, Keltan
+            </td>
 	  </tr>
 	  <tr>
+            <td>Blowgun</td>
             <td>Blowgun</td>
 	  </tr>
 	  <tr>
             <td>Archery</td>
+            <td>Arrow, Bolt</td>
 	  </tr>
 	  <tr>
+            <td>Net</td>
             <td>Net</td>
 	  </tr>
 	  <tr>
             <td>Sling</td>
+            <td>Sling, Staff Sling</td>
 	  </tr>
 	  <tr>
             <td>Polearm</td>
+            <td>
+              Lance, Glaive, Jousting Pole, Poleaxe, Pike
+            </td>
 	  </tr>
 	  <tr>
-            <td>One-handed Weapon &amp; Parry</td>
+            <td>1-handed Weapon/Parry</td>
+            <td>
+              Shortbow, Longbow, Hartbow, Crossbow, Buckler, Knight,
+              Round, Kite, Tower, Knife, Dagger, Taburi, Keltan,
+              Longknife, Shortsword. Mankar, Mang, Broadsword, Estoc,
+              Falchion, Bastard Sword, Stick, Club, Mace, Morning
+              Star, Sickle, Shorkana, Hatchet, Handaxe, Warhammer,
+              Nachakas, Grainflail, Ball/Chain, Staff, Javelin, Spear,
+              Trident
+            </td>
 	  </tr>
 	  <tr>
-            <td>Two-handed Weapon</td>
+            <td>2-handed Weapon</td>
+            <td>
+              Battlesword, Bastard Sword, Morning Star, Maul,
+              Battleaxe, Warflail, Staff, Spear
+            </td>
 	  </tr>
 	  <tr>
             <td>Thrown Spear</td>
+            <td>Javelin, Spear, Trident, Staff</td>
 	  </tr>
 	  <tr>
             <td>Whip</td>
+            <td>Whip, Isagra</td>
 	  </tr>
 	</table>
         <p>
@@ -531,6 +555,7 @@
       </div>
       <div class="container">
 	<h1 id="combat">Combat</h1>
+	<h3 id="weapons">Weapons</h3>
         <p>
           In order to avoid being injured - or worse - in combat, a
           defendant can improve his passive resistance by using his
@@ -573,8 +598,10 @@
           The weapon B/E/P values are obvious additions to the
           appropriatre injury dimension.  The A/D numbers are used as
           additional modifiers (divided by five) when the weapon is
-          used in accord with its fighting style.
+          used in accord with its fighting style. Using a weapon or a
+          combination in the wrong hand implies a penalty of-<n2/>.
         </p>
+	<h3 id="armour">Armour</h3>
       </div>
     </div>
         <!--Condition, Ritual, Lockcraft, Physician, Piety, Stamina,

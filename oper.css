@@ -24,6 +24,10 @@ td {
     width: 200px;
 }
 
+.wide {
+    width: 1200px;
+}
+
 svg {
     margin: 2em;
 }

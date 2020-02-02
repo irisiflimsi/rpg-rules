@@ -247,7 +247,7 @@
             </li>
             <li>
               Scaling with respect to difficulty.  Imagine that one
-              character is particularly string with a certain skill,
+              character is particularly strong with a certain skill,
               but he also attempts more difficult tasks.  Imagine the
               child character climbing the neighborhood tree and as a
               grown, experienced man climbing an overhanging cliff.
@@ -257,7 +257,7 @@
               <em>57</em> against the cliff's <em>59</em>.  (We have
               not made any rules on skills and difficulties yet, but
               the will turn out to be additions and subtractions from
-              the result.)
+              the levels.)
             </li>
           </ul>
         </p>
@@ -583,7 +583,7 @@
           to each other, we combine them into an actor with <n11/>.
           (The difference between the two is <n2/> and from the above
           we know that we should use row five.  We add the <n4/> we
-          find o the higher <n7/>.) Now we combine <n11/> and
+          find to the higher <n7/>.) Now we combine <n11/> and
           <em>13</em> in the same manner to <em>17</em>.  In the last
           step, we combine the two <em>17</em>s into a <em>22</em> by
           way of the zero'th column.
@@ -594,6 +594,35 @@
           are willing to go through the mathematics of it, the formula
           in the last row can be used.  (The variable &#945; being the
           row index and &#946; the column index.)
+        </p>
+        <h3 id="combo">Pragmatics</h3>
+        <p>
+          The calculations result in a level difference between the
+          <em>active</em> and the <em>passive</em> part, which is the
+          only number relevant for rolling.  If only the failure or
+          success is of interest and not the circumstances in the
+          domains, you can apply the following shortcut.  Since the
+          difference must be met by the lower contestant, you may roll
+          all the difference dice in one combined
+          &#x201c;throw&#x201d; and check, whether any stop digit
+          appears.  If it does the lower contestant cannot win, since
+          it is irrelevant, where the stop digit appears.  If the stop
+          digit does not appear, chances have reduced to 50/50, and
+          you can flip a coin in any of a number of ways.
+	</p>
+	<p>
+          For example, suppose the active climber with a skill level
+          of <em>57</em> wants to scale a cliff of difficulty
+          <em>49</em>.  The difference is <n8/>.  The GM rolls <n8/>
+          dice, which show up <n3/>, <n5/>, <n6/>, <n1/>, <n3/>,
+          <n9/>, <n9/>, and <n8/>.  Since <n1/> is a stop digit, the
+          cliff is scaled.  If the <n1/> had been a <n7/>, for
+          instance, the cliff would have had a &#x201c;fighting
+          chance&#x201d; to drop the character.  The GM decides that
+          even is good for the character and odd is bad and rolls a
+          <d10/>.  It comes up a <n6/> and the character has barely
+          made it.  Any story-telling description of this close
+          encounter is at your option.
         </p>
       </div>
       <div class="container">
