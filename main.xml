@@ -595,6 +595,25 @@
           in the last row can be used.  (The variable &#945; being the
           row index and &#946; the column index.)
         </p>
+        <h3 id="abort">Abort and Control</h3>
+        <p>
+          The variance in outcome of an activity can be controlled by
+          manipulating the scale of a dimension.  By reducing an
+          active roll by <em>n</em>, the active roll can be repeated
+          <em>n</em> times and the average of all (<em>n+1</em) rolls
+          is taken.  This will result in a higher probability of the
+          (new) average.
+	</p>
+	<p>
+          When actions are not completed, but aborted prematurly,
+          partial outcomes are possible.  This is usually a an
+          interruption during the time dimension, e.g. due to
+          inflicted wounds on an active person at some point.
+          Consider this the equivalent of a control.  That is, if the
+          abort happens, when time to completion is <em>n</em>, then
+          proceed as if the active roll had been reduced by
+          <em>n</em>.
+        </p>
         <h3 id="combo">Pragmatics</h3>
         <p>
           The calculations result in a level difference between the
