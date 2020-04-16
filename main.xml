@@ -571,8 +571,8 @@
           motivational section.  In order to keep this rule simple,
           the results were rounded.  Using the rule multiple times,
           always group two actors of similar skill value together.
-	</p>
-	<p>
+        </p
+        <p>
           As a more elaborate example, say you have four characters in
           a room searching for something and you have determined that
           this technically means that either of those characters could
@@ -587,8 +587,8 @@
           <em>13</em> in the same manner to <em>17</em>.  In the last
           step, we combine the two <em>17</em>s into a <em>22</em> by
           way of the zero'th column.
-	</p>
-	<p>
+        </p>
+        <p>
           If you want to expand the table for higher differences or
           mitigate rounding errors for repeated applications and you
           are willing to go through the mathematics of it, the formula
@@ -600,11 +600,11 @@
           The variance in outcome of an activity can be controlled by
           manipulating the scale of a dimension.  By reducing an
           active roll by <em>n</em>, the active roll can be repeated
-          <em>n</em> times and the average of all (<em>n+1</em) rolls
+          <em>n</em> times and the average of all (<em>n+1</em> rolls
           is taken.  This will result in a higher probability of the
           (new) average.
-	</p>
-	<p>
+        </p>
+        <p>
           When actions are not completed, but aborted prematurly,
           partial outcomes are possible.  This is usually a an
           interruption during the time dimension, e.g. due to
@@ -628,8 +628,8 @@
           it is irrelevant, where the stop digit appears.  If the stop
           digit does not appear, chances have reduced to 50/50, and
           you can flip a coin in any of a number of ways.
-	</p>
-	<p>
+        </p>
+        <p>
           For example, suppose the active climber with a skill level
           of <em>57</em> wants to scale a cliff of difficulty
           <em>49</em>.  The difference is <n8/>.  The GM rolls <n8/>
