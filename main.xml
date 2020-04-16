@@ -600,7 +600,7 @@
           The variance in outcome of an activity can be controlled by
           manipulating the scale of a dimension.  By reducing an
           active roll by <em>n</em>, the active roll can be repeated
-          <em>n</em> times and the average of all (<em>n+1</em> rolls
+          <em>n</em> times and the average of all (<em>n+1</em>) rolls
           is taken.  This will result in a higher probability of the
           (new) average.
         </p>
