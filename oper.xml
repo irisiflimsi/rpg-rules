@@ -2,15 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
-    <title>Operational Rules</title>
+    <title>Harnmaster-like Rules</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" href="main.css"/>
-    <link rel="stylesheet" href="oper.css"/>
+    <link rel="stylesheet" href="gf.css"/>
   </head>
   <body>
     <div class="main">
-      <div class="title">Operational Rules</div>
+      <div class="title">Harnmaster-like Rules</div>
 
       <div class="container">
 	<h1 id="char">Character</h1>
