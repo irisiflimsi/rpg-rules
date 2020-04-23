@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
-    <title>Harnmaster-like Rules</title>
+    <title>Harnmaster Examples</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" href="main.css"/>
@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="main">
-      <div class="title">Harnmaster-like Rules</div>
+      <div class="title">Harnmaster Example</div>
 
       <div class="container">
 	<h1 id="char">Character</h1>

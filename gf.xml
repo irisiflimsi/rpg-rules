@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html>
   <head>
-    <title>Warhammer-like Fantasy Rules</title>
+    <title>Warhammer Examples</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" href="main.css"/>
@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="main">
-      <div class="title">Warhammer-like Fantasy Rules</div>
+      <div class="title">Warhammer Examples</div>
       
       <div class="container">
         <h1 id="assess">General Assessments</h1>
