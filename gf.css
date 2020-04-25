@@ -6,3 +6,28 @@
     --tde: #ffcece;
     --tdo: #cf9684;
 }
+
+table {
+    font-size: 75%;
+    margin-left: 2em;
+}
+
+ul.explain {
+    font-size: 80%;
+}
+
+th {
+    width: 200px;
+}
+
+td {
+    width: 200px;
+}
+
+.wide {
+    width: 1200px;
+}
+
+svg {
+    margin: 2em;
+}
