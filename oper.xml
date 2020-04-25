@@ -253,7 +253,7 @@
             <th>Survival / Tracking</th>
             <th>Timbercraft</th>
             <th>Weatherlore</th>
-            <th/>
+            <th>Riding</th>
 	  </tr>
 	  <tr>
             <td>0</td>
@@ -262,7 +262,7 @@
             <td>Local conditions</td>
             <td>10% yield / 1 kind</td>
             <td>20% accurate / 4 h</td>
-            <td/>
+            <td>Schitt / 2 h</td>
 	  </tr>
 	  <tr>
             <td>10</td>
@@ -271,7 +271,7 @@
             <td>Familiar conditions</td>
             <td>30% yield / 3 kind</td>
             <td>30% accurate / 8 h</td>
-            <td/>
+            <td>Trab / 4 h</td>
 	  </tr>
 	  <tr>
             <td>20</td>
@@ -280,7 +280,7 @@
             <td>Related conditions</td>
             <td>60% yield / 6 kind</td>
             <td>60% / 24 h</td>
-            <td/>
+            <td>Galopp / 6 h</td>
 	  </tr>
 	  <tr>
             <td>30</td>
@@ -289,7 +289,27 @@
             <td>Any conditions</td>
             <td>100% yield / 12 kind</td>
             <td>100% / 1 week</td>
-            <td/>
+		    <td>Sprung / 8 h</td>
+	  </tr>
+	  <tr>
+            <th>Level</th>
+            <th>Ritual</th>
+	  </tr>
+	  <tr>
+            <td>0</td>
+            <td>1 second</td>
+	  </tr>
+	  <tr>
+            <td>10</td>
+            <td>1 minute</td>
+	  </tr>
+	  <tr>
+            <td>20</td>
+            <td>1 hour</td>
+	  </tr>
+	  <tr>
+            <td>30</td>
+            <td>5 days</td>
 	  </tr>
 	</table>
 	<h3 id="key">Attributes</h3>
@@ -299,36 +319,42 @@
             <th>Strength</th>
             <th>Eyesight</th>
             <th>Move</th>
+            <th>Stamina</th>
 	  </tr>
 	  <tr>
             <td>-10</td>
             <td>lift 10 kg</td>
             <td>6 mm/m</td>
             <td>2 m/s</td>
+            <td>125%</td>
 	  </tr>
 	  <tr>
             <td>0</td>
             <td>lift 20 kg</td>
             <td>3 mm/m</td>
             <td>3 m/s</td>
+            <td>100%</td>
 	  </tr>
 	  <tr>
             <td>10</td>
             <td>lift 40 kg</td>
             <td>2 mm/m</td>
             <td>4 m/s</td>
+            <td>80%</td>
 	  </tr>
 	  <tr>
             <td>20</td>
             <td>lift 60 kg</td>
             <td>1.4 mm/m</td>
             <td>6 m/s</td>
+            <td>64%</td>
 	  </tr>
 	  <tr>
             <td>30</td>
             <td>lift 80 kg</td>
             <td>1 mm/m</td>
             <td>10 m/s</td>
+            <td>50%</td>
 	  </tr>
 	</table>
 	<h3 id="animal">Combat</h3>
@@ -482,10 +508,13 @@
         </svg:svg-->
 	<h3 id="misc">Miscellaneous</h3>
         <p>
-          The following skills are simply opposed to each other and
-          require no separate explanatory anchors.
+          The following skills are simply opposed to each other.
+          Time domain factors are 1/2 or 2 respectively and 100% = 1 minute.
         </p>
         <ul class="explain">
+          <li>
+            Lockcraft <b>vs.</b> Lockcraft
+          </li>
           <li>
             Mental Conflict <b>vs.</b> Mental Conflict
           </li>
@@ -604,7 +633,6 @@
 	<h3 id="armour">Armour</h3>
       </div>
     </div>
-        <!--Condition, Ritual, Lockcraft, Physician, Piety, Stamina,
-             Riding, Fatigue, Injury, Weapon Quality-->
+        <!-- Piety, Mental Conflict, Physician, Fatigue, Injury, Weapon Quality-->
   </body>
 </html>
