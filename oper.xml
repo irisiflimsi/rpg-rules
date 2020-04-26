@@ -63,7 +63,6 @@
             <th>Jumping</th>
             <th>Skiing</th>
             <th>Swimming</th>
-            <th>Throwing</th>
 	  </tr>
 	  <tr>
             <td>0</td>
@@ -73,7 +72,6 @@
             <td>0,5 m ▲ / 2 m ▶</td>
             <td>walk 0.5 m/s</td>
             <td>0.1 m/s / Bft 1 / dive 5s</td>
-            <td>10 m</td>
 	  </tr>
 	  <tr>
             <td>10</td>
@@ -83,7 +81,6 @@
             <td>1 m ▲ / 4 m ▶</td>
             <td>walk 1.5 m/s</td>
             <td>0.6 m/s / Bft 3 / dive 15s</td>
-            <td>30 m</td>
 	  </tr>
 	  <tr>
             <td>20</td>
@@ -93,7 +90,6 @@
             <td>1.5 m ▲ / 6 m ▶</td>
             <td>walk 2 m/s</td>
             <td>1 m/s / Bft 5 / dive 30s</td>
-            <td>60 m</td>
 	  </tr>
 	  <tr>
             <td>30</td>
@@ -103,6 +99,20 @@
             <td>2 m ▲ / 8 m ▶</td>
             <td>walk 3 m/s</td>
             <td>1.5 m/s / Bft 7 / dive 60s</td>
+	  </tr>
+	  <tr>
+            <th>Throwing</th>
+	  </tr>
+	  <tr>
+            <td>10 m</td>
+	  </tr>
+	  <tr>
+            <td>30 m</td>
+	  </tr>
+	  <tr>
+            <td>60 m</td>
+	  </tr>
+	  <tr>
             <td>100 m</td>
 	  </tr>
 	</table>
@@ -289,27 +299,32 @@
             <td>Any conditions</td>
             <td>100% yield / 12 kind</td>
             <td>100% / 1 week</td>
-		    <td>Sprung / 8 h</td>
+            <td>Sprung / 8 h</td>
 	  </tr>
 	  <tr>
             <th>Level</th>
             <th>Ritual</th>
+            <th>Physician</th>
 	  </tr>
 	  <tr>
             <td>0</td>
             <td>1 second</td>
+            <td>100% HR</td>
 	  </tr>
 	  <tr>
             <td>10</td>
             <td>1 minute</td>
+            <td>90% HR</td>
 	  </tr>
 	  <tr>
             <td>20</td>
             <td>1 hour</td>
+            <td>80% HR</td>
 	  </tr>
 	  <tr>
             <td>30</td>
             <td>5 days</td>
+            <td>70% HR</td>
 	  </tr>
 	</table>
 	<h3 id="key">Attributes</h3>
@@ -427,33 +442,6 @@
           Most of these skills can be combined with fighting from
           horseback.
         </p>
-	<table>
-	  <tr>
-            <th>Level</th>
-            <th>Injury</th>
-            <th>Time</th>
-	  </tr>
-	  <tr>
-            <td>0</td>
-            <td>-10</td>
-            <td>30 s</td>
-	  </tr>
-	  <tr>
-            <td>10</td>
-            <td>-20</td>
-            <td>20 s</td>
-	  </tr>
-	  <tr>
-            <td>20</td>
-            <td>-30</td>
-            <td>10 s</td>
-	  </tr>
-	  <tr>
-            <td>30</td>
-            <td>-40</td>
-            <td>6 s</td>
-	  </tr>
-	</table>
         <!--svg:svg width="620" height="620">
           <svg:g transform="translate(310 310)">
             <svg:circle cx="0" cy="0" r="305" stroke="#000" stroke-width="2" fill="#009a31"/>
@@ -509,7 +497,8 @@
 	<h3 id="misc">Miscellaneous</h3>
         <p>
           The following skills are simply opposed to each other.
-          Time domain factors are 1/2 or 2 respectively and 100% = 1 minute.
+          Time domain factors are 1/2 or 2 respectively and
+          100% = 1 minute per 2 level steps.
         </p>
         <ul class="explain">
           <li>
@@ -523,10 +512,6 @@
             Touch, and Eyesight
           </li>
         </ul>
-        <p>
-          Riding is used as a conflict resolution addition for general
-          combat from horseback.
-        </p>
 	<table>
           <tr>
             <th>Level</th>
@@ -584,12 +569,48 @@
       </div>
       <div class="container">
 	<h1 id="combat">Combat</h1>
+        <p>
+          Aborted actions will be resolved as if intended that way.
+          For playability reasons partial effects will not be applied
+          until the action is completed.
+        </p>
+	<table>
+	  <tr>
+            <th>Level</th>
+            <td>-30</td>
+            <td>-20</td>
+            <td>-10</td>
+            <td>0</td>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+	  </tr>
+	  <tr>
+            <th>Injury</th>
+            <td>-1</td>
+            <td>-3</td>
+            <td>-6</td>
+            <td>-10</td>
+            <td>-20</td>
+            <td>-40</td>
+            <td>-80</td>
+	  </tr>
+	  <tr>
+            <th>Time</th>
+            <td>80s</td>
+            <td>56s</td>
+            <td>40s</td>
+            <td>28s</td>
+            <td>20s</td>
+            <td>14s</td>
+            <td>10s</td>
+	  </tr>
+	</table>
 	<h3 id="weapons">Weapons</h3>
         <p>
-          In order to avoid being injured - or worse - in combat, a
+          In order to avoid being injured in combat, a
           defendant can improve his passive resistance by using his
-          Agility and the combat skill he uses to attack.  They
-          are added through row 1 from table 4 of the main page.
+          Agility and the combat skill he uses to attack.
         </p>
 	<table>
 	  <tr>
@@ -633,6 +654,6 @@
 	<h3 id="armour">Armour</h3>
       </div>
     </div>
-        <!-- Piety, Mental Conflict, Physician, Fatigue, Injury, Weapon Quality-->
+        <!-- Piety, Mental Conflict, Fatigue, Injury, Weapon Quality-->
   </body>
 </html>
