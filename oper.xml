@@ -661,7 +661,7 @@
               <td>1 h</td>
               <td>6 h</td>
               <td>10 days</td>
-              <td>Not resting 10% of duration during duration. Linear in time with step 2 + Level / 5</td>
+              <td>Not resting contiguous 10% of duration during duration. Linear in time with step 2 + Level / 5</td>
             </tr>
             <tr>
               <th>Infection</th>
@@ -674,9 +674,19 @@
             </tr>
             <tr>
               <th>Hunger</th>
+              <td>Heart Beat / 1 sec</td>
+              <td>Air / 1 min</td>
+              <td>Water / 1 day</td>
+              <td>Food / 5 days</td>
+              <td>Linear in 10% time with step 2 + Level / 5</td>
             </tr>
             <tr>
               <th>Cold/Heat</th>
+              <td>Hot / 1 day</td>
+              <td>Cold / 1 day</td>
+              <td>Frzg / 6 h</td>
+              <td>Wind / -20% per point</td>
+              <td>Linear in exposure time with step Level (except Wind)</td>
             </tr>
           </table>
           <!--
