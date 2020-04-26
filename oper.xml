@@ -629,49 +629,53 @@
               <td>10</td>
               <td>20</td>
               <td>30</td>
-              <th class="wide">Contraction</th>
-            <tr>
+              <td class="wide">Contraction</td>
             </tr>
+            <tr>
               <th>Blunt</th>
               <td>1 day</td>
               <td>12 days</td>
               <td>36 days</td>
               <td>144 days</td>
-            <tr>
+              <td>Combat</d>
             </tr>
+            <tr>
               <th>Edge</th>
               <td>3 days</td>
               <td>10 days</td>
               <td>20 days</td>
               <td>30 days</td>
-            <tr>
+              <td>Combat</d>
             </tr>
+            <tr>
               <th>Point</th>
               <td>3 days</td>
               <td>10 days</td>
               <td>20 days</td>
               <td>30 days</td>
-            <tr>
+              <td>Combat</d>
             </tr>
+            <tr>
               <th>Fatigue</th>
               <td>10 min</td>
               <td>1 h</td>
               <td>6 h</td>
               <td>10 days</td>
-            <tr>
+              <td>Not resting 10% of duration during duration. Linear in time with step 2 + Level / 5</d>
             </tr>
+            <tr>
               <th>Infection</th>
-            <tr>
             </tr>
+            <tr>
               <th>Poison</th>
-            <tr>
             </tr>
+            <tr>
               <th>Disease</th>
-            <tr>
             </tr>
+            <tr>
               <th>Hunger</th>
-            <tr>
             </tr>
+            <tr>
               <th>Cold/Heat</th>
             </tr>
           </table>
