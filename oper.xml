@@ -13,7 +13,7 @@
       <div class="title">Harnmaster Example</div>
 
       <div class="container">
-	<h1 id="char">Character</h1>
+        <h1 id="char">Character</h1>
         <p>
           Any time an ML opens at <em>SB/n</em>, the result is
           calculated as follows.  The intention is to average out
@@ -44,7 +44,7 @@
         </ul>
       </div>
       <div class="container">
-	<h1 id="skills">Skills</h1>
+        <h1 id="skills">Skills</h1>
         <p>
           Where multiple scalable dimensions are given, a certain
           skill level only applies to one, i.e. of multiple dimensions
@@ -53,9 +53,9 @@
           higher levels, for each skill.  The source for these is
           <em>Harnmaster 3</em>.
         </p>
-	<h3 id="phys">Physical</h3>
-	<table>
- 	  <tr>
+        <h3 id="phys">Physical</h3>
+        <table>
+          <tr>
             <th>Level</th>
             <th>Acrobatics</th>
             <th>Climbing</th>
@@ -63,8 +63,8 @@
             <th>Jumping</th>
             <th>Skiing</th>
             <th>Swimming</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>No tricks / 1x speed</td>
             <td>30° / 1/4 m/s</td>
@@ -72,8 +72,8 @@
             <td>0,5 m ▲ / 2 m ▶</td>
             <td>walk 0.5 m/s</td>
             <td>0.1 m/s / Bft 1 / dive 5s</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>Simple tricks / 2x</td>
             <td>60° / 1/2 m/s</td>
@@ -81,8 +81,8 @@
             <td>1 m ▲ / 4 m ▶</td>
             <td>walk 1.5 m/s</td>
             <td>0.6 m/s / Bft 3 / dive 15s</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>Complex tricks / 3x</td>
             <td>90° / 1 m/s</td>
@@ -90,8 +90,8 @@
             <td>1.5 m ▲ / 6 m ▶</td>
             <td>walk 2 m/s</td>
             <td>1 m/s / Bft 5 / dive 30s</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>Original tricks / 4x</td>
             <td>120° / 2 m/s</td>
@@ -99,26 +99,26 @@
             <td>2 m ▲ / 8 m ▶</td>
             <td>walk 3 m/s</td>
             <td>1.5 m/s / Bft 7 / dive 60s</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <th>Throwing</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10 m</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30 m</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>60 m</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>100 m</td>
-	  </tr>
-	</table>
-	<h3 id="com">Communication</h3>
-	<table>
-	  <tr>
+          </tr>
+        </table>
+        <h3 id="com">Communication</h3>
+        <table>
+          <tr>
             <th>Level</th>
             <th>Acting</th>
             <th>Intrigue</th>
@@ -126,8 +126,8 @@
             <th>Musician / Singing</th>
             <th>Oratory / Rhetoric</th>
             <th>Language / Script</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>play self</td>
             <td>own class</td>
@@ -135,8 +135,8 @@
             <td>Simple, child's songs</td>
             <td>Speech</td>
             <td>10%</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>play archetype</td>
             <td>+1 class </td>
@@ -144,8 +144,8 @@
             <td>General, ritual songs</td>
             <td>People listen to you</td>
             <td>50%</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>play individual</td>
             <td>+2 class</td>
@@ -153,8 +153,8 @@
             <td>Artistic songs</td>
             <td>People consider you</td>
             <td>100%</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>play original</td>
             <td>+3 class</td>
@@ -162,11 +162,11 @@
             <td>Unique songs</td>
             <td>People cannot deny you</td>
             <td>150%</td>
-	  </tr>
-	</table>
-	<h3 id="craft">Craft &amp; Lore</h3>
-	<table>
-	  <tr>
+          </tr>
+        </table>
+        <h3 id="craft">Craft &amp; Lore</h3>
+        <table>
+          <tr>
             <th>Level</th>
             <th>Agriculture / Fishing / Foraging / Milling</th>
             <th>Alchemy / Perfumery</th>
@@ -174,8 +174,8 @@
             <th>Astrology / Runecraft / Tarotry</th>
             <th>Brewing / Cookery / Masonry / Textilcraft</th>
             <th>Ceramics / Engineering / Hidework / Jewelcraft / Metalcraft / Weaponcraft / Woodcraft</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>10% yield / 1 kind</td>
             <td>1 compound</td>
@@ -183,8 +183,8 @@
             <td>1/10 correct / 360 days</td>
             <td>1 recipe</td>
             <td>Quality -1 / 0 recipes</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>30% yield / 3 kind</td>
             <td>3 compounds</td>
@@ -192,8 +192,8 @@
             <td>1/6 correct / 60 days</td>
             <td>3 recipes</td>
             <td>Quality 0 / 1 recipe</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>100% yield / 6 kind</td>
             <td>10 compounds</td>
@@ -201,8 +201,8 @@
             <td>1/3 correct / 10 days</td>
             <td>10 recipes</td>
             <td>Quality 1.5 / 3 recipes</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>150% yield / 12 kind</td>
             <td>30 compounds</td>
@@ -210,8 +210,8 @@
             <td>1 correct / 2 days</td>
             <td>30 recipes</td>
             <td>Quality 3 / 10 recipes</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <th>Level</th>
             <th>Drawing</th>
             <th>Embalming</th>
@@ -219,8 +219,8 @@
             <th>Folklore</th>
             <th>Heraldry, Herblore</th>
             <th>Law</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>Simple strokes</td>
             <td>1x decay speed</td>
@@ -228,8 +228,8 @@
             <td>Top myth / 10% known</td>
             <td>1 active / 10% passive</td>
             <td>Ignore / Local</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>Draw/Paint</td>
             <td>1/3x decay speed</td>
@@ -237,8 +237,8 @@
             <td>Great myths / 30% known</td>
             <td>3 active / 30% passive</td>
             <td>Notice / Feudal</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>Different Styles</td>
             <td>1/10x decay speed</td>
@@ -246,8 +246,8 @@
             <td>Most myths / 60% known</td>
             <td>10 active / 60% passive</td>
             <td>Consideration / Guild</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>Forgery possible</td>
             <td>1/60x decay speed</td>
@@ -255,8 +255,8 @@
             <td>All myths / 100% known</td>
             <td>30 active / 100% passive</td>
             <td>Involvement / Religion</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <th>Level</th>
             <th>Mathematics</th>
             <th>Seamanship / Shipwright</th>
@@ -264,8 +264,8 @@
             <th>Timbercraft</th>
             <th>Weatherlore</th>
             <th>Riding</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>Single digits</td>
             <td>Coracle</td>
@@ -273,8 +273,8 @@
             <td>10% yield / 1 kind</td>
             <td>20% accurate / 4 h</td>
             <td>Schitt / 2 h</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>Multiple digits</td>
             <td>Dingy</td>
@@ -282,8 +282,8 @@
             <td>30% yield / 3 kind</td>
             <td>30% accurate / 8 h</td>
             <td>Trab / 4 h</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>Abstractions</td>
             <td>Two-Master</td>
@@ -291,8 +291,8 @@
             <td>60% yield / 6 kind</td>
             <td>60% / 24 h</td>
             <td>Galopp / 6 h</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>Unique Insights</td>
             <td>Any ship</td>
@@ -300,117 +300,117 @@
             <td>100% yield / 12 kind</td>
             <td>100% / 1 week</td>
             <td>Sprung / 8 h</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <th>Level</th>
             <th>Ritual</th>
             <th>Physician</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>1 second</td>
             <td>100% HR</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>1 minute</td>
             <td>90% HR</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>1 hour</td>
             <td>80% HR</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>5 days</td>
             <td>70% HR</td>
-	  </tr>
-	</table>
-	<h3 id="key">Attributes</h3>
-	<table>
-	  <tr>
+          </tr>
+        </table>
+        <h3 id="key">Attributes</h3>
+        <table>
+          <tr>
             <th>Level</th>
             <th>Strength</th>
             <th>Eyesight</th>
             <th>Move</th>
             <th>Stamina</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>-10</td>
             <td>lift 10 kg</td>
             <td>6 mm/m</td>
             <td>2 m/s</td>
             <td>125%</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>lift 20 kg</td>
             <td>3 mm/m</td>
             <td>3 m/s</td>
             <td>100%</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>lift 40 kg</td>
             <td>2 mm/m</td>
             <td>4 m/s</td>
             <td>80%</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>lift 60 kg</td>
             <td>1.4 mm/m</td>
             <td>6 m/s</td>
             <td>64%</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>lift 80 kg</td>
             <td>1 mm/m</td>
             <td>10 m/s</td>
             <td>50%</td>
-	  </tr>
-	</table>
-	<h3 id="animal">Combat</h3>
+          </tr>
+        </table>
+        <h3 id="animal">Combat</h3>
         <p>
           Fighting styles are separate skills.  Often fighting styles
           are equated with the predominant weapon they are used with.
         </p>
-	<table>
-	  <tr>
+        <table>
+          <tr>
             <th>Skill</th>
             <th class="wide">Weapons</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Close quarter</td>
             <td>
               Hand/Arm, Foot/Leg/Knee, Head, Knife, Dagger, Taburi, Keltan
             </td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Blowgun</td>
             <td>Blowgun</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Archery</td>
             <td>Arrow, Bolt</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Net</td>
             <td>Net</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Sling</td>
             <td>Sling, Staff Sling</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Polearm</td>
             <td>
               Lance, Glaive, Jousting Pole, Poleaxe, Pike
             </td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>1-handed Weapon/Parry</td>
             <td>
               Shortbow, Longbow, Hartbow, Crossbow, Buckler, Knight,
@@ -421,23 +421,23 @@
               Nachakas, Grainflail, Ball/Chain, Staff, Javelin, Spear,
               Trident
             </td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>2-handed Weapon</td>
             <td>
               Battlesword, Bastard Sword, Morning Star, Maul,
               Battleaxe, Warflail, Staff, Spear
             </td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Thrown Spear</td>
             <td>Javelin, Spear, Trident, Staff</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>Whip</td>
             <td>Whip, Isagra</td>
-	  </tr>
-	</table>
+          </tr>
+        </table>
         <p>
           Most of these skills can be combined with fighting from
           horseback.
@@ -494,7 +494,7 @@
           <svg:text x="305" y="338" fill="#000">7</svg:text>
           <svg:text x="290" y="332" fill="#000">8</svg:text>
         </svg:svg-->
-	<h3 id="misc">Miscellaneous</h3>
+        <h3 id="misc">Miscellaneous</h3>
         <p>
           The following skills are simply opposed to each other.
           Time domain factors are 1/2 or 2 respectively and
@@ -512,42 +512,42 @@
             Touch, and Eyesight
           </li>
         </ul>
-	<table>
+        <table>
           <tr>
             <th>Level</th>
             <th>Appraisal Error</th>
             <th>Stars</th>
             <th>Enhancement</th>
             <th>Quality</th>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>0</td>
             <td>100% (0 - &#8734;)</td>
             <td>-1 &#9733;</td>
             <td>1/10</td>
             <td>0</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>10</td>
             <td>60% (0.4 - 2.5)</td>
             <td>1 &#9733;</td>
             <td>1</td>
             <td>+2</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>20</td>
             <td>20% (0.8 - 1.25)</td>
             <td>3 &#9733;</td>
             <td>2</td>
             <td>+3</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <td>30</td>
             <td>6% (0.94 - 106)</td>
             <td>5 &#9733;</td>
             <td>3</td>
             <td>+4</td>
-	  </tr>
+          </tr>
         </table>
         <p>
           Enhancement and quality should be considered separate
@@ -568,14 +568,19 @@
         </ul>
       </div>
       <div class="container">
-	<h1 id="combat">Combat</h1>
+        <h1 id="combat">Combat</h1>
         <p>
           Aborted actions will be resolved as if intended that way.
           For playability reasons partial effects will not be applied
           until the action is completed.
         </p>
-	<table>
-	  <tr>
+        <p>
+          In order to avoid being injured in combat, a
+          defendant can improve his passive resistance by using his
+          Agility and the combat skill he uses to attack.
+        </p>
+        <table>
+          <tr>
             <th>Level</th>
             <td>-30</td>
             <td>-20</td>
@@ -584,8 +589,8 @@
             <td>10</td>
             <td>20</td>
             <td>30</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <th>Injury</th>
             <td>-1</td>
             <td>-3</td>
@@ -594,8 +599,8 @@
             <td>-20</td>
             <td>-40</td>
             <td>-80</td>
-	  </tr>
-	  <tr>
+          </tr>
+          <tr>
             <th>Time</th>
             <td>80s</td>
             <td>56s</td>
@@ -604,56 +609,77 @@
             <td>20s</td>
             <td>14s</td>
             <td>10s</td>
-	  </tr>
-	</table>
-	<h3 id="weapons">Weapons</h3>
+          </tr>
+        </table>
+        <h3 id="weapons">Weapons/Armour</h3>
         <p>
-          In order to avoid being injured in combat, a
-          defendant can improve his passive resistance by using his
-          Agility and the combat skill he uses to attack.
-        </p>
-	<table>
-	  <tr>
-            <th>Level</th>
-            <th>B</th>
-            <th>E</th>
-            <th>P</th>
-	  </tr>
-	  <tr>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-	  </tr>
-	  <tr>
-            <td>10</td>
-            <td>-5</td>
-            <td>-2</td>
-            <td>-2</td>
-	  </tr>
-	  <tr>
-            <td>20</td>
-            <td>-10</td>
-            <td>-4</td>
-            <td>-4</td>
-	  </tr>
-	  <tr>
-            <td>30</td>
-            <td>-15</td>
-            <td>-6</td>
-            <td>-6</td>
-	  </tr>
-	</table>
-        <p>
-          The weapon B/E/P values are obvious additions to the
-          appropriatre injury dimension.  The A/D numbers are used as
+          The A/D numbers are used as
           additional modifiers (divided by five) when the weapon is
           used in accord with its fighting style. Using a weapon or a
           combination in the wrong hand implies a penalty of-<n2/>.
         </p>
-	<h3 id="armour">Armour</h3>
+        <h3 id="armour">Impediments</h3>
+          <p>
+            All impediments affect all types of activity.
+          </p>
+          <table>
+            <tr>
+              <th>Level</th>
+              <td>0</td>
+              <td>10</td>
+              <td>20</td>
+              <td>30</td>
+              <th class="wide">Contraction</th>
+            <tr>
+            </tr>
+              <th>Blunt</th>
+              <td>1 day</td>
+              <td>12 days</td>
+              <td>36 days</td>
+              <td>144 days</td>
+            <tr>
+            </tr>
+              <th>Edge</th>
+              <td>3 days</td>
+              <td>10 days</td>
+              <td>20 days</td>
+              <td>30 days</td>
+            <tr>
+            </tr>
+              <th>Point</th>
+              <td>3 days</td>
+              <td>10 days</td>
+              <td>20 days</td>
+              <td>30 days</td>
+            <tr>
+            </tr>
+              <th>Fatigue</th>
+              <td>10 min</td>
+              <td>1 h</td>
+              <td>6 h</td>
+              <td>10 days</td>
+            <tr>
+            </tr>
+              <th>Infection</th>
+            <tr>
+            </tr>
+              <th>Poison</th>
+            <tr>
+            </tr>
+              <th>Disease</th>
+            <tr>
+            </tr>
+              <th>Hunger</th>
+            <tr>
+            </tr>
+              <th>Cold/Heat</th>
+            </tr>
+          </table>
+          <!--
+	        The weapon and armour B/E/P values are each subtracted.
+          appropriate injury dimension.-->
+        </div>
       </div>
-    </div>
-        <!-- Piety, Mental Conflict, Fatigue, Injury, Weapon Quality-->
+      <!-- Piety, Mental Conflict, Fatigue, Injury, Weapon Quality-->
   </body>
 </html>
