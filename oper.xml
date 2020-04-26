@@ -505,9 +505,6 @@
             Lockcraft <b>vs.</b> Lockcraft
           </li>
           <li>
-            Mental Conflict <b>vs.</b> Mental Conflict
-          </li>
-          <li>
             Legerdemain, Stealth <b>vs.</b> Awareness, Smell, Taste,
             Touch, and Eyesight
           </li>
@@ -565,6 +562,10 @@
             subtract strength.  If this exceeds zero, subtract this
             from any physical or combat skill.
           </li>
+          <li>
+            <em>Piety</em>: Serves as skill for specific magic/religious
+            rituals.
+          </li>
         </ul>
       </div>
       <div class="container">
@@ -619,91 +620,84 @@
           combination in the wrong hand implies a penalty of-<n2/>.
         </p>
         <p>
-	        The weapon and armour B/E/P values are each subtracted, the
+          The weapon and armour B/E/P values are each subtracted, the
           result added to the injury dimension. All appropriate dimensions
           apply for recovery.
         </p>
         <h3 id="armour">Impediments</h3>
-          <p>
-            All impediments affect all types of activity.  All are
-            modified by Stamina(live)/Quality(dead). Dead objects do
-            not recover but are repaired.
-          </p>
-          <table>
-            <tr>
-              <th>Level</th>
-              <th>Blunt</th>
-              <th>Edge/Point</th>
-            </tr>
-            <tr>
-              <td>0</td>
-              <td>1 day</td>
-              <td>3 days</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>12 days</td>
-              <td>10 days</td>
-            </tr>
-            <tr>
-              <td>20</td>
-              <td>36 days</td>
-              <td>20 days</td>
-            </tr>
-            <tr>
-              <td>30</td>
-              <td>144 days</td>
-              <td>30 days</td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th><em>Type</em></th>
-              <th>Level 0</th>
-              <th>Level 10</th>
-              <th class="wide">Recovery</th>
-            </tr>
-            <tr>
-              <th>Sleep</th>
-              <td>16 h</td>
-              <td>48 h</td>
-              <td>+ 1 / h</td>
-            </tr>
-            <tr>
-              <th>Thirst</th>
-              <td>6 h</td>
-              <td>24 h</td>
-              <td>+ 1 / pt</td>
-            </tr>
-            <tr>
-              <th>Hunger</th>
-              <td>24 h</td>
-              <td>5 days</td>
-              <td>+ 1 / 2 oz</td>
-            </tr>
-            <tr>
-              <th>Air</th>
-              <td>10 sec</td>
-              <td>60 sec</td>
-              <td>+ 1 / sec</td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th>Infection</th>
-            </tr>
-            <tr>
-              <th>Poison</th>
-            </tr>
-            <tr>
-              <th>Disease</th>
-            </tr>
-            <tr>
-              <th>Cold/Heat</th>
-            </tr>
-          </table>
-        </div>
+        <p>
+          All impediments affect all types of activity.  All are
+          modified by Stamina(live)/Quality(dead).  Recovery is 
+          only possible during rest.  Dead objects do not recover
+          but are repaired. Edge/Point may infect. Chance per day
+          is penalty being healed as percentage.
+        </p>
+        <p>
+          Impediemhts below add HR penalty as max component.
+          HR as percentage is rolled once per unit time for +1 % or -1 % in HR.
+          For diesase and infection this unit is one day.
+        </p>
+        <table>
+          <tr>
+            <th>Level</th>
+            <th>Blunt</th>
+            <th>Edge/Point</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>1 day</td>
+            <td>3 days</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>12 days</td>
+            <td>10 days</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>36 days</td>
+            <td>20 days</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>144 days</td>
+            <td>30 days</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Type</th>
+            <th>Level 0</th>
+            <th>Level 10</th>
+            <th class="wide">Recovery</th>
+          </tr>
+          <tr>
+            <th>Sleep</th>
+            <td>16 h</td>
+            <td>48 h</td>
+            <td>+ 1 / h</td>
+          </tr>
+          <tr>
+            <th>Thirst</th>
+            <td>6 h</td>
+            <td>24 h</td>
+            <td>+ 1 / pt</td>
+          </tr>
+          <tr>
+            <th>Hunger</th>
+            <td>24 h</td>
+            <td>5 days</td>
+            <td>+ 1 / 2 oz</td>
+          </tr>
+          <tr>
+            <th>Air</th>
+            <td>10 sec</td>
+            <td>60 sec</td>
+            <td>+ 1 / sec</td>
+          </tr>
+        </table>
       </div>
-      <!-- Fatigue, Piety, Mental Conflict -->
+    </div>
+    <!-- Fatigue -->
   </body>
 </html>
