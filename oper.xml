@@ -633,7 +633,7 @@
           is penalty being healed as percentage.
         </p>
         <p>
-          Impediemhts below add HR penalty as max component.
+          Impediments below add HR penalty as max component.
           HR as percentage is rolled once per unit time for +1 % or -1 % in HR.
           For diesase and infection this unit is one day.
         </p>
@@ -669,7 +669,7 @@
             <th>Type</th>
             <th>Level 0</th>
             <th>Level 10</th>
-            <th class="wide">Recovery</th>
+            <th>Recovery</th>
           </tr>
           <tr>
             <th>Sleep</th>
