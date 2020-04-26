@@ -625,43 +625,43 @@
           <table>
             <tr>
               <th>Level</th>
+              <th>Blunt</th>
+              <th>Edge/Point</th>
+            </tr>
+            <tr>
               <td>0</td>
               <td>10</td>
               <td>20</td>
               <td>30</td>
-              <td class="wide">Contraction</td>
             </tr>
             <tr>
-              <th>Blunt</th>
               <td>1 day</td>
               <td>12 days</td>
               <td>36 days</td>
               <td>144 days</td>
-              <td>Combat</td>
             </tr>
             <tr>
-              <th>Edge</th>
               <td>3 days</td>
               <td>10 days</td>
               <td>20 days</td>
               <td>30 days</td>
-              <td>Combat</td>
             </tr>
+          </table>
+          <table>
             <tr>
-              <th>Point</th>
-              <td>3 days</td>
-              <td>10 days</td>
-              <td>20 days</td>
-              <td>30 days</td>
-              <td>Combat</td>
+              <th><em>Type</em></th>
+              <th>Level 0</th>
+              <th>Level 10</th>
+              <th class="wide">Recovery</th>
             </tr>
             <tr>
               <th>Fatigue</th>
-              <td>10 min</td>
-              <td>1 h</td>
-              <td>6 h</td>
-              <td>10 days</td>
-              <td>Not resting contiguous 10% of duration during duration. Linear in time with step 2 + Level / 5</td>
+            </tr>
+            <tr>
+              <th>Sleep</th>
+              <td>16 h</td>
+              <td>48 h</td>
+              <td>+1 / h sleep</td>
             </tr>
             <tr>
               <th>Infection</th>
@@ -673,20 +673,23 @@
               <th>Disease</th>
             </tr>
             <tr>
+              <th>Thirst</th>
+              <td>6 h</td>
+              <td>24 h</td>
+              <td>+1 / pt</td>
+            </tr>
+            <tr>
               <th>Hunger</th>
-              <td>Heart Beat / 1 sec</td>
-              <td>Air / 1 min</td>
-              <td>Water / 1 day</td>
-              <td>Food / 5 days</td>
-              <td>Linear in 10% time with step 2 + Level / 5</td>
+            </tr>
+            <tr>
+              <th>Air</th>
+              <td>10 sec</td>
+              <td>60 sec</td>
+              <td>+1 / sec</td>
             </tr>
             <tr>
               <th>Cold/Heat</th>
-              <td>Hot / 1 day</td>
-              <td>Cold / 1 day</td>
-              <td>Frzg / 6 h</td>
-              <td>Wind / -20% per point</td>
-              <td>Linear in exposure time with step Level (except Wind)</td>
+              <td>
             </tr>
           </table>
           <!--
