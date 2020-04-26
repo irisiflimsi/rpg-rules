@@ -595,6 +595,25 @@
           in the last row can be used.  (The variable &#945; being the
           row index and &#946; the column index.)
         </p>
+        <h3 id="mult">Simultaneous Actions</h3>
+        <p>
+          Attempting to do simultaneous actions is simple and works like
+          reducing both activities by <n1/> and then doing them both.
+          Note that the time required for the activity is not simultaneous
+          but consecutive, but in any order desired. This can mean that an
+          activity can be postponed and "triggered" separately. As an
+          example, you can observe while running or pick a lock and listen
+          for foot steps.
+        </p>
+        <p>
+          When attacking twice, this may be used as what is called 
+          an "attack of opportunity" in other rule systems.
+        </p>
+        <p>
+          Some activities may result in higher reductions or no reduction for
+          the individual feats attempted. Penalties for attempting more
+          than two actions at the same time must be judged separatly. 
+        </p>
         <h3 id="abort">Abort and Control</h3>
         <p>
           The variance in outcome of an activity can be controlled by
