@@ -101,18 +101,23 @@
             <td>1.5 m/s / Bft 7 / dive 60s</td>
           </tr>
           <tr>
+            <th>Level</th>
             <th>Throwing</th>
           </tr>
           <tr>
+            <td>0</td>
             <td>10 m</td>
           </tr>
           <tr>
+            <td>10</td>
             <td>30 m</td>
           </tr>
           <tr>
+            <td>20</td>
             <td>60 m</td>
           </tr>
           <tr>
+            <td>30</td>
             <td>100 m</td>
           </tr>
         </table>
@@ -337,35 +342,35 @@
             <th>Stamina</th>
           </tr>
           <tr>
-            <td>-10</td>
+            <td>-20</td>
             <td>lift 10 kg</td>
             <td>6 mm/m</td>
             <td>2 m/s</td>
             <td>125%</td>
           </tr>
           <tr>
-            <td>0</td>
+            <td>-10</td>
             <td>lift 20 kg</td>
             <td>3 mm/m</td>
             <td>3 m/s</td>
             <td>100%</td>
           </tr>
           <tr>
-            <td>10</td>
+            <td>0</td>
             <td>lift 40 kg</td>
             <td>2 mm/m</td>
             <td>4 m/s</td>
             <td>80%</td>
           </tr>
           <tr>
-            <td>20</td>
+            <td>10</td>
             <td>lift 60 kg</td>
             <td>1.4 mm/m</td>
             <td>6 m/s</td>
             <td>64%</td>
           </tr>
           <tr>
-            <td>30</td>
+            <td>20</td>
             <td>lift 80 kg</td>
             <td>1 mm/m</td>
             <td>10 m/s</td>
