@@ -121,8 +121,16 @@
           skill level only applies to one, i.e. of multiple dimensions
           shall be increased, multiple skill levels must be available.
           Specialties apply as per "original" rules, in particular at
-          higher levels, for each skill.  The source for these is
-          <em>Harnmaster 3</em>.
+          higher levels, for each skill.  The source for the skill names
+          is <em>Harnmaster 3</em>.
+        </p>
+        <h3 id="learn">Learning</h3>
+        <p>
+          Learning is modelled by <em>failing</em> a skill roll against
+          <em>0</em>. In this particular case, any stop-roll may be
+          rerolled and if the reroll does not show a stop roll, continue
+          as if the first did not show a stop roll. I.e. the stop-roll#
+          chance is <em>0.04</em> instead of <em>0.2</em>
         </p>
         <h3 id="phys">Physical</h3>
         <table>
