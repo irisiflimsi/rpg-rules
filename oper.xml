@@ -130,7 +130,8 @@
           <em>0</em>. In this particular case, any stop-roll may be
           rerolled and if the reroll does not show a stop roll, continue
           as if the first did not show a stop roll. I.e. the stop-roll#
-          chance is <em>0.04</em> instead of <em>0.2</em>
+          chance is <em>0.04</em> instead of <em>0.2</em>. Learning is
+          not applicable to attributes.
         </p>
         <h3 id="phys">Physical</h3>
         <table>
@@ -412,45 +413,55 @@
           </tr>
         </table>
         <h3 id="key">Attributes</h3>
+        <h4 id="str">Strength</h4>
+        <table>
+          <tr>
+            <td>-20</td><td>-17.5</td><td>-15</td><td>-12.5</td><td>-10</td>
+            <td>-7.5</td><td>-5</td><td>-2.5</td><td>0</td><td>2.5</td>
+            <td>5</td><td>7.5</td><td>10</td><td>12.5</td><td>15</td>
+            <td>17.5</td><td>20</td><td>22.5</td><td>25</td><td>27.5</td>
+          </tr>
+          <tr>
+            <td>lift 10 kg</td><td>lift 12.5 kg</td><td>lift 15 kg</td><td>lift 17.5 kg</td><td>lift 20 kg</td>
+            <td>lift 25 kg</td><td>lift 30 kg</td><td>lift 35 kg</td><td>lift 40 kg</td><td>lift 45 kg</td>
+            <td>lift 50 kg</td><td>lift 55 kg</td><td>lift 60 kg</td><td>lift 65 kg</td><td>lift 70 kg</td>
+            <td>lift 75 kg</td><td>lift 80 kg</td><td>lift 85 kg</td><td>lift 90 kg</td><td>lift 95 kg</td>
+          </tr>
+        </table>
+        <h4 id="str">Miscellaneous</h4>
         <table>
           <tr>
             <th>Level</th>
-            <th>Strength</th>
             <th>Eyesight</th>
             <th>Move</th>
             <th>Stamina</th>
           </tr>
           <tr>
             <td>-20</td>
-            <td>lift 10 kg</td>
             <td>6 mm/m</td>
             <td>2 m/s</td>
             <td>125%</td>
           </tr>
           <tr>
             <td>-10</td>
-            <td>lift 20 kg</td>
             <td>3 mm/m</td>
             <td>3 m/s</td>
             <td>100%</td>
           </tr>
           <tr>
             <td>0</td>
-            <td>lift 40 kg</td>
             <td>2 mm/m</td>
             <td>4 m/s</td>
             <td>80%</td>
           </tr>
           <tr>
             <td>10</td>
-            <td>lift 60 kg</td>
             <td>1.4 mm/m</td>
             <td>6 m/s</td>
             <td>64%</td>
           </tr>
           <tr>
             <td>20</td>
-            <td>lift 80 kg</td>
             <td>1 mm/m</td>
             <td>10 m/s</td>
             <td>50%</td>
