@@ -416,16 +416,16 @@
         <h4 id="str">Strength</h4>
         <table>
           <tr>
-            <td>-20</td><td>-17.5</td><td>-15</td><td>-12.5</td><td>-10</td>
-            <td>-7.5</td><td>-5</td><td>-2.5</td><td>0</td><td>2.5</td>
-            <td>5</td><td>7.5</td><td>10</td><td>12.5</td><td>15</td>
-            <td>17.5</td><td>20</td><td>22.5</td><td>25</td><td>27.5</td>
+            <th>Level</th><td>-20</td><td>-17.5</td><td>-15</td><td>-12.5</td>
+            <td>-10</td><td>-7.5</td><td>-5</td><td>-2.5</td><td>0</td>
+            <td>2.5</td><td>5</td><td>7.5</td><td>10</td><td>12.5</td>
+            <td>15</td><td>17.5</td><td>20</td><td>22.5</td><td>25</td>
           </tr>
           <tr>
-            <td>lift 10 kg</td><td>lift 12.5 kg</td><td>lift 15 kg</td><td>lift 17.5 kg</td><td>lift 20 kg</td>
-            <td>lift 25 kg</td><td>lift 30 kg</td><td>lift 35 kg</td><td>lift 40 kg</td><td>lift 45 kg</td>
-            <td>lift 50 kg</td><td>lift 55 kg</td><td>lift 60 kg</td><td>lift 65 kg</td><td>lift 70 kg</td>
-            <td>lift 75 kg</td><td>lift 80 kg</td><td>lift 85 kg</td><td>lift 90 kg</td><td>lift 95 kg</td>
+            <th>Lift</th><td>10 kg</td><td>12.5 kg</td><td>15 kg</td><td>17.5 kg</td>
+            <td>20 kg</td><td>25 kg</td><td>30 kg</td><td>35 kg</td><td>40 kg</td>
+            <td>45 kg</td><td>50 kg</td><td>55 kg</td><td>60 kg</td><td>65 kg</td>
+            <td>70 kg</td><td>75 kg</td><td>80 kg</td><td>85 kg</td><td>90 kg</td>
           </tr>
         </table>
         <h4 id="str">Miscellaneous</h4>
