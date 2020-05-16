@@ -13,12 +13,13 @@
       <div class="title">Harnmaster Example</div>
 
       <div class="container">
-	<h1 id="char">Conversion</h1>
+      <h1 id="char">Conversion</h1>
         <p>
           Conversion of Skills.  The actual formula is <em>level =
-          log<sub>10</sub>(19*skill/100/(1 - skill/100))</em> in the
-          range <em>5 - 95</em>.  Beyond that it is arbitrarily
-          extended as the GM sees fit.
+          log<sub>10</sub>(19*skill/100/(1 - skill/100))</em> in
+          the range <em>5 - 95</em>.  Beyond <em>95</em>, the formula
+          is <em>3.5 log<sub>10</sub>(x - 94) + 25.4</em>. Below <n5/>
+          the regression is <em>1:1</em>. as shown in the table.
         </p>
         <table>
           <tr>
@@ -79,7 +80,7 @@
             <td>19</td><td>19</td><td>19</td><td>20</td><td>20</td>
             <td>20</td><td>21</td><td>21</td><td>21</td><td>22</td>
             <td>22</td><td>23</td><td>23</td><td>24</td><td>25</td>
-            <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+            <td>26</td><td>26</td><td>27</td><td>28</td><td>28</td>
           </tr>
           <tr>
             <th>100</th><th>101</th><th>102</th><th>103</th><th>104</th>
@@ -88,10 +89,10 @@
             <th>115</th><th>116</th><th>117</th><th>118</th><th>119</th>
           </tr>
           <tr>
-            <td>31</td><td>31</td><td>32</td><td>32</td><td>33</td>
-            <td>33</td><td>34</td><td>34</td><td>35</td><td>35</td>
-            <td>36</td><td>36</td><td>37</td><td>37</td><td>38</td>
-            <td>38</td><td>39</td><td>39</td><td>40</td><td>40</td>
+            <td>28</td><td>28</td><td>29</td><td>29</td><td>29</td>
+            <td>29</td><td>29</td><td>29</td><td>29</td><td>30</td>
+            <td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
+            <td>30</td><td>30</td><td>30</td><td>30</td><td>30</td>
           </tr>
         </table>
         <p>
