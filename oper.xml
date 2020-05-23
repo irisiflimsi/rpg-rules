@@ -127,8 +127,8 @@
         <h3 id="learn">Learning</h3>
         <p>
           Learning is modelled by <em>failing</em> a skill roll against
-          <em>0</em>.  Note that rolling <n10/> non-stop events can be
-          abbreviated by a <n1/> in <n10/> chance.  Learning is not
+          <em>0</em>.  Note that rolling 10 non-stop events can be
+          shortened into rolling a <n1/> with a <d10/>.  Learning is not
           applicable to attributes.  Such rolls are usually applicable 
           once a day when the skill was used.
         </p>
