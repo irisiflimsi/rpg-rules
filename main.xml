@@ -664,8 +664,8 @@
         </p>
         <p>
           Another pragmatic rule that has already been mentioned is rolling
-          10 non-stop rolls in a row can be shortened to rolling a 1 on a
-          <d10/>.
+          10 non-stop rolls in a row can be shortened to rolling a <n1/>
+          on a <d10/>.
         </p>
       </div>
       <div class="container">
