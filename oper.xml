@@ -127,11 +127,10 @@
         <h3 id="learn">Learning</h3>
         <p>
           Learning is modelled by <em>failing</em> a skill roll against
-          <em>0</em>. In this particular case, any stop-roll may be
-          rerolled and if the reroll does not show a stop roll, continue
-          as if the first did not show a stop roll. I.e. the stop-roll#
-          chance is <em>0.04</em> instead of <em>0.2</em>. Learning is
-          not applicable to attributes.
+          <em>0</em>.  Note that rolling <n10/> non-stop events can be
+          abbreviated by a <n1/> in <n10/> chance.  Learning is not
+          applicable to attributes.  Such rolls are usually applicable 
+          once a day when the skill was used.
         </p>
         <h3 id="know">Knowledge</h3>
         <p>
