@@ -848,7 +848,7 @@
             <td>20</td><td>22</td><td>24</td><td>26</td><td>28</td>
           </tr>
           <tr>
-            <th>Time</th><td></td>6h<td>8h</td><td>12h</td><td>16h</td>
+            <th>Time</th><td>6h</td><td>8h</td><td>12h</td><td>16h</td>
             <td>1d</td><td>1.5d</td><td>2d</td><td>3d</td><td>4d</td>
             <td>6d</td><td>9d</td><td>13d</td><td>18d</td><td>1M</td>
             <td>38d</td><td>2M</td><td>3M</td><td>4M</td><td>1/2Y</td>
