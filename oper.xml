@@ -502,7 +502,7 @@
             <td>10</td><td>12</td><td>14</td><td>16</td><td>18</td>
           </tr>
           <tr>
-            <th>Distance (m)</th><td></td>0.75<td>0.94</td><td>1.2</td><td>1.5</td>
+            <th>Distance (m)</th><td>0.75</td><td>0.94</td><td>1.2</td><td>1.5</td>
             <td>1.9</td><td>2.4</td><td>3</td><td>3.8</td><td>4.8</td>
             <td>6</td><td>7.6</td><td>9.5</td><td>12</td><td>15.1</td>
             <td>19</td><td>24</td><td>30</td><td>38</td><td>48</td>
@@ -529,10 +529,13 @@
             <b>Level 20:</b> Normal Speech / Distance &#215; 3
           </li>
           <li>
-            <b>Level 40:</b> Carts/Wagons / Distance &#215; 10
+            <b>Level 40:</b> Carts, Wagons, Combat / Distance &#215; 10
           </li>
           <li>
-            <b>Level 80:</b> Thunder
+            <b>Level 60:</b> Smith, Stonequarry, Skirmish / Distance &#215; 30
+          </li>
+          <li>
+            <b>Level 80:</b> Thunder / Distance &#215; 100
           </li>
         </ul>
         <h4 id="str">Miscellaneous</h4>
