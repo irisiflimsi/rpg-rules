@@ -135,10 +135,7 @@
         <h3 id="know">Knowledge</h3>
         <p>
           The description is based on the <em>expected</em> outcome,
-          someone with a skill level of <em>N</em> whould be 
-          expected to succeed at <em>N&#160;-&#160;5</em>. Thus, any
-          roll of <em>n</em> should be read of as <em>n + 5</em> in
-          the table below.
+          i.e. simply read the result rolled as index row in the table.
         </p>
         <ul class="explain">
           <li>
@@ -179,8 +176,58 @@
         </ul>
         <h4 id="folklore">Folklore</h4>
         <p>
-          Specializations would be <em>Barbarians, Recent History, History,
-          Antiquity, Off-Harn</em>, which should be treated as separate
+          Specializations are <em>Barbarians, Recent History, History,
+          Antiquity, Off-Harn, Creatures</em>, which should be treated as separate
+          skills.
+        </p>
+        <h3 id="know">Communication</h3>
+        <p>
+          The description is based on the <em>expected</em> outcome,
+          i.e. simply read the result rolled as index row in the table.
+          When refering to patterns in the table, this applies to
+          instruments (melodies and the like) for music skills as well
+          as words (word order, flection, ...). Every communication skill
+          has such pattern, by which communication is encoded and decoded.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> NN barely knows that a domain for such
+            communication exists.  Instinctively, he is wrong as often
+            as he is right when judging others.
+          </li>
+          <li>
+            <b>Level 5:</b> A single pattern, one of the most obvious
+            ones can be applied, but without guaranteed success.
+          </li>
+          <li>
+            <b>Level 10:</b> With this level, basic patterns are
+            known, the more esoteric patterns have been heard of but
+            cannot be applied.
+          </li>
+          <li>
+            <b>Level 15:</b> Most patterns are known and many can be
+            applied with a high degree of certainty. There are still
+            areas which can be polished.
+          </li>
+          <li>
+            <b>Level 20:</b> All patterns of the domain are known and
+            can be applied with confidence.  There are only a few
+            topics escaping the grasps of this expert.
+          </li>
+          <li>
+            <b>Level 25:</b> All of the domain is communicated with ease.
+            It is hard to find unknown territory, although it exists.
+            Improvement of the art can be conducted.
+          </li>
+          <li>
+            <b>Level 30:</b> Mastery of the subject matter as far as
+            humanly possible.  Genuine research or creation of new
+            patterns is possible.
+          </li>
+        </ul>
+        <h4 id="intrigue">Intrigue</h4>
+        <p>
+          Specializations are <em>Politics, Streetwise, Rural, Social Class</em>, which should be treated as separate
           skills.
         </p>
         <h3 id="phys">Physical</h3>
@@ -493,7 +540,7 @@
             <td>80</td><td>88</td><td>104</td><td>120</td><td>136</td>
           </tr>
         </table>
-        <h4 id="str">Hearing</h4>
+        <h4 id="hear">Hearing</h4>
         <table>
           <tr>
             <th>Level</th><td>-18</td><td>-16</td><td>-14</td><td>-12</td>
@@ -510,10 +557,7 @@
         </table>
         <p>
           The description is based on the <em>expected</em> outcome,
-          someone with an attribute level of <em>N</em> whould be 
-          expected to succeed at <em>N&#160;-&#160;5</em>. Thus, any
-          roll of <em>n</em> should be read of as <em>n + 5</em> in
-          the table below.
+          i.e. simply read the result rolled as index row in the table.
         </p>
         <ul class="explain">
           <li>
@@ -538,36 +582,49 @@
             <b>Level 80:</b> Thunder / Distance &#215; 100
           </li>
         </ul>
+        <h4 id="eye">Eyesight</h4>
+        <table>
+          <tr>
+            <th>Level</th><td>-18</td><td>-16</td><td>-14</td><td>-12</td>
+            <td>-10</td><td>-8</td><td>-6</td><td>-4</td><td>-2</td>
+            <td>0</td><td>2</td><td>4</td><td>6</td><td>8</td>
+            <td>10</td><td>12</td><td>14</td><td>16</td><td>18</td>
+          </tr>
+          <tr>
+            <th>Resolution (mm/m = m/km)</th>5.5<td></td>5.0<td></td><td>4.5</td><td>4.0</td>
+            <td>3.6</td><td>3.2</td><td>2.9</td><td>2.6</td><td>2.3</td>
+            <td>2.0</td><td>1.8</td><td>1.6</td><td>1.4</td><td>1.2</td>
+            <td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
+          </tr>
+        </table>
+        <p>
+          Typical modifications are made for <em>contrast (+), duration (-), movement (+),
+          distraction (-), border of visual field (-)</em>
+        </p>
         <h4 id="str">Miscellaneous</h4>
         <table>
           <tr>
             <th>Level</th>
-            <th>Eyesight</th>
             <th>Stamina</th>
           </tr>
           <tr>
             <td>-20</td>
-            <td>6 mm/m</td>
             <td>125%</td>
           </tr>
           <tr>
             <td>-10</td>
-            <td>3 mm/m</td>
             <td>100%</td>
           </tr>
           <tr>
             <td>0</td>
-            <td>2 mm/m</td>
             <td>80%</td>
           </tr>
           <tr>
             <td>10</td>
-            <td>1.4 mm/m</td>
             <td>64%</td>
           </tr>
           <tr>
             <td>20</td>
-            <td>1 mm/m</td>
             <td>50%</td>
           </tr>
         </table>
