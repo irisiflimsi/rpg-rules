@@ -180,7 +180,7 @@
           Antiquity, Off-Harn, Creatures</em>, which should be treated as separate
           skills.
         </p>
-        <h3 id="know">Communication</h3>
+        <h3 id="com">Communication</h3>
         <p>
           The description is based on the <em>expected</em> outcome,
           i.e. simply read the result rolled as index row in the table.
@@ -230,6 +230,53 @@
           Specializations are <em>Politics, Streetwise, Rural, Social Class</em>, which should be treated as separate
           skills.
         </p>
+        <table>
+          <tr>
+            <th>Level</th>
+            <th>Acting</th>
+            <th>Intrigue</th>
+            <th>Lovecraft</th>
+            <th>Musician / Singing</th>
+            <th>Oratory / Rhetoric</th>
+            <th>Language / Script</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>play self</td>
+            <td>own class</td>
+            <td>instinctive</td>
+            <td>Simple, child's songs</td>
+            <td>Speech</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>play archetype</td>
+            <td>+1 class </td>
+            <td>experienced</td>
+            <td>General, ritual songs</td>
+            <td>People listen to you</td>
+            <td>50%</td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>play individual</td>
+            <td>+2 class</td>
+            <td>professional</td>
+            <td>Artistic songs</td>
+            <td>People consider you</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>play original</td>
+            <td>+3 class</td>
+            <td>elite/exotic</td>
+            <td>Unique songs</td>
+            <td>People cannot deny you</td>
+            <td>150%</td>
+          </tr>
+        </table>
         <h3 id="phys">Physical</h3>
         <table>
           <tr>
@@ -296,54 +343,6 @@
           <tr>
             <td>30</td>
             <td>100 m</td>
-          </tr>
-        </table>
-        <h3 id="com">Communication</h3>
-        <table>
-          <tr>
-            <th>Level</th>
-            <th>Acting</th>
-            <th>Intrigue</th>
-            <th>Lovecraft</th>
-            <th>Musician / Singing</th>
-            <th>Oratory / Rhetoric</th>
-            <th>Language / Script</th>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>play self</td>
-            <td>own class</td>
-            <td>instinctive</td>
-            <td>Simple, child's songs</td>
-            <td>Speech</td>
-            <td>10%</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>play archetype</td>
-            <td>+1 class </td>
-            <td>experienced</td>
-            <td>General, ritual songs</td>
-            <td>People listen to you</td>
-            <td>50%</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>play individual</td>
-            <td>+2 class</td>
-            <td>professional</td>
-            <td>Artistic songs</td>
-            <td>People consider you</td>
-            <td>100%</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>play original</td>
-            <td>+3 class</td>
-            <td>elite/exotic</td>
-            <td>Unique songs</td>
-            <td>People cannot deny you</td>
-            <td>150%</td>
           </tr>
         </table>
         <h3 id="craft">Craft &amp; Lore</h3>
