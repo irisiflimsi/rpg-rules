@@ -827,7 +827,7 @@
           The description is based on the <em>expected</em> outcome,
           i.e. simply read the result rolled as index row in the table.
         </p>
-        <h4 id="piety">Piety</h1>
+        <h4 id="piety">Piety</h4>
         <ul class="explain">
           <li>
             <b>Level 0:</b> NN knows that the reigion exist but cannot
