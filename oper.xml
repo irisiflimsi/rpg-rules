@@ -127,10 +127,24 @@
         <h3 id="learn">Learning</h3>
         <p>
           Learning is modelled by <em>failing</em> a skill roll against
-          <em>0</em>.  Note that rolling 10 non-stop events can be
-          shortened into rolling a <n1/> with a <d10/>.  Learning is not
-          applicable to attributes.  Such rolls are usually applicable 
-          once a day when the skill was used.
+          <em>0</em>.  This is equivalent to succeeding in besting a
+          dificulty of our own skill value.  Note that rolling 10 non-stop
+          events can be shortened into rolling a <n1/> with a <d10/>. 
+          Learning is not applicable to attributes. 
+        </p>
+        <p>          
+          Such rolls may be made once a month in which the skill was used
+          reasonably often. Usually only three such rolls apply. A
+          <em>combined</em> roll with the <em>SB</em> is made, with a bonus
+          of equal skill of <n5/> A teacher can also be combined with a with
+          his own skill - <n10/> and a bonus (row index) of <n5/>.  This
+          assumes that the teacher is available almost always during that
+          time.
+        </p>
+        <h4 id="develop">Character (PC) Development</h3>
+        <p>
+          Averages (expected values) should be generously applied during
+          character creation. Assume learning start at the age of 10 years.
         </p>
         <h3 id="know">Knowledge</h3>
         <p>
@@ -822,11 +836,6 @@
             rituals.
           </li>
         </ul>
-        <h3 id="know">Knowledge</h3>
-        <p>
-          The description is based on the <em>expected</em> outcome,
-          i.e. simply read the result rolled as index row in the table.
-        </p>
         <h4 id="piety">Piety</h4>
         <ul class="explain">
           <li>
