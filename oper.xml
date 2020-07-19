@@ -822,6 +822,46 @@
             rituals.
           </li>
         </ul>
+        <h3 id="know">Knowledge</h3>
+        <p>
+          The description is based on the <em>expected</em> outcome,
+          i.e. simply read the result rolled as index row in the table.
+        </p>
+        <h4 id="piety">Piety</h1>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> NN knows that the reigion exist but cannot
+            separate it from other convocations.
+          </li>
+          <li>
+            <b>Level 5:</b> Lip service payed to the religion and ability
+            to separate it from other major faiths.
+          </li>
+          <li>
+            <b>Level 10:</b> The main tenants of the religion are known
+            and followed on individual level. Sects or heresies are not
+            considered.
+          </li>
+          <li>
+            <b>Level 15:</b> The religion is quoted often and other faiths
+            routinely treated underhanded. Proselytizing is rarely attempted.
+          </li>
+          <li>
+            <b>Level 20:</b> At this level the adherent is actively seeking
+            to further the tenants of the religion outside of his immediate
+            domain. Distinction between inner-religion minutiae are important.
+          </li>
+          <li>
+            <b>Level 25:</b> Heresy is abhorred more than other religions.
+            Support for the religion takes precendents over other interests
+            almost always.
+          </li>
+          <li>
+            <b>Level 30:</b> The adherent is a prophet for the religion and
+            accepts otherwise serious consequences for following details of
+            his faith. May invent rituals and the like.
+          </li>
+        </ul>
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
