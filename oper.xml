@@ -128,7 +128,7 @@
         <p>
           Learning is modelled by <em>failing</em> a skill roll against
           <em>0</em>.  This is equivalent to succeeding in besting a
-          dificulty of our own skill value.  Note that rolling 10 non-stop
+          dificulty of your own skill value.  Note that rolling 10 non-stop
           events can be shortened into rolling a <n1/> with a <d10/>. 
           Learning is not applicable to attributes. 
         </p>
@@ -136,10 +136,16 @@
           Such rolls may be made once a month in which the skill was used
           reasonably often. Usually only three such rolls apply. A
           <em>combined</em> roll with the <em>SB</em> is made, with a bonus
-          of equal skill of <n5/> A teacher can also be combined with a with
+          for equal skill of <n5/> (see the main page on <em>Combination</em>).
+          A teacher can also be combined with a with
           his own skill - <n10/> and a bonus (row index) of <n5/>.  This
           assumes that the teacher is available almost always during that
           time.
+        </p>
+        <h4 id="special">Specialization</h4>
+        <p>
+          Skills listed as specialization are treated as <em>Decomposition</em>
+          from the main rules.
         </p>
         <h4 id="develop">Character (PC) Development</h4>
         <p>
