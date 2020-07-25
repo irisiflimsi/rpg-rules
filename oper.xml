@@ -149,13 +149,13 @@
           (<n12/> - <n10/>).  The third is <n0/>.  Taking the difference of
           the first two, we have a column index of <n1/> into the combination
           table and we read in row <n5/> a <n4/> which will be added to <n3/>
-          (the higher of the two numbers) to yield an <n8/>. To add in the 
-          third (<n0/>), we take the difference again (<n8/>) as column index
+          (the higher of the two numbers) to yield an <n7/>. To add in the 
+          third (<n0/>), we take the difference again (<n7/>) as column index
           and find in the fifth row an <n2/> that is added to the previous
-          result (<n8/>) for a total of <n10/>.  That is the active skill
+          result (<n7/>) for a total of <n9/>.  That is the active skill
           level to roll against the level to improve: <n5/>.  I.e. we are
-          pitting an <n8/> against a <n5/> with a more than 50% chance of success
-          and upon success the skill level is at <n6/>.
+          pitting an <n9/> against a <n5/> with a more than 50% chance of success
+          and upon success the skill level is inceased to <n6/>.
         </p>
         <h4 id="special">Specialization</h4>
         <p>
