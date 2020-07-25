@@ -140,23 +140,49 @@
           bonus (row index) of <n5/>.  This assumes that the teacher is
           available almost always during that time.
         </p>
-        <h5>Example</h5>
         <p>
-          Suppose your skill is at <n5/>, your teacher has a skill of
-          <n12/> and your SB is a <n3/>.  According to the rules, we
+          <b>Example:</b> Suppose your skill is at <n5/>, your teacher has a
+          skill of <n12/> and your SB is a <n3/>.  According to the rules, we
           should first take the highest of the three parameters to be
           combined into a single skill roll.  That is <n3/> and <n2/>
           (<n12/> - <n10/>).  The third is <n0/>.  Taking the difference of
           the first two, we have a column index of <n1/> into the combination
-          table and we read in row <n5/> a <n4/> which will be added to <n3/>
-          (the higher of the two numbers) to yield an <n7/>. To add in the 
+          table and we read in the fifth row a <n4/>, which will be added to <n3/>
+          (the higher of the two numbers) to yield a <n7/>. To add in the 
           third (<n0/>), we take the difference again (<n7/>) as column index
-          and find in the fifth row an <n2/> that is added to the previous
+          and find in the fifth row a <n2/> that is added to the previous
           result (<n7/>) for a total of <n9/>.  That is the active skill
-          level to roll against the level to improve: <n5/>.  I.e. we are
-          pitting an <n9/> against a <n5/> with a more than 50% chance of success
-          and upon success the skill level is inceased to <n6/>.
+          level to roll against your current skill level (<n5/>) to improvex.
+          We are pitting a <n9/> against a <n5/> with roughly an 80% chance
+          of success and upon success the skill level is inceased to <n6/>.
         </p>
+        <p>
+          If a more pragmatic approach is desired, use the following "reversed"
+          table for finding the addition.
+        </p>
+        <table>
+          <tr>
+            <th>Difference</th><th>Bonus</th>
+          </tr>
+          <tr>
+            <td>0</td><td>5</td>
+          </tr>
+          <tr>
+            <td>1-2</td><td>4</td>
+          </tr>
+          <tr>
+            <td>3-4</td><td>3</td>
+          </tr>
+          <tr>
+            <td>5-8</td><td>2</td>
+          </tr>
+          <tr>
+            <td>9-13</td><td>1</td>
+          </tr>
+          <tr>
+            <td>14+</td><td>0</td>
+          </tr>
+        </table>
         <h4 id="special">Specialization</h4>
         <p>
           Skills listed as specialization are treated as <em>Decomposition</em>
