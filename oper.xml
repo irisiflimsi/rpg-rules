@@ -126,11 +126,10 @@
         </p>
         <h3 id="learn">Learning</h3>
         <p>
-          Learning is modelled by <em>failing</em> a skill roll against
-          <em>0</em>.  This is equivalent to succeeding in besting a
-          dificulty of your own skill value.  Note that rolling 10 non-stop
-          events can be shortened into rolling a <n1/> with a <d10/>. 
-          Learning is not applicable to attributes. 
+          Learning is modelled by succeeding an active roll with level
+          <n0/> against a passive level of the current skill.  Note that
+          rolling 10 non-stop events can be shortened into rolling a
+          <n1/> with a <d10/>.  Learning is not applicable to attributes.
         </p>
         <p>          
           Such rolls may be made once a month in which the skill was used
@@ -141,12 +140,29 @@
           bonus (row index) of <n5/>.  This assumes that the teacher is
           available almost always during that time.
         </p>
+        <h5>Example</h5>
+        <p>
+          Suppose your skill is at <n5/>, your teacher has a skill of
+          <n12/> and your SB is a <n3/>.  According to the rules, we
+          should first take the highest of the three parameters to be
+          combined into a single skill roll.  That is <n3/> and <n2/>
+          (<n12/> - <n10/>).  The third is <n0/>.  Taking the difference of
+          the first two, we have a column index of <n1/> into the combination
+          table and we read in row <n5/> a <n4/> which will be added to <n3/>
+          (the higher of the two numbers) to yield an <n8/>. To add in the 
+          third (<n0/>), we take the difference again (<n8/>) as column index
+          and find in the fifth row an <n2/> that is added to the previous
+          result (<n8/>) for a total of <n10/>.  That is the active skill
+          level to roll against the level to improve: <n5/>.  I.e. we are
+          pitting an <n8/> against a <n5/> with a more than 50% chance of success
+          and upon success the skill level is at <n6/>.
+        </p>
         <h4 id="special">Specialization</h4>
         <p>
           Skills listed as specialization are treated as <em>Decomposition</em>
           from the main rules. Learning (q.v.) should be applied to the
           main/average skill. If so desired, specializations may be learned
-          separately, but the restrictions on Decomposition applies and the
+          separately, but the restrictions on decomposition applies and the
           number of rolls for learning each month. 
         </p>
         <h4 id="develop">Character (PC) Development</h4>
