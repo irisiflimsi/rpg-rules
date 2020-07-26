@@ -209,6 +209,18 @@
             <th>Rolls</th><td>110</td><td>137</td><td>169</td><td>210</td><td>261</td><td>325</td><td>405</td><td>505</td><td>630</td><td>786</td>
           </tr>
         </table>
+        <p>
+          Anythin below -<n10/> can be treated as adding another roll. Anything beyond <n20/> adds <em>200</em> more rolls.
+        </p>
+        <p>
+          For career development, take the sum of the number of all SBs
+          (e.g. SB/2 and SB/3 would be 5) for a career, say <em>n</em>.
+          Now take the duration of learning for that career in months and
+          multiply by <n3/> (e.g. <em>1440</em>), which is the number of
+          rolls. This number should be distributed among the skills according
+          to their multiplicity among the skills (e.g. <em>576</em> and
+          <em>864</em>).
+        </p>
         <h3 id="know">Knowledge</h3>
         <p>
           The description is based on the <em>expected</em> outcome,
