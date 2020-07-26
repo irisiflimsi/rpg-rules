@@ -180,6 +180,12 @@
         <p>
           Averages (expected values) should be generously applied during
           character creation. Assume learning start at the age of 10 years.
+          The following table shows the time it takes to reach a certain skill
+          level. The difference row shows the difference between the skill level
+          to be reached and the skill level against which to roll (originally).
+          Since the typical teacher has a level of <n20/> that would mean rolling
+          with a <n10/> against a passive level of <n0/>, i.e. -<n10/> without
+          SB adjustment.
         </p>
         <table>
           <tr>
