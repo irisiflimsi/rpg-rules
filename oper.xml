@@ -216,10 +216,10 @@
           For career development, take the sum of the number of all SBs
           (e.g. SB/2 and SB/3 would be 5) for a career.  Now take the
           duration of learning for that career in months (e.g. 4 years) and
-          multiply by <n3/> (e.g. <em>1440</em>), which is the number of
+          multiply by <n3/> (e.g. <em>144</em>), which is the number of
           rolls. This number should be distributed among the skills according
           to the multiplicity among the skills (e.g. <em>2/5</em> for
-          <em>576</em> and <em>3/5</em> for <em>864</em>).
+          <em>58</em> and <em>3/5</em> for <em>86</em>).
         </p>
         <h3 id="know">Knowledge</h3>
         <p>
