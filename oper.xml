@@ -210,7 +210,8 @@
           </tr>
         </table>
         <p>
-          Anythin below -<n10/> can be treated as adding another roll. Anything beyond <n20/> adds <em>200</em> more rolls.
+          Anything below -<n10/> can be treated as adding another roll. 
+          Anything beyond <n20/> adds <em>200</em> more rolls.
         </p>
         <p>
           For career development, take the sum of the number of all SBs
@@ -316,8 +317,8 @@
         </ul>
         <h4 id="intrigue">Intrigue</h4>
         <p>
-          Specializations are <em>Politics, Streetwise, Rural, Social Class</em>, which should be treated as separate
-          skills.
+          Specializations are <em>Politics, Streetwise, Rural, Social
+          Class</em>, which should be treated as separate skills.
         </p>
         <table>
           <tr>
@@ -949,6 +950,44 @@
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
+        <h3 id="initiative">Initiative</h3>
+        <p>
+          Initiative determines how long it takes to bring a combat skill to bear.
+          I.e. how long does it take before a combat skill roll can be made. A
+          premature roll can be made, by taking a penalty that matches the premature
+          time.  Note that the time interval is used looking for openings, keeping
+          ones own balance, etc. and must be actively chosen.  A point in time
+          cannot be chosen, let alone decided upon on the spur of a moment.
+        </p>
+        <table>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+          </tr>
+          <tr>
+            <td>Time</th><td>30s</td><td>29s</td><td>28s</td><td>27s</td><td>26s</td><td>25s</td><td>24s</td><td>23</td><td>22</td><td>22</td>
+          </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr>
+            <th>Level</th><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+          </tr>
+          <tr>
+            <td>Time</th><td>21s</td><td>20s</td><td>19s</td><td>19s</td><td>18s</td><td>17s</td><td>17s</td><td>16s</td><td>16s</td><td>15s</td>
+          </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr>
+            <th>Level</th><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>
+          </tr>
+          <tr>
+            <td>Time</th><td>14s</td><td>14s</td><td>13s</td><td>13s</td><td>12s</td><td>12s</td><td>12s</td><td>11s</td><td>11s</td><td>10s</td>
+          </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr>
+            <th>Level</th><td>30</td><td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td>
+          </tr>
+          <tr>
+            <td>Time</th><td>10s</td><td>10s</td><td>9s</td><td>9s</td><td>9s</td><td>8s</td><td>8s</td><td>8s</td><td>7s</td><td>7s</td>
+          </tr>
+        </table>
         <p>
           Aborted actions will be resolved as if intended that way.
           For playability reasons partial effects will not be applied
