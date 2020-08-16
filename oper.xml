@@ -145,14 +145,15 @@
           skill of <n12/> and your SB is a <n3/>.  According to the rules, we
           should first take the highest of the three parameters to be
           combined into a single skill roll.  That is <n3/> and <n2/>
-          (<n12/> - <n10/>).  The third is <n0/>.  Taking the difference of
+          (<n12/> - <n10/>).  The third is <n0/>.  (Remember your active level
+          is <n0/> in this case.)  Taking the difference of
           the first two, we have a column index of <n1/> into the combination
           table and we read in the fifth row a <n4/>, which will be added to <n3/>
           (the higher of the two numbers) to yield a <n7/>. To add in the 
           third (<n0/>), we take the difference again (<n7/>) as column index
           and find in the fifth row a <n2/> that is added to the previous
           result (<n7/>) for a total of <n9/>.  That is the active skill
-          level to roll against your current skill level (<n5/>) to improvex.
+          level to roll against your current skill level (<n5/>) to improve.
           We are pitting a <n9/> against a <n5/> with roughly an 80% chance
           of success and upon success the skill level is inceased to <n6/>.
         </p>
@@ -221,6 +222,29 @@
           rolls. This number should be distributed among the skills according
           to the multiplicity among the skills (e.g. <em>2/5</em> for
           <em>58</em> and <em>3/5</em> for <em>86</em>).
+        </p>
+        <p>
+          <b>Example:</b> Assume that the PC in question has an SB of <n1/>
+          in all phyiscal attributes and -<n1/> in all other cases. His sunsign 
+          is Ulandus. <em>Family Skills:</em> Assume that the PC stays with his
+          family until the age of 14.  If he were to leave ealier, calculate
+          new times accordingly.  Assume his parents are <em>Animal Trainers</em>.
+          The PCs is exposed to the skills according to his interest and can
+          decide on how to distribute <em>4x12x3=144</em> rolls. Let's assume the 
+          PCs puts all into <em>Animal Craft</em>. His net SB is
+          <em>(1-1-1)/3+1</em>, which we round to <n1/>.  He has no teacher in this
+          phase, he just picks things up as they gain his interest. Adding his own
+          starting skill of <n0/> to <n1/> through the table, gives a <n5/>.  This
+          means that the PCs gains <em>17</em> after <em>131</em> rolls.  The
+          PC progresses from -<n5/> to <n12/>, because he starts with a bonus of 
+          <n5/>.  Remember that the table already adds in a progression from -<n10/>
+          to -<n5/>, that is worth <n6/> rolls and that is not compounded into the
+          total learning.  The remaining <em>13</em> rolls are lost or can be rolled
+          individually.
+          <em>Automatic skills:</em> A NN would have these skills at
+          <n10/> in this setting.  This is a reasonable assumption that this fits
+          with the general skill intention.  Note that generally NN should have a
+          <n0/>, so adding <n10/> is actually only making learning more difficult.
         </p>
         <h3 id="know">Knowledge</h3>
         <p>
