@@ -201,7 +201,7 @@
           <tr>
             <th>+9</th><td>1</td><td>2</td><td>4</td><td>5</td><td>7</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td>
             <td>19</td><td>22</td><td>27</td><td>32</td><td>39</td><td>47</td><td>58</td><td>72</td><td>88</td><td>109</td>
-            <td>136</td><td>168</td><td>209</td><td>260</td><td>324</td><td>404</td><td>504</td><td>629</td><td>785</td>
+            <td>136</td><td>168</td><td>209</td><td>260</td><td>324</td><td>404</td><td>504</td><td>629</td><td>785</td><td>...</td>
           </tr>
           <tr>
             <th>+8</th><td>1</td><td>3</td><td>4</td><td>6</td><td>7</td><td>9</td><td>11</td><td>13</td><td>15</td><td>18</td>
@@ -209,9 +209,19 @@
             <td>167</td><td>208</td><td>259</td><td>323</td><td>403</td><td>503</td><td>628</td><td>784</td><td>...</td><td>...</td>
           </tr>
           <tr>
+            <th>+7</th><td>2</td><td>3</td><td>5</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>17</td><td>20</td>
+            <td>25</td><td>30</td><td>37</td><td>45</td><td>56</td><td>70</td><td>86</td><td>99</td><td>134</td><td>166</td>
+            <td>207</td><td>258</td><td>322</td><td>402</td><td>502</td><td>627</td><td>783</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
             <th>+6</th><td>1</td><td>3</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>15</td><td>18</td><td>23</td>
             <td>28</td><td>35</td><td>43</td><td>54</td><td>68</td><td>84</td><td>105</td><td>132</td><td>164</td><td>205</td>
             <td>256</td><td>320</td><td>400</td><td>500</td><td>625</td><td>781</td><td>...</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>+5</th><td>2</td><td>3</td><td>5</td><td>7</td><td>9</td><td>11</td><td>14</td><td>17</td><td>22</td><td>27</td>
+            <td>34</td><td>42</td><td>53</td><td>67</td><td>83</td><td>104</td><td>131</td><td>163</td><td>204</td><td>255</td>
+            <td>319</td><td>399</td><td>499</td><td>624</td><td>780</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
           </tr>
           <tr>
             <th>+4</th><td>1</td><td>3</td><td>5</td><td>7</td><td>9</td><td>12</td><td>15</td><td>20</td><td>25</td><td>32</td>
