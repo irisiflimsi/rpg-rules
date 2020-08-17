@@ -189,32 +189,16 @@
         </p>
         <table>
           <tr>
-            <th>+10</th><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
-<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
-<td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+            <th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
+            <th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th><th>19</th><th>20</th>
+            <hd>21</th><th>22</th><th>23</th><th>24</th><th>25</th><th>26</th><th>27</th><th>28</th><th>29</th><th>30</th>
           </tr>
           <tr>
-            <th>Rolls</th><td>1</td><td>2</td><td>3</td><td>5</td><td>6</td><td>8</td><td>9</td><td>11</td><td>13</td><td>15</td>
-          </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
-          <tr>
-            <th>Difference</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
-          </tr>
-          <tr>
-            <th>Rolls</th><td>17</td><td>20</td><td>23</td><td>28</td><td>33</td><td>40</td><td>48</td><td>59</td><td>73</td><td>89</td>
-          </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
-          <tr>
-            <th>Difference</th><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
-          </tr>
-          <tr>
-            <th>Rolls</th><td>110</td><td>137</td><td>169</td><td>210</td><td>261</td><td>325</td><td>405</td><td>505</td><td>630</td><td>786</td>
+            <th>+10</th><td>1</td><td>2</td><td>3</td><td>5</td><td>6</td><td>8</td><td>9</td><td>11</td><td>13</td><td>15</td>
+            <td>17</td><td>20</td><td>23</td><td>28</td><td>33</td><td>40</td><td>48</td><td>59</td><td>73</td><td>89</td>
+            <td>110</td><td>137</td><td>169</td><td>210</td><td>261</td><td>325</td><td>405</td><td>505</td><td>630</td><td>786</td>
           </tr>
         </table>
-        <p>
-          Anything below -<n10/> can be treated as adding another roll. 
-          Anything beyond <n20/> adds <em>200</em> more rolls.
-        </p>
         <p>
           For career development, take the sum of the number of all SBs
           (e.g. SB/2 and SB/3 would be 5) for a career.  Now take the
