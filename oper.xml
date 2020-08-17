@@ -223,27 +223,38 @@
           to the multiplicity among the skills (e.g. <em>2/5</em> for
           <em>58</em> and <em>3/5</em> for <em>86</em>).
         </p>
+        <h4>Extended Example:</h4> 
         <p>
-          <b>Example:</b> Assume that the PC in question has an SB of <n1/>
+          Assume that the PC in question has an SB of <n1/>
           in all phyiscal attributes and -<n1/> in all other cases. His sunsign 
-          is Ulandus.<br/><em>Family Skills:</em> Assume that the PC stays with his
+          is Ulandus.
+        </p>
+        <p>
+          <em>Family Skills:</em> Assume that the PC stays with his
           family until the age of 14.  Assume his parents are Animal Trainers.
           The PCs is exposed to the skills according to his interest and can
-          decide on how to distribute <em>4x12x3=144</em> rolls. Let's assume the 
-          PCs puts all into <em>Animal Craft</em>. His net SB is
-          <em>(1-1-1)/3+1</em>, which we round to <n1/>.  He has no teacher in this
+          decide on how to distribute <em>4 x 12 x 3 = 144</em> rolls. Let's assume the 
+          PCs puts all into Animal Craft. His net SB is
+          <em>(1 - 1 - 1)/3 + 1/2</em>, which we round to <n0/>.  He has no teacher in this
           phase, he just picks things up as they gain his interest. Adding his own
-          starting skill of <n0/> to <n1/> through the table, gives a <n5/>.  This
+          starting skill of <n0/> to <n0/> through the table, gives a <n5/>.  This
           means that the PCs gains <em>17</em> after <em>131</em> rolls.  The
           PC progresses from -<n5/> to <n12/>, because he starts with a bonus of 
           <n5/>.  Remember that the table already adds in a progression from -<n10/>
           to -<n5/>, that is worth <n6/> rolls and that is not compounded into the
           total learning.  The remaining <em>13</em> rolls are lost, can be rolled
           individually, or spread among the other available family skills.<br/>
-          <em>Automatic skills:</em> A NN would have these skills at
-          <n10/> in this setting.  This is a reasonable assumption that this fits
+        </p>
+        <p>
+          <em>Automatic skills:</em> An NN would have these skills at
+          <n10/> in this setting.  We make this assumption, assuming that it fits
           with the general skill intention.  Note that generally NN should have a
-          <n0/>, so adding <n10/> is actually only making learning more difficult.
+          <n0/>, so adding <n10/> is actually only making learning more difficult
+          From the previous example we infer that NN would get a bonus of <n5/>,
+          which gives him 27 rolls. Since our PC has an SB of 
+          <em>(1 + 1 + 1)/3 + 2/2</em>, which is <n2/>. Adding this to the <n0/>
+          skill level, we get <n6/> as total. This gives us 23 rolls needed to reach
+          <n10/>. The remaining 4 rolls can only be used individually. 
         </p>
         <h3 id="know">Knowledge</h3>
         <p>
