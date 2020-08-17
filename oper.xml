@@ -16,9 +16,9 @@
       <h1 id="char">Conversion</h1>
         <p>
           Conversion of Skills.  The actual formula is <em>level =
-          log<sub>10</sub>(19*skill/100/(1 - skill/100))</em> in
-          the range <em>5 - 95</em>.  Beyond <em>95</em>, the formula
-          is <em>3.5 log<sub>10</sub>(x - 94) + 25.4</em>. Below <n5/>
+          log<sub>10</sub>(19&#160;*&#160;skill/100/(1&#160;-&#160;skill/100))</em> in
+          the range <em>5&#160;-&#160;95</em>.  Beyond <em>95</em>, the formula
+          is <em>3.5 log<sub>10</sub>(x&#160;-&#160;94)&#160;+&#160;25.4</em>. Below <n5/>
           the regression is <em>1:1</em>. as shown in the table.
         </p>
         <table>
@@ -96,8 +96,7 @@
           </tr>
         </table>
         <p>
-          Conversion of Attributes. The actual formula is <em>level =
-          2 * (attribute - 10.5)</em>.
+          Conversion of Attributes. The actual formula is <em>level&#160;=&#160;2&#160;*&#160;(attribute&#160;-&#160;10.5)</em>.
         </p>
         <table>
           <tr>
@@ -145,7 +144,7 @@
           skill of <n12/> and your SB is a <n3/>.  According to the rules, we
           should first take the highest of the three parameters to be
           combined into a single skill roll.  That is <n3/> and <n2/>
-          (<n12/> - <n10/>).  The third is <n0/>.  (Remember your active level
+          (<n12/>&#160;-&#160;<n10/>).  The third is <n0/>.  (Remember your active level
           is <n0/> in this case.)  Taking the difference of
           the first two, we have a column index of <n1/> into the combination
           table and we read in the fifth row a <n4/>, which will be added to <n3/>
@@ -190,7 +189,9 @@
         </p>
         <table>
           <tr>
-            <th>Difference</th><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+            <th>+10</th><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+<td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+<td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
           </tr>
           <tr>
             <th>Rolls</th><td>1</td><td>2</td><td>3</td><td>5</td><td>6</td><td>8</td><td>9</td><td>11</td><td>13</td><td>15</td>
@@ -233,9 +234,9 @@
           <em>Family Skills:</em> Assume that the PC stays with his
           family until the age of 14.  Assume his parents are Animal Trainers.
           The PCs is exposed to the skills according to his interest and can
-          decide on how to distribute <em>4 x 12 x 3 = 144</em> rolls. Let's assume the 
+          decide on how to distribute <em>4&#160;*&#160;12&#160;*&#160;3&#160;=&#160;144</em> rolls. Let's assume the 
           PCs puts all into Animal Craft. His net SB is
-          <em>(1 - 1 - 1)/3 + 1/2</em>, which we round to <n0/>.  He has no teacher in this
+          <em>(1&#160&#160;1&#160;-&#160;1)/3&#160;+&#160;1/2</em>, which we round to <n0/>.  He has no teacher in this
           phase, he just picks things up as they gain his interest. Adding his own
           starting skill of <n0/> to <n0/> through the table, gives a <n5/>.  This
           means that the PCs gains <em>17</em> after <em>131</em> rolls.  The
@@ -252,7 +253,7 @@
           <n0/>, so adding <n10/> is actually only making learning more difficult
           From the previous example we infer that NN would get a bonus of <n5/>,
           which gives him 27 rolls. Since our PC has an SB of 
-          <em>(1 + 1 + 1)/3 + 2/2</em>, which is <n2/>. Adding this to the <n0/>
+          <em>(1&#160;+&#160;1&#160;+&#160;1)/3&#160;+&#160;2/2</em>, which is <n2/>. Adding this to the <n0/>
           skill level, we get <n6/> as total. This gives us 23 rolls needed to reach
           <n10/>. The remaining 4 rolls can only be used individually. 
         </p>
