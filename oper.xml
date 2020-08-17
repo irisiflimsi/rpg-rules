@@ -303,9 +303,14 @@
           individually, can be redistributed with other skills, or forfeited. 
         </p>
         <p>
-          <em>Optional skills:</em> Any number of years can be used to improve other skills
-          in the manner above.  A teacher of skill level <n20/> can ben assumed.  This applies
-          to veteran points and militia duty in the same way.
+          <em>Optional skills:</em> Any number of years can be used to improve
+          other skills in the manner above.  A teacher of skill level <n20/> can
+          be assumed, unless a guilded profession is required for the skill and
+          the PC is not member of that guild.  Then probably no teacher is available,
+          which can mean that a learning <em>penalty</em> of <n10/> may be applied,
+          if reality cannot be assumed as "teacher".  A teacher applies to veteran
+          points and militia duty, which are treated in the same way as regular
+          acquisition of optional skills..
         </p>
         <h3 id="know">Knowledge</h3>
         <p>
