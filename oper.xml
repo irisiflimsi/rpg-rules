@@ -800,76 +800,6 @@
             <td>50%</td>
           </tr>
         </table>
-        <h3 id="animal">Combat</h3>
-        <p>
-          Fighting styles are separate skills.  Often fighting styles
-          are equated with the predominant weapon they are used with.
-        </p>
-        <table>
-          <tr>
-            <th>Skill</th>
-            <th class="wide">Weapons</th>
-          </tr>
-          <tr>
-            <td>Close quarter</td>
-            <td>
-              Hand/Arm, Foot/Leg/Knee, Head, Knife, Dagger, Taburi, Keltan
-            </td>
-          </tr>
-          <tr>
-            <td>Blowgun</td>
-            <td>Blowgun</td>
-          </tr>
-          <tr>
-            <td>Archery</td>
-            <td>Arrow, Bolt</td>
-          </tr>
-          <tr>
-            <td>Net</td>
-            <td>Net</td>
-          </tr>
-          <tr>
-            <td>Sling</td>
-            <td>Sling, Staff Sling</td>
-          </tr>
-          <tr>
-            <td>Polearm</td>
-            <td>
-              Lance, Glaive, Jousting Pole, Poleaxe, Pike
-            </td>
-          </tr>
-          <tr>
-            <td>1-handed Weapon/Parry</td>
-            <td>
-              Shortbow, Longbow, Hartbow, Crossbow, Buckler, Knight,
-              Round, Kite, Tower, Knife, Dagger, Taburi, Keltan,
-              Longknife, Shortsword. Mankar, Mang, Broadsword, Estoc,
-              Falchion, Bastard Sword, Stick, Club, Mace, Morning
-              Star, Sickle, Shorkana, Hatchet, Handaxe, Warhammer,
-              Nachakas, Grainflail, Ball/Chain, Staff, Javelin, Spear,
-              Trident
-            </td>
-          </tr>
-          <tr>
-            <td>2-handed Weapon</td>
-            <td>
-              Battlesword, Bastard Sword, Morning Star, Maul,
-              Battleaxe, Warflail, Staff, Spear
-            </td>
-          </tr>
-          <tr>
-            <td>Thrown Spear</td>
-            <td>Javelin, Spear, Trident, Staff</td>
-          </tr>
-          <tr>
-            <td>Whip</td>
-            <td>Whip, Isagra</td>
-          </tr>
-        </table>
-        <p>
-          Most of these skills can be combined with fighting from
-          horseback.
-        </p>
         <!--svg:svg width="620" height="620">
           <svg:g transform="translate(310 310)">
             <svg:circle cx="0" cy="0" r="305" stroke="#000" stroke-width="2" fill="#009a31"/>
@@ -1041,7 +971,7 @@
           time.  Note that the time interval is used looking for openings, keeping
           ones own balance, etc. and must be actively chosen.  A point in time
           cannot be chosen, let alone decided upon on the spur of a moment.  Dodge as
-          skill is opposed to Initiative and is deducted. The skill may be <n0/> an
+          skill is opposed to Initiative and is deducted. The skill may be <n0/> and
           Agility may be added through row <n3/>.
         </p>
         <table>
@@ -1050,25 +980,25 @@
             <td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
           </tr>
           <tr>
-            <th>Time</th><td>110</td><td>100</td><td>98</td><td>90</td><td>84</td><td>80</td><td>74</td><td>68</td><td>64</td><td>60</td>
+            <th>Time(s)</th><td>110</td><td>100</td><td>98</td><td>90</td><td>84</td><td>80</td><td>74</td><td>68</td><td>64</td><td>60</td>
             <td>56</td><td>52</td><td>49</td><td>45</td><td>42</td><td>40s</td><td>37</td><td>34</td><td>32</td><td>30</td>
           </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr><th rowspan="2" colspan="21"></th></tr><tr></tr>
           <tr>
             <th>Level</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
             <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
           </tr>
           <tr>
-            <th>Time</th><td>28</td><td>26</td><td>25</td><td>23</td><td>21</td><td>20</td><td>19</td><td>17</td><td>16</td><td>15</td>
+            <th>Time(s)</th><td>28</td><td>26</td><td>25</td><td>23</td><td>21</td><td>20</td><td>19</td><td>17</td><td>16</td><td>15</td>
             <td>15</td><td>14</td><td>14</td><td>13</td><td>12</td><td>12</td><td>12</td><td>11</td><td>11</td><td>10</td>
           </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr><th rowspan="2" colspan="21"></th></tr><tr></tr>
           <tr>
             <th>Level</th><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
             <td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
           </tr>
           <tr>
-            <th>Time</th><td>10</td><td>9</td><td>9</td><td>8</td><td>8</td><td>7</td><td>7</td><td>7</td><td>6</td><td>6</td>
+            <th>Time(s)</th><td>10</td><td>9</td><td>9</td><td>8</td><td>8</td><td>7</td><td>7</td><td>7</td><td>6</td><td>6</td>
             <td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td>
           </tr>
         </table>
@@ -1081,6 +1011,58 @@
           In order to avoid being injured in combat, a
           defendant can improve his passive resistance by using his
           Agility and the combat skill he uses to attack.
+        </p>
+        <h3 id="Injury">Injury</h3>
+        <p>
+          Subtract the active and passive combat skill from each other.
+          Consider all modifiers that apply in the classic rules here.
+          The A/D numbers are used as additional modifiers (divided by
+          five).  Using a weapon or a combination in the wrong hand
+          implies a penalty of-<n2/>.  The weapon and armour B/E/P values
+          are each subtracted from each other individually, and the results
+          are all added to the injury dimension. Wounds are treated
+          individually for recovery (see below).
+        </p>
+        <table>
+          <tr>
+            <th>Level</th><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td><td>-10</td>
+            <td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Injury</th><td>6</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td><td>10</td><td>10</td>
+            <td>11</td><td>11</td><td>12</td><td>12</td><td>12</td><td>13</td><td>14</td><td>14</td><td>15</td><td>15</td>
+          </tr>
+          <tr><th rowspan="2" colspan="21"></th></tr><tr></tr>
+          <tr>
+            <th>Level</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+            <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Injury</th><td>16</td><td>16</td><td>17</td><td>17</td><td>18</td><td>18</td><td>19</td><td>19</td><td>20</td><td>20</td>
+            <td>21</td><td>21</td><td>22</td><td>22</td><td>23</td><td>23</td><td>24</td><td>24</td><td>24</td><td>25</td>
+          </tr>
+          <tr><th rowspan="2" colspan="21"></th></tr><tr></tr>
+          <tr>
+            <th>Level</th><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+            <td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+          </tr>
+          <tr>
+            <th>Injury</th><td>26</td><td>26</td><td>27</td><td>27</td><td>28</td><td>28</td><td>29</td><td>29/td><td>30/td><td>30</td>
+            <td>31/td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+          </tr>
+        </table>
+        <h3 id="armour">Impediments</h3>
+        <p>
+          All impediments affect all types of activity.  All are
+          modified by Stamina(live)/Quality(dead).  Recovery is 
+          only possible during rest.  Dead objects do not recover
+          but are repaired. Edge/Point may infect. Chance per day
+          is penalty being healed as percentage.
+        </p>
+        <p>
+          Impediments below add HR penalty as max component.
+          HR as percentage is rolled once per unit time for +1 % or -1 % in HR.
+          For diesase and infection this unit is one day.
         </p>
         <table>
           <tr>
@@ -1114,31 +1096,6 @@
             <td>10s</td>
           </tr>
         </table>
-        <h3 id="weapons">Weapons/Armour</h3>
-        <p>
-          The A/D numbers are used as
-          additional modifiers (divided by five) when the weapon is
-          used in accord with its fighting style. Using a weapon or a
-          combination in the wrong hand implies a penalty of-<n2/>.
-        </p>
-        <p>
-          The weapon and armour B/E/P values are each subtracted, the
-          result added to the injury dimension. All appropriate dimensions
-          apply for recovery.
-        </p>
-        <h3 id="armour">Impediments</h3>
-        <p>
-          All impediments affect all types of activity.  All are
-          modified by Stamina(live)/Quality(dead).  Recovery is 
-          only possible during rest.  Dead objects do not recover
-          but are repaired. Edge/Point may infect. Chance per day
-          is penalty being healed as percentage.
-        </p>
-        <p>
-          Impediments below add HR penalty as max component.
-          HR as percentage is rolled once per unit time for +1 % or -1 % in HR.
-          For diesase and infection this unit is one day.
-        </p>
         <h4 id="heal">Healing</h4>
         <p>
           Applies to all types of wounds (BEP).
