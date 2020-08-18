@@ -358,6 +358,11 @@
             <td>24</td><td>27</td><th>30</th>
           </tr>
           <tr>
+            <th>10</th><td>11</td><td>13</td><td>15</td>
+            <td>17</td><td>20</td><td>23</td><td>26</td>
+            <td>30</td><td>35</td><th>40</th>
+          </tr>
+          <tr>
             <th>10</th><td>12</td><td>14</td><td>17</td>
             <td>20</td><td>24</td><td>29</td><td>35</td>
             <td>42</td><td>50</td><th>60</th>
@@ -372,6 +377,11 @@
             <th>20</th><td>21</td><td>22</td><td>23</td>
             <td>24</td><td>24</td><td>26</td><td>27</td>
             <td>28</td><td>29</td><th>30</th>
+          </tr>
+          <tr>
+            <th>20</th><td>21</td><td>23</td><td>25</td>
+            <td>26</td><td>28</td><td>30</td><td>32</td>
+            <td>35</td><td>37</td><th>40</th>
           </tr>
           <tr>
             <th>20</th><td>22</td><td>25</td><td>28</td>
@@ -389,6 +399,11 @@
             <td>130</td><td>160</td><th>200</th>
           </tr>
           <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr>
+            <th>30</th><td>31</td><td>32</td><td>33</td>
+            <td>34</td><td>35</td><td>36</td><td>37</td>
+            <td>38</td><td>39</td><th>40</th>
+          </tr>
           <tr>
             <th>30</th><td>32</td><td>34</td><td>37</td>
             <td>40</td><td>42</td><td>45</td><td>49</td>
