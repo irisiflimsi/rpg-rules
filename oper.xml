@@ -147,14 +147,14 @@
           (<n12/>&#160;-&#160;<n10/>).  The third is <n0/>.  (Remember your active level
           is <n0/> in this case.)  Taking the difference of
           the first two, we have a column index of <n1/> into the combination
-          table and we read in the fifth row a <n4/>, which will be added to <n3/>
-          (the higher of the two numbers) to yield a <n7/>. To add in the 
-          third (<n0/>), we take the difference again (<n7/>) as column index
+          table and we read in the fifth row a <n5/>, which will be added to <n3/>
+          (the higher of the two numbers) to yield an <n8/>. To add in the 
+          third (<n0/>), we take the difference again (<n8/>) as column index
           and find in the fifth row a <n2/> that is added to the previous
-          result (<n7/>) for a total of <n9/>.  That is the active skill
+          result (<n8/>) for a total of <n10/>.  That is the active skill
           level to roll against your current skill level (<n5/>) to improve.
-          We are pitting a <n9/> against a <n5/> with roughly an 80% chance
-          of success and upon success the skill level is inceased to <n6/>.
+          We are pitting a <n10/> against a <n5/> with roughly an 80% chance
+          of success and upon success the skill level is increased to <n6/>.
         </p>
         <p>
           If a more pragmatic approach is desired, use the following "reversed"
@@ -162,7 +162,7 @@
         </p>
         <table>
           <tr>
-            <th>Difference</th><td>0</td><td>1-2</td><td>3-4</td><td>5-8</td><td>9-13</td><td>14+</td>
+            <th>Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td><td>11-19</td><td>20+</td>
           </tr>
           <tr>
             <th>Bonus</th><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
@@ -281,7 +281,7 @@
         </p>
         <p>
           <em>Automatic skills:</em> An NN would have these skills at
-          <n10/> in this setting.  We make this assumption, assuming that it fits
+          <n10/> in this setting.  We make this provision, assuming that it fits
           with the general skill intention.  Note that generally NN should have a
           <n0/>, so adding <n10/> is actually only making learning more difficult
           From the previous example we infer that NN would get a bonus of <n5/>,
@@ -292,8 +292,8 @@
         </p>
         <p>
           <em>Occupational skills:</em> Our PC chooses to be an Apothecary, a profession with
-          an apprenticeship of 6 years.  That means a total of <em>6&#160;*&#160;12&#160;*&#160;3&#160;=&#160;216</em>.
-          Script being in the selection of skills counts as <em>1&#160;+&#160;70/20&#160;=&#160;4&#160;1/2</em> 
+          an apprenticeship of 6 years.  That means a total of <em>6&#160;*&#160;12&#160;*&#160;3&#160;=&#160;216</em>
+          rolls.  Script being in the selection of skills counts as <em>1&#160;+&#160;70/20&#160;=&#160;4&#160;1/2</em> 
           SB. For Herblore this means the PC gets <em>216&#160;*&#160;4&#160;/&#160;(14&#160;1/2)&#160;=&#160;60</em>
           (rounded) rolls. His SB is <em>(-1&#160;-1&#160;-1)/3&#160;+&#160;3/2&#160;=&#160;1</em>,
           rounded up in favor of the PC.  This time a teacher will provide a bonus
@@ -1023,6 +1023,10 @@
           are all added to the injury dimension. Wounds are treated
           individually for recovery (see below).
         </p>
+        <p>
+          Injury is applied directly as bonus to the passive side of any
+          skill or attribute roll.
+        </p>
         <table>
           <tr>
             <th>Level</th><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td><td>-10</td>
@@ -1061,8 +1065,9 @@
           composition/decomposition rule.
         </p>
         <p>
-          Damage applies to the appropriate B/E/P value <em>and</em>
-          quality rating. 
+          Damage applies to the appropriate B/E/P value directly until
+          <n0/> is reached. Quality rating is also affected through row <n5/>
+          on the passive side.
         </p>
         <table>
           <tr>
