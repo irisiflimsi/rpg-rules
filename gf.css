@@ -8,6 +8,7 @@
 }
 
 table {
+    table-layout: fixed;
     font-size: 75%;
     margin-left: 2em;
 }
