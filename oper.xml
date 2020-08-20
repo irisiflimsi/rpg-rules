@@ -298,6 +298,9 @@
           <mn>(9/4)</mn><mo></mo><msup><mi>(5/4)</mi><mn>k</mn></msup>
         </math>
         <p>
+          This is a ready-made calculation of "generous" use of expected values mentioned above.
+        </p>
+        <p>
           For career development, take the sum of the number of all SBs
           (e.g. SB/2 and SB/3 would be 5) for a career.  Now take the
           duration of learning for that career in months (e.g. 4 years) and
@@ -512,55 +515,44 @@
             <td>120° / 2 m/s</td>
             <td>Original dance</td>
           </tr>
-        </table>
-        <table>
+          <tr>
+            <th colspan="7"></th>
+          </tr>
+          <tr>
+            <th colspan="4">Phyiscal</th>
+            <th colspan="3">Craft &amp; Lore</th>
+          </tr>
           <tr>
             <th>Jumping</th>
             <th>Skiing</th>
             <th>Swimming</th>
+            <th>Throwing</th>
           </tr>
           <tr>
             <td>0,5 m ▲ / 2 m ▶</td>
             <td>walk 0.5 m/s</td>
             <td>0.1 m/s / Bft 1 / dive 5s</td>
+            <td>10 m</td>
           </tr>
           <tr>
             <td>1 m ▲ / 4 m ▶</td>
             <td>walk 1.5 m/s</td>
             <td>0.6 m/s / Bft 3 / dive 15s</td>
+            <td>30 m</td>
           </tr>
           <tr>
             <td>1.5 m ▲ / 6 m ▶</td>
             <td>walk 2 m/s</td>
             <td>1 m/s / Bft 5 / dive 30s</td>
+            <td>60 m</td>
           </tr>
           <tr>
             <td>2 m ▲ / 8 m ▶</td>
             <td>walk 3 m/s</td>
             <td>1.5 m/s / Bft 7 / dive 60s</td>
-          </tr>
-          <tr>
-            <th>Level</th>
-            <th>Throwing</th>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>10 m</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>30 m</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>60 m</td>
-          </tr>
-          <tr>
-            <td>30</td>
             <td>100 m</td>
           </tr>
         </table>
-        <h3 id="craft">Craft &amp; Lore</h3>
         <table>
           <tr>
             <th>Level</th>
