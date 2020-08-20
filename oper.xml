@@ -287,7 +287,7 @@
           <em>j</em> be the bonus (or penalty). Then each field in the
           table is caclulated as
         </p>
-        <math>
+        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
           <munderover>
             <mo>&#8721;</mo>
             <mn>k = j - i - 1</mn>
