@@ -289,7 +289,7 @@
         </p>
         <math>
           <munderover>
-            <mo>&sum;</mo>
+            <mo>&#8721;</mo>
             <mn>k = j - i - 1</mn>
             <mn>j</mn>
           </munderover>
