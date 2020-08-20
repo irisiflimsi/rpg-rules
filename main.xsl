@@ -25,6 +25,9 @@
 
   <xsl:template match="table">
     <table>
+      <xsl:copy>
+        <xsl:apply-templates select="@*" />
+      </xsl:copy>
       <caption>
         <xsl:text>Table&#160;</xsl:text>
         <xsl:number level="any"/>
