@@ -411,86 +411,81 @@
           Class</em>, which should be treated as separate skills.
         </p>
         <h3 id="SkillExanplea">Examples</h3>
+        <p>
+          The rows are for levels <em>0, 10, 20, and 30.
         <table>
           <tr>
-            <th>Level</th>
+            <th colspan="4">Communication</th>
+            <th colspan="3">Physical</th>
+          </tr>
+          <tr>
             <th>Acting</th>
             <th>Lovecraft</th>
             <th>Musician / Singing</th>
             <th>Oratory / Rhetoric</th>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>play self</td>
-            <td>instinctive</td>
-            <td>Simple, child's songs</td>
-            <td>Speech</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>play archetype</td>
-            <td>experienced</td>
-            <td>General, ritual songs</td>
-            <td>People listen to you</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>play individual</td>
-            <td>professional</td>
-            <td>Artistic songs</td>
-            <td>People consider you</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>play original</td>
-            <td>elite/exotic</td>
-            <td>Unique songs</td>
-            <td>People cannot deny you</td>
-          </tr>
-        </table>
-        <h3 id="phys">Physical</h3>
-        <table>
-          <tr>
-            <th>Level</th>
             <th>Acrobatics</th>
             <th>Climbing</th>
             <th>Dancing</th>
+          </tr>
+          <tr>
+            <td>Play self</td>
+            <td>Instinctive</td>
+            <td>Simple, child's songs</td>
+            <td>Speech</td>
+            <td>No tricks / 1x speed</td>
+            <td>30° / 1/4 m/s</td>
+            <td>Rhythmic Move</td>
+          </tr>
+          <tr>
+            <td>Play archetype</td>
+            <td>Experienced</td>
+            <td>General, ritual songs</td>
+            <td>People listen to you</td>
+            <td>Simple tricks / 2x</td>
+            <td>60° / 1/2 m/s</td>
+            <td>Simple, folk dance</td>
+          </tr>
+          <tr>
+            <td>Play individual</td>
+            <td>Professional</td>
+            <td>Artistic songs</td>
+            <td>People consider you</td>
+            <td>Complex tricks / 3x</td>
+            <td>90° / 1 m/s</td>
+            <td>Complex, ritual dance</td>
+          </tr>
+          <tr>
+            <td>Play original</td>
+            <td>Elite/exotic</td>
+            <td>Unique songs</td>
+            <td>People cannot deny you</td>
+            <td>Original tricks / 4x</td>
+            <td>120° / 2 m/s</td>
+            <td>Original dance</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
             <th>Jumping</th>
             <th>Skiing</th>
             <th>Swimming</th>
           </tr>
           <tr>
-            <td>0</td>
-            <td>No tricks / 1x speed</td>
-            <td>30° / 1/4 m/s</td>
-            <td>Rhythmic Move</td>
             <td>0,5 m ▲ / 2 m ▶</td>
             <td>walk 0.5 m/s</td>
             <td>0.1 m/s / Bft 1 / dive 5s</td>
           </tr>
           <tr>
-            <td>10</td>
-            <td>Simple tricks / 2x</td>
-            <td>60° / 1/2 m/s</td>
-            <td>Simple, folk dance</td>
             <td>1 m ▲ / 4 m ▶</td>
             <td>walk 1.5 m/s</td>
             <td>0.6 m/s / Bft 3 / dive 15s</td>
           </tr>
           <tr>
-            <td>20</td>
-            <td>Complex tricks / 3x</td>
-            <td>90° / 1 m/s</td>
-            <td>Complex, ritual dance</td>
             <td>1.5 m ▲ / 6 m ▶</td>
             <td>walk 2 m/s</td>
             <td>1 m/s / Bft 5 / dive 30s</td>
           </tr>
           <tr>
-            <td>30</td>
-            <td>Original tricks / 4x</td>
-            <td>120° / 2 m/s</td>
-            <td>Original dance</td>
             <td>2 m ▲ / 8 m ▶</td>
             <td>walk 3 m/s</td>
             <td>1.5 m/s / Bft 7 / dive 60s</td>
