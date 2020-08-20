@@ -288,15 +288,14 @@
           table is caclulated as
         </p>
         <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-          <munderover>
-            <mo>&#8721;</mo>
-            <mn>k = j - i - 1</mn>
-            <mn>j</mn>
-          </munderover>
+          <munderover><mo>&#8721;</mo><mn>k = 1</mn><mn>j</mn></munderover>
           <mfrac>
             <mrow><mn>(5/4)</mn><mi>(9/4)</mi></mrow>
             <mrow><mn>9/4</mn><mo>−</mo><msup><mi>(4/5)</mi><mn>k</mn></msup></mrow>
           </mfrac>
+          <mn> + </mn>
+          <munderover><mo>&#8721;</mo><mn>k = 0</mn><mn>i - j - 1</mn></munderover>
+          <mn>(9/4)</mn><mo></mo><msup><mi>(5/4)</mi><mn>k</mn></msup>
         </math>
         <p>
           For career development, take the sum of the number of all SBs
