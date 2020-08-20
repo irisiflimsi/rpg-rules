@@ -24,16 +24,14 @@
   </xsl:template>
 
   <xsl:template match="table">
-    <table>
-      <xsl:copy>
-        <xsl:apply-templates select="@*" />
-      </xsl:copy>
+    <xsl:element name="table">
+      <xsl:apply-templates select="@*" />
       <caption>
         <xsl:text>Table&#160;</xsl:text>
         <xsl:number level="any"/>
       </caption>
       <xsl:apply-templates select="tr"/>
-    </table>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="d100"><em>d100</em></xsl:template>
