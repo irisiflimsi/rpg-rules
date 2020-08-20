@@ -467,8 +467,8 @@
         </p>
         <table>
           <tr>
-            <th colspan="4"><em>Communication</em></th>
-            <th colspan="3"><em>Physical</em></th>
+            <th style="padding: 6px 10px" colspan="4">Communication</th>
+            <th style="padding: 6px 10px" colspan="3">Physical</th>
           </tr>
           <tr>
             <th>Acting</th>
@@ -519,8 +519,8 @@
           <tr><th colspan="7"></th></tr>
           <tr><th colspan="7"></th></tr>
           <tr>
-            <th colspan="4"><em>Phyiscal</em></th>
-            <th colspan="3"><em>Craft &amp; Lore</em></th>
+            <th style="padding: 6px 10px" colspan="4">Phyiscal</th>
+            <th style="padding: 6px 10px" colspan="3">Craft &amp; Lore</th>
           </tr>
           <tr>
             <th>Jumping</th>
