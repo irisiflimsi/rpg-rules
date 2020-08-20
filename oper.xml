@@ -282,6 +282,12 @@
           </tr>
         </table>
         <p>
+          Extending the table is relatively easy for the mathematically
+          inclined. Denote the row <em>index</em> by <em>i</em> and let
+          <em>j</em> be the bonus (or penalty). Then each field in the
+          table is caclulated as <em>f<sup>ij</sup>=sum_{k=j}^i 
+        </p>
+        <p>
           For career development, take the sum of the number of all SBs
           (e.g. SB/2 and SB/3 would be 5) for a career.  Now take the
           duration of learning for that career in months (e.g. 4 years) and
