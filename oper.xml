@@ -286,18 +286,18 @@
           inclined. Denote the row <em>index</em> by <em>i</em> and let
           <em>j</em> be the bonus (or penalty). Then each field in the
           table is caclulated as
-          <math>
-            <munderover>
-              <mo>&sum;</mo>
-              <mn>k = j - i - 1</mn>
-              <mn>j</mn>
-            </munderover>
-            <mfrac>
-              <mrow><mn>(5/4)</mn><mi>(9/4)</mi></mrow>
-              <mrow><mn>9/4</mn><mo>−</mo><msup><mi>(4/5)</mi><mn>k</mn></msup></mrow>
-            </mfrac>
-          </math>
         </p>
+        <math>
+          <munderover>
+            <mo>&sum;</mo>
+            <mn>k = j - i - 1</mn>
+            <mn>j</mn>
+          </munderover>
+          <mfrac>
+            <mrow><mn>(5/4)</mn><mi>(9/4)</mi></mrow>
+            <mrow><mn>9/4</mn><mo>−</mo><msup><mi>(4/5)</mi><mn>k</mn></msup></mrow>
+          </mfrac>
+        </math>
         <p>
           For career development, take the sum of the number of all SBs
           (e.g. SB/2 and SB/3 would be 5) for a career.  Now take the
