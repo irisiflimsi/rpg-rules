@@ -412,7 +412,8 @@
         </p>
         <h3 id="SkillExanplea">Examples</h3>
         <p>
-          The rows are for levels <em>0, 10, 20, and 30.
+          The rows are for levels <em>0, 10, 20,</em> and <em>30</em>.
+        </p>
         <table>
           <tr>
             <th colspan="4">Communication</th>
