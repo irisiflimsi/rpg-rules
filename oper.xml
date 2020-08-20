@@ -467,8 +467,8 @@
         </p>
         <table>
           <tr>
-            <th colspan="4">Communication</th>
-            <th colspan="3">Physical</th>
+            <th colspan="4"><em>Communication</em></th>
+            <th colspan="3"><em>Physical</em></th>
           </tr>
           <tr>
             <th>Acting</th>
@@ -515,86 +515,86 @@
             <td>120° / 2 m/s</td>
             <td>Original dance</td>
           </tr>
+          <tr><th colspan="7"></th></tr>
+          <tr><th colspan="7"></th></tr>
+          <tr><th colspan="7"></th></tr>
           <tr>
-            <th colspan="7"></th>
-          </tr>
-          <tr>
-            <th colspan="4">Phyiscal</th>
-            <th colspan="3">Craft &amp; Lore</th>
+            <th colspan="4"><em>Phyiscal</em></th>
+            <th colspan="3"><em>Craft &amp; Lore</em></th>
           </tr>
           <tr>
             <th>Jumping</th>
             <th>Skiing</th>
             <th>Swimming</th>
             <th>Throwing</th>
+            <th>Agriculture / Fishing / Foraging / Milling</th>
+            <th>Alchemy / Perfumery</th>
+            <th>Animalcraft</th>
           </tr>
           <tr>
             <td>0,5 m ▲ / 2 m ▶</td>
             <td>walk 0.5 m/s</td>
             <td>0.1 m/s / Bft 1 / dive 5s</td>
             <td>10 m</td>
+            <td>10% yield / 1 kind</td>
+            <td>1 compound</td>
+            <td>1 trick / INT 6</td>
           </tr>
           <tr>
             <td>1 m ▲ / 4 m ▶</td>
             <td>walk 1.5 m/s</td>
             <td>0.6 m/s / Bft 3 / dive 15s</td>
             <td>30 m</td>
+            <td>30% yield / 3 kind</td>
+            <td>3 compounds</td>
+            <td>3 tricks / INT 5</td>
           </tr>
           <tr>
             <td>1.5 m ▲ / 6 m ▶</td>
             <td>walk 2 m/s</td>
             <td>1 m/s / Bft 5 / dive 30s</td>
             <td>60 m</td>
+            <td>100% yield / 6 kind</td>
+            <td>10 compounds</td>
+            <td>10 tricks / INT 4</td>
           </tr>
           <tr>
             <td>2 m ▲ / 8 m ▶</td>
             <td>walk 3 m/s</td>
             <td>1.5 m/s / Bft 7 / dive 60s</td>
             <td>100 m</td>
+            <td>150% yield / 12 kind</td>
+            <td>30 compounds</td>
+            <td>30 tricks / INT 3</td>
           </tr>
         </table>
         <table>
           <tr>
             <th>Level</th>
-            <th>Agriculture / Fishing / Foraging / Milling</th>
-            <th>Alchemy / Perfumery</th>
-            <th>Animalcraft</th>
             <th>Astrology / Runecraft / Tarotry</th>
             <th>Brewing / Cookery / Masonry / Textilcraft</th>
             <th>Ceramics / Engineering / Hidework / Jewelcraft / Metalcraft / Weaponcraft / Woodcraft</th>
           </tr>
           <tr>
             <td>0</td>
-            <td>10% yield / 1 kind</td>
-            <td>1 compound</td>
-            <td>1 trick / INT 6</td>
             <td>1/10 correct / 360 days</td>
             <td>1 recipe</td>
             <td>Quality -1 / 0 recipes</td>
           </tr>
           <tr>
             <td>10</td>
-            <td>30% yield / 3 kind</td>
-            <td>3 compounds</td>
-            <td>3 tricks / INT 5</td>
             <td>1/6 correct / 60 days</td>
             <td>3 recipes</td>
             <td>Quality 0 / 1 recipe</td>
           </tr>
           <tr>
             <td>20</td>
-            <td>100% yield / 6 kind</td>
-            <td>10 compounds</td>
-            <td>10 tricks / INT 4</td>
             <td>1/3 correct / 10 days</td>
             <td>10 recipes</td>
             <td>Quality 1.5 / 3 recipes</td>
           </tr>
           <tr>
             <td>30</td>
-            <td>150% yield / 12 kind</td>
-            <td>30 compounds</td>
-            <td>30 tricks / INT 3</td>
             <td>1 correct / 2 days</td>
             <td>30 recipes</td>
             <td>Quality 3 / 10 recipes</td>
