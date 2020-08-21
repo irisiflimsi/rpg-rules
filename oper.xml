@@ -511,7 +511,7 @@
           <tr><th colspan="6"></th></tr>
           <tr>
             <th>Acrobatics</th>
-            <td>No tricks / 1x speed</td>
+            <td><table><tr><td>No tricks</td><td>1x speed</td></tr></table></td>
             <td>Simple tricks / 2x</td>
             <td>Complex tricks / 3x</td>
             <td>Original tricks / 4x</td>
@@ -693,18 +693,18 @@
             <td>Involvement / Religion</td>
           </tr>
           <tr>
-            <th>Mathematics</th>
-            <td>Single digits</td>
-            <td>Multiple digits</td>
-            <td>Abstractions</td>
-            <td>Unique Insights</td>
-          </tr>
-          <tr>
             <th>Masonry</th>
             <td>1 recipe</td>
             <td>3 recipes</td>
             <td>10 recipes</td>
             <td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Mathematics</th>
+            <td>Single digits</td>
+            <td>Multiple digits</td>
+            <td>Abstractions</td>
+            <td>Unique Insights</td>
           </tr>
           <tr>
             <th>Metalcraft</th>
