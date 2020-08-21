@@ -462,111 +462,106 @@
           Class</em>, which should be treated as separate skills.
         </p>
         <h3 id="SkillExanplea">Examples</h3>
-        <p>
-          The rows are for levels <em>0, 10, 20,</em> and <em>30</em>.
-        </p>
         <table>
           <tr>
-            <th colspan="6">Communication</th>
+            <th></th><th>0</th><th>10</th><th>20</th><th>30</th>
           </tr>
-          <tr><th colspan="6"></th></tr>
           <tr>
             <th>Acting</th>
-            <th>Lovecraft</th>
-            <th>Musician</th>
-            <th>Oratory</th>
-            <th>Rhetoric</th>
-            <th>Singing</th>
-          </tr>
-          <tr>
             <td>Play self</td>
-            <td>Instinctive</td>
-            <td>Simple, child's songs</td>
-            <td>Speech</td>
-            <td>Speech</td>
-            <td>Simple, child's songs</td>
-          </tr>
-          <tr>
             <td>Play archetype</td>
-            <td>Experienced</td>
-            <td>General, ritual songs</td>
-            <td>People listen to you</td>
-            <td>People listen to you</td>
-            <td>General, ritual songs</td>
-          </tr>
-          <tr>
             <td>Play individual</td>
-            <td>Professional</td>
-            <td>Artistic songs</td>
-            <td>People consider you</td>
-            <td>People consider you</td>
-            <td>Artistic songs</td>
-          </tr>
-          <tr>
             <td>Play original</td>
+          </tr>
+          <tr>
+            <th>Lovecraft</th>
+            <td>Instinctive</td>
+            <td>Experienced</td>
+            <td>Professional</td>
             <td>Elite/exotic</td>
-            <td>Unique songs</td>
-            <td>People cannot deny you</td>
-            <td>People cannot deny you</td>
+          </tr>
+          <tr>
+            <th>Musician</th>
+            <td>Simple, child's songs</td>
+            <td>General, ritual songs</td>
+            <td>Artistic songs</td>
             <td>Unique songs</td>
           </tr>
           <tr>
-            <th style="background:white" colspan="6">Blank</th>
+            <th>Oratory</th>
+            <td>Speech</td>
+            <td>People listen to you</td>
+            <td>People consider you</td>
+            <td>People cannot deny you</td>
           </tr>
           <tr>
-            <th colspan="6">Phyiscal</th>
+            <th>Rhetoric</th>
+            <td>Speech</td>
+            <td>People listen to you</td>
+            <td>People consider you</td>
+            <td>People cannot deny you</td>
+          </tr>
+          <tr>
+            <th>Singing</th>
+            <td>Simple, child's songs</td>
+            <td>General, ritual songs</td>
+            <td>Artistic songs</td>
+            <td>Unique songs</td>
           </tr>
           <tr><th colspan="6"></th></tr>
           <tr>
             <th>Acrobatics</th>
-            <th>Climbing</th>
-            <th>Dancing</th>
-            <th>Jumping</th>
-            <th>Skiing</th>
-            <th>Swimming</th>
-          </tr>
-          <tr>
             <td>No tricks / 1x speed</td>
-            <td>30° / 1/4 m/s</td>
-            <td>Rhythmic Move</td>
-            <td>0,5 m ▲ / 2 m ▶</td>
-            <td>walk 0.5 m/s</td>
-            <td>0.1 m/s / Bft 1 / dive 5s</td>
-          </tr>
-          <tr>
             <td>Simple tricks / 2x</td>
-            <td>60° / 1/2 m/s</td>
-            <td>Simple, folk dance</td>
-            <td>1 m ▲ / 4 m ▶</td>
-            <td>walk 1.5 m/s</td>
-            <td>0.6 m/s / Bft 3 / dive 15s</td>
-          </tr>
-          <tr>
             <td>Complex tricks / 3x</td>
-            <td>90° / 1 m/s</td>
-            <td>Complex, ritual dance</td>
-            <td>1.5 m ▲ / 6 m ▶</td>
-            <td>walk 2 m/s</td>
-            <td>1 m/s / Bft 5 / dive 30s</td>
+            <td>Original tricks / 4x</td>
           </tr>
           <tr>
-            <td>Original tricks / 4x</td>
+            <th>Climbing</th>
+            <td>30° / 1/4 m/s</td>
+            <td>60° / 1/2 m/s</td>
+            <td>90° / 1 m/s</td>
             <td>120° / 2 m/s</td>
+          </tr>
+          <tr>
+            <th>Dancing</th>
+            <td>Rhythmic Move</td>
+            <td>Simple, folk dance</td>
+            <td>Complex, ritual dance</td>
             <td>Original dance</td>
+          </tr>
+          <tr>
+            <th>Jumping</th>
+            <td>0,5 m ▲ / 2 m ▶</td>
+            <td>1 m ▲ / 4 m ▶</td>
+            <td>1.5 m ▲ / 6 m ▶</td>
             <td>2 m ▲ / 8 m ▶</td>
+          </tr>
+          <tr>
+            <th>Skiing</th>
+            <td>walk 0.5 m/s</td>
+            <td>walk 1.5 m/s</td>
+            <td>walk 2 m/s</td>
             <td>walk 3 m/s</td>
+          </tr>
+          <tr>
+            <th>Swimming</th>
+            <td>0.1 m/s / Bft 1 / dive 5s</td>
+            <td>0.6 m/s / Bft 3 / dive 15s</td>
+            <td>1 m/s / Bft 5 / dive 30s</td>
             <td>1.5 m/s / Bft 7 / dive 60s</td>
           </tr>
           <tr>
-            <th style="background:white" colspan="6">Blank</th>
-          </tr>
-          <tr>
-            <th colspan="1">Physical</th>
-            <th colspan="5">Craft &amp; Lore</th>
+            <th>Throwing</th>
+            <td>10 m</td>
+            <td>30 m</td>
+            <td>60 m</td>
+            <td>100 m</td>
           </tr>
           <tr><th colspan="6"></th></tr>
+        </table>
+        <table>
           <tr>
-            <th>Throwing</th>
             <th>Agriculture</th>
             <th>Alchemy / Perfumery</th>
             <th>Animalcraft</th>
@@ -574,7 +569,6 @@
             <th>Brewing / Masonry / Textilcraft</th>
           </tr>
           <tr>
-            <td>10 m</td>
             <td>10% yield / 1 kind</td>
             <td>1 compound</td>
             <td>1 trick / INT 6</td>
@@ -582,7 +576,6 @@
             <td>1 recipe</td>
           </tr>
           <tr>
-            <td>30 m</td>
             <td>30% yield / 3 kind</td>
             <td>3 compounds</td>
             <td>3 tricks / INT 5</td>
@@ -590,7 +583,6 @@
             <td>3 recipes</td>
           </tr>
           <tr>
-            <td>60 m</td>
             <td>100% yield / 6 kind</td>
             <td>10 compounds</td>
             <td>10 tricks / INT 4</td>
@@ -598,7 +590,6 @@
             <td>10 recipes</td>
           </tr>
           <tr>
-            <td>100 m</td>
             <td>150% yield / 12 kind</td>
             <td>30 compounds</td>
             <td>30 tricks / INT 3</td>
@@ -699,8 +690,6 @@
             <td>30 active / 100% passive</td>
             <td>Quality 3 / 10 recipes</td>
           </tr>
-        </table>
-        <table>
           <tr>
             <th>Level</th>
             <th>Jewelcraft</th>
