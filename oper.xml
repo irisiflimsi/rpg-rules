@@ -596,13 +596,14 @@
           </tr>
           <tr>
             <th>Ceramics</th>
-            <td>1 recipe</td>
+            <td>Quality -1 / 0 recipes</td>
             <td>Quality 0 / 1 recipe</td>
             <td>Quality 1.5 / 3 recipes</td>
             <td>Quality 3 / 10 recipes</td>
           </tr>
           <tr>
             <th>Cookery</th>
+            <td>1 recipe</td>
             <td>3 recipes</td>
             <td>10 recipes</td>
             <td>30 recipes</td>
@@ -678,6 +679,27 @@
             <td>Quality 3 / 10 recipes</td>
           </tr>
           <tr>
+            <th>Jewelcraft</th>
+            <td>Quality -1 / 0 recipes</td>
+            <td>Quality 0 / 1 recipe</td>
+            <td>Quality 1.5 / 3 recipes</td>
+            <td>Quality 3 / 10 recipes</td>
+          </tr>
+          <tr>
+            <th>Law</th>
+            <td>Ignore / Local</td>
+            <td>Notice / Feudal</td>
+            <td>Consideration / Guild</td>
+            <td>Involvement / Religion</td>
+          </tr>
+          <tr>
+            <th>Mathematics</th>
+            <td>Single digits</td>
+            <td>Multiple digits</td>
+            <td>Abstractions</td>
+            <td>Unique Insights</td>
+          </tr>
+          <tr>
             <th>Masonry</th>
             <td>1 recipe</td>
             <td>3 recipes</td>
@@ -693,10 +715,10 @@
           </tr>
           <tr>
             <th>Milling</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>60% yield</td>
-            <td>100% yield</td>
+            <td>10% yield / 1 kind</td>
+            <td>30% yield / 3 kind</td>
+            <td>100% yield / 6 kind</td>
+            <td>150% yield / 12 kind</td>
           </tr>
           <tr>
             <th>Perfumery</th>
@@ -706,6 +728,13 @@
             <td>30 compounds</td>
           </tr>
           <tr>
+            <th>Physician</th>
+            <td>HR-0</td>
+            <td>HR-1</td>
+            <td>HR-2</td>
+            <td>HR-3</td>
+          </tr>
+          <tr>
             <th>Piloting</th>
             <td>10% yield</td>
             <td>30% yield</td>
@@ -713,11 +742,46 @@
             <td>100% yield</td>
           </tr>
           <tr>
+            <th>Riding</th>
+            <td>Schitt / 2 h</td>
+            <td>Trab / 4 h</td>
+            <td>Galopp / 6 h</td>
+            <td>Sprung / 8 h</td>
+          </tr>
+          <tr>
+            <th>Ritual</th>
+            <td>1 second</td>
+            <td>1 minute</td>
+            <td>1 hour</td>
+            <td>5 days</td>
+          </tr>
+          <tr>
             <th>Runecraft</th>
             <td>1/10 correct / 360 days</td>
             <td>1/6 correct / 60 days</td>
             <td>1/3 correct / 10 days</td>
             <td>1 correct / 2 days</td>
+          </tr>
+          <tr>
+            <th>Seamanship</th>
+            <td>Coracle</td>
+            <td>Dingy</td>
+            <td>Two-Master</td>
+            <td>Any ship</td>
+          </tr>
+          <tr>
+            <th>Shipwright</th>
+            <td>Coracle</td>
+            <td>Dingy</td>
+            <td>Two-Master</td>
+            <td>Any ship</td>
+          </tr>
+          <tr>
+            <th>Survival</th>
+            <td>Local conditions</td>
+            <td>Familiar conditions</td>
+            <td>Related conditions</td>
+            <td>Any conditions</td>
           </tr>
           <tr>
             <th>Tarotry</th>
@@ -734,11 +798,32 @@
             <td>30 recipes</td>
           </tr>
           <tr>
+            <th>Timbercraft</th>
+            <td>10% yield / 1 kind</td>
+            <td>30% yield / 3 kind</td>
+            <td>60% yield / 6 kind</td>
+            <td>100% yield / 12 kind</td>
+          </tr>
+          <tr>
+            <th>Tracking</th>
+            <td>Local conditions</td>
+            <td>Familiar conditions</td>
+            <td>Related conditions</td>
+            <td>Any conditions</td>
+          </tr>
+          <tr>
             <th>Weaponcraft</th>
             <td>1 recipe</td>
             <td>Quality 0 / 1 recipe</td>
             <td>Quality 1.5 / 3 recipes</td>
             <td>Quality 3 / 10 recipes</td>
+          </tr>
+          <tr>
+            <th>Weatherlore</th>
+            <td>20% accurate / 4 h</td>
+            <td>30% accurate / 8 h</td>
+            <td>60% / 24 h</td>
+            <td>100% / 1 week</td>
           </tr>
           <tr>
             <th>Woodcraft</th>
@@ -748,80 +833,8 @@
             <td>Quality 3 / 10 recipes</td>
           </tr>
         </table>
-        <table>
-          <tr>
-            <th>Level</th>
-            <th>Jewelcraft</th>
-            <th>Law</th>
-            <th>Mathematics</th>
-            <th>Milling</th>
-            <th>Seamanship / Shipwright</th>
-            <th>Survival / Tracking</th>
-            <th>Timbercraft</th>
-            <th>Weatherlore</th>
-            <th>Riding</th>
-            <th>Ritual</th>
-            <th>Physician</th>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>Quality -1 / 0 recipes</td>
-            <td>Ignore / Local</td>
-            <td>Single digits</td>
-            <td>10% yield / 1 kind</td>
-            <td>Coracle</td>
-            <td>Local conditions</td>
-            <td>10% yield / 1 kind</td>
-            <td>20% accurate / 4 h</td>
-            <td>Schitt / 2 h</td>
-            <td>1 second</td>
-            <td>HR-0</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Quality 0 / 1 recipe</td>
-            <td>Notice / Feudal</td>
-            <td>Multiple digits</td>
-            <td>30% yield / 3 kind</td>
-            <td>Dingy</td>
-            <td>Familiar conditions</td>
-            <td>30% yield / 3 kind</td>
-            <td>30% accurate / 8 h</td>
-            <td>Trab / 4 h</td>
-            <td>1 minute</td>
-            <td>HR-1</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>Quality 1.5 / 3 recipes</td>
-            <td>Consideration / Guild</td>
-            <td>Abstractions</td>
-            <td>100% yield / 6 kind</td>
-            <td>Two-Master</td>
-            <td>Related conditions</td>
-            <td>60% yield / 6 kind</td>
-            <td>60% / 24 h</td>
-            <td>Galopp / 6 h</td>
-            <td>1 hour</td>
-            <td>HR-2</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>Quality 3 / 10 recipes</td>
-            <td>Involvement / Religion</td>
-            <td>Unique Insights</td>
-            <td>150% yield / 12 kind</td>
-            <td>Any ship</td>
-            <td>Any conditions</td>
-            <td>100% yield / 12 kind</td>
-            <td>100% / 1 week</td>
-            <td>Sprung / 8 h</td>
-            <td>5 days</td>
-            <td>HR-3</td>
-          </tr>
-        </table>
         <h3 id="key">Attributes</h3>
-       <h4 id="str">Move</h4>
+        <h4 id="str">Move</h4>
         <table>
           <tr>
             <th>Level</th><td>-18</td><td>-16</td><td>-14</td><td>-12</td>
