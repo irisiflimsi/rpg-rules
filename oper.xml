@@ -467,187 +467,195 @@
         </p>
         <table>
           <tr>
-            <th style="padding: 6px 10px" colspan="4">Communication</th>
-            <th style="padding: 6px 10px" colspan="3">Physical</th>
+            <th style="padding: 6px 10px" colspan="6">Communication</th>
           </tr>
-          <tr><th colspan="7"></th></tr>
+          <tr><th colspan="6"></th></tr>
           <tr>
             <th>Acting</th>
             <th>Lovecraft</th>
-            <th>Musician / Singing</th>
-            <th>Oratory / Rhetoric</th>
-            <th>Acrobatics</th>
-            <th>Climbing</th>
-            <th>Dancing</th>
+            <th>Musician</th>
+            <th>Oratory</th>
+            <th>Rhetoric/th>
+            <th>Singing<</th>
           </tr>
           <tr>
             <td>Play self</td>
             <td>Instinctive</td>
             <td>Simple, child's songs</td>
             <td>Speech</td>
-            <td>No tricks / 1x speed</td>
-            <td>30° / 1/4 m/s</td>
-            <td>Rhythmic Move</td>
+            <td>Speech</td>
+            <td>Simple, child's songs</td>
           </tr>
           <tr>
             <td>Play archetype</td>
             <td>Experienced</td>
             <td>General, ritual songs</td>
             <td>People listen to you</td>
-            <td>Simple tricks / 2x</td>
-            <td>60° / 1/2 m/s</td>
-            <td>Simple, folk dance</td>
+            <td>People listen to you</td>
+            <td>General, ritual songs</td>
           </tr>
           <tr>
             <td>Play individual</td>
             <td>Professional</td>
             <td>Artistic songs</td>
             <td>People consider you</td>
-            <td>Complex tricks / 3x</td>
-            <td>90° / 1 m/s</td>
-            <td>Complex, ritual dance</td>
+            <td>People consider you</td>
+            <td>Artistic songs</td>
           </tr>
           <tr>
             <td>Play original</td>
             <td>Elite/exotic</td>
             <td>Unique songs</td>
             <td>People cannot deny you</td>
-            <td>Original tricks / 4x</td>
-            <td>120° / 2 m/s</td>
-            <td>Original dance</td>
+            <td>People cannot deny you</td>
+            <td>Unique songs</td>
           </tr>
           <tr>
-            <th style="background:white" colspan="7">Blank</th>
+            <th style="background:white" colspan="6">Blank</th>
           </tr>
           <tr>
-            <th style="padding: 6px 10px" colspan="4">Phyiscal</th>
-            <th style="padding: 6px 10px" colspan="3">Craft &amp; Lore</th>
+            <th style="padding: 6px 10px" colspan="6">Phyiscal</th>
           </tr>
-          <tr><th colspan="7"></th></tr>
+          <tr><th colspan="6"></th></tr>
           <tr>
+            <th>Acrobatics</th>
+            <th>Climbing</th>
+            <th>Dancing</th>
             <th>Jumping</th>
             <th>Skiing</th>
             <th>Swimming</th>
+          </tr>
+          <tr>
+            <td>No tricks / 1x speed</td>
+            <td>30° / 1/4 m/s</td>
+            <td>Rhythmic Move</td>
+            <td>0,5 m ▲ / 2 m ▶</td>
+            <td>walk 0.5 m/s</td>
+            <td>0.1 m/s / Bft 1 / dive 5s</td>
+          </tr>
+          <tr>
+            <td>Simple tricks / 2x</td>
+            <td>60° / 1/2 m/s</td>
+            <td>Simple, folk dance</td>
+            <td>1 m ▲ / 4 m ▶</td>
+            <td>walk 1.5 m/s</td>
+            <td>0.6 m/s / Bft 3 / dive 15s</td>
+          </tr>
+          <tr>
+            <td>Complex tricks / 3x</td>
+            <td>90° / 1 m/s</td>
+            <td>Complex, ritual dance</td>
+            <td>1.5 m ▲ / 6 m ▶</td>
+            <td>walk 2 m/s</td>
+            <td>1 m/s / Bft 5 / dive 30s</td>
+          </tr>
+          <tr>
+            <td>Original tricks / 4x</td>
+            <td>120° / 2 m/s</td>
+            <td>Original dance</td>
+            <td>2 m ▲ / 8 m ▶</td>
+            <td>walk 3 m/s</td>
+            <td>1.5 m/s / Bft 7 / dive 60s</td>
+          </tr>
+          <tr>
+            <th style="background:white" colspan="6">Blank</th>
+          </tr>
+          <tr>
+            <th style="padding: 6px 10px" colspan="1">Physical</th>
+            <th style="padding: 6px 10px" colspan="5">Craft &amp; Lore</th>
+          </tr>
+          <tr>
             <th>Throwing</th>
             <th>Agriculture / Fishing / Foraging / Milling</th>
             <th>Alchemy / Perfumery</th>
             <th>Animalcraft</th>
+            <th>Astrology / Runecraft / Tarotry</th>
+            <th>Brewing / Masonry / Textilcraft</th>
           </tr>
           <tr>
-            <td>0,5 m ▲ / 2 m ▶</td>
-            <td>walk 0.5 m/s</td>
-            <td>0.1 m/s / Bft 1 / dive 5s</td>
             <td>10 m</td>
             <td>10% yield / 1 kind</td>
             <td>1 compound</td>
             <td>1 trick / INT 6</td>
+            <td>1/10 correct / 360 days</td>
+            <td>1 recipe</td>
           </tr>
           <tr>
-            <td>1 m ▲ / 4 m ▶</td>
-            <td>walk 1.5 m/s</td>
-            <td>0.6 m/s / Bft 3 / dive 15s</td>
             <td>30 m</td>
             <td>30% yield / 3 kind</td>
             <td>3 compounds</td>
             <td>3 tricks / INT 5</td>
+            <td>1/6 correct / 60 days</td>
+            <td>3 recipes</td>
           </tr>
           <tr>
-            <td>1.5 m ▲ / 6 m ▶</td>
-            <td>walk 2 m/s</td>
-            <td>1 m/s / Bft 5 / dive 30s</td>
+            <td>1/3 correct / 10 days</td>
+            <td>10 recipes</td>
+            <td>Quality 1.5 / 3 recipes</td>
+            <td>10 recipes</td>
+            <td>Different Styles</td>
+            <td>1/10x decay speed</td>
+          </tr>
+          <tr>
+            <td>1 correct / 2 days</td>
+            <td>30 recipes</td>
+            <td>Quality 3 / 10 recipes</td>
+            <td>30 recipes</td>
+            <td>Forgery possible</td>
+            <td>1/60x decay speed</td>
+          </tr>
+          <tr>
+            <th style="background:white" colspan="6">Blank</th>
+          </tr>
+          <tr>
+            <th style="padding: 6px 10px" colspan="6">Craft &amp; Lore</th>
+          </tr>
+          <tr>
+            <th>Ceramics / Hidework / Jewelcraft / Metalcraft / Weaponcraft / Woodcraft</th>
+            <th>Cookery</th>
+            <th>Drawing</th>
+            <th>Embalming</th>
+            <th>Engineering</th>
+            <th>Fletching / Milling / Piloting</th>
+          </tr>
+          <tr>
+            <td>Quality -1 / 0 recipes</td>
+            <td>Simple strokes</td>
+            <td>1 recipe</td>
+            <td>1x decay speed</td>
+            <td>Quality -1 / 0 recipes</td>
+            <td>10% yield</td>
+          </tr>
+          <tr>
+            <td>Quality 0 / 1 recipe</td>
+            <td>3 recipes</td>
+            <td>Draw/Paint</td>
+            <td>1/3x decay speed</td>
+            <td>Quality 0 / 1 recipe</td>
+            <td>30% yield</td>
+          </tr>
+          <tr>
+            <td>Quality 1.5 / 3 recipes</td>
             <td>60 m</td>
             <td>100% yield / 6 kind</td>
             <td>10 compounds</td>
             <td>10 tricks / INT 4</td>
+            <td>60% yield</td>
           </tr>
           <tr>
-            <td>2 m ▲ / 8 m ▶</td>
-            <td>walk 3 m/s</td>
-            <td>1.5 m/s / Bft 7 / dive 60s</td>
+            <td>Quality 3 / 10 recipes</td>
             <td>100 m</td>
             <td>150% yield / 12 kind</td>
             <td>30 compounds</td>
             <td>30 tricks / INT 3</td>
+            <td>100% yield</td>
           </tr>
         </table>
         <table>
           <tr>
-            <th>Level</th>
-            <th>Astrology / Runecraft / Tarotry</th>
-            <th>Brewing / Cookery / Masonry / Textilcraft</th>
-            <th>Ceramics / Engineering / Hidework / Jewelcraft / Metalcraft / Weaponcraft / Woodcraft</th>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>1/10 correct / 360 days</td>
-            <td>1 recipe</td>
-            <td>Quality -1 / 0 recipes</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>1/6 correct / 60 days</td>
-            <td>3 recipes</td>
-            <td>Quality 0 / 1 recipe</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>1/3 correct / 10 days</td>
-            <td>10 recipes</td>
-            <td>Quality 1.5 / 3 recipes</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>1 correct / 2 days</td>
-            <td>30 recipes</td>
-            <td>Quality 3 / 10 recipes</td>
-          </tr>
-          <tr>
-            <th>Level</th>
-            <th>Drawing</th>
-            <th>Embalming</th>
-            <th>Fletching / Milling / Piloting</th>
             <th>Folklore</th>
             <th>Heraldry, Herblore</th>
             <th>Law</th>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>Simple strokes</td>
-            <td>1x decay speed</td>
-            <td>10% yield</td>
-            <td>Top myth / 10% known</td>
-            <td>1 active / 10% passive</td>
-            <td>Ignore / Local</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Draw/Paint</td>
-            <td>1/3x decay speed</td>
-            <td>30% yield</td>
-            <td>Great myths / 30% known</td>
-            <td>3 active / 30% passive</td>
-            <td>Notice / Feudal</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>Different Styles</td>
-            <td>1/10x decay speed</td>
-            <td>60% yield</td>
-            <td>Most myths / 60% known</td>
-            <td>10 active / 60% passive</td>
-            <td>Consideration / Guild</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>Forgery possible</td>
-            <td>1/60x decay speed</td>
-            <td>100% yield</td>
-            <td>All myths / 100% known</td>
-            <td>30 active / 100% passive</td>
-            <td>Involvement / Religion</td>
-          </tr>
-          <tr>
-            <th>Level</th>
             <th>Mathematics</th>
             <th>Seamanship / Shipwright</th>
             <th>Survival / Tracking</th>
@@ -656,7 +664,9 @@
             <th>Riding</th>
           </tr>
           <tr>
-            <td>0</td>
+            <td>Top myth / 10% known</td>
+            <td>1 active / 10% passive</td>
+            <td>Ignore / Local</td>
             <td>Single digits</td>
             <td>Coracle</td>
             <td>Local conditions</td>
@@ -665,7 +675,9 @@
             <td>Schitt / 2 h</td>
           </tr>
           <tr>
-            <td>10</td>
+            <td>Great myths / 30% known</td>
+            <td>3 active / 30% passive</td>
+            <td>Notice / Feudal</td>
             <td>Multiple digits</td>
             <td>Dingy</td>
             <td>Familiar conditions</td>
@@ -674,7 +686,9 @@
             <td>Trab / 4 h</td>
           </tr>
           <tr>
-            <td>20</td>
+            <td>Most myths / 60% known</td>
+            <td>10 active / 60% passive</td>
+            <td>Consideration / Guild</td>
             <td>Abstractions</td>
             <td>Two-Master</td>
             <td>Related conditions</td>
@@ -683,13 +697,15 @@
             <td>Galopp / 6 h</td>
           </tr>
           <tr>
-            <td>30</td>
             <td>Unique Insights</td>
             <td>Any ship</td>
             <td>Any conditions</td>
             <td>100% yield / 12 kind</td>
             <td>100% / 1 week</td>
             <td>Sprung / 8 h</td>
+            <td>All myths / 100% known</td>
+            <td>30 active / 100% passive</td>
+            <td>Involvement / Religion</td>
           </tr>
           <tr>
             <th>Level</th>
