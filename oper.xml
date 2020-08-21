@@ -514,13 +514,14 @@
           </tr>
           <tr><th colspan="6"></th></tr>
           <tr>
-            <th rowspan="2">Acrobatics</th>
+            <th>Acrobatics (I)</th>
             <td>No tricks</td>
             <td>Simple tricks</td>
             <td>Complex tricks</td>
             <td>Original tricks</td>
           </tr>
           <tr>
+            <th>Acrobatics (II)</th>
             <td>1x speed</td>
             <td>2x</td>
             <td>3x</td>
@@ -819,7 +820,7 @@
             <td>Unique Insights</td>
           </tr>
           <tr>
-            <th>Metalcraft</th>
+            <th rowspan="2">Metalcraft</th>
             <td>Quality -1</td>
             <td>Quality 0</td>
             <td>Quality 1.5</td>
