@@ -562,20 +562,20 @@
             <td colspan="2">60m</td>
             <td colspan="2">100 m</td>
           </tr>
-          <tr><th colspan="6"></th></tr>
+          <tr><th colspan="10"></th></tr>
           <tr>
             <th>Agriculture</th>
-            <td>10% yield / 1 kind</td>
-            <td>30% yield / 3 kind</td>
-            <td>100% yield / 6 kind</td>
-            <td>150% yield / 12 kind</td>
+            <td>10% yield</td><td>1 kind</td>
+            <td>30% yield</td><td>3 kind</td>
+            <td>100% yield</td><td>6 kind</td>
+            <td>150% yield</td><td>12 kind</td>
           </tr>
           <tr>
             <th>Alchemy</th>
-            <td>1 compound</td>
-            <td>3 compounds</td>
-            <td>10 compounds</td>
-            <td>30 compounds</td>
+            <td colspan="2">1 compound</td>
+            <td colspan="2">3 compounds</td>
+            <td colspan="2">10 compounds</td>
+            <td colspan="2">30 compounds</td>
           </tr>
           <tr>
             <th>Animalcraft</th>
