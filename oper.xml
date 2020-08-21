@@ -464,7 +464,11 @@
         <h3 id="SkillExanplea">Examples</h3>
         <table>
           <tr>
-            <th></th><th colspan="2">0</th><th>10</th><th>20</th><th>30</th>
+            <th></th>
+            <th colspan="2">0</th>
+            <th colspan="2">10</th>
+            <th colspan="2">20</th>
+            <th colspan="2">30</th>
           </tr>
           <tr>
             <th>Acting</th>
@@ -532,31 +536,31 @@
           </tr>
           <tr>
             <th>Jumping</th>
-            <td>0,5 m ▲ / 2 m ▶</td>
-            <td>1 m ▲ / 4 m ▶</td>
-            <td>1.5 m ▲ / 6 m ▶</td>
-            <td>2 m ▲ / 8 m ▶</td>
+            <td>0,5 m ▲</td><td>2 m ▶</td>
+            <td>1 m ▲</td><td>4 m ▶</td>
+            <td>1.5 m ▲</td><td>6 m ▶</td>
+            <td>2 m ▲</td><td>8 m ▶</td>
           </tr>
           <tr>
             <th>Skiing</th>
-            <td>walk 0.5 m/s</td>
-            <td>walk 1.5 m/s</td>
-            <td>walk 2 m/s</td>
-            <td>walk 3 m/s</td>
+            <td colspan="2">walk 0.5 m/s</td>
+            <td colspan="2">walk 1.5 m/s</td>
+            <td colspan="2">walk 2 m/s</td>
+            <td colspan="2">walk 3 m/s</td>
           </tr>
           <tr>
             <th>Swimming</th>
-            <td>0.1 m/s / Bft 1 / dive 5s</td>
-            <td>0.6 m/s / Bft 3 / dive 15s</td>
-            <td>1 m/s / Bft 5 / dive 30s</td>
-            <td>1.5 m/s / Bft 7 / dive 60s</td>
+            <td>0.1 m/s</td><td>dive 5s</td>
+            <td>0.6 m/s</td><td>dive 15s</td>
+            <td>1 m/s</td><td>dive 30s</td>
+            <td>1.5 m/s</td><td>dive 60s</td>
           </tr>
           <tr>
             <th>Throwing</th>
-            <td>10 m</td>
-            <td>30 m</td>
-            <td>60 m</td>
-            <td>100 m</td>
+            <td colspan="2">10 m</td>
+            <td colspan="2">30 m</td>
+            <td colspan="2">60m</td>
+            <td colspan="2">100 m</td>
           </tr>
           <tr><th colspan="6"></th></tr>
           <tr>
