@@ -567,7 +567,7 @@
             <td>150% yield / 12 kind</td>
           </tr>
           <tr>
-            <th>Alchemy / Perfumery</th>
+            <th>Alchemy</th>
             <td>1 compound</td>
             <td>3 compounds</td>
             <td>10 compounds</td>
@@ -581,21 +581,21 @@
             <td>30 tricks / INT 3</td>
           </tr>
           <tr>
-            <th>Astrology / Runecraft / Tarotry</th>
+            <th>Astrology</th>
             <td>1/10 correct / 360 days</td>
             <td>1/6 correct / 60 days</td>
             <td>1/3 correct / 10 days</td>
             <td>1 correct / 2 days</td>
           </tr>
           <tr>
-            <th>Brewing / Masonry / Textilcraft</th>
+            <th>Brewing</th>
             <td>1 recipe</td>
             <td>3 recipes</td>
             <td>10 recipes</td>
             <td>30 recipes</td>
           </tr>
           <tr>
-            <th>Ceramics / Metalcraft / Weaponcraft / Woodcraft</th>
+            <th>Ceramics</th>
             <td>1 recipe</td>
             <td>Quality 0 / 1 recipe</td>
             <td>Quality 1.5 / 3 recipes</td>
@@ -636,18 +636,11 @@
             <td>150% yield / 12 kind</td>
           </tr>
           <tr>
-            <th>Fletching / Milling / Piloting</th>
+            <th>Fletching</th>
             <td>10% yield</td>
             <td>30% yield</td>
             <td>60% yield</td>
             <td>100% yield</td>
-          </tr>
-          <tr>
-            <th>Foraging</th>
-            <td>10% yield / 1 kind</td>
-            <td>30% yield / 3 kind</td>
-            <td>100% yield / 6 kind</td>
-            <td>150% yield / 12 kind</td>
           </tr>
           <tr>
             <th>Folklore</th>
@@ -655,6 +648,13 @@
             <td>Great myths / 30% known</td>
             <td>Most myths / 60% known</td>
             <td>All myths / 100% known</td>
+          </tr>
+          <tr>
+            <th>Foraging</th>
+            <td>10% yield / 1 kind</td>
+            <td>30% yield / 3 kind</td>
+            <td>100% yield / 6 kind</td>
+            <td>150% yield / 12 kind</td>
           </tr>
           <tr>
             <th>Heraldry</th>
@@ -673,6 +673,76 @@
           <tr>
             <th>Hidework</th>
             <td>Quality -1 / 0 recipes</td>
+            <td>Quality 0 / 1 recipe</td>
+            <td>Quality 1.5 / 3 recipes</td>
+            <td>Quality 3 / 10 recipes</td>
+          </tr>
+          <tr>
+            <th>Masonry</th>
+            <td>1 recipe</td>
+            <td>3 recipes</td>
+            <td>10 recipes</td>
+            <td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Metalcraft</th>
+            <td>1 recipe</td>
+            <td>Quality 0 / 1 recipe</td>
+            <td>Quality 1.5 / 3 recipes</td>
+            <td>Quality 3 / 10 recipes</td>
+          </tr>
+          <tr>
+            <th>Milling</th>
+            <td>10% yield</td>
+            <td>30% yield</td>
+            <td>60% yield</td>
+            <td>100% yield</td>
+          </tr>
+          <tr>
+            <th>Perfumery</th>
+            <td>1 compound</td>
+            <td>3 compounds</td>
+            <td>10 compounds</td>
+            <td>30 compounds</td>
+          </tr>
+          <tr>
+            <th>Piloting</th>
+            <td>10% yield</td>
+            <td>30% yield</td>
+            <td>60% yield</td>
+            <td>100% yield</td>
+          </tr>
+          <tr>
+            <th>Runecraft</th>
+            <td>1/10 correct / 360 days</td>
+            <td>1/6 correct / 60 days</td>
+            <td>1/3 correct / 10 days</td>
+            <td>1 correct / 2 days</td>
+          </tr>
+          <tr>
+            <th>Tarotry</th>
+            <td>1/10 correct / 360 days</td>
+            <td>1/6 correct / 60 days</td>
+            <td>1/3 correct / 10 days</td>
+            <td>1 correct / 2 days</td>
+          </tr>
+          <tr>
+            <th>Textilcraft</th>
+            <td>1 recipe</td>
+            <td>3 recipes</td>
+            <td>10 recipes</td>
+            <td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Weaponcraft</th>
+            <td>1 recipe</td>
+            <td>Quality 0 / 1 recipe</td>
+            <td>Quality 1.5 / 3 recipes</td>
+            <td>Quality 3 / 10 recipes</td>
+          </tr>
+          <tr>
+            <th>Woodcraft</th>
+            <td>1 recipe</td>
             <td>Quality 0 / 1 recipe</td>
             <td>Quality 1.5 / 3 recipes</td>
             <td>Quality 3 / 10 recipes</td>
