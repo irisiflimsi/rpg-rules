@@ -465,124 +465,166 @@
         <table>
           <tr>
             <th></th>
-            <th colspan="2">0</th>
-            <th colspan="2">10</th>
-            <th colspan="2">20</th>
-            <th colspan="2">30</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
           </tr>
           <tr>
             <th>Acting</th>
-            <td colspan="2">Play self</td>
-            <td colspan="2">Play archetype</td>
-            <td colspan="2">Play individual</td>
-            <td colspan="2">Play original</td>
+            <td>Play self</td>
+            <td>Play archetype</td>
+            <td>Play individual</td>
+            <td>Play original</td>
           </tr>
           <tr>
             <th>Lovecraft</th>
-            <td colspan="2">Instinctive</td>
-            <td colspan="2">Experienced</td>
-            <td colspan="2">Professional</td>
-            <td colspan="2">Elite/exotic</td>
+            <td>Instinctive</td>
+            <td>Experienced</td>
+            <td>Professional</td>
+            <td>Elite/exotic</td>
           </tr>
           <tr>
             <th>Musician</th>
-            <td colspan="2">Simple, children songs</td>
-            <td colspan="2">General, ritual songs</td>
-            <td colspan="2">Artistic songs</td>
-            <td colspan="2">Unique songs</td>
+            <td>Simple, children songs</td>
+            <td>General, ritual songs</td>
+            <td>Artistic songs</td>
+            <td>Unique songs</td>
           </tr>
           <tr>
             <th>Oratory</th>
-            <td colspan="2">Speech</td>
-            <td colspan="2">People listen to you</td>
-            <td colspan="2">People consider you</td>
-            <td colspan="2">People cannot deny you</td>
+            <td>Speech</td>
+            <td>People listen to you</td>
+            <td>People consider you</td>
+            <td>People cannot deny you</td>
           </tr>
           <tr>
             <th>Rhetoric</th>
-            <td colspan="2">Speech</td>
-            <td colspan="2">People listen to you</td>
-            <td colspan="2">People consider you</td>
-            <td colspan="2">People cannot deny you</td>
+            <td>Speech</td>
+            <td>People listen to you</td>
+            <td>People consider you</td>
+            <td>People cannot deny you</td>
           </tr>
           <tr>
             <th>Singing</th>
-            <td colspan="2">Simple, child's songs</td>
-            <td colspan="2">General, ritual songs</td>
-            <td colspan="2">Artistic songs</td>
-            <td colspan="2">Unique songs</td>
+            <td>Simple, child's songs</td>
+            <td>General, ritual songs</td>
+            <td>Artistic songs</td>
+            <td>Unique songs</td>
           </tr>
-          <tr><th colspan="10"></th></tr>
+          <tr><th colspan="6"></th></tr>
           <tr>
-            <th>Acrobatics</th>
-            <td>No tricks</td><td>1x speed</td>
-            <td>Simple tricks</td><td>2x</td>
-            <td>Complex tricks</td><td>3x</td>
-            <td>Original tricks</td><td>4x</td>
+            <th rowspan="2">Acrobatics</th>
+            <td>No tricks</td>
+            <td>Simple tricks</td>
+            <td>Complex tricks</td>
+            <td>Original tricks</td>
           </tr>
           <tr>
-            <th>Climbing</th>
-            <td>30°</td><td>1/4 m/s</td>
-            <td>60°</td><td>1/2 m/s</td>
-            <td>90°</td><td>1 m/s</td>
-            <td>120°</td><td>2 m/s</td>
+            <td>1x speed</td>
+            <td>2x</td>
+            <td>3x</td>
+            <td>4x</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Climbing</th>
+            <td>30°</td>
+            <td>60°</td>
+            <td>90°</td>
+            <td>120°</td>
+          </tr>
+          <tr>
+            <td>1/4 m/s</td>
+            <td>1/2 m/s</td>
+            <td>1 m/s</td>
+            <td>2 m/s</td>
           </tr>
           <tr>
             <th>Dancing</th>
-            <td colspan="2">Rhythmic Move</td>
-            <td colspan="2">Simple, folk dance</td>
-            <td colspan="2">Complex, ritual dance</td>
-            <td colspan="2">Original dance</td>
+            <td>Rhythmic Move</td>
+            <td>Simple, folk dance</td>
+            <td>Complex, ritual dance</td>
+            <td>Original dance</td>
           </tr>
           <tr>
-            <th>Jumping</th>
-            <td>0,5 m ▲</td><td>2 m ▶</td>
-            <td>1 m ▲</td><td>4 m ▶</td>
-            <td>1.5 m ▲</td><td>6 m ▶</td>
-            <td>2 m ▲</td><td>8 m ▶</td>
+            <th rowspan="2">Jumping</th>
+            <td>0,5 m ▲</td>
+            <td>1 m ▲</td>
+            <td>1.5 m ▲</td>
+            <td>2 m ▲</td>
+          </tr>
+          <tr>
+            <td>8 m ▶</td>
+            <td>2 m ▶</td>
+            <td>4 m ▶</td>
+            <td>6 m ▶</td>
           </tr>
           <tr>
             <th>Skiing</th>
-            <td colspan="2">walk 0.5 m/s</td>
-            <td colspan="2">walk 1.5 m/s</td>
-            <td colspan="2">walk 2 m/s</td>
-            <td colspan="2">walk 3 m/s</td>
+            <td>0.5 m/s</td>
+            <td>1.5 m/s</td>
+            <td>2 m/s</td>
+            <td>3 m/s</td>
           </tr>
           <tr>
-            <th>Swimming</th>
-            <td>0.1 m/s</td><td>dive 5s</td>
-            <td>0.6 m/s</td><td>dive 15s</td>
-            <td>1 m/s</td><td>dive 30s</td>
-            <td>1.5 m/s</td><td>dive 60s</td>
+            <th rowspan="3">Swimming</th>
+            <td>0.1 m/s</td>
+            <td>0.6 m/s</td>
+            <td>1 m/s</td>
+            <td>1.5 m/s</td>
+          </tr>
+          <tr>
+            <td>Dive 5s</td>
+            <td>Dive 15s</td>
+            <td>Dive 30s</td>
+            <td>Dive 60s</td>
+          </tr>
+          <tr>
+            <td>Bft 1</td>
+            <td>Bft 3</td>
+            <td>Bft 5</td>
+            <td>Bft 7</td>
           </tr>
           <tr>
             <th>Throwing</th>
-            <td colspan="2">10 m</td>
-            <td colspan="2">30 m</td>
-            <td colspan="2">60m</td>
-            <td colspan="2">100 m</td>
+            <td>10 m</td>
+            <td>30 m</td>
+            <td>60m</td>
+            <td>100 m</td>
           </tr>
-          <tr><th colspan="10"></th></tr>
+          <tr><th colspan="6"></th></tr>
           <tr>
-            <th>Agriculture</th>
-            <td>10% yield</td><td>1 kind</td>
-            <td>30% yield</td><td>3 kind</td>
-            <td>100% yield</td><td>6 kind</td>
-            <td>150% yield</td><td>12 kind</td>
+            <th rowspan="2">Agriculture</th>
+            <td>10% yield</td>
+            <td>30% yield</td>
+            <td>100% yield</td>
+            <td>150% yield</td>
+          </tr>
+          <tr>
+            <td>1 kind</td>
+            <td>3 kind</td>
+            <td>6 kind</td>
+            <td>12 kind</td>
           </tr>
           <tr>
             <th>Alchemy</th>
-            <td colspan="2">1 compound</td>
-            <td colspan="2">3 compounds</td>
-            <td colspan="2">10 compounds</td>
-            <td colspan="2">30 compounds</td>
+            <td>1 compound</td>
+            <td>3 compounds</td>
+            <td>10 compounds</td>
+            <td>30 compounds</td>
           </tr>
           <tr>
-            <th>Animalcraft</th>
-            <td>1 trick / INT 6</td>
-            <td>3 tricks / INT 5</td>
-            <td>10 tricks / INT 4</td>
-            <td>30 tricks / INT 3</td>
+            <th rowspan="2">Animalcraft</th>
+            <td>1 trick</td>
+            <td>3 tricks</td>
+            <td>10 tricks</td>
+            <td>30 tricks</td>
+          </tr>
+          <tr>
+            <td>INT 6</td>
+            <td>INT 5</td>
+            <td>INT 4</td>
+            <td>INT 3</td>
           </tr>
           <tr>
             <th>Astrology</th>
