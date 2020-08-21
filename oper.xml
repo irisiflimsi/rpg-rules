@@ -467,7 +467,7 @@
         </p>
         <table>
           <tr>
-            <th style="padding: 6px 10px" colspan="6">Communication</th>
+            <th colspan="6">Communication</th>
           </tr>
           <tr><th colspan="6"></th></tr>
           <tr>
@@ -514,7 +514,7 @@
             <th style="background:white" colspan="6">Blank</th>
           </tr>
           <tr>
-            <th style="padding: 6px 10px" colspan="6">Phyiscal</th>
+            <th colspan="6">Phyiscal</th>
           </tr>
           <tr><th colspan="6"></th></tr>
           <tr>
@@ -561,8 +561,8 @@
             <th style="background:white" colspan="6">Blank</th>
           </tr>
           <tr>
-            <th style="padding: 6px 10px" colspan="1">Physical</th>
-            <th style="padding: 6px 10px" colspan="5">Craft &amp; Lore</th>
+            <th colspan="1">Physical</th>
+            <th colspan="5">Craft &amp; Lore</th>
           </tr>
           <tr>
             <th>Throwing</th>
@@ -589,20 +589,20 @@
             <td>3 recipes</td>
           </tr>
           <tr>
+            <td>60 m</td>
+            <td>100% yield / 6 kind</td>
+            <td>10 compounds</td>
+            <td>10 tricks / INT 4</td>
             <td>1/3 correct / 10 days</td>
             <td>10 recipes</td>
-            <td>Quality 1.5 / 3 recipes</td>
-            <td>10 recipes</td>
-            <td>Different Styles</td>
-            <td>1/10x decay speed</td>
           </tr>
           <tr>
+            <td>100 m</td>
+            <td>150% yield / 12 kind</td>
+            <td>30 compounds</td>
+            <td>30 tricks / INT 3</td>
             <td>1 correct / 2 days</td>
             <td>30 recipes</td>
-            <td>Quality 3 / 10 recipes</td>
-            <td>30 recipes</td>
-            <td>Forgery possible</td>
-            <td>1/60x decay speed</td>
           </tr>
           <tr>
             <th style="background:white" colspan="6">Blank</th>
@@ -636,18 +636,18 @@
           </tr>
           <tr>
             <td>Quality 1.5 / 3 recipes</td>
-            <td>60 m</td>
-            <td>100% yield / 6 kind</td>
-            <td>10 compounds</td>
-            <td>10 tricks / INT 4</td>
+            <td>10 recipes</td>
+            <td>Different Styles</td>
+            <td>1/10x decay speed</td>
+            <td>Quality 1.5 / 3 recipes</td>
             <td>60% yield</td>
           </tr>
           <tr>
             <td>Quality 3 / 10 recipes</td>
-            <td>100 m</td>
-            <td>150% yield / 12 kind</td>
-            <td>30 compounds</td>
-            <td>30 tricks / INT 3</td>
+            <td>30 recipes</td>
+            <td>Forgery possible</td>
+            <td>1/60x decay speed</td>
+            <td>Quality 3 / 10 recipes</td>
             <td>100% yield</td>
           </tr>
         </table>
