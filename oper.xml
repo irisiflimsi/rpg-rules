@@ -464,71 +464,71 @@
         <h3 id="SkillExanplea">Examples</h3>
         <table>
           <tr>
-            <th></th><th>0</th><th>10</th><th>20</th><th>30</th>
+            <th></th><th colspan="2">0</th><th>10</th><th>20</th><th>30</th>
           </tr>
           <tr>
             <th>Acting</th>
-            <td>Play self</td>
-            <td>Play archetype</td>
-            <td>Play individual</td>
-            <td>Play original</td>
+            <td colspan="2">Play self</td>
+            <td colspan="2">Play archetype</td>
+            <td colspan="2">Play individual</td>
+            <td colspan="2">Play original</td>
           </tr>
           <tr>
             <th>Lovecraft</th>
-            <td>Instinctive</td>
-            <td>Experienced</td>
-            <td>Professional</td>
-            <td>Elite/exotic</td>
+            <td colspan="2">Instinctive</td>
+            <td colspan="2">Experienced</td>
+            <td colspan="2">Professional</td>
+            <td colspan="2">Elite/exotic</td>
           </tr>
           <tr>
             <th>Musician</th>
-            <td>Simple, child's songs</td>
-            <td>General, ritual songs</td>
-            <td>Artistic songs</td>
-            <td>Unique songs</td>
+            <td colspan="2">Simple, children songs</td>
+            <td colspan="2">General, ritual songs</td>
+            <td colspan="2">Artistic songs</td>
+            <td colspan="2">Unique songs</td>
           </tr>
           <tr>
             <th>Oratory</th>
-            <td>Speech</td>
-            <td>People listen to you</td>
-            <td>People consider you</td>
-            <td>People cannot deny you</td>
+            <td colspan="2">Speech</td>
+            <td colspan="2">People listen to you</td>
+            <td colspan="2">People consider you</td>
+            <td colspan="2">People cannot deny you</td>
           </tr>
           <tr>
             <th>Rhetoric</th>
-            <td>Speech</td>
-            <td>People listen to you</td>
-            <td>People consider you</td>
-            <td>People cannot deny you</td>
+            <td colspan="2">Speech</td>
+            <td colspan="2">People listen to you</td>
+            <td colspan="2">People consider you</td>
+            <td colspan="2">People cannot deny you</td>
           </tr>
           <tr>
             <th>Singing</th>
-            <td>Simple, child's songs</td>
-            <td>General, ritual songs</td>
-            <td>Artistic songs</td>
-            <td>Unique songs</td>
+            <td colspan="2">Simple, child's songs</td>
+            <td colspan="2">General, ritual songs</td>
+            <td colspan="2">Artistic songs</td>
+            <td colspan="2">Unique songs</td>
           </tr>
-          <tr><th colspan="6"></th></tr>
+          <tr><th colspan="10"></th></tr>
           <tr>
             <th>Acrobatics</th>
-            <td><table><tr><td>No tricks</td><td>1x speed</td></tr></table></td>
-            <td>Simple tricks / 2x</td>
-            <td>Complex tricks / 3x</td>
-            <td>Original tricks / 4x</td>
+            <td>No tricks</td><td>1x speed</td>
+            <td>Simple tricks</td><td>2x</td>
+            <td>Complex tricks</td><td>3x</td>
+            <td>Original tricks</td><td>4x</td>
           </tr>
           <tr>
             <th>Climbing</th>
-            <td>30° / 1/4 m/s</td>
-            <td>60° / 1/2 m/s</td>
-            <td>90° / 1 m/s</td>
-            <td>120° / 2 m/s</td>
+            <td>30°</td><td>1/4 m/s</td>
+            <td>60°</td><td>1/2 m/s</td>
+            <td>90°</td><td>1 m/s</td>
+            <td>120°</td><td>2 m/s</td>
           </tr>
           <tr>
-            <th>Dancing</th>
-            <td>Rhythmic Move</td>
-            <td>Simple, folk dance</td>
-            <td>Complex, ritual dance</td>
-            <td>Original dance</td>
+            <th colspan="2">Dancing</th>
+            <td colspan="2">Rhythmic Move</td>
+            <td colspan="2">Simple, folk dance</td>
+            <td colspan="2">Complex, ritual dance</td>
+            <td colspan="2">Original dance</td>
           </tr>
           <tr>
             <th>Jumping</th>
