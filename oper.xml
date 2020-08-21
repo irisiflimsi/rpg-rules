@@ -512,7 +512,7 @@
             <td>Artistic songs</td>
             <td>Unique songs</td>
           </tr>
-          <tr><th rowspan="2" colspan="6"></th></tr>
+          <tr><th rowspan="2" colspan="6"></th></tr><tr></tr>
           <tr>
             <th>Acrobatics (I)</th>
             <td>No tricks</td>
@@ -597,7 +597,7 @@
             <td>60m</td>
             <td>100 m</td>
           </tr>
-          <tr><th rowspan="2" colspan="6"></th></tr>
+          <tr><th rowspan="2" colspan="6"></th></tr><tr></tr>
           <tr>
             <th>Agriculture (I)</th>
             <td>10% yield</td>
