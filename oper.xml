@@ -470,6 +470,7 @@
             <th style="padding: 6px 10px" colspan="4">Communication</th>
             <th style="padding: 6px 10px" colspan="3">Physical</th>
           </tr>
+          <tr><th colspan="7"></th></tr>
           <tr>
             <th>Acting</th>
             <th>Lovecraft</th>
@@ -515,13 +516,14 @@
             <td>120° / 2 m/s</td>
             <td>Original dance</td>
           </tr>
-          <tr><th colspan="7"></th></tr>
-          <tr><th colspan="7"></th></tr>
-          <tr><th colspan="7"></th></tr>
+          <tr>
+            <th style="background:white" colspan="7">Blank</th>
+          </tr>
           <tr>
             <th style="padding: 6px 10px" colspan="4">Phyiscal</th>
             <th style="padding: 6px 10px" colspan="3">Craft &amp; Lore</th>
           </tr>
+          <tr><th colspan="7"></th></tr>
           <tr>
             <th>Jumping</th>
             <th>Skiing</th>
