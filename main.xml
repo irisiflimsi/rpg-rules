@@ -511,7 +511,7 @@
           will want to join forces to expedite an action.  Jointly
           lifting a weight or looking for a clue are typical examples.
           This should be simulated by combining the joining people
-          into one actor with an increased bonus to the activities.
+          into one actor with an increased <em>active</em> value for the activity.
           The same is true for attempting several tasks in one
           activity, where rolling many dice would become combersome.
           Attempting to clear away rubble instead of individual stones
@@ -617,6 +617,13 @@
           equal characters, but the better character is <n5/> points
           ahead on the skill.  Then this table gives the skill of the
           better character plus <n8/> to the combined actor.
+        </p>
+        <p>
+          You should never indiscriminately add values. Remember that a
+          difference of <n10/> means a 90% winning difference by design.
+          Thus, adding a value that depends on the individual's skill
+          makes this quite awkward. The question you rather ask is, how many 
+          people does it take to even out a difference of <n10/>.
         </p>
         <p>
           The standard example of taking the best skill roll of two
