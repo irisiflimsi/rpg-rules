@@ -1312,13 +1312,14 @@
         <p>
           Several factors determine how long it takes to bring a combat skill to bear.
           A premature roll can be made, by taking a penalty that matches the premature
-          time.  Note that the time interval is used looking for openings, keeping
-          ones own balance, etc. and must be actively chosen.  A point in time
-          cannot be chosen, let alone decided upon on the spur of a moment
-          The active roll is determined by adding Initiative and the Combat skill
-          used to attack through row <n10/>. The passive roll uses Dodge and the
-          combat skill used to block or parry also through row <n10/>. The dodge skill
-          may be <n0/> and Agility may be added through row <n3/>.
+          time to the ijury dimension.  Note that such a time interval is used looking
+          for openings, keeping ones own balance, etc. and must be actively chosen.
+          A point in time cannot be chosen, let alone decided upon on the spur of a moment
+          The active level is determined by adding <em>Initiative</em> and the
+          <em>Combat skill</em> used to attack through row <n10/>. The passive
+          level is determined by <em>Dodge</em> and the <em>Combat skill</em> used to
+          block or parry; also through row <n10/>.  The Dodge skill may be <n0/> but
+          Agility may be added through row <n3/>.
         </p>
         <p>
           The A/D numbers are used as additional modifiers (divided by five).
@@ -1364,7 +1365,7 @@
           from each other individually, and the results are all added
           to the injury dimension. Using certain aspects of the weapon are
           a choice on part of the attacker, the defender usually 
-          cannot choice to ignore parts of his bonus.
+          cannot choose to ignore parts of his bonus.
         </p>
         <p>
           The time dimension can be increased in order to reduce or increase
@@ -1381,8 +1382,8 @@
             <td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
           </tr>
           <tr>
-            <th>Injury</th><td>6</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td><td>10</td><td>10</td>
-            <td>11</td><td>11</td><td>12</td><td>12</td><td>12</td><td>13</td><td>14</td><td>14</td><td>15</td><td>15</td>
+            <th>Injury</th><td>3</td><td>3</td><td>3</td><td>4</td><td>4</td><td>4</td><td>4</td><td>5</td><td>5</td><td>5</td>
+            <td>5</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td>
           </tr>
           <tr><th rowspan="2" colspan="21"></th></tr><tr></tr>
           <tr>
@@ -1390,8 +1391,8 @@
             <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
           </tr>
           <tr>
-            <th>Injury</th><td>16</td><td>16</td><td>17</td><td>17</td><td>18</td><td>18</td><td>19</td><td>19</td><td>20</td><td>20</td>
-            <td>21</td><td>21</td><td>22</td><td>22</td><td>23</td><td>23</td><td>24</td><td>24</td><td>24</td><td>25</td>
+            <th>Injury</th><td>11</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>19</td><td>20</td>
+            <td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
           </tr>
           <tr><th rowspan="2" colspan="21"></th></tr><tr></tr>
           <tr>
@@ -1399,8 +1400,8 @@
             <td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
           </tr>
           <tr>
-            <th>Injury</th><td>26</td><td>26</td><td>27</td><td>27</td><td>28</td><td>28</td><td>29</td><td>29</td><td>30</td><td>30</td>
-            <td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+            <th>Injury</th><td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+            <td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td><td>49</td><td>50</td>
           </tr>
         </table>
         <h3 id="armour">Impediments</h3>
