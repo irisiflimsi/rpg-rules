@@ -691,10 +691,17 @@
           A skill may be decomposed into other skills, if so desired. The
           decomposition must be such that the combination of (weighted)
           averages of the new skill levels results in the original skill 
-          level. Additional measuures should be in place to indicate that
+          level. Additional measures should be in place to indicate that
           the skills actually belong to a group. A typical restriction is
           that the individual skills of a goup may not differ by more than 
           <n10/> points.
+        </p>
+        <p>
+          If a decomposition results in multiple rolls, make sure that the
+          rules of <em>Combinations</em> remain valid. A typical example would
+          be to turn a roll that applies every 10 days into a roll that
+          applies every day. This implies that all of the daily rolls have
+          a difficulty increased by <n10/>.
         </p>
         <h3 id="abort">Abort and Control</h3>
         <p>
