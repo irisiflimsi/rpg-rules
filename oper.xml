@@ -1308,16 +1308,22 @@
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
-        <h3 id="initiative">Initiative</h3>
+        <h3 id="com-time">Time</h3>
         <p>
-          Initiative determines how long it takes to bring a combat skill to bear.
-          I.e. how long does it take before a combat skill roll can be made. A
-          premature roll can be made, by taking a penalty that matches the premature
+          Several factors determine how long it takes to bring a combat skill to bear.
+          A premature roll can be made, by taking a penalty that matches the premature
           time.  Note that the time interval is used looking for openings, keeping
           ones own balance, etc. and must be actively chosen.  A point in time
-          cannot be chosen, let alone decided upon on the spur of a moment.  Dodge as
-          skill is opposed to Initiative and is deducted. The skill may be <n0/> and
-          Agility may be added through row <n3/>.
+          cannot be chosen, let alone decided upon on the spur of a moment
+          The active roll is determined by adding Initiative and the Combat skill
+          used to attack through row <n10/>. The passive roll uses Dodge and the
+          combat skill used to block or parry also through row <n10/>. The dodge skill
+          may be <n0/> and Agility may be added through row <n3/>.
+        </p>
+        <p>
+          The A/D numbers are used as additional modifiers (divided by five).
+          Using a weapon or a combination in the wrong hand implies a penalty of-<n2/>.
+          In general, most bonusses and penalties apply to the Time dimension.
         </p>
         <table>
           <tr>
@@ -1352,25 +1358,22 @@
           For playability reasons partial effects will not be applied
           until the action is completed.
         </p>
-        <p>
-          In order to avoid being injured in combat, a
-          defendant can improve his passive resistance by using his
-          Agility and the combat skill he uses to attack.
-        </p>
         <h3 id="Injury">Injury</h3>
         <p>
-          Subtract the active and passive combat skill from each other.
-          Consider all modifiers that apply in the classic rules here.
-          The A/D numbers are used as additional modifiers (divided by
-          five).  Using a weapon or a combination in the wrong hand
-          implies a penalty of-<n2/>.  The weapon and armour B/E/P values
-          are each subtracted from each other individually, and the results
-          are all added to the injury dimension. Wounds are treated
-          individually for recovery (see below).
+          The weapon and armour B/E/P values each are subtracted
+          from each other individually, and the results are all added
+          to the injury dimension. Using certain aspects of the weapon are
+          a choice on part of the attacker, the defender usually 
+          cannot choice to ignore parts of his bonus.
         </p>
         <p>
-          Injury is applied directly as bonus to the passive side of any
-          skill or attribute roll.
+          The time dimension can be increased in order to reduce or increase
+          the injury dimension.
+        </p>
+        <p>
+          Wounds are treated individually for recovery (see below). Injury
+          is applied directly as penalty to the active side of any skill
+          or attribute roll on part of the individual injured.
         </p>
         <table>
           <tr>
@@ -1400,6 +1403,13 @@
             <td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
           </tr>
         </table>
+        <h3 id="armour">Impediments</h3>
+        <p>
+          All impediments affect all types of activity.  All are
+          modified by Stamina(live)/Quality(dead).  Recovery is 
+          only possible during rest.  Dead objects do not recover
+          but are repaired.
+        </p>
         <h4>Weapon/Armor Damage</h4>
         <p>
           An additional roll is made, any time a strike is delivered
@@ -1424,14 +1434,6 @@
             <td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0 (0.2)</td>
           </tr>
         </table>
-        <h3 id="armour">Impediments</h3>
-        <p>
-          All impediments affect all types of activity.  All are
-          modified by Stamina(live)/Quality(dead).  Recovery is 
-          only possible during rest.  Dead objects do not recover
-          but are repaired. Edge/Point may infect. Chance per day
-          is penalty being healed as percentage.
-        </p>
         <p>
           Impediments below add HR penalty as max component.
           HR as percentage is rolled once per unit time for +1 % or -1 % in HR.
