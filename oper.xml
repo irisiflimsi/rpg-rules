@@ -1333,7 +1333,7 @@
           </tr>
           <tr>
             <th>Time(s)</th><td>110</td><td>100</td><td>98</td><td>90</td><td>84</td><td>80</td><td>74</td><td>68</td><td>64</td><td>60</td>
-            <td>56</td><td>52</td><td>49</td><td>45</td><td>42</td><td>40s</td><td>37</td><td>34</td><td>32</td><td>30</td>
+            <td>56</td><td>52</td><td>49</td><td>45</td><td>42</td><td>40</td><td>37</td><td>34</td><td>32</td><td>30</td>
           </tr>
           <tr><th rowspan="2" colspan="21"></th></tr><tr></tr>
           <tr>
@@ -1406,11 +1406,146 @@
         </table>
         <h3 id="armour">Impediments</h3>
         <p>
-          All impediments affect all types of activity.  All are
-          modified by <em>Stamina</em> (live objects) and <em>Quality</em>
-          (dead objects).  Recovery is only possible during rest.
-          Dead objects do not recover but are repaired.
+          All impediments affect all types of activity.  Use the wound/damage
+          (being negative) as passive level, and use either <em>Stamina</em>
+          (live objects) or <em>Quality</em> (dead objects) as active.  Add any
+          attending physician through <n10/>.  Healing is only possible during 
+          rest.  Dead objects do not heal but are repaired.
         </p>
+        <h4 id="heal">Healing</h4>
+        <p>
+          A roll is made every time the wound turns into a new penalty
+          (until it reaches zero). The result row shows the number of
+          days to wait, before one point is removed. If sufficient in-game
+          time is present and the number of rolls shall be reduced, use
+          the second table in the same fashion as development table.
+          The number given shows the complete healing time.
+        </p>
+        <table>
+          <tr>
+            <th>Wound</th><td>19</td><td>18</td><td>17</td><td>16</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td>
+            <td>10</td><td>9</td><td>8</td><td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Days</th><td>1</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
+            <td>2</td><td>3</td><td>3</td><td>3</td><td>3</td><td>4</td><td>4</td><td>4</td><td>4</td><td>5</td><td>5</td>
+          </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr>
+            <th>Wound</th><td>-1</td><td>-2</td><td>-3</td><td>-4</td><td>-5</td><td>-6</td><td>-7</td><td>-8</td><td>-9</td>
+            <td>-10</td><td>-11</td><td>-12</td><td>-13</td><td>-14</td><td>-15</td><td>-16</td><td>-17</td><td>-18</td><td>-19</td><td>-20</td>
+          </tr>
+          <tr>
+            <th>Days</th><td>5</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td><td>9</td>
+            <td>10</td><td>11</td><td>13</td><td>15</td><td>17</td><td>20</td><td>23</td><td>26</td><td>30</td><td>35</td><td>40</td>
+          </tr>
+          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
+          <tr>
+            <th>Wound</th><td>-21</td><td>-22</td><td>-23</td><td>-24</td><td>-25</td><td>-26</td><td>-27</td><td>-28</td><td>-29</td>
+            <td>-30</td><td>-31</td><td>-32</td><td>-33</td><td>-34</td><td>-35</td><td>-36</td><td>-37</td><td>-38</td><td>-39</td><td>-40</td>
+          </tr>
+          <tr>
+            <th>Days</th><td>46</td><td>53</td><td>61</td><td>70</td><td>80</td><td>92</td><td>106</td><td>121</td><td>139</td>
+            <td>160</td><td>184</td><td>211</td><td>243</td><td>279</td><td>320</td><td>368</td><td>422</td><td>485</td><td>577</td><td>640</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th></th>
+            <th>+15</th><th>+14</th><th>+13</th><th>+12</th><th>+11</th><th>+10</th><th>+9</th><th>+8</th><th>+7</th><th>+6</th><th>+5</th>
+            <th>+4</th><th>+3</th><th>+2</th><th>+1</th><th></th><th>0</th><th>-1</th><th>-2</th><th>-3</th><th>-4</th>
+          </tr>
+          <tr>
+            <th>1</th>
+          </tr>
+          <tr>
+            <th>2</th>
+          </tr>
+          <tr>
+            <th>3</th>
+          </tr>
+          <tr>
+            <th>4</th>
+          </tr>
+          <tr>
+            <th>5</th>
+          </tr>
+          <tr>
+            <th>6</th>
+          </tr>
+          <tr>
+            <th>7</th><td>10</td><td>10</td><td>11</td><td>11</td><td>12</td><td>13</td><td>15</td><td>18</td><td>22</td><td>27</td><td>34</td>
+          </tr>
+          <tr>
+            <th>8</th><td>11</td><td>12</td><td>12</td><td>13</td><td>15</td><td>17</td><td>20</td><td>24</td><td>29</td><td>36</td><td>45</td>
+          </tr>
+          <tr>
+            <th>9</th><td>13</td><td>14</td><td>15</td><td>16</td><td>18</td><td>21</td><td>25</td><td>31</td><td>38</td><td>47</td><td>58</td>
+          </tr>
+          <tr>
+            <th>10</th><td>15</td><td>16</td><td>18</td><td>20</td><td>23</td><td>27</td><td>32</td><td>39</td><td>48</td><td>60</td><td>75</td>
+          </tr>
+          <tr>
+            <th>11</th><td>17</td><td>19</td><td>21</td><td>24</td><td>28</td><td>34</td><td>41</td><td>50</td><td>62</td><td>77</td><td>96</td>
+          </tr>
+          <tr>
+            <th>12</th>
+          </tr>
+          <tr>
+            <th>13</th>
+          </tr>
+          <tr>
+            <th>14</th>
+          </tr>
+          <tr>
+            <th>15</th>
+          </tr>
+          <tr>
+            <th>16</th>
+          </tr>
+          <tr>
+            <th>17</th>
+          </tr>
+          <tr>
+            <th>18</th>
+          </tr>
+          <tr>
+            <th>19</th><td>73</td><td>89</td><td>108</td><td>133</td><td>164</td><td>204</td><td>254</td><td>316</td><td>394</td><td>493</td><td>616</td>
+          </tr>
+          <tr>
+            <th>20</th><td>90</td><td>110</td><td>134</td><td>166</td><td>205</td><td>255</td><td>318</td><td>396</td><td>494</td><td>617</td><td>772</td>
+          </tr>
+          <tr>
+            <th>21</th><td>111</td><td>136</td><td>167</td><td>207</td><td>257</td><td>319</td><td>398</td><td>496</td><td>619</td><td>722</td><td>967</td>
+          </tr>
+          <tr>
+            <th>22</th><td>137</td><td>168</td><td>208</td><td>258</td><td>320</td><td>399</td><td>497</td><td>621</td><td>775</td><td>969</td><td>...</td>
+          </tr>
+          <tr>
+            <th>23</th><td>170</td><td>209</td><td>259</td><td>322</td><td>400</td><td>499</td><td>602</td><td>777</td><td>970</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>24</th><td>211</td><td>261</td><td>323</td><td>402</td><td>500</td><td>624</td><td>778</td><td>972</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>25</th><td>262</td><td>325</td><td>403</td><td>502</td><td>625</td><td>780</td><td>974</td><td>...</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>26</th><td>326</td><td>404</td><td>503</td><td>627</td><td>781</td><td>976</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>27</th><td>406</td><td>504</td><td>628</td><td>783</td><td>976</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>28</th><td>506</td><td>629</td><td>784</td><td>978</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>29</th><td>631</td><td>785</td><td>979</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+          <tr>
+            <th>30</th><td>787</td><td>981</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+          </tr>
+        </table>
         <h4>Weapon/Armor Damage</h4>
         <p>
           An additional roll is made, any time a strike is delivered
@@ -1470,24 +1605,6 @@
             <td>20s</td>
             <td>14s</td>
             <td>10s</td>
-          </tr>
-        </table>
-        <h4 id="heal">Healing</h4>
-        <p>
-          Applies to all types of wounds (BEP).
-        </p>
-        <table>
-          <tr>
-            <th>Level</th><td>-8</td><td>-6</td><td>-4</td><td>-2</td>
-            <td>0</td><td>2</td><td>4</td><td>6</td><td>8</td>
-            <td>10</td><td>12</td><td>14</td><td>16</td><td>18</td>
-            <td>20</td><td>22</td><td>24</td><td>26</td><td>28</td>
-          </tr>
-          <tr>
-            <th>Time</th><td>6h</td><td>8h</td><td>12h</td><td>16h</td>
-            <td>1d</td><td>1.5d</td><td>2d</td><td>3d</td><td>4d</td>
-            <td>6d</td><td>9d</td><td>13d</td><td>18d</td><td>1M</td>
-            <td>38d</td><td>2M</td><td>3M</td><td>4M</td><td>1/2Y</td>
           </tr>
         </table>
         <table>
