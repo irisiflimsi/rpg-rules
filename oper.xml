@@ -1456,10 +1456,12 @@
             <th>+4</th><th>+3</th><th>+2</th><th>+1</th><th>0</th><th>-1</th><th>-2</th><th>-3</th><th>-4</th>
           </tr>
           <tr>
-            <th>1</th><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td><td>4</td><td>4</td>
+            <th>1</th><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td><td>4</td>
+            <td>4</td><td>4</td><td>4</td><td>5</td><td>5</td><td>5</td><td>6</td><td>6</td><td>7</td>
           </tr>
           <tr>
-            <th>2</th><td>4</td><td>4</td><td>4</td><td>5</td><td>5</td><td>5</td><td>6</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td>
+            <th>2</th><td>4</td><td>4</td><td>4</td><td>5</td><td>5</td><td>5</td><td>6</td><td>6</td><td>6</td><td>7</td><td>7</td>
+            <td>8</td><td>8</td><td>9</td><td>10</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
           </tr>
           <tr>
             <th>3</th><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td><td>11</td><td>11</td><td>12</td>
