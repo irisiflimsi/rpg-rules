@@ -1407,9 +1407,9 @@
         <h3 id="armour">Impediments</h3>
         <p>
           All impediments affect all types of activity.  All are
-          modified by Stamina(live)/Quality(dead).  Recovery is 
-          only possible during rest.  Dead objects do not recover
-          but are repaired.
+          modified by <em>Stamina</em> (live objects) and <em>Quality</em>
+          (dead objects).  Recovery is only possible during rest.
+          Dead objects do not recover but are repaired.
         </p>
         <h4>Weapon/Armor Damage</h4>
         <p>
