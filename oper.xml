@@ -1416,10 +1416,14 @@
         <p>
           A roll is made every time the wound turns into a new penalty
           (until it reaches zero). The result row shows the number of
-          days to wait, before one point is removed. If sufficient in-game
-          time is present and the number of rolls shall be reduced, use
-          the second table in the same fashion as development table.
-          The number given shows the complete healing time.
+          days to wait, before one point is removed.
+        </p>
+        <p>
+          Sometimes wounds are dire enough that life leaves the body.
+          This is simulated by rolling against a difficulty of <em>-40</em>
+          every 5 days. Without modifiers, this gives you a life-expectancy
+          of upward of 50 years and normally this is not rolled at all. But wounds
+          are added to the skill of <n0/>, making it more likely to happen.
         </p>
         <table>
           <tr>
@@ -1449,6 +1453,14 @@
             <td>160</td><td>184</td><td>211</td><td>243</td><td>279</td><td>320</td><td>368</td><td>422</td><td>485</td><td>577</td><td>640</td>
           </tr>
         </table>
+        <p>
+          If sufficient in-game time is present and the number of rolls
+          shall be reduced, use the second table in the same fashion as
+          development table.  The number given shows the complete healing
+          time. When death is expected before the wounds are healed, the
+          field number is set in italics.  Note that the "expected dying time"
+          is modified each time a wound point is healed.
+        </p>
         <table>
           <tr>
             <th></th>
@@ -1608,11 +1620,11 @@
             <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
           </tr>
           <tr>
-            <th>39</th><td>516</td><td>584</td><td>662</td><td>752</td><td>855</td><td>974</td><td>1111</td><td>...</td><td>...</td><td>...</td><td>...</td>
+            <th>39</th><td><em>516</em></td><td>584</td><td>662</td><td>752</td><td>855</td><td>974</td><td>1111</td><td>...</td><td>...</td><td>...</td><td>...</td>
             <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
           </tr>
           <tr>
-            <th>40</th><td>585</td><td>664</td><td>754</td><td>857</td><td>976</td><td>1113</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
+            <th>40</th><td><em>585</em></td><td>664</td><td>754</td><td>857</td><td>976</td><td>1113</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
             <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
           </tr>
         </table>
