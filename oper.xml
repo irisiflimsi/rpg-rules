@@ -1459,7 +1459,10 @@
           development table.  The number given shows the complete healing
           time. When death is expected before the wounds are healed, the
           field number is set in bold.  Note that the "expected dying time"
-          is modified each time a wound point is healed.
+          is modified each time a wound point is healed.  When healing before
+		      dying is contentious, the field is set in italics.  Standard font
+          type is applied when healing takes place without mentionable risk
+          of dying.
         </p>
         <table>
           <tr>
