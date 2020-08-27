@@ -1042,12 +1042,15 @@
             <td>6</td><td>6.6</td><td>7.4</td><td>8.2</td><td>9</td>
           </tr>
         </table>
-	      <p>
+        <p>
           Humans can accelerate and decalerate as 3 m/s each second.
           Turning options are in parts of a full circle (centered around
-          the direction of travel).  E.g. at 3 m/s this means 60 degrees
-          of the direction of travel on either side.
-	      </p>
+          the direction of travel).  E.g. at 3 m/s this means 60&#176;
+          off the direction of travel on either side per second.  For the
+          sake of playability variance in this should be suppressed,
+          although a 20% spread (for a <n10/> level difference) with Agility
+          modification could be apprpriate.
+        </p>
         <h4 id="str">Strength</h4>
         <table>
           <tr>
@@ -1568,6 +1571,17 @@
             <th>1</th><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>3</td><td>3</td><td>3</td><td>3</td>
           </tr>
         </table>
+        <p>
+          Extending the table is relatively easy for the mathematically
+          inclined.  Denote the wound by <em>i</em> and let <em>j</em>
+          be column index (starting at 0).  Then each field in the
+          table is caclulated as
+        </p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+          <mn>(1/2)</mn>
+          <munderover><mo>&#8721;</mo><mn>k = - 5</mn><mn>i</mn></munderover>
+          <msup><mi>(13/6)</mi><mn>j + k + 5</mn></msup>
+        </math>
         <h4>Weapon/Armor Damage</h4>
         <p>
           An additional roll is made, any time a strike is delivered
