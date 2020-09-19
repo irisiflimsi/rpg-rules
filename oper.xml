@@ -1025,8 +1025,7 @@
             <td>3 recipes</td>
             <td>10 recipes</td>
           </tr>
-        </table>
-        <table>
+          <tr><th rowspan="2" colspan="6"></th></tr><tr></tr>
           <tr>
             <th><em>Appraisal Error</em></th>
             <td>100% (0 - &#8734;)</td>
@@ -1428,6 +1427,13 @@
             <td>160</td><td>184</td><td>211</td><td>243</td><td>279</td><td>320</td><td>368</td><td>422</td><td>485</td><td>577</td><td>640</td>
           </tr>
         </table>
+        <h4>Extended Example:</h4> 
+        <p>
+          Suppose our character starts out with a wound of <em>-20</em> at day <n1/>, has a Stamina of <n6/> and a physician
+          with a skill of <em>19</em> constantly attends him.  Through the combination table (row <n10/>, this gives a bonus
+          of <em>+24</em>.  A roll of +<n3/> gives a total of <em>+27 - 20 = 7</em>.  This mean after 3 days the wound total
+          is reduced by <n1/> to <em>19</em>.
+        </p>
         <p>
           If sufficient in-game time is present and the number of rolls
           shall be reduced, use the second table in the same fashion as
