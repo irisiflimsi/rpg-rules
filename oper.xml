@@ -1431,9 +1431,26 @@
         <p>
           Suppose our character starts out with a wound of <em>-20</em> at day <n1/>, has a Stamina of <n6/> and a physician
           with a skill of <em>19</em> constantly attends him.  Through the combination table (row <n10/>, this gives a bonus
-          of <em>+24</em>.  A roll of +<n3/> gives a total of <em>+27 - 20 = 7</em>.  This mean after 3 days the wound total
-          is reduced by <n1/> to <em>19</em>.
+          of <em>+24</em>.  A roll of <em>+3</em> gives a total of <em>+ 3 + 24 - 20 = 7</em>.  This mean after <n3/> days the wound total
+          is reduced by <n1/> to <em>19</em>. On day <n4/>, another roll is made under the same conditions and <em>-4</em> yields
+          a total of <em>- 4 + 24 - 19 = 1</em>, which means <n5/> additional days, so the character will reduce his wounds to <n18/> on
+          day <n9/>. However, on day <n5/> a "kill" roll <n7/> is made against <em>-21</em>, this roll is unmodified.  We track the
+          complete process in the following table.
         </p>
+        <table>
+          <tr>
+            <th>Day</th><th>Wounds</th><th>Heal/roll</th><th>Heal/total</th><th>Heal/days</th><th>Kill/roll</th><th>Kill/total</th>
+          </tr>
+          <tr>
+            <td>1</td><td>20</td><td>+3</td><td>7</td><td>3</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>3</td><td>19</td><td>-4</td><td>1</td><td>5</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>5</td><td>19</td><td>-</td><td>-</td><td>-</td><td>7</td><td>-14</td>
+          </tr>
+        </table>
         <p>
           If sufficient in-game time is present and the number of rolls
           shall be reduced, use the second table in the same fashion as
@@ -1441,7 +1458,7 @@
           time. When death is expected before the wounds are healed, the
           field number is set in bold.  Note that the "expected dying time"
           is modified each time a wound point is healed.  When healing before
-		      dying is contentious, the field is set in italics.  Standard font
+          dying is contentious, the field is set in italics.  Standard font
           type is applied when healing takes place without mentionable risk
           of dying.
         </p>
@@ -1455,7 +1472,7 @@
           <tr>
             <th>39</th><td><b>178</b></td><td><b>192</b></td><td><b>207</b></td><td><b>224</b></td><td><b>242</b></td><td><b>261</b></td><td><b>282</b></td><td><b>305</b></td><td><b>330</b></td><td><b>356</b></td><td><b>385</b></td><td><b>431</b></td><td><b>449</b></td><td><b>485</b></td><td><b>524</b></td><td><b>566</b></td><td><b>612</b></td><td><b>661</b></td><td><b>...</b></td><td><b>...</b></td>
           </tr>
-	        <tr>
+          <tr>
             <th>38</th><td><b>164</b></td><td><b>177></b></td><td><b>191</b></td><td><b>206</b></td><td><b>223</b></td><td><b>241</b></td><td><b>260</b></td><td><b>281</b></td><td><b>304</b></td><td><b>328</b></td><td><b>355</b></td><td><b>383</b></td><td><b>414</b></td><td><b>447</b></td><td><b>483</b></td><td><b>522</b></td><td><b>564</b></td><td><b>609</b></td><td><b>658</b></td><td><b>...</b></td>
           </tr>
           <tr>
