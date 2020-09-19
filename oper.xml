@@ -1026,6 +1026,36 @@
             <td>10 recipes</td>
           </tr>
         </table>
+        <table>
+          <tr>
+            <th><em>Appraisal Error</em></th>
+            <td>100% (0 - &#8734;)</td>
+            <td>60% (0.4 - 2.5)</td>
+            <td>20% (0.8 - 1.25)</td>
+            <td>6% (0.94 - 106)</td>
+          </tr>
+          <tr>
+            <th><em>Stars</em></th>
+            <td>-1</td>
+            <td>&#9733;</td>
+            <td>&#9733; &#9733; &#9733;</td>
+            <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+          </tr>
+          <tr>
+            <th><em>Enhancement</em></th>
+            <td>1/10</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th><em>Quality</em></th>
+            <td>0</td>
+            <td>+2</td>
+            <td>+3</td>
+            <td>+4</td>
+          </tr>
+        </table>
         <h3 id="key">Attributes</h3>
         <h4 id="str">Move</h4>
         <table>
@@ -1194,43 +1224,6 @@
             Touch, and Eyesight
           </li>
         </ul>
-        <table>
-          <tr>
-            <th>Level</th>
-            <th>Appraisal Error</th>
-            <th>Stars</th>
-            <th>Enhancement</th>
-            <th>Quality</th>
-          </tr>
-          <tr>
-            <td>0</td>
-            <td>100% (0 - &#8734;)</td>
-            <td>-1 &#9733;</td>
-            <td>1/10</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>60% (0.4 - 2.5)</td>
-            <td>1 &#9733;</td>
-            <td>1</td>
-            <td>+2</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>20% (0.8 - 1.25)</td>
-            <td>3 &#9733;</td>
-            <td>2</td>
-            <td>+3</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>6% (0.94 - 106)</td>
-            <td>5 &#9733;</td>
-            <td>3</td>
-            <td>+4</td>
-          </tr>
-        </table>
         <p>
           Enhancement and quality should be considered separate
           dimensions for craft skills.
