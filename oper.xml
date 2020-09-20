@@ -1429,9 +1429,14 @@
           </tr>
         </table>
         <p>
-          To improve <em>pragmatics</em>, we first only roll the active roll, but roll against <em>50</em>
+          To improve <em>pragmatics</em> for kill rolls, we first only roll the active roll, but roll against <em>50</em>
           and the second measure, we roll at the same as the wound level is modified, but with a modifier of
-          the number of days spent. A further improvement, particularly for hefty wounds, is to simply take
+          the number of days spent.  Moreover, if the addition of wound level and healing duration
+          is less than 20, the kill roll can be skipped completely for that phase. On the other hand, if this addition
+          amounts to more than 50, the wound should be considered fatal without further rolls. 
+        </p>
+        <p>
+          A further <em>pragmatics</em> improvement, particularly for hefty wounds, is to simply take
           the day value from the table and not spread it through additional dice rolling. Or consider taking 
           the result of one die roll for several healing rolls.
         </p>
@@ -1443,30 +1448,32 @@
           +<n2/> against <em>-30</em>, which is obviously successful. This mean after <n3/> days the wound total
           is reduced by <n1/> to <em>19</em>. On day <n4/>, another roll is made under the same conditions and <em>-4</em> 
           yields a total of <em>- 4 + 24 - 19 = 1</em>, which means <n5/> additional days, so the character will reduce his
-          wounds to <em>18</em> on day <n9/>. However, on day <n4/> a "kill" roll <n7/> is made against <em>-31</em>, this roll 
-          is modified by +<n3/> for the number of days.  We track the complete process in the following table.
+          wounds to <em>18</em> on day <n9/>. However, on day <n4/> a kill roll <n7/> is made against <em>-31</em>, this roll 
+          is modified by +<n3/> for the number of days.  We track the complete process in the following table.  (An asterisk
+          marks the kill rolls that should <em>not</em> have been skipped; all others could have been according to the
+          pragmatics above.)
         </p>
         <table class="bsp">
           <tr>
             <th>Day</th><th>Wounds</th><th>Heal/roll</th><th>Heal/total</th><th>Heal/days</th><th>Kill/roll</th><th>Kill/total</th>
           </tr>
           <tr>
-            <td>1</td><td>20</td><td>+3</td><td>7</td><td>3</td><td>14</td><td>-16</td>
+            <td>1</td><td>20</td><td>+3</td><td>7</td><td>3</td><td>14*</td><td>-16</td>
           </tr>
           <tr>
-            <td>4</td><td>19</td><td>-4</td><td>1</td><td>5</td><td>3</td><td>-25</td>
+            <td>4</td><td>19</td><td>-4</td><td>1</td><td>5</td><td>3*</td><td>-25</td>
           </tr>
           <tr>
-            <td>9</td><td>18</td><td>+2</td><td>8</td><td>3</td><td>6</td><td>-21</td>
+            <td>9</td><td>18</td><td>+2</td><td>8</td><td>3</td><td>6*</td><td>-21</td>
           </tr>
           <tr>
-            <td>12</td><td>17</td><td>-15</td><td>-8</td><td>9</td><td>6</td><td>-24</td>
+            <td>12</td><td>17</td><td>-15</td><td>-8</td><td>9</td><td>6*</td><td>-24</td>
           </tr>
           <tr>
             <td>21</td><td>16</td><td>+5</td><td>13</td><td>2</td><td>5</td><td>-20</td>
           </tr>
           <tr>
-            <td>23</td><td>15</td><td>-8</td><td>1</td><td>5</td><td>1</td><td>-32</td>
+            <td>23</td><td>15</td><td>-8</td><td>1</td><td>5</td><td>1*</td><td>-32</td>
           </tr>
           <tr>
             <td>28</td><td>14</td><td>-4</td><td>6</td><td>3</td><td>1</td><td>-30</td>
