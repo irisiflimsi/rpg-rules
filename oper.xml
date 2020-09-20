@@ -1437,7 +1437,7 @@
           day <n9/>. However, on day <n5/> a "kill" roll <n7/> is made against <em>-21</em>, this roll is unmodified.  We track the
           complete process in the following table.
         </p>
-        <table>
+        <table class="bsp">
           <tr>
             <th>Day</th><th>Wounds</th><th>Heal/roll</th><th>Heal/total</th><th>Heal/days</th><th>Kill/roll</th><th>Kill/total</th>
           </tr>
@@ -1458,6 +1458,33 @@
           </tr>
           <tr>
             <td>11</td><td>17</td><td>-15</td><td>-8</td><td>6</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>15</td><td>17</td><td>-</td><td>-</td><td>-</td><td>+6</td><td>-17</td>
+          </tr>
+          <tr>
+            <td>17</td><td>16</td><td>+5</td><td>+13</td><td>2</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>19</td><td>15</td><td>-8</td><td>+1</td><td>5</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>20</td><td>15</td><td>-</td><td>-</td><td>-</td><td>-1</td><td>-26</td>
+          </tr>
+          <tr>
+            <td>24</td><td>14</td><td>-4</td><td>+6</td><td>3</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>25</td><td>14</td><td>-</td><td>-</td><td>-</td><td>-2</td><td>-28</td>
+          </tr>
+          <tr>
+            <td>27</td><td>13</td><td>+1</td><td>+11</td><td>2</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>29</td><td>12</td><td>+3</td><td>+15</td><td>2</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>30</td><td>18</td><td>-</td><td>-</td><td>-</td><td>+11</td><td>-11</td>
           </tr>
         </table>
         <p>
