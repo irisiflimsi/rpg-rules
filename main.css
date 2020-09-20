@@ -96,6 +96,22 @@ th {
     background: var(--h3);
 }
 
+table.bsp tr:nth-child(even) td {
+    background: none;
+    border: 1px solid var(--tde);
+}
+
+table.bsp tr:nth-child(odd) td {
+    background: none;
+    border: 1px solid var(--tdo);
+}
+
+table.bsp th {
+    width: 50px;
+    color: var(--h3);
+    background: none;
+}
+
 td {
     width: 70px;
     padding: 4px 8px;
