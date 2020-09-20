@@ -25,6 +25,28 @@ td {
     width: 200px;
 }
 
+table.bsp tr:nth-child(even) td {
+    width: 100px;
+    background: none;
+    border: 3px solid var(--tde);
+    padding: 2px 6px;
+}
+
+table.bsp tr:nth-child(odd) td {
+    width: 100px;
+    background: none;
+    border: 3px solid var(--tdo);
+    padding: 2px 6px;
+}
+
+table.bsp th {
+    width: 100px;
+    border: 3px solid var(--h3);
+    color: var(--h3);
+    background: none;
+    padding: 2px 6px;
+}
+
 .wide {
     width: 1200px;
 }
