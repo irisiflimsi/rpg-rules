@@ -1394,8 +1394,8 @@
         </p>
         <p>
           Sometimes wounds are dire enough that life leaves the body.
-          This is simulated by rolling against a difficulty of <em>-40</em>
-          every 5 days. Without modifiers, this gives you a life-expectancy
+          This is simulated by rolling against a difficulty of <em>-45</em>
+          every day. Without modifiers, this gives you a life-expectancy
           of upward of 50 years and normally this is not rolled at all. But wounds
           are added to the skill of <n0/>, making it more likely to happen.
         </p>
@@ -1427,64 +1427,52 @@
             <td>160</td><td>184</td><td>211</td><td>243</td><td>279</td><td>320</td><td>368</td><td>422</td><td>485</td><td>577</td><td>640</td>
           </tr>
         </table>
+        <p>
+          To improve <em>pragmatics</em>, we first only roll the active roll, but roll against <em>50</em>
+          and the second measure, we roll at the same as the wound level is modified, but with a modifier of
+          the number of days spent.
+        </p>
         <h4>Extended Example:</h4> 
         <p>
-          Suppose our character starts out with a wound of <em>-20</em> at day <n0/>, has a Stamina of <n6/> and a physician
+          Suppose our character starts out with a wound of <em>-20</em> at day <n1/>, has a Stamina of <n6/> and a physician
           with a skill of <em>19</em> constantly attends him.  Through the combination table (row <n10/>, this gives a bonus
-          of <em>+24</em>.  A roll of <em>+3</em> gives a total of <em>+ 3 + 24 - 20 = 7</em>.  This mean after <n3/> days the wound total
-          is reduced by <n1/> to <em>19</em>. On day <n3/>, another roll is made under the same conditions and <em>-4</em> yields
-          a total of <em>- 4 + 24 - 19 = 1</em>, which means <n5/> additional days, so the character will reduce his wounds to <n18/> on
-          day <n9/>. However, on day <n5/> a "kill" roll <n7/> is made against <em>-21</em>, this roll is unmodified.  We track the
-          complete process in the following table.
+          of <em>+24</em>.  A heal roll of <em>+3</em> gives a total of <em>+ 3 + 24 - 20 = 7</em>.  The kill roll equals
+          +<n2/> against <em>-30</em>, which is obviously successful. This mean after <n3/> days the wound total
+          is reduced by <n1/> to <em>19</em>. On day <n4/>, another roll is made under the same conditions and <em>-4</em> 
+          yields a total of <em>- 4 + 24 - 19 = 1</em>, which means <n5/> additional days, so the character will reduce his
+          wounds to <n18/> on day <n9/>. However, on day <n4/> a "kill" roll <n7/> is made against <em>-31</em>, this roll 
+          is modified by +<n3/> for the number of days.  We track the complete process in the following table.
         </p>
         <table class="bsp">
           <tr>
             <th>Day</th><th>Wounds</th><th>Heal/roll</th><th>Heal/total</th><th>Heal/days</th><th>Kill/roll</th><th>Kill/total</th>
           </tr>
           <tr>
-            <td>0</td><td>20</td><td>+3</td><td>+7</td><td>3</td><td>-</td><td>-</td>
+            <td>1</td><td>20</td><td>+3</td><td>+7</td><td>3</td><td>+2</td><td>-28</td>
           </tr>
           <tr>
-            <td>3</td><td>19</td><td>-4</td><td>+1</td><td>5</td><td>-</td><td>-</td>
+            <td>4</td><td>19</td><td>-4</td><td>+1</td><td>5</td><td>+7</td><td>-24</td>
           </tr>
           <tr>
-            <td>5</td><td>19</td><td>-</td><td>-</td><td>-</td><td>+7</td><td>-14</td>
+            <td>9</td><td>18</td><td>+2</td><td>+8</td><td>3</td><td>+3</td><td>-29</td>
           </tr>
           <tr>
-            <td>8</td><td>18</td><td>+2</td><td>+8</td><td>3</td><td>-</td><td>-</td>
+            <td>12</td><td>17</td><td>-15</td><td>-8</td><td>6</td><td>+6</td><td>-27</td>
           </tr>
           <tr>
-            <td>10</td><td>18</td><td>-</td><td>-</td><td>-</td><td>-3</td><td>-25</td>
+            <td>18</td><td>16</td><td>+5</td><td>+13</td><td>2</td><td>+6</td><td>-28</td>
           </tr>
           <tr>
-            <td>11</td><td>17</td><td>-15</td><td>-8</td><td>6</td><td>-</td><td>-</td>
+            <td>19</td><td>15</td><td>-8</td><td>+1</td><td>5</td><td>+7</td><td>-28</td>
           </tr>
           <tr>
-            <td>15</td><td>17</td><td>-</td><td>-</td><td>-</td><td>+6</td><td>-17</td>
-          </tr>
-          <tr>
-            <td>17</td><td>16</td><td>+5</td><td>+13</td><td>2</td><td>-</td><td>-</td>
-          </tr>
-          <tr>
-            <td>19</td><td>15</td><td>-8</td><td>+1</td><td>5</td><td>-</td><td>-</td>
-          </tr>
-          <tr>
-            <td>20</td><td>15</td><td>-</td><td>-</td><td>-</td><td>-1</td><td>-26</td>
-          </tr>
-          <tr>
-            <td>24</td><td>14</td><td>-4</td><td>+6</td><td>3</td><td>-</td><td>-</td>
-          </tr>
-          <tr>
-            <td>25</td><td>14</td><td>-</td><td>-</td><td>-</td><td>-2</td><td>-28</td>
+            <td>24</td><td>14</td><td>-4</td><td>+6</td><td>3</td><td>+11</td><td>-25</td>
           </tr>
           <tr>
             <td>27</td><td>13</td><td>+1</td><td>+11</td><td>2</td><td>-</td><td>-</td>
           </tr>
           <tr>
             <td>29</td><td>12</td><td>+3</td><td>+15</td><td>2</td><td>-</td><td>-</td>
-          </tr>
-          <tr>
-            <td>30</td><td>12</td><td>-</td><td>-</td><td>-</td><td>+11</td><td>-17</td>
           </tr>
           <tr>
             <td>31</td><td>11</td><td>-3</td><td>+10</td><td>2</td><td>-</td><td>-</td>
