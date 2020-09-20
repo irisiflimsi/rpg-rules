@@ -101,6 +101,22 @@ td {
     padding: 4px 8px;
 }
 
+table.bsp tr:nth-child(even) td {
+    background: none;
+    border: 3px solid var(--tde);
+}
+
+table.bsp tr:nth-child(odd) td {
+    background: none;
+    border: 3px solid var(--tdo);
+}
+
+table.bsp th {
+    background: none;
+    border: 3px solid var(--h3);
+    color: var(--h3);
+}
+
 li {
     padding: 4px 8px;
 }
