@@ -96,31 +96,31 @@ th {
     background: var(--h3);
 }
 
+td {
+    width: 70px;
+    padding: 4px 8px;
+}
+
 table.bsp tr:nth-child(even) td {
-    width: 35px;
+    width: 50px;
     background: none;
     border: 3px solid var(--tde);
     padding: 2px 6px;
 }
 
 table.bsp tr:nth-child(odd) td {
-    width: 35px;
+    width: 50px;
     background: none;
     border: 3px solid var(--tdo);
     padding: 2px 6px;
 }
 
 table.bsp th {
-    width: 35px;
+    width: 50px;
     border: 3px solid var(--h3);
     color: var(--h3);
     background: none;
     padding: 2px 6px;
-}
-
-td {
-    width: 70px;
-    padding: 4px 8px;
 }
 
 li {
