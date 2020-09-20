@@ -1429,10 +1429,10 @@
         </table>
         <h4>Extended Example:</h4> 
         <p>
-          Suppose our character starts out with a wound of <em>-20</em> at day <n1/>, has a Stamina of <n6/> and a physician
+          Suppose our character starts out with a wound of <em>-20</em> at day <n0/>, has a Stamina of <n6/> and a physician
           with a skill of <em>19</em> constantly attends him.  Through the combination table (row <n10/>, this gives a bonus
           of <em>+24</em>.  A roll of <em>+3</em> gives a total of <em>+ 3 + 24 - 20 = 7</em>.  This mean after <n3/> days the wound total
-          is reduced by <n1/> to <em>19</em>. On day <n4/>, another roll is made under the same conditions and <em>-4</em> yields
+          is reduced by <n1/> to <em>19</em>. On day <n3/>, another roll is made under the same conditions and <em>-4</em> yields
           a total of <em>- 4 + 24 - 19 = 1</em>, which means <n5/> additional days, so the character will reduce his wounds to <n18/> on
           day <n9/>. However, on day <n5/> a "kill" roll <n7/> is made against <em>-21</em>, this roll is unmodified.  We track the
           complete process in the following table.
@@ -1442,7 +1442,7 @@
             <th>Day</th><th>Wounds</th><th>Heal/roll</th><th>Heal/total</th><th>Heal/days</th><th>Kill/roll</th><th>Kill/total</th>
           </tr>
           <tr>
-            <td>1</td><td>20</td><td>+3</td><td>+7</td><td>3</td><td>-</td><td>-</td>
+            <td>0</td><td>20</td><td>+3</td><td>+7</td><td>3</td><td>-</td><td>-</td>
           </tr>
           <tr>
             <td>3</td><td>19</td><td>-4</td><td>+1</td><td>5</td><td>-</td><td>-</td>
