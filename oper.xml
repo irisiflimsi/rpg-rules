@@ -1452,9 +1452,9 @@
         <h4>Extended Example:</h4> 
         <p>
           Suppose our character starts out with a wound of <em>-20</em> at day <n1/>, has a Stamina of <n6/> and a physician
-          with a skill of <em>19</em> constantly attends him.  Through the combination table (row <n10/>, this gives a bonus
+          with a skill of <em>19</em> constantly attends him.  Through the combination table (row <n10/>), this gives a bonus
           of <em>+24</em>.  A heal roll of <em>+3</em> gives a total of <em>+ 3 + 24 - 20 = 7</em>.  The kill roll equals
-          +<n2/> against <em>-30</em>, which is obviously successful. This mean after <n3/> days the wound total
+          +<em>14</em> against <em>-30</em>, which is obviously successful. This mean after <n3/> days the wound total
           is reduced by <n1/> to <em>19</em>. On day <n4/>, another roll is made under the same conditions and <em>-4</em> 
           yields a total of <em>- 4 + 24 - 19 = 1</em>, which means <n5/> additional days, so the character will reduce his
           wounds to <em>18</em> on day <n9/>. However, on day <n4/> a kill roll <n7/> is made against <em>-31</em>, this roll 
@@ -1467,64 +1467,64 @@
             <th>Day</th><th>Wounds</th><th>Heal/roll</th><th>Heal/total</th><th>Heal/days</th><th>Kill/add</th><th>Kill/roll</th><th>Kill/total</th>
           </tr>
           <tr>
-            <td>1</td><td>20</td><td>+3</td><td>7</td><td>3</td><td>8</td><td>14</td><td>-8</td>
+            <td>1</td><td>20</td><td>+3</td><td>7</td><td>3</td><td>8</td><td>+14</td><td>-8</td>
           </tr>
           <tr>
-            <td>4</td><td>19</td><td>-4</td><td>1</td><td>5</td><td>11</td><td>3</td><td>-17</td>
+            <td>4</td><td>19</td><td>-4</td><td>1</td><td>5</td><td>11</td><td>+3</td><td>-17</td>
           </tr>
           <tr>
-            <td>9</td><td>18</td><td>+2</td><td>8</td><td>3</td><td>8</td><td>6</td><td>-18</td>
+            <td>9</td><td>18</td><td>+2</td><td>8</td><td>3</td><td>8</td><td>+6</td><td>-18</td>
           </tr>
           <tr>
-            <td>12</td><td>17</td><td>-15</td><td>-8</td><td>9</td><td>16</td><td>6</td><td>-11</td>
+            <td>12</td><td>17</td><td>-15</td><td>-8</td><td>9</td><td>16</td><td>+6</td><td>-11</td>
           </tr>
           <tr>
-            <td>21</td><td>16</td><td>+5</td><td>13</td><td>2</td><td>5</td><td>5</td><td>-24</td>
+            <td>21</td><td>16</td><td>+5</td><td>13</td><td>2</td><td>5</td><td>+5</td><td>-24</td>
           </tr>
           <tr>
-            <td>23</td><td>15</td><td>-8</td><td>1</td><td>5</td><td>8</td><td>1</td><td>-26</td>
+            <td>23</td><td>15</td><td>-8</td><td>1</td><td>5</td><td>11</td><td>+1</td><td>-23</td>
           </tr>
           <tr>
-            <td>28</td><td>14</td><td>-4</td><td>6</td><td>3</td><td>8</td><td>1</td><td>-32</td>
+            <td>28</td><td>14</td><td>-4</td><td>6</td><td>3</td><td>8</td><td>+1</td><td>-27</td>
           </tr>
           <tr>
-            <td>31</td><td>13</td><td>+1</td><td>12</td><td>2</td><td>5</td><td>8</td><td>-27</td>
+            <td>31</td><td>13</td><td>+1</td><td>12</td><td>2</td><td>5</td><td>+8</td><td>-24</td>
           </tr>
           <tr>
-            <td>33</td><td>12</td><td>+3</td><td>15</td><td>2</td><td>5</td><td>5</td><td>-31</td>
+            <td>33</td><td>12</td><td>+3</td><td>15</td><td>2</td><td>5</td><td>+5</td><td>-28</td>
           </tr>
           <tr>
-            <td>35</td><td>11</td><td>-3</td><td>10</td><td>2</td><td>5</td><td>3</td><td>-34</td>
+            <td>35</td><td>11</td><td>-3</td><td>10</td><td>2</td><td>5</td><td>+3</td><td>-31</td>
           </tr>
           <tr>
-            <td>37</td><td>10</td><td>-1</td><td>13</td><td>2</td><td>5</td><td>15</td><td>-23</td>
+            <td>37</td><td>10</td><td>-1</td><td>13</td><td>2</td><td>5</td><td>+15</td><td>-20</td>
           </tr>
           <tr>
-            <td>39</td><td>9</td><td>-2</td><td>13</td><td>2</td><td>5</td><td>1</td><td>-38</td>
+            <td>39</td><td>9</td><td>-2</td><td>13</td><td>2</td><td>5</td><td>+1</td><td>-35</td>
           </tr>
           <tr>
-            <td>41</td><td>8</td><td>+5</td><td>21</td><td>1</td><td>0</td><td>3</td><td>-38</td>
+            <td>41</td><td>8</td><td>+5</td><td>21</td><td>1</td><td>0</td><td>+3</td><td>-39</td>
           </tr>
           <tr>
-            <td>42</td><td>7</td><td>+1</td><td>18</td><td>1</td><td>0</td><td>5</td><td>-37</td>
+            <td>42</td><td>7</td><td>+1</td><td>18</td><td>1</td><td>0</td><td>+5</td><td>-38</td>
           </tr>
           <tr>
-            <td>43</td><td>6</td><td>-7</td><td>11</td><td>2</td><td>5</td><td>7</td><td>-35</td>
+            <td>43</td><td>6</td><td>-7</td><td>11</td><td>2</td><td>5</td><td>+7</td><td>-32</td>
           </tr>
           <tr>
-            <td>45</td><td>5</td><td>-9</td><td>10</td><td>2</td><td>5</td><td>1</td><td>-42</td>
+            <td>45</td><td>5</td><td>-9</td><td>10</td><td>2</td><td>5</td><td>+1</td><td>-39</td>
           </tr>
           <tr>
-            <td>47</td><td>4</td><td>-7</td><td>13</td><td>2</td><td>5</td><td>12</td><td>-32</td>
+            <td>47</td><td>4</td><td>-7</td><td>13</td><td>2</td><td>5</td><td>+12</td><td>-29</td>
           </tr>
           <tr>
-            <td>49</td><td>3</td><td>+2</td><td>23</td><td>1</td><td>0</td><td>1</td><td>-45</td>
+            <td>49</td><td>3</td><td>+2</td><td>23</td><td>1</td><td>0</td><td>+1</td><td>-46</td>
           </tr>
           <tr>
-            <td>50</td><td>2</td><td>+11</td><td>33</td><td>1</td><td>0</td><td>9</td><td>-38</td>
+            <td>50</td><td>2</td><td>+11</td><td>33</td><td>1</td><td>0</td><td>+9</td><td>-39</td>
           </tr>
           <tr>
-            <td>51</td><td>1</td><td>+1</td><td>24</td><td>1</td><td>0</td><td>1</td><td>-47</td>
+            <td>51</td><td>1</td><td>+1</td><td>24</td><td>1</td><td>0</td><td>+1</td><td>-48</td>
           </tr>
           <tr>
             <td>52</td><td>0</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td>
