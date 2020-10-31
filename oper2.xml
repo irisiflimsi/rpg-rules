@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="main.xsl"?>
+<html xmlns:svg="http://www.w3.org/2000/svg">
+  <head>
+    <title>Harn RPG Rules</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="gf.css"/>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">Harn RPG Rules</div>
+
+      <div class="container">
+        <h1 id="deter">Skill Determination</h1>
+        <p>
+          Available skills are listed below and are deteremined
+          by Harnworld professions and some additional properties
+          associated with the setting.  Situations which require 
+          rolls are announced by the GM with a general description
+          of what needs to be resolved.  Players will then argue,
+          which skills could have a say in this and the GM will
+          give a corresponding percentage of how much they apply.
+        </p>
+        <p>
+          For example, an assessemnt of the correct political relation
+          between to rival noble families may be Herald/75% and
+          Knight/50%, and Mercantyler/25%.
+        </p>
+        <p>
+          Now roll for all applicable skills you have a value in.
+          (Remember that a base 0 always applies.)  In the example
+          above, the mrecantyler has a 1 in 4 chance of using with his
+          skill, say 12, and a 3 in 4 chance of using his knight 
+          skill 0. All skills which are succeesses are added up through
+          row 3 from the main rules (repeated here). The end result is
+          skill to roll against.
+        </p>
+        <table>
+          <tr>
+            <th>0</th><th>1</th><th>2-3</th>
+            <th>4-9</th><th>10+
+          </tr>
+          <tr>
+            <td>3</td><td>3</td><td>2/td>
+            <td>1</td><td>0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
