@@ -73,11 +73,25 @@
             his faith. May invent rituals and the like.
           </li>
         </ul>
-        <h3 id="char-4">Pages 16</h3>
+        <h3 id="char-4">Page 15</h3>
         <p>
           The occupations of the table on this page serve as skills and the listed
           "old" skills serve only as descriptive values.
         </p>
+        <h3 id="char-5">Page 16</h3>
+        <p>
+          <em>Automatic</em> skills are determined accoridng to the appropriate 
+          skill section (q.v.) and <em>Occupation</em> skills work as transformed
+          for the previous page. They open as 20 for the chosen occupation.
+          <em>Family</em> skills for parents in the same occupation add 2 points,
+          while for a different occupation they add 5.  (This is effectively
+          <em>Row-5-addition</em> of a 0 skill level.) <em>Optional</em> skills are
+          as they exist, but new skills may be "invented"; the scope is at GM discretion.
+          Any reasoonable skill can be improved by 5 for each option point through
+          <em>Row-5-addition</em>. Militia skills are explained elsewhere as are psionics.
+        </p>
+      </div>
+      <div class="container">
         <h1 id="deter">Skill Determination</h1>
         <p>
           Available skills are listed below and are deteremined
