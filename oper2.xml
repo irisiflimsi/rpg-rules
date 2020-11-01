@@ -39,10 +39,10 @@
         </p>
         <table>
           <tr>
-            <th>0-1</th><th>2-3</th><th>4-9</th><th>10+</th>
+            <th>Skill Difference</th><td>0-1</td><td>2-3</td><td>4-9</td><td>10+</td>
           </tr>
           <tr>
-            <td>3</td><td>2</td><td>1</td><td>0</td>
+            <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
       </div>
