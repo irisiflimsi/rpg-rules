@@ -13,6 +13,71 @@
       <div class="title">Harn RPG Rules</div>
 
       <div class="container">
+        <h1 id="char">Character</h1>
+        <h3 id="char-1">Pages 1-6, 13-14</h1>
+        <p>
+          The attributes remain in place as
+          Harnworld requires them. In other words, without them,
+          a character is incomplete in the setting. They are also not
+          transformed in any way. Generation of values can be used as
+          suggested.
+        </p>
+        <h3 id="char-2">Pages 7-8, 10</h1>
+        <p>
+          The attributes described are translated (linearly) into
+          the range -15 to 15. <em>Moraliy</em> is dropped.  Generation
+          of values can be used as suggested.
+        </p>
+        <h3 id="char-3">Pages 9, 11-12</h1>
+        <p>
+          Table results from these page are used purely in their descriptive sense.
+          Whether they retroractively have any effect on other attributes
+          is a choice that can be made during character creation and according
+          to the severity or interpretation of the result that you want to portait.
+          <em>Piety</em> is turned into a skill (q.v.) for each deity. For a single
+          deity the value can be chosen or generated as suggested. All others are 0
+          initially.
+        </p>
+        <h4 id="piety">Piety</h4>
+        <ul class="explain">
+          <li>
+            <b>Level 0:</b> NN knows that the reigion exist but cannot
+            separate it from other convocations.
+          </li>
+          <li>
+            <b>Level 5:</b> Lip service payed to the religion and ability
+            to separate it from other major faiths.
+          </li>
+          <li>
+            <b>Level 10:</b> The main tenants of the religion are known
+            and followed on individual level. Sects or heresies are not
+            considered.
+          </li>
+          <li>
+            <b>Level 15:</b> The religion is quoted often and other faiths
+            routinely treated underhanded. Proselytizing is rarely attempted.
+          </li>
+          <li>
+            <b>Level 20:</b> At this level the adherent is actively seeking
+            to further the tenants of the religion outside of his immediate
+            domain. Distinction between inner-religion minutiae are important.
+          </li>
+          <li>
+            <b>Level 25:</b> Heresy is abhorred more than other religions.
+            Support for the religion takes precendents over other interests
+            almost always.
+          </li>
+          <li>
+            <b>Level 30:</b> The adherent is a prophet for the religion and
+            accepts otherwise serious consequences for following details of
+            his faith. May invent rituals and the like.
+          </li>
+        </ul>
+        <h3 id="char-1">Pages 16</h1>
+        <p>
+          The occupations of the table on this page serve as skills and the listed
+          "old" skills serve only as descriptive values.
+        </p>
         <h1 id="deter">Skill Determination</h1>
         <p>
           Available skills are listed below and are deteremined
