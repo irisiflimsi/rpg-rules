@@ -14,7 +14,7 @@
 
       <div class="container">
         <h1 id="char">Character</h1>
-        <h3 id="char-1">Pages 1-6, 13-14</h1>
+        <h3 id="char-1">Pages 1-6, 13-14</h3>
         <p>
           The attributes remain in place as
           Harnworld requires them. In other words, without them,
@@ -22,13 +22,13 @@
           transformed in any way. Generation of values can be used as
           suggested.
         </p>
-        <h3 id="char-2">Pages 7-8, 10</h1>
+        <h3 id="char-2">Pages 7-8, 10</h3>
         <p>
           The attributes described are translated (linearly) into
           the range -15 to 15. <em>Moraliy</em> is dropped.  Generation
           of values can be used as suggested.
         </p>
-        <h3 id="char-3">Pages 9, 11-12</h1>
+        <h3 id="char-3">Pages 9, 11-12</h3>
         <p>
           Table results from these page are used purely in their descriptive sense.
           Whether they retroractively have any effect on other attributes
@@ -73,7 +73,7 @@
             his faith. May invent rituals and the like.
           </li>
         </ul>
-        <h3 id="char-1">Pages 16</h1>
+        <h3 id="char-4">Pages 16</h3>
         <p>
           The occupations of the table on this page serve as skills and the listed
           "old" skills serve only as descriptive values.
