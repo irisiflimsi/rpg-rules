@@ -14,13 +14,14 @@
 
       <div class="container">
         <h1 id="char">Character</h1>
-        <h3 id="char-1">Pages 1-6, 13-14</h3>
+        <h3 id="char-1">Pages 1-6, 13-14, 17-18, 28-30</h3>
         <p>
-          The attributes remain in place as
-          Harnworld requires them. In other words, without them,
-          a character is incomplete in the setting. They are also not
+          The attributes and descriptons remain in place as
+          Harnworld requires them (at least for some characters). In other words, without them,
+          a character designed toward a specific career would be incomplete in the setting. They are also not
           transformed in any way. Generation of values can be used as
-          suggested.
+          suggested. <em>Relationship & Loyalty</em> for contacts are
+          descriptive only.
         </p>
         <h3 id="char-2">Pages 7-8, 10</h3>
         <p>
@@ -78,7 +79,7 @@
           The occupations of the table on this page serve as skills and the listed
           "old" skills serve only as descriptive values.
         </p>
-        <h3 id="char-5">Page 16</h3>
+        <h3 id="char-5">Page 16, 19</h3>
         <p>
           <em>Automatic</em> skills are determined accoridng to the appropriate 
           skill section (q.v.) and <em>Occupation</em> skills work as transformed
@@ -87,8 +88,23 @@
           while for a different occupation they add 5.  (This is effectively
           <em>Row-5-addition</em> of a 0 skill level.) <em>Optional</em> skills are
           as they exist, but new skills may be "invented"; the scope is at GM discretion.
-          Any reasoonable skill can be improved by 5 for each option point through
-          <em>Row-5-addition</em>. Militia skills are explained elsewhere as are psionics.
+          Any reasoonable skill can be improved by 5 for each option point (OP) through
+          <em>Row-5-addition</em>; this includes OPs gained for Veterans. Militia
+          skills are explained elsewhere as are psionics.
+        </p>
+        <h3 id="char-6">Page 20-22</h3>
+        <p>
+          Rules on these page are completely dropped currently.  Generation
+          of values can be used as suggested.
+        </p>
+        <h3 id="char-6">Page 23-27</h3>
+        <p>
+          Each clerical occupation is treated as a separate occupation, with the "old"
+          skills being used in a descriptive sense. The same is true for the Shek-Pvar.
+          <em>Chantry Applications</em> are dropped.  Treat Sunsigns as attributes
+          of the same level from the <em>Convocational Sunsign Modifiers</em> for magic
+          invocations. Magic does not work along spell lines (q.v.).  Each military 
+          occupation is treated as a separate occupation as well.
         </p>
       </div>
       <div class="container">
