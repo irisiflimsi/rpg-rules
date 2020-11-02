@@ -21,6 +21,11 @@ nav {
     font-size: 12pt;
 }
 
+.indent {
+    text-indent: 2em;
+    font-size: 9px;
+}
+
 th {
     width: 200px;
 }
