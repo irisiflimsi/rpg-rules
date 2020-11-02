@@ -18,12 +18,7 @@ ul.explain {
 }
 
 nav {
-    font-size: 12pt;
-}
-
-.indent {
-    text-indent: 2em;
-    font-size: 9px;
+    font-size: 15pt;
 }
 
 th {
@@ -53,3 +48,9 @@ table.bsp th {
 svg {
     margin: 2em;
 }
+
+.indent {
+    text-indent: 2em;
+    font-size: 12px;
+}
+
