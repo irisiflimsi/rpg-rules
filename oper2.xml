@@ -16,35 +16,36 @@
         <h1 id="char">Character</h1>
         <h3 id="char-1">Pages 1-6, 13-14, 17-18, 28-30</h3>
         <p>
-          The attributes and descriptons remain in place as
-          Harnworld requires them (at least for some characters).  In
-          other words, without them, a character designed toward a specific
-          career would be incomplete in the setting. They are also not
-          transformed in any way. Generation of values can be used as
-          suggested. <em>Relationship and Loyalty</em> for contacts are
-          descriptive only.
+          The attributes and descriptons remain in place as Harnworld
+          requires them (at least for some characters).  In other
+          words, without them, a character designed toward a specific
+          career would be incomplete in the setting.  They are also
+          not transformed in any way.  Generation of values can be
+          used as suggested.  <em>Relationship and Loyalty</em> for
+          contacts are descriptive only.
         </p>
         <p>
-          Sunsigns are attributes with value 5. Modifiers in later sections
-          are treated as combination of the corrsponding percentage, e.g.
-          +3 = 60%.  See the <em>Skills</em> section how this effects the 
-          overall skill level.
+          Sunsigns are attributes with value 5.  Modifiers in later
+          sections are treated as combination of the corrsponding
+          percentage, e.g. +3 = 60%.  See the <em>Skills</em> section
+          how this effects the overall skill level.
         </p>
         <h3 id="char-2">Pages 7-8, 10</h3>
         <p>
-          The attributes described are translated (linearly) into
-          the range -15 to 15. <em>Moraliy</em> is dropped.  Generation
+          The attributes described are translated (linearly) into the
+          range -15 to 15.  <em>Moraliy</em> is dropped.  Generation
           of values can be used as suggested.
         </p>
         <h3 id="char-3">Pages 9, 11-12</h3>
         <p>
-          Table results from these page are used purely in their descriptive sense.
-          Whether they retroractively have any effect on other attributes
-          is a choice that can be made during character creation and according
-          to the severity or interpretation of the result that you want to portait.
-          <em>Piety</em> is turned into a skill (q.v.) for each deity. For a single
-          deity the value can be chosen or generated as suggested. All others are 0
-          initially.
+          Table results from these page are used purely in their
+          descriptive sense.  Whether they retroractively have any
+          effect on other attributes is a choice that can be made
+          during character creation and according to the severity or
+          interpretation of the result that you want to portait.
+          <em>Piety</em> is turned into a skill (q.v.) for each deity.
+          For a single deity the value can be chosen or generated as
+          suggested.  All others are 0 initially.
         </p>
         <h4 id="piety">Piety</h4>
         <ul class="explain">
@@ -53,81 +54,90 @@
             separate it from other convocations.
           </li>
           <li>
-            <b>Level 5:</b> Lip service payed to the religion and ability
-            to separate it from other major faiths.
+            <b>Level 5:</b> Lip service payed to the religion and
+            ability to separate it from other major faiths.
           </li>
           <li>
-            <b>Level 10:</b> The main tenants of the religion are known
-            and followed on individual level. Sects or heresies are not
-            considered.
+            <b>Level 10:</b> The main tenants of the religion are
+            known and followed on individual level.  Sects or heresies
+            are not considered.
           </li>
           <li>
-            <b>Level 15:</b> The religion is quoted often and other faiths
-            routinely treated underhanded. Proselytizing is rarely attempted.
+            <b>Level 15:</b> The religion is quoted often and other
+            faiths routinely treated underhanded.  Proselytizing is
+            rarely attempted.
           </li>
           <li>
-            <b>Level 20:</b> At this level the adherent is actively seeking
-            to further the tenants of the religion outside of his immediate
-            domain. Distinction between inner-religion minutiae are important.
+            <b>Level 20:</b> At this level the adherent is actively
+            seeking to further the tenants of the religion outside of
+            his immediate domain.  Distinction between inner-religion
+            minutiae are important.
           </li>
           <li>
-            <b>Level 25:</b> Heresy is abhorred more than other religions.
-            Support for the religion takes precendents over other interests
-            almost always.
+            <b>Level 25:</b> Heresy is abhorred more than other
+            religions.  Support for the religion takes precendents
+            over other interests almost always.
           </li>
           <li>
-            <b>Level 30:</b> The adherent is a prophet for the religion and
-            accepts otherwise serious consequences for following details of
-            his faith. May invent rituals and the like.
+            <b>Level 30:</b> The adherent is a prophet for the
+            religion and accepts otherwise serious consequences for
+            following details of his faith.  May invent rituals and
+            the like.
           </li>
         </ul>
         <h3 id="char-4">Page 15</h3>
         <p>
-          The occupations of the table on this page serve as skills and the listed
-          "old" skills serve only as descriptive values.
+          The occupations of the table on this page serve as skills
+          and the listed "old" skills serve only as descriptive
+          values.
         </p>
         <h3 id="char-5">Page 16, 19</h3>
         <p>
-          <em>Automatic</em> skills are determined accoridng to the appropriate 
-          skill section (q.v.) and <em>Occupation</em> skills work as transformed
-          for the previous page. They open as 20 for the chosen occupation.
-          <em>Family</em> skills for parents in the same occupation add 2 points,
-          while for a different occupation they add 5.  (This is effectively
-          <em>Row-5-addition</em> of a 0 skill level.) <em>Optional</em> skills are
-          as they exist, but new skills may be "invented"; the scope is at GM discretion.
-          Any reasoonable skill can be improved by 5 for each option point (OP) through
-          <em>Row-5-addition</em>; this includes OPs gained for Veterans. Militia
-          skills are explained elsewhere as are psionics.
+          <em>Automatic</em> skills are determined accoridng to the
+          appropriate skill section (q.v.) and <em>Occupation</em>
+          skills work as transformed for the previous page.  They open
+          as 20 for the chosen occupation.  <em>Family</em> skills for
+          parents in the same occupation add 2 points, while for a
+          different occupation they add 5.  (This is effectively
+          <em>Row-5-addition</em> of a 0 skill level.)
+          <em>Optional</em> skills are as they exist, but new skills
+          may be "invented"; the scope is at GM discretion.  Any
+          reasoonable skill can be improved by 5 for each option point
+          (OP) through <em>Row-5-addition</em>; this includes OPs
+          gained for Veterans.  Militia skills are explained elsewhere
+          as are psionics.
         </p>
         <h3 id="char-6">Page 20-22</h3>
         <p>
-          Rules on these page are completely dropped currently.  Generation
-          of values can be used as suggested.
+          Rules on these page are completely dropped currently.
+          Generation of values can be used as suggested.
         </p>
         <h3 id="char-6">Page 23-27</h3>
         <p>
-          Each clerical occupation is treated as a separate occupation, with the "old"
-          skills being used in a descriptive sense. The same is true for the Shek-Pvar.
-          <em>Chantry Applications</em> are dropped.  Treat Sunsigns as attributes
-          of the same level from the <em>Convocational Sunsign Modifiers</em> for magic
-          invocations. Magic does not work along spell lines (q.v.).  Each military 
-          occupation is treated as a separate occupation as well.
+          Each clerical occupation is treated as a separate
+          occupation, with the "old" skills being used in a
+          descriptive sense.  The same is true for the Shek-Pvar.
+          <em>Chantry Applications</em> are dropped.  Treat Sunsigns
+          as attributes of the same level from the <em>Convocational
+          Sunsign Modifiers</em> for magic invocations.  Magic does
+          not work along spell lines (q.v.).  Each military occupation
+          is treated as a separate occupation as well.
         </p>
       </div>
       <div class="container">
         <h1 id="skills">Skills</h1>
         <p>
-          Available skills are according to the occupations listed above,
-          determined by Harnworld professions.  More skills may be created
-          according to players' or GM's wishes.  A selection of often used skills
-          that do not easily relate to occupations is given below
+          Available skills are according to the occupations listed
+          above, determined by Harnworld professions.  More skills may
+          be created according to players' or GM's wishes.  A
+          selection of often used skills that do not easily relate to
+          occupations is given below
         </p>
         <p>
-          Situations which require 
-          rolls are announced by the GM with a general description
-          of what needs to be resolved.  Players will then argue,
-          which skills could be applicable and the GM will
-          give a corresponding percentage of how much they apply.
+          Situations which require rolls are announced by the GM with
+          a general description of what needs to be resolved.  Players
+          will then argue, which skills could be applicable and the GM
+          will give a corresponding percentage of how much they apply.
         </p>
         <p>
           For example, an assessemnt of the correct political relation
@@ -138,10 +148,11 @@
           Now roll for all applicable skills you have a value in.
           (Remember that a base 0 always applies.)  In the example
           above, the mercantyler has a 1 in 4 chance of using his
-          mercantyler skill, say 12, and a 3 in 4 chance of using his knight 
-          skill 0. All skills which were succeessfully rolled for are added up
-          through row 3 from the main rules additions table (repeated here).
-          The end result is the skill to roll against.
+          mercantyler skill, say 12, and a 3 in 4 chance of using his
+          knight skill 0.  All skills which were succeessfully rolled
+          for are added up through row 3 from the main rules additions
+          table (repeated here).  The end result is the skill to roll
+          against.
         </p>
         <table>
           <tr>
@@ -157,11 +168,12 @@
         </p>
         <h3 id="skill-2">Pages 3-4</h3>
         <p>
-          The following skills can be used in addition to the occupation skills.
-          They are considered standard.  Sunsigns affect certain applications of
-          skills.  Since the "old" skills still remain in their descriptive sense,
-          a player should announce, when he feels like his sunsign would apply to
-          a situation.  Sunsigns are attributes
+          The following skills can be used in addition to the
+          occupation skills.  They are considered standard.  Sunsigns
+          affect certain applications of skills.  Since the "old"
+          skills still remain in their descriptive sense, a player
+          should announce, when he feels like his sunsign would apply
+          to a situation.  Sunsigns are attributes
         </p>
         <ul class="explain">
           <li>
@@ -171,15 +183,16 @@
             <b>Stealth</b>
           </li>
           <li>
-            <b>Intuition:</b> This skill combines the "old" Awareness and Intrigue
-            skills and means the ability to infer more than the senses obviously provide.
-            This includes interpreting the twitching when someone lies as well as
-            a piece of wood out of place. 
+            <b>Intuition:</b> This skill combines the "old" Awareness
+            and Intrigue skills and means the ability to infer more
+            than the senses obviously provide.  This includes
+            interpreting the twitching when someone lies as well as a
+            piece of wood out of place.
           </li>
         </ul>
         <p>
-          Certain applications of skills are provided with result tables to allow
-          comparisons.
+          Certain applications of skills are provided with result
+          tables to allow comparisons.
         </p>
       </div>
     </div>
