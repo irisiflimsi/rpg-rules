@@ -9,7 +9,7 @@
 
 table {
     table-layout: fixed;
-    font-size: 85%;
+    font-size: 75%;
     margin-left: 2em;
 }
 
@@ -18,7 +18,7 @@ ul.explain {
 }
 
 nav {
-    font-size: 75%;
+    font-size: 85%;
 }
 
 th {
