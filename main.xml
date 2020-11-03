@@ -17,15 +17,11 @@
           At first I was tempted to start a philosophical debate about
           RPG rules in general and a justification of my attempt
           specifically.  But this would soon turn out to take up more
-          space than the entire rules to be presented.  So this
-          discussion must be provided elsewhere.  Suffice it to say
-          that my disinfatuation with current rules available stems
-          from the fact that they are overly complicated for the
-          little "fitness" they show for representing the genre or
-          game world they supposedly apply to.
+          space than the entire rules to be presented.  So I ignored
+          the urge.
         </p>
         <p>
-          Two major issues that annoy in particular I want to address
+          Two major issues that annoy, however, I want to address
           shortly in the next two section.
         </p>
         <h3 id="scale">Scalability</h3>
@@ -526,6 +522,38 @@
           should give as row index.  Cross-indexing gives the bonus,
           the actor with the higher skill level should receive.
         </p>
+        <table>
+          <tr>
+            <td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+          </tr>
+          <tr>
+            <td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+          </tr>
+          <tr>
+            <td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+          </tr>
+          <tr>
+            <td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+          </tr>
+          <tr>
+            <td>5</td><td>5</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td>
+          </tr>
+          <tr>
+            <td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+          <tr>
+            <td>7</td><td>7</td><td>6</td><td>6</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1</td>
+          </tr>
+          <tr>
+            <td>8</td><td>8</td><td>7</td><td>7</td><td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td>
+          </tr>
+          <tr>
+            <td>9</td><td>9</td><td>8</td><td>8</td><td>7</td><td>7</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
+          </tr>
+          <tr>
+            <td>10</td><td>10</td><td>9</td><td>9</td><td>8</td><td>8</td><td>7</td><td>7</td><td>7</td><td>6</td><td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td><td>4</td><td>3</td><td>3</td>
+          </tr>
+        </table>
         <table>
           <tr>
             <th>0</th><th>1</th><th>2</th><th>3</th>
