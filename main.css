@@ -118,7 +118,8 @@ table.bsp th {
 }
 
 li {
-    padding: 4px 8px;
+    padding: 8px;
+    text-indent: -4px;
 }
 
 .main {
