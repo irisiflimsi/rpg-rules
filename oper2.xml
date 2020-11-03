@@ -173,7 +173,7 @@
           affect certain applications of skills.  Since the "old"
           skills still remain in their descriptive sense, a player
           should announce, when he feels like his sunsign would apply
-          to a situation.  Sunsigns are attributes
+          to a situation.  Sunsigns are attributes.
         </p>
         <ul class="explain">
           <li>
@@ -193,6 +193,51 @@
         <p>
           Certain applications of skills are provided with result
           tables to allow comparisons.
+        </p>
+        <h3 id="skill-3">Page 7</h3>
+        <p>
+          Learning is modelled by an active roll with level 0 against
+          a passive level of the current skill. Note that rolling 10
+          non-stop events can be shortened into rolling a 1 with a d10.
+          Learning is applicable to attributes but the active roll is
+          level -15.
+        </p>
+        <p>
+          Such rolls may be made once a month in which the skill was
+          used reasonably often. Usually only three such rolls apply.
+          A teacher can also be combined with his own skill reduced by
+          10 through <em>Row-5-addition</em>. This assumes that the
+          teacher is available almost always during that time.
+        </p>
+        <p>
+          Example: Suppose your skill is at 5 and your teacher has a
+          skill of 12. According to the rules, we should first take the
+          highest of the two parameters to be combined into a single
+          skill roll, that is 0 and 2 (12 - 10).  Remember your active
+          level is 0 in this situation.  Taking the difference of, we
+          have a column index of 2 into the combination table and we
+          read in the fifth row a 5, which will be added to 2 (the
+          higher of the two numbers) to yield a 7. That is the active
+          skill level to roll against your current skill level (5) to 
+          improve.  We are pitting a 7 against a 5 with roughly a 70%
+          chance of success and upon success the skill level is increased
+          to 6.
+        </p>
+        <p>
+          If a more pragmatic approach is desired, use the following 
+          "reversed" table for finding the addition.
+        </p>
+        <table>
+          <tr>
+            <th>Skill Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td><td>11-19</td><td>20+</td>
+          </tr>
+          <tr>
+            <th>Addition</th><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+          </tr>
+        </table>
+        <h3 id="skill-4">Page 8-17</h3>
+        <p>
+          These pages are descriptive only.
         </p>
       </div>
     </div>
