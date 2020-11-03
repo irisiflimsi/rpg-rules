@@ -14,7 +14,7 @@
 
       <div class="container">
         <h1 id="char">Character</h1>
-        <h3 id="char-1">Pages 1-6, 13-14, 17-18, 28-30</h3>
+        <h3 id="char-1">Page 1-6, 13-14, 17-18, 28-30</h3>
         <p>
           The attributes and descriptons remain in place as Harnworld
           requires them (at least for some characters).  In other
@@ -30,13 +30,13 @@
           percentage, e.g. +3 = 60%.  See the <em>Skills</em> section
           how this effects the overall skill level.
         </p>
-        <h3 id="char-2">Pages 7-8, 10</h3>
+        <h3 id="char-2">Page 7-8, 10</h3>
         <p>
           The attributes described are translated (linearly) into the
           range -15 to 15.  <em>Moraliy</em> is dropped.  Generation
           of values can be used as suggested.
         </p>
-        <h3 id="char-3">Pages 9, 11-12</h3>
+        <h3 id="char-3">Page 9, 11-12</h3>
         <p>
           Table results from these page are used purely in their
           descriptive sense.  Whether they retroractively have any
@@ -162,11 +162,11 @@
             <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
-        <h3 id="skill-1">Pages 1-2, 5</h3>
+        <h3 id="skill-1">Page 1-2, 5</h3>
         <p>
           These pages are ignored.
         </p>
-        <h3 id="skill-2">Pages 3-4</h3>
+        <h3 id="skill-2">Page 3-4</h3>
         <p>
           The following skills can be used in addition to the
           occupation skills.  They are considered standard.  Sunsigns
