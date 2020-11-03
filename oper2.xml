@@ -17,11 +17,18 @@
         <h3 id="char-1">Pages 1-6, 13-14, 17-18, 28-30</h3>
         <p>
           The attributes and descriptons remain in place as
-          Harnworld requires them (at least for some characters). In other words, without them,
-          a character designed toward a specific career would be incomplete in the setting. They are also not
+          Harnworld requires them (at least for some characters).  In
+          other words, without them, a character designed toward a specific
+          career would be incomplete in the setting. They are also not
           transformed in any way. Generation of values can be used as
           suggested. <em>Relationship and Loyalty</em> for contacts are
           descriptive only.
+        </p>
+        <p>
+          Sunsigns are attributes with value 5. Modifiers in later sections
+          are treated as combination of the corrsponding percentage, e.g.
+          +3 = 60%.  See the <em>Skills</em> section how this effects the 
+          overall skill level.
         </p>
         <h3 id="char-2">Pages 7-8, 10</h3>
         <p>
@@ -108,11 +115,15 @@
         </p>
       </div>
       <div class="container">
-        <h1 id="deter">Skill Determination</h1>
+        <h1 id="skills">Skills</h1>
         <p>
-          Available skills are listed below and are deteremined
-          by Harnworld professions and some additional properties
-          associated with the setting.  Situations which require 
+          Available skills are according to the occupations listed above,
+          determined by Harnworld professions.  More skills may be created
+          according to players' or GM's wishes.  A selection of often used skills
+          that do not easily relate to occupations is given below
+        </p>
+        <p>
+          Situations which require 
           rolls are announced by the GM with a general description
           of what needs to be resolved.  Players will then argue,
           which skills could be applicable and the GM will
@@ -140,6 +151,36 @@
             <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
+        <h3 id="skill-1">Pages 1-2, 5</h3>
+        <p>
+          These pages are ignored.
+        </p>
+        <h3 id="skill-2">Pages 3-4</h3>
+        <p>
+          The following skills can be used in addition to the occupation skills.
+          They are considered standard.  Sunsigns affect certain applications of
+          skills.  Since the "old" skills still remain in their descriptive sense,
+          a player should announce, when he feels like his sunsign would apply to
+          a situation.  Sunsigns are attributes
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Climbing</b>
+          </li>
+          <li>
+            <b>Stealth</b>
+          </li>
+          <li>
+            <b>Intuition:</b> This skill combines the "old" Awareness and Intrigue
+            skills and means the ability to infer more than the senses obviously provide.
+            This includes interpreting the twitching when someone lies as well as
+            a piece of wood out of place. 
+          </li>
+        </ul>
+        <p>
+          Certain applications of skills are provided with result tables to allow
+          comparisons.
+        </p>
       </div>
     </div>
   </body>
