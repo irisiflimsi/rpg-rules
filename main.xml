@@ -616,8 +616,8 @@
             <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
             <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
             <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
-            <td>...</td><td>...</td><td>...</td><td>...</td>
-            <td colspan="3"><em>&#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)</em></td>
+            <td>...</td><td>...</td>
+            <td colspan="5"><em>&#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)</em></td>
           </tr>
         </table>
         <p>
