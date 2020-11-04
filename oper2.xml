@@ -25,10 +25,8 @@
           contacts are descriptive only.
         </p>
         <p>
-          Sunsigns are attributes with value 5.  Modifiers in later
-          sections are treated as combination of the corrsponding
-          percentage, e.g. +3 = 60%.  See the <em>Skills</em> section
-          how this effects the overall skill level.
+          Sunsigns are treated as direct modifiers, where they have
+          a numeric value.
         </p>
         <h3 id="char-2">Page 7-8, 10</h3>
         <p>
@@ -118,7 +116,7 @@
           occupation, with the "old" skills being used in a
           descriptive sense.  The same is true for the Shek-Pvar.
           <em>Chantry Applications</em> are dropped.  Treat Sunsigns
-          as attributes of the same level from the <em>Convocational
+          as direct modifiers from the <em>Convocational
           Sunsign Modifiers</em> for magic invocations.  Magic does
           not work along spell lines (q.v.).  Each military occupation
           is treated as a separate occupation as well.
@@ -173,7 +171,7 @@
           affect certain applications of skills.  Since the "old"
           skills still remain in their descriptive sense, a player
           should announce, when he feels like his sunsign would apply
-          to a situation.  Sunsigns are attributes.
+          to a situation.  Sunsigns are direct modifiers.
         </p>
         <ul class="explain">
           <li>
@@ -186,13 +184,23 @@
             <b>Intuition:</b> This skill combines the "old" Awareness
             and Intrigue skills and means the ability to infer more
             than the senses obviously provide.  This includes
-            interpreting the twitching when someone lies as well as a
-            piece of wood out of place.
+            interpreting the twitching when someone lies as well as
+            noticing a piece of wood out of place.
           </li>
         </ul>
         <p>
           Certain applications of skills are provided with result
           tables to allow comparisons.
+        </p>
+        <h3 id="skill-3">Page 6</h3>
+        <p>
+          All penalties described are available and will be used
+          where they makes sense individually. They are applied to
+          a skill level or attribute level as direct modifier an
+          they are neither restricted to certain tests nor do they
+          automatically apply to others.  The <em>encumbrance
+          penalty</em> is calculated from the derived attribute of
+          the same name, see the tables.
         </p>
         <h3 id="skill-3">Page 7</h3>
         <p>
@@ -235,7 +243,7 @@
             <th>Addition</th><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
-        <h3 id="skill-4">Page 8-17</h3>
+        <h3 id="skill-4">Page 8-21</h3>
         <p>
           These pages are descriptive only.
         </p>
