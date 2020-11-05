@@ -680,7 +680,7 @@
             <td>5</td>
           </tr>
         </table>
-        <h3 id="skill-1">Page 1-2, 5, 20-21</h3>
+        <h3 id="skill-1">Page 1-2, 5</h3>
         <p>
           These pages are ignored.
         </p>
@@ -748,10 +748,9 @@
         </table>
         <h3 id="skill-4">Page 8-24</h3>
         <p>
-          These pages are descriptive only.  Shock and Stumble Rolls will
-          be explained in the Combat section. <em>Mental Conflict</em> resolution
-          also follows the Combat rules, with defenses set to zero, modified
-          by magic items, rituals, etc.
+          These pages are considered descriptive only.  <em>Mental 
+          Conflict</em> resolution follows the Combat rules, with defenses 
+          set to zero, modified by magic items, rituals, etc..
         </p>
       </div>
     </div>
