@@ -162,137 +162,61 @@
         </table>
         <table>
           <tr>
-            <th></th>
-            <th>0</th>
-            <th>10</th>
-            <th>20</th>
-            <th>30</th>
+            <th></th><th>0</th><th>10</th><th>20</th><th>30</th>
           </tr>
           <tr>
-            <th>Acting</th>
-            <td>Play self</td>
-            <td>Play archetype</td>
-            <td>Play individual</td>
-            <td>Play original</td>
+            <th>Acting</th><td>Play self</td><td>Play archetype</td><td>Play individual</td><td>Play original</td>
           </tr>
           <tr>
-            <th>Lovecraft</th>
-            <td>Instinctive</td>
-            <td>Experienced</td>
-            <td>Professional</td>
-            <td>Elite/exotic</td>
+            <th>Acrobatics</th><td>No tricks</td><td>Simple tricks</td><td>Complex tricks</td><td>Original tricks</td>
           </tr>
           <tr>
-            <th>Musician</th>
-            <td>Simple, children songs</td>
-            <td>General, ritual songs</td>
-            <td>Artistic songs</td>
-            <td>Unique songs</td>
+            <th>Agriculture (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
           </tr>
           <tr>
-            <th>Speech</th>
-            <td>People perceive you</td>
-            <td>People listen to you</td>
-            <td>People consider you</td>
-            <td>People cannot deny you</td>
+            <th>Agriculture (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
           </tr>
           <tr>
-            <th>Singing</th>
-            <td>Simple, child's songs</td>
-            <td>General, ritual songs</td>
-            <td>Artistic songs</td>
-            <td>Unique songs</td>
+            <th>Climbing (Incline)</th><td>30°</td><td>60°</td><td>90°</td><td>120°</td>
           </tr>
           <tr>
-            <th>Acrobatics</th>
-            <td>No tricks</td>
-            <td>Simple tricks</td>
-            <td>Complex tricks</td>
-            <td>Original tricks</td>
+            <th>Climbing (Speed)</th><td>1/4 m/s</td><td>1/2 m/s</td><td>1 m/s</td><td>2 m/s</td>
           </tr>
           <tr>
-            <th>Climbing (Incline)</th>
-            <td>30°</td>
-            <td>60°</td>
-            <td>90°</td>
-            <td>120°</td>
+            <th>Dancing</th><td>Rhythmic Move</td><td>Simple, folk dance</td><td>Complex, ritual dance</td><td>Original dance</td>
           </tr>
           <tr>
-            <th>Climbing (Speed)</th>
-            <td>1/4 m/s</td>
-            <td>1/2 m/s</td>
-            <td>1 m/s</td>
-            <td>2 m/s</td>
+            <th>Diving</th><td>Dive 5s</td><td>Dive 15s</td><td>Dive 30s</td><td>Dive 60s</td>
           </tr>
           <tr>
-            <th>Dancing</th>
-            <td>Rhythmic Move</td>
-            <td>Simple, folk dance</td>
-            <td>Complex, ritual dance</td>
-            <td>Original dance</td>
+            <th>Jumping (Up)</th><td>0,5 m</td><td>1 m</td><td>1.5 m</td><td>2 m</td>
           </tr>
           <tr>
-            <th>Jumping (Up)</th>
-            <td>0,5 m</td>
-            <td>1 m</td>
-            <td>1.5 m</td>
-            <td>2 m</td>
+            <th>Jumping (Distance)</th><td>8 m</td><td>2 m</td><td>4 m</td><td>6 m</td>
           </tr>
           <tr>
-            <th>Jumping (Distance)</th>
-            <td>8 m</td>
-            <td>2 m</td>
-            <td>4 m</td>
-            <td>6 m</td>
+            <th>Lovecraft</th><td>Instinctive</td><td>Experienced</td><td>Professional</td><td>Elite/exotic</td>
           </tr>
           <tr>
-            <th>Skiing</th>
-            <td>0.5 m/s</td>
-            <td>1.5 m/s</td>
-            <td>2 m/s</td>
-            <td>3 m/s</td>
+            <th>Musician</th><td>Simple, children songs</td><td>General, ritual songs</td><td>Artistic songs</td><td>Unique songs</td>
           </tr>
           <tr>
-            <th>Swimming (Speed)</th>
-            <td>0.1 m/s</td>
-            <td>0.6 m/s</td>
-            <td>1 m/s</td>
-            <td>1.5 m/s</td>
+            <th>Singing</th><td>Simple, child's songs</td><td>General, ritual songs</td><td>Artistic songs</td><td>Unique songs</td>
           </tr>
           <tr>
-            <th>Diving</th>
-            <td>Dive 5s</td>
-            <td>Dive 15s</td>
-            <td>Dive 30s</td>
-            <td>Dive 60s</td>
+            <th>Speech</th><td>People perceive you</td><td>People listen to you</td><td>People consider you</td><td>People cannot deny you</td>
           </tr>
           <tr>
-            <th>Swimming (Weather)</th>
-            <td>Bft 1</td>
-            <td>Bft 3</td>
-            <td>Bft 5</td>
-            <td>Bft 7</td>
+            <th>Skiing</th><td>0.5 m/s</td><td>1.5 m/s</td><td>2 m/s</td><td>3 m/s</td>
           </tr>
           <tr>
-            <th>Throwing</th>
-            <td>10 m</td>
-            <td>30 m</td>
-            <td>60m</td>
-            <td>100 m</td>
+            <th>Swimming (Speed)</th><td>0.1 m/s</td><td>0.6 m/s</td><td>1 m/s</td><td>1.5 m/s</td>
           </tr>
           <tr>
-            <th>Agriculture (Efficiency)</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>100% yield</td>
-            <td>150% yield</td>
+            <th>Swimming (Weather)</th><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
           </tr>
           <tr>
-            <th>Agriculture (Variety)</th>
-            <td>1 kind</td>
-            <td>3 kind</td>
-            <td>6 kind</td>
-            <td>12 kind</td>
+            <th>Throwing (Distance)</th><td>10 m</td><td>30 m</td><td>60m</td><td>100 m</td>
           </tr>
           <tr>
             <th>Alchemy</th>
@@ -752,6 +676,9 @@
           Conflict</em> resolution follows the Combat rules, with defenses 
           set to zero, modified by magic items, rituals, etc..
         </p>
+      </div>
+      <div class="container">
+        <h1 id="combat">Combat</h1>
       </div>
     </div>
   </body>
