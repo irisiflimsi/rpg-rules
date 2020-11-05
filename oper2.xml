@@ -177,10 +177,37 @@
             <th>Agriculture (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
           </tr>
           <tr>
+            <th>Alchemy</th><td>1 compound</td><td>3 compounds</td><td>10 compounds</td><td>30 compounds</td>
+          </tr>
+          <tr>
+            <th>Animalcraft (Tricks)</th><td>1 trick</td><td>3 tricks</td><td>10 tricks</td><td>30 tricks</td>
+          </tr>
+          <tr>
+            <th>Animalcraft (Species)</th><td>INT -6</td><td>INT -9</td><td>INT -12</td><td>INT -15</td>
+          </tr>
+          <tr>
+            <th>Appraisal Error</th><td>100% (0 - &#8734;)</td><td>60% (0.4 - 2.5)</td><td>20% (0.8 - 1.25)</td><td>6% (0.94 - 106)</td>
+          </tr>
+          <tr>
+            <th>Astrology (Accuracy)</th><td>1 in 10 correct</td><td>1 in 6 correct</td><td>1 in 3 correct</td><td>Always correct</td>
+          </tr>
+          <tr>
+            <th>Astrology (Proximity)</th><td>360 days</td><td>60 days</td><td>10 days</td><td>2 days</td>
+          </tr>
+          <tr>
+            <th>Brewing</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Ceramics (Variety)</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
             <th>Climbing (Incline)</th><td>30°</td><td>60°</td><td>90°</td><td>120°</td>
           </tr>
           <tr>
             <th>Climbing (Speed)</th><td>1/4 m/s</td><td>1/2 m/s</td><td>1 m/s</td><td>2 m/s</td>
+          </tr>
+          <tr>
+            <th>Cookery</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
           </tr>
           <tr>
             <th>Dancing</th><td>Rhythmic Move</td><td>Simple, folk dance</td><td>Complex, ritual dance</td><td>Original dance</td>
@@ -189,16 +216,118 @@
             <th>Diving</th><td>Dive 5s</td><td>Dive 15s</td><td>Dive 30s</td><td>Dive 60s</td>
           </tr>
           <tr>
+            <th>Drawing</th><td>Simple strokes</td><td>Draw/Paint</td><td>Different Styles</td><td>Forgery possible</td>
+          </tr>
+          <tr>
+            <th>Embalming</th><td>1x decay speed</td><td>1/3x decay speed</td><td>1/10x decay speed</td><td>1/60x decay speed</td>
+          </tr>
+          <tr>
+            <th>Engineering (Variety)</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Enhancement</th><td>1/10</td><td>1</td><td>2</td><td>3</td>
+          </tr>
+          <tr>
+            <th>Fishing (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
+          </tr>
+          <tr>
+            <th>Fishing (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
+            <th>Fletching</th><td>10% yield</td><td>30% yield</td><td>60% yield</td><td>100% yield</td>
+          </tr>
+          <tr>
+            <th>Folklore (Depth)</th><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
+          </tr>
+          <tr>
+            <th>Folklore (Breadth)</th><td>10% known</td><td>30% known</td><td>60% known</td><td>100% known</td>
+          </tr>
+          <tr>
+            <th>Foraging (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
+          </tr>
+          <tr>
+            <th>Foraging (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
+            <th>Heraldry (Produce)</th><td>1 active</td><td>3 active</td><td>10 active</td><td>30 active</td>
+          </tr>
+          <tr>
+            <th>Heraldry (Recognize)</th><td>10% passive</td><td>30% passive</td><td>60% passive</td><td>100% passive</td>
+          </tr>
+          <tr>
+            <th>Herblore (Search)</th><td>1 active</td><td>3 active</td><td>10 active</td><td>30 active</td>
+          </tr>
+          <tr>
+            <th>Herblore (Recognize)</th><td>10% passive</td><td>30% passive</td><td>60% passive</td><td>100% passive</td>
+          </tr>
+          <tr>
+            <th>Hidework</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Jewelcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
             <th>Jumping (Up)</th><td>0,5 m</td><td>1 m</td><td>1.5 m</td><td>2 m</td>
           </tr>
           <tr>
             <th>Jumping (Distance)</th><td>8 m</td><td>2 m</td><td>4 m</td><td>6 m</td>
           </tr>
           <tr>
+            <th>Law (Depth)</th><td>Ignore</td><td>Notice</td><td>Consideration</td><td>Involvement</td>
+          </tr>
+          <tr>
+            <th>Law (Breadth)</th><td>Local</td><td>Feudal</td><td>Guild</td><td>Religion</td>
+          </tr>
+          <tr>
             <th>Lovecraft</th><td>Instinctive</td><td>Experienced</td><td>Professional</td><td>Elite/exotic</td>
           </tr>
           <tr>
+            <th>Masonry</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Mathematics</th><td>Single digits</td><td>Multiple digits</td><td>Abstractions</td><td>Unique Insights</td>
+          </tr>
+          <tr>
+            <th>Metalcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Milling (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
+          </tr>
+          <tr>
+            <th>Milling (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
             <th>Musician</th><td>Simple, children songs</td><td>General, ritual songs</td><td>Artistic songs</td><td>Unique songs</td>
+          </tr>
+          <tr>
+            <th>Perfumery</th><td>1 compound</td><td>3 compounds</td><td>10 compounds</td><td>30 compounds</td>
+          </tr>
+          <tr>
+            <th>Physician</th><td>HR-0</td><td>HR-1</td><td>HR-2</td><td>HR-3</td>
+          </tr>
+          <tr>
+            <th>Piloting</th><td>10% yield</td><td>30% yield</td><td>60% yield</td><td>100% yield</td>
+          </tr>
+          <tr>
+            <th><em>Quality</em></th><td>0</td><td>1</td><td>3</td><td>5</td>
+          </tr>
+          <tr>
+            <th>Riding (Variety)</th><td>Walk</td><td>Trot</td><td>Gallop</td><td>Jump</td>
+          </tr>
+          <tr>
+            <th>Ritual</th><td>1 second</td><td>1 minute</td><td>1 hour</td><td>5 days</td>
+          </tr>
+          <tr>
+            <th>Runecraft (Accuracy)</th><td>1 in 10 correct</td><td>1 in 6 correct</td><td>1 in 3 correct</td><td>Always correct</td>
+          </tr>
+          <tr>
+            <th>Runecraft (Proximity)</th><td>360 days</td><td>60 days</td><td>10 days</td><td>2 days</td>
+          </tr>
+          <tr>
+            <th>Seamanship</th><td>Coracle</td><td>Dingy</td><td>Two-Master</td><td>Any ship</td>
+          </tr>
+          <tr>
+            <th>Shipwright</th><td>Coracle</td><td>Dingy</td><td>Two-Master</td><td>Any ship</td>
           </tr>
           <tr>
             <th>Singing</th><td>Simple, child's songs</td><td>General, ritual songs</td><td>Artistic songs</td><td>Unique songs</td>
@@ -210,398 +339,49 @@
             <th>Skiing</th><td>0.5 m/s</td><td>1.5 m/s</td><td>2 m/s</td><td>3 m/s</td>
           </tr>
           <tr>
+            <th>Survival</th><td>Local conditions</td><td>Familiar conditions</td><td>Related conditions</td><td>Any conditions</td>
+          </tr>
+          <tr>
             <th>Swimming (Speed)</th><td>0.1 m/s</td><td>0.6 m/s</td><td>1 m/s</td><td>1.5 m/s</td>
           </tr>
           <tr>
             <th>Swimming (Weather)</th><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
           </tr>
           <tr>
+            <th>Stars</th><td>0</td><td>&#9733;</td><td>&#9733; &#9733; &#9733;</td><td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+          </tr>
+          <tr>
+            <th>Tarotry (Accuracy)</th><td>1 in 10 correct</td><td>1 in 6 correct</td><td>1 in 3 correct</td><td>Always correct</td>
+          </tr>
+          <tr>
+            <th>Tarotry (Proximity)</th><td>360 days</td><td>60 days</td><td>10 days</td><td>2 days</td>
+          </tr>
+          <tr>
+            <th>Textilcraft</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
+          </tr>
+          <tr>
             <th>Throwing (Distance)</th><td>10 m</td><td>30 m</td><td>60m</td><td>100 m</td>
           </tr>
           <tr>
-            <th>Alchemy</th>
-            <td>1 compound</td>
-            <td>3 compounds</td>
-            <td>10 compounds</td>
-            <td>30 compounds</td>
+            <th>Timbercraft (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>60% yield</td><td>100% yield</td>
           </tr>
           <tr>
-            <th>Animalcraft (Tricks)</th>
-            <td>1 trick</td>
-            <td>3 tricks</td>
-            <td>10 tricks</td>
-            <td>30 tricks</td>
+            <th>Timbercraft (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
           </tr>
           <tr>
-            <th>Animalcraft (Species)</th>
-            <td>INT -6</td>
-            <td>INT -9</td>
-            <td>INT -12</td>
-            <td>INT -15</td>
+            <th>Tracking</th><td>Local conditions</td><td>Familiar conditions</td><td>Related conditions</td><td>Any conditions</td>
           </tr>
           <tr>
-            <th>Astrology (Accuracy)</th>
-            <td>1 in 10 correct</td>
-            <td>1 in 6 correct</td>
-            <td>1 in 3 correct</td>
-            <td>Always correct</td>
+            <th>Weaponcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
           </tr>
           <tr>
-            <th>Astrology (Proximity)</th>
-            <td>360 days</td>
-            <td>60 days</td>
-            <td>10 days</td>
-            <td>2 days</td>
+            <th>Weatherlore (Accuracy)</th><td>20% accurate</td><td>30% accurate</td><td>60%</td><td>100%</td>
           </tr>
           <tr>
-            <th>Brewing</th>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-            <td>30 recipes</td>
+            <th>Weatherlore (Proximity)</th><td>4 hrs</td><td>8 hrs</td><td>24 hrs</td><td>1 week</td>
           </tr>
           <tr>
-            <th>Ceramics (Variety)</th>
-            <td>0 recipes</td>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-          </tr>
-          <tr>
-            <th>Cookery</th>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-            <td>30 recipes</td>
-          </tr>
-          <tr>
-            <th>Drawing</th>
-            <td>Simple strokes</td>
-            <td>Draw/Paint</td>
-            <td>Different Styles</td>
-            <td>Forgery possible</td>
-          </tr>
-          <tr>
-            <th>Embalming</th>
-            <td>1x decay speed</td>
-            <td>1/3x decay speed</td>
-            <td>1/10x decay speed</td>
-            <td>1/60x decay speed</td>
-          </tr>
-          <tr>
-            <th>Engineering (Variety)</th>
-            <td>0 recipes</td>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-          </tr>
-          <tr>
-            <th>Fishing (Efficiency)</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>100% yield</td>
-            <td>150% yield</td>
-          </tr>
-          <tr>
-            <th>Fishing (Variety)</th>
-            <td>1 kind</td>
-            <td>3 kind</td>
-            <td>6 kind</td>
-            <td>12 kind</td>
-          </tr>
-          <tr>
-            <th>Fletching</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>60% yield</td>
-            <td>100% yield</td>
-          </tr>
-          <tr>
-            <th>Folklore (Depth)</th>
-            <td>Top myth</td>
-            <td>Great myths</td>
-            <td>Most myths</td>
-            <td>All myths</td>
-          </tr>
-          <tr>
-            <th>Folklore (Breadth)</th>
-            <td>10% known</td>
-            <td>30% known</td>
-            <td>60% known</td>
-            <td>100% known</td>
-          </tr>
-          <tr>
-            <th>Foraging (Efficiency)</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>100% yield</td>
-            <td>150% yield</td>
-          </tr>
-          <tr>
-            <th>Foraging (Variety)</th>
-            <td>1 kind</td>
-            <td>3 kind</td>
-            <td>6 kind</td>
-            <td>12 kind</td>
-          </tr>
-          <tr>
-            <th>Heraldry (Produce)</th>
-            <td>1 active</td>
-            <td>3 active</td>
-            <td>10 active</td>
-            <td>30 active</td>
-          </tr>
-          <tr>
-            <th>Heraldry (Recognize)</th>
-            <td>10% passive</td>
-            <td>30% passive</td>
-            <td>60% passive</td>
-            <td>100% passive</td>
-          </tr>
-          <tr>
-            <th>Herblore (Search)</th>
-            <td>1 active</td>
-            <td>3 active</td>
-            <td>10 active</td>
-            <td>30 active</td>
-          </tr>
-          <tr>
-            <th>Herblore (Recognize)</th>
-            <td>10% passive</td>
-            <td>30% passive</td>
-            <td>60% passive</td>
-            <td>100% passive</td>
-          </tr>
-          <tr>
-            <th>Hidework</th>
-            <td>0 recipes</td>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-          </tr>
-          <tr>
-            <th>Jewelcraft</th>
-            <td>0 recipes</td>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-          </tr>
-          <tr>
-            <th>Law (Depth)</th>
-            <td>Ignore</td>
-            <td>Notice</td>
-            <td>Consideration</td>
-            <td>Involvement</td>
-          </tr>
-          <tr>
-            <th>Law (Breadth)</th>
-            <td>Local</td>
-            <td>Feudal</td>
-            <td>Guild</td>
-            <td>Religion</td>
-          </tr>
-          <tr>
-            <th>Masonry</th>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-            <td>30 recipes</td>
-          </tr>
-          <tr>
-            <th>Mathematics</th>
-            <td>Single digits</td>
-            <td>Multiple digits</td>
-            <td>Abstractions</td>
-            <td>Unique Insights</td>
-          </tr>
-          <tr>
-            <th>Metalcraft</th>
-            <td>0 recipes</td>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-          </tr>
-          <tr>
-            <th>Milling (Efficiency)</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>100% yield</td>
-            <td>150% yield</td>
-          </tr>
-          <tr>
-            <th>Milling (Variety)</th>
-            <td>1 kind</td>
-            <td>3 kind</td>
-            <td>6 kind</td>
-            <td>12 kind</td>
-          </tr>
-          <tr>
-            <th>Perfumery</th>
-            <td>1 compound</td>
-            <td>3 compounds</td>
-            <td>10 compounds</td>
-            <td>30 compounds</td>
-          </tr>
-          <tr>
-            <th>Physician</th>
-            <td>HR-0</td>
-            <td>HR-1</td>
-            <td>HR-2</td>
-            <td>HR-3</td>
-          </tr>
-          <tr>
-            <th>Piloting</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>60% yield</td>
-            <td>100% yield</td>
-          </tr>
-          <tr>
-            <th>Riding (Variety)</th>
-            <td>Walk</td>
-            <td>Trot</td>
-            <td>Gallop</td>
-            <td>Jump</td>
-          </tr>
-          <tr>
-            <th>Ritual</th>
-            <td>1 second</td>
-            <td>1 minute</td>
-            <td>1 hour</td>
-            <td>5 days</td>
-          </tr>
-          <tr>
-            <th>Runecraft (Accuracy)</th>
-            <td>1 in 10 correct</td>
-            <td>1 in 6 correct</td>
-            <td>1 in 3 correct</td>
-            <td>Always correct</td>
-          </tr>
-          <tr>
-            <th>Runecraft (Proximity)</th>
-            <td>360 days</td>
-            <td>60 days</td>
-            <td>10 days</td>
-            <td>2 days</td>
-          </tr>
-          <tr>
-            <th>Seamanship</th>
-            <td>Coracle</td>
-            <td>Dingy</td>
-            <td>Two-Master</td>
-            <td>Any ship</td>
-          </tr>
-          <tr>
-            <th>Shipwright</th>
-            <td>Coracle</td>
-            <td>Dingy</td>
-            <td>Two-Master</td>
-            <td>Any ship</td>
-          </tr>
-          <tr>
-            <th>Survival</th>
-            <td>Local conditions</td>
-            <td>Familiar conditions</td>
-            <td>Related conditions</td>
-            <td>Any conditions</td>
-          </tr>
-          <tr>
-            <th>Tarotry (Accuracy)</th>
-            <td>1 in 10 correct</td>
-            <td>1 in 6 correct</td>
-            <td>1 in 3 correct</td>
-            <td>Always correct</td>
-          </tr>
-          <tr>
-            <th>Tarotry (Proximity)</th>
-            <td>360 days</td>
-            <td>60 days</td>
-            <td>10 days</td>
-            <td>2 days</td>
-          </tr>
-          <tr>
-            <th>Textilcraft</th>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-            <td>30 recipes</td>
-          </tr>
-          <tr>
-            <th>Timbercraft (Efficiency)</th>
-            <td>10% yield</td>
-            <td>30% yield</td>
-            <td>60% yield</td>
-            <td>100% yield</td>
-          </tr>
-          <tr>
-            <th>Timbercraft (Variety)</th>
-            <td>1 kind</td>
-            <td>3 kind</td>
-            <td>6 kind</td>
-            <td>12 kind</td>
-          </tr>
-          <tr>
-            <th>Tracking</th>
-            <td>Local conditions</td>
-            <td>Familiar conditions</td>
-            <td>Related conditions</td>
-            <td>Any conditions</td>
-          </tr>
-          <tr>
-            <th>Weaponcraft</th>
-            <td>0 recipes</td>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-          </tr>
-          <tr>
-            <th>Weatherlore (Accuracy)</th>
-            <td>20% accurate</td>
-            <td>30% accurate</td>
-            <td>60%</td>
-            <td>100%</td>
-          </tr>
-          <tr>
-            <th>Weatherlore (Proximity)</th>
-            <td>4 hrs</td>
-            <td>8 hrs</td>
-            <td>24 hrs</td>
-            <td>1 week</td>
-          </tr>
-          <tr>
-            <th>Woodcraft</th>
-            <td>0 recipes</td>
-            <td>1 recipe</td>
-            <td>3 recipes</td>
-            <td>10 recipes</td>
-          </tr>
-          <tr>
-            <th>Appraisal Error</th>
-            <td>100% (0 - &#8734;)</td>
-            <td>60% (0.4 - 2.5)</td>
-            <td>20% (0.8 - 1.25)</td>
-            <td>6% (0.94 - 106)</td>
-          </tr>
-          <tr>
-            <th>Stars</th>
-            <td>0</td>
-            <td>&#9733;</td>
-            <td>&#9733; &#9733; &#9733;</td>
-            <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
-          </tr>
-          <tr>
-            <th>Enhancement</th>
-            <td>1/10</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <th><em>Quality</em></th>
-            <td>0</td>
-            <td>1</td>
-            <td>3</td>
-            <td>5</td>
+            <th>Woodcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
           </tr>
         </table>
         <h3 id="skill-1">Page 1-2, 5</h3>
