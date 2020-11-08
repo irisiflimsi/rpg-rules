@@ -29,18 +29,6 @@ td {
     width: 200px;
 }
 
-table.bsp tr:nth-child(even) td {
-    width: 150px;
-}
-
-table.bsp tr:nth-child(odd) td {
-    width: 150px;
-}
-
-table.bsp th {
-    width: 150px;
-}
-
 .wide {
     width: 1200px;
 }
