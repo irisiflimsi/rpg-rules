@@ -460,8 +460,18 @@
       <div class="container">
         <h1 id="combat">Combat</h1>
         <p>
-          The following table is rolled for each combatant, adding any bonuses and subtracting any penalties.
-          The time is the number of seconds, which it takes to achieve the set goal.
+          The following table is rolled for each combatant, adding any
+          bonuses and subtracting any penalties.  The time is the number
+          of seconds, which it takes to achieve the set goal. The Goal
+          and level can be played out against each other.  Hoever, once a
+          progression has reached its goal, a new skill roll is necessary.
+          The goal must be declared before the roll.
+        </p>
+        <p>
+          Any effects from wounds or other external influences in combat are
+          applied immediately to pending progressions.  At the actors choice
+          it can offset the goal or the time.  To prevent players from immediately
+          aborting "bad" rolls, mandatory secret rolls by the GM can be used.
         </p>
         <table>
           <tr>
@@ -474,7 +484,7 @@
           </tr>
           <tr>
             <th>Goal</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>M</td>S<td>G</td>
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>M2</td><td>S5</td><td>G10</td>
           </tr>
           <tr><th rowspan="1" colspan="22"></th></tr><tr></tr>
           <tr><th rowspan="3" colspan="22"></th></tr><tr></tr>
@@ -488,8 +498,8 @@
             <td>15</td><td>14</td><td>14</td><td>13</td><td>13</td><td>12</td><td>12</td><td>11</td><td>11</td><td>10</td>
           </tr>
           <tr>
-            <th>Goal</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>M</td><td>S</td><td>M</td>S<td>G</td>
+            <th>Goal</th><td>G10</td><td>S5</td><td>G10</td><td>K20</td><td>G10</td><td>K20</td><td>D40</td><td>K20</td><td>D40</td><td>D40</td>
+            <td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td>
           </tr>
           <tr><th rowspan="1" colspan="22"></th></tr><tr></tr>
           <tr><th rowspan="3" colspan="22"></th></tr><tr></tr>
@@ -503,10 +513,14 @@
             <td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td>
           </tr>
           <tr>
-            <th>Goal</th><td>S</td><td>G</td><td>K</td><td>G</td><td>K</td><td>G</td><td>K</td><td>D</td><td>K</td><td>D</td>
-            <td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td><td>D</td>D<td>D</td>
+            <th>Goal</th><td>Dv</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td>
+            <td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td>
           </tr>
         </table>
+        <h3 id="com-1">Page 1</h3>
+        <p>
+          These pages are ignored.
+        </p>
       </div>
     </div>
   </body>
