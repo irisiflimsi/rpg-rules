@@ -160,7 +160,7 @@
             <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
-        <table>
+        <table class="bsp">
           <tr>
             <th></th><th>0</th><th>10</th><th>20</th><th>30</th>
           </tr>
