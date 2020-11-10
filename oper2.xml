@@ -414,6 +414,13 @@
           although a 20% spread (for a 10 level difference) with Agility
           modification could be appropriate.
         </p>
+        <p>
+          Fatigue is acrued at the 10 points per minute (or 1 per second)
+          for the generated maximum sprint speed. Fractions (which cannot
+          exceed 1) of that speed generate the corresponding fractional
+          fatigue rate. E.g. running at half the maximum speed gives 5 points
+          per minute (or 1 per 12 seconds).  Only simple fractions are allowed.
+        </p>
         <h4 id="str">Strength</h4>
         <table class="bsp">
           <tr>
@@ -447,6 +454,13 @@
           Still without tools, activity with both hands is impossible. Freeing one 
           hand incurs twice the penalty and assumes that the weight is liftable that
           way.
+        </p>
+        <p>
+          Fatigue is acrued at the 10 points per minute (or 1 per second)
+          for the generated maximum lift. Fractions (which cannot exceed 1) of
+          that lift generate the corresponding fractional
+          fatigue rate. E.g. lifting half the maximum weight gives 5 points
+          per minute (or 1 per 12 seconds).  Only simple fractions are allowed.
         </p>
         <h4 id="hear">Hearing</h4>
         <table class="bsp">
@@ -546,6 +560,9 @@
           penalty</em> is calculated from the derived attribute of
           the same name, see the tables.
         </p>
+        <p>
+          Fatigue is recovered at a rate of 1 level per minute.
+        </p>
         <h3 id="skill-3">Page 7</h3>
         <p>
           Learning is modelled by an active roll with level 0 against
@@ -599,16 +616,27 @@
         <p>
           The following table is rolled for each combatant, adding any
           bonuses and subtracting any penalties.  The time is the number
-          of seconds, which it takes to achieve the set goal. The Goal
-          and level can be played out against each other.  Hoever, once a
+          of seconds, which it takes to achieve the set <em>wound level</em>
+          zero.  The <em>wound level</em> can be set higher, but then this
+          number is subtracted. Estimated time and level can be played out
+          against each other.  The intended <em>wound level</em> must be
+          declared before the roll and n multiples of 5.  Once a (rolled)
           progression has reached its goal, a new skill roll is necessary.
-          The goal must be declared before the roll.
         </p>
         <p>
           Any effects from wounds or other external influences in combat are
           applied immediately to pending progressions.  At the actors choice
           it can offset the goal or the time.  To prevent players from immediately
           aborting "bad" rolls, mandatory secret rolls by the GM can be used.
+        </p>
+        <p>
+          If so desired, the intended wound level can be randomized in the usual
+          way.  This can not be modified except through <em>control</em>.
+          Alternatively, if time is fixed, a best effort attack can be made. For
+          instance, if an opponent was downed and will get up within a few seconds
+          and the bonus shall be used for better or worse.  In that case always
+          spread the actual wound level around the least favorable time for the
+          attacker.
         </p>
         <table class="bsp">
           <tr>
@@ -619,10 +647,6 @@
             <th>Time(s)</th><td>120</td><td>114</td><td>108</td><td>102</td><td>96</td><td>90</td><td>84</td><td>78</td><td>72</td><td>66</td>
             <td>60</td><td>57</td><td>54</td><td>51</td><td>48</td><td>45</td><td>42</td><td>39</td><td>36</td><td>33</td><td>30</td>
           </tr>
-          <tr>
-            <th>Goal</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>M2</td><td>S5</td><td>G10</td>
-          </tr>
           <tr><th colspan="22"></th></tr>
           <tr>
             <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
@@ -631,10 +655,6 @@
           <tr>
             <th>Time(s)</th><td>30</td><td>28</td><td>26</td><td>24</td><td>22</td><td>20</td><td>19</td><td>18</td><td>17</td><td>16</td><td>15</td>
             <td>15</td><td>14</td><td>14</td><td>13</td><td>13</td><td>12</td><td>12</td><td>11</td><td>11</td><td>10</td>
-          </tr>
-          <tr>
-            <th>Goal</th><td>G10</td><td>S5</td><td>G10</td><td>K20</td><td>G10</td><td>K20</td><td>D40</td><td>K20</td><td>D40</td><td>D40</td>
-            <td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td>
           </tr>
           <tr><th colspan="22"></th></tr>
           <tr>
@@ -645,22 +665,23 @@
             <th>Time(s)</th><td>10</td><td>10</td><td>9</td><td>9</td><td>8</td><td>8</td><td>7</td><td>7</td><td>7</td><td>6</td><td>6</td>
             <td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td>
           </tr>
-          <tr>
-            <th>Goal</th><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td>
-            <td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td><td>D40</td>
-          </tr>
         </table>
-        <h3 id="com-1">Page 1</h3>
+        <h3 id="com-1">Page 1, 6-9</h3>
         <p>
-          These pages are ignored.
+          These pages are ignored. Some paragraphs may be taken for theor descriptive value only.
+          Combat fatigue is 1 point per minute. 
         </p>
-        <h3 id="com-2">Page 2-3</h3>
+        <h3 id="com-2">Page 2-3, 5</h3>
         <p>
           <em>Endurance</em> equals <em>Stamina</em>.  <em>Move</em> is a
           velocity as given above.  <em>Dodge</em> is added to <em>Defense</em>
           through Row-5-Addition. On the <em>Weapon Data</em> the Skill, WQ, 
           and OML are ignored. A/D and HM are divided by 5. A dot in B/E/P is
           treated as zero. Custom weapons are descriptive only.
+        </p>
+        <p>
+          Armour is used as is, except the <em>Protection and Encumbrance</em> part, wich is only
+          descriptive.
         </p>
         <h3 id="com-3">Page 4</h3>
         <p>
