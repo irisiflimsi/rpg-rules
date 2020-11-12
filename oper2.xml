@@ -698,7 +698,7 @@
             <td>19-20</td><td>left hand</td>
           </tr>
           <tr>
-            <td>21-30</td><td>left thorax</td>
+            <td>21-30</td><td>21-30</td><td>left thorax</td>
           </tr>
           <tr>
             <td rowspan="3">31-40</td><td>31-35</td><td>left abdomen</td>
@@ -710,7 +710,7 @@
             <td>39-40</td><td>left groin</td>
           </tr>
           <tr>
-            <td>41-50</td><td>41-44</td><td>left thigh</td>
+            <td rowspan="4">41-50</td><td>41-44</td><td>left thigh</td>
           </tr>
           <tr>
             <td>45</td><td>left knee</td>
@@ -731,7 +731,7 @@
             <td>55-60</td><td>left shoulder</td>
           </tr>
           <tr>
-            <td>60-70</td><td>61-63</td><td>right upper arm</td> 
+            <td rowspan="4">60-70</td><td>61-63</td><td>right upper arm</td> 
           </tr>
           <tr>
             <td>64-65</td><td>right elbow</td>
@@ -743,7 +743,7 @@
             <td>69-70</td><td>right hand</td>
           </tr>
           <tr>
-            <td>71-80</td><td>right thorax</td>
+            <td rowspan="3">71-80</td><td>71-80</td><td>right thorax</td>
           </tr>
           <tr>
             <td>81-90</td><td>81-85</td><td>right abdomen</td>
@@ -755,7 +755,7 @@
             <td>89-90</td><td>right groin</td>
           </tr>
           <tr>
-            <td>91-100</td><td>91-94</td><td>right thigh</td>
+            <td rowspan="4">91-100</td><td>91-94</td><td>right thigh</td>
           </tr>
           <tr>
             <td>95</td><td>right knee</td>
