@@ -677,46 +677,94 @@
         </p>
         <table>
           <tr>
-            <td rowspan="3">00-09</td><td>01-02</td><td>left skull</td>
+            <td rowspan="3">01-10</td><td>01-02</td><td>left skull</td>
           </tr>
           <tr>
             <td>03-04</td><td>left face</td>
           </tr>
           <tr>
-            <td>05-09</td><td>left shoulder</td>
+            <td>05-10</td><td>left shoulder</td>
           </tr>
           <tr>
-            <td>10-19</td><td>left upper arm, elbow, forearm, hand</td>
+            <td rowspan="4">11-20</td><td>11-13</td><td>left upper arm</td>
           </tr>
           <tr>
-            <td>20-29</td><td>left thorax</td>
+            <td>14-15</td><td>left elbow</td>
           </tr>
           <tr>
-            <td>30-39</td><td>left abdomen, hip, groin</td>
+            <td>16-18</td><td>left forearm</td>
           </tr>
           <tr>
-            <td>40-49</td><td>left thigh, knee, calf, foot</td>
+            <td>19-20</td><td>left hand</td>
           </tr>
           <tr>
-            <td rowspan="3">50-59</td><td>51-52</td><td>left skull</td>
+            <td>21-30</td><td>left thorax</td>
+          </tr>
+          <tr>
+            <td rowspan="3">31-40</td><td>31-35</td><td>left abdomen</td>
+          </tr>
+          <tr>
+            <td>36-38</td><td>left hip</td>
+          </tr>
+          <tr>
+            <td>39-40</td><td>left groin</td>
+          </tr>
+          <tr>
+            <td>41-50</td><td>41-44</td><td>left thigh</td>
+          </tr>
+          <tr>
+            <td>45</td><td>left knee</td>
+          </tr>
+          <tr>
+            <td>46-48</td><td>left calf</td>
+          </tr>
+          <tr>
+            <td>49-50</td><td>left foot</td>
+          </tr>
+          <tr>
+            <td rowspan="3">51-60</td><td>51-52</td><td>left skull</td>
           </tr>
           <tr>
             <td>53-54</td><td>left face</td>
           </tr>
           <tr>
-            <td>55-59</td><td>left shoulder</td>
+            <td>55-60</td><td>left shoulder</td>
           </tr>
           <tr>
-            <td>60-69</td><td>right upper arm, elbow, forearm, hand</td> 
+            <td>60-70</td><td>61-63</td><td>right upper arm</td> 
           </tr>
           <tr>
-            <td>70-79</td><td>right thorax</td>
+            <td>64-65</td><td>right elbow</td>
           </tr>
           <tr>
-            <td>80-89</td><td>right abdomen, hip, groin</td>
+            <td>66-68</td><td>right forearm</td>
           </tr>
           <tr>
-            <td>90-99</td><td>right  thigh, knee, calf, foot</td>
+            <td>69-70</td><td>right hand</td>
+          </tr>
+          <tr>
+            <td>71-80</td><td>right thorax</td>
+          </tr>
+          <tr>
+            <td>81-90</td><td>81-85</td><td>right abdomen</td>
+          </tr>
+          <tr>
+            <td>86-88</td><td>right hip</td>
+          </tr>
+          <tr>
+            <td>89-90</td><td>right groin</td>
+          </tr>
+          <tr>
+            <td>91-100</td><td>91-94</td><td>right thigh</td>
+          </tr>
+          <tr>
+            <td>95</td><td>right knee</td>
+          </tr>
+          <tr>
+            <td>96-98</td><td>right calf</td>
+          </tr>
+          <tr>
+            <td>99-100</td><td>right foot</td>
           </tr>
         </table>
         <h3 id="com-1">Page 1, 6-9</h3>
