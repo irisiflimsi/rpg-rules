@@ -743,10 +743,10 @@
             <td>69-70</td><td>right hand</td>
           </tr>
           <tr>
-            <td rowspan="3">71-80</td><td>71-80</td><td>right thorax</td>
+            <td>71-80</td><td>71-80</td><td>right thorax</td>
           </tr>
           <tr>
-            <td>81-90</td><td>81-85</td><td>right abdomen</td>
+            <td rowspan="3">81-90</td><td>81-85</td><td>right abdomen</td>
           </tr>
           <tr>
             <td>86-88</td><td>right hip</td>
