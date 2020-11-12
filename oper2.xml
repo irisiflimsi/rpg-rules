@@ -678,46 +678,46 @@
         <table>
           <tr>
             <td rowspan="3">00-09</td><td>01-02</td><td>left skull</td>
-          <tr>
+          </tr>
           <tr>
             <td>03-04</td><td>left face</td>
-          <tr>
+          </tr>
           <tr>
             <td>05-09</td><td>left shoulder</td>
-          <tr>
+          </tr>
           <tr>
             <td>10-19</td><td>left upper arm, elbow, forearm, hand</td>
-          <tr>
+          </tr>
           <tr>
             <td>20-29</td><td>left thorax</td>
-          <tr>
+          </tr>
           <tr>
             <td>30-39</td><td>left abdomen, hip, groin</td>
-          <tr>
+          </tr>
           <tr>
             <td>40-49</td><td>left thigh, knee, calf, foot</td>
-          <tr>
+          </tr>
           <tr>
             <td rowspan="3">50-59</td><td>51-52</td><td>left skull</td>
-          <tr>
+          </tr>
           <tr>
             <td>53-54</td><td>left face</td>
-          <tr>
+          </tr>
           <tr>
             <td>55-59</td><td>left shoulder</td>
-          <tr>
+          </tr>
           <tr>
             <td>60-69</td><td>right upper arm, elbow, forearm, hand</td> 
-          <tr>
+          </tr>
           <tr>
             <td>70-79</td><td>right thorax</td>
-          <tr>
+          </tr>
           <tr>
             <td>80-89</td><td>right abdomen, hip, groin</td>
-          <tr>
+          </tr>
           <tr>
             <td>90-99</td><td>right  thigh, knee, calf, foot</td>
-          <tr>
+          </tr>
         </table>
         <h3 id="com-1">Page 1, 6-9</h3>
         <p>
