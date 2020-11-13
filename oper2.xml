@@ -671,11 +671,19 @@
         <p>
           Hit location is determined when the goal is reached.
           Before the goal is reached, a penalty of -1 can be taken
-          to reduce the possible hit location by one. This penalty
-          can be taken multiple times but the remaining hit locations
+          to reduce the possible hit location by one <em>Main</em>
+          area. This penalty can be taken multiple times but the
+          remaining main hit locations must be (bodily)
+          connected. If all but one main location has been eliminated,
+          individual percentage points may be reduced for a
+          <em>Detail</em> area. This penalty can again be taken
+          multiple times but the remaining detail hit locations 
           must be (bodily) connected.
         </p>
         <table>
+          <tr>
+            <th>Main</td><td>Detail</td><td>Hit Location/td>
+          </tr>
           <tr>
             <td rowspan="3">01-10</td><td>01-02</td><td>left skull</td>
           </tr>
