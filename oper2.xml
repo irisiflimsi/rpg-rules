@@ -123,6 +123,81 @@
       </div>
       <div class="container">
         <h1 id="skills">Skills</h1>
+        <h4>Page 1-2, 5</h4>
+        <p>
+          These pages are ignored.
+        </p>
+        <h4>Page 3-4</h4>
+        <p>
+          Sunsigns affect certain applications of skills.  Since the "old"
+          skills still remain in their descriptive sense, a player
+          should announce, when he feels like his sunsign would apply
+          to a situation.  Sunsigns are direct modifiers.
+        </p>
+        <p>
+          Certain applications of skills are provided with result
+          tables to allow comparisons.
+        </p>
+        <h4>Page 6</h4>
+        <p>
+          All penalties described are available and will be used
+          where they makes sense individually. They are applied to
+          a skill level or attribute level as direct modifier an
+          they are neither restricted to certain tests nor do they
+          automatically apply to others.  The <em>encumbrance
+          penalty</em> is calculated from the derived attribute of
+          the same name, see the tables.
+        </p>
+        <p>
+          Fatigue is recovered at a rate of 1 level per minute.
+        </p>
+        <h4>Page 7</h4>
+        <p>
+          Learning is modelled by an active roll with level 0 against
+          a passive level of the current skill. Note that rolling 10
+          non-stop events can be shortened into rolling a 1 with a d10.
+          Learning is applicable to attributes but the active roll is
+          level -15.
+        </p>
+        <p>
+          Such rolls may be made once a month in which the skill was
+          used reasonably often. Usually only three such rolls apply.
+          A teacher can also be combined with his own skill reduced by
+          10 through <em>Row-5-addition</em>. This assumes that the
+          teacher is available almost always during that time.
+        </p>
+        <p>
+          Example: Suppose your skill is at 5 and your teacher has a
+          skill of 12. According to the rules, we should first take the
+          highest of the two parameters to be combined into a single
+          skill roll, that is 0 and 2 (12 - 10).  Remember your active
+          level is 0 in this situation.  Taking the difference of, we
+          have a column index of 2 into the combination table and we
+          read in the fifth row a 5, which will be added to 2 (the
+          higher of the two numbers) to yield a 7. That is the active
+          skill level to roll against your current skill level (5) to 
+          improve.  We are pitting a 7 against a 5 with roughly a 70%
+          chance of success and upon success the skill level is increased
+          to 6.
+        </p>
+        <p>
+          If a more pragmatic approach is desired, use the following 
+          "reversed" table for finding the addition.
+        </p>
+        <table>
+          <tr>
+            <th>Skill Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td><td>11-19</td><td>20+</td>
+          </tr>
+          <tr>
+            <th>Addition</th><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+          </tr>
+        </table>
+        <h4>Page 8-24</h4>
+        <p>
+          These pages are considered descriptive only.  <em>Mental 
+          Conflict</em> resolution follows the Combat rules, with defenses 
+          set to zero, modified by magic items, rituals, etc..
+        </p>
         <p>
           Available skills are according to the occupations listed
           above, determined by Harnworld professions.  More skills may
@@ -159,6 +234,7 @@
             <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
+        <h3 id="skill-1">Applications</h3>
         <table class="bsp">
           <tr>
             <th></th><th>0</th><th>10</th><th>20</th><th>30</th>
@@ -383,7 +459,8 @@
             <th>Woodcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
           </tr>
         </table>
-        <h4 id="str">Agility</h4>
+        <h3 id="skill-2">Attributes</h3>
+        <h4>Agility</h4>
         <table class="bsp">
           <tr>
             <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
@@ -444,7 +521,7 @@
           fatigue rate. E.g. running at half the maximum speed gives 5 points
           per minute (or 1 per 12 seconds).  Only simple fractions are allowed.
         </p>
-        <h4 id="str">Strength</h4>
+        <h4>Strength</h4>
         <table class="bsp">
           <tr>
             <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
@@ -485,7 +562,7 @@
           fatigue rate. E.g. lifting half the maximum weight gives 5 points
           per minute (or 1 per 12 seconds).  Only simple fractions are allowed.
         </p>
-        <h4 id="hear">Hearing</h4>
+        <h4>Hearing</h4>
         <table class="bsp">
           <tr>
             <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
@@ -533,7 +610,7 @@
             <b>Level 80:</b> Thunder / Distance &#215; 100
           </li>
         </ul>
-        <h4 id="eye">Eyesight</h4>
+        <h4>Eyesight</h4>
         <table class="bsp">
           <tr>
             <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
@@ -557,81 +634,6 @@
         <p>
           Typical modifications are made for <em>contrast (+), movement (+),
           distraction (-), border of visual field (-)</em>
-        </p>
-        <h3 id="skill-1">Page 1-2, 5</h3>
-        <p>
-          These pages are ignored.
-        </p>
-        <h3 id="skill-2">Page 3-4</h3>
-        <p>
-          Sunsigns affect certain applications of skills.  Since the "old"
-          skills still remain in their descriptive sense, a player
-          should announce, when he feels like his sunsign would apply
-          to a situation.  Sunsigns are direct modifiers.
-        </p>
-        <p>
-          Certain applications of skills are provided with result
-          tables to allow comparisons.
-        </p>
-        <h3 id="skill-3">Page 6</h3>
-        <p>
-          All penalties described are available and will be used
-          where they makes sense individually. They are applied to
-          a skill level or attribute level as direct modifier an
-          they are neither restricted to certain tests nor do they
-          automatically apply to others.  The <em>encumbrance
-          penalty</em> is calculated from the derived attribute of
-          the same name, see the tables.
-        </p>
-        <p>
-          Fatigue is recovered at a rate of 1 level per minute.
-        </p>
-        <h3 id="skill-3">Page 7</h3>
-        <p>
-          Learning is modelled by an active roll with level 0 against
-          a passive level of the current skill. Note that rolling 10
-          non-stop events can be shortened into rolling a 1 with a d10.
-          Learning is applicable to attributes but the active roll is
-          level -15.
-        </p>
-        <p>
-          Such rolls may be made once a month in which the skill was
-          used reasonably often. Usually only three such rolls apply.
-          A teacher can also be combined with his own skill reduced by
-          10 through <em>Row-5-addition</em>. This assumes that the
-          teacher is available almost always during that time.
-        </p>
-        <p>
-          Example: Suppose your skill is at 5 and your teacher has a
-          skill of 12. According to the rules, we should first take the
-          highest of the two parameters to be combined into a single
-          skill roll, that is 0 and 2 (12 - 10).  Remember your active
-          level is 0 in this situation.  Taking the difference of, we
-          have a column index of 2 into the combination table and we
-          read in the fifth row a 5, which will be added to 2 (the
-          higher of the two numbers) to yield a 7. That is the active
-          skill level to roll against your current skill level (5) to 
-          improve.  We are pitting a 7 against a 5 with roughly a 70%
-          chance of success and upon success the skill level is increased
-          to 6.
-        </p>
-        <p>
-          If a more pragmatic approach is desired, use the following 
-          "reversed" table for finding the addition.
-        </p>
-        <table>
-          <tr>
-            <th>Skill Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td><td>11-19</td><td>20+</td>
-          </tr>
-          <tr>
-            <th>Addition</th><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
-          </tr>
-        </table>
-        <h3 id="skill-4">Page 8-24</h3>
-        <p>
-          These pages are considered descriptive only.  <em>Mental 
-          Conflict</em> resolution follows the Combat rules, with defenses 
-          set to zero, modified by magic items, rituals, etc..
         </p>
       </div>
       <div class="container">
