@@ -761,7 +761,7 @@
             detailed body parts.
           </li>
           <li>
-            <b>11-15:</b> Grevious, the detailed body part cannot
+            <b>11-15:</b> Grievous, the detailed body part cannot
             be used, serious use effects on neighbouring detailed
             body parts, and minor on main parts.
           </li>
@@ -788,18 +788,63 @@
           be made once a wound of any level is inflicted, but for
           playability, sticking with the average is recommended.
         </p>
-        <h3 id="com-1">Page 1, 6-9</h3>
+        <p>
+          Multiple attackers can combine their efforts through Row-5-addition
+          into one.  This is generally a complex topic, because modifiers
+          need to be accomodated as they enter the game, so this is best
+          reserved for NPCs that perform as single units. Multiple defendants
+          are similarly added; effectively a Row-5-multipication, since the same
+          skill applies repeatedly.
+        </p>
+        <p>
+          Hitting the wrong target can happen in melee and in missile combat.
+          Usually this is ignored, but if this ignorance is taken into account
+          when deciding on action options, such accidents shall be played out.
+          Anybody within the (abstract) range of the weapon is subject to a
+          level -5 attack.  This can be added to the benefit of other attackers
+          as per multiple attacks above or resolved individually with the goal
+          of 0 damage. Since missile attacks are resolved with indiviual shots,
+          such an attack is applied only if the intended attack had no impact.
+          (Note the different effect from collateral damage that is actually desired.)
+        </p>
+        <p>
+          Weapon and armour damage is treated as collateral damage in the above 
+          sense and usually ignored.  If WQ and the highest armour protective value
+          is used as defense against such damage.  Human body quality is 0, but
+          recall the armour layering effect; outer layers break first.
+        </p>
+        <p>
+          Certain weapons can be used to entangle, including human arms and legs.
+          Real damage from such attacks is 10 points less than what the actual result
+          says.  The effects of the actual result cause the weapon
+          itself to be disabled. Disentaglement takes a level 0 attack
+          against the actual result by the victim. Others, including the
+          attacker, may help or take advantage of the situation.
+        </p>
+        <p>
+          Unarmed combat is usually not used to inflict much damage, but rather
+          directed at making the opponent stumble, fumble, or unable to use a limb.
+          A prone opponent is then easier to control. Unfortunately, this makes
+          heavy use of the collateral damage and entangle rules and the
+          stumble/fumble rules.
+        </p>
+        <p>
+          With a total of 16+ injury points, a human passes out and is 
+          incapacitated. This value can be randomized evyr time a wound
+          is taken and is modified by Stamina through Row-5-addition.
+        </p>
+        <h3 id="com-1">Page 1, 6-9, 14, 17-19</h3>
         <p>
           These pages are ignored. Some paragraphs may be taken for their descriptive value only.
           Combat fatigue is 1 point per minute. 
         </p>
-        <h3 id="com-2">Page 2-5, 10-11</h3>
+        <h3 id="com-2">Page 2-5, 10-13, 15-16</h3>
         <p>
           <em>Endurance</em> equals <em>Stamina</em>.  <em>Move</em> is a
           velocity as given above.  <em>Dodge</em> is added to <em>Defense</em>
-          through Row-5-Addition. On the <em>Weapon Data</em> the Skill, WQ, 
+          through Row-5-Addition. On the <em>Weapon Data</em> the Skill
           and OML are ignored. A/D and HM are divided by 5.  Custom weapon
-          are descriptive only.
+          are descriptive only. Every weapon additionally has a reach/length.
         </p>
         <p>
           Armour is used as is, except the <em>Protection and Encumbrance</em> 
@@ -811,7 +856,13 @@
         <p>
           Defense is calculated as <em>Row-5-addition</em> of <em>Dodge</em> and
           <em>Block</em>.  Both are voluntary and may be subject to individual
-          reductions.
+          reductions. Missiles are dodged at half value.
+        </p>
+        <p>
+          Missile range is interpreted as follows: at range 0, no penalties
+          applies, at half short range -10 applies. At medium, short, extreme
+          range listed the penalties -20, -40, -80 apply. Between those fixed values,
+          apply linear interpolation.
         </p>
         <h3 id="com-3">Page 4</h3>
         <p>
