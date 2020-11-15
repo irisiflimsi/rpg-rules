@@ -135,7 +135,10 @@
           to a situation.  Sunsigns are direct modifiers.
         </p>
         <p>
-          Certain applications of skills are provided with result
+          Available skills are according to the occupations listed,
+          determined by Harnworld professions.  More skills may
+          be created according to players' or GM's wishes. 
+          Certain applications of skills are provided below with result
           tables to allow comparisons.
         </p>
         <h4>Page 6</h4>
@@ -180,6 +183,22 @@
           chance of success and upon success the skill level is increased
           to 6.
         </p>
+        <h4>Page 8-24</h4>
+        <p>
+          These pages are considered descriptive only.  <em>Mental 
+          Conflict</em> resolution follows the Combat rules, with defenses 
+          set to zero, modified by magic items, rituals, etc..
+        </p>
+        <h3 id="skill-1">Row-3-addition</h3>
+        <table>
+          <tr>
+            <th>Skill Difference</th><td>0-1</td><td>2-3</td><td>4-9</td><td>10+</td>
+          </tr>
+          <tr>
+            <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
+          </tr>
+        </table>
+        <h3 id="skill-2">Row-5-addition</h3>
         <p>
           If a more pragmatic approach is desired, use the following 
           "reversed" table for finding the addition.
@@ -192,19 +211,7 @@
             <th>Addition</th><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
-        <h4>Page 8-24</h4>
-        <p>
-          These pages are considered descriptive only.  <em>Mental 
-          Conflict</em> resolution follows the Combat rules, with defenses 
-          set to zero, modified by magic items, rituals, etc..
-        </p>
-        <p>
-          Available skills are according to the occupations listed
-          above, determined by Harnworld professions.  More skills may
-          be created according to players' or GM's wishes.  A
-          selection of often used skills that do not easily relate to
-          occupations is given below
-        </p>
+        <h3 id="skill-3">Applications</h3>
         <p>
           Situations which require rolls are announced by the GM with
           a general description of what needs to be resolved.  Players
@@ -212,8 +219,8 @@
           will give a corresponding percentage of how much they apply.
         </p>
         <p>
-          For example, an assessemnt of the correct political relation
-          between to rival noble families may be Herald/75% and
+          For example, an assessment of the correct political relation
+          between two rival noble families may be Herald/75% and
           Knight/50%, and Mercantyler/25%.
         </p>
         <p>
@@ -222,19 +229,10 @@
           above, the mercantyler has a 1 in 4 chance of using his
           mercantyler skill, say 12, and a 3 in 4 chance of using his
           knight skill 0.  All skills which were succeessfully rolled
-          for are added up through row 3 from the main rules additions
-          table (repeated here).  The end result is the skill to roll
+          for are added up through <em>Row-3-addition</em> from the
+          main rules .  The end result is the skill to roll
           against.
         </p>
-        <table>
-          <tr>
-            <th>Skill Difference</th><td>0-1</td><td>2-3</td><td>4-9</td><td>10+</td>
-          </tr>
-          <tr>
-            <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
-          </tr>
-        </table>
-        <h3 id="skill-1">Applications</h3>
         <table class="bsp">
           <tr>
             <th></th><th>0</th><th>10</th><th>20</th><th>30</th>
@@ -459,7 +457,7 @@
             <th>Woodcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
           </tr>
         </table>
-        <h3 id="skill-2">Attributes</h3>
+        <h3 id="skill-4">Attributes</h3>
         <h4>Agility</h4>
         <table class="bsp">
           <tr>
@@ -638,6 +636,56 @@
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
+        <h4>Page 1, 6-9, 14, 17-19, 26</h4>
+        <p>
+          These pages are ignored. Some paragraphs may be taken for their descriptive value only.
+          Combat fatigue is 1 point per minute. 
+        </p>
+        <h4>Page 2-5, 10-13, 15-16</h4>
+        <p>
+          <em>Endurance</em> equals <em>Stamina</em>.  <em>Move</em> is a
+          velocity as given above.  <em>Dodge</em> is added to <em>Defense</em>
+          through <em>Row-5-Addition</em>. On the <em>Weapon Data</em> the Skill
+          and OML are ignored. A/D and HM are divided by 5.  Custom weapon
+          are descriptive only. Every weapon additionally has a reach/length.
+        </p>
+        <p>
+          Charging is an attack that must end when the corresponding movement stops.
+          Read the move/speed table in reverse to get the damage bonus. Note that
+          the time of attack is fixed and assumed as 10s; the skill is calculated
+          in reverse as well, i.e. -20.
+        </p>
+        <p>
+          Armour is used as is, except the <em>Protection and Encumbrance</em> 
+          part, wich is only descriptive. The bonus to an attack is a bonus of
+          attacker's choice between all the relevant B/E/P values of his weapon.
+          After the goal is reached, the corresponding defender B/E/P is deducted
+          from the wound level.
+        </p>
+        <p>
+          Defense is calculated as <em>Row-5-addition</em> of <em>Dodge</em> and
+          <em>Block</em>.  Both are voluntary and may be subject to individual
+          reductions. Missiles are dodged at half value.
+        </p>
+        <p>
+          Missile range is interpreted as follows: at range 0, no penalties
+          applies, at half short range -10 applies. At medium, short, extreme
+          range listed the penalties -20, -40, -80 apply. Between those fixed values,
+          apply linear interpolation.
+        </p>
+        <h4>Page 4, 25</h4>
+        <p>
+          These pages are taken as is.
+        </p>
+        <h4>Page 20-24</h4>
+        <p>
+          Mounted combat considers rider and mount to be one unit that have
+          added their skills in the usual manner. The steed provides unarmed
+          combat prowress. Unhorsing is dealt with as collateral damage to the
+          rider/horse combination, which has a defense rating of the rider's
+          skill.
+        </p>
+        <h3 id="com-1">Procedure</h3>
         <p>
           The following table is rolled for each combatant, adding any
           bonuses and subtracting any penalties.  The time is the number
@@ -693,6 +741,7 @@
             <td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td>
           </tr>
         </table>
+        <h3 id="com-2">Hit Location</h3>
         <p>
           Hit location is determined when the goal is reached.
           Before the goal is reached, a penalty of -1 can be taken
@@ -771,6 +820,7 @@
             <td>99-100</td><td>Right Foot</td>
           </tr>
         </table>
+        <h3 id="com-3">Effects</h3>
         <p>
           Individual wounds are tracked numerically and with their
           location. Effects on the use of the corresponding part
@@ -814,11 +864,11 @@
           playability, sticking with the average is recommended.
         </p>
         <p>
-          Multiple attackers can combine their efforts through Row-5-addition
+          Multiple attackers can combine their efforts through <em>Row-5-addition</em>
           into one.  This is generally a complex topic, because modifiers
           need to be accomodated as they enter the game, so this is best
           reserved for NPCs that perform as single units. Multiple defendants
-          are similarly added; effectively a Row-5-multipication, since the same
+          are similarly added; effectively a <em>Row-5-multipication</em>, since the same
           skill applies repeatedly.
         </p>
         <p>
@@ -856,56 +906,7 @@
         <p>
           With a total of 16+ injury points, a human passes out and is 
           incapacitated. This value can be randomized evyr time a wound
-          is taken and is modified by Stamina through Row-5-addition.
-        </p>
-        <h3 id="com-1">Page 1, 6-9, 14, 17-19, 26</h3>
-        <p>
-          These pages are ignored. Some paragraphs may be taken for their descriptive value only.
-          Combat fatigue is 1 point per minute. 
-        </p>
-        <h3 id="com-2">Page 2-5, 10-13, 15-16</h3>
-        <p>
-          <em>Endurance</em> equals <em>Stamina</em>.  <em>Move</em> is a
-          velocity as given above.  <em>Dodge</em> is added to <em>Defense</em>
-          through Row-5-Addition. On the <em>Weapon Data</em> the Skill
-          and OML are ignored. A/D and HM are divided by 5.  Custom weapon
-          are descriptive only. Every weapon additionally has a reach/length.
-        </p>
-        <p>
-          Charging is an attack that must end when the corresponding movement stops.
-          Read the move/speed table in reverse to get the damage bonus. Note that
-          the time of attack is fixed and assumed as 10s; the skill is calculated
-          in reverse as well, i.e. -20.
-        </p>
-        <p>
-          Armour is used as is, except the <em>Protection and Encumbrance</em> 
-          part, wich is only descriptive. The bonus to an attack is a bonus of
-          attacker's choice between all the relevant B/E/P values of his weapon.
-          After the goal is reached, the corresponding defender B/E/P is deducted
-          from the wound level.
-        </p>
-        <p>
-          Defense is calculated as <em>Row-5-addition</em> of <em>Dodge</em> and
-          <em>Block</em>.  Both are voluntary and may be subject to individual
-          reductions. Missiles are dodged at half value.
-        </p>
-        <p>
-          Missile range is interpreted as follows: at range 0, no penalties
-          applies, at half short range -10 applies. At medium, short, extreme
-          range listed the penalties -20, -40, -80 apply. Between those fixed values,
-          apply linear interpolation.
-        </p>
-        <h3 id="com-3">Page 4, 25</h3>
-        <p>
-          These pages are taken as is.
-        </p>
-        <h3 id="com-4">Page 20-24</h3>
-        <p>
-          Mounted combat considers rider and mount to be one unit that have
-          added their skills in the usual manner. The steed provides unarmed
-          combat prowress. Unhorsing is dealt with as collateral damage to the
-          rider/horse combination, which has a defense rating of the rider's
-          skill.
+          is taken and is modified by Stamina through <em>Row-5-addition</em>.
         </p>
       </div>
       <div class="container">
