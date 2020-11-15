@@ -458,6 +458,30 @@
           </tr>
         </table>
         <h3 id="skill-4">Attributes</h3>
+        <h4>Stamina</h4>
+        <table class="bsp">
+          <tr>
+            <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
+            <td>-10</td><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Time</th><td>30d</td><td>29d</td><td>28d</td><td>27d</td><td>26d</td><td>25d</td><td>24d</td><td>23d</td><td>22d</td><td>21d</td>
+            <td>20d</td><td>19d</td><td>18d</td><td>17d</td><td>16d</td><td>15d</td><td>14d</td><td>13d</td><td>12d</td><td>11d</td><td>10d</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Time (days)</th><td>10d</td><td>9.5d</td><td>9d</td><td>8.5d</td><td>8d</td><td>7.5d</td><td>7d</td><td>6.5d</td><td>6d</td><td>5.5d</td>
+            <td>5d</td><td>29w</td><td>28w</td><td>4.5d</td><td>26w</td><td>25w</td><td>4d</td><td>23w</td><td>22w</td><td>3.5d</td><td>20w</td>
+          </tr>
+        </table>
+        <p>
+          Healing time for 1 injury point. Note the switch between days and watches.
+        </p>
         <h4>Agility</h4>
         <table class="bsp">
           <tr>
@@ -825,7 +849,7 @@
           Individual wounds are tracked numerically and with their
           location. Effects on the use of the corresponding part
           are described below. Minor effects are at 10 less than
-          the original wound level and serious effects a5 5 less.
+          the original wound level and serious effects at 5 less.
         </p>
         <ul class="explain">
           <li>
@@ -842,7 +866,7 @@
           </li>
           <li>
             <b>16-20:</b> Incapacitating, the main body part cannot
-            be used, minor use effects on meighbouring main body parts.
+            be used, minor use effects on neighbouring main body parts.
             (For head this means unconsciousness and for thorax imminent
             death.)
           </li>
@@ -911,11 +935,54 @@
       </div>
       <div class="container">
         <h1 id="phys">Physician</h1>
-        <p>
-        </p>
-        <h3 id="phys-1">Page 1</h3>
+        <h4>Page 1</h4>
         <p>
           These pages are taken as is.
+        </p>
+        <h4>Page 2-4</h4>
+        <p>
+          These pages are ignored or taken as descriptive material.
+        </p>
+        <h3 id="phys-1">Treatments</h3>
+        <p>
+          Any wound needs to heal its injury points. This is calculated
+          via Stamina; certain medicine may improve the healing rate.
+          A physician may make a skill roll to find or create the correct
+          medicine but his skill is not added to the healing resolution
+          directly.
+        </p>
+        <p>
+          A serious wound may become infected (until it turns into a minor
+          wound).  An infection is a daily attack on the wounded area with
+          a level of the wound, defended against with Stamina. Medicine applies
+          in the same way as for minor wounds, but it harder to obtain. A
+          penalty of 5 is suitable. Any injury points gained through the
+          infection is added to the original wound. This may turn the wound
+          into a grievous wound.
+        </p>
+        <p>
+          A grevious wound is a bleeder or otherwise makes the body lose
+          vital fluids.  Bloodloss is treated as a separate injury, and
+          increases at -10 per 10s. E.g., a 12 point injury causes 1 point
+          of bloodloss to accrue every 5 seconds. Note that the circulatory
+          system is incapacitated with 16 points as other body parts are.
+          The circulatory system itself will not turn infectious. Treatment
+          by physicians depend on the location. Some locations are incurable
+          by Harnic physicians. For multiple bleeders only take the maximum
+          in the same extremity, but add those for different extremities.
+        </p>
+        <p>
+          Incapacitating and destroying wounds have no additional effects
+          over the bleeder and infection dangers. (A 22 destroying wound
+          causes more than 1 point per second in bloodloss and only very
+          unlikely circumstances will keep the victim alive for more than
+          15 seconds.
+        </p>
+        <p>
+          Amputations and immediate cauterizations stop infections.
+        </p>
+        <p>
+          Dieseases and Toxins.
         </p>
       </div>
     </div>
