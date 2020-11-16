@@ -1079,8 +1079,8 @@
         <h4>Hex</h4>
         <p>
           As Clairvoyance, but the victim has all his rolls reduced by the
-          attacker's skill instead of being seen. Parts of the victim increase
-          skill by 5.
+          attacker's skill instead of being seen. If the attacker possesses
+          parts from the victim increase skill by 5.
         </p>
         <h4>Medium</h4>
         <p>
@@ -1089,9 +1089,34 @@
         </p>
         <h4>Mental Bolt</h4>
         <p>
-          The mental equivalent of a javelin is thrown. Any numbers are treated
-          that way, but the bolt dissipates and must be thrown (mentally), e.g.
-          cannot be used to block.
+          As per description.  Skill as Fatigue with the victim. Attacker's fatigue
+          is 5, which can be randomized.
+        </p>
+        <h4>Negation</h4>
+        <p>
+          While in trance (-20 on all other skills) any psionic or magic effect is
+          defended with a bonus of the skill.
+        </p>
+        <h4>Prescience</h4>
+        <p>
+          This is as described. <em>Prescient Vision</em> takes about one watch,
+          and <em>Sense of Danger</em> lasts for one minute and causes fatigue.
+          Any positive result makes either vision comprehensible. 
+        </p>
+        <h4>Psychometry</h4>
+        <p>
+          As per description. The longer the vision lasts, the more information is
+          obtained. A reasonable minimum is 5 minutes.
+        </p>
+        <h4>Pyrokinesis</h4>
+        <p>
+          As per the description. Roll a fire attack against the combustible
+          material. Range is as for a thrown melee weapon and it takes as long as
+          to throw one.
+        </p>
+        <h4>Sensitivity</h4>
+        <p>
+          This is an atunement to certain magical or psionic artifacts.
         </p>
       </div>
     </div>
