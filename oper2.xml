@@ -1039,14 +1039,59 @@
         <p>
           A psionic talent is never triggered willingly. Certain
           conditions such as excitement may be intentionally sought
-          but the trigger itself is involuntary. Fatigue is at 1 point per
-          minute equivalent (q.v.).  Joint triggering is possible.
+          but the trigger itself is involuntary. The GM decides when
+          the conditions are right and how long they will last; they
+          can be treated as a mental condition. The player may suggest
+          appropriate conditions.
+        </p>
+        <p>
+          Fatigue is at 1 point per minute equivalent (q.v.).  Joint 
+          triggering is possible. Psionic episodes occur randomly but
+          are more likely, when a talent is used often or for extended
+          periods of time.
         </p>
         <h4>Charm</h4>
         <p>
           As per the description circumstances, roll attacker's skill plus will
           vs defender's will and reduce agility accordingly. The effect remains
           in place until the attacker stops gazing at the victim.
+        </p>
+        <h4>Clairvoyance</h4>
+        <p>
+          The psychic enters a trance and after the first minute gets a
+          clear image of some oject, person, or location that he is familiar
+          with.  The image may be moving and is of the current state. Assume
+          that senses are at skill level with focus on the object.
+        </p>
+        <h4>Disembodiment</h4>
+        <p>
+          As per the description. The trance initiation phase lasts 1 minute.
+        </p>
+        <h4>Healing</h4>
+        <p>
+          As per the description.  <em>Empathy</em>: add skill level to physician
+          skill for diagnosis, etc.  <em>Restoration</em>: Transfer fatigue from
+          victim at a "reverse" rate, where skill replaces Stamina.
+          <em>Bloodloss</em>: reduce bloodloss by 1 point/5 fatigue.  <em>Heal</em>:
+          add skill level to Stamina for healing. No fatigue but requires constant 
+          attention as a physician would.
+        </p>
+        <h4>Hex</h4>
+        <p>
+          As Clairvoyance, but the victim has all his rolls reduced by the
+          attacker's skill instead of being seen. Parts of the victim increase
+          skill by 5.
+        </p>
+        <h4>Medium</h4>
+        <p>
+          Ability to communicate with ethereals. Any in vicinity or whose true
+          name is known. Mental conflict is possible.
+        </p>
+        <h4>Mental Bolt</h4>
+        <p>
+          The mental equivalent of a javelin is thrown. Any numbers are treated
+          that way, but the bolt dissipates and must be thrown (mentally), e.g.
+          cannot be used to block.
         </p>
       </div>
     </div>
