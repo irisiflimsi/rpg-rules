@@ -1050,74 +1050,92 @@
           are more likely, when a talent is used often or for extended
           periods of time.
         </p>
-        <h4>Charm</h4>
         <p>
-          As per the description circumstances, roll attacker's skill plus will
-          vs defender's will and reduce agility accordingly. The effect remains
-          in place until the attacker stops gazing at the victim.
+          Trance indicates a -20 to any other skills attempted during
+          that period.
         </p>
-        <h4>Clairvoyance</h4>
-        <p>
-          The psychic enters a trance and after the first minute gets a
-          clear image of some oject, person, or location that he is familiar
-          with.  The image may be moving and is of the current state. Assume
-          that senses are at skill level with focus on the object.
-        </p>
-        <h4>Disembodiment</h4>
-        <p>
-          As per the description. The trance initiation phase lasts 1 minute.
-        </p>
-        <h4>Healing</h4>
-        <p>
-          As per the description.  <em>Empathy</em>: add skill level to physician
-          skill for diagnosis, etc.  <em>Restoration</em>: Transfer fatigue from
-          victim at a "reverse" rate, where skill replaces Stamina.
-          <em>Bloodloss</em>: reduce bloodloss by 1 point/5 fatigue.  <em>Heal</em>:
-          add skill level to Stamina for healing. No fatigue but requires constant 
-          attention as a physician would.
-        </p>
-        <h4>Hex</h4>
-        <p>
-          As Clairvoyance, but the victim has all his rolls reduced by the
-          attacker's skill instead of being seen. If the attacker possesses
-          parts from the victim increase skill by 5.
-        </p>
-        <h4>Medium</h4>
-        <p>
-          Ability to communicate with ethereals. Any in vicinity or whose true
-          name is known. Mental conflict is possible.
-        </p>
-        <h4>Mental Bolt</h4>
-        <p>
-          As per description.  Skill as Fatigue with the victim. Attacker's fatigue
-          is 5, which can be randomized.
-        </p>
-        <h4>Negation</h4>
-        <p>
-          While in trance (-20 on all other skills) any psionic or magic effect is
-          defended with a bonus of the skill.
-        </p>
-        <h4>Prescience</h4>
-        <p>
-          This is as described. <em>Prescient Vision</em> takes about one watch,
-          and <em>Sense of Danger</em> lasts for one minute and causes fatigue.
-          Any positive result makes either vision comprehensible. 
-        </p>
-        <h4>Psychometry</h4>
-        <p>
-          As per description. The longer the vision lasts, the more information is
-          obtained. A reasonable minimum is 5 minutes.
-        </p>
-        <h4>Pyrokinesis</h4>
-        <p>
-          As per the description. Roll a fire attack against the combustible
-          material. Range is as for a thrown melee weapon and it takes as long as
-          to throw one.
-        </p>
-        <h4>Sensitivity</h4>
-        <p>
-          This is an atunement to certain magical or psionic artifacts.
-        </p>
+        <ul class="explain">
+          <li>
+            <b>Charm</b> As per the description circumstances, roll
+            attacker's skill plus will vs defender's will and reduce
+            agility accordingly. The effect remains in place until the
+            attacker stops gazing at the victim.
+          </li>
+          <li>
+            <b>Clairvoyance</b> The psychic enters a trance and after
+            the first minute gets a clear image of some oject, person,
+            or location that he is familiar with.  The image may be
+            moving and is of the current state. Assume that senses are
+            at skill level with focus on the object.
+          </li>
+          <li>
+            <b>Disembodiment</b> as per the description. The trance
+            initiation phase lasts 1 minute.
+          </li>
+          <li>
+            <b>Healing</b> As per the description.  <em>Empathy</em>:
+            add skill level to physician skill for diagnosis, etc.
+            <em>Restoration</em>: Transfer fatigue from victim at a
+            "reverse" rate, where skill replaces Stamina. <em>Bloodloss</em>:
+            reduce bloodloss by 1 point/5 fatigue.  <em>Heal</em>:
+            add skill level to Stamina for healing. No fatigue but
+            requires constant attention as a physician would.
+          </li>
+          <li>
+            <b>>Hex</b> As Clairvoyance, but the victim has all his rolls
+            reduced by the attacker's skill instead of being seen. If the
+            attacker possesses parts from the victim increase skill by 5.
+          </li>
+          <li><b>Medium</b> Ability to communicate with ethereals. Any in
+            vicinity or whose true name is known. Mental conflict is possible.
+          </li>
+          <li>
+            <b>Mental Bolt</b> As per description.  Skill as Fatigue
+            with the victim. Attacker's fatigue is 5, which can be randomized.
+          </li>
+          <li>
+            <b>Negation</b> While in trance any
+            psionic or magic effect is defended with a bonus of the skill.
+          </li>
+          <li>
+            <b>Prescience</b> This is as described. <em>Prescient Vision</em>
+            takes about one watch, and <em>Sense of Danger</em> lasts for
+            one minute and causes fatigue. Any positive result makes either
+            vision comprehensible. 
+          </li>
+          <li>
+            <b>Psychometry</b> As per description. The longer the vision
+            lasts, the more information is obtained. A reasonable minimum is
+            5 minutes.
+          </li>
+          <li>
+            <b>Pyrokinesis</b> As per the description. Roll a fire attack
+            against the combustible material. Range is as for a thrown melee
+            weapon and it takes as long as to throw one.
+          </li>
+          <li>
+            <b>Sensitivity</b> This is an atunement to certain magical or
+            psionic artifacts.
+          </li>
+          <li>
+            <b>Telekinesis</b> Use the skill level as strength level to lift
+            something without touching it. Range and effected objects are
+            as the eye perceives them. Teleportation is impossible.
+          </li>
+          <li>
+            <b>Telepathy</b> Use description. Transmit thoughts with a
+            range of the skill level in km.
+          </li>
+          <li>
+            <b>Transference</b> The travel bubble is Skill level in dm.
+            Travel is ethereal, instantaneous and takes 5 minutes in
+            "absent mindedness". 
+          </li>
+          <li>
+            <b>Transmutation</b> as per the description, but the duration
+            is skill level in hours and fatigue is none. The change process
+            takes 5 minutes either way and acrues fatigue. 
+          </li>
       </div>
     </div>
   </body>
