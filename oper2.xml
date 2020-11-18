@@ -41,7 +41,7 @@
         </p>
         <h4>Page 16, 19</h4>
         <p>
-          <em>Automatic</em> skills are determined accoridng to the
+          <em>Automatic</em> skills are determined according to the
           appropriate skill section (q.v.) and <em>Occupation</em>
           skills work as transformed for the previous page.  They open
           as 20 for the chosen occupation.  <em>Family</em> skills for
@@ -1032,6 +1032,11 @@
         </p>
         <h3 id="psi-1">Talents</h3>
         <p>
+          <em>Psionics</em> use fatigue as fuel for their magic,
+          <em>Religion</em> uses time and the <em>Shek P'var</em>
+          schools of magic use (generalized) matter.
+        </p>
+        <p>
           A character with at least an Aura of 10, may select or roll
           Psionic talents with a total skill points of Aura - 10. OP may
           be spent here. Each Talent is treated as a skill.
@@ -1135,6 +1140,60 @@
             <b>Transmutation</b> as per the description, but the duration
             is skill level in hours and fatigue is none. The change process
             takes 5 minutes either way and acrues fatigue. 
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1 id="psi">Religion</h1>
+        <h4>Page 1-11, 16-18</h4>
+        <p>
+          These pages are used for their descriptive value mostly. This
+          includes Morality and Circle of Command. Recall that Piety is
+          a skill for each god. The <em>Piety point gain table</em> is
+          interpreted as describing how to learn piety.
+        </p>
+        <p>
+          In particular Divine intervention is a GM judgement call and
+          does not involvement calculations. It may involve randomness.
+        </p>
+        <p>
+          All rituals available to a group of adherence are tought to the
+          appropriate circle members. Successfully using them is another
+          matter. Different ways to learn are in the descriptive texts.
+        </p>
+        <h4>Page 12</h4>
+        <p>
+          To perform an invocation, [1] and [3] are used, [4] is replaced
+          by the usual roll.  [2] may be added in through <em>Row-3-addition</em>.
+          Since this only allows for Piety less than or equal a ritual
+          skill situation, any excess of the active skill is treated as separate
+          piety entry to the addition. The environment modifier is halved.
+        </p>
+        <h4>Page 13-15</h4>
+        <p>
+          These pages are ignored.
+        </p>
+        <h3 id="psi-1">Rituals</h3>
+        <p>
+          <em>Psionics</em> use fatigue as fuel for their magic,
+          <em>Religion</em> uses time and the <em>Shek P'var</em>
+          schools of magic use (generalized) matter.
+        </p>
+        <p>
+          Always use the description, when it does not
+          provide numbers, like ML modifiers.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Baptism</b>. Takes 15 minutes and the convert may
+            make an immediate piety learning role unless he already
+            was initiated, in which case it has no effect.
+          </li>
+          <li>
+            <b>Blessing</b>. Takes 1 minute and grants +5 Piety
+            to all within hearing range.  This additional Piety is
+            lost like fatigue. Multiple castings cannot bring
+            the current addition beyond +5.
           </li>
         </ul>
       </div>
