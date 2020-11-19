@@ -1144,7 +1144,7 @@
         </ul>
       </div>
       <div class="container">
-        <h1 id="psi">Religion</h1>
+        <h1 id="rel">Religion</h1>
         <h4>Page 1-11, 16-18</h4>
         <p>
           These pages are used for their descriptive value mostly. This
@@ -1173,7 +1173,7 @@
         <p>
           These pages are ignored.
         </p>
-        <h3 id="psi-1">Rituals</h3>
+        <h3 id="rel-1">Rituals</h3>
         <p>
           <em>Psionics</em> use fatigue as fuel for their magic,
           <em>Religion</em> uses time and the <em>Shek P'var</em>
