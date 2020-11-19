@@ -1181,19 +1181,111 @@
         </p>
         <p>
           Always use the description, when it does not
-          provide numbers, like ML modifiers.
+          provide numbers, like ML modifiers. Use ritual skill
+          to verify the skill was performed correctly only.
+          Any effect or duration with multiples of 5 may be
+          randomized. The range of all rituals is sight unless
+          specifically mentioned otherwise. Any subject of
+          the ritual must be in sight continually.
         </p>
         <ul class="explain">
           <li>
             <b>Baptism</b>. Takes 15 minutes and the convert may
-            make an immediate piety learning role unless he already
+            make an immediate piety learning roll unless he already
             was initiated, in which case it has no effect.
           </li>
           <li>
             <b>Blessing</b>. Takes 1 minute and grants +5 Piety
-            to all within hearing range.  This additional Piety is
+            to all within hearing range except those performiing
+            the ritual.  This additional Piety is lost like
+            fatigue. Multiple castings cannot bring the current 
+            addition beyond +5.
+          </li>
+          <li>
+            <b>Commune</b>.  Takes 1 minute and grants +5 Piety
+            to the caster.  This additional Piety is
             lost like fatigue. Multiple castings cannot bring
             the current addition beyond +5.
+          </li>
+          <li>
+            <b>Liturgy</b>. Takes 15 minutes and grants +5 Piety
+            to the caster, if the total piety (Row-3-Addition) of
+            the audience is higher than the caster's level + 5.
+            This additional Piety is lost like fatigue. Multiple
+            castings cannot bring the current addition beyond +5.
+          </li>
+          <li>
+            <b>Marriage</b>. Takes 1 hour to perform and both
+            spouses get two piety learning rolls, unless eiter is
+            already married in that religion.
+          </li>
+          <li>
+            <b>Passage of the soul</b>. Takes 15 minutes to perform
+            and grants one departed soul +5 Piety. 
+          </li>
+          <li>
+            <b>Awe</b>. Takes 10s to perform. Effect is 2s of non-action
+            immediately, effectively pausing. Any ongoing skill
+            attempt without reasonable waypoints must be restarted.
+          </li>
+          <li>
+            <b>Endure</b>. Takes 1 minute and grants +5 Stamina
+            to the subject.  This additional Stamina is
+            lost like fatigue. Multiple castings cannot bring
+            the current addition beyond +5.
+          </li>
+          <li>
+            <b>Tongues</b>. Takes 5 minutes and grants the caster
+            +15 in any language for 30 minutes. This addition is lost
+            like fatigue. No permanent learning enhancement.
+          </li>
+          <li>
+            <b>Truthsense</b>. Takes 1 minute to cast and then lasts
+            for another 5 minutes. Effects the caster only and what
+            he hears. Affects commision and ommission in the same way.
+          </li>
+          <li>
+            <b>Divination</b>. Takes 5 minutes to enact. A minor wound
+            of 5 levels is always received. (If randomized, the wound
+            stays minor.)
+          </li>
+          <li>
+            <b>Curse</b>. Takes as many minutes to enact as the penalty
+            shall be. This addition is lost like fatigue. Works as
+            Psionics/Hex. Multiple castings cannot bring
+            the current addition beyond +5.  If hours are used instead
+            of minutes, a medical/psychic problem is created (GM choice).
+            The caster will receive a wound of the same level, which will
+            heal normally.
+          </li>
+          <li>
+            <b>Revelation</b>. The ritual may be enacted for as long as
+            desired. Caster is at -5 for everything that does not involve
+            ethereals. Summoning is at +5.
+          </li>
+          <li>
+            <b>Summoning</b>.
+          </li>
+          <li>
+            <b></b>
+          </li>
+          <li>
+            <b></b>
+          </li>
+          <li>
+            <b></b>
+          </li>
+          <li>
+            <b></b>
+          </li>
+          <li>
+            <b></b>
+          </li>
+          <li>
+            <b></b>
+          </li>
+          <li>
+            <b></b>
           </li>
         </ul>
       </div>
