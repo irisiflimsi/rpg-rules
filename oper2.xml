@@ -1157,7 +1157,7 @@
           does not involvement calculations. It may involve randomness.
         </p>
         <p>
-          All rituals available to a group of adherence are tought to the
+          All rituals available to a group of adherence are taught to the
           appropriate circle members. Successfully using them is another
           matter. Different ways to learn are in the descriptive texts.
         </p>
@@ -1168,6 +1168,10 @@
           Since this only allows for Piety less than or equal a ritual
           skill situation, any excess of the active skill is treated as separate
           piety entry to the addition. The environment modifier is halved.
+        </p>
+        <p>
+          Astral acquire fatigue but they do not require shock rolls
+          when returning.
         </p>
         <h4>Page 13-15</h4>
         <p>
@@ -1220,7 +1224,7 @@
             already married in that religion.
           </li>
           <li>
-            <b>Passage of the soul</b>. Takes 15 minutes to perform
+            <b>Passage of the Soul</b>. Takes 15 minutes to perform
             and grants one departed soul +5 Piety. 
           </li>
           <li>
@@ -1264,28 +1268,60 @@
             ethereals. Summoning is at +5.
           </li>
           <li>
-            <b>Summoning</b>.
+            <b>Summoning</b>. It takes 30 minutes to enact this ritual.
+            The will of the ethereal is a penalty to the skill roll.
           </li>
           <li>
-            <b></b>
+            <b>Truesight</b>. This takes 1 minute to give a preternatural 
+            hearing of holy artifacts of 30, which will humm at ultra-sound of
+            standard level 0. This ability dies down as fatigue.
           </li>
           <li>
-            <b></b>
+            <b>Command</b>. This takes 10s to enact and the result is
+            always as described under MS. It affects only one servant at a
+            time but the caster chooses which.
           </li>
           <li>
-            <b></b>
+            <b>Consecration</b>. Only indefinite consecrations may occur.
+            Undoing this act is always at -10, but for rituals of
+            different deities this is at -30.  Any penalty for consecutive 
+            casting dies off at 1/day.Any version of the ritual must be
+            completed within one watch.  <em>Water</em>: each
+            dose requires the ritual to be 5 minutes long; one charge
+            is 100ml. The ritual has a penalty of -1 for each consecutive
+            casting of this. E.g. for the fourth dose the penalty is -3.
+            <em>Tome</em>: each
+            volume requires the ritual to be 15 minutes long.  The ritual
+            has a penalty of -3 for each consecutive casting of this. 
+            No penalty applies for morality or adherents of opposing
+            deities.  Non-consecrated books do not grant immediate
+            learning rolls. <em>Artifact</em>: only the second kind
+            of artifacts exist. The casting time is 5 minutes times
+            the circle ritual to be embedded. Invoking the ritual
+            requires a piety roll against 5 times the cirecle embedded.
+            This may be treated as a separate dimension at creation time.
+            Consecutive casting implies a penalty of the circle value.
+            <em>Place</em>: The casting time is 2 minutes for each
+            square meter to be consecrated. The
+            area to be consecrated must be walked upon during the
+            ritual. A penalty of -5 applies for each successive casting. 
           </li>
           <li>
-            <b></b>
+            <b>Excommunication</b>. This ritual takes but 20 seconds and
+            reduces the victims piety to 0. However, the deity may choose
+            the option of excorsicing the invoker instead.  If successful,
+            one or the the other is going to occur, but not both.
           </li>
           <li>
-            <b></b>
+            <b>Exorcism</b>. Casting time is 5 hours. The mental conflict
+            is modified by that part of the skill not used to reduce casting
+            time, i.e. it is another result dimension.
           </li>
           <li>
-            <b></b>
-          </li>
-          <li>
-            <b></b>
+            <b>Transcedence</b>. This takes 10 minutes and lasts for 5 hours.
+            The duration can be treated as a separate dimension. At the end
+            the pull-back is near instantaneous. Shock rolls do not apply
+            but fatigue applies.
           </li>
         </ul>
       </div>
