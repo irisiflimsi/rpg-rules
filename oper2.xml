@@ -805,8 +805,8 @@
             <th colspan="2">Main Hit Location</th><th colspan="2">Detail Hit Location</th>
           </tr>
           <tr>
-            <td rowspan="3">01-10</td><td rowspan="3">Head</td><td>01-02</td><td>Left Skull</td>
-            <td rowspan="3">51-60</td><td rowspan="3">Head</td><td>51-52</td><td>Right Skull</td>
+            <td rowspan="3">01-10</td><td rowspan="3">Left Head</td><td>01-02</td><td>Left Skull</td>
+            <td rowspan="3">51-60</td><td rowspan="3">Right Head</td><td>51-52</td><td>Right Skull</td>
           </tr>
           <tr>
             <td>03-04</td><td>Left Face</td>
@@ -818,7 +818,7 @@
           </tr>
           <tr>
             <td rowspan="4">11-20</td><td rowspan="4">Left Arm</td><td>11-13</td><td>Left Upper Arm</td>
-            <td rowspan="4">60-70</td><td rowspan="4">Left Arm</td><td>61-63</td><td>Right Upper Arm</td> 
+            <td rowspan="4">60-70</td><td rowspan="4">Right Arm</td><td>61-63</td><td>Right Upper Arm</td> 
           </tr>
           <tr>
             <td>14-15</td><td>Left Elbow</td>
