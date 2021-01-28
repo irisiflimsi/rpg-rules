@@ -101,6 +101,12 @@ td {
     padding: 4px 8px;
 }
 
+td a {
+    color: var(--h1);   
+}
+
+}
+
 table.bsp tr:nth-child(even) td {
     background: none;
     border: 3px solid var(--tde);

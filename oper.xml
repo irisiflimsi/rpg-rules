@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
-    <title>Harnmaster Examples</title>
+    <title>Rules for Hârnworld</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" href="main.css"/>
@@ -10,10 +10,1900 @@
   </head>
   <body>
     <div class="main">
-      <div class="title">Harnmaster Example</div>
+      <div class="title">Rules for Hârnworld</div>
 
       <div class="container">
-      <h1 id="char">Conversion</h1>
+        <h1 id="rules">Rules</h1>
+      </div>
+      <div class="container">
+        <h1 id="attrib">People</h1>
+        <h3 id="attrib">Attributes</h3>
+        <p>
+          All people are individuals that act in Hârnworld.  They,
+          particularly PCs, are at the core of what these rules are
+          all about.  Apart of the numerical attributes, a few of the
+          only descriptive aspects should be mentioned.
+        </p>
+        <p>
+          Attributes are values that other people "attribute" to
+          individuals they encounter, particularly those that they
+          interact with for some time.  The following lists those
+          properties and the common values used for them.
+        </p>
+        <table>
+          <tr>
+            <td><a href="#birthdate">Birthdate</a></td>
+            <td><a href="#birthplace">Birthplace</a></td>
+            <td><a href="#clanhead">Clanhead</a></td>
+            <td><a href="#comeliness">Comeliness</a></td>
+            <td><a href="#complexion">Complexion</a></td>
+            <td><a href="#culture">Culture</a></td>
+          </tr>
+          <tr>
+            <td><a href="#deity">Deity</a></td>
+            <td><a href="#estrangement">Estrangement</a></td>
+            <td><a href="#eyehaircolor">Eye/Hair Color</a></td>
+            <td><a href="#frame">Frame</a></td>
+            <td><a href="#gender">Gender</a></td>
+            <td><a href="#height">Height</a></td>
+          </tr>
+          <tr>
+            <td><a href="#medical">Medical</a></td>
+            <td><a href="#mental">Mental</a></td>
+            <td><a href="#morality">Morality</a></td>
+            <td><a href="#parent">Parent</a></td>
+            <td><a href="#physical">Physical</a></td>
+            <td><a href="#psyche">Psyche</a></td>
+          </tr>
+          <tr>
+            <td><a href="#senses">Senses</a></td>
+            <td><a href="#sexuality">Sexuality</a></td>
+            <td><a href="#siblingrank">Sibling Rank</a></td>
+            <td><a href="#socialclass">Social Class</a></td>
+            <td><a href="#species">Species</a></td>
+            <td><a href="#sunsign">Sunsign</a></td>
+          </tr>
+          <tr>
+            <td><a href="#voice">Voice</a></td>
+            <td><a href="#weight">Weight</a></td>
+          </tr>
+        </table>
+        <h4 id="morality">Morality</h4>
+        <p>
+          Individuals should have a moral compass.  Morality is a
+          measure of unselfishness.  The following serves as a
+          guideline of the diversity found in Hârnworld, but is by no
+          means exhaustive.  Sindarin tend towards the “higher” moral
+          standards.
+        </p>
+        <p>
+          Customary description of Morality include: <em>Diabolical,
+          Unscrupulous, Corruptible, Law-Abiding, Principled,
+          Exemplary.</em> They are not always applied correctly when
+          dealing with enemies or friends.  Moral description from
+          others tend to be worse when describing an enemy.
+        </p>
+        <h4 id="sexuality">Sexuality</h4>
+        <p>
+          People have a descriptive sexuality.  The distribution of
+          sexuality in Hârn is roughly 90% heterosexual, 5% bi-sexual
+          and 5% homosexual.  Other forms of sexuality may exist but
+          are hidden.
+        </p>
+        <h4 id="species">Species</h4>
+        <p>
+          Although Hârn has many exotic creatures, Humans, Sindarin
+          and Khuzdul are by far the most commonly encountered.  The
+          population distribution on Hârn is approximately Human
+          (97%), Sindarin (1%), and Khuzdul (1%).
+        </p>
+        <h4 id="gender">Gender</h4>
+        <p>
+          Among encountered humans 48% are male, among Sindarin 45%,
+          and among Khuzdul 75%.  (Other individuals encountered are
+          female.)
+        </p>
+        <h4 id="birthdate">Birthdate</h4>
+        <p>
+          Every day of the year (360) has an equal probability of
+          being the birthday of a random person.  In other words: they
+          are evenly distributed.  Names of calendar months are
+          readily available in other sections of Hârnworld.
+        </p>
+        <h4 id="sunsign">Sunsign</h4>
+        <p>
+          Sunsign is a major factor for skill-affinity, but all
+          sunsigns have advantages and disadvantages.  Sunsign is
+          determined by birthdate.  The first two and last two days of
+          each sign are termed the cusp: a person born on the 1st
+          of Ilvin is termed a Tai-Skorus Cusp (the actual sunsign is
+          named first).  Those born on the cusp enjoy the benefits of
+          either sign.  Hârnic astrology reveals the Pvaric nature of
+          Kelestia.  Personality descriptions for each of the twelve
+          signs of the zodiac are given in HârnPlayer.  The
+          personality of a person born on the cusp would be a blend
+          of the two signs.
+        </p>
+        <table>
+          <tr>
+            <th>From</th><th>To</th><th>Sunsign</th><th>Symbol</th>
+          </tr>
+          <tr>
+            <td>4th Nuzyael</td><td>3rd Peonu</td><td>Ulanus</td><td>Tree</td>
+          </tr>
+          <tr>
+            <td>4th Peonu</td><td>2nd Kelen</td><td>Aralius</td><td>Wands</td>
+          </tr>
+          <tr>
+            <td>3rd Kelen</td><td>3rd Nolus</td><td>Feniri</td><td>Smith</td>
+          </tr>
+          <tr>
+            <td>4th Nolus</td><td>4th Larane</td><td>Ahnu</td><td>Fire Dragon</td>
+          </tr>
+          <tr>
+            <td>5th Larane</td><td>6th Agrazhar</td><td>Angberelius</td><td>Flaming Sword</td>
+          </tr>
+          <tr>
+            <td>7th Agrazhar</td><td>5th Azura</td><td>Nadai</td><td>Salamander</td>
+          </tr>
+          <tr>
+            <td>6th Azura</td><td>4th Halane</td><td>Hirin</td><td>Eagle</td>
+          </tr>
+          <tr>
+            <td>5th Halane</td><td>3rd Savor</td><td>Tarael</td><td>Pentacle</td>
+          </tr>
+          <tr>
+            <td>4th Savor</td><td>2nd Ilvin</td><td>Tai</td><td>Lantern Bearer</td>
+          </tr>
+          <tr>
+            <td>3rd Ilvin</td><td>2nd Navek</td><td>Skorus</td><td>Mixer</td>
+          </tr>
+          <tr>
+            <td>3rd Navek</td><td>1st Morgat</td><td>Masara</td><td>Chalice</td>
+          </tr>
+          <tr>
+            <td>2nd Morgat</td><td>3rd Nuzyael</td><td>Lado</td><td>Galley</td>
+          </tr>
+        </table>
+        <h4 id="birthplace">Birthplace</h4>
+        <p>
+          HârnWorld regional modules provide Birthplace generation
+          tables.  The GM may assign you a birthplace, or tell you
+          what dice to roll to generate one on these tables.
+        </p>
+        <h4 id="culture">Culture</h4>
+        <p>
+          A person’s Culture is determined by Birthplace.  Most people
+          born on Hârn are Feudal.  Common exceptions are: Imperial
+          (Tharda), Viking (Orbaalese), Tribal, Sindarin, and Khuzan.
+        </p>
+        <h4 id="socialclass">Social Class</h4>
+        <p>
+          The Social Class is usually not something considered random.
+          The table shows the distribution of all classes, should a
+          hypothetical census be taken.  It may be useful to determine
+          the Social Class of a randomly encountered individual.  For
+          some cultures a random result does not make sense
+          (e.g. Slaves in Kaldor).  Refer to the relevant HârnWorld
+          publication.
+        </p>
+        <table>
+          <tr>
+            <th></th><th>Tribal</th><th>Viking</th><th>Feudal</th><th>Imperial</th><th>Khuzan</th><th>Sindarin</th>
+          </tr>
+          <tr>
+            <td>Slave</td><td>10%</td><td>15%</td><td>15%</td><td>25%</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Serf</td><td>-</td><td>65%</td><td>55%</td><td>-</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Unguilded</td><td>89%</td><td>13%</td><td>23%</td><td>65%</td><td>15%</td><td>70%</td>
+          </tr>
+          <tr>
+            <td>Guilded</td><td>-</td><td>5%</td><td>5%</td><td>8%</td><td>83%</td><td>29%</td>
+          </tr>
+          <tr>
+            <td>Noble</td><td>1%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>1%</td>
+          </tr>
+        </table>
+        <h4 id="siblingrank">Sibling Rank</h4>
+        <p>
+          About a third of all individuals encountered are first-born.
+          Of the remainder, a third is a second-born and so on.  For
+          Sindarin and Khuzdul 50% are first-born and of the
+          remainder, 50% are second-born instead.  The sex and age of
+          each sibling may be determined accordingly, with a 60% of
+          each still being alive.  To determine the number of
+          siblings, determine the rank of the last sibling as before,
+          but which obviously must come after the indiviual's rank
+          already determined.
+        </p>
+        <h4 id="parent">Parent</h4>
+        <p>
+          The individual’s Father and Mother represent an important
+          aspect of an individual in a mostly feudal society.
+        </p>
+        <ul>
+          <li>
+            50% of all people are regular offspring, the person is
+            raised by his natural parents.  Of these cases, when a
+            minor comes of age, 60% see both parents alive and living
+            together, 20% see either the father or the mother absent
+            (desertion, divorce, etc.).  In the remaining 20% either
+            the father or mother is dead, in half of the cases the
+            surviving spouse has remarried.
+          </li>
+          <li>
+            20% of all people were fostered; they lived with another
+            family for social, economic, or political reasons.
+            Guilded apprentices are usually fostered with their
+            masters, as are squires training for knighthood.  Poor
+            families, especially those with only one parent, commonly
+            foster one or more children with a relative or neighbor.
+            Fostered children are usually aware of their parents’
+            identity.
+          </li>
+          <li>
+            5% of individuals were adopted by another family for
+            social, economic, or political reasons.  Adoption is
+            generally only done if both parents are dead, but there
+            are exceptions if parental consent is given.  Adopted
+            children are often unaware of the fact.
+          </li>
+          <li>
+            15% are Bastards. Parents never married, most likely
+            because the father was of a higher social class, or one
+            (or both) parents were already married or
+            betrothed. Acknowledgement happens only in a third of all
+            cases. A bastard usually lives with his mother, but may
+            reside with father if acknowledged.
+          </li>
+          <li>        
+            10% of people are orphans, both father and mother are
+            deceased.  Only 5% of orphans live alone, the others are
+            either Fostered with another family/clan (80%) or adopted
+            by another family/clan (15%).  Brothers and sisters (if
+            any) may have been fostered/adopted by another family.
+          </li>
+        </ul>
+        <p>
+          It is the habit of the upper classes to spread their oats
+          throughout the lower classes; if unacknowledged, the real
+          father may never be known, but then again, he may be someone
+          of wealth and power who could be helpful.  Acknowledging a
+          bastard is a significant act; the admission can have
+          important emotional ramifications for both parents,
+          especially to their respective spouses.  In families where
+          there is property and/or titles to inherit, acknowledged
+          bastards usually follow the youngest legitimate heir, but
+          dynamic characters may do better, especially if they happen
+          to be a father’s eldest son and the legitimate heirs are
+          weak.  Many a dynastic bonfire has been ignited with such a
+          spark.
+        </p>
+        <h4 id="estrangement">Estrangement</h4>
+        <p>
+          Estrangement measures a person’s popularity in the clan,
+          tribe, and/or family.  It has a significant effect on
+          opportunities, including any inheritance.  Being the eldest
+          child of a knight is less advantageous if he hates
+          you. Siblings with different estrangements are often jealous
+          of each other; this can produce interesting family politics.
+        </p>
+        <ul>
+          <li>
+            10% are outcasts.  They are ignored or may even be
+            attacked by other family members.  Of eldest children,
+            only 5% are outcasts, and in small clans any child has
+            only a 1% chance of being outcast.
+          </li>
+          <li>
+            30% are unpopular.  With the likely exception of the
+            mother, the family dislikes the person.  Any birthright
+            is/was given grudgingly, if at all.  In small clans this
+            happens only a 20% of the time.
+          </li>
+          <li>
+            35% are popular with their clan.
+          </li>
+          <li>
+            5% are treated as favorites.  The individual has
+            privileges, possibly at the expense of other siblings.  Of
+            eldest children, 10% are favorite.  In small clans, 24% of
+            offspring is treated favoringly.
+          </li>
+        </ul>
+        <h4 id="clanhead">Clanhead</h4>
+        <p>
+          A person’s relationship to the Clanhead is often more
+          important than to parents.  Hârnic clans tend to be large.
+          Some live in close proximity.  Some number in the thousands
+          and are widely dispersed.  Wealthy and noble clans are often
+          extended.  Poor clans are likely to be smaller, especially
+          if they live in major settlements.  Poor families in the
+          same town or district may have the same clan name, but have
+          been out of touch for generations.  Except for outcast
+          characters, the clanhead can always provide shelter and a
+          hot meal.  In some cultures, maternal relationships are more
+          important.
+        </p>
+        <p>
+          The hypothetical census would have for a person: 15% father
+          or mother as the clan head, 10% a cousin, 25% an aunt or
+          uncle. All others (50%) identify the clanhead as distant.
+        </p>
+        <h4 id="height">Height</h4>
+        <p>
+          The average height of a Hârnic male human is 68 inches with
+          a variance of 5.83. The average is modified: Sindarin: -3",
+          Khuzdul: -14".  Human females: -2", Sindarin females: 1".
+          Ivinian +1”, nobility +2”, urban poor -2”.  Such
+          measurements are often made by Physicians, while averages
+          and variance thereof are only calculated by excentric
+          scholars.
+        </p>
+        <h4 id="weight">Weight</h4>
+        <p>
+          On Hârn, the "optimal" weight of a person depends on his
+          height and is determined by the Physician's Guild and
+          usually published in a yearly almanach.
+        </p>
+        <table>
+          <tr>
+            <th>Height</th><th>Weight</th>
+          </tr>
+          <tr>
+            <td>40" - 51"</td><td>75 lbs - 97 lbs</td>
+          </tr>
+          <tr>
+            <td>52" - 63"</td><td>100 lbs - 133 lbs</td>
+          </tr>
+          <tr>
+            <td>64" - 71"</td><td>137 lbs - 165 lbs</td>
+          </tr>
+          <tr>
+            <td>72" - 89"</td><td>170 lbs - 255 lbs</td>
+          </tr>
+        </table>
+        <p>
+          The Clothiers' Guild and others have agreed on a size
+          measure that relates to weight and is only a scale from
+          1-10.  The apparent distribution of sizes is recorded here.
+          Items that are too small or too big cause discomfort.  A one
+          size difference may be acceptable.  The distribution was
+          calculated on the human population alone.  Non-humans were
+          too rare, when the data was sampled, but their sizes have
+          been standardized by the guild none-the-less.
+        </p>
+        <table>
+          <tr>
+            <th>Weight (lbs)</th><td>61-65</td><td>66-75</td><td>76-90</td>
+            <td>91-110</td><td>111-135</td><td>136-165</td><td>166-200</td>
+            <td>201-240</td><td>241-285</td><td>286-335</td>
+          </tr>
+          <tr>
+            <th><b>Size</b></th><td>1</td><td>2</td><td>3</td>
+            <td>4</td><td>5</td><td>6</td><td>7</td>
+            <td>8</td><td>9</td><td>10</td>
+          </tr>
+          <tr>
+            <th>Distribution</th><td>-</td><td>-</td><td>-</td>
+            <td>3%</td><td>27%</td><td>54%</td><td>15%</td>
+            <td>1%</td><td>-</td><td>-</td>
+          </tr>
+        </table>
+        <h4 id="frame">Frame</h4>
+        <p>
+          Frame is another proportional attribute mainly used by
+          Clothiers.  It is measured in five main categories. It is
+          determined by the actual instead of the optimal weight to
+          height ratio.  The optimal <em>Weight : Height</em> ratio is
+          considered 100%.
+        </p>
+        <table>
+          <tr>
+            <th>Frame</th><th>W : H</th><th>Human Males</th><th>Human Females</th><th>Sindarin</th><th>Khuzdul</th>
+          </tr>
+          <tr>
+            <td>Scant</td><td>80%</td><td>5%</td><td>26%</td><td>16%</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Light</td><td>90%</td><td>21%</td><td>36%</td><td>34%</td><td>21%</td>
+          </tr>
+          <tr>
+            <td>Medium</td><td>100%</td><td>48%</td><td>33%</td><td>41%</td><td>37%</td>
+          </tr>
+          <tr>
+            <td>Heavy</td><td>110%</td><td>21%</td><td>5%</td><td>9%</td><td>33%</td>
+          </tr>
+          <tr>
+            <td>Massive</td><td>120%</td><td>5%</td><td>-</td><td>-</td><td>9%</td>
+          </tr>
+        </table>
+        <h4 id="complexion">Complexion</h4>
+        <p>
+          Complexion is the color of a person’s skin.  Human is for
+          all people of Hârnic ancestry.  Nordic humans are similar to
+          Khuzdul.
+        </p>
+        <table>
+          <tr>
+            <th>Complexion</th><th>Human</th><th>Sindarin</th><th>Khuzdul</th>
+          </tr>
+          <tr>
+            <td>Fair</td><td>25%</td><td>97%</td><td>90%</td>
+          </tr>
+          <tr>
+            <td>Medium</td><td>50%</td><td>2%</td><td>9%</td>
+          </tr>
+          <tr>
+            <td>Dark</td><td>25%</td><td>1%</td><td>1%</td>
+          </tr>
+        </table>
+        <h4 id="eyehaircolor">Eye/Hair Color</h4>
+        <table>
+          <tr>
+            <th rowspan="2">Color</th><th colspan="3">Human</th>
+            <th rowspan="2">Sindarin</th><th rowspan="2">Khuzdul</th>
+          </tr>
+          <tr>
+            <th>Fair</th><th>Medium</th><th>Dark</th>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Eye Color</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <td>Hazel</td><td>15%</td><td>40%</td><td>65%</td><td>15%</td><td>50%</td>
+          </tr>
+          <tr>
+            <td>Gray</td><td>15%</td><td>15%</td><td>15%</td><td>50%</td><td>15%</td>
+          </tr>
+          <tr>
+            <td>Violet</td><td>5%</td><td>5%</td><td>5%</td><td>10%</td><td>5%</td>
+          </tr>
+          <tr>
+            <td>Green</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td>15%</td>
+          </tr>
+          <tr>
+            <td>Blue</td><td>55%</td><td>30%</td><td>5%</td><td>20%</td><td>15%</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Hair Color</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <td>Brown</td><td>15%</td><td>40%</td><td>65%</td><td>25%</td><td>40%</td>
+          </tr>
+          <tr>
+            <td>Black</td><td>15%</td><td>15%</td><td>15%</td><td>20%</td><td>5%</td>
+          </tr>
+          <tr>
+            <td>Red</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td>25%</td>
+          </tr>
+          <tr>
+            <td>Silver</td><td>5%</td><td>5%</td><td>5%</td><td>10%</td><td>20%</td>
+          </tr>
+          <tr>
+            <td>Blond</td><td>55%</td><td>30%</td><td>5%</td><td>40%</td><td>10%</td>
+          </tr>
+        </table>
+        <h4 id="comeliness">Comeliness</h4>
+        <p>
+          A person’s attractiveness to the same species.  Comeliness
+          can be modified by cosmetics, but these enhancements usually
+          wear off after some time. The courtesan's guild maintains
+          these statistics.
+        </p>
+        <table>
+          <tr>
+            <th>Comeliness</th><th>Ugly</th><th>Plain</th>
+            <th>Average</th><th>Attractive</th><th>Handsome</th>
+          </tr>
+          <tr>
+            <td>Human, Khuzdul</td><td>5%</td><td>21%</td>
+            <td>48%</td><td>21</td><td>5%</td>
+          </tr>
+          <tr>
+            <td>Sindarin</td><td>-</td><td>9%</td>
+            <td>41%</td><td>34%</td><td>16%</td>
+          </tr>
+        </table>
+        <h4 id="physical">Physical</h4>
+        <p>
+          Physical ability is assessed by the military (including
+          their physicians) and a five-star rating is used.
+          Non-humans often have their own physiology - that is
+          recognized in the statistics.  (The scale is extended to six
+          stars for exceptional non-humans.)
+        </p>
+        <p>
+          <em>Agility</em> moves the body. Agility is useful for
+          warriors, seamen, and dancers.
+        </p>
+        <p>
+          <em>Dexterity</em> is the ability to manipulate objects with
+          the hands. Dexterity is important for warriors and
+          cut-purses.
+        </p>
+        <p>
+          <em>Stamina</em> is the general physiological
+          condition. Stamina determines for how long wound healing
+          takes and also affects disease and poison resistance.
+        </p>
+        <p>
+          <em>Strength</em> is sheer physical power, a crucial
+          attribute for combat and other physical activities, which is
+          why military types usually assess it.  It is common
+          knowledge that additional weight leads to increased
+          strength.  However, this has not been measured accurately
+          and not any weight leads to an increase in strength.  It is
+          also unknown whether the same relationship to weight exists
+          for Sindarin and Khuzdul.
+        </p>
+        <table>
+          <tr>
+            <th>Value</th><th>*</th><th>**</th>
+            <th>***</th><th>****</th><th>*****</th><th>******</th>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Agility</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Massive Frame</th><td>10%</td><td>50%</td>
+            <td>33%</td><td>7%</td><td>-</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Heavy Frame</th><td>6%</td><td>26%</td><td>55%</td>
+            <td>11%</td><td>1%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Normal Frame</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Light Frame</th><td>1%</td><td>11%</td>
+            <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+          </tr>
+          <tr>
+            <th>Scant Frame</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Dexterity</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Khuzdul</th><td>1%</td><td>11%</td>
+            <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+          </tr>
+          <tr>
+            <th>Sindarin</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Stamina</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Khuzdul</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <th>Sindarin</th><td>1%</td><td>11%</td>
+            <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Strength</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human, Sindarin</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Khuzdul</th><td>-</td><td>2%</td><td>13%</td>
+            <td>60%</td><td>20%</td><td>5%</td>
+          </tr>
+        </table>
+        <h4 id="senses">Senses</h4>
+        <p>
+          Physicians collect the data for the senses, often diseases
+          or poisons affect the senses and their origin can be
+          determined by gauging their effects.  A five-star rating is
+          used.  (The scale is extended to six stars for exceptional
+          non-humans.)
+        </p>
+        <p>
+          <em>Eyesight</em> is the ability to see in daylight.  Except
+          for nocturnal creatures (like Gargun) eyesight is reduced in
+          the dark and that affects all activity requiring vision.
+        </p>
+        <p>
+          <em>Hearing</em> is used to sense sound.  This is essential
+          for musicians.
+        </p>
+        <p>
+          <em>Smell</em> estimates sensitivity to odor and taste.
+          This can be useful for hunting and/or tracking, and may warn
+          of danger.  Of course, in a medieval town, a keen sense of
+          smell may well be a curse.
+        </p>
+        <table>
+          <tr>
+            <th>Value</th><th>*</th><th>**</th>
+            <th>***</th><th>****</th><th>*****</th><th>******</th>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Eyesight</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Khuzdul, Barbarians</th><td>1%</td><td>11%</td>
+            <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+          </tr>
+          <tr>
+            <th>Sindarin</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Hearing</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Barbarians</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <th>Khuzdul, Sindarin</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Smell</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Barbarians, Khuzdul</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <th>Sindarin</th><td>-</td><td>4%</td><td>21%</td>
+            <td>58%</td><td>14%</td><td>3%</td>
+          </tr>
+        </table>
+        <h4 id="voice">Voice</h4>
+        <p>
+          The pleasantness and/or volume of a person’s voice.
+          Excellent and unearthly voices are in high demand.  The
+          scale is provided by the Sindarin.
+        </p>
+        <table>
+          <tr>
+            <th>Voice</th><th>Unbearable</th><th>Unpleasant</th><th>Average</th>
+            <th>Pleasant</th><th>Excellent</th><th>Unearthly</th>
+          </tr>
+          <tr>
+            <td>Human, Khuzdul</td><td>1%</td><td>14%</td><td>65%</td>
+            <td>15%</td><td>5%</td><td>-</td>
+          </tr>
+          <tr>
+            <td>Sindarin</td><td>-</td><td>5%</td><td>33%</td>
+            <td>47%</td><td>8%</td><td>4%</td>
+          </tr>
+        </table>
+        <h4 id="medical">Medical</h4>
+        <p>
+          Some people have one or more Medical Traits, or diseases,
+          scars, and other identifying marks acquired during life.
+          The Sindarin are immune to human diseases, but more are
+          considered “Sterile” than other species.  The list is not
+          complete and no prevalence statistics in the populace are
+          given.
+        </p>
+        <ul class="explain">
+          <li>
+            <em>Addiction:</em> Individuals consume some substance
+            like alcohol or a drug.  The urge is hard to overcome in
+            certain situations.  When under the influence, people may
+            become unconscious, injure themselves, etc.
+          </li>
+          <li>
+            <em>Albinism:</em> Pallid complexion, white hair, red
+            eyes.  Viewing bright light causes intense eye pain.
+            Albinos sunburn very easily.  Some people consider them
+            very attractive.
+          </li>
+          <li>
+            <em>Allergy:</em> Common allergies are to pollen, hair,
+            fur, feathers, wool, bee stings, or to foods such as eggs,
+            milk, cereals, or shellfish.  When the substance is
+            nearby, a person suffers from sneezing, wheezing, and
+            coughing.  This results in reduced abilities until the
+            allergy source is avoided or removed.  Eating allergic
+            foods can cause serious illness or death - consider this
+            as poison.
+          </li>
+          <li>
+            <em>Ambidextrous:</em> can use both hands equally well.
+          </li>
+          <li>
+            <em>Arm missing or deformed:</em> Activities which require
+            two hands (such as shooting a bow, or using a shield and
+            weapon) are impossible.
+          </li>
+          <li>
+            <em>Birthmark(s):</em> may impact Comeliness, or indicate
+            a special ancestry.
+          </li>
+          <li>
+            <em>Dwarfism:</em> Height is Species minimum minus 2-12
+            inches, with Heavy Frame.
+          </li>
+          <li>
+            <em>Epilepsy:</em> Individual may have a seizure if
+            traumatized.  Swimming and Riding should be avoided.
+          </li>
+          <li>
+            <em>Ear:</em> One ear is missing or deaf.
+          </li>
+          <li>
+            <em>Eye:</em> One eye is missing or blind.  Lack of depth
+            perception and reduced field of vision makes some
+            activities difficult.
+          </li>
+          <li>
+            <em>Gigantism:</em> Individual height is Species maximum
+            plus 2-12 inches, with Massive Frame.
+          </li>
+          <li>
+            <em>Hemophilia:</em> Blood clots much more slowly than
+            normal.  Females do not suffer the effect, but pass it on
+            to their sons.
+          </li>
+          <li>
+            <em>Hirsutism:</em> Excessive body hair.  Such a person
+            may be mistaken for Gargun or were-creature.
+          </li>
+          <li>
+            <em>Leg:</em> One leg is missing or deformed.  Such an
+            individual can only move at 1/3 sprint speed with the use
+            of a peg-leg.
+          </li>
+          <li>
+            <em>Left-Handed:</em> People with this "affliction" are
+            likely to suffer some discrimination.
+          </li>
+          <li>
+            <em>Leprosy:</em> Body covered with sores/scabs.  Pain
+            sensitivity is reduced.  Comliness is reduced.  Leprosy is
+            contagious.
+          </li>
+          <li>
+            <em>Lycanthropy:</em> The individual is a were-creature.
+            Some Physicians consider this an imaginary disease, used
+            by miscreants to scare gullible people.
+          </li>
+          <li>
+            <em>Monochromasia:</em> Severe color blindness.  All
+            colors are perceived as shades of gray.
+          </li>
+          <li>
+            <em>Obesity:</em> A person’s weight is 50% to 100% more
+            than optimal.
+          </li>
+          <li>
+            <em>Parasites:</em> Worms, fleas, lice, etc.  These are
+            fairly common among the lower classes.  Such individuals
+            have special difficulties with social activity.
+          </li>
+          <li>
+            <em>Poxmarks (healed):</em> A person may bear scars from a
+            disease such as smallpox.
+          </li>
+          <li>
+            <em>Scars:</em> Invariably reduces Comeliness.
+          </li>
+          <li>
+            <em>Sterile:</em> The person cannot have children.
+          </li>
+        </ul>
+        <h4 id="mental">Mental</h4>
+        <p>
+          Shek-P'var and Priests collect the statistics for these
+          attributes.  They are not willingly shared, only few
+          scholars have access to the combined treasure of these
+          numbers.  A five-star rating is used.  (The scale is
+          extended to six stars for exceptional non-humans.)
+        </p>
+        <p>
+          <em>Intelligence</em> is the ability to reason and
+          articulate.  Often the following descriptions are used for
+          the star scale:
+        </p>
+        <ul class="explain">
+          <li>* = Absent-minded, moronic, stupid</li>
+          <li>** = Forgetful, slow-witted</li>
+          <li>*** = Average</li>
+          <li>**** = Good memory, clever</li>
+          <li>***** = Excellent memory, genius</li>
+        </ul>
+        <p>
+          <em>Aura</em> is Psionic concept.  Hârnic philosophers
+          believe that all living things have Aura and that the
+          physical body is simply a place where the immortal spirit
+          currently resides.  High Aura indicates high psychic
+          ability, and is the most important attribute for Psionics
+          and magic (although Will and Intelligence are also vital).
+        </p>
+        <p>
+          <em>Will</em> encapsulates mental strength, tenacity, and
+          patience.  A person with low Will lacks confidence, panics
+          easily, and has difficulty with tedious tasks.  Those with
+          high Will are resolute, confident, and stubborn.
+        </p>
+        <table>
+          <tr>
+            <th>Value</th><th>*</th><th>**</th>
+            <th>***</th><th>****</th><th>*****</th><th>******</th>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Intelligence</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>All</th><td>4%</td><td>16%</td><td>64%</td>
+            <td>12%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Aura</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human Males</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Human Females</th><td>-</td><td>7%</td><td>33%</td>
+            <td>50%</td><td>8%</td><td>2%</td>
+          </tr>
+          <tr>
+            <th>Khuzdul</th><td>9%</td><td>50%</td><td>32%</td>
+            <td>7%</td><td>3%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Sindarin</th><td>-</td><td>2%</td><td>13%</td>
+            <td>60%</td><td>20%</td><td>5%</td>
+          </tr>
+          <tr>
+            <td style="border: 2px solid var(--h1);">Will</td>
+            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+          </tr>
+          <tr>
+            <th>Human, Sindarin</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>16%</td><td>4%</td><td>-</td>
+          </tr>
+          <tr>
+            <th>Khuzdul</th><td>-</td><td>4%</td><td>20%</td>
+            <td>58%</td><td>14%</td><td>4%</td>
+          </tr>
+        </table>
+        <h4 id="psyche">Psyche</h4>
+        <p>
+          Phobias, manias, and other mental disorders can be
+          disruptive.  The list of mental disorders is not
+          comprehensive.  Mental disorders of the same type may have
+          different severities.  A phobia is an irrational
+          fear/aversion.  When likely to be stimulated by an
+          appropriate situation, a person's Will is tested to
+          determine if the phobia can be resisted or not.  If relief
+          is impossible, the person may faint, become hysterical, go
+          berserk, etc.  A mania is an irrational fascination,
+          obsession, or compulsion, usually to excess.  An individual
+          with Pyromania takes every opportunity to start a fire; with
+          Hydrophobia he is unlikely to enjoy swimming, boating, etc.
+          Severity of the disorder is, of course, relevant in the
+          actions that are taken.  Some disorders are only latent and
+          the level of Severity is unknown.  It is quite possible for
+          someone with Acrophobia to climb a mountain with no
+          problems, but panic sitting atop a twenty feet wall.
+          Phobias are irrational.
+        </p>
+        <p>
+          The list is compiled by specialized physicians but also by
+          Savorya Shek P'var.  A prevalence is not given, nor is the
+          chance of multiple disorders given.  The list is considered
+          harmful, if it were to leak into the public.  Translations
+          are available for physicians not versed in scholarly
+          tongues but sufficient funds.
+        </p>
+        <ul class="explain">
+          <li>Absent Minded Acrophobia (Fear of Heights)</li>
+          <li>Aichmophobia (Fear of Sharp Blades, etc.)</li>
+          <li>Algophobia (Fear of Pain)</li>
+          <li>Astraphobia (Fear of Thunder/Lightning)</li>
+          <li>Ballistophobia (Fear of Missiles)</li>
+          <li>Bulimia (Eating Mania)</li>
+          <li>Claustrophobia (Fear of Confined Spaces)</li>
+          <li>Cynophobia (Fear of Dogs)</li>
+          <li>Dyslexia (Learning/Reading Disorder)</li>
+          <li>Entomophobia (Fear of Insects/Spiders/etc.)</li>
+          <li>Gamblamania (Gambling Mania)</li>
+          <li>Heliophobia (Fear of Sun/Daylight)</li>
+          <li>Gephyrophobia (Fear of Crossing Bridges)</li>
+          <li>Hemophobia (Fear of Blood)</li>
+          <li>Hydrophobia (Fear of Water/Drowning)</li>
+          <li>Hypochondria (Imagined Illnesses)</li>
+          <li>Ivashuphobia (Fear of Ivashu)</li>
+          <li>Kleptomania (Compulsion To Steal)</li>
+          <li>Megalomania (Exaggerated Self-Worth)</li>
+          <li>Mysophobia (Fear of Dirt/Filth)</li>
+          <li>Multiple Personalities *</li>
+          <li>Musophobia (Fear of Mice/Rats)</li>
+          <li>Necrophobia (Fear of Corpses)</li>
+          <li>Nyctophobia (Fear of Darkness/Night)</li>
+          <li>Ophidiophobia (Fear of Snakes)</li>
+          <li>Ornithophobia (Fear of Birds)</li>
+          <li>Paranoia/Persecution Complex</li>
+          <li>Psychopathy (Cannot Tell Right From Wrong)</li>
+          <li>Pvaraphobia (Fear of Magic/Wizards)</li>
+          <li>Pyromania (Fascination With Fire)</li>
+          <li>Pyrophobia (Fear of Fire)</li>
+          <li>Sadism (Pleasure Inflicting Pain)</li>
+          <li>Sex Mania/Deviancy</li>
+          <li>Theophobia (Fear of Divine Retribution)</li>
+          <li>Toxicophobia (Fear of Being Poisoned)</li>
+          <li>Violent Temper (Loses Control)</li>
+          <li>Xenophobia (Fear of Strangers)</li>
+          <li>Yaelaphobia (Fear of The Moon)</li>
+        </ul>
+        <p>
+          * The person may change personality in stressful situations,
+          based on his Will.  The primary personality is neurotic and
+          totally unaware of the secondary personality. The latter, on
+          the other hand, is aware of the primary personality and
+          often takes desperate actions to try and overcome the
+          neurosis of that personality.
+        </p>
+        <h4 id="deity">Deity</h4>
+        <p>
+          Gods or goddesses may be worshiped (however laxly) by any
+          person.  While people may respect and acknowledge the
+          existence of any number of deities, they usually only follow
+          one, although it is possible to change religion.  The
+          religion a person may encounter depend on a lot of
+          circumstances and depends on the birthplace.  Available
+          choices are presented in other Hârnworld publications, which
+          also consider culture and social class.  Most people tend to
+          follow the deity of their parents or guardians.
+        </p>
+        <p>
+          While there are chivalrous worshipers of Morgath and corrupt
+          Laranians, people tend to be more satisfied if their morals
+          matches that of their deity.  Churches and clerics, unaware
+          of an individual’s true morality, may be fooled.
+        </p>
+        <p>
+          People may faithfully ascribe to two or more religions,
+          provided the deities are not diametrically opposed.  Some
+          miscreants may try to subvert an opposing religion, but this
+          is not faithful.  Some rare people may consider themselves
+          godless.  Divine intervention is another word for miracle.
+          However, the acts of deities should never be confused with
+          spells, which are the acts of mages.
+        </p>
+        <h3 id="occupations3">Occupations</h3>
+        <p>
+          An occupation largely determines the skills a person learns
+          during adolescense and the opportunities that follow, at
+          least initially.  Occupation is not necessarily a life
+          commitment.  Jobs can change during a life, although this
+          might involve lengthy re-training.  The occupations
+          available depend mainly on Social Class, although birthplace
+          and natural talent (attributes) may open or close some
+          doors.  Some vocations (Knight and Herald) are only
+          available to high-born individuals; some require exceptional
+          natural talent.  Birthplace is also relevant; a person
+          born in land-locked Kaldor may have a hard time running away
+          to the sea.
+        </p>
+        <p>
+          Determining the chances for the occupation of a random
+          individual is hard, since no such census data is available.
+          The outcome would largely depend on Social Class, which
+          depends on the occupation of one’s parents. Some
+          children follow the same occupation or choose another at GM
+          discretion. The eldest born survivor, especially if a
+          favorite, would be expected to follow the family
+          occupation. Later born offspring have more choice,
+          especially if unpopular. As a reference, the occupations a
+          person can choose in Hârnic society are listed, with average
+          income and years of apprenticeship.
+        </p>
+        <table>
+          <tr>
+            <th colspan="3">Guilded</th>
+            <th colspan="3">Unguilded</th>
+            <th colspan="3">Military</th>
+          </tr>
+          <tr>
+            <td>Alchemist</td><td>7</td><td>~</td>
+            <td>Animal Trainer</td><td>3</td><td>72d</td>
+            <td>Archer/SB</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Apothecary</td><td>6</td><td>60d</td>
+            <td>Beggar</td><td>1</td><td>~</td>
+            <td>Clansman/UF</td><td>4</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Astrologer</td><td>4</td><td>~</td>
+            <td>Cartographer/Artist</td><td>5</td><td>84d</td>
+            <td>Clansman/LF</td><td>4</td><td>24d</td>
+          </tr>
+          <tr>
+            <td>Chandler</td><td>4</td><td>54d</td>
+            <td>Cook</td><td>3</td><td>30d</td>
+            <td>Guard/MF</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Charcoaler</td><td>3</td><td>54d</td>
+            <td>Farmhand</td><td>4</td><td>24d</td>
+            <td>Guard/HF</td><td>4</td><td>72d</td>
+          </tr>
+          <tr>
+            <td>Clothier</td><td>6</td><td>60d</td>
+            <td>Fisherman</td><td>5</td><td>48d</td>
+            <td>Guardian/MF</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Courtesan</td><td>3</td><td>~</td>
+            <td>Gladiator</td><td>4</td><td>~</td>
+            <td>Guardsman/LF</td><td>4</td><td>24d</td>
+          </tr>
+          <tr>
+            <td>Embalmer</td><td>7</td><td>48d</td>
+            <td>Herdsman</td><td>2</td><td>24d</td>
+            <td>Guardsman/MF</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Glassworker</td><td>7</td><td>66d</td>
+            <td>Hunter/Trapper</td><td>5</td><td>42d</td>
+            <td>Horsebow/LH</td><td>4</td><td>96d</td>
+          </tr>
+          <tr>
+            <td>Harper</td><td>7</td><td>42d</td>
+            <td>Laborer/Porter</td><td>1</td><td>42d</td>
+            <td>Huscarl/MF</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Herald</td><td>5</td><td>78d</td>
+            <td>Longshoreman</td><td>1</td><td>42d</td>
+            <td>Huscarl/LH</td><td>4</td><td>96d</td>
+          </tr>
+          <tr>
+            <td>Hideworker</td><td>5</td><td>60d</td>
+            <td>Prostitute/Pimp</td><td>1</td><td>~</td>
+            <td>Infantry/LF</td><td>4</td><td>24d</td>
+          </tr>
+          <tr>
+            <td>Innkeeper</td><td>5</td><td>60d</td>
+            <td>Ratter</td><td>3</td><td>60d</td>
+            <td>Infantry/MF</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Jeweller</td><td>7</td><td>66d</td>
+            <td>Sage/Tutor</td><td>5</td><td>84d</td>
+            <td>Knight/MH</td><td>4</td><td>192d</td>
+          </tr>
+          <tr>
+            <td>Lexigrapher</td><td>5</td><td>66d</td>
+            <td>Scribe</td><td>5</td><td>66d</td>
+            <td>Knight/HH</td><td>4</td><td>288d</td>
+          </tr>
+          <tr>
+            <td>Litigant</td><td>7</td><td>72d</td>
+            <td>Servant</td><td>3</td><td>24d</td>
+            <td>Legionaire/LF</td><td>4</td><td>24d</td>
+          </tr>
+          <tr>
+            <td>Locksmith</td><td>6</td><td>60d</td>
+            <td>Teamster</td><td>2</td><td>72d</td>
+            <td>Legionaire/MF</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Mason</td><td>7</td><td>96d</td>
+            <td>Thatcher</td><td>4</td><td>54d</td>
+            <td>Legionaire/SB</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Mercantyler</td><td>6</td><td>~</td>
+            <td>Toymaker</td><td>5</td><td>48d</td>
+            <td>Militia/UF</td><td>4</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Metalsmith</td><td>6</td><td>72d</td>
+            <th colspan="3">Cleric</th>
+            <td>Patrician (Knight)</td><td>4</td><td>192d</td>
+          </tr>
+          <tr>
+            <td>Miller/Millwright</td><td>6</td><td>84d</td>
+            <td>Cleric/Agrik</td><td>7</td><td>~</td>
+            <td>Ranger/LF</td><td>4</td><td>24d</td>
+          </tr>
+          <tr>
+            <td>Miner</td><td>6</td><td>84d</td>
+            <td>Cleric/Halea</td><td>7</td><td>~</td>
+            <td>Ranger/UF</td><td>4</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Ostler</td><td>5</td><td>78d</td>
+            <td>Cleric/Ilvir</td><td>7</td><td>~</td>
+            <td>Yeoman/LB</td><td>4</td><td>72d</td>
+          </tr>
+          <tr>
+            <td>Perfumer</td><td>6</td><td>66d</td>
+            <td>Cleric/Larani</td><td>7</td><td>~</td>
+            <td>Yeoman/LF</td><td>4</td><td>24d</td>
+          </tr>
+          <tr>
+            <td>Physician</td><td>7</td><td>72d</td>
+            <td>Cleric/Morgath</td><td>7</td><td>~</td>
+            <td>Yeoman/SB</td><td>4</td><td>48d</td>
+          </tr>
+          <tr>
+            <td>Pilot</td><td>9</td><td>~</td>
+            <td>Cleric/Naveh</td><td>7</td><td>~</td>
+            <th colspan="3">Shek-P'var</th>
+          </tr>
+          <tr>
+            <td>Potter</td><td>6</td><td>60d</td>
+            <td>Cleric/Peoni</td><td>7</td><td>~</td>
+            <td>Shek-Pvar/Fyvria</td><td>7</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Salter</td><td>4</td><td>48d</td>
+            <td>Cleric/Sarajin</td><td>7</td><td>~</td>
+            <td>Shek-Pvar/Jmorvi</td><td>7</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Seaman</td><td>5</td><td>48d</td>
+            <td>Cleric/Hyn-Aelori</td><td>7</td><td>~</td>
+            <td>Shek-Pvar/Lyahvi</td><td>7</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Shipwright</td><td>7</td><td>90d</td>
+            <td>Cleric/Rydequeln</td><td>7</td><td>~</td>
+            <td>Shek-Pvar/Odivshe</td><td>7</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Tentmaker</td><td>5</td><td>72d</td>
+            <td>Cleric/Shea-Al-Aecori</td><td>7</td><td>~</td>
+            <td>Shek-Pvar/Peleahn</td><td>7</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Thespian</td><td>7</td><td>~</td>
+            <td>Cleric/Siem</td><td>7</td><td>~</td>
+            <td>Shek-Pvar/Savorya</td><td>7</td><td>~</td>
+          </tr>
+          <tr>
+            <td>Thief (Lia-Kavair)</td><td>3</td><td>~</td>
+            <td></td><td></td><td></td>
+            <td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td>Timberwright</td><td>6</td><td>78d</td>
+            <td></td><td></td><td></td>
+            <td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td>Weaponcrafter</td><td>7</td><td>108d</td>
+            <td></td><td></td><td></td>
+            <td></td><td></td><td></td>
+          </tr>
+          <tr>
+            <td>Woodcrafter</td><td>7</td><td>66d</td>
+            <td></td><td></td><td></td>
+            <td></td><td></td><td></td>
+          </tr>
+        </table>
+        <p>
+          <em>Guilded Occupations:</em> Wages given are for Bonded
+          Masters; room and board may also be provided.  The employer
+          would bear the additional cost of providing materials and
+          supplies, but tools are owned by the master.  A skilled
+          mason-architect building a new castle, or an exquisite sword
+          craftsman, could earn fees up to six times higher, but such
+          incomes are rare.  Apprentices receive room &#0038; board
+          and sometimes get pocket money from generous masters.
+          Journeymen receive 30-60% of a master's wages, depending on
+          experience, plus room and board.  Freemasters have variable
+          incomes because demand for their services can vary.  See:
+          HârnPlayer, page 15.
+        </p>
+        <p>
+          <em>Unguilded Occupations:</em> Wages given are for average
+          experienced workers; others might earn more/less depending
+          on skills.  Wages are dependent on the availability of
+          labor.  They also tend to be higher in summer and lower in
+          winter.
+        </p>
+        <p>
+          Occupational rating is on the typical five-star scale.  When
+          completing an apprenticeship, a person is assumed to have
+          advanced to *** (three stars) through his training.  The
+          occupation of the parent will usually convey a * (one star)
+          rating.  Attributes play a role in selecting a suitable
+          profession.  There are practical and common sense limits.  A
+          warrior with a sufficiently high Aura can certainly learn
+          spells, but doing so requires years learning the mysteries
+          and ways of magic.
+        </p>
+        <h3 id="equip">Equipment &#0038; Funds</h3>
+        <p>
+          A simple peasant may possess little more the clothes worn, a
+          knapsack containing their worldly possessions, credentials
+          when appropriate, and a money-belt.  Most travel afoot, but
+          nobles require a horse.  A person's wealth is largely
+          dependent on family wealth, which is relative to social
+          status.  The census data compiled by the crowns provide the
+          following table and shows three levels of wealth within each
+          social class. The value given amounts to what a person is
+          assumed to possess when becoming of age, i.e. a responsible
+          subject of the souvereign.  This wealth may be used on items
+          from the Price List on HârnPlayer and the Weapon and Armour
+          tables.  Estrangement can also influence funds.
+        </p>
+        <table>
+          <tr>
+            <th>Social Class</th><th>Poor</th><th>Average</th><th>Rich</th>
+          </tr>
+          <tr>
+            <td>Serf</td><td>40d</td><td>80d</td><td>160d</td>
+          </tr>
+          <tr>
+            <td>Unguilded</td><td>60d</td><td>120d</td><td>240d</td>
+          </tr>
+          <tr>
+            <td>Guilded</td><td>90d</td><td>180d</td><td>360d</td>
+          </tr>
+          <tr>
+            <td>Noble</td><td>600d</td><td>1200d</td><td>2400d</td>
+          </tr>
+        </table>
+        <p>
+          Squires are traditionally equipped by their lord when
+          knighted.  This includes weapons, armour, and a good steed.
+          Family wealth above does not include this.  Very few Hârnic
+          folk own property.  Rural freemen and serfs rent cottages
+          and land from the lord.  City homes are mostly owned by a
+          few wealthy folk and rented to poorer citizens.  Only
+          established urban guildsmen can hope to buy a private home.
+          Most rural households own a few sheep or goats, perhaps a
+          cow.  Some families raise pigs which are prolific breeders.
+          Wealthier households own oxen and rent them for village work
+          in exchange for food and labor.  Only the wealthiest of
+          peasants can afford to keep a bull or a horse.
+        </p>
+        <p>
+          Clothes should suit a person’s station.  A tunic, leggings,
+          hat, and sandals are bare essentials.  Some folk wear a robe
+          or gown instead of a tunic.  Travelers normally have a
+          knapsack containing portable tools of their trade.  A
+          weaponcrafter, for example, must own hammers and tongs, but
+          carrying an anvil is unlikely.  Nearly everyone carries some
+          fire-making tools (tinderbox, or flint and steel) and a
+          strip of cloth for a towel, bandage, or arm-sling.  A
+          waterskin is also essential.
+        </p>
+        <p>
+          Nearly everyone owns a knife or dagger.  Clubs, bows,
+          hatchets, slings, and staves are also common.  Other weapons
+          are expensive and “Bearing Arms” in HârnPlayer should be
+          consulted.  Few young adults can afford good armour.
+          Military individuals are mostly equipped by their unit, but
+          knights on feudal service must bring their own weapons,
+          armour, and steed.
+        </p>
+        <p>
+          Proving identity can be difficult on Hârn.  A travelling
+          person should have papers to prove guild rank (if any)
+          and/or a letter of introduction from a prominent person such
+          as a lord of the manor, or a cleric or sheriff, etc.  Many
+          guilds issue a badge or tattoo to prove rank. The expensive
+          weapons and armour carried by knights speak for themselves.
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="occupation1">Occupations</h1>
+        <h3 id="cleric">Cleric</h3>
+        <p>
+          People interested in a clerical career must visit a temple
+          or abbey to be interviewed by the Master of Acolytes, or
+          find a priest to sponsor the application.  An appropriate
+          Morality and a minimum Ritual knowledge are generally
+          required, but a large donation to temple coffers may
+          overcome a deficiency in talent.  Acolyte training takes
+          seven years.  The church is a popular career for the second
+          (or later) sons of nobility, or for devout characters of
+          lesser birth.  The complex mysteries of church doctrine are
+          described in <em>Religion</em>.
+        </p>
+        <p>
+          Each church has holy scriptures written in a particular
+          language and script: Churches teach this language and script
+          to all Acolytes.  Three churches perform their ceremonies
+          and rituals in a private (secret) language in addition to
+          their church language.
+        </p>
+        <table>
+          <tr>
+            <th>Church</th><th>Language</th><th>Script</th><th>Temple Tongue</th>
+          </tr>
+          <tr>
+            <td>Agrik</td><td>Azeryani</td><td>Zerin</td><td>Surikal</td>
+          </tr>
+          <tr>
+            <td>Halea</td><td>Karuia</td><td>Zerin</td><td></td>
+          </tr>
+          <tr>
+            <td>Ilvir</td><td>Old Jarinese</td><td>Khruni</td><td>Ivashi</td>
+          </tr>
+          <tr>
+            <td>Larani</td><td>Emela</td><td>Khruni</td><td></td>
+          </tr>
+          <tr>
+            <td>Morgath</td><td>Azeri</td><td>Nuvesarl</td><td>Ormauk</td>
+          </tr>
+          <tr>
+            <td>Naveh</td><td>Besha</td><td>Neramic</td><td></td>
+          </tr>
+          <tr>
+            <td>Peoni</td><td>Emela</td><td>Khruni</td><td></td>
+          </tr>
+          <tr>
+            <td>Sarajin</td><td>Ivinian</td><td>Runic</td><td></td>
+          </tr>
+          <tr>
+            <td>Save-K’nor</td><td>Azeri</td><td>Tianta</td><td></td>
+          </tr>
+          <tr>
+            <td>Siem</td><td>Sindarin</td><td>Selenian</td><td></td>
+          </tr>
+        </table>
+        <p>
+          Newly ordained clerics start play knowing some Ritual
+          Invocations.  All Common invocations rated at Circle II are
+          taught to clerics.  Clerics may learn other invocations.
+          Also see Religion.  Clerics usually complete their training
+          with little of material value.  Acolytes are unpaid and the
+          simple monastic life they lead in training does not
+          encourage the accumulation of worldly goods.  Newly ordained
+          clerics typically own a wool robe, linen tunic and hose,
+          leather sandals or boots, a dagger or staff, a simple ring
+          denoting their status, and a purse of 6-36 pence.
+        </p>
+        <h3 id="shekpvar">Shek-P'var</h3>
+        <p>
+          Shek-Pvar belong to one of six ancient and esoteric
+          sub-orders (convocations).  Each convocation stresses on
+          certain Pvaric principles because some conflict with others.
+          Most Hârnic Shek-Pvar reside in Melderyn.  Each convocation
+          has its own chantries.  Chantries vary in quality according
+          to a five-star scale.  The best are difficult to find and
+          enter.  A high Aura is required, but most applicants can
+          improve their chance of acceptance if they have the right
+          family connections, sufficient funds to bestow, or an
+          appropriate recommendation.
+        </p>
+        <ul class="explain">
+          <li><em>Lyahvi:</em> Wind, Magnification, Visual Illusions</li>
+          <li><em>Peleahn:</em> Fireballs, Volcanos, Movement Enhancement</li>
+          <li><em>Jmorvi:</em> Weapon Creation, Prospecting/Mining, Lockboxes</li>
+          <li><em>Fyvria:</em> Healing, Horticulture, Necromancy, Earthquakes</li>
+          <li><em>Odivshe:</em> Waves, Precipitation, Movement Reduction</li>
+          <li><em>Savorya:</em> Divination, Written Works, Memory Suppression</li>
+          <li><em>Neutral:</em> Counter-Magic, Interworld Travel, Energy Storage</li>
+        </ul>
+        <p>
+          When Mavari learn how to attune to their element, they are
+          taught to let a small amount of Principle exist within their
+          Aura.  Attunement must be done slowly and carefully, and it
+          takes months before sufficient Principle can reside within
+          the Aura to allow spells to be cast.  Mages refer to this
+          Aura-resident Principle as their Foundation.  With time and
+          practice, Foundations can be increased in size to
+          accommodate Principle from other convocations.  A gifted
+          Mavari will sometimes join a convocation in opposition to
+          his Sunsign.  This gives him an advantage when learning
+          spells of other convocations in the future, although it will
+          impede his early career.  A Shek-Pvar Satia-Mavari departs
+          from their chantry after five to seven years apprenticeship.
+        </p>
+        <h3 id="military">Military</h3>
+        <p>
+          A military career provides good weapon skills, useful social
+          contacts, and a good opportunity for advancement in society.
+          Of course, it might also be dangerous.  Only individuals
+          with good Strength, Stamina, and Will should consider this
+          vocation.  The sunsigns Ahnu, Angberelius, and Aralius are
+          favored for warriors.
+        </p>
+        <ul class="explain">
+          <li>
+            <em>Unarmoured Foot [UF]</em> Unarmoured foot are most
+            often found in Militia formations.  Such troops wear
+            ordinary clothing and may be equipped with homemade
+            weapons.
+          </li>
+          <li>
+            <em>Light Foot [LF]</em> Typical light footmen wear
+            incomplete leather and are equipped with a spear, shield,
+            and a knife or dagger.  Light foot are the fundamental
+            troop type, and form the bulk of most standing armies.
+          </li>
+          <li>
+            <em>Medium Foot [MF]</em> Medium Foot have better weapons,
+            most likely a spear, shortsword, shield, and better
+            armour, perhaps some scale or mail.  They are nearly
+            always better trained and more experienced.
+          </li>
+          <li>
+            <em>Heavy Foot [HF]</em> The only permanent heavy foot
+            found on Hârn are elite High Guard units within the
+            dwarven army of Azadmere.  Heavy foot carry heavy weapons
+            like a battleaxe and are armoured with mail &#0038; quilt.
+          </li>
+          <li>
+            <em>Unarmoured Horse [UH]</em> Lightly armed troops used
+            primarily for intelligence gathering, courier service, and
+            light skirmishing.
+          </li>
+          <li>
+            <em>Light Horse [LH]</em> A light cavalryman is usually
+            equipped with a lance or spear, shield, shortsword and
+            mostly leather armour.  He can be used in the same role as
+            unarmoured horse, or used en masse in battle.
+          </li>
+          <li>
+            <em>Medium Horse [MH]</em> Riders are well-armoured in
+            scale/mail with a good assortment of weapons.  In feudal
+            societies, medium horsemen are invariably knights or
+            squires.
+          </li>
+          <li>
+            <em>Heavy Horse [HH]</em> The heavy cavalryman has
+            well-padded mail from head to foot and may have
+            strategically located plate.  He carries lance, sword, and
+            shield, and usually other weapons as well.  Heavy horsemen
+            are almost always noble and are primarily used as shock
+            cavalry on the battlefield.
+          </li>
+          <li>
+            <em>Shortbow [SB]</em> A light footman equipped with a
+            shortbow, and bearing light melee weapons and a
+            roundshield or buckler.
+          </li>
+          <li>
+            <em>Longbow [LB]</em> A light footman equipped with a
+            longbow.  Longbowmen require years of training and are
+            quite rare.  They are well paid.
+          </li>
+        </ul>
+        <p>
+          Because of the pervasive military influence of the Azeryan
+          Empire, the Azeri names for military ranks are in common use
+          throughout Northwestern Lythia.
+        </p>
+        <p>
+          Five enlisted ranks are in general use.  These are rarely
+          filled by nobles, who would consider them beneath their
+          station.  <em>Molak:</em> the common soldier.  Status and
+          remuneration vary according to special skills and unit type.
+          <em>Arkalin:</em> commands a manus of five men; himself and
+          four Molaks.  <em>Melbrin:</em> commands a decad of ten men;
+          himself, one Arkalin, and eight Molaks.  <em>Molarin:</em>
+          commands a company of twenty men; himself, one Melbrin, two
+          Arkalins, and sixteen Molaks.  A cavalry Molarin commands a
+          squadron.  <em>Armolarin:</em> the most senior Molarin in a
+          centad.  He is the principal liaison between officers and
+          men, and is often the “real” commander of a Centad.
+        </p>
+        <p>
+          Officers are gentlemen.  A commoner rising to officer rank
+          is also invariably knighted.  There is widespread belief
+          that leaders must be noble, although there is no law to that
+          effect.  Five officer ranks exist. <em>Hulhurin:</em> junior
+          staff officer, and deputy commander of a Centad.  May also
+          command an auxiliary company.  <em>Hethrin:</em> commander
+          of a Centad, or a Cohort staff officer.  <em>Kurlin:</em>
+          senior staff officer, and deputy commander of a Cohort.
+          <em>Berheth:</em> commander of a Cohort.  <em>Tharin:</em>
+          commander of a Legion, which has two or more Cohorts.
+        </p>
+        <p>
+          Light horse units have the same ranks as infantry officers,
+          except there is no Decad command.  Medium and Heavy horse
+          units differ at Manus and Squadron level.
+          <em>Chalisir:</em> any trooper in a medium or heavy horse
+          unit.  A manus will be commanded by a senior Chalisir.
+          <em>Kephiri:</em> commander of a Squadron of medium or heavy
+          horse.
+        </p>
+        <p>
+          Most units let individuals enlist at age 16, and discourage
+          those over 30.  Interested individuals must contact a unit.
+          The recruiting officer will ask about the person’s
+          background, and military experience.  A recommendation from
+          someone in the unit might be helpful, and some Knight units
+          (including the Khuzdul High Guard) require applicants to be
+          noble.
+        </p>
+        <p>
+          Having completed four years of service, one may now elect to
+          continue his military career or muster-out of the army to
+          follow some other occupation.  Guard and legionnaire units
+          require a one year contract at the end of which a
+          Re-enlistment Incentive may be offered to sign up for
+          another twelve months.  Irregular units have less formal
+          contracts, most likely just a handshake or an oath, but the
+          effect is the same.
+        </p>
+        <p>
+          Military wages are traditionally paid quarterly, but are
+          listed monthly for comparison with other incomes.
+          Considering the danger, wages are low, but armies offer
+          various other benefits, and sometimes deliver them.  These
+          include food and shelter, and the opportunity to collect
+          booty.  The wage table gives monthly base pay.  Elite units
+          may get more, although some elite units in which men serve
+          for honor may get less.  It is not unusual for a soldier to
+          work long stretches followed by long furloughs.  Armies are
+          generous with (unpaid) leave in peacetime.  All foot units
+          know the ranks Molak, Arkalin, Melbrin, Molarin, and
+          Armolarin.  The pay listed is for Molaks, every next rank
+          has a pay increase of 1/4 over the previous rank on the
+          Molak’s base.  E.g. a Longbow Melbrin earns a monthly 108d.
+          Light Horse units have the ranks Molak, Arkalin, Molarin,
+          and Armolarin and progress 96d, 120d, 180d, and 216d.
+          Medium and Heavy Horse units only have the ranks of Chalasir
+          and Kephiri, of which the Kephiri earn +96d monthly over the
+          base pay for Chalasirs.
+        </p>
+        <p>
+          Traditionally, a soldier may keep 2/3 of booty collected,
+          giving 1/3 to the next highest rank, who gives 1/3 to the
+          next highest rank, and so on.  High ranking officers can get
+          very rich with this scheme.  Cash bonuses are sometimes
+          given for long, distinguished service, or as a re-enlistment
+          incentive.  There is no typical amount, although a bonus
+          would rarely exceed a month's pay.
+        </p>
+        <p>
+          Standing armies typically offer land grants to soldiers
+          after twenty years service.  Monetary pensions are rare, but
+          “half-pay for life” might be awarded to a soldier who has
+          distinguished himself in some way.  When a soldier is maimed
+          in the course of duty, he is discharged with a lump sum
+          bonus rather than a pension.  The amount is two to twelve
+          months pay, depending on the nature of the injury and wealth
+          of the unit.  Few armies provide survivor benefits.  A bonus
+          of about six month's pay might be provided to a widow in
+          exceptional cases.  More commonly, the deceased's comrades
+          will make a collection.
+        </p>
+        <p>
+          A cohort, ideally, consists of two centads of light foot,
+          one of medium foot and one of light footbowmen (shortbow or
+          longbow).  In addition, there are often auxiliary units,
+          such as companies of engineers (sappers), artillery (siege
+          engines), light cavalry (scouts), medical, ostlers,
+          weaponcrafters, etc..  In practice a Cohort may contain from
+          two to six Centads, each consisting of two to eight
+          Companies.  The economic realities of manning, equipping,
+          and supporting military units have always overwhelmed the
+          neat organizational plans of staff officers.  Each centad
+          ideally has 100 men, grouped into 5 companies, lead by a
+          Hethrin.  Each company consists of 2 decads and each decad
+          has 2 manus.
+        </p>
+        <p>
+          Some states, like Azeryan, group their cohorts into legions.
+          The ideal Azeryani legion consists of four cohorts plus
+          various auxiliary or reserve units attached to the legion
+          HQ.  On Hârn, legions exist only in the Thardic Republic
+          where they tend to be little more than large cohorts.
+        </p>
+        <p>
+          Full strength cavalry cohorts are rare.  It is simply too
+          expensive to maintain such units in peacetime.  The cohort
+          shown, which exists only in the dreams of Lord Marshals,
+          contains one centad of regular light horse, two centads of
+          feudal medium horse, and one centad of feudal heavy horse.
+          From mid-spring to mid-autumn, one or two squadrons of each
+          feudal centad might be manned by knights doing their
+          military service.  Other squadrons would be inactive until a
+          military emergency arises.  Feudal units might be virtually
+          devoid of personnel in winter.  Formally., a squadron
+          consists of 10 riders, and is split into two manus.  Most
+          cavalry tends to be deployed in small units of squadron or
+          centad strength and massed only for battle.  There are, of
+          course, exceptions, such as the large bodies of horse
+          defending Shorkyne and Trierzon's borders.  Imperial cavalry
+          tends to be mostly light.  Azeryan, for example, uses
+          cavalry in a supporting role (scouts and skirmishers), as
+          does Tharda.  This is mostly due to the lack of a feudal
+          societal class.  The Azeryani do, however, hire foreign
+          knights to serve in some special forces.  Logistical
+          problems are different for cavalry units.  Auxiliary forces,
+          weaponcrafters, ostlers, transport, engineers, and the like
+          are all slower than cavalry, and tend to get left behind.
+          Units, even small ones, may have their own "field
+          households" (messes) in tow. These too, may straggle.
+        </p>
+        <h3 id="physician">Physician</h3>
+        <p>
+          Healing is a widely-practiced art.  Clerics of Peoni have
+          considerable medical expertise.  Nearly all lay-folk,
+          especially in rural areas, have some understanding of herbal
+          remedies.  Most warriors know emergency treatments for
+          battlefield wounds.
+        </p>
+        <p>
+          Those who practice the healing arts full-time generally
+          belong to the Society of Physicians, a loosely-organized
+          guild.  The Society does not care much about preserving its
+          monopoly, and makes little attempt to maintain standards.
+          Some masters are incompetent quacks, while others are
+          highly-skilled surgeons.  However, a physician who maims or
+          kills too many patients will soon encounter difficulties
+          from outraged friends and relatives.
+        </p>
+        <p>
+          Master physicians may take on as many apprentices as they
+          wish.  There are no journeymen in the Society, nor bonded
+          masters in the normal sense; masters may take employment as
+          they see fit.  Many masters are associated with the church
+          of Peoni, and some dabble in the arcane arts.  Most
+          physicians confine themselves to the treatment of minor
+          ailments.  Fees vary dramatically, sometimes according to
+          the skill brought to bear, but mostly according to
+          reputation.  Fees typically range from 3d for fairly basic
+          first aid to 240d for “major” surgery.  Medicines, provided
+          by the Apothecaries’ Guild, and hospital care (rare) can
+          double or triple fees.
+        </p>
+        <p>
+          When people get sick or wounded, they are advised to get the
+          best first aid available, and then seek someone with a
+          decent Physician Mastery as soon as possible.  Carrying a
+          good supply of bandages and herbal remedies is always a good
+          idea.  Hârnic doctors are far more competent than their
+          medieval Terran colleagues.  They know, for example, it’s a
+          good idea to keep open wounds and surgical instruments as
+          clean as possible, although they do not know why.  One
+          theory has to do with fiery, invisible elementals which can
+          be driven off with hot water.  If no doctor is available any
+          friend can administer treatment and self-treatment is always
+          possible (modified by Will at GM discretion).
+        </p>
+        <p>
+          Esoteric Medical Treatments exist. <em>Spells:</em> For
+          information on magical healing, see HârnMaster
+          Magic. <em>Rituals:</em> For information on divine and
+          cleric healing, see Religion. <em>Psionics:</em> For
+          information on Psionic healing, see Psionics.
+        </p>
+        <ul class="explain">
+          <li>
+            <em>Amputate:</em> Surgical amputation is the only
+            treatment for Grievous Frost and may be used to halt
+            infection spreading. The afflicted body part is removed,
+            but a new Serious or Grievous wound is created according
+            to the operation’s success.
+          </li>
+          <li>
+            <em>Bleeder:</em> Treatment must be continued until
+            bleeding stops.  The patient may die under treatment.
+          </li>
+          <li>
+            <em>Clean and Dress:</em> Takes a few minutes and requires
+            water and bandages.
+          </li>
+          <li>
+            <em>Compress:</em> Apply cold compress for several
+            minutes.  Herbal remedies and balms reduce swelling.
+          </li>
+          <li>
+            <em>Splint:</em> Setting bone and splinting.  Takes
+            several minutes.
+          </li>
+          <li>
+            <em>Surgery:</em> Includes cleaning and dressing the
+            wound.  Takes up to an hour.  Requires sharp knives, and a
+            needle and thread for sutures.  Anesthetic is highly
+            recommended (patients tend to struggle and whimper
+            otherwise) and disinfectants are a good idea too.  Such
+            items may be purchased from good apothecaries and improve
+            Treatment.
+          </li>
+          <li>
+            <em>Warming:</em> Gentle warming (blanket, healthy
+            person’s flesh, etc.) of the injury for a few hours.
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1 id="psi">Psionics</h1>
+        <p>
+          Psionic talents are native, psychic abilities some people
+          possess, but may be unaware of.  Since it requires years of
+          practice to properly employ Psionic talents, they are within
+          the sphere of the Guild of Arcane Lore.  Those endowed may
+          notice some of the odd effects produced by their latent
+          Psionic abilities to level * (one the five-star scale).
+          Some learn of their ability when another person with a
+          developed talent is able to sense and inform them of its
+          presence.  Some talents are never discovered and remain
+          dormant forever.  Individuals who wish to became a mage are
+          more likely to be accepted as an apprentice if they have an
+          active Psionic talent.
+        </p>
+        <p>
+          Psionic Talents at one star are dormant.  Anyone with a
+          dormant talent is unaware of its existence.  No conscious
+          development of dormant talents is possible.  However,
+          exposure to powerful Psionic events or artifacts may
+          stimulate a dormant talent.  Once the talent exceeds *, it
+          becomes known to the person possessing it.  A dormant talent
+          may reveal its nature with Psionic Episodes.  In later parts
+          of the dormant stage, frequent Psionic episodes can lead to
+          apprehensions that the person is insane, and may cause
+          well-meaning observers to attempt cures or confinement.
+          This can be awkward when the person does not know the cause
+          of the problem.
+        </p>
+        <p>
+          Once a talent develops past the dormant stage, it may be
+          developed more or less normally.  The individual must
+          meditate (not sleep!) for at least 8 hours of a day to gain
+          new insights.  Anyone with an active Psionic talent can
+          attempt to use it at anytime, provided the character is
+          conscious.  Using Psionic talents is tiring, regardless,
+          whether or not the attempt is successful.  Fatigue can also
+          be accumulated after a Psionic episode.  Particularly
+          stressing invocations may cause the invoker to fall
+          unconscious and also suffers Psionic Blindness, the complete
+          inability to use any Psionic talent, for several hours.
+          Sometimes unpredictable and/or unanticipated results may
+          occur when invoking a Psionic talent.  Possibilities for
+          misfires are given in the talent descriptions.  Psionic
+          episodes occur randomly but are more likely, when a talent
+          is used often or for extended periods of time.
+        </p>
+        <p>
+          Medium, Prescience, and Sensitivity are talents which may be
+          stimulated by appropriate phenomena, which is called passive
+          triggering.  Medium may be triggered by the presence of
+          ethereals, Prescience by imminent danger, and Sensitivity by
+          a Psionic or magical residue/effect.  If the stimulus is
+          weak, the character is less likely to be alerted.  When
+          passive triggering occurs, the owner is given minimal
+          information.  If the character wants more information, the
+          talent must be used actively (with fatigue being a
+          consequence).
+        </p>
+        <p>
+          Two people with the same Psionic talent may wish to pool
+          their efforts in invoking the talent.  This may be done if
+          skin contact is established by grasping hands, etc. and skin
+          contact is maintained during the time spent invoking the
+          talent.  Under unknown circumstances ritual procedure may
+          need to be followed in order to form the necessary “fusion”
+          between invokers.  This will become known to the affected
+          invokers instinctively.
+        </p>
+        <p>
+          The following talents are known by the guild.  No percentages
+          are given, because talents are too rare to gather sufficient
+          statistics.  While Psionics are more instinctive than
+          spells, concepts such as Spellfire Timing, Modeling,
+          Detection, Noise, and Foci, all have application.
+        </p>
+        <table>
+          <tr>
+            <td><a href="#charm">Charm</a></td>
+            <td><a href="#clairvoyance">Clairvoyance</a></td>
+          </tr>
+        </table>
+        <h4 id="charm">Charm</h4>
+        <ul class="explain">
+          <li>
+            <em>Psionic Episodes:</em> Brief hallucinations or
+            illusions, headaches in nearby persons, sudden dizziness,
+            people having bad luck or unusual clumsiness in the
+            invoker’s presence.
+          </li>
+          <li>
+            <em>Misfire:</em> The invoker, or a random person/animal
+            nearby, suffers the talent’s effect.  Sometimes the
+            invoker gets a severe headache instead.
+          </li>
+        </ul>
+        <p>
+          A Psionic talent to influence the mind of another person
+          (victim).  The usual effect is to “freeze” the victim in
+          place for a limited period of time. In order to invoke the
+          talent successfully, eye contact between the invoker and the
+          victim is necessary, but only for a momentary glance. The
+          maximum distance at which effective eye contact can occur is
+          approximately 10 yards.  The effect remains in place until
+          the attacker stops gazing at the victim.
+        </p>
+        <h4 id="clairvoyance">Clairvoyance</h4>
+        <ul class="explain">
+          <li>
+            <em>Psionic Episodes:</em> Vivid dreams of faraway people
+            and things.  Dizziness, disorientation, confusion,
+            headaches, sleepwalking, blurred vision, or mirage-like
+            hallucinations can also occur.
+          </li>
+          <li>
+            <em>Misfire:</em> False or random information is given to
+            the clairvoyant.  Sometimes, severe headaches that cause
+            temporary blindness occurs.
+          </li>
+        </ul>
+        <p>
+          The ability to visualize events currently occurring at a
+          remote location.  A target may sense the attention of a
+          clairvoyant.  The psychic enters a trance and after the
+          first minute gets a clear image of some object, person, or
+          location that he is familiar with.  The image may be moving
+          and is of the current state.  Sensory perception is normal
+          but with narrow focus on the object.  Clairvoyance may be
+          used in either of two ways: <em>Near:</em> The clairvoyant
+          enters a trance to transfer their point of perception to a
+          location.  The location must be familiar to the clairvoyant.
+          <em>Far:</em> The clairvoyant enters a trance sand attempts
+          to focus on a specific, remote person or object whose
+          location may not be known.  The clairvoyant does this by
+          visualizing the person’s face (or by describing the object).
+          There are no range restrictions, but there is also no chance
+          to listen or smell.
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="reli">Religion</h1>
+      </div>
+      <div class="container">
+        <h1 id="ritual">Rituals</h1>
+      </div>
+      <div class="container">
+        <h1 id="comb">Combat</h1>
+      </div>
+      <!--
         <p>
           Conversion of Skills.  The actual formula is <em>level =
           log<sub>10</sub>(19&#160;*&#160;skill/100/(1&#160;-&#160;skill/100))</em> in
@@ -113,8 +2003,6 @@
           </tr>
         </table>
       </div>
-      <div class="container">
-        <h1 id="skills">Skills</h1>
         <p>
           Where multiple scalable dimensions are given, a certain
           skill level only applies to one, i.e. of multiple dimensions
@@ -1156,7 +3044,7 @@
           Typical modifications are made for <em>contrast (+), movement (+),
           distraction (-), border of visual field (-)</em>
         </p>
-        <!--svg:svg width="620" height="620">
+        <svg:svg width="620" height="620">
           <svg:g transform="translate(310 310)">
             <svg:circle cx="0" cy="0" r="305" stroke="#000" stroke-width="2" fill="#009a31"/>
             <svg:text x="-124" y="0" fill="#fff" transform="scale(2.4)">-5</svg:text>
@@ -1207,7 +3095,7 @@
           <svg:text x="320" y="332" fill="#000">6</svg:text>
           <svg:text x="305" y="338" fill="#000">7</svg:text>
           <svg:text x="290" y="332" fill="#000">8</svg:text>
-        </svg:svg-->
+        </svg:svg>
         <h3 id="misc">Miscellaneous</h3>
         <p>
           The following skills are simply opposed to each other.
@@ -1630,6 +3518,7 @@
         </table>
       </div>
     </div>
-    <!-- Fatigue -->
+    -->
+    </div>
   </body>
 </html>

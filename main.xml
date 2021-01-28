@@ -14,24 +14,20 @@
       <div class="container">
         <h1 id="motiv">Motivation</h1>
         <p>
-          At first I was tempted to start a philosophical debate about
-          RPG rules in general and a justification of my attempt
-          specifically.  But this would soon turn out to take up more
-          space than the entire rules to be presented.  So I ignored
-          the urge.
-        </p>
-        <p>
-          Two major issues that annoy, however, I want to address
-          shortly in the next two section.
+          The following two major issues are addressed by the rules.
+          Any further attempt to elaborate on the reasoning of these
+          rules I attenot to curtail.  The reader shall be the judge
+          on whether I succeeded.
         </p>
         <h3 id="scale">Scalability</h3>
         <p>
-          One of the technical flaws of almost every single set of
-          rules I have come across is the applicability of skills and
-          difficulties as they progress.  With this rule set, higher
-          skill levels compare to higher difficulty level exactly as
-          lower skills and lower difficulty level.  At every
-          <em>level</em> the rules yield the same probability.
+          One of the technical flaws of almost all rules I have come
+          across is the that skill application and difficulties change
+          their technical applications as they progress.  With this
+          rule set, higher skill levels compare to higher difficulty
+          level exactly as lower skills and lower difficulty level.
+          At every <em>level</em> the rules yield the same
+          probability.
         </p>
         <p>
           One consequence of this, as it turns out, is that using
@@ -44,25 +40,21 @@
         </p>
         <h3 id="dim">Dimensions</h3>
         <p>
-          Many rule sets complicate situations, especially combat,
-          because they address the complexity of tactical decisions by
-          creating artificial dimensions.  Strength, Combat skills and
-          Hit points are the dominating techical terms.  This
-          unnecessary creation of dimensions should be avoided.
-          Tactical decisions should only be applied to comprehensive
-          dimensions, which directly relate to the <em>reality</em>
-          modelled.  This is done here in the hope that both
-          simplicity and <em>realism</em> can be fostered at the same
-          time.
+          Rules complicate situations, especially combat, because they
+          address the complexity of tactical decisions by creating
+          artificial dimensions.  Strength, Combat skills and Hit
+          points are the dominating techical terms.  We aboid this
+          here in the hope that both simplicity and <em>realism</em>
+          can be fostered at the same time.
         </p>
       </div>
       <div class="container">
         <h1 id="basic">Basic Rule</h1>
         <p>
-          You roll a <d5/> until you roll a <n1/> and the count the
-          number of dice that did not show up a <n1/>.  That is the
-          same as the number of dice you actually rolled minus one.
-          The higher you get, the better, therefore we call it the
+          You roll a <d5/> until you roll a 1 and the count the number
+          of dice that did not show up a 1.  That is the same as the
+          number of dice you actually rolled minus one.  The higher
+          you get, the better, therefore we call it the
           <em>positive</em> roll.  This roll is dominated by the
           active character, or more generally, the actor.  Of course,
           there is a <em>negative</em> roll that is associated with
@@ -70,7 +62,7 @@
           the same way.  These two numbers are subtracted.  The result
           will be a whole number (i.e. a positive or negative number
           without fractional part).  An understanding of this rule is
-          crucial, so we elaborate a bit by listing the probabilities
+          crucial, so we elaborate by listing the probabilities
           involved as well as some examples.
         </p>
         <h3 id="prob">Probabilities</h3>
@@ -111,8 +103,8 @@
           </tr>
           <tr>
             <td>01-20</td><td>21-36</td><td>37-49</td><td>50-60</td>
-            <td>61-68</td><td>69-74</td><td>75-80</td><td>81-84</td><td>85-87</td>
-            <td>88-90</td><td>91-100</td>
+            <td>61-68</td><td>69-74</td><td>75-80</td><td>81-84</td>
+            <td>85-87</td><td>88-90</td><td>91-100</td>
           </tr>
         </table>
         <p>
@@ -133,8 +125,8 @@
           chance to increase the result by 1, the same chance to
           descrease the result by one and a 1/9 to stay at 0.  The
           astute reader will see the chance for 0 in the third row is
-          only 8%, while 1/9 ~ 11%.  Again this is due to rounding;
-          the price for rolling less dice.
+          only 8%, while 1/9 is approximatly 11%.  Again this is due
+          to rounding; the price for rolling less dice.
         </p>
         <table>
           <tr>
@@ -171,7 +163,7 @@
           you therefore need to decide, when to sacrifice correctness
           for playability.  We will see in later sections examples of
           this.  But it should be obvious that a player will rather
-          break of a long lasting activity when he knows it will not
+          break off a long lasting activity when he knows it will not
           end well.  Think of a race, where everyone knows the
           probable outcome after a few meters have been run.
         </p>
@@ -182,45 +174,43 @@
         <h3 id="prob_ex">Examples</h3>
         <p>
           The most generic way to roll the dice would be to roll <d5/>
-          until a <n1/> is rolled.  To improve speed, several <d10/>
-          may be rolled in ordered fashion.  Order them according to
-          size or alphabetical color (e.g. black, blue, green, yellow)
-          or in any other way you can remember.  With a <d10/> stop at
-          <n1/> or <n2/>.  If you lack <d5/>s, you can also roll
-          <d6/>s with only a marginal 3% error on each roll.  But all
-          players (and GM) should roll the same type dice.  Computer
-          applications that make rolling as easy as pressing a button
-          are also easy to program.
+          until a 1 is rolled.  To improve speed, several <d10/> may
+          be rolled in ordered fashion.  Order them according to size
+          or alphabetical color (e.g. black, blue, green, yellow) or
+          in any other way you can remember.  With a <d10/> stop at 1
+          or 2.  If you lack <d5/>s, you can also roll <d6/>s with
+          only a marginal 3% error on each roll.  But all players (and
+          GM) should roll the same type dice.  Computer applications
+          that make rolling as easy as pressing a button are also easy
+          to program.
         </p>
         <p>
           <ul>
             <li>
-              Assume you decided to use <d100/> and rolled a
-              <em>24</em> on the first roll.  This means a result of
-              <n1/>.  The second roll (the negative or passive roll)
-              shows a <em>50</em>, which results in <n3/> for a net
-              result of <em>-2</em>.
+              Assume you decided to use <d100/> and rolled a 24 on the
+              first roll.  This means a result of 1.  The second roll
+              (the negative or passive roll) shows a 50, which results
+              in 3 for a net result of -2.
             </li>
             <li>
-              Another decision is to use the combined table, and a
-              <em>28</em> is rolled, which results in -<n3/>.
+              Another decision is to use the combined table, and a 28
+              is rolled, which results in -3.
             </li>
             <li>
-              A more exotic roll would be the sequence <em>96, 99, 93,
-              61</em> on the <d100/>.  The result would be
-              <em>34</em>.
+              A more exotic roll would be the sequence 96, 99, 93, 61
+              on the <d100/>.  The result would be 34.
             </li>
             <li>
               Using the standard method, the positive sequence on a
-              <d10/> shows <em>3, 8, 10, 7, 9, 4, 6, 3, 10, 10, 8, 4,
-              2</em> and the negative sequence shows <em>3, 6, 9, 4,
-              4, 1</em>.  The result is positive <em>12</em> and
-              negative <em>5</em> with a net result of <em>+7</em>.
+              <d10/> shows 3, 8, 10, 7, 9, 4, 6, 3, 10, 10, 8, 4, 2
+              and the negative sequence shows 3, 6, 9, 4, 4, 1.  The
+              result is positive 12 and negative 5 with a net result
+              of +7.
             </li>
             <li>
-              If you decide that <em>+7</em> is not precise enough, a
-              roll of <n3/> and <n5/> on a <d10/> (each) gives are
-              finer result of <em>+7.35</em>.
+              If you decide that +7 is not precise enough, a roll of 3
+              and 5 on a <d10/> (each) gives are finer result of
+              +7.35.
             </li>
           </ul>
         </p>
@@ -245,13 +235,12 @@
               but he also attempts more difficult tasks.  Imagine the
               child character climbing the neighborhood tree and as a
               grown, experienced man climbing an overhanging cliff.
-              The child's climbing bonus of <em>12</em> against a
-              difficulty addition of <em>14</em> for the tree gives
-              the same <em>distribution</em> as the adult's bonus of
-              <em>57</em> against the cliff's <em>59</em>.  (We have
-              not made any rules on skills and difficulties yet, but
-              the will turn out to be additions and subtractions from
-              the levels.)
+              The child's climbing bonus of 12 against a difficulty
+              addition of 14 for the tree gives the same
+              <em>distribution</em> as the adult's bonus of 57 against
+              the cliff's 59.  (We have not made any rules on skills
+              and difficulties yet, but the will turn out to be
+              additions and subtractions from the levels.)
             </li>
           </ul>
         </p>
@@ -263,15 +252,14 @@
           10 or higher has appoximately a 5% chance</em>.  For a
           positive/active roll alone this is at about 10%.  So when
           designing additions/subtractions consider that when
-          comparing numbers directly, say skills in a duel, a <n0/>
-          will only break even (or win) against a <n10/> in 5% of all
-          cases.
+          comparing numbers directly, say skills in a duel, a 0 will
+          only break even (or win) against a 10 in 5% of all cases.
         </p>
         <p>
           In the upcoming paragraphs, we will use this to create a
           <em>level</em> system.  Assuming a <em>level</em> for every
           10 point difference gives a good scale.  Passing a level of
-          <n10/> higher is not impossible but improbable.
+          10 higher is not impossible but improbable.
         </p>
         <p>
           <em>Skills</em> (or <em>Attributes</em>, etc.) should be
@@ -307,9 +295,9 @@
         </p>
         <p>
           You should always try to create <em>scalable</em> dimensions
-          and this is generally not hard.  Time, distance, and weight
-          are classic examples of such dimensions, But also skills
-          such as knowledge can be made scalable.
+          and this is often not hard.  Time, distance, and weight are
+          classic examples of such dimensions, But also skills such as
+          knowledge can be made scalable.
         </p>
         <p>
           Once you have decided on some effects for a scalable
@@ -321,179 +309,9 @@
           skill called <em>Ten-Second-Dash</em> the list may look like
           <em>skill 0: 30 meters, skill 40: 100 meters</em>.  To have
           the appropriate intermediate steps, both in skill level and
-          dimension, use the following table.  On the far left and
-          right side you will find the typical values for skill level
-          <em>n</em> and <em>n+10</em> in inceasing fashion.  By
-          reading from righht to left you can easily accommodate for
-          descreasing values.  Use the next to lowest row for that.
-        </p>
-        <p>
-          Finally, this is a <em>utility</em> table.  Often, the
-          instinctive <em>linear interpolation</em> - dividing the
-          difference into equal steps and taking the appropriate step
-          - is not to far from the <em>smoother</em> version the table
-          gives you.
-        </p>
-        <table>
-          <tr>
-            <th>0</th><th>1</th><th>2</th><th>3</th>
-            <th>4</th><th>5</th><th>6</th><th>7</th>
-            <th>8</th><th>9</th><th>10</th>
-          </tr>
-          <tr>
-            <th>10</th><td>11</td><td>11</td><td>12</td>
-            <td>13</td><td>14</td><td>15</td><td>16</td>
-            <td>17</td><td>19</td><th>20</th>
-          </tr>
-          <tr>
-            <th>10</th><td>11</td><td>12</td><td>14</td>
-            <td>16</td><td>17</td><td>19</td><td>22</td>
-            <td>24</td><td>27</td><th>30</th>
-          </tr>
-          <tr>
-            <th>10</th><td>11</td><td>13</td><td>15</td>
-            <td>17</td><td>20</td><td>23</td><td>26</td>
-            <td>30</td><td>35</td><th>40</th>
-          </tr>
-          <tr>
-            <th>10</th><td>12</td><td>14</td><td>17</td>
-            <td>20</td><td>24</td><td>29</td><td>35</td>
-            <td>42</td><td>50</td><th>60</th>
-          </tr>
-          <tr>
-            <th>10</th><td>13</td><td>16</td><td>20</td>
-            <td>25</td><td>32</td><td>40</td><td>50</td>
-            <td>63</td><td>79</td><th>100</th>
-          </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
-          <tr>
-            <th>20</th><td>21</td><td>22</td><td>23</td>
-            <td>24</td><td>24</td><td>26</td><td>27</td>
-            <td>28</td><td>29</td><th>30</th>
-          </tr>
-          <tr>
-            <th>20</th><td>21</td><td>23</td><td>25</td>
-            <td>26</td><td>28</td><td>30</td><td>32</td>
-            <td>35</td><td>37</td><th>40</th>
-          </tr>
-          <tr>
-            <th>20</th><td>22</td><td>25</td><td>28</td>
-            <td>31</td><td>35</td><td>39</td><td>43</td>
-            <td>48</td><td>54</td><th>60</th>
-          </tr>
-          <tr>
-            <th>20</th><td>23</td><td>28</td><td>32</td>
-            <td>38</td><td>45</td><td>53</td><td>62</td>
-            <td>72</td><td>85</td><th>100</th>
-          </tr>
-          <tr>
-            <th>20</th><td>25</td><td>32</td><td>40</td>
-            <td>50</td><td>63</td><td>80</td><td>100</td>
-            <td>130</td><td>160</td><th>200</th>
-          </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
-          <tr>
-            <th>30</th><td>31</td><td>32</td><td>33</td>
-            <td>34</td><td>35</td><td>36</td><td>37</td>
-            <td>38</td><td>39</td><th>40</th>
-          </tr>
-          <tr>
-            <th>30</th><td>32</td><td>34</td><td>37</td>
-            <td>40</td><td>42</td><td>45</td><td>49</td>
-            <td>52</td><td>56</td><th>60</th>
-          </tr>
-          <tr>
-            <th>30</th><td>34</td><td>38</td><td>43</td>
-            <td>49</td><td>55</td><td>62</td><td>70</td>
-            <td>79</td><td>89</td><th>100</th>
-          </tr>
-          <tr>
-            <th>30</th><td>36</td><td>44</td><td>53</td>
-            <td>64</td><td>77</td><td>94</td><td>110</td>
-            <td>140</td><td>170</td><th>200</th>
-          </tr>
-          <tr>
-            <th>30</th><td>38</td><td>48</td><td>60</td>
-            <td>75</td><td>95</td><td>120</td><td>150</td>
-            <td>190</td><td>240</td><th>300</th>
-          </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
-          <tr>
-            <th>40</th><td>42</td><td>43</td><td>45</td>
-            <td>47</td><td>49</td><td>51</td><td>53</td>
-            <td>55</td><td>58</td><th>60</th>
-          </tr>
-          <tr>
-            <th>40</th><td>44</td><td>48</td><td>53</td>
-            <td>58</td><td>63</td><td>69</td><td>76</td>
-            <td>83</td><td>91</td><th>100</th>
-          </tr>
-          <tr>
-            <th>40</th><td>47</td><td>55</td><td>63</td>
-            <td>76</td><td>89</td><td>110</td><td>120</td>
-            <td>140</td><td>170</td><th>200</th>
-          </tr>
-          <tr>
-            <th>40</th><td>49</td><td>60</td><td>73</td>
-            <td>90</td><td>110</td><td>130</td><td>160</td>
-            <td>200</td><td>250</td><th>300</th>
-          </tr>
-          <tr>
-            <th>40</th><td>50</td><td>63</td><td>80</td>
-            <td>100</td><td>130</td><td>160</td><td>200</td>
-            <td>250</td><td>320</td><th>400</th>
-          </tr>
-          <tr><th rowspan="2" colspan="11"></th></tr><tr></tr>
-          <tr>
-            <th>60</th><td>63</td><td>66</td><td>70</td>
-            <td>74</td><td>77</td><td>82</td><td>86</td>
-            <td>90</td><td>95</td><th>100</th>
-          </tr>
-          <tr>
-            <th>60</th><td>68</td><td>76</td><td>86</td>
-            <td>97</td><td>110</td><td>120</td><td>140</td>
-            <td>160</td><td>180</td><th>200</th>
-          </tr>
-          <tr>
-            <th>60</th><td>70</td><td>83</td><td>97</td>
-            <td>110</td><td>130</td><td>160</td><td>190</td>
-            <td>220</td><td>260</td><th>300</th>
-          </tr>
-          <tr>
-            <th>60</th><td>73</td><td>88</td><td>110</td>
-            <td>130</td><td>150</td><td>190</td><td>230</td>
-            <td>270</td><td>330</td><th>400</th>
-          </tr>
-          <tr>
-            <th>60</th><td>76</td><td>95</td><td>120</td>
-            <td>150</td><td>190</td><td>240</td><td>300</td>
-            <td>380</td><td>480</td><th>600</th>
-          </tr>
-          <tr>
-            <th>10</th><th>9</th><th>8</th><th>7</th>
-            <th>6</th><th>5</th><th>4</th><th>3</th>
-            <th>2</th><th>1</th><th>0</th>
-          </tr>
-          <tr>
-            <th>&#945;</th>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.1</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.2</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.3</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.4</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.5</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.6</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.7</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.8</sup></font></td>
-            <td><font size="-1">&#945;(<math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mtext>&#946;</mtext><mtext>&#945;</mtext></mfrac></math>)<sup>0.9</sup></font></td>
-            <th>&#946;</th>
-          </tr>
-        </table>
-        <p>
-          The numbers in the table have been rounded.  If you want to
-          expand the table for other differences or mitigate rounding
-          errors and you are willing to go through the mathematics of
-          it, the formula in the last row can be used.  (The variable
-          &#945; being the left and &#946; the right end.)
+          dimension, use simple (linear) interpolation.  More complex,
+          but potentially accurate intermediate steps are likely to
+          sacrifice too much playability.
         </p>
         <h3 id="combo">Combinations</h3>
         <p>
@@ -507,150 +325,58 @@
           will want to join forces to expedite an action.  Jointly
           lifting a weight or looking for a clue are typical examples.
           This should be simulated by combining the joining people
-          into one actor with an increased <em>active</em> value for the activity.
-          The same is true for attempting several tasks in one
-          activity, where rolling many dice would become combersome.
-          Attempting to clear away rubble instead of individual stones
-          and broken items could be such a situation.
+          into one actor with an increased <em>active</em> value for
+          the activity.  The same is true for attempting several tasks
+          in one activity, where rolling many dice would become
+          combersome.  Attempting to clear away rubble instead of
+          individual stones and broken items could be such a
+          situation.
         </p>
         <p>
           First decide what the bonus would be, if two characters with
           the same skill level combine their effort into one.  Then
-          the following table provides a way to combine two general
+          the following formula provides a way to combine two general
           actors into one.  Take the difference in bonus (<em>skill
-          level</em>) as column index and the bonus an equal skill
-          should give as row index.  Cross-indexing gives the bonus,
-          the actor with the higher skill level should receive.
+          level</em>) as &#946; and the bonus an equal skill level
+          should give as &#945;.  If you have set of values, you
+          should provide players with a table to reduce calculations
+          at the table.  Here, it would distract from the intention.
         </p>
-        <table>
-          <tr>
-            <th>0</th><th>1</th><th>2</th><th>3</th><th>4</th>
-            <th>5</th><th>6</th><th>7</th><th>8</th><th>9</th>
-            <th>10</th><th>11</th><th>12</th><th>13</th><th>14</th>
-            <th>15</th><th>16</th><th>17</th><th>18</th><th>19</th>
-            <th>20</th><th>21</th><th>22</th><th>23</th><th>24</th>
-            <th>25</th><th>&#946;</th>
-          </tr>
-          <tr>
-            <td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>...</td>
-          </tr>
-          <tr>
-            <td>2</td><td>2</td><td>1</td><td>1</td><td>1</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>...</td>
-          </tr>
-          <tr>
-            <td>3</td><td>3</td><td>2</td><td>2</td><td>1</td>
-            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>...</td>
-          </tr>
-          <tr>
-            <td>4</td><td>4</td><td>3</td><td>3</td><td>2</td>
-            <td>2</td><td>2</td><td>2</td><td>1</td><td>1</td>
-            <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>...</td>
-          </tr>
-          <tr>
-            <td>5</td><td>5</td><td>4</td><td>4</td><td>3</td>
-            <td>3</td><td>3</td><td>2</td><td>2</td><td>2</td>
-            <td>2</td><td>1</td><td>1</td><td>1</td><td>1</td>
-            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-            <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-            <td>0</td><td>...</td>
-          </tr>
-          <tr>
-            <td>6</td><td>6</td><td>5</td><td>5</td><td>4</td>
-            <td>4</td><td>4</td><td>3</td><td>3</td><td>3</td>
-            <td>2</td><td>2</td><td>2</td><td>2</td><td>2</td>
-            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-            <td>0</td><td>...</td>
-          </tr>
-          <tr>
-            <td>7</td><td>7</td><td>6</td><td>6</td><td>5</td>
-            <td>5</td><td>4</td><td>4</td><td>4</td><td>3</td>
-            <td>3</td><td>3</td><td>3</td><td>2</td><td>2</td>
-            <td>2</td><td>2</td><td>2</td><td>2</td><td>1</td>
-            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-            <td>1</td><td>...</td>
-          </tr>
-          <tr>
-            <td>8</td><td>8</td><td>7</td><td>7</td><td>6</td>
-            <td>6</td><td>5</td><td>5</td><td>5</td><td>4</td>
-            <td>4</td><td>4</td><td>3</td><td>3</td><td>3</td>
-            <td>3</td><td>3</td><td>2</td><td>2</td><td>2</td>
-            <td>2</td><td>2</td><td>2</td><td>1</td><td>1</td>
-            <td>1</td><td>...</td>
-          </tr>
-          <tr>
-            <td>9</td><td>9</td><td>8</td><td>8</td><td>7</td>
-            <td>7</td><td>6</td><td>6</td><td>6</td><td>5</td>
-            <td>5</td><td>5</td><td>4</td><td>4</td><td>4</td>
-            <td>4</td><td>3</td><td>3</td><td>3</td><td>3</td>
-            <td>3</td><td>2</td><td>2</td><td>2</td><td>2</td>
-            <td>2</td><td>...</td>
-          </tr>
-          <tr>
-            <td>10</td><td>10</td><td>9</td><td>9</td><td>8</td>
-            <td>8</td><td>7</td><td>7</td><td>7</td><td>6</td>
-            <td>6</td><td>6</td><td>5</td><td>5</td><td>5</td>
-            <td>4</td><td>4</td><td>4</td><td>4</td><td>3</td>
-            <td>3</td><td>3</td><td>3</td><td>3</td><td>3</td>
-            <td>2</td><td>...</td>
-          </tr>
-          <tr>
-            <td>&#945;</td><td>...</td><td>...</td><td>...</td><td>...</td>
-            <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
-            <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
-            <td>...</td><td>...</td><td>...</td><td>...</td><td>...</td>
-            <td>...</td><td>...</td>
-            <td colspan="5"><em>&#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)</em></td>
-          </tr>
-        </table>
-        <p>
-          For example, assume the bonus would be a full <n10/> for
-          equal characters, but the better character is <n5/> points
-          ahead on the skill.  Then this table gives the skill of the
-          better character plus <n8/> to the combined actor.
+        <p style="font-weight:bold;text-align:center;">
+          &#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)
         </p>
         <p>
-          You should never indiscriminately add values. Remember that a
-          difference of <n10/> means a 90% winning difference by design.
+          For example, assume the bonus would be a full 10 for equal
+          characters, but the better character is 5 points ahead on
+          the skill.  Then this formula gives the skill of the better
+          character plus 8 to the combined actor.
+        </p>
+        <p>
+          You should never indiscriminately add values.  Remember that
+          a difference of 10 means a 90% winning difference by design.
           Thus, adding a value that depends on the individual's skill
-          makes this quite awkward. The question you rather ask is, how many 
-          people does it take to even out a difference of <n10/>.
+          makes this quite awkward.  The question you should rather
+          ask is, how many people does it take to even out a
+          difference of 10.
         </p>
         <p>
           The standard example of taking the best skill roll of two
           (this is the same as requiring at least one of the two to
-          succeed.)  would best equate to using row <n5/> in the
-          table.  If you have two actors that both must succeed a
-          test, then you should use -<n5/>, which is equivalent to
-          using the fifth row for the <em>reverse</em> roll.  Keep in
-          mind that the reversal of <em>positive</em> and
-          <em>negative</em> roll, also changes who of the two has the
-          higher skill level.
+          succeed.)  would best equate to using &#945;=5.  If you have
+          two actors that both must succeed a test, then you should
+          use -5, which is equivalent to using the &#945;=5 for the
+          <em>reverse</em> roll.  Keep in mind that the reversal of
+          <em>positive</em> and <em>negative</em> roll also changes
+          who of the two has the higher skill level.
         </p>
         <p>
           The rule can be applied multiple times and its application
           does not depend on the order or sub-grouping of several
           actors, thereby adhering to the outline given in the
           motivational section.  In order to keep this rule simple,
-          the results were rounded.  Using the rule multiple times,
-          always group two actors of similar skill value together.
+          round results in your tables.  Using the rule multiple
+          times, always group two actors of similar skill value
+          together.
         </p>
         <p>
           As a more elaborate example, say you have four characters in
@@ -658,67 +384,62 @@
           this technically means that either of those characters could
           find it, i.e. all would have to roll against a set
           diffculty.  But you want just one roll.  These characters
-          have a skill level of <n5/>, <n7/>, <em>13</em>, and
-          <em>17</em>.  Taking the first two, because they are closest
-          to each other, we combine them into an actor with <n11/>.
-          (The difference between the two is <n2/> and from the above
-          we know that we should use row five.  We add the <n4/> we
-          find to the higher <n7/>.) Now we combine <n11/> and
-          <em>13</em> in the same manner to <em>17</em>.  In the last
-          step, we combine the two <em>17</em>s into a <em>22</em> by
-          way of the zero'th column.
-        </p>
-        <p>
-          If you want to expand the table for higher differences or
-          mitigate rounding errors for repeated applications and you
-          are willing to go through the mathematics of it, the formula
-          in the last row can be used.  (The variable &#945; being the
-          row index and &#946; the column index.)
+          have a skill level of 5, 7, 13, and 17.  We keep three
+          siginificant digits, so you can verify the formula
+          application.  This is <em>not</em> recommended during
+          gameplay.  Taking the first two, because they are closest to
+          each other, we combine them into an actor with 10.694.  (The
+          difference between the two actor levels is 2 and from the
+          explanations of the previous paragraphs we know that we
+          should use &#945;=5.  We add 3.694 to the higher 7.)  Now we
+          combine 10.694 and 13 in the same manner to 16.585.  In the
+          last step, we combine 17 and 16.585 into 21.298.
         </p>
         <h3 id="mult">Simultaneous Actions</h3>
         <p>
-          Attempting to do simultaneous actions is simple and works like
-          reducing both activities by <n1/> and then doing them both.
-          Note that the time required for the activity is not simultaneous
-          but consecutive, but in any order desired. This can mean that an
-          activity can be postponed and "triggered" separately. As an
-          example, you can observe while running or pick a lock and listen
-          for foot steps.
+          Attempting to do simultaneous actions is simple and works
+          like reducing both activities by 1 and then doing them both.
+          Note that the time required for the activity is not
+          simultaneous but consecutive, but in any order desired.
+          This can mean that an activity can be postponed and
+          "triggered" separately.  As an example, you can observe
+          while running; or pick a lock and listen for foot steps.
         </p>
         <p>
-          When attacking twice, this may be used as what is called 
-          an "attack of opportunity" in other rule systems.
+          When attacking twice, this may be used as what is called an
+          "attack of opportunity" in other rule systems.
         </p>
         <p>
-          Some activities may result in higher reductions or no reduction for
-          the individual feats attempted. Penalties for attempting more
-          than two actions at the same time must be judged separatly. 
+          Some activities may result in higher reductions or no
+          reduction for the individual feats attempted.  Penalties for
+          attempting more than two actions at the same time must be
+          judged separately.
         </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
-          A skill may be decomposed into other skills, if so desired. The
-          decomposition must be such that the combination of (weighted)
-          averages of the new skill levels results in the original skill 
-          level. Additional measures should be in place to indicate that
-          the skills actually belong to a group. A typical restriction is
-          that the individual skills of a goup may not differ by more than 
-          <n10/> points.
+          A skill may be decomposed into other skills, if so desired.
+          The decomposition must be such that the combination of
+          (weighted) averages of the new skill levels results in the
+          original skill level.  Additional measures should be in
+          place to indicate that the skills actually belong to a
+          group.  A typical restriction is that the individual skills
+          of a goup may not differ by more than 10 points.
         </p>
         <p>
-          If a decomposition results in multiple rolls, make sure that the
-          rules of <em>Combinations</em> remain valid. A typical example would
-          be to turn a roll that applies every 10 days into a roll that
-          applies every day. This implies that all of the daily rolls have
-          a difficulty increased by <n10/>.
+          If a decomposition results in multiple rolls, make sure that
+          the rules of <em>Combinations</em> remain valid.  A typical
+          example would be to turn a roll that applies every 10 days
+          into a roll that applies every day.  This implies that all
+          of the daily rolls have a difficulty increased by 10.
         </p>
         <h3 id="abort">Abort and Control</h3>
         <p>
           The variance in outcome of an activity can be controlled by
           manipulating the scale of a dimension.  By reducing an
-          active roll by <em>n</em>, the active roll can be repeated
-          <em>n</em> times and the average of all (<em>n+1</em>) rolls
-          is taken.  This will result in a higher probability of the
-          (new) average, effectively "controlling" the results.
+          active roll by n, the active roll can be repeated n times
+          and the average of all (n+1) rolls is taken.  This will
+          result in a higher probability of the (new) average,
+          effectively "controlling" the results.
         </p>
         <p>
           The reverse is not possible, i.e. increasing the active roll
@@ -731,10 +452,9 @@
           inflicted wounds on an active person at some point.
           Consider this the equivalent of a control.  That is, if the
           abort happens, when time to completion is equivalent to an
-          active value difference of <em>n</em>, then proceed as if
-          the active roll had been reduced by <em>n</em> in another
-          dimension. If another dimension is not feasible, the
-          activity simply fails.
+          active value difference of n, then proceed as if the active
+          roll had been reduced by n in another dimension.  If another
+          dimension is not feasible, the activity simply fails.
         </p>
         <h3 id="pragm">Pragmatics</h3>
         <p>
@@ -753,36 +473,30 @@
         </p>
         <p>
           For example, suppose the active climber with a skill level
-          of <em>57</em> wants to scale a cliff of difficulty
-          <em>49</em>.  The difference is <n8/>.  The GM rolls <n8/>
-          dice, which show up <n3/>, <n5/>, <n6/>, <n1/>, <n3/>,
-          <n9/>, <n9/>, and <n8/>.  Since <n1/> is a stop digit, the
-          cliff is scaled.  If the <n1/> had been a <n7/>, for
-          instance, the cliff would have had a &#x201c;fighting
-          chance&#x201d; to drop the character.  The GM decides that
-          even is good for the character and odd is bad and rolls a
-          <d10/>.  It comes up a <n6/> and the character has barely
-          made it.  Any story-telling description of this close
-          encounter is at your option.
+          of 57 wants to scale a cliff of difficulty 49.  The
+          difference is 8.  The GM rolls 8 dice, which show up 3, 5,
+          6, 1, 3, 9, 9, and 8.  Since 1 is a stop digit, the cliff is
+          scaled.  If the 1 had been a 7, for instance, the cliff
+          would have had a &#x201c;fighting chance&#x201d; to drop the
+          character.  The GM decides that even is good for the
+          character and odd is bad and rolls a <d10/>.  It comes up a
+          6 and the character has barely made it.  Any story-telling
+          description of this close encounter is at your option.
         </p>
         <p>
-          Another pragmatic rule that has already been mentioned is rolling
-          10 non-stop rolls in a row can be shortened to rolling a <n1/>
-          on a <d10/>.
+          Another pragmatic rule that has already been mentioned is
+          rolling 10 non-stop rolls in a row can be shortened to
+          rolling a 1 on a <d10/>.
         </p>
       </div>
       <div class="container">
         <h1 id="concret">Examples</h1>
         <p>
-          Click on the arrows to follow the links.
-        </p>
-        <p>
-          <a class="list" href="oper.xml"> &#x27a4; </a> Example for a
-          simple Harnmaster 3 conversion.
-        </p>
-        <p>
-          <a class="list" href="char.svg"> &#x27a4; </a> Generic
-          Character Sheet.
+          <ul>
+            <li>
+              <a class="list" href="oper.xml">Rules for Hârnworld</a>.
+            </li>
+          </ul>
         </p>
       </div>
     </div>
