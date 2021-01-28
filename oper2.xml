@@ -11,12 +11,11 @@
   <body>
     <div class="main">
       <div class="title">Harn RPG Rules</div>
-
       <div class="container">
         <h1 id="char">Character</h1>
-        <h3 id="char-1">Pages 1-6, 13-14, 17-18, 28-30</h3>
+        <h4>Page 1-6, 13-14, 17-18, 28-30</h4>
         <p>
-          The attributes and descriptons remain in place as Harnworld
+          The attributes and descriptions remain in place as Harnworld
           requires them (at least for some characters).  In other
           words, without them, a character designed toward a specific
           career would be incomplete in the setting.  They are also
@@ -25,18 +24,54 @@
           contacts are descriptive only.
         </p>
         <p>
-          Sunsigns are attributes with value 5.  Modifiers in later
-          sections are treated as combination of the corrsponding
-          percentage, e.g. +3 = 60%.  See the <em>Skills</em> section
-          how this effects the overall skill level.
+          Sunsigns are treated as direct modifiers, where they have
+          a numeric value.
         </p>
-        <h3 id="char-2">Pages 7-8, 10</h3>
+        <h4>Page 7-8, 10</h4>
         <p>
           The attributes described are translated (linearly) into the
           range -15 to 15.  <em>Moraliy</em> is dropped.  Generation
           of values can be used as suggested.
         </p>
-        <h3 id="char-3">Pages 9, 11-12</h3>
+        <h4>Page 15</h4>
+        <p>
+          The occupations of the table on this page serve as skills
+          and the listed "old" skills serve only as descriptive
+          values.
+        </p>
+        <h4>Page 16, 19</h4>
+        <p>
+          <em>Automatic</em> skills are determined according to the
+          appropriate skill section (q.v.) and <em>Occupation</em>
+          skills work as transformed for the previous page.  They open
+          as 20 for the chosen occupation.  <em>Family</em> skills for
+          parents in the same occupation add 2 points, while for a
+          different occupation they add 5.  (This is effectively
+          <em>Row-5-addition</em> of a 0 skill level.)
+          <em>Optional</em> skills are as they exist, but new skills
+          may be "invented"; the scope is at GM discretion.  Any
+          reasoonable skill can be improved by 5 for each option point
+          (OP) through <em>Row-5-addition</em>; this includes OPs
+          gained for Veterans.  Militia skills are explained elsewhere
+          as are psionics.
+        </p>
+        <h4>Page 20-22</h4>
+        <p>
+          Rules on these page are completely dropped currently.
+          Generation of values can be used as suggested.
+        </p>
+        <h4>Page 23-27</h4>
+        <p>
+          Each clerical occupation is treated as a separate
+          occupation, with the "old" skills being used in a
+          descriptive sense.  The same is true for the Shek-Pvar.
+          <em>Chantry Applications</em> are dropped.  Treat Sunsigns
+          as direct modifiers from the <em>Convocational
+          Sunsign Modifiers</em> for magic invocations.  Magic does
+          not work along spell lines (q.v.).  Each military occupation
+          is treated as a separate occupation as well.
+        </p>
+        <h4>Page 9, 11-12</h4>
         <p>
           Table results from these page are used purely in their
           descriptive sense.  Whether they retroractively have any
@@ -47,7 +82,7 @@
           For a single deity the value can be chosen or generated as
           suggested.  All others are 0 initially.
         </p>
-        <h4 id="piety">Piety</h4>
+        <h3 id="piety">Piety</h3>
         <ul class="explain">
           <li>
             <b>Level 0:</b> NN knows that the reigion exist but cannot
@@ -85,74 +120,78 @@
             the like.
           </li>
         </ul>
-        <h3 id="char-4">Page 15</h3>
-        <p>
-          The occupations of the table on this page serve as skills
-          and the listed "old" skills serve only as descriptive
-          values.
-        </p>
-        <h3 id="char-5">Page 16, 19</h3>
-        <p>
-          <em>Automatic</em> skills are determined accoridng to the
-          appropriate skill section (q.v.) and <em>Occupation</em>
-          skills work as transformed for the previous page.  They open
-          as 20 for the chosen occupation.  <em>Family</em> skills for
-          parents in the same occupation add 2 points, while for a
-          different occupation they add 5.  (This is effectively
-          <em>Row-5-addition</em> of a 0 skill level.)
-          <em>Optional</em> skills are as they exist, but new skills
-          may be "invented"; the scope is at GM discretion.  Any
-          reasoonable skill can be improved by 5 for each option point
-          (OP) through <em>Row-5-addition</em>; this includes OPs
-          gained for Veterans.  Militia skills are explained elsewhere
-          as are psionics.
-        </p>
-        <h3 id="char-6">Page 20-22</h3>
-        <p>
-          Rules on these page are completely dropped currently.
-          Generation of values can be used as suggested.
-        </p>
-        <h3 id="char-6">Page 23-27</h3>
-        <p>
-          Each clerical occupation is treated as a separate
-          occupation, with the "old" skills being used in a
-          descriptive sense.  The same is true for the Shek-Pvar.
-          <em>Chantry Applications</em> are dropped.  Treat Sunsigns
-          as attributes of the same level from the <em>Convocational
-          Sunsign Modifiers</em> for magic invocations.  Magic does
-          not work along spell lines (q.v.).  Each military occupation
-          is treated as a separate occupation as well.
-        </p>
       </div>
       <div class="container">
         <h1 id="skills">Skills</h1>
+        <h4>Page 1-2, 5</h4>
         <p>
-          Available skills are according to the occupations listed
-          above, determined by Harnworld professions.  More skills may
-          be created according to players' or GM's wishes.  A
-          selection of often used skills that do not easily relate to
-          occupations is given below
+          These pages are ignored.
+        </p>
+        <h4>Page 3-4</h4>
+        <p>
+          Sunsigns affect certain applications of skills.  Since the "old"
+          skills still remain in their descriptive sense, a player
+          should announce, when he feels like his sunsign would apply
+          to a situation.  Sunsigns are direct modifiers.
         </p>
         <p>
-          Situations which require rolls are announced by the GM with
-          a general description of what needs to be resolved.  Players
-          will then argue, which skills could be applicable and the GM
-          will give a corresponding percentage of how much they apply.
+          Available skills are according to the occupations listed,
+          determined by Harnworld professions.  More skills may
+          be created according to players' or GM's wishes. 
+          Certain applications of skills are provided below with result
+          tables to allow comparisons.
+        </p>
+        <h4>Page 6</h4>
+        <p>
+          All penalties described are available and will be used
+          where they makes sense individually. They are applied to
+          a skill level or attribute level as direct modifier an
+          they are neither restricted to certain tests nor do they
+          automatically apply to others.  The <em>encumbrance
+          penalty</em> is calculated from the derived attribute of
+          the same name, see the tables.
         </p>
         <p>
-          For example, an assessemnt of the correct political relation
-          between to rival noble families may be Herald/75% and
-          Knight/50%, and Mercantyler/25%.
+          Fatigue is recovered at a rate of 1 level per minute.
+        </p>
+        <h4>Page 7</h4>
+        <p>
+          Learning is modelled by an active roll with level 0 against
+          a passive level of the current skill. Note that rolling 10
+          non-stop events can be shortened into rolling a 1 with a d10.
+          Learning is applicable to attributes but the active roll is
+          level -15.
         </p>
         <p>
-          Now roll for all applicable skills you have a value in.
-          (Remember that a base 0 always applies.)  In the example
-          above, the mercantyler has a 1 in 4 chance of using his
-          mercantyler skill, say 12, and a 3 in 4 chance of using his
-          knight skill 0.  All skills which were succeessfully rolled
-          for are added up through row 3 from the main rules additions
-          table (repeated here).  The end result is the skill to roll
-          against.
+          Such rolls may be made once a month in which the skill was
+          used reasonably often. Usually only three such rolls apply.
+          A teacher can also be combined with his own skill reduced by
+          10 through <em>Row-5-addition</em>. This assumes that the
+          teacher is available almost always during that time.
+        </p>
+        <p>
+          Example: Suppose your skill is at 5 and your teacher has a
+          skill of 12. According to the rules, we should first take the
+          highest of the two parameters to be combined into a single
+          skill roll, that is 0 and 2 (12 - 10).  Remember your active
+          level is 0 in this situation.  Taking the difference of, we
+          have a column index of 2 into the combination table and we
+          read in the fifth row a 5, which will be added to 2 (the
+          higher of the two numbers) to yield a 7. That is the active
+          skill level to roll against your current skill level (5) to 
+          improve.  We are pitting a 7 against a 5 with roughly a 70%
+          chance of success and upon success the skill level is increased
+          to 6.
+        </p>
+        <h4>Page 8-24</h4>
+        <p>
+          These pages are considered descriptive only.  <em>Mental 
+          Conflict</em> resolution follows the Combat rules, with defenses 
+          set to zero, modified by magic items, rituals, etc..
+        </p>
+        <h3 id="skill-1">Row-additions</h3>
+        <p>
+          Row-3-addition "reversed" table for finding the suitable result.
         </p>
         <table>
           <tr>
@@ -162,38 +201,1129 @@
             <th>Addition</th><td>3</td><td>2</td><td>1</td><td>0</td>
           </tr>
         </table>
-        <h3 id="skill-1">Pages 1-2, 5</h3>
         <p>
-          These pages are ignored.
+          Row-5-addition "reversed" table for finding the suitable result.
         </p>
-        <h3 id="skill-2">Pages 3-4</h3>
+        <table>
+          <tr>
+            <th>Skill Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td><td>11-19</td><td>20+</td>
+          </tr>
+          <tr>
+            <th>Addition</th><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0</td>
+          </tr>
+        </table>
+        <h3 id="skill-3">Applications</h3>
         <p>
-          The following skills can be used in addition to the
-          occupation skills.  They are considered standard.  Sunsigns
-          affect certain applications of skills.  Since the "old"
-          skills still remain in their descriptive sense, a player
-          should announce, when he feels like his sunsign would apply
-          to a situation.  Sunsigns are attributes
+          Situations which require rolls are announced by the GM with
+          a general description of what needs to be resolved.  Players
+          will then argue, which skills could be applicable and the GM
+          will give a corresponding percentage of how much they apply.
+        </p>
+        <p>
+          For example, an assessment of the correct political relation
+          between two rival noble families may be Herald/75% and
+          Knight/50%, and Mercantyler/25%.
+        </p>
+        <p>
+          Now roll for all applicable skills you have a value in.
+          (Remember that a base 0 always applies.)  In the example
+          above, the mercantyler has a 1 in 4 chance of using his
+          mercantyler skill, say 12, and a 3 in 4 chance of using his
+          knight skill 0.  All skills which were succeessfully rolled
+          for are added up through <em>Row-3-addition</em> from the
+          main rules .  The end result is the skill to roll
+          against.
+        </p>
+        <table class="bsp">
+          <tr>
+            <th></th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <th>Acting</th><td>Play self</td><td>Play archetype</td><td>Play individual</td><td>Play original</td>
+          </tr>
+          <tr>
+            <th>Acrobatics</th><td>No tricks</td><td>Simple tricks</td><td>Complex tricks</td><td>Original tricks</td>
+          </tr>
+          <tr>
+            <th>Agriculture (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
+          </tr>
+          <tr>
+            <th>Agriculture (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
+            <th>Alchemy</th><td>1 compound</td><td>3 compounds</td><td>10 compounds</td><td>30 compounds</td>
+          </tr>
+          <tr>
+            <th>Animalcraft (Tricks)</th><td>1 trick</td><td>3 tricks</td><td>10 tricks</td><td>30 tricks</td>
+          </tr>
+          <tr>
+            <th>Animalcraft (Species)</th><td>INT -6</td><td>INT -9</td><td>INT -12</td><td>INT -15</td>
+          </tr>
+          <tr>
+            <th>Appraisal Error</th><td>100% (0 - &#8734;)</td><td>60% (0.4 - 2.5)</td><td>20% (0.8 - 1.25)</td><td>6% (0.94 - 106)</td>
+          </tr>
+          <tr>
+            <th>Astrology (Accuracy)</th><td>1 in 10 correct</td><td>1 in 6 correct</td><td>1 in 3 correct</td><td>Always correct</td>
+          </tr>
+          <tr>
+            <th>Astrology (Proximity)</th><td>360 days</td><td>60 days</td><td>10 days</td><td>2 days</td>
+          </tr>
+          <tr>
+            <th>Brewing</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Ceramics (Variety)</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Climbing (Incline)</th><td>30°</td><td>60°</td><td>90°</td><td>120°</td>
+          </tr>
+          <tr>
+            <th>Climbing (Speed)</th><td>1/4 m/s</td><td>1/2 m/s</td><td>1 m/s</td><td>2 m/s</td>
+          </tr>
+          <tr>
+            <th>Cookery</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Dancing</th><td>Rhythmic Move</td><td>Simple, folk dance</td><td>Complex, ritual dance</td><td>Original dance</td>
+          </tr>
+          <tr>
+            <th>Diving</th><td>Dive 5s</td><td>Dive 15s</td><td>Dive 30s</td><td>Dive 60s</td>
+          </tr>
+          <tr>
+            <th>Drawing</th><td>Simple strokes</td><td>Draw/Paint</td><td>Different Styles</td><td>Forgery possible</td>
+          </tr>
+          <tr>
+            <th>Embalming</th><td>1x decay speed</td><td>1/3x decay speed</td><td>1/10x decay speed</td><td>1/60x decay speed</td>
+          </tr>
+          <tr>
+            <th>Engineering (Variety)</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Enhancement</th><td>1/10</td><td>1</td><td>2</td><td>3</td>
+          </tr>
+          <tr>
+            <th>Fishing (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
+          </tr>
+          <tr>
+            <th>Fishing (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
+            <th>Fletching</th><td>10% yield</td><td>30% yield</td><td>60% yield</td><td>100% yield</td>
+          </tr>
+          <tr>
+            <th>Folklore (Depth)</th><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
+          </tr>
+          <tr>
+            <th>Folklore (Breadth)</th><td>10% known</td><td>30% known</td><td>60% known</td><td>100% known</td>
+          </tr>
+          <tr>
+            <th>Foraging (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
+          </tr>
+          <tr>
+            <th>Foraging (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
+            <th>Heraldry (Produce)</th><td>1 active</td><td>3 active</td><td>10 active</td><td>30 active</td>
+          </tr>
+          <tr>
+            <th>Heraldry (Recognize)</th><td>10% passive</td><td>30% passive</td><td>60% passive</td><td>100% passive</td>
+          </tr>
+          <tr>
+            <th>Herblore (Search)</th><td>1 active</td><td>3 active</td><td>10 active</td><td>30 active</td>
+          </tr>
+          <tr>
+            <th>Herblore (Recognize)</th><td>10% passive</td><td>30% passive</td><td>60% passive</td><td>100% passive</td>
+          </tr>
+          <tr>
+            <th>Hidework</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Jewelcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Jumping (Up)</th><td>0,5 m</td><td>1 m</td><td>1.5 m</td><td>2 m</td>
+          </tr>
+          <tr>
+            <th>Jumping (Distance)</th><td>8 m</td><td>2 m</td><td>4 m</td><td>6 m</td>
+          </tr>
+          <tr>
+            <th>Law (Depth)</th><td>Ignore</td><td>Notice</td><td>Consideration</td><td>Involvement</td>
+          </tr>
+          <tr>
+            <th>Law (Breadth)</th><td>Local</td><td>Feudal</td><td>Guild</td><td>Religion</td>
+          </tr>
+          <tr>
+            <th>Lovecraft</th><td>Instinctive</td><td>Experienced</td><td>Professional</td><td>Elite/exotic</td>
+          </tr>
+          <tr>
+            <th>Masonry</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Mathematics</th><td>Single digits</td><td>Multiple digits</td><td>Abstractions</td><td>Unique Insights</td>
+          </tr>
+          <tr>
+            <th>Metalcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Milling (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>100% yield</td><td>150% yield</td>
+          </tr>
+          <tr>
+            <th>Milling (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
+            <th>Musician</th><td>Simple, children songs</td><td>General, ritual songs</td><td>Artistic songs</td><td>Unique songs</td>
+          </tr>
+          <tr>
+            <th>Perfumery</th><td>1 compound</td><td>3 compounds</td><td>10 compounds</td><td>30 compounds</td>
+          </tr>
+          <tr>
+            <th>Physician</th><td>HR-0</td><td>HR-1</td><td>HR-2</td><td>HR-3</td>
+          </tr>
+          <tr>
+            <th>Piloting</th><td>10% yield</td><td>30% yield</td><td>60% yield</td><td>100% yield</td>
+          </tr>
+          <tr>
+            <th><em>Quality</em></th><td>0</td><td>1</td><td>3</td><td>5</td>
+          </tr>
+          <tr>
+            <th>Riding (Variety)</th><td>Walk</td><td>Trot</td><td>Gallop</td><td>Jump</td>
+          </tr>
+          <tr>
+            <th>Ritual</th><td>1 second</td><td>1 minute</td><td>1 hour</td><td>5 days</td>
+          </tr>
+          <tr>
+            <th>Runecraft (Accuracy)</th><td>1 in 10 correct</td><td>1 in 6 correct</td><td>1 in 3 correct</td><td>Always correct</td>
+          </tr>
+          <tr>
+            <th>Runecraft (Proximity)</th><td>360 days</td><td>60 days</td><td>10 days</td><td>2 days</td>
+          </tr>
+          <tr>
+            <th>Seamanship</th><td>Coracle</td><td>Dingy</td><td>Two-Master</td><td>Any ship</td>
+          </tr>
+          <tr>
+            <th>Shipwright</th><td>Coracle</td><td>Dingy</td><td>Two-Master</td><td>Any ship</td>
+          </tr>
+          <tr>
+            <th>Singing</th><td>Simple, child's songs</td><td>General, ritual songs</td><td>Artistic songs</td><td>Unique songs</td>
+          </tr>
+          <tr>
+            <th>Speech</th><td>People perceive you</td><td>People listen to you</td><td>People consider you</td><td>People cannot deny you</td>
+          </tr>
+          <tr>
+            <th>Skiing</th><td>0.5 m/s</td><td>1.5 m/s</td><td>2 m/s</td><td>3 m/s</td>
+          </tr>
+          <tr>
+            <th>Survival</th><td>Local conditions</td><td>Familiar conditions</td><td>Related conditions</td><td>Any conditions</td>
+          </tr>
+          <tr>
+            <th>Swimming (Speed)</th><td>0.1 m/s</td><td>0.6 m/s</td><td>1 m/s</td><td>1.5 m/s</td>
+          </tr>
+          <tr>
+            <th>Swimming (Weather)</th><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
+          </tr>
+          <tr>
+            <th>Stars</th><td>0</td><td>&#9733;</td><td>&#9733; &#9733; &#9733;</td><td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+          </tr>
+          <tr>
+            <th>Tarotry (Accuracy)</th><td>1 in 10 correct</td><td>1 in 6 correct</td><td>1 in 3 correct</td><td>Always correct</td>
+          </tr>
+          <tr>
+            <th>Tarotry (Proximity)</th><td>360 days</td><td>60 days</td><td>10 days</td><td>2 days</td>
+          </tr>
+          <tr>
+            <th>Textilcraft</th><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td><td>30 recipes</td>
+          </tr>
+          <tr>
+            <th>Throwing (Distance)</th><td>10 m</td><td>30 m</td><td>60m</td><td>100 m</td>
+          </tr>
+          <tr>
+            <th>Timbercraft (Efficiency)</th><td>10% yield</td><td>30% yield</td><td>60% yield</td><td>100% yield</td>
+          </tr>
+          <tr>
+            <th>Timbercraft (Variety)</th><td>1 kind</td><td>3 kind</td><td>6 kind</td><td>12 kind</td>
+          </tr>
+          <tr>
+            <th>Tracking</th><td>Local conditions</td><td>Familiar conditions</td><td>Related conditions</td><td>Any conditions</td>
+          </tr>
+          <tr>
+            <th>Weaponcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+          <tr>
+            <th>Weatherlore (Accuracy)</th><td>20% accurate</td><td>30% accurate</td><td>60%</td><td>100%</td>
+          </tr>
+          <tr>
+            <th>Weatherlore (Proximity)</th><td>4 hrs</td><td>8 hrs</td><td>24 hrs</td><td>1 week</td>
+          </tr>
+          <tr>
+            <th>Woodcraft</th><td>0 recipes</td><td>1 recipe</td><td>3 recipes</td><td>10 recipes</td>
+          </tr>
+        </table>
+        <h3 id="skill-4">Attributes</h3>
+        <h4>Stamina</h4>
+        <table class="bsp">
+          <tr>
+            <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
+            <td>-10</td><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Time</th><td>3.0</td><td>2.9</td><td>2.8</td><td>2.7</td><td>2.6</td><td>2.5</td><td>2.4</td><td>2.3</td><td>2.2</td><td>2.1</td>
+            <td>2.0</td><td>1.9</td><td>1.8</td><td>1.7</td><td>1.6</td><td>1.5</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td><td>1.0</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Time (days)</th><td>1.0</td><td>0.95</td><td>0.9</td><td>0.85</td><td>0.8</td><td>0.75</td><td>0.7</td><td>0.65</td><td>0.6</td><td>0.55</td>
+            <td>0.5</td><td>0.48</td><td>0.46</td><td>0.44</td><td>0.42</td><td>0.4</td><td>0.38</td><td>0.36</td><td>0.34</td><td>0.32</td><td>0.3</td>
+          </tr>
+        </table>
+        <p>
+          Average Healing time for 1 injury point is 10 days. Factor the above to get the actual healing rate.
+        </p>
+        <h4>Agility</h4>
+        <table class="bsp">
+          <tr>
+            <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
+            <td>-10</td><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Sprint (m/s)</th><td>2.0</td><td>2.1</td><td>2.2</td><td>2.3</td><td>2.4</td><td>2.5</td><td>2.6</td><td>2.7</td><td>2.8</td><td>2.9</td>
+            <td>3.0</td><td>3.1</td><td>3.2</td><td>3.3</td><td>3.4</td><td>3.5</td><td>3.6</td><td>3.7</td><td>3.8</td><td>3.9</td><td>4.0</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Sprint (m/s)</th><td>4.0</td><td>4.2</td><td>4.4</td><td>4.6</td><td>4.8</td><td>5.0</td><td>5.2</td><td>5.4</td><td>5.6</td><td>5.8</td>
+            <td>6.0</td><td>6.3</td><td>6.6</td><td>6.9</td><td>7.2</td><td>7.5</td><td>7.8</td><td>8.1</td><td>8.4</td><td>8.7</td><td>9.0</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>
+            <td>30</td><td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+          </tr>
+          <tr>
+            <th>Sprint (m/s)</th><td>9.0</td><td>9.4</td><td>9.8</td><td>10.2</td><td>10.6</td><td>11.0</td><td>11.4</td><td>11.8</td><td>12.2</td><td>12.6</td>
+            <td>13.0</td><td>13.5</td><td>14.0</td><td>14.5</td><td>15.0</td><td>15.5</td><td>16.0</td><td>16.5</td><td>17.0</td><td>17.5</td><td>18.0</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>40</td><td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td><td>49</td>
+            <td>50</td><td>51</td><td>52</td><td>53</td><td>54</td><td>55</td><td>56</td><td>57</td><td>58</td><td>59</td><td>60</td>
+          </tr>
+          <tr>
+            <th>Sprint (m/s)</th><td>18.0</td><td>18.6</td><td>19.2</td><td>19.8</td><td>20.4</td><td>21.0</td><td>21.6</td><td>22.2</td><td>22.8</td><td>23.4</td>
+            <td>24.0</td><td>24.8</td><td>25.6</td><td>26.4</td><td>27.2</td><td>28.0</td><td>28.8</td><td>29.6</td><td>30.4</td><td>31.2</td><td>32.0</td>
+          </tr>
+        </table>
+        <p>
+          Humans can accelerate and decelerate as 3 m/s each second.
+          Turning options are in parts of a full circle (centered around
+          the direction of travel).  E.g. at 3 m/s this means 60&#176;
+          off the direction of travel on either side per second.  For the
+          sake of playability variance in this should be suppressed,
+          although a 20% spread (for a 10 level difference) with Agility
+          modification could be appropriate.
+        </p>
+        <p>
+          Horses accelerate and decelerate at 6 m/s each second but have
+          the same turning options.
+        </p>
+        <p>
+          Fatigue is acrued at the 10 points per minute (or 1 per second)
+          for the generated maximum sprint speed. Fractions (which cannot
+          exceed 1) of that speed generate the corresponding fractional
+          fatigue rate. E.g. running at half the maximum speed gives 5 points
+          per minute (or 1 per 12 seconds).  Only simple fractions are allowed.
+        </p>
+        <h4>Strength</h4>
+        <table class="bsp">
+          <tr>
+            <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
+            <td>-10</td><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Lift (kg)</th><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+            <td>20</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>32</td><td>34</td><td>36</td><td>38</td><td>40</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Lift (kg)</th><td>40</td><td>43</td><td>46</td><td>49</td><td>52</td><td>55</td><td>58</td><td>61</td><td>64</td><td>67</td>
+            <td>70</td><td>74</td><td>78</td><td>82</td><td>86</td><td>90</td><td>94</td><td>98</td><td>102</td><td>106</td><td>110</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>
+            <td>30</td><td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+          </tr>
+          <tr>
+            <th>Lift (kg)</th><td>110</td><td>115</td><td>120</td><td>125</td><td>130</td><td>135</td><td>140</td><td>145</td><td>150</td><td>155</td>
+            <td>160</td><td>166</td><td>172</td><td>178</td><td>184</td><td>190</td><td>196</td><td>202</td><td>208</td><td>214</td><td>220</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>40</td><td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td><td>49</td>
+            <td>50</td><td>51</td><td>52</td><td>53</td><td>54</td><td>55</td><td>56</td><td>57</td><td>58</td><td>59</td><td>60</td>
+          </tr>
+          <tr>
+            <th>Lift (kg)</th><td>220</td><td>228</td><td>236</td><td>244</td><td>252</td><td>260</td><td>268</td><td>276</td><td>284</td><td>292</td>
+            <td>300</td><td>310</td><td>320</td><td>330</td><td>340</td><td>350</td><td>360</td><td>370</td><td>380</td><td>390</td><td>400</td>
+          </tr>
+        </table>
+        <p>
+          The listed weight can be lifted without dedicated tools.  At that point
+          any activity is at -10.  This scales linearly down or up.  That means that
+          any fraction of the weight carried also incurs the same fraction of
+          -10 as penalty. Any multiple carried also gives the corresponding multiple
+          as penalty.  Note that with certain penalties usually trivial activities
+          (i.e. no roll required) become difficult, for instance not stumbling. 
+        </p>
+        <p>
+          Still without tools, activity with both hands is impossible. Freeing one 
+          hand incurs twice the penalty and assumes that the weight is liftable that
+          way.
+        </p>
+        <p>
+          Fatigue is acrued at the 10 points per minute (or 1 per second)
+          for the generated maximum lift. Fractions (which cannot exceed 1) of
+          that lift generate the corresponding fractional
+          fatigue rate. E.g. lifting half the maximum weight gives 5 points
+          per minute (or 1 per 12 seconds).  Only simple fractions are allowed.
+        </p>
+        <h4>Hearing</h4>
+        <table class="bsp">
+          <tr>
+            <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
+            <td>-10</td><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Distance (m)</th><td>0.60</td><td>0.67</td><td>0.75</td><td>0.84</td><td>0.94</td><td>1.06</td><td>1.20</td><td>1.34</td><td>1.5</td><td>1.68</td>
+            <td>1.89</td><td>2.12</td><td>2.38</td><td>2.67</td><td>3.00</td><td>3.67</td><td>3.78</td><td>4.24</td><td>4.76</td><td>5.35</td><td>6.00</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Distance (m)</th><td>6.0</td><td>6.7</td><td>7.6</td><td>8.5</td><td>9.5</td><td>10.7</td><td>12.0</td><td>13.5</td><td>15.1</td><td>17.0</td>
+            <td>19.0</td><td>21.4</td><td>24</td><td>26.9</td><td>30.2</td><td>33.9</td><td>38.1</td><td>42.8</td><td>48.0</td><td>53.9</td><td>60.5</td>
+          </tr>
+        </table>
+        <p>
+          The description is based on the <em>expected</em> outcome,
+          i.e. simply read the result rolled as index row in the table.
         </p>
         <ul class="explain">
           <li>
-            <b>Climbing</b>
+            <b>Level -20:</b> Rural Silence / Distance &#215; 1/10
           </li>
           <li>
-            <b>Stealth</b>
+            <b>Level -10:</b> Whisper / Distance &#215; 1/3
           </li>
           <li>
-            <b>Intuition:</b> This skill combines the "old" Awareness
-            and Intrigue skills and means the ability to infer more
-            than the senses obviously provide.  This includes
-            interpreting the twitching when someone lies as well as a
-            piece of wood out of place.
+            <b>Level 0:</b> Low speech / Distance &#215; 1
+          </li>
+          <li>
+            <b>Level 20:</b> Normal Speech / Distance &#215; 3
+          </li>
+          <li>
+            <b>Level 40:</b> Carts, Wagons, Combat / Distance &#215; 10
+          </li>
+          <li>
+            <b>Level 60:</b> Smith, Stonequarry, Skirmish / Distance &#215; 30
+          </li>
+          <li>
+            <b>Level 80:</b> Thunder / Distance &#215; 100
+          </li>
+        </ul>
+        <h4>Eyesight</h4>
+        <table class="bsp">
+          <tr>
+            <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
+            <td>-10</td><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Resolution (mm/m = m/km)</th><td>8.0</td><td>7.6</td><td>7.2</td><td>6.8</td><td>6.4</td><td>6.0</td><td>5.6</td><td>5.2</td><td>4.8</td><td>4.4</td>
+            <td>4.0</td><td>3.8</td><td>3.6</td><td>3.4</td><td>3.2</td><td>3.0</td><td>2.8</td><td>2.6</td><td>2.4</td><td>2.2</td><td>2.0</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Resolution (mm/m = m/km)</th><td>2.0</td><td>1.9</td><td>1.8</td><td>1.7</td><td>1.6</td><td>1.5</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td>
+            <td>1.0</td><td>1.0</td><td>0.9</td><td>0.9</td><td>0.8</td><td>0.8</td><td>0.7</td><td>0.7</td><td>0.6</td><td>0.6</td><td>0.5</td>
+          </tr>
+        </table>
+        <p>
+          Typical modifications are made for <em>contrast (+), movement (+),
+          distraction (-), border of visual field (-)</em>
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="combat">Combat</h1>
+        <h4>Page 1, 6-9, 14, 17-19, 26</h4>
+        <p>
+          These pages are ignored. Some paragraphs may be taken for their descriptive value only.
+          Combat fatigue is 1 point per minute. 
+        </p>
+        <h4>Page 2-5, 10-13, 15-16</h4>
+        <p>
+          <em>Endurance</em> equals <em>Stamina</em>.  <em>Move</em> is a
+          velocity as given above.  <em>Dodge</em> is added to <em>Defense</em>
+          through <em>Row-5-Addition</em>. On the <em>Weapon Data</em> the Skill
+          and OML are ignored. A/D and HM are divided by 5.  Custom weapon
+          are descriptive only. Every weapon additionally has a reach/length.
+        </p>
+        <p>
+          Charging is an attack that must end when the corresponding movement stops.
+          Read the move/speed table in reverse to get the damage bonus. Note that
+          the time of attack is fixed and assumed as 10s; the skill is calculated
+          in reverse as well, i.e. -20.
+        </p>
+        <p>
+          Armour is used as is, except the <em>Protection and Encumbrance</em> 
+          part, wich is only descriptive. The bonus to an attack is a bonus of
+          attacker's choice between all the relevant B/E/P values of his weapon.
+          After the goal is reached, the corresponding defender B/E/P is deducted
+          from the wound level.
+        </p>
+        <p>
+          Defense is calculated as <em>Row-5-addition</em> of <em>Dodge</em> and
+          <em>Block</em>.  Both are voluntary and may be subject to individual
+          reductions. Missiles are dodged at half value.
+        </p>
+        <p>
+          Missile range is interpreted as follows: at range 0, no penalties
+          applies, at half short range -10 applies. At medium, short, extreme
+          range listed the penalties -20, -40, -80 apply. Between those fixed values,
+          apply linear interpolation.
+        </p>
+        <h4>Page 4, 25</h4>
+        <p>
+          These pages are taken as is.
+        </p>
+        <h4>Page 20-24</h4>
+        <p>
+          Mounted combat considers rider and mount to be one unit that have
+          added their skills in the usual manner. The steed provides unarmed
+          combat prowress. Unhorsing is dealt with as collateral damage to the
+          rider/horse combination, which has a defense rating of the rider's
+          skill.
+        </p>
+        <h3 id="com-1">Procedure</h3>
+        <p>
+          The following table is rolled for each combatant, adding any
+          bonuses and subtracting any penalties.  The time is the number
+          of seconds, which it takes to achieve the set <em>wound level</em>
+          zero.  The <em>wound level</em> can be set higher, but then this
+          number is subtracted. Estimated time and level can be played out
+          against each other.  The intended <em>wound level</em> must be
+          declared before the roll and in multiples of 5.  Once a (rolled)
+          progression has reached its goal, a new skill roll is necessary.
+        </p>
+        <p>
+          Any effects from wounds or other external influences in combat are
+          applied immediately to pending progressions.  At the actors choice
+          it can offset the goal or the time.  To prevent players from immediately
+          aborting "bad" rolls, mandatory secret rolls by the GM can be used.
+        </p>
+        <p>
+          If so desired, the intended wound level can be randomized in the usual
+          way.  This can not be modified except through <em>control</em>.
+          Alternatively, if time is fixed, a best effort attack can be made. For
+          instance, if an opponent was downed and will get up within a few seconds
+          and the bonus shall be used for better or worse.  In that case always
+          spread the actual wound level around the least favorable time for the
+          attacker.
+        </p>
+        <table class="bsp">
+          <tr>
+            <th>Level</th><td>-20</td><td>-19</td><td>-18</td><td>-17</td><td>-16</td><td>-15</td><td>-14</td><td>-13</td><td>-12</td><td>-11</td>
+            <td>-10</td><td>-9</td><td>-8</td><td>-7</td><td>-6</td><td>-5</td><td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr>
+            <th>Time(s)</th><td>120</td><td>114</td><td>108</td><td>102</td><td>96</td><td>90</td><td>84</td><td>78</td><td>72</td><td>66</td>
+            <td>60</td><td>57</td><td>54</td><td>51</td><td>48</td><td>45</td><td>42</td><td>39</td><td>36</td><td>33</td><td>30</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+            <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+          </tr>
+          <tr>
+            <th>Time(s)</th><td>30</td><td>28</td><td>26</td><td>24</td><td>22</td><td>20</td><td>19</td><td>18</td><td>17</td><td>16</td><td>15</td>
+            <td>15</td><td>14</td><td>14</td><td>13</td><td>13</td><td>12</td><td>12</td><td>11</td><td>11</td><td>10</td>
+          </tr>
+          <tr><th colspan="22"></th></tr>
+          <tr><th colspan="22"></th></tr>
+          <tr>
+            <th>Level</th><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+            <td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
+          </tr>
+          <tr>
+            <th>Time(s)</th><td>10</td><td>10</td><td>9</td><td>9</td><td>8</td><td>8</td><td>7</td><td>7</td><td>7</td><td>6</td><td>6</td>
+            <td>6</td><td>6</td><td>5</td><td>5</td><td>5</td><td>5</td><td>5</td><td>4</td><td>4</td><td>4</td>
+          </tr>
+        </table>
+        <h3 id="com-2">Hit Location</h3>
+        <p>
+          Hit location is determined when the goal is reached.
+          Before the goal is reached, a penalty of -1 can be taken
+          to reduce the possible hit locations by one <em>Main</em>
+          area. This penalty can be taken multiple times but the
+          remaining main hit locations must be (bodily)
+          connected. If all but one main location has been eliminated,
+          individual percentage points may be reduced for a
+          <em>Detail</em> area. This penalty can again be taken
+          multiple times but the remaining detail hit locations 
+          must be (bodily) connected.
+        </p>
+        <table>
+          <tr>
+            <th colspan="2">Main Hit Location</th><th colspan="2">Detail Hit Location</th>
+            <th colspan="2">Main Hit Location</th><th colspan="2">Detail Hit Location</th>
+          </tr>
+          <tr>
+            <td rowspan="3">01-10</td><td rowspan="3">Left Head</td><td>01-02</td><td>Left Skull</td>
+            <td rowspan="3">51-60</td><td rowspan="3">Right Head</td><td>51-52</td><td>Right Skull</td>
+          </tr>
+          <tr>
+            <td>03-04</td><td>Left Face</td>
+            <td>53-54</td><td>Right Face</td>
+          </tr>
+          <tr>
+            <td>05-10</td><td>Left Shoulder</td>
+            <td>55-60</td><td>Left Shoulder</td>
+          </tr>
+          <tr>
+            <td rowspan="4">11-20</td><td rowspan="4">Left Arm</td><td>11-13</td><td>Left Upper Arm</td>
+            <td rowspan="4">60-70</td><td rowspan="4">Right Arm</td><td>61-63</td><td>Right Upper Arm</td> 
+          </tr>
+          <tr>
+            <td>14-15</td><td>Left Elbow</td>
+            <td>64-65</td><td>Right Elbow</td>
+          </tr>
+          <tr>
+            <td>16-18</td><td>Left Forearm</td>
+            <td>66-68</td><td>Right Forearm</td>
+          </tr>
+          <tr>
+            <td>19-20</td><td>Left Hand</td>
+            <td>69-70</td><td>Right Hand</td>
+          </tr>
+          <tr>
+            <td>21-30</td><td>Left Thorax</td><td>21-30</td><td>Left Thorax</td>
+            <td>71-80</td><td>Right Thorax</td><td>71-80</td><td>Right Thorax</td>
+          </tr>
+          <tr>
+            <td rowspan="3">31-40</td><td rowspan="3">Left Lower Body</td><td>31-35</td><td>Left Abdomen</td>
+            <td rowspan="3">81-90</td><td rowspan="3">Right Lower Body</td><td>81-85</td><td>Right Abdomen</td>
+          </tr>
+          <tr>
+            <td>36-38</td><td>Left Hip</td>
+            <td>86-88</td><td>Right Hip</td>
+          </tr>
+          <tr>
+            <td>39-40</td><td>Left Groin</td>
+            <td>89-90</td><td>Right Groin</td>
+          </tr>
+          <tr>
+            <td rowspan="4">41-50</td><td rowspan="4">Left Leg</td><td>41-44</td><td>Left Thigh</td>
+            <td rowspan="4">91-100</td><td rowspan="4">Right Leg</td><td>91-94</td><td>Right Thigh</td>
+          </tr>
+          <tr>
+            <td>45</td><td>Left Knee</td>
+            <td>95</td><td>Right Knee</td>
+          </tr>
+          <tr>
+            <td>46-48</td><td>Left Calf</td>
+            <td>96-98</td><td>Right Calf</td>
+          </tr>
+          <tr>
+            <td>49-50</td><td>Left Foot</td>
+            <td>99-100</td><td>Right Foot</td>
+          </tr>
+        </table>
+        <h3 id="com-3">Effects</h3>
+        <p>
+          Individual wounds are tracked numerically and with their
+          location. Effects on the use of the corresponding part
+          are described below. Minor effects are at 10 less than
+          the original wound level and serious effects at 5 less.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>1-5:</b> Minor.
+          </li>
+          <li>
+            <b>6-10:</b> Serious, serious use effect on neighbouring
+            detailed body parts.
+          </li>
+          <li>
+            <b>11-15:</b> Grievous, the detailed body part cannot
+            be used, serious use effects on neighbouring detailed
+            body parts, and minor on main parts.
+          </li>
+          <li>
+            <b>16-20:</b> Incapacitating, the main body part cannot
+            be used, minor use effects on neighbouring main body parts.
+            (For head this means unconsciousness and for thorax imminent
+            death.)
+          </li>
+          <li>
+            <b>21+:</b>Destroyed, the main body part lost its integrity, 
+            serious use effects on neighbouring main body parts. (For limbs
+            this means at least severed. Thorax is split open or spinal 
+            cord severed. For all but the extremities this means instant death.
+            For all other body parts, death is probably imminent due to the
+            side effects.)
           </li>
         </ul>
         <p>
-          Certain applications of skills are provided with result
-          tables to allow comparisons.
+          A wound level 5 points above Dexterity on
+          an arm causes any object held to be dropped (<em>Fumble</em>).  
+          A wound level 5 points above Agility on a leg causes the victim
+          to fall down (<em>Stumble</em>).  Technically, such rolls can 
+          be made once a wound of any level is inflicted, but for
+          playability, sticking with the average is recommended.
         </p>
+        <p>
+          Multiple attackers can combine their efforts through <em>Row-5-addition</em>
+          into one.  This is generally a complex topic, because modifiers
+          need to be accomodated as they enter the game, so this is best
+          reserved for NPCs that perform as single units. Multiple defendants
+          are similarly added; effectively a <em>Row-5-multipication</em>, since the same
+          skill applies repeatedly.
+        </p>
+        <p>
+          Hitting the wrong target can happen in melee and in missile combat.
+          Usually this is ignored, but if this ignorance is taken into account
+          when deciding on action options, such accidents shall be played out.
+          Anybody within the (abstract) range of the weapon is subject to a
+          level -5 attack.  This can be added to the benefit of other attackers
+          as per multiple attacks above or resolved individually with the goal
+          of 0 damage. Since missile attacks are resolved with indiviual shots,
+          such an attack is applied only if the intended attack had no impact.
+          (Note the different effect from collateral damage that is actually desired.)
+        </p>
+        <p>
+          Weapon and armour damage is treated as collateral damage in the above 
+          sense and usually ignored.  If required, WQ and the highest armour protective value
+          is used as defense against such damage.  Human body quality is 0, but
+          recall the armour layering effect; outer layers break first.
+        </p>
+        <p>
+          Certain weapons can be used to entangle, including human arms and legs.
+          Real damage from such attacks is 10 points less than what the actual result
+          says.  The effects of the actual result cause the weapon
+          itself to be disabled. Disentaglement takes a level 0 attack
+          against the actual result by the victim. Others, including the
+          attacker, may help or take advantage of the situation.
+        </p>
+        <p>
+          Unarmed combat is usually not used to inflict much damage, but rather
+          directed at making the opponent stumble, fumble, or unable to use a limb.
+          A prone opponent is then easier to control. Unfortunately, this makes
+          heavy use of the collateral damage and entangle rules and the
+          stumble/fumble rules.
+        </p>
+        <p>
+          With a total of 16+ injury points, a human passes out and is 
+          incapacitated. This value can be randomized evyr time a wound
+          is taken and is modified by Stamina through <em>Row-5-addition</em>.
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="phys">Physician</h1>
+        <h4>Page 1</h4>
+        <p>
+          These pages are taken as is.
+        </p>
+        <h4>Page 2-4</h4>
+        <p>
+          These pages are ignored or taken as descriptive material.
+        </p>
+        <h3 id="phys-1">Treatments</h3>
+        <p>
+          Any wound needs to heal its injury points. This is calculated
+          via Stamina; certain medicine may improve the healing rate.
+          A physician may make a skill roll to find or create the correct
+          medicine but his skill is not added to the healing resolution
+          directly.
+        </p>
+        <p>
+          A serious wound may become infected (until it turns into a minor
+          wound).  An infection is a daily attack on the wounded area with
+          a level of the wound, defended against with Stamina. Medicine applies
+          in the same way as for minor wounds, but it harder to obtain. A
+          penalty of 5 is suitable. Any injury points gained through the
+          infection is added to the original wound. This may turn the wound
+          into a grievous wound.
+        </p>
+        <p>
+          A grevious wound is a bleeder or otherwise makes the body lose
+          vital fluids.  Bloodloss is treated as a separate injury, and
+          increases at -10 per 10s. E.g., a 12 point injury causes 1 point
+          of bloodloss to accrue every 5 seconds. Note that the circulatory
+          system is incapacitated with 16 points as other body parts are.
+          The circulatory system itself will not turn infectious. Treatment
+          by physicians depend on the location. Some locations are incurable
+          by Harnic physicians. For multiple bleeders only take the maximum
+          in the same extremity, but add those for different extremities.
+        </p>
+        <p>
+          Incapacitating and destroying wounds have no additional effects
+          over the bleeder and infection dangers. (A 22 destroying wound
+          causes more than 1 point per second in bloodloss and only very
+          unlikely circumstances will keep the victim alive for more than
+          15 seconds.)
+        </p>
+        <p>
+          Amputations and immediate cauterizations stop infections.
+        </p>
+        <p>
+          Dieseases and Toxins come in various forms. All of the below
+          characteristics are subject to improvements by a knowledgable
+          physician. Some poisons and ailments may be subject to infections. 
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Deteriotation:</b> This is the speed at which wound points
+            are accrued. This can be modified by dividing by the Stamina healing factor.
+          </li>
+          <li>
+            <b>Maximum Injury:</b> The maximum amount of injury the wound will cause,
+            after the deterioration has set in. Note that healing may prevent the
+            maximum to actually be reached.
+          </li>
+          <li>
+            <b>Heal time</b> This is the speed at which wound points are reduced.
+            Assume this to set in at the same time deterioration sets in.
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1 id="psi">Psionics</h1>
+        <h4>Page 1-8</h4>
+        <p>
+          These pages are used for their descriptive value mostly. The
+          <em>Psionic Talent Sunsign</em> table is used.
+        </p>
+        <h3 id="psi-1">Talents</h3>
+        <p>
+          <em>Psionics</em> use fatigue as fuel for their magic,
+          <em>Religion</em> uses time and the <em>Shek P'var</em>
+          schools of magic use (generalized) matter.
+        </p>
+        <p>
+          A character with at least an Aura of 10, may select or roll
+          Psionic talents with a total skill points of Aura - 10. OP may
+          be spent here. Each Talent is treated as a skill.
+        </p>
+        <p>
+          A psionic talent is never triggered willingly. Certain
+          conditions such as excitement may be intentionally sought
+          but the trigger itself is involuntary. The GM decides when
+          the conditions are right and how long they will last; they
+          can be treated as a mental condition. The player may suggest
+          appropriate conditions.
+        </p>
+        <p>
+          Fatigue is at 1 point per minute equivalent (q.v.).  Joint 
+          triggering is possible. Psionic episodes occur randomly but
+          are more likely, when a talent is used often or for extended
+          periods of time.
+        </p>
+        <p>
+          Trance indicates a -20 to any other skills attempted during
+          that period.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Charm</b> As per the description circumstances, roll
+            attacker's skill plus will vs defender's will and reduce
+            agility accordingly. The effect remains in place until the
+            attacker stops gazing at the victim.
+          </li>
+          <li>
+            <b>Clairvoyance</b> The psychic enters a trance and after
+            the first minute gets a clear image of some oject, person,
+            or location that he is familiar with.  The image may be
+            moving and is of the current state. Assume that senses are
+            at skill level with focus on the object.
+          </li>
+          <li>
+            <b>Disembodiment</b> as per the description. The trance
+            initiation phase lasts 1 minute.
+          </li>
+          <li>
+            <b>Healing</b> As per the description.  <em>Empathy</em>:
+            add skill level to physician skill for diagnosis, etc.
+            <em>Restoration</em>: Transfer fatigue from victim at a
+            "reverse" rate, where skill replaces Stamina. <em>Bloodloss</em>:
+            reduce bloodloss by 1 point/5 fatigue.  <em>Heal</em>:
+            add skill level to Stamina for healing. No fatigue but
+            requires constant attention as a physician would.
+          </li>
+          <li>
+            <b>Hex</b> As Clairvoyance, but the victim has all his rolls
+            reduced by the attacker's skill instead of being seen. If the
+            attacker possesses parts from the victim increase skill by 5.
+          </li>
+          <li><b>Medium</b> Ability to communicate with ethereals. Any in
+            vicinity or whose true name is known. Mental conflict is possible.
+          </li>
+          <li>
+            <b>Mental Bolt</b> As per description.  Skill as Fatigue
+            with the victim. Attacker's fatigue is 5, which can be randomized.
+          </li>
+          <li>
+            <b>Negation</b> While in trance any
+            psionic or magic effect is defended with a bonus of the skill.
+          </li>
+          <li>
+            <b>Prescience</b> This is as described. <em>Prescient Vision</em>
+            takes about one watch, and <em>Sense of Danger</em> lasts for
+            one minute and causes fatigue. Any positive result makes either
+            vision comprehensible. 
+          </li>
+          <li>
+            <b>Psychometry</b> As per description. The longer the vision
+            lasts, the more information is obtained. A reasonable minimum is
+            5 minutes.
+          </li>
+          <li>
+            <b>Pyrokinesis</b> As per the description. Roll a fire attack
+            against the combustible material. Range is as for a thrown melee
+            weapon and it takes as long as to throw one.
+          </li>
+          <li>
+            <b>Sensitivity</b> This is an atunement to certain magical or
+            psionic artifacts.
+          </li>
+          <li>
+            <b>Telekinesis</b> Use the skill level as strength level to lift
+            something without touching it. Range and effected objects are
+            as the eye perceives them. Teleportation is impossible.
+          </li>
+          <li>
+            <b>Telepathy</b> Use description. Transmit thoughts with a
+            range of the skill level in km.
+          </li>
+          <li>
+            <b>Transference</b> The travel bubble is Skill level in dm.
+            Travel is ethereal, instantaneous and takes 5 minutes in
+            "absent mindedness". 
+          </li>
+          <li>
+            <b>Transmutation</b> as per the description, but the duration
+            is skill level in hours and fatigue is none. The change process
+            takes 5 minutes either way and acrues fatigue. 
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h1 id="rel">Religion</h1>
+        <h4>Page 1-11, 16-18</h4>
+        <p>
+          These pages are used for their descriptive value mostly. This
+          includes Morality and Circle of Command. Recall that Piety is
+          a skill for each god. The <em>Piety point gain table</em> is
+          interpreted as describing how to learn piety.
+        </p>
+        <p>
+          In particular Divine intervention is a GM judgement call and
+          does not involvement calculations. It may involve randomness.
+        </p>
+        <p>
+          All rituals available to a group of adherence are taught to the
+          appropriate circle members. Successfully using them is another
+          matter. Different ways to learn are in the descriptive texts.
+        </p>
+        <h4>Page 12</h4>
+        <p>
+          To perform an invocation, [1] and [3] are used, [4] is replaced
+          by the usual roll.  [2] may be added in through <em>Row-3-addition</em>.
+          Since this only allows for Piety less than or equal a ritual
+          skill situation, any excess of the active skill is treated as separate
+          piety entry to the addition. The environment modifier is halved.
+        </p>
+        <p>
+          Astral acquire fatigue but they do not require shock rolls
+          when returning.
+        </p>
+        <h4>Page 13-15</h4>
+        <p>
+          These pages are ignored.
+        </p>
+        <h3 id="rel-1">Rituals</h3>
+        <p>
+          <em>Psionics</em> use fatigue as fuel for their magic,
+          <em>Religion</em> uses time and the <em>Shek P'var</em>
+          schools of magic use (generalized) matter.
+        </p>
+        <p>
+          Always use the description, when it does not
+          provide numbers, like ML modifiers. Use ritual skill
+          to verify the skill was performed correctly only.
+          Any effect or duration with multiples of 5 may be
+          randomized. The range of all rituals is sight unless
+          specifically mentioned otherwise. Any subject of
+          the ritual must be in sight continually.
+        </p>
+        <ul class="explain">
+          <li>
+            <b>Baptism</b>. Takes 15 minutes and the convert may
+            make an immediate piety learning roll unless he already
+            was initiated, in which case it has no effect.
+          </li>
+          <li>
+            <b>Blessing</b>. Takes 1 minute and grants +5 Piety
+            to all within hearing range except those performiing
+            the ritual.  This additional Piety is lost like
+            fatigue. Multiple castings cannot bring the current 
+            addition beyond +5.
+          </li>
+          <li>
+            <b>Commune</b>.  Takes 1 minute and grants +5 Piety
+            to the caster.  This additional Piety is
+            lost like fatigue. Multiple castings cannot bring
+            the current addition beyond +5.
+          </li>
+          <li>
+            <b>Liturgy</b>. Takes 15 minutes and grants +5 Piety
+            to the caster, if the total piety (Row-3-Addition) of
+            the audience is higher than the caster's level + 5.
+            This additional Piety is lost like fatigue. Multiple
+            castings cannot bring the current addition beyond +5.
+          </li>
+          <li>
+            <b>Marriage</b>. Takes 1 hour to perform and both
+            spouses get two piety learning rolls, unless eiter is
+            already married in that religion.
+          </li>
+          <li>
+            <b>Passage of the Soul</b>. Takes 15 minutes to perform
+            and grants one departed soul +5 Piety. 
+          </li>
+          <li>
+            <b>Awe</b>. Takes 10s to perform. Effect is 2s of non-action
+            immediately, effectively pausing. Any ongoing skill
+            attempt without reasonable waypoints must be restarted.
+          </li>
+          <li>
+            <b>Endure</b>. Takes 1 minute and grants +5 Stamina
+            to the subject.  This additional Stamina is
+            lost like fatigue. Multiple castings cannot bring
+            the current addition beyond +5.
+          </li>
+          <li>
+            <b>Tongues</b>. Takes 5 minutes and grants the caster
+            +15 in any language for 30 minutes. This addition is lost
+            like fatigue. No permanent learning enhancement.
+          </li>
+          <li>
+            <b>Truthsense</b>. Takes 1 minute to cast and then lasts
+            for another 5 minutes. Effects the caster only and what
+            he hears. Affects commision and ommission in the same way.
+          </li>
+          <li>
+            <b>Divination</b>. Takes 5 minutes to enact. A minor wound
+            of 5 levels is always received. (If randomized, the wound
+            stays minor.)
+          </li>
+          <li>
+            <b>Curse</b>. Takes as many minutes to enact as the penalty
+            shall be. This addition is lost like fatigue. Works as
+            Psionics/Hex. Multiple castings cannot bring
+            the current addition beyond +5.  If hours are used instead
+            of minutes, a medical/psychic problem is created (GM choice).
+            The caster will receive a wound of the same level, which will
+            heal normally.
+          </li>
+          <li>
+            <b>Revelation</b>. The ritual may be enacted for as long as
+            desired. Caster is at -5 for everything that does not involve
+            ethereals. Summoning is at +5.
+          </li>
+          <li>
+            <b>Summoning</b>. It takes 30 minutes to enact this ritual.
+            The will of the ethereal is a penalty to the skill roll.
+          </li>
+          <li>
+            <b>Truesight</b>. This takes 1 minute to give a preternatural 
+            hearing of holy artifacts of 30, which will humm at ultra-sound of
+            standard level 0. This ability dies down as fatigue.
+          </li>
+          <li>
+            <b>Command</b>. This takes 10s to enact and the result is
+            always as described under MS. It affects only one servant at a
+            time but the caster chooses which.
+          </li>
+          <li>
+            <b>Consecration</b>. Only indefinite consecrations may occur.
+            Undoing this act is always at -10, but for rituals of
+            different deities this is at -30.  Any penalty for consecutive 
+            casting dies off at 1/day.Any version of the ritual must be
+            completed within one watch.  <em>Water</em>: each
+            dose requires the ritual to be 5 minutes long; one charge
+            is 100ml. The ritual has a penalty of -1 for each consecutive
+            casting of this. E.g. for the fourth dose the penalty is -3.
+            <em>Tome</em>: each
+            volume requires the ritual to be 15 minutes long.  The ritual
+            has a penalty of -3 for each consecutive casting of this. 
+            No penalty applies for morality or adherents of opposing
+            deities.  Non-consecrated books do not grant immediate
+            learning rolls. <em>Artifact</em>: only the second kind
+            of artifacts exist. The casting time is 5 minutes times
+            the circle ritual to be embedded. Invoking the ritual
+            requires a piety roll against 5 times the cirecle embedded.
+            This may be treated as a separate dimension at creation time.
+            Consecutive casting implies a penalty of the circle value.
+            <em>Place</em>: The casting time is 2 minutes for each
+            square meter to be consecrated. The
+            area to be consecrated must be walked upon during the
+            ritual. A penalty of -5 applies for each successive casting. 
+          </li>
+          <li>
+            <b>Excommunication</b>. This ritual takes but 20 seconds and
+            reduces the victims piety to 0. However, the deity may choose
+            the option of excorsicing the invoker instead.  If successful,
+            one or the the other is going to occur, but not both.
+          </li>
+          <li>
+            <b>Exorcism</b>. Casting time is 5 hours. The mental conflict
+            is modified by that part of the skill not used to reduce casting
+            time, i.e. it is another result dimension.
+          </li>
+          <li>
+            <b>Transcedence</b>. This takes 10 minutes and lasts for 5 hours.
+            The duration can be treated as a separate dimension. At the end
+            the pull-back is near instantaneous. Shock rolls do not apply
+            but fatigue applies.
+          </li>
+        </ul>
       </div>
     </div>
   </body>

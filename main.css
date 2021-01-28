@@ -23,7 +23,7 @@ nav {
 }
 
 nav h2 {
-    padding-bottom: 64px;
+    padding-bottom: 16px;
 }
 
 nav a {
@@ -124,7 +124,8 @@ table.bsp th {
 }
 
 li {
-    padding: 4px 8px;
+    padding: 8px 4em;
+    text-indent: -3em;
 }
 
 .main {
