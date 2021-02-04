@@ -23,7 +23,7 @@ nav {
 }
 
 nav h2 {
-    padding-bottom: 16px;
+    padding: 0px;
 }
 
 nav a {
@@ -31,7 +31,7 @@ nav a {
     text-decoration: none;
     color: white;
     width: 100%;
-    padding: 8px 16px;
+    padding: 4px;
 }
 
 nav a:hover {
@@ -105,24 +105,6 @@ td a {
     color: var(--h1);   
 }
 
-}
-
-table.bsp tr:nth-child(even) td {
-    background: none;
-    border: 3px solid var(--tde);
-}
-
-table.bsp tr:nth-child(odd) td {
-    background: none;
-    border: 3px solid var(--tdo);
-}
-
-table.bsp th {
-    background: none;
-    border: 3px solid var(--h3);
-    color: var(--h3);
-}
-
 li {
     padding: 8px 4em;
     text-indent: -3em;
@@ -135,7 +117,7 @@ li {
 
 .container {
     margin-top: 50px;
-    padding: 8px 16px;
+    padding: 4px;
 }
 
 .title {
@@ -146,9 +128,15 @@ li {
     color: var(--head);
 }
 
+ul.explain {
+    margin-left: .5em;
+    padding-left: .5em;
+    margin-right: .5em;
+    padding-right: .5em;
+}
+
 .explain {
     list-style-type: none;
-    padding: 8px 16px;
 }
 
 .explain li:first-child {

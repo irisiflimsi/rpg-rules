@@ -1,0 +1,127 @@
+:root {
+    --navbg: #009a31;
+    --h1: #009a31;
+    --h3: #009a31;
+    --head: #c6e7ce;
+    --tde: #ceffce;
+    --tdo: #84cf96;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+nav {
+    display: none;
+}
+
+nav * {
+    display: none;
+}
+
+body, h1, h2, h3 {
+    font-family: "Merriweather";
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+h1 {
+    page-break-before: always;
+    border-top: 3px solid var(--h1);
+    border-bottom: 3px solid var(--h1);
+    padding-top: .3em;
+    padding-bottom: .3em;
+    font-weight: bold;
+    font-size: 24px;
+    color:var(--h1);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 21px;
+    color: #fff;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--h3);
+}
+
+h4 {
+    border-top: 2px solid var(--h3);
+    border-bottom: 2px solid var(--h3);
+    padding-top: .1em;
+    padding-bottom: .1em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 13px;
+}
+
+caption {
+    font-weight: bold;
+    caption-side: bottom;
+}
+
+tr:nth-child(even) td {
+    border: 2px solid var(--tde);
+}
+
+tr:nth-child(odd) td {
+    border: 2px solid var(--tdo);
+}
+
+th {
+    border: 2px solid var(--head);
+    width: 70px;
+}
+
+td {
+    width: 70px;
+}
+
+td a {
+    color: var(--h1);   
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--head);
+}
+
+.explain {
+    list-style-type: none;
+}
+
+ul.explain {
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.explain li:first-child {
+    border-top: 2px solid var(--tde);
+}
+
+.explain li {
+    border-bottom: 2px solid var(--tde);
+    padding: .5em;
+}
+
+.list {
+    text-decoration: none;
+    color: var(--h3);
+}
+
+.indent {
+    text-indent: 2em;
+}

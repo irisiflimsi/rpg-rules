@@ -2,9 +2,13 @@
     --navbg: #9a3100;
     --h1: #9a3100;
     --h3: #9a3100;
-    --head: #e7cec6;
+    --head: #cf9684;
     --tde: #ffcece;
-    --tdo: #cf9684;
+    --tdo: #ffcece;
+}
+
+@page {
+    margin: 2cm;
 }
 
 table {
@@ -16,26 +20,18 @@ ul.explain {
     font-size: 80%;
 }
 
-nav .container {
-    margin-top: 0px;
-}
-
-nav h2 {
-    font-size: 24px;
-}
-
 nav {
-    font-size: 85%;
+    font-size: 90%;
 }
 
 th {
-    width: 5%;
-    padding: 4px 8px;
+    width: 9%;
+    padding: 2px 4px;
 }
 
 td {
-    width: 5%;
-    padding: 4px 8px;
+    width: 9%;
+    padding: 2px 4px;
 }
 
 .wide {
