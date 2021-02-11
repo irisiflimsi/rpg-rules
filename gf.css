@@ -28,6 +28,10 @@ nav {
     font-size: 85%;
 }
 
+h5.skill {
+    border-top: 2px solid var(--h1);
+}
+
 th {
     width: 5%;
     padding: 4px 8px;

@@ -287,8 +287,8 @@
           </tr>
           <tr>
             <td>13-18</td><td>0</td><td>+1</td><td>+2</td>
-          </tr>
-          <tr>
+          </tr> 
+         <tr>
             <td>19</td><td>0</td><td>+1</td><td>+1</td>
           </tr>
           <tr>
@@ -298,6 +298,1337 @@
             <td>31+</td><td>0</td><td>0</td><td>0</td>
           </tr>
         </table>
+        <p>
+          Sometimes, to ease writing, we denote Row-n-Addition with
+          +<sub>n</sub>, where n=3,5,7, e.g. Row-5-Addition of
+          1 and 2 is written as 1 +<sub>5</sub> 2.
+        </p>
+        <p>
+          In many sections statements effects, durations, fatigue,
+          etc. is mentioned as a skill use or similar.  Whenever it is
+          a multiple a 5, it can be subject to a n5 roll.  Also see
+          the Dimensions section in the Skills section.
+        </p>
+        <h3 id="s3kills">Skills</h3>
+        <p>
+          Skills govern all physical and mental activities, such as
+          combat and spell-casting.  All skills are derived from
+          character attributes and occupations and rated on open scale
+          starting from zero (0) as the “default”, with only 10%
+          reaching 10 points more.  This is inentionally identical
+          with the p5 system of rolling dice.  The skill scale is
+          open-ended ("exploding") as the p5 roll is, but humans
+          generally do not get scores beyond 30.  Any activity can be
+          organized as a skill.
+        </p>
+        <h5>Skill List</h5>
+        <table>
+          <tr>
+            <td><a href="#sk-acr">Acrobatics</a></td>
+            <td><a href="#sk-act">Acting</a></td>
+            <td><a href="#sk-alc">Alchemy</a></td>
+            <td><a href="#sk-ast">Astrology</a></td>
+            <td><a href="#sk-awa">Awareness</a></td>
+            <td><a href="#sk-axe">Axe</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-blo">Blowgun</a></td>
+            <td><a href="#sk-bow">Bow</a></td>
+            <td><a href="#sk-bre">Brewing</a></td>
+            <td><a href="#sk-cer">Ceramics</a></td>
+            <td><a href="#sk-cli">Climbing</a></td>
+            <td><a href="#sk-clu">Club</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-coo">Cookery</a></td>
+            <td><a href="#sk-dag">Dagger</a></td>
+            <td><a href="#sk-dan">Dancing</a></td>
+            <td><a href="#sk-dex">Dexterity</a></td>
+            <td><a href="#sk-dra">Drawing</a></td>
+            <td><a href="#sk-emb">Embalming</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-end">Endurance</a></td>
+          </tr>
+        </table>
+        <h5>Dimension</h5>
+        <table>
+          <tr>
+            <td><a href="#di-att">Attribute</a></td>
+            <td><a href="#di-div">Divination</a></td>
+            <td><a href="#di-rec">Recipes</a></td>
+            <td><a href="#di-sta">Star-Rating</a></td>
+          </tr>
+        </table>
+        <h4>Skill Base</h4>
+        <p>
+          Skill Base (SB) represents a character’s natural affinity
+          for a skill.  The SB for each skill can be calculated when
+          necessary.  It is unlikely this varies after the beginning
+          of play.  A skill is tested, when its application becomes
+          useful or meaningful (a decision by the GM).  Some skills
+          should be predetermined, because their application is hard
+          to avoid.  Each skill entry below lists the attributes for
+          its base.  To determine an SB, the attributes are averaged.
+          If an attribute is listed twice, it is counted twice in the
+          calculation.  Then directly subtract 15.  If the character’s
+          Sunsign is listed, it increases SB by the indicated number –
+          this is not averaged, but only applied directly as part of
+          the SB.
+        </p>
+        <h4>Mastery Level</h4>
+        <p>
+          Mastery Level (ML) represents a character’s current
+          competence at a specific skill; the higher the number, the
+          more skillful.  MLs may be improved in the course of play
+          and range from 0 to 30 usually.  Technically, there is no
+          limit.
+        </p>
+        <p>
+          Opening Mastery Level (OML) is listed with each skill.  This
+          is the starting point for any skill ML.  Many skill start at
+          zero (0) and can immediately be improved.  (in the fashion
+          described below).  If the number is negative, any
+          improvement of the skill can only happen with a teacher.
+          Once an ML reaches zero (0) this restriction no longer
+          applies.
+        </p>
+        <p>
+          Effective Mastery Level (EML) is SB +<sub>5</sub> ML.  It
+          can very with time.  Other bonuses and penalties may be added
+          in concrete situations.
+        </p>
+        <p>
+          Every skill in the list has an Occupation entry.  It shows a
+          list of occupations with a percentage value each.  If an
+          occupation is listed, then the OML listed is not used, but
+          instead the Occupation ML times the percentage listed.
+          Multiple occupations are combined through Row-5-Addition.
+          <em>Example:</em> Juryn has an SB in Dancing of 4.  The
+          occupation listing of 40 for his profession where he has
+          level (ML) 20.  Thus his OML is 20 x 40% = 8 and his
+          starting EML is SB +<sub>5</sub> ML = 8 +<sub>5</sub> 4 =
+          11.
+        </p>
+        <h4>Specialties</h4>
+        <p>
+          Many skills can be divided into sub-skills or specialties;
+          suggestions are given with some skills.  Characters may
+          select specialties at any time.  The skill is then termed a
+          group skill and included all (potential) specialties, even
+          if unknown.  The specific specialty skill is opened at the
+          current group ML.  Each specialty is developed as a separate
+          skill.  A character may declare any number of specialties,
+          but each is a separate skill.  <em>Example:</em> Bjorni has
+          Sword skill at ML 14.  He decides to choose Broadsword as a
+          specialty.  Sword and Broadsword are now two separate
+          skills.  Bjorni must use his current Sword skill if he uses
+          any other sword than Browadsword.
+        </p>
+        <p>
+          Sometimes, only Specialties are given and the question
+          arises, what ML in the Specialty implies on the skill group.
+          Each specialty has a percentage value associated with it.
+          (For a new Specialty, this must be decided upon by the GM.)
+          Take that percentage of Specialty ML to get the group's ML.
+          For example, a Mask/20% specialty in Woodcraft of 12 would
+          imply a Woodcraft group score of 2.4, rounded down to 2.
+        </p>
+        <p>
+          Note that this section applies to ML, not OML or EML.  EML
+          is calculated regularly as for any skill and OML (if
+          specialization is attempted at the outset) is as for the
+          group skill.
+        </p>
+        <h4>Skill Testing</h4>
+        <p>
+          EML is modified for a concrete test, because of fatigue,
+          injury, encumbrance, or difficult (or easy) circumstance
+          <em>Example:</em> a character might normally have a minimum
+          0 in Climbing.  However, climbing an ice cliff, with a
+          broken arm, during a blizzard is probably impossible, and
+          the GM may feel an ML of -30 is justified.  (This is roughly
+          a 1 in 1000 chance of succeeding.)  If instead she was
+          trying to decipher an alien script (without access to some
+          sort of comparison) the ML may be at -50.  (This is roughly
+          a 1 in 100,000 chance of succeeding.)  Factors affecting EML
+          are sometimes specified in the skill description; otherwise
+          GM discretion applies.
+        </p>
+        <p>
+          When a character attempts to use a skill, n5 is rolled.
+          Add/Subtract EML and any other modifiers the GM has noted.
+          Some modifiers are "standard" and listed below, they will
+          not be mentioned explicitely.  The GM will have decided upon
+          a diffculty, often called the <em>negative</em> part.  This
+          value is also subtracted from the roll and if the net result
+          is not-negative, the skill has been successfully employed;
+          if the roll is negative, the attempt has failed.  For
+          example, if a PC declares the intent to perform a gymnastic
+          feat, the GM would instruct the player to “test Acrobatics
+          against difficulty 15.”  In cases where success or failure
+          may not be obvious, the GM should make the roll secretly.
+        </p>
+        <p>
+          It is often necessary to know the degree of success or
+          failure.  The skill descriptions provide these so-called
+          dimensions.  For skills, where no appropriate success levels
+          are provided or for newly devised skills, estimate the
+          effects by looking at the skills most closely related.
+        </p>
+        <p>
+          When two characters use skills against each other, each
+          character makes a p5 skill roll appropriate to the skill in
+          question and the success levels are compared to give a net
+          result.  The descriptions of the two skills should match for
+          this net result (they should obviously the negative of each
+          other).  The character with the highest success level
+          “wins.”  If both characters achieve the same success level,
+          the “stalemate” result of zero (0) applies.  If a tie is not
+          appropriate to the situation, then decimal place may be
+          rolled as explained in the initial section.
+        </p>
+        <h4>Penalties</h4>
+        <p>
+          Penalties are subtracted from the skill roll directly (not
+          through Row-5-Addition).  To distinguish the standard
+          penalties below, penalties assigned by the GM to reflect
+          temporary handicaps are called <em>Special Penalties</em>.
+        </p>
+        <p>
+          <em>Injury Penalty:</em> Combat, and other activities, may
+          injure a character.  Each injury is rated in terms of Injury
+          Levels: M5, S10, G15, and so on.  A character with, for
+          example, one M3 and one S8 injury, has a total of sixteen
+          (11) Injury Levels.  A character’s Injury Penalty is equal
+          to the sum of all Injury Levels.  For more details about
+          injuries, see Combat and Physician.  Usually injury
+          penalties apply to all "physical" skills.  In some cases,
+          part of the Injury penalty can be ignored.  For example,
+          firing a bow with a injured foot is not impeded in the same
+          manner as running.
+        </p>
+        <p>
+          <em>Fatigue Penalty:</em> Using Psionic talents or certain
+          other activity generates Fatigue Levels.  The GM may also
+          assess Fatigue Levels for prolonged physical activity, such
+          as when a character swims a swift river and then begins to
+          scale a cliff without pausing to rest.  In general, one
+          Fatigue Level is assessed for one minute of strenuous
+          physical activity.  A character’s Fatigue Penalty is equal
+          to the sum of all Fatigue Levels.  Every minute of Rest
+          allows a character to remove one Fatigue Level.  Fatigue
+          penalty applies to all skill applications.
+        </p>
+        <p>
+          <em>Encumbrance Penalty:</em> Encumbrance Penalty is given
+          by the Endurance Skill.  Note: This Encumbrance Penalty is
+          only for humanoid creatures.  The Encumbrance Penalty for
+          steeds is detailed in Mounted Combat (in the Combat
+          chapter).
+        </p>
+        <p>
+          <em>Astral Penalty:</em> Astrals of disembodied characters
+          have a special penalty to the MLs of all skills, spells, and
+          Psionic talents proportional to the portion of Aura they
+          leave with the body.  If 5% of Aura is left behind, Astral
+          skills are reduced by -2, if 10% of Aura is left behind,
+          reduce by -4, and so on.  Some astral travelers prefer to
+          leave larger portions of their Aura behind to give their
+          body a better chance of resisting possession by an alien
+          spirit.
+        </p>
+        <p>
+          <em>Consecration Bonus:</em> This is actually not a penalty.
+          It is still applied directly to relevant rituals, i.e. those
+          for a deity to whom the ground is dedicated.  The bonus is
+          equal to the consecrator's circle.  Under certain
+          circumstances, other recipes may also use this consecration
+          bonus, for instance, Concocting an alchemical, explosive
+          compound in a laboratory dedicated to such volatile
+          compounds.
+        </p>
+        <h4>Skill Development</h4>
+        <p>
+          At various times in the course of play, the GM decides a
+          character has earned the chance to improve a skill.  Some
+          skills may be developed by practice/study; some require
+          training.  Execute each skill roll as follows: Roll n5.  If
+          the roll is greater than current ML, increase ML by one (1);
+          otherwise there is no increase.  This may also be
+          interpreted as a "Learning skill" roll, where everybody has
+          an EML of zero (0) and must match the difficulty of his
+          current mastery.  I.e. the better you already are, the
+          harder it is to improve.  To improve playability, award 1
+          roll per gaming session.  Note that the difficulty is ML,
+          not EML.
+        </p>
+        <p>
+          Additional rolls may be awarded by the GM for extended idle
+          periods, for instance in a winter camp.  Or the professional
+          life of an NPC "off-screen" needs to be simulated.  In those
+          cases, award approximately 10 rolls per month.
+        </p>
+        <p>
+          Characters receive a bonus when being employed by a master
+          with a higher ML.  A character getting personal instruction
+          from a teacher or employer can add the skill of the teacher
+          to his roll but must also subtract 10 due to the difficulty
+          in teaching.  Be careful, which teacher you choose!
+        </p>
+        <p>
+          Improving Specialties is a bit more elaborate.  Skills list
+          specialties with a percentage value.  This percentage value
+          gives the part of the whole group that this specialization
+          comprises.  When the skill is improved (the skill group of
+          all specialties) all improvement may be dedicated to the
+          specialty instead.  For example, 20% Specialty could see a
+          possible improvement of 5 points instead of 1 for the group
+          and a 40% Specialty a poyyible improvement of 2.5 points.
+          This implies that often fractions need to be maintained, to
+          keep a consistent situation for specialties.  To actually
+          improve a Specialty, start as if improving the group first.
+          If the roll fails for the group, it also fails for the
+          Specialty.  But assuming it succeeded for the group, You do
+          not simply gain the multiple of points.  Instead, only 1
+          point is gained.  For every further point to be gained from
+          the possible improvement, a successful p5 roll must succeed
+          against a difficulty of all points already gained this way.
+          Any remaining fractions can be rolled as rounded to the
+          nearest whole number or when “completed” by the next
+          successful learning roll.
+        </p>
+        <p>
+          Note: If at any time the whole skill group is developed
+          simultaneously, any specialties that already have the lowest
+          level reached are not improved.  By treating every specialty
+          separately, continuing rolling after the lowest level is
+          reached is possible.  This will then only increase the
+          specialty by one point, obviously.
+        </p>
+        <p>
+          <em>Example:</em> Assume Alosyn has an Acrobatics of 15 and
+          decides to specialize in Vaults.  He manages to beat 15 one
+          day, possibly with a teacher, to learn more.  Technically,
+          he could be gaining 5 points, since Vault is a 20% specialty
+          of Acrobatics.  The first point is already “approved” for
+          Vault/16.  He then rolls p5 to see whether he can gain
+          another point and with a 3 on his first p5, he now has
+          Vaults/17.  The second p5 roll (for the third point) is only
+          a 1, so no benefit is obtained.  The third roll is a 9,
+          followed by a 6, which means his p5 is at least 2, which
+          matches the two points already gained, so he is at Vault/18.
+          The fourth roll is 3, 7, and 3 again! Thus his p5 is at
+          least 3, which matches his three points already improved.
+          He is now at Acrobatics/Vaults/19.  In the future to improve
+          the specialty, 19 must be reached to improve Vaults in this
+          manner again.  In all other respects he remains at
+          Acrobatics/15.
+        </p>
+        <p>
+          Gladiators are at 80%, Hunter/Trappers, Mercantylers,
+          Pilots, and Weaponcrafters at 60% for their additional
+          Weapon proficiencies.  Clerics open their church language at
+          60%, if the same family, and 40%, if an alien family.  The
+          church script is opened at 60%.  For those religions that
+          have a Temple Private Tongue this opens to 60%.
+        </p>
+        <h4>Attribute Skills</h4>
+        <p>
+          Attributes used as skills serve two purposes.  First, it
+          allows for the in-world attributes to become operational
+          out-world, when rolling dice etc.  Second, it allows players
+          to improve this skill as other skills.  The attribute itself
+          serves as the SB for the skill.  Since unmodified attribute
+          use is a case often encountered, a table is provided for
+          easy reference and common values.  A side effect is that the
+          average person turns out to have a skill value of around
+          five (5).  Values below zero are only reachible through
+          “bad” die rolls.
+        </p>
+        <h4>Dimensions</h4>
+        <p>
+          Dimensions are collected as common reference for the many
+          skills that use them in more or less the same manner.
+        </p>
+        <h5 class="skill" id="di-att">Attribute</h5>
+        <p>
+          For finer grained numbers, observe that this a
+          Row-5-Addition of ML zero (0) and the pure Attribute SB.
+        </p>
+        <table>
+          <tr>
+            <th>Attribute</th><th>-15</th><th>-10</th><th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
+            <th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>10</th><th>15</th>
+          </tr>
+          <tr>
+            <td>Skill</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td><td>4</td><td>5</td>
+            <td>5</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>12</td><td>16</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-div">Divination</h5>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th>
+            <th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Correctness</td><td>1 in 20</td><td>3 in 40</td><td>1 in 10</td>
+            <td>1 in 8</td><td>1 in 6</td><td>1 in 4</td><td>1 in 3</td><td>1 in 2</td><td>2 in 3</td>
+          </tr>
+          <tr>
+            <td>Proximity</td><td>6 years</td><td>3 years</td><td>1 year</td>
+            <td>1/2 year</td><td>60 days</td><td>30 days</td><td>10 days</td><td>6 days</td><td>2 days</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-rec">Recipes</h5>
+        <p>
+          For NPCs the associated table can be used to estimate the
+          number of different recipes he knows how to create.  PCs
+          should rather keep a book and start with what their master
+          has given them.  Self-made dabblers start with zero (0) and
+          would need to do research.  Recipes have a wide range of
+          meaning, from classic cooking to tricks the character can
+          teach to animals.  It includes ritual invocations.
+        </p>
+        <table>
+          <tr>
+            <th>Skill</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
+            <th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td><td>6</td><td>10</td>
+            <td>20</td><td>30</td>
+          </tr>
+          <tr>
+            <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td><td>300</td><td>1000</td>
+            <td>3000</td><td>10000</td>
+          </tr>
+        </table>
+        <p>
+          In general, learning a recipe is a roll with the student's
+          EML.  The student should have a quiet, dedicated space to
+          study.  The <em>Dedicated Ground</em> modifier can be added
+          to the EML directly.  The time cost assumes a student spends
+          12 hours per day (3 watches) on the task, and study is
+          continuous until the recipe is mastered.  The GM may assess
+          penalties for interruptions in the study.  Some
+          interruptions, like illness or a crisis, may justify
+          aborting the study entirely.  Recipes have a circle rating,
+          ranging from I - VI, or given as star rating. This is a
+          direct numeric penalty when applying the recipe,
+          e.g. performing the ritual.  For learning it represents the
+          difficulty, see the star-rating dimension.  Now calculate
+          the modifiers and make a Learn roll on the table below.  Any
+          result below zero (0) means the time was spent in vain.
+          Particularly nasty GMs may let the PC learn something wrong
+          without knowing.
+        </p>
+        <ul class="explain">
+          <li>
+            <em>Mentor:</em> Row-5-Addition of the Mentor’s SB.
+          </li>
+          <li>
+            <em>Scripture:</em> Row-5-Addition of the Scripture value.
+            The value is directly linked to the number of pages (see
+            dimension above).  The student must be able to read the
+            Scripture.
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Learn roll</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Time</td><td>5/3</td><td>5/4</td><td>1</td><td>5/6</td><td>5/8</td><td>1/2</td><td>5/12</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-sta">Star-Rating</h5>
+        <p>
+          This scale is used often, particularly when assessing the
+          competence of a craftsman.  This scale can be extended for
+          the truly awesome skills.
+        </p>
+        <table>
+          <tr>
+            <th>Stars</th><th>-</th><th>&#9733;</th><th>&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;</th>
+            <th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th>
+          </tr>
+          <tr>
+            <td>Value</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td>
+          </tr>
+        </table>
+        <h4>Skill List</h4>
+        <p>
+          Some pre-determined skills, including their relation to
+          occupation, their descriptions and other parameters are
+          found here.  When several listed occupations apply, use the
+          Row-5-Addition of the Result.  This does not apply to the
+          Languages, Scripts and Musician skill group, where each time
+          an occupation is mentioned, it indicates a separate skill.
+          Specialties are also treated this way: as separate opening.
+          As a convenience, a list of the used percentages is provided
+          (rounded).
+        </p>
+        <table>
+          <tr>
+            <th>Score</th><th>20</th><th>40</th><th>60</th><th>80</th><th>100</th><th>120</th><th>140</th>
+          </tr>
+          <tr>
+            <td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+          <tr>
+            <td>2</td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>3</td>
+          </tr>
+          <tr>
+            <td>3</td><td>1</td><td>1</td><td>2</td><td>2</td><td>3</td><td>4</td><td>4</td>
+          </tr>
+          <tr>
+            <td>4</td><td>1</td><td>2</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+          </tr>
+          <tr>
+            <td>5</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+          </tr>
+          <tr>
+            <td>6</td><td>1</td><td>2</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+          </tr>
+          <tr>
+            <td>7</td><td>1</td><td>3</td><td>4</td><td>6</td><td>7</td><td>8</td><td>10</td>
+          </tr>
+          <tr>
+            <td>8</td><td>2</td><td>3</td><td>5</td><td>6</td><td>8</td><td>10</td><td>11</td>
+          </tr>
+          <tr>
+            <td>9</td><td>2</td><td>4</td><td>5</td><td>7</td><td>9</td><td>11</td><td>13</td>
+          </tr>
+          <tr>
+            <td>10</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td>
+          </tr>
+          <tr>
+            <td>11</td><td>2</td><td>4</td><td>7</td><td>9</td><td>11</td><td>13</td><td>15</td>
+          </tr>
+          <tr>
+            <td>12</td><td>2</td><td>5</td><td>7</td><td>10</td><td>12</td><td>14</td><td>17</td>
+          </tr>
+          <tr>
+            <td>13</td><td>3</td><td>5</td><td>8</td><td>10</td><td>13</td><td>16</td><td>18</td>
+          </tr>
+          <tr>
+            <td>14</td><td>3</td><td>6</td><td>8</td><td>11</td><td>14</td><td>17</td><td>20</td>
+          </tr>
+          <tr>
+            <td>15</td><td>3</td><td>6</td><td>9</td><td>12</td><td>15</td><td>18</td><td>21</td>
+          </tr>
+          <tr>
+            <td>16</td><td>3</td><td>6</td><td>10</td><td>13</td><td>16</td><td>19</td><td>22</td>
+          </tr>
+          <tr>
+            <td>17</td><td>3</td><td>7</td><td>10</td><td>14</td><td>17</td><td>20</td><td>24</td>
+          </tr>
+          <tr>
+            <td>18</td><td>4</td><td>7</td><td>11</td><td>14</td><td>18</td><td>22</td><td>25</td>
+          </tr>
+          <tr>
+            <td>19</td><td>4</td><td>8</td><td>11</td><td>15</td><td>19</td><td>23</td><td>27</td>
+          </tr>
+          <tr>
+            <td>20</td><td>4</td><td>8</td><td>12</td><td>16</td><td>20</td><td>24</td><td>28</td>
+          </tr>
+          <tr>
+            <td>21</td><td>4</td><td>8</td><td>13</td><td>17</td><td>21</td><td>25</td><td>29</td>
+          </tr>
+          <tr>
+            <td>22</td><td>4</td><td>9</td><td>13</td><td>18</td><td>22</td><td>26</td><td>31</td>
+          </tr>
+          <tr>
+            <td>23</td><td>5</td><td>9</td><td>14</td><td>18</td><td>23</td><td>28</td><td>32</td>
+          </tr>
+          <tr>
+            <td>24</td><td>5</td><td>10</td><td>14</td><td>19</td><td>24</td><td>29</td><td>34</td>
+          </tr>
+          <tr>
+            <td>25</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td>
+          </tr>
+          <tr>
+            <td>26</td><td>5</td><td>10</td><td>16</td><td>21</td><td>26</td><td>31</td><td>36</td>
+          </tr>
+          <tr>
+            <td>27</td><td>5</td><td>11</td><td>16</td><td>22</td><td>27</td><td>32</td><td>38</td>
+          </tr>
+          <tr>
+            <td>28</td><td>6</td><td>11</td><td>17</td><td>22</td><td>28</td><td>34</td><td>39</td>
+          </tr>
+          <tr>
+            <td>29</td><td>6</td><td>12</td><td>17</td><td>23</td><td>29</td><td>35</td><td>41</td>
+          </tr>
+          <tr>
+            <td>30</td><td>6</td><td>12</td><td>18</td><td>24</td><td>30</td><td>36</td><td>42</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="sk-acr">Acrobatics</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Agility, Agility
+          </li>
+          <li>
+            <em>Occupations:</em> Thief/40, Cleric/Naveh/60, Cleric/Rydequeln/60
+          </li>
+          <li>
+            <em>Specialties:</em> Tumbling/20, Vault/20, Swinging/20
+          </li>
+          <li>
+            <em>Sunsign:</em> Nadai+2, Hirin+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Commplexity (Tricks)</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td>
+            <td>Original</td>
+          </tr>
+          <tr>
+            <td>Rise (Tumbling)</td><td>5s</td><td>4s</td><td>3s</td><td>2s</td><td>1s</td>
+          </tr>
+        </table>
+        <p>
+          Acrobatics Skill is tested when a character attempts a
+          gymnastic feat that is more than a simple matter of native
+          Agility.  These include vaults, somersaults, back-flips,
+          twisting in mid-air to land on one’s feet, etc.  Acrobatics
+          is a physical skill.  Rising takes as many seconds as listed
+          in that dimension and during that period the character is
+          considered prone.
+        </p>
+        <h5 class="skill" id="sk-act">Acting</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> AGL, VOI, INT
+          </li>
+          <li>
+            <em>Occupations:</em> Thespian/80, Cleric/Rydequeln/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Tarael+1, Tai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Repertoire (Play)</td><td>Inconsistent</td><td>Self</td><td>Archetype</td>
+            <td>Individual</td><td>Original</td>
+          </tr>
+        </table>
+        <p>
+          The ability to play a role.  Used to determine the success
+          of a masquerade or dramatic performance.  Acting includes
+          the ability to disguise oneself and/or to assume a false
+          identity.  This may imply possession of a repertoire of
+          theatrical roles and character portrayals appropriate to
+          culture.
+        </p>
+        <h5 class="skill" id="sk-agi">Agility</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Agility
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          The skill is used for multiple purposes; to avoid falling
+          objects, weapon and missile attacks, and other situations
+          requiring Agility.  Dodge is frequently used in combat,
+          directly as dimension.  This is a physical skill.
+        </p>
+        <h5 class="skill" id="sk-agr">Agriculture</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Stamina, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Farmer/80, Millwright/60, Miller/60,
+            Bailiff/40, Cleric/Peoni/80, Shek-Pvar/Fyvria/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+2, Aralius+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Yield</td><td>20%</td><td>40%</td><td>60%</td><td>100%</td><td>140%</td>
+          </tr>
+        </table>
+        <p>
+          The ability to grow crops.  It determines the
+          quality/quantity of crops produced.  Results depend on land
+          quality, weather, etc.  Agriculture is also crop management
+          ability, useful for running a farm or fief.  Yield is the
+          crop yield per year, i.e. this roll applies once per year.
+          Different crops may be specialties.
+        </p>
+        <h5 class="skill" id="sk-alc">Alchemy</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Smell, Intelligence, Aura
+          </li>
+          <li>
+            <em>Occupations:</em> Alchemist/80, Apothecary/40,
+            Chandler/40, Embalmer/40, Glassworker/40, Hideworker/40,
+            Perfumer/60, Physician/60, Shek-Pvar/Peleahn/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Sko+3, Tai+2, Mas+2
+          </li>
+          <li>
+            <em>OML:</em> -10
+          </li>
+        </ul>
+        <p>
+          Used for the analysis and/or production of chemical or
+          alchemical compounds.  Alchemists devise (or otherwise
+          acquire) recipes for their craft.  Use of this skill
+          requires access to the necessary equipment, texts, and
+          materials.  Use the <em>Recipe</em> dimension for NPCs.
+        </p>
+        <h5 class="skill" id="sk-ani">Animalcraft</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Agility, Voice, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Animal Trainer/80, Farmer/60,
+            Herdsman/80, Teamster/60, Cleric/Peoni/60,
+            Shek-Pvar/Fyvria/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+1, Aralius+1
+          </li>
+          <li>
+            <em>Specialties:</em> Horsecraft/20, Cattlecraft/20,
+            Birdcraft/20, Dogcraft/20, Sheepcraft/20, Swinecraft/20,
+            Ratcraft/20, Ivashicraft/20
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Dogcraft/Ratter/80,
+            Horsecraft/Ostler/80, Ratcraft/Ratter/100,
+            Cleric/Ilvir/Ivashicraft/80
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Intelligence</td><td>0</td><td>-5</td><td>-10</td><td>-15</td><td>-20</td>
+          </tr>
+        </table>
+        <p>
+          The ability to domesticate, breed, and train animals.
+          Animalcraft also includes basic veterinary medicine.  Test
+          Animalcraft when breaking or domesticating animals, and for
+          each trick/task to be taught.  The time required for various
+          efforts is at GM discretion.  More willful and older animals
+          are harder to train, and few animals tolerate more than two
+          hours training daily.  Each species of animal can be a
+          Specialty.  Use the <em>Recipe</em> dimension for NPCs that
+          may surround themselves with trained animals.  Intelligence
+          in the table means the attribute of the animal to be
+          trained.
+        </p>
+        <h5 class="skill" id="sk-ast">Astrology</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Eyesight, Intelligence, Aura
+          </li>
+          <li>
+            <em>Occupations:</em> Astrologer/80, Lady/40, Cleric/Siem/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Tarael+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          The ability to chart the stars, cast horoscopes, and make
+          predictions based on astrological knowledge.  Astrology
+          includes knowledge of astronomy.  The art of using astrology
+          to make predictions is called Astromancy; it may serve as an
+          oracle or divination skill.  PCs may find it beneficial to
+          visit an astromancer to learn the portents before
+          undertaking a major adventure.  Such efforts take several
+          hours, at least, to prepare.  The dimensions to use are
+          <em>Divination</em>.
+        </p>
+        <h5 class="skill" id="sk-awa">Awareness</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Eyesight, Hearing, Smell
+          </li>
+          <li>
+            <em>Occupations:</em> Thief/100
+          </li>
+          <li>
+            <em>Sunsign:</em> Hirin+2, Tai+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          Subliminal sensitivity to the environment.  Awareness may be
+          tested when a character says something like, “I’ll look
+          around.”  It also is tested if an event occurs and the GM
+          wishes to determine who might have noticed it, or at least
+          have noticed that something is out of place.  Awareness
+          rolls are often made secretly by the GM.  Awareness tests
+          may be made for sleeping characters with an ML reduction of
+          at least 10.
+        </p>
+        <h5 class="skill" id="sk-axe">Axe</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Strength, Dexterity
+          </li>
+          <li>
+            <em>Occupations:</em> Cleric/Sarajin/80
+          </li>
+          <li>
+            <em>Specialties:</em> Battleaxe/40, Handaxe/40,
+            Shorkana/40, Pickaxe/30, Sickle/20, Warhammer/30
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Battleaxe/Huscarl/MF/120,
+            Battleaxe/Low Guard/MF/100, Handaxe/Herald/80,
+            Handaxe/Bailiff/Feudal/100, Handaxe/LF/Khuzdul/100,
+            Handaxe/Knight/Feudal/100, Handaxe/Patrician/100,
+            Sickle/Cleric/Agrik/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Ahnu+1, Feniri+1, Angberelius +1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          The ability to use hafted, edged weapons.  Specialties
+          include Battleaxe, Handaxe, Hatchet, Shorkana (throwing
+          axe), Sickle (peasant weapon), and Warhammer.  Poleaxes are
+          treated as Polearms (a separate skill). Use the
+          <em>Combat</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-blo">Blowgun</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Stamina, Dexterity, Eyesight
+          </li>
+          <li>
+            <em>Sunsign:</em> Hirin+2, Tarael+1, Nadai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          A rare skill except among the Lia-Kavair, clergy of Naveh,
+          and certain tribes in tropical and equatorial rain-forests.
+          No specialties exist.  Use the <em>Combat</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-bow">Bow</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Dexterity, Eyesight
+          </li>
+          <li>
+            <em>Specialties:</em> Crossbow/40, Hartbow/40, Longbow/50, Shortbow/50
+          </li>
+          <li>
+            <em>Specialties Occupations:</em> Longbows/LB/100,
+            Shortbow/SB/100, Legionnaire/SB/120, LF/Viking/100,
+            Hartbow/Ranger/120, Hartbow/Horsebow/120
+          </li>
+          <li>
+            <em>Sunsign:</em> Hirin+1, Tarael+1, Nadai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          The ability to use bows.  Specialties include Crossbow,
+          Hartbow (elven composite bow), Longbow, and Shortbow.
+          Crossbows: The use of crossbows is not widespread in western
+          Lythia.  They are forbidden for military use by canon and
+          secular law in all civilized realms, and carrying one may
+          draw suspicion and harassment.  Nevertheless, crossbows are
+          employed by the Khuzdul, and some brigands.  Only light
+          (hand-pulled) crossbows exist.  Use the <em>Combat</em>
+          dimensions.
+        </p>
+        <h5 class="skill" id="sk-bre">Brewing</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Smell, Smell
+          </li>
+          <li>
+            <em>Occupations:</em> Innkeeper/80, Shek-Pvar/Odivshe/40
+          </li>
+          <li>
+            <em>Sunsign:</em> Skorus+3, Tai+2, Masara+2
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          Different beverage types may be specialties.  The ability to
+          prepare alcoholic and other beverages.  Used to determine
+          the quality of brewed ale, beer, cider, etc.  Basic
+          materials are necessary.  Depending on cultural background,
+          this may include the ability to make wines and spirits.
+          Brewing for public consumption is closely controlled by the
+          Innkeepers Guild, although it is legal to brew for personal
+          use.  Ales do not travel well and most inns produce their
+          own brews.  Brewing uses the <em>Recipes</em> domain.
+        </p>
+        <h5 class="skill" id="sk-cer">Ceramics</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
+          </li>
+          <li>
+            <em>Occupations:</em> Glassworker/80, Potter/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+2, Aralius+2
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          Determines the quality of pottery items produced.  Results
+          are limited by the quality of materials and equipment.
+          Brewing uses the <em>Recipes</em> domain.
+        </p>
+        <h5 class="skill" id="sk-cli">Climbing</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Dexterity, Agility
+          </li>
+          <li>
+            <em>Occupations:</em> Thatcher/100, Seaman/100
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+1, Aralius+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
+          </tr>
+          <tr>
+            <td>Inlince</td><td>0°</td><td>15°</td><td>30°</td><td>45°</td><td>60°</td>
+            <td>75°</td><td>90°</td><td>100°</td><td>110°</td><td>120°</td>
+          </tr>
+          <tr>
+            <td>Speed</td><td>-</td><td>0</td><td>1/4</td><td>1/2</td><td>1</td><td>1.5</td>
+            <td>2</td><td>3</td><td>4</td><td>5</td>
+          </tr>
+        </table>
+        <p>
+          Tested when a character attempts to climb a difficult
+          obstacle.  The GM assesses a climb by the dimensions in the
+          table.  Additional modifiers should be made for slipperiness
+          and availability of holds.  If the character has climbing
+          gear (rope and grappling hook or spikes and mallet) and can
+          use them, increase ML.  Speed is measured in feet per
+          second.  A running total of vertical progress is kept to
+          determine when the climb is complete, and the extent of any
+          fall.  A single scale should only be rolled once, but any
+          interruption, such as rest requires a new roll.  Any
+          negative speed result (below -5) implies a fall.  Climbing
+          speed can be increased at the price of increasing the risk.
+          For each 5 levels of speed that are accepted as fall,
+          increase ML by 1 point.  The following falling height is
+          evenly distributed among the attempted climbing height.
+          Climbing is a physical skill.
+        </p>
+        <h5 class="skill" id="sk-clu">Club</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Strength, Dexterity
+          </li>
+          <li>
+            <em>Occupations:</em> Ratter/100, Seaman/100, Thief/100
+          </li>
+          <li>
+            <em>Specialties:</em> Club/75, Mace/60, Maul/40, Morningstar/40
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Mace/Herald/Order/80,
+            Mace/Bailiff/Order/100, Mace/Cleric/Agrik/80, Mace/High
+            Guard/100, Mace/Knight/Order/100
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+1, Aralius+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          The ability to use hafted, clubbing weapons.  Specialties
+          include Club, Mace, Maul, and Morningstar.  Because club
+          weapons are omni-directional, they are easier to master than
+          axes.  Use the <em>Combat</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-coo">Cookery</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Smell, Smell
+          </li>
+          <li>
+            <em>Occupations:</em> Cook/80, Servant/80, Innkeeper/80, Salter/80, Shek-Pvar/Peleahn/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Skorus+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          Cultural, regional, or even religious specialties are
+          possible.  Determines the appeal and nutritional value of
+          meals.  Failure by 5 results in poorly-prepared and/or
+          bad-tasting food.  Failure by 10 may cause food poisoning.
+          Use the <em>Recipes</em> domain.
+        </p>
+        <h5 class="skill" id="sk-dag">Dagger</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
+          </li>
+          <li>
+            <em>Occupations:</em> Beggar/80, Prostitute/80, Pimp/80,
+            Seaman/80, Thief/80, Herald/80, Bailiff/100,
+            Cleric/Larani/80, Cleric/Morgath/80, Cleric/Naveh/80,
+            Cleric/Sarajin/80, Yeoman/LF/80, Guardsman/100,
+            Yeoman/B/100, Infantry/100, Archer/100, Legionnaire/F/80,
+            Legionnaire/SB/100, Guard/100, Ranger/100, Guardian/100,
+            Knight/HH/100, Knight/MH/Non-Sindar/100
+          </li>
+          <li>
+            <em>Specialties:</em> Keltan/30, Knife/50, Taburi/30
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Keltan/Huscarl/M/100,
+            Keltan/Clansman/U/80, Keltan/Clansman/L/100
+          </li>
+          <li>
+            <em>Sunsign:</em> Angberelius+2, Nadai+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          The ability to use short-bladed weapons, mostly as secondary
+          weapons.  Specialties include Keltan (main gauche), Knife,
+          and Taburi (throwing knife).  Use the <em>Combat</em>
+          dimensions.
+        </p>
+        <h5 class="skill" id="sk-dan">Dancing</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Agility, Agility
+          </li>
+          <li>
+            <em>Occupations:</em> Courtesan/60, Herald/60,
+            Bailiff//60, Lady/60, Cleric/Halea/60, Horsebow/60,
+            Knight/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Tarael+2, Hirin+1, Tai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Repertoire</td><td>Arythmic</td><td>Rhythmic Moves</td>
+            <td>Simple, folk dance</td><td>Complex, ritual dance</td><td>Original choreography</td>
+          </tr>
+        </table>
+        <p>
+          The ability to perform various types of dance.  Specialties
+          such as folk or erotic dancing are viable.  Dancing is very
+          important in some cultures, and can be used to enhance
+          spellcasting (see HârnMaster Magic).  Dancing is a physical
+          skill.  Dances are social interactions.  Without at least
+          visible encounters with dances, OML is -10.
+        </p>
+        <h5 class="skill" id="sk-dex">Dexterity</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity
+          </li>
+          <li>
+            <em>Occupations:</em> Thief/80, Cleric/Naveh/40,
+            Shek-Pvar/Lyahvi/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Tarael+2, Skorus+2, Tai+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th>
+            <th>20</th><th>30</th><th>40</th>
+          </tr>
+          <tr>
+            <td>Legerdemain</td><td>+20</td><td>+10</td><td>0</td><td>-10</td>
+            <td>-20</td><td>-30</td><td>-40</td>
+          </tr>
+          <tr>
+            <td>Grope</td><td>8s</td><td>6s</td><td>4s</td><td>3s</td>
+            <td>2s</td><td>1.5s</td><td>1s</td>
+          </tr>
+        </table>
+        <p>
+          Legerdemain (Sleight of hand) is tested when a character
+          attempts to perform a feat of manual dexterity without being
+          detected by observers or victims.  Examples include cutting
+          a victim’s money-purse from behind or moving shells in a
+          shell game.  The victim oppose with Awareness to detect the
+          attempt.  If the victim is not paying attention, penalties
+          apply.  If the result is negative the legerdemain is
+          detected.  Awareness rolls may also be made for any
+          potential witnesses.  Legerdemain is a physical skill.  The
+          Awareness dimension is obviously modified by the “size” of
+          the feat.  Shells or a coin are assumed for the listed
+          penalty.  The Grope dimension is the time a trick takes, but
+          mostly for larger objects – this is a combat dimension.
+        </p>
+        <h5 class="skill" id="sk-dra">Drawing</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Eyesight
+          </li>
+          <li>
+            <em>Occupations:</em> Artist/80, Cartographer/80,
+            Scribe/60, Toymaker/60, Astrologer/60, Lexigrapher/60,
+            Pilot/60, Thespian/60, Herald/80, Lady/40, Cleric/40,
+            Cleric/Ilvir/60, Cleric/Save-K’nor/60,
+            Shek-Pvar/Savorya/80
+          </li>
+          <li>
+            <em>Specialties:</em> Cartography/20, Painting/40,
+            Sketching/40, Calligraphy/40
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Lexigrapher/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Skorus+1, Tai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Quality</td><td>-</td><td>Simple strokes</td><td>Draw/Paint</td>
+            <td>Different Styles</td><td>Forgery</td>
+          </tr>
+        </table>
+        <p>
+          The ability to produce a likeness, or to assess the artistic
+          quality or realism of a drawing or painting.  Different
+          styles and media (such as painting, fresco, pen and ink,
+          woodcut, etc.) may be considered specialties.  Cartography
+          is a specialty of Drawing used to produce poetic maps.  The
+          quality of a map is limited by the information available to
+          its maker.  Poetic maps are more often judged by the
+          attractiveness of the cherubs in the margins than by their
+          accuracy.  Characters with Drawing skill may be allowed to
+          copy their memory maps in poetic style to sell or show to
+          other PCs.
+        </p>
+        <h5 class="skill" id="sk-emb">Embalming</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Smell
+          </li>
+          <li>
+            <em>Occupations:</em> Embalmer/80, Perfumer/40, Cleric/40,
+            Cleric/Morgath/120, Shek-Pvar/Fyvria/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Skorus+1, Ulanus+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Decay</td><td>3</td><td>1</td><td>1/3</td><td>1/10</td><td>1/30</td>
+          </tr>
+        </table>
+        <p>
+          Determines success when embalming a corpse against
+          deterioration, and when preparing a corpse for
+          burial/cremation.  The skill also includes familiarity with
+          local rituals; since journeymen embalmers need to travel
+          widely, this can result in quite an accumulation of
+          knowledge.  Religious and/or cultural differences may be
+          treated as specialties.  Civilized cultures take great care
+          with their dead – embalming is a sign of respect and honor,
+          and has serious emotional and religious overtones.  Most
+          temples use master embalmers (either bonded or free) to
+          oversee their burial rituals.  Embalming includes limited
+          knowledge of practical Alchemy and Perfumery.  Embalmers
+          know how to make incense and soap, for example.
+        </p>
+        <h5 class="skill" id="sk-end">Endurance</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Will, Stamina
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+1, Lado+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th>
+          </tr>
+          <tr>
+            <td>Load Factor</td><td>0.20</td><td>0.15</td><td>0.10</td><td>0.08</td>
+            <td>0.07</td><td>0.06</td><td>0.05</td>
+          </tr>
+          <tr>
+            <td>Breath Factor</td><td>20</td><td>15</td><td>10</td><td>8</td><td>7</td>
+            <td>6</td><td>5</td>
+          </tr>
+        </table>
+        <p>
+          Load is the total weight of items carried or worn, generally
+          clothing, armour, and weapons, but perhaps also a trinket or
+          two.  Armour and weapons are listed on the Combat Profile.
+          Total Load is recalculated as items are acquired or
+          discarded.  Detailed lists of items may be made on separate
+          sheets if necessary.  Encumbrance Penalty is the effect of
+          carried weight on a character’s physical activities.  It is
+          equal to Weight in lbs times Load factor.
+        </p>
+        <p>
+          When holding breath (for more than a few seconds) Fatigue is
+          not recovered, as is generally the case while fatigue is
+          accumulated.  The Breath factor is a factor of the fatigue
+          accumulation rate.  A factor of 10 means that physical
+          activity that normally generates 1 level per minute, now
+          does 1 every 6 second.  Remember that the fatigue accrued
+          must be used as modifier for the next time interval.
+          Endurance is a physical skill.
+        </p>
+        <h5 class="skill" id="sk-eng">Engineering</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Intelligence, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Thatcher/40, Mason/60,
+            Millwright/60, Miller/60, Miner/60
+          </li>
+          <li>
+            <em>Specialties:</em> Mills/30, Siege Engines/30,
+            Fortifications/30, Mining/20
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+2, Aralius+2, Feniri+1
+          </li>
+          <li>
+            <em>OML:</em> -10
+          </li>
+        </ul>
+        <p>
+          The ability to construct and maintain mills, drawbridges,
+          siege and castle engines, and the like.  This skill does not
+          include the ability to make small, delicate mechanisms such
+          as locks.  For construction use the <em>Recipe</em>
+          dimension.
+        </p>
+        <h5 class="skill" id="sk-"></h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> 
+          </li>
+          <li>
+            <em>Occupations:</em> 
+          </li>
+          <li>
+            <em>Sunsign:</em> 
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+        <p>
+        </p>
         <h3 id="p3eople">People</h3>
         <p>
           The basic distribution presented in the in-world chapter for
@@ -363,14 +1694,14 @@
           Although most income is spent simply to survive, veterans
           have accumulated some savings.  Assume a veteran character
           has accumulated 10% of total income.  For example, a
-          bonded-master Ostler, with ten years experience has (936d *
-          10 years * 10%) = 936d available to spend on items or save.
+          bonded-master Ostler, with ten years experience has (936d x
+          10 years x 10%) = 936d available to spend on items or save.
         </p>
         <h3 id="o3ccupations">Occupations</h3>
         <p>
           An occupation resolves to 5 for each &#9733; that is taught.
           If multiple occupations are learned, they add through
-          Row-7-Addition, when applicable. In particular, Parent
+          Row-5-Addition, when applicable.  In particular, Parent
           Occupation may immediately added, when it is the same as
           vocational Occupation.
         </p>
@@ -380,7 +1711,7 @@
         </p>
         <p>
           <em>Gladiators</em> and <em>Hunter/Trappers</em> have
-          expertise in three weapons. <em>Mercantylers, Pilots</em>
+          expertise in three weapons.  <em>Mercantylers, Pilots</em>
           and <em>Weaponcrafters</em> have one weapon proficiency.
         </p>
         <h4>Optional Skills</h4>
@@ -389,12 +1720,12 @@
           new skills or improve existing skills.  Remember that most
           skills have a score of zero, so opening a (reasonable) skill
           or improving an open skill is the same.  For each option
-          point five points are added through Row-7-Addition.
+          point five points are added through Row-5-Addition.
           Successive improvement of the same skill work the same.
         </p>
         <p>
           A veteran character receives three option points per year of
-          experience; five years experience equals 5 * 3 = 15 OP.
+          experience; five years experience equals 5 x 3 = 15 OP.
           These points should be expended as other option points.
         </p>
         <h4>Shek-Pvar</h4>
@@ -402,7 +1733,7 @@
           Every Shek-Pvar adds the stars of his Chantry and his Aura.
           During character creation these are his Spell Option Points.
           All Convocational spells cost 1 SOP per level, and all
-          Neutral spells cost 2 SOP per level. For detailed spell
+          Neutral spells cost 2 SOP per level.  For detailed spell
           descriptions, see HârnMaster Magic.  Beginners cannot spend
           more than one third of their spell OPs to learn neutral
           spells.
@@ -412,7 +1743,7 @@
           Clerics may learn invocations by spending 20 Ritual Option
           Points.  All invocations cost 1 ROP per Circle.  Invocations
           specific to each religion can be found in the various deity
-          articles. See Religion.
+          articles.  See Religion.
         </p>
         <h4>Military</h4>
         <p>
@@ -469,7 +1800,7 @@
           <li>
             <em>Disembodiment:</em> Each time a disembodiment occurs,
             Telepathy and Sensitivity MLs increase by 1 point through
-            Row-7-Addition.
+            Row-5-Addition.
           </li>
           <li>
             <em>Healing:</em> <em>Empathy:</em> Add talent skill to
@@ -507,12 +1838,38 @@
           said to have Divine Grace.
         </p>
         <p>
-          Piety gain is always rolled against the own
-          <em>negative</em> mastery for the various lay rituals. The
-          value given is a bonus.
+          Piety gain works as Skill learning, although the conditions
+          can be "fine-tuned" instead of generic roll.
         </p>
-        <h3 id="r3ituals">Rituals</h3>
+        <ul class="explain">
+          <li>
+            <em>Prayer.</em> 1 roll.
+          </li>
+          <li>
+            <em>Fasting.</em> 1 roll for each full day.  For each
+            consecutive day, include a bonus of +1.
+          </li>
+          <li>
+            <em>Confession.</em> Recovery of 1 piety loss with the
+            listening priest's as "teacher".
+          </li>
+          <li>
+            <em>Any Mass.</em> 1 roll with one or multiple priests as
+            "teachers".  (Priests themselves excluded.)
+          </li>
+          <li>
+            <em>Donation/Sacrifice.</em> 1 roll per 1% wealth.  No
+            more than 1 per month.
+          </li>
+          <li>
+            <em>Temple Service, Quest &#0038; Pilgrimage.</em> 1 roll per day on task.
+            seem random.
+          </li>
+        </ul>
         <p>
+          Divine intervention is totally at the GMs discretion and the
+          seemingly high chances are mostly from self-reports from
+          faithful clerics.
         </p>
         <h3 id="c3ombat">Combat</h3>
         <p>

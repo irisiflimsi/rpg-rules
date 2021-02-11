@@ -11,13 +11,26 @@
     margin: 2cm;
 }
 
+div {
+    orphans: 3;
+    widows: 3;
+}
+
 table {
     font-size: 75%;
     margin: auto;
 }
 
+body {
+    text-align: justify;
+}
+
 ul.explain {
     font-size: 80%;
+}
+
+h5.skill {
+    border-top: 2px solid var(--h1);
 }
 
 nav {
