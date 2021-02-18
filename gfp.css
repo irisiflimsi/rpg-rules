@@ -11,6 +11,10 @@
     margin: 2cm;
 }
 
+.noprint, .noprint * {
+    display: none;
+}
+
 div {
     orphans: 3;
     widows: 3;

@@ -63,6 +63,7 @@ table {
     margin-right: auto;
     text-align: center;
     font-size: 13px;
+    border-collapse: collapse;
 }
 
 caption {
@@ -70,16 +71,14 @@ caption {
     caption-side: bottom;
 }
 
-tr:nth-child(even) td {
-    border: 2px solid var(--tde);
-}
-
-tr:nth-child(odd) td {
-    border: 2px solid var(--tdo);
+tr td {
+    border-top: 2px solid var(--tde);
+    border-bottom: 2px solid var(--tde);
 }
 
 th {
-    border: 2px solid var(--head);
+    border-top: 2px solid var(--head);
+    border-bottom: 2px solid var(--head);
     width: 70px;
 }
 

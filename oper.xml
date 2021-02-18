@@ -228,7 +228,7 @@
             document.getElementById("r3-r7").value = Math.round(10 * (re3 + m3)) / 10;
           }
         </script>
-        <table>
+        <table class="noprint">
           <tr>
             <th></th><th>A number</th><th>Another number</th><th>Row-3</th><th>Row-5</th><th>Row-7</th>
           </tr>
@@ -321,43 +321,98 @@
           generally do not get scores beyond 30.  Any activity can be
           organized as a skill.
         </p>
-        <h5>Skill List</h5>
+        <h4>Skill List</h4>
         <table>
           <tr>
             <td><a href="#sk-acr">Acrobatics</a></td>
             <td><a href="#sk-act">Acting</a></td>
+            <td><a href="#sk-agi">Agility</a></td>
+            <td><a href="#sk-agr">Agriculture</a></td>
             <td><a href="#sk-alc">Alchemy</a></td>
+            <td><a href="#sk-ani">Animalcraft</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-ast">Astrology</a></td>
             <td><a href="#sk-awa">Awareness</a></td>
             <td><a href="#sk-axe">Axe</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-blo">Blowgun</a></td>
             <td><a href="#sk-bow">Bow</a></td>
             <td><a href="#sk-bre">Brewing</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-cer">Ceramics</a></td>
             <td><a href="#sk-cli">Climbing</a></td>
             <td><a href="#sk-clu">Club</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-coo">Cookery</a></td>
             <td><a href="#sk-dag">Dagger</a></td>
             <td><a href="#sk-dan">Dancing</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-dex">Dexterity</a></td>
             <td><a href="#sk-dra">Drawing</a></td>
             <td><a href="#sk-emb">Embalming</a></td>
+            <td><a href="#sk-end">Endurance</a></td>
+            <td><a href="#sk-eng">Engineering</a></td>
+            <td><a href="#sk-eye">Eyesight</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-end">Endurance</a></td>
+            <td><a href="#sk-fis">Fishing</a></td>
+            <td><a href="#sk-fla">Flail</a></td>
+            <td><a href="#sk-fle">Fletching</a></td>
+            <td><a href="#sk-fol">Folklore</a></td>
+            <td><a href="#sk-for">Foraging</a></td>
+            <td><a href="#sk-gla">Glasswork</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-hea">Hearing</a></td>
+            <td><a href="#sk-hera">Heraldry</a></td>
+            <td><a href="#sk-herb">Herblore</a></td>
+            <td><a href="#sk-hid">Hidework</a></td>
+            <td><a href="#sk-int">Intrigue</a></td>
+            <td><a href="#sk-jew">Jewelcraft</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-jum">Jumping</a></td>
+            <td><a href="#sk-lan">Language</a></td>
+            <td><a href="#sk-law">Law</a></td>
+            <td><a href="#sk-loc">Lockcraft</a></td>
+            <td><a href="#sk-lov">Lovecraft</a></td>
+            <td><a href="#sk-mag">Magic</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-mas">Masonry</a></td>
+            <td><a href="#sk-mat">Mathematics</a></td>
+            <td><a href="#sk-men">Mental Conflict</a></td>
+            <td><a href="#sk-met">Metalcraft</a></td>
+            <td><a href="#sk-mil">Milling</a></td>
+            <td><a href="#sk-min">Mining</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-mor">Morale</a></td>
+            <td><a href="#sk-mov">Move</a></td>
+            <td><a href="#sk-mus">Musician</a></td>
+            <td><a href="#sk-net">Net</a></td>
+            <td><a href="#sk-per">Perfumery</a></td>
+            <td><a href="#sk-phy">Physician</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-pie">Piety</a></td>
+            <td><a href="#sk-pil">Piloting</a></td>
+            <td><a href="#sk-pol">Polearm</a></td>
+            <td><a href="#sk-psi">Psionic Talents</a></td>
+            <td><a href="#sk-rhe">Rhetoric</a></td>
+            <td><a href="#sk-rid">Riding</a></td>
           </tr>
         </table>
-        <h5>Dimension</h5>
+        <h4>Dimensions</h4>
         <table>
           <tr>
             <td><a href="#di-att">Attribute</a></td>
             <td><a href="#di-div">Divination</a></td>
+            <td><a href="#di-kno">Knowledge</a></td>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-sta">Star-Rating</a></td>
+            <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
         <h4>Skill Base</h4>
@@ -447,10 +502,10 @@
           <em>Example:</em> a character might normally have a minimum
           0 in Climbing.  However, climbing an ice cliff, with a
           broken arm, during a blizzard is probably impossible, and
-          the GM may feel an ML of -30 is justified.  (This is roughly
+          the GM may feel an EML of -30 is justified.  (This is roughly
           a 1 in 1000 chance of succeeding.)  If instead she was
           trying to decipher an alien script (without access to some
-          sort of comparison) the ML may be at -50.  (This is roughly
+          sort of comparison) the EML may be at -50.  (This is roughly
           a 1 in 100,000 chance of succeeding.)  Factors affecting EML
           are sometimes specified in the skill description; otherwise
           GM discretion applies.
@@ -529,7 +584,7 @@
         </p>
         <p>
           <em>Astral Penalty:</em> Astrals of disembodied characters
-          have a special penalty to the MLs of all skills, spells, and
+          have a special penalty to the EMLs of all skills, spells, and
           Psionic talents proportional to the portion of Aura they
           leave with the body.  If 5% of Aura is left behind, Astral
           skills are reduced by -2, if 10% of Aura is left behind,
@@ -669,7 +724,7 @@
         <h5 class="skill" id="di-div">Divination</h5>
         <table>
           <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th>
+            <th>Skill</th><th>-10</th><th>-5</th><th>0</th>
             <th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
           </tr>
           <tr>
@@ -679,6 +734,21 @@
           <tr>
             <td>Proximity</td><td>6 years</td><td>3 years</td><td>1 year</td>
             <td>1/2 year</td><td>60 days</td><td>30 days</td><td>10 days</td><td>6 days</td><td>2 days</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-kno">Knowledge</h5>
+        <p>
+          A case of percentage values above 100% the excess percentage
+          can be used to assess the chance of <em>creating</em>
+          knowledge in the domain. E.g.  for Heraldry, creating an
+          original design.
+        </p>
+        <table>
+          <tr>
+            <th>Skill</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
           </tr>
         </table>
         <h5 class="skill" id="di-rec">Recipes</h5>
@@ -755,7 +825,26 @@
             <th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th>
           </tr>
           <tr>
-            <td>Value</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td>
+            <td>Skill</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-yie">Yield</h5>
+        <p>
+          The Yield-Time dimension assumes a 12h workday, thus the
+          apparent jump from 12h to 2 days.
+        </p>
+        <table>
+          <tr>
+            <th>Skill</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th>
+            <th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td>
+            <td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
+          </tr>
+          <tr>
+            <td>Yield-Time</td><td>4 days</td><td>2 days</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td>
+            <td>1h</td><td>40min</td><td>30min</td><td>25min</td><td>20min</td>
           </tr>
         </table>
         <h4>Skill List</h4>
@@ -967,21 +1056,14 @@
             <em>OML:</em> 0
           </li>
         </ul>
-        <table>
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Yield</td><td>20%</td><td>40%</td><td>60%</td><td>100%</td><td>140%</td>
-          </tr>
-        </table>
         <p>
           The ability to grow crops.  It determines the
           quality/quantity of crops produced.  Results depend on land
           quality, weather, etc.  Agriculture is also crop management
           ability, useful for running a farm or fief.  Yield is the
           crop yield per year, i.e. this roll applies once per year.
-          Different crops may be specialties.
+          Different crops may be specialties.  Use the <em>Yield</em>
+          dimension but subtract 10 from the skill roll.
         </p>
         <h5 class="skill" id="sk-alc">Alchemy</h5>
         <ul class="explain">
@@ -1103,7 +1185,7 @@
           wishes to determine who might have noticed it, or at least
           have noticed that something is out of place.  Awareness
           rolls are often made secretly by the GM.  Awareness tests
-          may be made for sleeping characters with an ML reduction of
+          may be made for sleeping characters with an EML reduction of
           at least 10.
         </p>
         <h5 class="skill" id="sk-axe">Axe</h5>
@@ -1268,7 +1350,7 @@
           table.  Additional modifiers should be made for slipperiness
           and availability of holds.  If the character has climbing
           gear (rope and grappling hook or spikes and mallet) and can
-          use them, increase ML.  Speed is measured in feet per
+          use them, increase EML.  Speed is measured in feet per
           second.  A running total of vertical progress is kept to
           determine when the climb is complete, and the extent of any
           fall.  A single scale should only be rolled once, but any
@@ -1276,7 +1358,7 @@
           negative speed result (below -5) implies a fall.  Climbing
           speed can be increased at the price of increasing the risk.
           For each 5 levels of speed that are accepted as fall,
-          increase ML by 1 point.  The following falling height is
+          increase EML by 1 point.  The following falling height is
           evenly distributed among the attempted climbing height.
           Climbing is a physical skill.
         </p>
@@ -1604,6 +1686,1576 @@
           as locks.  For construction use the <em>Recipe</em>
           dimension.
         </p>
+        <h5 class="skill" id="sk-eye">Eyesight</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Eyesight
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th><th>25</th>
+          </tr>
+          <tr>
+            <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td>
+            <td>0.75</td><td>0.5</td><td>0.25</td>
+          </tr>
+        </table>
+        <p>
+          Eyesight as skill cannot be improved, neither can the
+          attribute.  The resolution is in mm/m or m/km.  Typical
+          modifications are made for contrast (positive), movement
+          (positive), distraction (negative), on the border of the
+          visual field (negative).
+        </p>
+        <h5 class="skill" id="sk-fis">Fishing</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Fisherman/100, Salter/60, Seaman/60,
+            Shek-Pvar/Odivshe/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Masara+2, Lado+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          Different techniques may be treated as specialties: Hook and
+          Line, Spear-fishing, Net-fishing, etc.  Some characters may
+          want to fish with their bare hands.  Conditions are assessed
+          by the GM depending on season, locale, and equipment.  Fish
+          alone does not provide a balanced diet.  With otherwise
+          average condition the base yield is 3 mandays worth of fish.
+          Conditions range from excellent +20 to poor -20. (Of course,
+          fishing requires a sufficiently large body of water, capable
+          of sustaining fish.  Overfishing may imply additional
+          penalties.)  Fishing uses the <em>Yield</em> and
+          <em>Yield-Time</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-fla">Flail</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Dexterity, Dexterity
+          </li>
+          <li>
+            <em>Occupations:</em> 
+          </li>
+          <li>
+            <em>Specialty:</em> Ball &#0038; Chain/40, Grainflail/20,
+            Nachakas/20, Warflail/40
+          </li>
+          <li>
+            <em>Sunsign:</em> Hirin+1, Tarael+1, Nadai+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          The ability to use articulated (folding/bending) weapons.
+          Centrifugal force gives them high impact, but they are
+          difficult to use in combat, especially in close combat.  Use
+          the <em>Combat</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-fle">Fletching</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
+          </li>
+          <li>
+            <em>Occupations:</em> Hunter/40, Trapper/40,
+            Weaponcrafter/60
+          </li>
+          <li>
+            <em>Specialty:</em> Bowyer/50, Fletcher/50
+          </li>
+          <li>
+            <em>Sunsign:</em> Hirin+2, Tarael+1, Nadai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Time</td><td>10 days</td><td>6 1/2 days</td><td>3 days</td><td>2 days</td>
+            <td>1 day</td><td>8 h</td><td>3 1/2 h</td><td>2 1/2 h</td><td>1 1/4 h</td>
+          </tr>
+        </table>
+        <p>
+          The ability to make and repair bows and arrows.  Base yield
+          is 1 bow or 12 arrows in a day, which assumes tools and
+          materials are readily available and a 12 hour period of work
+          per day. Use the <em>Yield</em> dimension.
+        </p>
+        <h5 class="skill" id="sk-fol">Folklore</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Voice, Intelligence, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Tutor/80, Sage/80, Harper/80,
+            Skald/80, Lady/80, Cleric/60, Shek-Pvar/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Tai+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-15</th><th>-5</th><th>5</th><th>15</th><th>25</th>
+          </tr>
+          <tr>
+            <td>Depth</td><td>-</td><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
+          </tr>
+        </table>
+        <p>
+          Different cultural types may be specialties.  Knowledge of
+          myths, legends, and history.  This is an oral tradition in
+          most cultures.  Successful use of the skill means the
+          character remembers information relevant to the subject
+          being inquired about.  To avoid rolling multiple times on
+          this table, the PC that searches his arsenal should give a
+          “trajectory” among the two dimensions, after the GM tells
+          him how obscure the sought story actually is.  For example,
+          Rogan is attempting to recall the name of a great hero of
+          some common legend. 50% go to depth and 50% to
+          breadth. Rolling a result of 0 would imply that 30% of great
+          myths can be repeated and the GM rules that the hero’s name
+          belongs to the important part of the myth.  Thus Rogan
+          recalls the name: Genin.  Use the <em>Knowledge</em>
+          dimension.
+        </p>
+        <h5 class="skill" id="sk-for">Foraging</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Smell, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Hunter/60, Trapper/60,
+            Cleric/Siem/60, Shek-Pvar/Fyvria/60, Military/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+2, Aralius+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          Different climate and terrain types may be specialties.
+          Finding (vegetarian) food in the wilderness.  Tested when a
+          character looks for edible plants, etc.  The GM assesses
+          conditions depending on season and locale, and uses the
+          table to determine the mandays of food found.  Areas near
+          civilization are likely to be between 10-20 penalty.
+          Excellent conditions exist only in tropical
+          rain-forests. and special places like the Shava Forest with
+          10 bonus.  Season is highly relevant.  To seek specific
+          plants, see Herblore.  For hunting meat, see Tracking. Use
+          the <em>Yield</em> and <em>Yield-Time</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-gla">Glasswork</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Glassworker/80, Potter/40, Shek-Pvar/Lyahvi/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Feniri+2
+          </li>
+          <li>
+            <em>OML:</em> -10
+          </li>
+        </ul>
+        <p>
+          The ability to produce glassware.  Appropriate tools and
+          materials are necessary.  Most people believe glassworkers
+          use magic to create their wares.  Glass is used for
+          tableware, objects d’art, alchemical equipment, and,
+          occasionally, for windows.  It is expensive and the preserve
+          of the wealthy.  The best glass products are of elven make.
+        </p>
+        <h5 class="skill" id="sk-hea">Hearing</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Hearing
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th>
+            <th>20</th><th>25</th>
+          </tr>
+          <tr>
+            <td>Distance (m)</td><td>0.1</td><td>0.3</td><td>1</td><td>3</td><td>10</td><td>30</td>
+            <td>100</td><td>300</td>
+          </tr>
+        </table>
+        <p>
+          Hearing as skill cannot be improved, neither can the
+          attribute.
+        </p>
+        <ul class="explain">
+          <li>
+            <em>-10:</em> Rural Silence
+          </li>
+          <li>
+            <em>-5:</em> Whisper
+          </li>
+          <li>
+            <em>0:</em> Low Speech
+          </li>
+          <li>
+            <em>5:</em> Normal Speech
+          </li>
+          <li>
+            <em>10:</em> Carts, Wagons, Combat
+          </li>
+          <li>
+            <em>15:</em> Smith, Stone Quarry, Skirmish
+          </li>
+          <li>
+            <em>20:</em> Thunder
+          </li>
+        </ul>
+        <h5 class="skill" id="sk-hera">Heraldry</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Herald/80, Lady/60, Cleric/40,
+            Cleric/Agrik/60, Cleric/Larani/60, Cleric/Save-K’nor/40,
+            Cleric/Shea-Al-Aecori/60, Military/40
+          </li>
+          <li>
+            <em>Sunsign:</em> Skorus+1, Tai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Passive</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+          </tr>
+        </table>
+        <p>
+          Different regional/cultural types may be specialties.  The
+          ability to recognize heraldic achievements, and to blazon
+          (properly describe) arms and recognize achievements.  The
+          skill uses the <em>Recipe</em> and <em>Knowledge</em>
+          dimensions.  One describes the achievements a character can
+          actively reproduce/draw, the other the recognized
+          achievements, if seen.  A 100% value means the set of all
+          achievements the character has been in contact with.
+          Reading a heralds’ scroll suffices.  The OML is reduced to
+          -10, if examples are mot available.
+        </p>
+        <h5 class="skill" id="sk-herb">Herblore</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Eyesight, Smell, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Cook/80, Servant/80, Ratter/40,
+            Alchemist/60, Apothecary/80, Perfumer/60, Physician/60,
+            Salter/20, Cleric/Ilvir/40, Cleric/Peoni/60,
+            Cleric/Siem/40, Shek-Pvar/Fyvria/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+3, Aralius+2
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>True:False</td><td>1:100</td><td>1:10</td><td>1:1</td><td>10:1</td><td>100:1</td>
+          </tr>
+        </table>
+        <p>
+          Different climate and terrain types may be specialties.  The
+          ability to find and identify individual types of plant.
+          When trying to find and gather specific plants in the
+          natural environment, test Herblore once per watch (four
+          hours) of searching.  EML is modified according to the
+          plant’s rarity, seeking a plant in an inappropriate locale
+          should reduce EML.  Uses the <em>Recipe</em> and
+          <em>Knowledge</em> dimensions.  The latter dimension
+          describes the recognized herbs, if seen.  The 100% value
+          means the set of all herbs the character has been in contact
+          with.  Reading elaborate texts suffices, but may give
+          inaccurate interpretations in the True:False dimension.  A
+          trajectory on the two dimensions should be provided.
+        </p>
+        <h5 class="skill" id="sk-hid">Hidework</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Smell, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Animal Trainer/40, Hunter/40, Trapper/40, Toymaker/40, Clothier/60, Hideworker/80, Ostler/60, Tentmaker/60, Woodcrafter/40
+          </li>
+          <li>
+            <em>Specialties:</em> Tanning/50, Leatherwork/50, Vellum/10
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Lexigrapher/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+1, Aralius+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          Determines quality of furs or hides cured, and the quality
+          of leather goods produced.  EML is modified by the quality
+          and availability of tools and materials.  Rough-curing
+          (removing a hide from a carcass and preparing it for
+          transport and proper tanning) can be done in the wilderness
+          with only some crude tools.  Uses the <em>Recipes</em>
+          dimension.
+        </p>
+        <h5 class="skill" id="sk-int">Intrigue</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Intelligence, Aura, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Beggar/80, Cook/80, Servant/80,
+            Laborer/80, Longshoreman/80, Prostitute/80, Pimp/80,
+            Courtesan/100, Innkeeper/80, Litigant/100,
+            Mercantyler/100, Thief/80, Herald/100, Lady/100,
+            Cleric/80, Cleric/Shea-Al-Aecori/100
+          </li>
+          <li>
+            <em>Sunsign:</em> Tarael+1, Tai+1, Skorus+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          The ability to assess and/or act effectively within a
+          social/political situation over a period of time.  Intrigue
+          is used as a discretionary shortcut by the GM to avoid the
+          playing out of an information-gathering process.  For
+          example, an NPC’s Intrigue might be tested when sent by a PC
+          to gather intelligence in a town or camp.
+        </p>
+        <h5 class="skill" id="sk-jew">Jewelcraft</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Clothier/60, Jeweler/80, Miner/80, Shek-Pvar/Lyahvi/60
+          </li>
+          <li>
+            <em>Specialties:</em> Gold/50, Silver/50, Gems/50
+          </li>
+          <li>
+            <em>Sunsign:</em> Feniri+3, Tarael+1, Aralius+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          Determines the quality of jewelry and/or fine metalwork made
+          by the character.  EML depends on the complexity of the task
+          attempted.  Materials are necessary and failure can be
+          expensive.  This skill is also used to appraise gems, fine
+          metalwork, and/or jewelry. Uses the <em>Recipe</em>
+          dimension.
+        </p>
+        <h5 class="skill" id="sk-jum">Jumping</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Agility, Agility
+          </li>
+          <li>
+            <em>Specialties:</em> High/50, Long/50
+          </li>
+          <li>
+            <em>Sunsign:</em> Nadai+2, Hirin+2.
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Height</td><td>-</td><td>0.5m</td><td>1m</td><td>1.50m</td><td>2m</td>
+          </tr>
+          <tr>
+            <td>Distance</td><td>-</td><td>1m</td><td>2m</td><td>4m</td><td>6m</td>
+          </tr>
+        </table>
+        <p>
+          Jumping is tested when a character attempts to leap for
+          height or distance.  Results assume a running start; for
+          standing jumps, halve heights and distances.  Results below
+          0 turn into a Fall.  For each 5 levels of dimension that are
+          also accepted as fall, increase EML by 1 point.  Jumping is a
+          physical skill.
+        </p>
+        <h5 class="skill" id="sk-lan">Language</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Wil, Voice, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Tutor/80, Sage/80, Innkeeper/80,
+            Litigant/80, Mercantyler/80, Herald/80, Cleric/Halea/80,
+            Cleric/Save-K’nor/80, Cleric/Save-K’nor/60, Scribe/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Tai+1
+          </li>
+          <li>
+            <em>OML:</em> -25
+          </li>
+        </ul>
+        <p>
+          Each Language is a separate skill.  All characters begin
+          with at least one Native Tongue, determined by birthplace.
+          Some characters may be bilingual.  The GM will tell you the
+          name of your native tongue(s).  Clerics also know their
+          church language.  (These are not specialties.)  Languages
+          are tested only on special occasions, such as when
+          foreigners converse.  Characters are presumed to speak their
+          native tongues at their social class level, which is well
+          enough to make success rolls unnecessary in general.  If
+          needed, the duration of the result is a speech, a dialog, or
+          other coherent activity.  The EML of a skill using language
+          can never exceed language EML in the tongue used.
+        </p>
+        <table>
+          <tr>
+            <th>Social Class</th><th>Native Language OML</th>
+          </tr>
+          <tr>
+            <td>Slave/Serf/Urban Poor</td><td>20</td>
+          </tr>
+          <tr>
+            <td>Guildsman/Military</td><td>25</td>
+          </tr>
+          <tr>
+            <td>Cleric/Nobility/Scholar</td><td>30</td>
+          </tr>
+        </table>
+        <p>
+          Foreign languages may be opened in the course of play as any
+          other skill.  The table below shows the three language
+          families spoken on/near Hârn.  Living languages are shown in
+          italic.  When one language of a family is known, it is
+          easier to learn other related languages.  Orbaalese belongs
+          to two families.  Foreign tongues can be learned with
+          languages of the same family functioning as as "teacher".
+        </p>
+        <table>
+          <tr>
+            <th>Jarind Family</th><th>Pharic Family</th><th>Azeri Family</th>
+          </tr>
+          <tr>
+            <td><em>Altish</em></td><td><em>Harbaalese</em></td><td>Azeri</td>
+          </tr>
+          <tr>
+            <td><em>Emela</em></td><td><em>Ivinian</em></td><td>Azeryani</td>
+          </tr>
+          <tr>
+            <td><em>Hârnic</em></td><td>Old Trierzi</td><td><em>Byrian</em></td>
+          </tr>
+          <tr>
+            <td>Jarind</td><td><em>Orbaalese</em></td><td>Elbythian</td>
+          </tr>
+          <tr>
+            <td><em>Jarinese</em></td><td><em>Palithanian</em></td><td><em>High Azeryani</em></td>
+          </tr>
+          <tr>
+            <td>Old Altish</td><td>Phari</td><td><em>Karejian</em></td>
+          </tr>
+          <tr>
+            <td>Old Hârnic</td><td>Quar</td><td>Karuia</td>
+          </tr>
+          <tr>
+            <td>Old Jarinese</td><td><em>Quarph</em></td><td><em>Low Azeryani</em></td>
+          </tr>
+          <tr>
+            <td><em>Orbaalese</em></td><td><em>Shorka</em></td><td><em>Urmesh</em></td>
+          </tr>
+          <tr>
+            <td><em>Yarili</em></td><td><em>Trierzi</em></td><td></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Fluency</td><td>Opaque</td><td>Rudimentary</td><td>Fair</td><td>Fluent</td><td>Mastery</td>
+          </tr>
+        </table>
+        <ul class="explain">
+          <li>
+            <em>Rudimentary:</em> Character is able to say such things
+            as, “Hello.  Where marketplace?”, but has no real
+            understanding of sentence construction.  Accent is
+            probably awful, and misunderstandings occur with
+            irritating regularity.
+          </li>
+          <li>
+            <em>Fair:</em> Character grasps basic elements of the
+            language and, with patience by listeners, can be
+            understood if discussing fairly simple concepts.  Grammar
+            often miscarries and misunderstandings are common.  The
+            character’s accent may either amuse or annoy natives.
+          </li>
+          <li>
+            <em>Fluency:</em> Character understands essential language
+            elements, and can converse fluently unless attempting to
+            discuss advanced or abstract ideas.  This is the lowest
+            level attained by uneducated adult natives.
+          </li>
+          <li>
+            <em>Mastery:</em> Character can pass for a local, whether
+            or not this is the character’s native tongue, and is able
+            to convey virtually any concept expressible in the
+            language.  This is the level of mastery achieved by
+            well-educated natives.
+          </li>
+        </ul>
+        <h5 class="skill" id="sk-law">Law</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Voice, Intelligence, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Litigant/80, Mercantyler/40,
+            Bailiff/60, Cleric/40, Cleric/Save-K’nor/60,
+            Cleric/Shea-Al-Aecori/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Tarael+1, Tai+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Depth</td><td>Unaware</td><td>Ignore</td><td>Notice</td><td>Consideration</td>
+            <td>Involvement</td>
+          </tr>
+          <tr>
+            <td>Breadth</td><td>None</td><td>Local</td><td>Feudal</td><td>Guild</td><td>Religion</td>
+          </tr>
+        </table>
+        <p>
+          Different cultural, religious, and regional types may be
+          specialties.  Litigants use this skill to determine which
+          law applies to a particular situation.  Enfoeffed knights
+          use the skill to settle tenant disputes; success indicates a
+          fair and just decision is made.  If used to prepare a writ
+          or other legal document, the skill is averaged with the
+          appropriate Language and Script.
+        </p>
+        <h5 class="skill" id="sk-loc">Lockcraft</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Toymaker/60, Locksmith/80, Thief/60,
+            Cleric/Naveh/40, Cleric/Rydequeln/40, Shek-Pvar/Jmorvi/60
+          </li>
+          <li>
+            <em>Specialties:</em> Making/60, Picking/40
+          </li>
+          <li>
+            <em>Sunsign:</em> Feniri+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          The ability to analyze and pick locks.  Locks are rated for
+          complexity in many publications; reduce EML by twice lock
+          complexity (equivalently, increase lock difficulty
+          accordingly).  The skill may be used to appraise the
+          complexity of a lock and/or to see if it is trapped.
+          Lockcraft is averaged with Metalcraft to construct locks and
+          other small/complex/delicate mechanisms.
+        </p>
+        <h5 class="skill" id="sk-lov">Lovecraft</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Comeliness, Agility, Voice
+          </li>
+          <li>
+            <em>Occupations:</em> Prostitute/80, Pimp/80,
+            Courtesan/100, Cleric/Halea/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Masara+1, Angberelius+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Expertise</td><td>Unaware</td><td>Instinctive</td><td>Experienced</td>
+            <td>Professional</td><td>Elite/Exotic</td>
+          </tr>
+        </table>
+        <p>
+          The ability to charm, seduce, and give erotic pleasure.  It
+          cannot normally be improved by solitary practice, although
+          there may be books or teachers available.  The skill is used
+          to assess the success of a seduction or sexual encounter.
+        </p>
+        <h5 class="skill" id="sk-mag">Magic</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Aura, Aura, Eyesight.
+            <em>Specialty Occupations:</em> Shek-Pvar/Lyahvi
+          </li>
+          <li>
+            <em>Attributes:</em> Aura, Aura, Agility.
+            <em>Specialty Occupations:</em> Shek-Pvar/Peleahn
+          </li>
+          <li>
+            <em>Attributes:</em> Aura, Aura, Strength.
+            <em>Specialty Occupations:</em> Shek-Pvar/Jmorvi
+          </li>
+          <li>
+            <em>Attributes:</em> Aura, Aura, Smell.
+            <em>Specialty Occupations:</em> Shek-Pvar/Fyvria
+          </li>
+          <li>
+            <em>Attributes:</em> Aura, Aura, Dexterity.
+            <em>Specialty Occupations:</em> Shek-Pvar/Odivshe
+          </li>
+          <li>
+            <em>Attributes:</em> Aura, Aura, Intelligence.
+            <em>Specialty Occupations:</em> Shek-Pvar/Savorya
+          </li>
+          <li>
+            <em>Attributes:</em> Aura, Aura, Will.
+            <em>Specialty Occupations:</em> Shek-Pvar/Neutral
+          </li>
+          <li>
+            <em>Sunsign:</em> (see below)
+          </li>
+          <li>
+            <em>OML:</em> -25
+          </li>
+        </ul>
+        <p>
+          The ability to cast spells of a particular convocation is a
+          skill.  There is a separate skill for each convocation
+          (although listed as specialty above), and one for Neutral.
+          Each Convocation has a unique Skill Base, dominated by Aura.
+          The ML is listed below (as occupational percentage),
+          depending on the chantry level; they apply to all
+          convocations equally.  Dimensions are available for each
+          spell.
+        </p>
+        <table>
+          <tr>
+            <th>Chantry Quality</th><th>Convocation ML</th><th>Neutral ML</th>
+          </tr>
+          <tr>
+            <td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>80</td><td>60</td>
+          </tr>
+          <tr>
+            <td>&#9733;&#9733;&#9733;&#9733;</td><td>70</td><td>50</td>
+          </tr>
+          <tr>
+            <td>&#9733;&#9733;&#9733;</td><td>60</td><td>40</td>
+          </tr>
+          <tr>
+            <td>&#9733;&#9733;</td><td>50</td><td>30</td>
+          </tr>
+          <tr>
+            <td>&#9733;</td><td>40</td><td>20</td>
+          </tr>
+        </table>
+        <p>
+          <em>Convocational Sunsign Modifiers:</em> The stars favor
+          different convocations.  The astrological modifier is given
+          below.  For a character born on a cusp (the first two or
+          last two days of a sunsign), use the more advantageous
+          modifier.
+        </p>
+        <table>
+          <tr>
+            <th>Sunsign</th><th>Lyahvi</th><th>Peleahn</th><th>Jmorvi</th>
+            <th>Fyvria</th><th>Odivshe</th><th>Savorya</th>
+          </tr>
+          <tr>
+            <td>Ulandus</td><td>-3</td><td>-1</td><td>+1</td><td>+3</td><td>+1</td><td>-1</td>
+          </tr>
+          <tr>
+            <td>Aralius</td><td>-2</td><td>0</td><td>+2</td><td>+2</td><td>0</td><td>-2</td>
+          </tr>
+          <tr>
+            <td>Feniri</td><td>-1</td><td>+1</td><td>+3</td><td>+1</td><td>-1</td><td>-3</td>
+          </tr>
+          <tr>
+            <td>Ahnu</td><td>0</td><td>+2</td><td>+2</td><td>0</td><td>-2</td><td>-2</td>
+          </tr>
+          <tr>
+            <td>Angberelius</td><td>+1</td><td>+3</td><td>+1</td><td>-1</td><td>-3</td><td>-1</td>
+          </tr>
+          <tr>
+            <td>Nadai</td><td>+2</td><td>+2</td><td>0</td><td>-2</td><td>-2</td><td>0</td>
+          </tr>
+          <tr>
+            <td>Hirin</td><td>+3</td><td>+1</td><td>-1</td><td>-3</td><td>-1</td><td>+1</td>
+          </tr>
+          <tr>
+            <td>Tarael</td><td>+2</td><td>0</td><td>-2</td><td>-2</td><td>0</td><td>+2</td>
+          </tr>
+          <tr>
+            <td>Tai</td><td>+1</td><td>-1</td><td>-3</td><td>-1</td><td>+1</td><td>+3</td>
+          </tr>
+          <tr>
+            <td>Skorus</td><td>0</td><td>-2</td><td>-2</td><td>0</td><td>+2</td><td>+2</td>
+          </tr>
+          <tr>
+            <td>Masara</td><td>-1</td><td>-3</td><td>-1</td><td>+1</td><td>+3</td><td>+1</td>
+          </tr>
+          <tr>
+            <td>Lado</td><td>-2</td><td>-2</td><td>0</td><td>+2</td><td>+2</td><td>0</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="sk-mas">Masonry</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Dexterity, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Mason/80
+          </li>
+          <li>
+            <em>Specialties:</em> Architect/40, Builder/50, Cutter/30, Carving/30
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+2, Aralius+2
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          Used to analyze/construct stonework.  Masons use Masonry
+          averaged with Engineering to construct buildings, bridges,
+          etc.  Use the <em>Recipe</em> dimension.  The recipes apply
+          to building types, ranging from simple foundation work to
+          cathedral construction and castle ramparts.
+        </p>
+        <h5 class="skill" id="sk-mat">Mathematics</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Intelligence, Intelligence, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Artist/40, Cartographer/40,
+            Tutor/40, Sage/40, Scribe/40, Alchemist/60, Apothecary/40,
+            Astrologer/60, Mason/40, Mercantyler/60, Pilot/40,
+            Shipwright/40, Cleric/Halea/40, Cleric/Save-K’nor/60,
+            Shek-Pvar/40
+          </li>
+          <li>
+            <em>Specialties:</em> Bookkeeping/50, Geometrics/50, Physics/50
+          </li>
+          <li>
+            <em>Sunsign:</em> Tai+3, Tarael+1, Skorus+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Concepts</td><td>-</td><td>Single digits</td><td>Multiple digits</td>
+            <td>Abstractions</td><td>Unique</td>
+          </tr>
+        </table>
+        <p>
+          The ability to make calculations with numbers, keep books of
+          account, and so on.  An ML above 14 would imply some
+          knowledge of geometry, etc.  The skill is useful in many
+          different fields.
+        </p>
+        <h5 class="skill" id="sk-men">Mental Conflict</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Aura, Will, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Cleric/80, Shek-Pvar/Savorya/100
+          </li>
+          <li>
+            <em>Sunsign:</em> 
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Fatigue Rate</td><td>100</td><td>30</td><td>10</td><td>3</td><td>1</td>
+          </tr>
+        </table>
+        <p>
+          A character’s ability to withstand mental domination.
+          Mental Conflict is a skill to resolve mental or spiritual
+          conflict and can be referred to as a “Battle of Wills”.
+          Characters are always aware of an attack, even if
+          unconscious or sleeping.  A fatigue rate of 1 means 1
+          fatigue level per minute, which is multiplied be the result
+          in the table.
+        </p>
+        <p>
+          Modifiers: -5 unconscious/sleeping, +5 native spirit, +10
+          living, +10 willing.  Conflict Types:
+        </p>
+        <ul class="explain">
+          <li>
+            <em>Possession:</em> An alien spirit may possess a
+            physical body by winning a mental conflict with the
+            resident spirit.  Possession is easier if the native
+            spirit is absent (disembodied) as an astral.  Reduce the
+            ML by 1 for each 5% of Aura that is missing from the
+            resident Aura.  The losing spirit suffers Dissolution.  An
+            evicted spirit may later attempt to repossess its own body
+            (or another) with a mental conflict.  Remember that the
+            native spirit (if any) always has +5 to EML.
+          </li>
+          <li>
+            <em>Ethereal Conflict:</em> Two ethereals meet and do
+            battle.  The losing spirit suffers dissolution.
+          </li>
+          <li>
+            <em>Artifact Control:</em> A character tries to invoke a
+            major artifact’s powers and the artifact resists.
+          </li>
+          <li>
+            <em>Benign Mind Linking:</em> Some healers, for example,
+            use mental linking as a way to diagnosis a patient’s
+            ailments.  The willing bonus implies an "Ignore" defense.
+          </li>
+        </ul>
+        <p>
+          <em>Dissolution:</em> Dissolution is the scattering of a
+          spirit’s “substance”.  It reforms in p5 hours at the
+          location of the spirit’s physical body (if it has one),
+          otherwise in a nearby location.  When the process is
+          complete, the spirit regains consciousness, has no fatigue,
+          and may now engage in another mental conflict.
+        </p>
+        <p>
+          <em>Exorcism:</em> A 5th Circle ritual invocation to aid a
+          native spirit evict a possessing alien spirit.  The ritual
+          requires frequent laying on of hands and Holy Water.  The
+          effect is to increase Mental Conflict EML.  See Religion.
+        </p>
+        <p>
+          Mental Conflict Example.  The demon Karpek (EML 26) seeks to
+          possess the Peonian priestess Larinda (EML 18).  Larinda is
+          +15 for being the native spirit and living (EML 33).  Karpek
+          rolls +9 and Larinda rolls -3, resulting in fatigue rates 1
+          per minute for Larinda and 6 per 10 minutes for Karpek.  A
+          few successful shock rolls later, Larinda invokes Peoni’s
+          Mercy, a ritual invocation that could force the demon to
+          depart.  Her Fatigue at that point is (–2) and the Circle
+          Modifier (–4), which reduces her Ritual EML to 12 and she
+          fails the roll.  The process continues.  This time she fails
+          the next Shock roll, allowing the demon its possession.
+          Larinda's spirit is evicted and suffers dissolution.  Her
+          body now obeys the demon’s wishes.  Larinda’s spirit will
+          reform after her (spirit) injury of 4 points are healed and
+          she may then attempt to repossess her body (+5 for being a
+          Native Spirit) with a mental conflict.  Larinda plans to use
+          the ritual invocation Exorcism to aid her task.
+        </p>
+        <h5 class="skill" id="sk-met">Metalcraft</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Dexterity, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Chandler/40, Charcoaler/40,
+            Jeweler/60, Locksmith/60, Metalsmith/80, Miner/40,
+            Shipwright/40, Weaponcrafter/60, Woodcrafter/40,
+            Shek-Pvar/Peleahn/20, Shek-Pvar/Jmorvi/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Feniri+3, Ahnu+1, Angberelius+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          Different types of metals may be specialties.  Used to
+          determine success/quality when producing commonplace
+          metallic goods.  Metalcraft is averaged with Lockcraft to
+          construct locks, secret compartments, and other small,
+          complex, and/or delicate mechanisms.  Larger machinery is
+          usually built by millwrights (engineers).  Use the
+          <em>Recipe</em> dimension.
+        </p>
+        <h5 class="skill" id="sk-mil">Milling</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Dexterity, Smell
+          </li>
+          <li>
+            <em>Occupations:</em> Millwright/80, Miller/80
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          Used to determine efficiency and/or yield when milling
+          grain, etc.  Milling is primarily a way to earn money.  It
+          is usually not a very exciting activity nor a useful skill
+          for adventurers.  The basic unit of yield is a year’s worth
+          of grain as produced by agriculture.  It assumes that a mill
+          capable of such output is available.  Use the <em>Yield</em>
+          dimension.
+        </p>
+        <h5 class="skill" id="sk-min">Mining</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Eyesight, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Alchemist/40, Jeweler/40, Metalsmith/40, Miner/80, Salter/60, Weaponcrafter/40
+          </li>
+          <li>
+            <em>Specialties:</em> Prospecting/20, Waterworks/40, Ore-Extraction/50, Mineralogy/30
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Shek-Pvar/Jmorvi/Mineralogy/40
+          </li>
+          <li>
+            <em>Sunsign:</em> Ulanus+2, Aralius+2, Feniri+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <p>
+          Knowledge of geology and ability at prospecting,
+          mineworking, and ore-refining.  Prospecting is a complex
+          issue, depending on the terrain surveyed and the minerals
+          sought.  These include mythral, gold, silver, copper, tin,
+          lead, zinc, coal, salt, iron, and a large variety of
+          gemstones.
+        </p>
+        <h5 class="skill" id="sk-mor">Morale</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Will, Will, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Military/40, Cleric/20
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-15</th><th>-10</th><th>0</th><th>10</th><th>15</th>
+          </tr>
+          <tr>
+            <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berser</td>
+          </tr>
+        </table>
+        <p>
+          Morale is a complex issue, it usually applies only to NPCs
+          (and trained animals).  It is treated as a physical skill in
+          that physical penalties apply.  The higher a result, the
+          more likely the predetermined objectives are followed,
+          usually a military one.  The lower the result, the more
+          self-preservation is deterministic of actions, but also
+          instincts take over.  “Freezing” in the hopes of being
+          ignored may make sense with certain predators but not when
+          facing Gargun.  The variety of different reactions is great.
+          See the Morale section in Combat.  Berserk is meant as
+          option, not as mandatory.  The other end at -15 is
+          mandatory.  It often makes sense to keep a current level of
+          Morale for NPCs that is deducted until it reaches a breaking
+          point.  Determine the outcome before any combat ensues to
+          improve playability.  (It should be kept secret from
+          players.)
+        </p>
+        <p>
+          <em>Rally:</em> An influence on others' Morale is possible
+          for the amount above 10 in the roll.  Multiple positive and
+          negative influences are added through Row-5-Additions
+          separately to others' EML.
+        </p>
+        <h5 class="skill" id="sk-mov">Move</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Agility
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
+            <th>30</th><th>40</th><th>50</th><th>60</th>
+          </tr>
+          <tr>
+            <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td>
+            <td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
+          </tr>
+        </table>
+        <p>
+          Humans can accelerate and decelerate as 3 m/s each second.
+          Turning options are in parts of a full circle (centered
+          around the direction of travel).  E.g. at 3 m/s this means
+          60° off the direction of travel on either side per second.
+          For the sake of playability variance in this should be
+          suppressed, although a 20% spread (for a 10 level
+          difference) with Agility modification could be appropriate.
+          This is a physical skill.
+        </p>
+        <p>
+          A steed’s movement rate must be declared before starting to
+          move.  Effective movement is equal to its Move minus Steed
+          Physical Penalty, then indexed in the Move table to find
+          speed.  Horses have four rates of speed: Walk/40, Trot/60,
+          Canter/80, and Gallop/100.  The number indicates the maximum
+          speed that can be reached.  All speeds are available at all
+          riding skills, although commanding the horse to use it may
+          prove a challenge.  Horses/Steeds accelerate and decelerate
+          at 6 m/s each second, but have the same turning options.
+        </p>
+        <p>
+          Fatigue is accrued at the 10 points per minute (or 1 per 6
+          seconds) for the generated maximum sprint speed.  Fractions
+          (which cannot exceed 1) of that speed generate the
+          corresponding fractional fatigue rate.  E.g. running at half
+          the maximum speed gives 5 points per minute (or 1 per 12
+          seconds).  Only simple fractions are allowed.
+        </p>
+        <p>
+          <em>Rotation</em> (also while standing) takes 1 second for
+          360 degree revolution (Acrobatic tricks apply) for bipeds,
+          which is modified by physical penalty and rounded off.
+          Horses take 1 second for 90 degrees, modified and rounded in
+          the same way.
+        </p>
+        <h5 class="skill" id="sk-mus">Musician</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Hearing, Hearing
+          </li>
+          <li>
+            <em>Occupations:</em> Courtesan/60, Harper/80, Skald/80,
+            Thespian/120, Cleric/Halea/40, Cleric/Rydequeln/60,
+            Cleric/Siem/40, Horsebow/40, Knight/Sindar/40, Harper
+            (2x)/60, Skald (2x)/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Masara+1, Angberelius+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Complexity</td><td>Unmusical</td><td>Simple,
+            Children's Songs</td><td>General, Ritual
+            Songs</td><td>Artistic Songs</td><td>Unique Songs</td>
+          </tr>
+        </table>
+        <p>
+          Each of the four types of musical instrument (Strings,
+          Drums, Winds, Bells) is a separate skill.  Instruments may
+          be a specialties.  Among the most common instruments are
+          Flute, Horn, Pipes, and Lute.  The availability of musical
+          instruments and skills depends on culture.  EML is modified
+          by instrument quality.  Reading and writing of music as a
+          Script is treated separately.
+        </p>
+        <h5 class="skill" id="sk-net">Net</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
+          </li>
+          <li>
+            <em>Occupations:</em> Ratter/60
+          </li>
+          <li>
+            <em>Sunsign:</em> Masara+1, Skorus+1, Lado+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          A weapon skill; use the <em>Combat</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-per">Perfumery</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Smell, Smell, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Embalmer/40, Perfumer/80, Cleric/Halea/40
+          </li>
+          <li>
+            <em>Sunsign:</em> Hirin+1, Skorus+1, Tarael+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          Used to determine success at inventing and producing
+          perfumes, soap, incense, etc.  Appropriate materials are
+          necessary. Use the <em>Recipe</em> dimension.
+        </p>
+        <h5 class="skill" id="sk-phy">Physician</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Gladiator/40, Alchemist/40,
+            Apothecary/40, Physician/80, Cleric/40, Cleric/Ilvir/60,
+            Cleric/Peoni/60, Shek-Pvar/Fyvria/40, Military/40
+          </li>
+          <li>
+            <em>Specialties:</em> Surgery/40, Potions/50,
+            Ointments/50, Veterinary/50
+          </li>
+          <li>
+            <em>Sunsign:</em> Masara+2, Skorus+1, Tai+1
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Healing Rate</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td>
+            <td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
+          </tr>
+        </table>
+        <p>
+          The ability to diagnose and treat medical ailments, wounds,
+          etc..  Usually the physician first tests EML to diagnose the
+          ailment.  See the Physician chapter.  Most folk have a
+          rudimentary understanding of treating wounds and simple
+          injuries, a physician can treat animals with a -10 penalty.
+          See also Animalcraft skill.
+        </p>
+        <p>
+          When the internal system has become incapacitated due to
+          fatigue, often from drowning, this means breathing has
+          stopped and the lungs have potentially filled with water or
+          another toxic substance).  When this condition has changed,
+          breathing theoretically can return to normal and
+          resuscitation may be attempted.  The <em>Resuciation</em>
+          dimension is equal to the <em>Recipe</em> dimension in
+          values.  The value in this dimension is the number of
+          fatigue points a physician removes immediately.  Such an
+          attempt may only be made once per subject every minute (by
+          the same or different people).  Multiple people working in
+          concert may use Row-5-Addition.
+        </p>
+        <p>
+          Healing rate is used for wounds/injury.  A physician designs
+          a treatment that must continually be applied wuth a first
+          roll.  A second roll must be made during the time the
+          physician actively applies a treatment (possibly identified
+          by another colleague).  The minimum value from these two
+          rolls is applied during the healing process.  Often the
+          quality of medicine is another factor that comes into play,
+          this depends on the therapy. (From the rules it follows that
+          the difficulty for first and second roll can be increased by
+          5 for a combined roll.)
+        </p>
+        <h5 class="skill" id="sk-pie">Piety</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Intelligence, Will, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Cleric/60
+          </li>
+          <li>
+            <em>OML:</em> -5
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Meaning</td>
+            <td>
+              Character knows that the religion exists but cannot
+              separate it from other convocations.
+            </td>
+            <td>
+              Lip service payed to the religion and ability to
+              separate it from other major faiths.
+            </td>
+            <td>
+              The main tenants are known and followed individually.
+              Sects/heresies are not considered.
+            </td>
+            <td>
+              Religion is quoted often and other faiths routinely
+              treated underhanded.
+            </td>
+            <td>
+              Adherent is seeking to further the religion outside of
+              his immediate domain.  Distinction between
+              inner-religion minutiae are important.
+            </td>
+            <td>
+              Heresy is abhorred.  Support for the religion takes
+              precedent over other interests.
+            </td>
+            <td>
+              Adherent is a prophet and accepts serious consequences
+              for following details of his faith.  May invent rituals
+              and the like.
+            </td>
+          </tr>
+        </table>
+        <p>
+          This skill is specific for each Deity and can only be opened
+          at non-zero value with the proper religious background.
+          (There is no specialties or specific sunsign.)  This skill
+          is not learned as usual but improved through righteous
+          actions; it can decline just as fast through improper ones.
+        </p>
+        <h5 class="skill" id="sk-pil">Piloting</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Eyesight, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Fisherman/40, Pilot/80, Seaman/40,
+            Shek-Pvar/Odivshe/40, Huscarl/40
+          </li>
+          <li>
+            <em>Specialties:</em> Shallows/40, Navigation/70,
+            Sailing/50
+          </li>
+          <li>
+            <em>Sunsign:</em> Lado+3, Masara+1
+          </li>
+          <li>
+            <em>OML:</em> -10
+          </li>
+        </ul>
+        <p>
+          The ability to navigate a ship.  This skill is detailed in
+          Pilots’ Almanac.
+        </p>
+        <h5 class="skill" id="sk-pol">Polearm</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Strength, Strength, Dexterity
+          </li>
+          <li>
+            <em>Occupations:</em> Lance/20, Glaive/Bill/20,
+            Jousting/20, Pole/30, Pike/30, Poleaxe/30
+          </li>
+          <li>
+            <em>Specialties:</em> Lance/20, Glaive/Bill/20,
+            Jousting/20, Pole/30, Pike/30, Poleaxe/30
+          </li>
+          <li>
+            <em>Specialty Occupations:</em> Poleaxe/High Guard/120,
+            Herald/120, Bailiff/120, Huscarl/LH/120, Horsebow/100,
+            Knight/120, Knight/Sindar/140
+          </li>
+          <li>
+            <em>Sunsign:</em> Angberelius+1, Aralius+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <p>
+          The ability to use heavy, two-handed pole-weapons.  Use the
+          <em>Combat</em> dimensions.
+        </p>
+        <h5 class="skill" id="sk-psi">Psionic Talents</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Aura, Aura, Will
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Talent</th><th>Sunsign</th>
+            <th>Talent</th><th>Sunsign</th>
+          </tr>
+          <tr>
+            <td>Charm</td><td>Tai/Nadai/Tarael+1</td>
+            <td>Prescience</td><td>Tai/Tarael+1</td>
+          </tr>
+          <tr>
+            <td>Clairvoyance</td><td>Tai+1</td>
+            <td>Psychometry</td><td>Tai/Masara+1</td>
+          </tr>
+          <tr>
+            <td>Disembodiement</td><td>Hirin/Nadai+1</td>
+            <td>Pyrokinesis</td><td>Angberelius/Ahnu/Nadai+1</td>
+          </tr>
+          <tr>
+            <td>Healing</td><td>Masara/Skorus+1</td>
+            <td>Sensitivity</td><td>Tarael/Tai+1</td>
+          </tr>
+          <tr>
+            <td>Hex</td><td>Ahnu+1</td>
+            <td>Telekinesis</td><td>Nadai/Ahnu+1</td>
+          </tr>
+          <tr>
+            <td>Medium</td><td>Tai+1</td>
+            <td>Telepathy</td><td>Tarael/Tai/Skorus+1</td>
+          </tr>
+          <tr>
+            <td>Mental Bolt</td><td>Ahnu+1</td>
+            <td>Transference</td><td>Tarael/Tai+1</td>
+          </tr>
+          <tr>
+            <td>Negation</td><td>Feniri+1</td>
+            <td>Transmutation</td><td>Tarael/Tai+1</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
+            <th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Bloodloss</td><td>8.0</td><td>6.3</td><td>5.0</td><td>4.0</td><td>3.2</td>
+            <td>2.6</td><td>2.0</td>
+          </tr>
+          <tr>
+            <td>Negation</td><td>0.6</td><td>0.8</td><td>1</td><td>1.3</td><td>1.6</td>
+            <td>2.0</td><td>2.4</td>
+          </tr>
+        </table>
+        <p>
+          All Talents are treated as separate skills.  Generation of
+          talents is explained in the Psionics chapter.  If the same
+          talent is generated multiple times, use Row-5-Addition for
+          the skill level.
+        </p>
+        <h5 class="skill" id="sk-rhe">Rhetoric</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Comeliness, Will, Voice, Intelligence
+          </li>
+          <li>
+            <em>Occupations:</em> Beggar/100, Cook/80, Servant/80,
+            Innkeeper/80, Mercantyler/100, Herald/80, Cleric/80,
+            Harper/80, Skald/80, Litigant/100, Thespian/80
+          </li>
+          <li>
+            <em>Specialties:</em> Diplomacy/70, Intimidate/50
+          </li>
+          <li>
+            <em>Sunsign:</em> Skorus+1, Tarael+1, Tai+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th><th>-1ß</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Awareness</td><td>Noise</td><td>Comprehension</td><td>Listening</td>
+            <td>Consideration</td><td>Agreement</td>
+          </tr>
+          <tr>
+            <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
+          </tr>
+        </table>
+        <p>
+          The ability to impress or persuade crowds by logic,
+          eloquence, or charisma.  This is something of a shortcut
+          skill and discretionary.  An orating PC needs to define the
+          audience; mobs maybe stupider than individuals, but they
+          cannot be persuaded to step off a cliff.  Rhetoric EML
+          cannot exceed the orator’s or the audience’s EML in the
+          language being used.  Rhetoric has many uses, from the
+          apprehended thief trying to fast-talk his way out of a visit
+          to the dungeon, to a friar explaining the mysteries of faith
+          to a child.  Rhetoric EML may be reduced or increased
+          considering the targets' Intelligence and their best
+          interest.  A net result below 0 on any use of Rhetoric
+          suggests the character has made a fool of himself and may
+          have annoyed the intended target(s).
+        </p>
+        <p>
+          <em>Intimidation:</em> Intimidation is a specialty.  It is
+          used in situations where a character seeks to convince
+          others to accept the user’s leadership and is used to
+          establish dominance.  This is useful in muggings, assaults,
+          and making sure everyone knows who is boss and who needs to
+          accept orders.
+        </p>
+        <p>
+          <em>Diplomacy:</em> Diplomacy is a specialty of Rhetoric
+          that is useful for determining if a speaker is bluffing or
+          lying, and for communication between people of different
+          cultures.  This specialty is important to heralds and other
+          negotiators.
+        </p>
+        <h5 class="skill" id="sk-rid">Riding</h5>
+        <ul class="explain">
+          <li>
+            <em>Attributes:</em> Dexterity, Agility, Will
+          </li>
+          <li>
+            <em>Occupations:</em> Animal Trainer/40, Teamster/80,
+            Ostler/80, Herald/80, Bailiff/60, LH/60, Knight/120,
+            Knight/Sindar/140
+          </li>
+          <li>
+            <em>Sunsign:</em>  Ulanus+1, Aralius+1
+          </li>
+          <li>
+            <em>OML:</em> 0
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <th>Dimension</th>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+        <p>
+          Riding is used to determine the ability to ride/control a
+          steed.  It is tested, whenever the rider attempts to command
+          a steed in combat.  A negative result implies a fall.  For
+          riders with less skill, an arbitrary penalty to the EML roll
+          may be taken.  This penalty is applied to the roll but also
+          serves as falling threshold to the (unmodified) roll.  Any
+          speed beyond the maximum speed is interpreted as a jump of
+          that distance.  For example, Jurin tries to ride a mount
+          with top speed of 40 (18 yd/s).  With his skill of 0, he
+          tries to play it safe and uses a penalty of 10.  He rolls a
+          -5, which is greater than -10, so luckily he stays on the
+          horse, but with a -35 he only makes 5 yd/s.  His cousin
+          Jirun has a skill of 25 and needs to jump a chasm, so he
+          pushes the horse with a +5.  Rolling a 5, he has a total of
+          35, he is also lucky and jumps his horse for 10 (28 – 18)
+          yards.  High jumps are 1:2 compared to long jumps and
+          include a long jump.  Standing jumps of 2 yards wide or 1
+          yard high are automatic but must be separated by normal
+          movement of at least 2 seconds.  Riding skill rolls still
+          apply.  Consult Mounted Combat for potential injuries.
+        </p>
+        <p>
+          In mounted combat, a rider declares his action makes a Steed
+          Command check by testing EML.  A success will permit the
+          command as desired (and possible).  At -10 the command
+          fails.  This effects speed changes and turning, failures
+          will have the steed continue what it did or what Morale
+          dictates.  After three successive failures, assume the steed
+          has a mind of its own until the situation changes
+          significantly.
+        </p>
+        <p>
+          Basically, an Unhorsing roll needs to be made, when the
+          rider enters the saddle.  An Unhorsing Roll is valid until
+          the situation significantly changes.  For minor changes
+          simply adjust the existing roll.  Note: A rider “stumble”
+          generated by an Melee Attack requires an additional
+          Unhorsing Roll. Unhorsing Rolls are made against Riding ML,
+          modified by Physical Penalty (including any injury just
+          received).  On failure, the rider is thrown and suffers a 5
+          feet plus deceleration distance fall. War Saddle: Gives a
+          bonus of two (2) to Unhorsing rolls.
+        </p>
         <h5 class="skill" id="sk-"></h5>
         <ul class="explain">
           <li>
@@ -1788,8 +3440,11 @@
           would get five talents.
         </p>
         <p>
-          Trance indicates a -20 to any other skills attempted during
-          that period.
+          Alternative, a character with at least an Aura of 10, may
+          select or roll Psionic talents with total skill points of
+          AUR - 10.  While Psionic Talents are not physical skills,
+          they accrue Fatigue at 1 point per minute.  Trance indicates
+          a -20 to any other skills attempted during that period.
         </p>
         <ul class="explain">
           <li>
@@ -1818,12 +3473,35 @@
             of +10.
           </li>
           <li>
-            <em>Mental Bolt:</em> The attacker's fatigue is 5.
+            <em>Mental Bolt:</em> Turn the skill level (randomize)
+            into Fatigue with the victim.
+          </li>
+          <li>
+            <em>Negation:</em> Creates a field whose radius is this
+            dimension in feet times the invoker’s 0+<sub>5</sub>5WIL.
+            Any spell/talent rolls are reduced by the EML of the
+            invoker.  This is a separate dimension and can be combined
+            with the radius.  A field of less than 1 foot implodes and
+            fails.
           </li>
           <li>
             <em>Pyrokinesis:</em> No effect on entities with Aura or
             Ego, including the invoker.  If appropriate, roll a fire
             attack against combustible materials.
+          </li>
+          <li>
+            <em>Telekinesis:</em> Use EML as Strength skill to lift
+            and carry something without touching it.
+          </li>
+          <li>
+            <em>Telepathy:</em> The intended target must have a
+            minimum Aura of 1, and is usually someone the invoker
+            knows quite well.  ML is reduced if this is not the case.
+            If nothing about the intended target is known, besides
+            tell-tale existence, the penalty is -30.
+          </li>
+          <li>
+            <em>Transmutation:</em> The effect lasts for up to EML hours.
           </li>
         </ul>
         <h3 id="r3eligion">Religion</h3>
