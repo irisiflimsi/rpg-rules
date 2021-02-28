@@ -90,7 +90,7 @@
           again and add 20 to the net result from the repeated
           application.  We will see this in the examples.)
         </p>
-        <table>
+        <table style="width:70%">
           <tr>
             <th>0</th><th>1</th><th>2</th><th>3</th>
             <th>4</th><th>5</th><th>6</th><th>7</th>
@@ -128,7 +128,7 @@
           only 8%, while 1/9 is approximatly 11%.  Again this is due
           to rounding; the price for rolling less dice.
         </p>
-        <table>
+        <table style="font-size:75%;width:90%">
           <tr>
             <th>...</th><th>-9</th><th>-8</th>
             <th>-7</th><th>-6</th><th>-5</th>
@@ -184,66 +184,61 @@
           that make rolling as easy as pressing a button are also easy
           to program.
         </p>
-        <p>
-          <ul>
-            <li>
-              Assume you decided to use <d100/> and rolled a 24 on the
-              first roll.  This means a result of 1.  The second roll
-              (the negative or passive roll) shows a 50, which results
-              in 3 for a net result of -2.
-            </li>
-            <li>
-              Another decision is to use the combined table, and a 28
-              is rolled, which results in -3.
-            </li>
-            <li>
-              A more exotic roll would be the sequence 96, 99, 93, 61
-              on the <d100/>.  The result would be 34.
-            </li>
-            <li>
-              Using the standard method, the positive sequence on a
-              <d10/> shows 3, 8, 10, 7, 9, 4, 6, 3, 10, 10, 8, 4, 2
-              and the negative sequence shows 3, 6, 9, 4, 4, 1.  The
-              result is positive 12 and negative 5 with a net result
-              of +7.
-            </li>
-            <li>
-              If you decide that +7 is not precise enough, a roll of 3
-              and 5 on a <d10/> (each) gives are finer result of
-              +7.35.
-            </li>
-          </ul>
-        </p>
+        <div class="explain">
+          <p>
+            Assume you decided to use <d100/> and rolled a 24 on the
+            first roll.  This means a result of 1.  The second roll
+            (the negative or passive roll) shows a 50, which results
+            in 3 for a net result of -2.
+          </p>
+          <p>
+            Another decision is to use the combined table, and a 28 is
+            rolled, which results in -3.
+          </p>
+          <p>
+            A more exotic roll would be the sequence 96, 99, 93, 61 on
+            the <d100/>.  The result would be 34.
+          </p>
+          <p>
+            Using the standard method, the positive sequence on a
+            <d10/> shows 3, 8, 10, 7, 9, 4, 6, 3, 10, 10, 8, 4, 2 and
+            the negative sequence shows 3, 6, 9, 4, 4, 1.  The result
+            is positive 12 and negative 5 with a net result of +7.
+          </p>
+          <p>
+            If you decide that +7 is not precise enough, a roll of 3
+            and 5 on a <d10/> (each) gives are finer result of +7.35.
+          </p>
+        </div>
         <h3 id="adv">Advantages</h3>
         <p>
           This basic rule has several advantages over other rules that
           are proposed in other systems.  In no particular order:
-          <ul>
-            <li>
-              Active and passive are symmetrical.  If you imagine one
-              character stealthily evading another, the first may
-              interprete the rolls as his actively evading against a
-              passive observation of the surroundings, while the
-              second may interprete the rolls as his actively
-              scrutinzing the vicinity against a passively hiding
-              opponent.  Either way, one roll (or set of rolls) will
-              determine the outcome.
-            </li>
-            <li>
-              Scaling with respect to difficulty.  Imagine that one
-              character is particularly strong with a certain skill,
-              but he also attempts more difficult tasks.  Imagine the
-              child character climbing the neighborhood tree and as a
-              grown, experienced man climbing an overhanging cliff.
-              The child's climbing bonus of 12 against a difficulty
-              addition of 14 for the tree gives the same
-              <em>distribution</em> as the adult's bonus of 57 against
-              the cliff's 59.  (We have not made any rules on skills
-              and difficulties yet, but the will turn out to be
-              additions and subtractions from the levels.)
-            </li>
-          </ul>
         </p>
+        <div class="explain">
+          <p>
+            Active and passive are symmetrical.  If you imagine one
+            character stealthily evading another, the first may
+            interprete the rolls as his actively evading against a
+            passive observation of the surroundings, while the second
+            may interprete the rolls as his actively scrutinzing the
+            vicinity against a passively hiding opponent.  Either way,
+            one roll (or set of rolls) will determine the outcome.
+          </p>
+          <p>
+            Scaling with respect to difficulty.  Imagine that one
+            character is particularly strong with a certain skill, but
+            he also attempts more difficult tasks.  Imagine the child
+            character climbing the neighborhood tree and as a grown,
+            experienced man climbing an overhanging cliff.  The
+            child's climbing bonus of 12 against a difficulty addition
+            of 14 for the tree gives the same <em>distribution</em> as
+            the adult's bonus of 57 against the cliff's 59.  (We have
+            not made any rules on skills and difficulties yet, but the
+            will turn out to be additions and subtractions from the
+            levels.)
+          </p>
+        </div>
         <h3 id="design">Design Guideline</h3>
         <p>
           When designing the concrete implementations of skills,
@@ -491,13 +486,12 @@
       </div>
       <div class="container">
         <h1 id="concret">Examples</h1>
-        <p>
-          <ul>
-            <li>
-              <a class="list" href="oper.xml">Rules for Hârnworld</a>.
-            </li>
-          </ul>
-        </p>
+        <h3 id="harn">
+          <a href="oper.xml">Rules for Hârnworld</a>
+        </h3>
+        <h3 id="expanse">
+          <a href="oper2.xml">Rules for Expanse</a>
+        </h3>
       </div>
     </div>
   </body>

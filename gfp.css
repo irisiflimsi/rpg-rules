@@ -1,65 +1,10 @@
 :root {
-    --navbg: #9a3100;
     --h1: #9a3100;
-    --h3: #9a3100;
-    --head: #cf9684;
+    --head: #e7cec6;
     --tde: #ffcece;
-    --tdo: #ffcece;
-}
-
-@page {
-    margin: 2cm;
-}
-
-.noprint, .noprint * {
-    display: none;
-}
-
-div {
-    orphans: 3;
-    widows: 3;
-}
-
-table {
-    font-size: 75%;
-    margin: auto;
-}
-
-body {
-    text-align: justify;
-}
-
-ul.explain {
-    font-size: 80%;
-}
-
-h5.skill {
-    border-top: 2px solid var(--h1);
-}
-
-nav {
-    font-size: 90%;
-}
-
-th {
-    width: 9%;
-    padding: 2px 4px;
-}
-
-td {
-    width: 9%;
-    padding: 2px 4px;
-}
-
-.wide {
-    width: 1200px;
+    --tdo: #cf9684;
 }
 
 svg {
     margin: 2em;
-}
-
-.indent {
-    text-indent: 2em;
-    font-size: 80%;
 }

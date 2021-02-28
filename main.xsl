@@ -76,7 +76,7 @@
             <xsl:text>#</xsl:text>
             <xsl:value-of select="@id"/>
           </xsl:attribute>
-          <xsl:value-of select="text()"/>
+          <xsl:value-of select="."/>
         </xsl:element>
       </xsl:for-each>
     </xsl:for-each>

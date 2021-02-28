@@ -5,7 +5,7 @@
     <title>Rules for Hârnworld</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
-    <!--link rel="stylesheet" media="not print" href="main.css"/-->
+    <link rel="stylesheet" media="not print" href="main.css"/>
     <link rel="stylesheet" media="print" href="mainp.css"/>
     <link rel="stylesheet" media="not print" href="gf.css"/>
     <link rel="stylesheet" media="print" href="gfp.css"/>
@@ -193,61 +193,43 @@
             var s12 = document.getElementById("r1-s2").value;
             var m1 = Math.max(s11,s12);
             var d1 = m1 - Math.min(s11,s12);
-            var re1 = 3  * Math.log(1 + Math.exp(-d1 * Math.LN2 / 3.0)) / Math.LN2;
-            document.getElementById("r1-r3").value = Math.round(10 * (re1 + m1)) / 10;
-            re1 = 5  * Math.log(1 + Math.exp(-d1 * Math.LN2 / 5.0)) / Math.LN2;
+            var re1 = 5  * Math.log(1 + Math.exp(-d1 * Math.LN2 / 5.0)) / Math.LN2;
             document.getElementById("r1-r5").value = Math.round(10 * (re1 + m1)) / 10;
-            re1 = 7  * Math.log(1 + Math.exp(-d1 * Math.LN2 / 7.0)) / Math.LN2;
-            document.getElementById("r1-r7").value = Math.round(10 * (re1 + m1)) / 10;
             var s21 = document.getElementById("r2-s1").value;
             var s22 = document.getElementById("r2-s2").value;
             var m2 = Math.max(s21,s22);
             var d2 = m2 - Math.min(s21,s22);
-            var re2 = 3  * Math.log(1 + Math.exp(-d2 * Math.LN2 / 3.0)) / Math.LN2;
-            document.getElementById("r2-r3").value = Math.round(10 * (re2 + m2)) / 10;
-            re2 = 5  * Math.log(1 + Math.exp(-d2 * Math.LN2 / 5.0)) / Math.LN2;
+            var re2 = 5  * Math.log(1 + Math.exp(-d2 * Math.LN2 / 5.0)) / Math.LN2;
             document.getElementById("r2-r5").value = Math.round(10 * (re2 + m2)) / 10;
-            re2 = 7  * Math.log(1 + Math.exp(-d2 * Math.LN2 / 7.0)) / Math.LN2;
-            document.getElementById("r2-r7").value = Math.round(10 * (re2 + m2)) / 10;
             var s31 = document.getElementById("r3-s1").value;
             var s32 = document.getElementById("r3-s2").value;
             var m3 = Math.max(s31,s32);
             var d3 = m3 - Math.min(s31,s32);
-            var re3 = 3  * Math.log(1 + Math.exp(-d3 * Math.LN2 / 3.0)) / Math.LN2;
-            document.getElementById("r3-r3").value = Math.round(10 * (re3 + m3)) / 10;
-            re3 = 5  * Math.log(1 + Math.exp(-d3 * Math.LN2 / 5.0)) / Math.LN2;
+            var re3 = 5  * Math.log(1 + Math.exp(-d3 * Math.LN2 / 5.0)) / Math.LN2;
             document.getElementById("r3-r5").value = Math.round(10 * (re3 + m3)) / 10;
-            re3 = 7  * Math.log(1 + Math.exp(-d3 * Math.LN2 / 7.0)) / Math.LN2;
-            document.getElementById("r3-r7").value = Math.round(10 * (re3 + m3)) / 10;
           }
         </script>
-        <table class="noprint" style="width:70%;">
+        <table class="noprint" style="width:50%;">
           <tr>
-            <th></th><th>A number</th><th>Another number</th><th>Row-3</th><th>Row-5</th><th>Row-7</th>
+            <td rowspan="4" style="vertical-align:middle">
+              <button type="button" onclick="f()">Calculate</button>
+            </td>
+            <th>Number 1</th><th>Number 2</th><th>Row-5-Addition</th>
           </tr>
           <tr>
-            <td><button type="button" onclick="f()">Calculate</button></td>
             <td><input type="text" size="1" id="r1-s1" value="0.0"/></td>
             <td><input type="text" size="1" id="r1-s2" value="0.0"/></td>
-            <td><input type="text" size="1" disabled="true" id="r1-r3" value="3.0"/></td>
             <td><input type="text" size="1" disabled="true" id="r1-r5" value="5.0"/></td>
-            <td><input type="text" size="1" disabled="true" id="r1-r7" value="7.0"/></td>
           </tr>
           <tr>
-            <td><button type="button" onclick="f()">Calculate</button></td>
             <td><input type="text" size="1" id="r2-s1" value="0.0"/></td>
             <td><input type="text" size="1" id="r2-s2" value="0.0"/></td>
-            <td><input type="text" size="1" disabled="true" id="r2-r3" value="3.0"/></td>
             <td><input type="text" size="1" disabled="true" id="r2-r5" value="5.0"/></td>
-            <td><input type="text" size="1" disabled="true" id="r2-r7" value="7.0"/></td>
           </tr>
           <tr>
-            <td><button type="button" onclick="f()">Calculate</button></td>
             <td><input type="text" size="1" id="r3-s1" value="0.0"/></td>
             <td><input type="text" size="1" id="r3-s2" value="0.0"/></td>
-            <td><input type="text" size="1" disabled="true" id="r3-r3" value="3.0"/></td>
             <td><input type="text" size="1" disabled="true" id="r3-r5" value="5.0"/></td>
-            <td><input type="text" size="1" disabled="true" id="r3-r7" value="7.0"/></td>
           </tr>
         </table>
         <p>
@@ -257,59 +239,26 @@
           read of a result in the second, and add this result to the
           bigger to get the end result.  Looking at the tables, you
           see the reduction in effectiveness when adding smaller
-          numbers to higher ones.
+          numbers to higher ones.  Sometimes, to ease writing, we
+          denote Row-5-Addition with +<sub>5</sub>,
+          e.g. Row-5-Addition of 1 and 2 is written as 1 +<sub>5</sub>
+          2.
         </p>
-        <table style="width:30%">
+        <table style="width:60%">
           <tr>
-            <th>Difference</th><th>Row-3</th><th>Row-5</th><th>Row-7</th>
+            <th>Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td>
+            <td>11-19</td><td>20+</td>
           </tr>
           <tr>
-            <td>0-1</td><td>+3</td><td>+5</td><td>+7</td>
-          </tr>
-          <tr>
-            <td>2-3</td><td>+2</td><td>+4</td><td>+6</td>
-          </tr>
-          <tr>
-            <td>4-5</td><td>+1</td><td>+3</td><td>+5</td>
-          </tr>
-          <tr>
-            <td>6</td><td>+1</td><td>+3</td><td>+4</td>
-          </tr>
-          <tr>
-            <td>7-8</td><td>+1</td><td>+2</td><td>+4</td>
-          </tr>
-          <tr>
-            <td>9</td><td>+1</td><td>+2</td><td>+3</td>
-          </tr>
-          <tr>
-            <td>10</td><td>0</td><td>+2</td><td>+3</td>
-          </tr>
-          <tr>
-            <td>11-12</td><td>0</td><td>+1</td><td>+3</td>
-          </tr>
-          <tr>
-            <td>13-18</td><td>0</td><td>+1</td><td>+2</td>
-          </tr> 
-         <tr>
-            <td>19</td><td>0</td><td>+1</td><td>+1</td>
-          </tr>
-          <tr>
-            <td>20-30</td><td>0</td><td>0</td><td>+1</td>
-          </tr>
-          <tr>
-            <td>31+</td><td>0</td><td>0</td><td>0</td>
+            <td>Row-5-Addition</td><td>+5</td><td>+4</td><td>+3</td><td>+2</td>
+            <td>+1</td><td>0</td>
           </tr>
         </table>
         <p>
-          Sometimes, to ease writing, we denote Row-n-Addition with
-          +<sub>n</sub>, where n=3,5,7, e.g. Row-5-Addition of
-          1 and 2 is written as 1 +<sub>5</sub> 2.
-        </p>
-        <p>
-          In many sections statements effects, durations, fatigue,
-          etc. is mentioned as a skill use or similar.  Whenever it is
-          a multiple a 5, it can be subject to a n5 roll.  Also see
-          the Dimensions section in the Skills section.
+          Many sections state effects, durations, fatigue, etc. as
+          affected through skill use or similar.  Whenever it is a
+          multiple a 5, it can be subject to a n5 roll.  Also see the
+          Dimensions section in the Skills section.
         </p>
         <h3 id="s3kills">Skills</h3>
         <p>
@@ -324,7 +273,7 @@
           organized as a skill.
         </p>
         <h4>Skill List</h4>
-        <table style="width:90%">
+        <table class="links" style="width:90%">
           <tr>
             <td><a href="#sk-acr">Acrobatics</a></td>
             <td><a href="#sk-act">Acting</a></td>
@@ -431,13 +380,16 @@
           </tr>
         </table>
         <h4>Dimensions</h4>
-        <table style="width:90%">
+        <table class="links" style="width:60%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
             <td><a href="#di-art">Artistic</a></td>
             <td><a href="#di-att">Attribute</a></td>
+            <td><a href="#di-com">Combat</a></td>
             <td><a href="#di-div">Divination</a></td>
             <td><a href="#di-kno">Knowledge</a></td>
+          <tr>
+          </tr>
             <td><a href="#di-qua">Quality</a></td>
             <td><a href="#di-reg">Regional</a></td>
             <td><a href="#di-rec">Recipes</a></td>
@@ -476,12 +428,10 @@
           described below).  If the number is negative, any
           improvement of the skill can only happen with a teacher.
           Once an ML reaches zero (0) this restriction no longer
-          applies.
-        </p>
-        <p>
-          Effective Mastery Level (EML) is SB +<sub>5</sub> ML.  It
-          can vary with time.  Other bonuses and penalties may be added
-          in concrete situations.
+          applies.  Sometimes ML denotes the generic value that is
+          constant across all situations.  Bonuses and penalties may
+          be added in concrete situations and that leads to a specific
+          ML, sometimes called EML.
         </p>
         <p>
           Every skill in the list has an Occupation entry.  It shows a
@@ -520,29 +470,28 @@
           imply a Woodcraft group score of 2.4, rounded down to 2.
         </p>
         <p>
-          Note that this section applies to ML, not OML or EML.  EML
-          is calculated regularly as for any skill and OML (if
+          Note that this section applies to ML, not OML.  OML (if
           specialization is attempted at the outset) is as for the
           group skill.
         </p>
         <h4>Skill Testing</h4>
         <p>
-          EML is modified for a concrete test, because of fatigue,
+          ML is modified for a concrete test, because of fatigue,
           injury, encumbrance, or difficult (or easy) circumstance
           <em>Example:</em> a character might normally have a minimum
           0 in Climbing.  However, climbing an ice cliff, with a
           broken arm, during a blizzard is probably impossible, and
-          the GM may feel an EML of -30 is justified.  (This is roughly
+          the GM may feel an ML of -30 is justified.  (This is roughly
           a 1 in 1000 chance of succeeding.)  If instead she was
           trying to decipher an alien script (without access to some
-          sort of comparison) the EML may be at -50.  (This is roughly
-          a 1 in 100,000 chance of succeeding.)  Factors affecting EML
+          sort of comparison) the ML may be at -50.  (This is roughly
+          a 1 in 100,000 chance of succeeding.)  Factors affecting ML
           are sometimes specified in the skill description; otherwise
           GM discretion applies.
         </p>
         <p>
           When a character attempts to use a skill, n5 is rolled.
-          Add/Subtract EML and any other modifiers the GM has noted.
+          Add/Subtract ML and any other modifiers the GM has noted.
           Some modifiers are "standard" and listed below, they will
           not be mentioned explicitely.  The GM will have decided upon
           a diffculty, often called the <em>negative</em> part.  This
@@ -611,7 +560,7 @@
         </p>
         <p>
           <em>Astral Penalty:</em> Astrals of disembodied characters
-          have a special penalty to the EMLs of all skills, spells, and
+          have a special penalty to the MLs of all skills, spells, and
           Psionic talents proportional to the portion of Aura they
           leave with the body.  If 5% of Aura is left behind, Astral
           skills are reduced by -2, if 10% of Aura is left behind,
@@ -636,14 +585,16 @@
           character has earned the chance to improve a skill.  Some
           skills may be developed by practice/study; some require
           training.  Execute each skill roll as follows: Roll n5.  If
-          the roll is greater than current ML, increase ML by one (1);
-          otherwise there is no increase.  This may also be
-          interpreted as a "Learning skill" roll, where everybody has
-          an EML of zero (0) and must match the difficulty of his
-          current mastery.  I.e. the better you already are, the
-          harder it is to improve.  To improve playability, award 1
-          roll per gaming session.  Note that the difficulty is ML,
-          not EML.
+          the roll is greater than current skill ML, increase skill ML
+          by one (1); otherwise there is no increase.  This may also
+          be interpreted as a "Learning skill" roll, where everybody
+          has an learning ML of 0 (but see below) and must match the
+          difficulty of his current skill ML.  I.e. the better you
+          already are, the harder it is to improve.  To improve
+          playability, award 1 roll per gaming session.  Natural
+          affinity to a skill applies to learning, i.e instead of a
+          learning ML of 0, start with SB +<sub>5</sub> 0.  Use the
+          <em>Attribute</em> dimension for that.
         </p>
         <p>
           Additional rolls may be awarded by the GM for extended idle
@@ -786,7 +737,7 @@
           delivered is the same for almost all skills.  This is
           different from the commercial value, which depends on a lot
           of other commercial factors (market size, etc.).  The rare
-          occasion, where an EML of the actor can not be judged are at
+          occasion, where an ML of the actor can not be judged are at
           GM discretion. i.e. someone who successfully evades
           perception cannot be judged on this “performance” by the
           potentially fooled or only in the most general sense.  The
@@ -820,23 +771,190 @@
         </table>
         <h5 id="di-att">Attribute</h5>
         <p>
-          For finer grained numbers, observe that this a
-          Row-5-Addition of ML zero (0) and the pure Attribute SB.
+          This is not a proper dimension, but a convenience section
+          for the Row-5-Addition of an Attribute and 0.  For finer
+          grained numbers, observe that this fact.  The addition can
+          be applied to any SB, in particular for learning.
         </p>
-        <table style="width:60%">
+        <table style="width:30%">
           <tr>
-            <th>Attribute</th><th>-15</th><th>-10</th><th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
-            <th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>10</th><th>15</th>
+            <th>Attribute</th><th>Skill</th><th>Attribute</th><th>Skill</th>
           </tr>
           <tr>
-            <td>Skill</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td><td>4</td><td>5</td>
-            <td>5</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>12</td><td>16</td>
+            <td>-15 - -11</td><td>1</td><td>6 - 7</td><td>9</td>
+          </tr>
+          <tr>
+            <td>-10 - -7</td><td>2</td><td>8</td><td>10</td>
+          </tr>
+          <tr>
+            <td>-6 - -4</td><td>3</td><td>9</td><td>11</td>
+          </tr>
+          <tr>
+            <td>-3 - -2</td><td>4</td><td>10-11</td><td>12</td>
+          </tr>
+          <tr>
+            <td>-1 - 0</td><td>5</td><td>12</td><td>13</td>
+          </tr>
+          <tr>
+            <td>1 - 2</td><td>6</td><td>13</td><td>14</td>
+          </tr>
+          <tr>
+            <td>3 - 4</td><td>7</td><td>14</td><td>15</td>
+          </tr>
+          <tr>
+            <td>5</td><td>8</td><td>15</td><td>16</td>
+          </tr>
+        </table>
+        <h5 id="di-com">Combat</h5>
+        <p>
+          One dimension is the time (in seconds), which it takes to
+          achieve the wound level zero on the defender.  The wound
+          level is a separate dimension.  You should use trajectories.
+          Once a (rolled) progression has reached its goal, a new
+          skill roll is necessary.  It is therefore possible to play
+          10 second round-based combat.
+        </p>
+        <p>
+          Any effects from wounds or other external influences in
+          combat are applied immediately to pending progressions.  At
+          the actors choice it can offset the goal or the time.  To
+          prevent players from immediately aborting "bad" rolls,
+          mandatory secret rolls by the GM can be used.
+        </p>
+        <p>
+          If time is fixed, a best effort attack can be made.  For
+          instance, if an opponent was downed and will get up within a
+          few seconds and the bonus shall be used for better or worse.
+          Since combat is a often used routine, the tables is more
+          extensive than usual.
+        </p>
+        <table class="grid2" style="width:20%">
+          <tr>
+            <th>Dimension</th><th>Time</th><th>Rounds</th><th>Wounds</th>
+            <th>Dimension</th><th>Time</th><th>Rounds</th><th>Wounds</th>
+            <th>Dimension</th><th>Time</th><th>Rounds</th><th>Wounds</th>
+          </tr>
+          <tr>
+            <td>-20</td><td>300</td><td>30</td><td>-40</td>
+            <td>-10</td><td>100</td><td>10</td><td>-15</td>
+            <td>0</td><td>30</td><td>3</td><td>0</td>
+          </tr>
+          <tr>
+            <td>-19</td><td>270</td><td>27</td><td>-37</td>
+            <td>-9</td><td>89</td><td>9</td><td>-13</td>
+            <td>1</td><td>27</td><td>3</td><td>1</td>
+          </tr>
+          <tr>
+            <td>-18</td><td>240</td><td>24</td><td>-34</td>
+            <td>-8</td><td>79</td><td>8</td><td>-11</td>
+            <td>2</td><td>24</td><td>2</td><td>2</td>
+          </tr>
+          <tr>
+            <td>-17</td><td>220</td><td>22</td><td>-31</td>
+            <td>-7</td><td>70</td><td>7</td><td>-9</td>
+            <td>3</td><td>22</td><td>2</td><td>3</td>
+          </tr>
+          <tr>
+            <td>-16</td><td>190</td><td>19</td><td>-28</td>
+            <td>-6</td><td>62</td><td>6</td><td>-7</td>
+            <td>4</td><td>19</td><td>2</td><td>4</td>
+          </tr>
+          <tr>
+            <td>-15</td><td>170</td><td>17</td><td>-25</td>
+            <td>-5</td><td>55</td><td>6</td><td>-5</td>
+            <td>5</td><td>17</td><td>2</td><td>5</td>
+          </tr>
+          <tr>
+            <td>-14</td><td>160</td><td>16</td><td>-23</td>
+            <td>-4</td><td>49</td><td>5</td><td>-4</td>
+            <td>6</td><td>16</td><td>2</td><td>6</td>
+          </tr>
+          <tr>
+            <td>-13</td><td>140</td><td>14</td><td>-21</td>
+            <td>-3</td><td>43</td><td>4</td><td>-3</td>
+            <td>7</td><td>14</td><td>1</td><td>6</td>
+          </tr>
+          <tr>
+            <td>-12</td><td>120</td><td>12</td><td>-19</td>
+            <td>-2</td><td>38</td><td>4</td><td>-2</td>
+            <td>8</td><td>12</td><td>1</td><td>7</td>
+          </tr>
+          <tr>
+            <td>-11</td><td>110</td><td>11</td><td>-17</td>
+            <td>-1</td><td>34</td><td>3</td><td>-1</td>
+            <td>9</td><td>11</td><td>1</td><td>7</td>
+          </tr>
+          <tr>
+            <td>-10</td><td>100</td><td>10</td><td>-15</td>
+            <td>0</td><td>30</td><td>3</td><td>0</td>
+            <td>10</td><td>10</td><td>1</td><td>8</td>
+          </tr>
+          <tr><th colspan="12" style="padding:1px;"/></tr>
+          <tr>
+            <th>Dimension</th><th>Time</th><th>Rounds</th><th>Wounds</th>
+            <th>Dimension</th><th>Time</th><th>Rounds</th><th>Wounds</th>
+            <th>Dimension</th><th>Time</th><th>Rounds</th><th>Wounds</th>
+          </tr>
+          <tr>
+            <td>10</td><td>10</td><td>1</td><td>8</td>
+            <td>20</td><td>3.0</td><td>&#0188;</td><td>13</td>
+            <td>30</td><td>1.0</td><td>0</td><td>17</td>
+          </tr>
+          <tr>
+            <td>11</td><td>8.9</td><td>1</td><td>8</td>
+            <td>21</td><td>2.7</td><td>&#0188;</td><td>13</td>
+            <td>31</td><td>0.9</td><td>0</td><td>17</td>
+          </tr>
+          <tr>
+            <td>12</td><td>7.9</td><td>1</td><td>9</td>
+            <td>22</td><td>2.4</td><td>&#0188;</td><td>14</td>
+            <td>32</td><td>0.8</td><td>0</td><td>18</td>
+          </tr>
+          <tr>
+            <td>13</td><td>7.0</td><td>&#0189;</td><td>9</td>
+            <td>23</td><td>2.2</td><td>&#0188;</td><td>14</td>
+            <td>33</td><td>0.7</td><td>0</td><td>18</td>
+          </tr>
+          <tr>
+            <td>14</td><td>6.2</td><td>&#0189;</td><td>10</td>
+            <td>24</td><td>1.9</td><td>&#0188;</td><td>15</td>
+            <td>34</td><td>0.6</td><td>0</td><td>18</td>
+          </tr>
+          <tr>
+            <td>15</td><td>5.5</td><td>&#0189;</td><td>10</td>
+            <td>25</td><td>1.7</td><td>&#0188;</td><td>15</td>
+            <td>35</td><td>0.6</td><td>0</td><td>19</td>
+          </tr>
+          <tr>
+            <td>16</td><td>4.9</td><td>&#0189;</td><td>11</td>
+            <td>26</td><td>1.6</td><td>&#0188;</td><td>16</td>
+            <td>36</td><td>0.5</td><td>0</td><td>19</td>
+          </tr>
+          <tr>
+            <td>17</td><td>4.3</td><td>&#0189;</td><td>11</td>
+            <td>27</td><td>1.4</td><td>&#0188;</td><td>16</td>
+            <td>37</td><td>0.4</td><td>0</td><td>19</td>
+          </tr>
+          <tr>
+            <td>18</td><td>3.8</td><td>&#0189;</td><td>12</td>
+            <td>28</td><td>1.2</td><td>0</td><td>16</td>
+            <td>38</td><td>0.4</td><td>0</td><td>20</td>
+          </tr>
+          <tr>
+            <td>19</td><td>3.4</td><td>&#0188;</td><td>12</td>
+            <td>29</td><td>1.1</td><td>0</td><td>17</td>
+            <td>39</td><td>0.3</td><td>0</td><td>20</td>
+          </tr>
+          <tr>
+            <td>20</td><td>3.0</td><td>&#0188;</td><td>13</td>
+            <td>30</td><td>1.0</td><td>0</td><td>17</td>
+            <td>40</td><td>0.3</td><td>0</td><td>20</td>
           </tr>
         </table>
         <h5 class="skill" id="di-div">Divination</h5>
         <table style="width:70%">
           <tr>
-            <th>Skill</th><th>-10</th><th>-5</th><th>0</th>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th>
             <th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
           </tr>
           <tr>
@@ -845,7 +963,7 @@
           </tr>
           <tr>
             <td>Proximity</td><td>6 years</td><td>3 years</td><td>1 year</td>
-            <td>1/2 year</td><td>60 days</td><td>30 days</td><td>10 days</td><td>6 days</td><td>2 days</td>
+            <td>&#0189; year</td><td>60 days</td><td>30 days</td><td>10 days</td><td>6 days</td><td>2 days</td>
           </tr>
         </table>
         <h5 class="skill" id="di-kno">Knowledge</h5>
@@ -857,12 +975,49 @@
         </p>
         <table style="width:40%">
           <tr>
-            <th>Skill</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
+            <th>30</th>
           </tr>
           <tr>
-            <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+            <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td>
+            <td>120%</td>
           </tr>
         </table>
+        <div class="explain">
+          <p>
+            <em>0:</em> Character barely knows the domain for such
+            knowledge exists.  With some luck, he can guess whether a
+            general topic belongs to that domain or not.
+          </p>
+          <p>
+            <em>5:</em> One of the most obvious topics has been heard
+            of and can be applied, but without guaranteed success.
+          </p>
+          <p>
+            <em>10:</em> The basic concepts are known, the more
+            esoteric concepts have been heard of but cannot be
+            applied.
+          </p>
+          <p>
+            <em>15:</em> Most concepts are known and many can be
+            applied with a high degree of certainty.
+          </p>
+          <p>
+            <em>20:</em> All concepts of the domain are known and can
+            be applied with confidence.  Only a few topics escape the
+            grasps.
+          </p>
+          <p>
+            <em>25:</em> All of the domain is understood with ease.
+            It is hard to find unknown territory, although it exists.
+            Improvement of the art is possible.
+          </p>
+          <p>
+            <em>30:</em> Mastery of the subject matter as far as
+            humanly possible.  Genuine research or creation of new
+            substance is possible.
+          </p>
+        </div>
         <h5 class="quality" id="di-qua">Quality</h5>
         <p>
           The Quality dimension can be used when a craftsman attempts
@@ -898,23 +1053,23 @@
         </p>
         <table style="width:60%">
           <tr>
-            <th>Skill</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
-            <th>25</th><th>30</th>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th><th>25</th><th>30</th>
           </tr>
           <tr>
-            <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td><td>6</td><td>10</td>
-            <td>20</td><td>30</td>
+            <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td>
+            <td>6</td><td>10</td><td>20</td><td>30</td>
           </tr>
           <tr>
-            <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td><td>300</td><td>1000</td>
-            <td>3000</td><td>10000</td>
+            <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
+            <td>300</td><td>1000</td><td>3000</td><td>10000</td>
           </tr>
         </table>
         <p>
           In general, learning a recipe is a roll with the student's
-          EML.  The student should have a quiet, dedicated space to
+          ML.  The student should have a quiet, dedicated space to
           study.  The <em>Dedicated Ground</em> modifier can be added
-          to the EML directly.  The time cost assumes a student spends
+          to the ML directly.  The time cost assumes a student spends
           12 hours per day (3 watches) on the task, and study is
           continuous until the recipe is mastered.  The GM may assess
           penalties for interruptions in the study.  Some
@@ -986,7 +1141,7 @@
         </p>
         <table style="width:90%">
           <tr>
-            <th>Skill</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th>
+            <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th>
             <th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
           </tr>
           <tr>
@@ -1128,10 +1283,9 @@
           Acrobatics Skill is tested when a character attempts a
           gymnastic feat that is more than a simple matter of native
           Agility.  These include vaults, somersaults, back-flips,
-          twisting in mid-air to land on one’s feet, etc.  Acrobatics
-          is a physical skill.  Rising takes as many seconds as listed
-          in that dimension and during that period the character is
-          considered prone.
+          twisting in mid-air to land on one’s feet, etc.  Rising
+          takes as many seconds as listed in that dimension and during
+          that period the character is considered prone.
         </p>
         <table style="width:60%">
           <tr>
@@ -1190,7 +1344,7 @@
           The skill is used for multiple purposes; to avoid falling
           objects, weapon and missile attacks, and other situations
           requiring Agility.  Dodge is frequently used in combat,
-          directly as dimension.  This is a physical skill.
+          directly as dimension.
         </p>
         <h5 class="skill" id="sk-agr">Agriculture</h5>
         <div class="standard">
@@ -1337,7 +1491,7 @@
           wishes to determine who might have noticed it, or at least
           have noticed that something is out of place.  Awareness
           rolls are often made secretly by the GM.  Awareness tests
-          may be made for sleeping characters with an EML reduction of
+          may be made for sleeping characters with an ML reduction of
           at least 10.
         </p>
         <h5 class="skill" id="sk-axe">Axe</h5>
@@ -1488,7 +1642,7 @@
           table.  Additional modifiers should be made for slipperiness
           and availability of holds.  If the character has climbing
           gear (rope and grappling hook or spikes and mallet) and can
-          use them, increase EML.  Speed is measured in feet per
+          use them, increase ML.  Speed is measured in feet per
           second.  A running total of vertical progress is kept to
           determine when the climb is complete, and the extent of any
           fall.  A single scale should only be rolled once, but any
@@ -1496,9 +1650,8 @@
           negative speed result (below -5) implies a fall.  Climbing
           speed can be increased at the price of increasing the risk.
           For each 5 levels of speed that are accepted as fall,
-          increase EML by 1 point.  The following falling height is
+          increase ML by 1 point.  The following falling height is
           evenly distributed among the attempted climbing height.
-          Climbing is a physical skill.
         </p>
         <table style="width:60%">
           <tr>
@@ -1620,10 +1773,9 @@
           The ability to perform various types of dance.  Specialties
           such as folk or erotic dancing are viable.  Dancing is very
           important in some cultures, and can be used to enhance
-          spellcasting (see HârnMaster Magic).  Dancing is a physical
-          skill.  Dances are social interactions.  Without at least
-          visible encounters with dances, OML is -10.  Use the
-          <em>Artistic</em> dimension.
+          spellcasting (see HârnMaster Magic).  Dances are social
+          interactions.  Without at least visible encounters with
+          dances, OML is -10.  Use the <em>Artistic</em> dimension.
         </p>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
         <div class="standard">
@@ -1650,11 +1802,11 @@
           attempt.  If the victim is not paying attention, penalties
           apply.  If the result is negative the legerdemain is
           detected.  Awareness rolls may also be made for any
-          potential witnesses.  Legerdemain is a physical skill.  The
-          Awareness dimension is obviously modified by the “size” of
-          the feat.  Shells or a coin are assumed for the listed
-          penalty.  The Grope dimension is the time a trick takes, but
-          mostly for larger objects – this is a combat dimension.
+          potential witnesses.  The Awareness dimension is obviously
+          modified by the “size” of the feat.  Shells or a coin are
+          assumed for the listed penalty.  The Grope dimension is the
+          time a trick takes, but mostly for larger objects – this is
+          a combat dimension.
         </p>
         <table style="width:40%">
           <tr>
@@ -1776,7 +1928,6 @@
           activity that normally generates 1 level per minute, now
           does 1 every 6 second.  Remember that the fatigue accrued
           must be used as modifier for the next time interval.
-          Endurance is a physical skill.
         </p>
         <table style="width:30%">
           <tr>
@@ -1926,8 +2077,8 @@
             <th>15</th><th>20</th><th>25</th><th>30</th>
           </tr>
           <tr>
-            <td>Time</td><td>10 d</td><td>6 1/2 d</td><td>3 d</td><td>2 d</td>
-            <td>1 d</td><td>8 h</td><td>3 1/2 h</td><td>2 1/2 h</td><td>1 1/4 h</td>
+            <td>Time</td><td>10 d</td><td>6&#0189; d</td><td>3 d</td><td>2 d</td>
+            <td>1 d</td><td>8 h</td><td>3&#0189; h</td><td>2&#0189; h</td><td>1&#0188; h</td>
           </tr>
         </table>
         <h5 class="skill" id="sk-fol">Folklore</h5>
@@ -1952,7 +2103,7 @@
           most cultures.  Successful use of the skill means the
           character remembers information relevant to the subject
           being inquired about.  To avoid rolling multiple times on
-          this table, the PC that searches his arsenal should give a
+          the table, the PC that searches his arsenal should give a
           “trajectory” among the two dimensions, after the GM tells
           him how obscure the sought story actually is.  For example,
           Rogan is attempting to recall the name of a great hero of
@@ -2046,7 +2197,7 @@
             <td>100</td><td>300</td>
           </tr>
         </table>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>-10:</em> Rural Silence
           </p>
@@ -2129,9 +2280,9 @@
           ability to find and identify individual types of plant.
           When trying to find and gather specific plants in the
           natural environment, test Herblore once per watch (four
-          hours) of searching.  EML is modified according to the
+          hours) of searching.  ML is modified according to the
           plant’s rarity, seeking a plant in an inappropriate locale
-          should reduce EML.  Uses the <em>Recipe</em> and
+          should reduce ML.  Uses the <em>Recipe</em> and
           <em>Knowledge</em> dimensions.  The latter dimension
           describes the recognized herbs, if seen.  The 100% value
           means the set of all herbs the character has been in contact
@@ -2170,7 +2321,7 @@
         </div>
         <p>
           Determines quality of furs or hides cured, and the quality
-          of leather goods produced.  EML is modified by the quality
+          of leather goods produced.  ML is modified by the quality
           and availability of tools and materials.  Rough-curing
           (removing a hide from a carcass and preparing it for
           transport and proper tanning) can be done in the wilderness
@@ -2224,7 +2375,7 @@
         </div>
         <p>
           Determines the quality of jewelry and/or fine metalwork made
-          by the character.  EML depends on the complexity of the task
+          by the character.  ML depends on the complexity of the task
           attempted.  Materials are necessary and failure can be
           expensive.  This skill is also used to appraise gems, fine
           metalwork, and/or jewelry. Uses the <em>Recipe</em>
@@ -2250,8 +2401,7 @@
           height or distance.  Results assume a running start; for
           standing jumps, halve heights and distances.  Results below
           0 turn into a Fall.  For each 5 levels of dimension that are
-          also accepted as fall, increase EML by 1 point.  Jumping is a
-          physical skill.
+          also accepted as fall, increase ML by 1 point.
         </p>
         <table style="width:40%">
           <tr>
@@ -2292,8 +2442,8 @@
           native tongues at their social class level, which is well
           enough to make success rolls unnecessary in general.  If
           needed, the duration of the result is a speech, a dialog, or
-          other coherent activity.  The EML of a skill using language
-          can never exceed language EML in the tongue used.
+          other coherent activity.  The ML of a skill using language
+          can never exceed language ML in the tongue used.
         </p>
         <table style="width:20%">
           <tr>
@@ -2421,7 +2571,7 @@
         </div>
         <p>
           The ability to analyze and pick locks.  Locks are rated for
-          complexity in many publications; reduce EML by twice lock
+          complexity in many publications; reduce ML by twice lock
           complexity (equivalently, increase lock difficulty
           accordingly).  The skill may be used to appraise the
           complexity of a lock and/or to see if it is trapped.
@@ -2731,10 +2881,9 @@
         </div>
         <p>
           Morale is a complex issue, it usually applies only to NPCs
-          (and trained animals).  It is treated as a physical skill in
-          that physical penalties apply.  The higher a result, the
-          more likely the predetermined objectives are followed,
-          usually a military one.  The lower the result, the more
+          (and trained animals).  The higher a result, the more likely
+          the predetermined objectives are followed, usually a
+          military one.  The lower the result, the more
           self-preservation is deterministic of actions, but also
           instincts take over.  “Freezing” in the hopes of being
           ignored may make sense with certain predators but not when
@@ -2759,7 +2908,7 @@
           <em>Rally:</em> An influence on others' Morale is possible
           for the amount above 10 in the roll.  Multiple positive and
           negative influences are added through Row-5-Additions
-          separately to others' EML.
+          separately to others' ML.
         </p>
         <h5 class="skill" id="sk-mov">Move</h5>
         <div class="standard">
@@ -2778,7 +2927,6 @@
           For the sake of playability variance in this should be
           suppressed, although a 20% spread (for a 10 level
           difference) with Agility modification could be appropriate.
-          This is a physical skill.
         </p>
         <table style="width:50%">
           <tr>
@@ -2839,7 +2987,7 @@
           Drums, Winds, Bells) is a separate skill.  Instruments may
           be a specialties.  Among the most common instruments are
           Flute, Horn, Pipes, and Lute.  The availability of musical
-          instruments and skills depends on culture.  EML is modified
+          instruments and skills depends on culture.  ML is modified
           by instrument quality.  Reading and writing of music as a
           Script is treated separately. Use the <em>Artistic</em>
           dimension.
@@ -2905,7 +3053,7 @@
         </div>
         <p>
           The ability to diagnose and treat medical ailments, wounds,
-          etc..  Usually the physician first tests EML to diagnose the
+          etc..  Usually the physician first tests ML to diagnose the
           ailment.  See the Physician chapter.  Most folk have a
           rudimentary understanding of treating wounds and simple
           injuries, a physician can treat animals with a -10 penalty.
@@ -3093,7 +3241,7 @@
           Modifiers: -5 unconscious/sleeping, +5 native spirit, +10
           living, +10 willing.  Conflict Types:
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Possession:</em> An alien spirit may possess a
             physical body by winning a mental conflict with the
@@ -3103,7 +3251,7 @@
             resident Aura.  The losing spirit suffers Dissolution.  An
             evicted spirit may later attempt to repossess its own body
             (or another) with a mental conflict.  Remember that the
-            native spirit (if any) always has +5 to EML.
+            native spirit (if any) always has +5 to ML.
           </p>
           <p>
             <em>Ethereal Conflict:</em> Two ethereals meet and do
@@ -3131,18 +3279,18 @@
           <em>Exorcism:</em> A 5th Circle ritual invocation to aid a
           native spirit evict a possessing alien spirit.  The ritual
           requires frequent laying on of hands and Holy Water.  The
-          effect is to increase Mental Conflict EML.  See Religion.
+          effect is to increase Mental Conflict ML.  See Religion.
         </p>
         <p>
-          Mental Conflict Example.  The demon Karpek (EML 26) seeks to
-          possess the Peonian priestess Larinda (EML 18).  Larinda is
-          +15 for being the native spirit and living (EML 33).  Karpek
+          Mental Conflict Example.  The demon Karpek (ML 26) seeks to
+          possess the Peonian priestess Larinda (ML 18).  Larinda is
+          +15 for being the native spirit and living (ML 33).  Karpek
           rolls +9 and Larinda rolls -3, resulting in fatigue rates 1
           per minute for Larinda and 6 per 10 minutes for Karpek.  A
           few successful shock rolls later, Larinda invokes Peoni’s
           Mercy, a ritual invocation that could force the demon to
           depart.  Her Fatigue at that point is (–2) and the Circle
-          Modifier (–4), which reduces her Ritual EML to 12 and she
+          Modifier (–4), which reduces her Ritual ML to 12 and she
           fails the roll.  The process continues.  This time she fails
           the next Shock roll, allowing the demon its possession.
           Larinda's spirit is evicted and suffers dissolution.  Her
@@ -3241,12 +3389,12 @@
           eloquence, or charisma.  This is something of a shortcut
           skill and discretionary.  An orating PC needs to define the
           audience; mobs maybe stupider than individuals, but they
-          cannot be persuaded to step off a cliff.  Rhetoric EML
-          cannot exceed the orator’s or the audience’s EML in the
+          cannot be persuaded to step off a cliff.  Rhetoric ML
+          cannot exceed the orator’s or the audience’s ML in the
           language being used.  Rhetoric has many uses, from the
           apprehended thief trying to fast-talk his way out of a visit
           to the dungeon, to a friar explaining the mysteries of faith
-          to a child.  Rhetoric EML may be reduced or increased
+          to a child.  Rhetoric ML may be reduced or increased
           considering the targets' Intelligence and their best
           interest.  A net result below 0 on any use of Rhetoric
           suggests the character has made a fool of himself and may
@@ -3300,11 +3448,11 @@
           Riding is used to determine the ability to ride/control a
           steed.  It is tested, whenever the rider attempts to command
           a steed in combat.  A negative result implies a fall.  For
-          riders with less skill, an arbitrary penalty to the EML roll
+          riders with less skill, an arbitrary penalty to the ML roll
           may be taken.  This penalty is applied to the roll but also
           serves as falling threshold to the (unmodified) roll.  Any
           speed beyond the maximum speed is interpreted as a jump of
-          that distance.  For example, Jurin tries to ride a mount
+          that distance.  For example, Juryn tries to ride a mount
           with top speed of 40 (18 yd/s).  With his skill of 0, he
           tries to play it safe and uses a penalty of 10.  He rolls a
           -5, which is greater than -10, so luckily he stays on the
@@ -3320,7 +3468,7 @@
         </p>
         <p>
           In mounted combat, a rider declares his action makes a Steed
-          Command check by testing EML.  A success will permit the
+          Command check by testing ML.  A success will permit the
           command as desired (and possible).  At -10 the command
           fails.  This effects speed changes and turning, failures
           will have the steed continue what it did or what Morale
@@ -3427,7 +3575,7 @@
             <td>Casting Time</td><td>1.2</td><td>1.1</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
           </tr>
         </table>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Baptism, Blessing, Commune, Marriage:</em> Use the
             Piety Gain dimension.
@@ -3468,7 +3616,7 @@
           allied deity: +1, to a neutral deity: -1, to an opposing
           deity: -4. Environmental modifiers are as follows.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Agrik:</em> Fire + 2, Snow/Sea - 2
           </p>
@@ -3682,8 +3830,7 @@
           Skiing is a rare skill except among northern peoples of
           Lythia such as the Yarili of Ivinia.  It is known by some
           Odivshe Shek-Pvar.  The skill is primarily cross-country,
-          but includes basic downhill skiing.  Skiing is a physical
-          skill.
+          but includes basic downhill skiing.
         </p>
         <h5 class="skill" id="sk-sli">Sling</h5>
         <div class="standard">
@@ -3737,10 +3884,9 @@
           </p>
         </div>
         <p>
-          This is a physical skill.  Note that the skill may be
-          improved but not the attribute.  Average Healing time for 1
-          injury point is 2 days.  Factor the above to get the actual
-          healing rate.
+          Note that the skill may be improved but not the attribute.
+          Average Healing time for 1 injury point is 2 days.  Factor
+          the above to get the actual healing rate.
         </p>
         <table style="width:40%">
           <tr>
@@ -3771,9 +3917,9 @@
         <p>
           Stealth is tested when a character attempts to move without
           being detected.  The attempt presumes reasonable conditions.
-          EML is further modified for distance to the target,
+          ML is further modified for distance to the target,
           available cover, etc.  Awareness of potential observers is
-          deducted from EML. i.e. added to difficulty.
+          deducted from ML. i.e. added to difficulty.
         </p>
         <h5 class="skill" id="sk-str">Strength</h5>
         <div class="standard">
@@ -3785,31 +3931,30 @@
           </p>
         </div>
         <p>
-          This is a physical skill.  Note that the skill may be
-          improved but not the attribute.  The listed weight can be
-          lifted excluding your own body.  At that point any activity
-          is at -10.  This penalty scales linearly down or up, any
-          fraction of the weight carried also incurs the same fraction
-          of -10 as penalty.  Note that with certain penalties usually
-          trivial activities (i.e. no roll required) become difficult,
-          for instance not stumbling.  Still without tools, activity
-          with both hands is impossible.  Freeing one hand incurs
-          twice the penalty and assumes that the weight is liftable
-          that way.  Fatigue is accrued at the 1 point per 10 seconds
-          for the maximum lift.  Fractions (which cannot exceed 1) of
-          that lift generate the corresponding fractional fatigue
-          rate.  E.g. lifting half the maximum weight gives 3 points
-          per minute (or 1 per 20 seconds).  Only simple fractions are
-          allowed.
+          Note that the skill may be improved but not the attribute.
+          The listed weight can be lifted excluding your own body.  At
+          that point any activity is at -10.  This penalty scales
+          linearly down or up, any fraction of the weight carried also
+          incurs the same fraction of -10 as penalty.  Note that with
+          certain penalties usually trivial activities (i.e. no roll
+          required) become difficult, for instance not stumbling.
+          Still without tools, activity with both hands is impossible.
+          Freeing one hand incurs twice the penalty and assumes that
+          the weight is liftable that way.  Fatigue is accrued at the
+          1 point per 10 seconds for the maximum lift.  Fractions
+          (which cannot exceed 1) of that lift generate the
+          corresponding fractional fatigue rate.  E.g. lifting half
+          the maximum weight gives 3 points per minute (or 1 per 20
+          seconds).  Only simple fractions are allowed.
         </p>
-        <table style="width:40%">
+        <table style="width:50%">
           <tr>
-            <th>Dimension</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
             <th>15</th><th>20</th><th>25</th><th>30</th>
           </tr>
           <tr>
-            <td>Weight (lbs)</td><td>-</td><td>0</td><td>20</td><td>80</td>
-            <td>180</td><td>320</td><td>500</td><td>720</td>
+            <td>Weight (lbs)</td><td>16</td><td>25</td><td>45</td><td>70</td><td>100</td>
+            <td>160</td><td>250</td><td>450</td><td>700</td>
           </tr>
         </table>
         <h5 class="skill" id="sk-sur">Survival</h5>
@@ -3856,15 +4001,14 @@
           Difficulty of swimming conditions is rated on the Beaufort
           scale.  Test Swimming once for each continuous swim without
           rest.  Any interruption requires a new roll.  With a result
-          below 0 the character starts to sink.  Swimming is a
-          physical skill.  Consider currents for speed determination.
-          A swimmer accumulates one Fatigue Level for every minute of
-          swimming at speed, but may rest by treading water.  A
-          resting swimmer rolls to see if they sink, but does not move
-          (except with the current).  Underwater Swimming is at half
-          speed.  When attempting to convey a conscious swimmer, apply
-          a penalty of 5, for an unconscious person apply a penalty of
-          10.
+          below 0 the character starts to sink.  Consider currents for
+          speed determination.  A swimmer accumulates one Fatigue
+          Level for every minute of swimming at speed, but may rest by
+          treading water.  A resting swimmer rolls to see if they
+          sink, but does not move (except with the current).
+          Underwater Swimming is at half speed.  When attempting to
+          convey a conscious swimmer, apply a penalty of 5, for an
+          unconscious person apply a penalty of 10.
         </p>
         <table style="width:40%">
           <tr>
@@ -3994,7 +4138,7 @@
           spherical, weighs three ounces and fits comfortably in the
           hand.  An ideal situation is one where the thrower has room
           to swing arms, good footing, and no distractions.  Heavier
-          objects reduce EML.  When throwing with little/no attempt at
+          objects reduce ML.  When throwing with little/no attempt at
           accuracy, the table indicates the distance an ideal object
           carries.  Aiming is dealt with in the Combat chapter.
         </p>
@@ -4025,7 +4169,16 @@
             <em>OML:</em> 0
           </p>
         </div>
-        <table>
+        <p>
+          The art of selecting timber from a forest, felling trees,
+          and rough-cutting into lumber.  The unit of yield is
+          sufficient wood to build a wagon, or a wooden cottage. (The
+          wood has to dried and prepared before it can be used by a
+          woodcrafter.  The units are simple trunks or batches of
+          thereof.)  Also note that this skill has a different yield
+          dimension than most others.
+        </p>
+        <table style="width:40%">
           <tr>
             <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
           </tr>
@@ -4036,15 +4189,6 @@
             <td>Yield-Time</td><td>2 mths</td><td>40 days</td><td>30 days</td><td>20 days</td><td>15 days</td>
           </tr>
         </table>
-        <p>
-          The art of selecting timber from a forest, felling trees,
-          and rough-cutting into lumber.  The unit of yield is
-          sufficient wood to build a wagon, or a wooden cottage. (The
-          wood has to dried and prepared before it can be used by a
-          woodcrafter.  The units are simple trunks or batches of
-          thereof.)  Also note that this skill has a different yield
-          dimension than most others.
-        </p>
         <h5 class="skill" id="sk-tra">Tracking</h5>
         <div class="standard">
           <p>
@@ -4135,7 +4279,13 @@
             <em>OML:</em> 0
           </p>
         </div>
-        <table>
+        <p>
+          Different climate types may be specialties.  The ability to
+          predict the weather.  Characters with this skill may attempt
+          to predict the weather any time. Also use the
+          <em>Accuracy</em> dimension.
+        </p>
+        <table style="width:30%">
           <tr>
             <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
           </tr>
@@ -4143,12 +4293,6 @@
             <td>Time</td><td>15min</td><td>1h</td><td>4h</td><td>1 day</td>
           </tr>
         </table>
-        <p>
-          Different climate types may be specialties.  The ability to
-          predict the weather.  Characters with this skill may attempt
-          to predict the weather any time. Also use the
-          <em>Accuracy</em> dimension.
-        </p>
         <h5 class="skill" id="sk-whi">Whip</h5>
         <div class="standard">
           <p>
@@ -4217,7 +4361,26 @@
           values available in the in-world chapter.  You may create
           veterans with these rules.
         </p>
-        <div class="standard">
+        <table style="width:75%">
+          <tr>
+            <th>Modifier</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
+            <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th>
+          </tr>
+          <tr>
+            <td>Weight (lbs)</td><td>56-85</td><td>86-110</td><td>111-130</td>
+            <td>131-145</td><td>146-155</td><td>156-170</td><td>171-190</td>
+            <td>191-215</td><td>216-245</td>
+          </tr>
+          <tr>
+            <td>Range (lbs)</td><td>30</td><td>25</td><td>20</td><td>15</td><td>10</td>
+            <td>15</td><td>20</td><td>25</td><td>30</td>
+          </tr>
+        </table>
+        <p>
+          The preceding weight modifiers to Strength have not been
+          included to the in-world chapter.  They can still be used.
+        </p>
+        <div class="explain">
           <p>
             <em>Height:</em> This distribution is equivalent to
             rolling 6d6-15 around the average given.
@@ -4245,19 +4408,7 @@
             Khuzdul, +2 for Tribesmen.<br/> <b>Smell</b> +3 for
             Sindarin, +2 for Khuzdul, +2 for Tribesmen.<br/>
             <b>Aura</b> +4 for Sindarin, -2 for Khuzdul, +2 for human
-            females.<br/> <b>Will</b> +3 for Khuzdul.<br/> The
-            following weight modifiers have not been included to the
-            in-world chapter.  They can still be used.
-            <table>
-              <tr>
-                <td>56-85</td><td>86-110</td><td>111-130</td><td>131-145</td><td>146-155</td>
-                <td>156-170</td><td>171-190</td><td>191-215</td><td>216-245</td>
-              </tr>
-              <tr>
-                <td>-4</td><td>-3</td><td>-2</td><td>-1</td><td>0</td>
-                <td>+1</td><td>+2</td><td>+3</td><td>+4</td>
-              </tr>
-            </table>
+            females.<br/> <b>Will</b> +3 for Khuzdul.<br/>
           </p>
           <p>
             <em>Psyche:</em> For <em>Multiple Personalties</em> a 2nd
@@ -4288,7 +4439,9 @@
           If multiple occupations are learned, they add through
           Row-5-Addition, when applicable.  In particular, Parent
           Occupation may immediately added, when it is the same as
-          vocational Occupation.
+          vocational Occupation.  Since SB factors into regular
+          learning rolls (see Skill Improvement), the SB is also added
+          in through Row-5-Addition.
         </p>
         <p>
           <em>Chandlers</em> have three craft occupations at 5.  Craft
@@ -4335,7 +4488,7 @@
           To initially enlist in a military unit, a character is
           assessed, with the following additions to an n5 roll.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <b>+1:</b> Good referral, Equipped for that unit, Years of
             military experience, High demand, Strength/Stamina
@@ -4375,11 +4528,11 @@
         <p>
           Alternative, a character with at least an Aura of 10, may
           select or roll Psionic talents with total skill points of
-          AUR - 10.  While Psionic Talents are not physical skills,
-          they accrue Fatigue at 1 point per minute.  Trance indicates
-          a -20 to any other skills attempted during that period.
+          AUR - 10.  Psionic Talents accrue Fatigue at 1 point per
+          minute.  Trance indicates a -20 to any other skills
+          attempted during that period.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Charm:</em> Roll attacker's skill plus Will vs
             defender's Will and reduce the defender’s Agility
@@ -4411,8 +4564,8 @@
           </p>
           <p>
             <em>Negation:</em> Creates a field whose radius is this
-            dimension in feet times the invoker’s 0+<sub>5</sub>5WIL.
-            Any spell/talent rolls are reduced by the EML of the
+            dimension in feet times the invoker’s 0+<sub>5</sub>Will.
+            Any spell/talent rolls are reduced by the ML of the
             invoker.  This is a separate dimension and can be combined
             with the radius.  A field of less than 1 foot implodes and
             fails.
@@ -4423,7 +4576,7 @@
             attack against combustible materials.
           </p>
           <p>
-            <em>Telekinesis:</em> Use EML as Strength skill to lift
+            <em>Telekinesis:</em> Use ML as Strength skill to lift
             and carry something without touching it.
           </p>
           <p>
@@ -4434,7 +4587,7 @@
             tell-tale existence, the penalty is -30.
           </p>
           <p>
-            <em>Transmutation:</em> The effect lasts for up to EML hours.
+            <em>Transmutation:</em> The effect lasts for up to ML hours.
           </p>
         </div>
         <h3 id="r3eligion">Religion</h3>
@@ -4449,9 +4602,18 @@
           said to have Divine Grace.
         </p>
         <p>
-          Some rituals are lay rituals as described in the Religion chapter.  The may be attended by laymen to receive a benefit.  Some need a priest as guidance.  The following is a Piety benefit, if attended and a (individual’s) Ritual roll succeeds.  The benefit is a Row-5-Addition to Piety, which is why the “negative benefit” is actually positive.  (Any rituals must be relevant, of course.  Individual donations of 1d for a rich merchant, for instance, do not qualify.)
+          Some rituals are lay rituals as described in the Religion
+          chapter.  The may be attended by laymen to receive a
+          benefit.  Some need a priest as guidance.  The following is
+          a Piety benefit, if attended and an (individual’s) Ritual
+          roll succeeds.  The benefit is a Row-5-Addition to Piety,
+          which is why the “negative benefit” is actually positive.
+          (Any rituals must be relevant, of course.  Individual
+          donations of 1d for a rich merchant, for instance, do not
+          qualify.)
         </p>
-        <table>
+        <table style="width:30%">
+          <tr><th>Ritual</th><th>Modifier</th></tr>
           <tr><td>Prayer</td><td>-10</td></tr>
           <tr><td>Fasting</td><td>-5</td></tr>
           <tr><td>Confession</td><td>0</td></tr>
@@ -4474,14 +4636,14 @@
           <em>A/D:</em> Weapons give bonuses to combat skills based on
           their effectiveness to attack or defend.  A Roundshield, for
           example, rated as 1/4, is poor for attacking, but excellent
-          for defense.  The EML used in combat when attacking with a
-          weapon adds the first (A) value.  The Attack EML of a Spear
-          (A:4) at ML18 is: 18+4 = 22.  The EML used in combat when
+          for defense.  The ML used in combat when attacking with a
+          weapon adds the first (A) value.  The Attack ML of a Spear
+          (A:4) at ML18 is: 18+4 = 22.  The ML used in combat when
           defending with a weapon adds the second (D) value.
-          <em>HM</em> is also directly added to EML.  <em>WQ</em> is
+          <em>HM</em> is also directly added to ML.  <em>WQ</em> is
           used as skill, not as attribute.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Rest:</em> Fatigue gained by any conflict recovers at
             one Fatigue Level every minute.  With dissolution, fatigue
@@ -4492,7 +4654,7 @@
           </p>
           <p>
             <em>Move:</em> Use the Move skill to determine speed.
-            Subtract 2 from Missile EML for being mounted.  Subtract
+            Subtract 2 from Missile ML for being mounted.  Subtract
             the speed difference in m/s between attacker and defender
             perpendicular to the shot direction.  To avoid lengthy
             calculations, subtract 50% of the attacker speed instead.
@@ -4571,29 +4733,16 @@
             If a hit is scored on the much larger target, roll which
             target is hit by distributing evenly among all the
             unintended targets.  When determining hit chances and
-            damage apply the size modifier from the Aiming table
-            below.  At GM discretion, inanimate objects not
-            participating in the skirmish may be counted as potential
-            targets, particularly, if the actual targets are spread
-            widely across the area.  This increase can be used
-            purposefully and can be quite devastating when firing at
-            advancing troops. The table reduces calculation for
-            playability.
-            <table>
-              <tr>
-                <th>Additional Targets</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
-                <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
-                <th>11</th><th>12</th><th>13</th><th>14</th><th>15</th>
-              </tr>
-              <tr>
-                <td>Bonus</td><td>+2.9</td><td>+5.0</td><td>+6.6</td><td>+7.9</td><td>+9.0</td>
-                <td>+10.0</td><td>+10.8</td><td>+11.6</td><td>+12.3</td><td>12.9</td>
-                <td>13.5</td><td>14.0</td><td>14.5</td><td>15.0</td><td>15.4</td>
-              </tr>
-            </table>
-            Penetrating hits are ignored, i.e. no shots through
-            multiple targets.  The assumed skills rolls all use 0
-            damage and no personal, e.g. aiming, modifiers.
+            damage apply the size modifier from the Size table below.
+            At GM discretion, inanimate objects not participating in
+            the skirmish may be counted as potential targets,
+            particularly, if the actual targets are spread widely
+            across the area.  This increase can be used purposefully
+            and can be quite devastating when firing at advancing
+            troops. The Missile Attack table below reduces calculation
+            for playability.  Penetrating hits are ignored, i.e. no
+            shots through multiple targets.  The assumed skills rolls
+            all use 0 damage and no personal, e.g. aiming, modifiers.
           </p>
           <p>
             <em>Grapple/Tangle:</em> Use Unarmed Combat skill.
@@ -4604,7 +4753,7 @@
             together.
           </p>
           <p>
-            <em>Steed Trample:</em> Use steed EML (and penalties) only.
+            <em>Steed Trample:</em> Use steed ML (and penalties) only.
           </p>
           <p>
             <em>Polearm Defense:</em> Remember the Reach of Long
@@ -4615,7 +4764,7 @@
           </p>
           <p>
             <em>Aiming:</em> The Attacker may declare one Main area as
-            not being hit for a penalty of 1 to EML. This choice can
+            not being hit for a penalty of 1 to ML. This choice can
             be taken multiple times, but the remaining Main locations
             must remain (bodily) connected.  If all but one Main
             location has been eliminated, individual percentage points
@@ -4625,28 +4774,18 @@
             or penalize the choice of Aiming Zone if the attacker
             could only reach certain target zones with the declared
             attack weapon.  A prone attacker would find it difficult
-            to aim high on a standing opponent.  The following size
-            table can be used, if the target is smaller than
-            man-sized. This effect does not cumulate with aiming for
-            parts of a target (the main part of this paragraph).
-            <table>
-              <tr>
-                <th>Modifier</th><th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
-                <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th><th>+5</th>
-              </tr>
-              <tr>
-                <td>Size</td><td>1 ft</td><td>1.5 ft</td><td>2 ft</td><td>3 ft</td><td>4 ft</td>
-                <td>6 ft</td><td>8 ft</td><td>12 ft</td><td>16 ft</td><td>24 ft</td><td>32 ft</td>
-              </tr>
-            </table>
-            There is no modification for man-sized creatures, unless
-            the target offers a smaller effective target.  A prone
-            man, for example, presents a target about 2 feet tall, and
-            a crouching man about 4 feet tall. Similar height
-            adjustments may apply to other targets at GM discretion.
+            to aim high on a standing opponent.  The Size table can be
+            used, if the target is smaller than man-sized. This effect
+            does not cummulate with aiming for parts of a target (the
+            main part of this paragraph).  There is no modification
+            for man-sized creatures, unless the target offers a
+            smaller effective target.  A prone man, for example,
+            presents a target about 2 feet tall, and a crouching man
+            about 4 feet tall. Similar height adjustments may apply to
+            other targets at GM discretion.
           </p>
           <p>
-            <em>Outnumbered:</em> The EML for any defense is decreased
+            <em>Outnumbered:</em> The ML for any defense is decreased
             by 2 for each engaged enemy above one that is not ignored.
             (This includes prone enemies.)  That is, a character
             outnumbered 3:1 subtracts 4 from ML for all defense rolls.
@@ -4687,33 +4826,64 @@
             recalculated.  Damage is then aimed with +20 at the
             grabbing arm.  This grabbing cannot be used together with
             Acrobatics. The character now hangs from the
-            protrusion. Falls use the following table.
-            <table>
-              <tr>
-                <th>Height (ft)</th><th>0</th><th>5</th><th>10</th>
-                <th>15</th><th>20</th><th>25</th><th>30</th>
-                <th>35</th><th>40</th><th>45</th><th>50</th>
-              </tr>
-              <tr>
-                <td>Impact (B)</td><td>0</td><td>0</td><td>1</td>
-                <td>3</td><td>5</td><td>10</td><td>15</td>
-                <td>25</td><td>35</td><td>44</td><td>75</td>
-              </tr>
-            </table>
-            Various surfaces modify fall impact: <em>Water (up to 10
-            ft):</em> -1 / ft.  <em>Mud, Bog:</em> -2.
-            <em>Stone:</em> +3.  <em>Uneven, Rocks:</em> +6.
+            protrusion. Falls use the Fall table.  Various
+            surfaces modify fall impact: <em>Water (up to 10 ft):</em>
+            -1 / ft.  <em>Mud, Bog:</em> -2.  <em>Stone:</em> +3.
+            <em>Uneven, Rocks:</em> +6.
           </p>
         </div>
+        <p style="text-align:center">
+          Missile Attack table
+        </p>
+        <table style="width:70%">
+          <tr>
+            <th>Additional Targets</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+            <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
+            <th>11</th><th>12</th><th>13</th><th>14</th><th>15</th>
+          </tr>
+          <tr>
+            <td>Bonus</td><td>+2.9</td><td>+5.0</td><td>+6.6</td><td>+7.9</td><td>+9.0</td>
+            <td>+10.0</td><td>+10.8</td><td>+11.6</td><td>+12.3</td><td>12.9</td>
+            <td>13.5</td><td>14.0</td><td>14.5</td><td>15.0</td><td>15.4</td>
+          </tr>
+        </table>
+        <p style="text-align:center">
+          Size table
+        </p>
+        <table style="width:60%">
+          <tr>
+            <th>Modifier</th><th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
+            <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th><th>+5</th>
+          </tr>
+          <tr>
+            <td>Size</td><td>1 ft</td><td>1.5 ft</td><td>2 ft</td><td>3 ft</td><td>4 ft</td>
+            <td>6 ft</td><td>8 ft</td><td>12 ft</td><td>16 ft</td><td>24 ft</td><td>32 ft</td>
+          </tr>
+        </table>
+        <p style="text-align:center">
+          Fall table
+        </p>
+        <table style="width:70%">
+          <tr>
+            <th>Height (ft)</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th><th>25</th><th>30</th>
+            <th>35</th><th>40</th><th>45</th><th>50</th>
+          </tr>
+          <tr>
+            <td>Impact (B)</td><td>0</td><td>0</td><td>1</td>
+            <td>3</td><td>5</td><td>10</td><td>15</td>
+            <td>25</td><td>35</td><td>44</td><td>75</td>
+          </tr>
+        </table>
         <h4>Jousting</h4>
         <p>
           Each opponent is attacker and defender at the same time and
-          the result is determined through normal EML rolls.  Use the
+          the result is determined through normal ML rolls.  Use the
           following tactical modifiers.
         </p>
-        <table>
+        <table style="width:50%">
           <tr>
-            <th>Effect</th><th>Unhorsing</th><th>Own Attack EML</th><th>Shield WQ</th><th>Opponent Attack EML</th>
+            <th>Effect</th><th>Unhorsing</th><th>Own Attack ML</th><th>Shield WQ</th><th>Opponent Attack ML</th>
           </tr>
           <tr>
             <td>Block</td><td>+5</td><td>-3</td><td>-2</td><td>-</td>
@@ -4808,7 +4978,7 @@
           interact with for some time.  The following lists those
           properties and the common values used for them.
         </p>
-        <table>
+        <table class="links" style="width:90%">
           <tr>
             <td><a href="#birthdate">Birthdate</a></td>
             <td><a href="#birthplace">Birthplace</a></td>
@@ -4816,16 +4986,14 @@
             <td><a href="#comeliness">Comeliness</a></td>
             <td><a href="#complexion">Complexion</a></td>
             <td><a href="#culture">Culture</a></td>
-          </tr>
-          <tr>
             <td><a href="#deity">Deity</a></td>
             <td><a href="#estrangement">Estrangement</a></td>
             <td><a href="#eyehaircolor">Eye/Hair Color</a></td>
+          </tr>
+          <tr>
             <td><a href="#frame">Frame</a></td>
             <td><a href="#gender">Gender</a></td>
             <td><a href="#height">Height</a></td>
-          </tr>
-          <tr>
             <td><a href="#medical">Medical</a></td>
             <td><a href="#mental">Mental</a></td>
             <td><a href="#morality">Morality</a></td>
@@ -4840,8 +5008,6 @@
             <td><a href="#socialclass">Social Class</a></td>
             <td><a href="#species">Species</a></td>
             <td><a href="#sunsign">Sunsign</a></td>
-          </tr>
-          <tr>
             <td><a href="#voice">Voice</a></td>
             <td><a href="#weight">Weight</a></td>
           </tr>
@@ -4902,7 +5068,7 @@
           personality of a person born on the cusp would be a blend
           of the two signs.
         </p>
-        <table>
+        <table style="width:40%">
           <tr>
             <th>From</th><th>To</th><th>Sunsign</th><th>Symbol</th>
           </tr>
@@ -4965,7 +5131,7 @@
           (e.g. Slaves in Kaldor).  Refer to the relevant HârnWorld
           publication.
         </p>
-        <table>
+        <table style="width:50%">
           <tr>
             <th></th><th>Tribal</th><th>Viking</th><th>Feudal</th><th>Imperial</th><th>Khuzan</th><th>Sindarin</th>
           </tr>
@@ -5002,7 +5168,7 @@
           The individual’s Father and Mother represent an important
           aspect of an individual in a mostly feudal society.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <b>50%</b> of all people are regular offspring, the person
             is raised by his natural parents.  Of these cases, when a
@@ -5070,7 +5236,7 @@
           you. Siblings with different estrangements are often jealous
           of each other; this can produce interesting family politics.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <b>10%</b> are outcasts.  They are ignored or may even be
             attacked by other family members.  Of eldest children,
@@ -5128,7 +5294,7 @@
           height and is determined by the Physician's Guild and
           usually published in a yearly almanach.
         </p>
-        <table>
+        <table style="width:20%">
           <tr>
             <th>Height</th><th>Weight</th>
           </tr>
@@ -5155,7 +5321,7 @@
           too rare, when the data was sampled, but their sizes have
           been standardized by the guild none-the-less.
         </p>
-        <table>
+        <table style="width:80%">
           <tr>
             <th>Weight (lbs)</th><td>61-65</td><td>66-75</td><td>76-90</td>
             <td>91-110</td><td>111-135</td><td>136-165</td><td>166-200</td>
@@ -5180,7 +5346,7 @@
           height ratio.  The optimal <em>Weight : Height</em> ratio is
           considered 100%.
         </p>
-        <table>
+        <table style="width:70%">
           <tr>
             <th>Frame</th><th>W : H</th><th>Human Males</th><th>Human Females</th><th>Sindarin</th><th>Khuzdul</th>
           </tr>
@@ -5206,7 +5372,7 @@
           all people of Hârnic ancestry.  Nordic humans are similar to
           Khuzdul.
         </p>
-        <table>
+        <table style="width:50%">
           <tr>
             <th>Complexion</th><th>Human</th><th>Sindarin</th><th>Khuzdul</th>
           </tr>
@@ -5221,50 +5387,35 @@
           </tr>
         </table>
         <h4 id="eyehaircolor">Eye/Hair Color</h4>
-        <table>
+        <table width="75%">
           <tr>
-            <th rowspan="2">Color</th><th colspan="3">Human</th>
-            <th rowspan="2">Sindarin</th><th rowspan="2">Khuzdul</th>
+            <th>Eye Color</th><th colspan="3">Human</th><th>Sindarin</th><th>Khuzdul</th>
+            <th>Hair Color</th><th colspan="3">Human</th><th>Sindarin</th><th>Khuzdul</th>
           </tr>
           <tr>
-            <th>Fair</th><th>Medium</th><th>Dark</th>
+            <td/><td>Fair</td><td>Medium</td><td>Dark</td><td/><td/>
+            <td/><td>Fair</td><td>Medium</td><td>Dark</td>
           </tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Eye Color</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
           </tr>
           <tr>
             <td>Hazel</td><td>15%</td><td>40%</td><td>65%</td><td>15%</td><td>50%</td>
-          </tr>
-          <tr>
-            <td>Gray</td><td>15%</td><td>15%</td><td>15%</td><td>50%</td><td>15%</td>
-          </tr>
-          <tr>
-            <td>Violet</td><td>5%</td><td>5%</td><td>5%</td><td>10%</td><td>5%</td>
-          </tr>
-          <tr>
-            <td>Green</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td>15%</td>
-          </tr>
-          <tr>
-            <td>Blue</td><td>55%</td><td>30%</td><td>5%</td><td>20%</td><td>15%</td>
-          </tr>
-          <tr>
-            <td style="border: 2px solid var(--h1);">Hair Color</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
-          </tr>
-          <tr>
             <td>Brown</td><td>15%</td><td>40%</td><td>65%</td><td>25%</td><td>40%</td>
           </tr>
           <tr>
+            <td>Gray</td><td>15%</td><td>15%</td><td>15%</td><td>50%</td><td>15%</td>
             <td>Black</td><td>15%</td><td>15%</td><td>15%</td><td>20%</td><td>5%</td>
           </tr>
           <tr>
+            <td>Violet</td><td>5%</td><td>5%</td><td>5%</td><td>10%</td><td>5%</td>
             <td>Red</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td>25%</td>
           </tr>
           <tr>
+            <td>Green</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td>15%</td>
             <td>Silver</td><td>5%</td><td>5%</td><td>5%</td><td>10%</td><td>20%</td>
           </tr>
           <tr>
+            <td>Blue</td><td>55%</td><td>30%</td><td>5%</td><td>20%</td><td>15%</td>
             <td>Blond</td><td>55%</td><td>30%</td><td>5%</td><td>40%</td><td>10%</td>
           </tr>
         </table>
@@ -5275,7 +5426,7 @@
           wear off after some time. The courtesan's guild maintains
           these statistics.
         </p>
-        <table>
+        <table style="width:60%">
           <tr>
             <th>Comeliness</th><th>Ugly</th><th>Plain</th>
             <th>Average</th><th>Attractive</th><th>Handsome</th>
@@ -5321,77 +5472,81 @@
           also unknown whether the same relationship to weight exists
           for Sindarin and Khuzdul.
         </p>
-        <table>
+        <table style="width:60%">
           <tr>
-            <th>Value</th><th>&#9733;</th><th>&#9733;&#9733;</th>
-            <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</th>
+            <td>Value</td><td>&#9733;</td><td>&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Agility</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Agility</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <th>Massive Frame</th><td>10%</td><td>50%</td>
+            <td>Massive Frame</td><td>10%</td><td>50%</td>
             <td>33%</td><td>7%</td><td>-</td><td>-</td>
           </tr>
           <tr>
-            <th>Heavy Frame</th><td>6%</td><td>26%</td><td>55%</td>
+            <td>Heavy Frame</td><td>6%</td><td>26%</td><td>55%</td>
             <td>11%</td><td>1%</td><td>-</td>
           </tr>
           <tr>
-            <th>Normal Frame</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>Normal Frame</td><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
           </tr>
           <tr>
-            <th>Light Frame</th><td>1%</td><td>11%</td>
+            <td>Light Frame</td><td>1%</td><td>11%</td>
             <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
           </tr>
           <tr>
-            <th>Scant Frame</th><td>-</td><td>7%</td><td>33%</td>
+            <td>Scant Frame</td><td>-</td><td>7%</td><td>33%</td>
             <td>50%</td><td>8%</td><td>2%</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Dexterity</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Dexterity</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>Human</td><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
           </tr>
           <tr>
-            <th>Khuzdul</th><td>1%</td><td>11%</td>
+            <td>Khuzdul</td><td>1%</td><td>11%</td>
             <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
           </tr>
           <tr>
-            <th>Sindarin</th><td>-</td><td>7%</td><td>33%</td>
+            <td>Sindarin</td><td>-</td><td>7%</td><td>33%</td>
             <td>50%</td><td>8%</td><td>2%</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Stamina</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Stamina</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>Human</td><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
           </tr>
           <tr>
-            <th>Khuzdul</th><td>-</td><td>7%</td><td>33%</td>
+            <td>Khuzdul</td><td>-</td><td>7%</td><td>33%</td>
             <td>50%</td><td>8%</td><td>2%</td>
           </tr>
           <tr>
-            <th>Sindarin</th><td>1%</td><td>11%</td>
+            <td>Sindarin</td><td>1%</td><td>11%</td>
             <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Strength</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Strength</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <th>Human, Sindarin</th><td>4%</td><td>16%</td><td>60%</td>
+            <td>Human, Sindarin</td><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
           </tr>
           <tr>
-            <th>Khuzdul</th><td>-</td><td>2%</td><td>13%</td>
+            <td>Khuzdul</td><td>-</td><td>2%</td><td>13%</td>
             <td>60%</td><td>20%</td><td>5%</td>
           </tr>
         </table>
@@ -5418,15 +5573,16 @@
           of danger.  Of course, in a medieval town, a keen sense of
           smell may well be a curse.
         </p>
-        <table>
+        <table style="width:60%">
           <tr>
             <th>Value</th><th>&#9733;</th><th>&#9733;&#9733;</th>
             <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Eyesight</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Eyesight</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
             <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
@@ -5439,10 +5595,11 @@
             <th>Sindarin</th><td>-</td><td>7%</td><td>33%</td>
             <td>50%</td><td>8%</td><td>2%</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Hearing</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Hearing</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
             <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
@@ -5455,10 +5612,11 @@
             <th>Khuzdul, Sindarin</th><td>-</td><td>7%</td><td>33%</td>
             <td>50%</td><td>8%</td><td>2%</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Smell</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Smell</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
             <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
@@ -5478,7 +5636,7 @@
           Excellent and unearthly voices are in high demand.  The
           scale is provided by the Sindarin.
         </p>
-        <table>
+        <table style="width:40%">
           <tr>
             <th>Voice</th><th>Unbearable</th><th>Unpleasant</th><th>Average</th>
             <th>Pleasant</th><th>Excellent</th><th>Unearthly</th>
@@ -5501,7 +5659,7 @@
           complete and no prevalence statistics in the populace are
           given.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Addiction:</em> Individuals consume some substance
             like alcohol or a drug.  The urge is hard to overcome in
@@ -5621,7 +5779,7 @@
           articulate.  Often the following descriptions are used for
           the star scale:
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>&#9733; = Absent-minded, moronic, stupid</p>
           <p>&#9733;&#9733; = Forgetful, slow-witted</p>
           <p>&#9733;&#9733;&#9733; = Average</p>
@@ -5642,23 +5800,25 @@
           easily, and has difficulty with tedious tasks.  Those with
           high Will are resolute, confident, and stubborn.
         </p>
-        <table>
+        <table style="width:60%">
           <tr>
             <th>Value</th><th>&#9733;</th><th>&#9733;&#9733;</th>
             <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Intelligence</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Intelligence</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
             <th>All</th><td>4%</td><td>16%</td><td>64%</td>
             <td>12%</td><td>4%</td><td>-</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Aura</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Aura</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
             <th>Human Males</th><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
@@ -5675,10 +5835,11 @@
             <th>Sindarin</th><td>-</td><td>2%</td><td>13%</td>
             <td>60%</td><td>20%</td><td>5%</td>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
-            <td style="border: 2px solid var(--h1);">Will</td>
-            <td style="border: 2px solid var(--h1);" colspan="6"></td>
+            <th>Will</th>
           </tr>
+          <tr><th colspan="7" style="padding:1px;"/></tr>
           <tr>
             <th>Human, Sindarin</th><td>4%</td><td>16%</td><td>60%</td>
             <td>16%</td><td>4%</td><td>-</td>
@@ -5717,7 +5878,7 @@
           are available for physicians not versed in scholarly
           tongues but sufficient funds.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>Absent Minded Acrophobia (Fear of Heights)</p>
           <p>Aichmophobia (Fear of Sharp Blades, etc.)</p>
           <p>Algophobia (Fear of Pain)</p>
@@ -5807,7 +5968,7 @@
           from the Price List on HârnPlayer and the Weapon and Armour
           tables.  Estrangement can also influence funds.
         </p>
-        <table>
+        <table style="width:30%">
           <tr>
             <th>Social Class</th><th>Poor</th><th>Average</th><th>Rich</th>
           </tr>
@@ -5896,12 +6057,25 @@
           person can choose in Hârnic society are listed, with average
           income and years of apprenticeship.
         </p>
-        <table>
+        <table style="width:90%">
+          <tr>
+            <th>Occupation</th>
+            <th>Years</th>
+            <th>Income</th>
+            <th>Occupation</th>
+            <th>Years</th>
+            <th>Income</th>
+            <th>Occupation</th>
+            <th>Years</th>
+            <th>Income</th>
+          </tr>
+          <tr><th colspan="9" style="padding:1px;"/></tr>
           <tr>
             <th colspan="3">Guilded</th>
             <th colspan="3">Unguilded</th>
             <th colspan="3">Military</th>
           </tr>
+          <tr><th colspan="9" style="padding:1px;"/></tr>
           <tr>
             <td>Alchemist</td><td>7</td><td>~</td>
             <td>Animal Trainer</td><td>3</td><td>72d</td>
@@ -5998,9 +6172,15 @@
             <td>Militia/UF</td><td>4</td><td>~</td>
           </tr>
           <tr>
-            <td>Metalsmith</td><td>6</td><td>72d</td>
+            <td rowspan="3">Metalsmith</td><td rowspan="3">6</td><td rowspan="3">72d</td>
+            <th colspan="3" style="padding:1px;"/>
+            <td rowspan="3">Patrician (Knight)</td><td rowspan="3">4</td><td rowspan="3">192d</td>
+          </tr>
+          <tr>
             <th colspan="3">Cleric</th>
-            <td>Patrician (Knight)</td><td>4</td><td>192d</td>
+          </tr>
+          <tr>
+            <th colspan="3" style="padding:1px;"/>
           </tr>
           <tr>
             <td>Miller/Millwright</td><td>6</td><td>84d</td>
@@ -6028,9 +6208,15 @@
             <td>Yeoman/SB</td><td>4</td><td>48d</td>
           </tr>
           <tr>
-            <td>Pilot</td><td>9</td><td>~</td>
-            <td>Cleric/Naveh</td><td>7</td><td>~</td>
+            <td rowspan="3">Pilot</td><td rowspan="3">9</td><td rowspan="3">~</td>
+            <td rowspan="3">Cleric/Naveh</td><td rowspan="3">7</td><td rowspan="3">~</td>
+            <th colspan="3" style="padding:1px;"/>
+          </tr>
+          <tr>
             <th colspan="3">Shek-Pvar</th>
+          </tr>
+          <tr>
+            <th colspan="3" style="padding:1px;"/>
           </tr>
           <tr>
             <td>Potter</td><td>6</td><td>60d</td>
@@ -6135,7 +6321,7 @@
           and rituals in a private (secret) language in addition to
           their church language.
         </p>
-        <table>
+        <table style="width:40%">
           <tr>
             <th>Church</th><th>Language</th><th>Script</th><th>Temple Tongue</th>
           </tr>
@@ -6195,7 +6381,7 @@
           family connections, sufficient funds to bestow, or an
           appropriate recommendation.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p><em>Lyahvi:</em> Wind, Magnification, Visual Illusions</p>
           <p><em>Peleahn:</em> Fireballs, Volcanos, Movement Enhancement</p>
           <p><em>Jmorvi:</em> Weapon Creation, Prospecting/Mining, Lockboxes</p>
@@ -6230,7 +6416,7 @@
           vocation.  The sunsigns Ahnu, Angberelius, and Aralius are
           favored for warriors.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Unarmoured Foot [UF]</em> Unarmoured foot are most
             often found in Militia formations.  Such troops wear
@@ -6505,7 +6691,7 @@
           cleric healing, see Religion. <em>Psionics:</em> For
           information on Psionic healing, see Psionics.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Amputate:</em> Surgical amputation is the only
             treatment for Grievous Frost and may be used to halt
@@ -6621,7 +6807,7 @@
           spells, concepts such as Spellfire Timing, Modeling,
           Detection, Noise, and Foci, all have application.
         </p>
-        <table>
+        <table class="links" style="width:80%">
           <tr>
             <td><a href="#psi-cha">Charm</a></td>
             <td><a href="#psi-cla">Clairvoyance</a></td>
@@ -6629,23 +6815,21 @@
             <td><a href="#psi-hea">Healing</a></td>
             <td><a href="#psi-hex">Hex</a></td>
             <td><a href="#psi-med">Medium</a></td>
-          </tr>
-          <tr>
             <td><a href="#psi-men">Mental Bolt</a></td>
             <td><a href="#psi-neg">Medium</a></td>
+          </tr>
+          <tr>
             <td><a href="#psi-pre">Prescience</a></td>
             <td><a href="#psi-psy">Pychometry</a></td>
             <td><a href="#psi-pyr">Pyrokinesis</a></td>
             <td><a href="#psi-sen">Sensitivity</a></td>
-          </tr>
-          <tr>
             <td><a href="#psi-telk">Telekinesis</a></td>
             <td><a href="#psi-telp">Telepathy</a></td>
             <td><a href="#psi-traf">Transference</a></td>
             <td><a href="#psi-tram">Transmutation</a></td>
           </tr>
         </table>
-        <h4 id="psi-cha">Charm</h4>
+        <h5 id="psi-cha">Charm</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Brief hallucinations or
@@ -6669,7 +6853,7 @@
           approximately 10 yards.  The effect remains in place until
           the attacker stops gazing at the victim.
         </p>
-        <h4 id="psi-cla">Clairvoyance</h4>
+        <h5 id="psi-cla">Clairvoyance</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Vivid dreams of faraway people
@@ -6701,7 +6885,7 @@
           There are no range restrictions, but there is also no chance
           to listen or smell.
         </p>
-        <h4 id="psi-dis">Disembodiment</h4>
+        <h5 id="psi-dis">Disembodiment</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Sleepwalking, dreams of
@@ -6731,7 +6915,7 @@
           relaxed (somewhat similar to how one falls asleep).  The
           time needed to invoke the talent is one minute.
         </p>
-        <h4 id="psi-hea">Healing</h4>
+        <h5 id="psi-hea">Healing</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Emotional empathy (crying at
@@ -6747,26 +6931,29 @@
           Talent requires skin contact between the healer and the
           patient (who may be the healer).  Four options exist:
         </p>
-        <p>
-          <em>Empathy:</em> An attempt to diagnose the patient's
-          emotional state and/or physical well-being.
-        </p>
-        <p>
-          <em>Restoration:</em> An attempt to remove fatigue.  Remove
-          fatigue from the “victim” at a seemingly random rate.  The
-          fatigue is accrued by the talent user at the normal rate.
-        </p>
-        <p>
-          <em>Bloodloss:</em> An attempt to clot a single bleeding
-          wound.
-        </p>
-        <p>
-          <em>Heal:</em> An attempt to increase the healing rate of
-          one identified ailment or wound.  No fatigue is accumulated,
-          but it requires constant attention as a physician would
-          need.
-        </p>
-        <h4 id="psi-hex">Hex</h4>
+        <div class="standard">
+          <p>
+            <em>Empathy:</em> An attempt to diagnose the patient's
+            emotional state and/or physical well-being.
+          </p>
+          <p>
+            <em>Restoration:</em> An attempt to remove fatigue.
+            Remove fatigue from the “victim” at a seemingly random
+            rate.  The fatigue is accrued by the talent user at the
+            normal rate.
+          </p>
+          <p>
+            <em>Bloodloss:</em> An attempt to clot a single bleeding
+            wound.
+          </p>
+          <p>
+            <em>Heal:</em> An attempt to increase the healing rate of
+            one identified ailment or wound.  No fatigue is
+            accumulated, but it requires constant attention as a
+            physician would need.
+          </p>
+        </div>
+        <h5 id="psi-hex">Hex</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> The individual and/or companions
@@ -6790,7 +6977,7 @@
           reduces the victims rolls by his talent skill level.  The
           person may be moving.
         </p>
-        <h4 id="psi-med">Medium</h4>
+        <h5 id="psi-med">Medium</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Very scary nightmares, the dim
@@ -6811,26 +6998,28 @@
           used in one of three ways.  Each requires a trance and
           accumulates fatigue.
         </p>
-        <p>
-          <em>Communion:</em> If successful, the invoker is able to
-          clearly perceive and communicate, for some minutes, with any
-          ethereal within earshot.
-        </p>
-        <p>
-          <em>Summon:</em> An attempt to summon an ethereal currently
-          perceived by the invoker, or whose true name is known.  This
-          results in a Mental Conflict.  Knowing the “true name” is
-          beneficial to the talent user.
-        </p>
-        <p>
-          <em>Control:</em> An attempt to command an ethereal the
-          invoker has summoned.  Another Mental Conflict must be won.
-          Some ethereals are beyond control.  With a win, the ethereal
-          may be commanded to perform a simple task such as answer a
-          yes/no question truthfully within its knowledge, or
-          dispossess a body.
-        </p>
-        <h4 id="psi-men">Mental Bolt</h4>
+        <div class="explain">
+          <p>
+            <em>Communion:</em> If successful, the invoker is able to
+            clearly perceive and communicate, for some minutes, with
+            any ethereal within earshot.
+          </p>
+          <p>
+            <em>Summon:</em> An attempt to summon an ethereal
+            currently perceived by the invoker, or whose true name is
+            known.  This results in a Mental Conflict.  Knowing the
+            “true name” is beneficial to the talent user.
+          </p>
+          <p>
+            <em>Control:</em> An attempt to command an ethereal the
+            invoker has summoned.  Another Mental Conflict must be
+            won.  Some ethereals are beyond control.  With a win, the
+            ethereal may be commanded to perform a simple task such as
+            answer a yes/no question truthfully within its knowledge,
+            or dispossess a body.
+          </p>
+        </div>
+        <h5 id="psi-men">Mental Bolt</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Devastating headaches,
@@ -6845,7 +7034,7 @@
           The ability to project a blast of mental energy at a single
           mind within 25 yards and line of sight.
         </p>
-        <h4 id="psi-neg">Negation</h4>
+        <h5 id="psi-neg">Negation</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Spells/talents tend to go wrong
@@ -6864,7 +7053,7 @@
           a trance and limited to simple activities, like walking. Any
           magic or Psionics entering or within the field are affected.
         </p>
-        <h4 id="psi-pre">Prescience</h4>
+        <h5 id="psi-pre">Prescience</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> A kind of passive triggering of
@@ -6886,26 +7075,28 @@
           interpretation of prescient visions.  There are two active
           forms:
         </p>
-        <p>
-          <em>Prescient Vision:</em> The invoker specifies the subject
-          of inquiry.  The invoker enters a trance for one hour,
-          during which a prescient vision occurs concerning the
-          subject.  Mastery is reduced if the subject is hidden by
-          magic, etc.  Normally, the invoker lacks control over the
-          vision, but with &#9733;&#9733;&#9733;&#9733; or above, it
-          is possible to direct the inquiry somewhat.  Prescience can
-          only reveal likely future events; the future may be altered.
-          The trance does not cause fatigue.
-        </p>
-        <p>
-          <em>Sense of Danger:</em> An attempt to assess danger in a
-          specific location.  The invoker enters a trance for about a
-          minute.  If successful, this gives a vague feeling of danger
-          if there are traps or lurking dangers within an area that
-          could reasonably be reached/accessed within the time frame
-          the trance lasts.  This trance causes fatigue.
-        </p>
-        <h4 id="psi-psy">Psychometry</h4>
+        <div class="explain">
+          <p>
+            <em>Prescient Vision:</em> The invoker specifies the
+            subject of inquiry.  The invoker enters a trance for one
+            hour, during which a prescient vision occurs concerning
+            the subject.  Mastery is reduced if the subject is hidden
+            by magic, etc.  Normally, the invoker lacks control over
+            the vision, but with &#9733;&#9733;&#9733;&#9733; or
+            above, it is possible to direct the inquiry somewhat.
+            Prescience can only reveal likely future events; the
+            future may be altered.  The trance does not cause fatigue.
+          </p>
+          <p>
+            <em>Sense of Danger:</em> An attempt to assess danger in a
+            specific location.  The invoker enters a trance for about
+            a minute.  If successful, this gives a vague feeling of
+            danger if there are traps or lurking dangers within an
+            area that could reasonably be reached/accessed within the
+            time frame the trance lasts.  This trance causes fatigue.
+          </p>
+        </div>
+        <h5 id="psi-psy">Psychometry</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Feelings of Jamais vu in
@@ -6934,7 +7125,7 @@
           obtained.  A reasonable minimum is 5 minutes. (Accrues
           fatigue.)
         </p>
-        <h4 id="psi-pyr">Pyrokinesis</h4>
+        <h5 id="psi-pyr">Pyrokinesis</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> When the person is in a
@@ -6957,7 +7148,7 @@
           but bad results may cause ignition.  The talent has no
           effect on intelligent beings, including the invoker.
         </p>
-        <h4 id="psi-sen">Sensitivity</h4>
+        <h5 id="psi-sen">Sensitivity</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Shivers associated with
@@ -6981,7 +7172,7 @@
           as long as the invoker stays within range of the
           artifact/effect.
         </p>
-        <h4 id="psi-telk">Telekinesis</h4>
+        <h5 id="psi-telk">Telekinesis</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Objects move by themselves, get lost, etc.
@@ -7002,7 +7193,7 @@
           The object to be moved must begin and remain within 50 yards
           and in line of sight.
         </p>
-        <h4 id="psi-telp">Telepathy</h4>
+        <h5 id="psi-telp">Telepathy</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Sharing dreams is very common.
@@ -7027,7 +7218,7 @@
           the time of transmission, they may receive the transmission
           along with, or instead of, the intended target.
         </p>
-        <h4 id="psi-traf">Transference</h4>
+        <h5 id="psi-traf">Transference</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Headaches and dizziness, and
@@ -7057,7 +7248,7 @@
           realize for some time they have changed locations, and may
           never discover they have actually changed worlds.
         </p>
-        <h4 id="psi-tram">Transmutation</h4>
+        <h5 id="psi-tram">Transmutation</h5>
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Headaches, dizziness, and
@@ -7106,7 +7297,7 @@
           Most religious artifacts are constructed of materials which
           are associated with the church and deity.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Agrik:</em> Lava, Obsidian, Steel, Jet.
           </p>
@@ -7161,7 +7352,7 @@
           six.  The table below indicates offices a member of that
           Circle is qualified to hold.
         </p>
-        <table>
+        <table style="width:30%">
           <tr>
             <th>Circle</th><th>Office</th>
           </tr>
@@ -7300,7 +7491,7 @@
           it to wonder the worlds as a shade, or to negotiate with
           another deity for acceptance.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Prayer.</em> One uninterrupted hour of prayer and/or
             meditation in an appropriate temple or on other
@@ -7404,7 +7595,7 @@
           the deities, are often violated by demigods, and certainly
           do not apply to mortal adherents.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Principle of Ineluctability:</em> A mortal mind cannot
             comprehend divine purpose.
@@ -7531,51 +7722,55 @@
           “frooshed” by an ethereal usually experiences an eerie,
           shivering sensation.
         </p>
-        <p>
-          <em>Astrals.</em> An astral is a disembodied spirit,
-          typically created by the use of the Disembodiment Psionic
-          talent or the Transcendence ritual invocation.  An astral
-          maintains strong empathy with its own body because it must
-          leave at least a portion of its Aura behind to avoid death.
-          Because of this link, an astral entity always knows the
-          distance and direction to its native body, and is always
-          aware of any in the status of that body.  A vacated body is
-          comatose in a state of metabolic suspension.  The body is
-          subject to normal physical injury and can die during the
-          absence of its astral.  Should this occur, the resident and
-          astral portions of Aura will immediately dissolute and
-          reform as one entity in double the normal time.  An astral
-          may return and repossess its own (living) body without
-          difficulty, but fatigue is accumulated in the ethereal
-          state.  An astral may also return to find its body has been
-          possessed by an alien spirit.
-        </p>
-        <p>
-          <em>Shades (Ghosts).</em> A shade is created when: The
-          physical body of an astral traveler dies; a person dies
-          without Divine Grace and the spirit is unclaimed by any of
-          the gods; a person dies in circumstances which require a
-          “great wrong” to be righted before the spirit can “rest.”  A
-          shade may wander the world(s), but most often haunts the
-          scene of its death until the “great wrong” is righted, or
-          they are admitted to an afterlife by one of the gods.
-        </p>
-        <p>
-          <em>Natural Ethereals.</em> These are entities whose natural
-          state is ethereal.  They originate on the Astral Plane, most
-          often by powerful sorcery or divine will, but may have a
-          physical form on some other plane.  Divine and semi-divine
-          entities are natural ethereals, as are most elementals.
-          Some entities are able to de-materialize their physical
-          bodies and become entirely ethereal by an act of will, or by
-          arcane means.  De-materialization has the advantage of
-          avoiding the risks of leaving a body behind while the spirit
-          travels.  This ability is evidence for the view, held by
-          many scholars, that the mortal body is simply a convenient
-          physical manifestation of the immortal Aura.  This theory,
-          if true, means that all creatures are really natural
-          ethereals because their immortal state is ethereal.
-        </p>
+        <div class="explain">
+          <p>
+            <em>Astrals.</em> An astral is a disembodied spirit,
+            typically created by the use of the Disembodiment Psionic
+            talent or the Transcendence ritual invocation.  An astral
+            maintains strong empathy with its own body because it must
+            leave at least a portion of its Aura behind to avoid
+            death.  Because of this link, an astral entity always
+            knows the distance and direction to its native body, and
+            is always aware of any in the status of that body.  A
+            vacated body is comatose in a state of metabolic
+            suspension.  The body is subject to normal physical injury
+            and can die during the absence of its astral.  Should this
+            occur, the resident and astral portions of Aura will
+            immediately dissolute and reform as one entity in double
+            the normal time.  An astral may return and repossess its
+            own (living) body without difficulty, but fatigue is
+            accumulated in the ethereal state.  An astral may also
+            return to find its body has been possessed by an alien
+            spirit.
+          </p>
+          <p>
+            <em>Shades (Ghosts).</em> A shade is created when: The
+            physical body of an astral traveler dies; a person dies
+            without Divine Grace and the spirit is unclaimed by any of
+            the gods; a person dies in circumstances which require a
+            “great wrong” to be righted before the spirit can “rest.”
+            A shade may wander the world(s), but most often haunts the
+            scene of its death until the “great wrong” is righted, or
+            they are admitted to an afterlife by one of the gods.
+          </p>
+          <p>
+            <em>Natural Ethereals.</em> These are entities whose
+            natural state is ethereal.  They originate on the Astral
+            Plane, most often by powerful sorcery or divine will, but
+            may have a physical form on some other plane.  Divine and
+            semi-divine entities are natural ethereals, as are most
+            elementals.  Some entities are able to de-materialize
+            their physical bodies and become entirely ethereal by an
+            act of will, or by arcane means.  De-materialization has
+            the advantage of avoiding the risks of leaving a body
+            behind while the spirit travels.  This ability is evidence
+            for the view, held by many scholars, that the mortal body
+            is simply a convenient physical manifestation of the
+            immortal Aura.  This theory, if true, means that all
+            creatures are really natural ethereals because their
+            immortal state is ethereal.
+          </p>
+        </div>
         <p>
           Although usually referred to in the singular, the Astral
           Plane is really an almost infinite number of shifting and
@@ -7667,78 +7862,81 @@
           piety for Divine Grace are on their own as they make the
           Death-Journey.
         </p>
-        <p>
-          <em>Agrikans</em> practice ritual cremation.  Ashes are
-          scattered outdoors or interred in temple vaults, depending
-          on the importance of the deceased to the church.
-        </p>
-        <p>
-          <em>Haleans</em> practice mummification and lay their dead
-          in elaborate tombs surrounded by their worldly goods.
-          However, such rites must be paid for (lavishly).  Haleans
-          are cremated if they cannot afford the rituals.
-        </p>
-        <p>
-          <em>Ilvirans</em> desire to have their mortal remains taken
-          to Araka-Kalai, but few followers are so honored.  Most
-          Ilvirans are quietly buried.  Because of their belief in
-          reincarnation, the internment occurs at dusk and the grave
-          is unmarked.
-        </p>
-        <p>
-          <em>Laranians</em> abhor cremation.  Wealthy families
-          encrypt their dead in family vaults or communal temple
-          vaults.  Those who cannot afford this kind of treatment like
-          to be buried on a battlefield, preferably one where they
-          have fought.
-        </p>
-        <p>
-          <em>Morgathians</em> are the most sophisticated tomb
-          builders on Lythia.  They inter their dead in vast,
-          extensive catacombs.  In regions where the church is
-          outlawed, covert temples to the Lord of the Undead have
-          vaults where the Morgathian dead (and, it is said, undead)
-          are laid.
-        </p>
-        <p>
-          <em>Navehan</em> clerics are rumored to eat their dead.  Lay
-          followers often practice ritual cremation, but other methods
-          are sometimes used.  The Navehans seem to have little
-          reverence for their dead, reserving their respect for the
-          shade of the deceased instead.
-        </p>
-        <p>
-          <em>Peonianism</em> is mainly a religion of rural folk.
-          Burial is the common practice, and most Peonian graveyards
-          are found adjacent to the parish church, or on a nearby
-          hillside.
-        </p>
-        <p>
-          <em>Sarajinians</em> prefer cremation, or burial in stone
-          crypts, a habit they probably acquired from the Khuzdul.  In
-          either case, they like a selection of their worldly goods to
-          accompany them (it is no longer the practice for a warrior’s
-          wives and thralls to accompany him).  Wealthy Ivinians like
-          to be buried in a boat, sometimes set ablaze, sometimes
-          placed in a stone tomb.
-        </p>
-        <p>
-          <em>Save-K’norans</em> practice cremation.  Their ashes are
-          then placed in a small urn that is buried.  A riddle or
-          puzzle which reveals the location of the urn is engraved on
-          a small memorial plaque, which is then incorporated into
-          some stonework within a temple or its compound.  Solving the
-          riddle may find the mortal remains, and a trinket or two to
-          encourage the game, but this obliges the finder to mention
-          the deceased in the finder’s own “death-riddle.”
-        </p>
-        <p>
-          <em>Siemians</em> do not believe in using land for graves or
-          memorials.  The Sindarin cremate their dead and scatter the
-          ashes in a forest.  The Khuzan practice is to entomb their
-          deceased in stone; but, if this is not practical, cremation
-          is preferred to burial in earth.
-        </p>
+        <div class="explain">
+          <p>
+            <em>Agrikans</em> practice ritual cremation.  Ashes are
+            scattered outdoors or interred in temple vaults, depending
+            on the importance of the deceased to the church.
+          </p>
+          <p>
+            <em>Haleans</em> practice mummification and lay their dead
+            in elaborate tombs surrounded by their worldly goods.
+            However, such rites must be paid for (lavishly).  Haleans
+            are cremated if they cannot afford the rituals.
+          </p>
+          <p>
+            <em>Ilvirans</em> desire to have their mortal remains
+            taken to Araka-Kalai, but few followers are so honored.
+            Most Ilvirans are quietly buried.  Because of their belief
+            in reincarnation, the internment occurs at dusk and the
+            grave is unmarked.
+          </p>
+          <p>
+            <em>Laranians</em> abhor cremation.  Wealthy families
+            encrypt their dead in family vaults or communal temple
+            vaults.  Those who cannot afford this kind of treatment
+            like to be buried on a battlefield, preferably one where
+            they have fought.
+          </p>
+          <p>
+            <em>Morgathians</em> are the most sophisticated tomb
+            builders on Lythia.  They inter their dead in vast,
+            extensive catacombs.  In regions where the church is
+            outlawed, covert temples to the Lord of the Undead have
+            vaults where the Morgathian dead (and, it is said, undead)
+            are laid.
+          </p>
+          <p>
+            <em>Navehan</em> clerics are rumored to eat their dead.
+            Lay followers often practice ritual cremation, but other
+            methods are sometimes used.  The Navehans seem to have
+            little reverence for their dead, reserving their respect
+            for the shade of the deceased instead.
+          </p>
+          <p>
+            <em>Peonianism</em> is mainly a religion of rural folk.
+            Burial is the common practice, and most Peonian graveyards
+            are found adjacent to the parish church, or on a nearby
+            hillside.
+          </p>
+          <p>
+            <em>Sarajinians</em> prefer cremation, or burial in stone
+            crypts, a habit they probably acquired from the Khuzdul.
+            In either case, they like a selection of their worldly
+            goods to accompany them (it is no longer the practice for
+            a warrior’s wives and thralls to accompany him).  Wealthy
+            Ivinians like to be buried in a boat, sometimes set
+            ablaze, sometimes placed in a stone tomb.
+          </p>
+          <p>
+            <em>Save-K’norans</em> practice cremation.  Their ashes
+            are then placed in a small urn that is buried.  A riddle
+            or puzzle which reveals the location of the urn is
+            engraved on a small memorial plaque, which is then
+            incorporated into some stonework within a temple or its
+            compound.  Solving the riddle may find the mortal remains,
+            and a trinket or two to encourage the game, but this
+            obliges the finder to mention the deceased in the finder’s
+            own “death-riddle.”
+          </p>
+          <p>
+            <em>Siemians</em> do not believe in using land for graves
+            or memorials.  The Sindarin cremate their dead and scatter
+            the ashes in a forest.  The Khuzan practice is to entomb
+            their deceased in stone; but, if this is not practical,
+            cremation is preferred to burial in earth.
+          </p>
+        </div>
         <p>
           The Death-Journey can be long and fraught with peril,
           depending upon how far a person is out of Divine Grace and
@@ -7753,37 +7951,40 @@
           take possession of the physical body (if any) and end the
           Death-Journey.
         </p>
-        <p>
-          <em>Ghost:</em> souls that have not completed their
-          Death-Journey.  They may wait in one place performing what
-          acts they can to build the Piety they need to make their
-          journey.  Ghosts may help or hinder the journeyer.  The
-          winner of any mental conflict steals of the loser’s piety.
-          The conflict resolution separates the contestant on the
-          Astral plane, so a repeated encounter is unlikely.
-        </p>
-        <p>
-          <em>Demigod:</em> a random servitor of one of the gods.  The
-          demigod will immediately engage in Mental Conflict.  If
-          successful, the demigod brings the lost soul to its master.
-          If the random demigod is a servant of the lost soul’s deity,
-          the soul is admitted to its afterlife.
-        </p>
-        <p>
-          <em>Ilsiri:</em> These spirits may help or hinder the
-          journeyer, but their behavior is alien to humans.  See Siem.
-        </p>
-        <p>
-          <em>Ethereal Ivashu:</em> Ilvir has some Ivashu that roam
-          the ethereal world, gathering souls for use in his
-          creations.  They always engage in mental conflict.
-        </p>
-        <p>
-          <em>Ethereal Humanoid:</em> A human shaman or Shek-Pvar in
-          an ethereal state.  May help or hinder the journeyer.  A
-          Sindarin will always help journeyer, after an initial
-          challenge or contest to test the mettle of the journey.
-        </p>
+        <div class="explain">
+          <p>
+            <em>Ghost:</em> Souls that have not completed their
+            Death-Journey.  They may wait in one place performing what
+            acts they can to build the Piety they need to make their
+            journey.  Ghosts may help or hinder the journeyer.  The
+            winner of any mental conflict steals of the loser’s piety.
+            The conflict resolution separates the contestant on the
+            Astral plane, so a repeated encounter is unlikely.
+          </p>
+          <p>
+            <em>Demigod:</em> A random servitor of one of the gods.
+            The demigod will immediately engage in Mental Conflict.
+            If successful, the demigod brings the lost soul to its
+            master.  If the random demigod is a servant of the lost
+            soul’s deity, the soul is admitted to its afterlife.
+          </p>
+          <p>
+            <em>Ilsiri:</em> These spirits may help or hinder the
+            journeyer, but their behavior is alien to humans.  See
+            Siem.
+          </p>
+          <p>
+            <em>Ethereal Ivashu:</em> Ilvir has some Ivashu that roam
+            the ethereal world, gathering souls for use in his
+            creations.  They always engage in mental conflict.
+          </p>
+          <p>
+            <em>Ethereal Humanoid:</em> A human shaman or Shek-Pvar in
+            an ethereal state.  May help or hinder the journeyer.  A
+            Sindarin will always help journeyer, after an initial
+            challenge or contest to test the mettle of the journey.
+          </p>
+        </div>
       </div>
       <div class="container">
         <h1 id="rituals">Rituals</h1>
@@ -7836,7 +8037,7 @@
           Invocations can be learned in one of three ways: from a
           mentor, from holy scriptures, or by divine revelation.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Mentor training.</em> Most invocations are learned
             from another cleric who knows it.  Both the student and
@@ -7891,7 +8092,7 @@
           in the light, and those of Sarajin are highest amid ice and
           snow.
         </p>
-        <table>
+        <table class="links" style="width:75%">
           <tr>
             <td><a href="#rit-awe">Awe</a></td>
             <td><a href="#rit-bap">Baptism</a></td>
@@ -7899,29 +8100,25 @@
             <td><a href="#rit-comd">Command</a></td>
             <td><a href="#rit-comu">Commune</a></td>
             <td><a href="#rit-con">Consecration</a></td>
-          </tr>
-          <tr>
             <td><a href="#rit-cur">Curse</a></td>
             <td><a href="#rit-div">Divination</a></td>
             <td><a href="#rit-end">Endure</a></td>
             <td><a href="#rit-exc">Excommunication</a></td>
-            <td><a href="#rit-exo">Exorcism</a></td>
-            <td><a href="#rit-lit">Liturgy</a></td>
           </tr>
           <tr>
+            <td><a href="#rit-exo">Exorcism</a></td>
+            <td><a href="#rit-lit">Liturgy</a></td>
             <td><a href="#rit-mar">Marriage</a></td>
-            <td><a href="#rit-pas">Passage of the Soul</a></td>
+            <td><a href="#rit-pas">Passage</a></td>
             <td><a href="#rit-rev">Revelation</a></td>
             <td><a href="#rit-sum">Summoning</a></td>
             <td><a href="#rit-ton">Tongues</a></td>
             <td><a href="#rit-tra">Transference</a></td>
-          </tr>
-          <tr>
             <td><a href="#rit-true">Truesight</a></td>
             <td><a href="#rit-trut">Truthsense</a></td>
           </tr>
         </table>
-        <h4 id="rit-bap">Baptism</h4>
+        <h5 id="rit-bap">Baptism</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -7936,7 +8133,7 @@
           minutes and the convert may immediately gain piety unless he
           already was initiated, in which case it has no effect.
         </p>
-        <h4 id="rit-ble">Blessing</h4>
+        <h5 id="rit-ble">Blessing</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -7954,7 +8151,7 @@
           Piety is lost like fatigue.  Multiple castings cannot bring
           the current addition beyond a one star addition.
         </p>
-        <h4 id="rit-comu">Commune</h4>
+        <h5 id="rit-comu">Commune</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -7970,7 +8167,7 @@
           Piety is lost like fatigue.  Multiple castings cannot bring
           the current addition beyond a one star addition.
         </p>
-        <h4 id="rit-lit">Liturgy</h4>
+        <h5 id="rit-lit">Liturgy</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -7987,7 +8184,7 @@
           Multiple castings cannot bring the current addition beyond
           one star.
         </p>
-        <h4 id="rit-mar">Marriage</h4>
+        <h5 id="rit-mar">Marriage</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8003,7 +8200,7 @@
           the chance to improve their piety from the deity, unless
           either is already married in that religion.
         </p>
-        <h4 id="rit-pas">Passage of the Soul</h4>
+        <h5 id="rit-pas">Passage (of the Soul)</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8020,7 +8217,7 @@
           perform and grants one departed soul &#9733; Piety improvement.
           Multiple castings have no further effect.
         </p>
-        <h4 id="rit-awe">Awe</h4>
+        <h5 id="rit-awe">Awe</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8038,7 +8235,7 @@
           individuals touched by the cleric.  Both forms take 10s to
           perform.
         </p>
-        <h4 id="rit-end">Endure</h4>
+        <h5 id="rit-end">Endure</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8052,7 +8249,7 @@
           Stamina is lost like fatigue.  Multiple castings cannot
           bring the current addition beyond a one star addition.
         </p>
-        <h4 id="rit-ton">Tongues</h4>
+        <h5 id="rit-ton">Tongues</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8066,7 +8263,7 @@
           lost like fatigue after that.  No permanent learning
           enhancement.
         </p>
-        <h4 id="rit-trut">Truthsense</h4>
+        <h5 id="rit-trut">Truthsense</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8081,7 +8278,7 @@
           minutes.  Effects the caster only and what he hears.
           Affects commission and omission lies in the same way.
         </p>
-        <h4 id="rit-div">Divination</h4>
+        <h5 id="rit-div">Divination</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8098,7 +8295,7 @@
           questions must be posed).  A minor wound of &#9733; levels is
           always received.
         </p>
-        <h4 id="rit-cur">Curse</h4>
+        <h5 id="rit-cur">Curse</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8120,7 +8317,7 @@
           receive a wound of the same level (including severity),
           which will heal normally.
         </p>
-        <h4 id="rit-rev">Revelation</h4>
+        <h5 id="rit-rev">Revelation</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8136,7 +8333,7 @@
           long as desired.  Caster is at a penalty of &#9733; for
           everything that does not involve ethereals.
         </p>
-        <h4 id="rit-sum">Summoning</h4>
+        <h5 id="rit-sum">Summoning</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8155,7 +8352,7 @@
           this ritual.  The will of the ethereal is a penalty to the
           skill roll.
         </p>
-        <h4 id="rit-true">Truesight</h4>
+        <h5 id="rit-true">Truesight</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8172,7 +8369,7 @@
           ultra-sound at conversational volume.  This attribute dies
           down as fatigue.
         </p>
-        <h4 id="rit-comd">Command</h4>
+        <h5 id="rit-comd">Command</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8191,7 +8388,7 @@
           enact.  It affects only one servant at a time but the caster
           chooses which.
         </p>
-        <h4 id="rit-con">Consecration</h4>
+        <h5 id="rit-con">Consecration</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8202,8 +8399,9 @@
         <p>
           A ritual to sanctify an object or place.  Consecrations last
           indefinite and may be removed by another consecration, but
-          with a special penalty of &#9733;&#9733;, but for rituals of different
-          deities this is at a penalty of &#9733;&#9733;&#9733;&#9733;&#9733; if the invoker is an
+          with a special penalty of &#9733;&#9733;, but for rituals of
+          different deities this is at a penalty of
+          &#9733;&#9733;&#9733;&#9733;&#9733; if the invoker is an
           adherent of another deity.  Permanent consecrations can
           never be removed, except by physical destruction of the
           object.
@@ -8245,7 +8443,7 @@
           during the ritual.  Any version of the ritual must be
           completed within one watch.
         </p>
-        <h4 id="rit-exc">Excommunication</h4>
+        <h5 id="rit-exc">Excommunication</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8263,7 +8461,7 @@
           is as far as the caster is authorized to invoke by the
           church.
         </p>
-        <h4 id="rit-exo">Exorcism</h4>
+        <h5 id="rit-exo">Exorcism</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8277,7 +8475,7 @@
           Water.  The invocation involves Mental Conflict with the
           possessing spirit, modified by &#9733;&#9733;.  Casting time is 5 hours.
         </p>
-        <h4 id="rit-tra">Transcendence</h4>
+        <h5 id="rit-tra">Transcendence</h5>
         <div class="standard">
           <p>
             <em>Deity:</em> Common.
@@ -8356,7 +8554,7 @@
           craft skills can make/repair their own weapons, but rarely
           with WQs as high as listed.
         </p>
-        <table>
+        <table style="width:70%">
           <tr>
             <th>Weapon</th><th>Skill</th><th>WT</th><th>WQ</th>
             <th>A/D</th><th>HM</th><th>B</th><th>E</th><th>P</th><th>Price</th>
@@ -8373,7 +8571,6 @@
             <td>Head</td><td>Unarmed</td><td>-</td><td>-</td>
             <td>0/0</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>-</td>
           </tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Buckler</td><td>Shield</td><td>3</td><td>13</td>
@@ -8396,7 +8593,6 @@
             <td>1/5</td><td>-</td><td>3</td><td>-</td><td>(3)</td><td>96d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Knife (T)</td><td>Dagger</td><td>1</td><td>11</td>
             <td>1/0</td><td>-</td><td>0</td><td>1</td><td>4</td><td>M/6d</td>
@@ -8413,7 +8609,6 @@
             <td>Keltan</td><td>Dagger</td><td>2</td><td>13</td>
             <td>1/2</td><td>-</td><td>2</td><td>0</td><td>3</td><td>36d</td>
           </tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Longknife (S)</td><td>Sword</td><td>1</td><td>13</td>
@@ -8452,7 +8647,6 @@
             <td>5/2</td><td>-4</td><td>5</td><td>8</td><td>4</td><td>230d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Stick (2ft) (T)</td><td>Club</td><td>2</td><td>10</td>
             <td>1/1</td><td>-</td><td>2</td><td>-</td><td>(2)</td><td>n/a</td>
@@ -8473,7 +8667,6 @@
             <td>Maul (T)</td><td>Club</td><td>7</td><td>10</td>
             <td>4/1</td><td>-4</td><td>7</td><td>-</td><td>-</td><td>W/24d</td>
           </tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Sickle (C)</td><td>Axe</td><td>1</td><td>10</td>
@@ -8500,7 +8693,6 @@
             <td>4/2</td><td>-3</td><td>6</td><td>9</td><td>(6)</td><td>100d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Nachaka (R)</td><td>Flail</td><td>1</td><td>11</td>
             <td>3/2</td><td>-</td><td>4</td><td>-</td><td>-</td><td>12d</td>
@@ -8518,7 +8710,6 @@
             <td>5/2</td><td>-4</td><td>9</td><td>-</td><td>(6)</td><td>60d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Staff (C)</td><td>Spear</td><td>4</td><td>12</td>
             <td>4/3</td><td>-2</td><td>4</td><td>-</td><td>-</td><td>W/36d</td>
@@ -8535,7 +8726,6 @@
             <td>Trident</td><td>Spear</td><td>6</td><td>13</td>
             <td>4/3</td><td>-2</td><td>4</td><td>-</td><td>5</td><td>72d</td>
           </tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Lance (10ft) (C)</td><td>Polearm</td><td>8</td><td>12</td>
@@ -8558,7 +8748,6 @@
             <td>5/1</td><td>-5</td><td>4</td><td>-</td><td>8</td><td>96d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Net</td><td>Net</td><td>4</td><td>10</td>
             <td>4/0</td><td>-</td><td>2</td><td>-</td><td>(1)</td><td>48d</td>
@@ -8571,7 +8760,6 @@
             <td>Isagra (L) (R)</td><td>Whip</td><td>4</td><td>12</td>
             <td>5/1</td><td>-</td><td>3</td><td>3</td><td>-</td><td>H/20d</td>
           </tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Crossbow (M)(R)</td><td>Bow</td><td>5</td><td>11</td>
@@ -8589,7 +8777,6 @@
             <td>Hartbow (M)(S)</td><td>Bow</td><td>2</td><td>14</td>
             <td>1/1</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>F/96d</td>
           </tr>
-          <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
             <td>Blowgun (M)(R)</td><td>Blowgun</td><td>1</td><td>9</td>
@@ -8635,7 +8822,7 @@
           naturally occur from overlapping garments) incurrs a Special
           Penalty.
         </p>
-        <table>
+        <table style="width:30%">
           <tr>
             <th>Material</th><th>Blunt</th><th>Edge</th><th>Point</th><th>Fire</th>
           </tr>
@@ -8677,31 +8864,7 @@
           breakage, add all 4 protective values together through
           Row-5-Addition.
         </p>
-        <p>
-          <em>Items:</em> Cloth and Quilt items are made by clothiers,
-          leather by hideworkers, and all other items by
-          weaponcrafters.
-        </p>
-        <p>
-          <em>WT:</em> Armour weight (lbs) for an average sized
-          person.
-        </p>
-        <p>
-          <em>Price:</em> Typical retail selling price for an item of
-          average size and quality.
-        </p>
-        <p>
-          <em>Coverage:</em> Strike locations (body parts) covered by
-          the armour piece.  <em>Ab:</em> Abdomen, <em>Bk:</em> Back
-          (Rear Tx Ab), <em>Ca:</em> Calves, <em>Ch:</em> Chest (Front
-          Tx Ab), <em>El:</em> Elbow, <em>Fa:</em> Face, <em>Fo:</em>
-          Forearms, <em>Ft:</em> Feet, <em>Gr:</em> Groin,
-          <em>Ha:</em> Hands, <em>Hp:</em> Hips, <em>Kn:</em> Knees,
-          <em>Nk:</em> Neck, <em>Sh:</em> Shoulders, <em>Sk:</em>
-          Skull, <em>Th:</em> Thighs, <em>Tx:</em> Thorax,
-          <em>Ua:</em> Upper Arms.
-        </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Cloth:</em> heavy, coarse cloth, typically buckram or
             serge, worn over or under other types of armour, or alone
@@ -8746,7 +8909,31 @@
             <em>Joust*:</em> These are regular items used in jousting context.
           </p>
         </div>
-        <table>
+        <p>
+          <em>Items:</em> Cloth and Quilt items are made by clothiers,
+          leather by hideworkers, and all other items by
+          weaponcrafters.
+        </p>
+        <p>
+          <em>WT:</em> Armour weight (lbs) for an average sized
+          person.
+        </p>
+        <p>
+          <em>Price:</em> Typical retail selling price for an item of
+          average size and quality.
+        </p>
+        <p>
+          <em>Coverage:</em> Strike locations (body parts) covered by
+          the armour piece.  <em>Ab:</em> Abdomen, <em>Bk:</em> Back
+          (Rear Tx Ab), <em>Ca:</em> Calves, <em>Ch:</em> Chest (Front
+          Tx Ab), <em>El:</em> Elbow, <em>Fa:</em> Face, <em>Fo:</em>
+          Forearms, <em>Ft:</em> Feet, <em>Gr:</em> Groin,
+          <em>Ha:</em> Hands, <em>Hp:</em> Hips, <em>Kn:</em> Knees,
+          <em>Nk:</em> Neck, <em>Sh:</em> Shoulders, <em>Sk:</em>
+          Skull, <em>Th:</em> Thighs, <em>Tx:</em> Thorax,
+          <em>Ua:</em> Upper Arms, <em>Co:</em> Tx Ab Hp Gr.
+        </p>
+        <table style="width:70%">
           <tr>
             <th>Material</th><th>Items</th><th>WT</th><th>Price</th><th>Coverage</th>
           </tr>
@@ -8760,21 +8947,20 @@
             <td>Cloth</td><td>Vest</td><td>2.8</td><td>56d</td><td>Sh Tx Ab</td>
           </tr>
           <tr>
-            <td>Cloth</td><td>Tunic</td><td>4.4</td><td>88d</td><td>Ua Sh Tx Ab Hp Gr</td>
+            <td>Cloth</td><td>Tunic</td><td>4.4</td><td>88d</td><td>Ua Sh Co</td>
           </tr>
           <tr>
-            <td>Cloth</td><td>Surcoat</td><td>5.2</td><td>104d</td><td>Sh Tx Ab Hp Gr Th</td>
+            <td>Cloth</td><td>Surcoat</td><td>5.2</td><td>104d</td><td>Sh Co Th</td>
           </tr>
           <tr>
-            <td>Cloth</td><td>Robe</td><td>7.8</td><td>156d</td><td>Ua Sh Tx Ab Hp Gr Fo El Th Kn Ca</td>
+            <td>Cloth</td><td>Robe</td><td>7.8</td><td>156d</td><td>Ua Sh Co Fo El Th Kn Ca</td>
           </tr>
           <tr>
             <td>Cloth</td><td>Leggings</td><td>4.4</td><td>88d</td><td>Hp Gr Th Kn Ca Ft</td>
           </tr>
           <tr>
-            <td>Cloth</td><td>Caparisons</td><td>80.0</td><td>160d</td><td>All except eyes and muzzle</td>
+            <td>Cloth</td><td>Caparisons</td><td>80.0</td><td>160d</td><td>All but eyes and muzzle</td>
           </tr>
-          <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr>
             <td>Quilt</td><td>Cap</td><td>1.2</td><td>16d</td><td>Sk</td>
@@ -8783,15 +8969,14 @@
             <td>Quilt</td><td>Cowl</td><td>2.4</td><td>32d</td><td>Sk Nk</td>
           </tr>
           <tr>
-            <td>Quilt</td><td>Tunic</td><td>3.2</td><td>176d</td><td>Ua Sh Tx Ab Hp Gr</td>
+            <td>Quilt</td><td>Tunic</td><td>3.2</td><td>176d</td><td>Ua Sh Co</td>
           </tr>
           <tr>
-            <td>Quilt</td><td>Gambeson</td><td>19.5</td><td>260d</td><td>Fo El Ua Sh Tx Ab Hp Gr Th</td>
+            <td>Quilt</td><td>Gambeson</td><td>19.5</td><td>260d</td><td>Fo El Ua Sh Co Th</td>
           </tr>
           <tr>
             <td>Quilt</td><td>Leggings</td><td>9.2</td><td>184d</td><td>Hp Gr Th Kn Ca Ft</td>
           </tr>
-          <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr>
             <td>Leather</td><td>Cap</td><td>0.8</td><td>16d</td><td>Sk</td>
@@ -8803,10 +8988,10 @@
             <td>Leather</td><td>Vest</td><td>5.6</td><td>112d</td><td>Sh Tx Ab</td>
           </tr>
           <tr>
-            <td>Leather</td><td>Tunic</td><td>8.8</td><td>176d</td><td>Ua Sh Tx Ab Hp Gr</td>
+            <td>Leather</td><td>Tunic</td><td>8.8</td><td>176d</td><td>Ua Sh Co</td>
           </tr>
           <tr>
-            <td>Leather</td><td>Surcoat</td><td>10.4</td><td>208d</td><td>Sh Tx Ab Hp Gr Th</td>
+            <td>Leather</td><td>Surcoat</td><td>10.4</td><td>208d</td><td>Sh Co Th</td>
           </tr>
           <tr>
             <td>Leather</td><td>Leggings</td><td>8.8</td><td>176d</td><td>Hp Gr Th Kn Ca Ft</td>
@@ -8823,7 +9008,6 @@
           <tr>
             <td>Leather</td><td>Gauntlets/2</td><td>0.8</td><td>16d</td><td>Ha</td>
           </tr>
-          <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr>
             <td>Kurbul</td><td>Halfhelm</td><td>1.0</td><td>20d</td><td>Sk</td>
@@ -8853,7 +9037,6 @@
             <td>Kurbul</td><td>Greaves/2</td><td>2.5</td><td>50d</td><td>Ca</td>
           </tr>
           <tr><th colspan="5" style="padding:1px;"/></tr>
-          <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr>
             <td>Ring</td><td>Halfhelm</td><td>1.6</td><td>28d</td><td>Sk</td>
           </tr>
@@ -8861,10 +9044,10 @@
             <td>Ring</td><td>Vest</td><td>11.2</td><td>196d</td><td>Sh Tx Ab</td>
           </tr>
           <tr>
-            <td>Ring</td><td>Byrnie</td><td>17.6</td><td>308d</td><td>Ua Sh Tx Ab Hp Gr</td>
+            <td>Ring</td><td>Byrnie</td><td>17.6</td><td>308d</td><td>Ua Sh Co</td>
           </tr>
           <tr>
-            <td>Ring</td><td>Hauberk</td><td>26.0</td><td>455d</td><td>Fo El Ua Sh Tx Ab Hp Gr Th</td>
+            <td>Ring</td><td>Hauberk</td><td>26.0</td><td>455d</td><td>Fo El Ua Sh Co Th</td>
           </tr>
           <tr>
             <td>Ring</td><td>Leggings</td><td>17.6</td><td>308d</td><td>Hp Gr Th Kn Ca Ft</td>
@@ -8876,12 +9059,11 @@
             <td>Mail</td><td>Cowl</td><td>4.0</td><td>120d</td><td>Sh Nk</td>
           </tr>
           <tr><th colspan="5" style="padding:1px;"/></tr>
-          <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr>
-            <td>Mail</td><td>Byrnie</td><td>22.0</td><td>660d</td><td>Ua Sh Tx Ab Hp Gr</td>
+            <td>Mail</td><td>Byrnie</td><td>22.0</td><td>660d</td><td>Ua Sh Co</td>
           </tr>
           <tr>
-            <td>Mail</td><td>Hauberk</td><td>32.5</td><td>975d</td><td>Fo El Ua Sh Tx Ab Hp Gr Th</td>
+            <td>Mail</td><td>Hauberk</td><td>32.5</td><td>975d</td><td>Fo El Ua Sh Co Th</td>
           </tr>
           <tr>
             <td>Mail</td><td>Leggings</td><td>22.0</td><td>660d</td><td>Hp Gr Th Kn Ca Ft</td>
@@ -8890,17 +9072,15 @@
             <td>Mail</td><td>Mittens/2</td><td>2.0</td><td>60d</td><td>Ha</td>
           </tr>
           <tr><th colspan="5" style="padding:1px;"/></tr>
-          <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr>
             <td>Scale</td><td>Vest</td><td>19.6</td><td>280d</td><td>Sh Tx Ab</td>
           </tr>
           <tr>
-            <td>Scale</td><td>Byrnie</td><td>30.8</td><td>440d</td><td>Ua Sh Tx Ab Hp Gr</td>
+            <td>Scale</td><td>Byrnie</td><td>30.8</td><td>440d</td><td>Ua Sh Co</td>
           </tr>
           <tr>
-            <td>Scale</td><td>Hauberk</td><td>45.5</td><td>650d</td><td>Fo El Ua Sh Tx Ab Hp Gr Th</td>
+            <td>Scale</td><td>Hauberk</td><td>45.5</td><td>650d</td><td>Fo El Ua Sh Co Th</td>
           </tr>
-          <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr><th colspan="5" style="padding:1px;"/></tr>
           <tr>
             <td>Plate</td><td>Halfhelm</td><td>3.2</td><td>100d</td><td>Sk</td>
@@ -8939,10 +9119,10 @@
             <td>Joust*</td><td>Knight</td><td>5.0</td><td>60d</td><td>Left Sh Ua El Fo Ha Ch Hp</td>
           </tr>
           <tr>
-            <td>Joust*</td><td>Kite</td><td>7.0</td><td>72d</td><td>Left Sh Ua El Fo Ha Ch Hp Th</td>
+            <td>Joust*</td><td>Kite</td><td>7.0</td><td>72d</td><td>As Knight + Th</td>
           </tr>
           <tr>
-            <td>Joust*</td><td>War saddle (Kurbul + 2 x Cloth)</td><td>30.0</td><td>240d</td><td>Gr</td>
+            <td>Joust*<br/>(Kurbul + 2 x Cloth)</td><td>War saddle</td><td>30.0</td><td>240d</td><td>Gr</td>
           </tr>
           <tr>
             <td>Joust*</td><td>Plate Vamplates</td><td>2.0</td><td>240d</td><td>Right Ha</td>
@@ -8965,7 +9145,7 @@
           there is a 75% chance of being struck on the front side.  An
           asterisk (*) indicates that Stumble or Fumbles may apply.
         </p>
-        <table>
+        <table class="grid" style="width:50%">
           <tr>
             <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
             <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
@@ -9037,7 +9217,7 @@
           missile type and range.  These effects are noted on the
           table.
         </p>
-        <table>
+        <table style="width:50%">
           <tr>
             <th>Weapon</th><th>P</th><th>0</th><th>&#9733;</th><th>&#9733;&#9733;</th>
             <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th>
@@ -9102,7 +9282,7 @@
           actions, incomplete actions and action being affected by
           other activity.  Some of the more common actions are listed.
         </p>
-        <div class="standard">
+        <div class="explain">
           <p>
             <em>Rest:</em> The combatant does nothing except possibly
             sit or lie down.  Resting combatants can attend to wounds,
@@ -9554,24 +9734,27 @@
           Note that the usage effects on bordering regions needs to be
           treated as well.
         </p>
-        <table>
-          <tr><th>Wound</th><th>Treatment</th></tr>
-          <tr><td>Minor Blunt</td><td>Compress</td></tr>
-          <tr><td>Serious Blunt</td><td>Splint</td></tr>
-          <tr><td>Grievous Blunt</td><td>Surgery</td></tr>
-          <tr><td>Incapacitating Blunt</td><td>Amputate</td></tr>
-          <tr><td>Minor Edge</td><td>Clean &#0038; Dress</td></tr>
-          <tr><td>Serious Edge</td><td>Surgery</td></tr>
-          <tr><td>Grievous Edge</td><td>Surgery</td></tr>
-          <tr><td>Incapacitating Edge</td><td>Amputate</td></tr>
-          <tr><td>Minor Point</td><td>Clean &#0038; Dress</td></tr>
-          <tr><td>Serious Point</td><td>Clean &#0038; Dress</td></tr>
-          <tr><td>Grievous Point</td><td>Surgery</td></tr>
-          <tr><td>Incapacitating Point</td><td>Amputate</td></tr>
-          <tr><td>Minor Frost</td><td>Warming</td></tr>
-          <tr><td>Serious Frost</td><td>Warming</td></tr>
-          <tr><td>Grievous Frost</td><td>Amputate</td></tr>
-          <tr><td>Incapacitating Frost</td><td>Amputate</td></tr>
+        <table style="width:30%">
+          <tr><th>Wound</th><th>Severity</th><th>Treatment</th></tr>
+          <tr><td>Blunt</td><td>Minor</td><td>Compress</td></tr>
+          <tr><td>Blunt</td><td>Serious</td><td>Splint</td></tr>
+          <tr><td>Blunt</td><td>Grievous</td><td>Surgery</td></tr>
+          <tr><td>Blunt</td><td>Incapacitating</td><td>Amputate</td></tr>
+          <tr><th colspan="3" style="padding:1px;"/></tr>
+          <tr><td>Edge</td><td>Minor</td><td>Clean &#0038; Dress</td></tr>
+          <tr><td>Edge</td><td>Serious</td><td>Surgery</td></tr>
+          <tr><td>Edge</td><td>Grievous</td><td>Surgery</td></tr>
+          <tr><td>Edge</td><td>Incapacitating</td><td>Amputate</td></tr>
+          <tr><th colspan="3" style="padding:1px;"/></tr>
+          <tr><td>Point</td><td>Minor</td><td>Clean &#0038; Dress</td></tr>
+          <tr><td>Point</td><td>Serious</td><td>Clean &#0038; Dress</td></tr>
+          <tr><td>Point</td><td>Grievous</td><td>Surgery</td></tr>
+          <tr><td>Point</td><td>Incapacitating</td><td>Amputate</td></tr>
+          <tr><th colspan="3" style="padding:1px;"/></tr>
+          <tr><td>Frost</td><td>Minor</td><td>Warming</td></tr>
+          <tr><td>Frost</td><td>Serious</td><td>Warming</td></tr>
+          <tr><td>Frost</td><td>Grievous</td><td>Amputate</td></tr>
+          <tr><td>Frost</td><td>Incapacitating</td><td>Amputate</td></tr>
         </table>
         <p>
           Fire and internal system damage is treated as frost, but
@@ -9675,131 +9858,6 @@
         </p>
       </div>
       <!--
-          <div class="standard">
-          <p>
-            <b>Level 0:</b> NN barely knows that a domain for such
-            knowledge exists.  With some luck, he can guess whether a
-            general topic belongs to that domain or not.
-          </p>
-          <p>
-            <b>Level 5:</b> A single topic, one of the most obvious
-            ones has been heard of and can be applied, but without
-            guaranteed success.
-          </p>
-          <p>
-            <b>Level 10:</b> With this level, the basic concepts are
-            known, the more esoteric concepts have been heard of but
-            cannot be applied.
-          </p>
-          <p>
-            <b>Level 15:</b> Most concepts are known and many can be
-            applied with a high degree of certainty. There are still
-            areas which can be polished.
-          </p>
-          <p>
-            <b>Level 20:</b> All concepts of the domain are known and
-            can be applied with confidence.  There are only a few
-            topics escaping the grasps of this expert.
-          </p>
-          <p>
-            <b>Level 25:</b> All of the domain is understood with ease.
-            It is hard to find unknown territory, although it exists.
-            Improvement of the art can be conducted.
-          </p>
-          <p>
-            <b>Level 30:</b> Mastery of the subject matter as far as
-            humanly possible.  Genuine research or creation of new
-            substance is possible.
-          </p>
-        </ul>
-        <div class="standard">
-          <p>
-            <b>Level 0:</b> NN barely knows that a domain for such
-            communication exists.  Instinctively, he is wrong as often
-            as he is right when judging others.
-          </p>
-          <p>
-            <b>Level 5:</b> A single pattern, one of the most obvious
-            ones can be applied, but without guaranteed success.
-          </p>
-          <p>
-            <b>Level 10:</b> With this level, basic patterns are
-            known, the more esoteric patterns have been heard of but
-            cannot be applied.
-          </p>
-          <p>
-            <b>Level 15:</b> Most patterns are known and many can be
-            applied with a high degree of certainty. There are still
-            areas which can be polished.
-          </p>
-          <p>
-            <b>Level 20:</b> All patterns of the domain are known and
-            can be applied with confidence.  There are only a few
-            topics escaping the grasps of this expert.
-          </p>
-          <p>
-            <b>Level 25:</b> All of the domain is communicated with ease.
-            It is hard to find unknown territory, although it exists.
-            Improvement of the art can be conducted.
-          </p>
-          <p>
-            <b>Level 30:</b> Mastery of the subject matter as far as
-            humanly possible.  Genuine research or creation of new
-            patterns is possible.
-          </p>
-        </ul>
-        <svg:svg width="620" height="620">
-          <svg:g transform="translate(310 310)">
-            <svg:circle cx="0" cy="0" r="305" stroke="#000" stroke-width="2" fill="#009a31"/>
-            <svg:text x="-124" y="0" fill="#fff" transform="scale(2.4)">-5</svg:text>
-            <svg:text x="101" y="0" fill="#fff" transform="scale(2.4)">-5</svg:text>
-            <svg:circle cx="0" cy="0" r="244" stroke="#000" stroke-width="2" fill="#19a644"/>
-            <svg:text x="-124" y="0" fill="#fff" transform="scale(1.92)">-4</svg:text>
-            <svg:text x="101" y="0" fill="#fff" transform="scale(1.92)">-4</svg:text>
-            <svg:circle cx="0" cy="0" r="195" stroke="#000" stroke-width="2" fill="#48bd68"/>
-            <svg:text x="-124" y="0" fill="#fff" transform="scale(1.536)">-3</svg:text>
-            <svg:text x="101" y="0" fill="#fff" transform="scale(1.536)">-3</svg:text>
-            <svg:circle cx="0" cy="0" r="156" stroke="#000" stroke-width="2" fill="#77d58c"/>
-            <svg:text x="-124" y="0" fill="#fff" transform="scale(1.2288)">-2</svg:text>
-            <svg:text x="101" y="0" fill="#fff" transform="scale(1.2288)">-2</svg:text>
-            <svg:circle cx="0" cy="0" r="125" stroke="#000" stroke-width="2" fill="#a6ebb0"/>
-            <svg:text x="-124" y="0" fill="#fff" transform="scale(1)">-1</svg:text>
-            <svg:text x="101" y="0" fill="#fff" transform="scale(1)">-1</svg:text>
-            <svg:circle cx="0" cy="0" r="100" stroke="#000" stroke-width="2" fill="#ceffce"/>
-          </svg:g>
-          <svg:g transform="translate(310 310) scale(0.33)">
-            <svg:circle cx="0" cy="0" r="305" stroke="#444" stroke-width="2" fill="#009a31"/>
-            <svg:text x="-120" y="0" fill="#fff" transform="scale(2.4)">0</svg:text>
-            <svg:text x="105" y="0" fill="#fff" transform="scale(2.4)">0</svg:text>
-            <svg:circle cx="0" cy="0" r="244" stroke="#444" stroke-width="2" fill="#19a644"/>
-            <svg:text x="-120" y="0" fill="#fff" transform="scale(1.92)">1</svg:text>
-            <svg:text x="105" y="0" fill="#fff" transform="scale(1.92)">1</svg:text>
-            <svg:circle cx="0" cy="0" r="195" stroke="#444" stroke-width="2" fill="#48bd68"/>
-            <svg:text x="-120" y="0" fill="#fff" transform="scale(1.536)">2</svg:text>
-            <svg:text x="105" y="0" fill="#fff" transform="scale(1.536)">2</svg:text>
-            <svg:circle cx="0" cy="0" r="156" stroke="#444" stroke-width="2" fill="#77d58c"/>
-            <svg:text x="-120" y="0" fill="#fff" transform="scale(1.2288)">3</svg:text>
-            <svg:text x="105" y="0" fill="#fff" transform="scale(1.2288)">3</svg:text>
-            <svg:circle cx="0" cy="0" r="125" stroke="#444" stroke-width="2" fill="#a6ebb0"/>
-            <svg:text x="-120" y="0" fill="#fff" transform="scale(1)">4</svg:text>
-            <svg:text x="105" y="0" fill="#fff" transform="scale(1)">4</svg:text>
-            <svg:circle cx="0" cy="0" r="100" stroke="#444" stroke-width="2" fill="#ceffce"/>
-          </svg:g>
-          <svg:g transform="translate(310 310) rotate(22.5)">
-            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(0)"/>
-            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(45)"/>
-            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(90)"/>
-            <svg:path d="M-310 0 L310 0" stroke="#fff" stroke-width="2" transform="rotate(135)"/>
-          </svg:g>
-          <svg:text x="284" y="316" fill="#000">1</svg:text>
-          <svg:text x="290" y="300" fill="#000">2</svg:text>
-          <svg:text x="305" y="294" fill="#000">3</svg:text>
-          <svg:text x="320" y="300" fill="#000">4</svg:text>
-          <svg:text x="327" y="316" fill="#000">5</svg:text>
-          <svg:text x="320" y="332" fill="#000">6</svg:text>
-          <svg:text x="305" y="338" fill="#000">7</svg:text>
-          <svg:text x="290" y="332" fill="#000">8</svg:text>
-        </svg:svg>
         <table>
           <tr>
             <th>Type</th>
@@ -9832,9 +9890,7 @@
             <td>+ 1 / sec</td>
           </tr>
         </table>
-      </div>
-    </div>
-    -->
+      -->
     </div>
   </body>
 </html>

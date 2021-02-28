@@ -1,22 +1,26 @@
 :root {
     --navbg: #009a31;
     --h1: #009a31;
-    --h3: #009a31;
     --head: #c6e7ce;
     --tde: #ceffce;
     --tdo: #84cf96;
 }
 
+@page {
+    margin: 2cm;
+}
+
+.noprint, .title {
+    display: none;
+}
+
+div {
+    orphans: 3;
+    widows: 3;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
-}
-
-nav {
-    display: none;
-}
-
-nav * {
-    display: none;
 }
 
 body, h1, h2, h3 {
@@ -26,101 +30,119 @@ body, h1, h2, h3 {
 body {
     box-sizing: border-box;
     font-size: 15px;
+    text-align: justify;
 }
 
-h1 {
-    page-break-before: always;
-    border-top: 3px solid var(--h1);
-    border-bottom: 3px solid var(--h1);
-    padding-top: .3em;
-    padding-bottom: .3em;
+nav {
+    display: none;
+}
+
+h1, h2, h3, h4, h5 {
     font-weight: bold;
-    font-size: 24px;
     color:var(--h1);
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 21px;
-    color: #fff;
+h1:nth-child(n+2) {
+    page-break-before: always;
+}
+
+h1 {
+    border-top: 2px solid var(--h1);
+    border-bottom: 2px solid var(--h1);
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    font-size: 24px;
 }
 
 h3 {
-    font-weight: bold;
     font-size: 18px;
-    color: var(--h3);
 }
 
-h4 {
-    border-top: 2px solid var(--h3);
-    border-bottom: 2px solid var(--h3);
-    padding-top: .1em;
-    padding-bottom: .1em;
+h5 {
+    padding-top: 4px;
+    border-top: 2px solid var(--h1);
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     text-align: center;
-    font-size: 13px;
+    font-size: 8px;
     border-collapse: collapse;
 }
 
 caption {
     font-weight: bold;
+    padding: 8px;
     caption-side: bottom;
 }
 
-tr td {
-    border-top: 2px solid var(--tde);
-    border-bottom: 2px solid var(--tde);
-}
-
-th {
-    border-top: 2px solid var(--head);
-    border-bottom: 2px solid var(--head);
-    width: 70px;
-}
-
-td {
-    width: 70px;
+th, td {
+    vertical-align: top;
+    width: 5%;
+    padding: 2px 12px;
 }
 
 td a {
     color: var(--h1);   
 }
 
-.title {
-    font-weight: bold;
-    font-size: 30px;
-    color: var(--head);
+tr:first-child {
+    border-top: 2px solid var(--tdo);
+    border-bottom: 2px solid var(--tdo);
 }
 
-.explain {
-    list-style-type: none;
+tr:nth-child(3n+2) {
+    border-bottom: 2px solid var(--tde);
 }
 
-ul.explain {
-    margin-left: .5em;
-    margin-right: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
+tr:nth-child(3n+3) {
+    border-bottom: 2px solid var(--tdo);
 }
 
-.explain li:first-child {
+tr:nth-child(3n+4) {
+    border-bottom: 2px solid var(--tdo);
+}
+
+.grid2 td:first-child {
+    border-left: 2px solid var(--tdo);
+}
+
+.grid2 td:nth-child(4n) {
+    border-right: 2px solid var(--tdo);
+}
+
+.grid td:first-child {
+    border-left: 2px solid var(--tdo);
+}
+
+.grid td:nth-child(even) {
+    border-right: 2px solid var(--tdo);
+}
+
+.links tr,.links td {
+    border: 2px solid var(--tde);
+}
+
+.explain p, .standard p {
+    font-size: 8px;
+    border-bottom: 2px solid var(--tde);
+}
+
+.explain p:first-child, .standard p:first-child {
     border-top: 2px solid var(--tde);
 }
 
-.explain li {
-    border-bottom: 2px solid var(--tde);
-    padding: .5em;
+.explain p {
+    margin: 5px 20px;
+    padding: 5px 20px;
 }
 
-.list {
+.standard p {
+    margin: 1px 20px;
+    padding: 1px 20px;
+}
+
+a {
     text-decoration: none;
-    color: var(--h3);
-}
-
-.indent {
-    text-indent: 2em;
+    color: var(--h1);
 }
