@@ -23,9 +23,85 @@
           lbs.
         </p>
         <h3 id="skills">Skills</h3>
-        <!--
-            perf shie ski taro texti
-        -->
+        <table class="links" style="width:90%">
+          <tr>
+            <td><a href="#sk-acr">Acrobatics</a></td>
+            <td><a href="#sk-act">Acting</a></td>
+            <td><a href="#sk-adm">Administration</a></td>
+            <td><a href="#sk-agi">Agility</a></td>
+            <td><a href="#sk-art">Artillery</a></td>
+            <td><a href="#sk-ast">Astronavigation</a></td>
+            <td><a href="#sk-ani">Animalcraft</a></td>
+            <td><a href="#sk-awa">Awareness</a></td>
+            <td><a href="#sk-bio">Biology</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-biom">Biomechanics</a></td>
+            <td><a href="#sk-ast">Chemistry</a></td>
+            <td><a href="#sk-cli">Climbing</a></td>
+            <td><a href="#sk-clu">Club</a></td>
+            <td><a href="#sk-ast">Communication</a></td>
+            <td><a href="#sk-ast">Computers</a></td>
+            <td><a href="#sk-coo">Cookery</a></td>
+            <td><a href="#sk-dag">Dagger</a></td>
+            <td><a href="#sk-dan">Dancing</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-dex">Dexterity</a></td>
+            <td><a href="#sk-div">Diving</a></td>
+            <td><a href="#sk-dra">Drawing</a></td>
+            <td><a href="#sk-dri">Drive</a></td>
+            <td><a href="#sk-eco">Economics</a></td>
+            <td><a href="#sk-end">Endurance</a></td>
+            <td><a href="#sk-eye">Eyesight</a></td>
+            <td><a href="#sk-eng">Engineering</a></td>
+            <td><a href="#sk-exp">Explosives</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-fir">Firearms</a></td>
+            <td><a href="#sk-fol">Folklore</a></td>
+            <td><a href="#sk-gun">Gunsmithing</a></td>
+            <td><a href="#sk-hear">Hearing</a></td>
+            <td><a href="#sk-heav">Heavy Guns</a></td>
+            <td><a href="#sk-ini">Initiative</a></td>
+            <td><a href="#sk-int">Intrigue</a></td>
+            <td><a href="#sk-jew">Jewelcraft</a></td>
+            <td><a href="#sk-jum">Jumping</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-lan">Language</a></td>
+            <td><a href="#sk-law">Law</a></td>
+            <td><a href="#sk-loc">Lockcraft</a></td>
+            <td><a href="#sk-lov">Lovecraft</a></td>
+            <td><a href="#sk-mat">Mathematics</a></td>
+            <td><a href="#sk-mec">Mechatronics</a></td>
+            <td><a href="#sk-min">Mining</a></td>
+            <td><a href="#sk-mor">Morale</a></td>
+            <td><a href="#sk-mov">Move</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-mus">Musician</a></td>
+            <td><a href="#sk-phy">Physician</a></td>
+            <td><a href="#sk-pil">Piloting</a></td>
+            <td><a href="#sk-psy">Psychology</a></td>
+            <td><a href="#sk-rhe">Rhetoric</a></td>
+            <td><a href="#sk-scr">Script</a></td>
+            <td><a href="#sk-sin">Singing</a></td>
+            <td><a href="#sk-spa">Spacemanship</a></td>
+            <td><a href="#sk-sta">Stamina</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-ste">Stealth</a></td>
+            <td><a href="#sk-stree">Streetwise</a></td>
+            <td><a href="#sk-stren">Strength</a></td>
+            <td><a href="#sk-surve">Surveillance</a></td>
+            <td><a href="#sk-survi">Survival</a></td>
+            <td><a href="#sk-swi">Swimming</a></td>
+            <td><a href="#sk-thr">Throwing</a></td>
+            <td><a href="#sk-una">Unarmed</a></td>
+            <td><a href="#sk-weat">Weatherlore</a></td>
+          </tr>
+        </table>
         <h5 class="skill" id="sk-acr">Acrobatics</h5>
         <p>
           As the <a href="../oper.xml#sk-acr">Hârnic skill</a>.
@@ -140,7 +216,8 @@
         <p>
           The scientific version of the <a
           href="../oper.xml#sk-alc">Hârnic Alchemy skill</a>.  Rule
-          mechanics are the same.
+          mechanics are the same.  Another deliberate equivalence can
+          be the <em>Perfumery</em> skill in Hârn.
         </p>
         <h5 class="skill" id="sk-cli">Climbing</h5>
         <p>
@@ -179,7 +256,7 @@
           IT technology know-how, some programming skills, but also
           binding software components together through IT protocols.
           Can find week spots in a setup.  A deliberate equivalence
-          can be the <em>Magic</em> and <em>Runecraft</em> skills in
+          can be the <em>Magic, Runecraft</em>, and <em>Tarotry</em> skills in
           Hârn.
         </p>
         <h5 class="skill" id="sk-coo">Cookery</h5>
@@ -305,8 +382,8 @@
           charge that is explicitly placed.  Includes timing or
           proximity sensors.  Does not include firing charges that
           explode on impact or near-impact.  A deliberate equivalence
-          can be the <em>Alchemy, Brewing</em>, and <em>Magic</em>
-          skills in Hârn.
+          can be the <em>Alchemy, Brewing, Magic</em>, and
+          <em>Perfumery</em> skills in Hârn.
         </p>
         <h5 class="skill" id="sk-fir">Firearms</h5>
         <div class="standard">
@@ -321,9 +398,9 @@
           Combat skill for personal firearms such as pistols or
           rifles.  Specific types of guns constitute specialties.  A
           deliberate equivalence can be any of the <em>Axe, Bow,
-          Flail, Net, Polearm, Sword</em> or <em>Whip</em> skills in
-          Hârn.  Do not use any addition, but choose either the
-          maximum or average of all MLs when transfering.  Include
+          Flail, Net, Polearm, Shield, Sword</em> or <em>Whip</em>
+          skills in Hârn.  Do not use any addition, but choose either
+          the maximum or average of all MLs when transfering.  Include
           Heavy Guns (see below) in the transfer.
         </p>
         <h5 class="skill" id="sk-fol">Folklore</h5>
@@ -348,11 +425,11 @@
           specialty.  As the <a href="../oper.xml#sk-weap">Hârnic
           Weaponcraft skill</a>.
         </p>
-        <h5 class="skill" id="sk-hea">Hearing</h5>
+        <h5 class="skill" id="sk-hear">Hearing</h5>
         <p>
           As the <a href="../oper.xml#sk-hea">Hârnic skill</a>.
         </p>
-        <h5 class="skill" id="sk-hea">Heavy Guns</h5>
+        <h5 class="skill" id="sk-heav">Heavy Guns</h5>
         <div class="standard">
           <p>
             <em>Attributes:</em> Eyesight, Smell, Intelligence
@@ -372,6 +449,34 @@
           maximum or average of all MLs when transfering.  Include
           Firearms (see above) in the transfer.
         </p>
+        <h5 class="skill" id="sk-ini">Initiative</h5>
+        <div class="standard">
+          <p>
+            <em>Attributes:</em> Agility, Will, Will
+          </p>
+          <p>
+            <em>OML:</em> 0
+          </p>
+          <p>
+            <em>Occupations:</em> Gladiator/80, Cleric/Agrik/80,
+            Cleric/Larani/80, Cleric/Naveh/80, Cleric/Sarajin/80,
+            Military/70, Knight/80, Patrician/80, Huscarl/80, High
+            Guard/80
+          </p>
+        </div>
+        <p>
+          Initiative reflects battle experience, discipline, and
+          morale.  Initiative determines the order in which characters
+          act in a given second, whenever that makes a difference.
+        </p>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Time</td><td>2/3</td><td>1/2</td><td>1/3</td><td>1/4</td><td>1/5</td>
+          </tr>
+        </table>
         <h5 class="skill" id="sk-int">Intrigue</h5>
         <p>
           As the <a href="../oper.xml#sk-int">Hârnic skill</a>.
@@ -1091,6 +1196,26 @@
             <td>100,000</td><td>1,000,000</td><td>10,000,000</td>
           </tr>
         </table>
+        <h3 id="actions">Actions</h3>
+        <div class="explain">
+          <p>
+            <em>Triggered:</em> Your own Initiative can be increased
+            by +10, if an action is postponed by one or more seconds.
+            Not all actions can be postponed and in some cases it does
+            not make sense, GM discretion applies.  The benefit is
+            that a positive result can be achieved and threats
+            enhanced.  Any action besides waiting resets the bonus.
+          </p>
+          <p>
+            <em>Pinning:</em> To prevent an enemy from moving or
+            firing back, preemptive firing is an option.  Repetitive
+            firing each second increases your own Initiative by +20.
+            The bonus applies only after a first shot without bonus
+            and changing the target resets the condition. Only weapons
+            firing at least once per second can use this.
+          </p>
+        </div>
+        </div>
       </div>
       <div class="container">
         <h1 id="space">Space</h1>

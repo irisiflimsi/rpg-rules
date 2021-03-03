@@ -70,7 +70,7 @@
           results you can achieve when you roll a p5.  The second row
           shows the chance that you have of moving up one point
           (i.e. right) at any given point.  A p5 can never give a
-          result below zero (0) and the chance to get "one more" is
+          result below zero (0) and the chance to get “one more” is
           80%.  Note that this chance is always the same in each
           column.  The third row gives the percentage chance that you
           have of achieving the result in the corresponding first row
@@ -268,7 +268,7 @@
           starting from zero (0) as the “default”, with only 10%
           reaching 10 points more.  This is inentionally identical
           with the p5 system of rolling dice.  The skill scale is
-          open-ended ("exploding") as the p5 roll is, but humans
+          open-ended (“exploding") as the p5 roll is, but humans
           generally do not get scores beyond 30.  Any activity can be
           organized as a skill.
         </p>
@@ -492,7 +492,7 @@
         <p>
           When a character attempts to use a skill, n5 is rolled.
           Add/Subtract ML and any other modifiers the GM has noted.
-          Some modifiers are "standard" and listed below, they will
+          Some modifiers are “standard” and listed below, they will
           not be mentioned explicitely.  The GM will have decided upon
           a diffculty, often called the <em>negative</em> part.  This
           value is also subtracted from the roll and if the net result
@@ -537,7 +537,7 @@
           (11) Injury Levels.  A character’s Injury Penalty is equal
           to the sum of all Injury Levels.  For more details about
           injuries, see Combat and Physician.  Usually injury
-          penalties apply to all "physical" skills.  In some cases,
+          penalties apply to all “physical” skills.  In some cases,
           part of the Injury penalty can be ignored.  For example,
           firing a bow with a injured foot is not impeded in the same
           manner as running.
@@ -587,7 +587,7 @@
           training.  Execute each skill roll as follows: Roll n5.  If
           the roll is greater than current skill ML, increase skill ML
           by one (1); otherwise there is no increase.  This may also
-          be interpreted as a "Learning skill" roll, where everybody
+          be interpreted as a “Learning skill” roll, where everybody
           has an learning ML of 0 (but see below) and must match the
           difficulty of his current skill ML.  I.e. the better you
           already are, the harder it is to improve.  To improve
@@ -599,7 +599,7 @@
         <p>
           Additional rolls may be awarded by the GM for extended idle
           periods, for instance in a winter camp.  Or the professional
-          life of an NPC "off-screen" needs to be simulated.  In those
+          life of an NPC “off-screen” needs to be simulated.  In those
           cases, award approximately 10 rolls per month.
         </p>
         <p>
@@ -610,7 +610,7 @@
           in teaching.  Be careful, which teacher you choose!
         </p>
         <p>
-          Sometimes forgetting or "unlearning" is called for. Such
+          Sometimes forgetting or “unlearning” is called for. Such
           rolls are handled as if the current skill level still needed
           to be attained.  I.e. if the level is not reached through
           the roll, deduct a point.
@@ -818,7 +818,7 @@
           Any effects from wounds or other external influences in
           combat are applied immediately to pending progressions.  At
           the actors choice it can offset the goal or the time.  To
-          prevent players from immediately aborting "bad" rolls,
+          prevent players from immediately aborting “bad” rolls,
           mandatory secret rolls by the GM can be used.
         </p>
         <p>
@@ -2466,7 +2466,7 @@
           italic.  When one language of a family is known, it is
           easier to learn other related languages.  Orbaalese belongs
           to two families.  Foreign tongues can be learned with
-          languages of the same family functioning as as "teacher".
+          languages of the same family functioning as as “teacher".
         </p>
         <table style="width:30%">
           <tr>
@@ -3264,7 +3264,7 @@
           <p>
             <em>Benign Mind Linking:</em> Some healers, for example,
             use mental linking as a way to diagnosis a patient’s
-            ailments.  The willing bonus implies an "Ignore" defense.
+            ailments.  The willing bonus implies an “Ignore” defense.
           </p>
         </div>
         <p>
@@ -4354,7 +4354,7 @@
           generate characters.  It can also be anything inbetween,
           such as partly rolling, partly choosing; first rolling, then
           modifying; or a point based system, where good attributes
-          are "bought" and/or "bad" attributes provide additional
+          are “bought” and/or “bad” attributes provide additional
           points to spend.  For simulation purposes, the out-world
           values should be recorded by the players, while the
           characters themselves are considered to only be aware of
@@ -4973,7 +4973,7 @@
           only descriptive aspects should be mentioned.
         </p>
         <p>
-          Attributes are values that other people "attribute" to
+          Attributes are values that other people “attribute” to
           individuals they encounter, particularly those that they
           interact with for some time.  The following lists those
           properties and the common values used for them.
@@ -5290,7 +5290,7 @@
         </p>
         <h4 id="weight">Weight</h4>
         <p>
-          On Hârn, the "optimal" weight of a person depends on his
+          On Hârn, the “optimal” weight of a person depends on his
           height and is determined by the Physician's Guild and
           usually published in a yearly almanach.
         </p>
@@ -5729,7 +5729,7 @@
             of a peg-leg.
           </p>
           <p>
-            <em>Left-Handed:</em> People with this "affliction" are
+            <em>Left-Handed:</em> People with this “affliction” are
             likely to suffer some discrimination.
           </p>
           <p>
@@ -6635,8 +6635,8 @@
           problems are different for cavalry units.  Auxiliary forces,
           weaponcrafters, ostlers, transport, engineers, and the like
           are all slower than cavalry, and tend to get left behind.
-          Units, even small ones, may have their own "field
-          households" (messes) in tow. These too, may straggle.
+          Units, even small ones, may have their own “field
+          households” (messes) in tow. These too, may straggle.
         </p>
         <h3 id="physician">Physician</h3>
         <p>
@@ -7236,7 +7236,7 @@
           entities within Skill level in inches of the invoker’s skin
           may also be transferred.  Less skilled users often lose
           things on the way.  Travel is ethereal, instantaneous, and
-          takes 5 minutes in "absent mindedness".  The talent is
+          takes 5 minutes in “absent mindedness".  The talent is
           fairly common among the older bloodlines of the Sindarin,
           but otherwise rare.  The invoker does not necessarily know
           where the destination will be, although it is always a
@@ -8543,7 +8543,7 @@
           indicates the weapon does not have this Aspect.  A zero (0)
           rating means the weapon has the Aspect, but impact is +0.
           Point aspects in brackets are optional; if chosen, WQ is
-          reduced by one (1).  This is a "weapon-build" option.
+          reduced by one (1).  This is a “weapon-build” option.
         </p>
         <p>
           <em>Price:</em> The retail price for average quality
