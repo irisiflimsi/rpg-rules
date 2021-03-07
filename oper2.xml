@@ -16,7 +16,7 @@
       <div class="container">
         <h1 id="rules">Rules</h1>
         <p>
-          These rules reference the <a href="../oper.xml">Hârn
+          These rules reference the <a href="/rpg-rules/oper.xml">Hârn
           rules</a>.  The units of measurements are metric, all new
           rules use them.  When necessary, old units need to be
           converted; to simplify, use 1 yard = 1 meter and 1 kg = 2
@@ -104,11 +104,11 @@
         </table>
         <h5 class="skill" id="sk-acr">Acrobatics</h5>
         <p>
-          As the <a href="../oper.xml#sk-acr">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-acr">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-act">Acting</h5>
         <p>
-          As the <a href="../oper.xml#sk-act">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-act">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-adm">Administration</h5>
         <div class="standard">
@@ -127,7 +127,7 @@
         </p>
         <h5 class="skill" id="sk-agi">Agility</h5>
         <p>
-          As the <a href="../oper.xml#sk-agi">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-agi">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-art">Artillery</h5>
         <div class="standard">
@@ -164,11 +164,11 @@
         </p>
         <h5 class="skill" id="sk-ani">Animalcraft</h5>
         <p>
-          As the <a href="../oper.xml#sk-ani">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-ani">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-awa">Awareness</h5>
         <p>
-          As the <a href="../oper.xml#sk-awa">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-awa">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-bio">Biology</h5>
         <div class="standard">
@@ -215,17 +215,17 @@
         </div>
         <p>
           The scientific version of the <a
-          href="../oper.xml#sk-alc">Hârnic Alchemy skill</a>.  Rule
+          href="/rpg-rules/oper.xml#sk-alc">Hârnic Alchemy skill</a>.  Rule
           mechanics are the same.  Another deliberate equivalence can
           be the <em>Perfumery</em> skill in Hârn.
         </p>
         <h5 class="skill" id="sk-cli">Climbing</h5>
         <p>
-          As the <a href="../oper.xml#sk-cli">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-cli">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-clu">Club</h5>
         <p>
-          As the <a href="../oper.xml#sk-clu">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-clu">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-ast">Communication</h5>
         <div class="standard">
@@ -261,19 +261,19 @@
         </p>
         <h5 class="skill" id="sk-coo">Cookery</h5>
         <p>
-          As the <a href="../oper.xml#sk-coo">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-coo">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-dag">Dagger</h5>
         <p>
-          As the <a href="../oper.xml#sk-dag">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-dag">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-dan">Dancing</h5>
         <p>
-          As the <a href="../oper.xml#sk-dan">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-dan">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
         <p>
-          As the <a href="../oper.xml#sk-dex">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-dex">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-div">Diving</h5>
         <div class="standard">
@@ -294,7 +294,7 @@
         </p>
         <h5 class="skill" id="sk-dra">Drawing</h5>
         <p>
-          As the <a href="../oper.xml#sk-dra">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-dra">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-dri">Drive</h5>
         <div class="standard">
@@ -335,11 +335,11 @@
         </p>
         <h5 class="skill" id="sk-end">Endurance</h5>
         <p>
-          As the <a href="../oper.xml#sk-end">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-end">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-eye">Eyesight</h5>
         <p>
-          As the <a href="../oper.xml#sk-eye">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-eye">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-eng">Engineering</h5>
         <div class="standard">
@@ -362,7 +362,7 @@
           rotation.  Make cehicles such as cars, ships, or planes that
           (usually) operate under significant gravity.  Can also be
           used for repairs.  Equivalent to the <a
-          href="../oper.xml#sk-alc">Hârnic Engineering skill</a>.
+          href="/rpg-rules/oper.xml#sk-alc">Hârnic Engineering skill</a>.
           Additionally, <em>Metalcraft</em> is a deliberate
           equivalence for the Vehicle specialty, <em>Masonry,
           Milling</em> for the Construction specialty, and
@@ -405,7 +405,7 @@
         </p>
         <h5 class="skill" id="sk-fol">Folklore</h5>
         <p>
-          As the <a href="../oper.xml#sk-fol">Hârnic skill</a> but
+          As the <a href="/rpg-rules/oper.xml#sk-fol">Hârnic skill</a> but
           with different specialties, obviously.  The recall is also
           more about history than myths.  Hearsay is at -10.
         </p>
@@ -422,12 +422,12 @@
           Weaponcraft for personal firearms.  Can be used to repair
           bigger arms like grenade launchers or artillery, usually
           with a penalty.  These “big guns” can be treated as
-          specialty.  As the <a href="../oper.xml#sk-weap">Hârnic
+          specialty.  As the <a href="/rpg-rules/oper.xml#sk-weap">Hârnic
           Weaponcraft skill</a>.
         </p>
         <h5 class="skill" id="sk-hear">Hearing</h5>
         <p>
-          As the <a href="../oper.xml#sk-hea">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-hea">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-heav">Heavy Guns</h5>
         <div class="standard">
@@ -479,19 +479,19 @@
         </table>
         <h5 class="skill" id="sk-int">Intrigue</h5>
         <p>
-          As the <a href="../oper.xml#sk-int">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-int">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-jew">Jewelcraft</h5>
         <p>
-          As the <a href="../oper.xml#sk-jew">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-jew">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-jum">Jumping</h5>
         <p>
-          As the <a href="../oper.xml#sk-jum">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-jum">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-lan">Language</h5>
         <p>
-          As the <a href="../oper.xml#sk-lan">Hârnic skill</a> but
+          As the <a href="/rpg-rules/oper.xml#sk-lan">Hârnic skill</a> but
           with all Earth languages.  The Languages of the Belt are all
           dialects of English, Russian, and Chinese.  The Languages of
           Mars are all Languages of Earth that had at least 10.000.000
@@ -502,22 +502,22 @@
         </p>
         <h5 class="skill" id="sk-law">Law</h5>
         <p>
-          As the <a href="../oper.xml#sk-law">Hârnic skill</a> but
+          As the <a href="/rpg-rules/oper.xml#sk-law">Hârnic skill</a> but
           without the Breadth dimension.  Law has a plethora of
           branches, which can be treated as specialties, including
           different cultures.
         </p>
         <h5 class="skill" id="sk-loc">Lockcraft</h5>
         <p>
-          As the <a href="../oper.xml#sk-loc">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-loc">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-lov">Lovecraft</h5>
         <p>
-          As the <a href="../oper.xml#sk-lov">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-lov">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-mat">Mathematics</h5>
         <p>
-          As the <a href="../oper.xml#sk-mat">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-mat">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-mec">Mechatronics</h5>
         <div class="standard">
@@ -543,23 +543,23 @@
         </p>
         <h5 class="skill" id="sk-min">Mining</h5>
         <p>
-          As the <a href="../oper.xml#sk-min">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-min">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-mor">Morale</h5>
         <p>
-          As the <a href="../oper.xml#sk-mor">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-mor">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-mov">Move</h5>
         <p>
-          As the <a href="../oper.xml#sk-mov">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-mov">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-mus">Musician</h5>
         <p>
-          As the <a href="../oper.xml#sk-mus">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-mus">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-phy">Physician</h5>
         <p>
-          As the <a href="../oper.xml#sk-phy">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-phy">Hârnic skill</a>.
           However, medicine is far more competence when compared to
           the Hârn.  See the separate section.
         </p>
@@ -600,11 +600,11 @@
         </p>
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
         <p>
-          As the <a href="../oper.xml#sk-rhe">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-rhe">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-scr">Script</h5>
         <p>
-          As the <a href="../oper.xml#sk-scr">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-scr">Hârnic skill</a>.
           However, the in-world scripts relevant on Earth are those
           available in 2000, Mars and the Belt have Latin, Kyrilic, an
           Chinese.  Mars additionally has Japanese and Greek.  Some of
@@ -613,7 +613,7 @@
         </p>
         <h5 class="skill" id="sk-sin">Singing</h5>
         <p>
-          As the <a href="../oper.xml#sk-sin">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-sin">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-spa">Spacemanship</h5>
         <div class="standard">
@@ -625,18 +625,18 @@
           </p>
         </div>
         <p>
-          As the <a href="../oper.xml#sk-sea">Hârnic skill
+          As the <a href="/rpg-rules/oper.xml#sk-sea">Hârnic skill
           Seamanship</a>, except it also affects vessels in space.
           Maintenance and operation of such vessels.  This skill
           partly confers knowledge of water-born and air-born vessels,
         </p>
         <h5 class="skill" id="sk-sta">Stamina</h5>
         <p>
-          As the <a href="../oper.xml#sk-sta">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-sta">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-ste">Stealth</h5>
         <p>
-          As the <a href="../oper.xml#sk-ste">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-ste">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-stree">Streetwise</h5>
         <div class="standard">
@@ -655,7 +655,7 @@
         </p>
         <h5 class="skill" id="sk-stren">Strength</h5>
         <p>
-          As the <a href="../oper.xml#sk-str">Hârnic skill</a>.  For
+          As the <a href="/rpg-rules/oper.xml#sk-str">Hârnic skill</a>.  For
           lifting purposes, the following modifiers apply.
         </p>
         <table style="width:40%">
@@ -685,23 +685,23 @@
         </p>
         <h5 class="skill" id="sk-survi">Survival</h5>
         <p>
-          As the <a href="../oper.xml#sk-sur">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-sur">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-swi">Swimming</h5>
         <p>
-          As the <a href="../oper.xml#sk-swi">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-swi">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-thr">Throwing</h5>
         <p>
-          As the <a href="../oper.xml#sk-thr">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-thr">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-una">Unarmed</h5>
         <p>
-          As the <a href="../oper.xml#sk-una">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-una">Hârnic skill</a>.
         </p>
         <h5 class="skill" id="sk-weat">Weatherlore</h5>
         <p>
-          As the <a href="../oper.xml#sk-weat">Hârnic skill</a>.
+          As the <a href="/rpg-rules/oper.xml#sk-weat">Hârnic skill</a>.
         </p>
         <h3 id="people">People</h3>
         <p>
