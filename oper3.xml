@@ -11,6 +11,6 @@
     <link rel="stylesheet" media="print" href="gfp.css"/>
   </head>
   <body>
-    <xi:include href="oper4.xml" parse="xml"/>
+    <xi:include href="oper4.xml" parse="xml" xpointer="xpointer(//*)"/>
   </body>
 </html>
