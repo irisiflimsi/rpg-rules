@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
-<!DOCTYPE doc [<!ENTITY chap1 SYSTEM "oper4.xml">]>
 <html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
     <title>Expanse RPG Rules</title>
@@ -12,6 +11,6 @@
     <link rel="stylesheet" media="print" href="gfp.css"/>
   </head>
   <body>
-    &chap1;
+    <include file="oper4.xml"/>
   </body>
 </html>

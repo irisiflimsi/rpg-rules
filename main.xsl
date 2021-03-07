@@ -23,6 +23,10 @@
     </body>
   </xsl:template>
 
+  <xsl:template match="include">
+    <xsl:apply-templates select="document('oper4.xml',node()|@*)"/>
+  </xsl:template>
+
   <xsl:template match="table">
     <xsl:element name="table">
       <xsl:apply-templates select="@*" />
