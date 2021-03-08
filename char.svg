@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="svg.xsl"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -6543,201 +6542,161 @@
   </foreignObject>
   <script>
     var skills = new Map([
-      ["Acrobatics", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]], 0],
-      ["Acting", [["$Voice","$Agility","$Intelligence"], [["Tar", "1"], ["Tai", "1"]]], 0],
-      ["Agility", [["$Agility"], []], 0],
-      ["Agriculture", [["$Strength","$Stamina","$Will"], [["Ula", "2"], ["Ara", "2"]]], 0],
-      ["Alchemy", [["$Smell","$Intelligence","$Aura"], [["Sko", "3"], ["Tai", "2"], ["Mas", "2"]]], -10],
-      ["Animalcraft", [["$Agility", "$Voice", "$Will"], [["Ula", "1"], ["Ara", "1"]]], 0],
-      ["Astrology", [["$Eyesight", "$Intelligence", "$Aura"], [["Tar", "1"]]], -5],
-      ["Awareness", [["$Eyesight", "$Hearing", "$Smell"], [["Tai", "2"], ["Hir", "2"]]], 0],
-
-      ["Axe", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Blowgun", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Bow", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Brewing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Ceramics", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Climbing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Club", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Cookery", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Dagger", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Dancing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Dexterity", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Drawing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Embalming", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Endurance", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Engineering", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Eyesight", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Fishing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Flail", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Fletching", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Folklore", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Foraging", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Glasswork", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Hearing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Heraldry", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Herblore", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Hidework", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Intrigue", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Jewelcraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Jumping", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Language", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Law", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Lockcraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Lovecraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Magic", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Masonry", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Mathematics", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Metalcraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Milling", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Mining", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Morale", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Move", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Musician", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Net", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Perfumery", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Physician", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Piety", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Piloting", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Polearm", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Psi Conflict", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Psi Talents", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Rhetoric", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Riding", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Ritual", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Runecraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Script", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Seamanship", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Shield", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Shipwright", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Singing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Skiing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Sling", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Spear", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Stamina", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Stealth", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["$Strength", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Survival", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Swimming", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Sword", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Tarotry", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Textilecraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Throwing", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Timbercraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Tracking", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Unarmed", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Weaponcraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Weatherlore", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Whip", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]],
-      ["Woodcraft", [["$Strength","$Agility","$Agility"], [["Nad", "2"], ["Hir", "1"]]]]
+    <include id="$Acrobatics"/>
+    <include id="$Acting"/>
+    <include id="$Agility"/>
+    <include id="$Agriculture"/>
+    <include id="$Alchemy"/>
+    <include id="$Animalcraft"/>
+    <include id="$Astrology"/>
+    <include id="$Awareness"/>
+    <include id="$Axe"/>
+    <include id="$Blowgun"/>
+    <include id="$Bow"/>
+    <include id="$Brewing"/>
+    <include id="$Ceramics"/>
+    <include id="$Climbing"/>
+    <include id="$Club"/>
+    <include id="$Cookery"/>
+    <include id="$Dagger"/>
+    <include id="$Dancing"/>
+    <include id="$Dexterity"/>
+    <include id="$Drawing"/>
+    <include id="$Embalming"/>
+    <include id="$Endurance"/>
+    <include id="$Engineering"/>
+    <include id="$Eyesight"/>
+    <include id="$Fishing"/>
+    <include id="$Flail"/>
+    <include id="$Fletching"/>
+    <include id="$Folklore"/>
+    <include id="$Foraging"/>
+    <include id="$Glasswork"/>
+    <include id="$Hearing"/>
+    <include id="$Heraldry"/>
+    <include id="$Herblore"/>
+    <include id="$Hidework"/>
+    <include id="$Intrigue"/>
+    <include id="$Jewelcraft"/>
+    <include id="$Jumping"/>
+    <include id="$Law"/>
+    <include id="$Lockcraft"/>
+    <include id="$Lovecraft"/>
+    <include id="$Masonry"/>
+    <include id="$Mathematics"/>
+    <include id="$Metalcraft"/>
+    <include id="$Milling"/>
+    <include id="$Mining"/>
+    <include id="$Morale"/>
+    <include id="$Move"/>
+    <include id="$Musician"/>
+    <include id="$Net"/>
+    <include id="$Perfumery"/>
+    <include id="$Physician"/>
+    <include id="$Piety"/>
+    <include id="$Piloting"/>
+    <include id="$Polearm"/>
+    <include id="$Psi Conflict"/>
+    <include id="$Rhetoric"/>
+    <include id="$Riding"/>
+    <include id="$Runecraft"/>
+    <include id="$Seamanship"/>
+    <include id="$Shield"/>
+    <include id="$Shipwright"/>
+    <include id="$Singing"/>
+    <include id="$Skiing"/>
+    <include id="$Sling"/>
+    <include id="$Spear"/>
+    <include id="$Stamina"/>
+    <include id="$Stealth"/>
+    <include id="$Strength"/>
+    <include id="$Survival"/>
+    <include id="$Swimming"/>
+    <include id="$Sword"/>
+    <include id="$Tarotry"/>
+    <include id="$Textilecraft"/>
+    <include id="$Throwing"/>
+    <include id="$Timbercraft"/>
+    <include id="$Tracking"/>
+    <include id="$Unarmed"/>
+    <include id="$Weaponcraft"/>
+    <include id="$Weatherlore"/>
+    <include id="$Whip"/>
+    <include id="$Woodcraft"/>
     ]);
     var sunsignMap = new Map([
-      ["1-Nuz-", "Lad"], ["2-Nuz-", "Lad/Ula"], ["3-Nuz-", "Lad/Ula"],
-      ["4-Nuz-", "Ula"], ["5-Nuz-", "Ula"], ["6-Nuz-", "Ula"], ["7-Nuz-",
-      "Ula"], ["8-Nuz-", "Ula"], ["9-Nuz-", "Ula"], ["10-Nuz", "Ula"],
-      ["11-Nuz", "Ula"], ["12-Nuz", "Ula"], ["13-Nuz", "Ula"], ["14-Nuz",
-      "Ula"], ["15-Nuz", "Ula"], ["16-Nuz", "Ula"], ["17-Nuz", "Ula"],
-      ["18-Nuz", "Ula"], ["19-Nuz", "Ula"], ["20-Nuz", "Ula"], ["21-Nuz",
-      "Ula"], ["22-Nuz", "Ula"], ["23-Nuz", "Ula"], ["24-Nuz", "Ula"],
-      ["25-Nuz", "Ula"], ["26-Nuz", "Ula"], ["27-Nuz", "Ula"], ["28-Nuz",
-      "Ula"], ["29-Nuz", "Ula"], ["30-Nuz", "Ula"], ["1-Peo-", "Ula"],
-      ["2-Peo-", "Ula/Ara"], ["3-Peo-", "Ula/Ara"], ["4-Peo-", "Ara/Ula"],
-      ["5-Peo-", "Ara/Ula"], ["6-Peo-", "Ara"], ["7-Peo-", "Ara"],
-      ["8-Peo-", "Ara"], ["9-Peo-", "Ara"], ["10-Peo", "Ara"], ["11-Peo",
-      "Ara"], ["12-Peo", "Ara"], ["13-Peo", "Ara"], ["14-Peo", "Ara"],
-      ["15-Peo", "Ara"], ["16-Peo", "Ara"], ["17-Peo", "Ara"], ["18-Peo",
-      "Ara"], ["19-Peo", "Ara"], ["20-Peo", "Ara"], ["21-Peo", "Ara"],
-      ["22-Peo", "Ara"], ["23-Peo", "Ara"], ["24-Peo", "Ara"], ["25-Peo",
-      "Ara"], ["26-Peo", "Ara"], ["27-Peo", "Ara"], ["28-Peo", "Ara"],
-      ["29-Peo", "Ara"], ["30-Peo", "Ara"], ["1-Kel-", "Ara/Fen"],
-      ["2-Kel-", "Ara/Fen"], ["3-Kel-", "Fen/Ara"], ["4-Kel-", "Fen/Ara"],
-      ["5-Kel-", "Fen"], ["6-Kel-", "Fen"], ["7-Kel-", "Fen"], ["8-Kel-",
-      "Fen"], ["9-Kel-", "Fen"], ["10-Kel", "Fen"], ["11-Kel", "Fen"],
-      ["12-Kel", "Fen"], ["13-Kel", "Fen"], ["14-Kel", "Fen"], ["15-Kel",
-      "Fen"], ["16-Kel", "Fen"], ["17-Kel", "Fen"], ["18-Kel", "Fen"],
-      ["19-Kel", "Fen"], ["20-Kel", "Fen"], ["21-Kel", "Fen"], ["22-Kel",
-      "Fen"], ["23-Kel", "Fen"], ["24-Kel", "Fen"], ["25-Kel", "Fen"],
-      ["26-Kel", "Fen"], ["27-Kel", "Fen"], ["28-Kel", "Fen"], ["29-Kel",
-      "Fen"], ["30-Kel", "Fen"], ["1-Nol-", "Fen"], ["2-Nol-", "Fen/Ahn"],
-      ["3-Nol-", "Fen/Ahn"], ["4-Nol-", "Ahn/Fen"], ["5-Nol-", "Ahn/Fen"],
-      ["6-Nol-", "Ahn"], ["7-Nol-", "Ahn"], ["8-Nol-", "Ahn"], ["9-Nol-",
-      "Ahn"], ["10-Nol", "Ahn"], ["11-Nol", "Ahn"], ["12-Nol", "Ahn"],
-      ["13-Nol", "Ahn"], ["14-Nol", "Ahn"], ["15-Nol", "Ahn"], ["16-Nol",
-      "Ahn"], ["17-Nol", "Ahn"], ["18-Nol", "Ahn"], ["19-Nol", "Ahn"],
-      ["20-Nol", "Ahn"], ["21-Nol", "Ahn"], ["22-Nol", "Ahn"], ["23-Nol",
-      "Ahn"], ["24-Nol", "Ahn"], ["25-Nol", "Ahn"], ["26-Nol", "Ahn"],
-      ["27-Nol", "Ahn"], ["28-Nol", "Ahn"], ["29-Nol", "Ahn"], ["30-Nol",
-      "Ahn"], ["1-Lar-", "Ahn"], ["2-Lar-", "Ahn"], ["3-Lar-", "Ahn/Ang"],
-      ["4-Lar-", "Ahn/Ang"], ["5-Lar-", "Ang/Ahn"], ["6-Lar-", "Ang/Ahn"],
-      ["7-Lar-", "Ang"], ["8-Lar-", "Ang"], ["9-Lar-", "Ang"], ["10-Lar",
-      "Ang"], ["11-Lar", "Ang"], ["12-Lar", "Ang"], ["13-Lar", "Ang"],
-      ["14-Lar", "Ang"], ["15-Lar", "Ang"], ["16-Lar", "Ang"], ["17-Lar",
-      "Ang"], ["18-Lar", "Ang"], ["19-Lar", "Ang"], ["20-Lar", "Ang"],
-      ["21-Lar", "Ang"], ["22-Lar", "Ang"], ["23-Lar", "Ang"], ["24-Lar",
-      "Ang"], ["25-Lar", "Ang"], ["26-Lar", "Ang"], ["27-Lar", "Ang"],
-      ["28-Lar", "Ang"], ["29-Lar", "Ang"], ["30-Lar", "Ang"], ["1-Agr-",
-      "Ang"], ["2-Agr-", "Ang"], ["3-Agr-", "Ang"], ["4-Agr-", "Ang"],
-      ["5-Agr-", "Ang/Nad"], ["6-Agr-", "Ang/Nad"], ["7-Agr-", "Nad/Ang"],
-      ["8-Agr-", "Nad/Ang"], ["9-Agr-", "Nad"], ["10-Agr", "Nad"],
-      ["11-Agr", "Nad"], ["12-Agr", "Nad"], ["13-Agr", "Nad"], ["14-Agr",
-      "Nad"], ["15-Agr", "Nad"], ["16-Agr", "Nad"], ["17-Agr", "Nad"],
-      ["18-Agr", "Nad"], ["19-Agr", "Nad"], ["20-Agr", "Nad"], ["21-Agr",
-      "Nad"], ["22-Agr", "Nad"], ["23-Agr", "Nad"], ["24-Agr", "Nad"],
-      ["25-Agr", "Nad"], ["26-Agr", "Nad"], ["27-Agr", "Nad"], ["28-Agr",
-      "Nad"], ["29-Agr", "Nad"], ["30-Agr", "Nad"], ["1-Azu-", "Nad"],
-      ["2-Azu-", "Nad"], ["3-Azu-", "Nad"], ["4-Azu-", "Nad/Hir"],
-      ["5-Azu-", "Nad/Hir"], ["6-Azu-", "Hir/Nad"], ["7-Azu-", "Hir/Nad"],
-      ["8-Azu-", "Hir"], ["9-Azu-", "Hir"], ["10-Azu", "Hir"], ["11-Azu",
-      "Hir"], ["12-Azu", "Hir"], ["13-Azu", "Hir"], ["14-Azu", "Hir"],
-      ["15-Azu", "Hir"], ["16-Azu", "Hir"], ["17-Azu", "Hir"], ["18-Azu",
-      "Hir"], ["19-Azu", "Hir"], ["20-Azu", "Hir"], ["21-Azu", "Hir"],
-      ["22-Azu", "Hir"], ["23-Azu", "Hir"], ["24-Azu", "Hir"], ["25-Azu",
-      "Hir"], ["26-Azu", "Hir"], ["27-Azu", "Hir"], ["28-Azu", "Hir"],
-      ["29-Azu", "Hir"], ["30-Azu", "Hir"], ["1-Hal-", "Hir"], ["2-Hal-",
-      "Hir"], ["3-Hal-", "Hir/Tar"], ["4-Hal-", "Hir/Tar"], ["5-Hal-",
-      "Tar/Hir"], ["6-Hal-", "Tar/Hir"], ["7-Hal-", "Tar"], ["8-Hal-",
-      "Tar"], ["9-Hal-", "Tar"], ["10-Hal", "Tar"], ["11-Hal", "Tar"],
-      ["12-Hal", "Tar"], ["13-Hal", "Tar"], ["14-Hal", "Tar"], ["15-Hal",
-      "Tar"], ["16-Hal", "Tar"], ["17-Hal", "Tar"], ["18-Hal", "Tar"],
-      ["19-Hal", "Tar"], ["20-Hal", "Tar"], ["21-Hal", "Tar"], ["22-Hal",
-      "Tar"], ["23-Hal", "Tar"], ["24-Hal", "Tar"], ["25-Hal", "Tar"],
-      ["26-Hal", "Tar"], ["27-Hal", "Tar"], ["28-Hal", "Tar"], ["29-Hal",
-      "Tar"], ["30-Hal", "Tar"], ["1-Sav-", "Tar"], ["2-Sav-", "Tar/Tai"],
-      ["3-Sav-", "Tar/Tai"], ["4-Sav-", "Tai/Tar"], ["5-Sav-", "Tai/Tar"],
-      ["6-Sav-", "Tai"], ["7-Sav-", "Tai"], ["8-Sav-", "Tai"], ["9-Sav-",
-      "Tai"], ["10-Sav", "Tai"], ["11-Sav", "Tai"], ["12-Sav", "Tai"],
-      ["13-Sav", "Tai"], ["14-Sav", "Tai"], ["15-Sav", "Tai"], ["16-Sav",
-      "Tai"], ["17-Sav", "Tai"], ["18-Sav", "Tai"], ["19-Sav", "Tai"],
-      ["20-Sav", "Tai"], ["21-Sav", "Tai"], ["22-Sav", "Tai"], ["23-Sav",
-      "Tai"], ["24-Sav", "Tai"], ["25-Sav", "Tai"], ["26-Sav", "Tai"],
-      ["27-Sav", "Tai"], ["28-Sav", "Tai"], ["29-Sav", "Tai"], ["30-Sav",
-      "Tai"], ["1-Ilv-", "Tai/Sko"], ["2-Ilv-", "Tai/Sko"], ["3-Ilv-",
-      "Sko/Tai"], ["4-Ilv-", "Sko/Tai"], ["5-Ilv-", "Sko"], ["6-Ilv-",
-      "Sko"], ["7-Ilv-", "Sko"], ["8-Ilv-", "Sko"], ["9-Ilv-", "Sko"],
-      ["10-Ilv", "Sko"], ["11-Ilv", "Sko"], ["12-Ilv", "Sko"], ["13-Ilv",
-      "Sko"], ["14-Ilv", "Sko"], ["15-Ilv", "Sko"], ["16-Ilv", "Sko"],
-      ["17-Ilv", "Sko"], ["18-Ilv", "Sko"], ["19-Ilv", "Sko"], ["20-Ilv",
-      "Sko"], ["21-Ilv", "Sko"], ["22-Ilv", "Sko"], ["23-Ilv", "Sko"],
-      ["24-Ilv", "Sko"], ["25-Ilv", "Sko"], ["26-Ilv", "Sko"], ["27-Ilv",
-      "Sko"], ["28-Ilv", "Sko"], ["29-Ilv", "Sko"], ["30-Ilv", "Sko"],
-      ["1-Nav-", "Sko/Mas"], ["2-Nav-", "Sko/Mas"], ["3-Nav-", "Mas/Sko"],
-      ["4-Nav-", "Mas/Sko"], ["5-Nav-", "Mas"], ["6-Nav-", "Mas"],
-      ["7-Nav-", "Mas"], ["8-Nav-", "Mas"], ["9-Nav-", "Mas"], ["10-Nav",
-      "Mas"], ["11-Nav", "Mas"], ["12-Nav", "Mas"], ["13-Nav", "Mas"],
-      ["14-Nav", "Mas"], ["15-Nav", "Mas"], ["16-Nav", "Mas"], ["17-Nav",
-      "Mas"], ["18-Nav", "Mas"], ["19-Nav", "Mas"], ["20-Nav", "Mas"],
-      ["21-Nav", "Mas"], ["22-Nav", "Mas"], ["23-Nav", "Mas"], ["24-Nav",
-      "Mas"], ["25-Nav", "Mas"], ["26-Nav", "Mas"], ["27-Nav", "Mas"],
-      ["28-Nav", "Mas"], ["29-Nav", "Mas"], ["30-Nav", "Mas/Lad"],
-      ["1-Mor-", "Mas/Lad"], ["2-Mor-", "Lad/Mas"], ["3-Mor-", "Lad/Mas"],
-      ["4-Mor-", "Lad"], ["5-Mor-", "Lad"], ["6-Mor-", "Lad"], ["7-Mor-",
-      "Lad"], ["8-Mor-", "Lad"], ["9-Mor-", "Lad"], ["10-Mor", "Lad"],
-      ["11-Mor", "Lad"], ["12-Mor", "Lad"], ["13-Mor", "Lad"], ["14-Mor",
-      "Lad"], ["15-Mor", "Lad"], ["16-Mor", "Lad"], ["17-Mor", "Lad"],
-      ["18-Mor", "Lad"], ["19-Mor", "Lad"], ["20-Mor", "Lad"], ["21-Mor",
-      "Lad"], ["22-Mor", "Lad"], ["23-Mor", "Lad"], ["24-Mor", "Lad"],
-      ["25-Mor", "Lad"], ["26-Mor", "Lad"], ["27-Mor", "Lad"], ["28-Mor",
-      "Lad"], ["29-Mor", "Lad"], ["30-Mor", "Lad"]
+      ["1-Nuz-","Lad"],    ["2-Nuz-","Lad/Ula"],["3-Nuz-","Lad/Ula"],["4-Nuz-","Ula"],    ["5-Nuz-","Ula"],
+      ["6-Nuz-","Ula"],    ["7-Nuz-","Ula"],    ["8-Nuz-","Ula"],    ["9-Nuz-","Ula"],    ["10-Nuz","Ula"],
+      ["11-Nuz","Ula"],    ["12-Nuz","Ula"],    ["13-Nuz","Ula"],    ["14-Nuz","Ula"],    ["15-Nuz","Ula"],
+      ["16-Nuz","Ula"],    ["17-Nuz","Ula"],    ["18-Nuz","Ula"],    ["19-Nuz","Ula"],    ["20-Nuz","Ula"],
+      ["21-Nuz","Ula"],    ["22-Nuz","Ula"],    ["23-Nuz","Ula"],    ["24-Nuz","Ula"],    ["25-Nuz","Ula"],
+      ["26-Nuz","Ula"],    ["27-Nuz","Ula"],    ["28-Nuz","Ula"],    ["29-Nuz","Ula"],    ["30-Nuz","Ula"],
+      ["1-Peo-","Ula"],    ["2-Peo-","Ula/Ara"],["3-Peo-","Ula/Ara"],["4-Peo-","Ara/Ula"],["5-Peo-","Ara/Ula"],
+      ["6-Peo-","Ara"],    ["7-Peo-","Ara"],    ["8-Peo-","Ara"],    ["9-Peo-","Ara"],    ["10-Peo","Ara"],
+      ["11-Peo","Ara"],    ["12-Peo","Ara"],    ["13-Peo","Ara"],    ["14-Peo","Ara"],    ["15-Peo","Ara"],
+      ["16-Peo","Ara"],    ["17-Peo","Ara"],    ["18-Peo","Ara"],    ["19-Peo","Ara"],    ["20-Peo","Ara"],
+      ["21-Peo","Ara"],    ["22-Peo","Ara"],    ["23-Peo","Ara"],    ["24-Peo","Ara"],    ["25-Peo","Ara"],
+      ["26-Peo","Ara"],    ["27-Peo","Ara"],    ["28-Peo","Ara"],    ["29-Peo","Ara"],    ["30-Peo","Ara"],
+      ["1-Kel-","Ara/Fen"],["2-Kel-","Ara/Fen"],["3-Kel-","Fen/Ara"],["4-Kel-","Fen/Ara"],["5-Kel-","Fen"],
+      ["6-Kel-","Fen"],    ["7-Kel-","Fen"],    ["8-Kel-","Fen"],    ["9-Kel-","Fen"],    ["10-Kel","Fen"],
+      ["11-Kel","Fen"],    ["12-Kel","Fen"],    ["13-Kel","Fen"],    ["14-Kel","Fen"],    ["15-Kel","Fen"],
+      ["16-Kel","Fen"],    ["17-Kel","Fen"],    ["18-Kel","Fen"],    ["19-Kel","Fen"],    ["20-Kel","Fen"],
+      ["21-Kel","Fen"],    ["22-Kel","Fen"],    ["23-Kel","Fen"],    ["24-Kel","Fen"],    ["25-Kel","Fen"],
+      ["26-Kel","Fen"],    ["27-Kel","Fen"],    ["28-Kel","Fen"],    ["29-Kel","Fen"],    ["30-Kel","Fen"],
+      ["1-Nol-","Fen"],    ["2-Nol-","Fen/Ahn"],["3-Nol-","Fen/Ahn"],["4-Nol-","Ahn/Fen"],["5-Nol-","Ahn/Fen"],
+      ["6-Nol-","Ahn"],    ["7-Nol-","Ahn"],    ["8-Nol-","Ahn"],    ["9-Nol-","Ahn"],    ["10-Nol","Ahn"],
+      ["11-Nol","Ahn"],    ["12-Nol","Ahn"],    ["13-Nol","Ahn"],    ["14-Nol","Ahn"],    ["15-Nol","Ahn"],
+      ["16-Nol","Ahn"],    ["17-Nol","Ahn"],    ["18-Nol","Ahn"],    ["19-Nol","Ahn"],    ["20-Nol","Ahn"],
+      ["21-Nol","Ahn"],    ["22-Nol","Ahn"],    ["23-Nol","Ahn"],    ["24-Nol","Ahn"],    ["25-Nol","Ahn"],
+      ["26-Nol","Ahn"],    ["27-Nol","Ahn"],    ["28-Nol","Ahn"],    ["29-Nol","Ahn"],    ["30-Nol","Ahn"],
+      ["1-Lar-","Ahn"],    ["2-Lar-","Ahn"],    ["3-Lar-","Ahn/Ang"],["4-Lar-","Ahn/Ang"],["5-Lar-","Ang/Ahn"],
+      ["6-Lar-","Ang/Ahn"],["7-Lar-","Ang"],    ["8-Lar-","Ang"],    ["9-Lar-","Ang"],    ["10-Lar","Ang"],
+      ["11-Lar","Ang"],    ["12-Lar","Ang"],    ["13-Lar","Ang"],    ["14-Lar","Ang"],    ["15-Lar","Ang"],
+      ["16-Lar","Ang"],    ["17-Lar","Ang"],    ["18-Lar","Ang"],    ["19-Lar","Ang"],    ["20-Lar","Ang"],
+      ["21-Lar","Ang"],    ["22-Lar","Ang"],    ["23-Lar","Ang"],    ["24-Lar","Ang"],    ["25-Lar","Ang"],
+      ["26-Lar","Ang"],    ["27-Lar","Ang"],    ["28-Lar","Ang"],    ["29-Lar","Ang"],    ["30-Lar","Ang"],
+      ["1-Agr-","Ang"],    ["2-Agr-","Ang"],    ["3-Agr-","Ang"],    ["4-Agr-","Ang"],    ["5-Agr-","Ang/Nad"],
+      ["6-Agr-","Ang/Nad"],["7-Agr-","Nad/Ang"],["8-Agr-","Nad/Ang"],["9-Agr-","Nad"],    ["10-Agr","Nad"],
+      ["11-Agr","Nad"],    ["12-Agr","Nad"],    ["13-Agr","Nad"],    ["14-Agr","Nad"],    ["15-Agr","Nad"],
+      ["16-Agr","Nad"],    ["17-Agr","Nad"],    ["18-Agr","Nad"],    ["19-Agr","Nad"],    ["20-Agr","Nad"],
+      ["21-Agr","Nad"],    ["22-Agr","Nad"],    ["23-Agr","Nad"],    ["24-Agr","Nad"],    ["25-Agr","Nad"],
+      ["26-Agr","Nad"],    ["27-Agr","Nad"],    ["28-Agr","Nad"],    ["29-Agr","Nad"],    ["30-Agr","Nad"],
+      ["1-Azu-","Nad"],    ["2-Azu-","Nad"],    ["3-Azu-","Nad"],    ["4-Azu-","Nad/Hir"],["5-Azu-","Nad/Hir"],
+      ["6-Azu-","Hir/Nad"],["7-Azu-","Hir/Nad"],["8-Azu-","Hir"],    ["9-Azu-","Hir"],    ["10-Azu","Hir"],
+      ["11-Azu","Hir"],    ["12-Azu","Hir"],    ["13-Azu","Hir"],    ["14-Azu","Hir"],    ["15-Azu","Hir"],
+      ["16-Azu","Hir"],    ["17-Azu","Hir"],    ["18-Azu","Hir"],    ["19-Azu","Hir"],    ["20-Azu","Hir"],
+      ["21-Azu","Hir"],    ["22-Azu","Hir"],    ["23-Azu","Hir"],    ["24-Azu","Hir"],    ["25-Azu","Hir"],
+      ["26-Azu","Hir"],    ["27-Azu","Hir"],    ["28-Azu","Hir"],    ["29-Azu","Hir"],    ["30-Azu","Hir"],
+      ["1-Hal-","Hir"],    ["2-Hal-","Hir"],    ["3-Hal-","Hir/Tar"],["4-Hal-","Hir/Tar"],["5-Hal-","Tar/Hir"],
+      ["6-Hal-","Tar/Hir"],["7-Hal-","Tar"],    ["8-Hal-","Tar"],    ["9-Hal-","Tar"],    ["10-Hal","Tar"],
+      ["11-Hal","Tar"],    ["12-Hal","Tar"],    ["13-Hal","Tar"],    ["14-Hal","Tar"],    ["15-Hal","Tar"],
+      ["16-Hal","Tar"],    ["17-Hal","Tar"],    ["18-Hal","Tar"],    ["19-Hal","Tar"],    ["20-Hal","Tar"],
+      ["21-Hal","Tar"],    ["22-Hal","Tar"],    ["23-Hal","Tar"],    ["24-Hal","Tar"],    ["25-Hal","Tar"],
+      ["26-Hal","Tar"],    ["27-Hal","Tar"],    ["28-Hal","Tar"],    ["29-Hal","Tar"],    ["30-Hal","Tar"],
+      ["1-Sav-","Tar"],    ["2-Sav-","Tar/Tai"],["3-Sav-","Tar/Tai"],["4-Sav-","Tai/Tar"],["5-Sav-","Tai/Tar"],
+      ["6-Sav-","Tai"],    ["7-Sav-","Tai"],    ["8-Sav-","Tai"],    ["9-Sav-","Tai"],    ["10-Sav","Tai"],
+      ["11-Sav","Tai"],    ["12-Sav","Tai"],    ["13-Sav","Tai"],    ["14-Sav","Tai"],    ["15-Sav","Tai"],
+      ["16-Sav","Tai"],    ["17-Sav","Tai"],    ["18-Sav","Tai"],    ["19-Sav","Tai"],    ["20-Sav","Tai"],
+      ["21-Sav","Tai"],    ["22-Sav","Tai"],    ["23-Sav","Tai"],    ["24-Sav","Tai"],    ["25-Sav","Tai"],
+      ["26-Sav","Tai"],    ["27-Sav","Tai"],    ["28-Sav","Tai"],    ["29-Sav","Tai"],    ["30-Sav","Tai"],
+      ["1-Ilv-","Tai/Sko"],["2-Ilv-","Tai/Sko"],["3-Ilv-","Sko/Tai"],["4-Ilv-","Sko/Tai"],["5-Ilv-","Sko"],
+      ["6-Ilv-","Sko"],    ["7-Ilv-","Sko"],    ["8-Ilv-","Sko"],    ["9-Ilv-","Sko"],    ["10-Ilv","Sko"],
+      ["11-Ilv","Sko"],    ["12-Ilv","Sko"],    ["13-Ilv","Sko"],    ["14-Ilv","Sko"],    ["15-Ilv","Sko"],
+      ["16-Ilv","Sko"],    ["17-Ilv","Sko"],    ["18-Ilv","Sko"],    ["19-Ilv","Sko"],    ["20-Ilv","Sko"],
+      ["21-Ilv","Sko"],    ["22-Ilv","Sko"],    ["23-Ilv","Sko"],    ["24-Ilv","Sko"],    ["25-Ilv","Sko"],
+      ["26-Ilv","Sko"],    ["27-Ilv","Sko"],    ["28-Ilv","Sko"],    ["29-Ilv","Sko"],    ["30-Ilv","Sko"],
+      ["1-Nav-","Sko/Mas"],["2-Nav-","Sko/Mas"],["3-Nav-","Mas/Sko"],["4-Nav-","Mas/Sko"],["5-Nav-","Mas"],
+      ["6-Nav-","Mas"],    ["7-Nav-","Mas"],    ["8-Nav-","Mas"],    ["9-Nav-","Mas"],    ["10-Nav","Mas"],
+      ["11-Nav","Mas"],    ["12-Nav","Mas"],    ["13-Nav","Mas"],    ["14-Nav","Mas"],    ["15-Nav","Mas"],
+      ["16-Nav","Mas"],    ["17-Nav","Mas"],    ["18-Nav","Mas"],    ["19-Nav","Mas"],    ["20-Nav","Mas"],
+      ["21-Nav","Mas"],    ["22-Nav","Mas"],    ["23-Nav","Mas"],    ["24-Nav","Mas"],    ["25-Nav","Mas"],
+      ["26-Nav","Mas"],    ["27-Nav","Mas"],    ["28-Nav","Mas"],    ["29-Nav","Mas"],    ["30-Nav","Mas/Lad"],
+      ["1-Mor-","Mas/Lad"],["2-Mor-","Lad/Mas"],["3-Mor-","Lad/Mas"],["4-Mor-","Lad"],    ["5-Mor-","Lad"],
+      ["6-Mor-","Lad"],    ["7-Mor-","Lad"],    ["8-Mor-","Lad"],    ["9-Mor-","Lad"],    ["10-Mor","Lad"],
+      ["11-Mor","Lad"],    ["12-Mor","Lad"],    ["13-Mor","Lad"],    ["14-Mor","Lad"],    ["15-Mor","Lad"],
+      ["16-Mor","Lad"],    ["17-Mor","Lad"],    ["18-Mor","Lad"],    ["19-Mor","Lad"],    ["20-Mor","Lad"],
+      ["21-Mor","Lad"],    ["22-Mor","Lad"],    ["23-Mor","Lad"],    ["24-Mor","Lad"],    ["25-Mor","Lad"],
+      ["26-Mor","Lad"],    ["27-Mor","Lad"],    ["28-Mor","Lad"],    ["29-Mor","Lad"],    ["30-Mor","Lad"]
     ]);
     var i = 0;
     for (var s of skills.keys()) {

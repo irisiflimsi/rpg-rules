@@ -26,16 +26,17 @@
         </p>
         <p>
           When applying our meta-rule &#8212; <em>10 points difference
-          grant a <n10/>:<n1/> chance of winning</em> &#8212; we find
-          that many games, for example Warhammer, Harnmaster,
-          Runequest, and Rolemaster provide approximately 4 levels.
-          There are a lot of generalizations happening here, but
-          basically these levels are at <n5/>%, <em>34</em>%,
-          <em>84</em>% and <em>95</em>%.  The most activity being in
-          the middle range, we conclude that a +<n5/>% bonus should be
-          a +<n1/> in our skill charts.  Of course, at the edge of the
-          scale, such a bonus is vastly more important.  The
-          purpose of these rules is to weed out such discrepencies.
+          grant a <em>n10</em>:<em>n1</em> chance of winning</em>
+          &#8212; we find that many games, for example Warhammer,
+          Harnmaster, Runequest, and Rolemaster provide approximately
+          4 levels.  There are a lot of generalizations happening
+          here, but basically these levels are at <em>n5</em>%,
+          <em>34</em>%, <em>84</em>% and <em>95</em>%.  The most
+          activity being in the middle range, we conclude that a
+          +<em>n5</em>% bonus should be a +<em>n1</em> in our skill charts.
+          Of course, at the edge of the scale, such a bonus is vastly
+          more important.  The purpose of these rules is to weed out
+          such discrepencies.
         </p>
         <p>
           We <em>normalize</em> any skill with respect to an
@@ -48,7 +49,7 @@
         <p>
           This following table provides an "exact" reference for
           conversion of classical percentage-based skill levels. The
-          extensions beyound <n5/>% and <em>95</em>% are relatively
+          extensions beyound <em>n5</em>% and <em>95</em>% are relatively
           arbitrary. The rarely come into play and turn out needlessly
           complicated if correctly applied.
         </p>
@@ -118,9 +119,9 @@
         <h3 id="precis">Precision</h3>
         <p>
           Precision depends on the context, but principally you should
-          not be more exact than <n10/>%. (No more than one decimal
-          point.)  As smallest units we will use the second, the gramm
-          and the centimeter.
+          not be more exact than <em>n10</em>%. (No more than one
+          decimal point.)  As smallest units we will use the second,
+          the gramm and the centimeter.
         </p>
         <h3 id="precis">Operations</h3>
         <p>
@@ -139,8 +140,8 @@
           Skill Tests can be given descriptive levels, here we choose
           <em>Very Easy&#160;(-20), Easy&#160;(-10), Average&#160;(0),
           Hard&#160;(10), Very Hard&#160;(20), Extremely
-          Hard&#160;(30)</em>.  Note that any difference of <n20/> or
-          more is regularly not worth rolling.
+          Hard&#160;(30)</em>.  Note that any difference of
+          <em>n20</em> or more is regularly not worth rolling.
         </p>
         <p>
           Skills listed explicitely are explained in descriptive terms

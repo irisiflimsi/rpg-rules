@@ -1262,23 +1262,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-acr">Acrobatics</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Agility, Agility
-          </p>
-          <p>
-            <em>Occupations:</em> Thief/40, Cleric/Naveh/60, Cleric/Rydequeln/60
-          </p>
-          <p>
-            <em>Specialties:</em> Tumbling/20, Vault/20, Swinging/20
-          </p>
-          <p>
-            <em>Sunsign:</em> Nadai+2, Hirin+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Acrobatics"/>
         <p>
           Acrobatics Skill is tested when a character attempts a
           gymnastic feat that is more than a simple matter of native
@@ -1300,20 +1284,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-act">Acting</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Agility, Voice, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Thespian/80, Cleric/Rydequeln/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Acting"/>
         <p>
           The ability to play a role.  Used to determine the success
           of a masquerade or dramatic performance.  Acting includes
@@ -1332,14 +1303,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-agi">Agility</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Agility
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Agility"/>
         <p>
           The skill is used for multiple purposes; to avoid falling
           objects, weapon and missile attacks, and other situations
@@ -1347,21 +1311,7 @@
           directly as dimension.
         </p>
         <h5 class="skill" id="sk-agr">Agriculture</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Stamina, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Farmer/80, Millwright/60, Miller/60,
-            Bailiff/40, Cleric/Peoni/80, Shek-Pvar/Fyvria/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Agriculture"/>
         <p>
           The ability to grow crops.  It determines the
           quality/quantity of crops produced.  Results depend on land
@@ -1372,22 +1322,7 @@
           dimension but subtract 10 from the skill roll.
         </p>
         <h5 class="skill" id="sk-alc">Alchemy</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Smell, Intelligence, Aura
-          </p>
-          <p>
-            <em>Occupations:</em> Alchemist/80, Apothecary/40,
-            Chandler/40, Embalmer/40, Glassworker/40, Hideworker/40,
-            Perfumer/60, Physician/60, Shek-Pvar/Peleahn/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Sko+3, Tai+2, Mas+2
-          </p>
-          <p>
-            <em>OML:</em> -10
-          </p>
-        </div>
+        <include id="$Alchemy"/>
         <p>
           Used for the analysis and/or production of chemical or
           alchemical compounds.  Alchemists devise (or otherwise
@@ -1396,32 +1331,7 @@
           materials.  Use the <em>Recipe</em> dimension for NPCs.
         </p>
         <h5 class="skill" id="sk-ani">Animalcraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Agility, Voice, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Animal Trainer/80, Farmer/60,
-            Herdsman/80, Teamster/60, Cleric/Peoni/60,
-            Shek-Pvar/Fyvria/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1, Aralius+1
-          </p>
-          <p>
-            <em>Specialties:</em> Horsecraft/20, Cattlecraft/20,
-            Birdcraft/20, Dogcraft/20, Sheepcraft/20, Swinecraft/20,
-            Ratcraft/20, Ivashicraft/20
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Dogcraft/Ratter/80,
-            Horsecraft/Ostler/80, Ratcraft/Ratter/100,
-            Cleric/Ilvir/Ivashicraft/80
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Animalcraft"/>
         <p>
           The ability to domesticate, breed, and train animals.
           Animalcraft also includes basic veterinary medicine.  Test
@@ -1444,20 +1354,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-ast">Astrology</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Eyesight, Intelligence, Aura
-          </p>
-          <p>
-            <em>Occupations:</em> Astrologer/80, Lady/40, Cleric/Siem/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Astrology"/>
         <p>
           The ability to chart the stars, cast horoscopes, and make
           predictions based on astrological knowledge.  Astrology
@@ -1470,20 +1367,7 @@
           <em>Divination</em>.
         </p>
         <h5 class="skill" id="sk-awa">Awareness</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Eyesight, Hearing, Smell
-          </p>
-          <p>
-            <em>Occupations:</em> Thief/100
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+2, Tai+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Awareness"/>
         <p>
           Subliminal sensitivity to the environment.  Awareness may be
           tested when a character says something like, “I’ll look
@@ -1495,31 +1379,7 @@
           at least 10.
         </p>
         <h5 class="skill" id="sk-axe">Axe</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Strength, Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> Cleric/Sarajin/80
-          </p>
-          <p>
-            <em>Specialties:</em> Battleaxe/40, Handaxe/40,
-            Shorkana/40, Pickaxe/30, Sickle/20, Warhammer/30
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Battleaxe/Huscarl/MF/120,
-            Battleaxe/Low Guard/MF/100, Handaxe/Herald/80,
-            Handaxe/Bailiff/Feudal/100, Handaxe/LF/Khuzdul/100,
-            Handaxe/Knight/Feudal/100, Handaxe/Patrician/100,
-            Sickle/Cleric/Agrik/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Ahnu+1, Feniri+1, Angberelius +1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Axe"/>
         <p>
           The ability to use hafted, edged weapons.  Specialties
           include Battleaxe, Handaxe, Hatchet, Shorkana (throwing
@@ -1528,42 +1388,14 @@
           <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-blo">Blowgun</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Stamina, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+2, Tarael+1, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Blowgun"/>
         <p>
           A rare skill except among the Lia-Kavair, clergy of Naveh,
           and certain tribes in tropical and equatorial rain-forests.
           No specialties exist.  Use the <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-bow">Bow</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Specialties:</em> Crossbow/40, Hartbow/40, Longbow/50, Shortbow/50
-          </p>
-          <p>
-            <em>Specialties Occupations:</em> Longbows/LB/100,
-            Shortbow/SB/100, Legionnaire/SB/120, LF/Viking/100,
-            Hartbow/Ranger/120, Hartbow/Horsebow/120
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+1, Tarael+1, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Bow"/>
         <p>
           The ability to use bows.  Specialties include Crossbow,
           Hartbow (elven composite bow), Longbow, and Shortbow.
@@ -1576,20 +1408,7 @@
           dimensions.
         </p>
         <h5 class="skill" id="sk-bre">Brewing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Smell, Smell
-          </p>
-          <p>
-            <em>Occupations:</em> Innkeeper/80, Shek-Pvar/Odivshe/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Skorus+3, Tai+2, Masara+2
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Brewing"/>
         <p>
           Different beverage types may be specialties.  The ability to
           prepare alcoholic and other beverages.  Used to determine
@@ -1602,40 +1421,14 @@
           own brews.  Brewing uses the <em>Recipes</em> domain.
         </p>
         <h5 class="skill" id="sk-cer">Ceramics</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Glassworker/80, Potter/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+2
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Ceramics"/>
         <p>
           Determines the quality of pottery items produced.  Results
           are limited by the quality of materials and equipment.
           Brewing uses the <em>Recipes</em> domain.
         </p>
         <h5 class="skill" id="sk-cli">Climbing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Agility
-          </p>
-          <p>
-            <em>Occupations:</em> Thatcher/100, Seaman/100
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Climbing"/>
         <p>
           Tested when a character attempts to climb a difficult
           obstacle.  The GM assesses a climb by the dimensions in the
@@ -1668,28 +1461,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-clu">Club</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Strength, Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> Ratter/100, Seaman/100, Thief/100
-          </p>
-          <p>
-            <em>Specialties:</em> Club/75, Mace/60, Maul/40, Morningstar/40
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Mace/Herald/Order/80,
-            Mace/Bailiff/Order/100, Mace/Cleric/Agrik/80, Mace/High
-            Guard/100, Mace/Knight/Order/100
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Club"/>
         <p>
           The ability to use hafted, clubbing weapons.  Specialties
           include Club, Mace, Maul, and Morningstar.  Because club
@@ -1697,20 +1469,7 @@
           axes.  Use the <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-coo">Cookery</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Smell, Smell
-          </p>
-          <p>
-            <em>Occupations:</em> Cook/80, Servant/80, Innkeeper/80, Salter/80, Shek-Pvar/Peleahn/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Skorus+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Cookery"/>
         <p>
           Cultural, regional, or even religious specialties are
           possible.  Determines the appeal and nutritional value of
@@ -1719,33 +1478,7 @@
           Use the <em>Recipes</em> domain.
         </p>
         <h5 class="skill" id="sk-dag">Dagger</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Beggar/80, Prostitute/80, Pimp/80,
-            Seaman/80, Thief/80, Herald/80, Bailiff/100,
-            Cleric/Larani/80, Cleric/Morgath/80, Cleric/Naveh/80,
-            Cleric/Sarajin/80, Yeoman/LF/80, Guardsman/100,
-            Yeoman/B/100, Infantry/100, Archer/100, Legionnaire/F/80,
-            Legionnaire/SB/100, Guard/100, Ranger/100, Guardian/100,
-            Knight/HH/100, Knight/MH/Non-Sindar/100
-          </p>
-          <p>
-            <em>Specialties:</em> Keltan/30, Knife/50, Taburi/30
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Keltan/Huscarl/M/100,
-            Keltan/Clansman/U/80, Keltan/Clansman/L/100
-          </p>
-          <p>
-            <em>Sunsign:</em> Angberelius+2, Nadai+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Dagger"/>
         <p>
           The ability to use short-bladed weapons, mostly as secondary
           weapons.  Specialties include Keltan (main gauche), Knife,
@@ -1753,22 +1486,7 @@
           dimensions.
         </p>
         <h5 class="skill" id="sk-dan">Dancing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Agility, Agility
-          </p>
-          <p>
-            <em>Occupations:</em> Courtesan/60, Herald/60,
-            Bailiff//60, Lady/60, Cleric/Halea/60, Horsebow/60,
-            Knight/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+2, Hirin+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Dancing"/>
         <p>
           The ability to perform various types of dance.  Specialties
           such as folk or erotic dancing are viable.  Dancing is very
@@ -1778,21 +1496,7 @@
           dances, OML is -10.  Use the <em>Artistic</em> dimension.
         </p>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> Thief/80, Cleric/Naveh/40,
-            Shek-Pvar/Lyahvi/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+2, Skorus+2, Tai+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Dexterity"/>
         <p>
           Legerdemain (Sleight of hand) is tested when a character
           attempts to perform a feat of manual dexterity without being
@@ -1823,31 +1527,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-dra">Drawing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Artist/80, Cartographer/80,
-            Scribe/60, Toymaker/60, Astrologer/60, Lexigrapher/60,
-            Pilot/60, Thespian/60, Herald/80, Lady/40, Cleric/40,
-            Cleric/Ilvir/60, Cleric/Save-K’nor/60,
-            Shek-Pvar/Savorya/80
-          </p>
-          <p>
-            <em>Specialties:</em> Cartography/20, Painting/40,
-            Sketching/40, Calligraphy/40
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Lexigrapher/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Skorus+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Drawing"/>
         <p>
           The ability to produce a likeness, or to assess the artistic
           quality or realism of a drawing or painting.  Different
@@ -1862,21 +1542,7 @@
           other PCs.  Use the <em>Artistic</em> dimension.
         </p>
         <h5 class="skill" id="sk-emb">Embalming</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Smell
-          </p>
-          <p>
-            <em>Occupations:</em> Embalmer/80, Perfumer/40, Cleric/40,
-            Cleric/Morgath/120, Shek-Pvar/Fyvria/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Skorus+1, Ulanus+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Embalming"/>
         <p>
           Determines success when embalming a corpse against
           deterioration, and when preparing a corpse for
@@ -1901,17 +1567,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-end">Endurance</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Will, Stamina
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1, Lado+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Endurance"/>
         <p>
           Load is the total weight of items carried or worn, including
           clothing, armour, and weapons.  Total Load is recalculated
@@ -1940,25 +1596,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-eng">Engineering</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Intelligence, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Thatcher/40, Mason/60,
-            Millwright/60, Miller/60, Miner/60
-          </p>
-          <p>
-            <em>Specialties:</em> Mills/30, Siege Engines/30,
-            Fortifications/30, Mining/20
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+2, Feniri+1
-          </p>
-          <p>
-            <em>OML:</em> -10
-          </p>
-        </div>
+        <include id="$Engineering"/>
         <p>
           The ability to construct and maintain mills, drawbridges,
           siege and castle engines, and the like.  This skill does not
@@ -1967,14 +1605,7 @@
           dimension.
         </p>
         <h5 class="skill" id="sk-eye">Eyesight</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Eyesight
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Eyesight"/>
         <p>
           Eyesight as skill cannot be improved, neither can the
           attribute.  The resolution is in mm/m or m/km.  Typical
@@ -1993,21 +1624,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-fis">Fishing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Fisherman/100, Salter/60, Seaman/60,
-            Shek-Pvar/Odivshe/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+2, Lado+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Fishing"/>
         <p>
           Different techniques may be treated as specialties: Hook and
           Line, Spear-fishing, Net-fishing, etc.  Some characters may
@@ -2022,24 +1639,7 @@
           <em>Yield-Time</em> dimensions.
         </p>
         <h5 class="skill" id="sk-fla">Flail</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> 
-          </p>
-          <p>
-            <em>Specialty:</em> Ball &#0038; Chain/40, Grainflail/20,
-            Nachakas/20, Warflail/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+1, Tarael+1, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Flail"/>
         <p>
           The ability to use articulated (folding/bending) weapons.
           Centrifugal force gives them high impact, but they are
@@ -2047,24 +1647,7 @@
           the <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-fle">Fletching</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Hunter/40, Trapper/40,
-            Weaponcrafter/60
-          </p>
-          <p>
-            <em>Specialty:</em> Bowyer/50, Fletcher/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+2, Tarael+1, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Fletching"/>
         <p>
           The ability to make and repair bows and arrows.  Base yield
           is 1 bow or 12 arrows in a day, which assumes tools and
@@ -2082,21 +1665,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-fol">Folklore</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Tutor/80, Sage/80, Harper/80,
-            Skald/80, Lady/80, Cleric/60, Shek-Pvar/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Tai+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Folklore"/>
         <p>
           Different cultural types may be specialties.  Knowledge of
           myths, legends, and history.  This is an oral tradition in
@@ -2123,21 +1692,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-for">Foraging</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Smell, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Hunter/60, Trapper/60,
-            Cleric/Siem/60, Shek-Pvar/Fyvria/60, Military/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Foraging"/>
         <p>
           Different climate and terrain types may be specialties.
           Finding (vegetarian) food in the wilderness.  Tested when a
@@ -2152,20 +1707,7 @@
           the <em>Yield</em> and <em>Yield-Time</em> dimensions.
         </p>
         <h5 class="skill" id="sk-gla">Glasswork</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Glassworker/80, Potter/40, Shek-Pvar/Lyahvi/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Feniri+2
-          </p>
-          <p>
-            <em>OML:</em> -10
-          </p>
-        </div>
+        <include id="$Glasswork"/>
         <p>
           The ability to produce glassware.  Appropriate tools and
           materials are necessary.  Most people believe glassworkers
@@ -2175,14 +1717,7 @@
           of the wealthy.  The best glass products are of elven make.
         </p>
         <h5 class="skill" id="sk-hea">Hearing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Hearing
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Hearing"/>
         <p>
           Hearing as skill cannot be improved, neither can the
           attribute.
@@ -2221,22 +1756,7 @@
           </p>
         </div>
         <h5 class="skill" id="sk-hera">Heraldry</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Herald/80, Lady/60, Cleric/40,
-            Cleric/Agrik/60, Cleric/Larani/60, Cleric/Save-K’nor/40,
-            Cleric/Shea-Al-Aecori/60, Military/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Skorus+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Heraldry"/>
         <p>
           Different regional/cultural types may be specialties.  The
           ability to recognize heraldic achievements, and to blazon
@@ -2258,23 +1778,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-herb">Herblore</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Eyesight, Smell, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Cook/80, Servant/80, Ratter/40,
-            Alchemist/60, Apothecary/80, Perfumer/60, Physician/60,
-            Salter/20, Cleric/Ilvir/40, Cleric/Peoni/60,
-            Cleric/Siem/40, Shek-Pvar/Fyvria/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+3, Aralius+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Herblore"/>
         <p>
           Different climate and terrain types may be specialties.  The
           ability to find and identify individual types of plant.
@@ -2299,26 +1803,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-hid">Hidework</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Smell, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Animal Trainer/40, Hunter/40, Trapper/40, Toymaker/40, Clothier/60, Hideworker/80, Ostler/60, Tentmaker/60, Woodcrafter/40
-          </p>
-          <p>
-            <em>Specialties:</em> Tanning/50, Leatherwork/50, Vellum/10
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Lexigrapher/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Hidework"/>
         <p>
           Determines quality of furs or hides cured, and the quality
           of leather goods produced.  ML is modified by the quality
@@ -2329,24 +1814,7 @@
           dimension.
         </p>
         <h5 class="skill" id="sk-int">Intrigue</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Intelligence, Aura, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Beggar/80, Cook/80, Servant/80,
-            Laborer/80, Longshoreman/80, Prostitute/80, Pimp/80,
-            Courtesan/100, Innkeeper/80, Litigant/100,
-            Mercantyler/100, Thief/80, Herald/100, Lady/100,
-            Cleric/80, Cleric/Shea-Al-Aecori/100
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+1, Tai+1, Skorus+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Intrigue"/>
         <p>
           The ability to assess and/or act effectively within a
           social/political situation over a period of time.  Intrigue
@@ -2356,23 +1824,7 @@
           to gather intelligence in a town or camp.
         </p>
         <h5 class="skill" id="sk-jew">Jewelcraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Clothier/60, Jeweler/80, Miner/80, Shek-Pvar/Lyahvi/60
-          </p>
-          <p>
-            <em>Specialties:</em> Gold/50, Silver/50, Gems/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Feniri+3, Tarael+1, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Jewelcraft"/>
         <p>
           Determines the quality of jewelry and/or fine metalwork made
           by the character.  ML depends on the complexity of the task
@@ -2382,20 +1834,7 @@
           dimension.
         </p>
         <h5 class="skill" id="sk-jum">Jumping</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Agility, Agility
-          </p>
-          <p>
-            <em>Specialties:</em> High/50, Long/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Nadai+2, Hirin+2.
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Jumping"/>
         <p>
           Jumping is tested when a character attempts to leap for
           height or distance.  Results assume a running start; for
@@ -2415,22 +1854,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-lan">Language</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Wil, Voice, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Tutor/80, Sage/80, Innkeeper/80,
-            Litigant/80, Mercantyler/80, Herald/80, Cleric/Halea/80,
-            Cleric/Save-K’nor/80, Cleric/Save-K’nor/60, Scribe/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Tai+1
-          </p>
-          <p>
-            <em>OML:</em> -25
-          </p>
-        </div>
+        <include id="$Language"/>
         <p>
           Each Language is a separate skill.  All characters begin
           with at least one Native Tongue, determined by birthplace.
@@ -2513,22 +1937,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-law">Law</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Litigant/80, Mercantyler/40,
-            Bailiff/60, Cleric/40, Cleric/Save-K’nor/60,
-            Cleric/Shea-Al-Aecori/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Law"/>
         <p>
           Different cultural, religious, and regional types may be
           specialties.  Litigants use this skill to determine which
@@ -2551,24 +1960,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-loc">Lockcraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Toymaker/60, Locksmith/80, Thief/60,
-            Cleric/Naveh/40, Cleric/Rydequeln/40, Shek-Pvar/Jmorvi/60
-          </p>
-          <p>
-            <em>Specialties:</em> Making/60, Picking/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Feniri+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Lockcraft"/>
         <p>
           The ability to analyze and pick locks.  Locks are rated for
           complexity in many publications; reduce ML by twice lock
@@ -2579,21 +1971,7 @@
           other small/complex/delicate mechanisms.
         </p>
         <h5 class="skill" id="sk-lov">Lovecraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Comeliness, Agility, Voice
-          </p>
-          <p>
-            <em>Occupations:</em> Prostitute/80, Pimp/80,
-            Courtesan/100, Cleric/Halea/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+1, Angberelius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Lovecraft"/>
         <p>
           The ability to charm, seduce, and give erotic pleasure.  It
           cannot normally be improved by solitary practice, although
@@ -2610,42 +1988,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-mag">Magic</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Aura, Aura, Eyesight.
-            <em>Specialty Occupations:</em> Shek-Pvar/Lyahvi
-          </p>
-          <p>
-            <em>Attributes:</em> Aura, Aura, Agility.
-            <em>Specialty Occupations:</em> Shek-Pvar/Peleahn
-          </p>
-          <p>
-            <em>Attributes:</em> Aura, Aura, Strength.
-            <em>Specialty Occupations:</em> Shek-Pvar/Jmorvi
-          </p>
-          <p>
-            <em>Attributes:</em> Aura, Aura, Smell.
-            <em>Specialty Occupations:</em> Shek-Pvar/Fyvria
-          </p>
-          <p>
-            <em>Attributes:</em> Aura, Aura, Dexterity.
-            <em>Specialty Occupations:</em> Shek-Pvar/Odivshe
-          </p>
-          <p>
-            <em>Attributes:</em> Aura, Aura, Intelligence.
-            <em>Specialty Occupations:</em> Shek-Pvar/Savorya
-          </p>
-          <p>
-            <em>Attributes:</em> Aura, Aura, Will.
-            <em>Specialty Occupations:</em> Shek-Pvar/Neutral
-          </p>
-          <p>
-            <em>Sunsign:</em> (see below)
-          </p>
-          <p>
-            <em>OML:</em> -25
-          </p>
-        </div>
+        <include id="$Magic"/>
         <p>
           The ability to cast spells of a particular convocation is a
           skill.  There is a separate skill for each convocation
@@ -2726,23 +2069,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-mas">Masonry</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Mason/80
-          </p>
-          <p>
-            <em>Specialties:</em> Architect/40, Builder/50, Cutter/30, Carving/30
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+2
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Masonry"/>
         <p>
           Used to analyze/construct stonework.  Masons use Masonry
           averaged with Engineering to construct buildings, bridges,
@@ -2751,27 +2078,7 @@
           cathedral construction and castle ramparts.
         </p>
         <h5 class="skill" id="sk-mat">Mathematics</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Intelligence, Intelligence, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Artist/40, Cartographer/40,
-            Tutor/40, Sage/40, Scribe/40, Alchemist/60, Apothecary/40,
-            Astrologer/60, Mason/40, Mercantyler/60, Pilot/40,
-            Shipwright/40, Cleric/Halea/40, Cleric/Save-K’nor/60,
-            Shek-Pvar/40
-          </p>
-          <p>
-            <em>Specialties:</em> Bookkeeping/50, Geometrics/50, Physics/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Tai+3, Tarael+1, Skorus+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Mathematics"/>
         <p>
           The ability to make calculations with numbers, keep books of
           account, and so on.  An ML above 14 would imply some
@@ -2788,23 +2095,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-met">Metalcraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Chandler/40, Charcoaler/40,
-            Jeweler/60, Locksmith/60, Metalsmith/80, Miner/40,
-            Shipwright/40, Weaponcrafter/60, Woodcrafter/40,
-            Shek-Pvar/Peleahn/20, Shek-Pvar/Jmorvi/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Feniri+3, Ahnu+1, Angberelius+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Metalcraft"/>
         <p>
           Different types of metals may be specialties.  Used to
           determine success/quality when producing commonplace
@@ -2815,20 +2106,7 @@
           <em>Recipe</em> dimension.
         </p>
         <h5 class="skill" id="sk-mil">Milling</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Smell
-          </p>
-          <p>
-            <em>Occupations:</em> Millwright/80, Miller/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Milling"/>
         <p>
           Used to determine efficiency and/or yield when milling
           grain, etc.  Milling is primarily a way to earn money.  It
@@ -2839,26 +2117,7 @@
           dimension.
         </p>
         <h5 class="skill" id="sk-min">Mining</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Eyesight, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Alchemist/40, Jeweler/40, Metalsmith/40, Miner/80, Salter/60, Weaponcrafter/40
-          </p>
-          <p>
-            <em>Specialties:</em> Prospecting/20, Waterworks/40, Ore-Extraction/50, Mineralogy/30
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Shek-Pvar/Jmorvi/Mineralogy/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+2, Feniri+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Mining"/>
         <p>
           Knowledge of geology and ability at prospecting,
           mineworking, and ore-refining.  Prospecting is a complex
@@ -2868,17 +2127,7 @@
           gemstones.
         </p>
         <h5 class="skill" id="sk-mor">Morale</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Will, Will, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Military/40, Cleric/20
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Morale"/>
         <p>
           Morale is a complex issue, it usually applies only to NPCs
           (and trained animals).  The higher a result, the more likely
@@ -2911,14 +2160,7 @@
           separately to others' ML.
         </p>
         <h5 class="skill" id="sk-mov">Move</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Agility
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Move"/>
         <p>
           Humans can accelerate and decelerate as 3 m/s each second.
           Turning options are in parts of a full circle (centered
@@ -2965,23 +2207,7 @@
           the same way.
         </p>
         <h5 class="skill" id="sk-mus">Musician</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Hearing, Hearing
-          </p>
-          <p>
-            <em>Occupations:</em> Courtesan/60, Harper/80, Skald/80,
-            Thespian/120, Cleric/Halea/40, Cleric/Rydequeln/60,
-            Cleric/Siem/40, Horsebow/40, Knight/Sindar/40, Harper
-            (2x)/60, Skald (2x)/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+1, Angberelius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Musician"/>
         <p>
           Each of the four types of musical instrument (Strings,
           Drums, Winds, Bells) is a separate skill.  Instruments may
@@ -2993,64 +2219,19 @@
           dimension.
         </p>
         <h5 class="skill" id="sk-net">Net</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Ratter/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+1, Skorus+1, Lado+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Net"/>
         <p>
           A weapon skill; use the <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-per">Perfumery</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Smell, Smell, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Embalmer/40, Perfumer/80, Cleric/Halea/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+1, Skorus+1, Tarael+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Perfumery"/>
         <p>
           Used to determine success at inventing and producing
           perfumes, soap, incense, etc.  Appropriate materials are
           necessary. Use the <em>Recipe</em> dimension.
         </p>
         <h5 class="skill" id="sk-phy">Physician</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Gladiator/40, Alchemist/40,
-            Apothecary/40, Physician/80, Cleric/40, Cleric/Ilvir/60,
-            Cleric/Peoni/60, Shek-Pvar/Fyvria/40, Military/40
-          </p>
-          <p>
-            <em>Specialties:</em> Surgery/40, Potions/50,
-            Ointments/50, Veterinary/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+2, Skorus+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Physician"/>
         <p>
           The ability to diagnose and treat medical ailments, wounds,
           etc..  Usually the physician first tests ML to diagnose the
@@ -3096,17 +2277,7 @@
           5 for a combined roll.)
         </p>
         <h5 class="skill" id="sk-pie">Piety</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Intelligence, Will, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Cleric/60
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Piety"/>
         <p>
           This skill is specific for each Deity and can only be opened
           at non-zero value with the proper religious background.
@@ -3153,73 +2324,19 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-pil">Piloting</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Eyesight, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Fisherman/40, Pilot/80, Seaman/40,
-            Shek-Pvar/Odivshe/40, Huscarl/40
-          </p>
-          <p>
-            <em>Specialties:</em> Shallows/40, Navigation/70,
-            Sailing/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Lado+3, Masara+1
-          </p>
-          <p>
-            <em>OML:</em> -10
-          </p>
-        </div>
+        <include id="$Piloting"/>
         <p>
           The ability to navigate a ship.  This skill is detailed in
           Pilots’ Almanac.
         </p>
         <h5 class="skill" id="sk-pol">Polearm</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Strength, Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> Lance/20, Glaive/Bill/20,
-            Jousting/20, Pole/30, Pike/30, Poleaxe/30
-          </p>
-          <p>
-            <em>Specialties:</em> Lance/20, Glaive/Bill/20,
-            Jousting/20, Pole/30, Pike/30, Poleaxe/30
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Poleaxe/High Guard/120,
-            Herald/120, Bailiff/120, Huscarl/LH/120, Horsebow/100,
-            Knight/120, Knight/Sindar/140
-          </p>
-          <p>
-            <em>Sunsign:</em> Angberelius+1, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Polearm"/>
         <p>
           The ability to use heavy, two-handed pole-weapons.  Use the
           <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-men">Psi Conflict</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Aura, Will, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Cleric/80, Shek-Pvar/Savorya/100
-          </p>
-          <p>
-            <em>Sunsign:</em> 
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$PsiConflict"/>
         <p>
           A character’s ability to withstand mental domination.
           Mental Conflict is a skill to resolve mental or spiritual
@@ -3301,11 +2418,7 @@
           the ritual invocation Exorcism to aid her task.
         </p>
         <h5 class="skill" id="sk-psi">Psi Talents</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Aura, Aura, Will
-          </p>
-        </div>
+        <include id="$PsiTalents"/>
         <p>
           All Talents are treated as separate skills.  Generation of
           talents is explained in the Psionics chapter.  If the same
@@ -3365,25 +2478,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Comeliness, Will, Voice, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Beggar/100, Cook/80, Servant/80,
-            Innkeeper/80, Mercantyler/100, Herald/80, Cleric/80,
-            Harper/80, Skald/80, Litigant/100, Thespian/80
-          </p>
-          <p>
-            <em>Specialties:</em> Diplomacy/70, Intimidate/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Skorus+1, Tarael+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Rhetoric"/>
         <p>
           The ability to impress or persuade crowds by logic,
           eloquence, or charisma.  This is something of a shortcut
@@ -3428,22 +2523,7 @@
           negotiators.
         </p>
         <h5 class="skill" id="sk-rid">Riding</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Agility, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Animal Trainer/40, Teamster/80,
-            Ostler/80, Herald/80, Bailiff/60, LH/60, Knight/120,
-            Knight/Sindar/140
-          </p>
-          <p>
-            <em>Sunsign:</em>  Ulanus+1, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Riding"/>
         <p>
           Riding is used to determine the ability to ride/control a
           steed.  It is tested, whenever the rider attempts to command
@@ -3492,61 +2572,7 @@
           The Speed dimension is Skill score - 20.
         </p>
         <h5 class="skill" id="sk-rit">Ritual</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Strength.
-            <em>Occupations:</em> Cleric/Agrik/80
-            <em>Sunsign:</em> Nadai+2, Angberelius+1, Ahnu+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Comeliness.
-            <em>Occupations:</em> Cleric/Halea/80
-            <em>Sunsign:</em> Tarael+2, Hirin+1, Masara+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Aura.
-            <em>Occupations:</em> Cleric/Ilvir/80
-            <em>Sunsign:</em> Skorus+2, Tai+1, Ulanus+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Will.
-            <em>Occupations:</em> Cleric/Larani/80
-            <em>Sunsign:</em> Angberelius+2, Ahnu+1, Feniri+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Aura.
-            <em>Occupations:</em> Cleric/Morgath/80
-            <em>Sunsign:</em> Lado+2, Ahnu+1, Masara+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Will.
-            <em>Occupations:</em> Cleric/Naveh/80
-            <em>Sunsign</em>: Masara+2, Skorus+1, Tarael+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Dexterity.
-            <em>Occupations:</em> Cleric/Peoni/80
-            <em>Sunsign:</em> Aralius+2, Ahnu+1, Ulanus+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Strength.
-            <em>Occupations:</em> Cleric/Sarajin/80 
-            <em>Sunsign</em>: Feniri+2, Aralius+1, Lado+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Intelligence.
-            <em>Occupations:</em> Cleric/Save-K'nor/80
-            <em>Sunsign:</em> Tai+2, Skorus+1, Tarael+1
-          </p>
-          <p>
-            <em>Attributes:</em> Voice, Intelligence, Aura.
-            <em>Occupations:</em> Cleric/Siem/80
-            <em>Sunsign:</em> Hirin+2, Feniri+1, Ulanus+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Ritual"/>
         <p>
           Most know something about their own religion, at least
           enough to attend church services without seeming too
@@ -3637,21 +2663,7 @@
           </p>
         </div>
         <h5 class="skill" id="sk-run">Runecraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Intelligence, Aura, Aura
-          </p>
-          <p>
-            <em>Occupations:</em> Cleric/Sarajin/60, Cleric/Siem/60,
-            Shek-Pvar/Savorya/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Tai+2, Skorus+1
-          </p>
-          <p>
-            <em>OML:</em> -10
-          </p>
-        </div>
+        <include id="$Runecraft"/>
         <p>
           A popular art in regions influenced by Ivinian or Khuzan
           culture, this is the ability to divine, read portents, and
@@ -3659,28 +2671,7 @@
           Use the <em>Divination</em> dimensions.
         </p>
         <h5 class="skill" id="sk-scr">Script</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Intelligence, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Artist/80, Cartographer/80,
-            Alchemist/80, Apothecary/80, Astrologer/80, Chandler/80,
-            Clothier/80, Courtesan/80, Embalmer/80, Glassworker/80,
-            Innkeeper/80, Jeweler/80, Litigant/80, Locksmith/80,
-            Mason/80, Mercantyler/80, Millwright/80, Miller/80,
-            Perfumer/80, Physician/80, Pilot/80, Shipwright/80,
-            Herald/80, Cleric/80, Cleric/Halea/80,
-            Cleric/Save-K’nor/80, Shek-Pvar/80, Tutor (2x)/100, Sage
-            (2x)/100, Lexigrapher (2x)/80, Scribe (3x)/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+1, Tai+1
-          </p>
-          <p>
-            <em>OML:</em> -25
-          </p>
-        </div>
+        <include id="$Script"/>
         <p>
           A script is a system for symbolizing language sounds.
           Languages in Lythia may be written in all Lythian scripts.
@@ -3693,26 +2684,7 @@
           Characters who know both may attempt to read it.
         </p>
         <h5 class="skill" id="sk-sea">Seamanship</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Agility
-          </p>
-          <p>
-            <em>Occupations:</em> Fisherman/80, Longshoreman/40,
-            Pilot/60, Seaman/80, Shipwright/40, Cleric/Sarajin/40,
-            Shek-Pvar/Odivshe/40, Viking/60
-          </p>
-          <p>
-            <em>Specialties:</em> Rowing/50, Sailing/80, Small
-            Craft/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Lado+3, Masara+1, Skorus+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Seamanship"/>
         <p>
           Seamanship is tested when a character attempts a difficult
           task having to do with the handling of a ship or boat, such
@@ -3721,59 +2693,14 @@
           detailed in Pilots’ Almanac.
         </p>
         <h5 class="skill" id="sk-shie">Shield</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> Cleric/Agrik/80, Cleric/Larani/80,
-            Cleric/Sarajin/80
-          </p>
-          <p>
-            <em>Specialties:</em> Buckler/20, Kite/50, Knight/50,
-            Round/50, Tower/30
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Buckler/B/100,
-            Buckler/Ranger/100, Kite/Bailiff/120, Kite/Knight/HH/120,
-            Knight/Herald/80, Knight/Horsebow/120,
-            Knight/Knight/MH/120, Round/Militia/80,
-            Round/Yeoman/LF/80, Round/Guardsman/100,
-            Round/Infantry/100, Round/Huscarl/100, Round/Guard/100,
-            Round/Guardian/MF/120, Round/Clansman/100,
-            Round/Clansman/LF/Viking/120, Tower/Legionnaire/F/100
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1, Lado+1, Masara+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Shield"/>
         <p>
           The ability to use shields, which are just about the only
           defensive weapons available.  Use the <em>Combat</em>
           dimensions.
         </p>
         <h5 class="skill" id="sk-ship">Shipwright</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Fisherman/40, Pilot/40, Seaman/40,
-            Shipwright/80
-          </p>
-          <p>
-            <em>Specialties:</em> Naval architecture/50, Sailmaking/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Lado+3, Masara+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Shipwright"/>
         <p>
           Used to determine how well the character constructs a ship,
           boat, or its fittings.  The length dimension shows the
@@ -3790,24 +2717,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-sin">Singing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Hearing, Voice, Voice
-          </p>
-          <p>
-            <em>Occupations:</em> Courtesan/100, Harper/100,
-            Skald/100, Thespian/80, Cleric/Rydequeln/80
-          </p>
-          <p>
-            <em>Specialty:</em> Voice
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Singing"/>
         <p>
           A character’s ability to carry a tune.  The quality of a
           performance may not be appreciated.  A notable specialty is
@@ -3815,17 +2725,7 @@
           dimension.
         </p>
         <h5 class="skill" id="sk-ski">Skiing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Agility
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+2, Skorus+1, Lado+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Skiing"/>
         <p>
           Skiing is a rare skill except among northern peoples of
           Lythia such as the Yarili of Ivinia.  It is known by some
@@ -3833,56 +2733,19 @@
           but includes basic downhill skiing.
         </p>
         <h5 class="skill" id="sk-sli">Sling</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+1, Tarael+1, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Sling"/>
         <p>
           The ability to use sling-type weapons.  No specialties
           exist.  Use the <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-spe">Spear</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Strength, Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> Militia/80, Yeoman/F/100,
-            Guardsman/120, Infantry/120, Legionnaire/F/100,
-            Legionnaire/MF/120, Low Guard/120, Guardian/140,
-            Clansman/UF/100, Clansman/LF/120
-          </p>
-          <p>
-            <em>Specialties:</em> Javelin/50, Spear/70, Staff/40,
-            Trident/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Aralius+1, Feniri+1, Ulanus+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Spear"/>
         <p>
           The ability to use hafted, thrusting, and staff-type
           weapons.  Use the <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-sta">Stamina</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Stamina
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Stamina"/>
         <p>
           Note that the skill may be improved but not the attribute.
           Average Healing time for 1 injury point is 2 days.  Factor
@@ -3899,21 +2762,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-ste">Stealth</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Agility, Hearing, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Hunter/80, Trapper/80, Thief/80,
-            Cleric/Naveh/100, Cleric/Rydequeln/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+2, Hirin+2, Tai+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Stealth"/>
         <p>
           Stealth is tested when a character attempts to move without
           being detected.  The attempt presumes reasonable conditions.
@@ -3922,14 +2771,7 @@
           deducted from ML. i.e. added to difficulty.
         </p>
         <h5 class="skill" id="sk-str">Strength</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Strength"/>
         <p>
           Note that the skill may be improved but not the attribute.
           The listed weight can be lifted excluding your own body.  At
@@ -3958,22 +2800,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-sur">Survival</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Intelligence
-          </p>
-          <p>
-            <em>Occupations:</em> Herdsman/60, Hunter/60, Trapper/60,
-            Charcoaler/60, Salter/60, Timberwright/60, Cleric/Siem/60,
-            Shek-Pvar/Fyvria/60, Military/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Survival"/>
         <p>
           Different climate and terrain types may be specialties.  The
           knack of surviving in the wilderness, used for outdoor
@@ -3983,20 +2810,7 @@
           <em>Regional</em> dimension.
         </p>
         <h5 class="skill" id="sk-swi">Swimming</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Stamina, Dexterity, Agility
-          </p>
-          <p>
-            <em>Occupations:</em> Shek-Pvar/Odivshe/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Skorus+1, Masara+3, Lado+3
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Swimming"/>
         <p>
           Difficulty of swimming conditions is rated on the Beaufort
           scale.  Test Swimming once for each continuous swim without
@@ -4035,85 +2849,19 @@
           standard physician/healing mechanisms.
         </p>
         <h5 class="skill" id="sk-swo">Sword</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Dexterity
-          </p>
-          <p>
-            <em>Occupations:</em> Cleric/Larani/80
-          </p>
-          <p>
-            <em>Specialties:</em> Bastardsword/50, Battlesword/40,
-            Broadsword/50, Estoc/40, Falchion/50, Longknife/50,
-            Mang/40, Mankar/40, Shortsword/40
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Bastardsword/Bailiff/100,
-            Bastardsword/Knight/HH/100, Broadsword/Herald/80,
-            Broadsword/Herald/Order/80, Broadsword/Huscarl/100,
-            Broadsword/Knight/MH/Non-Sindar/100,
-            Falchion/Guardsman/MF/100, Falchion/Yeoman/B/100,
-            Falchion/Infantry/MF/100, Longknife/Military/Sindar/100,
-            Longknife/Guardian/120, Longknife/Knight/Sindar/120,
-            Shortsword/Yeoman/LF/80, Shortsword/Guardsman/LF/100,
-            Shortsword/Infantry/LF/100, Shortsword/Archer/100,
-            Shortsword/Legionnaire/LF/80,
-            Shortsword/Legionnaire/MF/100,
-            Shortsword/Legionnaire/SB/100
-          </p>
-          <p>
-            <em>Sunsign:</em> Angberelius+3, Ahnu+1, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Sword"/>
         <p>
           The ability to use swords.  Use the <em>Combat</em>
           dimensions.
         </p>
         <h5 class="skill" id="sk-tar">Tarotry</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Interruption, Aura, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Astrologer/40, Cleric/Ilvir/40,
-            Cleric/Morgath/40, Cleric/Shea-Al-Aecori/40,
-            Cleric/Siem/40, Shek-Pvar/Savorya/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+2, Tai+2, Skorus+1, Hirin+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Tarotry"/>
         <p>
           The ability to use Tarot for contemplation and/or
           divination.  Use the <em>Divination</em> dimension.
         </p>
         <h5 class="skill" id="sk-tex">Textilecraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Cook/60, Servant/60, Clothier/80, Hideworker/40, Tentmaker/60, Cleric/Peoni/40
-          </p>
-          <p>
-            <em>Specialties:</em> Embroidery/30, Weaving/50, Spinning/30, Tailoring/50
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Lady/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+1, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Textilecraft"/>
         <p>
           Used to determine the quality of textile goods produced by
           the character.  Task complexity, quality and availability of
@@ -4121,17 +2869,7 @@
           dimension.
         </p>
         <h5 class="skill" id="sk-thr">Throwing</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Sunsign:</em> Tarael+1, Hirin+2, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Throwing"/>
         <p>
           Throwing for accuracy is covered under Missile Combat.  When
           throwing for distance, an “ideal” throwing object is
@@ -4151,24 +2889,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-tim">Timbercraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Agility
-          </p>
-          <p>
-            <em>Occupations:</em> Charcoaler/60, Shipwright/60,
-            Timberwright/80
-          </p>
-          <p>
-            <em>Specialties:</em> Cutting/50, Felling/60, Transport/30
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+3, Aralius+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Timbercraft"/>
         <p>
           The art of selecting timber from a forest, felling trees,
           and rough-cutting into lumber.  The unit of yield is
@@ -4190,20 +2911,7 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-tra">Tracking</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Eyesight, Smell, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Herdsman/60, Hunter/80, Trapper/80, Shek-Pvar/Fyvria/40
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+3, Aralius+3
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Tracking"/>
         <p>
           Specialties may be creature types.  The ability to detect
           and follow tracks.  When spores are encountered, Tracking is
@@ -4213,24 +2921,7 @@
           <em>Regional</em> dimension.
         </p>
         <h5 class="skill" id="sk-una">Unarmed</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Agility
-          </p>
-          <p>
-            <em>Occupations:</em> Gladiator/100, Cleric/Agrik/80,
-            Cleric/Larani/80, Cleric/Naveh/100, Cleric/Sarajin/80
-          </p>
-          <p>
-            <em>Specialties:</em> Wrestling/40, Boxing/50
-          </p>
-          <p>
-            <em>Sunsign:</em> Masara+2, Lado+2, Ulanus+2
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Unarmed"/>
         <p>
           Unarmed Combat is used to punch or kick an opponent,
           applying hand or foot impact to determine damage.  The
@@ -4240,45 +2931,13 @@
           dimensions.
         </p>
         <h5 class="skill" id="sk-weap">Weaponcraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Strength, Dexterity, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Metalsmith/40, Weaponcrafter/80,
-            Shek-Pvar/Peleahn/20, Shek-Pvar/Jmorvi/40, Military/40
-          </p>
-          <p>
-            <em>Specialties:</em> Weapon group/20, Armour group/30
-          </p>
-          <p>
-            <em>Sunsign:</em> Feniri+3, Ahnu+1, Angberelius+1
-          </p>
-          <p>
-            <em>OML:</em> -5
-          </p>
-        </div>
+        <include id="$Weaponcraft"/>
         <p>
           The making/assessing of weapons and armour.  Use the
           <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-weat">Weatherlore</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Intelligence, Eyesight, Smell
-          </p>
-          <p>
-            <em>Occupations:</em> Farmer/80, Fisherman/80,
-            Herdsman/80, Pilot/80, Seaman/60, Timberwright/80,
-            Cleric/Peoni/60, Cleric/Siem/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+1, Tarael+1, Masara+1, Lado+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Weatherlore"/>
         <p>
           Different climate types may be specialties.  The ability to
           predict the weather.  Characters with this skill may attempt
@@ -4294,52 +2953,13 @@
           </tr>
         </table>
         <h5 class="skill" id="sk-whi">Whip</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Eyesight
-          </p>
-          <p>
-            <em>Occupations:</em> Teamster/60
-          </p>
-          <p>
-            <em>Specialties:</em> Isagra/40, Whip/60
-          </p>
-          <p>
-            <em>Sunsign:</em> Hirin+1, Nadai+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Whip"/>
         <p>
           The ability to use various types of whips.  Use the
           <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-woo">Woodcraft</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Dexterity, Dexterity, Will
-          </p>
-          <p>
-            <em>Occupations:</em> Teamster/40, Thatcher/60,
-            Toymaker/80, Charcoaler/40, Embalmer/80, Harper/60,
-            Skald/60, Locksmith/40, Mason/60, Miner/40, Shipwright/60,
-            Tentmaker/40, Timberwright/60, Woodcrafter/100
-          </p>
-          <p>
-            <em>Specialties:</em> Cooper/20, Wheelwright/20,
-            Carpenter/40, Artist/30, Masks/20
-          </p>
-          <p>
-            <em>Specialty Occupations:</em> Masks/Cleric/Morgath/80
-          </p>
-          <p>
-            <em>Sunsign:</em> Ulanus+2, Aralius+1, Lado+1
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-        </div>
+        <include id="$Woodcraft"/>
         <p>
           Used to determine the quality of a wooden item made by the
           character.  Appropriate tools and materials are necessary,

@@ -1,0 +1,1465 @@
+<root>
+  <div id="$Acrobatics" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Agility</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Thief/40, Cleric/Naveh/60, Cleric/Rydequeln/60
+    </p>
+    <p>
+      <em>Specialties:</em> Tumbling/20, Vault/20, Swinging/20
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Nadai</span>+<span>2</span>, <span>Hirin</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Acting" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Agility</span>, <span>Voice</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Thespian/80, Cleric/Rydequeln/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Agility" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Agility</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Agriculture" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Stamina</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Farmer/80, Millwright/60, Miller/60,
+      Bailiff/40, Cleric/Peoni/80, Shek-Pvar/Fyvria/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Alchemy" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Smell</span>, <span>Intelligence</span>, <span>Aura</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Alchemist/80, Apothecary/40,
+      Chandler/40, Embalmer/40, Glassworker/40, Hideworker/40,
+      Perfumer/60, Physician/60, Shek-Pvar/Peleahn/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>3</span>, <span>Tai</span>+<span>2</span>, <span>Masara</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> -10
+    </p>
+  </div>
+  <div id="$Animalcraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Agility</span>, <span>Voice</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Animal Trainer/80, Farmer/60,
+      Herdsman/80, Teamster/60, Cleric/Peoni/60,
+      Shek-Pvar/Fyvria/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Specialties:</em> Horsecraft/20, Cattlecraft/20,
+      Birdcraft/20, Dogcraft/20, Sheepcraft/20, Swinecraft/20,
+      Ratcraft/20, Ivashicraft/20
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Dogcraft/Ratter/80,
+      Horsecraft/Ostler/80, Ratcraft/Ratter/100,
+      Cleric/Ilvir/Ivashicraft/80
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Astrology" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Eyesight</span>, <span>Intelligence</span>, <span>Aura</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Astrologer/80, Lady/40, Cleric/Siem/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Awareness" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Eyesight</span>, <span>Hearing</span>, <span>Smell</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Thief/100
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>2</span>, <span>Tai</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Axe" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Strength</span>, <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cleric/Sarajin/80
+    </p>
+    <p>
+      <em>Specialties:</em> Battleaxe/40, Handaxe/40,
+      Shorkana/40, Pickaxe/30, Sickle/20, Warhammer/30
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Battleaxe/Huscarl/MF/120,
+      Battleaxe/Low Guard/MF/100, Handaxe/Herald/80,
+      Handaxe/Bailiff/Feudal/100, Handaxe/LF/Khuzdul/100,
+      Handaxe/Knight/Feudal/100, Handaxe/Patrician/100,
+      Sickle/Cleric/Agrik/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ahnu</span>+<span>1</span>, <span>Feniri</span>+<span>1</span>, <span>Angberelius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Blowgun" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Stamina</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+2, <span>Tarael</span>+<span>1</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Bow" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Specialties:</em> Crossbow/40, Hartbow/40, Longbow/50, Shortbow/50
+    </p>
+    <p>
+      <em>Specialties Occupations:</em> Longbows/LB/100,
+      Shortbow/SB/100, Legionnaire/SB/120, LF/Viking/100,
+      Hartbow/Ranger/120, Hartbow/Horsebow/120
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Brewing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Smell</span>, <span>Smell</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Innkeeper/80, Shek-Pvar/Odivshe/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>3</span>, <span>Tai</span>+<span>2</span>, <span>Masara</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Ceramics" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Glassworker/80, Potter/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Climbing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Thatcher/100, Seaman/100
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Club" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Strength</span>, <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Ratter/100, Seaman/100, Thief/100
+    </p>
+    <p>
+      <em>Specialties:</em> Club/75, Mace/60, Maul/40, Morningstar/40
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Mace/Herald/Order/80,
+      Mace/Bailiff/Order/100, Mace/Cleric/Agrik/80, Mace/High
+      Guard/100, Mace/Knight/Order/100
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Cookery" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Smell</span>, <span>Smell</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cook/80, Servant/80, Innkeeper/80, Salter/80, Shek-Pvar/Peleahn/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Dagger" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Beggar/80, Prostitute/80, Pimp/80,
+      Seaman/80, Thief/80, Herald/80, Bailiff/100,
+      Cleric/Larani/80, Cleric/Morgath/80, Cleric/Naveh/80,
+      Cleric/Sarajin/80, Yeoman/LF/80, Guardsman/100,
+      Yeoman/B/100, Infantry/100, Archer/100, Legionnaire/F/80,
+      Legionnaire/SB/100, Guard/100, Ranger/100, Guardian/100,
+      Knight/HH/100, Knight/MH/Non-Sindar/100
+    </p>
+    <p>
+      <em>Specialties:</em> Keltan/30, Knife/50, Taburi/30
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Keltan/Huscarl/M/100,
+      Keltan/Clansman/U/80, Keltan/Clansman/L/100
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Angberelius</span>+<span>2</span>, <span>Nadai</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Dancing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Agility</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Courtesan/60, Herald/60,
+      Bailiff//60, Lady/60, Cleric/Halea/60, Horsebow/60,
+      Knight/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>2</span>, <span>Hirin</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Dexterity" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Thief/80, Cleric/Naveh/40,
+      Shek-Pvar/Lyahvi/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>2</span>, <span>Skorus</span>+<span>2</span>, <span>Tai</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Drawing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Artist/80, Cartographer/80,
+      Scribe/60, Toymaker/60, Astrologer/60, Lexigrapher/60,
+      Pilot/60, Thespian/60, Herald/80, Lady/40, Cleric/40,
+      Cleric/Ilvir/60, Cleric/Save-K’nor/60,
+      Shek-Pvar/Savorya/80
+    </p>
+    <p>
+      <em>Specialties:</em> Cartography/20, Painting/40,
+      Sketching/40, Calligraphy/40
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Lexigrapher/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Embalming" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Smell</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Embalmer/80, Perfumer/40, Cleric/40,
+      Cleric/Morgath/120, Shek-Pvar/Fyvria/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>1</span>, <span>Ulanus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Endurance" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Will</span>, <span>Stamina</span>
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Lado</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Engineering" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Intelligence</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Thatcher/40, Mason/60,
+      Millwright/60, Miller/60, Miner/60
+    </p>
+    <p>
+      <em>Specialties:</em> Mills/30, Siege Engines/30,
+      Fortifications/30, Mining/20
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>2</span>, <span>Feniri</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -10
+    </p>
+  </div>
+  <div id="$Eyesight" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Eyesight</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Fishing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Fisherman/100, Salter/60, Seaman/60,
+      Shek-Pvar/Odivshe/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>2</span>, <span>Lado</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Flail" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> 
+    </p>
+    <p>
+      <em>Specialty:</em> Ball &#0038; Chain/40, Grainflail/20,
+      Nachakas/20, Warflail/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Fletching" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Hunter/40, Trapper/40,
+      Weaponcrafter/60
+    </p>
+    <p>
+      <em>Specialty:</em> Bowyer/50, Fletcher/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>2</span>, <span>Tarael</span>+<span>1</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Folklore" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Tutor/80, Sage/80, Harper/80,
+      Skald/80, Lady/80, Cleric/60, Shek-Pvar/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tai</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Foraging" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Smell</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Hunter/60, Trapper/60,
+      Cleric/Siem/60, Shek-Pvar/Fyvria/60, Military/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Glasswork" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Glassworker/80, Potter/40, Shek-Pvar/Lyahvi/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Feniri</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> -10
+    </p>
+  </div>
+  <div id="$Hearing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Hearing</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Heraldry" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Herald/80, Lady/60, Cleric/40,
+      Cleric/Agrik/60, Cleric/Larani/60, Cleric/Save-K’nor/40,
+      Cleric/Shea-Al-Aecori/60, Military/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Herblore" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Eyesight</span>, <span>Smell</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cook/80, Servant/80, Ratter/40,
+      Alchemist/60, Apothecary/80, Perfumer/60, Physician/60,
+      Salter/20, Cleric/Ilvir/40, Cleric/Peoni/60,
+      Cleric/Siem/40, Shek-Pvar/Fyvria/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>3</span>, <span>Aralius</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Hidework" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Smell</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Animal Trainer/40, Hunter/40, Trapper/40, Toymaker/40, Clothier/60, Hideworker/80, Ostler/60, Tentmaker/60, Woodcrafter/40
+    </p>
+    <p>
+      <em>Specialties:</em> Tanning/50, Leatherwork/50, Vellum/10
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Lexigrapher/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Intrigue" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Intelligence</span>, <span>Aura</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Beggar/80, Cook/80, Servant/80,
+      Laborer/80, Longshoreman/80, Prostitute/80, Pimp/80,
+      Courtesan/100, Innkeeper/80, Litigant/100,
+      Mercantyler/100, Thief/80, Herald/100, Lady/100,
+      Cleric/80, Cleric/Shea-Al-Aecori/100
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>, <span>Tai</span>+<span>1</span>, <span>Skorus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Jewelcraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Clothier/60, Jeweler/80, Miner/80, Shek-Pvar/Lyahvi/60
+    </p>
+    <p>
+      <em>Specialties:</em> Gold/50, Silver/50, Gems/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Feniri</span>+<span>3</span>, <span>Tarael</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Jumping" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Agility</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Specialties:</em> High/50, Long/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Nadai</span>+<span>2</span>, <span>Hirin</span>+<span>2</span>.
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Language" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Will</span>, <span>Voice</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Tutor/80, Sage/80, Innkeeper/80,
+      Litigant/80, Mercantyler/80, Herald/80, Cleric/Halea/80,
+      Cleric/Save-K’nor/80, Cleric/Save-K’nor/60, Scribe/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -25
+    </p>
+  </div>
+  <div id="$Law" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Litigant/80, Mercantyler/40,
+      Bailiff/60, Cleric/40, Cleric/Save-K’nor/60,
+      Cleric/Shea-Al-Aecori/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Lockcraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Toymaker/60, Locksmith/80, Thief/60,
+      Cleric/Naveh/40, Cleric/Rydequeln/40, Shek-Pvar/Jmorvi/60
+    </p>
+    <p>
+      <em>Specialties:</em> Making/60, Picking/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Feniri</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Lovecraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Comeliness</span>, <span>Agility</span>, <span>Voice</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Prostitute/80, Pimp/80,
+      Courtesan/100, Cleric/Halea/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>1</span>, <span>Angberelius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Magic" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Eyesight</span>.
+      <em>Specialty Occupations:</em> Shek-Pvar/Lyahvi
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Agility</span>.
+      <em>Specialty Occupations:</em> Shek-Pvar/Peleahn
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Strength</span>.
+      <em>Specialty Occupations:</em> Shek-Pvar/Jmorvi
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Smell</span>.
+      <em>Specialty Occupations:</em> Shek-Pvar/Fyvria
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Dexterity</span>.
+      <em>Specialty Occupations:</em> Shek-Pvar/Odivshe
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Intelligence</span>.
+      <em>Specialty Occupations:</em> Shek-Pvar/Savorya
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Will</span>.
+      <em>Specialty Occupations:</em> Shek-Pvar/Neutral
+    </p>
+    <p>
+      <em>Sunsign:</em> (see below)
+    </p>
+    <p>
+      <em>OML:</em> -25
+    </p>
+  </div>
+  <div id="$Masonry" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Mason/80
+    </p>
+    <p>
+      <em>Specialties:</em> Architect/40, Builder/50, Cutter/30, Carving/30
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Mathematics" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Intelligence</span>, <span>Intelligence</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Artist/40, Cartographer/40,
+      Tutor/40, Sage/40, Scribe/40, Alchemist/60, Apothecary/40,
+      Astrologer/60, Mason/40, Mercantyler/60, Pilot/40,
+      Shipwright/40, Cleric/Halea/40, Cleric/Save-K’nor/60,
+      Shek-Pvar/40
+    </p>
+    <p>
+      <em>Specialties:</em> Bookkeeping/50, Geometrics/50, Physics/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tai</span>+<span>3</span>, <span>Tarael</span>+<span>1</span>, <span>Skorus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Metalcraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Chandler/40, Charcoaler/40,
+      Jeweler/60, Locksmith/60, Metalsmith/80, Miner/40,
+      Shipwright/40, Weaponcrafter/60, Woodcrafter/40,
+      Shek-Pvar/Peleahn/20, Shek-Pvar/Jmorvi/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Feniri</span>+<span>3</span>, <span>Ahnu</span>+<span>1</span>, <span>Angberelius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Milling" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Smell</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Millwright/80, Miller/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Mining" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Eyesight</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Alchemist/40, Jeweler/40, Metalsmith/40, Miner/80, Salter/60, Weaponcrafter/40
+    </p>
+    <p>
+      <em>Specialties:</em> Prospecting/20, Waterworks/40, Ore-Extraction/50, Mineralogy/30
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Shek-Pvar/Jmorvi/Mineralogy/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>2</span>, <span>Feniri</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Morale" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Will</span>, <span>Will</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Military/40, Cleric/20
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Move" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Agility</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Musician" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Hearing</span>, <span>Hearing</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Courtesan/60, Harper/80, Skald/80,
+      Thespian/120, Cleric/Halea/40, Cleric/Rydequeln/60,
+      Cleric/Siem/40, Horsebow/40, Knight/Sindar/40, Harper
+      (2x)/60, Skald (2x)/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>1</span>, <span>Angberelius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Net" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Ratter/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>1</span>, <span>Skorus</span>+<span>1</span>, <span>Lado</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Perfumery" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Smell</span>, <span>Smell</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Embalmer/40, Perfumer/80, Cleric/Halea/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>1</span>, <span>Skorus</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Physician" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Gladiator/40, Alchemist/40,
+      Apothecary/40, Physician/80, Cleric/40, Cleric/Ilvir/60,
+      Cleric/Peoni/60, Shek-Pvar/Fyvria/40, Military/40
+    </p>
+    <p>
+      <em>Specialties:</em> Surgery/40, Potions/50,
+      Ointments/50, Veterinary/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>2</span>, <span>Skorus</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Piety" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Intelligence</span>, <span>Will</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cleric/60
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Piloting" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Eyesight</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Fisherman/40, Pilot/80, Seaman/40,
+      Shek-Pvar/Odivshe/40, Huscarl/40
+    </p>
+    <p>
+      <em>Specialties:</em> Shallows/40, Navigation/70,
+      Sailing/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Lado</span>+<span>3</span>, <span>Masara</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -10
+    </p>
+  </div>
+  <div id="$Polearm" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Strength</span>, <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Lance/20, Glaive/Bill/20,
+      Jousting/20, Pole/30, Pike/30, Poleaxe/30
+    </p>
+    <p>
+      <em>Specialties:</em> Lance/20, Glaive/Bill/20,
+      Jousting/20, Pole/30, Pike/30, Poleaxe/30
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Poleaxe/High Guard/120,
+      Herald/120, Bailiff/120, Huscarl/LH/120, Horsebow/100,
+      Knight/120, Knight/Sindar/140
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Angberelius</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$PsiConflict" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Will</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cleric/80, Shek-Pvar/Savorya/100
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$PsiTalents" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Aura</span>, <span>Aura</span>, <span>Will</span>
+    </p>
+  </div>
+  <div id="$Rhetoric" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Comeliness</span>, <span>Will</span>, <span>Voice</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Beggar/100, Cook/80, Servant/80,
+      Innkeeper/80, Mercantyler/100, Herald/80, Cleric/80,
+      Harper/80, Skald/80, Litigant/100, Thespian/80
+    </p>
+    <p>
+      <em>Specialties:</em> Diplomacy/70, Intimidate/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Riding" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Agility</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Animal Trainer/40, Teamster/80,
+      Ostler/80, Herald/80, Bailiff/60, LH/60, Knight/120,
+      Knight/Sindar/140
+    </p>
+    <p>
+      <em>Sunsign:</em>  <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Ritual" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Strength</span>.
+      <em>Occupations:</em> Cleric/Agrik/80
+      <em>Sunsign:</em> <span>Nadai</span>+<span>2</span>, <span>Angberelius</span>+<span>1</span>, <span>Ahnu</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Comeliness</span>.
+      <em>Occupations:</em> Cleric/Halea/80
+      <em>Sunsign:</em> <span>Tarael</span>+<span>2</span>, <span>Hirin</span>+<span>1</span>, <span>Masara</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Aura</span>.
+      <em>Occupations:</em> Cleric/Ilvir/80
+      <em>Sunsign:</em> <span>Skorus</span>+<span>2</span>, <span>Tai</span>+<span>1</span>, <span>Ulanus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Will</span>.
+      <em>Occupations:</em> Cleric/Larani/80
+      <em>Sunsign:</em> <span>Angberelius</span>+<span>2</span>, <span>Ahnu</span>+<span>1</span>, <span>Feniri</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Aura</span>.
+      <em>Occupations:</em> Cleric/Morgath/80
+      <em>Sunsign:</em> <span>Lado</span>+<span>2</span>, <span>Ahnu</span>+<span>1</span>, <span>Masara</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Will</span>.
+      <em>Occupations:</em> Cleric/Naveh/80
+      <em>Sunsign</em>: <span>Masara</span>+<span>2</span>, <span>Skorus</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Dexterity</span>.
+      <em>Occupations:</em> Cleric/Peoni/80
+      <em>Sunsign:</em> <span>Aralius</span>+<span>2</span>, <span>Ahnu</span>+<span>1</span>, <span>Ulanus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Strength</span>.
+      <em>Occupations:</em> Cleric/Sarajin/80 
+      <em>Sunsign</em>: <span>Feniri</span>+<span>2</span>, <span>Aralius</span>+<span>1</span>, <span>Lado</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Intelligence</span>.
+      <em>Occupations:</em> Cleric/Save-K'nor/80
+      <em>Sunsign:</em> <span>Tai</span>+<span>2</span>, <span>Skorus</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>
+    </p>
+    <p>
+      <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Aura</span>.
+      <em>Occupations:</em> Cleric/Siem/80
+      <em>Sunsign:</em> <span>Hirin</span>+<span>2</span>, <span>Feniri</span>+<span>1</span>, <span>Ulanus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Runecraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Intelligence</span>, <span>Aura</span>, <span>Aura</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cleric/Sarajin/60, Cleric/Siem/60,
+      Shek-Pvar/Savorya/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tai</span>+<span>2</span>, <span>Skorus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -10
+    </p>
+  </div>
+  <div id="$Script" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Intelligence</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Artist/80, Cartographer/80,
+      Alchemist/80, Apothecary/80, Astrologer/80, Chandler/80,
+      Clothier/80, Courtesan/80, Embalmer/80, Glassworker/80,
+      Innkeeper/80, Jeweler/80, Litigant/80, Locksmith/80,
+      Mason/80, Mercantyler/80, Millwright/80, Miller/80,
+      Perfumer/80, Physician/80, Pilot/80, Shipwright/80,
+      Herald/80, Cleric/80, Cleric/Halea/80,
+      Cleric/Save-K’nor/80, Shek-Pvar/80, Tutor (2x)/100, Sage
+      (2x)/100, Lexigrapher (2x)/80, Scribe (3x)/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -25
+    </p>
+  </div>
+  <div id="$Seamanship" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Fisherman/80, Longshoreman/40,
+      Pilot/60, Seaman/80, Shipwright/40, Cleric/Sarajin/40,
+      Shek-Pvar/Odivshe/40, Viking/60
+    </p>
+    <p>
+      <em>Specialties:</em> Rowing/50, Sailing/80, Small
+      Craft/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Lado</span>+<span>3</span>, <span>Masara</span>+<span>1</span>, <span>Skorus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Shield" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cleric/Agrik/80, Cleric/Larani/80,
+      Cleric/Sarajin/80
+    </p>
+    <p>
+      <em>Specialties:</em> Buckler/20, Kite/50, Knight/50,
+      Round/50, Tower/30
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Buckler/B/100,
+      Buckler/Ranger/100, Kite/Bailiff/120, Kite/Knight/HH/120,
+      Knight/Herald/80, Knight/Horsebow/120,
+      Knight/Knight/MH/120, Round/Militia/80,
+      Round/Yeoman/LF/80, Round/Guardsman/100,
+      Round/Infantry/100, Round/Huscarl/100, Round/Guard/100,
+      Round/Guardian/MF/120, Round/Clansman/100,
+      Round/Clansman/LF/Viking/120, Tower/Legionnaire/F/100
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Lado</span>+<span>1</span>, <span>Masara</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Shipwright" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Fisherman/40, Pilot/40, Seaman/40,
+      Shipwright/80
+    </p>
+    <p>
+      <em>Specialties:</em> Naval architecture/50, Sailmaking/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Lado</span>+<span>3</span>, <span>Masara</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Singing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Hearing</span>, <span>Voice</span>, <span>Voice</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Courtesan/100, Harper/100,
+      Skald/100, Thespian/80, Cleric/Rydequeln/80
+    </p>
+    <p>
+      <em>Specialty:</em> <span>Voice</span>
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Skiing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>2</span>, <span>Skorus</span>+<span>1</span>, <span>Lado</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Sling" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Spear" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Strength</span>, <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Militia/80, Yeoman/F/100,
+      Guardsman/120, Infantry/120, Legionnaire/F/100,
+      Legionnaire/MF/120, Low Guard/120, Guardian/140,
+      Clansman/UF/100, Clansman/LF/120
+    </p>
+    <p>
+      <em>Specialties:</em> Javelin/50, Spear/70, Staff/40,
+      Trident/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Aralius</span>+<span>1</span>, <span>Feniri</span>+<span>1</span>, <span>Ulanus</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Stamina" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Stamina</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Stealth" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Agility</span>, <span>Hearing</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Hunter/80, Trapper/80, Thief/80,
+      Cleric/Naveh/100, Cleric/Rydequeln/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>2</span>, <span>Hirin</span>+<span>2</span>, <span>Tai</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Strength" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Survival" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Intelligence</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Herdsman/60, Hunter/60, Trapper/60,
+      Charcoaler/60, Salter/60, Timberwright/60, Cleric/Siem/60,
+      Shek-Pvar/Fyvria/60, Military/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Swimming" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Stamina</span>, <span>Dexterity</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Shek-Pvar/Odivshe/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Skorus</span>+<span>1</span>, <span>Masara</span>+<span>3</span>, <span>Lado</span>+<span>3</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Sword" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Dexterity</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cleric/Larani/80
+    </p>
+    <p>
+      <em>Specialties:</em> Bastardsword/50, Battlesword/40,
+      Broadsword/50, Estoc/40, Falchion/50, Longknife/50,
+      Mang/40, Mankar/40, Shortsword/40
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Bastardsword/Bailiff/100,
+      Bastardsword/Knight/HH/100, Broadsword/Herald/80,
+      Broadsword/Herald/Order/80, Broadsword/Huscarl/100,
+      Broadsword/Knight/MH/Non-Sindar/100,
+      Falchion/Guardsman/MF/100, Falchion/Yeoman/B/100,
+      Falchion/Infantry/MF/100, Longknife/Military/Sindar/100,
+      Longknife/Guardian/120, Longknife/Knight/Sindar/120,
+      Shortsword/Yeoman/LF/80, Shortsword/Guardsman/LF/100,
+      Shortsword/Infantry/LF/100, Shortsword/Archer/100,
+      Shortsword/Legionnaire/LF/80,
+      Shortsword/Legionnaire/MF/100,
+      Shortsword/Legionnaire/SB/100
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Angberelius</span>+<span>3</span>, <span>Ahnu</span>+<span>1</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Tarotry" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Intelligence</span>, <span>Aura</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Astrologer/40, Cleric/Ilvir/40,
+      Cleric/Morgath/40, Cleric/Shea-Al-Aecori/40,
+      Cleric/Siem/40, Shek-Pvar/Savorya/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>2</span>, <span>Tai</span>+<span>2</span>, <span>Skorus</span>+<span>1</span>, <span>Hirin</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Textilecraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Cook/60, Servant/60, Clothier/80, Hideworker/40, Tentmaker/60, Cleric/Peoni/40
+    </p>
+    <p>
+      <em>Specialties:</em> Embroidery/30, Weaving/50, Spinning/30, Tailoring/50
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Lady/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Throwing" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>, <span>Hirin</span>+<span>2</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Timbercraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Charcoaler/60, Shipwright/60,
+      Timberwright/80
+    </p>
+    <p>
+      <em>Specialties:</em> Cutting/50, Felling/60, Transport/30
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>3</span>, <span>Aralius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Tracking" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Eyesight</span>, <span>Smell</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Herdsman/60, Hunter/80, Trapper/80, Shek-Pvar/Fyvria/40
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>3</span>, <span>Aralius</span>+<span>3</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Unarmed" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Agility</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Gladiator/100, Cleric/Agrik/80,
+      Cleric/Larani/80, Cleric/Naveh/100, Cleric/Sarajin/80
+    </p>
+    <p>
+      <em>Specialties:</em> Wrestling/40, Boxing/50
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Masara</span>+<span>2</span>, <span>Lado</span>+<span>2</span>, <span>Ulanus</span>+<span>2</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Weaponcraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Strength</span>, <span>Dexterity</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Metalsmith/40, Weaponcrafter/80,
+      Shek-Pvar/Peleahn/20, Shek-Pvar/Jmorvi/40, Military/40
+    </p>
+    <p>
+      <em>Specialties:</em> Weapon group/20, Armour group/30
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Feniri</span>+<span>3</span>, <span>Ahnu</span>+<span>1</span>, <span>Angberelius</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> -5
+    </p>
+  </div>
+  <div id="$Weatherlore" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Intelligence</span>, <span>Eyesight</span>, <span>Smell</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Farmer/80, Fisherman/80,
+      Herdsman/80, Pilot/80, Seaman/60, Timberwright/80,
+      Cleric/Peoni/60, Cleric/Siem/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>1</span>, <span>Tarael</span>+<span>1</span>, <span>Masara</span>+<span>1</span>, <span>Lado</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Whip" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Eyesight</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Teamster/60
+    </p>
+    <p>
+      <em>Specialties:</em> Isagra/40, Whip/60
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Hirin</span>+<span>1</span>, <span>Nadai</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Woodcraft" class="standard">
+    <p>
+      <em>Attributes:</em> <span>Dexterity</span>, <span>Dexterity</span>, <span>Will</span>
+    </p>
+    <p>
+      <em>Occupations:</em> Teamster/40, Thatcher/60,
+      Toymaker/80, Charcoaler/40, Embalmer/80, Harper/60,
+      Skald/60, Locksmith/40, Mason/60, Miner/40, Shipwright/60,
+      Tentmaker/40, Timberwright/60, Woodcrafter/100
+    </p>
+    <p>
+      <em>Specialties:</em> Cooper/20, Wheelwright/20,
+      Carpenter/40, Artist/30, Masks/20
+    </p>
+    <p>
+      <em>Specialty Occupations:</em> Masks/Cleric/Morgath/80
+    </p>
+    <p>
+      <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>1</span>, <span>Lado</span>+<span>1</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+  </div>
+</root>
