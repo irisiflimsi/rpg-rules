@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
   <xsl:template match="node()|@*">
@@ -8,7 +8,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="include">
+  <xsl:template match="svg:include">
     <xsl:variable name="x" select="@id"/>
     <xsl:text>  ["</xsl:text>
     <xsl:value-of select="substring($x,2)"/>
