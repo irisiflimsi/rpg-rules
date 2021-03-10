@@ -181,9 +181,10 @@
           someone with a value x + n in that skill.  Taking the
           maximum of two separate skill rolls is similar to a
           Row-5-Addition as far as the probabilities are concerned.
-          The “real” value to use when precision loss is important to
-          you (rarely) is the math-formula
-          <em>n*ln(1+exp(-d*ln(2)/n))/ln(2)</em>, where d is the
+          (We will only use Row-5-Addition in these Hârn rules.)  The
+          “real” value to use when precision loss is important to you
+          (rarely) is the math-formula
+          <em>5*ln(1+exp(-d*ln(2)/5))/ln(2)</em>, where d is the
           difference.  You can also use the automated formula right
           here.
         </p>
