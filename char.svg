@@ -314,13 +314,6 @@
          id="tspan4335-2"
          x="70.9953"
          y="232.30051" /></text>
-    <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4495-72-8-7-9-0"
-       width="2.9660716"
-       height="578.41071"
-       x="498.50366"
-       y="415.72479" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';-inkscape-font-specification:'Amasis MT, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6314,6 +6307,13 @@
        height="574.3678"
        x="670.10541"
        y="447.97696" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4495-72-8-7-9-0"
+       width="2.9660716"
+       height="578.41071"
+       x="498.50366"
+       y="448.72479" />
   </g>
   <foreignObject y="204.19173" x="29.729088" width="84px" height="20px">
     <div xmlns="http://www.w3.org/1999/xhtml">
@@ -6630,11 +6630,6 @@
       <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-26V')"></input>
     </div>
   </foreignObject>
-  <foreignObject y="447.92938" x="490.20026" width="41px" height="20px">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-26V')"></input>
-    </div>
-  </foreignObject>
   <foreignObject y="470.74501" x="330.20026" width="41px" height="20px">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-27V')"></input>
@@ -6753,6 +6748,256 @@
   <foreignObject y="996.10464" x="330.20026" width="41px" height="20px">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-50V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="447.92938" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-51V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="470.74501" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-52V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="493.56065" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-53V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="516.57629" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-54V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="539.19189" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-55V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="562.00753" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-56V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="584.62317" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-57V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="607.23881" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-58V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="629.85444" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-59V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="652.47008" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-60V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="676.08572" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-61V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="698.90135" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-62V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="721.71699" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-63V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="744.53263" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-64V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="767.34827" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-65V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="790.1639" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-66V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="812.97954" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-67V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="835.79518" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-68V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="858.61082" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-69V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="881.42645" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-70V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="904.24209" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-71V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="927.05773" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-72V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="949.87336" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-73V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="972.689" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-74V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="996.10464" x="502.00026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-75V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="447.92938" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-76V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="470.74501" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-77V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="493.56065" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-78V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="516.57629" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-79V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="539.19189" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-80V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="562.00753" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-81V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="584.62317" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-82V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="607.23881" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-83V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="629.85444" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-84V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="652.47008" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-85V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="676.08572" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-86V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="698.90135" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-87V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="721.71699" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-88V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="744.53263" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-89V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="767.34827" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-90V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="790.1639" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-91V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="812.97954" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-92V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="835.79518" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-93V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="858.61082" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-94V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="881.42645" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-95V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="904.24209" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-96V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="927.05773" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-97V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="949.87336" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-98V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="972.689" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-99V')"></input>
+    </div>
+  </foreignObject>
+  <foreignObject y="996.10464" x="673.50026" width="41px" height="20px">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-100V')"></input>
     </div>
   </foreignObject>
   <script>
@@ -6926,7 +7171,7 @@
       var date = document.getElementById("$Birthdate").textContent.substring(0,6);
       document.getElementById("$Sunsign").textContent = sunsignMap.get(date);
       Array(Array.from(skills).length).fill().map((_,i) => {
-      var s = skills.get(document.getElementById("$Sk-" + (i + 1) + "N").textContent);
+        var s = skills.get(document.getElementById("$Sk-" + (i + 1) + "N").textContent);
         var sum = 0;
         s[0].map( (_,j) => { sum += parseInt(document.getElementById(s[0][j]).textContent); } );
         sum = sum/s[0].length;

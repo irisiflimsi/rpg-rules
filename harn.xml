@@ -234,16 +234,14 @@
           </tr>
         </table>
         <p>
-          Since we only intend to use n=3, 5, 7, we provide tables for
-          them.  When using the tables, take the two numbers and use
-          the (positive) difference of the two in the first row, to
-          read of a result in the second, and add this result to the
-          bigger to get the end result.  Looking at the tables, you
-          see the reduction in effectiveness when adding smaller
-          numbers to higher ones.  Sometimes, to ease writing, we
-          denote Row-5-Addition with +<sub>5</sub>,
-          e.g. Row-5-Addition of 1 and 2 is written as 1 +<sub>5</sub>
-          2.
+          When using the tables, take the two numbers and use the
+          (positive) difference of the two in the first row, to read
+          of a result in the second, and add this result to the bigger
+          to get the end result.  Looking at the tables, you see the
+          reduction in effectiveness when adding smaller numbers to
+          higher ones.  Sometimes, to ease writing, we denote
+          Row-5-Addition with +<sub>5</sub>, e.g. Row-5-Addition of 1
+          and 2 is written as 1 +<sub>5</sub> 2.
         </p>
         <table style="width:60%">
           <tr>
@@ -269,7 +267,7 @@
           starting from zero (0) as the “default”, with only 10%
           reaching 10 points more.  This is inentionally identical
           with the p5 system of rolling dice.  The skill scale is
-          open-ended (“exploding") as the p5 roll is, but humans
+          open-ended (“exploding”) as the p5 roll is, but humans
           generally do not get scores beyond 30.  Any activity can be
           organized as a skill.
         </p>
@@ -953,20 +951,7 @@
           </tr>
         </table>
         <h5 class="skill" id="di-div">Divination</h5>
-        <table style="width:70%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th>
-            <th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Correctness</td><td>1 in 20</td><td>3 in 40</td><td>1 in 10</td>
-            <td>1 in 8</td><td>1 in 6</td><td>1 in 4</td><td>1 in 3</td><td>1 in 2</td><td>2 in 3</td>
-          </tr>
-          <tr>
-            <td>Proximity</td><td>6 years</td><td>3 years</td><td>1 year</td>
-            <td>&#0189; year</td><td>60 days</td><td>30 days</td><td>10 days</td><td>6 days</td><td>2 days</td>
-          </tr>
-        </table>
+        <include id="$D-Divination"/>
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <p>
           A case of percentage values above 100% the excess percentage
@@ -1052,20 +1037,7 @@
           meaning, from classic cooking to tricks the character can
           teach to animals.  It includes ritual invocations.
         </p>
-        <table style="width:60%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-            <th>15</th><th>20</th><th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td>
-            <td>6</td><td>10</td><td>20</td><td>30</td>
-          </tr>
-          <tr>
-            <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
-            <td>300</td><td>1000</td><td>3000</td><td>10000</td>
-          </tr>
-        </table>
+        <include id="$D-Recipes"/>
         <p>
           In general, learning a recipe is a roll with the student's
           ML.  The student should have a quiet, dedicated space to
@@ -1140,20 +1112,7 @@
           The Yield-Time dimension assumes a 12h workday, thus the
           apparent jump from 12h to 2 days.
         </p>
-        <table style="width:90%">
-          <tr>
-            <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th>
-            <th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td>
-            <td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
-          </tr>
-          <tr>
-            <td>Yield-Time</td><td>4 days</td><td>2 days</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td>
-            <td>1h</td><td>40min</td><td>30min</td><td>25min</td><td>20min</td>
-          </tr>
-        </table>
+        <include id="$D-Yield"/>
         <h5/>
         <h4>Skill List</h4>
         <p>
@@ -1272,18 +1231,7 @@
           takes as many seconds as listed in that dimension and during
           that period the character is considered prone.
         </p>
-        <table style="width:60%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Commplexity (Tricks)</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td>
-            <td>Original</td>
-          </tr>
-          <tr>
-            <td>Rise (Tumbling)</td><td>5s</td><td>4s</td><td>3s</td><td>2s</td><td>1s</td>
-          </tr>
-        </table>
+        <include id="$D-Acrobatics"/>
         <h5 class="skill" id="sk-act">Acting</h5>
         <include id="$Acting"/>
         <p>
@@ -1346,14 +1294,7 @@
           in the table means the attribute of the animal to be
           trained.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Intelligence</td><td>0</td><td>-5</td><td>-10</td><td>-15</td><td>-20</td>
-          </tr>
-        </table>
+        <include id="$D-Animalcraft"/>
         <h5 class="skill" id="sk-ast">Astrology</h5>
         <include id="$Astrology"/>
         <p>
@@ -1891,7 +1832,7 @@
           italic.  When one language of a family is known, it is
           easier to learn other related languages.  Orbaalese belongs
           to two families.  Foreign tongues can be learned with
-          languages of the same family functioning as as “teacher".
+          languages of the same family functioning as as “teacher”.
         </p>
         <table style="width:30%">
           <tr>
@@ -2151,7 +2092,7 @@
             <th>Dimension</th><th>-15</th><th>-10</th><th>0</th><th>10</th><th>15</th>
           </tr>
           <tr>
-            <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berser</td>
+            <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berserk</td>
           </tr>
         </table>
         <p>
@@ -5857,7 +5798,7 @@
           entities within Skill level in inches of the invoker’s skin
           may also be transferred.  Less skilled users often lose
           things on the way.  Travel is ethereal, instantaneous, and
-          takes 5 minutes in “absent mindedness".  The talent is
+          takes 5 minutes in “absent mindedness”.  The talent is
           fairly common among the older bloodlines of the Sindarin,
           but otherwise rare.  The invoker does not necessarily know
           where the destination will be, although it is always a

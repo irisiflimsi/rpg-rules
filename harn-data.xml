@@ -1,4 +1,46 @@
 <root>
+  <table id="$D-Divination" style="width:70%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th>
+      <th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Correctness</td><td>5%</td><td>7.5%</td><td>10%</td>
+      <td>12.5%</td><td>16.667%</td><td>25%</td><td>33.333%</td><td>50%</td><td>66.667%</td>
+    </tr>
+    <tr class="text">
+      <td>Proximity</td><td>6 years</td><td>3 years</td><td>1 year</td>
+      <td>&#0189; year</td><td>60 days</td><td>30 days</td><td>10 days</td><td>6 days</td><td>2 days</td>
+    </tr>
+  </table>
+  <table id="$D-Yield" style="width:90%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th>
+      <th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td>
+      <td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
+    </tr>
+    <tr class="text">
+      <td>Yield-Time</td><td>4 days</td><td>2 days</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td>
+      <td>1h</td><td>40min</td><td>30min</td><td>25min</td><td>20min</td>
+    </tr>
+  </table>
+  <table id="$D-Recipes" style="width:60%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+      <th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td>
+      <td>6</td><td>10</td><td>20</td><td>30</td>
+    </tr>
+    <tr class="text">
+      <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
+      <td>300</td><td>1000</td><td>3000</td><td>10000</td>
+    </tr>
+  </table>
   <div id="$Acrobatics" class="standard">
     <p>
       <em>Attributes:</em> <span>Strength</span>, <span>Agility</span>, <span>Agility</span>
@@ -16,6 +58,18 @@
       <em>OML:</em> 0
     </p>
   </div>
+  <table id="$D-Acrobatics" style="width:60%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Commplexity (Tricks)</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td>
+      <td>Original</td>
+    </tr>
+    <tr class="num">
+      <td>Rise/Tumbling</td><td>5s</td><td>4s</td><td>3s</td><td>2s</td><td>1s</td>
+    </tr>
+  </table>
   <div id="$Acting" class="standard">
     <p>
       <em>Attributes:</em> <span>Agility</span>, <span>Voice</span>, <span>Intelligence</span>
@@ -95,6 +149,14 @@
       <em>OML:</em> 0
     </p>
   </div>
+  <table id="$D-Animalcraft" style="width:30%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Intelligence</td><td>0</td><td>-5</td><td>-10</td><td>-15</td><td>-20</td>
+    </tr>
+  </table>
   <div id="$Astrology" class="standard">
     <p>
       <em>Attributes:</em> <span>Eyesight</span>, <span>Intelligence</span>, <span>Aura</span>
