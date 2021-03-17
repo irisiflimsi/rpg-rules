@@ -4665,38 +4665,45 @@
       <include id="$D-Alchemy" ref="$D-Recipes"/>
       <include id="$D-Animalcraft"/>
       <include id="$D-Astrology" ref="$D-Divination"/>
+      <include id="$D-Axe" ref="$D-Combat"/>
     ]);
     function recalc(e,id) {
       document.getElementById(id).textContent = e.value;
       recalcAll();
     }
     function recalcAll() {
-      Array(15).fill().map((_,i) => {
-        try {
-          var s = dims.get("D-" + document.getElementById("$Sk2-" + (i + 1) + "N").textContent);
-          var v = parseInt(document.getElementById("$Sk2-" + (i + 1) + "V").textContent);
-          var [x1,x2,y1,y2] = [100,100,0,0];
-          Array(s.length).fill().map( (_,j) => {
-            if (Math.abs(x1 - v) > Math.abs(s[j][0] - v)) {
-              x1 = s[j][0]; y1 = s[j][1];
-            }
-          });
-          Array(s.length).fill().map( (_,j) => {
-            if (Math.abs(x2 - v) > Math.abs(s[j][0] - v)) if (s[j][0] != x1) {
-              x2 = s[j][0]; y2 = s[j][1];
-            }
-          });
-          var u = "";
-          if (y1.endsWith("%") || y1.endsWith("s")) {
-            u = y1.slice(-1);
-            y1 = y1.slice(0,-1);
-            y2 = y2.slice(0,-1);
+      Array(15).fill().map((i1,i0) => {
+      try {
+          var n = document.getElementById("$Sk2-" + (i0 + 1) + "N").textContent;
+          var d = 0;
+          if (n.endsWith("/1") || n.endsWith("/2")) {
+            d = parseInt(n.slice(-1)) - 1; n = n.slice(0,-2);
           }
-          y1 = parseFloat(y1);
-          y2 = parseFloat(y2);
-          ["-15","-10","-5","-4","-3","-2","-1","+0","+1","+2","+3","+4","+5","+10","+15"].forEach( (j,k,l) => {
-            document.getElementById("$Sk2-" + (i + 1) + "" + j).textContent =
-              (parseInt(10 * (y1 + (v + parseInt(j) - x1) * (y2 - y1) / (x2 - x1))) / 10) + u;
+          var s = dims.get("D-" + n);
+          var v = parseInt(document.getElementById("$Sk2-" + (i0 + 1) + "V").textContent);
+          ["-15","-10","-5","-4","-3","-2","-1","+0","+1","+2","+3","+4","+5","+10","+15"].forEach( (k2,k1,k0) => {
+            var [x1,x2,y1,y2] = [100,100,0,0];
+            var vv = v + parseInt(k2);
+            Array(s.length).fill().map( (j1,j0) => {
+              if (Math.abs(x1 - vv) > Math.abs(s[j0][0] - vv)) {
+                x1 = s[j0][0]; y1 = s[j0][1][d];
+              }
+            });
+            Array(s.length).fill().map( (j1,j0) => {
+              if (Math.abs(x2 - vv) > Math.abs(s[j0][0] - vv)) if (s[j0][0] != x1) {
+                x2 = s[j0][0]; y2 = s[j0][1][d];
+              }
+            });
+            var u = "";
+            if (y1.endsWith("%") || y1.endsWith("s")) {
+              u = y1.slice(-1);
+              y1 = y1.slice(0,-1);
+              y2 = y2.slice(0,-1);
+            }
+            y1 = parseFloat(y1);
+            y2 = parseFloat(y2);
+            document.getElementById("$Sk2-" + (i0 + 1) + "" + k2).textContent =
+              (parseInt(10 * (y1 + (vv - x1) * (y2 - y1) / (x2 - x1))) / 10) + u;
           });
         }
         catch (e) {
