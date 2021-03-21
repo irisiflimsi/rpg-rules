@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" media="not print" href="main.css"/>
     <link rel="stylesheet" media="print" href="mainp.css"/>
-    <link rel="stylesheet" media="not print" href="gf.css"/>
-    <link rel="stylesheet" media="print" href="gfp.css"/>
+    <link rel="stylesheet" media="not print" href="harn.css"/>
+    <link rel="stylesheet" media="print" href="harnp.css"/>
   </head>
   <body>
     <div class="main">
@@ -759,15 +759,6 @@
           This dimension applies to music and dance but also to other
           arts.  Forgery or impersonation of others is complex.
         </p>
-        <table style="width:70%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Complexity Level</td><td>Imperceptible</td><td>Rhythmic / Child</td>
-            <td>Simple / Folk</td><td>Complex / Art</td><td>Unique / Original</td>
-          </tr>
-        </table>
         <h5 id="di-att">Attribute</h5>
         <p>
           This is not a proper dimension, but a convenience section
@@ -956,16 +947,7 @@
           </tr>
         </table>
         <h5 class="skill" id="di-reg">Regional</h5>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th>
-            <th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Conditions</td><td>-</td><td>Local</td><td>Familiar</td>
-            <td>Related</td><td>Any</td>
-          </tr>
-        </table>
+        <include id="$D-Regional"/>
         <h5 class="skill" id="di-sta">Star-Rating</h5>
         <p>
           This scale is used often, particularly when assessing the
@@ -1266,20 +1248,7 @@
           increase ML by 1 point.  The following falling height is
           evenly distributed among the attempted climbing height.
         </p>
-        <table style="width:60%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-            <th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
-          </tr>
-          <tr>
-            <td>Inclince</td><td>0°</td><td>15°</td><td>30°</td><td>45°</td><td>60°</td>
-            <td>75°</td><td>90°</td><td>100°</td><td>110°</td><td>120°</td>
-          </tr>
-          <tr>
-            <td>Speed</td><td>-</td><td>0</td><td>1/4</td><td>1/2</td><td>1</td><td>1.5</td>
-            <td>2</td><td>3</td><td>4</td><td>5</td>
-          </tr>
-        </table>
+        <include id="$D-Climbing"/>
         <h5 class="skill" id="sk-clu">Club</h5>
         <include id="$Club"/>
         <p>
@@ -1332,20 +1301,7 @@
           time a trick takes, but mostly for larger objects – this is
           a combat dimension.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th>
-            <th>20</th><th>30</th><th>40</th>
-          </tr>
-          <tr>
-            <td>Legerdemain</td><td>+20</td><td>+10</td><td>0</td><td>-10</td>
-            <td>-20</td><td>-30</td><td>-40</td>
-          </tr>
-          <tr>
-            <td>Grope</td><td>8s</td><td>6s</td><td>4s</td><td>3s</td>
-            <td>2s</td><td>1.5s</td><td>1s</td>
-          </tr>
-        </table>
+        <include id="$D-Dexterity"/>
         <h5 class="skill" id="sk-dra">Drawing</h5>
         <include id="$Drawing"/>
         <p>
@@ -1378,14 +1334,7 @@
           knowledge of practical Alchemy and Perfumery.  Embalmers
           know how to make incense and soap, for example.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Decay</td><td>3</td><td>1</td><td>1/3</td><td>1/10</td><td>1/30</td>
-          </tr>
-        </table>
+        <include id="$D-Embalming"/>
         <h5 class="skill" id="sk-end">Endurance</h5>
         <include id="$Endurance"/>
         <p>
@@ -1405,16 +1354,7 @@
           does 1 every 6 second.  Remember that the fatigue accrued
           must be used as modifier for the next time interval.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-            <th>15</th><th>20</th>
-          </tr>
-          <tr>
-            <td>Factor</td><td>20</td><td>15</td><td>10</td><td>8</td>
-            <td>7</td><td>6</td><td>5</td>
-          </tr>
-        </table>
+        <include id="$D-Endurance"/>
         <h5 class="skill" id="sk-eng">Engineering</h5>
         <include id="$Engineering"/>
         <p>
@@ -1433,16 +1373,7 @@
           (positive), distraction (negative), on the border of the
           visual field (negative).
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-            <th>15</th><th>20</th><th>25</th>
-          </tr>
-          <tr>
-            <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td>
-            <td>0.75</td><td>0.5</td><td>0.25</td>
-          </tr>
-        </table>
+        <include id="$D-Eyesight"/>
         <h5 class="skill" id="sk-fis">Fishing</h5>
         <include id="$Fishing"/>
         <p>
@@ -1474,16 +1405,7 @@
           materials are readily available and a 12 hour period of work
           per day. Use the <em>Yield</em> dimension.
         </p>
-        <table style="width:60%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-            <th>15</th><th>20</th><th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Time</td><td>10 d</td><td>6&#0189; d</td><td>3 d</td><td>2 d</td>
-            <td>1 d</td><td>8 h</td><td>3&#0189; h</td><td>2&#0189; h</td><td>1&#0188; h</td>
-          </tr>
-        </table>
+        <include id="$D-Fletching"/>
         <h5 class="skill" id="sk-fol">Folklore</h5>
         <include id="$Folklore"/>
         <p>
@@ -1503,14 +1425,7 @@
           recalls the name: Genin.  Use the <em>Knowledge</em>
           dimension.
         </p>
-        <table style="width:50%">
-          <tr>
-            <th>Dimension</th><th>-15</th><th>-5</th><th>5</th><th>15</th><th>25</th>
-          </tr>
-          <tr>
-            <td>Depth</td><td>-</td><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
-          </tr>
-        </table>
+        <include id="$D-Folklore"/>
         <h5 class="skill" id="sk-for">Foraging</h5>
         <include id="$Foraging"/>
         <p>
@@ -1542,16 +1457,7 @@
           Hearing as skill cannot be improved, neither can the
           attribute.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th>
-            <th>20</th><th>25</th>
-          </tr>
-          <tr>
-            <td>Distance (m)</td><td>0.1</td><td>0.3</td><td>1</td><td>3</td><td>10</td><td>30</td>
-            <td>100</td><td>300</td>
-          </tr>
-        </table>
+        <include id="$D-Hearing"/>
         <div class="explain">
           <p>
             <em>-10:</em> Rural Silence
@@ -1589,14 +1495,7 @@
           Reading a heralds’ scroll suffices.  The OML is reduced to
           -10, if examples are mot available.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Passive</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
-          </tr>
-        </table>
+        <include id="$D-Heraldry"/>
         <h5 class="skill" id="sk-herb">Herblore</h5>
         <include id="$Herblore"/>
         <p>
@@ -1614,14 +1513,7 @@
           inaccurate interpretations in the True:False dimension.  A
           trajectory on the two dimensions should be provided.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>True:False</td><td>1:100</td><td>1:10</td><td>1:1</td><td>10:1</td><td>100:1</td>
-          </tr>
-        </table>
+        <include id="$D-Herblore"/>
         <h5 class="skill" id="sk-hid">Hidework</h5>
         <include id="$Hidework"/>
         <p>
@@ -1662,17 +1554,7 @@
           0 turn into a Fall.  For each 5 levels of dimension that are
           also accepted as fall, increase ML by 1 point.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Height</td><td>-</td><td>0.5 m</td><td>1 m</td><td>1.50 m</td><td>2 m</td>
-          </tr>
-          <tr>
-            <td>Distance</td><td>-</td><td>1 m</td><td>2 m</td><td>4 m</td><td>6 m</td>
-          </tr>
-        </table>
+        <include id="$D-Jumping"/>
         <h5 class="skill" id="sk-lan">Language</h5>
         <include id="$Language"/>
         <p>
@@ -1748,14 +1630,7 @@
           </tr>
         </table>
         <p/>
-        <table style="width:50%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Fluency</td><td>Opaque</td><td>Rudimentary</td><td>Fair</td><td>Fluent</td><td>Mastery</td>
-          </tr>
-        </table>
+        <include id="$D-Language"/>
         <h5 class="skill" id="sk-law">Law</h5>
         <include id="$Law"/>
         <p>
@@ -1767,18 +1642,7 @@
           or other legal document, the skill is averaged with the
           appropriate Language and Script.
         </p>
-        <table style="width:50%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Depth</td><td>Unaware</td><td>Ignore</td><td>Notice</td><td>Consideration</td>
-            <td>Involvement</td>
-          </tr>
-          <tr>
-            <td>Breadth</td><td>None</td><td>Local</td><td>Feudal</td><td>Guild</td><td>Religion</td>
-          </tr>
-        </table>
+        <include id="$D-Law"/>
         <h5 class="skill" id="sk-loc">Lockcraft</h5>
         <include id="$Lockcraft"/>
         <p>
@@ -1798,15 +1662,7 @@
           there may be books or teachers available.  The skill is used
           to assess the success of a seduction or sexual encounter.
         </p>
-        <table style="width:50%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Expertise</td><td>Unaware</td><td>Instinctive</td><td>Experienced</td>
-            <td>Professional</td><td>Elite/Exotic</td>
-          </tr>
-        </table>
+        <include id="$D-Lovecraft"/>
         <h5 class="skill" id="sk-mag">Magic</h5>
         <include id="$Magic"/>
         <p>
@@ -1905,15 +1761,7 @@
           knowledge of geometry, etc.  The skill is useful in many
           different fields.
         </p>
-        <table style="width:60%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Concepts</td><td>-</td><td>Single digits</td><td>Multiple digits</td>
-            <td>Abstractions</td><td>Unique</td>
-          </tr>
-        </table>
+        <include id="$D-Mathematics"/>
         <h5 class="skill" id="sk-met">Metalcraft</h5>
         <include id="$Metalcraft"/>
         <p>
@@ -1965,14 +1813,7 @@
           improve playability.  (It should be kept secret from
           players.)
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-15</th><th>-10</th><th>0</th><th>10</th><th>15</th>
-          </tr>
-          <tr>
-            <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berserk</td>
-          </tr>
-        </table>
+        <include id="$D-Morale"/>
         <p>
           <em>Rally:</em> An influence on others' Morale is possible
           for the amount above 10 in the roll.  Multiple positive and
@@ -1990,16 +1831,7 @@
           suppressed, although a 20% spread (for a 10 level
           difference) with Agility modification could be appropriate.
         </p>
-        <table style="width:50%">
-          <tr>
-            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
-            <th>30</th><th>40</th><th>50</th><th>60</th>
-          </tr>
-          <tr>
-            <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td>
-            <td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
-          </tr>
-        </table>
+        <include id="$D-Move"/>
         <p>
           A steed’s movement rate must be declared before starting to
           move.  Effective movement is equal to its Move minus Steed
@@ -2060,16 +1892,7 @@
           injuries, a physician can treat animals with a -10 penalty.
           See also Animalcraft skill.
         </p>
-        <table style="width:60%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-            <th>15</th><th>20</th><th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Healing Rate</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td>
-            <td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
-          </tr>
-        </table>
+        <include id="$D-Physician"/>
         <p>
           When the internal system has become incapacitated due to
           fatigue, often from drowning, this means breathing has
@@ -2166,14 +1989,7 @@
           fatigue level per minute, which is multiplied be the result
           in the table.
         </p>
-        <table width="40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Fatigue Rate</td><td>100</td><td>30</td><td>10</td><td>3</td><td>1</td>
-          </tr>
-        </table>
+        <include id="$PsiConflict"/>
         <p>
           Modifiers: -5 unconscious/sleeping, +5 native spirit, +10
           living, +10 willing.  Conflict Types:
@@ -2283,20 +2099,8 @@
             <td>Transmutation</td><td>Tarael/Tai+1</td>
           </tr>
         </table>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
-            <th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Bloodloss</td><td>8.0</td><td>6.3</td><td>5.0</td><td>4.0</td><td>3.2</td>
-            <td>2.6</td><td>2.0</td>
-          </tr>
-          <tr>
-            <td>Negation</td><td>0.6</td><td>0.8</td><td>1</td><td>1.3</td><td>1.6</td>
-            <td>2.0</td><td>2.4</td>
-          </tr>
-        </table>
+        <p/>
+        <include id="$D-PsiTalents"/>
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
         <include id="$Rhetoric"/>
         <p>
@@ -2315,18 +2119,7 @@
           suggests the character has made a fool of himself and may
           have annoyed the intended target(s).
         </p>
-        <table style="width:50%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Awareness</td><td>Noise</td><td>Comprehension</td><td>Listening</td>
-            <td>Consideration</td><td>Agreement</td>
-          </tr>
-          <tr>
-            <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
-          </tr>
-        </table>
+        <include id="$D-Rhetoric"/>
         <p>
           <em>Intimidation:</em> Intimidation is a specialty.  It is
           used in situations where a character seeks to convince
@@ -2407,20 +2200,7 @@
           In the list above, attributes and sunsigns are for the
           rituals of the “Occupations” religion.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Piety Gain</td><td>-3</td><td>-1</td><td>1</td><td>3</td><td>5</td><td>7</td><td>9</td>
-          </tr>
-          <tr>
-            <td>Awe Duration</td><td>0s</td><td>1s</td><td>1s</td><td>2s</td><td>3s</td><td>4s</td><td>6s</td>
-          </tr>
-          <tr>
-            <td>Casting Time</td><td>1.2</td><td>1.1</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
-          </tr>
-        </table>
+        <include id="$D-Ritual"/>
         <div class="explain">
           <p>
             <em>Baptism, Blessing, Commune, Marriage:</em> Use the
@@ -2528,14 +2308,7 @@
           construction principles are known.  The applications of this
           skill are dealt with in Pilots’ Almanac.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Length</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
-          </tr>
-        </table>
+        <include id="$D-Shipwright"/>
         <h5 class="skill" id="sk-sin">Singing</h5>
         <include id="$Singing"/>
         <p>
@@ -2571,16 +2344,7 @@
           Average Healing time for 1 injury point is 2 days.  Factor
           the above to get the actual healing rate.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th>
-            <th>20</th><th>25</th>
-          </tr>
-          <tr>
-            <td>Time factor</td><td>3</td><td>2</td><td>1.5</td><td>1.0</td><td>0.75</td><td>0.5</td>
-            <td>0.38</td><td>0.25</td>
-          </tr>
-        </table>
+        <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-ste">Stealth</h5>
         <include id="$Stealth"/>
         <p>
@@ -2609,16 +2373,7 @@
           the maximum weight gives 3 points per minute (or 1 per 20
           seconds).  Only simple fractions are allowed.
         </p>
-        <table style="width:50%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-            <th>15</th><th>20</th><th>25</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Weight (lbs)</td><td>16</td><td>25</td><td>45</td><td>70</td><td>100</td>
-            <td>160</td><td>250</td><td>450</td><td>700</td>
-          </tr>
-        </table>
+        <include id="$D-Strength"/>
         <h5 class="skill" id="sk-sur">Survival</h5>
         <include id="$Survival"/>
         <p>
@@ -2644,17 +2399,7 @@
           convey a conscious swimmer, apply a penalty of 5, for an
           unconscious person apply a penalty of 10.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Weather</td><td>-</td><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
-          </tr>
-          <tr>
-            <td>Speed</td><td>-</td><td>0.5 ft/s</td><td>1 ft/s</td><td>2 ft/s</td><td>4 ft/s</td>
-          </tr>
-        </table>
+        <include id="$D-Swimming"/>
         <p>
           If a character is in water deeper than their height, a Sink
           result implies the character goes down with the speed of the
@@ -2700,14 +2445,7 @@
           accuracy, the table indicates the distance an ideal object
           carries.  Aiming is dealt with in the Combat chapter.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Distance</td><td>10 m</td><td>20 m</td><td>40 m</td><td>60 m</td><td>100 m</td>
-          </tr>
-        </table>
+        <include id="$D-Throwing"/>
         <h5 class="skill" id="sk-tim">Timbercraft</h5>
         <include id="$Timbercraft"/>
         <p>
@@ -2719,17 +2457,7 @@
           thereof.)  Also note that this skill has a different yield
           dimension than most others.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-          </tr>
-          <tr>
-            <td>Yield</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td>
-          </tr>
-          <tr>
-            <td>Yield-Time</td><td>2 mths</td><td>40 days</td><td>30 days</td><td>20 days</td><td>15 days</td>
-          </tr>
-        </table>
+        <include id="$D-Timbercraft"/>
         <h5 class="skill" id="sk-tra">Tracking</h5>
         <include id="$Tracking"/>
         <p>
@@ -2754,7 +2482,7 @@
         <include id="$Weaponcraft"/>
         <p>
           The making/assessing of weapons and armour.  Use the
-          <em>Combat</em> dimensions.
+          <em>Recipe</em> dimension.
         </p>
         <h5 class="skill" id="sk-weat">Weatherlore</h5>
         <include id="$Weatherlore"/>
@@ -2764,14 +2492,7 @@
           to predict the weather any time. Also use the
           <em>Accuracy</em> dimension.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Time</td><td>15min</td><td>1h</td><td>4h</td><td>1 day</td>
-          </tr>
-        </table>
+        <include id="$D-Weatherlore"/>
         <h5 class="skill" id="sk-whi">Whip</h5>
         <include id="$Whip"/>
         <p>

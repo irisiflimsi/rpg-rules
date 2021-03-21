@@ -32,13 +32,13 @@
       <xsl:variable name="pp" select="position()"/>
       <xsl:for-each select="th[.!='Dimension']">
         <xsl:if test="position() != 1 or $pp != 1">
-          <xsl:text>],[</xsl:text>
+          <xsl:text>,</xsl:text>
         </xsl:if>
         <xsl:value-of select="."/>
         <xsl:text>,[</xsl:text>
         <xsl:variable name="a" select=".."/>
         <xsl:variable name="p" select="position()+1"/>
-        <xsl:for-each select="../../tr[@class = 'num' and preceding-sibling::tr[th='Dimension'][1] = $a]/td[position()=$p]">
+        <xsl:for-each select="../../tr[@class='num' and preceding-sibling::tr[th='Dimension'][1] = $a]/td[position()=$p]">
           <xsl:if test="position() != 1">
             <xsl:text>,</xsl:text>
           </xsl:if>
@@ -55,6 +55,27 @@
         <xsl:text>,</xsl:text>
       </xsl:if>
       <xsl:value-of select="concat('[&quot;',substring(.,1,3),'&quot;,',./following-sibling::span,']')"/>
+    </xsl:for-each>
+    <xsl:for-each select="document('harn-data.xml')//table[@id=$x]/tr[th='Dimension']">
+      <xsl:variable name="pp" select="position()"/>
+      <xsl:for-each select="th[.!='Dimension']">
+        <xsl:if test="position() != 1 or $pp != 1">
+          <xsl:text>,</xsl:text>
+        </xsl:if>
+        <xsl:value-of select="."/>
+        <xsl:text>,[</xsl:text>
+        <xsl:variable name="a" select=".."/>
+        <xsl:variable name="p" select="position()+1"/>
+        <xsl:for-each select="../../tr[@class='text' and preceding-sibling::tr[th='Dimension'][1] = $a]/td[position()=$p]">
+          <xsl:if test="position() != 1">
+            <xsl:text>,</xsl:text>
+          </xsl:if>
+          <xsl:text>"</xsl:text>
+          <xsl:value-of select="."/>
+          <xsl:text>"</xsl:text>
+        </xsl:for-each>
+        <xsl:text>]</xsl:text>
+      </xsl:for-each>
     </xsl:for-each>
     <xsl:text>], </xsl:text>
     <xsl:value-of select="normalize-space(document('harn-data.xml')//div[@id=$x]/p[em='OML:']/text()[2])"/>

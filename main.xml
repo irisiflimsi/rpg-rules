@@ -490,12 +490,30 @@
       </div>
       <div class="container">
         <h1 id="concret">Examples</h1>
+        <p>
+          All headings are links to the corresponding sub-pages.
+        </p>
         <h3 id="harn">
           <a href="harn.xml">Rules for Hârnworld</a>
         </h3>
+        <p>
+          The first concrete implementation of the rules.  Contains a
+          lot of readily applicable rules to many settings.
+        </p>
+        <h3 id="harn-char">
+          <a href="char.svg">Sheets for Hârnworld</a>
+        </h3>
+        <p>
+          A character sheet.  Click on the icon field to toggle
+          between the two pages.
+        </p>
         <h3 id="expanse">
           <a href="expanse.xml">Rules for Expanse</a>
         </h3>
+        <p>
+          The main rules are references to the Hârnworld rules.  Links
+          are available.
+        </p>
       </div>
     </div>
   </body>
