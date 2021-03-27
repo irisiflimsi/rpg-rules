@@ -10490,12 +10490,12 @@
             ["-15","-10","-5","-4","-3","-2","-1","+0","+1","+2","+3","+4","+5","+10","+15"].forEach((k2,k1,k0) => {
               var [x1,x2,y1,y2] = [100,100,0,0];
               var vv = v + parseInt(k2);
-              Array(s.length/2).fill().map((j1,j0) => {
+              Array(s[0].length/2).fill().map((j1,j0) => {
                 if (Math.abs(x1 - vv) > Math.abs(s[0][2*j0] - vv)) {
                   x1 = s[0][2*j0]; y1 = s[0][2*j0+1][d];
                 }
               });
-              Array(s.length).fill().map((j1,j0) => {
+              Array(s[0].length).fill().map((j1,j0) => {
                 if (Math.abs(x2 - vv) > Math.abs(s[0][2*j0] - vv)) if (s[0][2*j0] != x1) {
                   x2 = s[0][2*j0]; y2 = s[0][2*j0+1][d];
                 }
