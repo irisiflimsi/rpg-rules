@@ -36,7 +36,7 @@ nav {
 
 nav h2 {
     padding: 0px;
-    font-size: 20px;
+    font-size: 120%;
 }
 
 nav a {
@@ -62,16 +62,16 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 300%;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 200%;
     color: #fff;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 150%;
 }
 
 h5 {
@@ -82,7 +82,7 @@ h5 {
 table {
     margin: auto;
     text-align: center;
-    font-size: 15px;
+    font-size: 80%;
     border-collapse: collapse;
 }
 
@@ -95,7 +95,7 @@ caption {
 th, td {
     vertical-align: top;
     width: 5%;
-    padding: 2px 12px;
+    padding: 2px 6px;
 }
 
 td a {
@@ -140,7 +140,7 @@ tr:nth-child(3n+4) {
 }
 
 .explain p, .standard p {
-    font-size: 15px;
+    font-size: 80%;
     border-bottom: 2px solid var(--tde);
 }
 
@@ -171,7 +171,7 @@ a {
 .title {
     font-weight: bold;
     margin-top: 50px;
-    font-size: 64px;
+    font-size: 400%;
     color: var(--head);
     padding: 0px;
 }

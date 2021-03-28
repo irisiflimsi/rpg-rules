@@ -10502,12 +10502,12 @@
               });
               var pre = "";
               var post = "";
-              if (y1.endsWith("m/s")) {
+              if (y1.endsWith("m/s") || y1.endsWith("lbs")) {
                 post = y1.slice(-3);
                 y1 = y1.slice(0,-3);
                 y2 = y2.slice(0,-3);
               }
-              else if (y1.endsWith("%") || y1.endsWith("s") || y1.endsWith("°") || y1.endsWith("m")) {
+              else if (y1.endsWith("%") || y1.endsWith("s") || y1.endsWith("°") || y1.endsWith("m") || y1.endsWith("h") || y1.endsWith("d")) {
                 post = y1.slice(-1);
                 y1 = y1.slice(0,-1);
                 y2 = y2.slice(0,-1);

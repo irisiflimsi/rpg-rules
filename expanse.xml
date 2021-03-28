@@ -5,10 +5,9 @@
     <title>Expanse RPG Rules</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
-    <link rel="stylesheet" media="not print" href="main.css"/>
+    <link rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" media="print" href="mainp.css"/>
-    <link rel="stylesheet" media="not print" href="harn.css"/>
-    <link rel="stylesheet" media="print" href="harnp.css"/>
+    <link rel="stylesheet" href="harn.css"/>
   </head>
   <body>
     <div class="main">
@@ -31,14 +30,16 @@
             <td><a href="#sk-agi">Agility</a></td>
             <td><a href="#sk-art">Artillery</a></td>
             <td><a href="#sk-ast">Astronavigation</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-ani">Animalcraft</a></td>
             <td><a href="#sk-awa">Awareness</a></td>
             <td><a href="#sk-bio">Biology</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-biom">Biomechanics</a></td>
             <td><a href="#sk-ast">Chemistry</a></td>
             <td><a href="#sk-cli">Climbing</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-clu">Club</a></td>
             <td><a href="#sk-ast">Communication</a></td>
             <td><a href="#sk-ast">Computers</a></td>
@@ -53,14 +54,16 @@
             <td><a href="#sk-dri">Drive</a></td>
             <td><a href="#sk-eco">Economics</a></td>
             <td><a href="#sk-end">Endurance</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-eye">Eyesight</a></td>
             <td><a href="#sk-eng">Engineering</a></td>
             <td><a href="#sk-exp">Explosives</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-fir">Firearms</a></td>
             <td><a href="#sk-fol">Folklore</a></td>
             <td><a href="#sk-gun">Gunsmithing</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-hear">Hearing</a></td>
             <td><a href="#sk-heav">Heavy Guns</a></td>
             <td><a href="#sk-ini">Initiative</a></td>
@@ -75,14 +78,16 @@
             <td><a href="#sk-lov">Lovecraft</a></td>
             <td><a href="#sk-mat">Mathematics</a></td>
             <td><a href="#sk-mec">Mechatronics</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-min">Mining</a></td>
             <td><a href="#sk-mor">Morale</a></td>
             <td><a href="#sk-mov">Move</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-mus">Musician</a></td>
             <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pil">Piloting</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-psy">Psychology</a></td>
             <td><a href="#sk-rhe">Rhetoric</a></td>
             <td><a href="#sk-scr">Script</a></td>
@@ -97,6 +102,8 @@
             <td><a href="#sk-surve">Surveillance</a></td>
             <td><a href="#sk-survi">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-una">Unarmed</a></td>
             <td><a href="#sk-weat">Weatherlore</a></td>
@@ -658,7 +665,7 @@
           As the <a href="/rpg-rules/harn.xml#sk-str">Hârnic skill</a>.  For
           lifting purposes, the following modifiers apply.
         </p>
-        <table style="width:40%">
+        <table style="width:60%">
           <tr>
             <th>Gravity</th><th>1/10</th><th>1/4</th><th>1/2</th><th>1</th><th>2</th><th>3</th><th>4</th><th>6</th>
           </tr>
@@ -930,26 +937,26 @@
           inferior conditions exist, usually protective measures
           against recoil.
         </p>
-        <table style="width:40%">
+        <table style="width:80%">
           <tr>
-            <th>Range Class</th><th>+5</th><th>0</th><th>-5</th>
+            <th>Ranges</th><th>+5</th><th>0</th><th>-5</th>
             <th>-10</th><th>-15</th><th>-20</th>
           </tr>
           <tr>
-            <td>RC1</td><td>1 m</td><td>3 m</td><td>10 m</td>
-            <td>30 m</td><td>60 m</td><td>120 m</td>
+            <td>RC1</td><td>1m</td><td>3m</td><td>10m</td>
+            <td>30m</td><td>60m</td><td>120m</td>
           </tr>
           <tr>
-            <td>RC2</td><td>5 m</td><td>15 m</td><td>50 m</td>
-            <td>150 m</td><td>300 m</td><td>600 m</td>
+            <td>RC2</td><td>5m</td><td>15m</td><td>50m</td>
+            <td>150m</td><td>300m</td><td>600m</td>
           </tr>
           <tr>
-            <td>RC3</td><td>10 m</td><td>30 m</td><td>100 m</td>
-            <td>300 m</td><td>600 m</td><td>1200 m</td>
+            <td>RC3</td><td>10m</td><td>30m</td><td>100m</td>
+            <td>300m</td><td>600m</td><td>1200m</td>
           </tr>
           <tr>
-            <td>RC4</td><td>20 m</td><td>60 m</td><td>200 m</td>
-            <td>600 m</td><td>1200 m</td><td>2400 m</td>
+            <td>RC4</td><td>20m</td><td>60m</td><td>200m</td>
+            <td>600m</td><td>1200m</td><td>2400m</td>
           </tr>
         </table>
         <p>
@@ -971,7 +978,7 @@
           centimetre thickness.  Other materials can be modelled to
           scale their protective value with density.
         </p>
-        <table style="width:20%">
+        <table style="width:40%">
           <tr>
             <th>Material (1cm)</th><th>BEPF</th>
           </tr>
@@ -1059,13 +1066,13 @@
           New armor is available in some locations.  Prices may vary
           wildly as with weapons.  Weight is in kilograms.
         </p>
-        <table style="width:50%">
+        <table style="width:90%">
           <tr>
             <th>Armour</th><th>BEPF</th><th>Wt</th><th>Price</th>
             <th>Coverage</th>
           </tr>
           <tr>
-            <td>Special Operations Body Armour</td><td>10</td><td>15</td><td>5000</td>
+            <td>Special Ops Body Armour</td><td>10</td><td>15</td><td>5000</td>
             <td>Nk Sh Co</td>
           </tr>
           <tr>

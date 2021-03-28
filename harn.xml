@@ -5,10 +5,9 @@
     <title>Rules for Hârnworld</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
-    <link rel="stylesheet" media="not print" href="main.css"/>
+    <link rel="stylesheet" href="main.css"/>
     <link rel="stylesheet" media="print" href="mainp.css"/>
-    <link rel="stylesheet" media="not print" href="harn.css"/>
-    <link rel="stylesheet" media="print" href="harnp.css"/>
+    <link rel="stylesheet" href="harn.css"/>
   </head>
   <body>
     <div class="main">
@@ -32,12 +31,12 @@
         </p>
         <p>
           All out-world rules are condensed in this chapter.  Any
-          competence in-world are abstracted on a five-star scale &#9733;
-          through &#9733;&#9733;&#9733;&#9733;&#9733;, where exceptional values may go beyond.
-          Minutes and other units more easily measured are applied
-          regularly, but the star scale illustrates the
-          difference.  How to turn this into numbers for out-world rule
-          operations is detailed later.
+          competence in-world are abstracted on a five-star scale
+          &#9733; through &#9733;&#9733;&#9733;&#9733;&#9733;, where
+          exceptional values may go beyond.  Minutes and other units
+          more easily measured are applied regularly, but the star
+          scale illustrates the difference.  How to turn this into
+          numbers for out-world rule operations is detailed later.
         </p>
         <h4>Probabilities</h4>
         <p>
@@ -243,7 +242,7 @@
           Row-5-Addition with +<sub>5</sub>, e.g. Row-5-Addition of 1
           and 2 is written as 1 +<sub>5</sub> 2.
         </p>
-        <table style="width:60%">
+        <table style="width:75%">
           <tr>
             <th>Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td>
             <td>11-19</td><td>20+</td>
@@ -280,28 +279,32 @@
             <td><a href="#sk-agr">Agriculture</a></td>
             <td><a href="#sk-alc">Alchemy</a></td>
             <td><a href="#sk-ani">Animalcraft</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-ast">Astrology</a></td>
             <td><a href="#sk-awa">Awareness</a></td>
             <td><a href="#sk-axe">Axe</a></td>
             <td><a href="#sk-blo">Blowgun</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-bow">Bow</a></td>
             <td><a href="#sk-bre">Brewing</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-cer">Ceramics</a></td>
             <td><a href="#sk-cli">Climbing</a></td>
             <td><a href="#sk-clu">Club</a></td>
             <td><a href="#sk-coo">Cookery</a></td>
             <td><a href="#sk-dag">Dagger</a></td>
             <td><a href="#sk-dan">Dancing</a></td>
-            <td><a href="#sk-dex">Dexterity</a></td>
-            <td><a href="#sk-dra">Drawing</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-dex">Dexterity</a></td>
+            <td><a href="#sk-dra">Drawing</a></td>
             <td><a href="#sk-emb">Embalming</a></td>
             <td><a href="#sk-end">Endurance</a></td>
             <td><a href="#sk-eng">Engineering</a></td>
             <td><a href="#sk-eye">Eyesight</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-fis">Fishing</a></td>
             <td><a href="#sk-fla">Flail</a></td>
             <td><a href="#sk-fle">Fletching</a></td>
@@ -316,28 +319,32 @@
             <td><a href="#sk-hid">Hidework</a></td>
             <td><a href="#sk-int">Intrigue</a></td>
             <td><a href="#sk-jew">Jewelcraft</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-jum">Jumping</a></td>
             <td><a href="#sk-lan">Language</a></td>
             <td><a href="#sk-law">Law</a></td>
             <td><a href="#sk-loc">Lockcraft</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-lov">Lovecraft</a></td>
             <td><a href="#sk-mag">Magic</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-mas">Masonry</a></td>
             <td><a href="#sk-mat">Mathematics</a></td>
             <td><a href="#sk-met">Metalcraft</a></td>
             <td><a href="#sk-mil">Milling</a></td>
             <td><a href="#sk-min">Mining</a></td>
             <td><a href="#sk-mor">Morale</a></td>
-            <td><a href="#sk-mov">Move</a></td>
-            <td><a href="#sk-mus">Musician</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-mov">Move</a></td>
+            <td><a href="#sk-mus">Musician</a></td>
             <td><a href="#sk-net">Net</a></td>
             <td><a href="#sk-per">Perfumery</a></td>
             <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-pil">Piloting</a></td>
             <td><a href="#sk-pol">Polearm</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
@@ -352,34 +359,38 @@
             <td><a href="#sk-sea">Seamanship</a></td>
             <td><a href="#sk-shie">Shield</a></td>
             <td><a href="#sk-ship">Shipwright</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-sin">Singing</a></td>
             <td><a href="#sk-ski">Skiing</a></td>
             <td><a href="#sk-sli">Sling</a></td>
             <td><a href="#sk-spe">Spear</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-sta">Stamina</a></td>
             <td><a href="#sk-ste">Stealth</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-str">Strength</a></td>
             <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-swo">Sword</a></td>
             <td><a href="#sk-tar">Tarotry</a></td>
             <td><a href="#sk-tex">Textilecraft</a></td>
-            <td><a href="#sk-thr">Throwing</a></td>
-            <td><a href="#sk-tim">Timbercraft</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-thr">Throwing</a></td>
+            <td><a href="#sk-tim">Timbercraft</a></td>
             <td><a href="#sk-tra">Tracking</a></td>
             <td><a href="#sk-una">Unarmed</a></td>
             <td><a href="#sk-weap">Weaponcraft</a></td>
             <td><a href="#sk-weat">Weatherlore</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-whi">Whip</a></td>
             <td><a href="#sk-woo">Woodcraft</a></td>
           </tr>
         </table>
         <h4>Dimensions</h4>
-        <table class="links" style="width:60%">
+        <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
             <td><a href="#di-art">Artistic</a></td>
@@ -622,7 +633,7 @@
           all specialties) all improvement may be dedicated to the
           specialty instead.  For example, 20% Specialty could see a
           possible improvement of 5 points instead of 1 for the group
-          and a 40% Specialty a poyyible improvement of 2.5 points.
+          and a 40% Specialty a possible improvement of 2.5 points.
           This implies that often fractions need to be maintained, to
           keep a consistent situation for specialties.  To actually
           improve a Specialty, start as if improving the group first.
@@ -744,7 +755,7 @@
           may be off.  It is calculated from the percentage value x by
           the range (100% - x) to 1/(100% - x).
         </p>
-        <table style="width:50%">
+        <table style="width:80%">
           <tr>
             <th>Dimension</th><th>0</th><th>10</th>
             <th>20</th><th>30</th>
@@ -938,7 +949,7 @@
           </p>
         </div>
         <p/>
-        <table style="width:30%">
+        <table style="width:50%">
           <tr>
             <th>Learn</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
           </tr>
@@ -969,7 +980,7 @@
         </table>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
-          The Yield-Time dimension assumes a 12h workday, thus the
+          The Time dimension assumes a 12h workday, thus the
           apparent jump from 12h to 2 days.
         </p>
         <include id="$D-Yield"/>
@@ -1387,7 +1398,7 @@
           fishing requires a sufficiently large body of water, capable
           of sustaining fish.  Overfishing may imply additional
           penalties.)  Fishing uses the <em>Yield</em> and
-          <em>Yield-Time</em> dimensions.
+          <em>(Yield) Time</em> dimensions.
         </p>
         <h5 class="skill" id="sk-fla">Flail</h5>
         <include id="$Flail"/>
@@ -1439,7 +1450,7 @@
           rain-forests. and special places like the Shava Forest with
           10 bonus.  Season is highly relevant.  To seek specific
           plants, see Herblore.  For hunting meat, see Tracking. Use
-          the <em>Yield</em> and <em>Yield-Time</em> dimensions.
+          the <em>Yield</em> and <em>(Yield) Time</em> dimensions.
         </p>
         <h5 class="skill" id="sk-gla">Glasswork</h5>
         <include id="$Glasswork"/>
@@ -1571,7 +1582,7 @@
           other coherent activity.  The ML of a skill using language
           can never exceed language ML in the tongue used.
         </p>
-        <table style="width:20%">
+        <table style="width:50%">
           <tr>
             <th>Social Class</th><th>Native OML</th>
           </tr>
@@ -1594,7 +1605,7 @@
           to two families.  Foreign tongues can be learned with
           languages of the same family functioning as as “teacher”.
         </p>
-        <table style="width:30%">
+        <table style="width:60%">
           <tr>
             <th>Jarind Family</th><th>Pharic Family</th><th>Azeri Family</th>
           </tr>
@@ -2061,7 +2072,7 @@
           talent is generated multiple times, use Row-5-Addition for
           the skill level.
         </p>
-        <table style="width:60%">
+        <table style="width:90%">
           <tr>
             <th>Talent</th><th>Sunsign</th>
             <th>Talent</th><th>Sunsign</th>
@@ -3011,14 +3022,14 @@
         <p style="text-align:center">
           Size table
         </p>
-        <table style="width:60%">
+        <table style="width:70%">
           <tr>
             <th>Modifier</th><th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
             <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th><th>+5</th>
           </tr>
           <tr>
-            <td>Size</td><td>1 ft</td><td>1.5 ft</td><td>2 ft</td><td>3 ft</td><td>4 ft</td>
-            <td>6 ft</td><td>8 ft</td><td>12 ft</td><td>16 ft</td><td>24 ft</td><td>32 ft</td>
+            <td>Size</td><td>1ft</td><td>1.5ft</td><td>2ft</td><td>3ft</td><td>4ft</td>
+            <td>6ft</td><td>8ft</td><td>12ft</td><td>16ft</td><td>24ft</td><td>32ft</td>
           </tr>
         </table>
         <p style="text-align:center">
@@ -3147,14 +3158,16 @@
             <td><a href="#comeliness">Comeliness</a></td>
             <td><a href="#complexion">Complexion</a></td>
             <td><a href="#culture">Culture</a></td>
+          </tr>
+          <tr>
             <td><a href="#deity">Deity</a></td>
             <td><a href="#estrangement">Estrangement</a></td>
             <td><a href="#eyehaircolor">Eye/Hair Color</a></td>
-          </tr>
-          <tr>
             <td><a href="#frame">Frame</a></td>
             <td><a href="#gender">Gender</a></td>
             <td><a href="#height">Height</a></td>
+          </tr>
+          <tr>
             <td><a href="#medical">Medical</a></td>
             <td><a href="#mental">Mental</a></td>
             <td><a href="#morality">Morality</a></td>
@@ -3169,6 +3182,8 @@
             <td><a href="#socialclass">Social Class</a></td>
             <td><a href="#species">Species</a></td>
             <td><a href="#sunsign">Sunsign</a></td>
+          </tr>
+          <tr>
             <td><a href="#voice">Voice</a></td>
             <td><a href="#weight">Weight</a></td>
           </tr>
@@ -3229,7 +3244,7 @@
           personality of a person born on the cusp would be a blend
           of the two signs.
         </p>
-        <table style="width:40%">
+        <table style="width:70%">
           <tr>
             <th>From</th><th>To</th><th>Sunsign</th><th>Symbol</th>
           </tr>
@@ -3455,7 +3470,7 @@
           height and is determined by the Physician's Guild and
           usually published in a yearly almanach.
         </p>
-        <table style="width:20%">
+        <table style="width:40%">
           <tr>
             <th>Height</th><th>Weight</th>
           </tr>
@@ -3480,11 +3495,12 @@
           size difference may be acceptable.  The distribution was
           calculated on the human population alone.  Non-humans were
           too rare, when the data was sampled, but their sizes have
-          been standardized by the guild none-the-less.
+          been standardized by the guild none-the-less. (Weight is in
+          lbs.)
         </p>
         <table style="width:80%">
           <tr>
-            <th>Weight (lbs)</th><td>61-65</td><td>66-75</td><td>76-90</td>
+            <th>Weight</th><td>61-65</td><td>66-75</td><td>76-90</td>
             <td>91-110</td><td>111-135</td><td>136-165</td><td>166-200</td>
             <td>201-240</td><td>241-285</td><td>286-335</td>
           </tr>
@@ -3633,7 +3649,7 @@
           also unknown whether the same relationship to weight exists
           for Sindarin and Khuzdul.
         </p>
-        <table style="width:60%">
+        <table style="width:75%">
           <tr>
             <td>Value</td><td>&#9733;</td><td>&#9733;&#9733;</td>
             <td>&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</td>
@@ -4482,7 +4498,7 @@
           and rituals in a private (secret) language in addition to
           their church language.
         </p>
-        <table style="width:40%">
+        <table style="width:60%">
           <tr>
             <th>Church</th><th>Language</th><th>Script</th><th>Temple Tongue</th>
           </tr>
@@ -4976,14 +4992,16 @@
             <td><a href="#psi-hea">Healing</a></td>
             <td><a href="#psi-hex">Hex</a></td>
             <td><a href="#psi-med">Medium</a></td>
-            <td><a href="#psi-men">Mental Bolt</a></td>
-            <td><a href="#psi-neg">Medium</a></td>
           </tr>
           <tr>
+            <td><a href="#psi-men">Mental Bolt</a></td>
+            <td><a href="#psi-neg">Medium</a></td>
             <td><a href="#psi-pre">Prescience</a></td>
             <td><a href="#psi-psy">Pychometry</a></td>
             <td><a href="#psi-pyr">Pyrokinesis</a></td>
             <td><a href="#psi-sen">Sensitivity</a></td>
+          </tr>
+          <tr>
             <td><a href="#psi-telk">Telekinesis</a></td>
             <td><a href="#psi-telp">Telepathy</a></td>
             <td><a href="#psi-traf">Transference</a></td>
@@ -5513,7 +5531,7 @@
           six.  The table below indicates offices a member of that
           Circle is qualified to hold.
         </p>
-        <table style="width:30%">
+        <table style="width:50%">
           <tr>
             <th>Circle</th><th>Office</th>
           </tr>
@@ -6261,20 +6279,24 @@
             <td><a href="#rit-comd">Command</a></td>
             <td><a href="#rit-comu">Commune</a></td>
             <td><a href="#rit-con">Consecration</a></td>
+          </tr>
+          <tr>
             <td><a href="#rit-cur">Curse</a></td>
             <td><a href="#rit-div">Divination</a></td>
             <td><a href="#rit-end">Endure</a></td>
             <td><a href="#rit-exc">Excommunication</a></td>
-          </tr>
-          <tr>
             <td><a href="#rit-exo">Exorcism</a></td>
             <td><a href="#rit-lit">Liturgy</a></td>
+          </tr>
+          <tr>
             <td><a href="#rit-mar">Marriage</a></td>
             <td><a href="#rit-pas">Passage</a></td>
             <td><a href="#rit-rev">Revelation</a></td>
             <td><a href="#rit-sum">Summoning</a></td>
             <td><a href="#rit-ton">Tongues</a></td>
             <td><a href="#rit-tra">Transference</a></td>
+          </tr>
+          <tr>
             <td><a href="#rit-true">Truesight</a></td>
             <td><a href="#rit-trut">Truthsense</a></td>
           </tr>
@@ -6715,7 +6737,7 @@
           craft skills can make/repair their own weapons, but rarely
           with WQs as high as listed.
         </p>
-        <table style="width:70%">
+        <table style="width:90%">
           <tr>
             <th>Weapon</th><th>Skill</th><th>WT</th><th>WQ</th>
             <th>A/D</th><th>HM</th><th>B</th><th>E</th><th>P</th><th>Price</th>
@@ -7094,7 +7116,7 @@
           Skull, <em>Th:</em> Thighs, <em>Tx:</em> Thorax,
           <em>Ua:</em> Upper Arms, <em>Co:</em> Tx Ab Hp Gr.
         </p>
-        <table style="width:70%">
+        <table style="width:90%">
           <tr>
             <th>Material</th><th>Items</th><th>WT</th><th>Price</th><th>Coverage</th>
           </tr>
@@ -7306,7 +7328,7 @@
           there is a 75% chance of being struck on the front side.  An
           asterisk (*) indicates that Stumble or Fumbles may apply.
         </p>
-        <table class="grid" style="width:50%">
+        <table class="grid" style="width:90%">
           <tr>
             <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
             <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
@@ -7378,62 +7400,62 @@
           missile type and range.  These effects are noted on the
           table.
         </p>
-        <table style="width:50%">
+        <table style="width:70%">
           <tr>
             <th>Weapon</th><th>P</th><th>0</th><th>&#9733;</th><th>&#9733;&#9733;</th>
             <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th>
           </tr>
           <tr>
-            <td>Shortbow</td><td>6</td><td>0 ft</td><td>100 ft</td><td>200 ft</td>
-            <td>400 ft</td><td>800 ft</td>
+            <td>Shortbow</td><td>6</td><td>0ft</td><td>100ft</td><td>200ft</td>
+            <td>400ft</td><td>800ft</td>
           </tr>
           <tr>
-            <td>Longbow</td><td>8</td><td>0 ft</td><td>125 ft</td><td>250 ft</td>
-            <td>500 ft</td><td>1000 ft</td>
+            <td>Longbow</td><td>8</td><td>0ft</td><td>125ft</td><td>250ft</td>
+            <td>500ft</td><td>1000ft</td>
           </tr>
           <tr>
-            <td>Hartbow</td><td>9</td><td>0 ft</td><td>150 ft</td><td>300 ft</td>
-            <td>600 ft</td><td>1200 ft</td>
+            <td>Hartbow</td><td>9</td><td>0ft</td><td>150ft</td><td>300ft</td>
+            <td>600ft</td><td>1200ft</td>
           </tr>
           <tr>
-            <td>Crossbow</td><td>8</td><td>0 ft</td><td>100 ft</td><td>200 ft</td>
-            <td>400 ft</td><td>800 ft</td>
+            <td>Crossbow</td><td>8</td><td>0ft</td><td>100ft</td><td>200ft</td>
+            <td>400ft</td><td>800ft</td>
           </tr>
           <tr>
-            <td>Blowgun</td><td>0</td><td>0 ft</td><td>25 ft</td><td>50 ft</td>
-            <td>100 ft</td><td>200 ft</td>
+            <td>Blowgun</td><td>0</td><td>0ft</td><td>25ft</td><td>50ft</td>
+            <td>100ft</td><td>200ft</td>
           </tr>
           <tr>
-            <td>Sling</td><td>4</td><td>0 ft</td><td>75 ft</td><td>150 ft</td>
-            <td>300 ft</td><td>600 ft</td>
+            <td>Sling</td><td>4</td><td>0ft</td><td>75ft</td><td>150ft</td>
+            <td>300ft</td><td>600ft</td>
           </tr>
           <tr>
-            <td>Staff Sling</td><td>5</td><td>0 ft</td><td>125 ft</td><td>250 ft</td>
-            <td>500 ft</td><td>1000 ft</td>
+            <td>Staff Sling</td><td>5</td><td>0ft</td><td>125ft</td><td>250ft</td>
+            <td>500ft</td><td>1000ft</td>
           </tr>
           <tr>
-            <td>*Taburi</td><td>4</td><td>0 ft</td><td>20 ft</td><td>40 ft</td>
-            <td>80 ft</td><td>160 ft</td>
+            <td>*Taburi</td><td>4</td><td>0ft</td><td>20ft</td><td>40ft</td>
+            <td>80ft</td><td>160ft</td>
           </tr>
           <tr>
-            <td>*Shorkana</td><td>5</td><td>0 ft</td><td>15 ft</td><td>30 ft</td>
-            <td>60 ft</td><td>120 ft</td>
+            <td>*Shorkana</td><td>5</td><td>0ft</td><td>15ft</td><td>30ft</td>
+            <td>60ft</td><td>120ft</td>
           </tr>
           <tr>
-            <td>*Javelin</td><td>7</td><td>0 ft</td><td>40 ft</td><td>80 ft</td>
-            <td>160 ft</td><td>320 ft</td>
+            <td>*Javelin</td><td>7</td><td>0ft</td><td>40ft</td><td>80ft</td>
+            <td>160ft</td><td>320ft</td>
           </tr>
           <tr>
-            <td>*Spear</td><td>8</td><td>0 ft</td><td>30 ft</td><td>60 ft</td>
-            <td>120 ft</td><td>240 ft</td>
+            <td>*Spear</td><td>8</td><td>0ft</td><td>30ft</td><td>60ft</td>
+            <td>120ft</td><td>240ft</td>
           </tr>
           <tr>
-            <td>Melee</td><td>~</td><td>0 ft</td><td>10 ft</td><td>20 ft</td>
-            <td>40 ft</td><td>80 ft</td>
+            <td>Melee</td><td>~</td><td>0ft</td><td>10ft</td><td>20ft</td>
+            <td>40ft</td><td>80ft</td>
           </tr>
           <tr>
-            <td>Mental</td><td>~</td><td>0 ft</td><td>100 ft</td><td>200 ft</td>
-            <td>400 ft</td><td>800 ft</td>
+            <td>Mental</td><td>~</td><td>0ft</td><td>100ft</td><td>200ft</td>
+            <td>400ft</td><td>800ft</td>
           </tr>
         </table>
         <h3 id="actions">Actions</h3>
@@ -7895,7 +7917,7 @@
           Note that the usage effects on bordering regions needs to be
           treated as well.
         </p>
-        <table style="width:30%">
+        <table style="width:50%">
           <tr><th>Wound</th><th>Severity</th><th>Treatment</th></tr>
           <tr><td>Blunt</td><td>Minor</td><td>Compress</td></tr>
           <tr><td>Blunt</td><td>Serious</td><td>Splint</td></tr>

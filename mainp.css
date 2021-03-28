@@ -1,11 +1,3 @@
-:root {
-    --navbg: #009a31;
-    --h1: #009a31;
-    --head: #c6e7ce;
-    --tde: #ceffce;
-    --tdo: #84cf96;
-}
-
 @page {
     margin: 2cm;
 }
@@ -14,32 +6,21 @@
     display: none;
 }
 
+body {
+    font-size: 12px;
+}
+
 div {
     orphans: 3;
     widows: 3;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-body, h1, h2, h3 {
-    font-family: "Merriweather";
-}
-
-body {
-    box-sizing: border-box;
-    font-size: 15px;
-    text-align: justify;
+table {
+    page-break-inside: avoid;
 }
 
 nav {
     display: none;
-}
-
-h1, h2, h3, h4, h5 {
-    font-weight: bold;
-    color:var(--h1);
 }
 
 h1:nth-child(n+2) {
@@ -51,98 +32,9 @@ h1 {
     border-bottom: 2px solid var(--h1);
     padding-top: 1ex;
     padding-bottom: 1ex;
-    font-size: 24px;
 }
 
-h3 {
-    font-size: 18px;
-}
-
-h5 {
-    padding-top: 4px;
-    border-top: 2px solid var(--h1);
-}
-
-table {
-    margin: auto;
-    text-align: center;
-    font-size: 8px;
-    border-collapse: collapse;
-}
-
-caption {
-    font-weight: bold;
-    padding: 8px;
-    caption-side: bottom;
-}
-
-th, td {
-    vertical-align: top;
-    width: 5%;
-    padding: 2px 12px;
-}
-
-td a {
-    color: var(--h1);   
-}
-
-tr:first-child {
-    border-top: 2px solid var(--tdo);
-    border-bottom: 2px solid var(--tdo);
-}
-
-tr:nth-child(3n+2) {
-    border-bottom: 2px solid var(--tde);
-}
-
-tr:nth-child(3n+3) {
-    border-bottom: 2px solid var(--tdo);
-}
-
-tr:nth-child(3n+4) {
-    border-bottom: 2px solid var(--tdo);
-}
-
-.grid2 td:first-child {
-    border-left: 2px solid var(--tdo);
-}
-
-.grid2 td:nth-child(4n) {
-    border-right: 2px solid var(--tdo);
-}
-
-.grid td:first-child {
-    border-left: 2px solid var(--tdo);
-}
-
-.grid td:nth-child(even) {
-    border-right: 2px solid var(--tdo);
-}
-
-.links tr,.links td {
-    border: 2px solid var(--tde);
-}
-
-.explain p, .standard p {
-    font-size: 8px;
-    border-bottom: 2px solid var(--tde);
-}
-
-.explain p:first-child, .standard p:first-child {
-    border-top: 2px solid var(--tde);
-}
-
-.explain p {
-    margin: 5px 20px;
-    padding: 5px 20px;
-}
-
-.standard p {
-    margin: 1px 20px;
-    padding: 1px 20px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--h1);
+.main {
+    margin-left: 40px;
+    margin-right: 40px;
 }
