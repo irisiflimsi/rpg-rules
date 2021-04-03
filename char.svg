@@ -5434,7 +5434,7 @@
               xml:space="preserve"><tspan
                                        y="436.3949"
                                        x="114.31007"
-                                       id="$Occuation1"></tspan></text>
+                                       id="$Occupation1"></tspan></text>
           <text
               id="text3740-96-2-48-1"
               y="436.3949"
@@ -5687,7 +5687,7 @@
       </foreignObject>
       <foreignObject y="421.3949" x="73.31007" width="84px" height="20px">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occuation1')"></input>
+          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation1')"></input>
         </div>
       </foreignObject>
       <foreignObject y="421.3949" x="244.62796" width="84px" height="20px">
@@ -10447,6 +10447,14 @@
     function recalcAll() {
       var date = document.getElementById("$Birthdate").textContent.substring(0,6);
       document.getElementById("$Sunsign").textContent = sunsignMap.get(date);
+      var o1n = document.getElementById("$Occupation1").textContent;
+      var o1v = parseInt(o1n.slice(-1)); o1n = o1n.slice(0,-2);
+      var o2n = document.getElementById("$Occupation2").textContent;
+      var o2v = parseInt(o2n.slice(-1)); o2n = o2n.slice(0,-2);
+      var o3n = document.getElementById("$Occupation3").textContent;
+      var o3v = parseInt(o3n.slice(-1)); o3n = o3n.slice(0,-2);
+      var o4n = document.getElementById("$Occupation4").textContent;
+      var o4v = parseInt(o4n.slice(-1)); o4n = o4n.slice(0,-2);
       Array(Array.from(skills).length).fill().map((_,i) => {
         var s = skills.get(document.getElementById("$Sk-" + (i + 1) + "N").textContent);
         var sum = 0;
@@ -10457,8 +10465,23 @@
           if (document.getElementById("$Sunsign").textContent.indexOf(k) > -1) ss = Math.max(ss,v);
         });
         sum += ss;
-        sum = sum5(0,sum);
-        document.getElementById("$Sk-" + (i + 1) + "L").textContent = Math.round(sum);
+        document.getElementById("$Sk-" + (i + 1) + "L").textContent = Math.round(sum5(0,sum));
+        var v = sum;
+        Array(Math.min(5,s[2].length/2)).fill().map((k1,k0) => {
+          if (s[2][2*k0] === o1n) {
+            v = Math.round(sum5(v, o1v * s[2][2*k0+1] / 20));
+          }
+          if (s[2][2*k0] === o2n) {
+            v = Math.round(sum5(v, o2v * s[2][2*k0+1] / 20));
+          }
+          if (s[2][2*k0] === o3n) {
+            v = Math.round(sum5(v, o3v * s[2][2*k0+1] / 20));
+          }
+          if (s[2][2*k0] === o4n) {
+            v = Math.round(sum5(v, o4v * s[2][2*k0+1] / 20));
+          }
+        });
+        document.getElementById("$Sk-" + (i + 1) + "V").textContent = v;
       });
       Array(21).fill().map((i1,i0) => {
         try {

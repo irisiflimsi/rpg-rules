@@ -404,6 +404,7 @@
             <td><a href="#di-reg">Regional</a></td>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-sta">Star-Rating</a></td>
+            <td><a href="#di-tra">Travel</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
@@ -976,6 +977,134 @@
           </tr>
           <tr>
             <td>Attribute</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-tra">Travel</h5>
+        <p>
+          The <em>Km</em> distance dimensions <em>Sail</em> and
+          <em>Land</em> show the distance travelled in a day.  The
+          corresponding time dimensions show the time needed to travel
+          100 km.  In order to have a reasonable travel rate, the
+          desired distance and a maximum time should be given.  With
+          enough bad luck or circumstances, reaching the destination
+          may not be possible.  Turning around is possible, when
+          pressing on may by more dangerous.  The hazard domain cannot
+          be turned into a trajectoy, i.e. no arbitrary bonus
+          compensated elsewhere may be assigned to it.
+        </p>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Km Sail</td><td>0</td><td>25</td><td>50</td><td>75</td><td>100</td><td>125</td><td>150</td>
+          </tr>
+          <tr>
+            <td>Km Land</td><td>0</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td>
+          </tr>
+          <tr>
+            <td>Days Sail</td><td>&#x221e;</td><td>4.0</td><td>2.0</td><td>1.5</td><td>1.0</td><td>0.8</td><td>0.6</td>
+          </tr>
+          <tr>
+            <td>Days Land</td><td>&#x221e;</td><td>10.0</td><td>5.0</td><td>3.5</td><td>2.5</td><td>2.0</td><td>1.5</td>
+          </tr>
+        </table>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th><th>-30</th><th>-25</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+          </tr>
+          <tr>
+            <td>Hazard</td><td>1d</td><td>2d</td><td>3d</td><td>6d</td><td>10d</td><td>20d</td><td>30d</td><td>60d</td><td>100d</td>
+          </tr>
+        </table>
+        <p>
+          Various circumstancial modification for travel rate
+          according to season are applicable.  The next table is only
+          applied to water/sail travel.  A vessel traveling NE applies
+          modifiers for N and E.
+        </p>
+        <table class="grid2" style="width:50%">
+          <tr>
+            <th>Season</th><th colspan="4">Square</th><th colspan="4">Venyn</th>
+          </tr>
+          <tr>
+            <th>Direction</th><th>N</th><th>S</th><th>E</th><th>W</th><th>N</th><th>S</th><th>E</th><th>W</th>
+          </tr>
+          <tr>
+            <td>Spring</td><td>-3</td><td>0</td><td>+4</td><td>-4</td><td>-3</td><td>-3</td><td>+1</td><td>-3</td>
+          </tr>
+          <tr>
+            <td>Summer</td><td>0</td><td>-3</td><td>+2</td><td>-6</td><td>-2</td><td>-4</td><td>+1</td><td>-3</td>
+          </tr>
+          <tr>
+            <td>Autumn</td><td>-1</td><td>0</td><td>+3</td><td>-5</td><td>-3</td><td>-3</td><td>+2</td><td>-2</td>
+          </tr>
+          <tr>
+            <td>Winter</td><td>-2</td><td>1</td><td>-5</td><td>+3</td><td>-4</td><td>-2</td><td>+1</td><td>-3</td>
+          </tr>
+          <tr><th colspan="8" style="padding:1px;"/></tr>
+          <tr>
+            <th>Sailing Grade</th><th>A</th><th>C</th><th>D</th><th>E</th><th>A</th><th>C</th><th>D</th><th>E</th>
+          </tr>
+          <tr>
+            <td>Modifier</td><td>+3</td><td>-4</td><td>-6</td><td>-8</td><td>+4</td><td>-2</td><td>-4</td><td>-6</td>
+          </tr>
+        </table>
+        <p>
+          The following table applies to both Land and Sea travel in either time or distance domains.
+        </p>
+        <table style="width:60%">
+          <tr>
+            <th>Weather</th><th>Nuzyael</th><th>Peonu</th><th>Kelen</th><th>Nolus</th><th>Larane</th><th>Agrazhar</th><th>Azura</th><th>Halane</th><th>Savor</th><th>Ilvin</th><th>Navek</th><th>Morgath</th>
+          </tr>
+          <tr>
+            <td>Travel</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+4</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-4</td><td>-2</td>
+          </tr>
+          <tr>
+            <td>Hazard</td><td>-5</td><td>0</td><td>+5</td><td>+10</td><td>+20</td><td>+10</td><td>+5</td><td>0</td><td>-5</td><td>-10</td><td>-20</td><td>-10</td>
+          </tr>
+        </table>
+        <p>
+          The next modifiers apply only to overland travel in
+          distance and time domains.  Modifiers are cumulative.  The
+          standard distance/time assumes a road.  Consider all
+          applicable modifiers carefully.  Penalties apply double to
+          wagon travel (the bonus only once).  Roads through swamps
+          are usually on the solid parts and only during rainy weather
+          are they subject to penalty.
+        </p>
+        <div class="explain">
+          <p>
+            <em>-4:</em> Cropland, Heath, Hills
+          </p>
+          <p>
+            <em>-6:</em> Woodland, Needleleaf Forest
+          </p>
+          <p>
+            <em>-8:</em> Mixed Forest, Mountains, Swamp
+          </p>
+          <p>
+            <em>+5:</em> By Wagon
+          </p>
+          <p>
+            <em>+10:</em> By Horse
+          </p>
+        </div>
+        <p>
+          A <em>Hazard</em> is a randomized injurypenalty that is
+          applied to a traveller.  If desired, a vessel or horse may
+          be treated as separate entity.  This penalty would be the
+          effect of a sprained ankle or frostbite and is healed
+          normally.  Through familiarity in the terrain, such as the
+          Survival skill or Seamanship, the penalty may be reduced. (A
+          bonus is never granted.)
+        </p>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr>
+            <td>Reduction</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-3</td><td>-4</td><td>-5</td><td>-6</td>
           </tr>
         </table>
         <h5 class="skill" id="di-yie">Yield</h5>
