@@ -989,12 +989,14 @@
           enough bad luck or circumstances, reaching the destination
           may not be possible.  Turning around is possible, when
           pressing on may by more dangerous.  The hazard domain cannot
-          be turned into a trajectoy, i.e. no arbitrary bonus
-          compensated elsewhere may be assigned to it.
+          be turned into a trajectory, i.e. no arbitrary bonus
+          compensated elsewhere may be assigned to it.  GM disretion
+          applies for explicitly safe travel.  Hazards include getting
+          lost but not encounters.
         </p>
         <table style="width:40%">
           <tr>
-            <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+            <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
           </tr>
           <tr>
             <td>Km Sail</td><td>0</td><td>25</td><td>50</td><td>75</td><td>100</td><td>125</td><td>150</td>
@@ -1008,6 +1010,7 @@
           <tr>
             <td>Days Land</td><td>&#x221e;</td><td>10.0</td><td>5.0</td><td>3.5</td><td>2.5</td><td>2.0</td><td>1.5</td>
           </tr>
+          <tr><th colspan="8" style="padding:1px;"/></tr>
         </table>
         <table style="width:40%">
           <tr>
@@ -1065,13 +1068,13 @@
           </tr>
         </table>
         <p>
-          The next modifiers apply only to overland travel in
-          distance and time domains.  Modifiers are cumulative.  The
-          standard distance/time assumes a road.  Consider all
-          applicable modifiers carefully.  Penalties apply double to
-          wagon travel (the bonus only once).  Roads through swamps
-          are usually on the solid parts and only during rainy weather
-          are they subject to penalty.
+          The next modifiers apply only to overland travel in distance
+          and time domains.  Modifiers are cumulative.  The standard
+          distance/time assumes a road.  Consider all applicable
+          modifiers carefully.  Penalties apply double to wagon travel
+          (the bonus only once).  Roads through swamps are usually on
+          the solid parts and only during rainy weather are they
+          subject to penalty.  Roads are not affected by vegetation.
         </p>
         <div class="explain">
           <p>
@@ -1091,7 +1094,7 @@
           </p>
         </div>
         <p>
-          A <em>Hazard</em> is a randomized injurypenalty that is
+          A <em>Hazard</em> is a randomized injury/penalty that is
           applied to a traveller.  If desired, a vessel or horse may
           be treated as separate entity.  This penalty would be the
           effect of a sprained ankle or frostbite and is healed
