@@ -177,15 +177,16 @@
           as good as a skill of n points better, we call that
           Row-n-Addition.  This means that two people of the same
           skill with value x have a fair (50:50) chance of beating
-          someone with a value x + n in that skill.  Taking the
-          maximum of two separate skill rolls is similar to a
-          Row-5-Addition as far as the probabilities are concerned.
-          (We will only use Row-5-Addition in these Hârn rules.)  The
-          “real” value to use when precision loss is important to you
-          (rarely) is the math-formula
+          someone with a value x + n in that skill.  We will only use
+          Row-5-Addition in these Hârn rules, the “real” value to use
+          when precision loss is important to you is the math-formula
           <em>5*ln(1+exp(-d*ln(2)/5))/ln(2)</em>, where d is the
-          difference.  You can also use the automated formula right
-          here.
+          non-negative difference between the two skill values. So for
+          any given two skill values, the Row-5-Addition is the
+          maximum of these two values plus the formula above.  You can
+          also use the automated formula right here (Html only).
+          Taking the maximum of two separate skill rolls is similar to
+          a Row-5-Addition as far as the probabilities are concerned.
         </p>
         <script>
           function f() {
@@ -446,15 +447,33 @@
         </p>
         <p>
           Every skill in the list has an Occupation entry.  It shows a
-          list of occupations with a percentage value each.  If an
-          occupation is listed, then the OML listed is not used, but
-          instead the Occupation ML times the percentage listed.
+          list of occupations with a percentage value each.  When
+          creating a character and the character has an occupation
+          that is listed, then the OML listed is not used, but instead
+          the Occupation ML times the percentage listed.  This
+          represents the years oif training with a teacher or tutor.
+          To make this compatible with the learning rule, we subtract
+          10 from the base value but then add SB+<sub>5</sub>0.
+        </p>
+        <p>
+          <em>Example:</em> Juryn has an SB in Dancing of 4.  He is a
+          Herald by trade, with an occupation listing of 60 for
+          Dancing.  His apprenticeship was normal, so he was taught to
+          an occuaption level of 20 (&#9733;&#9733;&#9733;&#9733;).
+          Thus he now has a skill of
+        </p>
+        <p>
+          <em>(20 - 10) x 60% + (SB +<sub>5</sub> 0) = 6 + 7 = 13</em>
+        </p>
+        <p>
+          The percentage for occupations in the skill list signifies
+          the amount of time spent learning the skill, not the
+          teacher's skill.  That is why the percentage is applied to
+          the (abstract) teacher benefit from 20, which is 20 - 10. It
+          is not applied to the (abstract) teacher skill of 20.
+        </p>
+        <p>
           Multiple occupations are combined through Row-5-Addition.
-          <em>Example:</em> Juryn has an SB in Dancing of 4.  The
-          occupation listing of 40 for his profession where he has
-          level (ML) 20.  Thus his OML is 20 x 40% = 8 and his
-          starting EML is SB +<sub>5</sub> ML = 8 +<sub>5</sub> 4 =
-          11.
         </p>
         <h4>Specialties</h4>
         <p>
@@ -2743,13 +2762,12 @@
           If multiple occupations are learned, they add through
           Row-5-Addition, when applicable.  In particular, Parent
           Occupation may immediately added, when it is the same as
-          vocational Occupation.  Since SB factors into regular
-          learning rolls (see Skill Improvement), the SB is also added
-          in through Row-5-Addition.
+          vocational Occupation.
         </p>
         <p>
-          <em>Chandlers</em> have three craft occupations at 5.  Craft
-          occupations are marked with asterisk (*) in the table above.
+          <em>Chandlers</em> have three craft occupations at 5 (1
+          &#9733;).  Craft occupations are marked with asterisk (*) in
+          the table above.
         </p>
         <p>
           <em>Gladiators</em> and <em>Hunter/Trappers</em> have
@@ -2762,8 +2780,9 @@
           new skills or improve existing skills.  Remember that most
           skills have a score of zero, so opening a (reasonable) skill
           or improving an open skill is the same.  For each option
-          point five points are added through Row-5-Addition.
-          Successive improvement of the same skill work the same.
+          point five points (1 &#9733;) are added through
+          Row-5-Addition.  Successive improvement of the same skill
+          work the same.
         </p>
         <p>
           A veteran character receives three option points per year of
@@ -4602,13 +4621,13 @@
         <p>
           Occupational rating is on the typical five-star scale.  When
           completing an apprenticeship, a person is assumed to have
-          advanced to &#9733;&#9733;&#9733; through his training.  The
-          occupation of the parent will usually convey a &#9733;
-          rating.  Attributes play a role in selecting a suitable
-          profession.  There are practical and common sense limits.  A
-          warrior with a sufficiently high Aura can certainly learn
-          spells, but doing so requires years learning the mysteries
-          and ways of magic.
+          advanced to &#9733;&#9733;&#9733;&#9733; through his
+          training.  The occupation of the parent will usually convey
+          a &#9733; rating.  Attributes play a role in selecting a
+          suitable profession.  There are practical and common sense
+          limits.  A warrior with a sufficiently high Aura can
+          certainly learn spells, but doing so requires years learning
+          the mysteries and ways of magic.
         </p>
         <h3 id="cleric">Cleric</h3>
         <p>
