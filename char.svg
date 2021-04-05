@@ -5685,24 +5685,24 @@
           <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Will')"></input>
         </div>
       </foreignObject>
-      <foreignObject y="421.3949" x="73.31007" width="84px" height="20px">
+      <foreignObject y="421.3949" x="33.31007" width="164px" height="20px">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation1')"></input>
+          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:160px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation1')"></input>
         </div>
       </foreignObject>
-      <foreignObject y="421.3949" x="244.62796" width="84px" height="20px">
+      <foreignObject y="421.3949" x="204.62796" width="164px" height="20px">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation2')"></input>
+          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:160px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation2')"></input>
         </div>
       </foreignObject>
-      <foreignObject y="421.3949" x="416.29684" width="84px" height="20px">
+      <foreignObject y="421.3949" x="376.29684" width="164px" height="20px">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation3')"></input>
+          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:160px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation3')"></input>
         </div>
       </foreignObject>
-      <foreignObject y="421.3949" x="587.70026" width="84px" height="20px">
+      <foreignObject y="421.3949" x="547.70026" width="164px" height="20px">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation4')"></input>
+          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:160px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation4')"></input>
         </div>
       </foreignObject>
       <foreignObject y="447.92938" x="158.70026" width="41px" height="20px">
@@ -10482,6 +10482,9 @@
           }
         });
         document.getElementById("$Sk-" + (i + 1) + "V").textContent = Math.round(v + sum5(0,sum));
+        if (-v > 0) {
+          document.getElementById("$Sk-" + (i + 1) + "V").textContent = s[3];
+        }
       });
       Array(21).fill().map((i1,i0) => {
         try {
