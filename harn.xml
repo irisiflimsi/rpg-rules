@@ -451,26 +451,29 @@
           creating a character and the character has an occupation
           that is listed, then the OML listed is not used, but instead
           the Occupation ML times the percentage listed.  This
-          represents the years oif training with a teacher or tutor.
+          represents the years of training with a teacher or tutor.
           To make this compatible with the learning rule, we subtract
           10 from the base value but then add SB+<sub>5</sub>0.
         </p>
         <p>
-          <em>Example:</em> Juryn has an SB in Dancing of 4.  He is a
-          Herald by trade, with an occupation listing of 60 for
-          Dancing.  His apprenticeship was normal, so he was taught to
-          an occuaption level of 20 (&#9733;&#9733;&#9733;&#9733;).
+          <em>Example:</em> Juryn has an SB in Dancing of 4.  His
+          father is a Herald by trade, with an occupation listing of
+          60 for Dancing.  Juryn himself does not have an occupation
+          with Dancing as skill.  His apprenticeship was normal, so he
+          was taught to an occupation level of 5 (&#9733;) as Herald.
           Thus he now has a skill of
         </p>
         <p>
-          <em>(20 - 10) x 60% + (SB +<sub>5</sub> 0) = 6 + 7 = 13</em>
+          <em>(20 - 10) x 25% x 60% + (SB +<sub>5</sub> 0) = 1.5 + 7.3 = 8.8 = 9</em>
         </p>
         <p>
           The percentage for occupations in the skill list signifies
           the amount of time spent learning the skill, not the
           teacher's skill.  That is why the percentage is applied to
           the (abstract) teacher benefit from 20, which is 20 - 10. It
-          is not applied to the (abstract) teacher skill of 20.
+          is not applied to the (abstract) teacher skill of 20.  The
+          same is true for the actual learning period in an
+          occupation, which is a percentage of four stars maximum.
         </p>
         <p>
           Multiple occupations are combined through Row-5-Addition.

@@ -463,7 +463,9 @@
       <em>Attributes:</em> <span>Agility</span>, <span>Voice</span>, <span>Intelligence</span>
     </p>
     <p>
-      <em>Occupations:</em> Thespian/80, Cleric/Rydequeln/60
+      <em>Occupations:</em>
+      <span>Thespian</span>/<span>80</span>,
+      <span>Cleric/Rydequeln</span>/<span>60</span>
     </p>
     <p>
       <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>, <span>Tai</span>+<span>1</span>
@@ -485,8 +487,13 @@
       <em>Attributes:</em> <span>Strength</span>, <span>Stamina</span>, <span>Will</span>
     </p>
     <p>
-      <em>Occupations:</em> Farmer/80, Millwright/60, Miller/60,
-      Bailiff/40, Cleric/Peoni/80, Shek-Pvar/Fyvria/60
+      <em>Occupations:</em>
+      <span>Farmer</span>/<span>80</span>,
+      <span>Millwright</span>/<span>60</span>,
+      <span>Miller</span>/<span>60</span>,
+      <span>Bailiff</span>/<span>40</span>,
+      <span>Cleric/Peoni</span>/<span>80</span>,
+      <span>Shek-Pvar/Fyvria</span>/<span>60</span>
     </p>
     <p>
       <em>Sunsign:</em> <span>Ulanus</span>+<span>2</span>, <span>Aralius</span>+<span>2</span>
@@ -500,9 +507,16 @@
       <em>Attributes:</em> <span>Smell</span>, <span>Intelligence</span>, <span>Aura</span>
     </p>
     <p>
-      <em>Occupations:</em> Alchemist/80, Apothecary/40,
-      Chandler/40, Embalmer/40, Glassworker/40, Hideworker/40,
-      Perfumer/60, Physician/60, Shek-Pvar/Peleahn/60
+      <em>Occupations:</em>
+      <span>Alchemist</span>/<span>80</span>,
+      <span>Apothecary</span>/<span>40</span>,
+      <span>Chandler</span>/<span>40</span>,
+      <span>Embalmer</span>/<span>40</span>,
+      <span>Glassworker</span>/<span>40</span>,
+      <span>Hideworker</span>/<span>40</span>,
+      <span>Perfumer</span>/<span>60</span>,
+      <span>Physician</span>/<span>60</span>,
+      <span>Shek-Pvar/Peleahn</span>/<span>60</span>
     </p>
     <p>
       <em>Sunsign:</em> <span>Skorus</span>+<span>3</span>, <span>Tai</span>+<span>2</span>, <span>Masara</span>+<span>2</span>
@@ -516,9 +530,13 @@
       <em>Attributes:</em> <span>Agility</span>, <span>Voice</span>, <span>Will</span>
     </p>
     <p>
-      <em>Occupations:</em> Animal Trainer/80, Farmer/60,
-      Herdsman/80, Teamster/60, Cleric/Peoni/60,
-      Shek-Pvar/Fyvria/60
+      <em>Occupations:</em>
+      <span>Animal Trainer</span>/<span>80</span>,
+      <span>Farmer</span>/<span>60</span>,
+      <span>Herdsman</span>/<span>80</span>,
+      <span>Teamster</span>/<span>60</span>,
+      <span>Cleric/Peoni</span>/<span>60</span>,
+      <span>Shek-Pvar/Fyvria</span>/<span>60</span>
     </p>
     <p>
       <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
@@ -550,7 +568,10 @@
       <em>Attributes:</em> <span>Eyesight</span>, <span>Intelligence</span>, <span>Aura</span>
     </p>
     <p>
-      <em>Occupations:</em> Astrologer/80, Lady/40, Cleric/Siem/80
+      <em>Occupations:</em>
+      <span>Astrologer</span>/<span>80</span>,
+      <span>Lady</span>/<span>40</span>,
+      <span>Cleric/Siem</span>/<span>80</span>
     </p>
     <p>
       <em>Sunsign:</em> <span>Tarael</span>+<span>1</span>
@@ -564,7 +585,8 @@
       <em>Attributes:</em> <span>Eyesight</span>, <span>Hearing</span>, <span>Smell</span>
     </p>
     <p>
-      <em>Occupations:</em> Thief/100
+      <em>Occupations:</em>
+      <span>Thief</span>/<span>100</span>
     </p>
     <p>
       <em>Sunsign:</em> <span>Hirin</span>+<span>2</span>, <span>Tai</span>+<span>2</span>
@@ -578,7 +600,8 @@
       <em>Attributes:</em> <span>Strength</span>, <span>Strength</span>, <span>Dexterity</span>
     </p>
     <p>
-      <em>Occupations:</em> Cleric/Sarajin/80
+      <em>Occupations:</em>
+      <span>Cleric/Sarajin</span>/<span>80</span>
     </p>
     <p>
       <em>Specialties:</em> Battleaxe/40, Handaxe/40,
