@@ -5705,6 +5705,11 @@
           <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:160px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Occupation4')"></input>
         </div>
       </foreignObject>
+      <foreignObject y="447.92938" x="29.936607" width="84px" height="20px">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-1N')"></input>
+        </div>
+      </foreignObject>
       <foreignObject y="447.92938" x="158.70026" width="41px" height="20px">
         <div xmlns="http://www.w3.org/1999/xhtml">
           <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:37px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk-1V')"></input>
@@ -10427,7 +10432,9 @@
     var i = 0;
     for (var s of skills.keys()) {
       i++;
-      document.getElementById("$Sk-" + i + "N").textContent = s;
+      if (!["Language","Magic","PsiTalents","Ritual","Script"].includes(s)) {
+        document.getElementById("$Sk-" + i + "N").textContent = s;
+      }
     }
     function toggle() {
       ["1","2"].forEach(i => {
@@ -10456,34 +10463,51 @@
       var o4n = document.getElementById("$Occupation4").textContent;
       var o4v = o4n.split("/").pop(); o4n = o4n.slice(0, o4n.length - o4v.length - 1);
       Array(Array.from(skills).length).fill().map((_,i) => {
-        var s = skills.get(document.getElementById("$Sk-" + (i + 1) + "N").textContent);
-        var sum = 0;
-        s[0].map( (_,j) => { sum += parseInt(document.getElementById(s[0][j]).textContent); } );
-        sum = sum/s[0].length;
-        var ss = 0;
-        new Map(s[1]).forEach((v,k) => {
-          if (document.getElementById("$Sunsign").textContent.indexOf(k) > -1) ss = Math.max(ss,v);
-        });
-        sum += ss;
-        document.getElementById("$Sk-" + (i + 1) + "L").textContent = Math.round(sum5(0,sum));
-        var v = -100;
-        Array(Math.min(5,s[2].length/2)).fill().map((k1,k0) => {
-          if (s[2][2*k0] === o1n) {
-            v = Math.round(sum5(v, parseInt(o1v) * s[2][2*k0+1] / 200));
+        try {
+          var n = document.getElementById("$Sk-" + (i + 1) + "N").textContent
+          var s = skills.get(n);
+          if (s == null) {
+            skills.forEach((v,k) => {
+              Array(v[4].length/2).fill().map((k1,k0) => {
+                if (v[4][2*k0] === n) {
+                  s = skills.get(k);
+                }
+              });
+            });
           }
-          if (s[2][2*k0] === o2n) {
-            v = Math.round(sum5(v, parseInt(o2v) * s[2][2*k0+1] / 200));
+          var sum = 0;
+          s[0].map( (_,j) => {
+            sum += parseInt(document.getElementById(s[0][j]).textContent);
+          });
+          sum = sum/s[0].length;
+          var ss = 0;
+          new Map(s[1]).forEach((v,k) => {
+            if (document.getElementById("$Sunsign").textContent.indexOf(k) > -1)
+              ss = Math.max(ss,v);
+          });
+          sum += ss;
+          document.getElementById("$Sk-" + (i + 1) + "L").textContent = Math.round(sum5(0,sum));
+          var v = -100;
+          Array(Math.min(5,s[2].length/2)).fill().map((k1,k0) => {
+            if (s[2][2*k0] === o1n) {
+              v = Math.round(sum5(v, parseInt(o1v) * s[2][2*k0+1] / 200));
+            }
+            if (s[2][2*k0] === o2n) {
+              v = Math.round(sum5(v, parseInt(o2v) * s[2][2*k0+1] / 200));
+            }
+            if (s[2][2*k0] === o3n) {
+              v = Math.round(sum5(v, parseInt(o3v) * s[2][2*k0+1] / 200));
+            }
+            if (s[2][2*k0] === o4n) {
+              v = Math.round(sum5(v, parseInt(o4v) * s[2][2*k0+1] / 200));
+            }
+          });
+          document.getElementById("$Sk-" + (i + 1) + "V").textContent = Math.round(v + sum5(0,sum));
+          if (-v > 0) {
+            document.getElementById("$Sk-" + (i + 1) + "V").textContent = s[3];
           }
-          if (s[2][2*k0] === o3n) {
-            v = Math.round(sum5(v, parseInt(o3v) * s[2][2*k0+1] / 200));
-          }
-          if (s[2][2*k0] === o4n) {
-            v = Math.round(sum5(v, parseInt(o4v) * s[2][2*k0+1] / 200));
-          }
-        });
-        document.getElementById("$Sk-" + (i + 1) + "V").textContent = Math.round(v + sum5(0,sum));
-        if (-v > 0) {
-          document.getElementById("$Sk-" + (i + 1) + "V").textContent = s[3];
+        }
+        catch (e) {
         }
       });
       Array(21).fill().map((i1,i0) => {

@@ -1,10 +1,10 @@
 <root>
-  <table id="$D-Weatherlore" style="width:30%">
+  <table id="$D-Weatherlore" style="width:40%">
     <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Time</td><td>0.25h</td><td>1h</td><td>4h</td><td>24h</td>
+      <td>Time</td><td>0.25h</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
     </tr>
   </table>
   <table id="$D-Timbercraft" style="width:40%">
@@ -39,32 +39,26 @@
   </table>
   <table id="$D-Regional" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th>
-      <th>20</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="text">
-      <td>Conditions</td><td>-</td><td>Local</td><td>Familiar</td>
-      <td>Related</td><td>Any</td>
+      <td>Conditions</td><td>-</td><td>Local</td><td>Familiar</td><td>Related</td><td>Any</td>
     </tr>
   </table>
   <table id="$D-Strength"  style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-      <th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Weight</td><td>16lbs</td><td>25lbs</td><td>45lbs</td><td>70lbs</td><td>100lbs</td>
-      <td>160lbs</td><td>250lbs</td><td>450lbs</td><td>700lbs</td>
+      <td>Weight</td><td>16lbs</td><td>25lbs</td><td>45lbs</td><td>70lbs</td><td>100lbs</td><td>160lbs</td><td>250lbs</td><td>450lbs</td><td>700lbs</td>
     </tr>
   </table>
   <table id="$D-Stamina" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th>
-      <th>20</th><th>25</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
     </tr>
     <tr class="num">
-      <td>Time factor</td><td>3</td><td>2</td><td>1.5</td><td>1.0</td><td>0.75</td><td>0.5</td>
-      <td>0.38</td><td>0.25</td>
+      <td>Time factor</td><td>3</td><td>2</td><td>1.5</td><td>1.0</td><td>0.75</td><td>0.5</td><td>0.38</td><td>0.25</td>
     </tr>
   </table>
   <table id="$D-Shipwright" style="width:30%">
@@ -94,8 +88,7 @@
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="text">
-      <td>Awareness</td><td>Noise</td><td>Comprehension</td><td>Listening</td>
-      <td>Consideration</td><td>Agreement</td>
+      <td>Awareness</td><td>Noise</td><td>Comprehension</td><td>Listening</td><td>Consideration</td><td>Agreement</td>
     </tr>
     <tr class="num">
       <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
@@ -103,16 +96,13 @@
   </table>
   <table id="$D-PsiTalents" style="width:40%">
     <tr>
-      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
-      <th>25</th><th>30</th>
+      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Bloodloss</td><td>8.0</td><td>6.3</td><td>5.0</td><td>4.0</td><td>3.2</td>
-      <td>2.6</td><td>2.0</td>
+      <td>Bloodloss</td><td>8.0</td><td>6.3</td><td>5.0</td><td>4.0</td><td>3.2</td><td>2.6</td><td>2.0</td>
     </tr>
     <tr class="num">
-      <td>Negation</td><td>0.6</td><td>0.8</td><td>1</td><td>1.3</td><td>1.6</td>
-      <td>2.0</td><td>2.4</td>
+      <td>Negation</td><td>0.6</td><td>0.8</td><td>1</td><td>1.3</td><td>1.6</td><td>2.0</td><td>2.4</td>
     </tr>
   </table>
   <table id="$D-PsiConflict" width="40%">
@@ -125,22 +115,18 @@
   </table>
   <table id="$D-Physician" style="width:70%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-      <th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Heal Rate</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td>
-      <td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
+      <td>Heal Rate</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
     </tr>
   </table>
   <table id="$D-Move" style="width:50%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
-      <th>30</th><th>40</th><th>50</th><th>60</th>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
     </tr>
     <tr class="num">
-      <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td>
-      <td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
+      <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td><td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
     </tr>
   </table>
   <table id="$D-Morale" style="width:40%">
@@ -156,8 +142,7 @@
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="text">
-      <td>Concepts</td><td>-</td><td>Single digits</td><td>Multiple digits</td>
-      <td>Abstractions</td><td>Unique</td>
+      <td>Concepts</td><td>-</td><td>Single digits</td><td>Multiple digits</td><td>Abstractions</td><td>Unique</td>
     </tr>
   </table>
   <table id="$D-Lovecraft" style="width:75%">
@@ -165,8 +150,7 @@
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Expertise</td><td>Unaware</td><td>Instinctive</td><td>Experienced</td>
-      <td>Professional</td><td>Elite/Exotic</td>
+      <td>Expertise</td><td>Unaware</td><td>Instinctive</td><td>Experienced</td><td>Professional</td><td>Elite/Exotic</td>
     </tr>
   </table>
   <table id="$D-Law" style="width:50%">
@@ -174,8 +158,7 @@
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="text">
-      <td>Depth</td><td>Unaware</td><td>Ignore</td><td>Notice</td><td>Consideration</td>
-      <td>Involvement</td>
+      <td>Depth</td><td>Unaware</td><td>Ignore</td><td>Notice</td><td>Consideration</td><td>Involvement</td>
     </tr>
     <tr class="text">
       <td>Breadth</td><td>None</td><td>Local</td><td>Feudal</td><td>Guild</td><td>Religion</td>
@@ -218,12 +201,10 @@
   </table>
   <table id="$D-Hearing" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th>
-      <th>20</th><th>25</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
     </tr>
     <tr class="num">
-      <td>Distance</td><td>0.1m</td><td>0.3m</td><td>1m</td><td>3m</td><td>10m</td><td>30m</td>
-      <td>100m</td><td>300m</td>
+      <td>Distance</td><td>0.1m</td><td>0.3m</td><td>1m</td><td>3m</td><td>10m</td><td>30m</td><td>100m</td><td>300m</td>
     </tr>
   </table>
   <table id="$D-Folklore" style="width:80%">
@@ -236,32 +217,26 @@
   </table>
   <table id="$D-Fletching" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-      <th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Time</td><td>120h</td><td>78h</td><td>36h</td><td>24h</td>
-      <td>12h</td><td>8h</td><td>3.5h</td><td>2.5h</td><td>1.25h</td>
+      <td>Time</td><td>120h</td><td>78h</td><td>36h</td><td>24h</td><td>12h</td><td>8h</td><td>3.5h</td><td>2.5h</td><td>1.25h</td>
     </tr>
   </table>
   <table id="$D-Eyesight" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-      <th>15</th><th>20</th><th>25</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
     </tr>
     <tr class="num">
-      <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td>
-      <td>0.75</td><td>0.5</td><td>0.25</td>
+      <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td><td>0.75</td><td>0.5</td><td>0.25</td>
     </tr>
   </table>
   <table id="$D-Endurance" style="width:30%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-      <th>15</th><th>20</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
     </tr>
     <tr class="num">
-      <td>Factor</td><td>20</td><td>15</td><td>10</td><td>8</td>
-      <td>7</td><td>6</td><td>5</td>
+      <td>Factor</td><td>20</td><td>15</td><td>10</td><td>8</td><td>7</td><td>6</td><td>5</td>
     </tr>
   </table>
   <table id="$D-Embalming" style="width:50%">
@@ -274,16 +249,13 @@
   </table>
   <table id="$D-Dexterity" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th>
-      <th>20</th><th>30</th><th>40</th>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Legerdemain</td><td>+20</td><td>+10</td><td>0</td><td>-10</td>
-      <td>-20</td><td>-30</td><td>-40</td>
+      <td>Legerdemain</td><td>+20</td><td>+10</td><td>0</td><td>-10</td><td>-20</td><td>-30</td><td>-40</td>
     </tr>
     <tr class="num">
-      <td>Grope</td><td>8s</td><td>6s</td><td>4s</td><td>3s</td>
-      <td>2s</td><td>1.5s</td><td>1s</td>
+      <td>Grope</td><td>8s</td><td>6s</td><td>4s</td><td>3s</td><td>2s</td><td>1.5s</td><td>1s</td>
     </tr>
   </table>
   <table id="$D-Artistic" style="width:70%">
@@ -291,22 +263,18 @@
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="text">
-      <td>Complexity Level</td><td>Imperceptible</td><td>Rhythmic / Child</td>
-      <td>Simple / Folk</td><td>Complex / Art</td><td>Unique / Original</td>
+      <td>Complexity Level</td><td>Imperceptible</td><td>Rhythmic / Child</td><td>Simple / Folk</td><td>Complex / Art</td><td>Unique / Original</td>
     </tr>
   </table>
   <table id="$D-Climbing" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-      <th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
     </tr>
     <tr class="num">
-      <td>Inclince</td><td>0°</td><td>15°</td><td>30°</td><td>45°</td><td>60°</td>
-      <td>75°</td><td>90°</td><td>100°</td><td>110°</td><td>120°</td>
+      <td>Inclince</td><td>0°</td><td>15°</td><td>30°</td><td>45°</td><td>60°</td><td>75°</td><td>90°</td><td>100°</td><td>110°</td><td>120°</td>
     </tr>
     <tr class="num">
-      <td>Speed</td><td>-</td><td>0</td><td>0.25</td><td>0.5</td><td>1</td><td>1.5</td>
-      <td>2</td><td>3</td><td>4</td><td>5</td>
+      <td>Speed</td><td>-</td><td>0</td><td>0.25</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>5</td>
     </tr>
   </table>
   <table id="$D-Combat" style="width:80%">
@@ -387,44 +355,35 @@
   </table>
   <table id="$D-Divination" style="width:70%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th>
-      <th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Correctness</td><td>5%</td><td>7.5%</td><td>10%</td>
-      <td>12.5%</td><td>16.667%</td><td>25%</td><td>33.333%</td><td>50%</td><td>66.667%</td>
+      <td>Correctness</td><td>5%</td><td>7.5%</td><td>10%</td><td>12.5%</td><td>16.667%</td><td>25%</td><td>33.333%</td><td>50%</td><td>66.667%</td>
     </tr>
     <tr class="num">
-      <td>Proximity</td><td>2160d</td><td>1080d</td><td>360d</td>
-      <td>180d</td><td>60d</td><td>30d</td><td>10d</td><td>6d</td><td>2d</td>
+      <td>Proximity</td><td>2160d</td><td>1080d</td><td>360d</td><td>180d</td><td>60d</td><td>30d</td><td>10d</td><td>6d</td><td>2d</td>
     </tr>
   </table>
   <table id="$D-Yield" style="width:90%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th>
-      <th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td>
-      <td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
+      <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td><td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
     </tr>
     <tr class="num">
-      <td>Time</td><td>48h</td><td>24h</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td>
-      <td>1h</td><td>0.7h</td><td>0.5h</td><td>0.4h</td><td>0.3h</td>
+      <td>Time</td><td>48h</td><td>24h</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td><td>1h</td><td>0.7h</td><td>0.5h</td><td>0.4h</td><td>0.3h</td>
     </tr>
   </table>
   <table id="$D-Recipes" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-      <th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td>
-      <td>6</td><td>10</td><td>20</td><td>30</td>
+      <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td><td>6</td><td>10</td><td>20</td><td>30</td>
     </tr>
     <tr class="num">
-      <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
-      <td>300</td><td>1000</td><td>3000</td><td>10000</td>
+      <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td><td>300</td><td>1000</td><td>3000</td><td>10000</td>
     </tr>
   </table>
   <table id="$D-Acrobatics" style="width:75%">
@@ -432,8 +391,7 @@
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="text">
-      <td>Tricks</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td>
-      <td>Original</td>
+      <td>Tricks</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td><td>Original</td>
     </tr>
     <tr class="num">
       <td>Rise</td><td>5s</td><td>4s</td><td>3s</td><td>2s</td><td>1s</td>
@@ -462,9 +420,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Tumbling/20,
-      Vault/20,
-      Swinging/20
+      <span>Tumbling</span>/<span>20</span>,
+      <span>Vault</span>/<span>20</span>,
+      <span>Swinging</span>/<span>20</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -577,14 +535,14 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Horsecraft/20,
-      Cattlecraft/20,
-      Birdcraft/20,
-      Dogcraft/20,
-      Sheepcraft/20,
-      Swinecraft/20,
-      Ratcraft/20,
-      Ivashicraft/20
+      <span>Horsecraft</span>/<span>20</span>,
+      <span>Cattlecraft</span>/<span>20</span>,
+      <span>Birdcraft</span>/<span>20</span>,
+      <span>Dogcraft</span>/<span>20</span>,
+      <span>Sheepcraft</span>/<span>20</span>,
+      <span>Swinecraft</span>/<span>20</span>,
+      <span>Ratcraft</span>/<span>20</span>,
+      <span>Ivashicraft</span>/<span>20</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -651,12 +609,12 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Battleaxe/40,
-      Handaxe/40,
-      Shorkana/40,
-      Pickaxe/30,
-      Sickle/20,
-      Warhammer/30
+      <span>Battleaxe</span>/<span>40</span>,
+      <span>Handaxe</span>/<span>40</span>,
+      <span>Shorkana</span>/<span>40</span>,
+      <span>Pickaxe</span>/<span>30</span>,
+      <span>Sickle</span>/<span>20</span>,
+      <span>Warhammer</span>/<span>30</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -705,10 +663,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Crossbow/40,
-      Hartbow/40,
-      Longbow/50,
-      Shortbow/50
+      <span>Crossbow</span>/<span>40</span>,
+      <span>Hartbow</span>/<span>40</span>,
+      <span>Longbow</span>/<span>50</span>,
+      <span>Shortbow</span>/<span>50</span>
     </p>
     <p>
       <em>Specialties Occupations:</em>
@@ -808,10 +766,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Club/75,
-      Mace/60,
-      Maul/40,
-      Morningstar/40
+      <span>Club</span>/<span>75</span>,
+      <span>Mace</span>/<span>60</span>,
+      <span>Maul</span>/<span>40</span>,
+      <span>Morningstar</span>/<span>40</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -888,9 +846,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Keltan/30,
-      Knife/50,
-      Taburi/30
+      <span>Keltan</span>/<span>30</span>,
+      <span>Knife</span>/<span>50</span>,
+      <span>Taburi</span>/<span>30</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -947,7 +905,7 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Legerdemain/80,
+      <span>Legerdemain</span>/<span>80</span>,
     </p>
     <p>
       <em>Specialty Sunsign:</em>
@@ -985,10 +943,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Cartography/20,
-      Painting/40,
-      Sketching/40,
-      Calligraphy/40
+      <span>Cartography</span>/<span>20</span>,
+      <span>Painting</span>/<span>40</span>,
+      <span>Sketching</span>/<span>40</span>,
+      <span>Calligraphy</span>/<span>40</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -1060,10 +1018,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Mills/30,
-      Siege Engines/30,
-      Fortifications/30,
-      Mining/20
+      <span>Mills</span>/<span>30</span>,
+      <span>Siege Engines</span>/<span>30</span>,
+      <span>Fortifications</span>/<span>30</span>,
+      <span>Mining</span>/<span>20</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1116,9 +1074,10 @@
     </p>
     <p>
       <em>Specialty:</em>
-      Ball &#0038; Chain/40,
-      Grainflail/20,
-      Nachakas/20, Warflail/40
+      <span>Ball &#0038; Chain</span>/<span>40</span>,
+      <span>Grainflail</span>/<span>20</span>,
+      <span>Nachakas</span>/<span>20</span>,
+      <span>Warflail</span>/<span>40</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1145,8 +1104,8 @@
     </p>
     <p>
       <em>Specialty:</em>
-      Bowyer/50,
-      Fletcher/50
+      <span>Bowyer</span>/<span>50</span>,
+      <span>Fletcher</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1316,9 +1275,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Tanning/50,
-      Leatherwork/50,
-      Vellum/10
+      <span>Tanning</span>/<span>50</span>,
+      <span>Leatherwork</span>/<span>50</span>,
+      <span>Vellum</span>/<span>10</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -1385,9 +1344,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Gold/50,
-      Silver/50,
-      Gems/50
+      <span>Gold</span>/<span>50</span>,
+      <span>Silver</span>/<span>50</span>,
+      <span>Gems</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1408,8 +1367,8 @@
     </p>
     <p>
       <em>Specialties:</em>
-      High/50,
-      Long/50
+      <span>High</span>/<span>50</span>,
+      <span>Long</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1491,8 +1450,8 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Making/60,
-      Picking/40
+      <span>Making</span>/<span>60</span>,
+      <span>Picking</span>/<span>40</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1574,10 +1533,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Architect/40,
-      Builder/50,
-      Cutter/30,
-      Carving/30
+      <span>Architect</span>/<span>40</span>,
+      <span>Builder</span>/<span>50</span>,
+      <span>Cutter</span>/<span>30</span>,
+      <span>Carving</span>/<span>30</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1615,9 +1574,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Bookkeeping/50,
-      Geometrics/50,
-      Physics/50
+      <span>Bookkeeping</span>/<span>50</span>,
+      <span>Geometrics</span>/<span>50</span>,
+      <span>Physics</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1698,10 +1657,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Prospecting/20,
-      Waterworks/40,
-      Ore-Extraction/50,
-      Mineralogy/30
+      <span>Prospecting</span>/<span>20</span>,
+      <span>Waterworks</span>/<span>40</span>,
+      <span>Ore-Extraction</span>/<span>50</span>,
+      <span>Mineralogy</span>/<span>30</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -1837,10 +1796,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Surgery/40,
-      Potions/50,
-      Ointments/50,
-      Veterinary/50
+      <span>Surgery</span>/<span>40</span>,
+      <span>Potions</span>/<span>50</span>,
+      <span>Ointments</span>/<span>50</span>,
+      <span>Veterinary</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1884,9 +1843,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Shallows/40,
-      Navigation/70,
-      Sailing/50
+      <span>Shallows</span>/<span>40</span>,
+      <span>Navigation</span>/<span>70</span>,
+      <span>Sailing</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -1906,12 +1865,12 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Lance/20,
-      Glaive/Bill/20,
-      Jousting/20,
-      Pole/30,
-      Pike/30,
-      Poleaxe/30
+      <span>Lance</span>/<span>20</span>,
+      <span>Glaive</span>/<span>Bi</span>ll/20,
+      <span>Jousting</span>/<span>20</span>,
+      <span>Pole</span>/<span>30</span>,
+      <span>Pike</span>/<span>30</span>,
+      <span>Poleaxe</span>/<span>30</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -1980,8 +1939,8 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Diplomacy/70,
-      Intimidate/50
+      <span>Diplomacy</span>/<span>70</span>,
+      <span>Intimidate</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2166,9 +2125,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Rowing/50,
-      Sailing/80,
-      Small Craft/50
+      <span>Rowing</span>/<span>50</span>,
+      <span>Sailing</span>/<span>80</span>,
+      <span>Small Craft</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2195,11 +2154,11 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Buckler/20,
-      Kite/50,
-      Knight/50,
-      Round/50,
-      Tower/30
+      <span>Buckler</span>/<span>20</span>,
+      <span>Kite</span>/<span>50</span>,
+      <span>Knight</span>/<span>50</span>,
+      <span>Round</span>/<span>50</span>,
+      <span>Tower</span>/<span>30</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -2247,8 +2206,8 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Naval architecture/50,
-      Sailmaking/50
+      <span>Naval architecture</span>/<span>50</span>,
+      <span>Sailmaking</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2276,7 +2235,7 @@
     </p>
     <p>
       <em>Specialty:</em>
-      Voice/80
+      <span>Voice</span>/<span>80</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2342,10 +2301,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Javelin/50,
-      Spear/70,
-      Staff/40,
-      Trident/40
+      <span>Javelin</span>/<span>50</span>,
+      <span>Spear</span>/<span>70</span>,
+      <span>Staff</span>/<span>40</span>,
+      <span>Trident</span>/<span>40</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2462,15 +2421,15 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Bastardsword/50,
-      Battlesword/40,
-      Broadsword/50,
-      Estoc/40,
-      Falchion/50,
-      Longknife/50,
-      Mang/40,
-      Mankar/40,
-      Shortsword/40
+      <span>Bastardsword</span>/<span>50</span>,
+      <span>Battlesword</span>/<span>40</span>,
+      <span>Broadsword</span>/<span>50</span>,
+      <span>Estoc</span>/<span>40</span>,
+      <span>Falchion</span>/<span>50</span>,
+      <span>Longknife</span>/<span>50</span>,
+      <span>Mang</span>/<span>40</span>,
+      <span>Mankar</span>/<span>40</span>,
+      <span>Shortsword</span>/<span>40</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -2549,10 +2508,10 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Embroidery/30,
-      Weaving/50,
-      Spinning/30,
-      Tailoring/50
+      <span>Embroidery</span>/<span>30</span>,
+      <span>Weaving</span>/<span>50</span>,
+      <span>Spinning</span>/<span>30</span>,
+      <span>Tailoring</span>/<span>50</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>
@@ -2599,9 +2558,9 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Cutting/50,
-      Felling/60,
-      Transport/30
+      <span>Cutting</span>/<span>50</span>,
+      <span>Felling</span>/<span>60</span>,
+      <span>Transport</span>/<span>30</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2652,8 +2611,8 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Wrestling/40,
-      Boxing/50
+      <span>Wrestling</span>/<span>40</span>,
+      <span>Boxing</span>/<span>50</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2682,8 +2641,8 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Weapon group/20,
-      Armour group/30
+      <span>Each Weapon group</span>/<span>20</span>,
+      <span>Each Armour group</span>/<span>30</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2737,8 +2696,8 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Isagra/40,
-      Whip/60
+      <span>Isagra</span>/<span>40</span>,
+      <span>Whip</span>/<span>60</span>
     </p>
     <p>
       <em>Sunsign:</em>
@@ -2775,11 +2734,11 @@
     </p>
     <p>
       <em>Specialties:</em>
-      Cooper/20,
-      Wheelwright/20,
-      Carpenter/40,
-      Artist/30,
-      Masks/20
+      <span>Cooper</span>/<span>20</span>,
+      <span>Wheelwright</span>/<span>20</span>,
+      <span>Carpenter</span>/<span>40</span>,
+      <span>Artist</span>/<span>30</span>,
+      <span>Masks</span>/<span>20</span>
     </p>
     <p>
       <em>Specialty Occupations:</em>

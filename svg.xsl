@@ -86,7 +86,14 @@
     </xsl:for-each>
     <xsl:text>], </xsl:text>
     <xsl:value-of select="normalize-space(document('harn-data.xml')//div[@id=$x]/p[em='OML:']/text()[2])"/>
-    <xsl:text>]],</xsl:text>
+    <xsl:text>, [</xsl:text>
+    <xsl:for-each select="document('harn-data.xml')//div[@id=$x]/p[em='Specialties:']/span">
+      <xsl:if test="position() != 1">
+        <xsl:text>,</xsl:text>
+      </xsl:if>
+      <xsl:value-of select="concat('&quot;',.,'&quot;')"/>
+    </xsl:for-each>
+    <xsl:text>]]],</xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>
