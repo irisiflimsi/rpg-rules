@@ -1,92 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="svg.xsl"?>
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="210mm"
-    height="297mm"
-    viewBox="0 0 744.09448819 1052.3622047"
-    id="svg2"
-    version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 744.09448819 1052.3622047" id="svg2" version="1.1">
   <g id="Page1" transform="translate(0,0)">
     <g id="layer1">
-      <rect
-          style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#9a3100;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-          id="rect4262-3"
-          width="686.87305"
-          height="68.187775"
-          x="27.848915"
-          y="64.198822"
-          ry="0"
-          rx="0" />
-      <rect
-          rx="0"
-          style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#9a3100;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-          id="rect4262-3-7"
-          width="100.71416"
-          height="125.05406"
-          x="574.68799"
-          y="35.765682"
-          ry="0" />
-      <text
-          xml:space="preserve"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          x="28.920252"
-          y="204.23991"
-          id="text4525"><tspan
-          id="tspan4527"
-          x="28.920252"
-          y="204.23991" /></text>
-      <text
-          xml:space="preserve"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          x="77.737892"
-          y="563.30963"
-          id="text7348"><tspan
-          id="tspan7350"
-          x="77.737892"
-          y="563.30963" /></text>
-      <text
-          xml:space="preserve"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          x="549.3656"
-          y="334.25943"
-          id="text12394"><tspan
-          id="tspan12396"
-          x="549.3656"
-          y="334.25943" /></text>
-      <text
-          xml:space="preserve"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          x="562.45728"
-          y="358.0184"
-          id="text12398"><tspan
-          id="tspan12400"
-          x="562.45728"
-          y="358.0184" /></text>
-      <rect
-          style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-          id="rect4136-09-4-1-1-7"
-          width="0"
-          height="75.229515"
-          x="566.69482"
-          y="345.85965" />
-      <g
-          id="g6271"
-          transform="translate(0,-13.295396)">
-        <rect
-            y="389.33423"
-            x="27.348917"
-            height="18.498909"
-            width="687.87305"
-            id="rect4136-09-4-1-3-7-1-1"
-            style="opacity:1;fill:#ffcece;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <rect
-            y="369.93872"
-            x="27.348917"
-            height="18.780201"
-            width="687.87299"
-            id="rect4262-2-9-25-8"
-            style="opacity:1;fill:#9a3100;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect id="rect-1" style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#9a3100;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="686.87305" height="68.187775" x="27.848915" y="64.198822" ry="0" rx="0" />
+      <rect id="rect-2" style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#9a3100;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" rx="0" width="100.71416" height="125.05406" x="574.68799" y="35.765682" ry="0" />
+      <rect id="rect-3" style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="0" height="75.229515" x="566.69482" y="345.85965" />
+      <g id="g-1" transform="translate(0,-13.295396)">
+        <rect id="rect-4" y="389.33423" x="27.348917" height="18.498909" width="687.87305" style="opacity:1;fill:#ffcece;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <rect id="rect-5" y="369.93872" x="27.348917" height="18.780201" width="687.87299" style="opacity:1;fill:#9a3100;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <text
             transform="scale(0.99794165,1.0020626)"
             id="text4333-6-7"
@@ -6245,7 +6167,7 @@
           id="text6484"><tspan
                             id="tspan6486"
                             x="445.35071"
-                            y="203.92883">0</tspan></text>
+                            y="203.92883">-1</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6254,7 +6176,7 @@
           id="text6488"><tspan
                             id="tspan6490"
                             x="481.52264"
-                            y="203.92883">+1</tspan></text>
+                            y="203.92883">0</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6263,7 +6185,7 @@
           id="text6492"><tspan
                             id="tspan6494"
                             x="517.1239"
-                            y="203.92883">+2</tspan></text>
+                            y="203.92883">+1</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6272,7 +6194,7 @@
           id="text6496"><tspan
                             id="tspan6498"
                             x="553.07617"
-                            y="203.92883">+3</tspan></text>
+                            y="203.92883">+2</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6281,7 +6203,7 @@
           id="text6500"><tspan
                             id="tspan6502"
                             x="588.76282"
-                            y="203.92883">+4</tspan></text>
+                            y="203.92883">+3</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6290,7 +6212,7 @@
           id="text6504"><tspan
                             id="tspan6506"
                             x="624.80969"
-                            y="203.92883">+5</tspan></text>
+                            y="203.92883">+4</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6299,7 +6221,7 @@
           id="text6508"><tspan
                             id="tspan6510"
                             x="409.96613"
-                            y="203.92883">-1</tspan></text>
+                            y="203.92883">-2</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6308,7 +6230,7 @@
           id="text6512"><tspan
                             id="tspan6514"
                             x="373.79721"
-                            y="203.92883">-2</tspan></text>
+                            y="203.92883">-3</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6317,7 +6239,7 @@
           id="text6516"><tspan
                             id="tspan6518"
                             x="337.97925"
-                            y="203.92883">-3</tspan></text>
+                            y="203.92883">-4</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6326,7 +6248,7 @@
           id="text6520"><tspan
                             id="tspan6522"
                             x="266.17249"
-                            y="203.92883">-5</tspan></text>
+                            y="203.92883">-10</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6335,7 +6257,7 @@
           id="text6524"><tspan
                             id="tspan6526"
                             x="301.89581"
-                            y="203.92883">-4</tspan></text>
+                            y="203.92883">-5</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6344,16 +6266,7 @@
           id="text6528"><tspan
                             id="tspan6530"
                             x="660.5849"
-                            y="203.92883">+10</tspan></text>
-      <text
-          xml:space="preserve"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          x="230.17754"
-          y="203.92883"
-          id="text6532"><tspan
-                            id="tspan6534"
-                            x="230.17754"
-                            y="203.92883">-10</tspan></text>
+                            y="203.92883">+5</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6362,16 +6275,7 @@
           id="text6536"><tspan
                             id="tspan6538"
                             x="696.57983"
-                            y="203.92883">+15</tspan></text>
-      <text
-          xml:space="preserve"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          x="194.40231"
-          y="203.92883"
-          id="text6540"><tspan
-                            id="tspan6542"
-                            x="194.40231"
-                            y="203.92883">-15</tspan></text>
+                            y="203.92883">+10</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6380,7 +6284,7 @@
           id="text6544"><tspan
                             id="tspan6546"
                             x="70.869469"
-                            y="203.92883">Skill</tspan></text>
+                            y="203.92883">Dimension</tspan></text>
       <text
           xml:space="preserve"
           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -6390,19 +6294,18 @@
                             id="tspan6550"
                             x="145.04465"
                             y="203.92883">+</tspan></text>
-      <flowRoot
+      <text
           xml:space="preserve"
-          id="flowRoot6552"
-          style="fill:black;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;font-family:'Amasis MT';font-style:normal;font-weight:normal;font-size:12.5px;font-stretch:normal;font-variant:normal;text-anchor:middle;text-align:center;writing-mode:lr;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
-                                                                                                                                                                                                                                                                                                                                                                        id="flowRegion6554"><rect
-                                                                                                                                                                                                                                                                                                                                                                        id="rect6556"
-                                                                                                                                                                                                                                                                                                                                                                        width="403.37961"
-                                                                                                                                                                                                                                                                                                                                                                        height="194.4529"
-                                                                                                                                                                                                                                                                                                                                                                        x="205.15094"
-                                                                                                                                                                                                                                                                                                                                                                        y="149.32047" /></flowRegion><flowPara
-                                                                                                                                                                                                                                                                                                                                                                        id="flowPara6558" /></flowRoot>  <g
-                                                                                                                                                                                                                                                                                                                                                                        id="g6702"
-                                                                                                                                                                                                                                                                                                                                                                        transform="translate(0,6.4009287e-5)">
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          x="145.04465"
+          y="203.92883"
+          id="text6548-1"><tspan
+                            id="tspan6550-1"
+                            x="212.5"
+                            y="203.92883">Note</tspan></text>
+      <g
+          id="g6702"
+          transform="translate(0,6.4009287e-5)">
       <rect
           style="opacity:1;fill:#9a3100;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:1.50000012;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
           id="rect4262-2-7"
@@ -6427,6 +6330,15 @@
                                    x="70.327187"
                                    id="$Sk2-1N"></tspan></text>
       <text
+          id="text6560-1"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-1T"></tspan></text>
+      <text
           id="text6560-3"
           y="222.73218"
           x="144.83713"
@@ -6436,24 +6348,6 @@
                                    x="144.83713"
                                    id="$Sk2-1V"></tspan></text>
       <text
-          id="text6560-4"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-1-15"></tspan></text>
-      <text
-          id="text6560-6"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-1-10"></tspan></text>
-      <text
           id="text6560-62"
           y="222.73218"
           x="266.09924"
@@ -6461,7 +6355,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-1-5"></tspan></text>
+                                   id="$Sk2-1-10"></tspan></text>
       <text
           id="text6560-49"
           y="222.73218"
@@ -6470,7 +6364,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-1-4"></tspan></text>
+                                   id="$Sk2-1-5"></tspan></text>
       <text
           id="text6560-1"
           y="222.73218"
@@ -6479,7 +6373,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-1-2"></tspan></text>
+                                   id="$Sk2-1-3"></tspan></text>
       <text
           id="text6560-2"
           y="222.73218"
@@ -6488,7 +6382,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-1-1"></tspan></text>
+                                   id="$Sk2-1-2"></tspan></text>
       <text
           id="text6560-13"
           y="222.73218"
@@ -6497,7 +6391,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-1+1"></tspan></text>
+                                   id="$Sk2-1+0"></tspan></text>
       <text
           id="text6560-0"
           y="222.73218"
@@ -6506,7 +6400,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-1+4"></tspan></text>
+                                   id="$Sk2-1+3"></tspan></text>
       <text
           id="text6560-7"
           y="222.73218"
@@ -6515,7 +6409,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-1+3"></tspan></text>
+                                   id="$Sk2-1+2"></tspan></text>
       <text
           id="text6560-39"
           y="222.73218"
@@ -6524,7 +6418,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-1+15"></tspan></text>
+                                   id="$Sk2-1+10"></tspan></text>
       <text
           id="text6560-38"
           y="222.73218"
@@ -6533,7 +6427,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-1+10"></tspan></text>
+                                   id="$Sk2-1+5"></tspan></text>
       <text
           id="text6560-5"
           y="222.73218"
@@ -6542,7 +6436,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-1+5"></tspan></text>
+                                   id="$Sk2-1+4"></tspan></text>
       <text
           id="text6560-54"
           y="222.73218"
@@ -6551,7 +6445,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-1+2"></tspan></text>
+                                   id="$Sk2-1+1"></tspan></text>
       <text
           id="text6560-10"
           y="222.73218"
@@ -6560,7 +6454,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-1+0"></tspan></text>
+                                   id="$Sk2-1-1"></tspan></text>
       <text
           id="text6560-391"
           y="222.73218"
@@ -6569,7 +6463,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-1-3"></tspan></text>
+                                   id="$Sk2-1-4"></tspan></text>
     </g>
     <g
         transform="translate(0,43.463931)"
@@ -6598,6 +6492,15 @@
                                    x="70.327187"
                                    id="$Sk2-3N"></tspan></text>
       <text
+          id="text6560-3"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-3T"></tspan></text>
+      <text
           id="text6560-3-2"
           y="222.73218"
           x="144.83713"
@@ -6607,24 +6510,6 @@
                                    x="144.83713"
                                    id="$Sk2-3V"></tspan></text>
       <text
-          id="text6560-4-6"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-3-15"></tspan></text>
-      <text
-          id="text6560-6-1"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-3-10"></tspan></text>
-      <text
           id="text6560-62-4"
           y="222.73218"
           x="266.09924"
@@ -6632,7 +6517,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-3-5"></tspan></text>
+                                   id="$Sk2-3-10"></tspan></text>
       <text
           id="text6560-49-6"
           y="222.73218"
@@ -6641,7 +6526,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-3-4"></tspan></text>
+                                   id="$Sk2-3-5"></tspan></text>
       <text
           id="text6560-1-1"
           y="222.73218"
@@ -6650,7 +6535,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-3-2"></tspan></text>
+                                   id="$Sk2-3-3"></tspan></text>
       <text
           id="text6560-2-8"
           y="222.73218"
@@ -6659,7 +6544,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-3-1"></tspan></text>
+                                   id="$Sk2-3-2"></tspan></text>
       <text
           id="text6560-13-2"
           y="222.73218"
@@ -6668,7 +6553,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-3+1"></tspan></text>
+                                   id="$Sk2-3+0"></tspan></text>
       <text
           id="text6560-0-8"
           y="222.73218"
@@ -6677,7 +6562,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-3+4"></tspan></text>
+                                   id="$Sk2-3+3"></tspan></text>
       <text
           id="text6560-7-6"
           y="222.73218"
@@ -6686,7 +6571,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-3+3"></tspan></text>
+                                   id="$Sk2-3+2"></tspan></text>
       <text
           id="text6560-39-2"
           y="222.73218"
@@ -6695,7 +6580,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-3+15"></tspan></text>
+                                   id="$Sk2-3+10"></tspan></text>
       <text
           id="text6560-38-2"
           y="222.73218"
@@ -6704,7 +6589,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-3+10"></tspan></text>
+                                   id="$Sk2-3+5"></tspan></text>
       <text
           id="text6560-5-9"
           y="222.73218"
@@ -6713,7 +6598,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-3+5"></tspan></text>
+                                   id="$Sk2-3+4"></tspan></text>
       <text
           id="text6560-54-1"
           y="222.73218"
@@ -6722,7 +6607,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-3+2"></tspan></text>
+                                   id="$Sk2-3+1"></tspan></text>
       <text
           id="text6560-10-6"
           y="222.73218"
@@ -6731,7 +6616,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-3+0"></tspan></text>
+                                   id="$Sk2-3-1"></tspan></text>
       <text
           id="text6560-391-6"
           y="222.73218"
@@ -6740,7 +6625,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-3-3"></tspan></text>
+                                   id="$Sk2-3-4"></tspan></text>
     </g>
     <g
         transform="translate(0,65.195865)"
@@ -6769,6 +6654,15 @@
                                    x="70.327187"
                                    id="$Sk2-4N"></tspan></text>
       <text
+          id="text6560-4"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-4T"></tspan></text>
+      <text
           id="text6560-3-27"
           y="222.73218"
           x="144.83713"
@@ -6778,24 +6672,6 @@
                                    x="144.83713"
                                    id="$Sk2-4V"></tspan></text>
       <text
-          id="text6560-4-0"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-4-15"></tspan></text>
-      <text
-          id="text6560-6-6"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-4-10"></tspan></text>
-      <text
           id="text6560-62-9"
           y="222.73218"
           x="266.09924"
@@ -6803,7 +6679,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-4-5"></tspan></text>
+                                   id="$Sk2-4-10"></tspan></text>
       <text
           id="text6560-49-9"
           y="222.73218"
@@ -6812,7 +6688,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-4-4"></tspan></text>
+                                   id="$Sk2-4-5"></tspan></text>
       <text
           id="text6560-1-9"
           y="222.73218"
@@ -6821,7 +6697,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-4-2"></tspan></text>
+                                   id="$Sk2-4-3"></tspan></text>
       <text
           id="text6560-2-2"
           y="222.73218"
@@ -6830,7 +6706,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-4-1"></tspan></text>
+                                   id="$Sk2-4-2"></tspan></text>
       <text
           id="text6560-13-23"
           y="222.73218"
@@ -6839,7 +6715,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-4+1"></tspan></text>
+                                   id="$Sk2-4+0"></tspan></text>
       <text
           id="text6560-0-89"
           y="222.73218"
@@ -6848,7 +6724,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-4+4"></tspan></text>
+                                   id="$Sk2-4+3"></tspan></text>
       <text
           id="text6560-7-8"
           y="222.73218"
@@ -6857,7 +6733,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-4+3"></tspan></text>
+                                   id="$Sk2-4+2"></tspan></text>
       <text
           id="text6560-39-7"
           y="222.73218"
@@ -6866,7 +6742,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-4+15"></tspan></text>
+                                   id="$Sk2-4+10"></tspan></text>
       <text
           id="text6560-38-5"
           y="222.73218"
@@ -6875,7 +6751,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-4+10"></tspan></text>
+                                   id="$Sk2-4+5"></tspan></text>
       <text
           id="text6560-5-5"
           y="222.73218"
@@ -6884,7 +6760,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-4+5"></tspan></text>
+                                   id="$Sk2-4+4"></tspan></text>
       <text
           id="text6560-54-5"
           y="222.73218"
@@ -6893,7 +6769,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-4+2"></tspan></text>
+                                   id="$Sk2-4+1"></tspan></text>
       <text
           id="text6560-10-7"
           y="222.73218"
@@ -6902,7 +6778,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-4+0"></tspan></text>
+                                   id="$Sk2-4-1"></tspan></text>
       <text
           id="text6560-391-9"
           y="222.73218"
@@ -6911,7 +6787,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-4-3"></tspan></text>
+                                   id="$Sk2-4-4"></tspan></text>
     </g>
     <g
         transform="translate(0,86.927798)"
@@ -6940,6 +6816,15 @@
                                    x="70.327187"
                                    id="$Sk2-5N"></tspan></text>
       <text
+          id="text6560-5"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-5T"></tspan></text>
+      <text
           id="text6560-3-9"
           y="222.73218"
           x="144.83713"
@@ -6949,24 +6834,6 @@
                                    x="144.83713"
                                    id="$Sk2-5V"></tspan></text>
       <text
-          id="text6560-4-8"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-5-15"></tspan></text>
-      <text
-          id="text6560-6-0"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-5-10"></tspan></text>
-      <text
           id="text6560-62-44"
           y="222.73218"
           x="266.09924"
@@ -6974,7 +6841,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-5-5"></tspan></text>
+                                   id="$Sk2-5-10"></tspan></text>
       <text
           id="text6560-49-2"
           y="222.73218"
@@ -6983,7 +6850,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-5-4"></tspan></text>
+                                   id="$Sk2-5-5"></tspan></text>
       <text
           id="text6560-1-2"
           y="222.73218"
@@ -6992,7 +6859,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-5-2"></tspan></text>
+                                   id="$Sk2-5-3"></tspan></text>
       <text
           id="text6560-2-7"
           y="222.73218"
@@ -7001,7 +6868,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-5-1"></tspan></text>
+                                   id="$Sk2-5-2"></tspan></text>
       <text
           id="text6560-13-9"
           y="222.73218"
@@ -7010,7 +6877,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-5+1"></tspan></text>
+                                   id="$Sk2-5+0"></tspan></text>
       <text
           id="text6560-0-9"
           y="222.73218"
@@ -7019,7 +6886,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-5+4"></tspan></text>
+                                   id="$Sk2-5+3"></tspan></text>
       <text
           id="text6560-7-0"
           y="222.73218"
@@ -7028,7 +6895,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-5+3"></tspan></text>
+                                   id="$Sk2-5+2"></tspan></text>
       <text
           id="text6560-39-5"
           y="222.73218"
@@ -7037,7 +6904,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-5+15"></tspan></text>
+                                   id="$Sk2-5+10"></tspan></text>
       <text
           id="text6560-38-0"
           y="222.73218"
@@ -7046,7 +6913,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-5+10"></tspan></text>
+                                   id="$Sk2-5+5"></tspan></text>
       <text
           id="text6560-5-1"
           y="222.73218"
@@ -7055,7 +6922,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-5+5"></tspan></text>
+                                   id="$Sk2-5+4"></tspan></text>
       <text
           id="text6560-54-8"
           y="222.73218"
@@ -7064,7 +6931,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-5+2"></tspan></text>
+                                   id="$Sk2-5+1"></tspan></text>
       <text
           id="text6560-10-68"
           y="222.73218"
@@ -7073,7 +6940,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-5+0"></tspan></text>
+                                   id="$Sk2-5-1"></tspan></text>
       <text
           id="text6560-391-98"
           y="222.73218"
@@ -7082,7 +6949,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-5-3"></tspan></text>
+                                   id="$Sk2-5-4"></tspan></text>
     </g>
     <g
         transform="translate(0,108.65973)"
@@ -7111,6 +6978,15 @@
                                    x="70.327187"
                                    id="$Sk2-6N"></tspan></text>
       <text
+          id="text6560-6"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-6T"></tspan></text>
+      <text
           id="text6560-3-1"
           y="222.73218"
           x="144.83713"
@@ -7120,24 +6996,6 @@
                                    x="144.83713"
                                    id="$Sk2-6V"></tspan></text>
       <text
-          id="text6560-4-66"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-6-15"></tspan></text>
-      <text
-          id="text6560-6-61"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-6-10"></tspan></text>
-      <text
           id="text6560-62-8"
           y="222.73218"
           x="266.09924"
@@ -7145,7 +7003,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-6-5"></tspan></text>
+                                   id="$Sk2-6-10"></tspan></text>
       <text
           id="text6560-49-96"
           y="222.73218"
@@ -7154,7 +7012,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-6-4"></tspan></text>
+                                   id="$Sk2-6-5"></tspan></text>
       <text
           id="text6560-1-94"
           y="222.73218"
@@ -7163,7 +7021,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-6-2"></tspan></text>
+                                   id="$Sk2-6-3"></tspan></text>
       <text
           id="text6560-2-78"
           y="222.73218"
@@ -7172,7 +7030,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-6-1"></tspan></text>
+                                   id="$Sk2-6-2"></tspan></text>
       <text
           id="text6560-13-8"
           y="222.73218"
@@ -7181,7 +7039,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-6+1"></tspan></text>
+                                   id="$Sk2-6+0"></tspan></text>
       <text
           id="text6560-0-7"
           y="222.73218"
@@ -7190,7 +7048,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-6+4"></tspan></text>
+                                   id="$Sk2-6+3"></tspan></text>
       <text
           id="text6560-7-04"
           y="222.73218"
@@ -7199,7 +7057,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-6+3"></tspan></text>
+                                   id="$Sk2-6+2"></tspan></text>
       <text
           id="text6560-39-1"
           y="222.73218"
@@ -7208,7 +7066,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-6+15"></tspan></text>
+                                   id="$Sk2-6+10"></tspan></text>
       <text
           id="text6560-38-22"
           y="222.73218"
@@ -7217,7 +7075,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-6+10"></tspan></text>
+                                   id="$Sk2-6+5"></tspan></text>
       <text
           id="text6560-5-0"
           y="222.73218"
@@ -7226,7 +7084,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-6+5"></tspan></text>
+                                   id="$Sk2-6+4"></tspan></text>
       <text
           id="text6560-54-3"
           y="222.73218"
@@ -7235,7 +7093,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-6+2"></tspan></text>
+                                   id="$Sk2-6+1"></tspan></text>
       <text
           id="text6560-10-686"
           y="222.73218"
@@ -7244,7 +7102,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-6+0"></tspan></text>
+                                   id="$Sk2-6-1"></tspan></text>
       <text
           id="text6560-391-2"
           y="222.73218"
@@ -7253,7 +7111,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-6-3"></tspan></text>
+                                   id="$Sk2-6-4"></tspan></text>
     </g>
     <g
         transform="translate(0,130.39167)"
@@ -7282,6 +7140,15 @@
                                    x="70.327187"
                                    id="$Sk2-7N"></tspan></text>
       <text
+          id="text6560-7"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-7T"></tspan></text>
+      <text
           id="text6560-3-8"
           y="222.73218"
           x="144.83713"
@@ -7291,24 +7158,6 @@
                                    x="144.83713"
                                    id="$Sk2-7V"></tspan></text>
       <text
-          id="text6560-4-84"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-7-15"></tspan></text>
-      <text
-          id="text6560-6-9"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-7-10"></tspan></text>
-      <text
           id="text6560-62-45"
           y="222.73218"
           x="266.09924"
@@ -7316,7 +7165,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-7-5"></tspan></text>
+                                   id="$Sk2-7-10"></tspan></text>
       <text
           id="text6560-49-4"
           y="222.73218"
@@ -7325,7 +7174,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-7-4"></tspan></text>
+                                   id="$Sk2-7-5"></tspan></text>
       <text
           id="text6560-1-0"
           y="222.73218"
@@ -7334,7 +7183,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-7-2"></tspan></text>
+                                   id="$Sk2-7-3"></tspan></text>
       <text
           id="text6560-2-76"
           y="222.73218"
@@ -7343,7 +7192,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-7-1"></tspan></text>
+                                   id="$Sk2-7-2"></tspan></text>
       <text
           id="text6560-13-3"
           y="222.73218"
@@ -7352,7 +7201,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-7+1"></tspan></text>
+                                   id="$Sk2-7+0"></tspan></text>
       <text
           id="text6560-0-3"
           y="222.73218"
@@ -7361,7 +7210,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-7+4"></tspan></text>
+                                   id="$Sk2-7+3"></tspan></text>
       <text
           id="text6560-7-3"
           y="222.73218"
@@ -7370,7 +7219,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-7+3"></tspan></text>
+                                   id="$Sk2-7+2"></tspan></text>
       <text
           id="text6560-39-8"
           y="222.73218"
@@ -7379,7 +7228,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-7+15"></tspan></text>
+                                   id="$Sk2-7+10"></tspan></text>
       <text
           id="text6560-38-8"
           y="222.73218"
@@ -7388,7 +7237,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-7+10"></tspan></text>
+                                   id="$Sk2-7+5"></tspan></text>
       <text
           id="text6560-5-6"
           y="222.73218"
@@ -7397,7 +7246,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-7+5"></tspan></text>
+                                   id="$Sk2-7+4"></tspan></text>
       <text
           id="text6560-54-19"
           y="222.73218"
@@ -7406,7 +7255,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-7+2"></tspan></text>
+                                   id="$Sk2-7+1"></tspan></text>
       <text
           id="text6560-10-71"
           y="222.73218"
@@ -7415,7 +7264,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-7+0"></tspan></text>
+                                   id="$Sk2-7-1"></tspan></text>
       <text
           id="text6560-391-3"
           y="222.73218"
@@ -7424,7 +7273,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-7-3"></tspan></text>
+                                   id="$Sk2-7-4"></tspan></text>
     </g>
     <g
         transform="translate(0,152.1236)"
@@ -7453,6 +7302,15 @@
                                    x="70.327187"
                                    id="$Sk2-8N"></tspan></text>
       <text
+          id="text6560-8"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-8T"></tspan></text>
+      <text
           id="text6560-3-4"
           y="222.73218"
           x="144.83713"
@@ -7462,24 +7320,6 @@
                                    x="144.83713"
                                    id="$Sk2-8V"></tspan></text>
       <text
-          id="text6560-4-68"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-8-15"></tspan></text>
-      <text
-          id="text6560-6-63"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-8-10"></tspan></text>
-      <text
           id="text6560-62-97"
           y="222.73218"
           x="266.09924"
@@ -7487,7 +7327,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-8-5"></tspan></text>
+                                   id="$Sk2-8-10"></tspan></text>
       <text
           id="text6560-49-0"
           y="222.73218"
@@ -7496,7 +7336,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-8-4"></tspan></text>
+                                   id="$Sk2-8-5"></tspan></text>
       <text
           id="text6560-1-7"
           y="222.73218"
@@ -7505,7 +7345,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-8-2"></tspan></text>
+                                   id="$Sk2-8-3"></tspan></text>
       <text
           id="text6560-2-6"
           y="222.73218"
@@ -7514,7 +7354,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-8-1"></tspan></text>
+                                   id="$Sk2-8-2"></tspan></text>
       <text
           id="text6560-13-24"
           y="222.73218"
@@ -7523,7 +7363,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-8+1"></tspan></text>
+                                   id="$Sk2-8+0"></tspan></text>
       <text
           id="text6560-0-0"
           y="222.73218"
@@ -7532,7 +7372,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-8+4"></tspan></text>
+                                   id="$Sk2-8+3"></tspan></text>
       <text
           id="text6560-7-36"
           y="222.73218"
@@ -7541,7 +7381,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-8+3"></tspan></text>
+                                   id="$Sk2-8+2"></tspan></text>
       <text
           id="text6560-39-74"
           y="222.73218"
@@ -7550,7 +7390,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-8+15"></tspan></text>
+                                   id="$Sk2-8+10"></tspan></text>
       <text
           id="text6560-38-29"
           y="222.73218"
@@ -7559,7 +7399,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-8+10"></tspan></text>
+                                   id="$Sk2-8+5"></tspan></text>
       <text
           id="text6560-5-2"
           y="222.73218"
@@ -7568,7 +7408,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-8+5"></tspan></text>
+                                   id="$Sk2-8+4"></tspan></text>
       <text
           id="text6560-54-54"
           y="222.73218"
@@ -7577,7 +7417,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-8+2"></tspan></text>
+                                   id="$Sk2-8+1"></tspan></text>
       <text
           id="text6560-10-2"
           y="222.73218"
@@ -7586,7 +7426,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-8+0"></tspan></text>
+                                   id="$Sk2-8-1"></tspan></text>
       <text
           id="text6560-391-4"
           y="222.73218"
@@ -7595,7 +7435,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-8-3"></tspan></text>
+                                   id="$Sk2-8-4"></tspan></text>
     </g>
     <g
         transform="translate(0,21.731998)"
@@ -7624,6 +7464,15 @@
                                    x="70.327187"
                                    id="$Sk2-2N"></tspan></text>
       <text
+          id="text6560-2"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-2T"></tspan></text>
+      <text
           id="text6560-3-95"
           y="222.73218"
           x="144.83713"
@@ -7633,24 +7482,6 @@
                                    x="144.83713"
                                    id="$Sk2-2V"></tspan></text>
       <text
-          id="text6560-4-60"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-2-15"></tspan></text>
-      <text
-          id="text6560-6-2"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-2-10"></tspan></text>
-      <text
           id="text6560-62-2"
           y="222.73218"
           x="266.09924"
@@ -7658,7 +7489,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-2-5"></tspan></text>
+                                   id="$Sk2-2-10"></tspan></text>
       <text
           id="text6560-49-3"
           y="222.73218"
@@ -7667,7 +7498,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-2-4"></tspan></text>
+                                   id="$Sk2-2-5"></tspan></text>
       <text
           id="text6560-1-00"
           y="222.73218"
@@ -7676,7 +7507,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-2-2"></tspan></text>
+                                   id="$Sk2-2-3"></tspan></text>
       <text
           id="text6560-2-3"
           y="222.73218"
@@ -7685,7 +7516,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-2-1"></tspan></text>
+                                   id="$Sk2-2-2"></tspan></text>
       <text
           id="text6560-13-7"
           y="222.73218"
@@ -7694,7 +7525,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-2+1"></tspan></text>
+                                   id="$Sk2-2+0"></tspan></text>
       <text
           id="text6560-0-80"
           y="222.73218"
@@ -7703,7 +7534,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-2+4"></tspan></text>
+                                   id="$Sk2-2+3"></tspan></text>
       <text
           id="text6560-7-87"
           y="222.73218"
@@ -7712,7 +7543,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-2+3"></tspan></text>
+                                   id="$Sk2-2+2"></tspan></text>
       <text
           id="text6560-39-71"
           y="222.73218"
@@ -7721,7 +7552,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-2+15"></tspan></text>
+                                   id="$Sk2-2+10"></tspan></text>
       <text
           id="text6560-38-4"
           y="222.73218"
@@ -7730,7 +7561,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-2+10"></tspan></text>
+                                   id="$Sk2-2+5"></tspan></text>
       <text
           id="text6560-5-4"
           y="222.73218"
@@ -7739,7 +7570,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-2+5"></tspan></text>
+                                   id="$Sk2-2+4"></tspan></text>
       <text
           id="text6560-54-4"
           y="222.73218"
@@ -7748,7 +7579,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-2+2"></tspan></text>
+                                   id="$Sk2-2+1"></tspan></text>
       <text
           id="text6560-10-25"
           y="222.73218"
@@ -7757,7 +7588,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-2+0"></tspan></text>
+                                   id="$Sk2-2-1"></tspan></text>
       <text
           id="text6560-391-27"
           y="222.73218"
@@ -7766,7 +7597,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-2-3"></tspan></text>
+                                   id="$Sk2-2-4"></tspan></text>
     </g>
     <g
         transform="translate(0,173.85553)"
@@ -7795,6 +7626,15 @@
                                    x="70.327187"
                                    id="$Sk2-9N"></tspan></text>
       <text
+          id="text6560-9"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-9T"></tspan></text>
+      <text
           id="text6560-3-20"
           y="222.73218"
           x="144.83713"
@@ -7804,24 +7644,6 @@
                                    x="144.83713"
                                    id="$Sk2-9V"></tspan></text>
       <text
-          id="text6560-4-69"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-9-15"></tspan></text>
-      <text
-          id="text6560-6-3"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-9-10"></tspan></text>
-      <text
           id="text6560-62-48"
           y="222.73218"
           x="266.09924"
@@ -7829,7 +7651,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-9-5"></tspan></text>
+                                   id="$Sk2-9-10"></tspan></text>
       <text
           id="text6560-49-07"
           y="222.73218"
@@ -7838,7 +7660,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-9-4"></tspan></text>
+                                   id="$Sk2-9-5"></tspan></text>
       <text
           id="text6560-1-4"
           y="222.73218"
@@ -7847,7 +7669,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-9-2"></tspan></text>
+                                   id="$Sk2-9-3"></tspan></text>
       <text
           id="text6560-2-9"
           y="222.73218"
@@ -7856,7 +7678,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-9-1"></tspan></text>
+                                   id="$Sk2-9-2"></tspan></text>
       <text
           id="text6560-13-6"
           y="222.73218"
@@ -7865,7 +7687,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-9+1"></tspan></text>
+                                   id="$Sk2-9+0"></tspan></text>
       <text
           id="text6560-0-74"
           y="222.73218"
@@ -7874,7 +7696,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-9+4"></tspan></text>
+                                   id="$Sk2-9+3"></tspan></text>
       <text
           id="text6560-7-60"
           y="222.73218"
@@ -7883,7 +7705,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-9+3"></tspan></text>
+                                   id="$Sk2-9+2"></tspan></text>
       <text
           id="text6560-39-51"
           y="222.73218"
@@ -7892,7 +7714,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-9+15"></tspan></text>
+                                   id="$Sk2-9+10"></tspan></text>
       <text
           id="text6560-38-3"
           y="222.73218"
@@ -7901,7 +7723,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-9+10"></tspan></text>
+                                   id="$Sk2-9+5"></tspan></text>
       <text
           id="text6560-5-8"
           y="222.73218"
@@ -7910,7 +7732,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-9+5"></tspan></text>
+                                   id="$Sk2-9+4"></tspan></text>
       <text
           id="text6560-54-43"
           y="222.73218"
@@ -7919,7 +7741,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-9+2"></tspan></text>
+                                   id="$Sk2-9+1"></tspan></text>
       <text
           id="text6560-10-62"
           y="222.73218"
@@ -7928,7 +7750,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-9+0"></tspan></text>
+                                   id="$Sk2-9-1"></tspan></text>
       <text
           id="text6560-391-8"
           y="222.73218"
@@ -7937,7 +7759,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-9-3"></tspan></text>
+                                   id="$Sk2-9-4"></tspan></text>
     </g>
     <g
         transform="translate(0,195.58747)"
@@ -7966,6 +7788,15 @@
                                    x="70.327187"
                                    id="$Sk2-10N"></tspan></text>
       <text
+          id="text6560-10"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-10T"></tspan></text>
+      <text
           id="text6560-3-7"
           y="222.73218"
           x="144.83713"
@@ -7975,24 +7806,6 @@
                                    x="144.83713"
                                    id="$Sk2-10V"></tspan></text>
       <text
-          id="text6560-4-5"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-10-15"></tspan></text>
-      <text
-          id="text6560-6-07"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-10-10"></tspan></text>
-      <text
           id="text6560-62-7"
           y="222.73218"
           x="266.09924"
@@ -8000,7 +7813,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-10-5"></tspan></text>
+                                   id="$Sk2-10-10"></tspan></text>
       <text
           id="text6560-49-32"
           y="222.73218"
@@ -8009,7 +7822,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-10-4"></tspan></text>
+                                   id="$Sk2-10-5"></tspan></text>
       <text
           id="text6560-1-78"
           y="222.73218"
@@ -8018,7 +7831,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-10-2"></tspan></text>
+                                   id="$Sk2-10-3"></tspan></text>
       <text
           id="text6560-2-0"
           y="222.73218"
@@ -8027,7 +7840,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-10-1"></tspan></text>
+                                   id="$Sk2-10-2"></tspan></text>
       <text
           id="text6560-13-1"
           y="222.73218"
@@ -8036,7 +7849,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-10+1"></tspan></text>
+                                   id="$Sk2-10+0"></tspan></text>
       <text
           id="text6560-0-1"
           y="222.73218"
@@ -8045,7 +7858,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-10+4"></tspan></text>
+                                   id="$Sk2-10+3"></tspan></text>
       <text
           id="text6560-7-88"
           y="222.73218"
@@ -8054,7 +7867,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-10+3"></tspan></text>
+                                   id="$Sk2-10+2"></tspan></text>
       <text
           id="text6560-39-10"
           y="222.73218"
@@ -8063,7 +7876,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-10+15"></tspan></text>
+                                   id="$Sk2-10+10"></tspan></text>
       <text
           id="text6560-38-07"
           y="222.73218"
@@ -8072,7 +7885,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-10+10"></tspan></text>
+                                   id="$Sk2-10+5"></tspan></text>
       <text
           id="text6560-5-7"
           y="222.73218"
@@ -8081,7 +7894,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-10+5"></tspan></text>
+                                   id="$Sk2-10+4"></tspan></text>
       <text
           id="text6560-54-33"
           y="222.73218"
@@ -8090,7 +7903,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-10+2"></tspan></text>
+                                   id="$Sk2-10+1"></tspan></text>
       <text
           id="text6560-10-4"
           y="222.73218"
@@ -8099,7 +7912,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-10+0"></tspan></text>
+                                   id="$Sk2-10-1"></tspan></text>
       <text
           id="text6560-391-46"
           y="222.73218"
@@ -8108,7 +7921,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-10-3"></tspan></text>
+                                   id="$Sk2-10-4"></tspan></text>
     </g>
     <g
         transform="translate(0,217.3194)"
@@ -8137,6 +7950,15 @@
                                    x="70.327187"
                                    id="$Sk2-11N"></tspan></text>
       <text
+          id="text6560-11"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-11T"></tspan></text>
+      <text
           id="text6560-3-0"
           y="222.73218"
           x="144.83713"
@@ -8146,24 +7968,6 @@
                                    x="144.83713"
                                    id="$Sk2-11V"></tspan></text>
       <text
-          id="text6560-4-4"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-11-15"></tspan></text>
-      <text
-          id="text6560-6-02"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-11-10"></tspan></text>
-      <text
           id="text6560-62-6"
           y="222.73218"
           x="266.09924"
@@ -8171,7 +7975,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-11-5"></tspan></text>
+                                   id="$Sk2-11-10"></tspan></text>
       <text
           id="text6560-49-8"
           y="222.73218"
@@ -8180,7 +7984,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-11-4"></tspan></text>
+                                   id="$Sk2-11-5"></tspan></text>
       <text
           id="text6560-1-5"
           y="222.73218"
@@ -8189,7 +7993,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-11-2"></tspan></text>
+                                   id="$Sk2-11-3"></tspan></text>
       <text
           id="text6560-2-03"
           y="222.73218"
@@ -8198,7 +8002,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-11-1"></tspan></text>
+                                   id="$Sk2-11-2"></tspan></text>
       <text
           id="text6560-13-71"
           y="222.73218"
@@ -8207,7 +8011,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-11+1"></tspan></text>
+                                   id="$Sk2-11+0"></tspan></text>
       <text
           id="text6560-0-5"
           y="222.73218"
@@ -8216,7 +8020,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-11+4"></tspan></text>
+                                   id="$Sk2-11+3"></tspan></text>
       <text
           id="text6560-7-81"
           y="222.73218"
@@ -8225,7 +8029,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-11+3"></tspan></text>
+                                   id="$Sk2-11+2"></tspan></text>
       <text
           id="text6560-39-518"
           y="222.73218"
@@ -8234,7 +8038,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-11+15"></tspan></text>
+                                   id="$Sk2-11+10"></tspan></text>
       <text
           id="text6560-38-81"
           y="222.73218"
@@ -8243,7 +8047,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-11+10"></tspan></text>
+                                   id="$Sk2-11+5"></tspan></text>
       <text
           id="text6560-5-73"
           y="222.73218"
@@ -8252,7 +8056,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-11+5"></tspan></text>
+                                   id="$Sk2-11+4"></tspan></text>
       <text
           id="text6560-54-2"
           y="222.73218"
@@ -8261,7 +8065,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-11+2"></tspan></text>
+                                   id="$Sk2-11+1"></tspan></text>
       <text
           id="text6560-10-66"
           y="222.73218"
@@ -8270,7 +8074,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-11+0"></tspan></text>
+                                   id="$Sk2-11-1"></tspan></text>
       <text
           id="text6560-391-0"
           y="222.73218"
@@ -8279,7 +8083,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-11-3"></tspan></text>
+                                   id="$Sk2-11-4"></tspan></text>
     </g>
     <g
         transform="translate(0,260.78327)"
@@ -8308,6 +8112,15 @@
                                    x="70.327187"
                                    id="$Sk2-13N"></tspan></text>
       <text
+          id="text6560-13"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-13T"></tspan></text>
+      <text
           id="text6560-3-2-7"
           y="222.73218"
           x="144.83713"
@@ -8317,24 +8130,6 @@
                                    x="144.83713"
                                    id="$Sk2-13V"></tspan></text>
       <text
-          id="text6560-4-6-8"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-13-15"></tspan></text>
-      <text
-          id="text6560-6-1-3"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-13-10"></tspan></text>
-      <text
           id="text6560-62-4-5"
           y="222.73218"
           x="266.09924"
@@ -8342,7 +8137,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-13-5"></tspan></text>
+                                   id="$Sk2-13-10"></tspan></text>
       <text
           id="text6560-49-6-3"
           y="222.73218"
@@ -8351,7 +8146,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-13-4"></tspan></text>
+                                   id="$Sk2-13-5"></tspan></text>
       <text
           id="text6560-1-1-7"
           y="222.73218"
@@ -8360,7 +8155,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-13-2"></tspan></text>
+                                   id="$Sk2-13-3"></tspan></text>
       <text
           id="text6560-2-8-6"
           y="222.73218"
@@ -8369,7 +8164,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-13-1"></tspan></text>
+                                   id="$Sk2-13-2"></tspan></text>
       <text
           id="text6560-13-2-9"
           y="222.73218"
@@ -8378,7 +8173,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-13+1"></tspan></text>
+                                   id="$Sk2-13+0"></tspan></text>
       <text
           id="text6560-0-8-8"
           y="222.73218"
@@ -8387,7 +8182,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-13+4"></tspan></text>
+                                   id="$Sk2-13+3"></tspan></text>
       <text
           id="text6560-7-6-3"
           y="222.73218"
@@ -8396,7 +8191,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-13+3"></tspan></text>
+                                   id="$Sk2-13+2"></tspan></text>
       <text
           id="text6560-39-2-9"
           y="222.73218"
@@ -8405,7 +8200,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-13+15"></tspan></text>
+                                   id="$Sk2-13+10"></tspan></text>
       <text
           id="text6560-38-2-6"
           y="222.73218"
@@ -8414,7 +8209,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-13+10"></tspan></text>
+                                   id="$Sk2-13+5"></tspan></text>
       <text
           id="text6560-5-9-7"
           y="222.73218"
@@ -8423,7 +8218,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-13+5"></tspan></text>
+                                   id="$Sk2-13+4"></tspan></text>
       <text
           id="text6560-54-1-4"
           y="222.73218"
@@ -8432,7 +8227,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-13+2"></tspan></text>
+                                   id="$Sk2-13+1"></tspan></text>
       <text
           id="text6560-10-6-2"
           y="222.73218"
@@ -8441,7 +8236,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-13+0"></tspan></text>
+                                   id="$Sk2-13-1"></tspan></text>
       <text
           id="text6560-391-6-8"
           y="222.73218"
@@ -8450,7 +8245,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-13-3"></tspan></text>
+                                   id="$Sk2-13-4"></tspan></text>
     </g>
     <g
         transform="translate(0,282.5152)"
@@ -8479,6 +8274,15 @@
                                    x="70.327187"
                                    id="$Sk2-14N"></tspan></text>
       <text
+          id="text6560-14"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-14T"></tspan></text>
+      <text
           id="text6560-3-27-5"
           y="222.73218"
           x="144.83713"
@@ -8488,24 +8292,6 @@
                                    x="144.83713"
                                    id="$Sk2-14V"></tspan></text>
       <text
-          id="text6560-4-0-3"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-14-15"></tspan></text>
-      <text
-          id="text6560-6-6-9"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-14-10"></tspan></text>
-      <text
           id="text6560-62-9-9"
           y="222.73218"
           x="266.09924"
@@ -8513,7 +8299,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-14-5"></tspan></text>
+                                   id="$Sk2-14-10"></tspan></text>
       <text
           id="text6560-49-9-0"
           y="222.73218"
@@ -8522,7 +8308,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-14-4"></tspan></text>
+                                   id="$Sk2-14-5"></tspan></text>
       <text
           id="text6560-1-9-4"
           y="222.73218"
@@ -8531,7 +8317,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-14-2"></tspan></text>
+                                   id="$Sk2-14-3"></tspan></text>
       <text
           id="text6560-2-2-0"
           y="222.73218"
@@ -8540,7 +8326,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-14-1"></tspan></text>
+                                   id="$Sk2-14-2"></tspan></text>
       <text
           id="text6560-13-23-4"
           y="222.73218"
@@ -8549,7 +8335,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-14+1"></tspan></text>
+                                   id="$Sk2-14+0"></tspan></text>
       <text
           id="text6560-0-89-4"
           y="222.73218"
@@ -8558,7 +8344,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-14+4"></tspan></text>
+                                   id="$Sk2-14+3"></tspan></text>
       <text
           id="text6560-7-8-8"
           y="222.73218"
@@ -8567,7 +8353,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-14+3"></tspan></text>
+                                   id="$Sk2-14+2"></tspan></text>
       <text
           id="text6560-39-7-1"
           y="222.73218"
@@ -8576,7 +8362,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-14+15"></tspan></text>
+                                   id="$Sk2-14+10"></tspan></text>
       <text
           id="text6560-38-5-9"
           y="222.73218"
@@ -8585,7 +8371,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-14+10"></tspan></text>
+                                   id="$Sk2-14+5"></tspan></text>
       <text
           id="text6560-5-5-7"
           y="222.73218"
@@ -8594,7 +8380,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-14+5"></tspan></text>
+                                   id="$Sk2-14+4"></tspan></text>
       <text
           id="text6560-54-5-0"
           y="222.73218"
@@ -8603,7 +8389,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-14+2"></tspan></text>
+                                   id="$Sk2-14+1"></tspan></text>
       <text
           id="text6560-10-7-9"
           y="222.73218"
@@ -8612,7 +8398,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-14+0"></tspan></text>
+                                   id="$Sk2-14-1"></tspan></text>
       <text
           id="text6560-391-9-6"
           y="222.73218"
@@ -8621,7 +8407,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-14-3"></tspan></text>
+                                   id="$Sk2-14-4"></tspan></text>
     </g>
     <g
         transform="translate(0,304.24713)"
@@ -8650,6 +8436,15 @@
                                    x="70.327187"
                                    id="$Sk2-15N"></tspan></text>
       <text
+          id="text6560-14"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-15T"></tspan></text>
+      <text
           id="text6560-3-9-9"
           y="222.73218"
           x="144.83713"
@@ -8659,24 +8454,6 @@
                                    x="144.83713"
                                    id="$Sk2-15V"></tspan></text>
       <text
-          id="text6560-4-8-4"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-15-15"></tspan></text>
-      <text
-          id="text6560-6-0-2"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-15-10"></tspan></text>
-      <text
           id="text6560-62-44-6"
           y="222.73218"
           x="266.09924"
@@ -8684,7 +8461,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-15-5"></tspan></text>
+                                   id="$Sk2-15-10"></tspan></text>
       <text
           id="text6560-49-2-1"
           y="222.73218"
@@ -8693,7 +8470,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-15-4"></tspan></text>
+                                   id="$Sk2-15-5"></tspan></text>
       <text
           id="text6560-1-2-1"
           y="222.73218"
@@ -8702,7 +8479,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-15-2"></tspan></text>
+                                   id="$Sk2-15-3"></tspan></text>
       <text
           id="text6560-2-7-6"
           y="222.73218"
@@ -8711,7 +8488,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-15-1"></tspan></text>
+                                   id="$Sk2-15-2"></tspan></text>
       <text
           id="text6560-13-9-0"
           y="222.73218"
@@ -8720,7 +8497,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-15+1"></tspan></text>
+                                   id="$Sk2-15+0"></tspan></text>
       <text
           id="text6560-0-9-8"
           y="222.73218"
@@ -8729,7 +8506,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-15+4"></tspan></text>
+                                   id="$Sk2-15+3"></tspan></text>
       <text
           id="text6560-7-0-6"
           y="222.73218"
@@ -8738,7 +8515,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-15+3"></tspan></text>
+                                   id="$Sk2-15+2"></tspan></text>
       <text
           id="text6560-39-5-6"
           y="222.73218"
@@ -8747,7 +8524,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-15+15"></tspan></text>
+                                   id="$Sk2-15+10"></tspan></text>
       <text
           id="text6560-38-0-8"
           y="222.73218"
@@ -8756,7 +8533,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-15+10"></tspan></text>
+                                   id="$Sk2-15+5"></tspan></text>
       <text
           id="text6560-5-1-9"
           y="222.73218"
@@ -8765,7 +8542,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-15+5"></tspan></text>
+                                   id="$Sk2-15+4"></tspan></text>
       <text
           id="text6560-54-8-6"
           y="222.73218"
@@ -8774,7 +8551,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-15+2"></tspan></text>
+                                   id="$Sk2-15+1"></tspan></text>
       <text
           id="text6560-10-68-7"
           y="222.73218"
@@ -8783,7 +8560,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-15+0"></tspan></text>
+                                   id="$Sk2-15-1"></tspan></text>
       <text
           id="text6560-391-98-5"
           y="222.73218"
@@ -8792,7 +8569,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-15-3"></tspan></text>
+                                   id="$Sk2-15-4"></tspan></text>
     </g>
     <g
         transform="translate(0,239.05133)"
@@ -8821,6 +8598,15 @@
                                    x="70.327187"
                                    id="$Sk2-12N"></tspan></text>
       <text
+          id="text6560-12"
+          y="222.73218"
+          x="212.5"
+          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+          xml:space="preserve"><tspan
+                                   y="222.73218"
+                                   x="212.5"
+                                   id="$Sk2-12T"></tspan></text>
+      <text
           id="text6560-3-95-8"
           y="222.73218"
           x="144.83713"
@@ -8830,24 +8616,6 @@
                                    x="144.83713"
                                    id="$Sk2-12V"></tspan></text>
       <text
-          id="text6560-4-60-3"
-          y="222.73218"
-          x="194.32907"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="194.32907"
-                                   id="$Sk2-12-15"></tspan></text>
-      <text
-          id="text6560-6-2-6"
-          y="222.73218"
-          x="230.10429"
-          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-          xml:space="preserve"><tspan
-                                   y="222.73218"
-                                   x="230.10429"
-                                   id="$Sk2-12-10"></tspan></text>
-      <text
           id="text6560-62-2-6"
           y="222.73218"
           x="266.09924"
@@ -8855,7 +8623,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="266.09924"
-                                   id="$Sk2-12-5"></tspan></text>
+                                   id="$Sk2-12-10"></tspan></text>
       <text
           id="text6560-49-3-1"
           y="222.73218"
@@ -8864,7 +8632,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="301.82257"
-                                   id="$Sk2-12-4"></tspan></text>
+                                   id="$Sk2-12-5"></tspan></text>
       <text
           id="text6560-1-00-4"
           y="222.73218"
@@ -8873,7 +8641,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="373.72397"
-                                   id="$Sk2-12-2"></tspan></text>
+                                   id="$Sk2-12-3"></tspan></text>
       <text
           id="text6560-2-3-9"
           y="222.73218"
@@ -8882,7 +8650,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="409.89288"
-                                   id="$Sk2-12-1"></tspan></text>
+                                   id="$Sk2-12-2"></tspan></text>
       <text
           id="text6560-13-7-8"
           y="222.73218"
@@ -8891,7 +8659,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="481.66302"
-                                   id="$Sk2-12+1"></tspan></text>
+                                   id="$Sk2-12+0"></tspan></text>
       <text
           id="text6560-0-80-6"
           y="222.73218"
@@ -8900,7 +8668,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="588.9032"
-                                   id="$Sk2-12+4"></tspan></text>
+                                   id="$Sk2-12+3"></tspan></text>
       <text
           id="text6560-7-87-2"
           y="222.73218"
@@ -8909,7 +8677,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="553.21655"
-                                   id="$Sk2-12+3"></tspan></text>
+                                   id="$Sk2-12+2"></tspan></text>
       <text
           id="text6560-39-71-0"
           y="222.73218"
@@ -8918,7 +8686,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="696.72021"
-                                   id="$Sk2-12+15"></tspan></text>
+                                   id="$Sk2-12+10"></tspan></text>
       <text
           id="text6560-38-4-0"
           y="222.73218"
@@ -8927,7 +8695,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="660.72528"
-                                   id="$Sk2-12+10"></tspan></text>
+                                   id="$Sk2-12+5"></tspan></text>
       <text
           id="text6560-5-4-2"
           y="222.73218"
@@ -8936,7 +8704,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="624.95007"
-                                   id="$Sk2-12+5"></tspan></text>
+                                   id="$Sk2-12+4"></tspan></text>
       <text
           id="text6560-54-4-0"
           y="222.73218"
@@ -8945,7 +8713,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="517.26428"
-                                   id="$Sk2-12+2"></tspan></text>
+                                   id="$Sk2-12+1"></tspan></text>
       <text
           id="text6560-10-25-3"
           y="222.73218"
@@ -8954,7 +8722,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="445.41479"
-                                   id="$Sk2-12+0"></tspan></text>
+                                   id="$Sk2-12-1"></tspan></text>
       <text
           id="text6560-391-27-4"
           y="222.73218"
@@ -8963,7 +8731,7 @@
           xml:space="preserve"><tspan
                                    y="222.73218"
                                    x="337.90601"
-                                   id="$Sk2-12-3"></tspan></text>
+                                   id="$Sk2-12-4"></tspan></text>
     </g>
     <rect
         y="164.98108"
@@ -8978,13 +8746,6 @@
         height="371.19461"
         width="2.9660716"
         id="rect4495-72-8-0-4-62"
-        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-        y="187.28516"
-        x="210.61464"
-        height="355.10181"
-        width="2.9660716"
-        id="rect4495-72-8-0-4"
         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
         y="181.82581"
@@ -9982,6 +9743,81 @@
                                            x="657.30035"
                                            y="791.92676"
                                            style="fill:#000000;fill-opacity:1"></tspan></text>
+    <foreignObject y="208.2" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-1T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="229.9" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-2T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="251.6" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-3T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="273.9" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-4T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="295.6" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-5T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="316.9" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-6T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="338.6" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-7T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="360.3" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-8T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="382.0" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-9T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="403.8" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-10T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="425.5" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-11T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="447.2" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-12T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="468.9" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-13T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="490.8" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-14T')"></input>
+      </div>
+    </foreignObject>
+    <foreignObject y="512.5" x="178.5" width="68px" height="20px">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:64px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-15T')"></input>
+      </div>
+    </foreignObject>
     <foreignObject y="208.2" x="29.729088" width="84px" height="20px">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <input style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'Amasis MT';text-align:center; height:10px; width:80px; border: 0px; color: #ff000000; background-color: #ff000000;" onkeyup="recalc(this,'$Sk2-1N')"></input>
@@ -10283,77 +10119,48 @@
       <include id="$Woodcraft"/>
     ]);
     var dims = new Map([
+      <include id="$D-Hazard"/>
+      <include id="$D-Travel"/>
+      <include id="$D-Quality"/>
+      <include id="$D-Knowledge"/>
+      <include id="$D-Accuracy"/>
       <include id="$D-Acrobatics"/>
-      <include id="$D-Agriculture" ref="$D-Yield"/>
-      <include id="$D-Alchemy" ref="$D-Recipes"/>
+      <include id="$D-Yield"/>
+      <include id="$D-Recipes"/>
       <include id="$D-Animalcraft"/>
-      <include id="$D-Astrology" ref="$D-Divination"/>
-      <include id="$D-Axe" ref="$D-Combat"/>
-      <include id="$D-Blowgun" ref="$D-Combat"/>
-      <include id="$D-Bow" ref="$D-Combat"/>
-      <include id="$D-Brewing" ref="$D-Recipes"/>
-      <include id="$D-Ceramics" ref="$D-Recipes"/>
+      <include id="$D-Divination"/>
+      <include id="$D-Combat"/>
       <include id="$D-Climbing"/>
-      <include id="$D-Club" ref="$D-Combat"/>
-      <include id="$D-Cookery" ref="$D-Recipes"/>
-      <include id="$D-Dagger" ref="$D-Combat"/>
-      <include id="$D-Dancing" ref="$D-Artistic"/>
+      <include id="$D-Artistic"/>
       <include id="$D-Dexterity"/>
-      <include id="$D-Drawing" ref="$D-Artistic"/>
       <include id="$D-Embalming"/>
       <include id="$D-Endurance"/>
-      <include id="$D-Engineering" ref="$D-Recipes"/>
       <include id="$D-Eyesight"/>
-      <include id="$D-Fishing" ref="$D-Yield"/>
-      <include id="$D-Flail" ref="$D-Combat"/>
       <include id="$D-Fletching"/>
       <include id="$D-Folklore"/>
-      <include id="$D-Foraging" ref="$D-Yield"/>
       <include id="$D-Hearing"/>
       <include id="$D-Heraldry"/>
       <include id="$D-Herblore"/>
-      <include id="$D-Hidework" ref="$D-Recipes"/>
-      <include id="$D-Jewelcraft" ref="$D-Recipes"/>
       <include id="$D-Jumping"/>
       <include id="$D-Language"/>
       <include id="$D-Law"/>
       <include id="$D-Lovecraft"/>
-      <include id="$D-Masonry" ref="$D-Recipes"/>
       <include id="$D-Mathematics"/>
-      <include id="$D-Metalcraft" ref="$D-Recipes"/>
-      <include id="$D-Milling" ref="$D-Yield"/>
       <include id="$D-Morality"/>
       <include id="$D-Move"/>
-      <include id="$D-Musician" ref="$D-Artistic"/>
-      <include id="$D-Net" ref="$D-Combat"/>
-      <include id="$D-Perfumery" ref="$D-Recipes"/>
       <include id="$D-Physician"/>
-      <include id="$D-Polearm" ref="$D-Combat"/>
       <include id="$D-PsiConflict"/>
       <include id="$D-PsiTalents"/>
       <include id="$D-Rhetoric"/>
       <include id="$D-Ritual"/>
-      <include id="$D-Runecraft" ref="$D-Divination"/>
-      <include id="$D-Shield" ref="$D-Combat"/>
       <include id="$D-Shipwright"/>
-      <include id="$D-Singing" ref="$D-Artistic"/>
-      <include id="$D-Sling" ref="$D-Combat"/>
-      <include id="$D-Spear" ref="$D-Combat"/>
       <include id="$D-Stamina"/>
       <include id="$D-Strength"/>
-      <include id="$D-Survival" ref="$D-Regional"/>
+      <include id="$D-Regional"/>
       <include id="$D-Swimming"/>
-      <include id="$D-Sword" ref="$D-Combat"/>
-      <include id="$D-Tarotry" ref="$D-Divination"/>
-      <include id="$D-Textilecraft" ref="$D-Recipes"/>
       <include id="$D-Throwing"/>
       <include id="$D-Timbercraft"/>
-      <include id="$D-Tracking" ref="$D-Regional"/>
-      <include id="$D-Unarmed" ref="$D-Combat"/>
-      <include id="$D-Weaponcraft" ref="$D-Recipes"/>
       <include id="$D-Weatherlore"/>
-      <include id="$D-Whip" ref="$D-Combat"/>
-      <include id="$D-Woodcraft" ref="$D-Recipes"/>
     ]);
     var sunsignMap = new Map([
       ["1-Nuz-","Lad"],    ["2-Nuz-","Lad/Ula"],["3-Nuz-","Lad/Ula"],["4-Nuz-","Ula"],    ["5-Nuz-","Ula"],
@@ -10537,7 +10344,7 @@
             });
           }
           else {
-            ["-15","-10","-5","-4","-3","-2","-1","+0","+1","+2","+3","+4","+5","+10","+15"].forEach((k2,k1,k0) => {
+            ["-10","-5","-4","-3","-2","-1","+0","+1","+2","+3","+4","+5","+10"].forEach((k2,k1,k0) => {
               var [x1,x2,y1,y2] = [100,100,0,0];
               var vv = v + parseInt(k2);
               Array(s[0].length/2).fill().map((j1,j0) => {

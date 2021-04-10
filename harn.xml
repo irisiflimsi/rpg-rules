@@ -778,16 +778,7 @@
           may be off.  It is calculated from the percentage value x by
           the range (100% - x) to 1/(100% - x).
         </p>
-        <table style="width:80%">
-          <tr>
-            <th>Dimension</th><th>0</th><th>10</th>
-            <th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Error</td><td>100% (0+)</td><td>60% (0.4-2.5)</td>
-            <td>20% (0.8-1.25)</td><td>6% (0.94-1.06)</td>
-          </tr>
-        </table>
+        <include id="$D-Accuracy"/>
         <h5 id="di-art">Artistic</h5>
         <p>
           This dimension applies to music and dance but also to other
@@ -862,16 +853,7 @@
           knowledge in the domain. E.g.  for Heraldry, creating an
           original design.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
-            <th>30</th>
-          </tr>
-          <tr>
-            <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td>
-            <td>120%</td>
-          </tr>
-        </table>
+        <include id="$D-Knowlegde"/>
         <div class="explain">
           <p>
             <em>0:</em> Character barely knows the domain for such
@@ -922,14 +904,7 @@
           resistance to damage is more important than how beautiful it
           looks.  An example of this is weapon- and armour-crafting.
         </p>
-        <table style="width:30%">
-          <tr>
-            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-          </tr>
-          <tr>
-            <td>Quality</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+3</td>
-          </tr>
-        </table>
+        <include id="$D-Quality"/>
         <h5 class="skill" id="di-rec">Recipes</h5>
         <p>
           For NPCs the associated table can be used to estimate the
@@ -1016,32 +991,8 @@
           applies for explicitly safe travel.  Hazards include getting
           lost but not encounters.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-          </tr>
-          <tr>
-            <td>Km Sail</td><td>0</td><td>25</td><td>50</td><td>75</td><td>100</td><td>125</td><td>150</td>
-          </tr>
-          <tr>
-            <td>Km Land</td><td>0</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td>
-          </tr>
-          <tr>
-            <td>Days Sail</td><td>&#x221e;</td><td>4.0</td><td>2.0</td><td>1.5</td><td>1.0</td><td>0.8</td><td>0.6</td>
-          </tr>
-          <tr>
-            <td>Days Land</td><td>&#x221e;</td><td>10.0</td><td>5.0</td><td>3.5</td><td>2.5</td><td>2.0</td><td>1.5</td>
-          </tr>
-          <tr><th colspan="8" style="padding:1px;"/></tr>
-        </table>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th><th>-30</th><th>-25</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
-          </tr>
-          <tr>
-            <td>Hazard</td><td>1d</td><td>2d</td><td>3d</td><td>6d</td><td>10d</td><td>20d</td><td>30d</td><td>60d</td><td>100d</td>
-          </tr>
-        </table>
+        <include id="$D-Travel"/>
+        <include id="$D-Hazard"/>
         <p>
           Various circumstancial modification for travel rate
           according to season are applicable.  The next table is only

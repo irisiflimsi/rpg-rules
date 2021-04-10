@@ -1,4 +1,53 @@
 <root>
+  <table id="$D-Travel" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+    </tr>
+    <tr class="num">
+      <td>Km Sail</td><td>0</td><td>25</td><td>50</td><td>75</td><td>100</td><td>125</td><td>150</td>
+    </tr>
+    <tr class="num">
+      <td>Km Land</td><td>0</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td>
+    </tr>
+    <tr class="num">
+      <td>Days Sail</td><td>&#x221e;</td><td>4.0</td><td>2.0</td><td>1.5</td><td>1.0</td><td>0.8</td><td>0.6</td>
+    </tr>
+    <tr class="num">
+      <td>Days Land</td><td>&#x221e;</td><td>10.0</td><td>5.0</td><td>3.5</td><td>2.5</td><td>2.0</td><td>1.5</td>
+    </tr>
+  </table>
+  <table id="$D-Hazard" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-30</th><th>-25</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+    </tr>
+    <tr class="num">
+      <td>Hazard</td><td>1d</td><td>2d</td><td>3d</td><td>6d</td><td>10d</td><td>20d</td><td>30d</td><td>60d</td><td>100d</td>
+    </tr>
+  </table>
+  <table id="$D-Quality" style="width:30%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Quality</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+3</td>
+    </tr>
+  </table>
+  <table id="$D-Knowledge" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+    </tr>
+  </table>
+  <table id="$D-Accuracy" style="width:80%">
+    <tr>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Error</td><td>100% (0+)</td><td>60% (0.4-2.5)</td><td>20% (0.8-1.25)</td><td>6% (0.94-1.06)</td>
+    </tr>
+  </table>
   <table id="$D-Weatherlore" style="width:40%">
     <tr>
       <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
@@ -177,10 +226,10 @@
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Height</td><td>-</td><td>0.5m</td><td>1m</td><td>1.50m</td><td>2m</td>
+      <td>Height</td><td>0m</td><td>0.5m</td><td>1m</td><td>1.50m</td><td>2m</td>
     </tr>
     <tr class="num">
-      <td>Distance</td><td>-</td><td>1m</td><td>2m</td><td>4m</td><td>6m</td>
+      <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>4m</td><td>6m</td>
     </tr>
   </table>
   <table id="$D-Herblore" style="width:30%">

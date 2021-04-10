@@ -12,14 +12,7 @@
     <xsl:text>  ["</xsl:text>
     <xsl:value-of select="substring(@id,2)"/>
     <xsl:variable name="x">
-      <xsl:choose>
-        <xsl:when test="@ref">
-          <xsl:value-of select="@ref"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="@id"/>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:value-of select="@id"/>
     </xsl:variable>
     <xsl:text>", [[</xsl:text>
     <xsl:for-each select="document('harn-data.xml')//div[@id=$x]/p[em='Attributes:']/span">
