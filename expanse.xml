@@ -457,24 +457,8 @@
           Firearms (see above) in the transfer.
         </p>
         <h5 class="skill" id="sk-ini">Initiative</h5>
-        <div class="standard">
-          <p>
-            <em>Attributes:</em> Agility, Will, Will
-          </p>
-          <p>
-            <em>OML:</em> 0
-          </p>
-          <p>
-            <em>Occupations:</em> Gladiator/80, Cleric/Agrik/80,
-            Cleric/Larani/80, Cleric/Naveh/80, Cleric/Sarajin/80,
-            Military/70, Knight/80, Patrician/80, Huscarl/80, High
-            Guard/80
-          </p>
-        </div>
         <p>
-          Initiative reflects battle experience, discipline, and
-          morale.  Initiative determines the order in which characters
-          act in a given second, whenever that makes a difference.
+          As the <a href="/rpg-rules/harn.xml#sk-ini">Hârnic skill</a>.
         </p>
         <table style="width:40%">
           <tr>

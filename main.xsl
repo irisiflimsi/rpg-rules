@@ -28,12 +28,12 @@
     <xsl:apply-templates select="document('harn-data.xml',node()|@*)//*[@id=$x]"/>
   </xsl:template>
 
-  <xsl:template match="table">
+  <xsl:template match="table[not(@class) or @class != 'links']">
     <xsl:element name="table">
       <xsl:apply-templates select="@*" />
       <caption>
         <xsl:text>Table&#160;</xsl:text>
-        <xsl:number level="any"/>
+        <xsl:number/>
       </caption>
       <xsl:apply-templates select="tr"/>
     </xsl:element>

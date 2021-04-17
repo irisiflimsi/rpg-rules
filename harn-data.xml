@@ -1,4 +1,225 @@
 <root>
+  <table id="Basic" style="width:60%;">
+    <tr>
+      <th>0</th><th>1</th><th>2</th><th>3</th><th>4</th>
+      <th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>...</th>
+    </tr>
+    <tr>
+      <td>80%</td><td>80%</td><td>80%</td><td>80%</td><td>80%</td>
+      <td>80%</td><td>80%</td><td>80%</td><td>80%</td><td>80%</td><td>...</td>
+    </tr>
+    <tr>
+      <td>01-20</td><td>21-36</td><td>37-49</td><td>50-60</td><td>61-68</td>
+      <td>69-74</td><td>75-80</td><td>81-84</td><td>85-87</td><td>88-90</td><td>91-100</td>
+    </tr>
+  </table>
+  <table id="Calculate" class="noprint" style="width:50%;">
+    <tr>
+      <td rowspan="4" style="vertical-align:middle">
+        <button type="button" onclick="f()">Calculate</button>
+      </td>
+      <th>Number 1</th><th>Number 2</th><th>Row-5-Addition</th>
+    </tr>
+    <tr>
+      <td><input type="text" size="1" id="r1-s1" value="0.0"/></td>
+      <td><input type="text" size="1" id="r1-s2" value="0.0"/></td>
+      <td><input type="text" size="1" disabled="true" id="r1-r5" value="5.0"/></td>
+    </tr>
+    <tr>
+      <td><input type="text" size="1" id="r2-s1" value="0.0"/></td>
+      <td><input type="text" size="1" id="r2-s2" value="0.0"/></td>
+      <td><input type="text" size="1" disabled="true" id="r2-r5" value="5.0"/></td>
+    </tr>
+    <tr>
+      <td><input type="text" size="1" id="r3-s1" value="0.0"/></td>
+      <td><input type="text" size="1" id="r3-s2" value="0.0"/></td>
+      <td><input type="text" size="1" disabled="true" id="r3-r5" value="5.0"/></td>
+    </tr>
+  </table>
+  <table id="Calculate-2" style="width:75%">
+    <tr>
+      <th>Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td>
+      <td>11-19</td><td>20+</td>
+    </tr>
+    <tr>
+      <td>Row-5-Addition</td><td>+5</td><td>+4</td><td>+3</td><td>+2</td>
+      <td>+1</td><td>0</td>
+    </tr>
+  </table>
+  <table id="$D-Accuracy" style="width:80%">
+    <tr>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Error</td><td>100% (0+)</td><td>60% (0.4-2.5)</td><td>20% (0.8-1.25)</td><td>6% (0.94-1.06)</td>
+    </tr>
+  </table>
+  <table id="$D-Attribute" style="width:30%">
+    <tr>
+      <th>Attribute</th><th>Skill</th><th>Attribute</th><th>Skill</th>
+    </tr>
+    <tr>
+      <td>-15 - -11</td><td>1</td><td>6 - 7</td><td>9</td>
+    </tr>
+    <tr>
+      <td>-10 - -7</td><td>2</td><td>8</td><td>10</td>
+    </tr>
+    <tr>
+      <td>-6 - -4</td><td>3</td><td>9</td><td>11</td>
+    </tr>
+    <tr>
+      <td>-3 - -2</td><td>4</td><td>10-11</td><td>12</td>
+    </tr>
+    <tr>
+      <td>-1 - 0</td><td>5</td><td>12</td><td>13</td>
+    </tr>
+    <tr>
+      <td>1 - 2</td><td>6</td><td>13</td><td>14</td>
+    </tr>
+    <tr>
+      <td>3 - 4</td><td>7</td><td>14</td><td>15</td>
+    </tr>
+    <tr>
+      <td>5</td><td>8</td><td>15</td><td>16</td>
+    </tr>
+  </table>
+  <table id="$D-Combat" style="width:80%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-19</th><th>-18</th><th>-17</th><th>-16</th>
+      <th>-15</th><th>-14</th><th>-13</th><th>-12</th><th>-11</th><th>-10</th>
+      <th>-9</th><th>-8</th><th>-7</th><th>-6</th><th>-5</th><th>-4</th><th>-3</th>
+      <th>-2</th><th>-1</th><th>0</th>
+    </tr>
+    <tr class="num">
+      <td>Time</td><td>300</td><td>270</td><td>240</td><td>220</td><td>190</td>
+      <td>170</td><td>160</td><td>140</td><td>120</td><td>110</td><td>100</td>
+      <td>89</td><td>79</td><td>70</td><td>62</td><td>55</td><td>49</td><td>43</td>
+      <td>38</td><td>34</td><td>30</td>
+    </tr>
+    <tr class="num">
+      <td>Wounds</td><td>-40</td><td>-37</td><td>-34</td><td>-31</td><td>-28</td>
+      <td>-25</td><td>-23</td><td>-21</td><td>-19</td><td>-17</td><td>-15</td>
+      <td>-13</td><td>-11</td><td>-9</td><td>-7</td><td>-5</td><td>-4</td><td>-3</td>
+      <td>-2</td><td>-1</td><td>0</td>
+    </tr>
+    <tr><th colspan="12" style="padding:1px;"/></tr>
+    <tr>
+      <th>Dimension</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+      <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th>
+      <th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th>
+      <th>19</th><td>20</td>
+    </tr>
+    <tr class="num">
+      <td>Time</td><td>30</td><td>27</td><td>24</td><td>22</td><td>19</td><td>17</td>
+      <td>16</td><td>14</td><td>12</td><td>11</td><td>10</td><td>8.9</td><td>7.9</td>
+      <td>7.0</td><td>6.2</td><td>5.5</td><td>4.9</td><td>4.3</td><td>3.8</td>
+      <td>3.4</td><td>3.0</td>
+    </tr>
+    <tr class="num">
+      <td>Wounds</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+      <td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td>
+      <td>9</td><td>10</td><td>10</td><td>11</td><td>11</td><td>12</td>
+      <td>12</td><td>13</td>
+    </tr>
+    <tr><th colspan="12" style="padding:1px;"/></tr>
+    <tr>
+      <th>Dimension</th><th>20</th><th>21</th><th>22</th><th>23</th><th>24</th>
+      <th>25</th><th>26</th><th>27</th><th>28</th><th>29</th><th>30</th>
+      <th>31</th><th>32</th><th>33</th><th>34</th><th>35</th><th>36</th>
+      <th>37</th><th>38</th><th>39</th><th>40</th>
+    </tr>
+    <tr class="num">
+      <td>Time</td><td>3.0</td><td>2.7</td><td>2.4</td><td>2.2</td><td>1.9</td>
+      <td>1.7</td><td>1.6</td><td>1.4</td><td>1.2</td><td>1.1</td><td>1.0</td>
+      <td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.6</td><td>0.5</td>
+      <td>0.4</td><td>0.4</td><td>0.3</td><td>0.3</td>
+    </tr>
+    <tr class="num">
+      <td>Wounds</td><td>13</td><td>13</td><td>14</td><td>14</td><td>15</td>
+      <td>15</td><td>16</td><td>16</td><td>16</td><td>17</td><td>17</td>
+      <td>17</td><td>18</td><td>18</td><td>18</td><td>19</td><td>19</td><td>19</td>
+      <td>20</td><td>20</td><td>20</td>
+    </tr>
+  </table>
+  <table id="$D-Combat-2" width="60%">
+    <tr>
+      <th>Modifier</th><th>20</th><th>19</th><th>18</th><th>17</th><th>16</th><th>15</th>
+      <th>14</th><th>13</th><th>12</th><th>11</th><th>10</th><th>9</th><th>8</th>
+      <th>7</th><th>6</th><th>4</th><th>2</th><th>0</th><th>-4</th><th>-10</th>
+    </tr>
+    <tr>
+      <td>Rounds</td><td>30</td><td>27</td><td>24</td><td>22</td><td>19</td><td>17</td>
+      <td>16</td><td>14</td><td>12</td><td>11</td><td>10</td><td>9</td><td>8</td>
+      <td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td>
+    </tr>
+  </table>
+  <table id="$D-Divination" style="width:70%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Correctness</td><td>5%</td><td>7.5%</td><td>10%</td><td>12.5%</td><td>16.667%</td><td>25%</td><td>33.333%</td><td>50%</td><td>66.667%</td>
+    </tr>
+    <tr class="num">
+      <td>Proximity</td><td>2160d</td><td>1080d</td><td>360d</td><td>180d</td><td>60d</td><td>30d</td><td>10d</td><td>6d</td><td>2d</td>
+    </tr>
+  </table>
+  <table id="$D-Knowledge" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+    </tr>
+  </table>
+  <table id="$D-Quality" style="width:30%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Quality</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+3</td>
+    </tr>
+  </table>
+  <table id="$D-Recipes" style="width:60%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td><td>6</td><td>10</td><td>20</td><td>30</td>
+    </tr>
+    <tr class="num">
+      <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td><td>300</td><td>1000</td><td>3000</td><td>10000</td>
+    </tr>
+  </table>
+  <table id="$D-Recipes-2" style="width:50%">
+    <tr>
+      <th>Learn</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr>
+      <td>Time</td><td>5/3</td><td>5/4</td><td>1</td><td>5/6</td><td>5/8</td><td>1/2</td><td>5/12</td>
+    </tr>
+  </table>
+  <table id="$D-Regional" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Conditions</td><td>-</td><td>Local</td><td>Familiar</td><td>Related</td><td>Any</td>
+    </tr>
+  </table>
+  <table id="$D-StarRating" style="width:50%">
+    <tr>
+      <th>Stars</th><th>-</th><th>&#9733;</th><th>&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;</th>
+      <th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th>
+      <th>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</th>
+    </tr>
+    <tr>
+      <td>Skill</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td>
+    </tr>
+    <tr>
+      <td>Attribute</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td>
+    </tr>
+  </table>
   <table id="$D-Travel" style="width:40%">
     <tr>
       <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
@@ -24,98 +245,565 @@
       <td>Hazard</td><td>1d</td><td>2d</td><td>3d</td><td>6d</td><td>10d</td><td>20d</td><td>30d</td><td>60d</td><td>100d</td>
     </tr>
   </table>
-  <table id="$D-Quality" style="width:30%">
+  <table id="$D-Travel-Sail" class="grid2" style="width:50%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Season</th><th colspan="4">Square</th><th colspan="4">Venyn</th>
     </tr>
-    <tr class="num">
-      <td>Quality</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+3</td>
+    <tr>
+      <th>Direction</th><th>N</th><th>S</th><th>E</th><th>W</th><th>N</th><th>S</th><th>E</th><th>W</th>
+    </tr>
+    <tr>
+      <td>Spring</td><td>-3</td><td>0</td><td>+4</td><td>-4</td><td>-3</td><td>-3</td><td>+1</td><td>-3</td>
+    </tr>
+    <tr>
+      <td>Summer</td><td>0</td><td>-3</td><td>+2</td><td>-6</td><td>-2</td><td>-4</td><td>+1</td><td>-3</td>
+    </tr>
+    <tr>
+      <td>Autumn</td><td>-1</td><td>0</td><td>+3</td><td>-5</td><td>-3</td><td>-3</td><td>+2</td><td>-2</td>
+    </tr>
+    <tr>
+      <td>Winter</td><td>-2</td><td>1</td><td>-5</td><td>+3</td><td>-4</td><td>-2</td><td>+1</td><td>-3</td>
+    </tr>
+    <tr><th colspan="8" style="padding:1px;"/></tr>
+    <tr>
+      <th>Sailing Grade</th><th>A</th><th>C</th><th>D</th><th>E</th><th>A</th><th>C</th><th>D</th><th>E</th>
+    </tr>
+    <tr>
+      <td>Modifier</td><td>+3</td><td>-4</td><td>-6</td><td>-8</td><td>+4</td><td>-2</td><td>-4</td><td>-6</td>
     </tr>
   </table>
-  <table id="$D-Knowledge" style="width:40%">
+  <table id="$D-Travel-Season" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Weather</th><th>Nuzyael</th><th>Peonu</th><th>Kelen</th><th>Nolus</th><th>Larane</th><th>Agrazhar</th><th>Azura</th><th>Halane</th><th>Savor</th><th>Ilvin</th><th>Navek</th><th>Morgath</th>
     </tr>
-    <tr class="num">
-      <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+    <tr>
+      <td>Travel</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+4</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-4</td><td>-2</td>
+    </tr>
+    <tr>
+      <td>Hazard</td><td>-5</td><td>0</td><td>+5</td><td>+10</td><td>+20</td><td>+10</td><td>+5</td><td>0</td><td>-5</td><td>-10</td><td>-20</td><td>-10</td>
     </tr>
   </table>
-  <table id="$D-Accuracy" style="width:80%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Error</td><td>100% (0+)</td><td>60% (0.4-2.5)</td><td>20% (0.8-1.25)</td><td>6% (0.94-1.06)</td>
-    </tr>
-  </table>
-  <table id="$D-Weatherlore" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>0.25h</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
-    </tr>
-  </table>
-  <table id="$D-Timbercraft" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Yield</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>60d</td><td>40d</td><td>30d</td><td>20d</td><td>15d</td>
-    </tr>
-  </table>
-  <table id="$D-Throwing" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Distance</td><td>10m</td><td>20m</td><td>40m</td><td>60m</td><td>100m</td>
-    </tr>
-  </table>
-  <table id="$D-Swimming" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Weather</td><td>Bft 0</td><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
-    </tr>
-    <tr class="num">
-      <td>Speed</td><td>-10m/s</td><td>0.0m/s</td><td>0.5m/s</td><td>1m/s</td><td>2m/s</td>
-    </tr>
-  </table>
-  <table id="$D-Regional" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Conditions</td><td>-</td><td>Local</td><td>Familiar</td><td>Related</td><td>Any</td>
-    </tr>
-  </table>
-  <table id="$D-Strength"  style="width:60%">
+  <table id="$D-Hazard-2" style="width:40%">
     <tr>
       <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
-    <tr class="num">
-      <td>Weight</td><td>16lbs</td><td>25lbs</td><td>45lbs</td><td>70lbs</td><td>100lbs</td><td>160lbs</td><td>250lbs</td><td>450lbs</td><td>700lbs</td>
+    <tr>
+      <td>Reduction</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-3</td><td>-4</td><td>-5</td><td>-6</td>
     </tr>
   </table>
-  <table id="$D-Stamina" style="width:60%">
+  <table id="$D-Yield" style="width:90%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td><td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
+    </tr>
+    <tr class="num">
+      <td>Time</td><td>48h</td><td>24h</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td><td>1h</td><td>0.7h</td><td>0.5h</td><td>0.4h</td><td>0.3h</td>
+    </tr>
+  </table>
+  <table id="Skilllist" style="width:35%">
+    <tr>
+      <th>Score</th><th>20</th><th>40</th><th>60</th><th>80</th><th>100</th><th>120</th><th>140</th>
+    </tr>
+    <tr>
+      <td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+    </tr>
+    <tr>
+      <td>2</td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>3</td>
+    </tr>
+    <tr>
+      <td>3</td><td>1</td><td>1</td><td>2</td><td>2</td><td>3</td><td>4</td><td>4</td>
+    </tr>
+    <tr>
+      <td>4</td><td>1</td><td>2</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+    </tr>
+    <tr>
+      <td>5</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+    </tr>
+    <tr>
+      <td>6</td><td>1</td><td>2</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+    </tr>
+    <tr>
+      <td>7</td><td>1</td><td>3</td><td>4</td><td>6</td><td>7</td><td>8</td><td>10</td>
+    </tr>
+    <tr>
+      <td>8</td><td>2</td><td>3</td><td>5</td><td>6</td><td>8</td><td>10</td><td>11</td>
+    </tr>
+    <tr>
+      <td>9</td><td>2</td><td>4</td><td>5</td><td>7</td><td>9</td><td>11</td><td>13</td>
+    </tr>
+    <tr>
+      <td>10</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td>
+    </tr>
+    <tr>
+      <td>11</td><td>2</td><td>4</td><td>7</td><td>9</td><td>11</td><td>13</td><td>15</td>
+    </tr>
+    <tr>
+      <td>12</td><td>2</td><td>5</td><td>7</td><td>10</td><td>12</td><td>14</td><td>17</td>
+    </tr>
+    <tr>
+      <td>13</td><td>3</td><td>5</td><td>8</td><td>10</td><td>13</td><td>16</td><td>18</td>
+    </tr>
+    <tr>
+      <td>14</td><td>3</td><td>6</td><td>8</td><td>11</td><td>14</td><td>17</td><td>20</td>
+    </tr>
+    <tr>
+      <td>15</td><td>3</td><td>6</td><td>9</td><td>12</td><td>15</td><td>18</td><td>21</td>
+    </tr>
+    <tr>
+      <td>16</td><td>3</td><td>6</td><td>10</td><td>13</td><td>16</td><td>19</td><td>22</td>
+    </tr>
+    <tr>
+      <td>17</td><td>3</td><td>7</td><td>10</td><td>14</td><td>17</td><td>20</td><td>24</td>
+    </tr>
+    <tr>
+      <td>18</td><td>4</td><td>7</td><td>11</td><td>14</td><td>18</td><td>22</td><td>25</td>
+    </tr>
+    <tr>
+      <td>19</td><td>4</td><td>8</td><td>11</td><td>15</td><td>19</td><td>23</td><td>27</td>
+    </tr>
+    <tr>
+      <td>20</td><td>4</td><td>8</td><td>12</td><td>16</td><td>20</td><td>24</td><td>28</td>
+    </tr>
+    <tr>
+      <td>21</td><td>4</td><td>8</td><td>13</td><td>17</td><td>21</td><td>25</td><td>29</td>
+    </tr>
+    <tr>
+      <td>22</td><td>4</td><td>9</td><td>13</td><td>18</td><td>22</td><td>26</td><td>31</td>
+    </tr>
+    <tr>
+      <td>23</td><td>5</td><td>9</td><td>14</td><td>18</td><td>23</td><td>28</td><td>32</td>
+    </tr>
+    <tr>
+      <td>24</td><td>5</td><td>10</td><td>14</td><td>19</td><td>24</td><td>29</td><td>34</td>
+    </tr>
+    <tr>
+      <td>25</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td>
+    </tr>
+    <tr>
+      <td>26</td><td>5</td><td>10</td><td>16</td><td>21</td><td>26</td><td>31</td><td>36</td>
+    </tr>
+    <tr>
+      <td>27</td><td>5</td><td>11</td><td>16</td><td>22</td><td>27</td><td>32</td><td>38</td>
+    </tr>
+    <tr>
+      <td>28</td><td>6</td><td>11</td><td>17</td><td>22</td><td>28</td><td>34</td><td>39</td>
+    </tr>
+    <tr>
+      <td>29</td><td>6</td><td>12</td><td>17</td><td>23</td><td>29</td><td>35</td><td>41</td>
+    </tr>
+    <tr>
+      <td>30</td><td>6</td><td>12</td><td>18</td><td>24</td><td>30</td><td>36</td><td>42</td>
+    </tr>
+  </table>
+  <table id="$D-Acrobatics" style="width:75%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Tricks</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td><td>Original</td>
+    </tr>
+    <tr class="num">
+      <td>Rise</td><td>5s</td><td>4s</td><td>3s</td><td>2s</td><td>1s</td>
+    </tr>
+  </table>
+  <table id="$D-Acting" style="width:60%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Repertoire</td><td>Inconsistent</td><td>Self</td><td>Archetype</td>
+      <td>Individual</td><td>Original</td>
+    </tr>
+  </table>
+  <table id="$D-Animalcraft" style="width:30%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Intelligence</td><td>0</td><td>-5</td><td>-10</td><td>-15</td><td>-20</td>
+    </tr>
+  </table>
+  <table id="$D-Climbing" style="width:60%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
+    </tr>
+    <tr class="num">
+      <td>Inclince</td><td>0°</td><td>15°</td><td>30°</td><td>45°</td><td>60°</td><td>75°</td><td>90°</td><td>100°</td><td>110°</td><td>120°</td>
+    </tr>
+    <tr class="num">
+      <td>Speed</td><td>-</td><td>0</td><td>0.25</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>5</td>
+    </tr>
+  </table>
+  <table id="$D-Dexterity" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
+    </tr>
+    <tr class="num">
+      <td>Legerdemain</td><td>+20</td><td>+10</td><td>0</td><td>-10</td><td>-20</td><td>-30</td><td>-40</td>
+    </tr>
+    <tr class="num">
+      <td>Grope</td><td>8s</td><td>6s</td><td>4s</td><td>3s</td><td>2s</td><td>1.5s</td><td>1s</td>
+    </tr>
+  </table>
+  <table id="$D-Embalming" style="width:50%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Decay</td><td>3</td><td>1</td><td>1/3</td><td>1/10</td><td>1/30</td>
+    </tr>
+  </table>
+  <table id="$D-Endurance" style="width:30%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
+    </tr>
+    <tr class="num">
+      <td>Factor</td><td>20</td><td>15</td><td>10</td><td>8</td><td>7</td><td>6</td><td>5</td>
+    </tr>
+  </table>
+  <table id="$D-Eyesight" style="width:40%">
     <tr>
       <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
     </tr>
     <tr class="num">
-      <td>Time factor</td><td>3</td><td>2</td><td>1.5</td><td>1.0</td><td>0.75</td><td>0.5</td><td>0.38</td><td>0.25</td>
+      <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td><td>0.75</td><td>0.5</td><td>0.25</td>
     </tr>
   </table>
-  <table id="$D-Shipwright" style="width:30%">
+  <table id="$D-Fletching" style="width:60%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Time</td><td>120h</td><td>78h</td><td>36h</td><td>24h</td><td>12h</td><td>8h</td><td>3.5h</td><td>2.5h</td><td>1.25h</td>
+    </tr>
+  </table>
+  <table id="$D-Folklore" style="width:80%">
+    <tr>
+      <th>Dimension</th><th>-15</th><th>-5</th><th>5</th><th>15</th><th>25</th>
+    </tr>
+    <tr class="text">
+      <td>Depth</td><td>-</td><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
+    </tr>
+  </table>
+  <table id="$D-Hearing" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
+    </tr>
+    <tr class="num">
+      <td>Distance</td><td>0.1m</td><td>0.3m</td><td>1m</td><td>3m</td><td>10m</td><td>30m</td><td>100m</td><td>300m</td>
+    </tr>
+  </table>
+  <table id="$D-Heraldry" style="width:30%">
     <tr>
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Length</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
+      <td>Passive</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+    </tr>
+  </table>
+  <table id="$D-Herblore" style="width:30%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>True:False</td><td>0.01</td><td>0.1</td><td>1</td><td>10</td><td>100</td>
+    </tr>
+  </table>
+  <table id="$D-Initiative" style="width:50%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Time</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.5</td><td>0.4</td><td>0.3</td><td>0.25</td><td>0.2</td><td>0.15</td><td>0.1</td>
+    </tr>
+  </table>
+  <table id="$D-Jumping" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Height</td><td>0m</td><td>0.5m</td><td>1m</td><td>1.50m</td><td>2m</td>
+    </tr>
+    <tr class="num">
+      <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>4m</td><td>6m</td>
+    </tr>
+  </table>
+  <table id="Language-1" style="width:50%">
+    <tr>
+      <th>Social Class</th><th>Native OML</th>
+    </tr>
+    <tr>
+      <td>Slave/Serf/Urban Poor</td><td>20</td>
+    </tr>
+    <tr>
+      <td>Guildsman/Military</td><td>25</td>
+    </tr>
+    <tr>
+      <td>Cleric/Nobility/Scholar</td><td>30</td>
+    </tr>
+  </table>
+  <table id="Language-2" style="width:60%">
+    <tr>
+      <th>Jarind Family</th><th>Pharic Family</th><th>Azeri Family</th>
+    </tr>
+    <tr>
+      <td><em>Altish</em></td><td><em>Harbaalese</em></td><td>Azeri</td>
+    </tr>
+    <tr>
+      <td><em>Emela</em></td><td><em>Ivinian</em></td><td>Azeryani</td>
+    </tr>
+    <tr>
+      <td><em>Hârnic</em></td><td>Old Trierzi</td><td><em>Byrian</em></td>
+    </tr>
+    <tr>
+      <td>Jarind</td><td><em>Orbaalese</em></td><td>Elbythian</td>
+    </tr>
+    <tr>
+      <td><em>Jarinese</em></td><td><em>Palithanian</em></td><td><em>High Azeryani</em></td>
+    </tr>
+    <tr>
+      <td>Old Altish</td><td>Phari</td><td><em>Karejian</em></td>
+    </tr>
+    <tr>
+      <td>Old Hârnic</td><td>Quar</td><td>Karuia</td>
+    </tr>
+    <tr>
+      <td>Old Jarinese</td><td><em>Quarph</em></td><td><em>Low Azeryani</em></td>
+    </tr>
+    <tr>
+      <td><em>Orbaalese</em></td><td><em>Shorka</em></td><td><em>Urmesh</em></td>
+    </tr>
+    <tr>
+      <td><em>Yarili</em></td><td><em>Trierzi</em></td><td></td>
+    </tr>
+  </table>
+  <table id="$D-Language" style="width:50%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Fluency</td><td>Opaque</td><td>Rudimentary</td><td>Fair</td><td>Fluent</td><td>Mastery</td>
+    </tr>
+  </table>
+  <table id="$D-Law" style="width:50%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Depth</td><td>Unaware</td><td>Ignore</td><td>Notice</td><td>Consideration</td><td>Involvement</td>
+    </tr>
+    <tr class="text">
+      <td>Breadth</td><td>None</td><td>Local</td><td>Feudal</td><td>Guild</td><td>Religion</td>
+    </tr>
+  </table>
+  <table id="$D-Lovecraft" style="width:75%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Expertise</td><td>Unaware</td><td>Instinctive</td><td>Experienced</td><td>Professional</td><td>Elite/Exotic</td>
+    </tr>
+  </table>
+  <table id="Magic-1" style="width:30%">
+    <tr>
+      <th>Chantry Quality</th><th>Convocation ML</th><th>Neutral ML</th>
+    </tr>
+    <tr>
+      <td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>80</td><td>60</td>
+    </tr>
+    <tr>
+      <td>&#9733;&#9733;&#9733;&#9733;</td><td>70</td><td>50</td>
+    </tr>
+    <tr>
+      <td>&#9733;&#9733;&#9733;</td><td>60</td><td>40</td>
+    </tr>
+    <tr>
+      <td>&#9733;&#9733;</td><td>50</td><td>30</td>
+    </tr>
+    <tr>
+      <td>&#9733;</td><td>40</td><td>20</td>
+    </tr>
+  </table>
+  <table id="Magic-2" style="width:40%">
+    <tr>
+      <th>Sunsign</th><th>Lyahvi</th><th>Peleahn</th><th>Jmorvi</th>
+      <th>Fyvria</th><th>Odivshe</th><th>Savorya</th>
+    </tr>
+    <tr>
+      <td>Ulandus</td><td>-3</td><td>-1</td><td>+1</td><td>+3</td><td>+1</td><td>-1</td>
+    </tr>
+    <tr>
+      <td>Aralius</td><td>-2</td><td>0</td><td>+2</td><td>+2</td><td>0</td><td>-2</td>
+    </tr>
+    <tr>
+      <td>Feniri</td><td>-1</td><td>+1</td><td>+3</td><td>+1</td><td>-1</td><td>-3</td>
+    </tr>
+    <tr>
+      <td>Ahnu</td><td>0</td><td>+2</td><td>+2</td><td>0</td><td>-2</td><td>-2</td>
+    </tr>
+    <tr>
+      <td>Angberelius</td><td>+1</td><td>+3</td><td>+1</td><td>-1</td><td>-3</td><td>-1</td>
+    </tr>
+    <tr>
+      <td>Nadai</td><td>+2</td><td>+2</td><td>0</td><td>-2</td><td>-2</td><td>0</td>
+    </tr>
+    <tr>
+      <td>Hirin</td><td>+3</td><td>+1</td><td>-1</td><td>-3</td><td>-1</td><td>+1</td>
+    </tr>
+    <tr>
+      <td>Tarael</td><td>+2</td><td>0</td><td>-2</td><td>-2</td><td>0</td><td>+2</td>
+    </tr>
+    <tr>
+      <td>Tai</td><td>+1</td><td>-1</td><td>-3</td><td>-1</td><td>+1</td><td>+3</td>
+    </tr>
+    <tr>
+      <td>Skorus</td><td>0</td><td>-2</td><td>-2</td><td>0</td><td>+2</td><td>+2</td>
+    </tr>
+    <tr>
+      <td>Masara</td><td>-1</td><td>-3</td><td>-1</td><td>+1</td><td>+3</td><td>+1</td>
+    </tr>
+    <tr>
+      <td>Lado</td><td>-2</td><td>-2</td><td>0</td><td>+2</td><td>+2</td><td>0</td>
+    </tr>
+  </table>
+  <table id="$D-Mathematics" style="width:70%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Concepts</td><td>-</td><td>Single digits</td><td>Multiple digits</td><td>Abstractions</td><td>Unique</td>
+    </tr>
+  </table>
+  <table id="$D-Morale" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-15</th><th>-10</th><th>0</th><th>10</th><th>15</th>
+    </tr>
+    <tr class="text">
+      <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berserk</td>
+    </tr>
+  </table>
+  <table id="$D-Move" style="width:50%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
+    </tr>
+    <tr class="num">
+      <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td><td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
+    </tr>
+  </table>
+  <table id="$D-Physician" style="width:70%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Heal Rate</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
+    </tr>
+  </table>
+  <table id="Piety-1" style="width:90%">
+    <tr>
+      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr>
+      <td>Meaning</td>
+      <td>
+        Character knows that the religion exists but cannot separate
+        it from other convocations.
+      </td>
+      <td>
+        Lip service payed to the religion and ability to separate it
+        from other major faiths.
+      </td>
+      <td>
+        The main tenants are known and followed individually.
+        Sects/heresies are not considered.
+      </td>
+      <td>
+        Religion is quoted often and other faiths routinely treated
+        underhanded.
+      </td>
+      <td>
+        Adherent is seeking to further the religion outside of his
+        immediate domain.  Distinction between inner-religion minutiae
+        are important.
+      </td>
+      <td>
+        Heresy is abhorred.  Support for the religion takes precedent
+        over other interests.
+      </td>
+      <td>
+        Adherent is a prophet and accepts serious consequences for
+        following details of his faith.  May invent rituals and the
+        like.
+      </td>
+    </tr>
+  </table>
+  <table id="PsiTalents-1" style="width:90%">
+    <tr>
+      <th>Talent</th><th>Sunsign</th>
+      <th>Talent</th><th>Sunsign</th>
+    </tr>
+    <tr>
+      <td>Charm</td><td>Tai/Nadai/Tarael+1</td>
+      <td>Prescience</td><td>Tai/Tarael+1</td>
+    </tr>
+    <tr>
+      <td>Clairvoyance</td><td>Tai+1</td>
+      <td>Psychometry</td><td>Tai/Masara+1</td>
+    </tr>
+    <tr>
+      <td>Disembodiement</td><td>Hirin/Nadai+1</td>
+      <td>Pyrokinesis</td><td>Angberelius/Ahnu/Nadai+1</td>
+    </tr>
+    <tr>
+      <td>Healing</td><td>Masara/Skorus+1</td>
+      <td>Sensitivity</td><td>Tarael/Tai+1</td>
+    </tr>
+    <tr>
+      <td>Hex</td><td>Ahnu+1</td>
+      <td>Telekinesis</td><td>Nadai/Ahnu+1</td>
+    </tr>
+    <tr>
+      <td>Medium</td><td>Tai+1</td>
+      <td>Telepathy</td><td>Tarael/Tai/Skorus+1</td>
+    </tr>
+    <tr>
+      <td>Mental Bolt</td><td>Ahnu+1</td>
+      <td>Transference</td><td>Tarael/Tai+1</td>
+    </tr>
+    <tr>
+      <td>Negation</td><td>Feniri+1</td>
+      <td>Transmutation</td><td>Tarael/Tai+1</td>
+    </tr>
+  </table>
+  <table id="$D-PsiConflict" width="40%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Fatigue Rate</td><td>100</td><td>30</td><td>10</td><td>3</td><td>1</td>
+    </tr>
+  </table>
+  <table id="$D-PsiTalents" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Bloodloss</td><td>8.0</td><td>6.3</td><td>5.0</td><td>4.0</td><td>3.2</td><td>2.6</td><td>2.0</td>
+    </tr>
+    <tr class="num">
+      <td>Negation</td><td>0.6</td><td>0.8</td><td>1</td><td>1.3</td><td>1.6</td><td>2.0</td><td>2.4</td>
+    </tr>
+  </table>
+  <table id="$D-Rhetoric" style="width:50%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+    </tr>
+    <tr class="text">
+      <td>Awareness</td><td>Noise</td><td>Comprehension</td><td>Listening</td><td>Consideration</td><td>Agreement</td>
+    </tr>
+    <tr class="num">
+      <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
     </tr>
   </table>
   <table id="$D-Ritual" style="width:60%">
@@ -132,179 +820,47 @@
       <td>Casting Time</td><td>1.2</td><td>1.1</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
     </tr>
   </table>
-  <table id="$D-Rhetoric" style="width:50%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Awareness</td><td>Noise</td><td>Comprehension</td><td>Listening</td><td>Consideration</td><td>Agreement</td>
-    </tr>
-    <tr class="num">
-      <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
-    </tr>
-  </table>
-  <table id="$D-PsiTalents" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Bloodloss</td><td>8.0</td><td>6.3</td><td>5.0</td><td>4.0</td><td>3.2</td><td>2.6</td><td>2.0</td>
-    </tr>
-    <tr class="num">
-      <td>Negation</td><td>0.6</td><td>0.8</td><td>1</td><td>1.3</td><td>1.6</td><td>2.0</td><td>2.4</td>
-    </tr>
-  </table>
-  <table id="$D-PsiConflict" width="40%">
+  <table id="$D-Shipwright" style="width:30%">
     <tr>
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Fatigue Rate</td><td>100</td><td>30</td><td>10</td><td>3</td><td>1</td>
+      <td>Length</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
     </tr>
   </table>
-  <table id="$D-Physician" style="width:70%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Heal Rate</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
-    </tr>
-  </table>
-  <table id="$D-Move" style="width:50%">
-    <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
-    </tr>
-    <tr class="num">
-      <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td><td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
-    </tr>
-  </table>
-  <table id="$D-Morale" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-15</th><th>-10</th><th>0</th><th>10</th><th>15</th>
-    </tr>
-    <tr class="text">
-      <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berserk</td>
-    </tr>
-  </table>
-  <table id="$D-Mathematics" style="width:90%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Concepts</td><td>-</td><td>Single digits</td><td>Multiple digits</td><td>Abstractions</td><td>Unique</td>
-    </tr>
-  </table>
-  <table id="$D-Lovecraft" style="width:75%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Expertise</td><td>Unaware</td><td>Instinctive</td><td>Experienced</td><td>Professional</td><td>Elite/Exotic</td>
-    </tr>
-  </table>
-  <table id="$D-Law" style="width:50%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Depth</td><td>Unaware</td><td>Ignore</td><td>Notice</td><td>Consideration</td><td>Involvement</td>
-    </tr>
-    <tr class="text">
-      <td>Breadth</td><td>None</td><td>Local</td><td>Feudal</td><td>Guild</td><td>Religion</td>
-    </tr>
-  </table>
-  <table id="$D-Language" style="width:50%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Fluency</td><td>Opaque</td><td>Rudimentary</td><td>Fair</td><td>Fluent</td><td>Mastery</td>
-    </tr>
-  </table>
-  <table id="$D-Jumping" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Height</td><td>0m</td><td>0.5m</td><td>1m</td><td>1.50m</td><td>2m</td>
-    </tr>
-    <tr class="num">
-      <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>4m</td><td>6m</td>
-    </tr>
-  </table>
-  <table id="$D-Herblore" style="width:30%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>True:False</td><td>0.01</td><td>0.1</td><td>1</td><td>10</td><td>100</td>
-    </tr>
-  </table>
-  <table id="$D-Heraldry" style="width:30%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Passive</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
-    </tr>
-  </table>
-  <table id="$D-Hearing" style="width:40%">
+  <table id="$D-Stamina" style="width:60%">
     <tr>
       <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
     </tr>
     <tr class="num">
-      <td>Distance</td><td>0.1m</td><td>0.3m</td><td>1m</td><td>3m</td><td>10m</td><td>30m</td><td>100m</td><td>300m</td>
+      <td>Time factor</td><td>3</td><td>2</td><td>1.5</td><td>1.0</td><td>0.75</td><td>0.5</td><td>0.38</td><td>0.25</td>
     </tr>
   </table>
-  <table id="$D-Folklore" style="width:80%">
-    <tr>
-      <th>Dimension</th><th>-15</th><th>-5</th><th>5</th><th>15</th><th>25</th>
-    </tr>
-    <tr class="text">
-      <td>Depth</td><td>-</td><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
-    </tr>
-  </table>
-  <table id="$D-Fletching" style="width:60%">
+  <table id="$D-Strength"  style="width:60%">
     <tr>
       <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Time</td><td>120h</td><td>78h</td><td>36h</td><td>24h</td><td>12h</td><td>8h</td><td>3.5h</td><td>2.5h</td><td>1.25h</td>
+      <td>Weight</td><td>16lbs</td><td>25lbs</td><td>45lbs</td><td>70lbs</td><td>100lbs</td><td>160lbs</td><td>250lbs</td><td>450lbs</td><td>700lbs</td>
     </tr>
   </table>
-  <table id="$D-Eyesight" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
-    </tr>
-    <tr class="num">
-      <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td><td>0.75</td><td>0.5</td><td>0.25</td>
-    </tr>
-  </table>
-  <table id="$D-Endurance" style="width:30%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th>
-    </tr>
-    <tr class="num">
-      <td>Factor</td><td>20</td><td>15</td><td>10</td><td>8</td><td>7</td><td>6</td><td>5</td>
-    </tr>
-  </table>
-  <table id="$D-Embalming" style="width:50%">
+  <table id="$D-Swimming" style="width:40%">
     <tr>
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Decay</td><td>3</td><td>1</td><td>1/3</td><td>1/10</td><td>1/30</td>
+      <td>Weather</td><td>Bft 0</td><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
+    </tr>
+    <tr class="num">
+      <td>Speed</td><td>-10m/s</td><td>0.0m/s</td><td>0.5m/s</td><td>1m/s</td><td>2m/s</td>
     </tr>
   </table>
-  <table id="$D-Dexterity" style="width:40%">
+  <table id="$D-Throwing" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Legerdemain</td><td>+20</td><td>+10</td><td>0</td><td>-10</td><td>-20</td><td>-30</td><td>-40</td>
-    </tr>
-    <tr class="num">
-      <td>Grope</td><td>8s</td><td>6s</td><td>4s</td><td>3s</td><td>2s</td><td>1.5s</td><td>1s</td>
+      <td>Distance</td><td>10m</td><td>20m</td><td>40m</td><td>60m</td><td>100m</td>
     </tr>
   </table>
   <table id="$D-Artistic" style="width:70%">
@@ -315,144 +871,1375 @@
       <td>Complexity Level</td><td>Imperceptible</td><td>Rhythmic / Child</td><td>Simple / Folk</td><td>Complex / Art</td><td>Unique / Original</td>
     </tr>
   </table>
-  <table id="$D-Climbing" style="width:60%">
+  <table id="$D-Timbercraft" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Inclince</td><td>0°</td><td>15°</td><td>30°</td><td>45°</td><td>60°</td><td>75°</td><td>90°</td><td>100°</td><td>110°</td><td>120°</td>
+      <td>Yield</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td>
     </tr>
     <tr class="num">
-      <td>Speed</td><td>-</td><td>0</td><td>0.25</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>5</td>
+      <td>Time</td><td>60d</td><td>40d</td><td>30d</td><td>20d</td><td>15d</td>
     </tr>
   </table>
-  <table id="$D-Combat" style="width:80%">
+  <table id="$D-Weatherlore" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-19</th><th>-18</th><th>-17</th><th>-16</th>
-      <th>-15</th><th>-14</th><th>-13</th><th>-12</th><th>-11</th><th>-10</th>
-      <th>-9</th><th>-8</th><th>-7</th><th>-6</th><th>-5</th><th>-4</th><th>-3</th>
-      <th>-2</th><th>-1</th><th>0</th>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Time</td><td>300</td><td>270</td><td>240</td><td>220</td><td>190</td>
-      <td>170</td><td>160</td><td>140</td><td>120</td><td>110</td><td>100</td>
-      <td>89</td><td>79</td><td>70</td><td>62</td><td>55</td><td>49</td><td>43</td>
-      <td>38</td><td>34</td><td>30</td>
-    </tr>
-    <tr class="num">
-      <td>Rounds</td><td>30</td><td>27</td><td>24</td><td>22</td><td>19</td>
-      <td>17</td><td>16</td><td>14</td><td>12</td><td>11</td><td>10</td>
-      <td>9</td><td>8</td><td>7</td><td>6</td><td>6</td><td>5</td><td>4</td>
-      <td>4</td><td>3</td><td>3</td>
-    </tr>
-    <tr class="num">
-      <td>Wounds</td><td>-40</td><td>-37</td><td>-34</td><td>-31</td><td>-28</td>
-      <td>-25</td><td>-23</td><td>-21</td><td>-19</td><td>-17</td><td>-15</td>
-      <td>-13</td><td>-11</td><td>-9</td><td>-7</td><td>-5</td><td>-4</td><td>-3</td>
-      <td>-2</td><td>-1</td><td>0</td>
-    </tr>
-    <tr><th colspan="12" style="padding:1px;"/></tr>
-    <tr>
-      <th>Dimension</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
-      <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th>
-      <th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th>
-      <th>19</th><td>20</td>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>30</td><td>27</td><td>24</td><td>22</td><td>19</td><td>17</td>
-      <td>16</td><td>14</td><td>12</td><td>11</td><td>10</td><td>8.9</td><td>7.9</td>
-      <td>7.0</td><td>6.2</td><td>5.5</td><td>4.9</td><td>4.3</td><td>3.8</td>
-      <td>3.4</td><td>3.0</td>
-    </tr>
-    <tr class="num">
-      <td>Rounds</td><td>3</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td>
-      <td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
-      <td>0.5</td><td>0.5</td><td>0.5</td><td>0.5</td>
-      <td>0.5</td><td>0.5</td><td>0.25</td><td>0.25</td>
-    </tr>
-    <tr class="num">
-      <td>Wounds</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
-      <td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td>
-      <td>9</td><td>10</td><td>10</td><td>11</td><td>11</td><td>12</td>
-      <td>12</td><td>13</td>
-    </tr>
-    <tr><th colspan="12" style="padding:1px;"/></tr>
-    <tr>
-      <th>Dimension</th><th>20</th><th>21</th><th>22</th><th>23</th><th>24</th>
-      <th>25</th><th>26</th><th>27</th><th>28</th><th>29</th><th>30</th>
-      <th>31</th><th>32</th><th>33</th><th>34</th><th>35</th><th>36</th>
-      <th>37</th><th>38</th><th>39</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>3.0</td><td>2.7</td><td>2.4</td><td>2.2</td><td>1.9</td>
-      <td>1.7</td><td>1.6</td><td>1.4</td><td>1.2</td><td>1.1</td><td>1.0</td>
-      <td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.6</td><td>0.5</td>
-      <td>0.4</td><td>0.4</td><td>0.3</td><td>0.3</td>
-    </tr>
-    <tr class="num">
-      <td>Rounds</td><td>0.25</td><td>0.25</td><td>0.25</td>
-      <td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td>
-      <td>0.25</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-      <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
-    </tr>
-    <tr class="num">
-      <td>Wounds</td><td>13</td><td>13</td><td>14</td><td>14</td><td>15</td>
-      <td>15</td><td>16</td><td>16</td><td>16</td><td>17</td><td>17</td>
-      <td>17</td><td>18</td><td>18</td><td>18</td><td>19</td><td>19</td><td>19</td>
-      <td>20</td><td>20</td><td>20</td>
+      <td>Time</td><td>0.25h</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
     </tr>
   </table>
-  <table id="$D-Divination" style="width:70%">
+  <table id="People" style="width:75%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Modifier</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
+      <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th>
     </tr>
-    <tr class="num">
-      <td>Correctness</td><td>5%</td><td>7.5%</td><td>10%</td><td>12.5%</td><td>16.667%</td><td>25%</td><td>33.333%</td><td>50%</td><td>66.667%</td>
+    <tr>
+      <td>Weight (lbs)</td><td>56-85</td><td>86-110</td><td>111-130</td>
+      <td>131-145</td><td>146-155</td><td>156-170</td><td>171-190</td>
+      <td>191-215</td><td>216-245</td>
     </tr>
-    <tr class="num">
-      <td>Proximity</td><td>2160d</td><td>1080d</td><td>360d</td><td>180d</td><td>60d</td><td>30d</td><td>10d</td><td>6d</td><td>2d</td>
+    <tr>
+      <td>Range (lbs)</td><td>30</td><td>25</td><td>20</td><td>15</td><td>10</td>
+      <td>15</td><td>20</td><td>25</td><td>30</td>
     </tr>
   </table>
-  <table id="$D-Yield" style="width:90%">
+  <table id="Ritual" style="width:30%">
+    <tr><th>Ritual</th><th>Modifier</th></tr>
+    <tr><td>Prayer</td><td>-10</td></tr>
+    <tr><td>Fasting</td><td>-5</td></tr>
+    <tr><td>Confession</td><td>0</td></tr>
+    <tr><td>Daily Mass</td><td>-7.5</td></tr>
+    <tr><td>Monthly Low Mass</td><td>-5</td></tr>
+    <tr><td>Monthly High Mass</td><td>2.5</td></tr>
+    <tr><td>Feast Mass</td><td>10</td></tr>
+    <tr><td>Temple Service</td><td>5</td></tr>
+    <tr><td>Donation/Sacrifice</td><td>0+</td></tr>
+    <tr><td>Quest</td><td>0+</td></tr>
+    <tr><td>Pilgrimage</td><td>0+</td></tr>
+  </table>
+  <table id="Combat-MA" style="width:70%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Additional Targets</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+      <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
+      <th>11</th><th>12</th><th>13</th><th>14</th><th>15</th>
     </tr>
-    <tr class="num">
-      <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td><td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>48h</td><td>24h</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td><td>1h</td><td>0.7h</td><td>0.5h</td><td>0.4h</td><td>0.3h</td>
+    <tr>
+      <td>Bonus</td><td>+2.9</td><td>+5.0</td><td>+6.6</td><td>+7.9</td><td>+9.0</td>
+      <td>+10.0</td><td>+10.8</td><td>+11.6</td><td>+12.3</td><td>12.9</td>
+      <td>13.5</td><td>14.0</td><td>14.5</td><td>15.0</td><td>15.4</td>
     </tr>
   </table>
-  <table id="$D-Recipes" style="width:60%">
+  <table id="Combat-Size" style="width:70%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Modifier</th><th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
+      <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th><th>+5</th>
     </tr>
-    <tr class="num">
-      <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td><td>6</td><td>10</td><td>20</td><td>30</td>
-    </tr>
-    <tr class="num">
-      <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td><td>300</td><td>1000</td><td>3000</td><td>10000</td>
+    <tr>
+      <td>Size</td><td>1ft</td><td>1.5ft</td><td>2ft</td><td>3ft</td><td>4ft</td>
+      <td>6ft</td><td>8ft</td><td>12ft</td><td>16ft</td><td>24ft</td><td>32ft</td>
     </tr>
   </table>
-  <table id="$D-Acrobatics" style="width:75%">
+  <table id="Combat-Fall" style="width:70%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Height (ft)</th><th>0</th><th>5</th><th>10</th>
+      <th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>35</th><th>40</th><th>45</th><th>50</th>
     </tr>
-    <tr class="text">
-      <td>Tricks</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td><td>Original</td>
-    </tr>
-    <tr class="num">
-      <td>Rise</td><td>5s</td><td>4s</td><td>3s</td><td>2s</td><td>1s</td>
+    <tr>
+      <td>Impact (B)</td><td>0</td><td>0</td><td>1</td>
+      <td>3</td><td>5</td><td>10</td><td>15</td>
+      <td>25</td><td>35</td><td>44</td><td>75</td>
     </tr>
   </table>
-  <table id="$D-Animalcraft" style="width:30%">
+  <table id="Joust" style="width:50%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Effect</th><th>Unhorsing</th><th>Own Attack ML</th><th>Shield WQ</th><th>Opponent Attack ML</th>
     </tr>
-    <tr class="num">
-      <td>Intelligence</td><td>0</td><td>-5</td><td>-10</td><td>-15</td><td>-20</td>
+    <tr>
+      <td>Block</td><td>+5</td><td>-3</td><td>-2</td><td>-</td>
     </tr>
+    <tr>
+      <td>Deflect</td><td>-4</td><td>-4</td><td>+1</td><td>-2</td>
+    </tr>
+    <tr>
+      <td>Evade</td><td>-</td><td>-6</td><td>-</td><td>-4</td>
+    </tr>
+    <tr>
+      <td>Lunge</td><td>-2</td><td>+2</td><td>-</td><td>-</td>
+    </tr>
+  </table>
+  <table id="Sunsigns" style="width:70%">
+    <tr>
+      <th>From</th><th>To</th><th>Sunsign</th><th>Symbol</th>
+    </tr>
+    <tr>
+      <td>4th Nuzyael</td><td>3rd Peonu</td><td>Ulanus</td><td>Tree</td>
+    </tr>
+    <tr>
+      <td>4th Peonu</td><td>2nd Kelen</td><td>Aralius</td><td>Wands</td>
+    </tr>
+    <tr>
+      <td>3rd Kelen</td><td>3rd Nolus</td><td>Feniri</td><td>Smith</td>
+    </tr>
+    <tr>
+      <td>4th Nolus</td><td>4th Larane</td><td>Ahnu</td><td>Fire Dragon</td>
+    </tr>
+    <tr>
+      <td>5th Larane</td><td>6th Agrazhar</td><td>Angberelius</td><td>Flaming Sword</td>
+    </tr>
+    <tr>
+      <td>7th Agrazhar</td><td>5th Azura</td><td>Nadai</td><td>Salamander</td>
+    </tr>
+    <tr>
+      <td>6th Azura</td><td>4th Halane</td><td>Hirin</td><td>Eagle</td>
+    </tr>
+    <tr>
+      <td>5th Halane</td><td>3rd Savor</td><td>Tarael</td><td>Pentacle</td>
+    </tr>
+    <tr>
+      <td>4th Savor</td><td>2nd Ilvin</td><td>Tai</td><td>Lantern Bearer</td>
+    </tr>
+    <tr>
+      <td>3rd Ilvin</td><td>2nd Navek</td><td>Skorus</td><td>Mixer</td>
+    </tr>
+    <tr>
+      <td>3rd Navek</td><td>1st Morgat</td><td>Masara</td><td>Chalice</td>
+    </tr>
+    <tr>
+      <td>2nd Morgat</td><td>3rd Nuzyael</td><td>Lado</td><td>Galley</td>
+    </tr>
+  </table>
+  <table id="SocialClass" style="width:50%">
+    <tr>
+      <th></th><th>Tribal</th><th>Viking</th><th>Feudal</th><th>Imperial</th><th>Khuzan</th><th>Sindarin</th>
+    </tr>
+    <tr>
+      <td>Slave</td><td>10%</td><td>15%</td><td>15%</td><td>25%</td><td>-</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Serf</td><td>-</td><td>65%</td><td>55%</td><td>-</td><td>-</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Unguilded</td><td>89%</td><td>13%</td><td>23%</td><td>65%</td><td>15%</td><td>70%</td>
+    </tr>
+    <tr>
+      <td>Guilded</td><td>-</td><td>5%</td><td>5%</td><td>8%</td><td>83%</td><td>29%</td>
+    </tr>
+    <tr>
+      <td>Noble</td><td>1%</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td><td>1%</td>
+    </tr>
+  </table>
+  <table id="Weight" style="width:40%">
+    <tr>
+      <th>Height</th><th>Weight</th>
+    </tr>
+    <tr>
+      <td>40" - 51"</td><td>75 lbs - 97 lbs</td>
+    </tr>
+    <tr>
+      <td>52" - 63"</td><td>100 lbs - 133 lbs</td>
+    </tr>
+    <tr>
+      <td>64" - 71"</td><td>137 lbs - 165 lbs</td>
+    </tr>
+    <tr>
+      <td>72" - 89"</td><td>170 lbs - 255 lbs</td>
+    </tr>
+  </table>
+  <table id="Height" style="width:80%">
+    <tr>
+      <th>Weight</th><td>61-65</td><td>66-75</td><td>76-90</td>
+      <td>91-110</td><td>111-135</td><td>136-165</td><td>166-200</td>
+      <td>201-240</td><td>241-285</td><td>286-335</td>
+    </tr>
+    <tr>
+      <th><b>Size</b></th><td>1</td><td>2</td><td>3</td>
+      <td>4</td><td>5</td><td>6</td><td>7</td>
+      <td>8</td><td>9</td><td>10</td>
+    </tr>
+    <tr>
+      <th>Distribution</th><td>-</td><td>-</td><td>-</td>
+      <td>3%</td><td>27%</td><td>54%</td><td>15%</td>
+      <td>1%</td><td>-</td><td>-</td>
+    </tr>
+  </table>
+  <table id="Frame" style="width:70%">
+    <tr>
+      <th>Frame</th><th>W : H</th><th>Human Males</th><th>Human Females</th><th>Sindarin</th><th>Khuzdul</th>
+    </tr>
+    <tr>
+      <td>Scant</td><td>80%</td><td>5%</td><td>26%</td><td>16%</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Light</td><td>90%</td><td>21%</td><td>36%</td><td>34%</td><td>21%</td>
+    </tr>
+    <tr>
+      <td>Medium</td><td>100%</td><td>48%</td><td>33%</td><td>41%</td><td>37%</td>
+    </tr>
+    <tr>
+      <td>Heavy</td><td>110%</td><td>21%</td><td>5%</td><td>9%</td><td>33%</td>
+    </tr>
+    <tr>
+      <td>Massive</td><td>120%</td><td>5%</td><td>-</td><td>-</td><td>9%</td>
+    </tr>
+  </table>
+  <table id="Complexion" style="width:50%">
+    <tr>
+      <th>Complexion</th><th>Human</th><th>Sindarin</th><th>Khuzdul</th>
+    </tr>
+    <tr>
+      <td>Fair</td><td>25%</td><td>97%</td><td>90%</td>
+    </tr>
+    <tr>
+      <td>Medium</td><td>50%</td><td>2%</td><td>9%</td>
+    </tr>
+    <tr>
+      <td>Dark</td><td>25%</td><td>1%</td><td>1%</td>
+    </tr>
+  </table>
+  <table id="Color" width="75%">
+    <tr>
+      <th>Eye Color</th><th colspan="3">Human</th><th>Sindarin</th><th>Khuzdul</th>
+      <th>Hair Color</th><th colspan="3">Human</th><th>Sindarin</th><th>Khuzdul</th>
+    </tr>
+    <tr>
+      <td/><td>Fair</td><td>Medium</td><td>Dark</td><td/><td/>
+      <td/><td>Fair</td><td>Medium</td><td>Dark</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td>Hazel</td><td>15%</td><td>40%</td><td>65%</td><td>15%</td><td>50%</td>
+      <td>Brown</td><td>15%</td><td>40%</td><td>65%</td><td>25%</td><td>40%</td>
+    </tr>
+    <tr>
+      <td>Gray</td><td>15%</td><td>15%</td><td>15%</td><td>50%</td><td>15%</td>
+      <td>Black</td><td>15%</td><td>15%</td><td>15%</td><td>20%</td><td>5%</td>
+    </tr>
+    <tr>
+      <td>Violet</td><td>5%</td><td>5%</td><td>5%</td><td>10%</td><td>5%</td>
+      <td>Red</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td>25%</td>
+    </tr>
+    <tr>
+      <td>Green</td><td>10%</td><td>10%</td><td>10%</td><td>5%</td><td>15%</td>
+      <td>Silver</td><td>5%</td><td>5%</td><td>5%</td><td>10%</td><td>20%</td>
+    </tr>
+    <tr>
+      <td>Blue</td><td>55%</td><td>30%</td><td>5%</td><td>20%</td><td>15%</td>
+      <td>Blond</td><td>55%</td><td>30%</td><td>5%</td><td>40%</td><td>10%</td>
+    </tr>
+  </table>
+  <table id="Comeliness" style="width:60%">
+    <tr>
+      <th>Comeliness</th><th>Ugly</th><th>Plain</th>
+      <th>Average</th><th>Attractive</th><th>Handsome</th>
+    </tr>
+    <tr>
+      <td>Human, Khuzdul</td><td>5%</td><td>21%</td>
+      <td>48%</td><td>21</td><td>5%</td>
+    </tr>
+    <tr>
+      <td>Sindarin</td><td>-</td><td>9%</td>
+      <td>41%</td><td>34%</td><td>16%</td>
+    </tr>
+  </table>
+  <table id="Physical" style="width:75%">
+    <tr>
+      <td>Value</td><td>&#9733;</td><td>&#9733;&#9733;</td>
+      <td>&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Agility</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <td>Massive Frame</td><td>10%</td><td>50%</td>
+      <td>33%</td><td>7%</td><td>-</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Heavy Frame</td><td>6%</td><td>26%</td><td>55%</td>
+      <td>11%</td><td>1%</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Normal Frame</td><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Light Frame</td><td>1%</td><td>11%</td>
+      <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+    </tr>
+    <tr>
+      <td>Scant Frame</td><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Dexterity</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <td>Human</td><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Khuzdul</td><td>1%</td><td>11%</td>
+      <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+    </tr>
+    <tr>
+      <td>Sindarin</td><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Stamina</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <td>Human</td><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Khuzdul</td><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr>
+      <td>Sindarin</td><td>1%</td><td>11%</td>
+      <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Strength</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <td>Human, Sindarin</td><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Khuzdul</td><td>-</td><td>2%</td><td>13%</td>
+      <td>60%</td><td>20%</td><td>5%</td>
+    </tr>
+  </table>
+  <table id="Senses" style="width:60%">
+    <tr>
+      <th>Value</th><th>&#9733;</th><th>&#9733;&#9733;</th>
+      <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Eyesight</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <th>Khuzdul, Barbarians</th><td>1%</td><td>11%</td>
+      <td>55%</td><td>26%</td><td>6%</td><td>1%</td>
+    </tr>
+    <tr>
+      <th>Sindarin</th><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Hearing</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <th>Barbarians</th><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr>
+      <th>Khuzdul, Sindarin</th><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Smell</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Human</th><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <th>Barbarians, Khuzdul</th><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr>
+      <th>Sindarin</th><td>-</td><td>4%</td><td>21%</td>
+      <td>58%</td><td>14%</td><td>3%</td>
+    </tr>
+  </table>
+  <table id="Voice" style="width:40%">
+    <tr>
+      <th>Voice</th><th>Unbearable</th><th>Unpleasant</th><th>Average</th>
+      <th>Pleasant</th><th>Excellent</th><th>Unearthly</th>
+    </tr>
+    <tr>
+      <td>Human, Khuzdul</td><td>1%</td><td>14%</td><td>65%</td>
+      <td>15%</td><td>5%</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Sindarin</td><td>-</td><td>5%</td><td>33%</td>
+      <td>47%</td><td>8%</td><td>4%</td>
+    </tr>
+  </table>
+  <table id="Mental" style="width:60%">
+    <tr>
+      <th>Value</th><th>&#9733;</th><th>&#9733;&#9733;</th>
+      <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Intelligence</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>All</th><td>4%</td><td>16%</td><td>64%</td>
+      <td>12%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Aura</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Human Males</th><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <th>Human Females</th><td>-</td><td>7%</td><td>33%</td>
+      <td>50%</td><td>8%</td><td>2%</td>
+    </tr>
+    <tr>
+      <th>Khuzdul</th><td>9%</td><td>50%</td><td>32%</td>
+      <td>7%</td><td>3%</td><td>-</td>
+    </tr>
+    <tr>
+      <th>Sindarin</th><td>-</td><td>2%</td><td>13%</td>
+      <td>60%</td><td>20%</td><td>5%</td>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Will</th>
+    </tr>
+    <tr><th colspan="7" style="padding:1px;"/></tr>
+    <tr>
+      <th>Human, Sindarin</th><td>4%</td><td>16%</td><td>60%</td>
+      <td>16%</td><td>4%</td><td>-</td>
+    </tr>
+    <tr>
+      <th>Khuzdul</th><td>-</td><td>4%</td><td>20%</td>
+      <td>58%</td><td>14%</td><td>4%</td>
+    </tr>
+  </table>
+  <table id="Funds" style="width:30%">
+    <tr>
+      <th>Social Class</th><th>Poor</th><th>Average</th><th>Rich</th>
+    </tr>
+    <tr>
+      <td>Serf</td><td>40d</td><td>80d</td><td>160d</td>
+    </tr>
+    <tr>
+      <td>Unguilded</td><td>60d</td><td>120d</td><td>240d</td>
+    </tr>
+    <tr>
+      <td>Guilded</td><td>90d</td><td>180d</td><td>360d</td>
+    </tr>
+    <tr>
+      <td>Noble</td><td>600d</td><td>1200d</td><td>2400d</td>
+    </tr>
+  </table>
+  <table id="Occupations" style="width:90%">
+    <tr>
+      <th>Occupation</th>
+      <th>Years</th>
+      <th>Income</th>
+      <th>Occupation</th>
+      <th>Years</th>
+      <th>Income</th>
+      <th>Occupation</th>
+      <th>Years</th>
+      <th>Income</th>
+    </tr>
+    <tr><th colspan="9" style="padding:1px;"/></tr>
+    <tr>
+      <th colspan="3">Guilded</th>
+      <th colspan="3">Unguilded</th>
+      <th colspan="3">Military</th>
+    </tr>
+    <tr><th colspan="9" style="padding:1px;"/></tr>
+    <tr>
+      <td>Alchemist</td><td>7</td><td>~</td>
+      <td>Animal Trainer</td><td>3</td><td>72d</td>
+      <td>Archer/SB</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Apothecary</td><td>6</td><td>60d</td>
+      <td>Beggar</td><td>1</td><td>~</td>
+      <td>Clansman/UF</td><td>4</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Astrologer</td><td>4</td><td>~</td>
+      <td>Cartographer/Artist</td><td>5</td><td>84d</td>
+      <td>Clansman/LF</td><td>4</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Chandler</td><td>4</td><td>54d</td>
+      <td>Cook</td><td>3</td><td>30d</td>
+      <td>Guard/MF</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Charcoaler</td><td>3</td><td>54d</td>
+      <td>Farmhand</td><td>4</td><td>24d</td>
+      <td>Guard/HF</td><td>4</td><td>72d</td>
+    </tr>
+    <tr>
+      <td>Clothier</td><td>6</td><td>60d</td>
+      <td>Fisherman</td><td>5</td><td>48d</td>
+      <td>Guardian/MF</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Courtesan</td><td>3</td><td>~</td>
+      <td>Gladiator</td><td>4</td><td>~</td>
+      <td>Guardsman/LF</td><td>4</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Embalmer</td><td>7</td><td>48d</td>
+      <td>Herdsman</td><td>2</td><td>24d</td>
+      <td>Guardsman/MF</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Glassworker</td><td>7</td><td>66d</td>
+      <td>Hunter/Trapper</td><td>5</td><td>42d</td>
+      <td>Horsebow/LH</td><td>4</td><td>96d</td>
+    </tr>
+    <tr>
+      <td>Harper</td><td>7</td><td>42d</td>
+      <td>Laborer/Porter</td><td>1</td><td>42d</td>
+      <td>Huscarl/MF</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Herald</td><td>5</td><td>78d</td>
+      <td>Longshoreman</td><td>1</td><td>42d</td>
+      <td>Huscarl/LH</td><td>4</td><td>96d</td>
+    </tr>
+    <tr>
+      <td>Hideworker</td><td>5</td><td>60d</td>
+      <td>Prostitute/Pimp</td><td>1</td><td>~</td>
+      <td>Infantry/LF</td><td>4</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Innkeeper</td><td>5</td><td>60d</td>
+      <td>Ratter</td><td>3</td><td>60d</td>
+      <td>Infantry/MF</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Jeweller</td><td>7</td><td>66d</td>
+      <td>Sage/Tutor</td><td>5</td><td>84d</td>
+      <td>Knight/MH</td><td>4</td><td>192d</td>
+    </tr>
+    <tr>
+      <td>Lexigrapher</td><td>5</td><td>66d</td>
+      <td>Scribe</td><td>5</td><td>66d</td>
+      <td>Knight/HH</td><td>4</td><td>288d</td>
+    </tr>
+    <tr>
+      <td>Litigant</td><td>7</td><td>72d</td>
+      <td>Servant</td><td>3</td><td>24d</td>
+      <td>Legionaire/LF</td><td>4</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Locksmith</td><td>6</td><td>60d</td>
+      <td>Teamster</td><td>2</td><td>72d</td>
+      <td>Legionaire/MF</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Mason</td><td>7</td><td>96d</td>
+      <td>Thatcher</td><td>4</td><td>54d</td>
+      <td>Legionaire/SB</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Mercantyler</td><td>6</td><td>~</td>
+      <td>Toymaker</td><td>5</td><td>48d</td>
+      <td>Militia/UF</td><td>4</td><td>~</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Metalsmith</td><td rowspan="3">6</td><td rowspan="3">72d</td>
+      <th colspan="3" style="padding:1px;"/>
+      <td rowspan="3">Patrician (Knight)</td><td rowspan="3">4</td><td rowspan="3">192d</td>
+    </tr>
+    <tr>
+      <th colspan="3">Cleric</th>
+    </tr>
+    <tr>
+      <th colspan="3" style="padding:1px;"/>
+    </tr>
+    <tr>
+      <td>Miller/Millwright</td><td>6</td><td>84d</td>
+      <td>Cleric/Agrik</td><td>7</td><td>~</td>
+      <td>Ranger/LF</td><td>4</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Miner</td><td>6</td><td>84d</td>
+      <td>Cleric/Halea</td><td>7</td><td>~</td>
+      <td>Ranger/UF</td><td>4</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Ostler</td><td>5</td><td>78d</td>
+      <td>Cleric/Ilvir</td><td>7</td><td>~</td>
+      <td>Yeoman/LB</td><td>4</td><td>72d</td>
+    </tr>
+    <tr>
+      <td>Perfumer</td><td>6</td><td>66d</td>
+      <td>Cleric/Larani</td><td>7</td><td>~</td>
+      <td>Yeoman/LF</td><td>4</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Physician</td><td>7</td><td>72d</td>
+      <td>Cleric/Morgath</td><td>7</td><td>~</td>
+      <td>Yeoman/SB</td><td>4</td><td>48d</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Pilot</td><td rowspan="3">9</td><td rowspan="3">~</td>
+      <td rowspan="3">Cleric/Naveh</td><td rowspan="3">7</td><td rowspan="3">~</td>
+      <th colspan="3" style="padding:1px;"/>
+    </tr>
+    <tr>
+      <th colspan="3">Shek-Pvar</th>
+    </tr>
+    <tr>
+      <th colspan="3" style="padding:1px;"/>
+    </tr>
+    <tr>
+      <td>Potter</td><td>6</td><td>60d</td>
+      <td>Cleric/Peoni</td><td>7</td><td>~</td>
+      <td>Shek-Pvar/Fyvria</td><td>7</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Salter</td><td>4</td><td>48d</td>
+      <td>Cleric/Sarajin</td><td>7</td><td>~</td>
+      <td>Shek-Pvar/Jmorvi</td><td>7</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Seaman</td><td>5</td><td>48d</td>
+      <td>Cleric/Hyn-Aelori</td><td>7</td><td>~</td>
+      <td>Shek-Pvar/Lyahvi</td><td>7</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Shipwright</td><td>7</td><td>90d</td>
+      <td>Cleric/Rydequeln</td><td>7</td><td>~</td>
+      <td>Shek-Pvar/Odivshe</td><td>7</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Tentmaker</td><td>5</td><td>72d</td>
+      <td>Cleric/Shea-Al-Aecori</td><td>7</td><td>~</td>
+      <td>Shek-Pvar/Peleahn</td><td>7</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Thespian</td><td>7</td><td>~</td>
+      <td>Cleric/Siem</td><td>7</td><td>~</td>
+      <td>Shek-Pvar/Savorya</td><td>7</td><td>~</td>
+    </tr>
+    <tr>
+      <td>Thief (Lia-Kavair)</td><td>3</td><td>~</td>
+      <td></td><td></td><td></td>
+      <td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td>Timberwright</td><td>6</td><td>78d</td>
+      <td></td><td></td><td></td>
+      <td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td>Weaponcrafter</td><td>7</td><td>108d</td>
+      <td></td><td></td><td></td>
+      <td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td>Woodcrafter</td><td>7</td><td>66d</td>
+      <td></td><td></td><td></td>
+      <td></td><td></td><td></td>
+    </tr>
+  </table>
+  <table id="Clerics" style="width:60%">
+    <tr>
+      <th>Church</th><th>Language</th><th>Script</th><th>Temple Tongue</th>
+    </tr>
+    <tr>
+      <td>Agrik</td><td>Azeryani</td><td>Zerin</td><td>Surikal</td>
+    </tr>
+    <tr>
+      <td>Halea</td><td>Karuia</td><td>Zerin</td><td></td>
+    </tr>
+    <tr>
+      <td>Ilvir</td><td>Old Jarinese</td><td>Khruni</td><td>Ivashi</td>
+    </tr>
+    <tr>
+      <td>Larani</td><td>Emela</td><td>Khruni</td><td></td>
+    </tr>
+    <tr>
+      <td>Morgath</td><td>Azeri</td><td>Nuvesarl</td><td>Ormauk</td>
+    </tr>
+    <tr>
+      <td>Naveh</td><td>Besha</td><td>Neramic</td><td></td>
+    </tr>
+    <tr>
+      <td>Peoni</td><td>Emela</td><td>Khruni</td><td></td>
+    </tr>
+    <tr>
+      <td>Sarajin</td><td>Ivinian</td><td>Runic</td><td></td>
+    </tr>
+    <tr>
+      <td>Save-K’nor</td><td>Azeri</td><td>Tianta</td><td></td>
+    </tr>
+    <tr>
+      <td>Siem</td><td>Sindarin</td><td>Selenian</td><td></td>
+    </tr>
+  </table>
+  <table id="Rituals" style="width:50%">
+    <tr>
+      <th>Circle</th><th>Office</th>
+    </tr>
+    <tr>
+      <td>I</td><td>Laity</td>
+    </tr>
+    <tr>
+      <td>II</td><td>Acolyte, Lay Grandmaster</td>
+    </tr>
+    <tr>
+      <td>III</td><td>Priest</td>
+    </tr>
+    <tr>
+      <td>IV</td><td>High Priest, Abbot</td>
+    </tr>
+    <tr>
+      <td>V</td><td>Bishop, Archbishop</td>
+    </tr>
+    <tr>
+      <td>VI</td><td>Primate, Cardinal</td>
+    </tr>
+    <tr>
+      <td>VII</td><td>Pontiff (if applicable)</td>
+    </tr>
+  </table>
+  <table id="Weapons-1" style="width:90%">
+    <tr>
+      <th>Weapon</th><th>Skill</th><th>WT</th><th>WQ</th>
+      <th>A/D</th><th>HM</th><th>B</th><th>E</th><th>P</th><th>Price</th>
+    </tr>
+    <tr>
+      <td>Hand/Arm</td><td>Unarmed</td><td>-</td><td>-</td>
+      <td>0/3</td><td>-</td><td>0</td><td>-</td><td>-</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Foot/Keg/Knee</td><td>Unarmed</td><td>-</td><td>-</td>
+      <td>1/1</td><td>-</td><td>1</td><td>-</td><td>-</td><td>-</td>
+    </tr>
+    <tr>
+      <td>Head</td><td>Unarmed</td><td>-</td><td>-</td>
+      <td>0/0</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>-</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Buckler</td><td>Shield</td><td>3</td><td>13</td>
+      <td>1/3</td><td>-</td><td>1</td><td>-</td><td>(2)</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Knight (C)</td><td>Shield</td><td>5</td><td>14</td>
+      <td>1/4</td><td>-</td><td>2</td><td>-</td><td>(3)</td><td>60d</td>
+    </tr>
+    <tr>
+      <td>Round</td><td>Shield</td><td>6</td><td>14</td>
+      <td>1/4</td><td>-</td><td>2</td><td>-</td><td>(3)</td><td>42d</td>
+    </tr>
+    <tr>
+      <td>Kite (C)</td><td>Shield</td><td>7</td><td>15</td>
+      <td>1/5</td><td>-</td><td>3</td><td>-</td><td>(3)</td><td>72d</td>
+    </tr>
+    <tr>
+      <td>Tower</td><td>Shield</td><td>8</td><td>15</td>
+      <td>1/5</td><td>-</td><td>3</td><td>-</td><td>(3)</td><td>96d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Knife (T)</td><td>Dagger</td><td>1</td><td>11</td>
+      <td>1/0</td><td>-</td><td>0</td><td>1</td><td>4</td><td>M/6d</td>
+    </tr>
+    <tr>
+      <td>Dagger</td><td>Dagger</td><td>1</td><td>12</td>
+      <td>1/1</td><td>-</td><td>1</td><td>2</td><td>5</td><td>24d</td>
+    </tr>
+    <tr>
+      <td>Taburi (M)</td><td>Dagger</td><td>1</td><td>10</td>
+      <td>1/0</td><td>-</td><td>0</td><td>-</td><td>4</td><td>20d</td>
+    </tr>
+    <tr>
+      <td>Keltan</td><td>Dagger</td><td>2</td><td>13</td>
+      <td>1/2</td><td>-</td><td>2</td><td>0</td><td>3</td><td>36d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Longknife (S)</td><td>Sword</td><td>1</td><td>13</td>
+      <td>2/3</td><td>-</td><td>1</td><td>3</td><td>5</td><td>96d</td>
+    </tr>
+    <tr>
+      <td>Shortsword</td><td>Sword</td><td>2</td><td>13</td>
+      <td>2/1</td><td>-</td><td>2</td><td>4</td><td>4</td><td>90d</td>
+    </tr>
+    <tr>
+      <td>Mankar</td><td>Sword</td><td>2</td><td>12</td>
+      <td>2/1</td><td>-</td><td>2</td><td>5</td><td>0</td><td>84d</td>
+    </tr>
+    <tr>
+      <td>Mang</td><td>Sword</td><td>3</td><td>12</td>
+      <td>3/2</td><td>-1</td><td>3</td><td>6</td><td>0</td><td>110d</td>
+    </tr>
+    <tr>
+      <td>Broadsword (C)</td><td>Sword</td><td>3</td><td>13</td>
+      <td>3/2</td><td>-</td><td>3</td><td>5</td><td>3</td><td>150d</td>
+    </tr>
+    <tr>
+      <td>Estoc (C)</td><td>Sword</td><td>3</td><td>12</td>
+      <td>3/2</td><td>-</td><td>3</td><td>0</td><td>6</td><td>150d</td>
+    </tr>
+    <tr>
+      <td>Falchion</td><td>Sword</td><td>4</td><td>13</td>
+      <td>3/1</td><td>-</td><td>4</td><td>6</td><td>1</td><td>120d</td>
+    </tr>
+    <tr>
+      <td>Bastard sword (C)</td><td>Sword</td><td>5</td><td>13</td>
+      <td>4/2</td><td>-2</td><td>4</td><td>7</td><td>4</td><td>180d</td>
+    </tr>
+    <tr>
+      <td>Battle sword (C)</td><td>Sword</td><td>8</td><td>14</td>
+      <td>5/2</td><td>-4</td><td>5</td><td>8</td><td>4</td><td>230d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Stick (2ft) (T)</td><td>Club</td><td>2</td><td>10</td>
+      <td>1/1</td><td>-</td><td>2</td><td>-</td><td>(2)</td><td>n/a</td>
+    </tr>
+    <tr>
+      <td>Club (T)</td><td>Club</td><td>3</td><td>10</td>
+      <td>3/1</td><td>-</td><td>4</td><td>-</td><td>(3)</td><td>W/12d</td>
+    </tr>
+    <tr>
+      <td>Mace (C)</td><td>Club</td><td>4</td><td>12</td>
+      <td>3/1</td><td>-</td><td>6</td><td>-</td><td>-</td><td>84d</td>
+    </tr>
+    <tr>
+      <td>Morningstar</td><td>Club</td><td>5</td><td>12</td>
+      <td>4/1</td><td>-2</td><td>0</td><td>-</td><td>5</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Maul (T)</td><td>Club</td><td>7</td><td>10</td>
+      <td>4/1</td><td>-4</td><td>7</td><td>-</td><td>-</td><td>W/24d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Sickle (C)</td><td>Axe</td><td>1</td><td>10</td>
+      <td>1/1</td><td>-</td><td>1</td><td>4</td><td>3</td><td>M/10d</td>
+    </tr>
+    <tr>
+      <td>Shorkana (M)</td><td>Axe</td><td>2</td><td>11</td>
+      <td>1/1</td><td>-</td><td>3</td><td>5</td><td>-</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Hatchet (T)</td><td>Axe</td><td>2</td><td>10</td>
+      <td>1/1</td><td>-</td><td>3</td><td>4</td><td>-</td><td>M/12d</td>
+    </tr>
+    <tr>
+      <td>Handaxe</td><td>Axe</td><td>3</td><td>12</td>
+      <td>2/1</td><td>-</td><td>4</td><td>6</td><td>(4)</td><td>72d</td>
+    </tr>
+    <tr>
+      <td>Warhammer (C)</td><td>Axe</td><td>5</td><td>12</td>
+      <td>3/1</td><td>-1</td><td>6</td><td>-</td><td>(5)</td><td>90d</td>
+    </tr>
+    <tr>
+      <td>Battleaxe (C)</td><td>Axe</td><td>6</td><td>13</td>
+      <td>4/2</td><td>-3</td><td>6</td><td>9</td><td>(6)</td><td>100d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Nachaka (R)</td><td>Flail</td><td>1</td><td>11</td>
+      <td>3/2</td><td>-</td><td>4</td><td>-</td><td>-</td><td>12d</td>
+    </tr>
+    <tr>
+      <td>Grainflail (T)</td><td>Flail</td><td>2</td><td>10</td>
+      <td>4/1</td><td>-</td><td>5</td><td>-</td><td>-</td><td>W/12d</td>
+    </tr>
+    <tr>
+      <td>Ball &#0038; Chain (C)</td><td>Flail</td><td>4</td><td>13</td>
+      <td>4/2</td><td>-</td><td>8</td><td>-</td><td>(6)</td><td>60d</td>
+    </tr>
+    <tr>
+      <td>Warflail</td><td>Flail</td><td>5</td><td>12</td>
+      <td>5/2</td><td>-4</td><td>9</td><td>-</td><td>(6)</td><td>60d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Staff (C)</td><td>Spear</td><td>4</td><td>12</td>
+      <td>4/3</td><td>-2</td><td>4</td><td>-</td><td>-</td><td>W/36d</td>
+    </tr>
+    <tr>
+      <td>Javelin (M)</td><td>Spear</td><td>3</td><td>11</td>
+      <td>3/1</td><td>-2</td><td>2</td><td>-</td><td>6</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Spear (6ft) (M)</td><td>Spear</td><td>5</td><td>12</td>
+      <td>4/2</td><td>-2</td><td>4</td><td>-</td><td>7</td><td>60d</td>
+    </tr>
+    <tr>
+      <td>Trident</td><td>Spear</td><td>6</td><td>13</td>
+      <td>4/3</td><td>-2</td><td>4</td><td>-</td><td>5</td><td>72d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Lance (10ft) (C)</td><td>Polearm</td><td>8</td><td>12</td>
+      <td>5/1</td><td>-3</td><td>4</td><td>-</td><td>8</td><td>120d</td>
+    </tr>
+    <tr>
+      <td>Glaive/Bill (L) </td><td>Polearm</td><td>8</td><td>12</td>
+      <td>5/2</td><td>-4</td><td>6</td><td>7</td><td>6</td><td>84d</td>
+    </tr>
+    <tr>
+      <td>Jousting Pole (L)(C)</td><td>Polearm</td><td>8</td><td>9</td>
+      <td>5/1</td><td>-5</td><td>3</td><td>-</td><td>-</td><td>40d</td>
+    </tr>
+    <tr>
+      <td>Poleaxe (10ft) (C)</td><td>Polearm</td><td>8</td><td>12</td>
+      <td>5/1</td><td>-3</td><td>6</td><td>9</td><td>6</td><td>96d</td>
+    </tr>
+    <tr>
+      <td>Pike (12ft) (R)</td><td>Polearm</td><td>12</td><td>13</td>
+      <td>5/1</td><td>-5</td><td>4</td><td>-</td><td>8</td><td>96d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Net</td><td>Net</td><td>4</td><td>10</td>
+      <td>4/0</td><td>-</td><td>2</td><td>-</td><td>(1)</td><td>48d</td>
+    </tr>
+    <tr>
+      <td>Whip</td><td>Whip</td><td>2</td><td>10</td>
+      <td>5/1</td><td>-</td><td>2</td><td>1</td><td>-</td><td>H/12d</td>
+    </tr>
+    <tr>
+      <td>Isagra (L) (R)</td><td>Whip</td><td>4</td><td>12</td>
+      <td>5/1</td><td>-</td><td>3</td><td>3</td><td>-</td><td>H/20d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Crossbow (M)(R)</td><td>Bow</td><td>5</td><td>11</td>
+      <td>1/1</td><td>n/a</td><td>3</td><td>-</td><td>-</td><td>60d</td>
+    </tr>
+    <tr>
+      <td>Shortbow (M)</td><td>Bow</td><td>2</td><td>11</td>
+      <td>1/1</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>F/24d</td>
+    </tr>
+    <tr>
+      <td>Longbow (M)</td><td>Bow</td><td>3</td><td>12</td>
+      <td>1/1</td><td>n/a</td><td>2</td><td>-</td><td>-</td><td>F/36d</td>
+    </tr>
+    <tr>
+      <td>Hartbow (M)(S)</td><td>Bow</td><td>2</td><td>14</td>
+      <td>1/1</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>F/96d</td>
+    </tr>
+    <tr><th colspan="10" style="padding:1px;"/></tr>
+    <tr>
+      <td>Blowgun (M)(R)</td><td>Blowgun</td><td>1</td><td>9</td>
+      <td>1/1</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>12d</td>
+    </tr>
+    <tr>
+      <td>Sling (M)(T)</td><td>Sling</td><td>0.1</td><td>10</td>
+      <td>n/a</td><td>-</td><td>-</td><td>-</td><td>-</td><td>H/6d</td>
+    </tr>
+    <tr>
+      <td>Staff Sling (M)</td><td>Sling</td><td>1</td><td>11</td>
+      <td>1/0</td><td>-2</td><td>1</td><td>-</td><td>-</td><td>W/12d</td>
+    </tr>
+  </table>
+  <table id="Armor-1" style="width:30%">
+    <tr>
+      <th>Material</th><th>Blunt</th><th>Edge</th><th>Point</th><th>Fire</th>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>1</td><td>1</td><td>1</td><td>1</td>
+    </tr>
+    <tr>
+      <td>Quilt</td><td>5</td><td>3</td><td>2</td><td>4</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>2</td><td>4</td><td>3</td><td>3</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>4</td><td>5</td><td>4</td><td>3</td>
+    </tr>
+    <tr>
+      <td>Ring</td><td>3</td><td>6</td><td>4</td><td>3</td>
+    </tr>
+    <tr>
+      <td>Mail</td><td>2</td><td>8</td><td>5</td><td>1</td>
+    </tr>
+    <tr>
+      <td>Scale</td><td>5</td><td>9</td><td>4</td><td>5</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>6</td><td>10</td><td>6</td><td>2</td>
+    </tr>
+  </table>
+  <table id="Armor-2" style="width:90%">
+    <tr>
+      <th>Material</th><th>Items</th><th>WT</th><th>Price</th><th>Coverage</th>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Cap</td><td>0.4</td><td>8d</td><td>Sk</td>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Hood</td><td>0.8</td><td>16d</td><td>Sh Nk</td>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Vest</td><td>2.8</td><td>56d</td><td>Sh Tx Ab</td>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Tunic</td><td>4.4</td><td>88d</td><td>Ua Sh Co</td>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Surcoat</td><td>5.2</td><td>104d</td><td>Sh Co Th</td>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Robe</td><td>7.8</td><td>156d</td><td>Ua Sh Co Fo El Th Kn Ca</td>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Leggings</td><td>4.4</td><td>88d</td><td>Hp Gr Th Kn Ca Ft</td>
+    </tr>
+    <tr>
+      <td>Cloth</td><td>Caparisons</td><td>80.0</td><td>160d</td><td>All but eyes and muzzle</td>
+    </tr>
+    <tr><th colspan="5" style="padding:1px;"/></tr>
+    <tr>
+      <td>Quilt</td><td>Cap</td><td>1.2</td><td>16d</td><td>Sk</td>
+    </tr>
+    <tr>
+      <td>Quilt</td><td>Cowl</td><td>2.4</td><td>32d</td><td>Sk Nk</td>
+    </tr>
+    <tr>
+      <td>Quilt</td><td>Tunic</td><td>3.2</td><td>176d</td><td>Ua Sh Co</td>
+    </tr>
+    <tr>
+      <td>Quilt</td><td>Gambeson</td><td>19.5</td><td>260d</td><td>Fo El Ua Sh Co Th</td>
+    </tr>
+    <tr>
+      <td>Quilt</td><td>Leggings</td><td>9.2</td><td>184d</td><td>Hp Gr Th Kn Ca Ft</td>
+    </tr>
+    <tr><th colspan="5" style="padding:1px;"/></tr>
+    <tr>
+      <td>Leather</td><td>Cap</td><td>0.8</td><td>16d</td><td>Sk</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Cowl</td><td>1.6</td><td>32d</td><td>Sk Nk</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Vest</td><td>5.6</td><td>112d</td><td>Sh Tx Ab</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Tunic</td><td>8.8</td><td>176d</td><td>Ua Sh Co</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Surcoat</td><td>10.4</td><td>208d</td><td>Sh Co Th</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Leggings</td><td>8.8</td><td>176d</td><td>Hp Gr Th Kn Ca Ft</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Shoes/2</td><td>1.2</td><td>24d</td><td>Ft</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Calf Boots/2</td><td>3.2</td><td>64d</td><td>Ca Ft</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Knee Boots/2</td><td>3.8</td><td>76d</td><td>Kn Ca Ft</td>
+    </tr>
+    <tr>
+      <td>Leather</td><td>Gauntlets/2</td><td>0.8</td><td>16d</td><td>Ha</td>
+    </tr>
+    <tr><th colspan="5" style="padding:1px;"/></tr>
+    <tr>
+      <td>Kurbul</td><td>Halfhelm</td><td>1.0</td><td>20d</td><td>Sk</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Breastplate</td><td>3.0</td><td>60d</td><td>Ch</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Backplate</td><td>3.0</td><td>60d</td><td>Bk</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Ailettes/2</td><td>1.0</td><td>20d</td><td>Sh</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Rerebraces/2</td><td>1.5</td><td>30d</td><td>Ua</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Coudes/2</td><td>0.5</td><td>10d</td><td>El</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Vambraces/2</td><td>1.3</td><td>25d</td><td>Fo</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Kneecops/2</td><td>0.8</td><td>15d</td><td>Kn</td>
+    </tr>
+    <tr>
+      <td>Kurbul</td><td>Greaves/2</td><td>2.5</td><td>50d</td><td>Ca</td>
+    </tr>
+    <tr><th colspan="5" style="padding:1px;"/></tr>
+    <tr>
+      <td>Ring</td><td>Halfhelm</td><td>1.6</td><td>28d</td><td>Sk</td>
+    </tr>
+    <tr>
+      <td>Ring</td><td>Vest</td><td>11.2</td><td>196d</td><td>Sh Tx Ab</td>
+    </tr>
+    <tr>
+      <td>Ring</td><td>Byrnie</td><td>17.6</td><td>308d</td><td>Ua Sh Co</td>
+    </tr>
+    <tr>
+      <td>Ring</td><td>Hauberk</td><td>26.0</td><td>455d</td><td>Fo El Ua Sh Co Th</td>
+    </tr>
+    <tr>
+      <td>Ring</td><td>Leggings</td><td>17.6</td><td>308d</td><td>Hp Gr Th Kn Ca Ft</td>
+    </tr>
+    <tr>
+      <td>Ring</td><td>Gauntlets/2</td><td>1.6</td><td>28d</td><td>Ha</td>
+    </tr>
+    <tr>
+      <td>Mail</td><td>Cowl</td><td>4.0</td><td>120d</td><td>Sh Nk</td>
+    </tr>
+    <tr><th colspan="5" style="padding:1px;"/></tr>
+    <tr>
+      <td>Mail</td><td>Byrnie</td><td>22.0</td><td>660d</td><td>Ua Sh Co</td>
+    </tr>
+    <tr>
+      <td>Mail</td><td>Hauberk</td><td>32.5</td><td>975d</td><td>Fo El Ua Sh Co Th</td>
+    </tr>
+    <tr>
+      <td>Mail</td><td>Leggings</td><td>22.0</td><td>660d</td><td>Hp Gr Th Kn Ca Ft</td>
+    </tr>
+    <tr>
+      <td>Mail</td><td>Mittens/2</td><td>2.0</td><td>60d</td><td>Ha</td>
+    </tr>
+    <tr><th colspan="5" style="padding:1px;"/></tr>
+    <tr>
+      <td>Scale</td><td>Vest</td><td>19.6</td><td>280d</td><td>Sh Tx Ab</td>
+    </tr>
+    <tr>
+      <td>Scale</td><td>Byrnie</td><td>30.8</td><td>440d</td><td>Ua Sh Co</td>
+    </tr>
+    <tr>
+      <td>Scale</td><td>Hauberk</td><td>45.5</td><td>650d</td><td>Fo El Ua Sh Co Th</td>
+    </tr>
+    <tr><th colspan="5" style="padding:1px;"/></tr>
+    <tr>
+      <td>Plate</td><td>Halfhelm</td><td>3.2</td><td>100d</td><td>Sk</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>¾ Helm</td><td>5.6</td><td>175d</td><td>Sk Fa</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Great Helm</td><td>8.8</td><td>275d</td><td>Sk Fa Nk</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Breastplate</td><td>9.6</td><td>300d</td><td>Ch</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Backplate</td><td>9.6</td><td>300d</td><td>Bk</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Ailettes/2</td><td>3.2</td><td>100d</td><td>Sh</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Rerebraces/2</td><td>4.8</td><td>150d</td><td>Ua</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Coudes/2</td><td>1.6</td><td>50d</td><td>El</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Vambraces/2</td><td>4.0</td><td>125d</td><td>Fo</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Kneecops/2</td><td>2.4</td><td>75d</td><td>Kn</td>
+    </tr>
+    <tr>
+      <td>Plate</td><td>Greaves/2</td><td>8.0</td><td>250d</td><td>Ca</td>
+    </tr>
+    <tr>
+      <td>Joust*</td><td>Knight</td><td>5.0</td><td>60d</td><td>Left Sh Ua El Fo Ha Ch Hp</td>
+    </tr>
+    <tr>
+      <td>Joust*</td><td>Kite</td><td>7.0</td><td>72d</td><td>As Knight + Th</td>
+    </tr>
+    <tr>
+      <td>Joust*<br/>(Kurbul + 2 x Cloth)</td><td>War saddle</td><td>30.0</td><td>240d</td><td>Gr</td>
+    </tr>
+    <tr>
+      <td>Joust*</td><td>Plate Vamplates</td><td>2.0</td><td>240d</td><td>Right Ha</td>
+    </tr>
+  </table>
+  <table id="Location" class="grid" style="width:90%">
+    <tr>
+      <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
+      <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
+    </tr>
+    <tr>
+      <th colspan="4">Left</th><th colspan="4">Right</th>
+    </tr>
+    <tr>
+      <td rowspan="3">01-10</td><td rowspan="3">Head</td>
+      <td>01-02</td><td>Skull</td>
+      <td rowspan="3">51-60</td><td rowspan="3">Head</td>
+      <td>51-52</td><td>Skull</td>
+    </tr>
+    <tr>
+      <td>03-04</td><td>Face</td><td>53-54</td><td>Face</td>
+    </tr>
+    <tr>
+      <td>05-10</td><td>Shoulder</td><td>55-60</td><td>Shoulder</td>
+    </tr>
+    <tr>
+      <td rowspan="4">11-20</td><td rowspan="4">Arm*</td>
+      <td>11-13</td><td>Upper Arm</td>
+      <td rowspan="4">61-70</td><td rowspan="4">Arm*</td>
+      <td>61-63</td><td>Upper Arm</td>
+    </tr>
+    <tr>
+      <td>14-15</td><td>Elbow</td><td>64-65</td><td>Elbow</td>
+    </tr>
+    <tr>
+      <td>16-18</td><td>Forearm</td><td>66-68</td><td>Forearm</td>
+    </tr>
+    <tr>
+      <td>19-20</td><td>Hand</td><td>69-70</td><td>Hand</td>
+    </tr>
+    <tr>
+      <td>21-30</td><td>Thorax</td><td>21-30</td><td>Thorax</td>
+      <td>71-80</td><td>Thorax</td><td>71-80</td><td>Thorax</td>
+    </tr>
+    <tr>
+      <td rowspan="3">31-40</td><td rowspan="3">Lower Body</td>
+      <td>31-35</td><td>Abdomen</td>
+      <td rowspan="3">81-90</td><td rowspan="3">Lower Body</td>
+      <td>81-85</td><td>Abdomen</td>
+    </tr>
+    <tr>
+      <td>36-38</td><td>Hip</td><td>86-88</td><td>Hip</td>
+    </tr>
+    <tr>
+      <td>39-40</td><td>Groin</td><td>89-90</td><td>Groin</td>
+    </tr>
+    <tr>
+      <td rowspan="4">41-50</td><td rowspan="4">Leg*</td>
+      <td>41-44</td><td>Thigh</td>
+      <td rowspan="4">91-100</td><td rowspan="4">Leg*</td>
+      <td>91-94</td><td>Thigh</td>
+    </tr>
+    <tr>
+      <td>45</td><td>Knee</td><td>95</td><td>Knee</td>
+    </tr>
+    <tr>
+      <td>46-48</td><td>Calf</td><td>96-98</td><td>Calf</td>
+    </tr>
+    <tr>
+      <td>49-50</td><td>Foot</td><td>99-100</td><td>Foot</td>
+    </tr>
+  </table>
+  <table id="Weapons-2" style="width:70%">
+    <tr>
+      <th>Weapon</th><th>P</th><th>0</th><th>&#9733;</th><th>&#9733;&#9733;</th>
+      <th>&#9733;&#9733;&#9733;</th><th>&#9733;&#9733;&#9733;&#9733;</th>
+    </tr>
+    <tr>
+      <td>Shortbow</td><td>6</td><td>0ft</td><td>100ft</td><td>200ft</td>
+      <td>400ft</td><td>800ft</td>
+    </tr>
+    <tr>
+      <td>Longbow</td><td>8</td><td>0ft</td><td>125ft</td><td>250ft</td>
+      <td>500ft</td><td>1000ft</td>
+    </tr>
+    <tr>
+      <td>Hartbow</td><td>9</td><td>0ft</td><td>150ft</td><td>300ft</td>
+      <td>600ft</td><td>1200ft</td>
+    </tr>
+    <tr>
+      <td>Crossbow</td><td>8</td><td>0ft</td><td>100ft</td><td>200ft</td>
+      <td>400ft</td><td>800ft</td>
+    </tr>
+    <tr>
+      <td>Blowgun</td><td>0</td><td>0ft</td><td>25ft</td><td>50ft</td>
+      <td>100ft</td><td>200ft</td>
+    </tr>
+    <tr>
+      <td>Sling</td><td>4</td><td>0ft</td><td>75ft</td><td>150ft</td>
+      <td>300ft</td><td>600ft</td>
+    </tr>
+    <tr>
+      <td>Staff Sling</td><td>5</td><td>0ft</td><td>125ft</td><td>250ft</td>
+      <td>500ft</td><td>1000ft</td>
+    </tr>
+    <tr>
+      <td>*Taburi</td><td>4</td><td>0ft</td><td>20ft</td><td>40ft</td>
+      <td>80ft</td><td>160ft</td>
+    </tr>
+    <tr>
+      <td>*Shorkana</td><td>5</td><td>0ft</td><td>15ft</td><td>30ft</td>
+      <td>60ft</td><td>120ft</td>
+    </tr>
+    <tr>
+      <td>*Javelin</td><td>7</td><td>0ft</td><td>40ft</td><td>80ft</td>
+      <td>160ft</td><td>320ft</td>
+    </tr>
+    <tr>
+      <td>*Spear</td><td>8</td><td>0ft</td><td>30ft</td><td>60ft</td>
+      <td>120ft</td><td>240ft</td>
+    </tr>
+    <tr>
+      <td>Melee</td><td>~</td><td>0ft</td><td>10ft</td><td>20ft</td>
+      <td>40ft</td><td>80ft</td>
+    </tr>
+    <tr>
+      <td>Mental</td><td>~</td><td>0ft</td><td>100ft</td><td>200ft</td>
+      <td>400ft</td><td>800ft</td>
+    </tr>
+  </table>
+  <table id="Wounds" style="width:50%">
+    <tr><th>Wound</th><th>Severity</th><th>Treatment</th></tr>
+    <tr><td>Blunt</td><td>Minor</td><td>Compress</td></tr>
+    <tr><td>Blunt</td><td>Serious</td><td>Splint</td></tr>
+    <tr><td>Blunt</td><td>Grievous</td><td>Surgery</td></tr>
+    <tr><td>Blunt</td><td>Incapacitating</td><td>Amputate</td></tr>
+    <tr><th colspan="3" style="padding:1px;"/></tr>
+    <tr><td>Edge</td><td>Minor</td><td>Clean &#0038; Dress</td></tr>
+    <tr><td>Edge</td><td>Serious</td><td>Surgery</td></tr>
+    <tr><td>Edge</td><td>Grievous</td><td>Surgery</td></tr>
+    <tr><td>Edge</td><td>Incapacitating</td><td>Amputate</td></tr>
+    <tr><th colspan="3" style="padding:1px;"/></tr>
+    <tr><td>Point</td><td>Minor</td><td>Clean &#0038; Dress</td></tr>
+    <tr><td>Point</td><td>Serious</td><td>Clean &#0038; Dress</td></tr>
+    <tr><td>Point</td><td>Grievous</td><td>Surgery</td></tr>
+    <tr><td>Point</td><td>Incapacitating</td><td>Amputate</td></tr>
+    <tr><th colspan="3" style="padding:1px;"/></tr>
+    <tr><td>Frost</td><td>Minor</td><td>Warming</td></tr>
+    <tr><td>Frost</td><td>Serious</td><td>Warming</td></tr>
+    <tr><td>Frost</td><td>Grievous</td><td>Amputate</td></tr>
+    <tr><td>Frost</td><td>Incapacitating</td><td>Amputate</td></tr>
   </table>
   <div id="$Acrobatics" class="standard">
     <p>
@@ -1339,6 +3126,30 @@
     </p>
     <p>
       <em>OML:</em> 0
+    </p>
+  </div>
+  <div id="$Initiative" class="standard">
+    <p>
+      <em>Attributes:</em>
+      <span>Agility</span>,
+      <span>Will</span>,
+      <span>Will</span>
+    </p>
+    <p>
+      <em>OML:</em> 0
+    </p>
+    <p>
+      <em>Occupations:</em>
+      <span>Gladiator</span>/<span>80</span>,
+      <span>Cleric/Agrik</span>/<span>80</span>,
+      <span>Cleric/Larani</span>/<span>80</span>,
+      <span>Cleric/Naveh</span>/<span>80</span>,
+      <span>Cleric/Sarajin</span>/<span>80</span>,
+      <span>Military</span>/<span>70</span>,
+      <span>Knight</span>/<span>80</span>,
+      <span>Patrician</span>/<span>80</span>,
+      <span>Huscarl</span>/<span>80</span>,
+      <span>High Guard</span>/<span>80</span>
     </p>
   </div>
   <div id="$Intrigue" class="standard">

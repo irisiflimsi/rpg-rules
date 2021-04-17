@@ -10071,6 +10071,7 @@
       <include id="$Herblore"/>
       <include id="$Hidework"/>
       <include id="$Intrigue"/>
+      <include id="$Initiative"/>
       <include id="$Jewelcraft"/>
       <include id="$Jumping"/>
       <include id="$Law"/>
@@ -10127,6 +10128,7 @@
       <include id="$D-Acrobatics"/>
       <include id="$D-Yield"/>
       <include id="$D-Recipes"/>
+      <include id="$D-Acting"/>
       <include id="$D-Animalcraft"/>
       <include id="$D-Divination"/>
       <include id="$D-Combat"/>
@@ -10141,6 +10143,7 @@
       <include id="$D-Hearing"/>
       <include id="$D-Heraldry"/>
       <include id="$D-Herblore"/>
+      <include id="$D-Initiative"/>
       <include id="$D-Jumping"/>
       <include id="$D-Language"/>
       <include id="$D-Law"/>
@@ -10321,7 +10324,7 @@
         try {
           var n = document.getElementById("$Sk2-" + (i0 + 1) + "N").textContent;
           var d = 0;
-          if (n.endsWith("/1") || n.endsWith("/2")) {
+          if (n.endsWith("/1") || n.endsWith("/2") || n.endsWith("/3")) {
             d = parseInt(n.slice(-1)) - 1; n = n.slice(0,-2);
           }
           var s = dims.get("D-" + n);
