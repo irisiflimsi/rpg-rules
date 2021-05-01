@@ -1710,7 +1710,7 @@
         </p>
         <p>
           Healing rate is used for wounds/injury.  A physician designs
-          a treatment that must continually be applied wuth a first
+          a treatment that must continually be applied with a first
           roll.  A second roll must be made during the time the
           physician actively applies a treatment (possibly identified
           by another colleague).  The minimum value from these two
@@ -6312,6 +6312,12 @@
           extremity, but add those for different extremities.
           Incapacitating and destroying wounds have no additional
           effects over the bleeder and infection dangers.
+        </p>
+        <p>
+          An untreated wound is considered as being treated by a Physician
+          with the negative wound-level.  E.g. a wound with &#9733;&#9733;
+          is treated as a zero (0) quality Physician with a penalty of
+          &#9733;&#9733;.
         </p>
         <p>
           The healing routine assumes a combatant will mainly be
