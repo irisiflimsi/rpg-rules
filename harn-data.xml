@@ -692,12 +692,12 @@
       <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td><td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
     </tr>
   </table>
-  <table id="$D-Physician" style="width:70%">
+  <table id="$D-Physician" style="width:80%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>th>35</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Heal Rate</td><td>1.4</td><td>1.3</td><td>1.2</td><td>1.1</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
+      <td>Heal Rate</td><td>4</td><td>2.5</td><td>2.0</td><td>1.7</td><td>1.4</td><td>1.2</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.55</td><td>0.5</td>
     </tr>
   </table>
   <table id="Piety-1" style="width:90%">
