@@ -1831,11 +1831,11 @@
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
         <include id="$Rhetoric"/>
         <p>
-          The ability to impress or persuade crowds by logic,
-          eloquence, or charisma.  This is something of a shortcut
-          skill and discretionary.  An orating PC needs to define the
-          audience; mobs maybe stupider than individuals, but they
-          cannot be persuaded to step off a cliff.  Rhetoric ML
+          The ability to impress or persuade crowds or individuals
+          by logic, eloquence, or charisma.  This is something of a
+          shortcut skill and discretionary.  An orating PC needs to
+          define the audience; mobs maybe stupider than individuals,
+          but they cannot be persuaded to step off a cliff.  Rhetoric ML
           cannot exceed the orator’s or the audience’s ML in the
           language being used.  Rhetoric has many uses, from the
           apprehended thief trying to fast-talk his way out of a visit
@@ -1845,6 +1845,14 @@
           interest.  A net result below 0 on any use of Rhetoric
           suggests the character has made a fool of himself and may
           have annoyed the intended target(s).
+        </p>
+        <p>
+          Multiple orators may compete for the "airwaves" and hinder
+          each other more than they realize.  Therefore only two actors
+          may combine their skills through Row-5-Addition if working
+          in concert, thereafter it is only the maximum, if no competition
+          takes place.  If a competition takes place, the difficulty is
+          a Row-5-Addition instead.
         </p>
         <include id="$D-Rhetoric"/>
         <p>
