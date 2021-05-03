@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="svg.xsl"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210" id="svg2" version="1.1">
+  <rect id="Hit Location" style="fill:none;stroke:none;" width="114" height="85" x="10" y="117" />
+  <foreignObject y="0" x="0" width="570" height="425" transform="translate(10,117) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+          }
+        </style>
+      </head>
+      <body>
+        <table id="Location" class="grid">
+          <tr>
+            <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
+            <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
+          </tr>
+          <tr>
+            <th colspan="4">Left</th><th colspan="4">Right</th>
+          </tr>
+          <tr>
+            <td rowspan="3">01-10</td><td rowspan="3">Head</td>
+            <td>01-02</td><td>Skull</td>
+            <td rowspan="3">51-60</td><td rowspan="3">Head</td>
+            <td>51-52</td><td>Skull</td>
+          </tr>
+          <tr>
+            <td>03-04</td><td>Face</td><td>53-54</td><td>Face</td>
+          </tr>
+          <tr>
+            <td>05-10</td><td>Shoulder</td><td>55-60</td><td>Shoulder</td>
+          </tr>
+          <tr>
+            <td rowspan="4">11-20</td><td rowspan="4">Arm*</td>
+            <td>11-13</td><td>Upper Arm</td>
+            <td rowspan="4">61-70</td><td rowspan="4">Arm*</td>
+            <td>61-63</td><td>Upper Arm</td>
+          </tr>
+          <tr>
+            <td>14-15</td><td>Elbow</td><td>64-65</td><td>Elbow</td>
+          </tr>
+          <tr>
+            <td>16-18</td><td>Forearm</td><td>66-68</td><td>Forearm</td>
+          </tr>
+          <tr>
+            <td>19-20</td><td>Hand</td><td>69-70</td><td>Hand</td>
+          </tr>
+          <tr>
+            <td>21-30</td><td>Thorax</td><td>21-30</td><td>Thorax</td>
+            <td>71-80</td><td>Thorax</td><td>71-80</td><td>Thorax</td>
+          </tr>
+          <tr>
+            <td rowspan="3">31-40</td><td rowspan="3">Lower Body</td>
+            <td>31-35</td><td>Abdomen</td>
+            <td rowspan="3">81-90</td><td rowspan="3">Lower Body</td>
+            <td>81-85</td><td>Abdomen</td>
+          </tr>
+          <tr>
+            <td>36-38</td><td>Hip</td><td>86-88</td><td>Hip</td>
+          </tr>
+          <tr>
+            <td>39-40</td><td>Groin</td><td>89-90</td><td>Groin</td>
+          </tr>
+          <tr>
+            <td rowspan="4">41-50</td><td rowspan="4">Leg*</td>
+            <td>41-44</td><td>Thigh</td>
+            <td rowspan="4">91-100</td><td rowspan="4">Leg*</td>
+            <td>91-94</td><td>Thigh</td>
+          </tr>
+          <tr>
+            <td>45</td><td>Knee</td><td>95</td><td>Knee</td>
+          </tr>
+          <tr>
+            <td>46-48</td><td>Calf</td><td>96-98</td><td>Calf</td>
+          </tr>
+          <tr>
+            <td>49-50</td><td>Foot</td><td>99-100</td><td>Foot</td>
+          </tr>
+          <caption>
+            Hit Location
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Armour-1" style="fill:none;stroke:none;" width="114" height="70" x="10" y="8" />
+  <foreignObject y="0" x="0" width="570" height="1450" transform="translate(10,8) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="Armor-1">
+          <tr>
+            <th>Material</th><th>Items</th><th>WT</th><th>Price</th><th>Coverage</th>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Cap</td><td>0.4</td><td>8d</td><td>Sk</td>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Hood</td><td>0.8</td><td>16d</td><td>Sh Nk</td>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Vest</td><td>2.8</td><td>56d</td><td>Sh Tx Ab</td>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Tunic</td><td>4.4</td><td>88d</td><td>Ua Sh Co</td>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Surcoat</td><td>5.2</td><td>104d</td><td>Sh Co Th</td>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Robe</td><td>7.8</td><td>156d</td><td>Ua Sh Co Fo El Th Kn Ca</td>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Leggings</td><td>4.4</td><td>88d</td><td>Hp Gr Th Kn Ca Ft</td>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>Caparisons</td><td>80.0</td><td>160d</td><td>All but eyes and muzzle</td>
+          </tr>
+          <tr><th colspan="5" style="padding:1px;"/></tr>
+          <tr>
+            <td>Quilt</td><td>Cap</td><td>1.2</td><td>16d</td><td>Sk</td>
+          </tr>
+          <tr>
+            <td>Quilt</td><td>Cowl</td><td>2.4</td><td>32d</td><td>Sk Nk</td>
+          </tr>
+          <tr>
+            <td>Quilt</td><td>Tunic</td><td>3.2</td><td>176d</td><td>Ua Sh Co</td>
+          </tr>
+          <tr>
+            <td>Quilt</td><td>Gambeson</td><td>19.5</td><td>260d</td><td>Fo El Ua Sh Co Th</td>
+          </tr>
+          <tr>
+            <td>Quilt</td><td>Leggings</td><td>9.2</td><td>184d</td><td>Hp Gr Th Kn Ca Ft</td>
+          </tr>
+          <tr><th colspan="5" style="padding:1px;"/></tr>
+          <tr>
+            <td>Leather</td><td>Cap</td><td>0.8</td><td>16d</td><td>Sk</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Cowl</td><td>1.6</td><td>32d</td><td>Sk Nk</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Vest</td><td>5.6</td><td>112d</td><td>Sh Tx Ab</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Tunic</td><td>8.8</td><td>176d</td><td>Ua Sh Co</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Surcoat</td><td>10.4</td><td>208d</td><td>Sh Co Th</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Leggings</td><td>8.8</td><td>176d</td><td>Hp Gr Th Kn Ca Ft</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Shoes/2</td><td>1.2</td><td>24d</td><td>Ft</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Calf Boots/2</td><td>3.2</td><td>64d</td><td>Ca Ft</td>
+          </tr>
+          <caption>
+            Armour (1)
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Armour-2" style="fill:none;stroke:none;" width="114" height="194" x="169" y="8" />
+  <foreignObject y="0" x="0" width="570" height="970" transform="translate(169,8) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="Armor-2">
+          <tr>
+            <th>Material</th><th>Items</th><th>WT</th><th>Price</th><th>Coverage</th>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Knee Boots/2</td><td>3.8</td><td>76d</td><td>Kn Ca Ft</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>Gauntlets/2</td><td>0.8</td><td>16d</td><td>Ha</td>
+          </tr>
+          <tr><th colspan="5" style="padding:1px;"/></tr>
+          <tr>
+            <td>Kurbul</td><td>Halfhelm</td><td>1.0</td><td>20d</td><td>Sk</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Breastplate</td><td>3.0</td><td>60d</td><td>Ch</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Backplate</td><td>3.0</td><td>60d</td><td>Bk</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Ailettes/2</td><td>1.0</td><td>20d</td><td>Sh</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Rerebraces/2</td><td>1.5</td><td>30d</td><td>Ua</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Coudes/2</td><td>0.5</td><td>10d</td><td>El</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Vambraces/2</td><td>1.3</td><td>25d</td><td>Fo</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Kneecops/2</td><td>0.8</td><td>15d</td><td>Kn</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>Greaves/2</td><td>2.5</td><td>50d</td><td>Ca</td>
+          </tr>
+          <tr><th colspan="5" style="padding:1px;"/></tr>
+          <tr>
+            <td>Ring</td><td>Halfhelm</td><td>1.6</td><td>28d</td><td>Sk</td>
+          </tr>
+          <tr>
+            <td>Ring</td><td>Vest</td><td>11.2</td><td>196d</td><td>Sh Tx Ab</td>
+          </tr>
+          <tr>
+            <td>Ring</td><td>Byrnie</td><td>17.6</td><td>308d</td><td>Ua Sh Co</td>
+          </tr>
+          <tr>
+            <td>Ring</td><td>Hauberk</td><td>26.0</td><td>455d</td><td>Fo El Ua Sh Co Th</td>
+          </tr>
+          <tr>
+            <td>Ring</td><td>Leggings</td><td>17.6</td><td>308d</td><td>Hp Gr Th Kn Ca Ft</td>
+          </tr>
+          <tr>
+            <td>Ring</td><td>Gauntlets/2</td><td>1.6</td><td>28d</td><td>Ha</td>
+          </tr>
+          <tr>
+            <td>Mail</td><td>Cowl</td><td>4.0</td><td>120d</td><td>Sh Nk</td>
+          </tr>
+          <tr><th colspan="5" style="padding:1px;"/></tr>
+          <tr>
+            <td>Mail</td><td>Byrnie</td><td>22.0</td><td>660d</td><td>Ua Sh Co</td>
+          </tr>
+          <tr>
+            <td>Mail</td><td>Hauberk</td><td>32.5</td><td>975d</td><td>Fo El Ua Sh Co Th</td>
+          </tr>
+          <tr>
+            <td>Mail</td><td>Leggings</td><td>22.0</td><td>660d</td><td>Hp Gr Th Kn Ca Ft</td>
+          </tr>
+          <tr>
+            <td>Mail</td><td>Mittens/2</td><td>2.0</td><td>60d</td><td>Ha</td>
+          </tr>
+          <tr><th colspan="5" style="padding:1px;"/></tr>
+          <tr>
+            <td>Scale</td><td>Vest</td><td>19.6</td><td>280d</td><td>Sh Tx Ab</td>
+          </tr>
+          <tr>
+            <td>Scale</td><td>Byrnie</td><td>30.8</td><td>440d</td><td>Ua Sh Co</td>
+          </tr>
+          <tr>
+            <td>Scale</td><td>Hauberk</td><td>45.5</td><td>650d</td><td>Fo El Ua Sh Co Th</td>
+          </tr>
+          <tr><th colspan="5" style="padding:1px;"/></tr>
+          <tr>
+            <td>Plate</td><td>Halfhelm</td><td>3.2</td><td>100d</td><td>Sk</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>¾ Helm</td><td>5.6</td><td>175d</td><td>Sk Fa</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Great Helm</td><td>8.8</td><td>275d</td><td>Sk Fa Nk</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Breastplate</td><td>9.6</td><td>300d</td><td>Ch</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Backplate</td><td>9.6</td><td>300d</td><td>Bk</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Ailettes/2</td><td>3.2</td><td>100d</td><td>Sh</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Rerebraces/2</td><td>4.8</td><td>150d</td><td>Ua</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Coudes/2</td><td>1.6</td><td>50d</td><td>El</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Vambraces/2</td><td>4.0</td><td>125d</td><td>Fo</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Kneecops/2</td><td>2.4</td><td>75d</td><td>Kn</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>Greaves/2</td><td>8.0</td><td>250d</td><td>Ca</td>
+          </tr>
+          <tr>
+            <td>Joust*</td><td>Knight</td><td>5.0</td><td>60d</td><td>Left Sh Ua El Fo Ha Ch Hp</td>
+          </tr>
+          <tr>
+            <td>Joust*</td><td>Kite</td><td>7.0</td><td>72d</td><td>As Knight + Th</td>
+          </tr>
+          <tr>
+            <td>Joust*<br/>(Kurbul + 2 x Cloth)</td><td>War saddle</td><td>30.0</td><td>240d</td><td>Gr</td>
+          </tr>
+          <tr>
+            <td>Joust*</td><td>Plate Vamplates</td><td>2.0</td><td>240d</td><td>Right Ha</td>
+          </tr>
+          <caption>
+            Armour (2)
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+</svg>

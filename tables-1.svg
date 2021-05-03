@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="svg.xsl"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210" id="svg2" version="1.1">
+  <rect id="Accuracy" style="fill:none;stroke:none;" width="120" height="18" x="10" y="10" />
+  <foreignObject y="0" x="0" width="600" height="90" transform="translate(10,10) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Accuracy">
+          <tr>
+            <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr class="text">
+            <td>Error</td><td>100% (0+)</td><td>60% (0.4-2.5)</td><td>20% (0.8-1.25)</td><td>6% (0.94-1.06)</td>
+          </tr>
+          <caption>
+            Accuracy
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Travel/Season" style="fill:none;stroke:none;" width="162" height="22" x="10" y="32" />
+  <foreignObject y="0" x="0" width="810" height="110" transform="translate(10,32) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Travel-Season">
+          <tr>
+            <th>Weather</th><th>Nuzyael</th><th>Peonu</th><th>Kelen</th><th>Nolus</th><th>Larane</th><th>Agrazhar</th><th>Azura</th><th>Halane</th><th>Savor</th><th>Ilvin</th><th>Navek</th><th>Morgath</th>
+          </tr>
+          <tr>
+            <td>Travel</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+4</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-4</td><td>-2</td>
+          </tr>
+          <tr>
+            <td>Hazard</td><td>-5</td><td>0</td><td>+5</td><td>+10</td><td>+20</td><td>+10</td><td>+5</td><td>0</td><td>-5</td><td>-10</td><td>-20</td><td>-10</td>
+          </tr>
+          <caption>
+            Travel/Season
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Travel" style="fill:none;stroke:none;" width="110" height="30" x="10" y="57" />
+  <foreignObject y="0" x="0" width="550" height="150" transform="translate(10,57) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Travel">
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+          </tr>
+          <tr class="num">
+            <td>Km Sail</td><td>0</td><td>25</td><td>50</td><td>75</td><td>100</td><td>125</td><td>150</td>
+          </tr>
+          <tr class="num">
+            <td>Km Land</td><td>0</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td>
+          </tr>
+          <tr class="num">
+            <td>Days Sail</td><td>&#x221e;</td><td>4.0</td><td>2.0</td><td>1.5</td><td>1.0</td><td>0.8</td><td>0.6</td>
+          </tr>
+          <tr class="num">
+            <td>Days Land</td><td>&#x221e;</td><td>10.0</td><td>5.0</td><td>3.5</td><td>2.5</td><td>2.0</td><td>1.5</td>
+          </tr>
+          <caption>
+            Travel
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Morale" style="fill:none;stroke:none;" width="82" height="16" x="10" y="91" />
+  <foreignObject y="0" x="0" width="410" height="80" transform="translate(10,91) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Morale">
+          <tr>
+            <th>Dimension</th><th>-15</th><th>-10</th><th>0</th><th>10</th><th>15</th>
+          </tr>
+          <tr class="text">
+            <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berserk</td>
+          </tr>
+          <caption>
+            Morale
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Combat/Fall" style="fill:none;stroke:none;" width="96" height="16" x="10" y="111" />
+  <foreignObject y="0" x="0" width="480" height="80" transform="translate(10,111) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="Combat-Fall">
+          <tr>
+            <th>Height (ft)</th><th>0</th><th>5</th><th>10</th>
+            <th>15</th><th>20</th><th>25</th><th>30</th>
+            <th>35</th><th>40</th><th>45</th><th>50</th>
+          </tr>
+          <tr>
+            <td>Impact (B)</td><td>0</td><td>0</td><td>1</td>
+            <td>3</td><td>5</td><td>10</td><td>15</td>
+            <td>25</td><td>35</td><td>44</td><td>75</td>
+          </tr>
+          <caption>
+            Combat/Fall
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Initiative" style="fill:none;stroke:none;" width="100" height="16" x="10" y="130" />
+  <foreignObject y="0" x="0" width="500" height="80" transform="translate(10,130) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Initiative">
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.5</td><td>0.4</td><td>0.3</td><td>0.25</td><td>0.2</td><td>0.15</td><td>0.1</td>
+          </tr>
+          <caption>
+            Initiative
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Combat" style="fill:none;stroke:none;" width="180" height="50" x="10" y="150" />
+  <foreignObject y="0" x="0" width="900" height="250" transform="translate(10,150) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Combat">
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-19</th><th>-18</th><th>-17</th><th>-16</th>
+            <th>-15</th><th>-14</th><th>-13</th><th>-12</th><th>-11</th><th>-10</th>
+            <th>-9</th><th>-8</th><th>-7</th><th>-6</th><th>-5</th><th>-4</th><th>-3</th>
+            <th>-2</th><th>-1</th><th>0</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td><td>300</td><td>270</td><td>240</td><td>220</td><td>190</td>
+            <td>170</td><td>160</td><td>140</td><td>120</td><td>110</td><td>100</td>
+            <td>89</td><td>79</td><td>70</td><td>62</td><td>55</td><td>49</td><td>43</td>
+            <td>38</td><td>34</td><td>30</td>
+          </tr>
+          <tr class="num">
+            <td>Wounds</td><td>-40</td><td>-37</td><td>-34</td><td>-31</td><td>-28</td>
+            <td>-25</td><td>-23</td><td>-21</td><td>-19</td><td>-17</td><td>-15</td>
+            <td>-13</td><td>-11</td><td>-9</td><td>-7</td><td>-5</td><td>-4</td><td>-3</td>
+            <td>-2</td><td>-1</td><td>0</td>
+          </tr>
+          <tr><th colspan="12" style="padding:1px;"/></tr>
+          <tr>
+            <th>Dimension</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+            <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th>
+            <th>13</th><th>14</th><th>15</th><th>16</th><th>17</th><th>18</th>
+            <th>19</th><td>20</td>
+          </tr>
+          <tr class="num">
+            <td>Time</td><td>30</td><td>27</td><td>24</td><td>22</td><td>19</td><td>17</td>
+            <td>16</td><td>14</td><td>12</td><td>11</td><td>10</td><td>8.9</td><td>7.9</td>
+            <td>7.0</td><td>6.2</td><td>5.5</td><td>4.9</td><td>4.3</td><td>3.8</td>
+            <td>3.4</td><td>3.0</td>
+          </tr>
+          <tr class="num">
+            <td>Wounds</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+            <td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td>
+            <td>9</td><td>10</td><td>10</td><td>11</td><td>11</td><td>12</td>
+            <td>12</td><td>13</td>
+          </tr>
+          <tr><th colspan="12" style="padding:1px;"/></tr>
+          <tr>
+            <th>Dimension</th><th>20</th><th>21</th><th>22</th><th>23</th><th>24</th>
+            <th>25</th><th>26</th><th>27</th><th>28</th><th>29</th><th>30</th>
+            <th>31</th><th>32</th><th>33</th><th>34</th><th>35</th><th>36</th>
+            <th>37</th><th>38</th><th>39</th><th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td><td>3.0</td><td>2.7</td><td>2.4</td><td>2.2</td><td>1.9</td>
+            <td>1.7</td><td>1.6</td><td>1.4</td><td>1.2</td><td>1.1</td><td>1.0</td>
+            <td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.6</td><td>0.5</td>
+            <td>0.4</td><td>0.4</td><td>0.3</td><td>0.3</td>
+          </tr>
+          <tr class="num">
+            <td>Wounds</td><td>13</td><td>13</td><td>14</td><td>14</td><td>15</td>
+            <td>15</td><td>16</td><td>16</td><td>16</td><td>17</td><td>17</td>
+            <td>17</td><td>18</td><td>18</td><td>18</td><td>19</td><td>19</td><td>19</td>
+            <td>20</td><td>20</td><td>20</td>
+          </tr>
+          <caption>
+            Combat
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Armour Values" style="fill:none;stroke:none;" width="70" height="48" x="116" y="98" />
+  <foreignObject y="0" x="0" width="350" height="240" transform="translate(116,98) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="Armor-1">
+          <tr>
+            <th>Material</th><th>Blunt</th><th>Edge</th><th>Point</th><th>Fire</th>
+          </tr>
+          <tr>
+            <td>Cloth</td><td>1</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+          <tr>
+            <td>Quilt</td><td>5</td><td>3</td><td>2</td><td>4</td>
+          </tr>
+          <tr>
+            <td>Leather</td><td>2</td><td>4</td><td>3</td><td>3</td>
+          </tr>
+          <tr>
+            <td>Kurbul</td><td>4</td><td>5</td><td>4</td><td>3</td>
+          </tr>
+          <tr>
+            <td>Ring</td><td>3</td><td>6</td><td>4</td><td>3</td>
+          </tr>
+          <tr>
+            <td>Mail</td><td>2</td><td>8</td><td>5</td><td>1</td>
+          </tr>
+          <tr>
+            <td>Scale</td><td>5</td><td>9</td><td>4</td><td>5</td>
+          </tr>
+          <tr>
+            <td>Plate</td><td>6</td><td>10</td><td>6</td><td>2</td>
+          </tr>
+          <caption>
+            Armour Values
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Physician" style="fill:none;stroke:none;" width="120" height="16" x="168" y="10" />
+  <foreignObject y="0" x="0" width="600" height="80" transform="translate(168,10) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Physician">
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Heal Rate</td><td>4</td><td>2.5</td><td>2.0</td><td>1.7</td><td>1.4</td><td>1.2</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.55</td><td>0.5</td>
+          </tr>
+          <caption>
+            Physician
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Stamina" style="fill:none;stroke:#none;" width="100" height="16" x="187" y="34" />
+  <foreignObject y="0" x="0" width="500" height="80" transform="translate(187,34) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Stamina">
+          <tr>
+            <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
+          </tr>
+          <tr class="num">
+            <td>Time factor</td><td>3</td><td>2</td><td>1.5</td><td>1.0</td><td>0.75</td><td>0.5</td><td>0.38</td><td>0.25</td>
+          </tr>
+          <caption>
+            Stamina
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Hazard" style="fill:none;stroke:none;" width="110" height="16" x="177" y="56" />
+  <foreignObject y="0" x="0" width="550" height="80" transform="translate(177,56) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Hazard">
+          <tr>
+            <th>Dimension</th><th>-30</th><th>-25</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+          </tr>
+          <tr class="num">
+            <td>Hazard</td><td>1d</td><td>2d</td><td>3d</td><td>6d</td><td>10d</td><td>20d</td><td>30d</td><td>60d</td><td>100d</td>
+          </tr>
+          <caption>
+            Hazard
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Move" style="fill:none;stroke:#none;" width="110" height="16" x="177" y="79" />
+  <foreignObject y="0" x="0" width="550" height="80" transform="translate(177,79) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Move">
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
+          </tr>
+          <tr class="num">
+            <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td><td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
+          </tr>
+          <caption>
+            Move
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Knowledge" style="fill:none;stroke:#none;" width="70" height="16" x="217" y="104" />
+  <foreignObject y="0" x="0" width="350" height="80" transform="translate(217,104) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Knowledge">
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr class="num">
+            <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+          </tr>
+          <caption>
+            Knowledge
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Combat/Size" style="fill:none;stroke:none;" width="96" height="16" x="191" y="124" />
+  <foreignObject y="0" x="0" width="480" height="80" transform="translate(191,124) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="Combat-Size">
+          <tr>
+            <th>Modifier</th><th>-5</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
+            <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th><th>+5</th>
+          </tr>
+          <tr>
+            <td>Size</td><td>1ft</td><td>1.5ft</td><td>2ft</td><td>3ft</td><td>4ft</td>
+            <td>6ft</td><td>8ft</td><td>12ft</td><td>16ft</td><td>24ft</td><td>32ft</td>
+          </tr>
+          <caption>
+            Combat/Size
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Dexterity" style="fill:none;stroke:none;" width="76" height="22" x="211" y="149" />
+  <foreignObject y="0" x="0" width="380" height="110" transform="translate(211,149) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Dexterity">
+          <tr>
+            <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Legerdemain</td><td>+20</td><td>+10</td><td>0</td><td>-10</td><td>-20</td><td>-30</td><td>-40</td>
+          </tr>
+          <tr class="num">
+            <td>Grope</td><td>8s</td><td>6s</td><td>4s</td><td>3s</td><td>2s</td><td>1.5s</td><td>1s</td>
+          </tr>
+          <caption>
+            Dexterity
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Acrobatics" style="fill:none;stroke:none;" width="76" height="22" x="211" y="178" />
+  <foreignObject y="0" x="0" width="380" height="110" transform="translate(211,178) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table id="$D-Acrobatics">
+          <tr>
+            <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+          </tr>
+          <tr class="text">
+            <td>Tricks</td><td>-</td><td>None</td><td>Simple</td><td>Complex</td><td>Original</td>
+          </tr>
+          <tr class="num">
+            <td>Rise</td><td>5s</td><td>4s</td><td>3s</td><td>2s</td><td>1s</td>
+          </tr>
+          <caption>
+            Acrobatics
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+</svg>
