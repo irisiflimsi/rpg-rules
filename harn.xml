@@ -2512,6 +2512,20 @@
           <em>HM</em> is also directly added to ML.  <em>WQ</em> is
           used as skill, not as attribute.
         </p>
+        <p>
+          In order to simulate larger combats with many participants,
+          the usual Row-5-Addition can be used.  It does not provide
+          as many tactical options as individual combat does, but greatly
+          reduces time spent.  Both time and wound dimension should 
+          be scaled linearly with the number of particpipants.  E.g. a
+          wound of 5 after 30 seconds would scale to a total of 50 points
+          after 5 minutes for 10 people or to 500 points after 50 minutes
+          for 100 people.  The points should be distributed in
+          reasonable batches on the participants on each side, the 
+          smallest batch size being the wounds rolled.  People can be hit
+          multiple times, but points beyond 40 generally don't make sense
+          unless explosives, catapults, or similar are involved.
+        </p>
         <div class="explain">
           <p>
             <em>Rest:</em> Fatigue gained by any conflict recovers at
