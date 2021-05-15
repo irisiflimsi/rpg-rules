@@ -535,13 +535,13 @@
       <th>Social Class</th><th>Native OML</th>
     </tr>
     <tr>
-      <td>Slave/Serf/Urban Poor</td><td>20</td>
+      <td>Slave/Serf/Urban Poor</td><td>15</td>
     </tr>
     <tr>
-      <td>Guildsman/Military</td><td>25</td>
+      <td>Guildsman/Military</td><td>20</td>
     </tr>
     <tr>
-      <td>Cleric/Nobility/Scholar</td><td>30</td>
+      <td>Cleric/Nobility/Scholar</td><td>25</td>
     </tr>
   </table>
   <table id="Language-2" style="width:60%">
