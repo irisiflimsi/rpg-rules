@@ -14,19 +14,20 @@
       <div class="container">
         <h1 id="motiv">Motivation</h1>
         <p>
-          The following two major issues are addressed by the rules.
-          Any further attempt to elaborate on the reasoning of these
-          rules I attenot to curtail.  The reader shall be the judge
-          on whether I succeeded.
+          RPG rules at large have several issues, which I want to address
+          with these rules.  I do not want to go into theory - that would
+          burdon the rules - suffice it to say that the rules weal with the
+          <em>simulation</em> aspect of the RPG genre.
         </p>
         <h3 id="scale">Scalability</h3>
         <p>
-          One of the technical flaws of almost all rules I have come
-          across is the that skill application and difficulties change
-          their technical applications as they progress.  With this
-          rule set, higher skill levels compare to higher difficulty
-          level exactly as lower skills and lower difficulty level.
-          At every <em>level</em> the rules yield the same
+          A technical flaw of all rules I know is that intended skill
+          progression does not change in accordance with the technical
+          realisation.  In other words, a skill "value" and "difficulty"
+          has a different meaning than what the rule mechanics suggest.
+          With this rule set, higher skill levels compare to higher
+          difficulty level exactly as lower skills and lower difficulty
+          level.  At every <em>level</em> the rules yield the same
           probability.
         </p>
         <p>
@@ -43,9 +44,24 @@
           Rules complicate situations, especially combat, because they
           address the complexity of tactical decisions by creating
           artificial dimensions.  Strength, Combat skills and Hit
-          points are the dominating techical terms.  We aboid this
+          points are the dominating techical terms.  We avoid this
           here in the hope that both simplicity and <em>realism</em>
-          can be fostered at the same time.
+          can be fostered at the same time.  Dimensions will be created
+          according to the skill as plausible and not as separate
+          "entities".
+        </p>
+        <h3 id="inout">Inner and Outer Rules</h3>
+        <p>
+          One of the most difficult problems is differentiating between 
+          rules that are observable by the members of the game world,
+          such as NPCs and those only available to the players outside.
+          Since these are generic rules, world-specific rules are not
+          provided, but mechanisms to simulate much of a game-world are.
+        </p>
+        <p>
+          We do not provide rules for influencing Luck or Karma, even
+          though they can be made generic.  It is only the simulation part
+          that concerns us here.
         </p>
       </div>
       <div class="container">
@@ -63,12 +79,19 @@
           will be a whole number (i.e. a positive or negative number
           without fractional part).  An understanding of this rule is
           crucial, so we elaborate by listing the probabilities
-          involved as well as some examples.
+          involved as well as some examples.  If the method is intuitively
+          clear, you can skip the (theretical) next section.
+        </p>
+        <p>
+          The mechanism is different from other rules, where you will
+          often roll eithe a pool of dice and count those that match a
+          certain threshol or single die roll gives you better results
+          the higher (lower) your roll turns out.
         </p>
         <h3 id="prob">Probabilities</h3>
         <p>
-          The first row shows the result achieved when you roll.  The
-          second row shows the chance that you have of moving up one
+          In Table 1 the first row shows the result achieved when you roll.
+          The second row shows the chance that you have of moving up one
           point (i.e. left) at any given point.  Note that this chance
           is always the same.  Then third row gives the percentage
           chance that you have of achieving the result in the
@@ -188,8 +211,8 @@
         <div class="explain">
           <p>
             Assume you decided to use <em>d100</em> and rolled a 24 on
-            the first roll.  This means a result of 1.  The second
-            roll (the negative or passive roll) shows a 50, which
+            the first roll.  This means a result of 1 o the first table. 
+            The secon roll (the negative or passive roll) shows a 50, which
             results in 3 for a net result of -2.
           </p>
           <p>
@@ -235,9 +258,9 @@
             character climbing the neighborhood tree and as a grown,
             experienced man climbing an overhanging cliff.  The
             child's climbing bonus of 12 against a difficulty addition
-            of 14 for the tree gives the same <em>distribution</em> as
+            of 14 for the tree gives the same <em>probability distribution</em> as
             the adult's bonus of 57 against the cliff's 59.  (We have
-            not made any rules on skills and difficulties yet, but the
+            not made any rules on skills and difficulties yet, but they
             will turn out to be additions and subtractions from the
             levels.)
           </p>
