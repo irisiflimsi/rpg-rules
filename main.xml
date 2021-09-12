@@ -277,10 +277,11 @@
           only break even (or win) against a 10 in 5% of all cases.
         </p>
         <p>
-          In the upcoming paragraphs, we will use this to create a
-          <em>level</em> system.  Assuming a <em>level</em> for every
-          10 point difference gives a good scale.  Passing a level of
-          10 higher is not impossible but improbable.
+          In the upcoming paragraphs, we will use this to create
+          <em>levels</em>.  Assuming a <em>level</em> for every
+          10 point difference gives a good scale.  Passing one level of
+          10 points is not impossible but improbable.  Many rule systems
+          operate with 4 levels of expertise/difficulty, see the Example chapter.
         </p>
         <p>
           <em>Skills</em> (or <em>Attributes</em>, etc.) should be
@@ -543,8 +544,12 @@
         <h3 id="generic-rules">Common Rulesets</h3>
         <p>
           Many rulesets rank a skill on a percentile scale 0% through 100%.
-          This is the case for Rolemasetr, Runequest, or Harnmaster.  Rolling
-          below your skill value makes you succeed.
+          This is the case for Rolemaster, Runequest, or Harnmaster.  Rolling
+          below your skill value makes you succeed. This approximates levels
+          at about 5%, 35%, 65%, and 95%.  That means these rules have about
+          four skill levels, in which all values fall according to our rules.
+          The same is true for Dungeons and Dragons or Pathfinder, which use
+          tewnty 5% steps, instead of the finer grained 1% step.
         </p>
         <p>
           All following headings are links to the corresponding sub-pages.
