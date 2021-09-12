@@ -265,7 +265,7 @@
             levels.)
           </p>
         </div>
-        <h3 id="design">Design Guideline</h3>
+        <h3 id="design">Generic Design Guideline</h3>
         <p>
           When designing the concrete implementations of skills,
           difficulties, situations, etc. keep in mind one of the key
@@ -289,15 +289,6 @@
           or stylized, specific skills are used, depends on the genre.
           Such specialized application is not of importance at this
           stage.
-        </p>
-      </div>
-      <div class="container">
-        <h1 id="extended">Extended Rules</h1>
-        <p>
-          The following sections deal with application of the
-          previously explained <em>basic rule</em>.  Many situations
-          can be ruled according to the same principles, regardless of
-          the specific genre-rule.
         </p>
         <h3 id="dimscale">Scales &#038; Dimensions</h3>
         <p>
@@ -333,6 +324,15 @@
           dimension, use simple (linear) interpolation.  More complex,
           but potentially accurate intermediate steps are likely to
           sacrifice too much playability.
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="extended">Extended Rules</h1>
+        <p>
+          The following sections deal with application of the
+          previously explained <em>basic rule</em>.  Many situations
+          can be ruled according to the same principles, regardless of
+          the specific genre-rule.
         </p>
         <h3 id="combo">Combinations</h3>
         <p>
@@ -391,6 +391,23 @@
           who of the two has the higher skill level.
         </p>
         <p>
+          Since &#945;=5 is by far the most common case, we provide the
+          corresponding table here. Say you want to add the skills <em>x</em> 
+          and <em>y</em> of two actors. In the first row, you index the
+          positive difference between <em>x</em> and <em>y</em>. The second
+          row will then give you the "bonus" to add to the higher of the two
+          skills.  Say the skills are 5 and 9.  Then the net skill level
+          of the two actors together is 12.
+        </p>
+        <table style="width:75%">
+          <tr>
+            <th>Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td><td>11-19</td><td>20+</td>
+          </tr>
+          <tr>
+            <td>Result</td><td>+5</td><td>+4</td><td>+3</td><td>+2</td><td>+1</td><td>0</td>
+          </tr>
+        </table>
+        <p>
           The rule can be applied multiple times and its application
           does not depend on the order or sub-grouping of several
           actors, thereby adhering to the outline given in the
@@ -416,11 +433,16 @@
           combine 10.694 and 13 in the same manner to 16.585.  In the
           last step, we combine 17 and 16.585 into 21.298.
         </p>
+        <p>
+          Do not be overwhelmed by this rule, you will probably use it
+          rarely, since role playing is more about an individual's actions
+          than a group's.
+        </p>
         <h3 id="mult">Simultaneous Actions</h3>
         <p>
-          Attempting to do simultaneous actions is simple and works
+          Attempting to do actions simultaneously is simple and works
           like reducing both activities by 1 and then doing them both.
-          Note that the time required for the activity is not
+          Note that the time required for the activities is not
           simultaneous but consecutive, but in any order desired.
           This can mean that an activity can be postponed and
           "triggered" separately.  As an example, you can observe
@@ -460,11 +482,16 @@
           active roll by n, the active roll can be repeated n times
           and the average of all (n+1) rolls is taken.  This will
           result in a higher probability of the (new) average,
-          effectively "controlling" the results.
+          effectively "controlling" the results.  An actor is "playing
+          it safe".
         </p>
         <p>
           The reverse is not possible, i.e. increasing the active roll
-          and randomizing the rolls even more.
+          and randomizing the rolls even more, unless this explicitely
+          makes sense.  "Putting everything on one card" is often desirable,
+          but the outcome can not be spread accordingly in-world.  E.g.
+          you usually cannot run faster by increasing your chance for
+          stumbling or running the wrong way.
         </p>
         <p>
           When actions are not completed, but aborted prematurly,
@@ -513,8 +540,14 @@
       </div>
       <div class="container">
         <h1 id="concret">Examples</h1>
+        <h3 id="generic-rules">Common Rulesets</h3>
         <p>
-          All headings are links to the corresponding sub-pages.
+          Many rulesets rank a skill on a percentile scale 0% through 100%.
+          This is the case for Rolemasetr, Runequest, or Harnmaster.  Rolling
+          below your skill value makes you succeed.
+        </p>
+        <p>
+          All following headings are links to the corresponding sub-pages.
         </p>
         <h3 id="harn">
           <a href="harn.xml">Rules for Hârnworld</a>
