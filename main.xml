@@ -9,96 +9,74 @@
   </head>
   <body>
     <div class="main">
-      <div class="title">RPG Rules</div>
-      
+      <div class="title">Abstract RPG Rules</div>
       <div class="container">
-        <h1 id="motiv">Motivation</h1>
+        <h1 id="Introduction">Introduction</h1>
         <p>
-          RPG rules at large have several issues, which I want to address
-          with these rules.  I do not want to go into theory - that would
-          burdon the rules - suffice it to say that the rules weal with the
-          <em>simulation</em> aspect of the RPG genre.
-        </p>
-        <h3 id="scale">Scalability</h3>
-        <p>
-          A technical flaw of all rules I know is that intended skill
-          progression does not change in accordance with the technical
-          realisation.  In other words, a skill "value" and "difficulty"
-          has a different meaning than what the rule mechanics suggest.
-          With this rule set, higher skill levels compare to higher
-          difficulty level exactly as lower skills and lower difficulty
-          level.  At every <em>level</em> the rules yield the same
-          probability.
+          In RPGs, most gameplay does not need rules. During play, players will only recurr to rules in two instances:
         </p>
         <p>
-          One consequence of this, as it turns out, is that using
-          rules for multiple actors or multiple targets happens
-          (<em>scales</em>) smoothly.  There are no odd jumps in
-          probabilities when rules are applied to groups nor is there
-          a need for a new type of rule.  Thus separate rules that
-          apply to massive or complex (<em>large scale</em>)
-          situations are not necessary.
-        </p>
-        <h3 id="dim">Dimensions</h3>
+        <ul>
+          <li>
+            The gameworld is alien enough that common sense cannot be used to resolve a situation. This is the case for magic spell casting, for instance.
+          </li>
+          <li>
+            Players and GMs do not want to determine the outcome according to their common understanding but want some undeterministic influence, i.e. chance,
+            to do it for them. This may be used to enhance tension or drama but also to reolve different understanding of the situation by different
+            players, but they can still agree on a chance value.
+          </li>
+        </ul>
         <p>
-          Rules complicate situations, especially combat, because they
-          address the complexity of tactical decisions by creating
-          artificial dimensions.  Strength, Combat skills and Hit
-          points are the dominating techical terms.  We avoid this
-          here in the hope that both simplicity and <em>realism</em>
-          can be fostered at the same time.  Dimensions will be created
-          according to the skill as plausible and not as separate
-          "entities".
+          All rule systems on the market (that I know of) do not separate the two points sufficiently and create probabilities that are hard to gauge.
+          In fact, only for playing a game for an extended period of time, will patterns emerge. I find this fatiguing, in particular, if the probabilities
+          do not turn out to match expectations and thereby impacting enjoyment. Therefore the following rules are written with these points in mind:
         </p>
-        <h3 id="inout">Inner and Outer Rules</h3>
+        <ul>
+          <li>
+            Keep out rules that explain a setting. Let's call these <em>in-world</em> rules.
+          </li>
+          <li>
+            Keep it comprehensible. This does not mean generic simple, but rather that probabilities do not provide surprises around the corner.
+          </li>
+        </ul>
+        </p>
+        <h1 id="Translation">Translation</h1>
         <p>
-          One of the most difficult problems is differentiating between 
-          rules that are observable by the members of the game world,
-          such as NPCs and those only available to the players outside.
-          Since these are generic rules, world-specific rules are not
-          provided, but mechanisms to simulate much of a game-world are.
+          Most rules intend to resolve skill application. Whether it be fighting, hiding, finding, lifting, or something else. A character
+          can have different skill levels but tasks at hand can also also have different difficulty levels. We make the following assumptions:
+          A skill proficiency and a task difficulty can be expressed as numbers. <strong>A skill level of <em>n</em> has the same chances of success
+          for a task of difficulty <em>k</em>, as a skill of <em>n+1</em> against a difficulty of <em>k+1</em></strong>. The numbers <em>n, k</em> are
+          your regular numbers. We set the chance for failure and success to be even, that is <em>50% = 1/2</em> when <em>n = k = 0</em>.
+          Assuming we have a failure probability of <em>p/2</em> for a skill of <em>1</em> for a task of <em>0</em>. Then
+          we define the skill value <em>2</em>, such that its failure probability for a task of <em>0</em> is <em>p<sup>2</sup></em>. For simplicity sake, we will restrict ourself
+          in the number range for $n, k$ and take $p=0.8$. .
         </p>
         <p>
-          We do not provide rules for influencing Luck or Karma, even
-          though they can be made generic.  It is only the simulation part
-          that concerns us here.
+          The only real assumption is set in <string>bold</strong>. This is in fact all we need, because the following are conclusions. You do not need to
+          understand the above paragraph let alone follow a rigorous proof. We will explain the actual rule(s) as they affect the game in more detail.
         </p>
       </div>
       <div class="container">
-        <h1 id="basic">Basic Rule</h1>
+        <h1 id="Basic">One Rule to Rule them</h1>
         <p>
-          You roll a <em>d5</em> until you roll a 1 and the count the
-          number of dice that did not show up a 1.  That is the same
-          as the number of dice you actually rolled minus one.  The
-          higher you get, the better, therefore we call it the
-          <em>positive</em> roll.  This roll is dominated by the
-          active character, or more generally, the actor.  Of course,
-          there is a <em>negative</em> roll that is associated with
-          the passive resistance or impediment, which is handled in
-          the same way.  These two numbers are subtracted.  The result
-          will be a whole number (i.e. a positive or negative number
-          without fractional part).  An understanding of this rule is
-          crucial, so we elaborate by listing the probabilities
-          involved as well as some examples.  If the method is intuitively
-          clear, you can skip the (theretical) next section.
+          You roll a <em>d5</em> until you roll a 1 and then count the
+          number of dice that did not show up a 1. That is the same
+          as the number of dice you actually rolled minus one. The
+          higher you get, the better, therefore we call it the <em>positive</em> roll.
+          This roll is dominated by the active character, or more generally, the actor.
+          It should be clear in almost all situations, who is active - the one with the applicable skill
+          Of course, there is a <em>negative</em> roll that is associated with the passive resistance or impediment, which is handled in
+          the same way. That would be the task in most cases. These two numbers are subtracted.
+          An understanding of this rule is crucial, so we elaborate by listing the probabilities involved as well as some examples.
         </p>
         <p>
-          The mechanism is different from other rules, where you will
-          often roll eithe a pool of dice and count those that match a
-          certain threshol or single die roll gives you better results
-          the higher (lower) your roll turns out.
+         The mechanism is different from other rules, where you will often roll eithe a pool of dice and count those that match a certain threshold or single die roll gives you better results the higher (lower) your roll turns out.
         </p>
-        <h3 id="prob">Probabilities</h3>
         <p>
-          In Table 1 the first row shows the result achieved when you roll.
-          The second row shows the chance that you have of moving up one
-          point (i.e. left) at any given point.  Note that this chance
-          is always the same.  Then third row gives the percentage
-          chance that you have of achieving the result in the
-          corresponding first row.  These you could achieve by rolling
-          a <em>d100</em> in order to cut down on the number of dice
-          to roll.  All but the first column of this row are
-          approximations.
+          In Table 1 the first row shows the result achieved when you roll. The second row shows the chance that you have of moving up one point (i.e. left)
+          at any given point. Note that this chance is always the same. The third row gives the percentage chance that you have of achieving the result
+          in the corresponding first row. These you could achieve by rolling a <em>d100</em> in order to cut down on the number of dice to roll.
+          All but the first column of this row are approximations.
         </p>
         <p>
           The last column is somewhat special.  It combines all higher
@@ -156,10 +134,10 @@
             <th>...</th><th>-9</th><th>-8</th>
             <th>-7</th><th>-6</th><th>-5</th>
             <th>-4</th><th>-3</th><th>-2</th>
-            <th>-1</th><th>0</th><th>1</th>
-            <th>2</th><th>3</th><th>4</th>
-            <th>5</th><th>6</th><th>7</th>
-            <th>8</th><th>9</th><th>...</th>
+            <th>-1</th><th>0</th><th>+1</th>
+            <th>+2</th><th>+3</th><th>+4</th>
+            <th>+5</th><th>+6</th><th>+7</th>
+            <th>+8</th><th>+9</th><th>...</th>
           </tr>
           <tr>
             <td>...</td><td>80%</td><td>80%</td>
@@ -180,22 +158,11 @@
           </tr>
         </table>
         <p>
-          In order to keep the probabilities correct, all rolls should
-          be made in secret and the result only be exposed when
-          necessary.  In many situtations this is highly impractical,
-          you therefore need to decide, when to sacrifice correctness
-          for playability.  We will see in later sections examples of
-          this.  But it should be obvious that a player will rather
-          break off a long lasting activity when he knows it will not
-          end well.  Think of a race, where everyone knows the
-          probable outcome after a few meters have been run.
-        </p>
-        <p>
           In case a more precise outcome needs to be rolled, roll a
           <em>d10</em> for as many digits after the decimal point as
           needed.
         </p>
-        <h3 id="prob_ex">Examples</h3>
+        <h2 id="Examples">Examples</h2>
         <p>
           The most generic way to roll the dice would be to roll
           <em>d5</em> until a 1 is rolled.  To improve speed, several
@@ -233,109 +200,75 @@
           <p>
             If you decide that +7 is not precise enough, a roll of 3
             and 5 on a <em>d10</em> (each) gives are finer result of
-            +7.35.
+            +7.35.  I.e. you simple roll the decimal places.
           </p>
         </div>
-        <h3 id="adv">Advantages</h3>
         <p>
-          This basic rule has several advantages over other rules that
-          are proposed in other systems.  In no particular order:
-        </p>
-        <div class="explain">
-          <p>
-            Active and passive are symmetrical.  If you imagine one
-            character stealthily evading another, the first may
-            interprete the rolls as his actively evading against a
-            passive observation of the surroundings, while the second
-            may interprete the rolls as his actively scrutinzing the
-            vicinity against a passively hiding opponent.  Either way,
-            one roll (or set of rolls) will determine the outcome.
-          </p>
-          <p>
-            Scaling with respect to difficulty.  Imagine that one
-            character is particularly strong with a certain skill, but
-            he also attempts more difficult tasks.  Imagine the child
-            character climbing the neighborhood tree and as a grown,
-            experienced man climbing an overhanging cliff.  The
-            child's climbing bonus of 12 against a difficulty addition
-            of 14 for the tree gives the same <em>probability distribution</em> as
-            the adult's bonus of 57 against the cliff's 59.  (We have
-            not made any rules on skills and difficulties yet, but they
-            will turn out to be additions and subtractions from the
-            levels.)
-          </p>
-        </div>
-        <h3 id="design">Generic Design Guideline</h3>
-        <p>
-          When designing the concrete implementations of skills,
-          difficulties, situations, etc. keep in mind one of the key
-          probability of the basic rule.  And that is <em>a result of
-          10 or higher has appoximately a 5% chance</em>.  For a
-          positive/active roll alone this is at about 10%.  So when
-          designing additions/subtractions consider that when
-          comparing numbers directly, say skills in a duel, a 0 will
-          only break even (or win) against a 10 in 5% of all cases.
+          Remember that the second row is technically correct and the third row only provides less rolls. We will look at some further hints for rolling.
         </p>
         <p>
-          In the upcoming paragraphs, we will use this to create
-          <em>levels</em>.  Assuming a <em>level</em> for every
-          10 point difference gives a good scale.  Passing one level of
-          10 points is not impossible but improbable.  Many rule systems
-          operate with 4 levels of expertise/difficulty, see the Example chapter.
+          Active and passive are symmetrical.  If you imagine one
+          character stealthily evading another, the first may
+          interprete the rolls as his actively evading against a
+          passive observation of the surroundings, while the second
+          may interprete the rolls as his actively scrutinzing the
+          vicinity against a passively hiding opponent.  Either way,
+          one roll (or set of rolls) will determine the outcome.
+        </p>
+        <h2 id="Hints">Hints</h2>
+        <p>
+          The calculations result in a level difference between the active and the passive part (or the skill level and task level) which is the only number relevant for rolling. If only the failure or success is of interest and not the success/failure level itself, you can apply the following shortcut. Since the difference must be met by the lower contestant, you may roll all the difference dice in one combined “throw” and check, whether any stop digit appears. If it does the lower contestant cannot win, since it is irrelevant, where the stop digit appears. If the stop digit does not appear, chances have reduced to 50/50, and you can flip a coin in any of a number of ways.
         </p>
         <p>
-          <em>Skills</em> (or <em>Attributes</em>, etc.) should be
-          designed as to properly apply to genre-typical situations
-          and <em>tests</em>.  Whether generic skills and attributes
-          or stylized, specific skills are used, depends on the genre.
-          Such specialized application is not of importance at this
-          stage.
-        </p>
-        <h3 id="dimscale">Scales &#038; Dimensions</h3>
-        <p>
-          Skill tests may succeed completely, partially, or not at
-          all.  It may take more or less time to complete a task.
-          Actions or tasks are therefore split into several
-          appropriate dimensions, such that an action can succeed or
-          fail in each dimension separately.  The sense of introducing
-          dimensions into the rules is to give tactical control to the
-          actor/character.  Sometimes a wall needs to be torn down, no
-          matter how long it takes.  Sometimes only a certain amount
-          of digging can be done before it is interrupted.  A very
-          important choice is that of the right dimensions.  A
-          predominate dimension applicable to many tasks is
-          <em>time</em>.
+          For example, suppose the active climber with a skill level of *57* wants to scale a cliff of difficulty *49*. The difference is *8*. The GM rolls *8* dice, which show up *3, 5, 6, 1, 3, 9, 9*, and *8*. Since *1* is a stop digit, the cliff is scaled. If the *1* had been a *7*, for instance, the cliff would have had a “fighting chance” to drop the character. The GM decides that even is good for the character and odd is bad and rolls a *d10*. It comes up a *6* and the character has barely made it. Any story-telling description of this close encounter is at your option.
         </p>
         <p>
-          You should always try to create <em>scalable</em> dimensions
-          and this is often not hard.  Time, distance, and weight are
-          classic examples of such dimensions, But also skills such as
-          knowledge can be made scalable.
-        </p>
-        <p>
-          Once you have decided on some effects for a scalable
-          dimension, you will have a list like <em>skill 0: 1 minute,
-          skill 10: 2 minutes, ...</em>.  The skill level will be in
-          steps of 10 (remember the design guidelines), while the
-          values depend on the dimension and the concrete skill.  The
-          above may be a skill of <em>Holding Breath</em>, but for a
-          skill called <em>Ten-Second-Dash</em> the list may look like
-          <em>skill 0: 30 meters, skill 40: 100 meters</em>.  To have
-          the appropriate intermediate steps, both in skill level and
-          dimension, use simple (linear) interpolation.  More complex,
-          but potentially accurate intermediate steps are likely to
-          sacrifice too much playability.
+          Another pragmatic rule is rolling *10* non-stop rolls in a row can be shortened to rolling a *1* on a *d10*. The chance $1/10$ is an approximation of $0.8<super>10</super>$. You probably should use this, whenever the level differenc is at least *10*.  In fact, the choice of *p=0.8* in the initial paragraph was made for the reason that this heuristic holds.
         </p>
       </div>
       <div class="container">
-        <h1 id="extended">Extended Rules</h1>
+        <h1 id="Application">Applications to Existing Rules</h1>
         <p>
-          The following sections deal with application of the
-          previously explained <em>basic rule</em>.  Many situations
-          can be ruled according to the same principles, regardless of
-          the specific genre-rule.
+          Many rulesets rank a skill on a percentile scale 0% through 100%. This is the case for Rolemaster, Runequest, or Harnmaster.
+          Rolling below your skill value makes you succeed. This approximates levels 0, 10, 20 and 30 at about 5%, 35%, 65%, and 95%.
+          That means these rules have about fourty skill levels, in which all values fall according to our rules. The same is true
+          for Dungeons and Dragons, Pathfinder, or generally the d20 group of rules, which use twenty 5% steps, instead of the finer grained 1% step.
         </p>
-        <h3 id="combo">Combinations</h3>
+        <p>
+          Note that you could just multiply the d20 skill levels by two or take half for the precentile system, why the strange, non-linear mapping?
+          Since we do not intend to simulate other rules in this manner, you most certainly can do that conversion. If, however,
+          you intend to approximate the original probabilities, you should stick to the "strange" conversion.
+        </p>
+        <p>
+          The character sheet is applicable to all rules, because it captures the <em>out-world</em> probabilities. You need to fill in the relevant
+          skills and tasks for the PC. Since the possible combinations are virtually limitless, list only the most common ones or add another
+          sheet, if you do not find a suitable decomposition of skills and tasks.
+        </p>
+        <p>
+          Most rules apply linear modifications (i.e. additions and subtractions) to the skill and task levels and this is what we do for specific
+          rule conversions in the dedicated sections.
+        </p>
+        <p>
+          All following headings are links to the corresponding sub-pages.
+        </p>
+        <h3 id="harn">
+          <a href="harn.xml">Rules for Hârnworld</a>
+        </h3>
+        <p>
+          The first concrete implementation of the rules.  Contains a
+          lot of readily applicable rules to many settings.
+        </p>
+        <h3 id="harn-char">
+          <a href="char.svg">Sheets for Hârnworld</a>
+        </h3>
+        <p>
+          A character sheet.  Click on the icon field to toggle
+          between the two pages.
+        </p>
+        <h3 id="expanse">
+          <a href="expanse.xml">Rules for Expanse</a>
+        </h3>
+        <h1 id="Roaming">Roaming the Skill Space</h3>
         <p>
           The following rule only applies when you deem it prudent.
           It combines several actors into one and that only makes
@@ -538,44 +471,19 @@
           rolling 10 non-stop rolls in a row can be shortened to
           rolling a 1 on a <em>d10</em>.
         </p>
-      </div>
-      <div class="container">
-        <h1 id="concret">Examples</h1>
-        <h3 id="generic-rules">Common Rulesets</h3>
+        <h3 id="inout">Inner and Outer Rules</h3>
         <p>
-          Many rulesets rank a skill on a percentile scale 0% through 100%.
-          This is the case for Rolemaster, Runequest, or Harnmaster.  Rolling
-          below your skill value makes you succeed. This approximates levels
-          at about 5%, 35%, 65%, and 95%.  That means these rules have about
-          four skill levels, in which all values fall according to our rules.
-          The same is true for Dungeons and Dragons or Pathfinder, which use
-          tewnty 5% steps, instead of the finer grained 1% step.
+          One of the most difficult problems is differentiating between 
+          rules that are observable by the members of the game world,
+          such as NPCs and those only available to the players outside.
+          Since these are generic rules, world-specific rules are not
+          provided, but mechanisms to simulate much of a game-world are.
         </p>
         <p>
-          All following headings are links to the corresponding sub-pages.
+          We do not provide rules for influencing Luck or Karma, even
+          though they can be made generic.  It is only the simulation part
+          that concerns us here.
         </p>
-        <h3 id="harn">
-          <a href="harn.xml">Rules for Hârnworld</a>
-        </h3>
-        <p>
-          The first concrete implementation of the rules.  Contains a
-          lot of readily applicable rules to many settings.
-        </p>
-        <h3 id="harn-char">
-          <a href="char.svg">Sheets for Hârnworld</a>
-        </h3>
-        <p>
-          A character sheet.  Click on the icon field to toggle
-          between the two pages.
-        </p>
-        <h3 id="expanse">
-          <a href="expanse.xml">Rules for Expanse</a>
-        </h3>
-        <p>
-          The main rules are references to the Hârnworld rules.  Links
-          are available.
-        </p>
-      </div>
     </div>
   </body>
 </html>
