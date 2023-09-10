@@ -53,6 +53,13 @@
             surprises around the corner.
           </li>
         </ul>
+        <h3 id="inout">Inner and Outer Rules</h3>
+        <p>
+          One of the most difficult problems is differentiating between 
+          rules that are observable by the members of the game world,
+          such as NPCs and those only available to the players outside.
+          We address this when we visit concrete, existing rules.
+        </p>
         <h1 id="Translation">Translation</h1>
         <p>
           Most rules intend to resolve skill application.  Whether it
@@ -338,10 +345,6 @@
         <h3 id="harn">
           <a href="harn.xml">Rules for Hârnworld</a>
         </h3>
-        <p>
-          The first concrete implementation of the rules.  Contains a
-          lot of readily applicable rules to many settings.
-        </p>
         <h3 id="harn-char">
           <a href="char.svg">Sheets for Hârnworld</a>
         </h3>
@@ -356,49 +359,11 @@
       <div class="container">
         <h1 id="Roaming">Roaming the Skill Space</h1>
         <p>
-          The following rule only applies when you deem it prudent.
-          It combines several actors into one and that only makes
-          sense, if resolving the situation takes less time than
-          rolling them individually.
-        </p>
-        <p>
-          Sometimes several people (or more generally <em>actors</em>)
-          will want to join forces to expedite an action.  Jointly
-          lifting a weight or looking for a clue are typical examples.
-          This should be simulated by combining the joining people
-          into one actor with an increased <em>active</em> value for
-          the activity.  The same is true for attempting several tasks
-          in one activity, where rolling many dice would become
-          combersome.  Attempting to clear away rubble instead of
-          individual stones and broken items could be such a
-          situation.
-        </p>
-        <p>
-          First decide what the bonus would be, if two characters with
-          the same skill level combine their effort into one.  Then
-          the following formula provides a way to combine two general
-          actors into one.  Take the difference in bonus (<em>skill
-          level</em>) as &#946; and the bonus an equal skill level
-          should give as &#945;.  If you have set of values, you
-          should provide players with a table to reduce calculations
-          at the table.  Here, it would distract from the intention.
-        </p>
-        <p style="font-weight:bold;text-align:center;">
-          &#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)
-        </p>
-        <p>
-          For example, assume the bonus would be a full 10 for equal
-          characters, but the better character is 5 points ahead on
-          the skill.  Then this formula gives the skill of the better
-          character plus 8 to the combined actor.
-        </p>
-        <p>
-          You should never indiscriminately add values.  Remember that
-          a difference of 10 means a 90% winning difference by design.
-          Thus, adding a value that depends on the individual's skill
-          makes this quite awkward.  The question you should rather
-          ask is, how many people does it take to even out a
-          difference of 10.
+          The following rules address common situations. How do you
+          combine a group of actors that support each other? How do
+          you apply two skills to a task that fits both?  You should
+          never indiscriminately add values.  Remember that a
+          difference of 10 means a 90% winning difference by design.
         </p>
         <p>
           The standard example of taking the best skill roll of two
@@ -524,51 +489,36 @@
           roll had been reduced by n in another dimension.  If another
           dimension is not feasible, the activity simply fails.
         </p>
-        <h3 id="pragm">Pragmatics</h3>
         <p>
-          The calculations result in a level difference between the
-          <em>active</em> and the <em>passive</em> part, which is the
-          only number relevant for rolling.  If only the failure or
-          success is of interest and not the circumstances in the
-          domains, you can apply the following shortcut.  Since the
-          difference must be met by the lower contestant, you may roll
-          all the difference dice in one combined
-          &#x201c;throw&#x201d; and check, whether any stop digit
-          appears.  If it does the lower contestant cannot win, since
-          it is irrelevant, where the stop digit appears.  If the stop
-          digit does not appear, chances have reduced to 50/50, and
-          you can flip a coin in any of a number of ways.
+          Sometimes several people (or more generally <em>actors</em>)
+          will want to join forces to expedite an action.  Jointly
+          lifting a weight or looking for a clue are typical examples.
+          This should be simulated by combining the joining people
+          into one actor with an increased <em>active</em> value for
+          the activity.  The same is true for attempting several tasks
+          in one activity, where rolling many dice would become
+          combersome.  Attempting to clear away rubble instead of
+          individual stones and broken items could be such a
+          situation.
         </p>
         <p>
-          For example, suppose the active climber with a skill level
-          of 57 wants to scale a cliff of difficulty 49.  The
-          difference is 8.  The GM rolls 8 dice, which show up 3, 5,
-          6, 1, 3, 9, 9, and 8.  Since 1 is a stop digit, the cliff is
-          scaled.  If the 1 had been a 7, for instance, the cliff
-          would have had a &#x201c;fighting chance&#x201d; to drop the
-          character.  The GM decides that even is good for the
-          character and odd is bad and rolls a <em>d10</em>.  It comes
-          up a 6 and the character has barely made it.  Any
-          story-telling description of this close encounter is at your
-          option.
+          First decide what the bonus would be, if two characters with
+          the same skill level combine their effort into one.  Then
+          the following formula provides a way to combine two general
+          actors into one.  Take the difference in bonus (<em>skill
+          level</em>) as &#946; and the bonus an equal skill level
+          should give as &#945;.  If you have set of values, you
+          should provide players with a table to reduce calculations
+          at the table.  Here, it would distract from the intention.
+        </p>
+        <p style="font-weight:bold;text-align:center;">
+          &#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)
         </p>
         <p>
-          Another pragmatic rule that has already been mentioned is
-          rolling 10 non-stop rolls in a row can be shortened to
-          rolling a 1 on a <em>d10</em>.
-        </p>
-        <h3 id="inout">Inner and Outer Rules</h3>
-        <p>
-          One of the most difficult problems is differentiating between 
-          rules that are observable by the members of the game world,
-          such as NPCs and those only available to the players outside.
-          Since these are generic rules, world-specific rules are not
-          provided, but mechanisms to simulate much of a game-world are.
-        </p>
-        <p>
-          We do not provide rules for influencing Luck or Karma, even
-          though they can be made generic.  It is only the simulation part
-          that concerns us here.
+          For example, assume the bonus would be a full 10 for equal
+          characters, but the better character is 5 points ahead on
+          the skill.  Then this formula gives the skill of the better
+          character plus 8 to the combined actor.
         </p>
       </div>
     </div>
