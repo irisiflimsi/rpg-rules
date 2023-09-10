@@ -86,7 +86,7 @@
         </p>
       </div>
       <div class="container">
-        <h1 id="Basic">One Rule to Rule them</h1>
+        <h1 id="Basic">One Rule to Rule Them</h1>
         <p>
           You roll a <em>d5</em> until you roll a 1 and then count the
           number of dice that did not show up a 1.  That is the same
@@ -204,7 +204,7 @@
           <em>d10</em> for as many digits after the decimal point as
           needed.
         </p>
-        <h2 id="Examples">Examples</h2>
+        <h3 id="Examples">Examples</h3>
         <p>
           The most generic way to roll the dice would be to roll
           <em>d5</em> until a 1 is rolled.  To improve speed, several
@@ -259,7 +259,7 @@
           vicinity against a passively hiding opponent.  Either way,
           one roll (or set of rolls) will determine the outcome.
         </p>
-        <h2 id="Hints">Hints</h2>
+        <h3 id="Hints">Hints</h3>
         <p>
           The calculations result in a level difference between the
           active and the passive part (or the skill level and task
