@@ -52,7 +52,7 @@
           in the number range for $n, k$ and take $p=0.8$. .
         </p>
         <p>
-          The only real assumption is set in <string>bold</strong>. This is in fact all we need, because the following are conclusions. You do not need to
+          The only real assumption is set in <strong>bold</strong>. This is in fact all we need, because the following are conclusions. You do not need to
           understand the above paragraph let alone follow a rigorous proof. We will explain the actual rule(s) as they affect the game in more detail.
         </p>
       </div>
@@ -220,10 +220,10 @@
           The calculations result in a level difference between the active and the passive part (or the skill level and task level) which is the only number relevant for rolling. If only the failure or success is of interest and not the success/failure level itself, you can apply the following shortcut. Since the difference must be met by the lower contestant, you may roll all the difference dice in one combined “throw” and check, whether any stop digit appears. If it does the lower contestant cannot win, since it is irrelevant, where the stop digit appears. If the stop digit does not appear, chances have reduced to 50/50, and you can flip a coin in any of a number of ways.
         </p>
         <p>
-          For example, suppose the active climber with a skill level of *57* wants to scale a cliff of difficulty *49*. The difference is *8*. The GM rolls *8* dice, which show up *3, 5, 6, 1, 3, 9, 9*, and *8*. Since *1* is a stop digit, the cliff is scaled. If the *1* had been a *7*, for instance, the cliff would have had a “fighting chance” to drop the character. The GM decides that even is good for the character and odd is bad and rolls a *d10*. It comes up a *6* and the character has barely made it. Any story-telling description of this close encounter is at your option.
+          For example, suppose the active climber with a skill level of 57 wants to scale a cliff of difficulty 49. The difference is 8. The GM rolls 8 dice, which show up 3, 5, 6, 1, 3, 9, 9, and 8. Since 1 is a stop digit, the cliff is scaled. If the 1 had been a 7, for instance, the cliff would have had a “fighting chance” to drop the character. The GM decides that even is good for the character and odd is bad and rolls a d10. It comes up a 6 and the character has barely made it. Any story-telling description of this close encounter is at your option.
         </p>
         <p>
-          Another pragmatic rule is rolling *10* non-stop rolls in a row can be shortened to rolling a *1* on a *d10*. The chance $1/10$ is an approximation of $0.8<super>10</super>$. You probably should use this, whenever the level differenc is at least *10*.  In fact, the choice of *p=0.8* in the initial paragraph was made for the reason that this heuristic holds.
+          Another pragmatic rule is rolling 10 non-stop rolls in a row can be shortened to rolling a 1 on a d10. The chance 1/10 is an approximation of <em>0.8<super>10</super></em>. You probably should use this, whenever the level difference is at least 10.  In fact, the choice of p = 0.8 in the initial paragraph was made for the reason that this heuristic holds.
         </p>
       </div>
       <div class="container">
