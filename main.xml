@@ -347,16 +347,19 @@
         <h3 id="harn">
           <a href="harn.xml">Rules for Hârnworld</a>
         </h3>
+        <h3 id="expanse">
+          <a href="expanse.xml">Homebrew Rules for Expanse</a>
+        </h3>
+        <h3 id="char">
+          <a href="char.svg">Generic Char Sheet</a>
+        </h3>
         <h3 id="harn-char">
-          <a href="char.svg">Sheets for Hârnworld</a>
+          <a href="harn-char.svg">Sheets for Hârnworld</a>
         </h3>
         <p>
-          A character sheet.  Click on the icon field to toggle
+          A two-page character sheet.  Click on the icon field to toggle
           between the two pages.
         </p>
-        <h3 id="expanse">
-          <a href="expanse.xml">Rules for Expanse</a>
-        </h3>
       </div>
       <div class="container">
         <h1 id="Roaming">Roaming the Skill Space</h1>
@@ -367,23 +370,22 @@
           never indiscriminately add values.  Remember that a
           difference of 10 means a 90% winning difference by design.
         </p>
+        <h3 id="Combinations">Combinations</h3>
         <p>
-          The standard example of taking the best skill roll of two
+          Taking the best skill roll of two
           (this is the same as requiring at least one of the two to
-          succeed.)  would best equate to using &#945;=5.  If you have
-          two actors that both must succeed a test, then you should
-          use -5, which is equivalent to using the &#945;=5 for the
+          succeed.) can be done by using the table below.  If you have
+          two actors that both must succeed a test, that is equivalent to using the the
           <em>reverse</em> roll.  Keep in mind that the reversal of
           <em>positive</em> and <em>negative</em> roll also changes
           who of the two has the higher skill level.
         </p>
         <p>
-          Since &#945;=5 is by far the most common case, we provide the
-          corresponding table here. Say you want to add the skills <em>x</em> 
-          and <em>y</em> of two actors. In the first row, you index the
+          Say you want to add the skills <em>x</em> 
+          and <em>y</em> of two actors, where the respective difficulties have already been subtracted. In the first row, you index the
           positive difference between <em>x</em> and <em>y</em>. The second
           row will then give you the "bonus" to add to the higher of the two
-          skills.  Say the skills are 5 and 9.  Then the net skill level
+          skills - which is then the only one you need to roll.  Say the skills are 5 and 9.  Then the net skill level
           of the two actors together is 12.
         </p>
         <table style="width:75%">
@@ -397,11 +399,10 @@
         <p>
           The rule can be applied multiple times and its application
           does not depend on the order or sub-grouping of several
-          actors, thereby adhering to the outline given in the
-          motivational section.  In order to keep this rule simple,
+          actors.  In order to keep this rule simple,
           round results in your tables.  Using the rule multiple
           times, always group two actors of similar skill value
-          together.
+          together to reduce rounding errors.
         </p>
         <p>
           As a more elaborate example, say you have four characters in
@@ -409,41 +410,33 @@
           this technically means that either of those characters could
           find it, i.e. all would have to roll against a set
           diffculty.  But you want just one roll.  These characters
-          have a skill level of 5, 7, 13, and 17.  We keep three
-          siginificant digits, so you can verify the formula
-          application.  This is <em>not</em> recommended during
-          gameplay.  Taking the first two, because they are closest to
-          each other, we combine them into an actor with 10.694.  (The
-          difference between the two actor levels is 2 and from the
-          explanations of the previous paragraphs we know that we
-          should use &#945;=5.  We add 3.694 to the higher 7.)  Now we
-          combine 10.694 and 13 in the same manner to 16.585.  In the
-          last step, we combine 17 and 16.585 into 21.298.
+          have a skill level of 5, 7, 13, and 17. Taking the first two, because they are closest to
+          each other, we combine them into an actor with 11.  Now we
+          combine 11 and 13 in the same manner to 17.  In the
+          last step, we combine 17 and 17 into 22.
         </p>
         <p>
-          Do not be overwhelmed by this rule, you will probably use it
+          Now imagine that the same characters are trying to hide from a guard.
+          If one is detected, the guard will raise the alarm and the maneuver fails.
+          As luck will have it, their Hide skill level is exactly as their Search skill level.
+          But now it is passive: 5 and 7 will turn into 1. 13 and 17 (closest together) will
+          turn into 10. The difficulty of the skill "pairs" 1 and 10 turns into -1.
+          Since the guard isn't paying attention, the GM gives the guard a skill level of 0.
+          That leaves the group with a 60% failure chance.
+        </p>
+        <p>
+          If you are worried about rounding errors, use the following formula, where &#946;
+          is the difference in level you plug in and and the addition to the higher value is calculated.
+          Round when done with "addition".
+        </p>
+        <p style="font-weight:bold;text-align:center;">
+          5 ln(1+e<sup>-&#946;ln(2)/5</sup>)/ln(2)
+        </p>
+        <p>
+          Do not be overwhelmed by this suggestion, you will use it
           rarely, since role playing is more about an individual's actions
-          than a group's.
-        </p>
-        <h3 id="mult">Simultaneous Actions</h3>
-        <p>
-          Attempting to do actions simultaneously is simple and works
-          like reducing both activities by 1 and then doing them both.
-          Note that the time required for the activities is not
-          simultaneous but consecutive, but in any order desired.
-          This can mean that an activity can be postponed and
-          "triggered" separately.  As an example, you can observe
-          while running; or pick a lock and listen for foot steps.
-        </p>
-        <p>
-          When attacking twice, this may be used as what is called an
-          "attack of opportunity" in other rule systems.
-        </p>
-        <p>
-          Some activities may result in higher reductions or no
-          reduction for the individual feats attempted.  Penalties for
-          attempting more than two actions at the same time must be
-          judged separately.
+          than a group's. And lengthy calculations just to be correct will
+          reduce enjoyment. Use it only when players try to "break the rules" by misconstrued rounding.
         </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
@@ -458,69 +451,9 @@
         <p>
           If a decomposition results in multiple rolls, make sure that
           the rules of <em>Combinations</em> remain valid.  A typical
-          example would be to turn a roll that applies every 10 days
+          example would be to turn a roll that would usually apply every 10 days
           into a roll that applies every day.  This implies that all
           of the daily rolls have a difficulty increased by 10.
-        </p>
-        <h3 id="abort">Abort and Control</h3>
-        <p>
-          The variance in outcome of an activity can be controlled by
-          manipulating the scale of a dimension.  By reducing an
-          active roll by n, the active roll can be repeated n times
-          and the average of all (n+1) rolls is taken.  This will
-          result in a higher probability of the (new) average,
-          effectively "controlling" the results.  An actor is "playing
-          it safe".
-        </p>
-        <p>
-          The reverse is not possible, i.e. increasing the active roll
-          and randomizing the rolls even more, unless this explicitely
-          makes sense.  "Putting everything on one card" is often desirable,
-          but the outcome can not be spread accordingly in-world.  E.g.
-          you usually cannot run faster by increasing your chance for
-          stumbling or running the wrong way.
-        </p>
-        <p>
-          When actions are not completed, but aborted prematurly,
-          partial outcomes are possible.  This is usually an
-          interruption during the time dimension, e.g. due to
-          inflicted wounds on an active person at some point.
-          Consider this the equivalent of a control.  That is, if the
-          abort happens, when time to completion is equivalent to an
-          active value difference of n, then proceed as if the active
-          roll had been reduced by n in another dimension.  If another
-          dimension is not feasible, the activity simply fails.
-        </p>
-        <p>
-          Sometimes several people (or more generally <em>actors</em>)
-          will want to join forces to expedite an action.  Jointly
-          lifting a weight or looking for a clue are typical examples.
-          This should be simulated by combining the joining people
-          into one actor with an increased <em>active</em> value for
-          the activity.  The same is true for attempting several tasks
-          in one activity, where rolling many dice would become
-          combersome.  Attempting to clear away rubble instead of
-          individual stones and broken items could be such a
-          situation.
-        </p>
-        <p>
-          First decide what the bonus would be, if two characters with
-          the same skill level combine their effort into one.  Then
-          the following formula provides a way to combine two general
-          actors into one.  Take the difference in bonus (<em>skill
-          level</em>) as &#946; and the bonus an equal skill level
-          should give as &#945;.  If you have set of values, you
-          should provide players with a table to reduce calculations
-          at the table.  Here, it would distract from the intention.
-        </p>
-        <p style="font-weight:bold;text-align:center;">
-          &#945;ln(1+e<sup>-&#946;ln(2)/&#945;</sup>)/ln(2)
-        </p>
-        <p>
-          For example, assume the bonus would be a full 10 for equal
-          characters, but the better character is 5 points ahead on
-          the skill.  Then this formula gives the skill of the better
-          character plus 8 to the combined actor.
         </p>
       </div>
     </div>
