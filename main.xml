@@ -433,10 +433,9 @@
           5 ln(1+e<sup>-&#946;ln(2)/5</sup>)/ln(2)
         </p>
         <p>
-          Do not be overwhelmed by this suggestion, you will use it
-          rarely, since role playing is more about an individual's actions
+          Do not be overwhelmed by this suggestion, you will likely never ever use it, since role playing is more about an individual's actions
           than a group's. And lengthy calculations just to be correct will
-          reduce enjoyment. Use it only when players try to "break the rules" by misconstrued rounding.
+          reduce enjoyment. Use it only when players try to "break the rules" by misconstrued rounding and then have <em>them</em> do the math!
         </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
@@ -454,6 +453,15 @@
           example would be to turn a roll that would usually apply every 10 days
           into a roll that applies every day.  This implies that all
           of the daily rolls have a difficulty increased by 10.
+        </p>
+        <p>
+          Decomposition and then combining skills is a great tool to extend the skill space beyond what rules generally cover.
+          Imagine that a PC wants to tie a knot, but his skill sheet says he has level 5 as Sailor and level 3 as Mountaineer.
+          For tasks like knots where the difficulty is the same for a Sailor and a Mountaineer, the GM can allow
+          the PC to use a 9. The reasoning is that the knot skill application works as if two separate actors
+          were trying to tie the knot together.  Be careful, however, with allowing such additions, because if
+          you treat 0 as the value an untrained individual would have, then in the above case, a sailor that
+          has never seen a mountain, would still have a 0 and add that would yield a knot skill of 8.
         </p>
       </div>
     </div>
