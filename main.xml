@@ -13,70 +13,112 @@
       <div class="container">
         <h1 id="Introduction">Introduction</h1>
         <p>
-          In RPGs, most gameplay does not need rules. During play, players will only recurr to rules in two instances:
-        </p>
-        <p>
-        <ul>
-          <li>
-            The gameworld is alien enough that common sense cannot be used to resolve a situation. This is the case for magic spell casting, for instance.
-          </li>
-          <li>
-            Players and GMs do not want to determine the outcome according to their common understanding but want some undeterministic influence, i.e. chance,
-            to do it for them. This may be used to enhance tension or drama but also to reolve different understanding of the situation by different
-            players, but they can still agree on a chance value.
-          </li>
-        </ul>
-        <p>
-          All rule systems on the market (that I know of) do not separate the two points sufficiently and create probabilities that are hard to gauge.
-          In fact, only for playing a game for an extended period of time, will patterns emerge. I find this fatiguing, in particular, if the probabilities
-          do not turn out to match expectations and thereby impacting enjoyment. Therefore the following rules are written with these points in mind:
+          In RPGs, most gameplay does not need rules.  During play,
+          players will only recurr to rules in two instances:
         </p>
         <ul>
           <li>
-            Keep out rules that explain a setting. Let's call these <em>in-world</em> rules.
+            The gameworld is alien enough that common sense cannot be
+            used to resolve a situation.  This is the case for magic
+            spell casting, for instance.
           </li>
           <li>
-            Keep it comprehensible. This does not mean generic simple, but rather that probabilities do not provide surprises around the corner.
+            Players and GMs do not want to determine the outcome
+            according to their common understanding but want some
+            undeterministic influence, i.e. chance, to do it for them.
+            This may be used to enhance tension or drama but also to
+            reolve different understanding of the situation by
+            different players, but they can still agree on a chance
+            value.
           </li>
         </ul>
+        <p>
+          All rule systems on the market (that I know of) do not
+          separate the two points sufficiently and create
+          probabilities that are hard to gauge.  In fact, only for
+          playing a game for an extended period of time, will patterns
+          emerge.  I find this fatiguing, in particular, if the
+          probabilities do not turn out to match expectations and
+          thereby impacting enjoyment.  Therefore the following rules
+          are written with these points in mind:
         </p>
+        <ul>
+          <li>
+            Keep out rules that explain a setting.  Let's call these
+            <em>in-world</em> rules.
+          </li>
+          <li>
+            Keep it comprehensible.  This does not mean generic
+            simple, but rather that probabilities do not provide
+            surprises around the corner.
+          </li>
+        </ul>
         <h1 id="Translation">Translation</h1>
         <p>
-          Most rules intend to resolve skill application. Whether it be fighting, hiding, finding, lifting, or something else. A character
-          can have different skill levels but tasks at hand can also also have different difficulty levels. We make the following assumptions:
-          A skill proficiency and a task difficulty can be expressed as numbers. <strong>A skill level of <em>n</em> has the same chances of success
-          for a task of difficulty <em>k</em>, as a skill of <em>n+1</em> against a difficulty of <em>k+1</em></strong>. The numbers <em>n, k</em> are
-          your regular numbers. We set the chance for failure and success to be even, that is <em>50% = 1/2</em> when <em>n = k = 0</em>.
-          Assuming we have a failure probability of <em>p/2</em> for a skill of <em>1</em> for a task of <em>0</em>. Then
-          we define the skill value <em>2</em>, such that its failure probability for a task of <em>0</em> is <em>p<sup>2</sup></em>. For simplicity sake, we will restrict ourself
-          in the number range for $n, k$ and take $p=0.8$. .
+          Most rules intend to resolve skill application.  Whether it
+          be fighting, hiding, finding, lifting, or something else.  A
+          character can have different skill levels but tasks at hand
+          can also also have different difficulty levels.  We make the
+          following assumptions: A skill proficiency and a task
+          difficulty can be expressed as numbers.  <strong>A skill
+          level of <em>n</em> has the same chances of success for a
+          task of difficulty <em>k</em>, as a skill of <em>n+1</em>
+          against a difficulty of <em>k+1</em></strong>.  The numbers
+          <em>n, k</em> are your regular numbers.  We set the chance
+          for failure and success to be even, that is 50% = 1/2 when
+          <em>n = k = 0</em>.  Assuming we have a failure probability
+          of <em>p/2</em> for a skill of <em>1</em> for a task of
+          <em>0</em>.  Then we define the skill value <em>2</em>, such
+          that its failure probability for a task of <em>0</em> is
+          <em>p<sup>2</sup>/2</em>.  For simplicity sake, we will
+          restrict ourself in the number range for <em>n, k</em> and
+          take <em>p=0.8</em>.
         </p>
         <p>
-          The only real assumption is set in <strong>bold</strong>. This is in fact all we need, because the following are conclusions. You do not need to
-          understand the above paragraph let alone follow a rigorous proof. We will explain the actual rule(s) as they affect the game in more detail.
+          The only real assumption is set in <strong>bold</strong>.
+          This is in fact all we need, because the following are
+          conclusions.  You do not need to understand the above
+          paragraph let alone follow a rigorous proof.  We will
+          explain the actual rule(s) as they affect the game in more
+          detail.  The paragraph was written to show that we make very
+          few, natural assumptions that already imply the most
+          important rule.
         </p>
       </div>
       <div class="container">
         <h1 id="Basic">One Rule to Rule them</h1>
         <p>
           You roll a <em>d5</em> until you roll a 1 and then count the
-          number of dice that did not show up a 1. That is the same
-          as the number of dice you actually rolled minus one. The
-          higher you get, the better, therefore we call it the <em>positive</em> roll.
-          This roll is dominated by the active character, or more generally, the actor.
-          It should be clear in almost all situations, who is active - the one with the applicable skill
-          Of course, there is a <em>negative</em> roll that is associated with the passive resistance or impediment, which is handled in
-          the same way. That would be the task in most cases. These two numbers are subtracted.
-          An understanding of this rule is crucial, so we elaborate by listing the probabilities involved as well as some examples.
+          number of dice that did not show up a 1.  That is the same
+          as the number of dice you actually rolled minus one.  The
+          higher you get, the better, therefore we call it the
+          <em>positive</em> roll.  This roll is dominated by the
+          active character, or more generally, the actor.  It should
+          be clear in almost all situations, who is active - the one
+          with the applicable skill Of course, there is a
+          <em>negative</em> roll that is associated with the passive
+          resistance or impediment, which is handled in the same way.
+          That would be the task in most cases.  These two numbers are
+          subtracted.  An understanding of this rule is crucial, so we
+          elaborate by listing the probabilities involved as well as
+          some examples.
         </p>
         <p>
-         The mechanism is different from other rules, where you will often roll eithe a pool of dice and count those that match a certain threshold or single die roll gives you better results the higher (lower) your roll turns out.
+         The mechanism is different from other rules, where you will
+         often roll eithe a pool of dice and count those that match a
+         certain threshold or single die roll gives you better results
+         the higher (lower) your roll turns out.
         </p>
         <p>
-          In Table 1 the first row shows the result achieved when you roll. The second row shows the chance that you have of moving up one point (i.e. left)
-          at any given point. Note that this chance is always the same. The third row gives the percentage chance that you have of achieving the result
-          in the corresponding first row. These you could achieve by rolling a <em>d100</em> in order to cut down on the number of dice to roll.
-          All but the first column of this row are approximations.
+          In Table 1 the first row shows the result achieved when you
+          roll.  The second row shows the chance that you have of
+          moving up one point (i.e. left) at any given point.  Note
+          that this chance is always the same.  The third row gives
+          the percentage chance that you have of achieving the result
+          in the corresponding first row.  These you could achieve by
+          rolling a <em>d100</em> in order to cut down on the number
+          of dice to roll.  All but the first column of this row are
+          approximations.
         </p>
         <p>
           The last column is somewhat special.  It combines all higher
@@ -204,7 +246,9 @@
           </p>
         </div>
         <p>
-          Remember that the second row is technically correct and the third row only provides less rolls. We will look at some further hints for rolling.
+          Remember that the second row is technically correct and the
+          third row only provides less rolls.  We will look at some
+          further hints for rolling.
         </p>
         <p>
           Active and passive are symmetrical.  If you imagine one
@@ -217,39 +261,79 @@
         </p>
         <h2 id="Hints">Hints</h2>
         <p>
-          The calculations result in a level difference between the active and the passive part (or the skill level and task level) which is the only number relevant for rolling. If only the failure or success is of interest and not the success/failure level itself, you can apply the following shortcut. Since the difference must be met by the lower contestant, you may roll all the difference dice in one combined “throw” and check, whether any stop digit appears. If it does the lower contestant cannot win, since it is irrelevant, where the stop digit appears. If the stop digit does not appear, chances have reduced to 50/50, and you can flip a coin in any of a number of ways.
+          The calculations result in a level difference between the
+          active and the passive part (or the skill level and task
+          level) which is the only number relevant for rolling.  If
+          only the failure or success is of interest and not the
+          success/failure level itself, you can apply the following
+          shortcut.  Since the difference must be met by the lower
+          contestant, you may roll all the difference dice in one
+          combined “throw” and check, whether any stop digit appears.
+          If it does the lower contestant cannot win, since it is
+          irrelevant, where the stop digit appears.  If the stop digit
+          does not appear, chances have reduced to 50/50, and you can
+          flip a coin in any of a number of ways.
         </p>
         <p>
-          For example, suppose the active climber with a skill level of 57 wants to scale a cliff of difficulty 49. The difference is 8. The GM rolls 8 dice, which show up 3, 5, 6, 1, 3, 9, 9, and 8. Since 1 is a stop digit, the cliff is scaled. If the 1 had been a 7, for instance, the cliff would have had a “fighting chance” to drop the character. The GM decides that even is good for the character and odd is bad and rolls a d10. It comes up a 6 and the character has barely made it. Any story-telling description of this close encounter is at your option.
+          For example, suppose the active climber with a skill level
+          of 57 wants to scale a cliff of difficulty 49.  The
+          difference is 8.  The GM rolls 8 dice, which show up 3, 5,
+          6, 1, 3, 9, 9, and 8.  Since 1 is a stop digit, the cliff is
+          scaled.  If the 1 had been a 7, for instance, the cliff
+          would have had a “fighting chance” to drop the character.
+          The GM decides that even is good for the character and odd
+          is bad and rolls a d10.  It comes up a 6 and the character
+          has barely made it.  Any story-telling description of this
+          close encounter is at your option.
         </p>
         <p>
-          Another pragmatic rule is rolling 10 non-stop rolls in a row can be shortened to rolling a 1 on a d10. The chance 1/10 is an approximation of <em>0.8<super>10</super></em>. You probably should use this, whenever the level difference is at least 10.  In fact, the choice of p = 0.8 in the initial paragraph was made for the reason that this heuristic holds.
+          Another pragmatic rule is rolling 10 non-stop rolls in a row
+          can be shortened to rolling a 1 on a d10.  The chance 1/10
+          is an approximation of <em>0.8<super>10</super></em>.  You
+          probably should use this, whenever the level difference is
+          at least 10.  In fact, the choice of p = 0.8 in the initial
+          paragraph was made for the reason that this heuristic holds.
         </p>
       </div>
       <div class="container">
         <h1 id="Application">Applications to Existing Rules</h1>
         <p>
-          Many rulesets rank a skill on a percentile scale 0% through 100%. This is the case for Rolemaster, Runequest, or Harnmaster.
-          Rolling below your skill value makes you succeed. This approximates levels 0, 10, 20 and 30 at about 5%, 35%, 65%, and 95%.
-          That means these rules have about fourty skill levels, in which all values fall according to our rules. The same is true
-          for Dungeons and Dragons, Pathfinder, or generally the d20 group of rules, which use twenty 5% steps, instead of the finer grained 1% step.
+          Many rulesets rank a skill on a percentile scale 0% through
+          100%.  This is the case for Rolemaster, Runequest, or
+          Harnmaster.  Rolling below your skill value makes you
+          succeed.  This approximates levels 0, 10, 20 and 30 at about
+          5%, 35%, 65%, and 95%.  That means these rules have about
+          fourty skill levels, in which all values fall according to
+          our rules.  The same is true for Dungeons and Dragons,
+          Pathfinder, or generally the d20 group of rules, which use
+          twenty 5% steps, instead of the finer grained 1% step.
         </p>
         <p>
-          Note that you could just multiply the d20 skill levels by two or take half for the precentile system, why the strange, non-linear mapping?
-          Since we do not intend to simulate other rules in this manner, you most certainly can do that conversion. If, however,
-          you intend to approximate the original probabilities, you should stick to the "strange" conversion.
+          Note that you could just multiply the d20 skill levels by
+          two or take half for the precentile system, why the strange,
+          non-linear mapping?  Since we do not intend to simulate
+          other rules in this manner, you most certainly can do that
+          conversion.  If, however, you intend to approximate the
+          original probabilities, you should stick to the "strange"
+          conversion.
         </p>
         <p>
-          The character sheet is applicable to all rules, because it captures the <em>out-world</em> probabilities. You need to fill in the relevant
-          skills and tasks for the PC. Since the possible combinations are virtually limitless, list only the most common ones or add another
-          sheet, if you do not find a suitable decomposition of skills and tasks.
+          The character sheet is applicable to all rules, because it
+          captures the <em>out-world</em> probabilities.  You need to
+          fill in the relevant skills and tasks for the PC.  Since the
+          possible combinations are virtually limitless, list only the
+          most common ones or add another sheet, if you do not find a
+          suitable decomposition of skills and tasks.
         </p>
         <p>
-          Most rules apply linear modifications (i.e. additions and subtractions) to the skill and task levels and this is what we do for specific
-          rule conversions in the dedicated sections.
+          Most rules apply linear modifications (i.e. additions and
+          subtractions) to the skill and task levels and this is what
+          we do for specific rule conversions in the dedicated
+          sections.
         </p>
         <p>
-          All following headings are links to the corresponding sub-pages.
+          All following headings are links to the corresponding
+          sub-pages.
         </p>
         <h3 id="harn">
           <a href="harn.xml">Rules for Hârnworld</a>
@@ -268,7 +352,9 @@
         <h3 id="expanse">
           <a href="expanse.xml">Rules for Expanse</a>
         </h3>
-        <h1 id="Roaming">Roaming the Skill Space</h3>
+      </div>
+      <div class="container">
+        <h1 id="Roaming">Roaming the Skill Space</h1>
         <p>
           The following rule only applies when you deem it prudent.
           It combines several actors into one and that only makes
@@ -484,6 +570,7 @@
           though they can be made generic.  It is only the simulation part
           that concerns us here.
         </p>
+      </div>
     </div>
   </body>
 </html>
