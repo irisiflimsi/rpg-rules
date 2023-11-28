@@ -80,7 +80,7 @@
           skill level of <em>k</em> has the same chance of success for
           one task of difficulty <em>n</em> as a skill of level
           <em>n</em> has of failure against a task of difficulty
-          <em>k</em>.  Assuming we have a failure probability of
+          <em>k</em></strong>.  Assuming we have a failure probability of
           <em>p/2</em> for a skill of <em>1</em> for a task of
           <em>0</em>, we will restrict ourselves to <em>p=0.8</em>.
         </p>
