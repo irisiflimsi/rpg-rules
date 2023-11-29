@@ -38,9 +38,9 @@
           extended period of time, will patterns emerge.  I find this
           fatiguing, in particular, if the probabilities do not turn
           out to match expectations and thereby impact enjoyment.
-	      </p>
-	      <p>
-	        The following rules are written with these points in mind.
+        </p>
+        <p>
+          The following rules are written with these points in mind.
         </p>
         <ul>
           <li>
@@ -72,8 +72,8 @@
           can also also have different difficulty levels.  We make the
           following assumptions.
         </p>
-	      <ul>
-	        <li>
+        <ul>
+          <li>
             A skill proficiency and a task difficulty can be expressed
             as numbers. We call half of the probability for a skill of <em>0</em>
             to succeed at a task of level <em>1</em> as <em>p</em>. This "half"
@@ -81,9 +81,9 @@
           </li>
           <li>
             A skill level of <em>k</em> has the same probability of success for
-            a task of difficulty <em>n+1</em>, as a skill of <em>k</em>
-            against a task of difficulty <em>n</em> times <em>p</em>.
-            I.e. You succeed at the first step and then tackle the remaining.
+            a task of difficulty <em>n+1</em>, as <p>p</em> times a skill of
+            <em>k</em> against a task of difficulty <em>n</em>.
+            I.e. you succeed at the first step and then tackle the remaining.
           </li>
           <li>
             A skill level of <em>k</em> has the same chance of success for
