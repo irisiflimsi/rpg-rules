@@ -38,9 +38,9 @@
           extended period of time, will patterns emerge.  I find this
           fatiguing, in particular, if the probabilities do not turn
           out to match expectations and thereby impact enjoyment.
-	</p>
-	<p>
-	  The following rules are written with these points in mind.
+	      </p>
+	      <p>
+	        The following rules are written with these points in mind.
         </p>
         <ul>
           <li>
@@ -56,36 +56,52 @@
             surprises when subject matter changes.
           </li>
         </ul>
-	<p>
-	  The following section contains a few reasonable assumptions
-	  on rules and tries to explain, why certain rules are chosen.
-	  If you are only interested in the mechanics, you can skip
-	  it.
-	</p>
+      	<p>
+      	  The following section contains a few reasonable assumptions
+      	  on rules and tries to explain, why certain rules are chosen.
+      	  If you are only interested in the mechanics, you can skip
+      	  it.
+      	</p>
       </div>
       <div class="container">
-        <h1 id="AddSkills">Adding Skills</h1>
+        <h1 id="Axioms">Assumptions</h1>
         <p>
           Most rules intend to resolve skill application.  Whether it
           be fighting, hiding, finding, lifting, or something else.  A
           character can have different skill levels but tasks at hand
           can also also have different difficulty levels.  We make the
-          following assumptions: A skill proficiency and a task
-          difficulty can be expressed as numbers.  <strong>A skill
-          level of <em>k</em> has the same chance of success for one
-          task of difficulty <em>n</em> and one of difficulty
-          <em>m</em>, as a skill of <em>k</em> against a single task
-          of difficulty of <em>n+m</em>.</strong> The numbers <em>m,
-          n, k</em> are your regular (integer) numbers.  <strong>A
-          skill level of <em>k</em> has the same chance of success for
-          one task of difficulty <em>n</em> as a skill of level
-          <em>n</em> has of failure against a task of difficulty
-          <em>k</em></strong>.  Assuming we have a failure probability of
+          following assumptions.
+        </p>
+	      <ul>
+	        <li>
+            A skill proficiency and a task difficulty can be expressed
+            as numbers. We call half of the probability for a skill of <em>0</em>
+            to succeed at a task of level <em>1</em> as <em>p</em>. This "half"
+            is for technical reasons.
+          </li>
+          <li>
+            A skill level of <em>k</em> has the same probability of success for
+            a task of difficulty <em>n+1</em>, as a skill of <em>k</em>
+            against a task of difficulty <em>n</em> times <em>p</em>.
+            I.e. You succeed at the first step and then tackle the remaining.
+          </li>
+          <li>
+            A skill level of <em>k</em> has the same chance of success for
+            a task of difficulty <em>0</em> as a skill of level
+            <em>0</em> has of failure against a task of difficulty
+            <em>k</em>
+          </li>
+        </ul>
+        <p>
+          The numbers <em>m, n, k</em> are your regular (non-negative integer)
+          numbers.  Assuming we have a failure probability of
           <em>p/2</em> for a skill of <em>1</em> for a task of
-          <em>0</em>, we will restrict ourselves to <em>p=0.8</em>.
+          <em>0</em>, we will restrict ourselves to <em>p=0.8</em>. Note that
+          we extend the range of skill and task levels to the negative numbers,
+          if we treat a task level as negative skill level, i.e. pitting a (-k)-skill
+          against a 0-task is the same as pitting a 0-skill at a k-task.
         </p>
         <p>
-          The only real assumptions are set in <strong>bold</strong>.
           This is in fact all we need, because the following are
           conclusions.  This paragraph was written to show that we
           make very few, natural assumptions that already imply the
@@ -96,23 +112,23 @@
         <h1 id="Basic">One Rule to Rule Them</h1>
         <p>
           <em>
-	    You roll a d5 until you roll a 1 and then count the number
-	    of dice that did not show up a 1.  That is the same as the
-	    number of dice you actually rolled minus one.  The higher
-	    you get, the better.  This first number is used for the
-	    active character, or more generally, the actor.  It should
-	    be clear in almost all situations, who is active - the one
-	    with the applicable skill.  We call it the <b>positive
-	    (stop) roll</b> roll, even though it is a number of rolls.
-	    Of course, there is a <b>negative (stop) roll</b> that is
-	    associated with the passive resistance or impediment,
-	    which is handled in the same way.  That would be the task
-	    in most cases.  The result of the negative stop roll
-	    (which is still a positive number!) is subtracted from the
-	    result of the positive.  Understanding this rule is
-	    crucial, so we elaborate by listing the probabilities
-	    involved as well as some examples.
-	  </em>
+            You roll a d5 until you roll a 1 and then count the number
+            of dice that did not show up a 1.  That is the same as the
+            number of dice you actually rolled minus one.  The higher
+            you get, the better.  This first number is used for the
+            active character, or more generally, the actor.  It should
+            be clear in almost all situations, who is active - the one
+            with the applicable skill.  We call it the <b>positive
+            (stop) roll</b> roll, even though it is a number of rolls.
+            Of course, there is a <b>negative (stop) roll</b> that is
+            associated with the passive resistance or impediment,
+            which is handled in the same way.  That would be the task
+            in most cases.  The result of the negative stop roll
+            (which is still a positive number!) is subtracted from the
+            result of the positive.  Understanding this rule is
+            crucial, so we elaborate by listing the probabilities
+            involved as well as some examples.
+          </em>
         </p>
         <p>
           The mechanism is different from most other rules (I haven't
@@ -121,19 +137,19 @@
           or single die roll.
         </p>
         <p>
-	  All these methods, ours included, are usually compared
-	  against a threshold.  The further away from the threshold
-	  you are the more extreme the results will become.  Depending
-	  of the sign of the difference, the results is good or bad
-	  for the actor.
+      	  All these methods, ours included, are usually compared
+      	  against a threshold.  The further away from the threshold
+      	  you are the more extreme the results will become.  Depending
+      	  of the sign of the difference, the results is good or bad
+      	  for the actor.
         </p>
         <p>
-	  The follwoing two tables are explanatory and not needed,
-	  just as the Translation section.  The mechanics have been
-	  described completely in the highlighted section.  Everything
-	  else can be used to reduce the number of dice thrown or to
-	  better understand the implication of the (stop) roll
-	  mechanic.
+      	  The follwoing two tables are explanatory and not needed,
+      	  just as the Translation section.  The mechanics have been
+      	  described completely in the highlighted section.  Everything
+      	  else can be used to reduce the number of dice thrown or to
+      	  better understand the implication of the (stop) roll
+      	  mechanic.
         </p>
         <p>
           In Table 1 the first row shows the results you can achieve
@@ -298,14 +314,14 @@
         </p>
         <h3 id="Hints">Hints</h3>
         <p>
-	  When describing a certain situation, the actor and the
-	  obstacle both possess a ceratin <em>level</em>. The first is
-	  usually a skill in the particular act and second a measure
-	  of the difficulty of the task.  In the previous example, the
-	  observer might have a (skill) level of 5 and finding the
-	  clandestine character a (task) level of 3.  These levels
-	  will be added to the positive and negative stop rolls,
-	  respectively.
+      	  When describing a certain situation, the actor and the
+      	  obstacle both possess a ceratin <em>level</em>. The first is
+      	  usually a skill in the particular act and second a measure
+      	  of the difficulty of the task.  In the previous example, the
+      	  observer might have a (skill) level of 5 and finding the
+      	  clandestine character a (task) level of 3.  These levels
+      	  will be added to the positive and negative stop rolls,
+      	  respectively.
         </p>
         <p>
           We are adding and subtracting 4 numbers; stop rolls and
@@ -450,13 +466,13 @@
           22.
         </p>
         <p>
-	  If you have two actors that both must succeed a test, that
-	  is equivalent to using the <em>reverse</em> stop roll, which
-	  means exchanging the role of positive and negative for the
-	  purposes of combining.  Logically this means that either
-	  obstacle may foil the actor.  Keep in mind that the reversal
-	  of <em>positive</em> and <em>negative</em> roll also changes
-	  who of the two has the higher skill level.
+      	  If you have two actors that both must succeed a test, that
+      	  is equivalent to using the <em>reverse</em> stop roll, which
+      	  means exchanging the role of positive and negative for the
+      	  purposes of combining.  Logically this means that either
+      	  obstacle may foil the actor.  Keep in mind that the reversal
+      	  of <em>positive</em> and <em>negative</em> roll also changes
+      	  who of the two has the higher skill level.
         </p>
         <p>
           Imagine in the previous example that the same characters are
