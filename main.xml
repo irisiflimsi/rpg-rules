@@ -56,12 +56,12 @@
             surprises when subject matter changes.
           </li>
         </ul>
-      	<p>
-      	  The following section contains a few reasonable assumptions
-      	  on rules and tries to explain, why certain rules are chosen.
-      	  If you are only interested in the mechanics, you can skip
-      	  it.
-      	</p>
+        <p>
+          The following section contains a few reasonable assumptions
+          on rules and tries to explain, why certain rules are chosen.
+          If you are only interested in the mechanics, you can skip
+          it.
+        </p>
       </div>
       <div class="container">
         <h1 id="Axioms">Assumptions</h1>
@@ -75,31 +75,34 @@
         <ul>
           <li>
             A skill proficiency and a task difficulty can be expressed
-            as numbers. We call half of the probability for a skill of <em>0</em>
-            to succeed at a task of level <em>1</em> as <em>p</em>. This "half"
-            is for technical reasons.
+            as numbers. We call half of the probability for a skill of
+            <em>0</em> to succeed at a task of level <em>1</em> as
+            <em>p</em>. This "half" is for technical reasons.
           </li>
           <li>
-            A skill level of <em>k</em> has the same probability of success for
-            a task of difficulty <em>n+1</em>, as <p>p</em> times a skill of
-            <em>k</em> against a task of difficulty <em>n</em>.
-            I.e. you succeed at the first step and then tackle the remaining.
+            A skill level of <em>k</em> has the same probability of
+            success for a task of difficulty <em>n+1</em>, as
+            <em>p</em> times a skill of <em>k</em> against a task of
+            difficulty <em>n</em>.  I.e. you succeed at the first step
+            and then tackle the remaining.
           </li>
           <li>
-            A skill level of <em>k</em> has the same chance of success for
-            a task of difficulty <em>0</em> as a skill of level
+            A skill level of <em>k</em> has the same chance of success
+            for a task of difficulty <em>0</em> as a skill of level
             <em>0</em> has of failure against a task of difficulty
             <em>k</em>
           </li>
         </ul>
         <p>
-          The numbers <em>m, n, k</em> are your regular (non-negative integer)
-          numbers.  Assuming we have a failure probability of
+          The numbers <em>m, n, k</em> are your regular (non-negative
+          integer) numbers.  Assuming we have a failure probability of
           <em>p/2</em> for a skill of <em>1</em> for a task of
-          <em>0</em>, we will restrict ourselves to <em>p=0.8</em>. Note that
-          we extend the range of skill and task levels to the negative numbers,
-          if we treat a task level as negative skill level, i.e. pitting a (-k)-skill
-          against a 0-task is the same as pitting a 0-skill at a k-task.
+          <em>0</em>, we will restrict ourselves to
+          <em>p=0.8</em>. Note that we extend the range of skill and
+          task levels to the negative numbers, if we treat a task
+          level as negative skill level, i.e. pitting a (-k)-skill
+          against a 0-task is the same as pitting a 0-skill at a
+          k-task.
         </p>
         <p>
           This is in fact all we need, because the following are
@@ -137,19 +140,19 @@
           or single die roll.
         </p>
         <p>
-      	  All these methods, ours included, are usually compared
-      	  against a threshold.  The further away from the threshold
-      	  you are the more extreme the results will become.  Depending
-      	  of the sign of the difference, the results is good or bad
-      	  for the actor.
+          All these methods, ours included, are usually compared
+          against a threshold.  The further away from the threshold
+          you are the more extreme the results will become.  Depending
+          of the sign of the difference, the results is good or bad
+          for the actor.
         </p>
         <p>
-      	  The follwoing two tables are explanatory and not needed,
-      	  just as the Translation section.  The mechanics have been
-      	  described completely in the highlighted section.  Everything
-      	  else can be used to reduce the number of dice thrown or to
-      	  better understand the implication of the (stop) roll
-      	  mechanic.
+          The follwoing two tables are explanatory and not needed,
+          just as the Translation section.  The mechanics have been
+          described completely in the highlighted section.  Everything
+          else can be used to reduce the number of dice thrown or to
+          better understand the implication of the (stop) roll
+          mechanic.
         </p>
         <p>
           In Table 1 the first row shows the results you can achieve
@@ -314,14 +317,14 @@
         </p>
         <h3 id="Hints">Hints</h3>
         <p>
-      	  When describing a certain situation, the actor and the
-      	  obstacle both possess a ceratin <em>level</em>. The first is
-      	  usually a skill in the particular act and second a measure
-      	  of the difficulty of the task.  In the previous example, the
-      	  observer might have a (skill) level of 5 and finding the
-      	  clandestine character a (task) level of 3.  These levels
-      	  will be added to the positive and negative stop rolls,
-      	  respectively.
+          When describing a certain situation, the actor and the
+          obstacle both possess a ceratin <em>level</em>. The first is
+          usually a skill in the particular act and second a measure
+          of the difficulty of the task.  In the previous example, the
+          observer might have a (skill) level of 5 and finding the
+          clandestine character a (task) level of 3.  These levels
+          will be added to the positive and negative stop rolls,
+          respectively.
         </p>
         <p>
           We are adding and subtracting 4 numbers; stop rolls and
@@ -466,13 +469,13 @@
           22.
         </p>
         <p>
-      	  If you have two actors that both must succeed a test, that
-      	  is equivalent to using the <em>reverse</em> stop roll, which
-      	  means exchanging the role of positive and negative for the
-      	  purposes of combining.  Logically this means that either
-      	  obstacle may foil the actor.  Keep in mind that the reversal
-      	  of <em>positive</em> and <em>negative</em> roll also changes
-      	  who of the two has the higher skill level.
+          If you have two actors that both must succeed a test, that
+          is equivalent to using the <em>reverse</em> stop roll, which
+          means exchanging the role of positive and negative for the
+          purposes of combining.  Logically this means that either
+          obstacle may foil the actor.  Keep in mind that the reversal
+          of <em>positive</em> and <em>negative</em> roll also changes
+          who of the two has the higher skill level.
         </p>
         <p>
           Imagine in the previous example that the same characters are

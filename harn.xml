@@ -15,37 +15,30 @@
       <div class="container">
         <h1 id="rules">Rules</h1>
         <p>
-          This is a set of rules, which represent the aspects of a
-          personal life as it is experienced in the setting.  The
-          story-lines of these lives are separated from the
-          rule-mechanics thereof.  Any situation that needs to be
-          resolved with rules, such as conflicts, can be separated
-          into different dimensions.  These dimensions are treated
-          individually, but also interact.  This “dimensionality”
-          avoids creating constraints in situations that should not
-          have them from an inner-world perspective.  Attributes are
-          properties of people that can be observed by knowledgeable
-          observers in the world, just as occupational or professional
-          skills are.  They are reasonable abstractions to be made
-          inside the world.
+          This is a set of rules, which represent the aspects dealt
+          with in the HM3 rule book.  We assume that
+          <em>attributes</em> are properties of people that can be
+          observed by knowledgeable observers in the world, just as
+          occupational or professional <em>skills</em> are.  They are
+          reasonable abstractions made inside Hârn world,
+          i.e. in-world rules.
         </p>
         <p>
-          All out-world rules are condensed in this chapter.  Any
-          competence in-world are abstracted on a five-star scale
-          &#9733; through &#9733;&#9733;&#9733;&#9733;&#9733;, where
-          exceptional values may go beyond.  Minutes and other units
-          more easily measured are applied regularly, but the star
-          scale illustrates the difference.  How to turn this into
-          numbers for out-world rule operations is detailed later.
+          Any competence in Hârnworld is abstracted on a five-star
+          scale &#9733; through &#9733;&#9733;&#9733;&#9733;&#9733;,
+          where exceptional values may go beyond.  How to turn this
+          into numbers for out-world rule operations is detailed
+          later.
         </p>
         <h4>Probabilities</h4>
         <p>
-          A new type of die roll is introduced.  You roll a d5 until
-          you get a 1 and then count the number of dice that did not
-          show up a 1.  That is the same as the number of dice you
-          actually rolled minus one.  This roll is dominated by the
-          active character, or more generally, the actor.  It will
-          generate positive numbers (or zero) and is termed the
+          This describes the main out-world rule.  A new type of roll
+          is introduced, the stop roll.  You roll a d5 until you get a
+          1 and then count the number of dice that did not show up a
+          1.  That is the same as the number of dice you actually
+          rolled minus one.  This roll is made by the active
+          character, or more generally, the actor.  It will generate
+          positive numbers (or zero) and is termed the
           <em>positive</em> roll and abbreviated as <em>p5</em>.
           Example: Peter rolls 5, 3, 8, 10, 2 (in that order) on a
           d10.  He simulates the d5 by taking the result of a d10,
@@ -60,120 +53,16 @@
           result of a negative roll; therefore we can simply denote
           the roll as -p5.  These two numbers (from different rolls)
           are added.  The result will be a whole number, called
-          <em>n5</em> (n for neutral).  An understanding of this rule
-          is crucial, so we elaborate by listing the probabilities
-          involved as well as some examples.
-        </p>
-        <p>
-          The first row in the following table shows some of the
-          results you can achieve when you roll a p5.  The second row
-          shows the chance that you have of moving up one point
-          (i.e. right) at any given point.  A p5 can never give a
-          result below zero (0) and the chance to get “one more” is
-          80%.  Note that this chance is always the same in each
-          column.  The third row gives the percentage chance that you
-          have of achieving the result in the corresponding first row
-          instead of using the p5 mechanic.  These percentages you
-          could use for rolling a d100 to get the same probabilities;
-          maybe in order to reduce the number of dice to roll.  All
-          but the first two columns of this third row are
-          approximations.  The last column (with the ...) is somewhat
-          special.  It combines the “higher” results and is often
-          called exploding in other rule systems.  You could expand
-          the table to infinity, if you wanted.  While the extensions
-          of the first and second row are quite obvious, the third may
-          not be.  It should be interpreted thus: if you roll 91-100,
-          you need to roll again on this (third row of the) table,
-          read of the result as before and then add 10 to the result.
-          (For the mathematically inclined, this is a recursive
-          definition, since it is possible that you roll 91-100 again,
-          which forces you to roll on this table again and add 20 to
-          the net result from the repeated application.  We will see
-          this in the examples.)
+          <em>n5</em> (n for neutral).  More examples are provided in
+          the generic ruleset.  We only repeat the main table for
+          convenience.
         </p>
         <include id="Basic"/>
         <p>
-          This table only considers one roll, i.e. the positive.  You
-          need to combine both into a single result in most cases.
-          Two key observations useful in the future are: Zero (0) is
-          the expectation value of the combined roll (n5) and five (5)
-          for the single roll (p5).  When comparing numbers directly,
-          say skills in a duel, a level 0 skill will only break even
-          (or win) against a level 10 skill in 10% of all cases.  This
-          is something that can be estimated in-world, and thus this
-          rule lies at the border of in- and out-world rules.
-        </p>
-        <h4>Examples</h4>
-        <p>
-          To improve speed, several d10 may be rolled in ordered
-          fashion.  Order them according to size or alphabetical color
-          (e.g. black, blue, green, yellow) or in any other way you
-          can remember.  With a d10 stop at 1 or 2.  Computer
-          applications that make rolling as easy as pressing a button
-          are easy to program.
-        </p>
-        <div class="explain">
-          <p>
-            Assume you decided to use the third row of the table, then
-            rolled a d100, and get a 24 on the positive roll.  This
-            means a result of 1. The second roll for the negative part
-            shows a 50, which results in 3. The net result therefore
-            is a -2.
-          </p>
-          <p>
-            A more exotic roll would be the sequence 96, 99, 93, 61 on
-            the positive d100.  That result would be 34 (positive
-            only).
-          </p>
-          <p>
-            Using the standard method (i.e. the second row with a d5),
-            the positive sequence on a d10 may show 3, 8, 10, 7, 9, 4,
-            6, 3, 10, 10, 8, 4, 2 and the negative sequence shows 3,
-            6, 9, 4, 4, 1.  The positive result is 12 and the negative
-            -5 with a net result of +7.  If you decide that +7 is not
-            precise enough, a roll of 3 and 5 on a d10 (each) gives
-            are finer result of +7.35.
-          </p>
-        </div>
-        <p>
-          Active/positive and passive/negative are symmetrical.  If
-          you imagine one character stealthily evading another, the
-          first may interpret the rolls as himself actively evading
-          against a passive observation of the surroundings.  That is,
-          positive evasion vs. negative observation.  The second may
-          interpret the rolls as him actively scrutinizing the
-          vicinity against a passively hiding opponent.  That is,
-          positive observation vs. negative evasion.  Either way, one
-          roll (or a set of two rolls) will determine the same
-          outcome.
-        </p>
-        <p>
-          The rolls scale with difficulty.  Imagine that one character
-          is particularly strong with a certain skill, but also
-          attempts more difficult tasks.  Imagine the child character
-          climbing the neighborhood tree and as a grown, experienced
-          man climbing an overhanging cliff.  The child's climbing
-          bonus of 5 against a difficulty addition of 7 for the tree
-          gives the same probability distribution as the adult's bonus
-          of 27 against the cliff's 29. It is easily seen why.
-        </p>
-        <h3 id="additions">Row Additions</h3>
-        <p>
-          Consider you have two skills of equal value that you want to
-          add together.  If the effect of the two skills combined is
-          as good as a skill of n points better, we call that
-          Row-n-Addition.  This means that two people of the same
-          skill with value x have a fair (50:50) chance of beating
-          someone with a value x + n in that skill.  We will only use
-          Row-5-Addition in these Hârn rules, the “real” value to use
-          when precision loss is important to you is the math-formula
-          <em>5*ln(1+exp(-d*ln(2)/5))/ln(2)</em>, where d is the
-          non-negative difference between the two skill values. So for
-          any given two skill values, the Row-5-Addition is the
-          maximum of these two values plus the formula above.  You can
-          also use the automated formula right here (Html only).
-          Taking the maximum of two separate skill rolls is similar to
-          a Row-5-Addition as far as the probabilities are concerned.
+          The general rules also talk about adding skills.  We repeat
+          the table provided in that ruleset and also have an
+          automated formula here (Html only) when more precise values
+          are requested.
         </p>
         <script>
           function f() {
@@ -204,28 +93,29 @@
           of a result in the second, and add this result to the bigger
           to get the end result.  Looking at the tables, you see the
           reduction in effectiveness when adding smaller numbers to
-          higher ones.  Sometimes, to ease writing, we denote
-          Row-5-Addition with +<sub>5</sub>, e.g. Row-5-Addition of 1
-          and 2 is written as 1 +<sub>5</sub> 2.
+          higher ones.  Sometimes, to ease writing, we denote addition
+          of skill (or task) numbers with +<sub>5</sub>,
+          e.g. <em>1+<sub>5</sub>2</em>.
         </p>
         <include id="Calculate-2"/>
-        <p>
-          Many sections state effects, durations, fatigue, etc. as
-          affected through skill use or similar.  Whenever it is a
-          multiple a 5, it can be subject to a n5 roll.  Also see the
-          Dimensions section in the Skills section.
-        </p>
         <h3 id="s3kills">Skills</h3>
         <p>
           Skills govern all physical and mental activities, such as
           combat and spell-casting.  All skills are derived from
           character attributes and occupations and rated on open scale
-          starting from zero (0) as the “default”, with only 10%
-          reaching 10 points more.  This is inentionally identical
-          with the p5 system of rolling dice.  The skill scale is
-          open-ended (“exploding”) as the p5 roll is, but humans
-          generally do not get scores beyond 30.  Any activity can be
-          organized as a skill.
+          starting from zero (0) as the "default", with only 10%
+          reaching 10 points more.  This general situation is in-world
+          knowledge and what the star-rating is used for.  But this
+          is also identical with the p5 system of rolling dice, which
+          is out-world.  The skill scale is open-ended as the p5 roll
+          is, but humans generally do not get scores beyond 25
+          (out-world) or &#9733;&#9733;&#9733;&#9733;&#9733;
+          (in-world).
+        </p>
+        <p>
+	  The following is a list of skills that are commonly used by
+	  people on Hârn.  It is neither complete no without overlap.
+	  It is an in-world collection of relevance.
         </p>
         <h4>Skill List</h4>
         <table class="links" style="width:90%">
