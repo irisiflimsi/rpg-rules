@@ -28,7 +28,11 @@
           scale &#9733; through &#9733;&#9733;&#9733;&#9733;&#9733;,
           where exceptional values may go beyond.  How to turn this
           into numbers for out-world rule operations is detailed
-          later.
+          later. 
+        </p>
+        <p>
+	  We normalize to 0, which means that an uneducated, untrained
+	  individual of about twenty years has a skill rank of 0.
         </p>
         <h4>Probabilities</h4>
         <p>
@@ -90,32 +94,39 @@
         <p>
           When using the tables, take the two numbers and use the
           (positive) difference of the two in the first row, to read
-          of a result in the second, and add this result to the bigger
-          to get the end result.  Looking at the tables, you see the
-          reduction in effectiveness when adding smaller numbers to
-          higher ones.  Sometimes, to ease writing, we denote addition
-          of skill (or task) numbers with +<sub>5</sub>,
-          e.g. <em>1+<sub>5</sub>2</em>.
+          off a result in the second, and add this result to the
+          bigger to get the end result.  Looking at the tables, you
+          see the reduction in effectiveness when adding smaller
+          numbers to higher ones.  Sometimes, to ease writing, we
+          denote addition of skill (or task) numbers with
+          +<sub>5</sub>, e.g. <em>1 +<sub>5</sub> 2</em>.  This is
+          also called 5-Addition. (This is called 5-Addition, because
+          <em>0 <sub>5</sub> 0 = 5</em>.)
         </p>
         <include id="Calculate-2"/>
         <h3 id="s3kills">Skills</h3>
         <p>
-          Skills govern all physical and mental activities, such as
-          combat and spell-casting.  All skills are derived from
-          character attributes and occupations and rated on open scale
-          starting from zero (0) as the "default", with only 10%
-          reaching 10 points more.  This general situation is in-world
-          knowledge and what the star-rating is used for.  But this
-          is also identical with the p5 system of rolling dice, which
-          is out-world.  The skill scale is open-ended as the p5 roll
-          is, but humans generally do not get scores beyond 25
-          (out-world) or &#9733;&#9733;&#9733;&#9733;&#9733;
-          (in-world).
+          Skills govern all activities, from combat to spell-casting.
+          All skills are rated on an open scale starting from zero (0)
+          as the "default", with only 10% reaching 10 points more.
+          This general situation is in-world knowledge and what the
+          star-rating is used for.  But this is also identical with
+          the p5 system of rolling dice, which is out-world.  The
+          skill scale is open-ended as the p5 roll is, but humans
+          generally do not get scores beyond 25 (out-world) or
+          &#9733;&#9733;&#9733;&#9733;&#9733; (in-world).
         </p>
         <p>
-	  The following is a list of skills that are commonly used by
-	  people on Hârn.  It is neither complete no without overlap.
-	  It is an in-world collection of relevance.
+          The following is a list of skills that are commonly used by
+          people on Hârn.  It is neither complete no without overlap.
+          It is an in-world collection of relevance.
+        </p>
+        <p>
+          Dimensions are common grading systems that apply to multiple
+          skills.  They determine a frame of reference for the
+          difficulties of tasks.  They can also used in-world, but are
+          more regularly used out-world, when a PC tries to achieve a
+          concrete goal.
         </p>
         <h4>Skill List</h4>
         <table class="links" style="width:90%">
@@ -256,41 +267,120 @@
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
-        <h4>Skill Base</h4>
+        <h4>Skill Development</h4>
         <p>
-          Skill Base (SB) represents a character’s natural affinity
-          for a skill.  The SB for each skill can be calculated when
-          necessary.  It is unlikely this varies after the beginning
-          of play.  A skill is tested, when its application becomes
-          useful or meaningful (a decision by the GM).  Some skills
-          should be predetermined, because their application is hard
-          to avoid.  Each skill entry below lists the attributes for
-          its base.  To determine an SB, the attributes are averaged.
-          If an attribute is listed twice, it is counted twice in the
-          calculation.  Recall that attributes average around 0.  If
-          the character’s Sunsign is listed, it increases SB by the
-          indicated number – this is not averaged, but only applied
-          directly as part of the SB.
-        </p>
-        <h4>Mastery Level</h4>
-        <p>
-          Mastery Level (ML) represents a character’s current
-          competence at a specific skill; the higher the number, the
-          more skillful.  MLs may be improved in the course of play
-          and range from 0 to 30 usually.  Technically, there is no
-          limit.
+          To distinguish a skill from its value with a specific
+          person, we call the latter (skill) ML.  At various times in
+          the course of play, the GM decides a character has earned
+          the chance to improve a skill.  Some skills may be developed
+          by practice/study; some require training.  Execute each
+          skill roll as follows: Roll n5.  If the roll is greater than
+          current skill ML, increase skill ML by one (1); otherwise
+          there is no increase.  This may also be interpreted as a
+          “Learning skill” roll, where everybody has an learning ML of
+          0 and must match the task difficulty of his current skill
+          ML.  I.e. the better you already are, the harder it is to
+          improve.  Natural affinity to a skill applies to learning,
+          i.e instead of a learning ML of 0, start with 5-adding the
+          best associated attribute value to 0. See the
+          <em>Attribute</em> section below.
         </p>
         <p>
-          Opening Mastery Level (OML) is listed with each skill.  This
-          is the starting point for any skill ML.  Many skill start at
-          zero (0) and can immediately be improved.  (in the fashion
-          described below).  If the number is negative, any
-          improvement of the skill can only happen with a teacher.
-          Once an ML reaches zero (0) this restriction no longer
-          applies.  Sometimes ML denotes the generic value that is
-          constant across all situations.  Bonuses and penalties may
-          be added in concrete situations and that leads to a specific
-          ML, sometimes called EML.
+          Rolls may be awarded by the GM at any time, something was
+          "learned". Remember that you learn most from failures.  But
+          also rolls may be used for extended idle periods, for
+          instance in a winter camp.  Or the professional life of an
+          NPC “off-screen” needs to be simulated.  As a rule of thumb,
+          award approximately 10 rolls per month which can be
+          distributed across all skills.
+        </p>
+        <p>
+          Characters receive a bonus when being trained by a master
+          with a high ML.  A character getting personal instructions
+          from a teacher or employer can add the skill of the teacher
+          to his roll but must also subtract 20 (in the usual sense)
+          due to the difficulty in teaching.
+        </p>
+        <p>
+          Sometimes forgetting or "unlearning" is called for. Such
+          rolls are handled as if the current skill level still needed
+          to be attained.  I.e. if the level is not reached through
+          the roll, deduct a point.
+        </p>
+        <p>
+          Improving Specialties (see below) is a bit more elaborate.
+          Skills list specialties with a percentage value.  This
+          percentage value gives the part of the whole group that this
+          specialization comprises.  When the skill is improved (the
+          skill group of all specialties) all improvement may be
+          dedicated to the specialty instead.  For example, 20%
+          Specialty could see a possible improvement of 5 points
+          instead of 1 for the group and a 40% Specialty a possible
+          improvement of 2.5 points.  This implies that often
+          fractions need to be maintained, to keep a consistent
+          situation for specialties.  To actually improve a Specialty,
+          start as if improving the group first.  If the roll fails
+          for the group, it also fails for the Specialty.  But
+          assuming it succeeded for the group, You do not simply gain
+          the multiple of points.  Instead, only 1 point is gained.
+          For every further point to be gained from the possible
+          improvement, a successful p5 roll must succeed against a
+          difficulty of all points already gained this way.  Any
+          remaining fractions can be rolled as rounded to the nearest
+          whole number or when “completed” by the next successful
+          learning roll.
+        </p>
+        <p>
+          Note: If at any time the whole skill group is developed
+          simultaneously, any specialties that already have the lowest
+          level reached are not improved.  By treating every specialty
+          separately, continuing rolling after the lowest level is
+          reached is possible.  This will then only increase the
+          specialty by one point, obviously.
+        </p>
+        <p>
+          <em>Example:</em> Assume Alosyn has an Acrobatics of 15 and
+          decides to specialize in Vaults.  He manages to beat 15 one
+          day, possibly with a teacher, to learn more.  Technically,
+          he could be gaining 5 points, since Vault is a 20% specialty
+          of Acrobatics.  The first point is already “approved” for
+          Vault/16.  He then rolls p5 to see whether he can gain
+          another point and with a 3 on his first p5, he now has
+          Vaults/17.  The second p5 roll (for the third point) is only
+          a 1, so no benefit is obtained.  The third roll is a 9,
+          followed by a 6, which means his p5 is at least 2, which
+          matches the two points already gained, so he is at Vault/18.
+          The fourth roll is 3, 7, and 3 again! Thus his p5 is at
+          least 3, which matches his three points already improved.
+          He is now at Acrobatics/Vaults/19.  In the future to improve
+          the specialty, 19 must be reached to improve Vaults in this
+          manner again.  In all other respects he remains at
+          Acrobatics/15.
+        </p>
+        <h4><em>Attributes</em></h4>
+        <p>
+          Attributes are skills that come "naturally" and are rarely
+          learned.  Some are listed with all skills, they often can be
+          used to supplement the skill (out-world) by 5-addition for
+          many tasks.  In-world this is often indistinguishable.  In
+          the end, it is a GM decision, which attribute(s) are
+          applicable to which skill.  Remember that attributes average
+          around 0, so they have limited effect on skills at about 20.
+          On the other hand, making 3 attributes applicable to a task,
+          automatically makes them (5-)add up to 8.
+        </p>
+        <h4>Opening Mastery Level</h4>
+        <p>
+	  Opening Mastery Level (OML) is listed with each skill.  This
+	  is the starting point for any skill.  Skills should start at
+	  zero because of the normalization.  However, if the skill is
+	  negative, any improvement of the skill can only happen with
+	  a teacher.  This is an out-world normalization technique,
+	  making it a bit harder to get out of the zero star zone.
+	  Once an skill reaches zero (0) this restriction no longer
+	  applies.  Bonuses and penalties may be added to an ML in
+	  concrete situations and that leads to a task-specific ML,
+	  sometimes called EML.
         </p>
         <p>
           Every skill in the list has an Occupation entry.  It shows a
@@ -458,91 +548,6 @@
           bonus, for instance, Concocting an alchemical, explosive
           compound in a laboratory dedicated to such volatile
           compounds.
-        </p>
-        <h4>Skill Development</h4>
-        <p>
-          At various times in the course of play, the GM decides a
-          character has earned the chance to improve a skill.  Some
-          skills may be developed by practice/study; some require
-          training.  Execute each skill roll as follows: Roll n5.  If
-          the roll is greater than current skill ML, increase skill ML
-          by one (1); otherwise there is no increase.  This may also
-          be interpreted as a “Learning skill” roll, where everybody
-          has an learning ML of 0 (but see below) and must match the
-          difficulty of his current skill ML.  I.e. the better you
-          already are, the harder it is to improve.  To improve
-          playability, award 1 roll per gaming session.  Natural
-          affinity to a skill applies to learning, i.e instead of a
-          learning ML of 0, start with SB +<sub>5</sub> 0.  Use the
-          <em>Attribute</em> dimension for that.
-        </p>
-        <p>
-          Additional rolls may be awarded by the GM for extended idle
-          periods, for instance in a winter camp.  Or the professional
-          life of an NPC “off-screen” needs to be simulated.  In those
-          cases, award approximately 10 rolls per month.
-        </p>
-        <p>
-          Characters receive a bonus when being employed by a master
-          with a higher ML.  A character getting personal instruction
-          from a teacher or employer can add the skill of the teacher
-          to his roll but must also subtract 10 due to the difficulty
-          in teaching.  Be careful, which teacher you choose!
-        </p>
-        <p>
-          Sometimes forgetting or “unlearning” is called for. Such
-          rolls are handled as if the current skill level still needed
-          to be attained.  I.e. if the level is not reached through
-          the roll, deduct a point.
-        </p>
-        <p>
-          Improving Specialties is a bit more elaborate.  Skills list
-          specialties with a percentage value.  This percentage value
-          gives the part of the whole group that this specialization
-          comprises.  When the skill is improved (the skill group of
-          all specialties) all improvement may be dedicated to the
-          specialty instead.  For example, 20% Specialty could see a
-          possible improvement of 5 points instead of 1 for the group
-          and a 40% Specialty a possible improvement of 2.5 points.
-          This implies that often fractions need to be maintained, to
-          keep a consistent situation for specialties.  To actually
-          improve a Specialty, start as if improving the group first.
-          If the roll fails for the group, it also fails for the
-          Specialty.  But assuming it succeeded for the group, You do
-          not simply gain the multiple of points.  Instead, only 1
-          point is gained.  For every further point to be gained from
-          the possible improvement, a successful p5 roll must succeed
-          against a difficulty of all points already gained this way.
-          Any remaining fractions can be rolled as rounded to the
-          nearest whole number or when “completed” by the next
-          successful learning roll.
-        </p>
-        <p>
-          Note: If at any time the whole skill group is developed
-          simultaneously, any specialties that already have the lowest
-          level reached are not improved.  By treating every specialty
-          separately, continuing rolling after the lowest level is
-          reached is possible.  This will then only increase the
-          specialty by one point, obviously.
-        </p>
-        <p>
-          <em>Example:</em> Assume Alosyn has an Acrobatics of 15 and
-          decides to specialize in Vaults.  He manages to beat 15 one
-          day, possibly with a teacher, to learn more.  Technically,
-          he could be gaining 5 points, since Vault is a 20% specialty
-          of Acrobatics.  The first point is already “approved” for
-          Vault/16.  He then rolls p5 to see whether he can gain
-          another point and with a 3 on his first p5, he now has
-          Vaults/17.  The second p5 roll (for the third point) is only
-          a 1, so no benefit is obtained.  The third roll is a 9,
-          followed by a 6, which means his p5 is at least 2, which
-          matches the two points already gained, so he is at Vault/18.
-          The fourth roll is 3, 7, and 3 again! Thus his p5 is at
-          least 3, which matches his three points already improved.
-          He is now at Acrobatics/Vaults/19.  In the future to improve
-          the specialty, 19 must be reached to improve Vaults in this
-          manner again.  In all other respects he remains at
-          Acrobatics/15.
         </p>
         <h4>Special Skills</h4>
         <p>
@@ -1420,7 +1425,7 @@
           The ability to cast spells of a particular convocation is a
           skill.  There is a separate skill for each convocation
           (although listed as specialty above), and one for Neutral.
-          Each Convocation has a unique Skill Base, dominated by Aura.
+          Each Convocation has a unique SB, dominated by Aura.
           The ML is listed below (as occupational percentage),
           depending on the chantry level; they apply to all
           convocations equally.  Dimensions are available for each
