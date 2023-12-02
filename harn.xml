@@ -31,8 +31,8 @@
           later. 
         </p>
         <p>
-	  We normalize to 0, which means that an uneducated, untrained
-	  individual of about twenty years has a skill rank of 0.
+          We normalize to 0, which means that an uneducated, untrained
+          individual of about twenty years has a skill rank of 0.
         </p>
         <h4>Probabilities</h4>
         <p>
@@ -51,10 +51,10 @@
         </p>
         <p>
           Of course, there is a <em>negative</em> roll that is
-          associated with the passive resistance or the impediment. It
-          is handled in the same way but the negative value is taken
-          instead.  Thus in the above example, we would take -4 as
-          result of a negative roll; therefore we can simply denote
+          associated with the passive resistance or the impediment.
+          It is handled in the same way but the negative value is
+          taken instead.  Thus in the above example, we would take -4
+          as result of a negative roll; therefore we can simply denote
           the roll as -p5.  These two numbers (from different rolls)
           are added.  The result will be a whole number, called
           <em>n5</em> (n for neutral).  More examples are provided in
@@ -100,20 +100,20 @@
           numbers to higher ones.  Sometimes, to ease writing, we
           denote addition of skill (or task) numbers with
           +<sub>5</sub>, e.g. <em>1 +<sub>5</sub> 2</em>.  This is
-          also called 5-Addition. (This is called 5-Addition, because
-          <em>0 <sub>5</sub> 0 = 5</em>.)
+          also called 5-Addition.  (This is called 5-Addition, because
+          <em>0 +<sub>5</sub> 0 = 5</em>.)
         </p>
         <include id="Calculate-2"/>
         <h3 id="s3kills">Skills</h3>
         <p>
           Skills govern all activities, from combat to spell-casting.
-          All skills are rated on an open scale starting from zero (0)
-          as the "default", with only 10% reaching 10 points more.
-          This general situation is in-world knowledge and what the
-          star-rating is used for.  But this is also identical with
-          the p5 system of rolling dice, which is out-world.  The
-          skill scale is open-ended as the p5 roll is, but humans
-          generally do not get scores beyond 25 (out-world) or
+          All skills are rated on an open scale starting from zero
+          (0), with only 10% reaching 10 points more.  This general
+          situation is in-world knowledge and what the star-rating is
+          used for.  But this is also identical with the p5 system of
+          rolling dice, which is out-world.  The skill scale is
+          open-ended as the p5 roll is, but humans generally do not
+          get scores beyond 50 (out-world) or
           &#9733;&#9733;&#9733;&#9733;&#9733; (in-world).
         </p>
         <p>
@@ -277,89 +277,90 @@
           skill roll as follows: Roll n5.  If the roll is greater than
           current skill ML, increase skill ML by one (1); otherwise
           there is no increase.  This may also be interpreted as a
-          “Learning skill” roll, where everybody has an learning ML of
-          0 and must match the task difficulty of his current skill
-          ML.  I.e. the better you already are, the harder it is to
-          improve.  Natural affinity to a skill applies to learning,
-          i.e instead of a learning ML of 0, start with 5-adding the
-          best associated attribute value to 0. See the
-          <em>Attribute</em> section below.
+          <em>Learning skill</em> roll, where everybody has an
+          learning ML of 0 and must match the task difficulty of his
+          current skill ML.  I.e. the better you already are, the
+          harder it is to improve.  Natural affinity to a skill
+          applies to learning, i.e instead of a learning ML of 0,
+          start with 5-adding the best associated attribute value to
+          0.  See the <em>Attribute</em> section below.
         </p>
         <p>
-          Rolls may be awarded by the GM at any time, something was
-          "learned". Remember that you learn most from failures.  But
-          also rolls may be used for extended idle periods, for
-          instance in a winter camp.  Or the professional life of an
-          NPC “off-screen” needs to be simulated.  As a rule of thumb,
-          award approximately 10 rolls per month which can be
-          distributed across all skills.
+          Rolls may be awarded by the GM at any time, when something
+          was &lquot;learned&rquot; (this is out-world).  Remember
+          that you learn most from failures.  But also rolls may be
+          used for extended idle periods, for instance in a winter
+          camp.  Or the professional life of an NPC needs to be
+          simulated while not in play.  As a rule of thumb, award
+          approximately 10 rolls per month which can be distributed
+          across all skills.
         </p>
         <p>
-          Characters receive a bonus when being trained by a master
-          with a high ML.  A character getting personal instructions
-          from a teacher or employer can add the skill of the teacher
-          to his roll but must also subtract 20 (in the usual sense)
-          due to the difficulty in teaching.
+          Characters receive a bonus when being trained by a master.
+          A character getting personal instructions from a teacher or
+          employer can 5-add his own skill a second time to the
+          <em>Learning skill</em>, if the teacher has a higher ML.
+          Otherwise, he can 5-add the teacher, who functions more like
+          a coach.
         </p>
         <p>
-          Sometimes forgetting or "unlearning" is called for. Such
-          rolls are handled as if the current skill level still needed
-          to be attained.  I.e. if the level is not reached through
-          the roll, deduct a point.
+          Sometimes forgetting or &lquot;unlearning&rquot; is called
+          for.  Such rolls are handled as if the current skill level
+          still needed to be attained.  I.e. if the level is not
+          reached through the roll, deduct a point.
         </p>
         <p>
           Improving Specialties (see below) is a bit more elaborate.
           Skills list specialties with a percentage value.  This
-          percentage value gives the part of the whole group that this
-          specialization comprises.  When the skill is improved (the
-          skill group of all specialties) all improvement may be
-          dedicated to the specialty instead.  For example, 20%
-          Specialty could see a possible improvement of 5 points
-          instead of 1 for the group and a 40% Specialty a possible
-          improvement of 2.5 points.  This implies that often
-          fractions need to be maintained, to keep a consistent
-          situation for specialties.  To actually improve a Specialty,
-          start as if improving the group first.  If the roll fails
-          for the group, it also fails for the Specialty.  But
-          assuming it succeeded for the group, You do not simply gain
-          the multiple of points.  Instead, only 1 point is gained.
-          For every further point to be gained from the possible
-          improvement, a successful p5 roll must succeed against a
-          difficulty of all points already gained this way.  Any
-          remaining fractions can be rolled as rounded to the nearest
-          whole number or when “completed” by the next successful
-          learning roll.
+          percentage value gives the approximate part of the whole
+          group that this specialization comprises.  When the skill is
+          improved (the skill group of all specialties) all
+          improvement may be dedicated to the specialty instead.  This
+          example, a Specialty/20 could see a probable improvement of
+          5 points instead of a probably 1 for the group and a 40%
+          Specialty an improvement of 2.5 points of the specialty
+          instead of 1 for the group.  So, divide 100% by the given
+          percentage to get a multiple <em>m</em>.  To actually
+          improve a Specialty, first conduct an improvement roll as if
+          the group were going to improve.  If it succeeds, treat the
+          integer (whole number) part of <em>m</em> as the number of
+          improvement rolls that start at the ML already reached.  The
+          remainder (fractional) part of <em>m</em>, if it exists,
+          gives a probability of an additional such improvement roll.
+          Alternatively, a character may record and sum the fractions
+          accrued over time until they reach a whole number in the
+          course of time and use an improvement roll then.
         </p>
         <p>
-          Note: If at any time the whole skill group is developed
-          simultaneously, any specialties that already have the lowest
-          level reached are not improved.  By treating every specialty
-          separately, continuing rolling after the lowest level is
-          reached is possible.  This will then only increase the
-          specialty by one point, obviously.
+          Note: If at any time the skill group itself is developed,
+          specialties are only improved, if they would fall below the
+          ML of the group otherwise.
         </p>
-        <p>
-          <em>Example:</em> Assume Alosyn has an Acrobatics of 15 and
-          decides to specialize in Vaults.  He manages to beat 15 one
-          day, possibly with a teacher, to learn more.  Technically,
-          he could be gaining 5 points, since Vault is a 20% specialty
-          of Acrobatics.  The first point is already “approved” for
-          Vault/16.  He then rolls p5 to see whether he can gain
-          another point and with a 3 on his first p5, he now has
-          Vaults/17.  The second p5 roll (for the third point) is only
-          a 1, so no benefit is obtained.  The third roll is a 9,
-          followed by a 6, which means his p5 is at least 2, which
-          matches the two points already gained, so he is at Vault/18.
-          The fourth roll is 3, 7, and 3 again! Thus his p5 is at
-          least 3, which matches his three points already improved.
-          He is now at Acrobatics/Vaults/19.  In the future to improve
-          the specialty, 19 must be reached to improve Vaults in this
-          manner again.  In all other respects he remains at
-          Acrobatics/15.
-        </p>
+        <div class="explain">
+          <p>
+            <em>Example:</em> Assume Alosyn has an Acrobatics of 15
+            and decides to specialize in Vaults now.  He manages to
+            beat 15 one day, possibly with a teacher, to learn more.
+            He could be gaining 5 points, since Vault is a 20%
+            specialty of Acrobatics.  He stays at Acrobatcis/15 and
+            the first point already is achieved for Vault/16.  He then
+            rolls p5 to see whether he can gain another point and with
+            a 3 on his first p5, he now has Vaults/17.  The second p5
+            roll (for the third point) is only a 1, so no benefit is
+            obtained.  The third roll is a 9, followed by a 6, which
+            means his p5 is at least 2, which matches the two points
+            already gained, so he is at Vault/18.  The fourth roll is
+            3, 7, and 3 again! Thus his p5 is at least 3, which
+            matches his three points already improved.  He is now at
+            Acrobatics/15 and Vaults/19.  In the future, even the
+            first improvement must be made, because 19 cannot be
+            improved already, if only a 15 is reached on the group
+            improvement roll.
+          </p>
+        </div>
         <h4><em>Attributes</em></h4>
         <p>
-          Attributes are skills that come "naturally" and are rarely
+          Attributes are skills that come naturally and are rarely
           learned.  Some are listed with all skills, they often can be
           used to supplement the skill (out-world) by 5-addition for
           many tasks.  In-world this is often indistinguishable.  In
@@ -369,109 +370,118 @@
           On the other hand, making 3 attributes applicable to a task,
           automatically makes them (5-)add up to 8.
         </p>
-        <h4>Opening Mastery Level</h4>
+        <h4><em>Opening Mastery Level</em></h4>
         <p>
-	  Opening Mastery Level (OML) is listed with each skill.  This
-	  is the starting point for any skill.  Skills should start at
-	  zero because of the normalization.  However, if the skill is
-	  negative, any improvement of the skill can only happen with
-	  a teacher.  This is an out-world normalization technique,
-	  making it a bit harder to get out of the zero star zone.
-	  Once an skill reaches zero (0) this restriction no longer
-	  applies.  Bonuses and penalties may be added to an ML in
-	  concrete situations and that leads to a task-specific ML,
-	  sometimes called EML.
+          Opening Mastery Level (OML) is listed with each skill.  This
+          is the starting point for any skill's ML.  Skills should
+          start at zero because of the normalization.  However, if the
+          OML is negative, any improvement of the skill can only
+          happen with a teacher.  This is an out-world normalization
+          technique, making it a bit harder to get out of the zero
+          star zone.  Once an skill reaches zero (0) this restriction
+          no longer applies.  Bonuses and penalties may be added to an
+          ML in concrete situations and that leads to a task-specific
+          ML, sometimes called EML.
         </p>
         <p>
           Every skill in the list has an Occupation entry.  It shows a
           list of occupations with a percentage value each.  When
           creating a character and the character has an occupation
           that is listed, then the OML listed is not used, but instead
-          the Occupation ML times the percentage listed.  This
-          represents the years of training with a teacher or tutor.
-          To make this compatible with the learning rule, we subtract
-          10 from the base value but then add SB+<sub>5</sub>0.
+          the 25 times the percentage listed.  This is eqivalent to
+          halfway between &#9733;&#9733; and
+          &#9733;&#9733;&#9733;in-world.  It represents the years of
+          training with a teacher or tutor.  It is an out-world
+          abstraction, because the number of influences on the multide
+          of learning skill rolls is staggering.  Because learning
+          should depend on the relevant attributes, you can 5-sum all
+          attributes and 20 (&#9733;&#9733;) as alternative.
         </p>
+        <div class="explain">
+          <p>
+            <em>Example:</em> Juryn has an attributes Dexterity -1 and
+            Agility 1.  His father is a Herald by trade, with an
+            occupation listing of 60 for Dancing.  Juryn himself does
+            not have an occupation with Dancing as skill.  His
+            apprenticeship was normal, so he was taught to an
+            occupation level of 10 (&#9733;) as Herald.  (This follows
+            from the initial training rules in the Occupations
+            chapter.)  Thus he now has a ML of
+          </p>
+          <p>
+            <em>1 +<sub>5</sub> + 1 +<sub>5</sub> + (-1) +<sub>5</sub>
+            10 = 14</em>
+          </p>
+        </div>
         <p>
-          <em>Example:</em> Juryn has an SB in Dancing of 4.  His
-          father is a Herald by trade, with an occupation listing of
-          60 for Dancing.  Juryn himself does not have an occupation
-          with Dancing as skill.  His apprenticeship was normal, so he
-          was taught to an occupation level of 5 (&#9733;) as Herald.
-          Thus he now has a skill of
+          Multiple occupations' influence are combined through
+          5-Addition into a single skill.
         </p>
-        <p>
-          <em>(20 - 10) x 25% x 60% + (SB +<sub>5</sub> 0) = 1.5 + 7.3 = 8.8 = 9</em>
-        </p>
-        <p>
-          The percentage for occupations in the skill list signifies
-          the amount of time spent learning the skill, not the
-          teacher's skill.  That is why the percentage is applied to
-          the (abstract) teacher benefit from 20, which is 20 - 10. It
-          is not applied to the (abstract) teacher skill of 20.  The
-          same is true for the actual learning period in an
-          occupation, which is a percentage of four stars maximum.
-        </p>
-        <p>
-          Multiple occupations are combined through Row-5-Addition.
-        </p>
-        <h4>Specialties</h4>
+        <h4><em>Specialties</em></h4>
         <p>
           Many skills can be divided into sub-skills or specialties;
           suggestions are given with some skills.  Characters may
           select specialties at any time.  The skill is then termed a
-          group skill and included all (potential) specialties, even
+          group skill and includes all (potential) specialties, even
           if unknown.  The specific specialty skill is opened at the
           current group ML.  Each specialty is developed as a separate
           skill.  A character may declare any number of specialties,
-          but each is a separate skill.  <em>Example:</em> Bjorni has
-          Sword skill at ML 14.  He decides to choose Broadsword as a
-          specialty.  Sword and Broadsword are now two separate
-          skills.  Bjorni must use his current Sword skill if he uses
-          any other sword than Browadsword.
+          but each is a separate skill.  Also see the example above.
         </p>
         <p>
           Sometimes, only Specialties are given and the question
-          arises, what ML in the Specialty implies on the skill group.
+          arises, what ML in the Specialty applies to the skill group.
           Each specialty has a percentage value associated with it.
           (For a new Specialty, this must be decided upon by the GM.)
           Take that percentage of Specialty ML to get the group's ML.
           For example, a Mask/20% specialty in Woodcraft of 12 would
           imply a Woodcraft group score of 2.4, rounded down to 2.
+          This applies to ML, not OML.  OML (if specialization is
+          attempted at the outset) is as for the group skill.
         </p>
+        <h4><em>Sunsign</em></h4>
         <p>
-          Note that this section applies to ML, not OML.  OML (if
-          specialization is attempted at the outset) is as for the
-          group skill.
+          Sunsigns represent an astrological affinity to certain
+          skills in-world, see below.  They give a direct bonus to the
+          OML.  During learnig they are 5-added to the <em>learning
+          skill<em> ML.
         </p>
         <h4>Skill Testing</h4>
         <p>
-          ML is modified for a concrete test, because of fatigue,
-          injury, encumbrance, or difficult (or easy) circumstance
-          <em>Example:</em> a character might normally have a minimum
-          0 in Climbing.  However, climbing an ice cliff, with a
-          broken arm, during a blizzard is probably impossible, and
-          the GM may feel an ML of -30 is justified.  (This is roughly
-          a 1 in 1000 chance of succeeding.)  If instead she was
-          trying to decipher an alien script (without access to some
-          sort of comparison) the ML may be at -50.  (This is roughly
-          a 1 in 100,000 chance of succeeding.)  Factors affecting ML
-          are sometimes specified in the skill description; otherwise
-          GM discretion applies.
+          ML is modified for a concrete test due to various
+          circumstance resulting in an EML.
         </p>
+        <div class="explain">
+          <p>
+            <em>Example:</em> a character might normally have a
+            minimum 0 in Climbing.  However, climbing an ice cliff,
+            with a broken arm, during a blizzard is probably
+            impossible, and the GM may feel an ML of -30 is justified.
+            (This is roughly a 1 in 1000 chance of succeeding.)  If
+            instead she was trying to decipher an alien script
+            (without access to some sort of comparison) the ML may be
+            at -50.  (This is roughly a 1 in 100,000 chance of
+            succeeding.)  Factors affecting ML are sometimes specified
+            in the skill description; otherwise GM discretion applies.
+            This is equivalent to increasing the task level.  Summing
+            all mdifiers into the skill ML results in an EML.  Note
+            that the addition is direct, not a 5-addition.
+          </p>
+        </div>
         <p>
-          When a character attempts to use a skill, n5 is rolled.
-          Add/Subtract ML and any other modifiers the GM has noted.
-          Some modifiers are “standard” and listed below, they will
-          not be mentioned explicitely.  The GM will have decided upon
-          a diffculty, often called the <em>negative</em> part.  This
-          value is also subtracted from the roll and if the net result
-          is not-negative, the skill has been successfully employed;
-          if the roll is negative, the attempt has failed.  For
-          example, if a PC declares the intent to perform a gymnastic
-          feat, the GM would instruct the player to “test Acrobatics
-          against difficulty 15.”  In cases where success or failure
-          may not be obvious, the GM should make the roll secretly.
+          When a character attempts to use a skill, n5 is rolled,
+          adding EML.  The GM will have decided upon a diffculty level
+          of the task, often called the <em>negative</em> part.  Some
+          modfifiers are compounded here, although this makes no
+          difference, whether it were included in the EML instead.
+          This value is also subtracted from the roll and if the net
+          result is not-negative, the skill has been successfully
+          employed; if the roll is negative, the attempt has failed.
+          For example, if a PC declares the intent to perform a
+          gymnastic feat, the GM would instruct the player to
+          &lquot;test Acrobatics against difficulty 15.&rquot; In
+          cases where success or failure may not be obvious, the GM
+          should make the roll secretly.
         </p>
         <p>
           It is often necessary to know the degree of success or
@@ -483,14 +493,14 @@
         <p>
           When two characters use skills against each other, each
           character makes a p5 skill roll appropriate to the skill in
-          question and the success levels are compared to give a net
-          result.  The descriptions of the two skills should match for
-          this net result (they should obviously the negative of each
-          other).  The character with the highest success level
-          “wins.”  If both characters achieve the same success level,
-          the “stalemate” result of zero (0) applies.  If a tie is not
-          appropriate to the situation, then decimal place may be
-          rolled as explained in the initial section.
+          question and the results are compared to give a net result.
+          The descriptions of the two skills should match this net
+          result (they should obviously be the negative of each
+          other).  The character with the higher result wins the
+          challenge.  If both characters achieve the same success
+          level, the stalemate result of zero (0) applies.  If a tie
+          is not appropriate to the situation, then decimal place may
+          be rolled as explained in the initial section.
         </p>
         <h4>Penalties</h4>
         <p>
@@ -507,7 +517,7 @@
           (11) Injury Levels.  A character’s Injury Penalty is equal
           to the sum of all Injury Levels.  For more details about
           injuries, see Combat and Physician.  Usually injury
-          penalties apply to all “physical” skills.  In some cases,
+          penalties apply to all "physical" skills.  In some cases,
           part of the Injury penalty can be ignored.  For example,
           firing a bow with a injured foot is not impeded in the same
           manner as running.
@@ -569,7 +579,7 @@
           easy reference and common values.  A side effect is that the
           average person turns out to have a skill value of around
           five (5).  Values below zero are only reachible through
-          “bad” die rolls.
+          "bad" die rolls.
         </p>
         <h4>Skill Combinations</h4>
         <p>
@@ -624,7 +634,7 @@
           of other commercial factors (market size, etc.).  The rare
           occasion, where an ML of the actor can not be judged are at
           GM discretion. i.e. someone who successfully evades
-          perception cannot be judged on this “performance” by the
+          perception cannot be judged on this "performance" by the
           potentially fooled or only in the most general sense.  The
           value in paranthesis is the range by which the estimation
           may be off.  It is calculated from the percentage value x by
@@ -657,7 +667,7 @@
           Any effects from wounds or other external influences in
           combat are applied immediately to pending progressions.  At
           the actors choice it can offset the goal or the time.  To
-          prevent players from immediately aborting “bad” rolls,
+          prevent players from immediately aborting "bad" rolls,
           mandatory secret rolls by the GM can be used.
         </p>
         <p>
@@ -963,8 +973,8 @@
         <include id="$Awareness"/>
         <p>
           Subliminal sensitivity to the environment.  Awareness may be
-          tested when a character says something like, “I’ll look
-          around.”  It also is tested if an event occurs and the GM
+          tested when a character says something like, "I’ll look
+          around."  It also is tested if an event occurs and the GM
           wishes to determine who might have noticed it, or at least
           have noticed that something is out of place.  Awareness
           rolls are often made secretly by the GM.  Awareness tests
@@ -1087,7 +1097,7 @@
           apply.  If the result is negative the legerdemain is
           detected.  Awareness rolls may also be made for any
           potential witnesses.  The Awareness dimension is obviously
-          modified by the “size” of the feat.  Shells or a coin are
+          modified by the "size" of the feat.  Shells or a coin are
           assumed for the listed penalty.  The Grope dimension is the
           time a trick takes, but mostly for larger objects – this is
           a combat dimension.
@@ -1206,7 +1216,7 @@
           character remembers information relevant to the subject
           being inquired about.  To avoid rolling multiple times on
           the table, the PC that searches his arsenal should give a
-          “trajectory” among the two dimensions, after the GM tells
+          "trajectory" among the two dimensions, after the GM tells
           him how obscure the sought story actually is.  For example,
           Rogan is attempting to recall the name of a great hero of
           some common legend. 50% go to depth and 50% to
@@ -1382,7 +1392,7 @@
           italic.  When one language of a family is known, it is
           easier to learn other related languages.  Orbaalese belongs
           to two families.  Foreign tongues can be learned with
-          languages of the same family functioning as as “teacher”.
+          languages of the same family functioning as as "teacher".
         </p>
         <include id="Language-2"/>
         <p/>
@@ -1498,7 +1508,7 @@
           the predetermined objectives are followed, usually a
           military one.  The lower the result, the more
           self-preservation is deterministic of actions, but also
-          instincts take over.  “Freezing” in the hopes of being
+          instincts take over.  "Freezing" in the hopes of being
           ignored may make sense with certain predators but not when
           facing Gargun.  The variety of different reactions is great.
           See the Morale section in Combat.  Berserk is meant as
@@ -1642,7 +1652,7 @@
         <p>
           A character’s ability to withstand mental domination.
           Mental Conflict is a skill to resolve mental or spiritual
-          conflict and can be referred to as a “Battle of Wills”.
+          conflict and can be referred to as a "Battle of Wills".
           Characters are always aware of an attack, even if
           unconscious or sleeping.  A fatigue rate of 1 means 1
           fatigue level per minute, which is multiplied be the result
@@ -1676,12 +1686,12 @@
           <p>
             <em>Benign Mind Linking:</em> Some healers, for example,
             use mental linking as a way to diagnosis a patient’s
-            ailments.  The willing bonus implies an “Ignore” defense.
+            ailments.  The willing bonus implies an "Ignore" defense.
           </p>
         </div>
         <p>
           <em>Dissolution:</em> Dissolution is the scattering of a
-          spirit’s “substance”.  It reforms in p5 hours at the
+          spirit’s "substance".  It reforms in p5 hours at the
           location of the spirit’s physical body (if it has one),
           otherwise in a nearby location.  When the process is
           complete, the spirit regains consciousness, has no fatigue,
@@ -1803,7 +1813,7 @@
           Basically, an Unhorsing roll needs to be made, when the
           rider enters the saddle.  An Unhorsing Roll is valid until
           the situation significantly changes.  For minor changes
-          simply adjust the existing roll.  Note: A rider “stumble”
+          simply adjust the existing roll.  Note: A rider "stumble"
           generated by an Melee Attack requires an additional
           Unhorsing Roll. Unhorsing Rolls are made against Riding ML,
           modified by Physical Penalty (including any injury just
@@ -1828,7 +1838,7 @@
           the Religion chapter.  Language may be a limiting factor
           when the skill is used to communicate with a congregation.
           In the list above, attributes and sunsigns are for the
-          rituals of the “Occupations” religion.
+          rituals of the "Occupations" religion.
         </p>
         <include id="$D-Ritual"/>
         <div class="explain">
@@ -1856,8 +1866,8 @@
           </p>
           <p>
             <em>Excommunication:</em> Effects are reduction of Piety
-            by 10 “unlearning” rolls; the reduction in Ritual are 5
-            “unlearning” rolls.
+            by 10 "unlearning" rolls; the reduction in Ritual are 5
+            "unlearning" rolls.
           </p>
           <p>
             <em>Excorcism:</em> The mental conflict is modified by
@@ -2067,7 +2077,7 @@
         <include id="$Throwing"/>
         <p>
           Throwing for accuracy is covered under Missile Combat.  When
-          throwing for distance, an “ideal” throwing object is
+          throwing for distance, an "ideal" throwing object is
           spherical, weighs three ounces and fits comfortably in the
           hand.  An ideal situation is one where the thrower has room
           to swing arms, good footing, and no distractions.  Heavier
@@ -2145,7 +2155,7 @@
           generate characters.  It can also be anything inbetween,
           such as partly rolling, partly choosing; first rolling, then
           modifying; or a point based system, where good attributes
-          are “bought” and/or “bad” attributes provide additional
+          are "bought" and/or "bad" attributes provide additional
           points to spend.  For simulation purposes, the out-world
           values should be recorded by the players, while the
           characters themselves are considered to only be aware of
@@ -2332,7 +2342,7 @@
             skill level (literaly).
           </p>
           <p>
-            <em>Medium:</em> Knowing the “true name” bestows a bonus
+            <em>Medium:</em> Knowing the "true name" bestows a bonus
             of +10.
           </p>
           <p>
@@ -2384,7 +2394,7 @@
           benefit.  Some need a priest as guidance.  The following is
           a Piety benefit, if attended and an (individual’s) Ritual
           roll succeeds.  The benefit is a Row-5-Addition to Piety,
-          which is why the “negative benefit” is actually positive.
+          which is why the "negative benefit" is actually positive.
           (Any rituals must be relevant, of course.  Individual
           donations of 1d for a rich merchant, for instance, do not
           qualify.)
@@ -2466,7 +2476,7 @@
             usual.  If the intent is to cause little damage, use the
             unintentional hit rules for melee (see below).  Otherwise
             consider the group passed by to be the target and scale as
-            per “wild” result in the missile attack section.  Instead
+            per "wild" result in the missile attack section.  Instead
             of the 60 degrees +/-2 distance, collect all in the path
             of 5 feet width.  Any attacker plunging into defenders
             with an attack will decelerate at maximum rate, and that
@@ -2574,7 +2584,7 @@
           </p>
           <p>
             <em>Stop:</em> A stop from a sprint/charge faster than the
-            maximum “natural” deceleration rate may be
+            maximum "natural" deceleration rate may be
             necessary. (Running into a wall or head on into another
             opponent that doesn’t dodge.)  In that case consider the
             distance that is not available to stopping as fall.
@@ -2704,7 +2714,7 @@
           only descriptive aspects should be mentioned.
         </p>
         <p>
-          Attributes are values that other people “attribute” to
+          Attributes are values that other people "attribute" to
           individuals they encounter, particularly those that they
           interact with for some time.  The following lists those
           properties and the common values used for them.
@@ -2752,7 +2762,7 @@
           Individuals should have a moral compass.  Morality is a
           measure of unselfishness.  The following serves as a
           guideline of the diversity found in Hârnworld, but is by no
-          means exhaustive.  Sindarin tend towards the “higher” moral
+          means exhaustive.  Sindarin tend towards the "higher" moral
           standards.
         </p>
         <p>
@@ -2959,14 +2969,14 @@
           The average height of a Hârnic male human is 68 inches with
           a variance of 5.83. The average is modified: Sindarin: -3",
           Khuzdul: -14".  Human females: -2", Sindarin females: 1".
-          Ivinian +1”, nobility +2”, urban poor -2”.  Such
+          Ivinian +1", nobility +2", urban poor -2".  Such
           measurements are often made by Physicians, while averages
           and variance thereof are only calculated by excentric
           scholars.
         </p>
         <h4 id="weight">Weight</h4>
         <p>
-          On Hârn, the “optimal” weight of a person depends on his
+          On Hârn, the "optimal" weight of a person depends on his
           height and is determined by the Physician's Guild and
           usually published in a yearly almanach.
         </p>
@@ -3078,7 +3088,7 @@
           Some people have one or more Medical Traits, or diseases,
           scars, and other identifying marks acquired during life.
           The Sindarin are immune to human diseases, but more are
-          considered “Sterile” than other species.  The list is not
+          considered "Sterile" than other species.  The list is not
           complete and no prevalence statistics in the populace are
           given.
         </p>
@@ -3152,7 +3162,7 @@
             of a peg-leg.
           </p>
           <p>
-            <em>Left-Handed:</em> People with this “affliction” are
+            <em>Left-Handed:</em> People with this "affliction" are
             likely to suffer some discrimination.
           </p>
           <p>
@@ -3372,7 +3382,7 @@
         <p>
           Nearly everyone owns a knife or dagger.  Clubs, bows,
           hatchets, slings, and staves are also common.  Other weapons
-          are expensive and “Bearing Arms” in HârnPlayer should be
+          are expensive and "Bearing Arms" in HârnPlayer should be
           consulted.  Few young adults can afford good armour.
           Military individuals are mostly equipped by their unit, but
           knights on feudal service must bring their own weapons,
@@ -3608,7 +3618,7 @@
           Arkalins, and sixteen Molaks.  A cavalry Molarin commands a
           squadron.  <em>Armolarin:</em> the most senior Molarin in a
           centad.  He is the principal liaison between officers and
-          men, and is often the “real” commander of a Centad.
+          men, and is often the "real" commander of a Centad.
         </p>
         <p>
           Officers are gentlemen.  A commoner rising to officer rank
@@ -3693,7 +3703,7 @@
         <p>
           Standing armies typically offer land grants to soldiers
           after twenty years service.  Monetary pensions are rare, but
-          “half-pay for life” might be awarded to a soldier who has
+          "half-pay for life" might be awarded to a soldier who has
           distinguished himself in some way.  When a soldier is maimed
           in the course of duty, he is discharged with a lump sum
           bonus rather than a pension.  The amount is two to twelve
@@ -3749,8 +3759,8 @@
           problems are different for cavalry units.  Auxiliary forces,
           weaponcrafters, ostlers, transport, engineers, and the like
           are all slower than cavalry, and tend to get left behind.
-          Units, even small ones, may have their own “field
-          households” (messes) in tow. These too, may straggle.
+          Units, even small ones, may have their own "field
+          households" (messes) in tow. These too, may straggle.
         </p>
         <h3 id="physician">Physician</h3>
         <p>
@@ -3780,7 +3790,7 @@
           ailments.  Fees vary dramatically, sometimes according to
           the skill brought to bear, but mostly according to
           reputation.  Fees typically range from 3d for fairly basic
-          first aid to 240d for “major” surgery.  Medicines, provided
+          first aid to 240d for "major" surgery.  Medicines, provided
           by the Apothecaries’ Guild, and hospital care (rare) can
           double or triple fees.
         </p>
@@ -3910,7 +3920,7 @@
           skin contact is established by grasping hands, etc. and skin
           contact is maintained during the time spent invoking the
           talent.  Under unknown circumstances ritual procedure may
-          need to be followed in order to form the necessary “fusion”
+          need to be followed in order to form the necessary "fusion"
           between invokers.  This will become known to the affected
           invokers instinctively.
         </p>
@@ -3961,7 +3971,7 @@
         </div>
         <p>
           A Psionic talent to influence the mind of another person
-          (victim).  The usual effect is to “freeze” the victim in
+          (victim).  The usual effect is to "freeze" the victim in
           place for a limited period of time. In order to invoke the
           talent successfully, eye contact between the invoker and the
           victim is necessary, but only for a momentary glance. The
@@ -4005,7 +4015,7 @@
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Sleepwalking, dreams of
-            floating through space, various “altered mental states,”
+            floating through space, various "altered mental states,"
             Jamais vu, lightheadedness, peculiar shivers, dizziness,
             or a feeling of being watched.
           </p>
@@ -4054,7 +4064,7 @@
           </p>
           <p>
             <em>Restoration:</em> An attempt to remove fatigue.
-            Remove fatigue from the “victim” at a seemingly random
+            Remove fatigue from the "victim" at a seemingly random
             rate.  The fatigue is accrued by the talent user at the
             normal rate.
           </p>
@@ -4080,8 +4090,8 @@
           </p>
         </div>
         <p>
-          Sometimes called “the evil eye,” Hex is the ability to
-          “curse” a victim, causing them to have bad luck.  If the
+          Sometimes called "the evil eye," Hex is the ability to
+          "curse" a victim, causing them to have bad luck.  If the
           invoker has a part of the victim (nail parings, lock of
           hair, etc.) increase Mastery.  Such items cannot be used
           more than once.  At the time the talent is invoked, the
@@ -4097,7 +4107,7 @@
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Very scary nightmares, the dim
-            perception of “ghosts” here and there, a dread of
+            perception of "ghosts" here and there, a dread of
             graveyards, hearing voices, etc.
           </p>
           <p>
@@ -4124,7 +4134,7 @@
             <em>Summon:</em> An attempt to summon an ethereal
             currently perceived by the invoker, or whose true name is
             known.  This results in a Mental Conflict.  Knowing the
-            “true name” is beneficial to the talent user.
+            "true name" is beneficial to the talent user.
           </p>
           <p>
             <em>Control:</em> An attempt to command an ethereal the
@@ -4183,7 +4193,7 @@
           </p>
         </div>
         <p>
-          The ability to determine the “fate” of a group, person, or
+          The ability to determine the "fate" of a group, person, or
           item.  Subject to passive triggering.  Any positive result
           makes either vision comprehensible.  Prescient visions can
           be symbolic in nature.  Folklore may be used to interpret
@@ -4352,7 +4362,7 @@
           entities within Skill level in inches of the invoker’s skin
           may also be transferred.  Less skilled users often lose
           things on the way.  Travel is ethereal, instantaneous, and
-          takes 5 minutes in “absent mindedness”.  The talent is
+          takes 5 minutes in "absent mindedness".  The talent is
           fairly common among the older bloodlines of the Sindarin,
           but otherwise rare.  The invoker does not necessarily know
           where the destination will be, although it is always a
@@ -4571,8 +4581,8 @@
           the following important effects:
         </p>
         <p>
-          Individuals with Divine Grace are deemed “worthy” of divine
-          aid, and individuals without Divine Grace are “unworthy.”
+          Individuals with Divine Grace are deemed "worthy" of divine
+          aid, and individuals without Divine Grace are "unworthy."
           Hence, a call for divine intervention is more likely to
           succeed for those with Divine Grace.  Invocations that heal
           injuries, cure diseases, remove curses, etc., have a Special
@@ -4597,7 +4607,7 @@
           <p>
             <em>Confession.</em> The churches of Halea, Larani,
             Morgath, Naveh, Peoni, and Save-K’nor hear confessions.
-            Only confessions of “significant guilt” are worthy of
+            Only confessions of "significant guilt" are worthy of
             piety.  Confessions must be made to an ordained cleric who
             (80% chance) may demand a penance.
           </p>
@@ -4622,7 +4632,7 @@
             <em>Feast Mass.</em> Held yearly on the principal holy
             day, this mass often lasts four hours.  It is usually
             followed by second service open only to clerics.  There is
-            no High Mass or Daily Mass on this day.  A “feaster” is a
+            no High Mass or Daily Mass on this day.  A "feaster" is a
             name given to adherents who attend only the Feast Mass –
             it is a derogatory term.
           </p>
@@ -4749,8 +4759,8 @@
           to do.  A deity may be open to suggestion, but will not take
           kindly to demands.  A person may call for Divine
           Intervention at any time.  A call for intervention may be
-          anything from, “Please help us out of this terrible mess” to
-          “Please tell me the contents of this box.”  There are no
+          anything from, "Please help us out of this terrible mess" to
+          "Please tell me the contents of this box."  There are no
           limits, just consequences.  An individual calling for Divine
           Intervention must have at least &#9733; Piety for that deity.
           Each deity has a base chance of 20% to intervene. (These
@@ -4802,15 +4812,15 @@
         <h3 id="ethereals">Ethereals</h3>
         <p>
           Between this world (Kethira) and the next (Yashain) stands a
-          shadowy “half world” known by many names, but most often as
+          shadowy "half world" known by many names, but most often as
           the Astral Plane or the Spirit World.  Ethereals are
           spiritual entities, capable of existing on this Astral
           Plane, and moving between it and Kethira or Yashain.
           Kethira, Yashain, and the Astral Plane all exist in the same
           or nearby physical space.  Passing through solid objects by
-          an Ethereal is called “frooshing.”  For many ethereals, this
+          an Ethereal is called "frooshing."  For many ethereals, this
           is unpleasant and/or tiring.  A corporeal creature
-          “frooshed” by an ethereal usually experiences an eerie,
+          "frooshed" by an ethereal usually experiences an eerie,
           shivering sensation.
         </p>
         <div class="explain">
@@ -4839,9 +4849,9 @@
             physical body of an astral traveler dies; a person dies
             without Divine Grace and the spirit is unclaimed by any of
             the gods; a person dies in circumstances which require a
-            “great wrong” to be righted before the spirit can “rest.”
+            "great wrong" to be righted before the spirit can "rest."
             A shade may wander the world(s), but most often haunts the
-            scene of its death until the “great wrong” is righted, or
+            scene of its death until the "great wrong" is righted, or
             they are admitted to an afterlife by one of the gods.
           </p>
           <p>
@@ -4867,7 +4877,7 @@
           Plane is really an almost infinite number of shifting and
           overlapping planes.  Although movement between astral planes
           is almost instantaneous, only divine entities can hope to
-          navigate this “ethereal maze” with any degree of speed or
+          navigate this "ethereal maze" with any degree of speed or
           accuracy.
         </p>
         <p>
@@ -4897,7 +4907,7 @@
           intervention.  If subjected to esoteric harm, injury is
           translated into fatigue.  Ethereals cannot recover fatigue
           except by dissolution.  Dissolution is the scattering of an
-          ethereal’s “substance.”  It reforms in several hours at the
+          ethereal’s "substance."  It reforms in several hours at the
           location of the ethereal’s physical body (if it has one),
           otherwise in a random location or plane.  When the process
           is complete, the ethereal regains consciousness and has no
@@ -4923,7 +4933,7 @@
           easy given the ever-shifting nature of the Astral planes.
           An ethereal move applies only to movement on the same plane.
           The risk of having a stranger establish squatter’s rights in
-          the “temple of one’s body” is one of the greater hazards of
+          the "temple of one’s body" is one of the greater hazards of
           astral travel.  From an astral’s perspective, this is akin
           to breaking into someone’s house, eating the food, drinking
           the wine, trying on the clothes, beating the servants, and
@@ -4941,7 +4951,7 @@
           afterlife.  Most people commit their soul to one god who
           takes possession of the soul upon death.  Those who die
           godless, or out of Divine Grace with their god, embark on a
-          Death Journey unless “saved” by a funeral rite.  All clerics
+          Death Journey unless "saved" by a funeral rite.  All clerics
           are taught Passage of the Soul, a funeral ritual to help a
           soul make a swift journey to its afterlife.  Although
           funerals vary from church to church and from region to
@@ -5018,7 +5028,7 @@
             compound.  Solving the riddle may find the mortal remains,
             and a trinket or two to encourage the game, but this
             obliges the finder to mention the deceased in the finder’s
-            own “death-riddle.”
+            own "death-riddle."
           </p>
           <p>
             <em>Siemians</em> do not believe in using land for graves
@@ -5106,19 +5116,19 @@
           ritual church duty.
         </p>
         <p>
-          Ritual invocations are ceremonies that “encourage” a deity
+          Ritual invocations are ceremonies that "encourage" a deity
           to intervene with a miracle.  They originated as a means for
           clerics to impress their laity or potential converts.  These
           uses are still practiced, but many invocations work equally
           well (often better) to subdue those who oppose a cleric’s
           deity.  Such use is tacitly approved by all churches, since
-          the “proxy wars” of mortals is an acceptable method of
+          the "proxy wars" of mortals is an acceptable method of
           conflict among deities.  Theoretically, anyone may learn the
           rituals of any Circle, but most churches will teach them
           only to ordained priests.  The rituals were once closely
           associated with a specific circle, higher rituals being the
           exclusive knowledge of higher circles.  They are still
-          classified in this way, but “leakage” of knowledge over the
+          classified in this way, but "leakage" of knowledge over the
           centuries has eroded this restriction.  Today, the
           invocations of any Circle can be taught to any ordained
           priest.
@@ -5173,7 +5183,7 @@
           deity by the ritual invocation Consecration.  Peoni and
           Larani are allied and oppose Agrik.  Morgath, the Lord of
           Chaos, opposes everyone, but can be, in some circumstances,
-          “allied” with Agrik.  All other gods are neutral, but tend
+          "allied" with Agrik.  All other gods are neutral, but tend
           to favor Peoni and Larani.  An invocation call usually
           consists of a quick prayer or chant, but can involve (if
           time permits) construction of an altar, burning of incense,
@@ -5638,7 +5648,7 @@
           indicates the weapon does not have this Aspect.  A zero (0)
           rating means the weapon has the Aspect, but impact is +0.
           Point aspects in brackets are optional; if chosen, WQ is
-          reduced by one (1).  This is a “weapon-build” option.
+          reduced by one (1).  This is a "weapon-build" option.
         </p>
         <p>
           <em>Price:</em> The retail price for average quality
@@ -5815,7 +5825,7 @@
           </p>
           <p>
             <em>Engage:</em> Combat involves footwork.  Once a
-            combatant lays “claim” to a certain spot, it is assumed
+            combatant lays "claim" to a certain spot, it is assumed
             that he moves about that point, without losing essential
             contact to adjacent combatants.  This is called engagement
             and all engaged combatants are assumed to be able to move
@@ -5842,7 +5852,7 @@
             battlefields, which are usually well supplied with
             furrows, rabbit holes, man-made pits, and caltrops.
             Galloping normally occurs only on good roads.  A cavalry
-            “charge” is mostly trotting into position, with perhaps
+            "charge" is mostly trotting into position, with perhaps
             twenty to sixty yards of canter at the end.  Horses are
             extremely reluctant to charge into each other.  Unless
             both steeds are separated by a short wall, they will veer
@@ -5857,7 +5867,7 @@
             out.  (This is different from ramming, which is resolved
             as a collision, see mounted combat, which may also be
             applied to humans, particularly those that intend to use
-            their weight “benefit”.)  Consider walls and ledges.
+            their weight "benefit".)  Consider walls and ledges.
             Moving over a ledge may not be preventable, but moving
             into a wall generally is.
           </p>
@@ -5909,7 +5919,7 @@
             The Attacker must move into the location of the opponent,
             which is without penalty. The attacker attempts to impair
             the usage of limbs (or weapons) without causing fatigue or
-            injury.  If the grappler achieves any “Strike” result, a
+            injury.  If the grappler achieves any "Strike" result, a
             hold on the opponent has been gained.  Determine Strike
             Location normally.  The entire zone (Head, Body, Arms, or
             Legs) is considered tangled, but with arms and legs, left
@@ -5952,7 +5962,7 @@
             cloaks, blankets, nets, flails, whips, ropes, or other
             items.  If the tangle (or any other attack!) is aimed at a
             weapon, one Main location is replaced with the weapon,
-            usually the leg of the “other” side.  A tangle attack is
+            usually the leg of the "other" side.  A tangle attack is
             treated as a melee attack (or missile attack if the tangle
             weapon is thrown).
           </p>
@@ -6167,13 +6177,13 @@
           <em>&#9733;&#9733;:</em> Serious. Wounds of this type also
           have minor effects on neighbouring detailed body parts at
           &#9733; less.  Any activity involving these body parts are
-          at the appropriate penalty.  These “effect” wounds do not
+          at the appropriate penalty.  These "effect" wounds do not
           heal separately.
         </p>
         <p>
           <em>&#9733;&#9733;&#9733;:</em> Grievous.  The detailed body part
           cannot be used, serious use effects on neighbouring detailed
-          body parts, and minor on main parts.  These “effect” wounds
+          body parts, and minor on main parts.  These "effect" wounds
           do not heal separately.  Minor effects are at &#9733;&#9733;
           less than the Grievous, while serious are &#9733; less.
         </p>
@@ -6249,7 +6259,7 @@
         <p>
           The standard treatments mostly known by all still need to be
           applied and detailed, so a physician's diagnosis is always
-          necessary.  “Destroyed” wounds may be treated as
+          necessary.  "Destroyed" wounds may be treated as
           incapacitating, with a Bonus on Diagnosis of &#9733;.
           Note that the usage effects on bordering regions needs to be
           treated as well.
