@@ -51,7 +51,7 @@
       <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="text">
-      <td>Error</td><td>100% (0+)</td><td>50% (0.5-2.0)</td><td>25% (0.75-1.33)</td><td>12.5% (0.88-1.14)</td><td>6.25% (0.94-1.06)</td>
+      <td>Error</td><td>96% (0-25)</td><td>48% (0.5-2)</td><td>24% (0.8-1.3)</td><td>12% (0.9-1.1)</td><td>6% (0.95-1.05)</td><td>3% (0.97-1.03)</td>
     </tr>
   </table>
   <table id="$D-Combat" style="width:80%">
@@ -142,7 +142,7 @@
   </table>
   <table id="$D-Recipes" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
     </tr>
     <tr class="num">
       <td>Recipes</td><td>0.3</td><td>0.6</td><td>1</td><td>2</td><td>3</td><td>6</td><td>10</td><td>20</td><td>30</td>
@@ -153,7 +153,7 @@
   </table>
   <table id="$D-Recipes-2" style="width:50%">
     <tr>
-      <th>Learn</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Learn</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
     </tr>
     <tr>
       <td>Time</td><td>5/3</td><td>5/4</td><td>1</td><td>5/6</td><td>5/8</td><td>1/2</td><td>5/12</td>
@@ -161,10 +161,10 @@
   </table>
   <table id="$D-Regional" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="text">
-      <td>Conditions</td><td>-</td><td>Local</td><td>Familiar</td><td>Related</td><td>Any</td>
+      <td>Conditions</td><td>-</td><td>Locality</td><td>Domain</td><td>Harn</td><td>Lythia</td><td>Kethira</td><td>Any</td>
     </tr>
   </table>
   <table id="$D-StarRating" style="width:50%">
@@ -174,7 +174,7 @@
       <th>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</th>
     </tr>
     <tr>
-      <td>Skill</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td>
+      <td>Skill</td><td>0</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td>
     </tr>
     <tr>
       <td>Attribute</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td>

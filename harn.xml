@@ -411,11 +411,8 @@
             apprenticeship was normal, so he was taught to an
             occupation level of 10 (&#9733;) as Herald.  (This follows
             from the initial training rules in the Occupations
-            chapter.)  Thus he now has a ML of
-          </p>
-          <p>
-            <em>1 +<sub>5</sub> 1 +<sub>5</sub> (-1) +<sub>5</sub> 10
-            = 14</em>
+            chapter.)  Thus he now has a ML of <em>1 +<sub>5</sub> 1
+            +<sub>5</sub> (-1) +<sub>5</sub> 10 = 14</em>
           </p>
         </div>
         <p>
@@ -677,10 +674,10 @@
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <include id="$D-Knowledge"/>
         <p>
-          With percentage values above 100% the excess percentage can
-          be used to assess the chance of <em>creating</em> knowledge
-          in the domain. E.g.  for Heraldry, creating an original
-          design.
+	  This dimension can be exploited as knowledge and the
+	  knowledge about knowledge, i.e. how sure is the character
+	  that his reproduction of the knowledge is correct. Some
+	  example task difficulties follow.
         </p>
         <div class="explain">
           <p>
@@ -689,30 +686,30 @@
             general topic belongs to that domain or not.
           </p>
           <p>
-            <em>5:</em> One of the most obvious topics has been heard
+            <em>10:</em> One of the most obvious topics has been heard
             of and can be applied, but without guaranteed success.
           </p>
           <p>
-            <em>10:</em> The basic concepts are known, the more
+            <em>20:</em> The basic concepts are known, the more
             esoteric concepts have been heard of but cannot be
             applied.
           </p>
           <p>
-            <em>15:</em> Most concepts are known and many can be
+            <em>30:</em> Most concepts are known and many can be
             applied with a high degree of certainty.
           </p>
           <p>
-            <em>20:</em> All concepts of the domain are known and can
+            <em>40:</em> All concepts of the domain are known and can
             be applied with confidence.  Only a few topics escape the
             grasps.
           </p>
           <p>
-            <em>25:</em> All of the domain is understood with ease.
+            <em>50:</em> All of the domain is understood with ease.
             It is hard to find unknown territory, although it exists.
             Improvement of the art is possible.
           </p>
           <p>
-            <em>30:</em> Mastery of the subject matter as far as
+            <em>60:</em> Mastery of the subject matter as far as
             humanly possible.  Genuine research or creation of new
             substance is possible.
           </p>
@@ -730,13 +727,13 @@
           may be enhanced by cutting and then further enhanced by
           mounting in a gold-based necklace.  Sometimes an item’s
           resistance to damage is more important than how beautiful it
-          looks.  An example of this is weapon- and armour-crafting.
+          looks.  Examples of this are weapon- and armour-crafting.
         </p>
         <include id="$D-Quality"/>
         <h5 class="skill" id="di-rec">Recipes</h5>
         <p>
           For NPCs the associated table can be used to estimate the
-          number of different recipes he knows how to create.  PCs
+          number of different recipes they know how to create.  PCs
           should rather keep a book and start with what their master
           has given them.  Self-made dabblers start with zero (0) and
           would need to do research.  Recipes have a wide range of
@@ -747,28 +744,28 @@
         <p>
           In general, learning a recipe is a roll with the student's
           ML.  The student should have a quiet, dedicated space to
-          study.  The <em>Dedicated Ground</em> modifier can be added
-          to the ML directly.  The time cost assumes a student spends
-          12 hours per day (3 watches) on the task, and study is
-          continuous until the recipe is mastered.  The GM may assess
-          penalties for interruptions in the study.  Some
+          study.  The <em>Consecrated Ground</em> modifier usually can
+          be 5-added to the ML.  The time cost assumes a student
+          spends 12 hours per day (3 watches) on the task, and study
+          is continuous until the recipe is mastered.  The GM may
+          assess penalties for interruptions in the study.  Some
           interruptions, like illness or a crisis, may justify
           aborting the study entirely.  Recipes have a circle rating,
           ranging from I - VI, or given as star rating. This is a
           direct numeric penalty when applying the recipe,
           e.g. performing the ritual.  For learning it represents the
-          difficulty, see the star-rating dimension.  Now calculate
-          the modifiers and make a Learn roll on the table below.  Any
+          difficulty, see the star-rating dimension.  Calculate the
+          modifiers and make a learning roll on the table below.  Any
           result below zero (0) means the time was spent in vain.
           Particularly nasty GMs may let the PC learn something wrong
           without knowing.
         </p>
         <div class="explain">
           <p>
-            <em>Mentor:</em> Row-5-Addition of the Mentor’s SB.
+            <em>Mentor:</em> 5-Addition of the Mentor’s ML.
           </p>
           <p>
-            <em>Scripture:</em> Row-5-Addition of the Scripture value.
+            <em>Scripture:</em> 5-Addition of the Scripture value.
             The value is directly linked to the number of pages (see
             dimension above).  The student must be able to read the
             Scripture.
