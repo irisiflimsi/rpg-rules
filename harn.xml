@@ -253,13 +253,11 @@
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
             <td><a href="#di-art">Artistic</a></td>
-            <td><a href="#di-att">Attribute</a></td>
             <td><a href="#di-com">Combat</a></td>
-            <td><a href="#di-div">Divination</a></td>
             <td><a href="#di-kno">Knowledge</a></td>
+            <td><a href="#di-qua">Quality</a></td>
           </tr>
           <tr>
-            <td><a href="#di-qua">Quality</a></td>
             <td><a href="#di-reg">Regional</a></td>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-sta">Star-Rating</a></td>
@@ -370,6 +368,13 @@
           On the other hand, making 3 attributes applicable to a task,
           automatically makes them (5-)add up to 8.
         </p>
+        <h4>Attribute Skills</h4>
+        <p>
+          Attributes can be used as skills.  However, since they come
+          naturally and require no education, they also rarely benefit
+          from education.  Attributes as skills cannot be selected for
+          monthly learning rolls.
+        </p>
         <h4><em>Opening Mastery Level</em></h4>
         <p>
           Opening Mastery Level (OML) is listed with each skill.  This
@@ -409,13 +414,22 @@
             chapter.)  Thus he now has a ML of
           </p>
           <p>
-            <em>1 +<sub>5</sub> + 1 +<sub>5</sub> + (-1) +<sub>5</sub>
-            10 = 14</em>
+            <em>1 +<sub>5</sub> 1 +<sub>5</sub> (-1) +<sub>5</sub> 10
+            = 14</em>
           </p>
         </div>
         <p>
           Multiple occupations' influence are combined through
           5-Addition into a single skill.
+        </p>
+        <h4>Special Occupationss</h4>
+        <p>
+          Gladiators are at 80%, Hunter/Trappers, Mercantylers,
+          Pilots, and Weaponcrafters at 60% for their additional
+          Weapon proficiencies.  Clerics acquire their church language
+          at 60%, if the same family, and 40%, if an alien family.
+          The church script is opened at 60%.  For those religions
+          that have a Temple Private Tongue this opens at 60%.
         </p>
         <h4><em>Specialties</em></h4>
         <p>
@@ -504,34 +518,33 @@
         </p>
         <h4>Penalties</h4>
         <p>
-          Penalties are subtracted from the skill roll directly (not
-          through Row-5-Addition).  To distinguish the standard
-          penalties below, penalties assigned by the GM to reflect
-          temporary handicaps are called <em>Special Penalties</em>.
+          Penalties are 5-added to the task difficulty.  To
+          distinguish the standard penalties below, penalties assigned
+          by the GM to reflect temporary handicaps are called
+          <em>Special Penalties</em>.
         </p>
         <p>
           <em>Injury Penalty:</em> Combat, and other activities, may
           injure a character.  Each injury is rated in terms of Injury
-          Levels: M5, S10, G15, and so on.  A character with, for
-          example, one M3 and one S8 injury, has a total of sixteen
-          (11) Injury Levels.  A character’s Injury Penalty is equal
-          to the sum of all Injury Levels.  For more details about
-          injuries, see Combat and Physician.  Usually injury
-          penalties apply to all "physical" skills.  In some cases,
-          part of the Injury penalty can be ignored.  For example,
-          firing a bow with a injured foot is not impeded in the same
-          manner as running.
+          Levels: M5, S10, G15, and so on; calculate the 5-sum giving
+          the injury penalty.  A character with, for example, one M3
+          and one S8 injury, has a total of 11 injury levels,
+          equalling the injury penalty.  For more details about
+          injuries, see Combat and Physician.  Injury penalties apply
+          to all physical skills.  In some cases, part of the injury
+          penalty can be ignored.  For example, firing a bow with an
+          injured foot is not impeded in the same manner as running.
         </p>
         <p>
-          <em>Fatigue Penalty:</em> Using Psionic talents or certain
-          other activity generates Fatigue Levels.  The GM may also
-          assess Fatigue Levels for prolonged physical activity, such
-          as when a character swims a swift river and then begins to
-          scale a cliff without pausing to rest.  In general, one
-          Fatigue Level is assessed for one minute of strenuous
-          physical activity.  A character’s Fatigue Penalty is equal
-          to the sum of all Fatigue Levels.  Every minute of Rest
-          allows a character to remove one Fatigue Level.  Fatigue
+          <em>Fatigue Penalty:</em> Using psionic talents or certain
+          other activity generates fatigue.  The GM may also assess
+          fatigue for prolonged physical activity, such as when a
+          character swims a swift river and then begins to scale a
+          cliff without pausing to rest.  In general, one fatigue
+          level is assessed for one minute of strenuous physical
+          activity.  A character’s fatigue penalty is equal to the
+          (normal) sum of all Fatigue Levels.  Every minute of Rest
+          allows a character to remove one fatigue level.  Fatigue
           penalty applies to all skill applications.
         </p>
         <p>
@@ -541,8 +554,8 @@
         <p>
           <em>Astral Penalty:</em> Astrals of disembodied characters
           have a special penalty to the MLs of all skills, spells, and
-          Psionic talents proportional to the portion of Aura they
-          leave with the body.  If 5% of Aura is left behind, Astral
+          psionic talents proportional to the portion of Aura they
+          leave with the body.  If 5% of Aura is left behind, astral
           skills are reduced by -2, if 10% of Aura is left behind,
           reduce by -4, and so on.  Some astral travelers prefer to
           leave larger portions of their Aura behind to give their
@@ -555,33 +568,11 @@
           for a deity to whom the ground is dedicated.  The bonus is
           equal to the consecrator's circle.  Under certain
           circumstances, other recipes may also use this consecration
-          bonus, for instance, Concocting an alchemical, explosive
+          bonus, for instance, Concocting an alchemical explosive
           compound in a laboratory dedicated to such volatile
           compounds.
         </p>
-        <h4>Special Skills</h4>
-        <p>
-          Gladiators are at 80%, Hunter/Trappers, Mercantylers,
-          Pilots, and Weaponcrafters at 60% for their additional
-          Weapon proficiencies.  Clerics open their church language at
-          60%, if the same family, and 40%, if an alien family.  The
-          church script is opened at 60%.  For those religions that
-          have a Temple Private Tongue this opens to 60%.
-        </p>
-        <h4>Attribute Skills</h4>
-        <p>
-          Attributes used as skills serve two purposes.  First, it
-          allows for the in-world attributes to become operational
-          out-world, when rolling dice etc.  Second, it allows players
-          to improve this skill as other skills.  The attribute itself
-          serves as the SB for the skill.  Since unmodified attribute
-          use is a case often encountered, a table is provided for
-          easy reference and common values.  A side effect is that the
-          average person turns out to have a skill value of around
-          five (5).  Values below zero are only reachible through
-          "bad" die rolls.
-        </p>
-        <h4>Skill Combinations</h4>
+        <h4>Special Skill Considerations</h4>
         <p>
           Situations or skill applications can either fit to a certain
           skill fully or only partially.  Sometimes multiple skills
@@ -589,25 +580,23 @@
           skills that apply and to what percentage.  Then use a
           weighted average as skill.  Example: The GM rules that
           performing a ballet, is 60% Acrobatics and 40% Dancing.  A
-          character with Acrobatics/13 and Dancing/9 has Ballet/11
-          (rounded).
+          character with Acrobatics/16 and Dancing/11 has Ballet/14.
         </p>
         <p>
-          Clerical Counseling is a Row-5-Addition of Rhetoric and
-          Ritual.
+          Clerical Counseling is a 5-Addition of Rhetoric and Ritual.
         </p>
         <p>
-          For joining in Rituals, one success roll is made against a
-          joint ML (Row-5-Addition).  The normal fatigue is then
-          accumulated by both participants.  Example: Dar and Kalin
-          jointly invoke Pyrokinesis.  Dar’s ML is 23; Kalin’s is 17.
-          Assuming no Universal Penalty, their joint ML is 23
+          For joining in rituals, one success roll is made against a
+          joint ML (5-Addition).  The normal fatigue is then
+          accumulated by all participants.  <em>Example:</em> Dar and
+          Kalin jointly invoke Pyrokinesis.  Dar’s ML is 23; Kalin’s
+          is 17.  Assuming no penalties, their joint ML is 23
           +<sub>5</sub> 17 = 26.  Both Dar and Kalin each accrue the
-          normal Fatigue.
+          normal fatigue.
         </p>
         <p>
           Multiple attackers can combine their efforts through
-          Row-5-Addition into one.  This is generally a complex topic,
+          5-Addition into one.  This is generally a complex topic,
           because modifiers need to be accommodated as they enter the
           game, so this is best reserved for NPCs that perform as
           single units.  Multiple defendants are similarly added.  An
@@ -620,23 +609,23 @@
           skills that use them in more or less the same manner.
         </p>
         <p>
-          The Divine Grace ratio (Piety : Ritual) is multiple to
-          cleric miracle results that effect the caster alone in a
-          beneficial way.  Healing, etc.  Note that this ratio will
-          usually not exceed 1.5, because rituals are tenants of a
-          religion.
+          The <em>Divine Grace ratio</em> (Piety : Ritual) is
+          multiplied to cleric miracle results that effect the caster
+          alone in a beneficial way.  Healing, etc.  Note that this
+          ratio will usually not exceed 1.5, because rituals are
+          tenants of a religion.
         </p>
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
-          delivered is the same for almost all skills.  This is
+          delivered works the same for almost all skills.  This is
           different from the commercial value, which depends on a lot
-          of other commercial factors (market size, etc.).  The rare
-          occasion, where an ML of the actor can not be judged are at
-          GM discretion. i.e. someone who successfully evades
-          perception cannot be judged on this "performance" by the
+          of other factors (market size, etc).  The rare occasion,
+          where an ML of the actor cannot be judged are at GM
+          discretion.  I.e. someone who successfully evades perception
+          cannot be judged on this &#8220;performance&#8221; by the
           potentially fooled or only in the most general sense.  The
-          value in paranthesis is the range by which the estimation
+          value in parenthesis is the range by which the estimation
           may be off.  It is calculated from the percentage value x by
           the range (100% - x) to 1/(100% - x).
         </p>
@@ -644,16 +633,8 @@
         <h5 id="di-art">Artistic</h5>
         <p>
           This dimension applies to music and dance but also to other
-          arts.  Forgery or impersonation of others is complex.
+          arts.  Forgery or impersonating others is complex.
         </p>
-        <h5 id="di-att">Attribute</h5>
-        <p>
-          This is not a proper dimension, but a convenience section
-          for the Row-5-Addition of an Attribute and 0.  For finer
-          grained numbers, observe that this fact.  The addition can
-          be applied to any SB, in particular for learning.
-        </p>
-        <include id="$D-Attribute"/>
         <h5 id="di-com">Combat</h5>
         <p>
           One dimension is the time (in seconds), which it takes to
@@ -693,8 +674,6 @@
           The following table does this for the Combat Time dimension.
         </p>
         <include id="$D-Combat-2"/>
-        <h5 class="skill" id="di-div">Divination</h5>
-        <include id="$D-Divination"/>
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <include id="$D-Knowledge"/>
         <p>
@@ -967,7 +946,7 @@
           visit an astromancer to learn the portents before
           undertaking a major adventure.  Such efforts take several
           hours, at least, to prepare.  The dimensions to use are
-          <em>Divination</em>.
+          <em>Accuracy</em> (of the prediction).
         </p>
         <h5 class="skill" id="sk-awa">Awareness</h5>
         <include id="$Awareness"/>
@@ -1908,7 +1887,7 @@
           A popular art in regions influenced by Ivinian or Khuzan
           culture, this is the ability to divine, read portents, and
           cast fortunes by means of runestones or runic symbology.
-          Use the <em>Divination</em> dimensions.
+          Use the <em>Accuracy</em> dimension.
         </p>
         <h5 class="skill" id="sk-scr">Script</h5>
         <include id="$Script"/>
@@ -2063,7 +2042,7 @@
         <include id="$Tarotry"/>
         <p>
           The ability to use Tarot for contemplation and/or
-          divination.  Use the <em>Divination</em> dimension.
+          divination.  Use the <em>Accuracy</em> dimension.
         </p>
         <h5 class="skill" id="sk-tex">Textilecraft</h5>
         <include id="$Textilecraft"/>

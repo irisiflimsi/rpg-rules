@@ -48,39 +48,10 @@
   </table>
   <table id="$D-Accuracy" style="width:80%">
     <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="text">
-      <td>Error</td><td>100% (0+)</td><td>60% (0.4-2.5)</td><td>20% (0.8-1.25)</td><td>6% (0.94-1.06)</td>
-    </tr>
-  </table>
-  <table id="$D-Attribute" style="width:30%">
-    <tr>
-      <th>Attribute</th><th>Skill</th><th>Attribute</th><th>Skill</th>
-    </tr>
-    <tr>
-      <td>-15 - -11</td><td>1</td><td>6 - 7</td><td>9</td>
-    </tr>
-    <tr>
-      <td>-10 - -7</td><td>2</td><td>8</td><td>10</td>
-    </tr>
-    <tr>
-      <td>-6 - -4</td><td>3</td><td>9</td><td>11</td>
-    </tr>
-    <tr>
-      <td>-3 - -2</td><td>4</td><td>10-11</td><td>12</td>
-    </tr>
-    <tr>
-      <td>-1 - 0</td><td>5</td><td>12</td><td>13</td>
-    </tr>
-    <tr>
-      <td>1 - 2</td><td>6</td><td>13</td><td>14</td>
-    </tr>
-    <tr>
-      <td>3 - 4</td><td>7</td><td>14</td><td>15</td>
-    </tr>
-    <tr>
-      <td>5</td><td>8</td><td>15</td><td>16</td>
+      <td>Error</td><td>100% (0+)</td><td>50% (0.5-2.0)</td><td>25% (0.75-1.33)</td><td>12.5% (0.88-1.14)</td><td>6.25% (0.94-1.06)</td>
     </tr>
   </table>
   <table id="$D-Combat" style="width:80%">
@@ -153,23 +124,12 @@
       <td>7</td><td>6</td><td>5</td><td>4</td><td>3</td><td>2</td><td>1</td>
     </tr>
   </table>
-  <table id="$D-Divination" style="width:70%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Correctness</td><td>5%</td><td>7.5%</td><td>10%</td><td>12.5%</td><td>16.667%</td><td>25%</td><td>33.333%</td><td>50%</td><td>66.667%</td>
-    </tr>
-    <tr class="num">
-      <td>Proximity</td><td>2160d</td><td>1080d</td><td>360d</td><td>180d</td><td>60d</td><td>30d</td><td>10d</td><td>6d</td><td>2d</td>
-    </tr>
-  </table>
   <table id="$D-Knowledge" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
-      <td>Knowledge</td><td>3%</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
+      <td>Knowledge</td><td>0%</td><td>5%</td><td>20%</td><td>45%</td><td>65%</td><td>80%</td><td>90%</td><td>95%</td>
     </tr>
   </table>
   <table id="$D-Quality" style="width:30%">
