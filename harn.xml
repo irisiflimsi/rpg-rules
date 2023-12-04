@@ -745,20 +745,15 @@
           In general, learning a recipe is a roll with the student's
           ML.  The student should have a quiet, dedicated space to
           study.  The <em>Consecrated Ground</em> modifier usually can
-          be 5-added to the ML.  The time cost assumes a student
-          spends 12 hours per day (3 watches) on the task, and study
-          is continuous until the recipe is mastered.  The GM may
-          assess penalties for interruptions in the study.  Some
-          interruptions, like illness or a crisis, may justify
-          aborting the study entirely.  Recipes have a circle rating,
-          ranging from I - VI, or given as star rating. This is a
-          direct numeric penalty when applying the recipe,
-          e.g. performing the ritual.  For learning it represents the
-          difficulty, see the star-rating dimension.  Calculate the
-          modifiers and make a learning roll on the table below.  Any
-          result below zero (0) means the time was spent in vain.
-          Particularly nasty GMs may let the PC learn something wrong
-          without knowing.
+          be 5-added to the ML.  A scripture must be read in full.
+          Recipes have a circle rating, ranging from I - VI, or given
+          as star rating. This is a direct numeric penalty when
+          applying the recipe, e.g. performing the ritual.  For
+          learning it represents the difficulty, see the star-rating
+          dimension.  Calculate the modifiers and make a learning roll
+          on the table below.  Any result below zero (0) means the
+          time was spent in vain.  Particularly nasty GMs may let the
+          PC learn something wrong without knowing.
         </p>
         <div class="explain">
           <p>
@@ -795,7 +790,7 @@
           be turned into a trajectory, i.e. no arbitrary bonus
           compensated elsewhere may be assigned to it.  GM disretion
           applies for explicitly safe travel.  Hazards include getting
-          lost but not encounters.
+          lost but not encounters.  Modifiers are applied directly.
         </p>
         <include id="$D-Travel"/>
         <include id="$D-Hazard"/>
@@ -842,8 +837,8 @@
           be treated as separate entity.  This penalty would be the
           effect of a sprained ankle or frostbite and is healed
           normally.  Through familiarity in the terrain, such as the
-          Survival skill or Seamanship, the penalty may be reduced. (A
-          bonus is never granted.)
+          Survival skill or Seamanship, the Hazard (frequency) may be
+          changed.
         </p>
         <include id="$D-Hazard-2"/>
         <h5 class="skill" id="di-yie">Yield</h5>
@@ -855,15 +850,17 @@
         <h5/>
         <h4>Skill List</h4>
         <p>
-          Some pre-determined skills, including their relation to
-          occupation, their descriptions and other parameters are
-          found here.  When several listed occupations apply, use the
-          Row-5-Addition of the Result.  This does not apply to the
-          Languages, Scripts and Musician skill group, where each time
-          an occupation is mentioned, it indicates a separate skill.
-          Specialties are also treated this way: as separate opening.
-          As a convenience, a list of the used percentages is provided
-          (rounded).
+          Some pre-determined skills, including important aspects for
+          character generation, are listed here.  When several listed
+          occupations apply, use the 5-Addition of the result.  This
+          does not apply to the Languages, Scripts and Musician skill
+          group, where each time an occupation is mentioned, it may
+          (and usually will) indicate a separate skill.  Specialties
+          are also treated this way: as separate opening.
+	</p>
+	<p>
+	  As a convenience, a list of the used percentage to OML is
+	  provided (rounded).
         </p>
         <include id="Skilllist"/>
         <h5 class="skill" id="sk-acr">Acrobatics</h5>
@@ -872,9 +869,7 @@
           Acrobatics Skill is tested when a character attempts a
           gymnastic feat that is more than a simple matter of native
           Agility.  These include vaults, somersaults, back-flips,
-          twisting in mid-air to land on one’s feet, etc.  Rising
-          takes as many seconds as listed in that dimension and during
-          that period the character is considered prone.
+          twisting in mid-air to land on one’s feet, etc.
         </p>
         <include id="$D-Acrobatics"/>
         <h5 class="skill" id="sk-act">Acting</h5>
@@ -893,8 +888,7 @@
         <p>
           The skill is used for multiple purposes; to avoid falling
           objects, weapon and missile attacks, and other situations
-          requiring Agility.  Dodge is frequently used in combat,
-          directly as dimension.
+          requiring Agility.
         </p>
         <h5 class="skill" id="sk-agr">Agriculture</h5>
         <include id="$Agriculture"/>
@@ -905,7 +899,7 @@
           ability, useful for running a farm or fief.  Yield is the
           crop yield per year, i.e. this roll applies once per year.
           Different crops may be specialties.  Use the <em>Yield</em>
-          dimension but subtract 10 from the skill roll.
+          dimension.
         </p>
         <h5 class="skill" id="sk-alc">Alchemy</h5>
         <include id="$Alchemy"/>
@@ -929,7 +923,10 @@
           Specialty.  Use the <em>Recipe</em> dimension for NPCs that
           may surround themselves with trained animals.  Intelligence
           in the table means the attribute of the animal to be
-          trained.
+          trained. If the animal isn't smart enough, nothing is
+          learned.  Also use the <em>Yield</em> dimension four times
+          for each reasonable trick.  Tricks must be practiced to be
+          retained by the animal.
         </p>
         <include id="$D-Animalcraft"/>
         <h5 class="skill" id="sk-ast">Astrology</h5>
