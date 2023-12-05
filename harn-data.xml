@@ -319,10 +319,10 @@
   </table>
   <table id="$D-Embalming" style="width:50%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
-      <td>Decay</td><td>3</td><td>1</td><td>1/3</td><td>1/10</td><td>1/30</td>
+      <td>Decay</td><td>3</td><td>1</td><td>1/3</td><td>1/10</td><td>1/30</td><td>1/100</td><td>1/300</td>
     </tr>
   </table>
   <table id="$D-Endurance" style="width:30%">
@@ -341,25 +341,17 @@
       <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td><td>0.75</td><td>0.5</td><td>0.25</td>
     </tr>
   </table>
-  <table id="$D-Fletching" style="width:60%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>120h</td><td>78h</td><td>36h</td><td>24h</td><td>12h</td><td>8h</td><td>3.5h</td><td>2.5h</td><td>1.25h</td>
-    </tr>
-  </table>
   <table id="$D-Folklore" style="width:80%">
     <tr>
-      <th>Dimension</th><th>-15</th><th>-5</th><th>5</th><th>15</th><th>25</th>
+      <th>Dimension</th><th>-10</th><th>10</th><th>30</th><th>50</th>
     </tr>
     <tr class="text">
-      <td>Depth</td><td>-</td><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
+      <td>Depth</td><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
     </tr>
   </table>
   <table id="$D-Hearing" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
       <td>Distance</td><td>0.1m</td><td>0.3m</td><td>1m</td><td>3m</td><td>10m</td><td>30m</td><td>100m</td><td>300m</td>

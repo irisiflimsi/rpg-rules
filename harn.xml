@@ -946,13 +946,13 @@
         <include id="$Awareness"/>
         <p>
           Subliminal sensitivity to the environment.  Awareness may be
-          tested when a character says something like, "I’ll look
-          around."  It also is tested if an event occurs and the GM
-          wishes to determine who might have noticed it, or at least
-          have noticed that something is out of place.  Awareness
-          rolls are often made secretly by the GM.  Awareness tests
-          may be made for sleeping characters with an ML reduction of
-          at least 10.
+          tested when a character says something like, &#8220;I’ll
+          look around.&#8221; It also is tested if an event occurs and
+          the GM wishes to determine who might have noticed it, or at
+          least have noticed that something is out of place.
+          Awareness rolls are often made secretly by the GM.  Sleeping
+          5-adds at least 20 to any Awareness difficulty.  Loud noises
+          give a bonus to the Skill roll.
         </p>
         <h5 class="skill" id="sk-axe">Axe</h5>
         <include id="$Axe"/>
@@ -1006,21 +1006,21 @@
         <h5 class="skill" id="sk-cli">Climbing</h5>
         <include id="$Climbing"/>
         <p>
-          Tested when a character attempts to climb a difficult
-          obstacle.  The GM assesses a climb by the dimensions in the
-          table.  Additional modifiers should be made for slipperiness
-          and availability of holds.  If the character has climbing
-          gear (rope and grappling hook or spikes and mallet) and can
-          use them, increase ML.  Speed is measured in feet per
-          second.  A running total of vertical progress is kept to
-          determine when the climb is complete, and the extent of any
-          fall.  A single scale should only be rolled once, but any
+          Tested when a character attempts to climb an obstacle.  The
+          GM assesses a climb by the dimensions in the table.
+          Additional modifiers should be made for slipperiness and
+          availability of holds.  If the character has climbing gear
+          (rope and grappling hook or spikes and mallet) and can use
+          them, increase EML.  Speed is measured in feet per second.
+          A running total of vertical progress is kept to determine
+          when the climb is complete, and the extent of any fall.  A
+          single scale should only be rolled once, but any
           interruption, such as rest requires a new roll.  Any
           negative speed result (below -5) implies a fall.  Climbing
           speed can be increased at the price of increasing the risk.
           For each 5 levels of speed that are accepted as fall,
-          increase ML by 1 point.  The following falling height is
-          evenly distributed among the attempted climbing height.
+          increase ML by 1 point.  A fall is evenly distributed across
+          the attempted climbing height.
         </p>
         <include id="$D-Climbing"/>
         <h5 class="skill" id="sk-clu">Club</h5>
@@ -1069,11 +1069,10 @@
           attempt.  If the victim is not paying attention, penalties
           apply.  If the result is negative the legerdemain is
           detected.  Awareness rolls may also be made for any
-          potential witnesses.  The Awareness dimension is obviously
-          modified by the "size" of the feat.  Shells or a coin are
-          assumed for the listed penalty.  The Grope dimension is the
-          time a trick takes, but mostly for larger objects – this is
-          a combat dimension.
+          potential witnesses.  Shells or a coin are assumed for the
+          listed penalty.  The Grope dimension is the time a trick
+          takes, but mostly for larger objects – this is a combat
+          dimension.
         </p>
         <include id="$D-Dexterity"/>
         <h5 class="skill" id="sk-dra">Drawing</h5>
@@ -1141,11 +1140,10 @@
         <h5 class="skill" id="sk-eye">Eyesight</h5>
         <include id="$Eyesight"/>
         <p>
-          Eyesight as skill cannot be improved, neither can the
-          attribute.  The resolution is in mm/m or m/km.  Typical
-          modifications are made for contrast (positive), movement
-          (positive), distraction (negative), on the border of the
-          visual field (negative).
+          Eyesight cannot be improved.  The resolution is in mm/m or
+          m/km.  Typical modifications are made for contrast
+          (positive), movement (positive), distraction (negative), on
+          the border of the visual field (negative).
         </p>
         <include id="$D-Eyesight"/>
         <h5 class="skill" id="sk-fis">Fishing</h5>
@@ -1175,11 +1173,11 @@
         <include id="$Fletching"/>
         <p>
           The ability to make and repair bows and arrows.  Base yield
-          is 1 bow or 12 arrows in a day, which assumes tools and
-          materials are readily available and a 12 hour period of work
-          per day. Use the <em>Yield</em> dimension.
+          is 1/4 bow or 3 arrows, which assumes tools and materials
+          are readily available and a 12 hour period of work per
+          day. Use the <em>Yield</em> and <em>Yield (Time)</em>
+          dimensions.
         </p>
-        <include id="$D-Fletching"/>
         <h5 class="skill" id="sk-fol">Folklore</h5>
         <include id="$Folklore"/>
         <p>
@@ -1208,9 +1206,9 @@
           character looks for edible plants, etc.  The GM assesses
           conditions depending on season and locale, and uses the
           table to determine the mandays of food found.  Areas near
-          civilization are likely to be between 10-20 penalty.
+          civilization are likely to have a penalty of 10-20.
           Excellent conditions exist only in tropical
-          rain-forests. and special places like the Shava Forest with
+          rain-forests and special places like the Shava Forest with
           10 bonus.  Season is highly relevant.  To seek specific
           plants, see Herblore.  For hunting meat, see Tracking. Use
           the <em>Yield</em> and <em>(Yield) Time</em> dimensions.
@@ -1228,8 +1226,7 @@
         <h5 class="skill" id="sk-hea">Hearing</h5>
         <include id="$Hearing"/>
         <p>
-          Hearing as skill cannot be improved, neither can the
-          attribute.
+          Hearing cannot be improved.
         </p>
         <include id="$D-Hearing"/>
         <div class="explain">
