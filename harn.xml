@@ -2047,7 +2047,7 @@
           and rough-cutting into lumber.  The unit of yield is
           sufficient wood to build a wagon, or a wooden cottage. (The
           wood has to dried and prepared before it can be used by a
-          woodcrafter.  The units are simple trunks or batches of
+          woodcrafter.  The units are simple trunks or batches<th>30</th>
           thereof.)  Also note that this skill has a different yield
           dimension than most others.
         </p>
@@ -2091,7 +2091,8 @@
         <include id="$Whip"/>
         <p>
           The ability to use various types of whips.  Use the
-          <em>Combat</em> dimensions.
+          <em>Combat</em> dimensions.  The time dimension here is the
+          forecasted time.
         </p>
         <h5 class="skill" id="sk-woo">Woodcraft</h5>
         <include id="$Woodcraft"/>
@@ -2116,27 +2117,14 @@
           values available in the in-world chapter.  You may create
           veterans with these rules.
         </p>
-        <include id="People"/>
-        <p>
-          The preceding weight modifiers to Strength have not been
-          included to the in-world chapter.  They can still be used.
-        </p>
         <div class="explain">
           <p>
-            <em>Height:</em> This distribution is equivalent to
-            rolling 6d6-15 around the average given.
-          </p>
-          <p>
-            <em>Comeliness, Voice, Intelligence:</em> These attributes
-            can be treated numerically by rolling 3d6, with sections
-            3-5 / 6-8 / 9-12 / 13-15 / 16-18.
-          </p>
-          <p>
-            <em>Strength, Stamina, Dexterity, Agility, Eyesight,
-            Hearing, Smell, Aura, Will:</em> They can all be treated
-            as 3d6 - 10.5, with the sections 3-5 / 6-8 / 9-12 / 13-15
-            / 16-18 / 19-21 mapping to &#9733; / &#9733;&#9733; /
-            &#9733;&#9733;&#9733; / &#9733;&#9733;&#9733;&#9733; /
+            <em>Comeliness, Voice, Intelligence, Strength, Stamina,
+            Dexterity, Agility, Eyesight, Hearing, Smell, Aura,
+            Will:</em> They can all be treated as 3d6 - 10.5, with the
+            sections 3-5 / 6-8 / 9-12 / 13-15 / 16-18 / 19-21 mapping
+            to &#9733; / &#9733;&#9733; / &#9733;&#9733;&#9733; /
+            &#9733;&#9733;&#9733;&#9733; /
             &#9733;&#9733;&#9733;&#9733;&#9733; /
             &#9733;&#9733;&#9733;&#9733;&#9733;&#9733;.  The following
             modifiers should be applied to keep the distributions
@@ -2150,12 +2138,6 @@
             Sindarin, +2 for Khuzdul, +2 for Tribesmen.<br/>
             <b>Aura</b> +4 for Sindarin, -2 for Khuzdul, +2 for human
             females.<br/> <b>Will</b> +3 for Khuzdul.<br/>
-          </p>
-          <p>
-            <em>Psyche:</em> For <em>Multiple Personalties</em> a 2nd
-            character may be generated with new Personality Attributes
-            (only).  For disorders roll severity as p5 and treat the
-            result as penalty to any Will test resisting an outbreak.
           </p>
         </div>
         <h4>Friends &#0038; Enemies</h4>
@@ -2176,53 +2158,22 @@
         </p>
         <h3 id="o3ccupations">Occupations</h3>
         <p>
-          An occupation resolves to 5 for each &#9733; that is taught.
-          If multiple occupations are learned, they add through
-          Row-5-Addition, when applicable.  In particular, Parent
-          Occupation may immediately added, when it is the same as
+          An occupation resolves to 10 for each &#9733; that is
+          taught.  If multiple occupations are learned, they add
+          through 5-Addition, when applicable.  In particular, Parent
+          Occupation may immediately be added, when it is the same as
           vocational Occupation.
-        </p>
-        <p>
-          <em>Chandlers</em> have three craft occupations at 5 (1
-          &#9733;).  Craft occupations are marked with asterisk (*) in
-          the table above.
-        </p>
-        <p>
-          <em>Gladiators</em> and <em>Hunter/Trappers</em> have
-          expertise in three weapons.  <em>Mercantylers, Pilots</em>
-          and <em>Weaponcrafters</em> have one weapon proficiency.
         </p>
         <h4>Optional Skills</h4>
         <p>
-          All newly created characters have five option points to open
-          new skills or improve existing skills.  Remember that most
-          skills have a score of zero, so opening a (reasonable) skill
-          or improving an open skill is the same.  For each option
-          point five points (1 &#9733;) are added through
-          Row-5-Addition.  Successive improvement of the same skill
-          work the same.
+          For each option point ten points (1 &#9733;) are added
+          through 5-Addition.  Successive improvement of the same
+          skill work the same.
         </p>
         <p>
           A veteran character receives three option points per year of
           experience; five years experience equals 5 x 3 = 15 OP.
           These points should be expended as other option points.
-        </p>
-        <h4>Shek-Pvar</h4>
-        <p>
-          Every Shek-Pvar adds the stars of his Chantry and his Aura.
-          During character creation these are his Spell Option Points.
-          All Convocational spells cost 1 SOP per level, and all
-          Neutral spells cost 2 SOP per level.  For detailed spell
-          descriptions, see HârnMaster Magic.  Beginners cannot spend
-          more than one third of their spell OPs to learn neutral
-          spells.
-        </p>
-        <h4>Clerics</h4>
-        <p>
-          Clerics may learn invocations by spending 20 Ritual Option
-          Points.  All invocations cost 1 ROP per Circle.  Invocations
-          specific to each religion can be found in the various deity
-          articles.  See Religion.
         </p>
         <h4>Military</h4>
         <p>
