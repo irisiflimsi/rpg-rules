@@ -539,7 +539,7 @@
           character swims a swift river and then begins to scale a
           cliff without pausing to rest.  In general, one fatigue
           level is assessed for one minute of strenuous physical
-          activity.  A character’s fatigue penalty is equal to the
+          activity.  A character&#8217;s fatigue penalty is equal to the
           (normal) sum of all Fatigue Levels.  Every minute of Rest
           allows a character to remove one fatigue level.  Fatigue
           penalty applies to all skill applications.
@@ -586,7 +586,7 @@
           For joining in rituals, one success roll is made against a
           joint ML (5-Addition).  The normal fatigue is then
           accumulated by all participants.  <em>Example:</em> Dar and
-          Kalin jointly invoke Pyrokinesis.  Dar’s ML is 23; Kalin’s
+          Kalin jointly invoke Pyrokinesis.  Dar&#8217;s ML is 23; Kalin&#8217;s
           is 17.  Assuming no penalties, their joint ML is 23
           +<sub>5</sub> 17 = 26.  Both Dar and Kalin each accrue the
           normal fatigue.
@@ -725,7 +725,7 @@
           anyone will pay the difference in pence.  Some finished
           goods may involve several stages of enhancement.  Uncut gems
           may be enhanced by cutting and then further enhanced by
-          mounting in a gold-based necklace.  Sometimes an item’s
+          mounting in a gold-based necklace.  Sometimes an item&#8217;s
           resistance to damage is more important than how beautiful it
           looks.  Examples of this are weapon- and armour-crafting.
         </p>
@@ -757,7 +757,7 @@
         </p>
         <div class="explain">
           <p>
-            <em>Mentor:</em> 5-Addition of the Mentor’s ML.
+            <em>Mentor:</em> 5-Addition of the Mentor&#8217;s ML.
           </p>
           <p>
             <em>Scripture:</em> 5-Addition of the Scripture value.
@@ -869,7 +869,7 @@
           Acrobatics Skill is tested when a character attempts a
           gymnastic feat that is more than a simple matter of native
           Agility.  These include vaults, somersaults, back-flips,
-          twisting in mid-air to land on one’s feet, etc.
+          twisting in mid-air to land on one&#8217;s feet, etc.
         </p>
         <include id="$D-Acrobatics"/>
         <h5 class="skill" id="sk-act">Acting</h5>
@@ -946,9 +946,9 @@
         <include id="$Awareness"/>
         <p>
           Subliminal sensitivity to the environment.  Awareness may be
-          tested when a character says something like, &#8220;I’ll
-          look around.&#8221; It also is tested if an event occurs and
-          the GM wishes to determine who might have noticed it, or at
+          tested when a character says something like, &#8220;I look
+          around.&#8221; It also is tested if an event occurs and the
+          GM wishes to determine who might have noticed it, or at
           least have noticed that something is out of place.
           Awareness rolls are often made secretly by the GM.  Sleeping
           5-adds at least 20 to any Awareness difficulty.  Loud noises
@@ -1064,7 +1064,7 @@
           Legerdemain (Sleight of hand) is tested when a character
           attempts to perform a feat of manual dexterity without being
           detected by observers or victims.  Examples include cutting
-          a victim’s money-purse from behind or moving shells in a
+          a victim&#8217;s money-purse from behind or moving shells in a
           shell game.  The victim oppose with Awareness to detect the
           attempt.  If the victim is not paying attention, penalties
           apply.  If the result is negative the legerdemain is
@@ -1114,7 +1114,7 @@
           Load is the total weight of items carried or worn, including
           clothing, armour, and weapons.  Total Load is recalculated
           as items are acquired or discarded.  Encumbrance Penalty is
-          the effect of carried weight on a character’s physical
+          the effect of carried weight on a character&#8217;s physical
           activities.  It is equal to Weight carried divided by the
           Maximum Lift (see Strength skill) Weight times Factor dimension.
         </p>
@@ -1154,7 +1154,7 @@
           want to fish with their bare hands.  Conditions are assessed
           by the GM depending on season, locale, and equipment.  Fish
           alone does not provide a balanced diet.  With otherwise
-          average condition the base yield is 3 mandays worth of fish.
+          average condition the base yield is 1 manday worth of fish.
           Conditions range from excellent +20 to poor -20. (Of course,
           fishing requires a sufficiently large body of water, capable
           of sustaining fish.  Overfishing may imply additional
@@ -1192,7 +1192,7 @@
           Rogan is attempting to recall the name of a great hero of
           some common legend. 50% go to depth and 50% to
           breadth. Rolling a result of 0 would imply that 30% of great
-          myths can be repeated and the GM rules that the hero’s name
+          myths can be repeated and the GM rules that the hero&#8217;s name
           belongs to the important part of the myth.  Thus Rogan
           recalls the name: Genin.  Use the <em>Knowledge</em>
           dimension.
@@ -1219,7 +1219,7 @@
           The ability to produce glassware.  Appropriate tools and
           materials are necessary.  Most people believe glassworkers
           use magic to create their wares.  Glass is used for
-          tableware, objects d’art, alchemical equipment, and,
+          tableware, objects d&#8217;art, alchemical equipment, and,
           occasionally, for windows.  It is expensive and the preserve
           of the wealthy.  The best glass products are of elven make.
         </p>
@@ -1231,25 +1231,25 @@
         <include id="$D-Hearing"/>
         <div class="explain">
           <p>
-            <em>-10:</em> Rural Silence
+            <em>-20:</em> Rural Silence
           </p>
           <p>
-            <em>-5:</em> Whisper
+            <em>-10:</em> Whisper
           </p>
           <p>
             <em>0:</em> Low Speech
           </p>
           <p>
-            <em>5:</em> Normal Speech
+            <em>10:</em> Normal Speech
           </p>
           <p>
-            <em>10:</em> Carts, Wagons, Combat
+            <em>20:</em> Carts, Wagons, Combat
           </p>
           <p>
-            <em>15:</em> Smith, Stone Quarry, Skirmish
+            <em>30:</em> Smith, Stone Quarry, Skirmish
           </p>
           <p>
-            <em>20:</em> Thunder
+            <em>40:</em> Thunder
           </p>
         </div>
         <h5 class="skill" id="sk-hera">Heraldry</h5>
@@ -1263,20 +1263,18 @@
           actively reproduce/draw, the other the recognized
           achievements, if seen.  A 100% value means the set of all
           achievements the character has been in contact with.
-          Reading a heralds’ scroll suffices.  The OML is reduced to
-          -10, if examples are mot available.
+          Reading a heralds&#8217; scroll suffices.  The OML is reduced to
+          -10, if examples are not available.
         </p>
         <include id="$D-Heraldry"/>
         <h5 class="skill" id="sk-herb">Herblore</h5>
         <include id="$Herblore"/>
         <p>
           Different climate and terrain types may be specialties.  The
-          ability to find and identify individual types of plant.
-          When trying to find and gather specific plants in the
-          natural environment, test Herblore once per watch (four
-          hours) of searching.  ML is modified according to the
-          plant’s rarity, seeking a plant in an inappropriate locale
-          should reduce ML.  Uses the <em>Recipe</em> and
+          ability to find and identify individual types of plant.  ML
+          is modified according to the plant&#8217;s rarity, seeking a plant
+          in an inappropriate locale should also reduce ML.  Uses the
+          <em>Recipe</em>, <em>Yield</em>, <em>Yield (Time)</em>, and
           <em>Knowledge</em> dimensions.  The latter dimension
           describes the recognized herbs, if seen.  The 100% value
           means the set of all herbs the character has been in contact
@@ -1315,7 +1313,7 @@
           social/political situation over a period of time.  Intrigue
           is used as a discretionary shortcut by the GM to avoid the
           playing out of an information-gathering process.  For
-          example, an NPC’s Intrigue might be tested when sent by a PC
+          example, an NPC&#8217;s Intrigue might be tested when sent by a PC
           to gather intelligence in a town or camp.
         </p>
         <h5 class="skill" id="sk-jew">Jewelcraft</h5>
@@ -1342,7 +1340,7 @@
         <include id="$Language"/>
         <p>
           Each Language is a separate skill.  All characters begin
-          with at least one Native Tongue, determined by birthplace.
+          with at least one native Tongue, determined by birthplace.
           Some characters may be bilingual.  The GM will tell you the
           name of your native tongue(s).  Clerics also know their
           church language.  (These are not specialties.)  Languages
@@ -1351,8 +1349,7 @@
           native tongues at their social class level, which is well
           enough to make success rolls unnecessary in general.  If
           needed, the duration of the result is a speech, a dialog, or
-          other coherent activity.  The ML of a skill using language
-          can never exceed language ML in the tongue used.
+          other coherent activity.
         </p>
         <include id="Language-1"/>
         <p>
@@ -1362,7 +1359,7 @@
           italic.  When one language of a family is known, it is
           easier to learn other related languages.  Orbaalese belongs
           to two families.  Foreign tongues can be learned with
-          languages of the same family functioning as as "teacher".
+          languages of the same family functioning as as &#8220;teacher&#8221;.
         </p>
         <include id="Language-2"/>
         <p/>
@@ -1376,7 +1373,8 @@
           use the skill to settle tenant disputes; success indicates a
           fair and just decision is made.  If used to prepare a writ
           or other legal document, the skill is averaged with the
-          appropriate Language and Script.
+          appropriate Language and Script.  Sometimes ist makes sense
+          to use the <em>Knowledge</em> dimension.
         </p>
         <include id="$D-Law"/>
         <h5 class="skill" id="sk-loc">Lockcraft</h5>
@@ -1433,7 +1431,7 @@
         <include id="$Mathematics"/>
         <p>
           The ability to make calculations with numbers, keep books of
-          account, and so on.  An ML above 14 would imply some
+          account, and so on.  An ML above 20 would imply some
           knowledge of geometry, etc.  The skill is useful in many
           different fields.
         </p>
@@ -1455,7 +1453,7 @@
           Used to determine efficiency and/or yield when milling
           grain, etc.  Milling is primarily a way to earn money.  It
           is usually not a very exciting activity nor a useful skill
-          for adventurers.  The basic unit of yield is a year’s worth
+          for adventurers.  The basic unit of yield is a year&#8217;s worth
           of grain as produced by agriculture.  It assumes that a mill
           capable of such output is available.  Use the <em>Yield</em>
           dimension.
@@ -1480,7 +1478,7 @@
           self-preservation is deterministic of actions, but also
           instincts take over.  "Freezing" in the hopes of being
           ignored may make sense with certain predators but not when
-          facing Gargun.  The variety of different reactions is great.
+          facing Gargun.  The variety of different reactions is huge.
           See the Morale section in Combat.  Berserk is meant as
           option, not as mandatory.  The other end at -15 is
           mandatory.  It often makes sense to keep a current level of
@@ -1493,8 +1491,8 @@
         <p>
           <em>Rally:</em> An influence on others' Morale is possible
           for the amount above 10 in the roll.  Multiple positive and
-          negative influences are added through Row-5-Additions
-          separately to others' ML.
+          negative influences are added through 5-Additions separately
+          to others' EML and difficulties.
         </p>
         <h5 class="skill" id="sk-mov">Move</h5>
         <include id="$Move"/>
@@ -1507,25 +1505,23 @@
           suppressed, although a 20% spread (for a 10 level
           difference) with Agility modification could be appropriate.
         </p>
+        <p>
+	  Since steeds and (animal-powered) vehicles are important on
+	  Hârn, the table is extended beyond the human range.  Humans
+	  max out at 9m/s at optimum.
+        </p>
         <include id="$D-Move"/>
         <p>
-          A steed’s movement rate must be declared before starting to
-          move.  Effective movement is equal to its Move minus Steed
-          Physical Penalty, then indexed in the Move table to find
-          speed.  Horses have four rates of speed: Walk/40, Trot/60,
-          Canter/80, and Gallop/100.  The number indicates the maximum
-          speed that can be reached.  All speeds are available at all
-          riding skills, although commanding the horse to use it may
-          prove a challenge.  Horses/Steeds accelerate and decelerate
-          at 6 m/s each second, but have the same turning options.
-        </p>
-        <p>
-          Fatigue is accrued at 10 points per minute (or 1 per 6
-          seconds) for the generated maximum sprint speed.  Fractions
-          (which cannot exceed 1) of that speed generate the
-          corresponding fractional fatigue rate.  E.g. running at half
-          the maximum speed gives 5 points per minute (or 1 per 12
-          seconds).  Only simple fractions are allowed.
+          A steed&#8217;s movement rate must be declared before
+          starting to move.  Effective movement is equal to its Move
+          minus Steed Physical Penalty, then indexed in the Move table
+          to find speed.  Horses have four rates of speed: Walk/40,
+          Trot/60, Canter/80, and Gallop/100.  The number indicates
+          the maximum speed that can be reached.  All speeds are
+          available at all riding skills, although commanding the
+          horse to use it may prove a challenge.  Horses/Steeds
+          accelerate and decelerate at 6 m/s each second, but have the
+          same turning options.
         </p>
         <p>
           <em>Rotation</em> (also while standing) takes 1 second for
@@ -1539,7 +1535,7 @@
         <p>
           Each of the four types of musical instrument (Strings,
           Drums, Winds, Bells) is a separate skill.  Instruments may
-          be a specialties.  Among the most common instruments are
+          be specialties.  Among the most common instruments are
           Flute, Horn, Pipes, and Lute.  The availability of musical
           instruments and skills depends on culture.  ML is modified
           by instrument quality.  Reading and writing of music as a
@@ -1562,11 +1558,10 @@
         <include id="$Physician"/>
         <p>
           The ability to diagnose and treat medical ailments, wounds,
-          etc..  Usually the physician first tests ML to diagnose the
+          etc..  Usually the physician first tests EML to diagnose the
           ailment.  See the Physician chapter.  Most folk have a
           rudimentary understanding of treating wounds and simple
           injuries, a physician can treat animals with a -10 penalty.
-          See also Animalcraft skill.
         </p>
         <include id="$D-Physician"/>
         <p>
@@ -1609,7 +1604,7 @@
         <include id="$Piloting"/>
         <p>
           The ability to navigate a ship.  This skill is detailed in
-          Pilots’ Almanac.
+          Pilots&#8217; Almanac.
         </p>
         <h5 class="skill" id="sk-pol">Polearm</h5>
         <include id="$Polearm"/>
@@ -1620,13 +1615,13 @@
         <h5 class="skill" id="sk-men">Psi Conflict</h5>
         <include id="$PsiConflict"/>
         <p>
-          A character’s ability to withstand mental domination.
+          A character&#8217; ability to withstand mental domination.
           Mental Conflict is a skill to resolve mental or spiritual
-          conflict and can be referred to as a "Battle of Wills".
-          Characters are always aware of an attack, even if
-          unconscious or sleeping.  A fatigue rate of 1 means 1
-          fatigue level per minute, which is multiplied be the result
-          in the table.
+          conflict and can be referred to as a &#8220;Battle of
+          Wills&#8221;.  Characters are always aware of an attack,
+          even if unconscious or sleeping.  A fatigue rate of 1 means
+          1 fatigue level per minute, which is multiplied be the
+          result in the table.
         </p>
         <include id="$D-PsiConflict"/>
         <p>
@@ -1669,9 +1664,9 @@
         </p>
         <p>
           <em>Exorcism:</em> A 5th Circle ritual invocation to aid a
-          native spirit evict a possessing alien spirit.  The ritual
-          requires frequent laying on of hands and Holy Water.  The
-          effect is to increase Mental Conflict ML.  See Religion.
+          native spirit with evicting a possessing alien spirit.  The
+          ritual requires frequent laying on of hands and Holy Water.
+          The effect is to increase Mental Conflict ML.  See Religion.
         </p>
         <p>
           Mental Conflict Example.  The demon Karpek (ML 26) seeks to
@@ -1695,10 +1690,7 @@
         <h5 class="skill" id="sk-psi">Psi Talents</h5>
         <include id="$PsiTalents"/>
         <p>
-          All Talents are treated as separate skills.  Generation of
-          talents is explained in the Psionics chapter.  If the same
-          talent is generated multiple times, use Row-5-Addition for
-          the skill level.
+          All Talents are treated as separate skills.
         </p>
         <include id="PsiTalents-1"/>
         <p/>
@@ -1723,11 +1715,13 @@
         </p>
         <p>
           Multiple orators may compete for the "airwaves" and hinder
-          each other more than they realize.  Therefore only two actors
-          may combine their skills through Row-5-Addition if working
-          in concert, thereafter it is only the maximum, if no competition
-          takes place.  If a competition takes place, the difficulty is
-          a Row-5-Addition instead.
+          each other more than they realize.  Therefore only two
+          actors may combine their skills through 5-Addition if
+          working in concert, thereafter it is only the maximum, if no
+          competition takes place.  If a competition takes place, the
+          difficulty is a 5-Addition instead.  Use the <em>Yield
+          (time)</em> dimension for how long the speech lasts and for
+          how long the effects last.
         </p>
         <include id="$D-Rhetoric"/>
         <p>

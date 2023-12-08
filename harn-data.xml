@@ -367,10 +367,10 @@
   </table>
   <table id="$D-Herblore" style="width:30%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-15</th><th>0</th><th>15</th><th>30</th><th>45</th><th>60</th>
     </tr>
     <tr class="num">
-      <td>True:False</td><td>0.01</td><td>0.1</td><td>1</td><td>10</td><td>100</td>
+      <td>True:False</td><td>1:100</td><td>1:10</td><td>1:1</td><td>10:1</td><td>100:1</td><td>1000:1</td>
     </tr>
   </table>
   <table id="$D-Initiative" style="width:50%">
@@ -383,13 +383,13 @@
   </table>
   <table id="$D-Jumping" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
-      <td>Height</td><td>0m</td><td>0.5m</td><td>1m</td><td>1.50m</td><td>2m</td>
+      <td>Height</td><td>0m</td><td>0.5m</td><td>1m</td><td>1.25m</td><td>1.5m</td><td>1.75m</td><td>2m</td>
     </tr>
     <tr class="num">
-      <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>4m</td><td>6m</td>
+      <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>3m</td><td>4m</td><td>5m</td><td>6m</td>
     </tr>
   </table>
   <table id="Language-1" style="width:50%">
@@ -397,13 +397,13 @@
       <th>Social Class</th><th>Native OML</th>
     </tr>
     <tr>
-      <td>Slave/Serf/Urban Poor</td><td>15</td>
+      <td>Slave/Serf/Urban Poor</td><td>20</td>
     </tr>
     <tr>
-      <td>Guildsman/Military</td><td>20</td>
+      <td>Guildsman/Military</td><td>30</td>
     </tr>
     <tr>
-      <td>Cleric/Nobility/Scholar</td><td>25</td>
+      <td>Cleric/Nobility/Scholar</td><td>40</td>
     </tr>
   </table>
   <table id="Language-2" style="width:60%">
@@ -443,7 +443,7 @@
   </table>
   <table id="$D-Language" style="width:50%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
     </tr>
     <tr class="text">
       <td>Fluency</td><td>Opaque</td><td>Rudimentary</td><td>Fair</td><td>Fluent</td><td>Mastery</td>
@@ -462,7 +462,7 @@
   </table>
   <table id="$D-Lovecraft" style="width:75%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-15</th><th>0</th><th>15</th><th>30</th><th>45</th>
     </tr>
     <tr class="num">
       <td>Expertise</td><td>Unaware</td><td>Instinctive</td><td>Experienced</td><td>Professional</td><td>Elite/Exotic</td>
@@ -532,7 +532,7 @@
   </table>
   <table id="$D-Mathematics" style="width:70%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-15</th><th>0</th><th>15</th><th>30</th><th>45</th>
     </tr>
     <tr class="text">
       <td>Concepts</td><td>-</td><td>Single digits</td><td>Multiple digits</td><td>Abstractions</td><td>Unique</td>
@@ -540,7 +540,7 @@
   </table>
   <table id="$D-Morale" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-15</th><th>-10</th><th>0</th><th>10</th><th>15</th>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
     </tr>
     <tr class="text">
       <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berserk</td>
@@ -548,10 +548,10 @@
   </table>
   <table id="$D-Move" style="width:50%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
+      <th>Dimension</th><th>-40</th><th>-30</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th><th>80</th><th>90</th><th>100</th>
     </tr>
     <tr class="num">
-      <td>Speed</td><td>2m/s</td><td>3m/s</td><td>4m/s</td><td>6m/s</td><td>9m/s</td><td>13m/s</td><td>18m/s</td><td>24m/s</td><td>32m/s</td>
+      <td>Speed</td><td>1/2 m/s</td><td>3/4 m/s</td><td>1 m/s</td><td>3/2 m/s</td><td>2 m/s</td><td>3 m/s</td><td>4 m/s</td><td>6 m/s</td><td>8 m/s</td><td>12 m/s</td><td>16 m/s</td><td>24 m/s</td><td>32 m/s</td><td>48 m/s</td><td>64 m/s</td>
     </tr>
   </table>
   <table id="$D-Physician" style="width:80%">
@@ -564,7 +564,7 @@
   </table>
   <table id="Piety-1" style="width:90%">
     <tr>
-      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr>
       <td>Meaning</td>
