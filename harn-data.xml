@@ -383,13 +383,13 @@
   </table>
   <table id="$D-Jumping" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th><th>80</th><th>90</th><th>100</th>
     </tr>
     <tr class="num">
-      <td>Height</td><td>0m</td><td>0.5m</td><td>1m</td><td>1.25m</td><td>1.5m</td><td>1.75m</td><td>2m</td>
+      <td>Height</td><td>0.5 m</td><td>0.75 m</td><td>1 m</td><td>1.25m</td><td>1.5m</td><td>1.75m</td><td>2m</td><td>2.25m</td><td>2.5m</td><td>2.75m</td><td>3m</td><td>3.25m</td>
     </tr>
     <tr class="num">
-      <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>3m</td><td>4m</td><td>5m</td><td>6m</td>
+      <td>Distance</td><td>0 m</td><td>1 m</td><td>2 m</td><td>3 m</td><td>4 m</td><td>5 m</td><td>7 m</td><td>9 m</td><td>11 m</td><td>13 m</td><td>15 m</td><td>20 m</td>
     </tr>
   </table>
   <table id="Language-1" style="width:50%">
@@ -684,7 +684,7 @@
   </table>
   <table id="$D-Shipwright" style="width:30%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>10</th><th>20</th><th>30</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
       <td>Length</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
@@ -700,29 +700,29 @@
   </table>
   <table id="$D-Strength"  style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th>
     </tr>
     <tr class="num">
-      <td>Weight</td><td>16lbs</td><td>25lbs</td><td>45lbs</td><td>70lbs</td><td>100lbs</td><td>160lbs</td><td>250lbs</td><td>450lbs</td><td>700lbs</td>
+      <td>Weight</td><td>10lbs</td><td>16lbs</td><td>25lbs</td><td>45lbs</td><td>70lbs</td><td>100lbs</td><td>160lbs</td><td>250lbs</td><td>450lbs</td><td>700lbs</td>
     </tr>
   </table>
   <table id="$D-Swimming" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
     </tr>
     <tr class="num">
       <td>Weather</td><td>Bft 0</td><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
     </tr>
     <tr class="num">
-      <td>Speed</td><td>-10m/s</td><td>0.0m/s</td><td>0.5m/s</td><td>1m/s</td><td>2m/s</td>
+      <td>Speed</td><td>-1m/s</td><td>0.0m/s</td><td>0.5m/s</td><td>1m/s</td><td>2m/s</td>
     </tr>
   </table>
   <table id="$D-Throwing" style="width:40%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
+      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
-      <td>Distance</td><td>10m</td><td>20m</td><td>40m</td><td>60m</td><td>100m</td>
+      <td>Distance</td><td>0</td><td>10m</td><td>20m</td><td>40m</td><td>60m</td><td>90</td><td>120m</td>
     </tr>
   </table>
   <table id="$D-Artistic" style="width:70%">

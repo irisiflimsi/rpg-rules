@@ -1646,21 +1646,21 @@
           </p>
           <p>
             <em>Artifact Control:</em> A character tries to invoke a
-            major artifact’s powers and the artifact resists.
+            major artifact&#8217;s powers and the artifact resists.
           </p>
           <p>
             <em>Benign Mind Linking:</em> Some healers, for example,
-            use mental linking as a way to diagnosis a patient’s
+            use mental linking as a way to diagnosis a patient&#8217;s
             ailments.  The willing bonus implies an "Ignore" defense.
           </p>
         </div>
         <p>
           <em>Dissolution:</em> Dissolution is the scattering of a
-          spirit’s "substance".  It reforms in p5 hours at the
-          location of the spirit’s physical body (if it has one),
-          otherwise in a nearby location.  When the process is
-          complete, the spirit regains consciousness, has no fatigue,
-          and may now engage in another mental conflict.
+          spirit&#8217;s &#8220;substance&#8221;.  It reforms in p5
+          hours at the location of the spirit&#8217;s physical body (if it
+          has one), otherwise in a nearby location.  When the process
+          is complete, the spirit regains consciousness, has no
+          fatigue, and may now engage in another mental conflict.
         </p>
         <p>
           <em>Exorcism:</em> A 5th Circle ritual invocation to aid a
@@ -1674,18 +1674,19 @@
           +15 for being the native spirit and living (ML 33).  Karpek
           rolls +9 and Larinda rolls -3, resulting in fatigue rates 1
           per minute for Larinda and 6 per 10 minutes for Karpek.  A
-          few successful shock rolls later, Larinda invokes Peoni’s
-          Mercy, a ritual invocation that could force the demon to
-          depart.  Her Fatigue at that point is (–2) and the Circle
-          Modifier (–4), which reduces her Ritual ML to 12 and she
-          fails the roll.  The process continues.  This time she fails
-          the next Shock roll, allowing the demon its possession.
-          Larinda's spirit is evicted and suffers dissolution.  Her
-          body now obeys the demon’s wishes.  Larinda’s spirit will
-          reform after her (spirit) injury of 4 points are healed and
-          she may then attempt to repossess her body (+5 for being a
-          Native Spirit) with a mental conflict.  Larinda plans to use
-          the ritual invocation Exorcism to aid her task.
+          few successful shock rolls later, Larinda invokes
+          Peoni&#8217;s Mercy, a ritual invocation that could force
+          the demon to depart.  Her Fatigue at that point is (–2) and
+          the Circle Modifier (–4), which reduces her Ritual ML to 12
+          and she fails the roll.  The process continues.  This time
+          she fails the next Shock roll, allowing the demon its
+          possession.  Larinda's spirit is evicted and suffers
+          dissolution.  Her body now obeys the demon&#8217;s wishes.
+          Larinda&#8217;s spirit will reform after her (spirit) injury
+          of 4 points are healed and she may then attempt to repossess
+          her body (+5 for being a Native Spirit) with a mental
+          conflict.  Larinda plans to use the ritual invocation
+          Exorcism to aid her task.
         </p>
         <h5 class="skill" id="sk-psi">Psi Talents</h5>
         <include id="$PsiTalents"/>
@@ -1703,7 +1704,7 @@
           shortcut skill and discretionary.  An orating PC needs to
           define the audience; mobs maybe stupider than individuals,
           but they cannot be persuaded to step off a cliff.  Rhetoric ML
-          cannot exceed the orator’s or the audience’s ML in the
+          cannot exceed the orator&#8217;s or the audience&#8217;s ML in the
           language being used.  Rhetoric has many uses, from the
           apprehended thief trying to fast-talk his way out of a visit
           to the dungeon, to a friar explaining the mysteries of faith
@@ -1714,7 +1715,7 @@
           have annoyed the intended target(s).
         </p>
         <p>
-          Multiple orators may compete for the "airwaves" and hinder
+          Multiple orators may compete for the &#8220;airwaves&#8221; and hinder
           each other more than they realize.  Therefore only two
           actors may combine their skills through 5-Addition if
           working in concert, thereafter it is only the maximum, if no
@@ -1727,7 +1728,7 @@
         <p>
           <em>Intimidation:</em> Intimidation is a specialty.  It is
           used in situations where a character seeks to convince
-          others to accept the user’s leadership and is used to
+          others to accept the user&#8217;s leadership and is used to
           establish dominance.  This is useful in muggings, assaults,
           and making sure everyone knows who is boss and who needs to
           accept orders.
@@ -1745,64 +1746,54 @@
           Riding is used to determine the ability to ride/control a
           steed.  It is tested, whenever the rider attempts to command
           a steed in combat.  A negative result implies a fall.  For
-          riders with less skill, an arbitrary penalty to the ML roll
-          may be taken.  This penalty is applied to the roll but also
-          serves as falling threshold to the (unmodified) roll.  Any
-          speed beyond the maximum speed is interpreted as a jump of
-          that distance.  For example, Juryn tries to ride a mount
-          with top speed of 40 (18 yd/s).  With his skill of 0, he
+          riders with less skill, an arbitrary (5-addition) penalty to
+          the EML roll may be taken.  This penalty is applied to the
+          (unmodified) roll but also serves as falling threshold to
+          the roll.  The GM can rule a common Riding maneuver for
+          nultiple tasks.  For example, Juryn tries to ride a mount
+          with top speed of 50 (12 m/s).  With his skill of 0, he
           tries to play it safe and uses a penalty of 10.  He rolls a
           -5, which is greater than -10, so luckily he stays on the
-          horse, but with a -35 he only makes 5 yd/s.  His cousin
+          horse, but with a -15 he only makes 12 m/s.  His cousin
           Jirun has a skill of 25 and needs to jump a chasm, so he
-          pushes the horse with a +5.  Rolling a 5, he has a total of
-          35, he is also lucky and jumps his horse for 10 (28 – 18)
-          yards.  High jumps are 1:2 compared to long jumps and
-          include a long jump.  Standing jumps of 2 yards wide or 1
-          yard high are automatic but must be separated by normal
-          movement of at least 2 seconds.  Riding skill rolls still
-          apply.  Consult Mounted Combat for potential injuries.
+          pushes the horse with a +15.  Rolling a 5, he has a total of
+          45, he lucky (as 25 - 15 is greater then 5) and runs his
+          horse for about 13 m/s and jumps his horse for 6.3m.
+          Consult Mounted Combat for potential injuries.
         </p>
         <p>
-          In mounted combat, a rider declares his action makes a Steed
-          Command check by testing ML.  A success will permit the
-          command as desired (and possible).  At -10 the command
-          fails.  This effects speed changes and turning, failures
-          will have the steed continue what it did or what Morale
-          dictates.  After three successive failures, assume the steed
-          has a mind of its own until the situation changes
-          significantly.
+          A success will permit the command as desired (and possible).
+          At 0 the command fails.  This effects speed changes and
+          turning, failures will have the steed continue what it did
+          or what Morale dictates.  After three successive failures,
+          assume the steed has a mind of its own until the situation
+          changes significantly.
         </p>
         <p>
-          Basically, an Unhorsing roll needs to be made, when the
-          rider enters the saddle.  An Unhorsing Roll is valid until
-          the situation significantly changes.  For minor changes
-          simply adjust the existing roll.  Note: A rider "stumble"
-          generated by an Melee Attack requires an additional
-          Unhorsing Roll. Unhorsing Rolls are made against Riding ML,
-          modified by Physical Penalty (including any injury just
-          received).  On failure, the rider is thrown and suffers a 5
-          feet plus deceleration distance fall. War Saddle: Gives a
-          bonus of two (2) to Unhorsing rolls.
-        </p>
-        <p>
-          The Speed dimension is Skill score - 20.
+          An Unhorsing roll needs to be made, when the rider enters
+          the saddle.  Note: A rider "stumble" generated by an Melee
+          Attack requires an additional Unhorsing Roll. Unhorsing
+          Rolls are made against zero (0), modified by Physical
+          Penalty (including any injury just received).  On failure,
+          the rider is thrown and suffers a 5 feet plus deceleration
+          distance fall. War Saddle: Gives a bonus of 5 to Unhorsing
+          rolls.
         </p>
         <h5 class="skill" id="sk-rit">Ritual</h5>
         <include id="$Ritual"/>
         <p>
           Most know something about their own religion, at least
           enough to attend church services without seeming too
-          ignorant.  For different religions (or if the character’s
-          culture, social class, or family is irreligious), then OML
-          is at -10.  There is a separate skill, with its own Skill
-          Base, for each religion.  Appropriate training, divine
-          revelation, or study materials are needed to earn
-          development rolls.  Most aspects of Ritual are dealt with in
-          the Religion chapter.  Language may be a limiting factor
-          when the skill is used to communicate with a congregation.
-          In the list above, attributes and sunsigns are for the
-          rituals of the "Occupations" religion.
+          ignorant.  For different religions (or if the
+          character&#8217;s culture, social class, or family is
+          irreligious), then OML is at -10.  There is a separate skill
+          for each religion.  Appropriate training, divine revelation,
+          or study materials are needed to earn development rolls.
+          Most aspects of Ritual are dealt with in the Religion
+          chapter.  Language may be a limiting factor when the skill
+          is used to communicate with a congregation.  In the list
+          above, attributes and sunsigns are for the rituals of the
+          "Occupations" religion.
         </p>
         <include id="$D-Ritual"/>
         <div class="explain">
@@ -1813,7 +1804,7 @@
           <p>
             <em>Liturgy:</em> Use the Piety Gain dimension, if the
             total piety (Row-5-Addition) of the congregation,
-            subtracting the cleric’s, is higher or equal to that
+            subtracting the cleric&#8217;s, is higher or equal to that
             amount.
           </p>
           <p>
@@ -1842,7 +1833,7 @@
           </p>
         </div>
         <p>
-          Ground consecrated to the cleric’s deity gives: +2, to an
+          Ground consecrated to the cleric&#8217;s deity gives: +2, to an
           allied deity: +1, to a neutral deity: -1, to an opposing
           deity: -4. Environmental modifiers are as follows.
         </p>
@@ -1916,7 +1907,7 @@
         <h5 class="skill" id="sk-sin">Singing</h5>
         <include id="$Singing"/>
         <p>
-          A character’s ability to carry a tune.  The quality of a
+          A character&#8217;’s ability to carry a tune.  The quality of a
           performance may not be appreciated.  A notable specialty is
           the Voice attribute skill.  Use the <em>Artistic</em>
           dimension.
@@ -1944,9 +1935,8 @@
         <h5 class="skill" id="sk-sta">Stamina</h5>
         <include id="$Stamina"/>
         <p>
-          Note that the skill may be improved but not the attribute.
           Average Healing time for 1 injury point is 2 days.  Factor
-          the above to get the actual healing rate.
+          the roll to get the actual healing rate.
         </p>
         <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-ste">Stealth</h5>
@@ -2007,7 +1997,7 @@
         <p>
           If a character is in water deeper than their height, a Sink
           result implies the character goes down with the speed of the
-          negative result.  (I.e. -5 means going down at 0.75 ft/s.)
+          negative result.  (I.e. -5 means going down at 0.5 m/s.)
           A reroll may be attempted every second, but fatigue applies
           immediately.  A character who can no longer hold his breath
           (see Endurance) and spends more (consecutive) time
@@ -2015,7 +2005,7 @@
           character’s lungs fill with water, they stop breathing, and
           the character will receive Drowning damage.  An unconscious
           character removed from the water may be revived with
-          standard physician/healing mechanisms.
+          standard Physician/healing mechanisms.
         </p>
         <h5 class="skill" id="sk-swo">Sword</h5>
         <include id="$Sword"/>
