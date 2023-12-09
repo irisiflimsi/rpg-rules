@@ -2111,11 +2111,8 @@
           such as partly rolling, partly choosing; first rolling, then
           modifying; or a point based system, where good attributes
           are "bought" and/or "bad" attributes provide additional
-          points to spend.  For simulation purposes, the out-world
-          values should be recorded by the players, while the
-          characters themselves are considered to only be aware of
-          values available in the in-world chapter.  You may create
-          veterans with these rules.
+          points to spend.  An classic skill value resolves to 10 for
+          each &#9733; that is taught.
         </p>
         <div class="explain">
           <p>
@@ -2140,89 +2137,19 @@
             females.<br/> <b>Will</b> +3 for Khuzdul.<br/>
           </p>
         </div>
-        <h4>Friends &#0038; Enemies</h4>
-        <p>
-          Each character generates a number of contacts equal to the
-          character’s Age divided by five.  These contacts are in
-          addition to any close relatives and current work associates.
-          The GMs decides on the details, including Relationship and
-          Loyalty.
-        </p>
-        <h4>Equipment &#0038; Funds</h4>
-        <p>
-          Although most income is spent simply to survive, veterans
-          have accumulated some savings.  Assume a veteran character
-          has accumulated 10% of total income.  For example, a
-          bonded-master Ostler, with ten years experience has (936d x
-          10 years x 10%) = 936d available to spend on items or save.
-        </p>
-        <h3 id="o3ccupations">Occupations</h3>
-        <p>
-          An occupation resolves to 10 for each &#9733; that is
-          taught.  If multiple occupations are learned, they add
-          through 5-Addition, when applicable.  In particular, Parent
-          Occupation may immediately be added, when it is the same as
-          vocational Occupation.
-        </p>
-        <h4>Optional Skills</h4>
-        <p>
-          For each option point ten points (1 &#9733;) are added
-          through 5-Addition.  Successive improvement of the same
-          skill work the same.
-        </p>
-        <p>
-          A veteran character receives three option points per year of
-          experience; five years experience equals 5 x 3 = 15 OP.
-          These points should be expended as other option points.
-        </p>
-        <h4>Military</h4>
-        <p>
-          To initially enlist in a military unit, a character is
-          assessed, with the following additions to an n5 roll.
-        </p>
-        <div class="explain">
-          <p>
-            <b>+1:</b> Good referral, Equipped for that unit, Years of
-            military experience, High demand, Strength/Stamina
-            &#9733;s above &#9733;&#9733;&#9733;, Half of Rhetoric
-            &#9733;s.
-          </p>
-          <p>
-            <b>-1:</b> Low demand, Years over 30, Strength/Stamina
-            &#9733;s below &#9733;&#9733;&#9733;.
-          </p>
-          <p>
-            <b>-4:</b> Yeoman/LB, Archer/SB, Knight/HH (Fighting
-            Order), Patrician/MH, Huscarl/LH, High Guard/HF,
-            Horsebow/LH, Knight/MH (Sindarin)
-          </p>
-          <p>
-            <b>-3:</b> Yeoman/LF, Guardsman/MF, Yeoman/SB, Knight/HH
-            (Feudal), Infantry/MF, Knight/MH (Fighting Order),
-            Legionaire/MF, Legionaire/SB, Huscarl/MF, Low Guard/MF,
-            Guardian/MF
-          </p>
-          <p>
-            <b>-2:</b> Guardsman/LF,, Knight/MH (Feudal), Infantry/LF,
-            Legionaire/LF, Clansman/LF, Ranger/LF
-          </p>
-          <p>
-            <b>-1:</b> Clansman/UF, Ranger/UF
-          </p>
-        </div>
         <h3 id="p3sionics">Psionics</h3>
         <p>
-          One way to determine how many talent are made for a new
-          character, the GM secretly rolls n5 and adds Aura.  For
-          example, with a n5 roll of 0 and an Aura of 5, a character
-          would get five talents.
+	  One way to determine how many talent are made for a new
+	  character, the GM secretly rolls n5 and adds Aura.  For
+	  example, with a n5 roll of 0 and an Aura of 5, a character
+	  would get five talents.  Alternative, a character with at
+	  least an Aura of 10, may select or roll Psionic talents with
+	  total skill points of AUR - 10.
         </p>
-        <p>
-          Alternative, a character with at least an Aura of 10, may
-          select or roll Psionic talents with total skill points of
-          AUR - 10.  Psionic Talents accrue Fatigue at 1 point per
-          minute.  Trance indicates a -20 to any other skills
-          attempted during that period.
+	<p>
+	  Psionic Talents accrue Fatigue at 1 point per minute.
+          Trance indicates a -20 to any other skills attempted during
+          that period.
         </p>
         <div class="explain">
           <p>
@@ -2233,7 +2160,7 @@
           <p>
             <em>Disembodiment:</em> Each time a disembodiment occurs,
             Telepathy and Sensitivity MLs increase by 1 point through
-            Row-5-Addition.
+            5-Addition.
           </p>
           <p>
             <em>Healing:</em> <em>Empathy:</em> Add talent skill to
@@ -2243,11 +2170,11 @@
             Stamina for healing time.
           </p>
           <p>
-            <em>Hex:</em> Reduces the victims rolls by his talent
-            skill level (literaly).
+            <em>Hex:</em> Reduces the victims rolls by this talent
+            skill level (literally).
           </p>
           <p>
-            <em>Medium:</em> Knowing the "true name" bestows a bonus
+            <em>Medium:</em> Knowing the "true name" bestows a 5-bonus
             of +10.
           </p>
           <p>
@@ -2282,7 +2209,7 @@
             <em>Transmutation:</em> The effect lasts for up to ML hours.
           </p>
         </div>
-        <h3 id="r3eligion">Religion</h3>
+        <h3 id="religion">Religion</h3>
         <p>
           <em>Sin, Piety, &#0038; Morality</em>: If a character acts
           in a manner inconsistent with their god’s morality, the GM
@@ -2298,17 +2225,16 @@
           chapter.  The may be attended by laymen to receive a
           benefit.  Some need a priest as guidance.  The following is
           a Piety benefit, if attended and an (individual’s) Ritual
-          roll succeeds.  The benefit is a Row-5-Addition to Piety,
-          which is why the "negative benefit" is actually positive.
-          (Any rituals must be relevant, of course.  Individual
-          donations of 1d for a rich merchant, for instance, do not
-          qualify.)
+          roll succeeds.  The benefit is a 5-Addition to Piety, which
+          is why the "negative benefit" is actually positive.  (Any
+          rituals must be relevant, of course.  Individual donations
+          of 1d for a rich merchant, for instance, do not qualify.)
         </p>
         <include id="Ritual"/>
         <p>
           Divine intervention is totally at the GMs discretion and the
-          seemingly high chances are mostly from self-reports from
-          faithful clerics.
+          seemingly high chances are mostly from self-reports of
+          particularly faithful clerics.
         </p>
         <h3 id="c3ombat">Combat</h3>
         <p>
