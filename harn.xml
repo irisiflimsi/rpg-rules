@@ -2347,15 +2347,17 @@
             notwithstanding.
           </p>
           <p>
-            <em>Push:</em> The push attempt may range between 0 and 5
-            feet and must be in the direction the attacker is facing
-            and the attacker must follow.  The defender has a choice
-            to evade into a semi-circle of up to 120 degrees, assuming
-            no obstacles.  Instead of Injury points, the number of
-            meters pushed are used.  The defender is forced to deduct
-            the move from his action allowance, regardless of whether
-            he resists or not.  A resist deducts from the distance
-            forced and can even be used as a counter-push.
+            <em>Push:</em> The push attempt must be in the direction
+            the attacker is facing and the attacker must follow.  The
+            defender has a choice to evade into a semi-circle of up to
+            120 degrees, assuming no obstacles.  Instead of Injury
+            points, the number of meters pushed are used.  The
+            defender is forced to deduct the move from his action
+            allowance, regardless of whether he resists or not.  A
+            resist deducts from the distance forced and can even be
+            used as a counter-push. The pushed character may opt to
+            fall prone instead at any time, for instance to avoid
+            falling of a cliff.  Any remaing distance is forfeit.
           </p>
           <p>
             <em>Rise:</em> Use Acrobatics skill.
@@ -2399,13 +2401,13 @@
             all use 0 damage and no personal, e.g. aiming, modifiers.
           </p>
           <p>
-            <em>Grapple/Tangle:</em> Use Unarmed Combat skill.  The
-            basic radius of the two characters engaged is 5-added.
-            Multiple Grapples are allowed , but keep track of the
-            grappled weapons of all opponents, they can no longer be
-            used to full potential.  Also observe any secondary
-            considerations for odd Grapple attempts, e.g. grappling a
-            horse&#8217;s hind leg.
+            <em>Grapple/Tangle Attack/Defense:</em> Use Unarmed Combat
+            skill when no weapon is involved.  The basic radius of the
+            two characters engaged is 5-added.  Multiple Grapples are
+            allowed , but keep track of the grappled weapons of all
+            opponents, they can no longer be used to full potential.
+            Also observe any secondary considerations for odd Grapple
+            attempts, e.g. grappling a horse&#8217;s hind leg.
           </p>
           <p>
             <em>Block/Dodge:</em> For dodging, use Dodge skill.  Dodge
@@ -2422,10 +2424,20 @@
             polearms (assuming the Steed Command Check was
             successful).
           </p>
+	  <p>
+	    <em>Esoteric Attack/Defense, Dropping Items, Ignore,
+	    Mount/Dismount, Mounted Move:</em> No further out-world
+	    exlpanation is necessary.  If useful, subactions here and
+	    elsewhere can be extracted that should become possible
+	    during a specific out-world handling of combat.  Rewrite
+	    the rules here to accomodate this.  The missing tactical
+	    option is compensated by an appropriate penalty/bonus if
+	    the action is still taken in-world.
+	  </p>
           <p>
             <em>Aiming:</em> The Attacker may declare one Main area as
-            not being hit for a penalty of 1 to ML. This choice can
-            be taken multiple times, but the remaining Main locations
+            not being hit for a penalty of 1 to ML. This choice can be
+            taken multiple times, but the remaining Main locations
             must remain (bodily) connected.  If all but one Main
             location has been eliminated, individual percentage points
             may be reduced for a Detail area.  This penalty can again
@@ -2434,25 +2446,27 @@
             or penalize the choice of Aiming Zone if the attacker
             could only reach certain target zones with the declared
             attack weapon.  A prone attacker would find it difficult
-            to aim high on a standing opponent.  The Size table can be
-            used, if the target is smaller than man-sized. This effect
-            does not cummulate with aiming for parts of a target (the
-            main part of this paragraph).  There is no modification
-            for man-sized creatures, unless the target offers a
-            smaller effective target.  A prone man, for example,
-            presents a target about 2 feet tall, and a crouching man
-            about 4 feet tall. Similar height adjustments may apply to
-            other targets at GM discretion.
+            to aim high on a standing opponent with a melee weapon.
+            The Size table can be used, if the target is smaller than
+            man-sized.  This effect does not cummulate with aiming for
+            parts of a target (the main part of this paragraph).
+            There is no modification for man-sized creatures, unless
+            the target offers a smaller effective target.  A prone
+            man, for example, presents a target about 2 feet tall, and
+            a crouching man about 4 feet tall.  Similar height
+            adjustments may apply to other targets at GM discretion.
           </p>
           <p>
             <em>Outnumbered:</em> The ML for any defense is decreased
             by 2 for each engaged enemy above one that is not ignored.
             (This includes prone enemies.)  That is, a character
-            outnumbered 3:1 subtracts 4 from ML for all defense rolls.
+            outnumbered 3:1 subtracts 4 from ML for all defense rolls
+            during that period.
           </p>
           <p>
             <em>Prone:</em> A character who is attacking (or being
-            attacked by) a prone enemy increases ML by 4.
+            attacked by) a prone enemy increases Attack/Defense EML
+            with tha character by 4.
           </p>
           <p>
             <em>Stop:</em> A stop from a sprint/charge faster than the
@@ -2466,30 +2480,32 @@
             taking damage apply it there too.  (If desired, use
             physics of an inelastic collision, i.e. when running into
             a wagon that starts to roll when run into. Damage always
-            applies to both.)
+            applies to both parties of a collision.) Also see Charge.
           </p>
           <p>
-            <em>Fall:</em> Acrobatics can be used to moderate a fall.
-            All successful points on Acrobatics vs 15 can be used by
-            the faller as in Aiming, i.e. the main and detailed body
-            part to land on.  The slope of the surface may cause a
-            falling climber to hit several times on the way down.
-            When this occurs, reduce damage to what the incline is as
-            part of 90°. E.g. 30° would reduce the damage to 1/3.  A
-            character may be able to stop falling by grabbing
-            protrusions, bushes, etc.  This rarely stops the fall, but
-            may slow it and reduce landing impact.  Randomize an M1
-            type B wound to the hands and deduct 1 ft from the height.
-            The wound impact can be increased up to M10 for a
-            corresponding reduction. If so desired, the fall can be
-            stopped at a random location and the falling damage
-            recalculated.  Damage is then aimed with +20 at the
+            <em>Fall:</em> Acrobatics can be used to moderate a fall,
+            but the &#8220;falling&#8221; character must modify the
+            roll by any Grapple hinderance or if in the saddle, for
+            example.  All successful points on Acrobatics vs 25 can be
+            used by the faller as in Aiming, i.e. the main and
+            detailed body part to land on.  The slope of the surface
+            may cause a falling climber to hit several times on the
+            way down.  When this occurs, reduce damage to what the
+            incline is as part of 90°.  E.g. 30° would reduce the
+            damage to 1/3.  A character may be able to stop falling by
+            grabbing protrusions, bushes, etc.  This rarely stops the
+            fall, but may slow it and reduce landing impact.
+            Randomize an M1 type B wound to the hands and deduct 1 ft
+            from the height.  The wound impact can be increased up to
+            M10 for a corresponding reduction.  If so desired, the
+            fall can be stopped at a random location and the falling
+            damage recalculated.  Damage is then aimed with +20 at the
             grabbing arm.  This grabbing cannot be used together with
-            Acrobatics. The character now hangs from the
-            protrusion. Falls use the Fall table.  Various
-            surfaces modify fall impact: <em>Water (up to 10 ft):</em>
-            -1 / ft.  <em>Mud, Bog:</em> -2.  <em>Stone:</em> +3.
-            <em>Uneven, Rocks:</em> +6.
+            Acrobatics.  The character now hangs from the protrusion.
+            Falls use the Fall table.  Various surfaces modify fall
+            impact: <em>Water (up to 10 ft):</em> -1 / ft.  <em>Mud,
+            Bog:</em> -2.  <em>Stone:</em> +3.  <em>Uneven,
+            Rocks:</em> +6.
           </p>
         </div>
         <p style="text-align:center">
