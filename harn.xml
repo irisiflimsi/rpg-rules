@@ -378,7 +378,7 @@
         <h4><em>Opening Mastery Level</em></h4>
         <p>
           Opening Mastery Level (OML) is listed with each skill.  This
-          is the starting point for any skill's ML.  Skills should
+          is the starting point for any skill&#8217;s ML.  Skills should
           start at zero because of the normalization.  However, if the
           OML is negative, any improvement of the skill can only
           happen with a teacher.  This is an out-world normalization
@@ -416,7 +416,7 @@
           </p>
         </div>
         <p>
-          Multiple occupations' influence are combined through
+          Multiple occupations&#8217; influence are combined through
           5-Addition into a single skill.
         </p>
         <h4>Special Occupationss</h4>
@@ -444,7 +444,7 @@
           arises, what ML in the Specialty applies to the skill group.
           Each specialty has a percentage value associated with it.
           (For a new Specialty, this must be decided upon by the GM.)
-          Take that percentage of Specialty ML to get the group's ML.
+          Take that percentage of Specialty ML to get the group&#8217;s ML.
           For example, a Mask/20% specialty in Woodcraft of 12 would
           imply a Woodcraft group score of 2.4, rounded down to 2.
           This applies to ML, not OML.  OML (if specialization is
@@ -563,7 +563,7 @@
           <em>Consecration Bonus:</em> This is actually not a penalty.
           It is still applied directly to relevant rituals, i.e. those
           for a deity to whom the ground is dedicated.  The bonus is
-          equal to the consecrator's circle.  Under certain
+          equal to the consecrator&#8217;s circle.  Under certain
           circumstances, other recipes may also use this consecration
           bonus, for instance, Concocting an alchemical explosive
           compound in a laboratory dedicated to such volatile
@@ -645,7 +645,7 @@
           Any effects from wounds or other external influences in
           combat are applied immediately to pending progressions.  At
           the actors choice it can offset the goal or the time.  To
-          prevent players from immediately aborting "bad" rolls,
+          prevent players from immediately aborting bad rolls,
           mandatory secret rolls by the GM can be used.
         </p>
         <p>
@@ -742,7 +742,7 @@
         </p>
         <include id="$D-Recipes"/>
         <p>
-          In general, learning a recipe is a roll with the student's
+          In general, learning a recipe is a roll with the student&#8217;s
           ML.  The student should have a quiet, dedicated space to
           study.  The <em>Consecrated Ground</em> modifier usually can
           be 5-added to the ML.  A scripture must be read in full.
@@ -923,7 +923,7 @@
           Specialty.  Use the <em>Recipe</em> dimension for NPCs that
           may surround themselves with trained animals.  Intelligence
           in the table means the attribute of the animal to be
-          trained. If the animal isn't smart enough, nothing is
+          trained. If the animal isn&#8217;t smart enough, nothing is
           learned.  Also use the <em>Yield</em> dimension four times
           for each reasonable trick.  Tricks must be practiced to be
           retained by the animal.
@@ -1187,7 +1187,7 @@
           character remembers information relevant to the subject
           being inquired about.  To avoid rolling multiple times on
           the table, the PC that searches his arsenal should give a
-          "trajectory" among the two dimensions, after the GM tells
+          trajectory among the two dimensions, after the GM tells
           him how obscure the sought story actually is.  For example,
           Rogan is attempting to recall the name of a great hero of
           some common legend. 50% go to depth and 50% to
@@ -1476,11 +1476,11 @@
           the predetermined objectives are followed, usually a
           military one.  The lower the result, the more
           self-preservation is deterministic of actions, but also
-          instincts take over.  "Freezing" in the hopes of being
-          ignored may make sense with certain predators but not when
-          facing Gargun.  The variety of different reactions is huge.
-          See the Morale section in Combat.  Berserk is meant as
-          option, not as mandatory.  The other end at -15 is
+          instincts take over.  &#8220;Freezing &#8221; in the hopes
+          of being ignored may make sense with certain predators but
+          not when facing Gargun.  The variety of different reactions
+          is huge.  See the Morale section in Combat.  Berserk is
+          meant as option, not as mandatory.  The other end at -15 is
           mandatory.  It often makes sense to keep a current level of
           Morale for NPCs that is deducted until it reaches a breaking
           point.  Determine the outcome before any combat ensues to
@@ -1489,10 +1489,10 @@
         </p>
         <include id="$D-Morale"/>
         <p>
-          <em>Rally:</em> An influence on others' Morale is possible
+          <em>Rally:</em> An influence on others&#8217; Morale is possible
           for the amount above 10 in the roll.  Multiple positive and
           negative influences are added through 5-Additions separately
-          to others' EML and difficulties.
+          to others&#8217; EML and difficulties.
         </p>
         <h5 class="skill" id="sk-mov">Move</h5>
         <include id="$Move"/>
@@ -1651,7 +1651,7 @@
           <p>
             <em>Benign Mind Linking:</em> Some healers, for example,
             use mental linking as a way to diagnosis a patient&#8217;s
-            ailments.  The willing bonus implies an "Ignore" defense.
+            ailments.  The willing bonus implies an &#8220;Ignore &#8221; defense.
           </p>
         </div>
         <p>
@@ -1680,7 +1680,7 @@
           the Circle Modifier (–4), which reduces her Ritual ML to 12
           and she fails the roll.  The process continues.  This time
           she fails the next Shock roll, allowing the demon its
-          possession.  Larinda's spirit is evicted and suffers
+          possession.  Larinda&#8217;s spirit is evicted and suffers
           dissolution.  Her body now obeys the demon&#8217;s wishes.
           Larinda&#8217;s spirit will reform after her (spirit) injury
           of 4 points are healed and she may then attempt to repossess
@@ -1709,7 +1709,7 @@
           apprehended thief trying to fast-talk his way out of a visit
           to the dungeon, to a friar explaining the mysteries of faith
           to a child.  Rhetoric ML may be reduced or increased
-          considering the targets' Intelligence and their best
+          considering the targets&#8217; Intelligence and their best
           interest.  A net result below 0 on any use of Rhetoric
           suggests the character has made a fool of himself and may
           have annoyed the intended target(s).
@@ -1771,7 +1771,7 @@
         </p>
         <p>
           An Unhorsing roll needs to be made, when the rider enters
-          the saddle.  Note: A rider "stumble" generated by an Melee
+          the saddle.  Note: A rider &#8220;stumble &#8221; generated by an Melee
           Attack requires an additional Unhorsing Roll. Unhorsing
           Rolls are made against zero (0), modified by Physical
           Penalty (including any injury just received).  On failure,
@@ -1793,7 +1793,7 @@
           chapter.  Language may be a limiting factor when the skill
           is used to communicate with a congregation.  In the list
           above, attributes and sunsigns are for the rituals of the
-          "Occupations" religion.
+          Occupations&#8217; religion.
         </p>
         <include id="$D-Ritual"/>
         <div class="explain">
@@ -1821,8 +1821,8 @@
           </p>
           <p>
             <em>Excommunication:</em> Effects are reduction of Piety
-            by 10 "unlearning" rolls; the reduction in Ritual are 5
-            "unlearning" rolls.
+            by 10 &#8220;unlearning &#8221; rolls; the reduction in Ritual are 5
+            &#8220;unlearning &#8221; rolls.
           </p>
           <p>
             <em>Excorcism:</em> The mental conflict is modified by
@@ -2031,7 +2031,7 @@
         <include id="$Throwing"/>
         <p>
           Throwing for accuracy is covered under Missile Combat.  When
-          throwing for distance, an "ideal" throwing object is
+          throwing for distance, an ideal throwing object is
           spherical, weighs three ounces and fits comfortably in the
           hand.  An ideal situation is one where the thrower has room
           to swing arms, good footing, and no distractions.  Heavier
@@ -2110,9 +2110,9 @@
           generate characters.  It can also be anything inbetween,
           such as partly rolling, partly choosing; first rolling, then
           modifying; or a point based system, where good attributes
-          are "bought" and/or "bad" attributes provide additional
-          points to spend.  An classic skill value resolves to 10 for
-          each &#9733; that is taught.
+          are bought and/or bad attributes provide additional points
+          to spend.  An classic skill value resolves to 10 for each
+          &#9733; that is taught.
         </p>
         <div class="explain">
           <p>
@@ -2153,8 +2153,8 @@
         </p>
         <div class="explain">
           <p>
-            <em>Charm:</em> Roll attacker's skill plus Will vs
-            defender's Will and reduce the defender’s Agility
+            <em>Charm:</em> Roll attacker&#8217;s skill plus Will vs
+            defender&#8217;s Will and reduce the defender’s Agility
             accordingly.
           </p>
           <p>
@@ -2165,7 +2165,7 @@
           <p>
             <em>Healing:</em> <em>Empathy:</em> Add talent skill to
             physician’s skill at diagnosis, etc.
-            <em>Restoration:</em> Talent skill replaces subject's
+            <em>Restoration:</em> Talent skill replaces subject&#8217;s
             Stamina in new fatigue rate.  <em>Heal:</em> Add skill to
             Stamina for healing time.
           </p>
@@ -2174,7 +2174,7 @@
             skill level (literally).
           </p>
           <p>
-            <em>Medium:</em> Knowing the "true name" bestows a 5-bonus
+            <em>Medium:</em> Knowing the &#8220;true name &#8221; bestows a 5-bonus
             of +10.
           </p>
           <p>
@@ -2225,8 +2225,7 @@
           chapter.  The may be attended by laymen to receive a
           benefit.  Some need a priest as guidance.  The following is
           a Piety benefit, if attended and an (individual’s) Ritual
-          roll succeeds.  The benefit is a 5-Addition to Piety, which
-          is why the "negative benefit" is actually positive.  (Any
+          roll succeeds.  The benefit is a 5-Addition to Piety.  (Any
           rituals must be relevant, of course.  Individual donations
           of 1d for a rich merchant, for instance, do not qualify.)
         </p>
@@ -2259,7 +2258,7 @@
           for 100 people.  The points should be distributed in
           reasonable batches on the participants on each side, the 
           smallest batch size being the wounds rolled.  People can be hit
-          multiple times, but points beyond 40 generally don't make sense
+          multiple times, but points beyond 40 generally don&#8217;t make sense
           unless explosives, catapults, or similar are involved.
         </p>
         <div class="explain">
@@ -2307,7 +2306,7 @@
             usual.  If the intent is to cause little damage, use the
             unintentional hit rules for melee (see below).  Otherwise
             consider the group passed by to be the target and scale as
-            per "wild" result in the missile attack section.  Instead
+            per wild result in the missile attack section.  Instead
             of the 60 degrees +/-2 distance, collect all in the path
             of 5 feet width.  Any attacker plunging into defenders
             with an attack will decelerate at maximum rate, and that
@@ -2415,7 +2414,7 @@
           </p>
           <p>
             <em>Stop:</em> A stop from a sprint/charge faster than the
-            maximum "natural" deceleration rate may be
+            maximum natural deceleration rate may be
             necessary. (Running into a wall or head on into another
             opponent that doesn’t dodge.)  In that case consider the
             distance that is not available to stopping as fall.
@@ -2545,7 +2544,7 @@
           only descriptive aspects should be mentioned.
         </p>
         <p>
-          Attributes are values that other people "attribute" to
+          Attributes are values that other people attribute to
           individuals they encounter, particularly those that they
           interact with for some time.  The following lists those
           properties and the common values used for them.
@@ -2593,7 +2592,7 @@
           Individuals should have a moral compass.  Morality is a
           measure of unselfishness.  The following serves as a
           guideline of the diversity found in Hârnworld, but is by no
-          means exhaustive.  Sindarin tend towards the "higher" moral
+          means exhaustive.  Sindarin tend towards the higher moral
           standards.
         </p>
         <p>
@@ -2677,7 +2676,7 @@
           each sibling may be determined accordingly, with a 60% of
           each still being alive.  To determine the number of
           siblings, determine the rank of the last sibling as before,
-          but which obviously must come after the indiviual's rank
+          but which obviously must come after the indiviual&#8217;s rank
           already determined.
         </p>
         <h4 id="parent">Parent</h4>
@@ -2807,13 +2806,13 @@
         </p>
         <h4 id="weight">Weight</h4>
         <p>
-          On Hârn, the "optimal" weight of a person depends on his
-          height and is determined by the Physician's Guild and
+          On Hârn, the optimal weight of a person depends on his
+          height and is determined by the Physician&#8217;s Guild and
           usually published in a yearly almanach.
         </p>
         <include id="Weight"/>
         <p>
-          The Clothiers' Guild and others have agreed on a size
+          The Clothiers&#8217; Guild and others have agreed on a size
           measure that relates to weight and is only a scale from
           1-10.  The apparent distribution of sizes is recorded here.
           Items that are too small or too big cause discomfort.  A one
@@ -2846,7 +2845,7 @@
         <p>
           A person’s attractiveness to the same species.  Comeliness
           can be modified by cosmetics, but these enhancements usually
-          wear off after some time. The courtesan's guild maintains
+          wear off after some time. The courtesan&#8217;s guild maintains
           these statistics.
         </p>
         <include id="Comeliness"/>
@@ -2919,7 +2918,7 @@
           Some people have one or more Medical Traits, or diseases,
           scars, and other identifying marks acquired during life.
           The Sindarin are immune to human diseases, but more are
-          considered "Sterile" than other species.  The list is not
+          considered sterile than other species.  The list is not
           complete and no prevalence statistics in the populace are
           given.
         </p>
@@ -2993,7 +2992,7 @@
             of a peg-leg.
           </p>
           <p>
-            <em>Left-Handed:</em> People with this "affliction" are
+            <em>Left-Handed:</em> People with this affliction are
             likely to suffer some discrimination.
           </p>
           <p>
@@ -3072,7 +3071,7 @@
           comprehensive.  Mental disorders of the same type may have
           different severities.  A phobia is an irrational
           fear/aversion.  When likely to be stimulated by an
-          appropriate situation, a person's Will is tested to
+          appropriate situation, a person&#8217;s Will is tested to
           determine if the phobia can be resisted or not.  If relief
           is impossible, the person may faint, become hysterical, go
           berserk, etc.  A mania is an irrational fascination,
@@ -3174,7 +3173,7 @@
           A simple peasant may possess little more the clothes worn, a
           knapsack containing their worldly possessions, credentials
           when appropriate, and a money-belt.  Most travel afoot, but
-          nobles require a horse.  A person's wealth is largely
+          nobles require a horse.  A person&#8217;s wealth is largely
           dependent on family wealth, which is relative to social
           status.  The census data compiled by the crowns provide the
           following table and shows three levels of wealth within each
@@ -3213,7 +3212,7 @@
         <p>
           Nearly everyone owns a knife or dagger.  Clubs, bows,
           hatchets, slings, and staves are also common.  Other weapons
-          are expensive and "Bearing Arms" in HârnPlayer should be
+          are expensive and <em>Bearing Arms</em> in HârnPlayer should be
           consulted.  Few young adults can afford good armour.
           Military individuals are mostly equipped by their unit, but
           knights on feudal service must bring their own weapons,
@@ -3267,7 +3266,7 @@
           craftsman, could earn fees up to six times higher, but such
           incomes are rare.  Apprentices receive room &#0038; board
           and sometimes get pocket money from generous masters.
-          Journeymen receive 30-60% of a master's wages, depending on
+          Journeymen receive 30-60% of a master&#8217;s wages, depending on
           experience, plus room and board.  Freemasters have variable
           incomes because demand for their services can vary.  See:
           HârnPlayer, page 15.
@@ -3449,7 +3448,7 @@
           Arkalins, and sixteen Molaks.  A cavalry Molarin commands a
           squadron.  <em>Armolarin:</em> the most senior Molarin in a
           centad.  He is the principal liaison between officers and
-          men, and is often the "real" commander of a Centad.
+          men, and is often the real commander of a Centad.
         </p>
         <p>
           Officers are gentlemen.  A commoner rising to officer rank
@@ -3529,19 +3528,19 @@
           very rich with this scheme.  Cash bonuses are sometimes
           given for long, distinguished service, or as a re-enlistment
           incentive.  There is no typical amount, although a bonus
-          would rarely exceed a month's pay.
+          would rarely exceed a month&#8217;s pay.
         </p>
         <p>
           Standing armies typically offer land grants to soldiers
           after twenty years service.  Monetary pensions are rare, but
-          "half-pay for life" might be awarded to a soldier who has
+          &#8220;half-pay for life &#8221; might be awarded to a soldier who has
           distinguished himself in some way.  When a soldier is maimed
           in the course of duty, he is discharged with a lump sum
           bonus rather than a pension.  The amount is two to twelve
           months pay, depending on the nature of the injury and wealth
           of the unit.  Few armies provide survivor benefits.  A bonus
-          of about six month's pay might be provided to a widow in
-          exceptional cases.  More commonly, the deceased's comrades
+          of about six month&#8217;s pay might be provided to a widow in
+          exceptional cases.  More commonly, the comrades of the deceased
           will make a collection.
         </p>
         <p>
@@ -3581,7 +3580,7 @@
           cavalry tends to be deployed in small units of squadron or
           centad strength and massed only for battle.  There are, of
           course, exceptions, such as the large bodies of horse
-          defending Shorkyne and Trierzon's borders.  Imperial cavalry
+          defending Shorkyne and Trierzon&#8217;s borders.  Imperial cavalry
           tends to be mostly light.  Azeryan, for example, uses
           cavalry in a supporting role (scouts and skirmishers), as
           does Tharda.  This is mostly due to the lack of a feudal
@@ -3590,8 +3589,8 @@
           problems are different for cavalry units.  Auxiliary forces,
           weaponcrafters, ostlers, transport, engineers, and the like
           are all slower than cavalry, and tend to get left behind.
-          Units, even small ones, may have their own "field
-          households" (messes) in tow. These too, may straggle.
+          Units, even small ones, may have their own &#8220;field
+          households &#8221; (messes) in tow. These too, may straggle.
         </p>
         <h3 id="physician">Physician</h3>
         <p>
@@ -3621,7 +3620,7 @@
           ailments.  Fees vary dramatically, sometimes according to
           the skill brought to bear, but mostly according to
           reputation.  Fees typically range from 3d for fairly basic
-          first aid to 240d for "major" surgery.  Medicines, provided
+          first aid to 240d for major surgery.  Medicines, provided
           by the Apothecaries’ Guild, and hospital care (rare) can
           double or triple fees.
         </p>
@@ -3751,7 +3750,7 @@
           skin contact is established by grasping hands, etc. and skin
           contact is maintained during the time spent invoking the
           talent.  Under unknown circumstances ritual procedure may
-          need to be followed in order to form the necessary "fusion"
+          need to be followed in order to form the necessary fusion
           between invokers.  This will become known to the affected
           invokers instinctively.
         </p>
@@ -3802,7 +3801,7 @@
         </div>
         <p>
           A Psionic talent to influence the mind of another person
-          (victim).  The usual effect is to "freeze" the victim in
+          (victim).  The usual effect is to paralyze the victim in
           place for a limited period of time. In order to invoke the
           talent successfully, eye contact between the invoker and the
           victim is necessary, but only for a momentary glance. The
@@ -3846,7 +3845,7 @@
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Sleepwalking, dreams of
-            floating through space, various "altered mental states,"
+            floating through space, various altered mental states,
             Jamais vu, lightheadedness, peculiar shivers, dizziness,
             or a feeling of being watched.
           </p>
@@ -3890,12 +3889,12 @@
         </p>
         <div class="standard">
           <p>
-            <em>Empathy:</em> An attempt to diagnose the patient's
+            <em>Empathy:</em> An attempt to diagnose the patient&#8217;s
             emotional state and/or physical well-being.
           </p>
           <p>
             <em>Restoration:</em> An attempt to remove fatigue.
-            Remove fatigue from the "victim" at a seemingly random
+            Remove fatigue from the victim at a seemingly random
             rate.  The fatigue is accrued by the talent user at the
             normal rate.
           </p>
@@ -3921,8 +3920,8 @@
           </p>
         </div>
         <p>
-          Sometimes called "the evil eye," Hex is the ability to
-          "curse" a victim, causing them to have bad luck.  If the
+          Sometimes called &#8220;the evil eye, &#8221; Hex is the ability to
+          curse a victim, causing them to have bad luck.  If the
           invoker has a part of the victim (nail parings, lock of
           hair, etc.) increase Mastery.  Such items cannot be used
           more than once.  At the time the talent is invoked, the
@@ -3938,7 +3937,7 @@
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Very scary nightmares, the dim
-            perception of "ghosts" here and there, a dread of
+            perception of ghosts here and there, a dread of
             graveyards, hearing voices, etc.
           </p>
           <p>
@@ -3965,7 +3964,7 @@
             <em>Summon:</em> An attempt to summon an ethereal
             currently perceived by the invoker, or whose true name is
             known.  This results in a Mental Conflict.  Knowing the
-            "true name" is beneficial to the talent user.
+            &#8220;true name &#8221; is beneficial to the talent user.
           </p>
           <p>
             <em>Control:</em> An attempt to command an ethereal the
@@ -4024,7 +4023,7 @@
           </p>
         </div>
         <p>
-          The ability to determine the "fate" of a group, person, or
+          The ability to determine the fate of a group, person, or
           item.  Subject to passive triggering.  Any positive result
           makes either vision comprehensible.  Prescient visions can
           be symbolic in nature.  Folklore may be used to interpret
@@ -4070,7 +4069,7 @@
           requires the invoker to hold the object and enter a trance
           for a few minutes.  Psychometry is most often used to divine
           the age or history of an object, the identity of the
-          object's maker or owners, magical/divine powers, etc.
+          object&#8217;s maker or owners, magical/divine powers, etc.
           Another use is to determine a person’s location.
         </p>
         <p>
@@ -4193,13 +4192,13 @@
           entities within Skill level in inches of the invoker’s skin
           may also be transferred.  Less skilled users often lose
           things on the way.  Travel is ethereal, instantaneous, and
-          takes 5 minutes in "absent mindedness".  The talent is
-          fairly common among the older bloodlines of the Sindarin,
-          but otherwise rare.  The invoker does not necessarily know
-          where the destination will be, although it is always a
-          similar environment.  Barasi Points are natural portals
-          between worlds.  Dozens exist throughout Kethira, although
-          the Shava Forest on Hârn has a particularly high
+          takes 5 minutes of being absent minded (to the observer).
+          The talent is fairly common among the older bloodlines of
+          the Sindarin, but otherwise rare.  The invoker does not
+          necessarily know where the destination will be, although it
+          is always a similar environment.  Barasi Points are natural
+          portals between worlds.  Dozens exist throughout Kethira,
+          although the Shava Forest on Hârn has a particularly high
           concentration.  The environment at each end of a Barasi
           Point is always very similar.  Unskilled users may not
           realize for some time they have changed locations, and may
@@ -4412,8 +4411,8 @@
           the following important effects:
         </p>
         <p>
-          Individuals with Divine Grace are deemed "worthy" of divine
-          aid, and individuals without Divine Grace are "unworthy."
+          Individuals with Divine Grace are deemed worthy of divine
+          aid, and individuals without Divine Grace are unworthy.
           Hence, a call for divine intervention is more likely to
           succeed for those with Divine Grace.  Invocations that heal
           injuries, cure diseases, remove curses, etc., have a Special
@@ -4438,7 +4437,7 @@
           <p>
             <em>Confession.</em> The churches of Halea, Larani,
             Morgath, Naveh, Peoni, and Save-K’nor hear confessions.
-            Only confessions of "significant guilt" are worthy of
+            Only confessions of significant guilt are worthy of
             piety.  Confessions must be made to an ordained cleric who
             (80% chance) may demand a penance.
           </p>
@@ -4463,7 +4462,7 @@
             <em>Feast Mass.</em> Held yearly on the principal holy
             day, this mass often lasts four hours.  It is usually
             followed by second service open only to clerics.  There is
-            no High Mass or Daily Mass on this day.  A "feaster" is a
+            no High Mass or Daily Mass on this day.  A &#8220;feaster &#8221; is a
             name given to adherents who attend only the Feast Mass –
             it is a derogatory term.
           </p>
@@ -4590,8 +4589,8 @@
           to do.  A deity may be open to suggestion, but will not take
           kindly to demands.  A person may call for Divine
           Intervention at any time.  A call for intervention may be
-          anything from, "Please help us out of this terrible mess" to
-          "Please tell me the contents of this box."  There are no
+          anything from, &#8220;Please help us out of this terrible mess &#8221; to
+          &#8220;Please tell me the contents of this box. &#8221;  There are no
           limits, just consequences.  An individual calling for Divine
           Intervention must have at least &#9733; Piety for that deity.
           Each deity has a base chance of 20% to intervene. (These
@@ -4643,15 +4642,15 @@
         <h3 id="ethereals">Ethereals</h3>
         <p>
           Between this world (Kethira) and the next (Yashain) stands a
-          shadowy "half world" known by many names, but most often as
+          shadowy half-world known by many names, but most often as
           the Astral Plane or the Spirit World.  Ethereals are
           spiritual entities, capable of existing on this Astral
           Plane, and moving between it and Kethira or Yashain.
           Kethira, Yashain, and the Astral Plane all exist in the same
           or nearby physical space.  Passing through solid objects by
-          an Ethereal is called "frooshing."  For many ethereals, this
+          an Ethereal is called &#8220;frooshing. &#8221;  For many ethereals, this
           is unpleasant and/or tiring.  A corporeal creature
-          "frooshed" by an ethereal usually experiences an eerie,
+          &#8220;frooshed &#8221; by an ethereal usually experiences an eerie,
           shivering sensation.
         </p>
         <div class="explain">
@@ -4677,12 +4676,12 @@
           </p>
           <p>
             <em>Shades (Ghosts).</em> A shade is created when: The
-            physical body of an astral traveler dies; a person dies
+            physical body of an astral traveler diesx; a person dies
             without Divine Grace and the spirit is unclaimed by any of
             the gods; a person dies in circumstances which require a
-            "great wrong" to be righted before the spirit can "rest."
-            A shade may wander the world(s), but most often haunts the
-            scene of its death until the "great wrong" is righted, or
+            great wrong to be righted before the spirit can rest.  A
+            shade may wander the world(s), but most often haunts the
+            scene of its death until the great wrong is righted, or
             they are admitted to an afterlife by one of the gods.
           </p>
           <p>
@@ -4708,7 +4707,7 @@
           Plane is really an almost infinite number of shifting and
           overlapping planes.  Although movement between astral planes
           is almost instantaneous, only divine entities can hope to
-          navigate this "ethereal maze" with any degree of speed or
+          navigate this ethereal maze with any degree of speed or
           accuracy.
         </p>
         <p>
@@ -4738,7 +4737,7 @@
           intervention.  If subjected to esoteric harm, injury is
           translated into fatigue.  Ethereals cannot recover fatigue
           except by dissolution.  Dissolution is the scattering of an
-          ethereal’s "substance."  It reforms in several hours at the
+          ethereal’s &#8220;substance. &#8221;  It reforms in several hours at the
           location of the ethereal’s physical body (if it has one),
           otherwise in a random location or plane.  When the process
           is complete, the ethereal regains consciousness and has no
@@ -4764,7 +4763,7 @@
           easy given the ever-shifting nature of the Astral planes.
           An ethereal move applies only to movement on the same plane.
           The risk of having a stranger establish squatter’s rights in
-          the "temple of one’s body" is one of the greater hazards of
+          the &#8220;temple of one’s body &#8221; is one of the greater hazards of
           astral travel.  From an astral’s perspective, this is akin
           to breaking into someone’s house, eating the food, drinking
           the wine, trying on the clothes, beating the servants, and
@@ -4782,7 +4781,7 @@
           afterlife.  Most people commit their soul to one god who
           takes possession of the soul upon death.  Those who die
           godless, or out of Divine Grace with their god, embark on a
-          Death Journey unless "saved" by a funeral rite.  All clerics
+          Death Journey unless saved by a funeral rite.  All clerics
           are taught Passage of the Soul, a funeral ritual to help a
           soul make a swift journey to its afterlife.  Although
           funerals vary from church to church and from region to
@@ -4859,7 +4858,7 @@
             compound.  Solving the riddle may find the mortal remains,
             and a trinket or two to encourage the game, but this
             obliges the finder to mention the deceased in the finder’s
-            own "death-riddle."
+            own &#8220;death-riddle."
           </p>
           <p>
             <em>Siemians</em> do not believe in using land for graves
@@ -4947,19 +4946,19 @@
           ritual church duty.
         </p>
         <p>
-          Ritual invocations are ceremonies that "encourage" a deity
+          Ritual invocations are ceremonies that &#8220;encourage &#8221; a deity
           to intervene with a miracle.  They originated as a means for
           clerics to impress their laity or potential converts.  These
           uses are still practiced, but many invocations work equally
           well (often better) to subdue those who oppose a cleric’s
           deity.  Such use is tacitly approved by all churches, since
-          the "proxy wars" of mortals is an acceptable method of
+          the proxy wars of mortals is an acceptable method of
           conflict among deities.  Theoretically, anyone may learn the
           rituals of any Circle, but most churches will teach them
           only to ordained priests.  The rituals were once closely
           associated with a specific circle, higher rituals being the
           exclusive knowledge of higher circles.  They are still
-          classified in this way, but "leakage" of knowledge over the
+          classified in this way, but &#8220;leakage &#8221; of knowledge over the
           centuries has eroded this restriction.  Today, the
           invocations of any Circle can be taught to any ordained
           priest.
@@ -5014,11 +5013,11 @@
           deity by the ritual invocation Consecration.  Peoni and
           Larani are allied and oppose Agrik.  Morgath, the Lord of
           Chaos, opposes everyone, but can be, in some circumstances,
-          "allied" with Agrik.  All other gods are neutral, but tend
-          to favor Peoni and Larani.  An invocation call usually
-          consists of a quick prayer or chant, but can involve (if
-          time permits) construction of an altar, burning of incense,
-          an appropriate sacrifice, etc.  The intent is to perform a
+          allied with Agrik.  All other gods are neutral, but tend to
+          favor Peoni and Larani.  An invocation call usually consists
+          of a quick prayer or chant, but can involve (if time
+          permits) construction of an altar, burning of incense, an
+          appropriate sacrifice, etc.  The intent is to perform a
           ritual which is less likely to annoy the deity.  It is said
           the powers of Naveh and Morgath arise at night and slumber
           in the light, and those of Sarajin are highest amid ice and
@@ -5461,8 +5460,8 @@
           <em>WQ:</em> Weapons are rated for quality.  Sturdy
           all-metal weapons like swords have higher ratings than
           hafted weapons like spears.  WQ represents the chance a
-          weapon breaks in certain combat situations.  Higher quality
-          weapons cost more.
+          weapon breaks in certain combat situations.
+          parenthesis.
         </p>
         <p>
           <em>HM:</em> Hand Mode penalties.  All weapons, except Bows
@@ -5470,7 +5469,7 @@
           two-handed use, but some weapons are penalized when used
           one-handed.  Unless a person is ambidextrous, all weapons
           (except Shields) used in the secondary hand (left hand for
-          most) also have a Hand Mode Special Penalty.
+          most) also have a Hand Mode Special Penalty. In-world.
         </p>
         <p>
           <em>B/E/P:</em> The impact (damage) of a weapon when it
@@ -5478,17 +5477,18 @@
           Aspects: Blunt (B), Edge (E), and Point (P).  A - rating
           indicates the weapon does not have this Aspect.  A zero (0)
           rating means the weapon has the Aspect, but impact is +0.
-          Point aspects in brackets are optional; if chosen, WQ is
-          reduced by one (1).  This is a "weapon-build" option.
+          Point aspects in brackets are optional as a custom option
+          when the weapon is manufactored.  If chosen, WQ is reduced
+          by 1 point.
         </p>
         <p>
           <em>Price:</em> The retail price for average quality
           weapons.  Higher quality weapons roughly double in price for
-          each addition point in WQ.  The source for weapons is a
-          Weaponcrafter, except F (Fletcher), H (Hideworker), M
-          (Metalsmith), or W (Woodcrafter).  Individuals with related
-          craft skills can make/repair their own weapons, but rarely
-          with WQs as high as listed.
+          higher WQ.  The source for weapons is a Weaponcrafter,
+          except F (Fletcher), H (Hideworker), M (Metalsmith), or W
+          (Woodcrafter).  Individuals with related craft skills can
+          make/repair their own weapons, but rarely with WQs as high
+          as listed.
         </p>
         <include id="Weapons-1"/>
         <p>
@@ -5519,7 +5519,7 @@
           tempting to wear multiple layers of Cloth or Quilt, but this
           is highly encumbering and especially fatiguing on a hot day.
           Each extra layer of Cloth or Quilt (except where they
-          naturally occur from overlapping garments) incurrs a Special
+          naturally occur from overlapping garments) incurs a Special
           Penalty.
         </p>
         <include id="Armor-1"/>
@@ -5534,7 +5534,7 @@
           enchanted armour.  Such pieces are rare and have +1 quality
           per level of enchantment.  To determine the quality for
           breakage, add all 4 protective values together through
-          Row-5-Addition.
+          5-Addition.
         </p>
         <div class="explain">
           <p>
@@ -5656,8 +5656,8 @@
           </p>
           <p>
             <em>Engage:</em> Combat involves footwork.  Once a
-            combatant lays "claim" to a certain spot, it is assumed
-            that he moves about that point, without losing essential
+            combatant lays claim to a certain spot, it is assumed that
+            he moves about that point, without losing essential
             contact to adjacent combatants.  This is called engagement
             and all engaged combatants are assumed to be able to move
             about as driven by necessity.  If for some reason this
@@ -5683,7 +5683,7 @@
             battlefields, which are usually well supplied with
             furrows, rabbit holes, man-made pits, and caltrops.
             Galloping normally occurs only on good roads.  A cavalry
-            "charge" is mostly trotting into position, with perhaps
+            charge is mostly trotting into position, with perhaps
             twenty to sixty yards of canter at the end.  Horses are
             extremely reluctant to charge into each other.  Unless
             both steeds are separated by a short wall, they will veer
@@ -5698,7 +5698,7 @@
             out.  (This is different from ramming, which is resolved
             as a collision, see mounted combat, which may also be
             applied to humans, particularly those that intend to use
-            their weight "benefit".)  Consider walls and ledges.
+            their weight as benefit.)  Consider walls and ledges.
             Moving over a ledge may not be preventable, but moving
             into a wall generally is.
           </p>
@@ -5750,11 +5750,11 @@
             The Attacker must move into the location of the opponent,
             which is without penalty. The attacker attempts to impair
             the usage of limbs (or weapons) without causing fatigue or
-            injury.  If the grappler achieves any "Strike" result, a
+            injury.  If the grappler achieves any &#8220;Strike &#8221; result, a
             hold on the opponent has been gained.  Determine Strike
             Location normally.  The entire zone (Head, Body, Arms, or
             Legs) is considered tangled, but with arms and legs, left
-            and right should be distinguished.  The attacker's a
+            and right should be distinguished.  The attacker&#8217;s a
             weapon (e.g. his arm/hand) becomes entangled to maintain a
             hold/entanglement on the opponent.  The attacker can
             release his hold any time (if the weapon was a net, a
@@ -5793,7 +5793,7 @@
             cloaks, blankets, nets, flails, whips, ropes, or other
             items.  If the tangle (or any other attack!) is aimed at a
             weapon, one Main location is replaced with the weapon,
-            usually the leg of the "other" side.  A tangle attack is
+            usually the leg of the other side.  A tangle attack is
             treated as a melee attack (or missile attack if the tangle
             weapon is thrown).
           </p>
@@ -6008,13 +6008,13 @@
           <em>&#9733;&#9733;:</em> Serious. Wounds of this type also
           have minor effects on neighbouring detailed body parts at
           &#9733; less.  Any activity involving these body parts are
-          at the appropriate penalty.  These "effect" wounds do not
-          heal separately.
+          at the appropriate penalty.  These effect wounds do not heal
+          separately.
         </p>
         <p>
           <em>&#9733;&#9733;&#9733;:</em> Grievous.  The detailed body part
           cannot be used, serious use effects on neighbouring detailed
-          body parts, and minor on main parts.  These "effect" wounds
+          body parts, and minor on main parts.  These effect wounds
           do not heal separately.  Minor effects are at &#9733;&#9733;
           less than the Grievous, while serious are &#9733; less.
         </p>
@@ -6089,11 +6089,11 @@
         </p>
         <p>
           The standard treatments mostly known by all still need to be
-          applied and detailed, so a physician's diagnosis is always
-          necessary.  "Destroyed" wounds may be treated as
-          incapacitating, with a Bonus on Diagnosis of &#9733;.
-          Note that the usage effects on bordering regions needs to be
-          treated as well.
+          applied and detailed, so a physician&#8217;s diagnosis is
+          always necessary.  &#8220;Destroyed &#8221; wounds may be
+          treated as incapacitating, with a Bonus on Diagnosis of
+          &#9733;.  Note that the usage effects on bordering regions
+          needs to be treated as well.
         </p>
         <include id="Wounds"/>
         <p>
