@@ -2507,6 +2507,38 @@
             Bog:</em> -2.  <em>Stone:</em> +3.  <em>Uneven,
             Rocks:</em> +6.
           </p>
+          <p>
+	    <em>Close Mode:</em> Subtract 1 for each significant
+	    impediment reaching into an engagement zone in the
+	    direction of the two enemies.  For Multiple impediments
+	    only choose the greater intrusion. A blanket counts as
+	    significant, as does a wooden beam.  A feather bush does
+	    not.
+          </p>
+          <p>
+            <em>Jousting: </em> Each opponent is attacker and defender
+            at the same time and the result is determined through
+            normal ML rolls.  Use the following tactical modifiers.
+          </p>
+          <p>
+            The chance for the pole to break is equal to the impact it
+            causes (before armor reduction).  The chance for a shield
+            to break is the amount of damage is absorbs (provided it
+            is hit).  If the shield breaks, reduce strike impact by 3
+            further points.  If your pole does not break, your
+            opponent may be injured.  Determine Strike Location and
+            effective impact normally.  Because there is more chance
+            of being struck on the left side of the body, roll 1d4 for
+            strike locations with two sides: 1-3 = left; 4 = right.
+            If the location struck is covered by a shield (see above)
+            a shield damage check is made.  If the shield does not
+            break, it deflects the strike and there is no effective
+            impact.  Otherwise, determine injury effect as normal.
+            Any strike, including one by a broken pole, requires an
+            Unhorsing Roll.  Also, if the strike impact exceeds the
+            target’s STR (before armour reduction) an unhorsing roll
+            is required.
+          </p>
         </div>
         <p style="text-align:center">
           Missile Attack table
@@ -2520,34 +2552,10 @@
           Fall table
         </p>
         <include id="Combat-Fall"/>
-        <h4>Jousting</h4>
-        <p>
-          Each opponent is attacker and defender at the same time and
-          the result is determined through normal ML rolls.  Use the
-          following tactical modifiers.
-        </p>
-        <include id="Joust"/>
-        <p>
-          The chance for the pole to break is equal to the impact it
-          causes (before armor reduction).  The chance for a shield to
-          break is the amount of damage is absorbs (provided it is
-          hit).  If the shield breaks, reduce strike impact by 3
-          further points.
-        </p>
-        <p>
-          If your pole does not break, your opponent may be injured.
-          Determine Strike Location and effective impact normally.
-          Because there is more chance of being struck on the left
-          side of the body, roll 1d4 for strike locations with two
-          sides: 1-3 = left; 4 = right.  If the location struck is
-          covered by a shield (see above) a shield damage check is
-          made.  If the shield does not break, it deflects the strike
-          and there is no effective impact.  Otherwise, determine
-          injury effect as normal.  Any strike, including one by a
-          broken pole, requires an Unhorsing Roll.  Also, if the
-          strike impact exceeds the target’s STR (before armour
-          reduction) an unhorsing roll is required.
-        </p>
+        <p style="text-align:center">
+	  Jousting Table
+	</p>
+	<include id="Joust"/>
         <h4>Special Wounds</h4>
         <p>
           <em>Drowning:</em> While incapacitated, the internal system
@@ -5636,7 +5644,8 @@
             protection.
           </p>
           <p>
-            <em>Joust*:</em> These are regular items used in jousting context.
+            <em>Joust*:</em> These are regular items used in jousting
+            context.
           </p>
         </div>
         <p>
@@ -6008,8 +6017,8 @@
           elements in any battle.  All these factors are accounted for
           by Morale, which benefits individuals with high Morale and
           is detrimental to combatants with low Morale.  Having been
-          prone in a Combat situation applies a penalty of &#9733;&#9733; to Horse
-          Morale, which fades away.
+          prone in a Combat situation applies a penalty of
+          &#9733;&#9733; to Horse Morale, which fades away.
         </p>
         <p>
           <em>Normal:</em> A combatant with normal morale behaves
@@ -6017,8 +6026,7 @@
           action option.
         </p>
         <p>
-          <em>Cautious:</em> A cautious combatant will not Engage,
-          must choose Pass if engaged, and will not Counterstrike.
+          <em>Cautious:</em> A cautious combatant will not Engage.
         </p>
         <p>
           <em>Desperate:</em> Combatant tries to conclude the battle,
@@ -6030,25 +6038,24 @@
           <em>Broken:</em> The individual is unable to fight in any
           useful way.  The only available options are flight or
           surrender.  Flight is normally preferable; surrender is a
-          last resort.  If neither is feasible, the individual makes a
-          Rest or Pass action option, but can defend if attacked
-          except that Counterstrike is prohibited.
+          last resort.  If neither is feasible, the individual may
+          only directly defend.
         </p>
         <p>
-          <em>Rally:</em> The individual has enough combatant to
-          support others in their Morale.  He may provide his success
-          to Morale rolls of others he can communicate with.  This is
-          valid for a synchronous Morale roll only.  This may be
-          augmented by Rhetoric.
+          <em>Rally:</em> The individual has enough combat hardiness
+          to support others in their Morale.  He may provide his
+          success to Morale rolls of others he can communicate with.
+          This is valid for a synchronous Morale roll only.  This may
+          be augmented by Rhetoric.
         </p>
         <p>
           <em>Berserk:</em> This is a special state of battle-frenzy.
           Any combatant who enters this mode will take the most
-          aggressive action available for Attack or Defense, adding &#9733;
-          to Attack Mastery subtracting &#9733; from Mastery to defend.
-          Further Morale rolls are ignored until the battle ends.
-          Some combatants may have a cultural heritage of berserking,
-          or a particular reason to go berserk.
+          aggressive action available for Attack or Defense, adding
+          &#9733; to Attack Mastery subtracting &#9733; from Mastery
+          to defend.  Further Morale rolls are ignored until the
+          battle ends.  Some combatants may have a cultural heritage
+          of berserking, or a particular reason to go berserk.
         </p>
         <h3 id="wounds">Wounds</h3>
         <p>
