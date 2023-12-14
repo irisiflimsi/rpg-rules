@@ -6126,7 +6126,7 @@
           may become infected until it turns into a minor wound.  An
           infection is a daily attack on the wounded area with a level
           of the wound, defended against with Stamina.  Medicine
-          applies in the same way as for minor wounds, but it harder
+          applies in the same way as for minor wounds, but is harder
           to obtain.  A penalty of &#9733; is suitable.  Any
           injury points gained through the infection is added to the
           original wound.  This may turn the wound into a grievous
@@ -6161,7 +6161,7 @@
         <p>
           The standard treatments mostly known by all still need to be
           applied and detailed, so a physician&#8217;s diagnosis is
-          always necessary.  &#8220;Destroyed &#8221; wounds may be
+          always necessary.  &#8220;Destroyed&#8221; wounds may be
           treated as incapacitating, with a Bonus on Diagnosis of
           &#9733;.  Note that the usage effects on bordering regions
           needs to be treated as well.
