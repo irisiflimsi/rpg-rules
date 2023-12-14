@@ -643,10 +643,12 @@
         </p>
         <p>
           Any effects from wounds or other external influences in
-          combat are applied immediately to pending progressions.  At
-          the actors choice it can offset the goal or the time.  To
-          prevent players from immediately aborting bad rolls,
-          mandatory secret rolls by the GM can be used.
+          combat are applied immediately to pending progressions, but
+          need to be modified by <em>B/E/P</em> of choice and the
+          appropriate armor.  At the actors choice it can offset the
+          goal or the time.  To prevent players from immediately
+          aborting bad rolls, mandatory secret rolls by the GM can be
+          used.
         </p>
         <p>
           If time is fixed, a best effort attack can be made.  For
@@ -666,9 +668,12 @@
           that the same scheme must be applied to all participants
           (actors) in the scene but the modifiers vary, if an action
           has a time dimension (measured in seconds).  A sensible
-          modifier often is the negative value that must closely
-          rounds to the number of rounds the activity is performed.
-          The following table does this for the Combat Time dimension.
+          modifier often is the value that most closely rounds to the
+          number of rounds the activity is performed in.  The
+          following table does this for the Combat Time
+          dimension.  Note that the more time an action takes, that
+          could have been achieved within a round, the higher the
+          bonus.
         </p>
         <include id="$D-Combat-2"/>
         <h5 class="skill" id="di-kno">Knowledge</h5>
@@ -676,7 +681,7 @@
         <p>
 	  This dimension can be exploited as knowledge and the
 	  knowledge about knowledge, i.e. how sure is the character
-	  that his reproduction of the knowledge is correct. Some
+	  that his reproduction of the knowledge is correct.  Some
 	  example task difficulties follow.
         </p>
         <div class="explain">
