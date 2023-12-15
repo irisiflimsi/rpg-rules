@@ -275,9 +275,9 @@
         <div class="explain">
           <p>
             Assume you decided to use <em>d100</em> and rolled a 24 on
-            the first roll.  This means a result of 1 on the first table. 
-            The second roll (the negative or passive roll) shows a 50, which
-            results in 3 for a net result of -2.
+            the first roll.  This means a result of 1 on the first
+            table.  The second roll (the negative or passive roll)
+            shows a 50, which results in 3 for a net result of -2.
           </p>
           <p>
             Using Table 2, a 28 is rolled, which results in -3.
@@ -471,9 +471,10 @@
         <p>
           If a decomposition results in multiple rolls, make sure that
           the rules of <em>Combinations</em> remain valid.  A typical
-          example would be to turn a roll that would usually apply every 10 days
-          into a roll that applies every day.  This implies that all
-          of the daily rolls have a difficulty increased by 10.
+          example would be to turn a roll that would usually apply
+          every 10 days into a roll that applies every day.  This
+          implies that all of the daily rolls have a difficulty
+          increased by 10.
         </p>
         <p>
           Decomposition and then combining skills is a great tool to
@@ -504,9 +505,9 @@
         </p>
         <h3 id="Dimensions">Dimensions</h3>
         <p>
-	  A skill may be applied in multiple <em>dimensions</em>.  It may be
-	  used to evaluate something, to produce something, to use
-	  something, and more in the appropriate domain.  It can
+	  A skill may be applied in multiple <em>dimensions</em>.  It
+	  may be used to evaluate something, to produce something, to
+	  use something, and more in the appropriate domain.  It can
 	  happen under time pressure or at ones leisure.  These
 	  different variable results are called dimensions.  A typical
 	  dimension is the time it takes to apply a skill.  Another
@@ -538,8 +539,8 @@
           fall according to our rules.  The same is true for Dungeons
           and Dragons, Pathfinder, or generally the d20 group of
           rules, which use twenty 5% steps, instead of the finer
-          grained 1% step.  Note that these steps are approximations,
-          since none of these rolls are translation-invariant.
+          grained 1% step.  These steps are approximations, since none
+          of these rolls are translation-invariant.
         </p>
         <p>
           Note that you could just multiply the d20 skill levels by
