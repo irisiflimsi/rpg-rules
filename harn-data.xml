@@ -275,7 +275,7 @@
       <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
     </tr>
     <tr class="num">
-      <td>Inclince</td><td>0°</td><td>15°</td><td>30°</td><td>45°</td><td>60°</td><td>75°</td><td>90°</td><td>100°</td><td>110°</td><td>120°</td>
+      <td>Inclince</td><td>0&#176;</td><td>15&#176;</td><td>30&#176;</td><td>45&#176;</td><td>60&#176;</td><td>75&#176;</td><td>90&#176;</td><td>100&#176;</td><td>110&#176;</td><td>120&#176;</td>
     </tr>
     <tr class="num">
       <td>Speed</td><td>-</td><td>0</td><td>0.25</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>5</td>
@@ -384,7 +384,7 @@
       <td><em>Emela</em></td><td><em>Ivinian</em></td><td>Azeryani</td>
     </tr>
     <tr>
-      <td><em>Hârnic</em></td><td>Old Trierzi</td><td><em>Byrian</em></td>
+      <td><em>H&#226;rnic</em></td><td>Old Trierzi</td><td><em>Byrian</em></td>
     </tr>
     <tr>
       <td>Jarind</td><td><em>Orbaalese</em></td><td>Elbythian</td>
@@ -396,7 +396,7 @@
       <td>Old Altish</td><td>Phari</td><td><em>Karejian</em></td>
     </tr>
     <tr>
-      <td>Old Hârnic</td><td>Quar</td><td>Karuia</td>
+      <td>Old H&#226;rnic</td><td>Quar</td><td>Karuia</td>
     </tr>
     <tr>
       <td>Old Jarinese</td><td><em>Quarph</em></td><td><em>Low Azeryani</em></td>
@@ -1419,7 +1419,7 @@
       <td>Sarajin</td><td>Ivinian</td><td>Runic</td><td></td>
     </tr>
     <tr>
-      <td>Save-K’nor</td><td>Azeri</td><td>Tianta</td><td></td>
+      <td>Save-K&#8217;nor</td><td>Azeri</td><td>Tianta</td><td></td>
     </tr>
     <tr>
       <td>Siem</td><td>Sindarin</td><td>Selenian</td><td></td>
@@ -1870,7 +1870,7 @@
       <td>Plate</td><td>Halfhelm</td><td>3.2</td><td>100d</td><td>Sk</td>
     </tr>
     <tr>
-      <td>Plate</td><td>¾ Helm</td><td>5.6</td><td>175d</td><td>Sk Fa</td>
+      <td>Plate</td><td>&#190; Helm</td><td>5.6</td><td>175d</td><td>Sk Fa</td>
     </tr>
     <tr>
       <td>Plate</td><td>Great Helm</td><td>8.8</td><td>275d</td><td>Sk Fa Nk</td>
@@ -2592,7 +2592,7 @@
       <span>Lady</span>/<span>40</span>,
       <span>Cleric</span>/<span>40</span>,
       <span>Cleric/Ilvir</span>/<span>60</span>,
-      <span>Cleric/Save-K’nor</span>/<span>60</span>,
+      <span>Cleric/Save-K&#8217;nor</span>/<span>60</span>,
       <span>Shek-Pvar/Savorya</span>/<span>80</span>
     </p>
     <p>
@@ -2864,7 +2864,7 @@
       <span>Cleric</span>/<span>40</span>,
       <span>Cleric/Agrik</span>/<span>60</span>,
       <span>Cleric/Larani</span>/<span>60</span>,
-      <span>Cleric/Save-K’nor</span>/<span>40</span>,
+      <span>Cleric/Save-K&#8217;nor</span>/<span>40</span>,
       <span>Cleric/Shea-Al-Aecori</span>/<span>60</span>,
       <span>Military</span>/<span>40</span>
     </p>
@@ -3073,8 +3073,8 @@
       <span>Mercantyler</span>/<span>80</span>,
       <span>Herald</span>/<span>80</span>,
       <span>Cleric/Halea</span>/<span>80</span>,
-      <span>Cleric/Save-K’nor</span>/<span>80</span>,
-      <span>Cleric/Save-K’nor</span>/<span>60</span>,
+      <span>Cleric/Save-K&#8217;nor</span>/<span>80</span>,
+      <span>Cleric/Save-K&#8217;nor</span>/<span>60</span>,
       <span>Scribe</span>/<span>80</span>
     </p>
     <p>
@@ -3098,7 +3098,7 @@
       <span>Mercantyler</span>/<span>40</span>,
       <span>Bailiff</span>/<span>60</span>,
       <span>Cleric</span>/<span>40</span>,
-      <span>Cleric/Save-K’nor</span>/<span>60</span>,
+      <span>Cleric/Save-K&#8217;nor</span>/<span>60</span>,
       <span>Cleric/Shea-Al-Aecori</span>/<span>80</span>
     </p>
     <p>
@@ -3247,7 +3247,7 @@
       <span>Pilot</span>/<span>40</span>,
       <span>Shipwright</span>/<span>40</span>,
       <span>Cleric/Halea</span>/<span>40</span>,
-      <span>Cleric/Save-K’nor</span>/<span>60</span>,
+      <span>Cleric/Save-K&#8217;nor</span>/<span>60</span>,
       <span>Shek-Pvar</span>/<span>40</span>
     </p>
     <p>
@@ -3768,7 +3768,7 @@
       <span>Herald</span>/<span>80</span>,
       <span>Cleric</span>/<span>80</span>,
       <span>Cleric/Halea</span>/<span>80</span>,
-      <span>Cleric/Save-K’nor</span>/<span>80</span>,
+      <span>Cleric/Save-K&#8217;nor</span>/<span>80</span>,
       <span>Shek-Pvar</span>/<span>80</span>,
       <span>Tutor (2x)</span>/<span>100</span>,
       <span>Sage (2x)</span>/<span>100</span>,

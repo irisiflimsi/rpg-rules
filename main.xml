@@ -44,7 +44,7 @@
         </p>
         <ul>
           <li>
-            Keep out rules that explain a setting.  Let's call these
+            Keep out rules that explain a setting.  Let&#8217;s call these
             <em>in-world</em> rules.  Rules are called
             <em>out-world</em> rules, when they apply only to players
             and/or the GM.  Sometimes the distinction is not easy, a
@@ -75,9 +75,10 @@
         <ul>
           <li>
             A skill proficiency and a task difficulty can be expressed
-            as numbers. We call half of the probability for a skill of
-            <em>0</em> to succeed at a task of level <em>1</em> as
-            <em>p</em>. This "half" is for technical reasons.
+            as numbers.  We call half of the probability for a skill
+            of <em>0</em> to succeed at a task of level <em>1</em> as
+            <em>p</em>.  This &#8220;half&#8221; is for technical
+            reasons.
           </li>
           <li>
             A skill level of <em>k</em> has the same probability of
@@ -97,12 +98,11 @@
           The numbers <em>m, n, k</em> are your regular (non-negative
           integer) numbers.  Assuming we have a failure probability of
           <em>p/2</em> for a skill of <em>1</em> for a task of
-          <em>0</em>, we will restrict ourselves to
-          <em>p=0.8</em>. Note that we extend the range of skill and
-          task levels to the negative numbers, if we treat a task
-          level as negative skill level, i.e. pitting a (-k)-skill
-          against a 0-task is the same as pitting a 0-skill at a
-          k-task.
+          <em>0</em>, we will restrict ourselves to <em>p=0.8</em>.
+          Note that we extend the range of skill and task levels to
+          the negative numbers, if we treat a task level as negative
+          skill level, i.e. pitting a (-k)-skill against a 0-task is
+          the same as pitting a 0-skill at a k-task.
         </p>
         <p>
           This is in fact all we need, because the following are
@@ -134,10 +134,10 @@
           </em>
         </p>
         <p>
-          The mechanism is different from most other rules (I haven't
-          found any that use it), where you will often roll either a
-          pool of dice and count those that match a certain threshold
-          or single die roll.
+          The mechanism is different from most other rules (I
+          haven&#8217;t found any that use it), where you will often
+          roll either a pool of dice and count those that match a
+          certain threshold or single die roll.
         </p>
         <p>
           All these methods, ours included, are usually compared
@@ -182,7 +182,8 @@
           which forces you to roll on this table again and add 20 to
           the net result from the repeated application.  We will see
           this in the examples.)  Some system have a similar mechanic
-          and call it an "exploding" roll or "open-ended".
+          and call it an &#8220;exploding&#8221; roll or
+          &#8220;open-ended&8221;.
         </p>
         <table style="width:70%">
           <tr>
@@ -284,9 +285,9 @@
           <p>
             A more exotic roll would be the sequence 96, 99, 93, 61 on
             the <em>d100</em>.  The result would be 34 for a positive
-            stop roll. For a combined stop roll, the result would be
+            stop roll.  For a combined stop roll, the result would be
             29 (and the roll of 61 ignored, because it is not needed,
-            because the 93 already "stops" on Table 2).
+            because the 93 already &#8220;stops&#8221; on Table 2).
           </p>
           <p>
             Using the standard method, the positive sequence on a
@@ -318,13 +319,13 @@
         <h3 id="Hints">Hints</h3>
         <p>
           When describing a certain situation, the actor and the
-          obstacle both possess a ceratin <em>level</em>. The first is
-          usually a skill in the particular act and second a measure
-          of the difficulty of the task.  In the previous example, the
-          observer might have a (skill) level of 5 and finding the
-          clandestine character a (task) level of 3.  These levels
-          will be added to the positive and negative stop rolls,
-          respectively.
+          obstacle both possess a ceratin <em>level</em>.  The first
+          is usually a skill in the particular act and second a
+          measure of the difficulty of the task.  In the previous
+          example, the observer might have a (skill) level of 5 and
+          finding the clandestine character a (task) level of 3.
+          These levels will be added to the positive and negative stop
+          rolls, respectively.
         </p>
         <p>
           We are adding and subtracting 4 numbers; stop rolls and
@@ -335,7 +336,7 @@
           success or failure, you can apply the following shortcut.
           Since the difference must be met by the lower level
           contestant, you may roll all the difference dice in one
-          combined “throw” and check, whether any stop digit appears.
+          combined ?throw? and check, whether any stop digit appears.
           If it does the lower contestant cannot win, since it is
           irrelevant, where the stop digit appears.  If the stop digit
           does not appear, chances have reduced to 50/50, and you can
@@ -347,15 +348,15 @@
           difference is 8.  The GM rolls 8 dice, which show up 3, 5,
           6, 1, 3, 9, 9, and 8.  Since 1 is a stop digit, the cliff is
           scaled.  If the 1 had been a 7 instead, for instance, the
-          cliff would have had a "fighting chance" to drop the
-          character.  The GM decides that even is good for the
-          character and odd is bad and rolls a d10.  It comes up a 6
-          and the character has barely made it.  Any story-telling
-          description of this close encounter is at your option.
+          cliff would have had a good chance to drop the character.
+          The GM decides that even is good for the character and odd
+          is bad and rolls a d10.  It comes up a 6 and the character
+          has barely made it.  Any story-telling description of this
+          close encounter is at your option.
         </p>
         <p>
           Another pragmatic rule applies to differences of at least
-          10. Rolling 10 non-stop rolls in a row to match a level
+          10.  Rolling 10 non-stop rolls in a row to match a level
           difference of 10 can be shortened to rolling a 1 on a d10.
           The chance 1/10 is an approximation of 0.1073741824, which
           is the exact chance.  In fact, the choice of d5 in the
@@ -366,7 +367,7 @@
       <div class="container">
         <h1 id="Roaming">Roaming the Skill Space</h1>
         <p>
-          The following rules address common situations. How do you
+          The following rules address common situations.  How do you
           combine a group of actors that support each other?  How do
           you apply two skills to a task that fits both?  You should
           never indiscriminately add values.  Remember that a
@@ -381,12 +382,12 @@
         <p>
           Say you want to add the skills <em>n</em> and <em>m</em> of
           two actors, where the respective task difficulties have
-          already been subtracted. In the first row, you index the
-          positive difference between <em>n</em> and <em>m</em>. The
-          second row will then give you the "bonus" to add to the
-          higher of the two skills - which is then the only one you
-          need to roll.  Say the skills are 5 and 9.  Then the net
-          skill level of the two actors together is 12.
+          already been subtracted.  In the first row, you index the
+          positive difference between <em>n</em> and <em>m</em>.  The
+          second row will then give you the bonus to add to the higher
+          of the two skills - which is then the only one you need to
+          roll.  Say the skills are 5 and 9.  Then the net skill level
+          of the two actors together is 12.
         </p>
         <table style="width:75%">
           <tr>
@@ -402,8 +403,8 @@
           actors.  In order to keep this rule simple, round results in
           your tables.  If you use the rule multiple times, always
           group two actors of similar skill levels together to reduce
-          rounding errors.  (This is "normalized" skill level,
-          i.e. the task level has already been subtracted.)
+          rounding errors.  (This is normalized skill level, i.e. the
+          task level has already been subtracted.)
         </p>
         <p>
           As a more elaborate example, say you have four characters in
@@ -411,7 +412,7 @@
           this technically means that either of those characters could
           find it, i.e. all would have to roll against a set
           diffculty.  But you want just one roll.  These characters
-          have a skill level of 5, 7, 13, and 17. Taking the first
+          have a skill level of 5, 7, 13, and 17.  Taking the first
           two, because they are closest to each other, we combine them
           into an actor with 11.  Now we combine 11 and 13 in the same
           manner to 17.  In the last step, we combine 17 and 17 into
@@ -432,17 +433,17 @@
           will raise the alarm and the maneuver fails.  As luck will
           have it, their Hide skill level is exactly as their Search
           skill level.  But now it is passive: 5 and 7 will turn into
-          1. 13 and 17 (closest together) will turn into 10. The
-          difficulty of the skill "pairs" 1 and 10 turns into -1.
-          Since the guard isn't really paying attention, the GM gives
-          the guard a skill level of 0.  That leaves the group with a
-          60% failure chance.
+          1.  13 and 17 (closest together) will turn into 10. The
+          difficulty of the skill &#8220;pairs&#8221; 1 and 10 turns
+          into -1.  Since the guard isn&#8217;t really paying
+          attention, the GM gives the guard a skill level of 0.  That
+          leaves the group with a 60% failure chance.
         </p>
         <p>
           If you are worried about rounding errors, use the following
           formula, where &#946; is the difference in level you plug in
           and and the addition to the higher value is calculated.
-          Round when done with "addition".
+          Round when done with 5-addition.
         </p>
         <p style="font-weight:bold;text-align:center;">
           5 ln(1+e<sup>-&#946;ln(2)/5</sup>)/ln(2)
@@ -450,12 +451,12 @@
         <p>
           Do not be overwhelmed by this suggestion, you will most
           likely never ever use it, since role playing is more about
-          an individual's actions than a group's. And lengthy
-          calculations just to be correct will reduce enjoyment. Use
-          it only when players try to "break the rules" by
-          misconstrued rounding and then have <em>them</em> do the
-          math! Come to think of it, players never do that, so forget
-          the whole suggestion.
+          an individual&#8217;s actions than a group&#8217;s.  And
+          lengthy calculations just to be correct will reduce
+          enjoyment.  Use it only when players try to &#8220;break the
+          rules&#8221; by misconstrued rounding and then have
+          <em>them</em> do the math! Come to think of it, players
+          never do that, so forget the whole suggestion.
         </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
@@ -481,13 +482,14 @@
           says he has level 5 as Sailor and level 3 as Mountaineer.
           For tasks like knots where the difficulty is the same for a
           Sailor and a Mountaineer, the GM can allow the PC to use a
-          9. The reasoning is that the knot skill application works as
-          if two separate actors were trying to tie the knot together.
-          Be careful, however, with allowing such additions, because
-          if you treat 0 as the value an untrained individual has,
-          then in the above case a sailor that has never seen a
-          mountain would still have a 0 in mountaeineering and adding
-          a 0 would yield an effective knot skill of 8.
+          9.  The reasoning is that the knot skill application works
+          as if two separate actors were trying to tie the knot
+          together.  Be careful, however, with allowing such
+          additions, because if you treat 0 as the value an untrained
+          individual has, then in the above case a sailor that has
+          never seen a mountain would still have a 0 in
+          mountaeineering and adding a 0 would yield an effective knot
+          skill of 8.
         </p>
         <h3 id="Normalization">Normalization</h3>
         <p>
@@ -495,10 +497,33 @@
 	  does that mean?  This value should be the skill level of
 	  untrained, uneducated human that has grown up to 20 years
 	  without restriction but also with sufficient care and
-	  nutrients.  This is a fictional person. For instance, in
+	  nutrients.  This is a fictional person.  For instance, in
 	  order to compare different language skills, we assume this
-	  "normal" person has none. When it comes to gender or racial
+	  normal person has none.  When it comes to gender or racial
 	  differences, we also suggest to create a fictitious average.
+        </p>
+        <h3 id="Dimensions">Dimensions</h3>
+        <p>
+	  A skill may be applied in multiple <em>dimensions</em>.  It may be
+	  used to evaluate something, to produce something, to use
+	  something, and more in the appropriate domain.  It can
+	  happen under time pressure or at ones leisure.  These
+	  different variable results are called dimensions.  A typical
+	  dimension is the time it takes to apply a skill.  Another
+	  typical dimension would be the quality of the result.  It is
+	  useful to prepare common dimensions for skill application.
+	  Both to be prepared and be consistent over time.
+        </p>
+        <p>
+	  If an actor decides to use multiple dimensions at the same
+	  time, this is called trajectory.  For example, assume that
+	  we have two common applications of a skill
+	  <em>Fletching</em>: creating an arrow of standard quality,
+	  where time varies, and creating an arrow during whittling
+	  for an hour, where quality varies.  In preparing for an
+	  upcoming attack on his village, the actor decides to create
+	  more good arrows at speed and wants 50% speed and 50%
+	  quality.  This is a typical trajectory.
         </p>
       </div>
       <div class="container">
@@ -543,7 +568,7 @@
           sub-pages.
         </p>
         <h3 id="harn">
-          <a href="harn.xml">Rules for Hârnworld</a>
+          <a href="harn.xml">Rules for H&#226;rnworld</a>
         </h3>
         <h3 id="expanse">
           <a href="expanse.xml">Rules for Expanse</a>

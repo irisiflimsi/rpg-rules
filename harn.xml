@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
-    <title>Rules for Hârnworld</title>
+    <title>Rules for H&226;rnworld</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" href="main.css"/>
@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="main">
-      <div class="title">Rules for Hârnworld</div>
+      <div class="title">Rules for H&#226;rnworld</div>
       <div class="container">
         <h1 id="rules">Rules</h1>
         <p>
@@ -20,15 +20,15 @@
           <em>attributes</em> are properties of people that can be
           observed by knowledgeable observers in the world, just as
           occupational or professional <em>skills</em> are.  They are
-          reasonable abstractions made inside Hârn world,
+          reasonable abstractions made inside H&#226;rn world,
           i.e. in-world rules.
         </p>
         <p>
-          Any competence in Hârnworld is abstracted on a five-star
+          Any competence in H&#226;rnworld is abstracted on a five-star
           scale &#9733; through &#9733;&#9733;&#9733;&#9733;&#9733;,
           where exceptional values may go beyond.  How to turn this
           into numbers for out-world rule operations is detailed
-          later. 
+          later.
         </p>
         <p>
           We normalize to 0, which means that an uneducated, untrained
@@ -118,7 +118,7 @@
         </p>
         <p>
           The following is a list of skills that are commonly used by
-          people on Hârn.  It is neither complete no without overlap.
+          people on H&#226;rn.  It is neither complete no without overlap.
           It is an in-world collection of relevance.
         </p>
         <p>
@@ -752,7 +752,7 @@
           study.  The <em>Consecrated Ground</em> modifier usually can
           be 5-added to the ML.  A scripture must be read in full.
           Recipes have a circle rating, ranging from I - VI, or given
-          as star rating. This is a direct numeric penalty when
+          as star rating.  This is a direct numeric penalty when
           applying the recipe, e.g. performing the ritual.  For
           learning it represents the difficulty, see the star-rating
           dimension.  Calculate the modifiers and make a learning roll
@@ -928,7 +928,7 @@
           Specialty.  Use the <em>Recipe</em> dimension for NPCs that
           may surround themselves with trained animals.  Intelligence
           in the table means the attribute of the animal to be
-          trained. If the animal isn&#8217;t smart enough, nothing is
+          trained.  If the animal isn&#8217;t smart enough, nothing is
           learned.  Also use the <em>Yield</em> dimension four times
           for each reasonable trick.  Tricks must be practiced to be
           retained by the animal.
@@ -965,7 +965,7 @@
           The ability to use hafted, edged weapons.  Specialties
           include Battleaxe, Handaxe, Hatchet, Shorkana (throwing
           axe), Sickle (peasant weapon), and Warhammer.  Poleaxes are
-          treated as Polearms (a separate skill). Use the
+          treated as Polearms (a separate skill).  Use the
           <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-blo">Blowgun</h5>
@@ -1059,7 +1059,7 @@
           The ability to perform various types of dance.  Specialties
           such as folk or erotic dancing are viable.  Dancing is very
           important in some cultures, and can be used to enhance
-          spellcasting (see HârnMaster Magic).  Dances are social
+          spellcasting (see H&#226;rnMaster Magic).  Dances are social
           interactions.  Without at least visible encounters with
           dances, OML is -10.  Use the <em>Artistic</em> dimension.
         </p>
@@ -1076,7 +1076,7 @@
           detected.  Awareness rolls may also be made for any
           potential witnesses.  Shells or a coin are assumed for the
           listed penalty.  The Grope dimension is the time a trick
-          takes, but mostly for larger objects – this is a combat
+          takes, but mostly for larger objects - this is a combat
           dimension.
         </p>
         <include id="$D-Dexterity"/>
@@ -1105,7 +1105,7 @@
           widely, this can result in quite an accumulation of
           knowledge.  Religious and/or cultural differences may be
           treated as specialties.  Civilized cultures take great care
-          with their dead – embalming is a sign of respect and honor,
+          with their dead - embalming is a sign of respect and honor,
           and has serious emotional and religious overtones.  Most
           temples use master embalmers (either bonded or free) to
           oversee their burial rituals.  Embalming includes limited
@@ -1148,10 +1148,10 @@
           by the GM depending on season, locale, and equipment.  Fish
           alone does not provide a balanced diet.  With otherwise
           average condition the base yield is 1 manday worth of fish.
-          Conditions range from excellent +20 to poor -20. (Of course,
-          fishing requires a sufficiently large body of water, capable
-          of sustaining fish.  Overfishing may imply additional
-          penalties.)  Fishing uses the <em>Yield</em> and
+          Conditions range from excellent +20 to poor -20.  (Of
+          course, fishing requires a sufficiently large body of water,
+          capable of sustaining fish.  Overfishing may imply
+          additional penalties.)  Fishing uses the <em>Yield</em> and
           <em>(Yield) Time</em> dimensions.
         </p>
         <h5 class="skill" id="sk-fla">Flail</h5>
@@ -1167,9 +1167,8 @@
         <p>
           The ability to make and repair bows and arrows.  Base yield
           is 1/4 bow or 3 arrows, which assumes tools and materials
-          are readily available and a 12 hour period of work per
-          day. Use the <em>Yield</em> and <em>Yield (Time)</em>
-          dimensions.
+          are readily available and a 12 hour period of work per day.
+          Use the <em>Yield</em> and <em>Yield (Time)</em> dimensions.
         </p>
         <h5 class="skill" id="sk-fol">Folklore</h5>
         <include id="$Folklore"/>
@@ -1180,12 +1179,12 @@
           character remembers information relevant to the subject
           being inquired about.  To avoid rolling multiple times on
           the table, the PC that searches his arsenal should give a
-          trajectory among the two dimensions, after the GM tells
-          him how obscure the sought story actually is.  For example,
+          trajectory among the two dimensions, after the GM tells him
+          how obscure the sought story actually is.  For example,
           Rogan is attempting to recall the name of a great hero of
-          some common legend. 50% go to depth and 50% to
-          breadth. Rolling a result of 0 would imply that 30% of great
-          myths can be repeated and the GM rules that the hero&#8217;s name
+          some common legend.  50% go to depth and 50% to breadth.
+          Rolling a result of 0 would imply that 30% of great myths
+          can be repeated and the GM rules that the hero&#8217;s name
           belongs to the important part of the myth.  Thus Rogan
           recalls the name: Genin.  Use the <em>Knowledge</em>
           dimension.
@@ -1200,11 +1199,11 @@
           conditions depending on season and locale, and uses the
           table to determine the mandays of food found.  Areas near
           civilization are likely to have a penalty of 10-20.
-          Excellent conditions exist only in tropical
-          rain-forests and special places like the Shava Forest with
-          10 bonus.  Season is highly relevant.  To seek specific
-          plants, see Herblore.  For hunting meat, see Tracking. Use
-          the <em>Yield</em> and <em>(Yield) Time</em> dimensions.
+          Excellent conditions exist only in tropical rain-forests and
+          special places like the Shava Forest with 10 bonus.  Season
+          is highly relevant.  To seek specific plants, see Herblore.
+          For hunting meat, see Tracking.  Use the <em>Yield</em> and
+          <em>(Yield) Time</em> dimensions.
         </p>
         <h5 class="skill" id="sk-gla">Glasswork</h5>
         <include id="$Glasswork"/>
@@ -1333,7 +1332,7 @@
           by the character.  ML depends on the complexity of the task
           attempted.  Materials are necessary and failure can be
           expensive.  This skill is also used to appraise gems, fine
-          metalwork, and/or jewelry. Uses the <em>Recipe</em>
+          metalwork, and/or jewelry.  Uses the <em>Recipe</em>
           dimension.
         </p>
         <h5 class="skill" id="sk-jum">Jumping</h5>
@@ -1365,7 +1364,7 @@
         <p>
           Foreign languages may be opened in the course of play as any
           other skill.  The table below shows the three language
-          families spoken on/near Hârn.  Living languages are shown in
+          families spoken on/near H&#226;rn.  Living languages are shown in
           italic.  When one language of a family is known, it is
           easier to learn other related languages.  Orbaalese belongs
           to two families.  Foreign tongues can be learned with
@@ -1510,14 +1509,14 @@
           Humans can accelerate and decelerate as 3 m/s each second.
           Turning options are in parts of a full circle (centered
           around the direction of travel).  E.g. at 3 m/s this means
-          60° off the direction of travel on either side per second.
+          60&#176; off the direction of travel on either side per second.
           For the sake of playability variance in this should be
           suppressed, although a 20% spread (for a 10 level
           difference) with Agility modification could be appropriate.
         </p>
         <p>
 	  Since steeds and (animal-powered) vehicles are important on
-	  Hârn, the table is extended beyond the human range.  Humans
+	  H&#226;rn, the table is extended beyond the human range.  Humans
 	  max out at 9m/s at optimum.
         </p>
         <include id="$D-Move"/>
@@ -1549,7 +1548,7 @@
           Flute, Horn, Pipes, and Lute.  The availability of musical
           instruments and skills depends on culture.  ML is modified
           by instrument quality.  Reading and writing of music as a
-          Script is treated separately. Use the <em>Artistic</em>
+          Script is treated separately.  Use the <em>Artistic</em>
           dimension.
         </p>
         <h5 class="skill" id="sk-net">Net</h5>
@@ -1562,7 +1561,7 @@
         <p>
           Used to determine success at inventing and producing
           perfumes, soap, incense, etc.  Appropriate materials are
-          necessary. Use the <em>Recipe</em> dimension.
+          necessary.  Use the <em>Recipe</em> dimension.
         </p>
         <h5 class="skill" id="sk-phy">Physician</h5>
         <include id="$Physician"/>
@@ -1596,9 +1595,9 @@
           by another colleague).  The minimum value from these two
           rolls is applied during the healing process.  Often the
           quality of medicine is another factor that comes into play,
-          this depends on the therapy. (From the rules it follows that
-          the difficulty for first and second roll can be increased by
-          5 for a combined roll.)
+          this depends on the therapy.  (From the rules it follows
+          that the difficulty for first and second roll can be
+          increased by 5 for a combined roll.)
         </p>
         <h5 class="skill" id="sk-pie">Piety</h5>
         <include id="$Piety"/>
@@ -1686,8 +1685,8 @@
           per minute for Larinda and 6 per 10 minutes for Karpek.  A
           few successful shock rolls later, Larinda invokes
           Peoni&#8217;s Mercy, a ritual invocation that could force
-          the demon to depart.  Her Fatigue at that point is (–2) and
-          the Circle Modifier (–4), which reduces her Ritual ML to 12
+          the demon to depart.  Her Fatigue at that point is (-2) and
+          the Circle Modifier (-4), which reduces her Ritual ML to 12
           and she fails the roll.  The process continues.  This time
           she fails the next Shock roll, allowing the demon its
           possession.  Larinda&#8217;s spirit is evicted and suffers
@@ -1780,11 +1779,11 @@
         <p>
           An Unhorsing roll needs to be made, when the rider enters
           the saddle.  Note: A rider Stumble generated by an Melee
-          Attack requires an additional Unhorsing Roll. Unhorsing
+          Attack requires an additional Unhorsing Roll.  Unhorsing
           Rolls are made against zero (0), modified by Physical
           Penalty (including any injury just received).  On failure,
           the rider is thrown and suffers a 5 feet plus deceleration
-          distance fall. War Saddle: Gives a bonus of 5 to Unhorsing
+          distance fall.  War Saddle: Gives a bonus of 5 to Unhorsing
           rolls.
         </p>
         <h5 class="skill" id="sk-rit">Ritual</h5>
@@ -1823,26 +1822,26 @@
           </p>
           <p>
             <em>Consecration:</em> The rituals have -1 for each
-            completed 5 minutes casting time. Such penalties for
+            completed 5 minutes casting time.  Such penalties for
             consecutive casting is removed 1 point perday.
           </p>
           <p>
             <em>Excommunication:</em> Effects are reduction of Piety
-            by 10 &#8220;unlearning &#8221; rolls; the reduction in Ritual are 5
-            &#8220;unlearning &#8221; rolls.
+            by 10 &#8220;unlearning &#8221; rolls; the reduction in
+            Ritual are 5 &#8220;unlearning &#8221; rolls.
           </p>
           <p>
             <em>Excorcism:</em> The mental conflict is modified by
             that part of the skill not used to reduce casting time,
-            i.e. it is another result dimension. Use a trajectory as
+            i.e. it is another result dimension.  Use a trajectory as
             described elsewhere, i.e. a proportional relationship of
             dimensions.
           </p>
         </div>
         <p>
-          Ground consecrated to the cleric&#8217;s deity gives: +2, to an
-          allied deity: +1, to a neutral deity: -1, to an opposing
-          deity: -4. Environmental modifiers are as follows.
+          Ground consecrated to the cleric&#8217;s deity gives: +2, to
+          an allied deity: +1, to a neutral deity: -1, to an opposing
+          deity: -4.  Environmental modifiers are as follows.
         </p>
         <div class="explain">
           <p>
@@ -1892,7 +1891,7 @@
           task having to do with the handling of a ship or boat, such
           as setting sails in high seas.  Seamanship does not include
           navigational skills.  The applications of Seamanship are
-          detailed in Pilots’ Almanac.
+          detailed in Pilots&#8217; Almanac.
         </p>
         <h5 class="skill" id="sk-shie">Shield</h5>
         <include id="$Shield"/>
@@ -1908,13 +1907,13 @@
           boat, or its fittings.  The length dimension shows the
           length of boats that can reasonably be built, because the
           construction principles are known.  The applications of this
-          skill are dealt with in Pilots’ Almanac.
+          skill are dealt with in Pilots&#8217; Almanac.
         </p>
         <include id="$D-Shipwright"/>
         <h5 class="skill" id="sk-sin">Singing</h5>
         <include id="$Singing"/>
         <p>
-          A character&#8217;’s ability to carry a tune.  The quality of a
+          A character&#8217;&#8217;s ability to carry a tune.  The quality of a
           performance may not be appreciated.  A notable specialty is
           the Voice attribute skill.  Use the <em>Artistic</em>
           dimension.
@@ -1953,7 +1952,7 @@
           being detected.  The attempt presumes reasonable conditions.
           ML is further modified for distance to the target,
           available cover, etc.  Awareness of potential observers is
-          deducted from ML. i.e. added to difficulty.
+          deducted from ML, i.e. added to difficulty.
         </p>
         <h5 class="skill" id="sk-str">Strength</h5>
         <include id="$Strength"/>
@@ -2009,7 +2008,7 @@
           immediately.  A character who can no longer hold his breath
           (see Endurance) and spends more (consecutive) time
           underwater than they can hold their breath passes out, the
-          character’s lungs fill with water, they stop breathing, and
+          character&#8217;s lungs fill with water, they stop breathing, and
           the character will receive Drowning damage.  An unconscious
           character removed from the water may be revived with
           standard Physician/healing mechanisms.
@@ -2052,11 +2051,11 @@
         <p>
           The art of selecting timber from a forest, felling trees,
           and rough-cutting into lumber.  The unit of yield is
-          sufficient wood to build a wagon, or a wooden cottage. (The
+          sufficient wood to build a wagon, or a wooden cottage.  (The
           wood has to dried and prepared before it can be used by a
-          woodcrafter.  The units are simple trunks or batches<th>30</th>
-          thereof.)  Also note that this skill has a different yield
-          dimension than most others.
+          woodcrafter.  The units are simple trunks or
+          batches<th>30</th> thereof.)  Also note that this skill has
+          a different yield dimension than most others.
         </p>
         <include id="$D-Timbercraft"/>
         <h5 class="skill" id="sk-tra">Tracking</h5>
@@ -2090,7 +2089,7 @@
         <p>
           Different climate types may be specialties.  The ability to
           predict the weather.  Characters with this skill may attempt
-          to predict the weather any time. Also use the
+          to predict the weather any time.  Also use the
           <em>Accuracy</em> dimension.
         </p>
         <include id="$D-Weatherlore"/>
@@ -2161,7 +2160,7 @@
         <div class="explain">
           <p>
             <em>Charm:</em> Roll attacker&#8217;s skill plus Will vs
-            defender&#8217;s Will and reduce the defender’s Agility
+            defender&#8217;s Will and reduce the defender&#8217;s Agility
             accordingly.
           </p>
           <p>
@@ -2171,7 +2170,7 @@
           </p>
           <p>
             <em>Healing:</em> <em>Empathy:</em> 5-Add talent skill to
-            physician’s skill at diagnosis, etc.
+            physician&#8217;s skill at diagnosis, etc.
             <em>Restoration:</em> Talent skill replaces
             subject&#8217;s Stamina in new fatigue rate.
             <em>Heal:</em> 5-Add skill to Stamina for healing time.
@@ -2190,7 +2189,7 @@
           </p>
           <p>
             <em>Negation:</em> Creates a field whose radius is this
-            dimension in feet times the invoker’s 0+<sub>5</sub>Will.
+            dimension in feet times the invoker&#8217;s 0+<sub>5</sub>Will.
             Any spell/talent rolls are reduced by the ML of the
             invoker.  This is a separate dimension and can be combined
             with the radius.  A field of less than 1 foot implodes and
@@ -2219,10 +2218,10 @@
         <h3 id="religion">Religion</h3>
         <p>
           <em>Sin, Piety, &#0038; Morality</em>: If a character acts
-          in a manner inconsistent with their god’s morality, the GM
+          in a manner inconsistent with their god&#8217;s morality, the GM
           should deduct Piety depending on the extent of the sin.  Sin
           penalties can be imposed directly, but subtle deductions by
-          the GM are better.  The GM may also adjust a character’s
+          the GM are better.  The GM may also adjust a character&#8217;s
           Morality based upon actions over time.  Characters with a
           Piety total that equals or exceeds their Ritual Mastery are
           said to have Divine Grace.
@@ -2231,7 +2230,7 @@
           Some rituals are lay rituals as described in the Religion
           chapter.  The may be attended by laymen to receive a
           benefit.  Some need a priest as guidance.  The following is
-          a Piety benefit, if attended and an (individual’s) Ritual
+          a Piety benefit, if attended and an (individual&#8217;s) Ritual
           roll succeeds.  The benefit is a 5-Addition to Piety.  (Any
           rituals must be relevant, of course.  Individual donations
           of 1d for a rich merchant, for instance, do not qualify.)
@@ -2311,7 +2310,7 @@
             engage each other.  Unconscious characters have no
             Engagement Zones (not even the space their own body
             occupies) but may constitute obstacles.  A character may
-            be (melee) attacked upon entering an enemy’s Engagement
+            be (melee) attacked upon entering an enemy&#8217;s Engagement
             Zone until he leaves that zone.  This entering or leaving
             may be active or passive.  It is possible to be engaged
             with an arbitrary number of enemies at a time.  A
@@ -2363,7 +2362,7 @@
             defender is forced to deduct the move from his action
             allowance, regardless of whether he resists or not.  A
             resist deducts from the distance forced and can even be
-            used as a counter-push. The pushed character may opt to
+            used as a counter-push.  The pushed character may opt to
             fall prone instead at any time, for instance to avoid
             falling of a cliff.  Any remaing distance is forfeit.
           </p>
@@ -2427,7 +2426,7 @@
           </p>
           <p>
             <em>Polearm Defense:</em> Remember the Reach of Long
-            weapons. Usually Steed Stumble Roll, followed by an
+            weapons.  Usually Steed Stumble Roll, followed by an
             Unhorsing Roll is necessary to continue a Charge into
             polearms (assuming the Steed Command Check was
             successful).
@@ -2444,8 +2443,8 @@
 	  </p>
           <p>
             <em>Aiming:</em> The Attacker may declare one Main area as
-            not being hit for a penalty of 1 to ML. This choice can be
-            taken multiple times, but the remaining Main locations
+            not being hit for a penalty of 1 to ML.  This choice can
+            be taken multiple times, but the remaining Main locations
             must remain (bodily) connected.  If all but one Main
             location has been eliminated, individual percentage points
             may be reduced for a Detail area.  This penalty can again
@@ -2478,17 +2477,17 @@
           </p>
           <p>
             <em>Stop:</em> A stop from a sprint/charge faster than the
-            maximum natural deceleration rate may be
-            necessary. (Running into a wall or head on into another
-            opponent that doesn’t dodge.)  In that case consider the
-            distance that is not available to stopping as fall.
-            Surface is considered at 30°.  This damage is taken by the
-            steed (or the runner).  An appropriate strike location
-            should be chosen. If the obstacle is reasonably capable of
-            taking damage apply it there too.  (If desired, use
-            physics of an inelastic collision, i.e. when running into
-            a wagon that starts to roll when run into. Damage always
-            applies to both parties of a collision.) Also see Charge.
+            maximum natural deceleration rate may be necessary.
+            (Running into a wall or head on into another opponent that
+            doesn&#8217;t dodge.)  In that case consider the distance that
+            is not available to stopping as fall.  Surface is
+            considered at 30&#176;.  This damage is taken by the steed (or
+            the runner).  An appropriate strike location should be
+            chosen.  If the obstacle is reasonably capable of taking
+            damage apply it there too.  (If desired, use physics of an
+            inelastic collision, i.e. when running into a wagon that
+            starts to roll when run into.  Damage always applies to
+            both parties of a collision.) Also see Charge.
           </p>
           <p>
             <em>Fall:</em> Acrobatics can be used to moderate a fall,
@@ -2499,7 +2498,7 @@
             detailed body part to land on.  The slope of the surface
             may cause a falling climber to hit several times on the
             way down.  When this occurs, reduce damage to what the
-            incline is as part of 90°.  E.g. 30° would reduce the
+            incline is as part of 90&#176;.  E.g. 30&#176; would reduce the
             damage to 1/3.  A character may be able to stop falling by
             grabbing protrusions, bushes, etc.  This rarely stops the
             fall, but may slow it and reduce landing impact.
@@ -2519,7 +2518,7 @@
 	    <em>Close Mode:</em> Subtract 1 for each significant
 	    impediment reaching into an engagement zone in the
 	    direction of the two enemies.  For Multiple impediments
-	    only choose the greater intrusion. A blanket counts as
+	    only choose the greater intrusion.  A blanket counts as
 	    significant, as does a wooden beam.  A feather bush does
 	    not.
           </p>
@@ -2544,7 +2543,7 @@
             impact.  Otherwise, determine injury effect as normal.
             Any strike, including one by a broken pole, requires an
             Unhorsing Roll.  Also, if the strike impact exceeds the
-            target’s STR (before armour reduction) an unhorsing roll
+            target&#8217;s STR (before armour reduction) an unhorsing roll
             is required.
           </p>
         </div>
@@ -2572,7 +2571,7 @@
         </p>
         <p>
           <em>Bloodloss:</em> damage taken increases at Impact - 10
-          (&#9733;) per 10s. For example, a 12 point injury causes 2
+          (&#9733;) per 10s.  For example, a 12 point injury causes 2
           points per 10 seconds, or 1 point of bloodloss to accrue
           every 5 seconds.  (A 22 destroying wound causes more than 1
           point per second in bloodloss and only very unlikely
@@ -2587,9 +2586,9 @@
         </p>
         <p>
           <em>Weapon/Armor Damage:</em> Weapon and Armour make a Shock
-          roll for the damage that they absorb, respectively
-          deal. This includes grappling damage.  Weapon Quality (WQ)
-          is used instead of Stamina skill.
+          roll for the damage that they absorb, respectively deal.
+          This includes grappling damage.  Weapon Quality (WQ) is used
+          instead of Stamina skill.
         </p>
         <p>
           <em>Fumble:</em> Any new wound of at least 1 point to arms
@@ -2615,7 +2614,7 @@
         <h1 id="attrib">People</h1>
         <h3 id="attrib">Attributes</h3>
         <p>
-          All people are individuals that act in Hârnworld.  They,
+          All people are individuals that act in H&#226;rnworld.  They,
           particularly PCs, are at the core of what these rules are
           all about.  Apart of the numerical attributes, a few of the
           only descriptive aspects should be mentioned.
@@ -2668,7 +2667,7 @@
         <p>
           Individuals should have a moral compass.  Morality is a
           measure of unselfishness.  The following serves as a
-          guideline of the diversity found in Hârnworld, but is by no
+          guideline of the diversity found in H&#226;rnworld, but is by no
           means exhaustive.  Sindarin tend towards the higher moral
           standards.
         </p>
@@ -2682,15 +2681,15 @@
         <h4 id="sexuality">Sexuality</h4>
         <p>
           People have a descriptive sexuality.  The distribution of
-          sexuality in Hârn is roughly 90% heterosexual, 5% bi-sexual
+          sexuality in H&#226;rn is roughly 90% heterosexual, 5% bi-sexual
           and 5% homosexual.  Other forms of sexuality may exist but
           are hidden.
         </p>
         <h4 id="species">Species</h4>
         <p>
-          Although Hârn has many exotic creatures, Humans, Sindarin
+          Although H&#226;rn has many exotic creatures, Humans, Sindarin
           and Khuzdul are by far the most commonly encountered.  The
-          population distribution on Hârn is approximately Human
+          population distribution on H&#226;rn is approximately Human
           (97%), Sindarin (1%), and Khuzdul (1%).
         </p>
         <h4 id="gender">Gender</h4>
@@ -2704,7 +2703,7 @@
           Every day of the year (360) has an equal probability of
           being the birthday of a random person.  In other words: they
           are evenly distributed.  Names of calendar months are
-          readily available in other sections of Hârnworld.
+          readily available in other sections of H&#226;rnworld.
         </p>
         <h4 id="sunsign">Sunsign</h4>
         <p>
@@ -2714,23 +2713,23 @@
           each sign are termed the cusp: a person born on the 1st
           of Ilvin is termed a Tai-Skorus Cusp (the actual sunsign is
           named first).  Those born on the cusp enjoy the benefits of
-          either sign.  Hârnic astrology reveals the Pvaric nature of
+          either sign.  H&#226;rnic astrology reveals the Pvaric nature of
           Kelestia.  Personality descriptions for each of the twelve
-          signs of the zodiac are given in HârnPlayer.  The
+          signs of the zodiac are given in H&#226;rnPlayer.  The
           personality of a person born on the cusp would be a blend
           of the two signs.
         </p>
         <include id="Sunsigns"/>
         <h4 id="birthplace">Birthplace</h4>
         <p>
-          HârnWorld regional modules provide Birthplace generation
+          H&#226;rnWorld regional modules provide Birthplace generation
           tables.  The GM may assign you a birthplace, or tell you
           what dice to roll to generate one on these tables.
         </p>
         <h4 id="culture">Culture</h4>
         <p>
-          A person’s Culture is determined by Birthplace.  Most people
-          born on Hârn are Feudal.  Common exceptions are: Imperial
+          A person&#8217;s Culture is determined by Birthplace.  Most people
+          born on H&#226;rn are Feudal.  Common exceptions are: Imperial
           (Tharda), Viking (Orbaalese), Tribal, Sindarin, and Khuzan.
         </p>
         <h4 id="socialclass">Social Class</h4>
@@ -2740,7 +2739,7 @@
           hypothetical census be taken.  It may be useful to determine
           the Social Class of a randomly encountered individual.  For
           some cultures a random result does not make sense
-          (e.g. Slaves in Kaldor).  Refer to the relevant HârnWorld
+          (e.g. Slaves in Kaldor).  Refer to the relevant H&#226;rnWorld
           publication.
         </p>
         <include id="SocialClass"/>
@@ -2758,7 +2757,7 @@
         </p>
         <h4 id="parent">Parent</h4>
         <p>
-          The individual’s Father and Mother represent an important
+          The individual&#8217;s Father and Mother represent an important
           aspect of an individual in a mostly feudal society.
         </p>
         <div class="explain">
@@ -2778,7 +2777,7 @@
             masters, as are squires training for knighthood.  Poor
             families, especially those with only one parent, commonly
             foster one or more children with a relative or neighbor.
-            Fostered children are usually aware of their parents’
+            Fostered children are usually aware of their parents&#8217;
             identity.
           </p>
           <p>
@@ -2816,13 +2815,13 @@
           there is property and/or titles to inherit, acknowledged
           bastards usually follow the youngest legitimate heir, but
           dynamic characters may do better, especially if they happen
-          to be a father’s eldest son and the legitimate heirs are
+          to be a father&#8217;s eldest son and the legitimate heirs are
           weak.  Many a dynastic bonfire has been ignited with such a
           spark.
         </p>
         <h4 id="estrangement">Estrangement</h4>
         <p>
-          Estrangement measures a person’s popularity in the clan,
+          Estrangement measures a person&#8217;s popularity in the clan,
           tribe, and/or family.  It has a significant effect on
           opportunities, including any inheritance.  Being the eldest
           child of a knight is less advantageous if he hates
@@ -2854,8 +2853,8 @@
         </div>
         <h4 id="clanhead">Clanhead</h4>
         <p>
-          A person’s relationship to the Clanhead is often more
-          important than to parents.  Hârnic clans tend to be large.
+          A person&#8217;s relationship to the Clanhead is often more
+          important than to parents.  H&#226;rnic clans tend to be large.
           Some live in close proximity.  Some number in the thousands
           and are widely dispersed.  Wealthy and noble clans are often
           extended.  Poor clans are likely to be smaller, especially
@@ -2873,7 +2872,7 @@
         </p>
         <h4 id="height">Height</h4>
         <p>
-          The average height of a Hârnic male human is 68 inches with
+          The average height of a H&#226;rnic male human is 68 inches with
           a variance of 5.83. The average is modified: Sindarin: -3",
           Khuzdul: -14".  Human females: -2", Sindarin females: 1".
           Ivinian +1", nobility +2", urban poor -2".  Such
@@ -2883,7 +2882,7 @@
         </p>
         <h4 id="weight">Weight</h4>
         <p>
-          On Hârn, the optimal weight of a person depends on his
+          On H&#226;rn, the optimal weight of a person depends on his
           height and is determined by the Physician&#8217;s Guild and
           usually published in a yearly almanach.
         </p>
@@ -2911,8 +2910,8 @@
         <include id="Frame"/>
         <h4 id="complexion">Complexion</h4>
         <p>
-          Complexion is the color of a person’s skin.  Human is for
-          all people of Hârnic ancestry.  Nordic humans are similar to
+          Complexion is the color of a person&#8217;s skin.  Human is for
+          all people of H&#226;rnic ancestry.  Nordic humans are similar to
           Khuzdul.
         </p>
         <include id="Complexion"/>
@@ -2920,7 +2919,7 @@
         <include id="Color"/>
         <h4 id="comeliness">Comeliness</h4>
         <p>
-          A person’s attractiveness to the same species.  Comeliness
+          A person&#8217;s attractiveness to the same species.  Comeliness
           can be modified by cosmetics, but these enhancements usually
           wear off after some time. The courtesan&#8217;s guild maintains
           these statistics.
@@ -2985,7 +2984,7 @@
         <include id="Senses"/>
         <h4 id="voice">Voice</h4>
         <p>
-          The pleasantness and/or volume of a person’s voice.
+          The pleasantness and/or volume of a person&#8217;s voice.
           Excellent and unearthly voices are in high demand.  The
           scale is provided by the Sindarin.
         </p>
@@ -3087,7 +3086,7 @@
             colors are perceived as shades of gray.
           </p>
           <p>
-            <em>Obesity:</em> A person’s weight is 50% to 100% more
+            <em>Obesity:</em> A person&#8217;s weight is 50% to 100% more
             than optimal.
           </p>
           <p>
@@ -3127,7 +3126,7 @@
           <p>&#9733;&#9733;&#9733;&#9733;&#9733; = Excellent memory, genius</p>
         </div>
         <p>
-          <em>Aura</em> is Psionic concept.  Hârnic philosophers
+          <em>Aura</em> is Psionic concept.  H&#226;rnic philosophers
           believe that all living things have Aura and that the
           physical body is simply a place where the immortal spirit
           currently resides.  High Aura indicates high psychic
@@ -3226,7 +3225,7 @@
           one, although it is possible to change religion.  The
           religion a person may encounter depend on a lot of
           circumstances and depends on the birthplace.  Available
-          choices are presented in other Hârnworld publications, which
+          choices are presented in other H&#226;rnworld publications, which
           also consider culture and social class.  Most people tend to
           follow the deity of their parents or guardians.
         </p>
@@ -3234,7 +3233,7 @@
           While there are chivalrous worshipers of Morgath and corrupt
           Laranians, people tend to be more satisfied if their morals
           matches that of their deity.  Churches and clerics, unaware
-          of an individual’s true morality, may be fooled.
+          of an individual&#8217;s true morality, may be fooled.
         </p>
         <p>
           People may faithfully ascribe to two or more religions,
@@ -3257,14 +3256,14 @@
           social class. The value given amounts to what a person is
           assumed to possess when becoming of age, i.e. a responsible
           subject of the souvereign.  This wealth may be used on items
-          from the Price List on HârnPlayer and the Weapon and Armour
+          from the Price List on H&#226;rnPlayer and the Weapon and Armour
           tables.  Estrangement can also influence funds.
         </p>
         <include id="Funds"/>
         <p>
           Squires are traditionally equipped by their lord when
           knighted.  This includes weapons, armour, and a good steed.
-          Family wealth above does not include this.  Very few Hârnic
+          Family wealth above does not include this.  Very few H&#226;rnic
           folk own property.  Rural freemen and serfs rent cottages
           and land from the lord.  City homes are mostly owned by a
           few wealthy folk and rented to poorer citizens.  Only
@@ -3276,7 +3275,7 @@
           peasants can afford to keep a bull or a horse.
         </p>
         <p>
-          Clothes should suit a person’s station.  A tunic, leggings,
+          Clothes should suit a person&#8217;s station.  A tunic, leggings,
           hat, and sandals are bare essentials.  Some folk wear a robe
           or gown instead of a tunic.  Travelers normally have a
           knapsack containing portable tools of their trade.  A
@@ -3289,14 +3288,14 @@
         <p>
           Nearly everyone owns a knife or dagger.  Clubs, bows,
           hatchets, slings, and staves are also common.  Other weapons
-          are expensive and <em>Bearing Arms</em> in HârnPlayer should be
+          are expensive and <em>Bearing Arms</em> in H&#226;rnPlayer should be
           consulted.  Few young adults can afford good armour.
           Military individuals are mostly equipped by their unit, but
           knights on feudal service must bring their own weapons,
           armour, and steed.
         </p>
         <p>
-          Proving identity can be difficult on Hârn.  A travelling
+          Proving identity can be difficult on H&#226;rn.  A travelling
           person should have papers to prove guild rank (if any)
           and/or a letter of introduction from a prominent person such
           as a lord of the manor, or a cleric or sheriff, etc.  Many
@@ -3324,13 +3323,13 @@
           Determining the chances for the occupation of a random
           individual is hard, since no such census data is available.
           The outcome would largely depend on Social Class, which
-          depends on the occupation of one’s parents. Some
+          depends on the occupation of one&#8217;s parents. Some
           children follow the same occupation or choose another at GM
           discretion. The eldest born survivor, especially if a
           favorite, would be expected to follow the family
           occupation. Later born offspring have more choice,
           especially if unpopular. As a reference, the occupations a
-          person can choose in Hârnic society are listed, with average
+          person can choose in H&#226;rnic society are listed, with average
           income and years of apprenticeship.
         </p>
         <include id="Occupations"/>
@@ -3346,7 +3345,7 @@
           Journeymen receive 30-60% of a master&#8217;s wages, depending on
           experience, plus room and board.  Freemasters have variable
           incomes because demand for their services can vary.  See:
-          HârnPlayer, page 15.
+          H&#226;rnPlayer, page 15.
         </p>
         <p>
           <em>Unguilded Occupations:</em> Wages given are for average
@@ -3404,7 +3403,7 @@
           Shek-Pvar belong to one of six ancient and esoteric
           sub-orders (convocations).  Each convocation stresses on
           certain Pvaric principles because some conflict with others.
-          Most Hârnic Shek-Pvar reside in Melderyn.  Each convocation
+          Most H&#226;rnic Shek-Pvar reside in Melderyn.  Each convocation
           has its own chantries.  Chantries vary in quality according
           to a five-star scale.  The best are difficult to find and
           enter.  A high Aura is required, but most applicants can
@@ -3468,7 +3467,7 @@
           </p>
           <p>
             <em>Heavy Foot [HF]</em> The only permanent heavy foot
-            found on Hârn are elite High Guard units within the
+            found on H&#226;rn are elite High Guard units within the
             dwarven army of Azadmere.  Heavy foot carry heavy weapons
             like a battleaxe and are armoured with mail &#0038; quilt.
           </p>
@@ -3551,7 +3550,7 @@
         <p>
           Most units let individuals enlist at age 16, and discourage
           those over 30.  Interested individuals must contact a unit.
-          The recruiting officer will ask about the person’s
+          The recruiting officer will ask about the person&#8217;s
           background, and military experience.  A recommendation from
           someone in the unit might be helpful, and some Knight units
           (including the Khuzdul High Guard) require applicants to be
@@ -3591,7 +3590,7 @@
           know the ranks Molak, Arkalin, Melbrin, Molarin, and
           Armolarin.  The pay listed is for Molaks, every next rank
           has a pay increase of 1/4 over the previous rank on the
-          Molak’s base.  E.g. a Longbow Melbrin earns a monthly 108d.
+          Molak&#8217;s base.  E.g. a Longbow Melbrin earns a monthly 108d.
           Light Horse units have the ranks Molak, Arkalin, Molarin,
           and Armolarin and progress 96d, 120d, 180d, and 216d.
           Medium and Heavy Horse units only have the ranks of Chalasir
@@ -3639,7 +3638,7 @@
           Some states, like Azeryan, group their cohorts into legions.
           The ideal Azeryani legion consists of four cohorts plus
           various auxiliary or reserve units attached to the legion
-          HQ.  On Hârn, legions exist only in the Thardic Republic
+          HQ.  On H&#226;rn, legions exist only in the Thardic Republic
           where they tend to be little more than large cohorts.
         </p>
         <p>
@@ -3698,7 +3697,7 @@
           the skill brought to bear, but mostly according to
           reputation.  Fees typically range from 3d for fairly basic
           first aid to 240d for major surgery.  Medicines, provided
-          by the Apothecaries’ Guild, and hospital care (rare) can
+          by the Apothecaries&#8217; Guild, and hospital care (rare) can
           double or triple fees.
         </p>
         <p>
@@ -3706,8 +3705,8 @@
           best first aid available, and then seek someone with a
           decent Physician Mastery as soon as possible.  Carrying a
           good supply of bandages and herbal remedies is always a good
-          idea.  Hârnic doctors are far more competent than their
-          medieval Terran colleagues.  They know, for example, it’s a
+          idea.  H&#226;rnic doctors are far more competent than their
+          medieval Terran colleagues.  They know, for example, it&#8217;s a
           good idea to keep open wounds and surgical instruments as
           clean as possible, although they do not know why.  One
           theory has to do with fiery, invisible elementals which can
@@ -3717,7 +3716,7 @@
         </p>
         <p>
           Esoteric Medical Treatments exist. <em>Spells:</em> For
-          information on magical healing, see HârnMaster
+          information on magical healing, see H&#226;rnMaster
           Magic. <em>Rituals:</em> For information on divine and
           cleric healing, see Religion. <em>Psionics:</em> For
           information on Psionic healing, see Psionics.
@@ -3728,7 +3727,7 @@
             treatment for Grievous Frost and may be used to halt
             infection spreading. The afflicted body part is removed,
             but a new Serious or Grievous wound is created according
-            to the operation’s success.
+            to the operation&#8217;s success.
           </p>
           <p>
             <em>Bleeder:</em> Treatment must be continued until
@@ -3757,7 +3756,7 @@
           </p>
           <p>
             <em>Warming:</em> Gentle warming (blanket, healthy
-            person’s flesh, etc.) of the injury for a few hours.
+            person&#8217;s flesh, etc.) of the injury for a few hours.
           </p>
         </div>
       </div>
@@ -3868,11 +3867,11 @@
             <em>Psionic Episodes:</em> Brief hallucinations or
             illusions, headaches in nearby persons, sudden dizziness,
             people having bad luck or unusual clumsiness in the
-            invoker’s presence.
+            invoker&#8217;s presence.
           </p>
           <p>
             <em>Misfire:</em> The invoker, or a random person/animal
-            nearby, suffers the talent’s effect.  Sometimes the
+            nearby, suffers the talent&#8217;s effect.  Sometimes the
             invoker gets a severe headache instead.
           </p>
         </div>
@@ -3914,7 +3913,7 @@
           <em>Far:</em> The clairvoyant enters a trance sand attempts
           to focus on a specific, remote person or object whose
           location may not be known.  The clairvoyant does this by
-          visualizing the person’s face (or by describing the object).
+          visualizing the person&#8217;s face (or by describing the object).
           There are no range restrictions, but there is also no chance
           to listen or smell.
         </p>
@@ -3944,7 +3943,7 @@
           astral entity returns, it reunites with its body and a Shock
           Roll is then made.  If the body has been occupied by another
           ethereal while the astral entity was away, Mental Conflict
-          occurs.  Disembodiment is achieved by making one’s body very
+          occurs.  Disembodiment is achieved by making one&#8217;s body very
           relaxed (somewhat similar to how one falls asleep).  The
           time needed to invoke the talent is one minute.
         </p>
@@ -3957,7 +3956,7 @@
           </p>
           <p>
             <em>Misfire:</em> Sometimes the healer acquires some or
-            all of the patient’s ailments.
+            all of the patient&#8217;s ailments.
           </p>
         </div>
         <p>
@@ -4019,7 +4018,7 @@
           </p>
           <p>
             <em>Misfire:</em> Sometimes an itinerant ethereal is
-            released into the invoker’s world.  This occurs more often
+            released into the invoker&#8217;s world.  This occurs more often
             when such entities are hostile, violent, or in search of a
             body.
           </p>
@@ -4060,7 +4059,7 @@
           </p>
           <p>
             <em>Misfire:</em> The invoker, or some randomly-chosen
-            person/animal nearby, suffers the talent’s full effect.
+            person/animal nearby, suffers the talent&#8217;s full effect.
           </p>
         </div>
         <p>
@@ -4071,7 +4070,7 @@
         <div class="standard">
           <p>
             <em>Psionic Episodes:</em> Spells/talents tend to go wrong
-            in the person’s presence.
+            in the person&#8217;s presence.
           </p>
           <p>
             <em>Misfire:</em> Fairly harmless with this talent.
@@ -4080,7 +4079,7 @@
         <p>
           The invoker enters a trance for 10 seconds and if
           successful, creates a spherical Psionic field, centered on
-          the invoker’s head.  The field lasts for several minutes,
+          the invoker&#8217;s head.  The field lasts for several minutes,
           but may be dissolved instantly by its creator.  The field
           requires great concentration to maintain; the invoker is in
           a trance and limited to simple activities, like walking. Any
@@ -4147,7 +4146,7 @@
           for a few minutes.  Psychometry is most often used to divine
           the age or history of an object, the identity of the
           object&#8217;s maker or owners, magical/divine powers, etc.
-          Another use is to determine a person’s location.
+          Another use is to determine a person&#8217;s location.
         </p>
         <p>
           Psychometry can never be used to divine the future.  It
@@ -4244,9 +4243,9 @@
           level in km,, but clarity diminishes with range.  The talent
           is invoked by concentrating on the thought/emotion for one
           minute.  The target is specified at the time transmission is
-          attempted; the target’s location does not need to be known
+          attempted; the target&#8217;s location does not need to be known
           by the invoker.  Someone who receives an emotion will feel
-          it – this can have an interesting effect.  If a person with
+          it - this can have an interesting effect.  If a person with
           the Sensitivity talent is near the target or the invoker at
           the time of transmission, they may receive the transmission
           along with, or instead of, the intended target.
@@ -4266,7 +4265,7 @@
         <p>
           The ability to detect and employ Barasi Points to transfer
           the invoker from one world to another.  Objects or living
-          entities within Skill level in inches of the invoker’s skin
+          entities within Skill level in inches of the invoker&#8217;s skin
           may also be transferred.  Less skilled users often lose
           things on the way.  Travel is ethereal, instantaneous, and
           takes 5 minutes of being absent minded (to the observer).
@@ -4275,7 +4274,7 @@
           necessarily know where the destination will be, although it
           is always a similar environment.  Barasi Points are natural
           portals between worlds.  Dozens exist throughout Kethira,
-          although the Shava Forest on Hârn has a particularly high
+          although the Shava Forest on H&#226;rn has a particularly high
           concentration.  The environment at each end of a Barasi
           Point is always very similar.  Unskilled users may not
           realize for some time they have changed locations, and may
@@ -4309,7 +4308,7 @@
         <p>
           A few scholars may argue that the gods are figments of the
           imaginations of men, but most Lythians believe implicitly in
-          their existence.  Hârnic society is pregnant with divine
+          their existence.  H&#226;rnic society is pregnant with divine
           superstition.  In addition to the ten major deities,
           hundreds of lesser semi-divine entities are worshiped by
           Lythians.  The powers of the deities, if not infinite, are
@@ -4357,7 +4356,7 @@
             <em>Sarajin:</em> Amber, Fur, Leather.
           </p>
           <p>
-            <em>Save-K’nor:</em> Tomes, Quills, Lanterns, Pearls
+            <em>Save-K&#8217;nor:</em> Tomes, Quills, Lanterns, Pearls
             (especially Black Pearls).
           </p>
           <p>
@@ -4402,7 +4401,7 @@
           blood.  People may apply for appointment to any vacant
           church office for which their current Circle qualifies them.
           Appointments are handled solely at GM discretion; a
-          candidate’s Intrigue and Social Class are always
+          candidate&#8217;s Intrigue and Social Class are always
           significant.
         </p>
         <p>
@@ -4413,7 +4412,7 @@
           orders which are sponsored by various clerical orders.
           Clerical and fighting orders have their own hierarchies.
           Morality is a crucial attribute for clerics.  Although
-          church officials may be unaware of a person’s true
+          church officials may be unaware of a person&#8217;s true
           Morality, deities are not so easily fooled.  Clerics
           entering a church for which their Morality is inappropriate
           are unlikely to prosper, or even live very long.  Circles
@@ -4435,7 +4434,7 @@
           offenders, but Agrikan courts are fond of burning at the
           stake.  Temple courts must obtain secular consent to any
           death penalties, a formality often ignored by some churches.
-          For more information, see HârnPlayer.
+          For more information, see H&#226;rnPlayer.
         </p>
         <p>
           There is corruption in every church.  Most churches argue
@@ -4453,8 +4452,8 @@
           significant.  The churches of Larani and Peoni dominate in
           the kingdoms of Chybisa, Kaldor, Kanday, and Melderyn.  The
           church of Agrik is prominent in the Kingdom of Rethem.
-          Adherents of Save-K’nor tend to be scholars with influence
-          throughout Hârn, on Melderyn in particular.  Sarajinism is
+          Adherents of Save-K&#8217;nor tend to be scholars with influence
+          throughout H&#226;rn, on Melderyn in particular.  Sarajinism is
           the dominant faith of the Ivinian conquerors of Orbaal,
           while Ilvir holds some sway among their subject Jarin.  Siem
           is primarily worshiped by the Khuzdul and Sindarin, although
@@ -4463,7 +4462,7 @@
           guildsmen in all states, but is most dominant in the Thardic
           Republic.  The churches of Morgath and Naveh have few
           adherents; both are proscribed and covert throughout most of
-          Hârn, except the Church of Morgathm which has enormous
+          H&#226;rn, except the Church of Morgathm which has enormous
           influence in Golotha, the principal city of Rethem.
         </p>
         <h3 id="piety">Piety</h3>
@@ -4513,7 +4512,7 @@
           </p>
           <p>
             <em>Confession.</em> The churches of Halea, Larani,
-            Morgath, Naveh, Peoni, and Save-K’nor hear confessions.
+            Morgath, Naveh, Peoni, and Save-K&#8217;nor hear confessions.
             Only confessions of significant guilt are worthy of
             piety.  Confessions must be made to an ordained cleric who
             (80% chance) may demand a penance.
@@ -4540,7 +4539,7 @@
             day, this mass often lasts four hours.  It is usually
             followed by second service open only to clerics.  There is
             no High Mass or Daily Mass on this day.  A &#8220;feaster &#8221; is a
-            name given to adherents who attend only the Feast Mass –
+            name given to adherents who attend only the Feast Mass -
             it is a derogatory term.
           </p>
           <p>
@@ -4582,7 +4581,7 @@
           now more or less confined to the mortal and semi-mortal
           planes of Kethira and Yashain.  Siem has withdrawn to the
           Blessed Realm, and Ilvir broods alone at Araka-Kalai.
-          Halea, Naveh, Save-K’nor, and Sarajin have established their
+          Halea, Naveh, Save-K&#8217;nor, and Sarajin have established their
           neutrality, although each favors varying degrees of order
           and chaos.  Peoni is effectively a non-combatant.  Larani
           stands, essentially alone, against Morgath and Agrik.  These
@@ -4814,8 +4813,8 @@
           intervention.  If subjected to esoteric harm, injury is
           translated into fatigue.  Ethereals cannot recover fatigue
           except by dissolution.  Dissolution is the scattering of an
-          ethereal’s &#8220;substance. &#8221;  It reforms in several hours at the
-          location of the ethereal’s physical body (if it has one),
+          ethereal&#8217;s &#8220;substance. &#8221;  It reforms in several hours at the
+          location of the ethereal&#8217;s physical body (if it has one),
           otherwise in a random location or plane.  When the process
           is complete, the ethereal regains consciousness and has no
           fatigue.
@@ -4825,7 +4824,7 @@
           become translucent at will, but doing so accrues normal
           Fatigue per minute.  This accumulation of fatigue does not
           by itself cause dissolution, but will increase the
-          ethereal’s susceptibility to dissolution.  An ethereal may
+          ethereal&#8217;s susceptibility to dissolution.  An ethereal may
           possess a live body by winning a mental conflict with the
           resident Aura.  Possession is easier if part of the native
           Aura is absent as an astral.  A possessed body acquires the
@@ -4839,10 +4838,10 @@
           assuming the traveler knows the paths to take which is never
           easy given the ever-shifting nature of the Astral planes.
           An ethereal move applies only to movement on the same plane.
-          The risk of having a stranger establish squatter’s rights in
-          the &#8220;temple of one’s body &#8221; is one of the greater hazards of
-          astral travel.  From an astral’s perspective, this is akin
-          to breaking into someone’s house, eating the food, drinking
+          The risk of having a stranger establish squatter&#8217;s rights in
+          the &#8220;temple of one&#8217;s body &#8221; is one of the greater hazards of
+          astral travel.  From an astral&#8217;s perspective, this is akin
+          to breaking into someone&#8217;s house, eating the food, drinking
           the wine, trying on the clothes, beating the servants, and
           bedding the spouse.  A vanquished native spirit may attempt
           to regain its own body with a new Mental Conflict after the
@@ -4922,19 +4921,19 @@
             crypts, a habit they probably acquired from the Khuzdul.
             In either case, they like a selection of their worldly
             goods to accompany them (it is no longer the practice for
-            a warrior’s wives and thralls to accompany him).  Wealthy
+            a warrior&#8217;s wives and thralls to accompany him).  Wealthy
             Ivinians like to be buried in a boat, sometimes set
             ablaze, sometimes placed in a stone tomb.
           </p>
           <p>
-            <em>Save-K’norans</em> practice cremation.  Their ashes
+            <em>Save-K&#8217;norans</em> practice cremation.  Their ashes
             are then placed in a small urn that is buried.  A riddle
             or puzzle which reveals the location of the urn is
             engraved on a small memorial plaque, which is then
             incorporated into some stonework within a temple or its
             compound.  Solving the riddle may find the mortal remains,
             and a trinket or two to encourage the game, but this
-            obliges the finder to mention the deceased in the finder’s
+            obliges the finder to mention the deceased in the finder&#8217;s
             own &#8220;death-riddle."
           </p>
           <p>
@@ -4965,7 +4964,7 @@
             Death-Journey.  They may wait in one place performing what
             acts they can to build the Piety they need to make their
             journey.  Ghosts may help or hinder the journeyer.  The
-            winner of any mental conflict steals of the loser’s piety.
+            winner of any mental conflict steals of the loser&#8217;s piety.
             The conflict resolution separates the contestant on the
             Astral plane, so a repeated encounter is unlikely.
           </p>
@@ -4974,7 +4973,7 @@
             The demigod will immediately engage in Mental Conflict.
             If successful, the demigod brings the lost soul to its
             master.  If the random demigod is a servant of the lost
-            soul’s deity, the soul is admitted to its afterlife.
+            soul&#8217;s deity, the soul is admitted to its afterlife.
           </p>
           <p>
             <em>Ilsiri:</em> These spirits may help or hinder the
@@ -4998,7 +4997,7 @@
         <h1 id="rituals">Rituals</h1>
         <p>
           Spells and ritual invocations should never be confused.
-          Clerics seek to draw the deity’s attention by performing a
+          Clerics seek to draw the deity&#8217;s attention by performing a
           ritual, and encourage intervention by limiting the call to a
           specific effect but, ultimately, they depend on their deity
           to act.  Spellcasting, on the other hand, involves powers
@@ -5010,7 +5009,7 @@
           blasphemy.
         </p>
         <p>
-          Ritual is a skill which reflects an individual’s knowledge of
+          Ritual is a skill which reflects an individual&#8217;s knowledge of
           church dogma, holy scriptures, chants, songs, and mysteries.
           There is a separate Ritual Skill for each deity.  It is used
           by clerics for performing ritual invocations.  Individuals
@@ -5027,7 +5026,7 @@
           to intervene with a miracle.  They originated as a means for
           clerics to impress their laity or potential converts.  These
           uses are still practiced, but many invocations work equally
-          well (often better) to subdue those who oppose a cleric’s
+          well (often better) to subdue those who oppose a cleric&#8217;s
           deity.  Such use is tacitly approved by all churches, since
           the proxy wars of mortals is an acceptable method of
           conflict among deities.  Theoretically, anyone may learn the
@@ -5081,8 +5080,8 @@
           tenets of the Morgathian Church, yet miracles were invoked
           in his presence.  Most clerics feel a prophet appears when a
           church needs to be steered away from a path of action which
-          does not please its deity.  Of course, one person’s prophet
-          is another person’s heretic.
+          does not please its deity.  Of course, one person&#8217;s prophet
+          is another person&#8217;s heretic.
         </p>
         <p>
           Temples are always consecrated ground, and certain areas
@@ -5173,7 +5172,7 @@
         </div>
         <p>
           An attempt to establish a close spiritual relationship with
-          the deity.  The cleric hopes to earn the deity’s favor,
+          the deity.  The cleric hopes to earn the deity&#8217;s favor,
           reflected by receiving bonus Piety.  Takes 1 minute and
           grants &#9733; Piety improvement to the caster.  This additional
           Piety is lost like fatigue.  Multiple castings cannot bring
@@ -5207,7 +5206,7 @@
         <p>
           A marriage ceremony which typically lasts one hour.  Both
           the groom and bride must be of the same religion, or one
-          spouse must be baptized in the other’s faith before
+          spouse must be baptized in the other&#8217;s faith before
           marriage.  The ceremony blesses and awards to each spouse
           the chance to improve their piety from the deity, unless
           either is already married in that religion.
@@ -5316,7 +5315,7 @@
           </p>
         </div>
         <p>
-          An attempt to invoke the displeasure of the cleric’s deity
+          An attempt to invoke the displeasure of the cleric&#8217;s deity
           upon one named victim.  Curses cannot kill nor be randomly
           directed.  A curse is usually a short, simple declaration.
           The Medical/Psyche tables can help inspire effects to the
@@ -5354,7 +5353,7 @@
           </p>
         </div>
         <p>
-          Calls forth a specific denizen of the cleric’s deity.  The
+          Calls forth a specific denizen of the cleric&#8217;s deity.  The
           more powerful the denizen, the more difficult it will be to
           summon.  If the ethereal has already been perceived by the
           Revelation invocation, Summon Mastery is improved by
@@ -5392,7 +5391,7 @@
         <p>
           The ability to control/banish all divine servants within
           Range.  Clerics can command only the servants of their own
-          deity.  Hostile servants of the cleric’s deity may be
+          deity.  Hostile servants of the cleric&#8217;s deity may be
           banished.  Servants of other deities are not driven off, but
           will feel uncomfortable and, if not well-motivated to
           remain, probably leave anyway.  Friendly servants may be
@@ -5438,7 +5437,7 @@
           staff, rod, ring, amulet, belt buckle, brooch, etc.
           Artifacts store a known invocation for instant activation on
           command.  Cleric determines the number of charges to install
-          – each charge takes a casting time of 5 minutes times the
+          - each charge takes a casting time of 5 minutes times the
           Circle.  Hence, storing three charges of a Circle V
           invocation cost 3 x 5 x 5 = 75 minutes.  Use of an artifact
           generally requires some sort of triggering or activation.
@@ -5496,7 +5495,7 @@
           </p>
         </div>
         <p>
-          Allows the invoker’s soul to temporarily depart the body
+          Allows the invoker&#8217;s soul to temporarily depart the body
           which is left in a state of metabolic suspension.  The
           disembodied soul functions as an Astral Entity for Duration.
           This takes 10 minutes and lasts for 5 hours.  At the end the
@@ -5506,11 +5505,11 @@
       <div class="container">
         <h1 id="comb">Combat</h1>
         <p>
-          Physical conflict is an important aspect of Hârnic culture.
+          Physical conflict is an important aspect of H&#226;rnic culture.
           The following compilation is an extract and modernization of
           the anonymous treatise <em>The Colloquium of the Four
           Veterans</em>.  It is clear that the author must have
-          witnessed several of the recent Hârnic wars and extensive
+          witnessed several of the recent H&#226;rnic wars and extensive
           knowledge of conflicts with barbarian tribes.  Only the
           essence of these four volume treatise is captured here.  It
           is treasured among scholars.
@@ -5521,7 +5520,7 @@
           race, and custom.  (C) Chivalric (noble) Weapon; (T)
           Tool/Peasant weapon; (M) Also missile weapon, data given
           here is for use as Melee weapon, for use as Missile weapon
-          see later; (R) Rare Weapon (on Hârn); (G) Gargun Weapon; (S)
+          see later; (R) Rare Weapon (on H&#226;rn); (G) Gargun Weapon; (S)
           Sindarin Weapon; (L) Long Weapon.  Attacks at 5 foot range
           and cannot Attack closer.
         </p>
@@ -5864,7 +5863,7 @@
           </p>
           <p>
             <em>Tangle Attack:</em> Certain weapons have the ability
-            to tangle an opponent or the opponent’s weapons.  Some
+            to tangle an opponent or the opponent&#8217;s weapons.  Some
             weapons, such as the net, are designed specifically for
             this purpose.  Tangle attacks may be attempted with
             cloaks, blankets, nets, flails, whips, ropes, or other
@@ -5938,7 +5937,7 @@
         <p>
           <em>Ammunition:</em> Combatants equipped with a Javelin or
           Shorkana may carry two or three (each is listed as a
-          separate weapon).  Most archers carry 12–24 arrows/quarrels,
+          separate weapon).  Most archers carry 12-24 arrows/quarrels,
           an extra bow, and three bowstrings for each bow.  Assuming
           there is a plentiful supply of stones, ammo for Slings and
           Staff Slings can be ignored.
@@ -5973,7 +5972,7 @@
           three.  Although horses do not have the capacity for
           language, they can be trained to respond to verbal commands.
           Several cultures breed ponies for war, notably the Chelni
-          and Hodiri tribal nations of Hârn.
+          and Hodiri tribal nations of H&#226;rn.
         </p>
         <p>
           <em>Steeds:</em> Steed quality is largely measured by Steed
@@ -5989,11 +5988,11 @@
           through training with the new owner.
         </p>
         <p>
-          <em>Barding:</em> Horse armour is rare on Hârn, partly due
+          <em>Barding:</em> Horse armour is rare on H&#226;rn, partly due
           to high cost, partly because the protection gained does not
           justify the encumbrance.  A Thorax strike has a chance of
           striking the saddle and/or saddle blanket.  The occasional
-          chanfron (Plate covering the horse’s Skull and Face (except
+          chanfron (Plate covering the horse&#8217;s Skull and Face (except
           eyes &#0038; muzzle) weight 20 lb, cost 500d+) is seen on
           the steeds of rich knights.  Some very rich knights defy
           convention and armour their horses as a status symbol, but
@@ -6139,7 +6138,7 @@
           the days of rest accumulated since the last day are forfeit;
           wounds are often aggravated or reopened by premature
           activity.  Injury and Encumbrance penalties are ignored
-          during Healing.  Fatigue penalty (if any) are applied –
+          during Healing.  Fatigue penalty (if any) are applied -
           injured combatants are supposed to get lots of rest.
         </p>
         <p>
@@ -6155,10 +6154,10 @@
           Fire and internal system damage is treated as frost, but
           some treatments may not be applied, because they will kill
           the patient.  I.e. cleaning and dressing an internal organ
-          is not possible for Hârnic medicine.  A secondary treatment
+          is not possible for H&#226;rnic medicine.  A secondary treatment
           to sterilize and seal a Minor or Serious wound is
           Cauterization.  It cannot be used on Grievous or worse
-          wounds.  The procedure is done after a wound’s treatment has
+          wounds.  The procedure is done after a wound&#8217;s treatment has
           been established by the normal treatment rules.  A metallic
           object and fire are required.  Cauterization is attempted at
           Physician Mastery add &#9733;.  The effect is to close
@@ -6183,7 +6182,7 @@
           with points in excess of &#9733;&#9733;&#9733; as other body
           parts are.  The circulatory system itself will not turn
           infectious.  Treatment by physicians depend on the location.
-          Some locations are incurable by Hârnic physicians.  For
+          Some locations are incurable by H&#226;rnic physicians.  For
           multiple bleeders only take the maximum in the same
           extremity, but add those for different extremities.
           Incapacitating and destroying wounds have no additional
@@ -6206,7 +6205,7 @@
         <p>
           Jousting is a formalized style of combat between two mounted
           contestants, whose object is to charge and strike the
-          opponent with a couched lance.  It is seen at most Hârnic
+          opponent with a couched lance.  It is seen at most H&#226;rnic
           tournaments.  The rules for winning vary, but the most
           common set is known as the Laranian Joust.  This contest is
           won by the first jouster to accumulate three (3) points.
@@ -6237,7 +6236,7 @@
         </p>
         <p>
           Jousters wear the same armour in the Joust as they would in
-          war – only more if possible.  While there is nothing in the
+          war - only more if possible.  While there is nothing in the
           way of specialized armour for the Joust, most participants
           wear great helms and additional protection to the torso,
           such as a Kurbul breastplate.  At most tournaments, jousters
@@ -6257,7 +6256,7 @@
           more lethal, regular lances may be used.  It is accepted
           that those too old or infirm to joust, or those of high
           station, may appoint a champion to joust for them, even in
-          duels of honor.  The privilege of a lady’s favor may be
+          duels of honor.  The privilege of a lady&#8217;s favor may be
           granted to a noble knight.  The value of such a token is
           purely symbolic, a romantic epitome of the chivalric ethos.
           The nature of the favor can have complex symbolism of its
@@ -6268,7 +6267,7 @@
         <p>
           Jousting is simultaneous combat.  The two combatants spur
           their horses to charge, and then attack each other as they
-          pass.  Riding skill has an effect on the jouster’s combat.
+          pass.  Riding skill has an effect on the jouster&#8217;s combat.
           Each jouster makes a Steed Command check to begin the
           charge.
         </p>
