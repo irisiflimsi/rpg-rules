@@ -644,11 +644,11 @@
         <p>
           Any effects from wounds or other external influences in
           combat are applied immediately to pending progressions, but
-          need to be modified by <em>B/E/P</em> of choice and the
-          appropriate armor.  At the actors choice it can offset the
-          goal or the time.  To prevent players from immediately
-          aborting bad rolls, mandatory secret rolls by the GM can be
-          used.
+          the wound itself is modified by <em>B/E/P</em> of choice and
+          the appropriate armor.  The offset is alonge the trajecory
+          chosen.  Note that the same is true for affects on the
+          defender.  If this implies an action to occur in the past,
+          it is resolved immediately.
         </p>
         <p>
           If time is fixed, a best effort attack can be made.  For
@@ -1116,23 +1116,11 @@
         <h5 class="skill" id="sk-end">Endurance</h5>
         <include id="$Endurance"/>
         <p>
-          Load is the total weight of items carried or worn, including
-          clothing, armour, and weapons.  Total Load is recalculated
-          as items are acquired or discarded.  Encumbrance Penalty is
-          the effect of carried weight on a character&#8217;s physical
-          activities.  It is equal to Weight carried divided by the
-          Maximum Lift (see Strength skill) Weight times Factor dimension.
+	  Endurance ia 5-added to Strength to get the effective
+	  fatigue rate for carrying load.  See Strength for details on
+	  lifting loads.  Remember that the fatigue accrued must be
+	  used as modifier for the next time interval.
         </p>
-        <p>
-          When holding breath (for more than a few seconds) Fatigue is
-          not recovered, as is generally the case while fatigue is
-          accumulated.  Multiply the factor to the standard rate to
-          get a factual rate.  A factor of 10 means that physical
-          activity that normally generates 1 level per minute, now
-          does 1 every 6 second.  Remember that the fatigue accrued
-          must be used as modifier for the next time interval.
-        </p>
-        <include id="$D-Endurance"/>
         <h5 class="skill" id="sk-eng">Engineering</h5>
         <include id="$Engineering"/>
         <p>
@@ -1303,12 +1291,29 @@
         <include id="$Initiative"/>
         <p>
           Initiative reflects battle experience, discipline, and
-          morale.  Initiative determines the order in which characters
-          act in a given second or round, whenever that makes a
-          difference.  Note that these fractions do not allow the
-          character to act multiple times in a second or
-          round. Characters with identical Initiatives act
-          simultaneously.
+          morale.  Initiative determines the speed in which characters
+          can assess a stressful situation.  Instead of rolling a
+          general awareness roll, the characters take the time listed
+          before they can act.  An ambush and similar situations can
+          give a bonus (for the ambushing party) as can the general
+          awareness that combat is imminent.  Sleeping and other
+          unawareness situations may incur hefty penalties.  General
+          penalties apply.
+        </p>
+        <p>
+	  During the time a character is &#8220;frozen&#8221; this
+	  way, he is trying to understand the situation he is in and
+	  assesses the options he has.  He is catious during that
+	  time.  General awareness issues such as during an ambush are
+	  not covered by Initiative.
+        </p>
+        <p>
+	  Battle-hardened characters may come into the fractional
+	  range often.  Optionally fractions can be used to determine
+	  who goes first.  The GM determines, whether going first
+	  impedes the action of another already in the second that
+	  action culminates.  This changes the drama of simultaneous
+	  activity, which may or may not be appropriate.
         </p>
         <include id="$D-Initiative"/>
         <h5 class="skill" id="sk-int">Intrigue</h5>
@@ -1581,7 +1586,7 @@
           fatigue points a physician removes immediately.  Such an
           attempt may only be made once per subject every minute (by
           the same or different people).  Multiple people working in
-          concert may use Row-5-Addition.
+          concert may use 5-Addition.
         </p>
         <p>
           Healing rate is used for wounds/injury.  A physician designs
@@ -1699,8 +1704,6 @@
           All Talents are treated as separate skills.
         </p>
         <include id="PsiTalents-1"/>
-        <p/>
-        <include id="$D-PsiTalents"/>
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
         <include id="$Rhetoric"/>
         <p>
@@ -1808,16 +1811,15 @@
           </p>
           <p>
             <em>Liturgy:</em> Use the Piety Gain dimension, if the
-            total piety (Row-5-Addition) of the congregation,
-            subtracting the cleric&#8217;s, is higher or equal to that
-            amount.
+            total piety (5-Addition) of the congregation, subtracting
+            the cleric&#8217;s, is higher or equal to that amount.
           </p>
           <p>
             <em>Awe:</em> Use dimension of the same name.
           </p>
           <p>
-            <em>Tongues:</em> Add +15 Row-5-Addition to get the
-            temporary language understanding.
+            <em>Tongues:</em> 5-Add 15 to get the temporary language
+            understanding.
           </p>
           <p>
             <em>Consecration:</em> The rituals have -1 for each
@@ -1956,21 +1958,21 @@
         <h5 class="skill" id="sk-str">Strength</h5>
         <include id="$Strength"/>
         <p>
-          Note that the skill may be improved but not the attribute.
-          The listed weight can be lifted excluding your own body.  At
+          The listed weight excluding your own body can be lifted.  At
           that point any activity is at -10.  This penalty scales
-          linearly down or up, any fraction of the weight carried also
-          incurs the same fraction of -10 as penalty.  Note that with
-          certain penalties usually trivial activities (i.e. no roll
-          required) become difficult, for instance not stumbling.
-          Still without tools, activity with both hands is impossible.
-          Freeing one hand incurs twice the penalty and assumes that
-          the weight is liftable that way.  Fatigue is accrued at the
-          1 point per 10 seconds for the maximum lift.  Fractions
-          (which cannot exceed 1) of that lift generate the
-          corresponding fractional fatigue rate.  E.g. lifting half
-          the maximum weight gives 3 points per minute (or 1 per 20
-          seconds).  Only simple fractions are allowed.
+          linearly down or up with additional weight, any fraction of
+          the weight carried also incurs the same fraction of -10 as
+          penalty.  Note that with certain penalties usually trivial
+          activities (i.e. no roll required) become difficult, for
+          instance not stumbling.  Still without tools, activity with
+          both hands is impossible.  Freeing one hand incurs twice the
+          penalty and assumes that the weight is liftable that way.
+          Fatigue is accrued at the 1 point per 10 seconds for the
+          maximum lift.  Fractions (which cannot exceed 1) of that
+          lift generate the corresponding fractional fatigue rate.
+          E.g. lifting half the maximum weight gives 3 points per
+          minute (or 1 per 20 seconds).  Only simple fractions are
+          allowed.  See Endurance for a modification to fatigue.
         </p>
         <include id="$D-Strength"/>
         <h5 class="skill" id="sk-sur">Survival</h5>
@@ -2168,11 +2170,11 @@
             5-Addition.
           </p>
           <p>
-            <em>Healing:</em> <em>Empathy:</em> Add talent skill to
+            <em>Healing:</em> <em>Empathy:</em> 5-Add talent skill to
             physician’s skill at diagnosis, etc.
-            <em>Restoration:</em> Talent skill replaces subject&#8217;s
-            Stamina in new fatigue rate.  <em>Heal:</em> Add skill to
-            Stamina for healing time.
+            <em>Restoration:</em> Talent skill replaces
+            subject&#8217;s Stamina in new fatigue rate.
+            <em>Heal:</em> 5-Add skill to Stamina for healing time.
           </p>
           <p>
             <em>Hex:</em> Reduces the victims rolls by this talent
@@ -2266,17 +2268,18 @@
         </p>
         <p>
           In order to simulate larger combats with many participants,
-          the usual Row-5-Addition can be used.  It does not provide
-          as many tactical options as individual combat does, but greatly
-          reduces time spent.  Both time and wound dimension should 
-          be scaled linearly with the number of particpipants.  E.g. a
-          wound of 5 after 30 seconds would scale to a total of 50 points
-          after 5 minutes for 10 people or to 500 points after 50 minutes
-          for 100 people.  The points should be distributed in
-          reasonable batches on the participants on each side, the 
-          smallest batch size being the wounds rolled.  People can be hit
-          multiple times, but points beyond 40 generally don&#8217;t make sense
-          unless explosives, catapults, or similar are involved.
+          the usual 5-Addition can be used.  It does not provide as
+          many tactical options as individual combat does, but greatly
+          reduces time spent.  Both time and wound dimension should be
+          scaled linearly with the number of particpipants.  E.g. a
+          wound of 5 after 30 seconds would scale to a total of 50
+          points after 5 minutes for 10 people or to 500 points after
+          50 minutes for 100 people.  The points should be distributed
+          in reasonable batches on the participants on each side, the
+          smallest batch size being the wounds rolled.  People can be
+          hit multiple times, but points beyond 40 generally
+          don&#8217;t make sense unless explosives, catapults, or
+          similar are involved.
         </p>
         <div class="explain">
           <p>
@@ -2569,11 +2572,13 @@
         </p>
         <p>
           <em>Bloodloss:</em> damage taken increases at Impact - 10
-          per 10s. For example, a 12 point injury causes 2 points per
-          10 seconds, or 1 point of bloodloss to accrue every 5
-          seconds.  (A 22 destroying wound causes more than 1 point
-          per second in bloodloss and only very unlikely circumstances
-          will keep the victim alive for more than 15 seconds.)
+          (&#9733;) per 10s. For example, a 12 point injury causes 2
+          points per 10 seconds, or 1 point of bloodloss to accrue
+          every 5 seconds.  (A 22 destroying wound causes more than 1
+          point per second in bloodloss and only very unlikely
+          circumstances will keep the victim alive for long.)  At GM
+          discretion some wounds will not cause bloodloss (e.g. Frost)
+          including inanimate objects.
         </p>
         <p>
           <em>Inanimate Damage:</em> Instead of (autonomous) Healing,
@@ -2589,20 +2594,21 @@
         <p>
           <em>Fumble:</em> Any new wound of at least 1 point to arms
           results in a Fumble chance.  Use accumulated damage to that
-          extremity as difficulty for a Dexterity skill roll. Failure
-          results in dropping anything held on that arm.
+          extremity as difficulty for a Dexterity skill roll against
+          10 (&#9733;).  Failure results in dropping anything held on
+          that arm.
         </p>
         <p>
           <em>Stumble:</em> Any new wound of at least 1 point to legs
           results in a stumble chance.  Use accumulated damage to that
-          extremity as difficulty for an Agility skill roll. Failure
-          results in dropping prone.
+          extremity as difficulty for an Agility skill roll against 10
+          (&#9733;).  Failure results in dropping prone.
         </p>
         <p>
           <em>Shock:</em> Any new wound of at least 1 point results in
           a Shock chance.  Use accumulated injury and fatigue as
-          difficulty for a Stamina skill roll but subtract 10.
-          Failure results in unconsciousness.
+          difficulty for a Stamina skill roll against 20.  Failure
+          results in unconsciousness.
         </p>
       </div>
       <div class="container">
@@ -5604,8 +5610,7 @@
           Some Jmorvi Shek-Pvar with weaponcraft skill can produce
           enchanted armour.  Such pieces are rare and have +1 quality
           per level of enchantment.  To determine the quality for
-          breakage, add all 4 protective values together through
-          5-Addition.
+          breakage, add all 4 protective values together.
         </p>
         <div class="explain">
           <p>
@@ -5705,9 +5710,9 @@
         <h3 id="actions">Actions</h3>
         <p>
           Actions will take their time as desired and will be resolved
-          accordingly.  There is also no initiative, simply aborted
-          actions, incomplete actions and action being affected by
-          other activity.  Some of the more common actions are listed.
+          accordingly.  Aborted actions, incomplete actions and action
+          being affected by other activity are all possible.  Some of
+          the more common actions are listed.
         </p>
         <div class="explain">
           <p>
@@ -6108,39 +6113,18 @@
         </p>
         <p>
           <em>Fumble/Stumble:</em> A wound level &#9733; above
-          Dexterity on an arm causes any object held to be dropped, a
-          Fumble.  A wound level &#9733; above Agility on a leg
-          causes the victim to fall down, a Stumble.  A combatant with
-          wound level of less than &#9733;&#9733; above Dexterity is
-          eligible for a Grope action to pick up any object dropped.
-          A combatant that dropped to a Stumble but with a wound less
-          than &#9733;&#9733; above Agility is likewise able to get
-          back up.  If the wound level exceeds these &#9733;&#9733; the pain and
-          structural damage preclude recovery.
+          (effective) Dexterity on an arm causes any object held to be
+          dropped, a Fumble.  A wound level &#9733; above (effective)
+          Agility on a leg causes the victim to fall down, a Stumble.
+          A combatant is eligible for a Grope action to pick up any
+          object dropped.  A combatant that dropped to a Stumble is
+          likewise able to get back up.
         </p>
         <p>
           Any wound needs to heal its injury points.  This depends on
           Stamina; medicine may improve the healing rate.  A physician
           may attempt to find or create the correct medicine but his
-          skill does not add to the healing directly.  A serious wound
-          may become infected until it turns into a minor wound.  An
-          infection is a daily attack on the wounded area with a level
-          of the wound, defended against with Stamina.  Medicine
-          applies in the same way as for minor wounds, but is harder
-          to obtain.  A penalty of &#9733; is suitable.  Any
-          injury points gained through the infection is added to the
-          original wound.  This may turn the wound into a grievous
-          wound.  A grievous wound is a bleeder or otherwise makes the
-          body lose vital fluids.  Bloodloss is treated as a separate
-          injury.  Note that the circulatory system is incapacitated
-          with points in excess of &#9733;&#9733;&#9733; as other body
-          parts are.  The circulatory system itself will not turn
-          infectious.  Treatment by physicians depend on the location.
-          Some locations are incurable by Hârnic physicians.  For
-          multiple bleeders only take the maximum in the same
-          extremity, but add those for different extremities.
-          Incapacitating and destroying wounds have no additional
-          effects over the bleeder and infection dangers.
+          skill does not add to the healing directly.
         </p>
         <p>
           An untreated wound is considered as being treated by a Physician
@@ -6183,6 +6167,27 @@
           leaves a nasty, broad scare and Comeliness effects may be
           applicable.  Amputations and immediate cauterizations stop
           infections.
+        </p>
+	<p>
+	  A serious or worse wound
+          may become infected until it turns into a minor wound.  An
+          infection is a daily attack on the wounded area with a level
+          of the wound, defended against with Stamina.  Medicine
+          applies in the same way as for minor wounds, but is harder
+          to obtain.  A penalty of &#9733; is suitable.  Any
+          injury points gained through the infection is added to the
+          original wound.  This may turn the wound into a grievous
+          wound.  A grievous wound is a bleeder or otherwise makes the
+          body lose vital fluids.  Bloodloss is treated as a separate
+          injury.  Note that the circulatory system is incapacitated
+          with points in excess of &#9733;&#9733;&#9733; as other body
+          parts are.  The circulatory system itself will not turn
+          infectious.  Treatment by physicians depend on the location.
+          Some locations are incurable by Hârnic physicians.  For
+          multiple bleeders only take the maximum in the same
+          extremity, but add those for different extremities.
+          Incapacitating and destroying wounds have no additional
+          effects over the bleeder and infection dangers.
         </p>
         <p>
           Diseases and Toxins come in various forms.  All of the below
