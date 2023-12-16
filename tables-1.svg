@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="svg.xsl"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210" id="svg2" version="1.1">
-  <rect id="Accuracy" style="fill:none;stroke:none;" width="120" height="18" x="10" y="10" />
-  <foreignObject y="0" x="0" width="600" height="90" transform="translate(10,10) scale(0.2)">
+  <rect id="Percentile" style="fill:none;stroke:none;" width="190" height="16" x="10" y="10" />
+  <foreignObject y="0" x="0" width="950" height="80" transform="translate(10,10) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table>
+          <tr>
+            <th>-9</th><th>-8</th>
+            <th>-7</th><th>-6</th><th>-5</th>
+            <th>-4</th><th>-3</th><th>-2</th>
+            <th>-1</th><th>0</th><th>+1</th>
+            <th>+2</th><th>+3</th><th>+4</th>
+            <th>+5</th><th>+6</th><th>+7</th>
+            <th>+8</th><th>+9</th>
+          </tr>
+          <tr>
+            <td>07-08</td><td>09-10</td><td>11-12</td>
+            <td>13-15</td><td>16-19</td><td>20-24</td><td>25-30</td>
+            <td>31-37</td><td>38-46</td><td>47-54</td><td>55-63</td>
+            <td>64-70</td><td>71-76</td><td>77-81</td><td>82-85</td>
+            <td>86-88</td><td>89-90</td><td>91-92</td><td>93-94</td>
+          </tr>
+          <caption>
+            P e r c e n t i l e
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Accuracy" style="fill:none;stroke:none;" width="120" height="18" x="10" y="26" />
+  <foreignObject y="0" x="0" width="600" height="90" transform="translate(10,26) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -34,8 +77,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Travel/Season" style="fill:none;stroke:none;" width="162" height="22" x="10" y="32" />
-  <foreignObject y="0" x="0" width="810" height="110" transform="translate(10,32) scale(0.2)">
+  <rect id="Travel/Season" style="fill:none;stroke:none;" width="162" height="22" x="10" y="47" />
+  <foreignObject y="0" x="0" width="810" height="110" transform="translate(10,47) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -70,8 +113,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Travel" style="fill:none;stroke:none;" width="110" height="30" x="10" y="57" />
-  <foreignObject y="0" x="0" width="550" height="150" transform="translate(10,57) scale(0.2)">
+  <rect id="Travel" style="fill:none;stroke:none;" width="110" height="30" x="10" y="70" />
+  <foreignObject y="0" x="0" width="550" height="150" transform="translate(10,70) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -112,8 +155,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Morale" style="fill:none;stroke:none;" width="82" height="16" x="10" y="91" />
-  <foreignObject y="0" x="0" width="410" height="80" transform="translate(10,91) scale(0.2)">
+  <rect id="Morale" style="fill:none;stroke:none;" width="82" height="16" x="10" y="100" />
+  <foreignObject y="0" x="0" width="410" height="80" transform="translate(10,100) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -145,8 +188,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Combat/Fall" style="fill:none;stroke:none;" width="96" height="16" x="10" y="111" />
-  <foreignObject y="0" x="0" width="480" height="80" transform="translate(10,111) scale(0.2)">
+  <rect id="Combat/Fall" style="fill:none;stroke:none;" width="96" height="16" x="10" y="117" />
+  <foreignObject y="0" x="0" width="480" height="80" transform="translate(10,117) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -182,8 +225,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Initiative" style="fill:none;stroke:none;" width="100" height="16" x="10" y="130" />
-  <foreignObject y="0" x="0" width="500" height="80" transform="translate(10,130) scale(0.2)">
+  <rect id="Initiative" style="fill:none;stroke:none;" width="100" height="16" x="10" y="133" />
+  <foreignObject y="0" x="0" width="500" height="80" transform="translate(10,133) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -271,8 +314,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Armour Values" style="fill:none;stroke:none;" width="70" height="48" x="116" y="98" />
-  <foreignObject y="0" x="0" width="350" height="240" transform="translate(116,98) scale(0.2)">
+  <rect id="Armour Values" style="fill:none;stroke:none;" width="70" height="48" x="116" y="100" />
+  <foreignObject y="0" x="0" width="350" height="240" transform="translate(116,100) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -325,8 +368,41 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Physician" style="fill:none;stroke:none;" width="120" height="16" x="168" y="10" />
-  <foreignObject y="0" x="0" width="600" height="80" transform="translate(168,10) scale(0.2)">
+  <rect id="5-Addition" style="fill:none;stroke:none;" width="120" height="16" x="212" y="10" />
+  <foreignObject y="0" x="0" width="380" height="110" transform="translate(212,10) scale(0.2)">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
+          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
+          caption { padding: 5px; font-weight: bold; caption-side: bottom; }
+          th, td { vertical-align: top; padding: 2px 6px; }
+          td a { color: var(--h1); }
+          tr:first-child { border-top: 3px solid var(--tdo); border-bottom: 3px solid var(--tdo); }
+          tr:nth-child(3n+2) { border-bottom: 2px solid var(--tde); }
+          tr:nth-child(3n+3) { border-bottom: 2px solid var(--tdo); }
+          tr:nth-child(3n+4) { border-bottom: 2px solid var(--tdo); }
+          .grid td:first-child { border-left: 2px solid var(--tdo); }
+          .grid td:nth-child(even) { border-right: 2px solid var(--tdo); }
+        </style>
+      </head>
+      <body>
+        <table>
+          <tr>
+            <th>Difference</th><td>0-1</td><td>2-3</td><td>4-6</td><td>7-10</td><td>11-19</td><td>20+</td>
+          </tr>
+          <tr>
+            <td>Result</td><td>+5</td><td>+4</td><td>+3</td><td>+2</td><td>+1</td><td>0</td>
+          </tr>
+          <caption>
+            5 - A d d i t i o n
+          </caption>
+        </table>
+      </body>
+    </html>
+  </foreignObject>
+  <rect id="Physician" style="fill:none;stroke:none;" width="120" height="16" x="168" y="28" />
+  <foreignObject y="0" x="0" width="600" height="80" transform="translate(168,28) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -358,8 +434,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Stamina" style="fill:none;stroke:#none;" width="100" height="16" x="187" y="34" />
-  <foreignObject y="0" x="0" width="500" height="80" transform="translate(187,34) scale(0.2)">
+  <rect id="Stamina" style="fill:none;stroke:#none;" width="100" height="16" x="187" y="47" />
+  <foreignObject y="0" x="0" width="500" height="80" transform="translate(187,47) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -391,8 +467,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Hazard" style="fill:none;stroke:none;" width="110" height="16" x="177" y="56" />
-  <foreignObject y="0" x="0" width="550" height="80" transform="translate(177,56) scale(0.2)">
+  <rect id="Hazard" style="fill:none;stroke:none;" width="110" height="16" x="177" y="65" />
+  <foreignObject y="0" x="0" width="550" height="80" transform="translate(177,65) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -424,8 +500,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Move" style="fill:none;stroke:#none;" width="110" height="16" x="177" y="79" />
-  <foreignObject y="0" x="0" width="550" height="80" transform="translate(177,79) scale(0.2)">
+  <rect id="Move" style="fill:none;stroke:#none;" width="120" height="16" x="167" y="84" />
+  <foreignObject y="0" x="0" width="600" height="80" transform="translate(167,84) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -457,8 +533,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Knowledge" style="fill:none;stroke:#none;" width="70" height="16" x="217" y="104" />
-  <foreignObject y="0" x="0" width="350" height="80" transform="translate(217,104) scale(0.2)">
+  <rect id="Knowledge" style="fill:none;stroke:#none;" width="80" height="16" x="215" y="106" />
+  <foreignObject y="0" x="0" width="360" height="80" transform="translate(213,106) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -490,8 +566,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Combat/Size" style="fill:none;stroke:none;" width="96" height="16" x="191" y="124" />
-  <foreignObject y="0" x="0" width="480" height="80" transform="translate(191,124) scale(0.2)">
+  <rect id="Combat/Size" style="fill:none;stroke:none;" width="96" height="16" x="191" y="128" />
+  <foreignObject y="0" x="0" width="480" height="80" transform="translate(191,128) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
@@ -525,8 +601,8 @@
       </body>
     </html>
   </foreignObject>
-  <rect id="Dexterity" style="fill:none;stroke:none;" width="76" height="22" x="211" y="149" />
-  <foreignObject y="0" x="0" width="380" height="110" transform="translate(211,149) scale(0.2)">
+  <rect id="Dexterity" style="fill:none;stroke:none;" width="76" height="22" x="211" y="150" />
+  <foreignObject y="0" x="0" width="380" height="110" transform="translate(211,150) scale(0.2)">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <style>
