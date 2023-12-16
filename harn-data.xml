@@ -513,7 +513,7 @@
       <td>Morale</td><td>Broken</td><td>Cautious</td><td>Normal</td><td>Rally</td><td>Berserk</td>
     </tr>
   </table>
-  <table id="$D-Move" style="width:50%">
+  <table id="$D-Move" style="width:80%">
     <tr>
       <th>Dimension</th><th>-40</th><th>-30</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th><th>80</th><th>90</th><th>100</th>
     </tr>
@@ -643,7 +643,7 @@
       <th>Dimension</th><th>10</th><th>20</th><th>30</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
-      <td>Length</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td>
+      <td>Length</td><td>3</td><td>6</td><td>10</td><td>30</td><td>60</td><td>100</td>
     </tr>
   </table>
   <table id="$D-Stamina" style="width:60%">
