@@ -37,153 +37,153 @@
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Buckler</td><td>Shield</td><td>3</td><td>13</td>
+            <td>Buckler</td><td>Shield</td><td>3</td><td>3</td>
             <td>1/3</td><td>-</td><td>1</td><td>-</td><td>(2)</td><td>24d</td>
           </tr>
           <tr>
-            <td>Knight (C)</td><td>Shield</td><td>5</td><td>14</td>
+            <td>Knight (C)</td><td>Shield</td><td>5</td><td>4</td>
             <td>1/4</td><td>-</td><td>2</td><td>-</td><td>(3)</td><td>60d</td>
           </tr>
           <tr>
-            <td>Round</td><td>Shield</td><td>6</td><td>14</td>
+            <td>Round</td><td>Shield</td><td>6</td><td>4</td>
             <td>1/4</td><td>-</td><td>2</td><td>-</td><td>(3)</td><td>42d</td>
           </tr>
           <tr>
-            <td>Kite (C)</td><td>Shield</td><td>7</td><td>15</td>
+            <td>Kite (C)</td><td>Shield</td><td>7</td><td>5</td>
             <td>1/5</td><td>-</td><td>3</td><td>-</td><td>(3)</td><td>72d</td>
           </tr>
           <tr>
-            <td>Tower</td><td>Shield</td><td>8</td><td>15</td>
+            <td>Tower</td><td>Shield</td><td>8</td><td>5</td>
             <td>1/5</td><td>-</td><td>3</td><td>-</td><td>(3)</td><td>96d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Knife (T)</td><td>Dagger</td><td>1</td><td>11</td>
+            <td>Knife (T)</td><td>Dagger</td><td>1</td><td>1</td>
             <td>1/0</td><td>-</td><td>0</td><td>1</td><td>4</td><td>M/6d</td>
           </tr>
           <tr>
-            <td>Dagger</td><td>Dagger</td><td>1</td><td>12</td>
+            <td>Dagger</td><td>Dagger</td><td>1</td><td>2</td>
             <td>1/1</td><td>-</td><td>1</td><td>2</td><td>5</td><td>24d</td>
           </tr>
           <tr>
-            <td>Taburi (M)</td><td>Dagger</td><td>1</td><td>10</td>
+            <td>Taburi (M)</td><td>Dagger</td><td>1</td><td>0</td>
             <td>1/0</td><td>-</td><td>0</td><td>-</td><td>4</td><td>20d</td>
           </tr>
           <tr>
-            <td>Keltan</td><td>Dagger</td><td>2</td><td>13</td>
+            <td>Keltan</td><td>Dagger</td><td>2</td><td>3</td>
             <td>1/2</td><td>-</td><td>2</td><td>0</td><td>3</td><td>36d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Longknife (S)</td><td>Sword</td><td>1</td><td>13</td>
+            <td>Longknife (S)</td><td>Sword</td><td>1</td><td>3</td>
             <td>2/3</td><td>-</td><td>1</td><td>3</td><td>5</td><td>96d</td>
           </tr>
           <tr>
-            <td>Shortsword</td><td>Sword</td><td>2</td><td>13</td>
+            <td>Shortsword</td><td>Sword</td><td>2</td><td>3</td>
             <td>2/1</td><td>-</td><td>2</td><td>4</td><td>4</td><td>90d</td>
           </tr>
           <tr>
-            <td>Mankar</td><td>Sword</td><td>2</td><td>12</td>
+            <td>Mankar</td><td>Sword</td><td>2</td><td>2</td>
             <td>2/1</td><td>-</td><td>2</td><td>5</td><td>0</td><td>84d</td>
           </tr>
           <tr>
-            <td>Mang</td><td>Sword</td><td>3</td><td>12</td>
+            <td>Mang</td><td>Sword</td><td>3</td><td>2</td>
             <td>3/2</td><td>-1</td><td>3</td><td>6</td><td>0</td><td>110d</td>
           </tr>
           <tr>
-            <td>Broadsword (C)</td><td>Sword</td><td>3</td><td>13</td>
+            <td>Broadsword (C)</td><td>Sword</td><td>3</td><td>3</td>
             <td>3/2</td><td>-</td><td>3</td><td>5</td><td>3</td><td>150d</td>
           </tr>
           <tr>
-            <td>Estoc (C)</td><td>Sword</td><td>3</td><td>12</td>
+            <td>Estoc (C)</td><td>Sword</td><td>3</td><td>2</td>
             <td>3/2</td><td>-</td><td>3</td><td>0</td><td>6</td><td>150d</td>
           </tr>
           <tr>
-            <td>Falchion</td><td>Sword</td><td>4</td><td>13</td>
+            <td>Falchion</td><td>Sword</td><td>4</td><td>3</td>
             <td>3/1</td><td>-</td><td>4</td><td>6</td><td>1</td><td>120d</td>
           </tr>
           <tr>
-            <td>Bastard sword (C)</td><td>Sword</td><td>5</td><td>13</td>
+            <td>Bastard sword (C)</td><td>Sword</td><td>5</td><td>3</td>
             <td>4/2</td><td>-2</td><td>4</td><td>7</td><td>4</td><td>180d</td>
           </tr>
           <tr>
-            <td>Battle sword (C)</td><td>Sword</td><td>8</td><td>14</td>
+            <td>Battle sword (C)</td><td>Sword</td><td>8</td><td>4</td>
             <td>5/2</td><td>-4</td><td>5</td><td>8</td><td>4</td><td>230d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Stick (2ft) (T)</td><td>Club</td><td>2</td><td>10</td>
+            <td>Stick (2ft) (T)</td><td>Club</td><td>2</td><td>0</td>
             <td>1/1</td><td>-</td><td>2</td><td>-</td><td>(2)</td><td>n/a</td>
           </tr>
           <tr>
-            <td>Club (T)</td><td>Club</td><td>3</td><td>10</td>
+            <td>Club (T)</td><td>Club</td><td>3</td><td>0</td>
             <td>3/1</td><td>-</td><td>4</td><td>-</td><td>(3)</td><td>W/12d</td>
           </tr>
           <tr>
-            <td>Mace (C)</td><td>Club</td><td>4</td><td>12</td>
+            <td>Mace (C)</td><td>Club</td><td>4</td><td>2</td>
             <td>3/1</td><td>-</td><td>6</td><td>-</td><td>-</td><td>84d</td>
           </tr>
           <tr>
-            <td>Morningstar</td><td>Club</td><td>5</td><td>12</td>
+            <td>Morningstar</td><td>Club</td><td>5</td><td>2</td>
             <td>4/1</td><td>-2</td><td>0</td><td>-</td><td>5</td><td>48d</td>
           </tr>
           <tr>
-            <td>Maul (T)</td><td>Club</td><td>7</td><td>10</td>
+            <td>Maul (T)</td><td>Club</td><td>7</td><td>0</td>
             <td>4/1</td><td>-4</td><td>7</td><td>-</td><td>-</td><td>W/24d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Sickle (C)</td><td>Axe</td><td>1</td><td>10</td>
+            <td>Sickle (C)</td><td>Axe</td><td>1</td><td>0</td>
             <td>1/1</td><td>-</td><td>1</td><td>4</td><td>3</td><td>M/10d</td>
           </tr>
           <tr>
-            <td>Shorkana (M)</td><td>Axe</td><td>2</td><td>11</td>
+            <td>Shorkana (M)</td><td>Axe</td><td>2</td><td>1</td>
             <td>1/1</td><td>-</td><td>3</td><td>5</td><td>-</td><td>48d</td>
           </tr>
           <tr>
-            <td>Hatchet (T)</td><td>Axe</td><td>2</td><td>10</td>
+            <td>Hatchet (T)</td><td>Axe</td><td>2</td><td>0</td>
             <td>1/1</td><td>-</td><td>3</td><td>4</td><td>-</td><td>M/12d</td>
           </tr>
           <tr>
-            <td>Handaxe</td><td>Axe</td><td>3</td><td>12</td>
+            <td>Handaxe</td><td>Axe</td><td>3</td><td>2</td>
             <td>2/1</td><td>-</td><td>4</td><td>6</td><td>(4)</td><td>72d</td>
           </tr>
           <tr>
-            <td>Warhammer (C)</td><td>Axe</td><td>5</td><td>12</td>
+            <td>Warhammer (C)</td><td>Axe</td><td>5</td><td>2</td>
             <td>3/1</td><td>-1</td><td>6</td><td>-</td><td>(5)</td><td>90d</td>
           </tr>
           <tr>
-            <td>Battleaxe (C)</td><td>Axe</td><td>6</td><td>13</td>
+            <td>Battleaxe (C)</td><td>Axe</td><td>6</td><td>3</td>
             <td>4/2</td><td>-3</td><td>6</td><td>9</td><td>(6)</td><td>100d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Nachaka (R)</td><td>Flail</td><td>1</td><td>11</td>
+            <td>Nachaka (R)</td><td>Flail</td><td>1</td><td>1</td>
             <td>3/2</td><td>-</td><td>4</td><td>-</td><td>-</td><td>12d</td>
           </tr>
           <tr>
-            <td>Grainflail (T)</td><td>Flail</td><td>2</td><td>10</td>
+            <td>Grainflail (T)</td><td>Flail</td><td>2</td><td>0</td>
             <td>4/1</td><td>-</td><td>5</td><td>-</td><td>-</td><td>W/12d</td>
           </tr>
           <tr>
-            <td>Ball &#0038; Chain (C)</td><td>Flail</td><td>4</td><td>13</td>
+            <td>Ball &#0038; Chain (C)</td><td>Flail</td><td>4</td><td>3</td>
             <td>4/2</td><td>-</td><td>8</td><td>-</td><td>(6)</td><td>60d</td>
           </tr>
           <tr>
-            <td>Warflail</td><td>Flail</td><td>5</td><td>12</td>
+            <td>Warflail</td><td>Flail</td><td>5</td><td>2</td>
             <td>5/2</td><td>-4</td><td>9</td><td>-</td><td>(6)</td><td>60d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Staff (C)</td><td>Spear</td><td>4</td><td>12</td>
+            <td>Staff (C)</td><td>Spear</td><td>4</td><td>2</td>
             <td>4/3</td><td>-2</td><td>4</td><td>-</td><td>-</td><td>W/36d</td>
           </tr>
           <tr>
-            <td>Javelin (M)</td><td>Spear</td><td>3</td><td>11</td>
+            <td>Javelin (M)</td><td>Spear</td><td>3</td><td>1</td>
             <td>3/1</td><td>-2</td><td>2</td><td>-</td><td>6</td><td>48d</td>
           </tr>
           <tr>
-            <td>Spear (6ft) (M)</td><td>Spear</td><td>5</td><td>12</td>
+            <td>Spear (6ft) (M)</td><td>Spear</td><td>5</td><td>2</td>
             <td>4/2</td><td>-2</td><td>4</td><td>-</td><td>7</td><td>60d</td>
           </tr>
           <caption>
@@ -218,71 +218,71 @@
             <th>A/D</th><th>HM</th><th>B</th><th>E</th><th>P</th><th>Price</th>
           </tr>
           <tr>
-            <td>Trident</td><td>Spear</td><td>6</td><td>13</td>
+            <td>Trident</td><td>Spear</td><td>6</td><td>3</td>
             <td>4/3</td><td>-2</td><td>4</td><td>-</td><td>5</td><td>72d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Lance (10ft) (C)</td><td>Polearm</td><td>8</td><td>12</td>
+            <td>Lance (10ft) (C)</td><td>Polearm</td><td>8</td><td>2</td>
             <td>5/1</td><td>-3</td><td>4</td><td>-</td><td>8</td><td>120d</td>
           </tr>
           <tr>
-            <td>Glaive/Bill (L) </td><td>Polearm</td><td>8</td><td>12</td>
+            <td>Glaive/Bill (L) </td><td>Polearm</td><td>8</td><td>2</td>
             <td>5/2</td><td>-4</td><td>6</td><td>7</td><td>6</td><td>84d</td>
           </tr>
           <tr>
-            <td>Jousting Pole (L)(C)</td><td>Polearm</td><td>8</td><td>9</td>
+            <td>Jousting Pole (L)(C)</td><td>Polearm</td><td>8</td><td>-1</td>
             <td>5/1</td><td>-5</td><td>3</td><td>-</td><td>-</td><td>40d</td>
           </tr>
           <tr>
-            <td>Poleaxe (10ft) (C)</td><td>Polearm</td><td>8</td><td>12</td>
+            <td>Poleaxe (10ft) (C)</td><td>Polearm</td><td>8</td><td>2</td>
             <td>5/1</td><td>-3</td><td>6</td><td>9</td><td>6</td><td>96d</td>
           </tr>
           <tr>
-            <td>Pike (12ft) (R)</td><td>Polearm</td><td>12</td><td>13</td>
+            <td>Pike (12ft) (R)</td><td>Polearm</td><td>12</td><td>3</td>
             <td>5/1</td><td>-5</td><td>4</td><td>-</td><td>8</td><td>96d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Net</td><td>Net</td><td>4</td><td>10</td>
+            <td>Net</td><td>Net</td><td>4</td><td>0</td>
             <td>4/0</td><td>-</td><td>2</td><td>-</td><td>(1)</td><td>48d</td>
           </tr>
           <tr>
-            <td>Whip</td><td>Whip</td><td>2</td><td>10</td>
+            <td>Whip</td><td>Whip</td><td>2</td><td>0</td>
             <td>5/1</td><td>-</td><td>2</td><td>1</td><td>-</td><td>H/12d</td>
           </tr>
           <tr>
-            <td>Isagra (L) (R)</td><td>Whip</td><td>4</td><td>12</td>
+            <td>Isagra (L) (R)</td><td>Whip</td><td>4</td><td>2</td>
             <td>5/1</td><td>-</td><td>3</td><td>3</td><td>-</td><td>H/20d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Crossbow (M)(R)</td><td>Bow</td><td>5</td><td>11</td>
+            <td>Crossbow (M)(R)</td><td>Bow</td><td>5</td><td>1</td>
             <td>1/1</td><td>n/a</td><td>3</td><td>-</td><td>-</td><td>60d</td>
           </tr>
           <tr>
-            <td>Shortbow (M)</td><td>Bow</td><td>2</td><td>11</td>
+            <td>Shortbow (M)</td><td>Bow</td><td>2</td><td>1</td>
             <td>1/1</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>F/24d</td>
           </tr>
           <tr>
-            <td>Longbow (M)</td><td>Bow</td><td>3</td><td>12</td>
+            <td>Longbow (M)</td><td>Bow</td><td>3</td><td>2</td>
             <td>1/1</td><td>n/a</td><td>2</td><td>-</td><td>-</td><td>F/36d</td>
           </tr>
           <tr>
-            <td>Hartbow (M)(S)</td><td>Bow</td><td>2</td><td>14</td>
+            <td>Hartbow (M)(S)</td><td>Bow</td><td>2</td><td>4</td>
             <td>1/1</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>F/96d</td>
           </tr>
           <tr><th colspan="10" style="padding:1px;"/></tr>
           <tr>
-            <td>Blowgun (M)(R)</td><td>Blowgun</td><td>1</td><td>9</td>
+            <td>Blowgun (M)(R)</td><td>Blowgun</td><td>1</td><td>0</td>
             <td>1/1</td><td>n/a</td><td>1</td><td>-</td><td>-</td><td>12d</td>
           </tr>
           <tr>
-            <td>Sling (M)(T)</td><td>Sling</td><td>0.1</td><td>10</td>
+            <td>Sling (M)(T)</td><td>Sling</td><td>0.1</td><td>0</td>
             <td>n/a</td><td>-</td><td>-</td><td>-</td><td>-</td><td>H/6d</td>
           </tr>
           <tr>
-            <td>Staff Sling (M)</td><td>Sling</td><td>1</td><td>11</td>
+            <td>Staff Sling (M)</td><td>Sling</td><td>1</td><td>1</td>
             <td>1/0</td><td>-2</td><td>1</td><td>-</td><td>-</td><td>W/12d</td>
           </tr>
           <caption>
@@ -298,7 +298,6 @@
       <head>
         <style>
           :root { --h1: #009a31; --tde: #ceffce; --tdo: #84cf96; }
-          table { margin: 0; width:100%; height:100%; text-align: center; font-size: 80%; border-collapse: collapse; }
           caption { padding: 5px; font-weight: bold; caption-side: bottom; }
           th, td { vertical-align: top; padding: 2px 6px; }
           td a { color: var(--h1); }
