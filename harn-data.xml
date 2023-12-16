@@ -736,7 +736,7 @@
       <td>6ft</td><td>8ft</td><td>12ft</td><td>16ft</td><td>24ft</td><td>32ft</td>
     </tr>
   </table>
-  <table id="Combat-Fall" style="width:70%">
+  <table id="Combat-Fall" style="width:80%">
     <tr>
       <th>Height (ft)</th><th>0</th><th>5</th><th>10</th>
       <th>15</th><th>20</th><th>25</th><th>30</th>
