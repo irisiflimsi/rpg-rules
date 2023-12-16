@@ -18,7 +18,7 @@
       <td rowspan="4" style="vertical-align:middle">
         <button type="button" onclick="f()">Calculate</button>
       </td>
-      <th>Number 1</th><th>Number 2</th><th>Row-5-Addition</th>
+      <th>Number 1</th><th>Number 2</th><th>5-Addition</th>
     </tr>
     <tr>
       <td><input type="text" size="1" id="r1-s1" value="0.0"/></td>
@@ -42,7 +42,7 @@
       <td>11-19</td><td>20+</td>
     </tr>
     <tr>
-      <td>Row-5-Addition</td><td>+5</td><td>+4</td><td>+3</td><td>+2</td>
+      <td>5-Addition</td><td>+5</td><td>+4</td><td>+3</td><td>+2</td>
       <td>+1</td><td>0</td>
     </tr>
   </table>
@@ -681,14 +681,6 @@
       <td>Distance</td><td>0</td><td>10m</td><td>20m</td><td>40m</td><td>60m</td><td>90</td><td>120m</td>
     </tr>
   </table>
-  <table id="$D-Artistic" style="width:70%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Complexity Level</td><td>Imperceptible</td><td>Rhythmic / Child</td><td>Simple / Folk</td><td>Complex / Art</td><td>Unique / Original</td>
-    </tr>
-  </table>
   <table id="$D-Timbercraft" style="width:40%">
     <tr>
       <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
@@ -706,21 +698,6 @@
     </tr>
     <tr class="num">
       <td>Time</td><td>0.25h</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
-    </tr>
-  </table>
-  <table id="People" style="width:75%">
-    <tr>
-      <th>Modifier</th><th>-4</th><th>-3</th><th>-2</th><th>-1</th>
-      <th>0</th><th>+1</th><th>+2</th><th>+3</th><th>+4</th>
-    </tr>
-    <tr>
-      <td>Weight (lbs)</td><td>56-85</td><td>86-110</td><td>111-130</td>
-      <td>131-145</td><td>146-155</td><td>156-170</td><td>171-190</td>
-      <td>191-215</td><td>216-245</td>
-    </tr>
-    <tr>
-      <td>Range (lbs)</td><td>30</td><td>25</td><td>20</td><td>15</td><td>10</td>
-      <td>15</td><td>20</td><td>25</td><td>30</td>
     </tr>
   </table>
   <table id="Ritual" style="width:30%">
