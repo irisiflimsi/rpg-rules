@@ -252,13 +252,12 @@
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
-            <td><a href="#di-art">Artistic</a></td>
             <td><a href="#di-com">Combat</a></td>
             <td><a href="#di-kno">Knowledge</a></td>
             <td><a href="#di-qua">Quality</a></td>
+            <td><a href="#di-reg">Regional</a></td>
           </tr>
           <tr>
-            <td><a href="#di-reg">Regional</a></td>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-sta">Star-Rating</a></td>
             <td><a href="#di-tra">Travel</a></td>
@@ -628,11 +627,6 @@
           the range (100% - x) to 1/(100% - x).
         </p>
         <include id="$D-Accuracy"/>
-        <h5 id="di-art">Artistic</h5>
-        <p>
-          This dimension applies to music and dance but also to other
-          arts.  Forgery or impersonating others is complex.
-        </p>
         <h5 id="di-com">Combat</h5>
         <p>
           One dimension is the time (in seconds), which it takes to
