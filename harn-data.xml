@@ -46,6 +46,29 @@
       <td>+1</td><td>0</td>
     </tr>
   </table>
+  <table id="Teaching" style="width:80%">
+    <tr>
+      <th>MLs</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th>
+    </tr>
+    <tr>
+      <td>25</td><td>6 days</td><td>11 days</td><td>0.5 month</td><td>1.5 month</td><td>0.5 year</td><td>3 years</td><td>12 years</td><td>40 years</td>
+    </tr>
+    <tr>
+      <td>20</td><td>6 days</td><td>12 days</td><td>1 month</td><td>6 months</td><td>3 years</td><td>12 years</td><td>50 years</td><td>170 years</td>
+    </tr>
+    <tr>
+      <td>15</td><td>6 days</td><td>15 days</td><td>2 months</td><td>12 months</td><td>4 years</td><td>16 years</td><td>55 years</td><td>195 years</td>
+    </tr>
+    <tr>
+      <td>10</td><td>7 days</td><td>20 days</td><td>3.5 months</td><td>16 months</td><td>5 years</td><td>18 years</td><td>65 years</td><td>200 years</td>
+    </tr>
+    <tr>
+      <td>5</td><td>8 days</td><td>30 days</td><td>5 months</td><td>20 months</td><td>6 years</td><td>21 years</td><td>67 years</td><td>205 years</td>
+    </tr>
+    <tr>
+      <td>0</td><td>10 days</td><td>50 days</td><td>7 months</td><td>24 months</td><td>7 years</td><td>22 years</td><td>68 years</td><td>210 years</td>
+    </tr>
+  </table>
   <table id="$D-Accuracy" style="width:80%">
     <tr>
       <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>

@@ -32,7 +32,7 @@
         </p>
         <p>
           We normalize to 0, which means that an uneducated, untrained
-          individual of about twenty years has a skill rank of 0.
+          individual of about twenty years has a skill level of 0.
         </p>
         <h4>Probabilities</h4>
         <p>
@@ -114,7 +114,8 @@
           rolling dice, which is out-world.  The skill scale is
           open-ended as the p5 roll is, but humans generally do not
           get scores beyond 50 (out-world) or
-          &#9733;&#9733;&#9733;&#9733;&#9733; (in-world).
+          &#9733;&#9733;&#9733;&#9733;&#9733; (in-world).  A skill
+          level is often called ML.
         </p>
         <p>
           The following is a list of skills that are commonly used by
@@ -266,39 +267,50 @@
         </table>
         <h4>Skill Development</h4>
         <p>
-          To distinguish a skill from its value with a specific
-          person, we call the latter (skill) ML.  At various times in
-          the course of play, the GM decides a character has earned
-          the chance to improve a skill.  Some skills may be developed
-          by practice/study; some require training.  Execute each
-          skill roll as follows: Roll n5.  If the roll is greater than
-          current skill ML, increase skill ML by one (1); otherwise
-          there is no increase.  This may also be interpreted as a
-          <em>Learning skill</em> roll, where everybody has an
-          learning ML of 0 and must match the task difficulty of his
-          current skill ML.  I.e. the better you already are, the
-          harder it is to improve.  Natural affinity to a skill
-          applies to learning, i.e instead of a learning ML of 0,
-          start with 5-adding the best associated attribute value to
-          0.  See the <em>Attribute</em> section below.
+	  Rolls may be awarded by the GM at any time, when something
+	  was &#8220;learned&#8221; (this is out-world).  Remember
+	  that you learn most from failures.  Some skills may be
+	  developed by practice/study, some require training.  Execute
+	  each skill roll as follows: Roll p5.  If the roll is greater
+	  than current skill ML, increase skill ML by one (1);
+	  otherwise there is no increase.  This may also be
+	  interpreted as a <em>Learn skill</em> roll, where everybody
+	  has an Learning ML of 0 and must match the task difficulty
+	  of his own, current skill ML.  I.e. the better you already
+	  are, the harder it is to improve.
+	</p>
+	<p>
+	  Natural affinity to a skill applies to learning, i.e instead
+	  of a learning ML of 0, start with 5-adding the best
+	  associated attribute value to 0.  See the <em>Attribute</em>
+	  section below.
         </p>
         <p>
-          Rolls may be awarded by the GM at any time, when something
-          was &#8220;learned&#8221; (this is out-world).  Remember
-          that you learn most from failures.  But also rolls may be
-          used for extended idle periods, for instance in a winter
-          camp.  Or the professional life of an NPC needs to be
-          simulated while not in play.  As a rule of thumb, award
-          approximately 10 rolls per month which can be distributed
-          across all skills.
+	  Rolls may be used for extended idle periods, for instance in
+	  a winter camp.  Or the professional life of an NPC needs to
+	  be simulated while not in play.  As a rule of thumb, assume
+	  that at about 40 years of a professional career you can
+	  expect a skill level of 40.  Characters receive a bonus when
+	  being trained by a master.  A character getting personal
+	  instructions from a teacher or employer can 5-add his own
+	  skill a second time to the <em>Learn skill</em> (equivalent
+	  to adding +5 directly), if the teacher has a higher ML.
+	  Otherwise, he can 5-add the teacher, who functions more like
+	  a coach.
         </p>
-        <p>
-          Characters receive a bonus when being trained by a master.
-          A character getting personal instructions from a teacher or
-          employer can 5-add his own skill a second time to the
-          <em>Learning skill</em>, if the teacher has a higher ML.
-          Otherwise, he can 5-add the teacher, who functions more like
-          a coach.
+	<p>
+	  Calculating the odds, you should allow anyone reasonable
+	  practicing a skill with 1 roll each day.  To cut to the
+	  chase for NPCs, these are expected progression starting from
+	  0.  The <em>Teach ML</em> is in the left column and is all
+	  that is 5-added to the <em>Learn roll</em>.  The first row
+	  is the aspired ML.
+        </p>
+	<include id="Teaching"/>
+	<p>
+	  From this table it becomes clear, why it is beneficial to
+	  have chantries of likeminded students that can support each
+	  other.  And probably everyone learned from the Elves.
         </p>
         <p>
           Sometimes forgetting or &#8220;unlearning&#8221; is called
@@ -371,8 +383,7 @@
         <p>
           Attributes can be used as skills.  However, since they come
           naturally and require no education, they also rarely benefit
-          from education.  Attributes as skills cannot be selected for
-          monthly learning rolls.
+          from education.
         </p>
         <h4><em>Opening Mastery Level</em></h4>
         <p>
@@ -454,8 +465,7 @@
         <p>
           Sunsigns represent an astrological affinity to certain
           skills in-world, see below.  They give a direct bonus to the
-          OML.  During learnig they are 5-added to the <em>learning
-          skill</em> ML.
+          ML.
         </p>
         <h4>Skill Testing</h4>
         <p>
