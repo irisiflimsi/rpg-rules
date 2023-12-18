@@ -2003,9 +2003,9 @@
           and rough-cutting into lumber.  The unit of yield is
           sufficient wood to build a wagon, or a wooden cottage.  (The
           wood has to dried and prepared before it can be used by a
-          woodcrafter.  The units are simple trunks or
-          batches<th>30</th> thereof.)  Also note that this skill has
-          a different yield dimension than most others.
+          woodcrafter.  The units are simple trunks or batches
+          thereof.)  Also note that this skill has a different yield
+          dimension than most others.
         </p>
         <include id="$D-Timbercraft"/>
         <h5 class="skill" id="sk-tra">Tracking</h5>
@@ -2260,7 +2260,7 @@
           donations of 1d for a rich merchant, for instance, do not
           qualify.)
         </p>
-        <include id="$Ritual-dim"/>
+        <include id="$D-Ritual-dim"/>
         <p>
           Divine intervention is totally at the GMs discretion and the
           seemingly high chances are mostly from self-reports of
