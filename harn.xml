@@ -13,7 +13,7 @@
     <div class="main">
       <div class="title">Rules for H&#226;rnworld</div>
       <div class="container">
-        <h1 id="rules">Rules</h1>
+        <h1 id="rules">Basic Rules</h1>
         <p>
           This is a set of rules, which represent the aspects dealt
           with in the HM3 rule book.  We assume that
@@ -61,7 +61,7 @@
           the generic ruleset.  We only repeat the main table for
           convenience.
         </p>
-        <include id="Basic"/>
+        <include id="$Basic"/>
         <p>
           The general rules also talk about adding skills.  We repeat
           the table provided in that ruleset and also have an
@@ -90,7 +90,7 @@
             document.getElementById("r3-r5").value = Math.round(10 * (re3 + m3)) / 10;
           }
         </script>
-        <include id="Calculate"/>
+        <include id="$Calculate"/>
         <p>
           When using the tables, take the two numbers and use the
           (positive) difference of the two in the first row, to read
@@ -103,8 +103,8 @@
           also called 5-Addition.  (This is called 5-Addition, because
           <em>0 +<sub>5</sub> 0 = 5</em>.)
         </p>
-        <include id="Calculate-2"/>
-        <h3 id="s3kills">Skills</h3>
+        <include id="$Calculate-2"/>
+        <h3 id="s3kills">Overview</h3>
         <p>
           Skills govern all activities, from combat to spell-casting.
           All skills are rated on an open scale starting from zero
@@ -115,14 +115,15 @@
           open-ended as the p5 roll is, but humans generally do not
           get scores beyond 50 (out-world) or
           &#9733;&#9733;&#9733;&#9733;&#9733; (in-world).  A skill
-          level is often called ML.
+          level is often called ML.  Each &#9733; is equivalent to 10
+          points of ML.
         </p>
         <p>
           The following is a list of skills that are commonly used by
           people on H&#226;rn.  It is neither complete no without
           overlap.  It is an in-world collection of relevance.
         </p>
-        <h4>Skill List</h4>
+        <h4>Skill Links</h4>
         <table class="links" style="width:90%">
           <tr>
             <td><a href="#sk-acr">Acrobatics</a></td>
@@ -234,23 +235,23 @@
             <td><a href="#sk-woo">Woodcraft</a></td>
           </tr>
         </table>
-        <h4>Attributes</h4>
+        <h4>Attribute Links</h4>
         <table class="links" style="width:75%">
 	  <tr>
-            <td><a href="#sk-intl">Intelligence</a></td>
-            <td><a href="#sk-aur">Aura</a></td>
-            <td><a href="#sk-sme">Smell</a></td>
 	    <td><a href="#sk-agi">Agility</a></td>
+            <td><a href="#sk-aur">Aura</a></td>
             <td><a href="#sk-dex">Dexterity</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-eye">Eyesight</a></td>
             <td><a href="#sk-hea">Hearing</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-intl">Intelligence</a></td>
+            <td><a href="#sk-sme">Smell</a></td>
             <td><a href="#sk-sta">Stamina</a></td>
             <td><a href="#sk-str">Strength</a></td>
           </tr>
         </table>
-        <h4>Dimensions</h4>
+        <h4>Dimension Links</h4>
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
@@ -261,7 +262,6 @@
           </tr>
           <tr>
             <td><a href="#di-rec">Recipes</a></td>
-            <td><a href="#di-sta">Star-Rating</a></td>
             <td><a href="#di-tra">Travel</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
@@ -307,7 +307,7 @@
 	  that is 5-added to the <em>Learn roll</em>.  The first row
 	  is the aspired ML.
         </p>
-	<include id="Teaching"/>
+	<include id="$Teaching"/>
 	<p>
 	  From this table it becomes clear, why it is beneficial to
 	  have chantries of likeminded students that can support each
@@ -390,10 +390,8 @@
         <h4>Attributes</h4>
         <p>
 	  Attributes come in textual form and a few in numeric form.
-	  The numeric attributes are listed above separately.  They
-	  usually range from -5 (0) to +5
-	  (&#9733;&#9733;&#9733;&#9733;&#9733;).  Note that this scale
-	  is different from skills.
+	  The numeric attributes are listed above separately.  The
+	  star-rating scale is different from that of skills.
         </p>
         <p>
           Attributes are aptitudes and conditions of a character that
@@ -405,7 +403,7 @@
           around 0.  Making 3 attributes applicable to a task, usually
           means taking the maximum.
         </p>
-        <h4><em>Opening Mastery Level</em></h4>
+        <h4>Opening Mastery Level</h4>
         <p>
           Opening Mastery Level (OML) is listed with each skill.  This
           is the starting point for any skill&#8217;s ML.  Skills
@@ -424,14 +422,14 @@
           creating a character and the character has an occupation
           that is listed, then the OML listed is not used, but instead
           the 25 times the percentage listed.  This is eqivalent to
-          halfway between &#9733;&#9733; and
-          &#9733;&#9733;&#9733;in-world.  It represents the years of
-          training with a teacher or tutor.  It is an out-world
-          abstraction, because the number of influences on the multide
-          of learning skill rolls is staggering.  Because learning
-          should depend on the relevant attributes, you can take the
-          maximum of all attributes and add that to 20
-          (&#9733;&#9733;) as alternative.
+          halfway between &#9733;&#9733; and &#9733;&#9733;&#9733;
+          in-world.  It represents the years of training with a
+          teacher or tutor.  It is an out-world abstraction, because
+          the number of influences on the multide of learning skill
+          rolls is staggering.  Because learning should depend on the
+          relevant attributes, you can take the maximum of all
+          attributes and add that to 20 (&#9733;&#9733;) as
+          alternative.
         </p>
         <div class="explain">
           <p>
@@ -458,7 +456,7 @@
           The church script is opened at 60%.  For those religions
           that have a Temple Private Tongue this opens at 60%.
         </p>
-        <h4><em>Specialties</em></h4>
+        <h4>Specialties</h4>
         <p>
           Many skills can be divided into sub-skills or specialties;
           suggestions are given with some skills.  Characters may
@@ -481,7 +479,7 @@
           specialization is attempted at the outset) is as for the
           group skill.
         </p>
-        <h4><em>Sunsign</em></h4>
+        <h4>Sunsign</h4>
         <p>
           Sunsigns represent an astrological affinity to certain
           skills in-world, see below.  They give a direct bonus to the
@@ -630,7 +628,7 @@
           exception to this is mounted combat, where PC rider and
           horse may be acting in unison.
         </p>
-        <h3>The List</h3>
+        <h3>Dimensionality</h3>
         <p>
           Some pre-determined skills, dimensions, and attributes,
           including important aspects for character generation, are
@@ -645,7 +643,7 @@
 	  As a convenience, a list of the used percentage to OML is
 	  provided (rounded).
         </p>
-        <include id="Skilllist"/>
+        <include id="$Skilllist"/>
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
@@ -740,6 +738,11 @@
           hours, at least, to prepare.  The dimensions to use are
           <em>Accuracy</em> (of the prediction).
         </p>
+        <h5 class="skill" id="sk-aur">Aura</h5>
+	<p>
+	  Attribute in the range as described.  Only used as direct
+	  bonus for skills except for NPCs.
+	</p>
         <h5 class="skill" id="sk-awa">Awareness</h5>
         <include id="$Awareness"/>
         <p>
@@ -1151,6 +1154,11 @@
 	  activity, which may or may not be appropriate.
         </p>
         <include id="$D-Initiative"/>
+        <h5 class="skill" id="sk-intl">Intelligence</h5>
+	<p>
+	  Attribute in the range as described.  Only used as direct
+	  bonus for skills except for NPCs.
+	</p>
         <h5 class="skill" id="sk-int">Intrigue</h5>
         <include id="$Intrigue"/>
         <p>
@@ -1239,7 +1247,7 @@
           needed, the duration of the result is a speech, a dialog, or
           other coherent activity.
         </p>
-        <include id="Language-1"/>
+        <include id="$Language-1"/>
         <p>
           Foreign languages may be opened in the course of play as any
           other skill.  The table below shows the three language
@@ -1250,7 +1258,7 @@
           with languages of the same family functioning as as
           &#8220;teacher&#8221;.
         </p>
-        <include id="Language-2"/>
+        <include id="$Language-2"/>
         <p/>
         <include id="$D-Language"/>
         <h5 class="skill" id="sk-law">Law</h5>
@@ -1297,7 +1305,7 @@
           the chantry level; they apply to all convocations equally.
           Dimensions are available for each spell.
         </p>
-        <include id="Magic-1"/>
+        <include id="$Magic-1"/>
         <p>
           <em>Convocational Sunsign Modifiers:</em> The stars favor
           different convocations.  The astrological modifier is given
@@ -1305,7 +1313,7 @@
           last two days of a sunsign), use the more advantageous
           modifier.
         </p>
-        <include id="Magic-2"/>
+        <include id="$Magic-2"/>
         <h5 class="skill" id="sk-mas">Masonry</h5>
         <include id="$Masonry"/>
         <p>
@@ -1488,7 +1496,7 @@
           is not learned as usual but improved through righteous
           actions; it can decline just as fast through improper ones.
         </p>
-        <include id="Piety-1"/>
+        <include id="$Piety-1"/>
         <h5 class="skill" id="sk-pil">Piloting</h5>
         <include id="$Piloting"/>
         <p>
@@ -1583,7 +1591,7 @@
         <p>
           All Talents are treated as separate skills.
         </p>
-        <include id="PsiTalents-1"/>
+        <include id="$PsiTalents-1"/>
         <h5 class="quality" id="di-qua">Quality</h5>
         <p>
           The Quality dimension can be used when a craftsman attempts
@@ -1869,6 +1877,11 @@
           The ability to use sling-type weapons.  No specialties
           exist.  Use the <em>Combat</em> dimensions.
         </p>
+        <h5 class="skill" id="sk-sme">Smell</h5>
+	<p>
+	  Attribute in the range as described.  Only used as direct
+	  bonus for skills except for NPCs.
+	</p>
         <h5 class="skill" id="sk-spe">Spear</h5>
         <include id="$Spear"/>
         <p>
@@ -1882,13 +1895,6 @@
           the roll to get the actual healing rate.
         </p>
         <include id="$D-Stamina"/>
-        <h5 class="skill" id="di-sta">Star-Rating</h5>
-        <p>
-          This scale is used often, particularly when assessing the
-          competence of a craftsman.  This scale can be extended for
-          the truly awesome skills.
-        </p>
-        <include id="$D-StarRating"/>
         <h5 class="skill" id="sk-ste">Stealth</h5>
         <include id="$Stealth"/>
         <p>
@@ -2123,6 +2129,7 @@
           jump from 12h to 2 days.
         </p>
         <include id="$D-Yield"/>
+	<h5/>
         <h3 id="p3eople">People</h3>
         <p>
           The basic distribution presented in the in-world chapter for
@@ -2132,8 +2139,7 @@
           such as partly rolling, partly choosing; first rolling, then
           modifying; or a point based system, where good attributes
           are bought and/or bad attributes provide additional points
-          to spend.  An classic skill value resolves to 10 for each
-          &#9733; that is taught.
+          to spend.
         </p>
         <div class="explain">
           <p>
@@ -2153,7 +2159,13 @@
             females.<br/> <b>Will</b> +3 for Khuzdul.<br/>
           </p>
         </div>
-        <include id="Attributemap"/>
+	<p>
+	  A classic skill value resolves to 10 for each &#9733;, but
+	  attributes behave different.  Generally, attributes are
+	  added directly to skills or difficulties as do other
+	  circumstancial modifiers, while skills 5-add when grouped.
+	</p>
+        <include id="$Attributemap"/>
         <h3 id="p3sionics">Psionics</h3>
         <p>
 	  One way to determine how many talent are made for a new
@@ -2248,7 +2260,7 @@
           donations of 1d for a rich merchant, for instance, do not
           qualify.)
         </p>
-        <include id="Ritual"/>
+        <include id="$Ritual"/>
         <p>
           Divine intervention is totally at the GMs discretion and the
           seemingly high chances are mostly from self-reports of
@@ -2563,19 +2575,19 @@
         <p style="text-align:center">
           Missile Attack table
         </p>
-        <include id="Combat-MA"/>
+        <include id="$Combat-MA"/>
         <p style="text-align:center">
           Size table
         </p>
-        <include id="Combat-Size"/>
+        <include id="$Combat-Size"/>
         <p style="text-align:center">
           Fall table
         </p>
-        <include id="Combat-Fall"/>
+        <include id="$Combat-Fall"/>
         <p style="text-align:center">
 	  Jousting Table
 	</p>
-	<include id="Joust"/>
+	<include id="$Joust"/>
         <h4>Special Wounds</h4>
         <p>
           <em>Drowning:</em> While incapacitated, the internal system
@@ -2732,7 +2744,7 @@
           The personality of a person born on the cusp would be a
           blend of the two signs.
         </p>
-        <include id="Sunsigns"/>
+        <include id="$Sunsigns"/>
         <h4 id="birthplace">Birthplace</h4>
         <p>
           H&#226;rnWorld regional modules provide Birthplace
@@ -2756,7 +2768,7 @@
           (e.g. slaves in Kaldor).  Refer to the relevant
           H&#226;rnWorld publication.
         </p>
-        <include id="SocialClass"/>
+        <include id="$SocialClass"/>
         <h4 id="siblingrank">Sibling Rank</h4>
         <p>
           About a third of all individuals encountered are first-born.
@@ -2901,7 +2913,7 @@
           height and is determined by the Physician&#8217;s Guild and
           usually published in a yearly almanach.
         </p>
-        <include id="Weight"/>
+        <include id="$Weight"/>
         <p>
           The Clothiers&#8217; Guild and others have agreed on a size
           measure that relates to weight and is only a scale from
@@ -2913,7 +2925,7 @@
           been standardized by the guild none-the-less.  (Weight is in
           lbs.)
         </p>
-        <include id="Height"/>
+        <include id="$Height"/>
         <h4 id="frame">Frame</h4>
         <p>
           Frame is another proportional attribute mainly used by
@@ -2922,16 +2934,16 @@
           height ratio.  The optimal <em>Weight : Height</em> ratio is
           considered 100%.
         </p>
-        <include id="Frame"/>
+        <include id="$Frame"/>
         <h4 id="complexion">Complexion</h4>
         <p>
           Complexion is the color of a person&#8217;s skin.  Human is
           for all people of H&#226;rnic ancestry.  Nordic humans are
           similar to Khuzdul.
         </p>
-        <include id="Complexion"/>
+        <include id="$Complexion"/>
         <h4 id="eyehaircolor">Eye/Hair Color</h4>
-        <include id="Color"/>
+        <include id="$Color"/>
         <h4 id="comeliness">Comeliness</h4>
         <p>
           A person&#8217;s attractiveness to the same species.
@@ -2939,7 +2951,7 @@
           enhancements usually wear off after some time.  The
           courtesan&#8217;s guild maintains these statistics.
         </p>
-        <include id="Comeliness"/>
+        <include id="$Comeliness"/>
         <h4 id="physical">Physical</h4>
         <p>
           Physical ability is assessed by the military (including
@@ -2972,7 +2984,7 @@
           also unknown whether the same relationship to weight exists
           for Sindarin and Khuzdul.
         </p>
-        <include id="Physical"/>
+        <include id="$Physical"/>
         <h4 id="senses">Senses</h4>
         <p>
           Physicians collect the data for the senses, often diseases
@@ -2996,14 +3008,14 @@
           of danger.  Of course, in a medieval town, a keen sense of
           smell may well be a curse.
         </p>
-        <include id="Senses"/>
+        <include id="$Senses"/>
         <h4 id="voice">Voice</h4>
         <p>
           The pleasantness and/or volume of a person&#8217;s voice.
           Excellent and unearthly voices are in high demand.  The
           scale is provided by the Sindarin.
         </p>
-        <include id="Voice"/>
+        <include id="$Voice"/>
         <h4 id="medical">Medical</h4>
         <p>
           Some people have one or more Medical Traits, or diseases,
@@ -3154,7 +3166,7 @@
           easily, and has difficulty with tedious tasks.  Those with
           high Will are resolute, confident, and stubborn.
         </p>
-        <include id="Mental"/>
+        <include id="$Mental"/>
         <h4 id="psyche">Psyche</h4>
         <p>
           Phobias, manias, and other mental disorders can be
@@ -3265,7 +3277,7 @@
           from the Price List on H&#226;rnPlayer and the Weapon and
           Armour tables.  Estrangement can also influence funds.
         </p>
-        <include id="Funds"/>
+        <include id="$Funds"/>
         <p>
           Squires are traditionally equipped by their lord when
           knighted.  This includes weapons, armour, and a good steed.
@@ -3339,7 +3351,7 @@
           choose in H&#226;rnic society are listed, with average
           income and years of apprenticeship.
         </p>
-        <include id="Occupations"/>
+        <include id="$Occupations"/>
         <p>
           <em>Guilded Occupations:</em> Wages given are for Bonded
           Masters; room and board may also be provided.  The employer
@@ -3392,7 +3404,7 @@
           and rituals in a private (secret) language in addition to
           their church language.
         </p>
-        <include id="Clerics"/>
+        <include id="$Clerics"/>
         <p>
           Newly ordained clerics start play knowing some Ritual
           Invocations.  All Common invocations rated at Circle II are
@@ -4402,7 +4414,7 @@
           six.  The table below indicates offices a member of that
           Circle is qualified to hold.
         </p>
-        <include id="Rituals"/>
+        <include id="$Rituals"/>
         <p>
           Those baptized in a faith are automatically I. Circle.
           Those entering the church as a career are admitted to the
@@ -5569,7 +5581,7 @@
           make/repair their own weapons, but rarely with WQs as high
           as listed.
         </p>
-        <include id="Weapons-1"/>
+        <include id="$Weapons-1"/>
         <p>
           Armour can be defined as any article of clothing capable of
           reducing the damage done by weapon strikes.  Even plain
@@ -5601,7 +5613,7 @@
           naturally occur from overlapping garments) incurs a Special
           Penalty.
         </p>
-        <include id="Armor-1"/>
+        <include id="$Armor-1"/>
         <p>
           The table assumes average quality materials.  Armour
           materials can be purchased at higher or lower qualities.
@@ -5684,7 +5696,7 @@
           Skull, <em>Th:</em> Thighs, <em>Tx:</em> Thorax,
           <em>Ua:</em> Upper Arms, <em>Co:</em> Tx Ab Hp Gr.
         </p>
-        <include id="Armor-2"/>
+        <include id="$Armor-2"/>
         <p>
           Strike location is important for two main reasons.  First,
           only the armour worn at the location struck is relevant.
@@ -5702,13 +5714,13 @@
           there is a 75% chance of being struck on the front side.  An
           asterisk (*) indicates that Stumble or Fumbles may apply.
         </p>
-        <include id="Location"/>
+        <include id="$Location"/>
         <p>
           The accuracy and impact of missile weapons depends on
           missile type and range.  These effects are noted on the
           table.
         </p>
-        <include id="Weapons-2"/>
+        <include id="$Weapons-2"/>
         <h3 id="actions">Actions</h3>
         <p>
           Actions will take their time as desired and will be resolved
@@ -6153,7 +6165,7 @@
           &#9733;.  Note that the usage effects on bordering regions
           needs to be treated as well.
         </p>
-        <include id="Wounds"/>
+        <include id="$Wounds"/>
         <p>
           Fire and internal system damage is treated as frost, but
           some treatments may not be applied, because they will kill
