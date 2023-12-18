@@ -552,19 +552,19 @@
       <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
     </tr>
   </table>
-  <table id="$D-Ritual" style="width:60%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Piety Gain</td><td>-3</td><td>-1</td><td>1</td><td>3</td><td>5</td><td>7</td><td>9</td>
-    </tr>
-    <tr class="num">
-      <td>Awe Duration</td><td>0s</td><td>1s</td><td>1s</td><td>2s</td><td>3s</td><td>4s</td><td>6s</td>
-    </tr>
-    <tr class="num">
-      <td>Casting Time</td><td>1.2</td><td>1.1</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
-    </tr>
+  <table id="$D-Ritual-lay" style="width:30%">
+    <tr><th>Ritual</th><th>Modifier</th></tr>
+    <tr><td>Prayer</td><td>-10</td></tr>
+    <tr><td>Fasting</td><td>-5</td></tr>
+    <tr><td>Confession</td><td>0</td></tr>
+    <tr><td>Daily Mass</td><td>-7.5</td></tr>
+    <tr><td>Monthly Low Mass</td><td>-5</td></tr>
+    <tr><td>Monthly High Mass</td><td>2.5</td></tr>
+    <tr><td>Feast Mass</td><td>10</td></tr>
+    <tr><td>Temple Service</td><td>5</td></tr>
+    <tr><td>Donation/Sacrifice</td><td>0+</td></tr>
+    <tr><td>Quest</td><td>0+</td></tr>
+    <tr><td>Pilgrimage</td><td>0+</td></tr>
   </table>
   <table id="$D-Shipwright" style="width:30%">
     <tr>
@@ -722,19 +722,19 @@
       <td>-</td><td>&#9733;</td><td>&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</td>
     </tr>
   </table>
-  <table id="$Ritual" style="width:30%">
-    <tr><th>Ritual</th><th>Modifier</th></tr>
-    <tr><td>Prayer</td><td>-10</td></tr>
-    <tr><td>Fasting</td><td>-5</td></tr>
-    <tr><td>Confession</td><td>0</td></tr>
-    <tr><td>Daily Mass</td><td>-7.5</td></tr>
-    <tr><td>Monthly Low Mass</td><td>-5</td></tr>
-    <tr><td>Monthly High Mass</td><td>2.5</td></tr>
-    <tr><td>Feast Mass</td><td>10</td></tr>
-    <tr><td>Temple Service</td><td>5</td></tr>
-    <tr><td>Donation/Sacrifice</td><td>0+</td></tr>
-    <tr><td>Quest</td><td>0+</td></tr>
-    <tr><td>Pilgrimage</td><td>0+</td></tr>
+  <table id="$D-Ritual-dim" style="width:60%">
+    <tr>
+      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
+    </tr>
+    <tr class="num">
+      <td>Piety Gain</td><td>-3</td><td>-1</td><td>1</td><td>3</td><td>5</td><td>7</td><td>9</td>
+    </tr>
+    <tr class="num">
+      <td>Awe Duration</td><td>0s</td><td>1s</td><td>1s</td><td>2s</td><td>3s</td><td>4s</td><td>6s</td>
+    </tr>
+    <tr class="num">
+      <td>Casting Time</td><td>1.2</td><td>1.1</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
+    </tr>
   </table>
   <table id="$Combat-MA" style="width:70%">
     <tr>
@@ -1424,7 +1424,7 @@
       <td>Siem</td><td>Sindarin</td><td>Selenian</td><td></td>
     </tr>
   </table>
-  <table id="$Rituals" style="width:50%">
+  <table id="$D-Ritual-circ" style="width:50%">
     <tr>
       <th>Circle</th><th>Office</th>
     </tr>
@@ -3656,7 +3656,7 @@
       <em>OML:</em> 0
     </p>
   </div>
-  <div id="$Ritual" class="standard">
+  <div id="$Ritual-sk" class="standard">
     <p>
       <em>Attributes:</em> <span>Voice</span>, <span>Intelligence</span>, <span>Strength</span>.
       <em>Occupations:</em> <span>Cleric/Agrik</span>/<span>80</span>

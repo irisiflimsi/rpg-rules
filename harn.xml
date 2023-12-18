@@ -1733,7 +1733,7 @@
           rolls.
         </p>
         <h5 class="skill" id="sk-rit">Ritual</h5>
-        <include id="$Ritual"/>
+        <include id="$Ritual-sk"/>
         <p>
           Most know something about their own religion, at least
           enough to attend church services without seeming too
@@ -1748,7 +1748,7 @@
           above, attributes and sunsigns are for the rituals of the
           Occupations&#8217; religion.
         </p>
-        <include id="$D-Ritual"/>
+        <include id="$D-Ritual-lay"/>
         <div class="explain">
           <p>
             <em>Baptism, Blessing, Commune, Marriage:</em> Use the
@@ -2260,7 +2260,7 @@
           donations of 1d for a rich merchant, for instance, do not
           qualify.)
         </p>
-        <include id="$Ritual"/>
+        <include id="$Ritual-dim"/>
         <p>
           Divine intervention is totally at the GMs discretion and the
           seemingly high chances are mostly from self-reports of
@@ -3389,7 +3389,7 @@
           People interested in a clerical career must visit a temple
           or abbey to be interviewed by the Master of Acolytes, or
           find a priest to sponsor the application.  An appropriate
-          Morality and a minimum Ritual knowledge are generally
+          Morality and a minimum ritual knowledge are generally
           required, but a large donation to temple coffers may
           overcome a deficiency in talent.  Acolyte training takes
           seven years.  The church is a popular career for the second
@@ -3406,8 +3406,8 @@
         </p>
         <include id="$Clerics"/>
         <p>
-          Newly ordained clerics start play knowing some Ritual
-          Invocations.  All Common invocations rated at Circle II are
+          Newly ordained clerics start play knowing some ritual
+          invocations.  All Common invocations rated at Circle II are
           taught to clerics.  Clerics may learn other invocations.
           Also see Religion.  Clerics usually complete their training
           with little of material value.  Acolytes are unpaid and the
@@ -4414,7 +4414,7 @@
           six.  The table below indicates offices a member of that
           Circle is qualified to hold.
         </p>
-        <include id="$Rituals"/>
+        <include id="$Ritual-circ"/>
         <p>
           Those baptized in a faith are automatically I. Circle.
           Those entering the church as a career are admitted to the
@@ -5047,7 +5047,7 @@
           and mysteries.  There is a separate Ritual Skill for each
           deity.  It is used by clerics for performing ritual
           invocations.  Individuals may, theoretically, have Ritual
-          for two or more deities.  Learning Rituals assumes the
+          for two or more deities.  Learning rituals assumes the
           individual in question has received some basic instruction
           in the church mysteries and been baptized into the faith.
           Ritual Mastery can only be improved by learning new
