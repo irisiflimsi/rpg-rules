@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+s<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
@@ -122,114 +122,99 @@
           people on H&#226;rn.  It is neither complete no without
           overlap.  It is an in-world collection of relevance.
         </p>
-        <p>
-          Dimensions are common grading systems that apply to multiple
-          skills.  They determine a frame of reference for the
-          difficulties of tasks.  They can also used in-world, but are
-          more regularly used out-world, when a PC tries to achieve a
-          concrete goal.
-        </p>
         <h4>Skill List</h4>
         <table class="links" style="width:90%">
           <tr>
             <td><a href="#sk-acr">Acrobatics</a></td>
             <td><a href="#sk-act">Acting</a></td>
-            <td><a href="#sk-agi">Agility</a></td>
             <td><a href="#sk-agr">Agriculture</a></td>
             <td><a href="#sk-alc">Alchemy</a></td>
             <td><a href="#sk-ani">Animalcraft</a></td>
+            <td><a href="#sk-ast">Astrology</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-ast">Astrology</a></td>
             <td><a href="#sk-awa">Awareness</a></td>
             <td><a href="#sk-axe">Axe</a></td>
             <td><a href="#sk-blo">Blowgun</a></td>
             <td><a href="#sk-bow">Bow</a></td>
             <td><a href="#sk-bre">Brewing</a></td>
+            <td><a href="#sk-cer">Ceramics</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-cer">Ceramics</a></td>
             <td><a href="#sk-cli">Climbing</a></td>
             <td><a href="#sk-clu">Club</a></td>
             <td><a href="#sk-coo">Cookery</a></td>
             <td><a href="#sk-dag">Dagger</a></td>
             <td><a href="#sk-dan">Dancing</a></td>
+            <td><a href="#sk-dra">Drawing</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-dex">Dexterity</a></td>
-            <td><a href="#sk-dra">Drawing</a></td>
             <td><a href="#sk-emb">Embalming</a></td>
             <td><a href="#sk-end">Endurance</a></td>
             <td><a href="#sk-eng">Engineering</a></td>
-            <td><a href="#sk-eye">Eyesight</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-fis">Fishing</a></td>
             <td><a href="#sk-fla">Flail</a></td>
             <td><a href="#sk-fle">Fletching</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-fol">Folklore</a></td>
             <td><a href="#sk-for">Foraging</a></td>
             <td><a href="#sk-gla">Glasswork</a></td>
-          </tr>
-          <tr>
-            <td><a href="#sk-hea">Hearing</a></td>
             <td><a href="#sk-hera">Heraldry</a></td>
             <td><a href="#sk-herb">Herblore</a></td>
             <td><a href="#sk-hid">Hidework</a></td>
-            <td><a href="#sk-ini">Initiative</a></td>
-            <td><a href="#sk-int">Intrigue</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-ini">Initiative</a></td>
+            <td><a href="#sk-int">Intrigue</a></td>
             <td><a href="#sk-jew">Jewelcraft</a></td>
             <td><a href="#sk-jum">Jumping</a></td>
             <td><a href="#sk-lan">Language</a></td>
             <td><a href="#sk-law">Law</a></td>
-            <td><a href="#sk-loc">Lockcraft</a></td>
-            <td><a href="#sk-lov">Lovecraft</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-loc">Lockcraft</a></td>
+            <td><a href="#sk-lov">Lovecraft</a></td>
             <td><a href="#sk-mag">Magic</a></td>
             <td><a href="#sk-mas">Masonry</a></td>
             <td><a href="#sk-mat">Mathematics</a></td>
             <td><a href="#sk-met">Metalcraft</a></td>
-            <td><a href="#sk-mil">Milling</a></td>
-            <td><a href="#sk-min">Mining</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-mil">Milling</a></td>
+            <td><a href="#sk-min">Mining</a></td>
             <td><a href="#sk-mor">Morale</a></td>
             <td><a href="#sk-mov">Move</a></td>
             <td><a href="#sk-mus">Musician</a></td>
             <td><a href="#sk-net">Net</a></td>
-            <td><a href="#sk-per">Perfumery</a></td>
-            <td><a href="#sk-phy">Physician</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-per">Perfumery</a></td>
+            <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
             <td><a href="#sk-pil">Piloting</a></td>
             <td><a href="#sk-pol">Polearm</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
-            <td><a href="#sk-psi">Psi Talents</a></td>
-            <td><a href="#sk-rhe">Rhetoric</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-psi">Psi Talents</a></td>
+            <td><a href="#sk-rhe">Rhetoric</a></td>
             <td><a href="#sk-rid">Riding</a></td>
             <td><a href="#sk-rit">Ritual</a></td>
             <td><a href="#sk-run">Runecraft</a></td>
             <td><a href="#sk-scr">Script</a></td>
-            <td><a href="#sk-sea">Seamanship</a></td>
-            <td><a href="#sk-shie">Shield</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-sea">Seamanship</a></td>
+            <td><a href="#sk-shie">Shield</a></td>
             <td><a href="#sk-ship">Shipwright</a></td>
             <td><a href="#sk-sin">Singing</a></td>
             <td><a href="#sk-ski">Skiing</a></td>
             <td><a href="#sk-sli">Sling</a></td>
-            <td><a href="#sk-spe">Spear</a></td>
-            <td><a href="#sk-sta">Stamina</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-spe">Spear</a></td>
             <td><a href="#sk-ste">Stealth</a></td>
-            <td><a href="#sk-str">Strength</a></td>
             <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-swo">Sword</a></td>
@@ -247,6 +232,22 @@
             <td><a href="#sk-weat">Weatherlore</a></td>
             <td><a href="#sk-whi">Whip</a></td>
             <td><a href="#sk-woo">Woodcraft</a></td>
+          </tr>
+        </table>
+        <h4>Attributes</h4>
+        <table class="links" style="width:75%">
+	  <tr>
+            <td><a href="#sk-intl">Intelligence</a></td>
+            <td><a href="#sk-aur">Aura</a></td>
+            <td><a href="#sk-sme">Smell</a></td>
+	    <td><a href="#sk-agi">Agility</a></td>
+            <td><a href="#sk-dex">Dexterity</a></td>
+          </tr>
+          <tr>
+            <td><a href="#sk-eye">Eyesight</a></td>
+            <td><a href="#sk-hea">Hearing</a></td>
+            <td><a href="#sk-sta">Stamina</a></td>
+            <td><a href="#sk-str">Strength</a></td>
           </tr>
         </table>
         <h4>Dimensions</h4>
@@ -281,9 +282,9 @@
 	</p>
 	<p>
 	  Natural affinity to a skill applies to learning, i.e instead
-	  of a learning ML of 0, start with 5-adding the best
-	  associated attribute value to 0.  See the <em>Attribute</em>
-	  section below.
+	  of a learning ML of 0, start with adding the best associated
+	  attribute value to 0.  See the <em>Attribute</em> section
+	  below.
         </p>
         <p>
 	  Rolls may be used for extended idle periods, for instance in
@@ -367,23 +368,42 @@
             improvement roll.
           </p>
         </div>
-        <h4><em>Attributes</em></h4>
+        <h4>Dimensions</h4>
         <p>
-          Attributes are skills that come naturally and are rarely
-          learned.  Some are listed with all skills, they often can be
-          used to supplement the skill (out-world) by 5-addition for
-          many tasks.  In-world this is often indistinguishable.  In
-          the end, it is a GM decision, which attribute(s) are
-          applicable to which skill.  Remember that attributes average
-          around 0, so they have limited effect on skills at about 20.
-          On the other hand, making 3 attributes applicable to a task,
-          automatically makes them (5-)add up to 8.
+          Dimensions are collected as common reference for the many
+          skills that use them in more or less the same manner.
         </p>
-        <h4>Attribute Skills</h4>
         <p>
-          Attributes can be used as skills.  However, since they come
-          naturally and require no education, they also rarely benefit
-          from education.
+          The <em>Divine Grace ratio</em> (Piety : Ritual) is
+          multiplied to cleric miracle results that effect the caster
+          alone in a beneficial way.  Healing, etc.  Note that this
+          ratio will usually not exceed 1.5, because rituals are
+          tenants of a religion.
+        </p>
+        <p>
+          Dimensions are common grading systems that apply to multiple
+          skills.  They determine a frame of reference for the
+          difficulties of tasks.  They can also used in-world, but are
+          more regularly used out-world, when a PC tries to achieve a
+          concrete goal.
+        </p>
+        <h4>Attributes</h4>
+        <p>
+	  Attributes come in textual form and a few in numeric form.
+	  The numeric attributes are listed above separately.  They
+	  usually range from -5 (0) to +5
+	  (&#9733;&#9733;&#9733;&#9733;&#9733;).  Note that this scale
+	  is different from skills.
+        </p>
+        <p>
+          Attributes are aptitudes and conditions of a character that
+          come naturally and are rarely learned or improved.  Some are
+          listed with all skills, they often can be used to supplement
+          the skill (out-world) by simple addition for many tasks.  In
+          the end, it is a GM decision, which attribute(s) are
+          applicable when and to which skill.  Attributes average
+          around 0.  Making 3 attributes applicable to a task, usually
+          means taking the maximum.
         </p>
         <h4><em>Opening Mastery Level</em></h4>
         <p>
@@ -409,20 +429,20 @@
           training with a teacher or tutor.  It is an out-world
           abstraction, because the number of influences on the multide
           of learning skill rolls is staggering.  Because learning
-          should depend on the relevant attributes, you can 5-sum all
-          attributes and 20 (&#9733;&#9733;) as alternative.
+          should depend on the relevant attributes, you can take the
+          maximum of all attributes and add that to 20
+          (&#9733;&#9733;) as alternative.
         </p>
         <div class="explain">
           <p>
-            <em>Example:</em> Juryn has an attributes Dexterity -1 and
-            Agility 1.  His father is a Herald by trade, with an
-            occupation listing of 60 for Dancing.  Juryn himself does
-            not have an occupation with Dancing as skill.  His
-            apprenticeship was normal, so he was taught to an
-            occupation level of 10 (&#9733;) as Herald.  (This follows
-            from the initial training rules in the Occupations
-            chapter.)  Thus he now has a ML of <em>1 +<sub>5</sub> 1
-            +<sub>5</sub> (-1) +<sub>5</sub> 10 = 14</em>
+            <em>Example:</em> Juryn has Dexterity -1 and Agility 1.
+            His father is a Herald by trade, with an occupation
+            listing of 60 for Dancing.  Juryn himself does not have an
+            occupation with Dancing as skill.  His apprenticeship was
+            normal, so he was taught to an occupation level of 10
+            (&#9733;) as Herald.  (This follows from the initial
+            training rules in the Occupations chapter.)  Thus he now
+            has a ML of <em>10 + max(1,-1) = 11</em>
           </p>
         </div>
         <p>
@@ -610,18 +630,22 @@
           exception to this is mounted combat, where PC rider and
           horse may be acting in unison.
         </p>
-        <h4>Dimensions</h4>
+        <h3>The List</h3>
         <p>
-          Dimensions are collected as common reference for the many
-          skills that use them in more or less the same manner.
+          Some pre-determined skills, dimensions, and attributes,
+          including important aspects for character generation, are
+          listed here.  When several listed occupations apply, use the
+          5-Addition of the result.  This does not apply to the
+          Languages, Scripts and Musician skill group, where each time
+          an occupation is mentioned, it may (and usually will)
+          indicate a separate skill.  Specialties are also treated
+          this way: as separate opening.
+	</p>
+	<p>
+	  As a convenience, a list of the used percentage to OML is
+	  provided (rounded).
         </p>
-        <p>
-          The <em>Divine Grace ratio</em> (Piety : Ritual) is
-          multiplied to cleric miracle results that effect the caster
-          alone in a beneficial way.  Healing, etc.  Note that this
-          ratio will usually not exceed 1.5, because rituals are
-          tenants of a religion.
-        </p>
+        <include id="Skilllist"/>
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
@@ -637,243 +661,6 @@
           the range (100% - x) to 1/(100% - x).
         </p>
         <include id="$D-Accuracy"/>
-        <h5 id="di-com">Combat</h5>
-        <p>
-          One dimension is the time (in seconds), which it takes to
-          achieve the wound level zero on the defender.  The wound
-          level is a separate dimension.  You should use trajectories.
-          Once a (rolled) progression has reached its goal, a new
-          skill roll is necessary.  It is therefore possible to play
-          10 second round-based combat.
-        </p>
-        <p>
-          Any effects from wounds or other external influences in
-          combat are applied immediately to pending progressions, but
-          the wound itself is modified by <em>B/E/P</em> of choice and
-          the appropriate armor.  The offset is alonge the trajecory
-          chosen.  Note that the same is true for affects on the
-          defender.  If this implies an action to occur in the past,
-          it is resolved immediately.
-        </p>
-        <p>
-          If time is fixed, a best effort attack can be made.  For
-          instance, if an opponent was downed and will get up within a
-          few seconds and the bonus shall be used for better or worse.
-          Since combat is a often used routine, the tables is more
-          extensive than usual.
-        </p>
-        <include id="$D-Combat"/>
-        <p>
-          If a round based system is preferred, all must adhere to it.
-          This is often difficult to do right, but must be weighed
-          against the number crunching efforts needed for the
-          full-dimensions approach.  If rounds are used, they abstract
-          a number of seconds to a round, like 6 or 10.  Here, we
-          supply the modifiers for fighting in 10 second rounds.  Note
-          that the same scheme must be applied to all participants
-          (actors) in the scene but the modifiers vary, if an action
-          has a time dimension (measured in seconds).  A sensible
-          modifier often is the value that most closely rounds to the
-          number of rounds the activity is performed in.  The
-          following table does this for the Combat Time dimension.
-          Note that the more time an action takes, that could have
-          been achieved within a round, the higher the bonus.
-        </p>
-        <include id="$D-Combat-2"/>
-        <h5 class="skill" id="di-kno">Knowledge</h5>
-        <include id="$D-Knowledge"/>
-        <p>
-	  This dimension can be exploited as knowledge and the
-	  knowledge about knowledge, i.e. how sure is the character
-	  that his reproduction of the knowledge is correct.  Some
-	  example task difficulties follow.
-        </p>
-        <div class="explain">
-          <p>
-            <em>0:</em> Character barely knows the domain for such
-            knowledge exists.  With some luck, he can guess whether a
-            general topic belongs to that domain or not.
-          </p>
-          <p>
-            <em>10:</em> One of the most obvious topics has been heard
-            of and can be applied, but without guaranteed success.
-          </p>
-          <p>
-            <em>20:</em> The basic concepts are known, the more
-            esoteric concepts have been heard of but cannot be
-            applied.
-          </p>
-          <p>
-            <em>30:</em> Most concepts are known and many can be
-            applied with a high degree of certainty.
-          </p>
-          <p>
-            <em>40:</em> All concepts of the domain are known and can
-            be applied with confidence.  Only a few topics escape the
-            grasps.
-          </p>
-          <p>
-            <em>50:</em> All of the domain is understood with ease.
-            It is hard to find unknown territory, although it exists.
-            Improvement of the art is possible.
-          </p>
-          <p>
-            <em>60:</em> Mastery of the subject matter as far as
-            humanly possible.  Genuine research or creation of new
-            substance is possible.
-          </p>
-        </div>
-        <h5 class="quality" id="di-qua">Quality</h5>
-        <p>
-          The Quality dimension can be used when a craftsman attempts
-          to produce an item from raw materials.  The result is an
-          added to the base value to find the new value.  An item with
-          quality less than its base is usually broken.  The results
-          obtained do not necessarily reflect market value.  Just
-          because an item has +5 quality to its base does not mean
-          anyone will pay the difference in pence.  Some finished
-          goods may involve several stages of enhancement.  Uncut gems
-          may be enhanced by cutting and then further enhanced by
-          mounting in a gold-based necklace.  Sometimes an
-          item&#8217;s resistance to damage is more important than how
-          beautiful it looks.  Examples of this are weapon- and
-          armour-crafting.
-        </p>
-        <include id="$D-Quality"/>
-        <h5 class="skill" id="di-rec">Recipes</h5>
-        <p>
-          For NPCs the associated table can be used to estimate the
-          number of different recipes they know how to create.  PCs
-          should rather keep a book and start with what their master
-          has given them.  Self-made dabblers start with zero (0) and
-          would need to do research.  Recipes have a wide range of
-          meaning, from classic cooking to tricks the character can
-          teach to animals.  It includes ritual invocations.
-        </p>
-        <include id="$D-Recipes"/>
-        <p>
-          In general, learning a recipe is a roll with the
-          student&#8217;s ML.  The student should have a quiet,
-          dedicated space to study.  The <em>Consecrated Ground</em>
-          modifier usually can be 5-added to the ML.  A scripture must
-          be read in full.  Recipes have a circle rating, ranging from
-          I - VI, or given as star rating.  This is a direct numeric
-          penalty when applying the recipe, e.g. performing the
-          ritual.  For learning it represents the difficulty, see the
-          star-rating dimension.  Calculate the modifiers and make a
-          learning roll on the table below.  Any result below zero (0)
-          means the time was spent in vain.  Particularly nasty GMs
-          may let the PC learn something wrong without knowing.
-        </p>
-        <div class="explain">
-          <p>
-            <em>Mentor:</em> 5-Addition of the Mentor&#8217;s ML.
-          </p>
-          <p>
-            <em>Scripture:</em> 5-Addition of the Scripture value.
-            The value is directly linked to the number of pages (see
-            dimension above).  The student must be able to read the
-            Scripture.
-          </p>
-        </div>
-        <p/>
-        <include id="$D-Recipes-2"/>
-        <h5 class="skill" id="di-reg">Regional</h5>
-        <include id="$D-Regional"/>
-        <h5 class="skill" id="di-sta">Star-Rating</h5>
-        <p>
-          This scale is used often, particularly when assessing the
-          competence of a craftsman.  This scale can be extended for
-          the truly awesome skills.
-        </p>
-        <include id="$D-StarRating"/>
-        <h5 class="skill" id="di-tra">Travel</h5>
-        <p>
-          The <em>Km</em> distance dimensions <em>Sail</em> and
-          <em>Land</em> show the distance travelled in a day.  The
-          corresponding time dimensions show the time needed to travel
-          100 km.  In order to have a reasonable travel rate, the
-          desired distance and a maximum time should be given.  With
-          enough bad luck or circumstances, reaching the destination
-          may not be possible.  Turning around is possible, when
-          pressing on may by more dangerous.  The hazard domain cannot
-          be turned into a trajectory, i.e. no arbitrary bonus
-          compensated elsewhere may be assigned to it.  GM disretion
-          applies for explicitly safe travel.  Hazards include getting
-          lost but not encounters.  Modifiers are applied directly.
-        </p>
-        <include id="$D-Travel"/>
-        <include id="$D-Hazard"/>
-        <p>
-          Various circumstancial modification for travel rate
-          according to season are applicable.  The next table is only
-          applied to water/sail travel.  A vessel traveling NE applies
-          modifiers for N and E.
-        </p>
-        <include id="$D-Travel-Sail"/>
-        <p>
-          The following table applies to both Land and Sea travel in
-          either time or distance domains.
-        </p>
-        <include id="$D-Travel-Season"/>
-        <p>
-          The next modifiers apply only to overland travel in distance
-          and time domains.  Modifiers are cumulative.  The standard
-          distance/time assumes a road.  Consider all applicable
-          modifiers carefully.  Penalties apply double to wagon travel
-          (the bonus only once).  Roads through swamps are usually on
-          the solid parts and only during rainy weather are they
-          subject to penalty.  Roads are not affected by vegetation.
-        </p>
-        <div class="explain">
-          <p>
-            <em>-4:</em> Cropland, Heath, Hills
-          </p>
-          <p>
-            <em>-6:</em> Woodland, Needleleaf Forest
-          </p>
-          <p>
-            <em>-8:</em> Mixed Forest, Mountains, Swamp
-          </p>
-          <p>
-            <em>+5:</em> By Wagon
-          </p>
-          <p>
-            <em>+10:</em> By Horse
-          </p>
-        </div>
-        <p>
-          A <em>Hazard</em> is a randomized injury/penalty that is
-          applied to a traveller.  If desired, a vessel or horse may
-          be treated as separate entity.  This penalty would be the
-          effect of a sprained ankle or frostbite and is healed
-          normally.  Through familiarity in the terrain, such as the
-          Survival skill or Seamanship, the Hazard (frequency) may be
-          changed.
-        </p>
-        <include id="$D-Hazard-2"/>
-        <h5 class="skill" id="di-yie">Yield</h5>
-        <p>
-          The Time dimension assumes a 12h workday, thus the apparent
-          jump from 12h to 2 days.
-        </p>
-        <include id="$D-Yield"/>
-        <h5/>
-        <h4>Skill List</h4>
-        <p>
-          Some pre-determined skills, including important aspects for
-          character generation, are listed here.  When several listed
-          occupations apply, use the 5-Addition of the result.  This
-          does not apply to the Languages, Scripts and Musician skill
-          group, where each time an occupation is mentioned, it may
-          (and usually will) indicate a separate skill.  Specialties
-          are also treated this way: as separate opening.
-	</p>
-	<p>
-	  As a convenience, a list of the used percentage to OML is
-	  provided (rounded).
-        </p>
-        <include id="Skilllist"/>
         <h5 class="skill" id="sk-acr">Acrobatics</h5>
         <include id="$Acrobatics"/>
         <p>
@@ -1042,6 +829,49 @@
           weapons are omni-directional, they are easier to master than
           axes.  Use the <em>Combat</em> dimensions.
         </p>
+        <h5 id="di-com">Combat</h5>
+        <p>
+          One dimension is the time (in seconds), which it takes to
+          achieve the wound level zero on the defender.  The wound
+          level is a separate dimension.  You should use trajectories.
+          Once a (rolled) progression has reached its goal, a new
+          skill roll is necessary.  It is therefore possible to play
+          10 second round-based combat.
+        </p>
+        <p>
+          Any effects from wounds or other external influences in
+          combat are applied immediately to pending progressions, but
+          the wound itself is modified by <em>B/E/P</em> of choice and
+          the appropriate armor.  The offset is alonge the trajecory
+          chosen.  Note that the same is true for affects on the
+          defender.  If this implies an action to occur in the past,
+          it is resolved immediately.
+        </p>
+        <p>
+          If time is fixed, a best effort attack can be made.  For
+          instance, if an opponent was downed and will get up within a
+          few seconds and the bonus shall be used for better or worse.
+          Since combat is a often used routine, the tables is more
+          extensive than usual.
+        </p>
+        <include id="$D-Combat"/>
+        <p>
+          If a round based system is preferred, all must adhere to it.
+          This is often difficult to do right, but must be weighed
+          against the number crunching efforts needed for the
+          full-dimensions approach.  If rounds are used, they abstract
+          a number of seconds to a round, like 6 or 10.  Here, we
+          supply the modifiers for fighting in 10 second rounds.  Note
+          that the same scheme must be applied to all participants
+          (actors) in the scene but the modifiers vary, if an action
+          has a time dimension (measured in seconds).  A sensible
+          modifier often is the value that most closely rounds to the
+          number of rounds the activity is performed in.  The
+          following table does this for the Combat Time dimension.
+          Note that the more time an action takes, that could have
+          been achieved within a round, the higher the bonus.
+        </p>
+        <include id="$D-Combat-2"/>
         <h5 class="skill" id="sk-coo">Cookery</h5>
         <include id="$Cookery"/>
         <p>
@@ -1351,6 +1181,49 @@
           also accepted as fall, increase ML by 1 point.
         </p>
         <include id="$D-Jumping"/>
+        <h5 class="skill" id="di-kno">Knowledge</h5>
+        <include id="$D-Knowledge"/>
+        <p>
+	  This dimension can be exploited as knowledge and the
+	  knowledge about knowledge, i.e. how sure is the character
+	  that his reproduction of the knowledge is correct.  Some
+	  example task difficulties follow.
+        </p>
+        <div class="explain">
+          <p>
+            <em>0:</em> Character barely knows the domain for such
+            knowledge exists.  With some luck, he can guess whether a
+            general topic belongs to that domain or not.
+          </p>
+          <p>
+            <em>10:</em> One of the most obvious topics has been heard
+            of and can be applied, but without guaranteed success.
+          </p>
+          <p>
+            <em>20:</em> The basic concepts are known, the more
+            esoteric concepts have been heard of but cannot be
+            applied.
+          </p>
+          <p>
+            <em>30:</em> Most concepts are known and many can be
+            applied with a high degree of certainty.
+          </p>
+          <p>
+            <em>40:</em> All concepts of the domain are known and can
+            be applied with confidence.  Only a few topics escape the
+            grasps.
+          </p>
+          <p>
+            <em>50:</em> All of the domain is understood with ease.
+            It is hard to find unknown territory, although it exists.
+            Improvement of the art is possible.
+          </p>
+          <p>
+            <em>60:</em> Mastery of the subject matter as far as
+            humanly possible.  Genuine research or creation of new
+            substance is possible.
+          </p>
+        </div>
         <h5 class="skill" id="sk-lan">Language</h5>
         <include id="$Language"/>
         <p>
@@ -1711,6 +1584,63 @@
           All Talents are treated as separate skills.
         </p>
         <include id="PsiTalents-1"/>
+        <h5 class="quality" id="di-qua">Quality</h5>
+        <p>
+          The Quality dimension can be used when a craftsman attempts
+          to produce an item from raw materials.  The result is an
+          added to the base value to find the new value.  An item with
+          quality less than its base is usually broken.  The results
+          obtained do not necessarily reflect market value.  Just
+          because an item has +5 quality to its base does not mean
+          anyone will pay the difference in pence.  Some finished
+          goods may involve several stages of enhancement.  Uncut gems
+          may be enhanced by cutting and then further enhanced by
+          mounting in a gold-based necklace.  Sometimes an
+          item&#8217;s resistance to damage is more important than how
+          beautiful it looks.  Examples of this are weapon- and
+          armour-crafting.
+        </p>
+        <include id="$D-Quality"/>
+        <h5 class="skill" id="di-rec">Recipes</h5>
+        <p>
+          For NPCs the associated table can be used to estimate the
+          number of different recipes they know how to create.  PCs
+          should rather keep a book and start with what their master
+          has given them.  Self-made dabblers start with zero (0) and
+          would need to do research.  Recipes have a wide range of
+          meaning, from classic cooking to tricks the character can
+          teach to animals.  It includes ritual invocations.
+        </p>
+        <include id="$D-Recipes"/>
+        <p>
+          In general, learning a recipe is a roll with the
+          student&#8217;s ML.  The student should have a quiet,
+          dedicated space to study.  The <em>Consecrated Ground</em>
+          modifier usually can be 5-added to the ML.  A scripture must
+          be read in full.  Recipes have a circle rating, ranging from
+          I - VI, or given as star rating.  This is a direct numeric
+          penalty when applying the recipe, e.g. performing the
+          ritual.  For learning it represents the difficulty, see the
+          star-rating dimension.  Calculate the modifiers and make a
+          learning roll on the table below.  Any result below zero (0)
+          means the time was spent in vain.  Particularly nasty GMs
+          may let the PC learn something wrong without knowing.
+        </p>
+        <div class="explain">
+          <p>
+            <em>Mentor:</em> 5-Addition of the Mentor&#8217;s ML.
+          </p>
+          <p>
+            <em>Scripture:</em> 5-Addition of the Scripture value.
+            The value is directly linked to the number of pages (see
+            dimension above).  The student must be able to read the
+            Scripture.
+          </p>
+        </div>
+        <p/>
+        <include id="$D-Recipes-2"/>
+        <h5 class="skill" id="di-reg">Regional</h5>
+        <include id="$D-Regional"/>
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
         <include id="$Rhetoric"/>
         <p>
@@ -1922,8 +1852,7 @@
         <include id="$Singing"/>
         <p>
           A character&#8217;&#8217;s ability to carry a tune.  The
-          quality of a performance may not be appreciated.  A notable
-          specialty is the Voice attribute skill.  Use the
+          quality of a performance may not be appreciated.  Use the
           <em>Artistic</em> dimension.
         </p>
         <h5 class="skill" id="sk-ski">Skiing</h5>
@@ -1953,6 +1882,13 @@
           the roll to get the actual healing rate.
         </p>
         <include id="$D-Stamina"/>
+        <h5 class="skill" id="di-sta">Star-Rating</h5>
+        <p>
+          This scale is used often, particularly when assessing the
+          competence of a craftsman.  This scale can be extended for
+          the truly awesome skills.
+        </p>
+        <include id="$D-StarRating"/>
         <h5 class="skill" id="sk-ste">Stealth</h5>
         <include id="$Stealth"/>
         <p>
@@ -2076,6 +2012,71 @@
           additional tests are made periodically.  Use the
           <em>Regional</em> dimension.
         </p>
+        <h5 class="skill" id="di-tra">Travel</h5>
+        <p>
+          The <em>Km</em> distance dimensions <em>Sail</em> and
+          <em>Land</em> show the distance travelled in a day.  The
+          corresponding time dimensions show the time needed to travel
+          100 km.  In order to have a reasonable travel rate, the
+          desired distance and a maximum time should be given.  With
+          enough bad luck or circumstances, reaching the destination
+          may not be possible.  Turning around is possible, when
+          pressing on may by more dangerous.  The hazard domain cannot
+          be turned into a trajectory, i.e. no arbitrary bonus
+          compensated elsewhere may be assigned to it.  GM disretion
+          applies for explicitly safe travel.  Hazards include getting
+          lost but not encounters.  Modifiers are applied directly.
+        </p>
+        <include id="$D-Travel"/>
+        <include id="$D-Hazard"/>
+        <p>
+          Various circumstancial modification for travel rate
+          according to season are applicable.  The next table is only
+          applied to water/sail travel.  A vessel traveling NE applies
+          modifiers for N and E.
+        </p>
+        <include id="$D-Travel-Sail"/>
+        <p>
+          The following table applies to both Land and Sea travel in
+          either time or distance domains.
+        </p>
+        <include id="$D-Travel-Season"/>
+        <p>
+          The next modifiers apply only to overland travel in distance
+          and time domains.  Modifiers are cumulative.  The standard
+          distance/time assumes a road.  Consider all applicable
+          modifiers carefully.  Penalties apply double to wagon travel
+          (the bonus only once).  Roads through swamps are usually on
+          the solid parts and only during rainy weather are they
+          subject to penalty.  Roads are not affected by vegetation.
+        </p>
+        <div class="explain">
+          <p>
+            <em>-4:</em> Cropland, Heath, Hills
+          </p>
+          <p>
+            <em>-6:</em> Woodland, Needleleaf Forest
+          </p>
+          <p>
+            <em>-8:</em> Mixed Forest, Mountains, Swamp
+          </p>
+          <p>
+            <em>+5:</em> By Wagon
+          </p>
+          <p>
+            <em>+10:</em> By Horse
+          </p>
+        </div>
+        <p>
+          A <em>Hazard</em> is a randomized injury/penalty that is
+          applied to a traveller.  If desired, a vessel or horse may
+          be treated as separate entity.  This penalty would be the
+          effect of a sprained ankle or frostbite and is healed
+          normally.  Through familiarity in the terrain, such as the
+          Survival skill or Seamanship, the Hazard (frequency) may be
+          changed.
+        </p>
+        <include id="$D-Hazard-2"/>
         <h5 class="skill" id="sk-una">Unarmed</h5>
         <include id="$Unarmed"/>
         <p>
@@ -2116,6 +2117,12 @@
           and the quality and complexity of an item affects the
           result.  Use the <em>Recipe</em> dimension.
         </p>
+        <h5 class="skill" id="di-yie">Yield</h5>
+        <p>
+          The Time dimension assumes a 12h workday, thus the apparent
+          jump from 12h to 2 days.
+        </p>
+        <include id="$D-Yield"/>
         <h3 id="p3eople">People</h3>
         <p>
           The basic distribution presented in the in-world chapter for
@@ -2130,14 +2137,9 @@
         </p>
         <div class="explain">
           <p>
-            <em>Comeliness, Voice, Intelligence, Strength, Stamina,
+            <em>Intelligence, Strength, Stamina,
             Dexterity, Agility, Eyesight, Hearing, Smell, Aura,
-            Will:</em> They can all be treated as 3d6 - 10.5, with the
-            sections 3-5 / 6-8 / 9-12 / 13-15 / 16-18 / 19-21 mapping
-            to &#9733; / &#9733;&#9733; / &#9733;&#9733;&#9733; /
-            &#9733;&#9733;&#9733;&#9733; /
-            &#9733;&#9733;&#9733;&#9733;&#9733; /
-            &#9733;&#9733;&#9733;&#9733;&#9733;&#9733;.  The following
+            Will</em> are the numeric attributes.  The following
             modifiers should be applied to keep the distributions
             consistent:<br/> <b>Stamina</b> +2 for Khuzdul, +1 for
             Sindarin.<br/> <b>Dexterity</b> +1 for Khuzdul, +2 for
@@ -2151,6 +2153,7 @@
             females.<br/> <b>Will</b> +3 for Khuzdul.<br/>
           </p>
         </div>
+        <include id="Attributemap"/>
         <h3 id="p3sionics">Psionics</h3>
         <p>
 	  One way to determine how many talent are made for a new

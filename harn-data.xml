@@ -4432,4 +4432,16 @@
       <em>OML:</em> 0
     </p>
   </div>
+  <table id="Attributemap" style="width:50%;">
+    <tr>
+      <th>3d6</th><th>0-2</th><th>3-5</th><th>6-8</th><th>9-12</th><th>13-15</th><th>16-18</th><th>19-21</th>
+    </tr>
+    <tr>
+      <td>Value</td><td>-5</td><td>-3/-4</td><td>-1/-2</td><td>0</td><td>+1/+2</td><td>+3/+4</td><td>+5</td>
+    </tr>
+    <tr>
+      <td>Star-Rating</td>
+      <td>-</td><td>&#9733;</td><td>&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+    </tr>
+  </table>
 </root>
