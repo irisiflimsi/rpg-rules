@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="210mm" height="297mm" viewBox="0 0 760 1075" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect style="fill:#fff;stroke:#9a3100;stroke-width:2px" width="695" height="60" x="30" y="65" />
+  <rect style="fill:#fff;stroke:#9a3100;stroke-width:2px" width="90" height="130" x="600" y="30" />
+  <text style="font-weight:700;font-size:40px;font-style:italic" x="50" y="110">$Name</text>
+  <g>
+    <g>
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Agility</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Agility</text>
+    </g>
+    <g transform="translate(87.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Aura</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Aura</text>
+    </g>
+    <g transform="translate(175,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Birthdate</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Birthdate</text>
+    </g>
+    <g transform="translate(262.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Birthplace</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Birthplace</text>
+    </g>
+    <g transform="translate(350,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Clanhead</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Clanhead</text>
+    </g>
+    <g transform="translate(437.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Complexion</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Complexion</text>
+    </g>
+    <g transform="translate(525,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Culture</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Culture</text>
+    </g>
+    <g transform="translate(612.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Comeliness</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Comeliness</text>
+    </g>
+  </g>
+  <g transform="translate(0,50)">
+    <g>
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Deity</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Deity</text>
+    </g>
+    <g transform="translate(87.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Dexterity</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Dexterity</text>
+    </g>
+    <g transform="translate(175,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Estrangement</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Estrangement</text>
+    </g>
+    <g transform="translate(262.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Eye Color</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Eyecolor</text>
+    </g>
+    <g transform="translate(350,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Eyesight</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Eyesight</text>
+    </g>
+    <g transform="translate(437.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Frame</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Frame</text>
+    </g>
+    <g transform="translate(525,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Gender</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Gender</text>
+    </g>
+    <g transform="translate(612.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Hair Color</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Haircolor</text>
+    </g>
+  </g>
+  <g transform="translate(0,100)">
+    <g>
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Hearing</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Hearing</text>
+    </g>
+    <g transform="translate(87.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Height</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Height</text>
+    </g>
+    <g transform="translate(175,0)">
+      <rect x="30" y="185" height="20" width="345" style="fill:#9a3100;stroke:none" />
+      <text x="202.5" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Medical</text>
+      <rect x="30" y="210" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="202.5" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Medical</text>
+    </g>
+    <g transform="translate(525,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Morality</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Morality</text>
+    </g>
+    <g transform="translate(612.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Intelligence</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Intelligence</text>
+    </g>
+  </g>
+  <g transform="translate(0,150)">
+    <g>
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Parent</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Parent</text>
+    </g>
+    <g transform="translate(87.5,0)">
+      <rect x="30" y="185" height="20" width="345" style="fill:#9a3100;stroke:none" />
+      <text x="202.5" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Psyche</text>
+      <rect x="30" y="210" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="202.5" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Psyche</text>
+    </g>
+    <g transform="translate(437.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Sexuality</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Sexuality</text>
+    </g>
+    <g transform="translate(525,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Sibling Rank</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Siblingrank</text>
+    </g>
+    <g transform="translate(612.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Smell</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Smell</text>
+    </g>
+  </g>
+  <g transform="translate(0,200)">
+    <g>
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Social Class</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Socialclass</text>
+    </g>
+    <g transform="translate(87.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Species</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Species</text>
+    </g>
+    <g transform="translate(175,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Stamina</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Stamina</text>
+    </g>
+    <g transform="translate(262.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Strength</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Strength</text>
+    </g>
+    <g transform="translate(350,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Sunsign</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Sunsign</text>
+    </g>
+    <g transform="translate(437.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Voice</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Voice</text>
+    </g>
+    <g transform="translate(525,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Weight</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Weight</text>
+    </g>
+    <g transform="translate(612.5,0)">
+      <rect x="30" y="185" height="20" width="82.5" style="fill:#9a3100;stroke:none" />
+      <text x="71.25" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Will</text>
+      <rect x="30" y="210" height="20" width="82.5" style="fill:#ffcece;stroke:none" />
+      <text x="71.25" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Will</text>
+    </g>
+  </g>
+  <g transform="translate(0,250)">
+    <g>
+      <rect x="30" y="185" height="20" width="170" style="fill:#9a3100;stroke:none" />
+      <text x="115" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Occupation</text>
+      <rect x="30" y="210" height="20" width="170" style="fill:#ffcece;stroke:none" />
+      <text x="115" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Occupation</text>
+    </g>
+    <g transform="translate(175,0)">
+      <rect x="30" y="185" height="20" width="170" style="fill:#9a3100;stroke:none" />
+      <text x="115" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Parent Occupation</text>
+      <rect x="30" y="210" height="20" width="170" style="fill:#ffcece;stroke:none" />
+      <text x="115" y="223" style="font-size:13px;text-anchor:middle;stroke:none">$Parentoccupation</text>
+    </g>
+    <g transform="translate(350,0)">
+      <rect x="30" y="185" height="20" width="345" style="fill:#9a3100;stroke:none" />
+      <rect x="30" y="210" height="20" width="345" style="fill:#ffcece;stroke:none" />
+    </g>
+  </g>
+  <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="485" />
+  <g transform="translate(0,305)">
+    <g>
+      <rect x="30" y="185" height="20" width="345" style="fill:#9a3100;stroke:none" />
+      <text x="40" y="198" style="font-size:13px;fill:#fff;stroke:none">Equipment/Funds</text>
+      <rect x="30" y="210" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="223" style="font-size:13px;stroke:none">$Eq-1N</text>
+      <rect x="30" y="235" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="248" style="font-size:13px;stroke:none">$Eq-2N</text>
+      <rect x="30" y="260" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="273" style="font-size:13px;stroke:none">$Eq-3N</text>
+      <rect x="30" y="285" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="298" style="font-size:13px;stroke:none">$Eq-4N</text>
+      <rect x="30" y="310" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="323" style="font-size:13px;stroke:none">$Eq-5N</text>
+      <rect x="30" y="335" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="348" style="font-size:13px;stroke:none">$Eq-6N</text>
+      <rect x="30" y="360" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="373" style="font-size:13px;stroke:none">$Eq-7N</text>
+      <rect x="30" y="385" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="398" style="font-size:13px;stroke:none">$Eq-8N</text>
+      <rect x="30" y="410" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="423" style="font-size:13px;stroke:none">$Eq-9N</text>
+      <rect x="30" y="435" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="448" style="font-size:13px;stroke:none">$Eq-10N</text>
+      <rect x="30" y="460" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="473" style="font-size:13px;stroke:none">$Eq-11N</text>
+      <rect x="30" y="485" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="498" style="font-size:13px;stroke:none">$Eq-12N</text>
+      <rect x="30" y="510" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="523" style="font-size:13px;stroke:none">$Eq-13N</text>
+      <rect x="30" y="535" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="548" style="font-size:13px;stroke:none">$Eq-14N</text>
+      <rect x="30" y="560" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="573" style="font-size:13px;stroke:none">$Eq-15N</text>
+      <rect x="30" y="585" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="598" style="font-size:13px;stroke:none">$Eq-16N</text>
+      <rect x="30" y="610" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="623" style="font-size:13px;stroke:none">$Eq-17N</text>
+      <rect x="30" y="635" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="648" style="font-size:13px;stroke:none">$Eq-18N</text>
+      <rect x="30" y="660" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="673" style="font-size:13px;stroke:none">$Eq-19N</text>
+      <rect x="30" y="685" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="698" style="font-size:13px;stroke:none">$Eq-20N</text>
+      <rect x="30" y="710" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="723" style="font-size:13px;stroke:none">$Eq-21N</text>
+      <rect x="30" y="735" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <text x="40" y="748" style="font-size:13px;stroke:none">$Eq-22N</text>
+    </g>
+  </g>
+  <g transform="translate(350,305)">
+    <g>
+      <rect x="30" y="185" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">Loc</text>
+      <rect x="30" y="210" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="223" style="font-size:13px;text-anchor:middle;stroke:none">Sk</text>
+      <rect x="30" y="235" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="248" style="font-size:13px;text-anchor:middle;stroke:none">Fa</text>
+      <rect x="30" y="260" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="273" style="font-size:13px;text-anchor:middle;stroke:none">Sh</text>
+      <rect x="30" y="285" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="298" style="font-size:13px;text-anchor:middle;stroke:none">Ua</text>
+      <rect x="30" y="310" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="323" style="font-size:13px;text-anchor:middle;stroke:none">El</text>
+      <rect x="30" y="335" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="348" style="font-size:13px;text-anchor:middle;stroke:none">Fo</text>
+      <rect x="30" y="360" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="373" style="font-size:13px;text-anchor:middle;stroke:none">Ha</text>
+      <rect x="30" y="385" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="398" style="font-size:13px;text-anchor:middle;stroke:none">Th</text>
+      <rect x="30" y="410" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="423" style="font-size:13px;text-anchor:middle;stroke:none">Ab</text>
+      <rect x="30" y="435" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="448" style="font-size:13px;text-anchor:middle;stroke:none">Hp</text>
+      <rect x="30" y="460" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="473" style="font-size:13px;text-anchor:middle;stroke:none">Gr</text>
+      <rect x="30" y="485" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="498" style="font-size:13px;text-anchor:middle;stroke:none">Th</text>
+      <rect x="30" y="510" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="523" style="font-size:13px;text-anchor:middle;stroke:none">Kn</text>
+      <rect x="30" y="535" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="548" style="font-size:13px;text-anchor:middle;stroke:none">Ca</text>
+      <rect x="30" y="560" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <text x="62.5" y="573" style="font-size:13px;text-anchor:middle;stroke:none">Ft</text>
+    </g>
+    <g transform="translate(70,0)">
+      <rect x="30" y="185" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">B</text>
+      <rect x="30" y="210" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="235" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="260" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="285" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="310" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="335" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="360" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="385" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="410" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="435" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="460" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="485" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="510" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="535" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="560" height="20" width="65" style="fill:#ffcece;stroke:none" />
+    </g>
+    <g transform="translate(140,0)">
+      <rect x="30" y="185" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">E</text>
+      <rect x="30" y="210" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="235" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="260" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="285" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="310" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="335" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="360" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="385" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="410" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="435" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="460" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="485" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="510" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="535" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="560" height="20" width="65" style="fill:#ffcece;stroke:none" />
+    </g>
+    <g transform="translate(210,0)">
+      <rect x="30" y="185" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">P</text>
+      <rect x="30" y="210" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="235" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="260" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="285" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="310" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="335" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="360" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="385" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="410" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="435" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="460" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="485" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="510" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="535" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="560" height="20" width="65" style="fill:#ffcece;stroke:none" />
+    </g>
+    <g transform="translate(280,0)">
+      <rect x="30" y="185" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="198" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">F</text>
+      <rect x="30" y="210" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="235" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="260" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="285" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="310" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="335" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="360" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="385" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="410" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="435" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="460" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="485" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="510" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="535" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="560" height="20" width="65" style="fill:#ffcece;stroke:none" />
+    </g>
+  </g>
+  <g transform="translate(350,860)">
+    <rect x="30" y="30" height="20" width="135" style="fill:#9a3100;stroke:none" />
+    <text x="40" y="43" style="font-size:13px;fill:#fff;stroke:none">Weapon</text>
+    <rect x="30" y="55" height="20" width="135" style="fill:#ffcece;stroke:none" />
+    <text x="40" y="68" style="font-size:13px;stroke:none">$EqWeapon-1N</text>
+    <rect x="30" y="80" height="20" width="135" style="fill:#ffcece;stroke:none" />
+    <text x="40" y="93" style="font-size:13px;stroke:none">$EqWeapon-2N</text>
+    <rect x="30" y="105" height="20" width="135" style="fill:#ffcece;stroke:none" />
+    <text x="40" y="118" style="font-size:13px;stroke:none">$EqWeapon-3N</text>
+    <g transform="translate(140,0)">
+      <rect x="30" y="30" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="43" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">B</text>
+      <rect x="30" y="55" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="80" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="105" height="20" width="65" style="fill:#ffcece;stroke:none" />
+    </g>
+    <g transform="translate(210,0)">
+      <rect x="30" y="30" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="43" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">E</text>
+      <rect x="30" y="55" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="80" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="105" height="20" width="65" style="fill:#ffcece;stroke:none" />
+    </g>
+    <g transform="translate(280,0)">
+      <rect x="30" y="30" height="20" width="65" style="fill:#9a3100;stroke:none" />
+      <text x="62.5" y="43" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">P</text>
+      <rect x="30" y="55" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="80" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="105" height="20" width="65" style="fill:#ffcece;stroke:none" />
+    </g>
+  </g>
+</svg>
