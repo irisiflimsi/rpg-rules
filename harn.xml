@@ -573,10 +573,6 @@
           Fatigue penalty applies to all skill applications.
         </p>
         <p>
-          <em>Encumbrance Penalty:</em> Encumbrance Penalty is given
-          by the Endurance Skill.
-        </p>
-        <p>
           <em>Astral Penalty:</em> Astrals of disembodied characters
           have a special penalty to the MLs of all skills, spells, and
           psionic talents proportional to the portion of Aura they
@@ -628,7 +624,7 @@
           exception to this is mounted combat, where PC rider and
           horse may be acting in unison.
         </p>
-        <h3>Dimensionality</h3>
+        <h3 id="d3im">Dimensionality</h3>
         <p>
           Some pre-determined skills, dimensions, and attributes,
           including important aspects for character generation, are
@@ -955,10 +951,11 @@
         <h5 class="skill" id="sk-end">Endurance</h5>
         <include id="$Endurance"/>
         <p>
-	  Endurance ia 5-added to Strength to get the effective
-	  fatigue rate for carrying load.  See Strength for details on
-	  lifting loads.  Remember that the fatigue accrued must be
-	  used as modifier for the next time interval.
+	  Read Endurance as Healingrate for Fatigue, see Stamina.
+	  Remember that the fatigue accrued must be used as modifier
+	  for the next time interval. Standard healing rate is one
+	  level per minute.  Also consider the increased fatigue rate
+	  for carrying heavy loads.
         </p>
         <h5 class="skill" id="sk-eng">Engineering</h5>
         <include id="$Engineering"/>
@@ -1891,8 +1888,8 @@
         <h5 class="skill" id="sk-sta">Stamina</h5>
         <include id="$Stamina"/>
         <p>
-          Average Healing time for 1 injury point is 2 days.  Factor
-          the roll to get the actual healing rate.
+          Healing time for 1 injury point is 1 day.  Factor the roll
+          to get the actual healing rate.
         </p>
         <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-ste">Stealth</h5>
@@ -2631,8 +2628,8 @@
         <p>
           <em>Shock:</em> Any new wound of at least 1 point results in
           a Shock chance.  Use accumulated injury and fatigue as
-          difficulty for a Stamina skill roll against 20.  Failure
-          results in unconsciousness.
+          difficulty for a Stamina skill roll against 20
+          (&#9733;&#9733;).  Failure results in unconsciousness.
         </p>
       </div>
       <div class="container">
@@ -6153,9 +6150,9 @@
           involved in unreasonable physical exertion during Healing,
           the days of rest accumulated since the last day are forfeit;
           wounds are often aggravated or reopened by premature
-          activity.  Injury and Encumbrance penalties are ignored
-          during Healing.  Fatigue penalty (if any) are applied -
-          injured combatants are supposed to get lots of rest.
+          activity.  Injury penalties are ignored during Healing.
+          Fatigue penalty (if any) are applied - injured combatants
+          are supposed to get lots of rest.
         </p>
         <p>
           The standard treatments mostly known by all still need to be

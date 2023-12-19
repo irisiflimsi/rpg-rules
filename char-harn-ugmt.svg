@@ -238,54 +238,55 @@
   <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="485" />
   <g transform="translate(0,305)">
     <g>
-      <rect x="30" y="185" height="20" width="345" style="fill:#9a3100;stroke:none" />
+      <rect x="30" y="185" height="20" width="340" style="fill:#9a3100;stroke:none" />
       <text x="40" y="198" style="font-size:13px;fill:#fff;stroke:none">Equipment/Funds</text>
-      <rect x="30" y="210" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="210" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="223" style="font-size:13px;stroke:none">$Eq-1N</text>
-      <rect x="30" y="235" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="235" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="248" style="font-size:13px;stroke:none">$Eq-2N</text>
-      <rect x="30" y="260" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="260" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="273" style="font-size:13px;stroke:none">$Eq-3N</text>
-      <rect x="30" y="285" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="285" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="298" style="font-size:13px;stroke:none">$Eq-4N</text>
-      <rect x="30" y="310" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="310" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="323" style="font-size:13px;stroke:none">$Eq-5N</text>
-      <rect x="30" y="335" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="335" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="348" style="font-size:13px;stroke:none">$Eq-6N</text>
-      <rect x="30" y="360" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="360" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="373" style="font-size:13px;stroke:none">$Eq-7N</text>
-      <rect x="30" y="385" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="385" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="398" style="font-size:13px;stroke:none">$Eq-8N</text>
-      <rect x="30" y="410" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="410" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="423" style="font-size:13px;stroke:none">$Eq-9N</text>
-      <rect x="30" y="435" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="435" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="448" style="font-size:13px;stroke:none">$Eq-10N</text>
-      <rect x="30" y="460" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="460" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="473" style="font-size:13px;stroke:none">$Eq-11N</text>
-      <rect x="30" y="485" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="485" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="498" style="font-size:13px;stroke:none">$Eq-12N</text>
-      <rect x="30" y="510" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="510" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="523" style="font-size:13px;stroke:none">$Eq-13N</text>
-      <rect x="30" y="535" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="535" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="548" style="font-size:13px;stroke:none">$Eq-14N</text>
-      <rect x="30" y="560" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="560" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="573" style="font-size:13px;stroke:none">$Eq-15N</text>
-      <rect x="30" y="585" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="585" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="598" style="font-size:13px;stroke:none">$Eq-16N</text>
-      <rect x="30" y="610" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="610" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="623" style="font-size:13px;stroke:none">$Eq-17N</text>
-      <rect x="30" y="635" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="635" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="648" style="font-size:13px;stroke:none">$Eq-18N</text>
-      <rect x="30" y="660" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="660" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="673" style="font-size:13px;stroke:none">$Eq-19N</text>
-      <rect x="30" y="685" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="685" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="698" style="font-size:13px;stroke:none">$Eq-20N</text>
-      <rect x="30" y="710" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="710" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="723" style="font-size:13px;stroke:none">$Eq-21N</text>
-      <rect x="30" y="735" height="20" width="345" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="735" height="20" width="340" style="fill:#ffcece;stroke:none" />
       <text x="40" y="748" style="font-size:13px;stroke:none">$Eq-22N</text>
     </g>
   </g>
+  <rect style="stroke:#9a3100;stroke-width:1px" width="1" height="570" x="375" y="490" />
   <g transform="translate(350,305)">
     <g>
       <rect x="30" y="185" height="20" width="65" style="fill:#9a3100;stroke:none" />
@@ -407,12 +408,21 @@
     <text x="40" y="93" style="font-size:13px;stroke:none">$EqWeapon-2N</text>
     <rect x="30" y="105" height="20" width="135" style="fill:#ffcece;stroke:none" />
     <text x="40" y="118" style="font-size:13px;stroke:none">$EqWeapon-3N</text>
+    <rect x="30" y="130" height="20" width="135" style="fill:#ffcece;stroke:none" />
+    <text x="40" y="143" style="font-size:13px;stroke:none">$EqWeapon-4N</text>
+    <rect x="30" y="155" height="20" width="135" style="fill:#ffcece;stroke:none" />
+    <text x="40" y="168" style="font-size:13px;stroke:none">$EqWeapon-5N</text>
+    <rect x="30" y="180" height="20" width="135" style="fill:#ffcece;stroke:none" />
+    <text x="40" y="193" style="font-size:13px;stroke:none">$EqWeapon-6N</text>
     <g transform="translate(140,0)">
       <rect x="30" y="30" height="20" width="65" style="fill:#9a3100;stroke:none" />
       <text x="62.5" y="43" style="font-size:13px;text-anchor:middle;fill:#fff;stroke:none">B</text>
       <rect x="30" y="55" height="20" width="65" style="fill:#ffcece;stroke:none" />
       <rect x="30" y="80" height="20" width="65" style="fill:#ffcece;stroke:none" />
       <rect x="30" y="105" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="130" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="155" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="180" height="20" width="65" style="fill:#ffcece;stroke:none" />
     </g>
     <g transform="translate(210,0)">
       <rect x="30" y="30" height="20" width="65" style="fill:#9a3100;stroke:none" />
@@ -420,6 +430,9 @@
       <rect x="30" y="55" height="20" width="65" style="fill:#ffcece;stroke:none" />
       <rect x="30" y="80" height="20" width="65" style="fill:#ffcece;stroke:none" />
       <rect x="30" y="105" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="130" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="155" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="180" height="20" width="65" style="fill:#ffcece;stroke:none" />
     </g>
     <g transform="translate(280,0)">
       <rect x="30" y="30" height="20" width="65" style="fill:#9a3100;stroke:none" />
@@ -427,6 +440,9 @@
       <rect x="30" y="55" height="20" width="65" style="fill:#ffcece;stroke:none" />
       <rect x="30" y="80" height="20" width="65" style="fill:#ffcece;stroke:none" />
       <rect x="30" y="105" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="130" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="155" height="20" width="65" style="fill:#ffcece;stroke:none" />
+      <rect x="30" y="180" height="20" width="65" style="fill:#ffcece;stroke:none" />
     </g>
   </g>
 </svg>
