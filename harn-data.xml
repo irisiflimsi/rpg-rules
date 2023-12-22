@@ -112,10 +112,10 @@
   </table>
   <table id="$D-Climbing" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th>
+      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th>
     </tr>
     <tr class="num">
-      <td>Inclince</td><td>0&#176;</td><td>15&#176;</td><td>30&#176;</td><td>45&#176;</td><td>60&#176;</td><td>75&#176;</td><td>90&#176;</td><td>100&#176;</td><td>110&#176;</td><td>120&#176;</td>
+      <td>Inclince</td><td>0&#176;</td><td>15&#176;</td><td>30&#176;</td><td>45&#176;</td><td>60&#176;</td><td>75&#176;</td><td>90&#176;</td><td>105&#176;</td><td>120&#176;</td><td>135&#176;</td>
     </tr>
     <tr class="num">
       <td>Speed</td><td>-</td><td>0</td><td>0.25</td><td>0.5</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>5</td>
@@ -576,10 +576,10 @@
   </table>
   <table id="$D-Stamina" style="width:60%">
     <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
+      <th>Dimension</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th>
     </tr>
     <tr class="num">
-      <td>Time factor</td><td>3</td><td>2</td><td>1.5</td><td>1.0</td><td>0.75</td><td>0.5</td><td>0.38</td><td>0.25</td>
+      <td>Time factor</td> <td>3</td><td>2</td><td>3/2</td><td>1</td><td>3/4</td><td>1/2</td><td>3/8</td><td>1/4</td>
     </tr>
   </table>
   <table id="$D-Strength"  style="width:60%">
