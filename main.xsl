@@ -23,9 +23,10 @@
     </body>
   </xsl:template>
 
-  <xsl:template match="include">x
-    <xsl:variable name="x" select="@id"/>y
-    <xsl:apply-templates select="document('harn-data.xml',node()|@*)//*[@id=$x]"/>z
+  <xsl:template match="include">
+    <xsl:variable name="x" select="@id"/>
+    <xsl:value-of select="document('harn-data.xml',node()|@*)//*[@id=$x]"/>
+    <xsl:apply-templates select="document('harn-data.xml',node()|@*)//*[@id=$x]"/>
   </xsl:template>
 
   <xsl:template match="table[not(@class) or @class != 'links']">
