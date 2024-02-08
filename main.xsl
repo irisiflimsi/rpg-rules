@@ -25,7 +25,6 @@
 
   <xsl:template match="include">
     <xsl:variable name="x" select="@id"/>
-    <xsl:value-of select="document('harn-data.xml',node()|@*)//*[@id=$x]"/>
     <xsl:apply-templates select="document('harn-data.xml',node()|@*)//*[@id=$x]"/>
   </xsl:template>
 
