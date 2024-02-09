@@ -101,8 +101,7 @@
           numbers to higher ones.  Sometimes, to ease writing, we
           denote addition of skill (or task) numbers with
           +<sub>5</sub>, e.g. <em>1 +<sub>5</sub> 2</em>.  This is
-          also called 5-Addition.  (This is called 5-Addition, because
-          <em>0 +<sub>5</sub> 0 = 5</em>.)
+          called 5-Addition, because <em>0 +<sub>5</sub> 0 = 5</em>.
         </p>
         <include id="$Calculate-2"/>
         <h3 id="s3kills">Overview</h3>
@@ -316,24 +315,24 @@
           in the table to <em>learn</em> something, deduct a point.
         </p>
         <p>
-          Improving Specialties (see below) is a bit more elaborate.
-          Skills list specialties with a percentage value.  This
-          percentage value gives the approximate part of the whole
-          group that this specialization comprises.  When the skill is
-          improved (the skill group of all specialties) all
-          improvement may be dedicated to the specialty instead.  As
-          an example, a Specialty/20 could see an improvement of 5
-          points instead of a 1 for the group and a 40% Specialty an
-          improvement of 2.5 points of the specialty instead of 1 for
-          the group.  So, divide 100% by the given percentage to get a
-          multiple <em>m</em>.  The time needed is the average of all
-          the MLU points improved according to the basic law.
+          Improving Specialties is a bit more elaborate.  Skills list
+          specialties with a percentage value.  This percentage value
+          gives the approximate part of the whole group that this
+          specialization comprises.  When the skill is improved (the
+          skill group of all specialties) all improvement may be
+          dedicated to the specialty instead.  As an example, a
+          Specialty/20 could see an improvement of 5 points instead of
+          a 1 for the group and a 40% Specialty an improvement of 2.5
+          points of the specialty instead of 1 for the group.  So,
+          divide 100% by the given percentage to get a multiple
+          <em>m</em>.  The time needed is the average of all the MLU
+          points improved according to the basic law.
         </p>
         <p>
           Note: If at any time the skill group itself is developed,
           specialties are only improved, if they would fall below the
-          MLU of the group otherwise.  It would be "wise" to learn the
-          "opposite" Specialty.
+          MLU of the group otherwise.  It would be prudent to learn
+          the &#8220;opposite&#8221; Specialty.
         </p>
         <h4>Dimensions</h4>
         <p>
@@ -357,71 +356,26 @@
         <h4>Attributes</h4>
         <p>
           Attributes come in textual form and a few in numeric form.
-          The numeric attributes are listed above separately.  The
-          star-rating scale is different from that of skills.
+          The numeric attributes are listed above separately.  To have
+          an appropriate scale, and keep the rule, just keep the
+          attribute as-is.  Everything else, including the star-scale
+          follows from there.
         </p>
         <p>
-          Attributes are aptitudes and conditions of a character that
-          come naturally and are rarely learned or improved.  Some are
-          listed with all skills, they often can be used to supplement
-          the skill (out-world) by simple addition for many tasks.  In
-          the end, it is a GM decision, which attribute(s) are
-          applicable when and to which skill.  Attributes average
-          around 0.  Making 3 attributes applicable to a task, usually
-          means taking the maximum.
-        </p>
-        <h4>Opening Mastery Level</h4>
-        <p>
-          Opening Mastery Level (OML) is listed with each skill.  This
-          is the starting point for any skill&#8217;s ML.  Skills
-          should start at zero because of the normalization.  However,
-          if the OML is negative, any improvement of the skill can
-          only happen with a teacher.  This is an out-world
-          normalization technique, making it a bit harder to get out
-          of the zero star zone.  Once an skill reaches zero (0) this
-          restriction no longer applies.  Bonuses and penalties may be
-          added to an ML in concrete situations and that leads to a
-          task-specific ML, sometimes called EML.
+	  When an attribute roll is called for, it comes in two forms.
+	  The first treats the attribute as a ficticious skill with an
+	  ML as a multiple of the attribute.  This form is treated as
+	  any MLU.  Say, Strength is 9 and a roll vs. 2 x Strength is
+	  called for.  The MLU is 7 and the task level is 20
+	  (default).
         </p>
         <p>
-          Every skill in the list has an Occupation entry.  It shows a
-          list of occupations with a percentage value each.  When
-          creating a character and the character has an occupation
-          that is listed, then the OML listed is not used, but instead
-          the 25 times the percentage listed.  This is eqivalent to
-          halfway between &#9733;&#9733; and &#9733;&#9733;&#9733;
-          in-world.  It represents the years of training with a
-          teacher or tutor.  It is an out-world abstraction, because
-          the number of influences on the multide of learning skill
-          rolls is staggering.  Because learning should depend on the
-          relevant attributes, you can take the maximum of all
-          attributes and add that to 20 (&#9733;&#9733;) as
-          alternative.
-        </p>
-        <div class="explain">
-          <p>
-            <em>Example:</em> Juryn has Dexterity -1 and Agility 1.
-            His father is a Herald by trade, with an occupation
-            listing of 60 for Dancing.  Juryn himself does not have an
-            occupation with Dancing as skill.  His apprenticeship was
-            normal, so he was taught to an occupation level of 10
-            (&#9733;) as Herald.  (This follows from the initial
-            training rules in the Occupations chapter.)  Thus he now
-            has a ML of <em>10 + max(1,-1) = 11</em>
-          </p>
-        </div>
-        <p>
-          Multiple occupations&#8217; influence are combined through
-          5-Addition into a single skill.
-        </p>
-        <h4>Special Occupationss</h4>
-        <p>
-          Gladiators are at 80%, Hunter/Trappers, Mercantylers,
-          Pilots, and Weaponcrafters at 60% for their additional
-          Weapon proficiencies.  Clerics acquire their church language
-          at 60%, if the same family, and 40%, if an alien family.
-          The church script is opened at 60%.  For those religions
-          that have a Temple Private Tongue this opens at 60%.
+	  The second version is rolling n number of d6, summing them
+	  up and stay below an attribute value.  This does not fit
+	  well into the scheme, but the spirit is obviously that with
+	  each additional die the chances to succeed become sharply
+	  worse.  Treat 1d6 as task level 0, 2d6 as task level 5, 3d6
+	  as 10, and so on.
         </p>
         <h4>Specialties</h4>
         <p>
@@ -430,19 +384,19 @@
           select specialties at any time.  The skill is then termed a
           group skill and includes all (potential) specialties, even
           if unknown.  The specific specialty skill is opened at the
-          current group ML.  Each specialty is developed as a separate
-          skill.  A character may declare any number of specialties,
-          but each is a separate skill.  Also see the example above.
+          current group MLU (note that the ML can be calculated from
+          that, if needed).  Each specialty is developed as a separate
+          skill.
         </p>
         <p>
           Sometimes, only Specialties are given and the question
-          arises, what ML in the Specialty applies to the skill group.
-          Each specialty has a percentage value associated with it.
-          (For a new Specialty, this must be decided upon by the GM.)
-          Take that percentage of Specialty ML to get the
-          group&#8217;s ML.  For example, a Mask/20% specialty in
+          arises, what MLU in the Specialty applies to the skill
+          group.  Each specialty has a percentage value associated
+          with it.  (For a new Specialty, this must be decided upon by
+          the GM.)  Take that percentage of Specialty MLU to get the
+          group&#8217;s MLU.  For example, a Mask/20% specialty in
           Woodcraft of 12 would imply a Woodcraft group score of 2.4,
-          rounded down to 2.  This applies to ML, not OML.  OML (if
+          rounded down to 2.  This applies only to MLU.  OML (if
           specialization is attempted at the outset) is as for the
           group skill.
         </p>
@@ -450,38 +404,24 @@
         <p>
           Sunsigns represent an astrological affinity to certain
           skills in-world, see below.  They give a direct bonus to the
-          ML.
+          MLU.
         </p>
         <h4>Skill Testing</h4>
         <p>
-          ML is modified for a concrete test due to various
-          circumstance resulting in an EML.
+          MLU is modified for a concrete test due to various
+          circumstance resulting in an EMLU. Only minor additions or
+          subtractions are considered.  In the odd case, where
+          original rules call for taking half of the ML, subtract 10
+          from the MLU.
         </p>
-        <div class="explain">
-          <p>
-            <em>Example:</em> a character might normally have a
-            minimum 0 in Climbing.  However, climbing an ice cliff,
-            with a broken arm, during a blizzard is probably
-            impossible, and the GM may feel an ML of -30 is justified.
-            (This is roughly a 1 in 1000 chance of succeeding.)  If
-            instead she was trying to decipher an alien script
-            (without access to some sort of comparison) the ML may be
-            at -50.  (This is roughly a 1 in 100,000 chance of
-            succeeding.)  Factors affecting ML are sometimes specified
-            in the skill description; otherwise GM discretion applies.
-            This is equivalent to increasing the task level.  Summing
-            all mdifiers into the skill ML results in an EML.  Note
-            that the addition is direct, not a 5-addition.
-          </p>
-        </div>
         <p>
           When a character attempts to use a skill, n5 is rolled,
-          adding EML.  The GM will have decided upon a diffculty level
-          of the task, often called the <em>negative</em> part.  Some
-          modfifiers are compounded here, although this makes no
-          difference, whether it were included in the EML instead.
+          adding EMLU.  The GM will have decided upon a diffculty
+          level of the task, often called the <em>negative</em> part.
+          Some modfifiers are compounded here, although this makes no
+          difference, whether it were included in the EMLU instead.
           This value is also subtracted from the roll and if the net
-          result is not-negative, the skill has been successfully
+          result is non-negative, the skill has been successfully
           employed; if the roll is negative, the attempt has failed.
           For example, if a PC declares the intent to perform a
           gymnastic feat, the GM would instruct the player to
@@ -510,56 +450,10 @@
         </p>
         <h4>Penalties</h4>
         <p>
-          Penalties are 5-added to the task difficulty.  To
-          distinguish the standard penalties below, penalties assigned
-          by the GM to reflect temporary handicaps are called
-          <em>Special Penalties</em>.
-        </p>
-        <p>
-          <em>Injury Penalty:</em> Combat, and other activities, may
-          injure a character.  Each injury is rated in terms of Injury
-          Levels: M5, S10, G15, and so on; calculate the 5-sum giving
-          the injury penalty.  A character with, for example, one M3
-          and one S8 injury, has a total of 11 injury levels,
-          equalling the injury penalty.  For more details about
-          injuries, see Combat and Physician.  Injury penalties apply
-          to all physical skills.  In some cases, part of the injury
-          penalty can be ignored.  For example, firing a bow with an
-          injured foot is not impeded in the same manner as running.
-        </p>
-        <p>
-          <em>Fatigue Penalty:</em> Using psionic talents or certain
-          other activity generates fatigue.  The GM may also assess
-          fatigue for prolonged physical activity, such as when a
-          character swims a swift river and then begins to scale a
-          cliff without pausing to rest.  In general, one fatigue
-          level is assessed for one minute of strenuous physical
-          activity.  A character&#8217;s fatigue penalty is equal to
-          the (normal) sum of all Fatigue Levels.  Every minute of
-          Rest allows a character to remove one fatigue level.
-          Fatigue penalty applies to all skill applications.
-        </p>
-        <p>
-          <em>Astral Penalty:</em> Astrals of disembodied characters
-          have a special penalty to the MLs of all skills, spells, and
-          psionic talents proportional to the portion of Aura they
-          leave with the body.  If 5% of Aura is left behind, astral
-          skills are reduced by -2, if 10% of Aura is left behind,
-          reduce by -4, and so on.  Some astral travelers prefer to
-          leave larger portions of their Aura behind to give their
-          body a better chance of resisting possession by an alien
-          spirit.
-        </p>
-        <p>
-          <em>Consecration Bonus:</em> This is actually not a penalty.
-          It is still applied directly to relevant rituals, i.e. those
-          for a deity to whom the ground is dedicated.  The bonus is
-          equal to the consecrator&#8217;s circle.  Under certain
-          circumstances, other recipes may also use this consecration
-          bonus, for instance, Concocting an alchemical explosive
-          compound in a laboratory dedicated to such volatile
-          compounds.
-        </p>
+          Penalties are added to the task difficulty and rated at 40%
+          of the original value.  For instance, a S10 wound turns into
+          a -4 IPU.
+	</p>
         <h4>Special Skill Considerations</h4>
         <p>
           Situations or skill applications can either fit to a certain
@@ -567,20 +461,9 @@
           may apply.  In any given situation, the GM will state the
           skills that apply and to what percentage.  Then use a
           weighted average as skill.  Example: The GM rules that
-          performing a ballet, is 60% Acrobatics and 40% Dancing.  A
-          character with Acrobatics/16 and Dancing/11 has Ballet/14.
-        </p>
-        <p>
-          Clerical Counseling is a 5-Addition of Rhetoric and Ritual.
-        </p>
-        <p>
-          For joining in rituals, one success roll is made against a
-          joint ML (5-Addition).  The normal fatigue is then
-          accumulated by all participants.  <em>Example:</em> Dar and
-          Kalin jointly invoke Pyrokinesis.  Dar&#8217;s ML is 23;
-          Kalin&#8217;s is 17.  Assuming no penalties, their joint ML
-          is 23 +<sub>5</sub> 17 = 26.  Both Dar and Kalin each accrue
-          the normal fatigue.
+          performing a ballet, is 60% Acrobatics and 40% Dancing
+          non-overlapping.  A character with MLU Acrobatics/16 and MLU
+          Dancing/11 has MLU Ballet/14.
         </p>
         <p>
           Multiple attackers can combine their efforts through
