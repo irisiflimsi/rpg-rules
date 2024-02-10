@@ -48,46 +48,48 @@
   </table>
   <table id="$Teaching" style="width:80%">
     <tr>
-      <th>MLs</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+      <th>MLs</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+      <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
     </tr>
     <tr>
-      <th>Days</th><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>3</td><td>3</td><td>3</td><td>4</td><td>4</td>
-    </tr>
-    <tr><th colspan="11" style="padding:1px;"/></tr>
-    <tr>
-      <th>MLs</th><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
-    </tr>
-    <tr>
-      <th>Days</th><td>5</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td><td>22</td>
+      <th>Days</th><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td>
+      <td>3</td><td>3</td><td>3</td><td>4</td><td>4</td>
     </tr>
     <tr><th colspan="11" style="padding:1px;"/></tr>
     <tr>
-      <th>MLs</th><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+      <th>MLs</th><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+      <td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
     </tr>
     <tr>
-      <th>Days</th><td>25</td><td>30</td><td>40</td><td>50</td><td>60</td><td>70</td><td>80</td><td>90</td><td>100</td><td>110</td>
-    </tr>
-    <tr><th colspan="11" style="padding:1px;"/></tr>
-    <tr>
-      <th>MLs</th><td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
-    </tr>
-    <tr>
-      <th>Days</th><td>125</td><td>150</td><td>200</td><td>250</td><td>300</td><td>350</td><td>400</td><td>450</td><td>500</td><td>550</td>
+      <th>Days</th><td>5</td><td>6</td><td>8</td><td>10</td><td>12</td>
+      <td>14</td><td>16</td><td>18</td><td>20</td><td>22</td>
     </tr>
     <tr><th colspan="11" style="padding:1px;"/></tr>
     <tr>
-      <th>MLs</th><td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td><td>49</td><td>50</td>
+      <th>MLs</th><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td>
+      <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
     </tr>
     <tr>
-      <th>Days</th><td>625</td><td>750</td><td>1000</td><td>1250</td><td>1500</td><td>1750</td><td>2000</td><td>2250</td><td>2500</td><td>2750</td>
+      <th>Days</th><td>25</td><td>30</td><td>40</td><td>50</td><td>60</td>
+      <td>70</td><td>80</td><td>90</td><td>100</td><td>110</td>
     </tr>
-  </table>
-  <table id="$Skilllist" style="width:50%">
+    <tr><th colspan="11" style="padding:1px;"/></tr>
     <tr>
-      <th>OML</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th><th>80</th><th>90</th><th>100</th><th>110</th><th>120</th><th>130</th><th>140</th>
+      <th>MLs</th><td>31</td><td>32</td><td>33</td><td>34</td><td>35</td>
+      <td>36</td><td>37</td><td>38</td><td>39</td><td>40</td>
     </tr>
     <tr>
-      <td>25</td><td>2.5</td><td>5</td><td>7.5</td><td>10</td><td>12.5</td><td>15</td><td>17.5</td><td>20</td><td>22.5</td><td>25</td><td>27.5</td><td>30</td><td>32.5</td><td>35</td>
+      <th>Days</th><td>125</td><td>150</td><td>200</td><td>250</td><td>300</td>
+      <td>350</td><td>400</td><td>450</td><td>500</td><td>550</td>
+    </tr>
+    <tr><th colspan="11" style="padding:1px;"/></tr>
+    <tr>
+      <th>MLs</th><td>41</td><td>42</td><td>43</td><td>44</td><td>45</td>
+      <td>46</td><td>47</td><td>48</td><td>49</td><td>50</td>
+    </tr>
+    <tr>
+      <th>Days</th><td>625</td><td>750</td><td>1000</td><td>1250</td>
+      <td>1500</td><td>1750</td><td>2000</td><td>2250</td><td>2500</td><td>2750</td>
     </tr>
   </table>
   <table id="$D-Accuracy" style="width:80%">
@@ -96,23 +98,6 @@
     </tr>
     <tr class="text">
       <td>Error</td><td>96% (0-25)</td><td>48% (0.5-2)</td><td>24% (0.8-1.3)</td><td>12% (0.9-1.1)</td><td>6% (0.95-1.05)</td><td>3% (0.97-1.03)</td>
-    </tr>
-  </table>
-  <table id="$D-Acrobatics" style="width:75%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="text">
-      <td>Tricks</td><td>None</td><td>Simple</td><td>Medium</td><td>Complex</td><td>Original</td>
-    </tr>
-  </table>
-  <table id="$D-Acting" style="width:60%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="text">
-      <td>Repertoire</td><td>Inconsistent</td><td>Self</td><td>Archetype</td>
-      <td>Individual</td><td>Original</td>
     </tr>
   </table>
   <table id="$D-Animalcraft" style="width:30%">
@@ -2074,177 +2059,6 @@
     <tr><td>Frost</td><td>Grievous</td><td>Amputate</td></tr>
     <tr><td>Frost</td><td>Incapacitating</td><td>Amputate</td></tr>
   </table>
-  <div id="$Acrobatics" class="standard">
-    <p>
-      <em>Attributes:</em>
-      <span>Strength</span>,
-      <span>Agility</span>,
-      <span>Agility</span>
-    </p>
-    <p>
-      <em>Occupations:</em>
-      <span>Thief</span>/<span>40</span>,
-      <span>Cleric/Naveh</span>/<span>60</span>,
-      <span>Cleric/Rydequeln</span>/<span>60</span>
-    </p>
-    <p>
-      <em>Specialties:</em>
-      <span>Tumbling</span>/<span>20</span>,
-      <span>Vault</span>/<span>20</span>,
-      <span>Swinging</span>/<span>20</span>
-    </p>
-    <p>
-      <em>Sunsign:</em>
-      <span>Nadai</span>+<span>2</span>,
-      <span>Hirin</span>+<span>1</span>
-    </p>
-    <p>
-      <em>OML:</em> 0
-    </p>
-  </div>
-  <div id="$Acting" class="standard">
-    <p>
-      <em>Attributes:</em>
-      <span>Agility</span>,
-      <span>Voice</span>,
-      <span>Intelligence</span>
-    </p>
-    <p>
-      <em>Occupations:</em>
-      <span>Thespian</span>/<span>80</span>,
-      <span>Cleric/Rydequeln</span>/<span>60</span>
-    </p>
-    <p>
-      <em>Sunsign:</em>
-      <span>Tarael</span>+<span>1</span>,
-      <span>Tai</span>+<span>1</span>
-    </p>
-    <p>
-      <em>OML:</em> 0
-    </p>
-  </div>
-  <div id="$Agility" class="standard">
-    <p>
-      <em>Attributes:</em>
-      <span>Agility</span>
-    </p>
-    <p>
-      <em>OML:</em> 0
-    </p>
-  </div>
-  <div id="$Agriculture" class="standard">
-    <p>
-      <em>Attributes:</em>
-      <span>Strength</span>,
-      <span>Stamina</span>,
-      <span>Will</span>
-    </p>
-    <p>
-      <em>Occupations:</em>
-      <span>Farmer</span>/<span>80</span>,
-      <span>Millwright</span>/<span>60</span>,
-      <span>Miller</span>/<span>60</span>,
-      <span>Bailiff</span>/<span>40</span>,
-      <span>Cleric/Peoni</span>/<span>80</span>,
-      <span>Shek-Pvar/Fyvria</span>/<span>60</span>
-    </p>
-    <p>
-      <em>Sunsign:</em>
-      <span>Ulanus</span>+<span>2</span>,
-      <span>Aralius</span>+<span>2</span>
-    </p>
-    <p>
-      <em>OML:</em> 0
-    </p>
-  </div>
-  <div id="$Alchemy" class="standard">
-    <p>
-      <em>Attributes:</em>
-      <span>Smell</span>,
-      <span>Intelligence</span>,
-      <span>Aura</span>
-    </p>
-    <p>
-      <em>Occupations:</em>
-      <span>Alchemist</span>/<span>80</span>,
-      <span>Apothecary</span>/<span>40</span>,
-      <span>Chandler</span>/<span>40</span>,
-      <span>Embalmer</span>/<span>40</span>,
-      <span>Glassworker</span>/<span>40</span>,
-      <span>Hideworker</span>/<span>40</span>,
-      <span>Perfumer</span>/<span>60</span>,
-      <span>Physician</span>/<span>60</span>,
-      <span>Shek-Pvar/Peleahn</span>/<span>60</span>
-    </p>
-    <p>
-      <em>Sunsign:</em>
-      <span>Skorus</span>+<span>3</span>,
-      <span>Tai</span>+<span>2</span>,
-      <span>Masara</span>+<span>2</span>
-    </p>
-    <p>
-      <em>OML:</em> -10
-    </p>
-  </div>
-  <div id="$Animalcraft" class="standard">
-    <p>
-      <em>Attributes:</em> <span>Agility</span>, <span>Voice</span>, <span>Will</span>
-    </p>
-    <p>
-      <em>Occupations:</em>
-      <span>Animal Trainer</span>/<span>80</span>,
-      <span>Farmer</span>/<span>60</span>,
-      <span>Herdsman</span>/<span>80</span>,
-      <span>Teamster</span>/<span>60</span>,
-      <span>Cleric/Peoni</span>/<span>60</span>,
-      <span>Shek-Pvar/Fyvria</span>/<span>60</span>
-    </p>
-    <p>
-      <em>Sunsign:</em> <span>Ulanus</span>+<span>1</span>, <span>Aralius</span>+<span>1</span>
-    </p>
-    <p>
-      <em>Specialties:</em>
-      <span>Horsecraft</span>/<span>20</span>,
-      <span>Cattlecraft</span>/<span>20</span>,
-      <span>Birdcraft</span>/<span>20</span>,
-      <span>Dogcraft</span>/<span>20</span>,
-      <span>Sheepcraft</span>/<span>20</span>,
-      <span>Swinecraft</span>/<span>20</span>,
-      <span>Ratcraft</span>/<span>20</span>,
-      <span>Ivashicraft</span>/<span>20</span>
-    </p>
-    <p>
-      <em>Specialty Occupations:</em>
-      Dogcraft/Ratter/80,
-      Horsecraft/Ostler/80,
-      Ratcraft/Ratter/100,
-      Cleric/Ilvir/Ivashicraft/80
-    </p>
-    <p>
-      <em>OML:</em> 0
-    </p>
-  </div>
-  <div id="$Astrology" class="standard">
-    <p>
-      <em>Attributes:</em>
-      <span>Eyesight</span>,
-      <span>Intelligence</span>,
-      <span>Aura</span>
-    </p>
-    <p>
-      <em>Occupations:</em>
-      <span>Astrologer</span>/<span>80</span>,
-      <span>Lady</span>/<span>40</span>,
-      <span>Cleric/Siem</span>/<span>80</span>
-    </p>
-    <p>
-      <em>Sunsign:</em>
-      <span>Tarael</span>+<span>1</span>
-    </p>
-    <p>
-      <em>OML:</em> -5
-    </p>
-  </div>
   <div id="$Awareness" class="standard">
     <p>
       <em>Attributes:</em>

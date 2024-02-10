@@ -434,7 +434,7 @@
           delivered works the same for almost all skills.  This is
           different from the commercial value, which depends on a lot
           of other factors (market size, etc).  The rare occasion,
-          where an ML of the actor cannot be judged are at GM
+          where the MLU of the actor cannot be judged are at GM
           discretion.  I.e. someone who successfully evades perception
           cannot be judged on this &#8220;performance&#8221; by the
           potentially fooled or only in the most general sense.  The
@@ -443,72 +443,46 @@
           the range (100% - x) to 1/(100% - x).
         </p>
         <include id="$D-Accuracy"/>
-        <h5 class="skill" id="sk-acr">Acrobatics</h5>
-        <include id="$Acrobatics"/>
-        <p>
-          Acrobatics Skill is tested when a character attempts a
-          gymnastic feat that is more than a simple matter of native
-          Agility.  These include vaults, somersaults, back-flips,
-          twisting in mid-air to land on one&#8217;s feet, etc.
-        </p>
-        <include id="$D-Acrobatics"/>
-        <h5 class="skill" id="sk-act">Acting</h5>
-        <include id="$Acting"/>
-        <p>
-          The ability to play a role.  Used to determine the success
-          of a masquerade or dramatic performance.  Acting includes
-          the ability to disguise oneself and/or to assume a false
-          identity.  This may imply possession of a repertoire of
-          theatrical roles and character portrayals appropriate to
-          culture.
-        </p>
-        <include id="$D-Acting"/>
         <h5 class="skill" id="sk-agi">Agility</h5>
         <include id="$Agility"/>
         <p>
           The skill is used for multiple purposes; to avoid falling
           objects, weapon and missile attacks, and other situations
-          requiring Agility.
+          requiring Agility.  See Combat for a relevant dimension.
         </p>
         <h5 class="skill" id="sk-agr">Agriculture</h5>
         <include id="$Agriculture"/>
         <p>
-          The ability to grow crops.  It determines the
-          quality/quantity of crops produced.  Results depend on land
-          quality, weather, etc.  Agriculture is also crop management
-          ability, useful for running a farm or fief.  Yield is the
-          crop yield per year, i.e. this roll applies once per year.
-          Different crops may be specialties.  Use the <em>Yield</em>
-          dimension.
+	  H&#226;rn Manor shows that the following dimension is
+	  useful: assume a standard task level of 20 and adjust the
+	  result for any applicable modifiers (such as Hardiness
+	  Rating), the resulting net value gives the percentage of the
+	  crop yield that is in excess or short of the 100%.  (See
+	  H&#226;rn Manor 29.)
         </p>
         <h5 class="skill" id="sk-alc">Alchemy</h5>
-        <include id="$Alchemy"/>
         <p>
-          Used for the analysis and/or production of chemical or
-          alchemical compounds.  Alchemists devise (or otherwise
-          acquire) recipes for their craft.  Use of this skill
-          requires access to the necessary equipment, texts, and
-          materials.  Use the <em>Recipe</em> dimension for NPCs.
+          The <em>Recipe</em> dimension is commonly used.
         </p>
         <h5 class="skill" id="sk-ani">Animalcraft</h5>
-        <include id="$Animalcraft"/>
-        <p>
-          The ability to domesticate, breed, and train animals.
-          Animalcraft also includes basic veterinary medicine.  Test
-          Animalcraft when breaking or domesticating animals, and for
-          each trick/task to be taught.  The time required for various
-          efforts is at GM discretion.  More willful and older animals
-          are harder to train, and few animals tolerate more than two
-          hours training daily.  Each species of animal can be a
-          Specialty.  Use the <em>Recipe</em> dimension for NPCs that
-          may surround themselves with trained animals.  Intelligence
-          in the table means the attribute of the animal to be
-          trained.  If the animal isn&#8217;t smart enough, nothing is
-          learned.  Also use the <em>Yield</em> dimension four times
-          for each reasonable trick.  Tricks must be practiced to be
-          retained by the animal.
-        </p>
-        <include id="$D-Animalcraft"/>
+	<div class="standard">
+	  <p>
+	    <em>Specialties:</em>
+	    <span>Horsecraft</span>/<span>20</span>,
+	    <span>Cattlecraft</span>/<span>20</span>,
+	    <span>Birdcraft</span>/<span>20</span>,
+	    <span>Dogcraft</span>/<span>20</span>,
+	    <span>Sheepcraft</span>/<span>20</span>,
+	    <span>Swinecraft</span>/<span>20</span>,
+	    <span>Ratcraft</span>/<span>20</span>,
+	    <span>Ivashicraft</span>/<span>20</span>
+	  </p>
+	  <p>
+	    <em>Specialty Occupations:</em> Dogcraft/Ratter/80,
+	    Horsecraft/Ostler/80, Ratcraft/Ratter/100,
+	    Cleric/Ilvir/Ivashicraft/80
+	  </p>
+	</div>
         <h5 class="skill" id="sk-ast">Astrology</h5>
         <include id="$Astrology"/>
         <p>
