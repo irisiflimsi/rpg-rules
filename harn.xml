@@ -133,118 +133,71 @@
         </p>
         <p>
           The following is a list of skills that are commonly used by
-          people on H&#226;rn.  It is neither complete no without
-          overlap.  It is an in-world collection of relevance.
+          characters on H&#226;rn.  It is neither complete no without
+          overlap.
         </p>
         <h4>Skill Links</h4>
         <table class="links" style="width:90%">
           <tr>
-            <td><a href="#sk-acr">Acrobatics</a></td>
-            <td><a href="#sk-act">Acting</a></td>
             <td><a href="#sk-agr">Agriculture</a></td>
             <td><a href="#sk-alc">Alchemy</a></td>
             <td><a href="#sk-ani">Animalcraft</a></td>
-            <td><a href="#sk-ast">Astrology</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-awa">Awareness</a></td>
-            <td><a href="#sk-axe">Axe</a></td>
-            <td><a href="#sk-blo">Blowgun</a></td>
-            <td><a href="#sk-bow">Bow</a></td>
-            <td><a href="#sk-bre">Brewing</a></td>
-            <td><a href="#sk-cer">Ceramics</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-cli">Climbing</a></td>
-            <td><a href="#sk-clu">Club</a></td>
             <td><a href="#sk-coo">Cookery</a></td>
-            <td><a href="#sk-dag">Dagger</a></td>
-            <td><a href="#sk-dan">Dancing</a></td>
-            <td><a href="#sk-dra">Drawing</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-emb">Embalming</a></td>
             <td><a href="#sk-end">Endurance</a></td>
-            <td><a href="#sk-eng">Engineering</a></td>
             <td><a href="#sk-fis">Fishing</a></td>
-            <td><a href="#sk-fla">Flail</a></td>
             <td><a href="#sk-fle">Fletching</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-fol">Folklore</a></td>
             <td><a href="#sk-for">Foraging</a></td>
-            <td><a href="#sk-gla">Glasswork</a></td>
             <td><a href="#sk-hera">Heraldry</a></td>
-            <td><a href="#sk-herb">Herblore</a></td>
-            <td><a href="#sk-hid">Hidework</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-herb">Herblore</a></td>
             <td><a href="#sk-ini">Initiative</a></td>
             <td><a href="#sk-int">Intrigue</a></td>
-            <td><a href="#sk-jew">Jewelcraft</a></td>
             <td><a href="#sk-jum">Jumping</a></td>
             <td><a href="#sk-lan">Language</a></td>
             <td><a href="#sk-law">Law</a></td>
           </tr>
           <tr>
             <td><a href="#sk-loc">Lockcraft</a></td>
-            <td><a href="#sk-lov">Lovecraft</a></td>
             <td><a href="#sk-mag">Magic</a></td>
-            <td><a href="#sk-mas">Masonry</a></td>
             <td><a href="#sk-mat">Mathematics</a></td>
             <td><a href="#sk-met">Metalcraft</a></td>
-          </tr>
-          <tr>
-            <td><a href="#sk-mil">Milling</a></td>
-            <td><a href="#sk-min">Mining</a></td>
             <td><a href="#sk-mor">Morale</a></td>
             <td><a href="#sk-mov">Move</a></td>
-            <td><a href="#sk-mus">Musician</a></td>
-            <td><a href="#sk-net">Net</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-per">Perfumery</a></td>
+            <td><a href="#sk-mus">Musician</a></td>
             <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
             <td><a href="#sk-pil">Piloting</a></td>
-            <td><a href="#sk-pol">Polearm</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
+            <td><a href="#sk-psi">Psi Talents</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-psi">Psi Talents</a></td>
             <td><a href="#sk-rhe">Rhetoric</a></td>
             <td><a href="#sk-rid">Riding</a></td>
             <td><a href="#sk-rit">Ritual</a></td>
-            <td><a href="#sk-run">Runecraft</a></td>
             <td><a href="#sk-scr">Script</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-sea">Seamanship</a></td>
-            <td><a href="#sk-shie">Shield</a></td>
             <td><a href="#sk-ship">Shipwright</a></td>
-            <td><a href="#sk-sin">Singing</a></td>
-            <td><a href="#sk-ski">Skiing</a></td>
-            <td><a href="#sk-sli">Sling</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-spe">Spear</a></td>
             <td><a href="#sk-ste">Stealth</a></td>
             <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
-            <td><a href="#sk-swo">Sword</a></td>
-            <td><a href="#sk-tar">Tarotry</a></td>
-          </tr>
-          <tr>
-            <td><a href="#sk-tex">Textilecraft</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-tim">Timbercraft</a></td>
             <td><a href="#sk-tra">Tracking</a></td>
-            <td><a href="#sk-una">Unarmed</a></td>
-            <td><a href="#sk-weap">Weaponcraft</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-una">Unarmed</a></td>
+            <td><a href="#sk-weap">Weaponcraft</a></td>
             <td><a href="#sk-weat">Weatherlore</a></td>
-            <td><a href="#sk-whi">Whip</a></td>
             <td><a href="#sk-woo">Woodcraft</a></td>
           </tr>
         </table>
@@ -268,12 +221,14 @@
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
-            <td><a href="#di-com">Combat</a></td>
+            <td><a href="#di-co1">Combat/Melee</a></td>
+            <td><a href="#di-co2">Combat/Missile</a></td>
+            <td><a href="#di-div">Divination</a></td>
             <td><a href="#di-kno">Knowledge</a></td>
-            <td><a href="#di-qua">Quality</a></td>
-            <td><a href="#di-reg">Regional</a></td>
           </tr>
           <tr>
+            <td><a href="#di-qua">Quality</a></td>
+            <td><a href="#di-reg">Regional</a></td>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-tra">Travel</a></td>
             <td><a href="#di-yie">Yield</a></td>
@@ -337,21 +292,10 @@
         <h4>Dimensions</h4>
         <p>
           Dimensions are collected as common reference for the many
-          skills that use them in more or less the same manner.
-        </p>
-        <p>
-          The <em>Divine Grace ratio</em> (Piety : Ritual) is
-          multiplied to cleric miracle results that effect the caster
-          alone in a beneficial way.  Healing, etc.  Note that this
-          ratio will usually not exceed 1.5, because rituals are
-          tenants of a religion.
-        </p>
-        <p>
-          Dimensions are common grading systems that apply to multiple
-          skills.  They determine a frame of reference for the
-          difficulties of tasks.  They can also used in-world, but are
-          more regularly used out-world, when a PC tries to achieve a
-          concrete goal.
+          skills that use them in more or less the same manner.  They
+          determine a frame of reference for the difficulties of
+          tasks.  They can also used in-world, but are more regularly
+          used out-world, when a PC tries to achieve a concrete goal.
         </p>
         <h4>Attributes</h4>
         <p>
@@ -474,22 +418,16 @@
           exception to this is mounted combat, where PC rider and
           horse may be acting in unison.
         </p>
-        <h3 id="d3im">Dimensionality</h3>
-        <p>
-          Some pre-determined skills, dimensions, and attributes,
-          including important aspects for character generation, are
-          listed here.  When several listed occupations apply, use the
-          5-Addition of the result.  This does not apply to the
-          Languages, Scripts and Musician skill group, where each time
-          an occupation is mentioned, it may (and usually will)
-          indicate a separate skill.  Specialties are also treated
-          this way: as separate opening.
-        </p>
-        <p>
-          As a convenience, a list of the used percentage to OML is
-          provided (rounded).
-        </p>
-        <include id="$Skilllist"/>
+        <h3 id="d3im">Dimensions</h3>
+	<p>
+	  The following shows example dimensions for the various
+	  skills, usually only the dominant ones.  Finding the
+	  appropriate dimension depends on the concrete circumstances.
+	  Consider what would be appropriate for an untrained
+	  individual (MLU 0) and what is expected - an average result
+	  - for a sufficiently educated persion (MLU 20).  Interprete
+	  the results inbetween and outside of the bounds accordingly.
+	</p>
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
