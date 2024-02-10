@@ -144,57 +144,57 @@
             <td><a href="#sk-awa">Awareness</a></td>
             <td><a href="#sk-cli">Climbing</a></td>
             <td><a href="#sk-end">Endurance</a></td>
+            <td><a href="#sk-fis">Fishing</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-fis">Fishing</a></td>
             <td><a href="#sk-fle">Fletching</a></td>
             <td><a href="#sk-fol">Folklore</a></td>
             <td><a href="#sk-for">Foraging</a></td>
             <td><a href="#sk-hera">Heraldry</a></td>
             <td><a href="#sk-herb">Herblore</a></td>
+            <td><a href="#sk-ini">Initiative</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-ini">Initiative</a></td>
             <td><a href="#sk-int">Intrigue</a></td>
             <td><a href="#sk-jum">Jumping</a></td>
             <td><a href="#sk-lan">Language</a></td>
             <td><a href="#sk-law">Law</a></td>
             <td><a href="#sk-loc">Lockcraft</a></td>
+            <td><a href="#sk-mag">Magic</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-mag">Magic</a></td>
             <td><a href="#sk-mat">Mathematics</a></td>
             <td><a href="#sk-met">Metalcraft</a></td>
             <td><a href="#sk-mor">Morale</a></td>
             <td><a href="#sk-mov">Move</a></td>
             <td><a href="#sk-mus">Musician</a></td>
+            <td><a href="#sk-phy">Physician</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
             <td><a href="#sk-pil">Piloting</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
             <td><a href="#sk-psi">Psi Talents</a></td>
             <td><a href="#sk-rhe">Rhetoric</a></td>
+            <td><a href="#sk-rid">Riding</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-rid">Riding</a></td>
             <td><a href="#sk-rit">Ritual</a></td>
             <td><a href="#sk-scr">Script</a></td>
             <td><a href="#sk-sea">Seamanship</a></td>
             <td><a href="#sk-ship">Shipwright</a></td>
             <td><a href="#sk-ste">Stealth</a></td>
+            <td><a href="#sk-sur">Survival</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-tim">Timbercraft</a></td>
             <td><a href="#sk-tra">Tracking</a></td>
             <td><a href="#sk-una">Unarmed</a></td>
+            <td><a href="#sk-weap">Weaponcraft</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-weap">Weaponcraft</a></td>
             <td><a href="#sk-weat">Weatherlore</a></td>
             <td><a href="#sk-woo">Woodcraft</a></td>
           </tr>
@@ -466,21 +466,14 @@
         </p>
         <h5 class="skill" id="sk-cli">Climbing</h5>
         <p>
-          Tested when a character attempts to climb an obstacle.  The
-          GM assesses a climb by the dimensions in the table.
-          Additional modifiers should be made for slipperiness and
-          availability of holds.  If the character has climbing gear
-          (rope and grappling hook or spikes and mallet) and can use
-          them, increase EML.  Speed is measured in feet per second.
-          A running total of vertical progress is kept to determine
-          when the climb is complete, and the extent of any fall.  A
-          single scale should only be rolled once, but any
-          interruption, such as rest requires a new roll.  Any
-          negative speed result (below -5) implies a fall.  Climbing
-          speed can be increased at the price of increasing the risk.
-          For each 5 levels of speed that are accepted as fall,
-          increase ML by 1 point.  A fall is evenly distributed across
-          the attempted climbing height.
+	  Speed is measured as a factor to normal (walk) move.  A
+	  running total of vertical progress is kept to determine when
+	  the climb is complete, and the extent of any fall.  A single
+	  scale should only be rolled once, but any interruption, such
+	  as rest requires a new roll.  Any negative speed result (n5
+	  net result below 0) implies a fall.  Climbing speed can be
+	  increased at the price of increasing the risk.  A fall is
+	  evenly distributed across the attempted climbing height.
         </p>
         <include id="$D-Climbing"/>
         <h5 id="di-co1">Combat/Melee</h5>
@@ -501,6 +494,7 @@
           affects on the defender.  If this implies an action to occur
           in the past, it is resolved immediately.
         </p>
+        <include id="$D-Combat"/>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
         <p>
           Legerdemain (Sleight of hand) is tested when a character
