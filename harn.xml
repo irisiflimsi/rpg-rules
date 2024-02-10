@@ -476,7 +476,7 @@
 	  evenly distributed across the attempted climbing height.
         </p>
         <include id="$D-Climbing"/>
-        <h5 id="di-co1">Combat/Melee</h5>
+        <h5 class="skill" id="di-co1">Combat/Melee</h5>
         <p>
           One dimension is the time (in seconds), which it takes to
           achieve the wound level zero on the defender.  The wound
@@ -486,64 +486,32 @@
           10 second round-based combat.
         </p>
         <p>
+	  The fractional parts for the higher values in the time
+	  dimension mean that multiple attacks &#8220;connect&#8221;
+	  at the same time.  This is to avoid combat in split seconds.
+        </p>
+        <p>
           Any effects from wounds or other external influences in
           combat are applied immediately to pending progressions, but
           the wound itself is modified by <em>B/E/P</em> of choice
           from the weapon and the appropriate armor.  The offset is
-          alonge the trajectory chosen.  Note that the same is true for
-          affects on the defender.  If this implies an action to occur
-          in the past, it is resolved immediately.
+          alonge the trajectory chosen.  Note that the same is true
+          for affects on the defender.  If this implies an action to
+          occur in the past, it is resolved immediately.
         </p>
         <include id="$D-Combat"/>
+        <h5 class="skill" id="di-co2">Combat/Missile</h5>
+        <p>
+	  Use the same dimension as the Melee combat, but do not
+	  increase the number of times, damage is dealt per 5s.  In
+	  fact, reloading times for a crossbow are 10s.
+	</p>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
         <p>
-          Legerdemain (Sleight of hand) is tested when a character
-          attempts to perform a feat of manual dexterity without being
-          detected by observers or victims.  Examples include cutting
-          a victim&#8217;s money-purse from behind or moving shells in
-          a shell game.  The victim oppose with Awareness to detect
-          the attempt.  If the victim is not paying attention,
-          penalties apply.  If the result is negative the legerdemain
-          is detected.  Awareness rolls may also be made for any
-          potential witnesses.  Shells or a coin are assumed for the
-          listed penalty.  The Grope dimension is the time a trick
-          takes, but mostly for larger objects - this is a combat
-          dimension.
+          The time dimension is the time it takes to pick up a dropped
+          item - this is a combat dimension.
         </p>
         <include id="$D-Dexterity"/>
-        <h5 class="skill" id="sk-dra">Drawing</h5>
-        <include id="$Drawing"/>
-        <p>
-          The ability to produce a likeness, or to assess the artistic
-          quality or realism of a drawing or painting.  Different
-          styles and media (such as painting, fresco, pen and ink,
-          woodcut, etc.) may be considered specialties.  Cartography
-          is a specialty of Drawing used to produce poetic maps.  The
-          quality of a map is limited by the information available to
-          its maker.  Poetic maps are more often judged by the
-          attractiveness of the cherubs in the margins than by their
-          accuracy.  Characters with Drawing skill may be allowed to
-          copy their memory maps in poetic style to sell or show to
-          other PCs.  Use the <em>Artistic</em> dimension.
-        </p>
-        <h5 class="skill" id="sk-emb">Embalming</h5>
-        <include id="$Embalming"/>
-        <p>
-          Determines success when embalming a corpse against
-          deterioration, and when preparing a corpse for
-          burial/cremation.  The skill also includes familiarity with
-          local rituals; since journeymen embalmers need to travel
-          widely, this can result in quite an accumulation of
-          knowledge.  Religious and/or cultural differences may be
-          treated as specialties.  Civilized cultures take great care
-          with their dead - embalming is a sign of respect and honor,
-          and has serious emotional and religious overtones.  Most
-          temples use master embalmers (either bonded or free) to
-          oversee their burial rituals.  Embalming includes limited
-          knowledge of practical Alchemy and Perfumery.  Embalmers
-          know how to make incense and soap, for example.
-        </p>
-        <include id="$D-Embalming"/>
         <h5 class="skill" id="sk-end">Endurance</h5>
         <include id="$Endurance"/>
         <p>
