@@ -141,61 +141,59 @@
           <tr>
             <td><a href="#sk-agr">Agriculture</a></td>
             <td><a href="#sk-alc">Alchemy</a></td>
-            <td><a href="#sk-ani">Animalcraft</a></td>
             <td><a href="#sk-awa">Awareness</a></td>
             <td><a href="#sk-cli">Climbing</a></td>
-            <td><a href="#sk-coo">Cookery</a></td>
+            <td><a href="#sk-end">Endurance</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-end">Endurance</a></td>
             <td><a href="#sk-fis">Fishing</a></td>
             <td><a href="#sk-fle">Fletching</a></td>
             <td><a href="#sk-fol">Folklore</a></td>
             <td><a href="#sk-for">Foraging</a></td>
             <td><a href="#sk-hera">Heraldry</a></td>
+            <td><a href="#sk-herb">Herblore</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-herb">Herblore</a></td>
             <td><a href="#sk-ini">Initiative</a></td>
             <td><a href="#sk-int">Intrigue</a></td>
             <td><a href="#sk-jum">Jumping</a></td>
             <td><a href="#sk-lan">Language</a></td>
             <td><a href="#sk-law">Law</a></td>
+            <td><a href="#sk-loc">Lockcraft</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-loc">Lockcraft</a></td>
             <td><a href="#sk-mag">Magic</a></td>
             <td><a href="#sk-mat">Mathematics</a></td>
             <td><a href="#sk-met">Metalcraft</a></td>
             <td><a href="#sk-mor">Morale</a></td>
             <td><a href="#sk-mov">Move</a></td>
+            <td><a href="#sk-mus">Musician</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-mus">Musician</a></td>
             <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
             <td><a href="#sk-pil">Piloting</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
             <td><a href="#sk-psi">Psi Talents</a></td>
+            <td><a href="#sk-rhe">Rhetoric</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-rhe">Rhetoric</a></td>
             <td><a href="#sk-rid">Riding</a></td>
             <td><a href="#sk-rit">Ritual</a></td>
             <td><a href="#sk-scr">Script</a></td>
             <td><a href="#sk-sea">Seamanship</a></td>
             <td><a href="#sk-ship">Shipwright</a></td>
+            <td><a href="#sk-ste">Stealth</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-ste">Stealth</a></td>
             <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-tim">Timbercraft</a></td>
             <td><a href="#sk-tra">Tracking</a></td>
+            <td><a href="#sk-una">Unarmed</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-una">Unarmed</a></td>
             <td><a href="#sk-weap">Weaponcraft</a></td>
             <td><a href="#sk-weat">Weatherlore</a></td>
             <td><a href="#sk-woo">Woodcraft</a></td>
@@ -205,7 +203,6 @@
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#sk-agi">Agility</a></td>
-            <td><a href="#sk-aur">Aura</a></td>
             <td><a href="#sk-dex">Dexterity</a></td>
             <td><a href="#sk-eye">Eyesight</a></td>
             <td><a href="#sk-hea">Hearing</a></td>
@@ -444,14 +441,12 @@
         </p>
         <include id="$D-Accuracy"/>
         <h5 class="skill" id="sk-agi">Agility</h5>
-        <include id="$Agility"/>
         <p>
           The skill is used for multiple purposes; to avoid falling
           objects, weapon and missile attacks, and other situations
           requiring Agility.  See Combat for a relevant dimension.
         </p>
         <h5 class="skill" id="sk-agr">Agriculture</h5>
-        <include id="$Agriculture"/>
         <p>
 	  H&#226;rn Manor shows that the following dimension is
 	  useful: assume a standard task level of 20 and adjust the
@@ -464,106 +459,12 @@
         <p>
           The <em>Recipe</em> dimension is commonly used.
         </p>
-        <h5 class="skill" id="sk-ani">Animalcraft</h5>
-	<div class="standard">
-	  <p>
-	    <em>Specialties:</em>
-	    <span>Horsecraft</span>/<span>20</span>,
-	    <span>Cattlecraft</span>/<span>20</span>,
-	    <span>Birdcraft</span>/<span>20</span>,
-	    <span>Dogcraft</span>/<span>20</span>,
-	    <span>Sheepcraft</span>/<span>20</span>,
-	    <span>Swinecraft</span>/<span>20</span>,
-	    <span>Ratcraft</span>/<span>20</span>,
-	    <span>Ivashicraft</span>/<span>20</span>
-	  </p>
-	  <p>
-	    <em>Specialty Occupations:</em> Dogcraft/Ratter/80,
-	    Horsecraft/Ostler/80, Ratcraft/Ratter/100,
-	    Cleric/Ilvir/Ivashicraft/80
-	  </p>
-	</div>
-        <h5 class="skill" id="sk-ast">Astrology</h5>
-        <include id="$Astrology"/>
-        <p>
-          The ability to chart the stars, cast horoscopes, and make
-          predictions based on astrological knowledge.  Astrology
-          includes knowledge of astronomy.  The art of using astrology
-          to make predictions is called Astromancy; it may serve as an
-          oracle or divination skill.  PCs may find it beneficial to
-          visit an astromancer to learn the portents before
-          undertaking a major adventure.  Such efforts take several
-          hours, at least, to prepare.  The dimensions to use are
-          <em>Accuracy</em> (of the prediction).
-        </p>
-        <h5 class="skill" id="sk-aur">Aura</h5>
-        <p>
-          Attribute in the range as described.  Only used as direct
-          bonus for skills except for NPCs.
-        </p>
         <h5 class="skill" id="sk-awa">Awareness</h5>
-        <include id="$Awareness"/>
         <p>
-          Subliminal sensitivity to the environment.  Awareness may be
-          tested when a character says something like, &#8220;I look
-          around.&#8221; It also is tested if an event occurs and the
-          GM wishes to determine who might have noticed it, or at
-          least have noticed that something is out of place.
-          Awareness rolls are often made secretly by the GM.  Sleeping
-          5-adds at least 20 to any Awareness difficulty.  Loud noises
-          give a bonus to the Skill roll.
-        </p>
-        <h5 class="skill" id="sk-axe">Axe</h5>
-        <include id="$Axe"/>
-        <p>
-          The ability to use hafted, edged weapons.  Specialties
-          include Battleaxe, Handaxe, Hatchet, Shorkana (throwing
-          axe), Sickle (peasant weapon), and Warhammer.  Poleaxes are
-          treated as Polearms (a separate skill).  Use the
-          <em>Combat</em> dimensions.
-        </p>
-        <h5 class="skill" id="sk-blo">Blowgun</h5>
-        <include id="$Blowgun"/>
-        <p>
-          A rare skill except among the Lia-Kavair, clergy of Naveh,
-          and certain tribes in tropical and equatorial rain-forests.
-          No specialties exist.  Use the <em>Combat</em> dimensions.
-        </p>
-        <h5 class="skill" id="sk-bow">Bow</h5>
-        <include id="$Bow"/>
-        <p>
-          The ability to use bows.  Specialties include Crossbow,
-          Hartbow (elven composite bow), Longbow, and Shortbow.
-          Crossbows: The use of crossbows is not widespread in western
-          Lythia.  They are forbidden for military use by canon and
-          secular law in all civilized realms, and carrying one may
-          draw suspicion and harassment.  Nevertheless, crossbows are
-          employed by the Khuzdul, and some brigands.  Only light
-          (hand-pulled) crossbows exist.  Use the <em>Combat</em>
-          dimensions.
-        </p>
-        <h5 class="skill" id="sk-bre">Brewing</h5>
-        <include id="$Brewing"/>
-        <p>
-          Different beverage types may be specialties.  The ability to
-          prepare alcoholic and other beverages.  Used to determine
-          the quality of brewed ale, beer, cider, etc.  Basic
-          materials are necessary.  Depending on cultural background,
-          this may include the ability to make wines and spirits.
-          Brewing for public consumption is closely controlled by the
-          Innkeepers Guild, although it is legal to brew for personal
-          use.  Ales do not travel well and most inns produce their
-          own brews.  Brewing uses the <em>Recipes</em> domain.
-        </p>
-        <h5 class="skill" id="sk-cer">Ceramics</h5>
-        <include id="$Ceramics"/>
-        <p>
-          Determines the quality of pottery items produced.  Results
-          are limited by the quality of materials and equipment.
-          Brewing uses the <em>Recipes</em> domain.
+	  Sleeping adds at least 10 to any task difficulty.  Loud
+	  noises give a bonus to the Skill roll.
         </p>
         <h5 class="skill" id="sk-cli">Climbing</h5>
-        <include id="$Climbing"/>
         <p>
           Tested when a character attempts to climb an obstacle.  The
           GM assesses a climb by the dimensions in the table.
@@ -582,15 +483,7 @@
           the attempted climbing height.
         </p>
         <include id="$D-Climbing"/>
-        <h5 class="skill" id="sk-clu">Club</h5>
-        <include id="$Club"/>
-        <p>
-          The ability to use hafted, clubbing weapons.  Specialties
-          include Club, Mace, Maul, and Morningstar.  Because club
-          weapons are omni-directional, they are easier to master than
-          axes.  Use the <em>Combat</em> dimensions.
-        </p>
-        <h5 id="di-com">Combat</h5>
+        <h5 id="di-co1">Combat/Melee</h5>
         <p>
           One dimension is the time (in seconds), which it takes to
           achieve the wound level zero on the defender.  The wound
@@ -602,66 +495,13 @@
         <p>
           Any effects from wounds or other external influences in
           combat are applied immediately to pending progressions, but
-          the wound itself is modified by <em>B/E/P</em> of choice and
-          the appropriate armor.  The offset is alonge the trajecory
-          chosen.  Note that the same is true for affects on the
-          defender.  If this implies an action to occur in the past,
-          it is resolved immediately.
-        </p>
-        <p>
-          If time is fixed, a best effort attack can be made.  For
-          instance, if an opponent was downed and will get up within a
-          few seconds and the bonus shall be used for better or worse.
-          Since combat is a often used routine, the tables is more
-          extensive than usual.
-        </p>
-        <include id="$D-Combat"/>
-        <p>
-          If a round based system is preferred, all must adhere to it.
-          This is often difficult to do right, but must be weighed
-          against the number crunching efforts needed for the
-          full-dimensions approach.  If rounds are used, they abstract
-          a number of seconds to a round, like 6 or 10.  Here, we
-          supply the modifiers for fighting in 10 second rounds.  Note
-          that the same scheme must be applied to all participants
-          (actors) in the scene but the modifiers vary, if an action
-          has a time dimension (measured in seconds).  A sensible
-          modifier often is the value that most closely rounds to the
-          number of rounds the activity is performed in.  The
-          following table does this for the Combat Time dimension.
-          Note that the more time an action takes, that could have
-          been achieved within a round, the higher the bonus.
-        </p>
-        <include id="$D-Combat-2"/>
-        <h5 class="skill" id="sk-coo">Cookery</h5>
-        <include id="$Cookery"/>
-        <p>
-          Cultural, regional, or even religious specialties are
-          possible.  Determines the appeal and nutritional value of
-          meals.  Failure by 5 results in poorly-prepared and/or
-          bad-tasting food.  Failure by 10 may cause food poisoning.
-          Use the <em>Recipes</em> domain.
-        </p>
-        <h5 class="skill" id="sk-dag">Dagger</h5>
-        <include id="$Dagger"/>
-        <p>
-          The ability to use short-bladed weapons, mostly as secondary
-          weapons.  Specialties include Keltan (main gauche), Knife,
-          and Taburi (throwing knife).  Use the <em>Combat</em>
-          dimensions.
-        </p>
-        <h5 class="skill" id="sk-dan">Dancing</h5>
-        <include id="$Dancing"/>
-        <p>
-          The ability to perform various types of dance.  Specialties
-          such as folk or erotic dancing are viable.  Dancing is very
-          important in some cultures, and can be used to enhance
-          spellcasting (see H&#226;rnMaster Magic).  Dances are social
-          interactions.  Without at least visible encounters with
-          dances, OML is -10.  Use the <em>Artistic</em> dimension.
+          the wound itself is modified by <em>B/E/P</em> of choice
+          from the weapon and the appropriate armor.  The offset is
+          alonge the trajectory chosen.  Note that the same is true for
+          affects on the defender.  If this implies an action to occur
+          in the past, it is resolved immediately.
         </p>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
-        <include id="$Dexterity"/>
         <p>
           Legerdemain (Sleight of hand) is tested when a character
           attempts to perform a feat of manual dexterity without being
