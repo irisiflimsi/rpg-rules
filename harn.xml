@@ -724,7 +724,6 @@
           increased by 5 for a combined roll.)
         </p>
         <h5 class="skill" id="sk-pie">Piety</h5>
-        <include id="$Piety"/>
         <p>
           This skill is specific for each Deity and can only be opened
           at non-zero value with the proper religious background.
@@ -732,18 +731,11 @@
           is not learned as usual but improved through righteous
           actions; it can decline just as fast through improper ones.
         </p>
-        <include id="$Piety-1"/>
+        <include id="$D-Piety"/>
         <h5 class="skill" id="sk-pil">Piloting</h5>
-        <include id="$Piloting"/>
         <p>
           The ability to navigate a ship.  This skill is detailed in
           Pilots&#8217; Almanac.
-        </p>
-        <h5 class="skill" id="sk-pol">Polearm</h5>
-        <include id="$Polearm"/>
-        <p>
-          The ability to use heavy, two-handed pole-weapons.  Use the
-          <em>Combat</em> dimensions.
         </p>
         <h5 class="skill" id="sk-men">Psi Conflict</h5>
         <include id="$PsiConflict"/>
@@ -767,11 +759,11 @@
             physical body by winning a mental conflict with the
             resident spirit.  Possession is easier if the native
             spirit is absent (disembodied) as an astral.  Reduce the
-            ML by 1 for each 5% of Aura that is missing from the
+            MLU by 1 for each 5% of Aura that is missing from the
             resident Aura.  The losing spirit suffers Dissolution.  An
             evicted spirit may later attempt to repossess its own body
             (or another) with a mental conflict.  Remember that the
-            native spirit (if any) always has +5 to ML.
+            native spirit (if any) always has +5 to MLU.
           </p>
           <p>
             <em>Ethereal Conflict:</em> Two ethereals meet and do
@@ -800,18 +792,18 @@
           <em>Exorcism:</em> A 5th Circle ritual invocation to aid a
           native spirit with evicting a possessing alien spirit.  The
           ritual requires frequent laying on of hands and Holy Water.
-          The effect is to increase Mental Conflict ML.  See Religion.
+          The effect is to increase Mental Conflict MLU.  See Religion.
         </p>
         <p>
-          Mental Conflict Example.  The demon Karpek (ML 26) seeks to
-          possess the Peonian priestess Larinda (ML 18).  Larinda is
-          +15 for being the native spirit and living (ML 33).  Karpek
+          Mental Conflict Example.  The demon Karpek (MLU 26) seeks to
+          possess the Peonian priestess Larinda (MLU 18).  Larinda is
+          +15 for being the native spirit and living (MLU 33).  Karpek
           rolls +9 and Larinda rolls -3, resulting in fatigue rates 1
           per minute for Larinda and 6 per 10 minutes for Karpek.  A
           few successful shock rolls later, Larinda invokes
           Peoni&#8217;s Mercy, a ritual invocation that could force
           the demon to depart.  Her Fatigue at that point is (-2) and
-          the Circle Modifier (-4), which reduces her Ritual ML to 12
+          the Circle Modifier (-4), which reduces her Ritual MLU to 12
           and she fails the roll.  The process continues.  This time
           she fails the next Shock roll, allowing the demon its
           possession.  Larinda&#8217;s spirit is evicted and suffers
@@ -823,11 +815,9 @@
           Exorcism to aid her task.
         </p>
         <h5 class="skill" id="sk-psi">Psi Talents</h5>
-        <include id="$PsiTalents"/>
         <p>
           All Talents are treated as separate skills.
         </p>
-        <include id="$PsiTalents-1"/>
         <h5 class="quality" id="di-qua">Quality</h5>
         <p>
           The Quality dimension can be used when a craftsman attempts
@@ -844,7 +834,11 @@
           beautiful it looks.  Examples of this are weapon- and
           armour-crafting.
         </p>
-        <include id="$D-Quality"/>
+	<p>
+	  Quality is the net roll divided by 10. I.e. -5 through +4
+	  results in 0, +5 through +14 results in 1, -15 through -6
+	  results in -1, and do on.
+	</p>
         <h5 class="skill" id="di-rec">Recipes</h5>
         <p>
           For NPCs the associated table can be used to estimate the
@@ -853,82 +847,21 @@
           has given them.  Self-made dabblers start with zero (0) and
           would need to do research.  Recipes have a wide range of
           meaning, from classic cooking to tricks the character can
-          teach to animals.  It includes ritual invocations.
+          teach to animals.  It includes ritual or magic invocations.
         </p>
         <include id="$D-Recipes"/>
-        <p>
-          In general, learning a recipe is a roll with the
-          student&#8217;s ML.  The student should have a quiet,
-          dedicated space to study.  The <em>Consecrated Ground</em>
-          modifier usually can be 5-added to the ML.  A scripture must
-          be read in full.  Recipes have a circle rating, ranging from
-          I - VI, or given as star rating.  This is a direct numeric
-          penalty when applying the recipe, e.g. performing the
-          ritual.  For learning it represents the difficulty, see the
-          star-rating dimension.  Calculate the modifiers and make a
-          learning roll on the table below.  Any result below zero (0)
-          means the time was spent in vain.  Particularly nasty GMs
-          may let the PC learn something wrong without knowing.
-        </p>
-        <div class="explain">
-          <p>
-            <em>Mentor:</em> 5-Addition of the Mentor&#8217;s ML.
-          </p>
-          <p>
-            <em>Scripture:</em> 5-Addition of the Scripture value.
-            The value is directly linked to the number of pages (see
-            dimension above).  The student must be able to read the
-            Scripture.
-          </p>
-        </div>
-        <p/>
-        <include id="$D-Recipes-2"/>
         <h5 class="skill" id="di-reg">Regional</h5>
         <include id="$D-Regional"/>
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
-        <include id="$Rhetoric"/>
-        <p>
-          The ability to impress or persuade crowds or individuals by
-          logic, eloquence, or charisma.  This is something of a
-          shortcut skill and discretionary.  An orating PC needs to
-          define the audience; mobs maybe stupider than individuals,
-          but they cannot be persuaded to step off a cliff.  Rhetoric
-          ML cannot exceed the orator&#8217;s or the audience&#8217;s
-          ML in the language being used.  Rhetoric has many uses, from
-          the apprehended thief trying to fast-talk his way out of a
-          visit to the dungeon, to a friar explaining the mysteries of
-          faith to a child.  Rhetoric ML may be reduced or increased
-          considering the targets&#8217; Intelligence and their best
-          interest.  A net result below 0 on any use of Rhetoric
-          suggests the character has made a fool of himself and may
-          have annoyed the intended target(s).
-        </p>
         <p>
           Multiple orators may compete for the &#8220;airwaves&#8221;
           and hinder each other more than they realize.  Therefore
           only two actors may combine their skills through 5-Addition
           if working in concert, thereafter it is only the maximum, if
           no competition takes place.  If a competition takes place,
-          the difficulty is a 5-Addition instead.  Use the <em>Yield
-          (time)</em> dimension for how long the speech lasts and for
-          how long the effects last.
+          the difficulty is a 5-Addition instead.
         </p>
         <include id="$D-Rhetoric"/>
-        <p>
-          <em>Intimidation:</em> Intimidation is a specialty.  It is
-          used in situations where a character seeks to convince
-          others to accept the user&#8217;s leadership and is used to
-          establish dominance.  This is useful in muggings, assaults,
-          and making sure everyone knows who is boss and who needs to
-          accept orders.
-        </p>
-        <p>
-          <em>Diplomacy:</em> Diplomacy is a specialty of Rhetoric
-          that is useful for determining if a speaker is bluffing or
-          lying, and for communication between people of different
-          cultures.  This specialty is important to heralds and other
-          negotiators.
-        </p>
         <h5 class="skill" id="sk-rid">Riding</h5>
         <include id="$Riding"/>
         <p>
@@ -5555,7 +5488,8 @@
             <td>60 sec</td>
             <td>+ 1 / sec</td>
           </tr>
-        </table>
+          </table>
+	  !!!Physician!!!
       -->
     </div>
   </body>

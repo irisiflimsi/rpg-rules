@@ -158,7 +158,7 @@
       <td>Heal Rate</td><td>4</td><td>2.5</td><td>2.0</td><td>1.7</td><td>1.4</td><td>1.2</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.55</td><td>0.5</td>
     </tr>
   </table>
-  <table id="$Piety-1" style="width:90%">
+  <table id="$D-Piety" style="width:90%">
     <tr>
       <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
@@ -178,7 +178,7 @@
       </td>
       <td>
         Religion is quoted often and other faiths routinely treated
-        underhanded.
+        unfairly.
       </td>
       <td>
         Adherent is seeking to further the religion outside of his
@@ -202,52 +202,6 @@
     </tr>
     <tr class="num">
       <td>Fatigue Rate</td><td>100</td><td>30</td><td>10</td><td>3</td><td>1</td>
-    </tr>
-  </table>
-  <table id="$PsiTalents-1" style="width:90%">
-    <tr>
-      <th>Talent</th><th>Sunsign</th>
-      <th>Talent</th><th>Sunsign</th>
-    </tr>
-    <tr>
-      <td>Charm</td><td>Tai/Nadai/Tarael+1</td>
-      <td>Prescience</td><td>Tai/Tarael+1</td>
-    </tr>
-    <tr>
-      <td>Clairvoyance</td><td>Tai+1</td>
-      <td>Psychometry</td><td>Tai/Masara+1</td>
-    </tr>
-    <tr>
-      <td>Disembodiement</td><td>Hirin/Nadai+1</td>
-      <td>Pyrokinesis</td><td>Angberelius/Ahnu/Nadai+1</td>
-    </tr>
-    <tr>
-      <td>Healing</td><td>Masara/Skorus+1</td>
-      <td>Sensitivity</td><td>Tarael/Tai+1</td>
-    </tr>
-    <tr>
-      <td>Hex</td><td>Ahnu+1</td>
-      <td>Telekinesis</td><td>Nadai/Ahnu+1</td>
-    </tr>
-    <tr>
-      <td>Medium</td><td>Tai+1</td>
-      <td>Telepathy</td><td>Tarael/Tai/Skorus+1</td>
-    </tr>
-    <tr>
-      <td>Mental Bolt</td><td>Ahnu+1</td>
-      <td>Transference</td><td>Tarael/Tai+1</td>
-    </tr>
-    <tr>
-      <td>Negation</td><td>Feniri+1</td>
-      <td>Transmutation</td><td>Tarael/Tai+1</td>
-    </tr>
-  </table>
-  <table id="$D-Quality" style="width:30%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Quality</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+3</td>
     </tr>
   </table>
   <table id="$D-Recipes" style="width:60%">
