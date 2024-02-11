@@ -155,39 +155,30 @@
             <td><a href="#sk-jum">Jumping</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-law">Law</a></td>
-            <td><a href="#sk-loc">Lockcraft</a></td>
-            <td><a href="#sk-mag">Magic</a></td>
-            <td><a href="#sk-mat">Mathematics</a></td>
-            <td><a href="#sk-met">Metalcraft</a></td>
-            <td><a href="#sk-mor">Morale</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-mov">Move</a></td>
-            <td><a href="#sk-mus">Musician</a></td>
             <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
             <td><a href="#sk-pil">Piloting</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
+            <td><a href="#sk-psi">Psi Talents</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-psi">Psi Talents</a></td>
             <td><a href="#sk-rhe">Rhetoric</a></td>
             <td><a href="#sk-rid">Riding</a></td>
             <td><a href="#sk-rit">Ritual</a></td>
             <td><a href="#sk-scr">Script</a></td>
             <td><a href="#sk-sea">Seamanship</a></td>
+            <td><a href="#sk-ship">Shipwright</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-ship">Shipwright</a></td>
             <td><a href="#sk-ste">Stealth</a></td>
             <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-tim">Timbercraft</a></td>
+            <td><a href="#sk-tra">Tracking</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-tra">Tracking</a></td>
             <td><a href="#sk-una">Unarmed</a></td>
             <td><a href="#sk-weap">Weaponcraft</a></td>
             <td><a href="#sk-weat">Weatherlore</a></td>
@@ -662,138 +653,7 @@
             substance is possible.
           </p>
         </div>
-        <h5 class="skill" id="sk-law">Law</h5>
-        <include id="$Law"/>
-        <p>
-          Different cultural, religious, and regional types may be
-          specialties.  Litigants use this skill to determine which
-          law applies to a particular situation.  Enfoeffed knights
-          use the skill to settle tenant disputes; success indicates a
-          fair and just decision is made.  If used to prepare a writ
-          or other legal document, the skill is averaged with the
-          appropriate Language and Script.  Sometimes ist makes sense
-          to use the <em>Knowledge</em> dimension.
-        </p>
-        <include id="$D-Law"/>
-        <h5 class="skill" id="sk-loc">Lockcraft</h5>
-        <include id="$Lockcraft"/>
-        <p>
-          The ability to analyze and pick locks.  Locks are rated for
-          complexity in many publications; reduce ML by twice lock
-          complexity (equivalently, increase lock difficulty
-          accordingly).  The skill may be used to appraise the
-          complexity of a lock and/or to see if it is trapped.
-          Lockcraft is averaged with Metalcraft to construct locks and
-          other small/complex/delicate mechanisms.
-        </p>
-        <h5 class="skill" id="sk-lov">Lovecraft</h5>
-        <include id="$Lovecraft"/>
-        <p>
-          The ability to charm, seduce, and give erotic pleasure.  It
-          cannot normally be improved by solitary practice, although
-          there may be books or teachers available.  The skill is used
-          to assess the success of a seduction or sexual encounter.
-        </p>
-        <include id="$D-Lovecraft"/>
-        <h5 class="skill" id="sk-mag">Magic</h5>
-        <include id="$Magic"/>
-        <p>
-          The ability to cast spells of a particular convocation is a
-          skill.  There is a separate skill for each convocation
-          (although listed as specialty above), and one for Neutral.
-          Each Convocation has a unique SB, dominated by Aura.  The ML
-          is listed below (as occupational percentage), depending on
-          the chantry level; they apply to all convocations equally.
-          Dimensions are available for each spell.
-        </p>
-        <include id="$Magic-1"/>
-        <p>
-          <em>Convocational Sunsign Modifiers:</em> The stars favor
-          different convocations.  The astrological modifier is given
-          below.  For a character born on a cusp (the first two or
-          last two days of a sunsign), use the more advantageous
-          modifier.
-        </p>
-        <include id="$Magic-2"/>
-        <h5 class="skill" id="sk-mas">Masonry</h5>
-        <include id="$Masonry"/>
-        <p>
-          Used to analyze/construct stonework.  Masons use Masonry
-          averaged with Engineering to construct buildings, bridges,
-          etc.  Use the <em>Recipe</em> dimension.  The recipes apply
-          to building types, ranging from simple foundation work to
-          cathedral construction and castle ramparts.
-        </p>
-        <h5 class="skill" id="sk-mat">Mathematics</h5>
-        <include id="$Mathematics"/>
-        <p>
-          The ability to make calculations with numbers, keep books of
-          account, and so on.  An ML above 20 would imply some
-          knowledge of geometry, etc.  The skill is useful in many
-          different fields.
-        </p>
-        <include id="$D-Mathematics"/>
-        <h5 class="skill" id="sk-met">Metalcraft</h5>
-        <include id="$Metalcraft"/>
-        <p>
-          Different types of metals may be specialties.  Used to
-          determine success/quality when producing commonplace
-          metallic goods.  Metalcraft is averaged with Lockcraft to
-          construct locks, secret compartments, and other small,
-          complex, and/or delicate mechanisms.  Larger machinery is
-          usually built by millwrights (engineers).  Use the
-          <em>Recipe</em> dimension.
-        </p>
-        <h5 class="skill" id="sk-mil">Milling</h5>
-        <include id="$Milling"/>
-        <p>
-          Used to determine efficiency and/or yield when milling
-          grain, etc.  Milling is primarily a way to earn money.  It
-          is usually not a very exciting activity nor a useful skill
-          for adventurers.  The basic unit of yield is a year&#8217;s
-          worth of grain as produced by agriculture.  It assumes that
-          a mill capable of such output is available.  Use the
-          <em>Yield</em> dimension.
-        </p>
-        <h5 class="skill" id="sk-min">Mining</h5>
-        <include id="$Mining"/>
-        <p>
-          Knowledge of geology and ability at prospecting,
-          mineworking, and ore-refining.  Prospecting is a complex
-          issue, depending on the terrain surveyed and the minerals
-          sought.  These include mythral, gold, silver, copper, tin,
-          lead, zinc, coal, salt, iron, and a large variety of
-          gemstones.
-        </p>
-        <h5 class="skill" id="sk-mor">Morale</h5>
-        <include id="$Morale"/>
-        <p>
-          Morale is a complex issue, it usually applies only to NPCs
-          (and trained animals).  The higher a result, the more likely
-          the predetermined objectives are followed, usually a
-          military one.  The lower the result, the more
-          self-preservation is deterministic of actions, but also
-          instincts take over.  &#8220;Freezing &#8221; in the hopes
-          of being ignored may make sense with certain predators but
-          not when facing Gargun.  The variety of different reactions
-          is huge.  See the Morale section in Combat.  Berserk is
-          meant as option, not as mandatory.  The other end at -15 is
-          mandatory.  It often makes sense to keep a current level of
-          Morale for NPCs that is deducted until it reaches a breaking
-          point.  Determine the outcome before any combat ensues to
-          improve playability.  (It should be kept secret from
-          players.)
-        </p>
-        <include id="$D-Morale"/>
-        <p>
-          <em>Rally:</em> An influence on others&#8217; Morale is
-          possible for the amount above 10 in the roll.  Multiple
-          positive and negative influences are added through
-          5-Additions separately to others&#8217; EML and
-          difficulties.
-        </p>
         <h5 class="skill" id="sk-mov">Move</h5>
-        <include id="$Move"/>
         <p>
           Humans can accelerate and decelerate as 3 m/s each second.
           Turning options are in parts of a full circle (centered
@@ -828,32 +688,7 @@
           Horses take 1 second for 90 degrees, modified and rounded in
           the same way.
         </p>
-        <h5 class="skill" id="sk-mus">Musician</h5>
-        <include id="$Musician"/>
-        <p>
-          Each of the four types of musical instrument (Strings,
-          Drums, Winds, Bells) is a separate skill.  Instruments may
-          be specialties.  Among the most common instruments are
-          Flute, Horn, Pipes, and Lute.  The availability of musical
-          instruments and skills depends on culture.  ML is modified
-          by instrument quality.  Reading and writing of music as a
-          Script is treated separately.  Use the <em>Artistic</em>
-          dimension.
-        </p>
-        <h5 class="skill" id="sk-net">Net</h5>
-        <include id="$Net"/>
-        <p>
-          A weapon skill; use the <em>Combat</em> dimensions.
-        </p>
-        <h5 class="skill" id="sk-per">Perfumery</h5>
-        <include id="$Perfumery"/>
-        <p>
-          Used to determine success at inventing and producing
-          perfumes, soap, incense, etc.  Appropriate materials are
-          necessary.  Use the <em>Recipe</em> dimension.
-        </p>
         <h5 class="skill" id="sk-phy">Physician</h5>
-        <include id="$Physician"/>
         <p>
           The ability to diagnose and treat medical ailments, wounds,
           etc..  Usually the physician first tests EML to diagnose the
