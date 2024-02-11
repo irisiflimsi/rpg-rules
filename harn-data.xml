@@ -215,14 +215,6 @@
       <td>Pages</td><td>1</td><td>3</td><td>10</td><td>30</td><td>100</td><td>300</td><td>1000</td><td>3000</td><td>10000</td>
     </tr>
   </table>
-  <table id="$D-Recipes-2" style="width:50%">
-    <tr>
-      <th>Learn</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
-    </tr>
-    <tr>
-      <td>Time</td><td>10</td><td>5</td><td>2</td><td>1</td><td>1/2</td><td>1/5</td><td>1/10</td>
-    </tr>
-  </table>
   <table id="$D-Regional" style="width:40%">
     <tr>
       <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
@@ -241,20 +233,6 @@
     <tr class="num">
       <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
     </tr>
-  </table>
-  <table id="$D-Ritual-lay" style="width:30%">
-    <tr><th>Ritual</th><th>Modifier</th></tr>
-    <tr><td>Prayer</td><td>-10</td></tr>
-    <tr><td>Fasting</td><td>-5</td></tr>
-    <tr><td>Confession</td><td>0</td></tr>
-    <tr><td>Daily Mass</td><td>-7.5</td></tr>
-    <tr><td>Monthly Low Mass</td><td>-5</td></tr>
-    <tr><td>Monthly High Mass</td><td>2.5</td></tr>
-    <tr><td>Feast Mass</td><td>10</td></tr>
-    <tr><td>Temple Service</td><td>5</td></tr>
-    <tr><td>Donation/Sacrifice</td><td>0+</td></tr>
-    <tr><td>Quest</td><td>0+</td></tr>
-    <tr><td>Pilgrimage</td><td>0+</td></tr>
   </table>
   <table id="$D-Shipwright" style="width:30%">
     <tr>
