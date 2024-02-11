@@ -148,53 +148,48 @@
           </tr>
           <tr>
             <td><a href="#sk-fle">Fletching</a></td>
-            <td><a href="#sk-fol">Folklore</a></td>
             <td><a href="#sk-for">Foraging</a></td>
             <td><a href="#sk-hera">Heraldry</a></td>
             <td><a href="#sk-herb">Herblore</a></td>
             <td><a href="#sk-ini">Initiative</a></td>
+            <td><a href="#sk-jum">Jumping</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-int">Intrigue</a></td>
-            <td><a href="#sk-jum">Jumping</a></td>
-            <td><a href="#sk-lan">Language</a></td>
             <td><a href="#sk-law">Law</a></td>
             <td><a href="#sk-loc">Lockcraft</a></td>
             <td><a href="#sk-mag">Magic</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-mat">Mathematics</a></td>
             <td><a href="#sk-met">Metalcraft</a></td>
             <td><a href="#sk-mor">Morale</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-mov">Move</a></td>
             <td><a href="#sk-mus">Musician</a></td>
             <td><a href="#sk-phy">Physician</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-pie">Piety</a></td>
             <td><a href="#sk-pil">Piloting</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-psi">Psi Talents</a></td>
             <td><a href="#sk-rhe">Rhetoric</a></td>
             <td><a href="#sk-rid">Riding</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-rit">Ritual</a></td>
             <td><a href="#sk-scr">Script</a></td>
             <td><a href="#sk-sea">Seamanship</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-ship">Shipwright</a></td>
             <td><a href="#sk-ste">Stealth</a></td>
             <td><a href="#sk-sur">Survival</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-tim">Timbercraft</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-tra">Tracking</a></td>
             <td><a href="#sk-una">Unarmed</a></td>
             <td><a href="#sk-weap">Weaponcraft</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-weat">Weatherlore</a></td>
             <td><a href="#sk-woo">Woodcraft</a></td>
           </tr>
@@ -208,7 +203,6 @@
             <td><a href="#sk-hea">Hearing</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-intl">Intelligence</a></td>
             <td><a href="#sk-sme">Smell</a></td>
             <td><a href="#sk-sta">Stamina</a></td>
             <td><a href="#sk-str">Strength</a></td>
@@ -220,11 +214,10 @@
             <td><a href="#di-acc">Accuracy</a></td>
             <td><a href="#di-co1">Combat/Melee</a></td>
             <td><a href="#di-co2">Combat/Missile</a></td>
-            <td><a href="#di-div">Divination</a></td>
-            <td><a href="#di-kno">Knowledge</a></td>
+            <td><a href="#di-kno">Knowlegde</a></td>
+            <td><a href="#di-qua">Quality</a></td>
           </tr>
           <tr>
-            <td><a href="#di-qua">Quality</a></td>
             <td><a href="#di-reg">Regional</a></td>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-tra">Travel</a></td>
@@ -533,70 +526,30 @@
         </p>
         <include id="$D-Eyesight"/>
         <h5 class="skill" id="sk-fis">Fishing</h5>
-        <include id="$Fishing"/>
         <p>
           Fishing uses the <em>Fast Yield</em> dimension.  The base
           yield is one manday of food. Abundance of fish gives a
-          modifier of -20 to +20.
+          modifier between -20 and +20.
         </p>
         <h5 class="skill" id="sk-fle">Fletching</h5>
-        <include id="$Fletching"/>
         <p>
           The ability to make and repair bows and arrows.  Base yield
           is 1/4 bow or 3 arrows, which assumes tools and materials
           are available.  Use the <em>Slow Yield</em> dimensions.
         </p>
-        <h5 class="skill" id="sk-fol">Folklore</h5>
-        <include id="$Folklore"/>
-        <p>
-          Different cultural types may be specialties.  Knowledge of
-          myths, legends, and history.  This is an oral tradition in
-          most cultures.  Successful use of the skill means the
-          character remembers information relevant to the subject
-          being inquired about.  To avoid rolling multiple times on
-          the table, the PC that searches his arsenal should give a
-          trajectory among the two dimensions, after the GM tells him
-          how obscure the sought story actually is.  For example,
-          Rogan is attempting to recall the name of a great hero of
-          some common legend.  50% go to depth and 50% to breadth.
-          Rolling a result of 0 would imply that 30% of great myths
-          can be repeated and the GM rules that the hero&#8217;s name
-          belongs to the important part of the myth.  Thus Rogan
-          recalls the name: Genin.  Use the <em>Knowledge</em>
-          dimension.
-        </p>
-        <include id="$D-Folklore"/>
         <h5 class="skill" id="sk-for">Foraging</h5>
-        <include id="$Foraging"/>
         <p>
-          Different climate and terrain types may be specialties.
-          Finding (vegetarian) food in the wilderness.  Tested when a
-          character looks for edible plants, etc.  The GM assesses
-          conditions depending on season and locale, and uses the
-          table to determine the mandays of food found.  Areas near
-          civilization are likely to have a penalty of 10-20.
-          Excellent conditions exist only in tropical rain-forests and
-          special places like the Shava Forest with 10 bonus.  Season
-          is highly relevant.  To seek specific plants, see Herblore.
-          For hunting meat, see Tracking.  Use the <em>Yield</em> and
-          <em>(Yield) Time</em> dimensions.
-        </p>
-        <h5 class="skill" id="sk-gla">Glasswork</h5>
-        <include id="$Glasswork"/>
-        <p>
-          The ability to produce glassware.  Appropriate tools and
-          materials are necessary.  Most people believe glassworkers
-          use magic to create their wares.  Glass is used for
-          tableware, objects d&#8217;art, alchemical equipment, and,
-          occasionally, for windows.  It is expensive and the preserve
-          of the wealthy.  The best glass products are of elven make.
+          Fishing uses the <em>Fast Yield</em> dimension.  The base
+          yield is one manday of food.  Different climate and terrain
+          types may be specialties.  Areas near civilization are
+          likely to have a penalty of at least 10.  Excellent
+          conditions exist only in tropical rain-forests and special
+          places like the Shava Forest with 10 bonus.  Season is
+          highly relevant.  To seek specific plants, see Herblore.
+          For hunting, see Tracking.  Use the <em>Fast Yield</em>
+          dimensions.
         </p>
         <h5 class="skill" id="sk-hea">Hearing</h5>
-        <include id="$Hearing"/>
-        <p>
-          Hearing cannot be improved.
-        </p>
-        <include id="$D-Hearing"/>
         <div class="explain">
           <p>
             <em>-20:</em> Rural Silence
@@ -620,50 +573,26 @@
             <em>40:</em> Thunder
           </p>
         </div>
+        <include id="$D-Hearing"/>
         <h5 class="skill" id="sk-hera">Heraldry</h5>
-        <include id="$Heraldry"/>
         <p>
           Different regional/cultural types may be specialties.  The
-          ability to recognize heraldic achievements, and to blazon
-          (properly describe) arms and recognize achievements.  The
-          skill uses the <em>Recipe</em> and <em>Knowledge</em>
+          skill uses the <em>Recipe</em> and <em>Accuracy</em>
           dimensions.  One describes the achievements a character can
           actively reproduce/draw, the other the recognized
-          achievements, if seen.  A 100% value means the set of all
-          achievements the character has been in contact with.
-          Reading a heralds&#8217; scroll suffices.  The OML is
-          reduced to -10, if examples are not available.
+          achievements, if seen.
         </p>
-        <include id="$D-Heraldry"/>
         <h5 class="skill" id="sk-herb">Herblore</h5>
-        <include id="$Herblore"/>
         <p>
           Different climate and terrain types may be specialties.  The
-          ability to find and identify individual types of plant.  ML
+          ability to find and identify individual types of plant.  MLU
           is modified according to the plant&#8217;s rarity, seeking a
-          plant in an inappropriate locale should also reduce ML.
-          Uses the <em>Recipe</em>, <em>Yield</em>, <em>Yield
-          (Time)</em>, and <em>Knowledge</em> dimensions.  The latter
-          dimension describes the recognized herbs, if seen.  The 100%
-          value means the set of all herbs the character has been in
-          contact with.  Reading elaborate texts suffices, but may
-          give inaccurate interpretations in the True:False dimension.
-          A trajectory on the two dimensions should be provided.
-        </p>
-        <include id="$D-Herblore"/>
-        <h5 class="skill" id="sk-hid">Hidework</h5>
-        <include id="$Hidework"/>
-        <p>
-          Determines quality of furs or hides cured, and the quality
-          of leather goods produced.  ML is modified by the quality
-          and availability of tools and materials.  Rough-curing
-          (removing a hide from a carcass and preparing it for
-          transport and proper tanning) can be done in the wilderness
-          with only some crude tools.  Uses the <em>Recipes</em>
-          dimension.
+          plant in an inappropriate locale should also reduce ML.  Use
+          the <em>Recipe</em>, <em>Accuracy</em> and <em>Fast
+          Yield</em> dimensions.  The former dimension describes the
+          recognized herbs, if seen.  Trajectories are commonplace.
         </p>
         <h5 class="skill" id="sk-ini">Initiative</h5>
-        <include id="$Initiative"/>
         <p>
           Initiative reflects battle experience, discipline, and
           morale.  Initiative determines the speed in which characters
@@ -672,15 +601,14 @@
           before they can act.  An ambush and similar situations can
           give a bonus (for the ambushing party) as can the general
           awareness that combat is imminent.  Sleeping and other
-          unawareness situations may incur hefty penalties.  General
-          penalties apply.
+          unawareness situations may incur hefty penalties.
         </p>
         <p>
           During the time a character is &#8220;frozen&#8221; this
           way, he is trying to understand the situation he is in and
-          assesses the options he has.  He is catious during that
-          time.  General awareness issues such as during an ambush are
-          not covered by Initiative.
+          assesses the options he has.  He is <em>cautious</em> during
+          that time.  General awareness issues such as during an
+          ambush are not covered by Initiative.
         </p>
         <p>
           Battle-hardened characters may come into the fractional
@@ -691,33 +619,7 @@
           activity, which may or may not be appropriate.
         </p>
         <include id="$D-Initiative"/>
-        <h5 class="skill" id="sk-intl">Intelligence</h5>
-        <p>
-          Attribute in the range as described.  Only used as direct
-          bonus for skills except for NPCs.
-        </p>
-        <h5 class="skill" id="sk-int">Intrigue</h5>
-        <include id="$Intrigue"/>
-        <p>
-          The ability to assess and/or act effectively within a
-          social/political situation over a period of time.  Intrigue
-          is used as a discretionary shortcut by the GM to avoid the
-          playing out of an information-gathering process.  For
-          example, an NPC&#8217;s Intrigue might be tested when sent
-          by a PC to gather intelligence in a town or camp.
-        </p>
-        <h5 class="skill" id="sk-jew">Jewelcraft</h5>
-        <include id="$Jewelcraft"/>
-        <p>
-          Determines the quality of jewelry and/or fine metalwork made
-          by the character.  ML depends on the complexity of the task
-          attempted.  Materials are necessary and failure can be
-          expensive.  This skill is also used to appraise gems, fine
-          metalwork, and/or jewelry.  Uses the <em>Recipe</em>
-          dimension.
-        </p>
         <h5 class="skill" id="sk-jum">Jumping</h5>
-        <include id="$Jumping"/>
         <p>
           Jumping is tested when a character attempts to leap for
           height or distance.  Results assume a running start; for
@@ -727,7 +629,6 @@
         </p>
         <include id="$D-Jumping"/>
         <h5 class="skill" id="di-kno">Knowledge</h5>
-        <include id="$D-Knowledge"/>
         <p>
           This dimension can be exploited as knowledge and the
           knowledge about knowledge, i.e. how sure is the character
@@ -741,63 +642,26 @@
             general topic belongs to that domain or not.
           </p>
           <p>
-            <em>10:</em> One of the most obvious topics has been heard
-            of and can be applied, but without guaranteed success.
-          </p>
-          <p>
-            <em>20:</em> The basic concepts are known, the more
+            <em>10:</em> The basic concepts are known, the more
             esoteric concepts have been heard of but cannot be
             applied.
           </p>
           <p>
-            <em>30:</em> Most concepts are known and many can be
-            applied with a high degree of certainty.
+            <em>20:</em> Almost all concepts of the domain are known
+            and can be applied with confidence.  Only a few topics
+            escape the grasp.
           </p>
           <p>
-            <em>40:</em> All concepts of the domain are known and can
-            be applied with confidence.  Only a few topics escape the
-            grasps.
-          </p>
-          <p>
-            <em>50:</em> All of the domain is understood with ease.
+            <em>30:</em> All of the domain is understood with ease.
             It is hard to find unknown territory, although it exists.
             Improvement of the art is possible.
           </p>
           <p>
-            <em>60:</em> Mastery of the subject matter as far as
+            <em>40:</em> Mastery of the subject matter as far as
             humanly possible.  Genuine research or creation of new
             substance is possible.
           </p>
         </div>
-        <h5 class="skill" id="sk-lan">Language</h5>
-        <include id="$Language"/>
-        <p>
-          Each Language is a separate skill.  All characters begin
-          with at least one native Tongue, determined by birthplace.
-          Some characters may be bilingual.  The GM will tell you the
-          name of your native tongue(s).  Clerics also know their
-          church language.  (These are not specialties.)  Languages
-          are tested only on special occasions, such as when
-          foreigners converse.  Characters are presumed to speak their
-          native tongues at their social class level, which is well
-          enough to make success rolls unnecessary in general.  If
-          needed, the duration of the result is a speech, a dialog, or
-          other coherent activity.
-        </p>
-        <include id="$Language-1"/>
-        <p>
-          Foreign languages may be opened in the course of play as any
-          other skill.  The table below shows the three language
-          families spoken on/near H&#226;rn.  Living languages are
-          shown in italic.  When one language of a family is known, it
-          is easier to learn other related languages.  Orbaalese
-          belongs to two families.  Foreign tongues can be learned
-          with languages of the same family functioning as as
-          &#8220;teacher&#8221;.
-        </p>
-        <include id="$Language-2"/>
-        <p/>
-        <include id="$D-Language"/>
         <h5 class="skill" id="sk-law">Law</h5>
         <include id="$Law"/>
         <p>

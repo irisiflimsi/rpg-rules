@@ -115,14 +115,6 @@
       <td>Resolution</td><td>24</td><td>12</td><td>6</td><td>3</td><td>1.5</td><td>0.75</td><td>0.5</td><td>0.25</td>
     </tr>
   </table>
-  <table id="$D-Folklore" style="width:80%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>10</th><th>30</th><th>50</th>
-    </tr>
-    <tr class="text">
-      <td>Depth</td><td>Top myth</td><td>Great myths</td><td>Most myths</td><td>All myths</td>
-    </tr>
-  </table>
   <table id="$D-Hearing" style="width:40%">
     <tr>
       <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
@@ -131,23 +123,7 @@
       <td>Distance</td><td>0.1m</td><td>0.3m</td><td>1m</td><td>3m</td><td>10m</td><td>30m</td><td>100m</td><td>300m</td>
     </tr>
   </table>
-  <table id="$D-Heraldry" style="width:30%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Passive</td><td>6%</td><td>12%</td><td>30%</td><td>60%</td><td>120%</td>
-    </tr>
-  </table>
-  <table id="$D-Herblore" style="width:30%">
-    <tr>
-      <th>Dimension</th><th>-15</th><th>0</th><th>15</th><th>30</th><th>45</th><th>60</th>
-    </tr>
-    <tr class="num">
-      <td>True:False</td><td>1:100</td><td>1:10</td><td>1:1</td><td>10:1</td><td>100:1</td><td>1000:1</td>
-    </tr>
-  </table>
-  <table id="$D-Initiative" style="width:50%">
+  <table id="$D-Initiative" style="width:80%">
     <tr>
       <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th>
     </tr>
@@ -164,71 +140,6 @@
     </tr>
     <tr class="num">
       <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>3m</td><td>4m</td><td>5m</td><td>7m</td><td>9m</td><td>11m</td><td>13m</td><td>15m</td><td>20m</td>
-    </tr>
-  </table>
-  <table id="$D-Knowledge" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
-    </tr>
-    <tr class="num">
-      <td>Knowledge</td><td>0%</td><td>5%</td><td>20%</td><td>45%</td><td>65%</td><td>80%</td><td>90%</td><td>95%</td>
-    </tr>
-  </table>
-  <table id="$Language-1" style="width:50%">
-    <tr>
-      <th>Social Class</th><th>Native OML</th>
-    </tr>
-    <tr>
-      <td>Slave/Serf/Urban Poor</td><td>20</td>
-    </tr>
-    <tr>
-      <td>Guildsman/Military</td><td>30</td>
-    </tr>
-    <tr>
-      <td>Cleric/Nobility/Scholar</td><td>40</td>
-    </tr>
-  </table>
-  <table id="$Language-2" style="width:60%">
-    <tr>
-      <th>Jarind Family</th><th>Pharic Family</th><th>Azeri Family</th>
-    </tr>
-    <tr>
-      <td><em>Altish</em></td><td><em>Harbaalese</em></td><td>Azeri</td>
-    </tr>
-    <tr>
-      <td><em>Emela</em></td><td><em>Ivinian</em></td><td>Azeryani</td>
-    </tr>
-    <tr>
-      <td><em>H&#226;rnic</em></td><td>Old Trierzi</td><td><em>Byrian</em></td>
-    </tr>
-    <tr>
-      <td>Jarind</td><td><em>Orbaalese</em></td><td>Elbythian</td>
-    </tr>
-    <tr>
-      <td><em>Jarinese</em></td><td><em>Palithanian</em></td><td><em>High Azeryani</em></td>
-    </tr>
-    <tr>
-      <td>Old Altish</td><td>Phari</td><td><em>Karejian</em></td>
-    </tr>
-    <tr>
-      <td>Old H&#226;rnic</td><td>Quar</td><td>Karuia</td>
-    </tr>
-    <tr>
-      <td>Old Jarinese</td><td><em>Quarph</em></td><td><em>Low Azeryani</em></td>
-    </tr>
-    <tr>
-      <td><em>Orbaalese</em></td><td><em>Shorka</em></td><td><em>Urmesh</em></td>
-    </tr>
-    <tr>
-      <td><em>Yarili</em></td><td><em>Trierzi</em></td><td></td>
-    </tr>
-  </table>
-  <table id="$D-Language" style="width:50%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="text">
-      <td>Fluency</td><td>Opaque</td><td>Rudimentary</td><td>Fair</td><td>Fluent</td><td>Mastery</td>
     </tr>
   </table>
   <table id="$D-Law" style="width:50%">
