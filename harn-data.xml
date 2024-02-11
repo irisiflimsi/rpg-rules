@@ -496,12 +496,12 @@
       <td>Length</td><td>3</td><td>6</td><td>10</td><td>30</td><td>60</td><td>100</td>
     </tr>
   </table>
-  <table id="$D-Stamina" style="width:60%">
+  <table id="$D-Stamina" style="width:75%">
     <tr>
-      <th>Dimension</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Time factor</td> <td>3</td><td>2</td><td>3/2</td><td>1</td><td>3/4</td><td>1/2</td><td>3/8</td><td>1/4</td>
+      <td>Time factor</td><td>4</td><td>3</td><td>2</td><td>3/2</td><td>1</td><td>3/4</td><td>1/2</td><td>3/8</td><td>1/4</td>
     </tr>
   </table>
   <table id="$D-Strength"  style="width:60%">
@@ -626,10 +626,16 @@
       <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
     </tr>
     <tr class="num">
-      <td>Yield</td><td>20%</td><td>30%</td><td>40%</td><td>50%</td><td>60%</td><td>80%</td><td>100%</td><td>125%</td><td>150%</td><td>200%</td><td>250%</td>
+      <td>Fast Yield</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
     </tr>
     <tr class="num">
-      <td>Time</td><td>48h</td><td>24h</td><td>12h</td><td>6h</td><td>3h</td><td>2h</td><td>1h</td><td>0.7h</td><td>0.5h</td><td>0.4h</td><td>0.3h</td>
+      <td>Fast Time</td><td>64h</td><td>32h</td><td>16h</td><td>8h</td><td>4h</td><td>2h</td><td>1h</td><td>30min</td><td>15min</td><td>7.5min</td><td>3.75min</td>
+    </tr>
+    <tr class="num">
+      <td>Slow Yield</td><td>0</td><td>1/4</td><td>1/2</td><td>3/4</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>6</td><td>8</td>
+    </tr>
+    <tr class="num">
+      <td>Slow Time</td><td>48h</td><td>36h</td><td>24h</td><td>16h</td><td>12h</td><td>9h</td><td>6h</td><td>4:30h</td><td>3h</td><td>2:15h</td><td>1.5h</td>
     </tr>
   </table>
   <table id="$Attributemap" style="width:50%;">

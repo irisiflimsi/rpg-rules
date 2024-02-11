@@ -453,7 +453,10 @@
 	  result for any applicable modifiers (such as Hardiness
 	  Rating), the resulting net value gives the percentage of the
 	  crop yield that is in excess or short of the 100%.  (See
-	  H&#226;rn Manor 29.)
+	  H&#226;rn Manor 29.) For example, if the MLU is 20, all
+	  modifiers are a total of -10 and the roll itself + +5, then
+	  the net value is -5, resulting in a crop yield of 95% in the
+	  given year.
         </p>
         <h5 class="skill" id="sk-alc">Alchemy</h5>
         <p>
@@ -513,62 +516,35 @@
         </p>
         <include id="$D-Dexterity"/>
         <h5 class="skill" id="sk-end">Endurance</h5>
-        <include id="$Endurance"/>
         <p>
           Read Endurance as Healingrate for Fatigue, see Stamina.
           Remember that the fatigue accrued must be used as modifier
           for the next time interval. Standard healing rate is one
-          level per minute.  Also consider the increased fatigue rate
+          point per minute.  Also consider the increased fatigue rate
           for carrying heavy loads.
         </p>
-        <h5 class="skill" id="sk-eng">Engineering</h5>
-        <include id="$Engineering"/>
-        <p>
-          The ability to construct and maintain mills, drawbridges,
-          siege and castle engines, and the like.  This skill does not
-          include the ability to make small, delicate mechanisms such
-          as locks.  For construction use the <em>Recipe</em>
-          dimension.
-        </p>
+        <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-eye">Eyesight</h5>
-        <include id="$Eyesight"/>
         <p>
-          Eyesight cannot be improved.  The resolution is in mm/m or
-          m/km.  Typical modifications are made for contrast
-          (positive), movement (positive), distraction (negative), on
-          the border of the visual field (negative).
+          The resolution is in mm/m or m/km.  Typical modifications
+          are made for contrast (positive), movement (positive),
+          distraction (negative), on the border of the visual field
+          (negative).
         </p>
         <include id="$D-Eyesight"/>
         <h5 class="skill" id="sk-fis">Fishing</h5>
         <include id="$Fishing"/>
         <p>
-          Different techniques may be treated as specialties: Hook and
-          Line, Spear-fishing, Net-fishing, etc.  Some characters may
-          want to fish with their bare hands.  Conditions are assessed
-          by the GM depending on season, locale, and equipment.  Fish
-          alone does not provide a balanced diet.  With otherwise
-          average condition the base yield is 1 manday worth of fish.
-          Conditions range from excellent +20 to poor -20.  (Of
-          course, fishing requires a sufficiently large body of water,
-          capable of sustaining fish.  Overfishing may imply
-          additional penalties.)  Fishing uses the <em>Yield</em> and
-          <em>(Yield) Time</em> dimensions.
-        </p>
-        <h5 class="skill" id="sk-fla">Flail</h5>
-        <include id="$Flail"/>
-        <p>
-          The ability to use articulated (folding/bending) weapons.
-          Centrifugal force gives them high impact, but they are
-          difficult to use in combat, especially in close combat.  Use
-          the <em>Combat</em> dimensions.
+          Fishing uses the <em>Fast Yield</em> dimension.  The base
+          yield is one manday of food. Abundance of fish gives a
+          modifier of -20 to +20.
         </p>
         <h5 class="skill" id="sk-fle">Fletching</h5>
         <include id="$Fletching"/>
         <p>
           The ability to make and repair bows and arrows.  Base yield
           is 1/4 bow or 3 arrows, which assumes tools and materials
-          are readily available and a 12 hour period of work per day.
-          Use the <em>Yield</em> and <em>Yield (Time)</em> dimensions.
+          are available.  Use the <em>Slow Yield</em> dimensions.
         </p>
         <h5 class="skill" id="sk-fol">Folklore</h5>
         <include id="$Folklore"/>
