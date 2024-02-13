@@ -158,20 +158,19 @@
             <td><a href="#sk-mov">Move</a></td>
             <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
-            <td><a href="#sk-pil">Piloting</a></td>
             <td><a href="#sk-men">Psi Conflict</a></td>
             <td><a href="#sk-psi">Psi Talents</a></td>
+            <td><a href="#sk-rhe">Rhetoric</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-rhe">Rhetoric</a></td>
             <td><a href="#sk-ste">Stealth</a></td>
             <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-tim">Timbercraft</a></td>
+            <td><a href="#sk-tra">Tracking</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-tra">Tracking</a></td>
             <td><a href="#sk-una">Unarmed</a></td>
             <td><a href="#sk-weap">Weaponcraft</a></td>
             <td><a href="#sk-weat">Weatherlore</a></td>
@@ -679,39 +678,12 @@
         </p>
         <h5 class="skill" id="sk-phy">Physician</h5>
         <p>
-          The ability to diagnose and treat medical ailments, wounds,
-          etc..  Usually the physician first tests EML to diagnose the
-          ailment.  See the Physician chapter.  Most folk have a
-          rudimentary understanding of treating wounds and simple
-          injuries, a physician can treat animals with a -10 penalty.
+	  Use Physician skill to determine an improvemnt for the
+	  healing rate (see Stamina).  Note that the presence of a
+	  physician improves the healing rate even further.  The
+	  injury points are subtracted as penalty.
         </p>
         <include id="$D-Physician"/>
-        <p>
-          When the internal system has become incapacitated due to
-          fatigue, often from drowning, this means breathing has
-          stopped and the lungs have potentially filled with water or
-          another toxic substance).  When this condition has changed,
-          breathing theoretically can return to normal and
-          resuscitation may be attempted.  The <em>Resuciation</em>
-          dimension is equal to the <em>Recipe</em> dimension in
-          values.  The value in this dimension is the number of
-          fatigue points a physician removes immediately.  Such an
-          attempt may only be made once per subject every minute (by
-          the same or different people).  Multiple people working in
-          concert may use 5-Addition.
-        </p>
-        <p>
-          Healing rate is used for wounds/injury.  A physician designs
-          a treatment that must continually be applied with a first
-          roll.  A second roll must be made during the time the
-          physician actively applies a treatment (possibly identified
-          by another colleague).  The minimum value from these two
-          rolls is applied during the healing process.  Often the
-          quality of medicine is another factor that comes into play,
-          this depends on the therapy.  (From the rules it follows
-          that the difficulty for first and second roll can be
-          increased by 5 for a combined roll.)
-        </p>
         <h5 class="skill" id="sk-pie">Piety</h5>
         <p>
           This skill is specific for each Deity and can only be opened
@@ -721,11 +693,6 @@
           actions; it can decline just as fast through improper ones.
         </p>
         <include id="$D-Piety"/>
-        <h5 class="skill" id="sk-pil">Piloting</h5>
-        <p>
-          The ability to navigate a ship.  This skill is detailed in
-          Pilots&#8217; Almanac.
-        </p>
         <h5 class="skill" id="sk-men">Psi Conflict</h5>
         <include id="$PsiConflict"/>
         <p>

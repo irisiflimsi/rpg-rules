@@ -150,12 +150,12 @@
       <td>Speed (m/s)</td><td>1/2</td><td>3/4</td><td>1</td><td>3/2</td><td>2</td><td>3</td><td>4</td><td>6</td><td>8</td><td>12</td><td>16</td><td>24</td><td>32</td><td>48</td><td>64</td>
     </tr>
   </table>
-  <table id="$D-Physician" style="width:80%">
+  <table id="$D-Physician" style="width:70%">
     <tr>
-      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th>
+      <th>Dimension</th><th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Heal Rate</td><td>4</td><td>2.5</td><td>2.0</td><td>1.7</td><td>1.4</td><td>1.2</td><td>1</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td><td>0.55</td><td>0.5</td>
+      <td>Healing</td><td>-4</td><td>-2</td><td>0</td><td>+2</td><td>+4</td><td>+6</td><td>+8</td><td>+10</td><td>+12</td><td>+14</td><td>+16</td>
     </tr>
   </table>
   <table id="$D-Piety" style="width:90%">
@@ -173,7 +173,7 @@
         from other major faiths.
       </td>
       <td>
-        The main tenants are known and followed individually.
+        The main tenets are known and followed individually.
         Sects/heresies are not considered.
       </td>
       <td>
