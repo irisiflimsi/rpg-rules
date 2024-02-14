@@ -155,7 +155,7 @@
       <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Healing</td><!--td>-4</td><td>-2</td><td>0</td><td>+2</td><td>+4</td><td>+6</td><td>+8</td><td>+10</td><td>+12</td><td>+14</td><td>+16</td-->
+      <td>Healing</td><td>-4</td><td>-2</td><td>0</td><td>+2</td><td>+4</td><td>+6</td><td>+8</td><td>+10</td><td>+12</td><td>+14</td><td>+16</td>
     </tr>
   </table>
   <table id="$D-Piety" style="width:90%">
