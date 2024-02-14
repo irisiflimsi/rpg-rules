@@ -106,30 +106,22 @@
         <include id="$Calculate-2"/>
         <h3 id="s3kills">Overview</h3>
         <p>
-          Analyzing the probabilities, we have about four distinct
-          levels as described in the main page.  Interestingly, any
-          competence in H&#226;rnworld is abstracted on a five-star
-          scale &#9733; through &#9733;&#9733;&#9733;&#9733;&#9733;,
-          where exceptional values may go beyond.  Whenever we have
-          ML, SB or other technical terms, we append an U to
-          distinguish the Universal rules, from the classic. E.g. MLU
-          and SBU.  You can calculate MLU as ML * 0.4.  The basic
-          50/50 chance of success on a skill roll is with an ML of
-          50%, i.e. an MLU of 20. Thus the most basic task difficulty
-          - all other things being equal - should be set to 20.
+	  Whenever we have ML, SB or other technical terms, we append
+	  an U to distinguish the Universal rules, from the
+	  classic. E.g. MLU and SBU.  You can calculate MLU as ML *
+	  0.4.  The basic 50/50 chance of success on a skill roll is
+	  with an ML of 50%, i.e. an MLU of 20. Thus the most basic
+	  task difficulty - all other things being equal - should be
+	  set to 20.
         </p>
         <p>
           Skills govern all activities, from combat to spell-casting.
           All skills are rated on an open scale starting from zero
           (0), with only 10% reaching 10 points more.  This general
-          situation is in-world knowledge and what the star-rating is
-          used for.  But this is also identical with the p5 system of
-          rolling dice, which is out-world.  The skill scale is
-          open-ended as the p5 roll is, but humans generally do not
-          get scores beyond 50 (out-world) or
-          &#9733;&#9733;&#9733;&#9733;&#9733; (in-world).  A skill
-          level is often called ML.  Each &#9733; is equivalent to 10
-          points of MLU.
+          situation is in-world knowledge.  But this is also identical
+          with the p5 system of rolling dice, which is out-world.  The
+          skill scale is open-ended as the p5 roll is, but humans
+          generally do not get scores beyond 50 (out-world).
         </p>
         <p>
           The following is a list of skills that are commonly used by
@@ -155,10 +147,10 @@
             <td><a href="#sk-jum">Jumping</a></td>
           </tr>
           <tr>
+            <td><a href="#sk-men">Mental Conflict</a></td>
             <td><a href="#sk-mov">Move</a></td>
             <td><a href="#sk-phy">Physician</a></td>
             <td><a href="#sk-pie">Piety</a></td>
-            <td><a href="#sk-men">Psi Conflict</a></td>
             <td><a href="#sk-psi">Psi Talents</a></td>
             <td><a href="#sk-rhe">Rhetoric</a></td>
           </tr>
@@ -194,11 +186,12 @@
             <td><a href="#di-acc">Accuracy</a></td>
             <td><a href="#di-co1">Combat/Melee</a></td>
             <td><a href="#di-co2">Combat/Missile</a></td>
+            <td><a href="#di-co3">Combat/Grapple</a></td>
             <td><a href="#di-kno">Knowlegde</a></td>
             <td><a href="#di-reg">Regional</a></td>
-            <td><a href="#di-rec">Recipes</a></td>
           </tr>
           <tr>
+            <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-tra">Travel</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
@@ -470,7 +463,7 @@
           combat are applied immediately to pending progressions, but
           the wound itself is modified by <em>B/E/P</em> of choice
           from the weapon and the appropriate armor.  The offset is
-          alonge the trajectory chosen.  Note that the same is true
+          along the trajectory chosen.  Note that the same is true
           for affects on the defender.  If this implies an action to
           occur in the past, it is resolved immediately.
         </p>
@@ -478,8 +471,14 @@
         <h5 class="skill" id="di-co2">Combat/Missile</h5>
         <p>
 	  Use the same dimension as the Melee combat, but do not
-	  increase the number of times, damage is dealt per 5s.  In
-	  fact, reloading times for a crossbow are 10s.
+	  modify the time dimension below 5s.  Reloading a crossbow
+	  takes 10s.
+	</p>
+        <h5 class="skill" id="di-co3">Combat/Grapple</h5>
+	<p>
+	  Wounds are treated as penalty to activity that involves the
+	  affected body part instead of damage to heal.  Such wounds
+	  are reduced to zero, once the grapple is no longer maintained.
 	</p>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
         <p>
@@ -641,6 +640,14 @@
             substance is possible.
           </p>
         </div>
+        <h5 class="skill" id="sk-men">Mental Conflict</h5>
+        <include id="$PsiConflict"/>
+        <p>
+          A fatigue rate of 1 fatigue level per minute is multiplied
+          be the result in the table.  Mental Conflict is resolved
+          similar to normal combat.
+        </p>
+        <include id="$D-PsiConflict"/>
         <h5 class="skill" id="sk-mov">Move</h5>
         <p>
           Humans can accelerate and decelerate as 3 m/s each second.
@@ -686,90 +693,11 @@
         <include id="$D-Physician"/>
         <h5 class="skill" id="sk-pie">Piety</h5>
         <p>
-          This skill is specific for each Deity and can only be opened
-          at non-zero value with the proper religious background.
-          (There is no specialties or specific sunsign.)  This skill
-          is not learned as usual but improved through righteous
-          actions; it can decline just as fast through improper ones.
+	  This skill is not learned as usual but improved through
+	  righteous actions; it can decline just as fast through
+	  improper ones.
         </p>
         <include id="$D-Piety"/>
-        <h5 class="skill" id="sk-men">Psi Conflict</h5>
-        <include id="$PsiConflict"/>
-        <p>
-          A character&#8217; ability to withstand mental domination.
-          Mental Conflict is a skill to resolve mental or spiritual
-          conflict and can be referred to as a &#8220;Battle of
-          Wills&#8221;.  Characters are always aware of an attack,
-          even if unconscious or sleeping.  A fatigue rate of 1 means
-          1 fatigue level per minute, which is multiplied be the
-          result in the table.
-        </p>
-        <include id="$D-PsiConflict"/>
-        <p>
-          Modifiers: -5 unconscious/sleeping, +5 native spirit, +10
-          living, +10 willing.  Conflict Types:
-        </p>
-        <div class="explain">
-          <p>
-            <em>Possession:</em> An alien spirit may possess a
-            physical body by winning a mental conflict with the
-            resident spirit.  Possession is easier if the native
-            spirit is absent (disembodied) as an astral.  Reduce the
-            MLU by 1 for each 5% of Aura that is missing from the
-            resident Aura.  The losing spirit suffers Dissolution.  An
-            evicted spirit may later attempt to repossess its own body
-            (or another) with a mental conflict.  Remember that the
-            native spirit (if any) always has +5 to MLU.
-          </p>
-          <p>
-            <em>Ethereal Conflict:</em> Two ethereals meet and do
-            battle.  The losing spirit suffers dissolution.
-          </p>
-          <p>
-            <em>Artifact Control:</em> A character tries to invoke a
-            major artifact&#8217;s powers and the artifact resists.
-          </p>
-          <p>
-            <em>Benign Mind Linking:</em> Some healers, for example,
-            use mental linking as a way to diagnosis a patient&#8217;s
-            ailments.  The willing bonus implies an &#8220;Ignore
-            &#8221; defense.
-          </p>
-        </div>
-        <p>
-          <em>Dissolution:</em> Dissolution is the scattering of a
-          spirit&#8217;s &#8220;substance&#8221;.  It reforms in p5
-          hours at the location of the spirit&#8217;s physical body
-          (if it has one), otherwise in a nearby location.  When the
-          process is complete, the spirit regains consciousness, has
-          no fatigue, and may now engage in another mental conflict.
-        </p>
-        <p>
-          <em>Exorcism:</em> A 5th Circle ritual invocation to aid a
-          native spirit with evicting a possessing alien spirit.  The
-          ritual requires frequent laying on of hands and Holy Water.
-          The effect is to increase Mental Conflict MLU.  See Religion.
-        </p>
-        <p>
-          Mental Conflict Example.  The demon Karpek (MLU 26) seeks to
-          possess the Peonian priestess Larinda (MLU 18).  Larinda is
-          +15 for being the native spirit and living (MLU 33).  Karpek
-          rolls +9 and Larinda rolls -3, resulting in fatigue rates 1
-          per minute for Larinda and 6 per 10 minutes for Karpek.  A
-          few successful shock rolls later, Larinda invokes
-          Peoni&#8217;s Mercy, a ritual invocation that could force
-          the demon to depart.  Her Fatigue at that point is (-2) and
-          the Circle Modifier (-4), which reduces her Ritual MLU to 12
-          and she fails the roll.  The process continues.  This time
-          she fails the next Shock roll, allowing the demon its
-          possession.  Larinda&#8217;s spirit is evicted and suffers
-          dissolution.  Her body now obeys the demon&#8217;s wishes.
-          Larinda&#8217;s spirit will reform after her (spirit) injury
-          of 4 points are healed and she may then attempt to repossess
-          her body (+5 for being a Native Spirit) with a mental
-          conflict.  Larinda plans to use the ritual invocation
-          Exorcism to aid her task.
-        </p>
         <h5 class="skill" id="sk-psi">Psi Talents</h5>
         <p>
           All Talents are treated as separate skills.
@@ -818,42 +746,6 @@
           the difficulty is a 5-Addition instead.
         </p>
         <include id="$D-Rhetoric"/>
-        <h5 class="skill" id="sk-rit">Ritual</h5>
-        <div class="explain">
-          <p>
-            <em>Baptism, Blessing, Commune, Marriage:</em> Use the
-            Piety Gain dimension.
-          </p>
-          <p>
-            <em>Liturgy:</em> Use the Piety Gain dimension, if the
-            total piety (5-Addition) of the congregation, subtracting
-            the cleric&#8217;s, is higher or equal to that amount.
-          </p>
-          <p>
-            <em>Awe:</em> Use dimension of the same name.
-          </p>
-          <p>
-            <em>Tongues:</em> 5-Add 15 to get the temporary language
-            understanding.
-          </p>
-          <p>
-            <em>Consecration:</em> The rituals have -1 for each
-            completed 5 minutes casting time.  Such penalties for
-            consecutive casting is removed 1 point perday.
-          </p>
-          <p>
-            <em>Excommunication:</em> Effects are reduction of Piety
-            by 10 &#8220;unlearning &#8221; rolls; the reduction in
-            Ritual are 5 &#8220;unlearning &#8221; rolls.
-          </p>
-          <p>
-            <em>Excorcism:</em> The mental conflict is modified by
-            that part of the skill not used to reduce casting time,
-            i.e. it is another result dimension.  Use a trajectory as
-            described elsewhere, i.e. a proportional relationship of
-            dimensions.
-          </p>
-        </div>
         <h5 class="skill" id="sk-sta">Stamina</h5>
         <include id="$Stamina"/>
         <p>
