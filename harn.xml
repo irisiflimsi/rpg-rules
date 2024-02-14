@@ -683,7 +683,7 @@
 	  physician improves the healing rate even further.  The
 	  injury points are subtracted as penalty.
         </p>
-        <include id="$D-Physician"/>
+        <!--include id="$D-Physician"/-->
         <h5 class="skill" id="sk-pie">Piety</h5>
         <p>
           This skill is specific for each Deity and can only be opened
