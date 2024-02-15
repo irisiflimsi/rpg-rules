@@ -155,16 +155,14 @@
             <td><a href="#sk-rhe">Rhetoric</a></td>
           </tr>
           <tr>
-            <td><a href="#sk-ste">Stealth</a></td>
-            <td><a href="#sk-sur">Survival</a></td>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
             <td><a href="#sk-tim">Timbercraft</a></td>
             <td><a href="#sk-tra">Tracking</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-una">Unarmed</a></td>
             <td><a href="#sk-weap">Weaponcraft</a></td>
+          </tr>
+          <tr>
             <td><a href="#sk-weat">Weatherlore</a></td>
             <td><a href="#sk-woo">Woodcraft</a></td>
           </tr>
@@ -492,7 +490,7 @@
           Remember that the fatigue accrued must be used as modifier
           for the next time interval. Standard healing rate is one
           point per minute.  Also consider the increased fatigue rate
-          for carrying heavy loads.
+          for carrying heavy loads, see Strength.
         </p>
         <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-eye">Eyesight</h5>
@@ -688,7 +686,8 @@
 	  Use Physician skill to determine an improvement for the
 	  healing rate (see Stamina).  Note that the presence of a
 	  physician improves the healing rate even further.  The
-	  injury points are subtracted as penalty.
+	  injury points are subtracted as penalty to determine the
+	  healing bonus.
         </p>
         <include id="$D-Physician"/>
         <h5 class="skill" id="sk-pie">Piety</h5>
@@ -749,49 +748,26 @@
         <h5 class="skill" id="sk-sta">Stamina</h5>
         <include id="$Stamina"/>
         <p>
-          Healing time for 1 injury point is 1 day.  Factor the roll
-          to get the actual healing rate.
+          Healing time is given for one injury point.  Subtract the
+          number of injury points a wound has twice.  Add a potential
+          physician's bonus once when determining the healing rate for
+          the wound. An effective healing rate can be improved with a
+          physician present. Note that a reduction in the effective
+          wound points does not cause re-evaulation of the effective
+          healing rate.
         </p>
         <include id="$D-Stamina"/>
-        <h5 class="skill" id="sk-ste">Stealth</h5>
-        <include id="$Stealth"/>
-        <p>
-          Stealth is tested when a character attempts to move without
-          being detected.  The attempt presumes reasonable conditions.
-          ML is further modified for distance to the target, available
-          cover, etc.  Awareness of potential observers is deducted
-          from ML, i.e. added to difficulty.
-        </p>
         <h5 class="skill" id="sk-str">Strength</h5>
         <include id="$Strength"/>
         <p>
-          The listed weight excluding your own body can be lifted.  At
-          that point any activity is at -10.  This penalty scales
-          linearly down or up with additional weight, any fraction of
-          the weight carried also incurs the same fraction of -10 as
-          penalty.  Note that with certain penalties usually trivial
-          activities (i.e. no roll required) become difficult, for
-          instance not stumbling.  Still without tools, activity with
-          both hands is impossible.  Freeing one hand incurs twice the
-          penalty and assumes that the weight is liftable that way.
-          Fatigue is accrued at the 1 point per 10 seconds for the
-          maximum lift.  Fractions (which cannot exceed 1) of that
-          lift generate the corresponding fractional fatigue rate.
-          E.g. lifting half the maximum weight gives 3 points per
-          minute (or 1 per 20 seconds).  Only simple fractions are
-          allowed.  See Endurance for a modification to fatigue.
+          The listed weight (excluding your own body) can be lifted as
+          maximum when you apply the dimension of the table below to
+          Strength.  For longer periods of lifting, apply the
+          dimension to Endurance to get a maximum carry load
+          (MCL). Fatigue rate is determined as the precentage of the
+          real load carried divided by MCL multiplied by 10/minute.
         </p>
         <include id="$D-Strength"/>
-        <h5 class="skill" id="sk-sur">Survival</h5>
-        <include id="$Survival"/>
-        <p>
-          Different climate and terrain types may be specialties.  The
-          knack of surviving in the wilderness, used for outdoor
-          activities not covered by Foraging, Tracking, or Herblore.
-          May be used to establish the quality of a lean-to, build
-          fires under difficult circumstances, etc.  Use the
-          <em>Regional</em> dimension.
-        </p>
         <h5 class="skill" id="sk-swi">Swimming</h5>
         <include id="$Swimming"/>
         <p>
@@ -813,33 +789,7 @@
           result implies the character goes down with the speed of the
           negative result.  (I.e. -5 means going down at 0.5 m/s.)  A
           reroll may be attempted every second, but fatigue applies
-          immediately.  A character who can no longer hold his breath
-          (see Endurance) and spends more (consecutive) time
-          underwater than they can hold their breath passes out, the
-          character&#8217;s lungs fill with water, they stop
-          breathing, and the character will receive Drowning damage.
-          An unconscious character removed from the water may be
-          revived with standard Physician/healing mechanisms.
-        </p>
-        <h5 class="skill" id="sk-swo">Sword</h5>
-        <include id="$Sword"/>
-        <p>
-          The ability to use swords.  Use the <em>Combat</em>
-          dimensions.
-        </p>
-        <h5 class="skill" id="sk-tar">Tarotry</h5>
-        <include id="$Tarotry"/>
-        <p>
-          The ability to use Tarot for contemplation and/or
-          divination.  Use the <em>Accuracy</em> dimension.
-        </p>
-        <h5 class="skill" id="sk-tex">Textilecraft</h5>
-        <include id="$Textilecraft"/>
-        <p>
-          Used to determine the quality of textile goods produced by
-          the character.  Task complexity, quality and availability of
-          tools and materials affect results.  Use the <em>Recipe</em>
-          dimension.
+          immediately.
         </p>
         <h5 class="skill" id="sk-thr">Throwing</h5>
         <include id="$Throwing"/>
