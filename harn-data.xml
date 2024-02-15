@@ -261,25 +261,6 @@
       <td>Speed</td><td>-1m/s</td><td>0.0m/s</td><td>0.5m/s</td><td>1m/s</td><td>1.5m/s</td>
     </tr>
   </table>
-  <table id="$D-Throwing" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
-    </tr>
-    <tr class="num">
-      <td>Distance</td><td>0</td><td>10m</td><td>20m</td><td>40m</td><td>60m</td><td>90</td><td>120m</td>
-    </tr>
-  </table>
-  <table id="$D-Timbercraft" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Yield</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>60d</td><td>40d</td><td>30d</td><td>20d</td><td>15d</td>
-    </tr>
-  </table>
   <table id="$D-Travel" style="width:40%">
     <tr>
       <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>

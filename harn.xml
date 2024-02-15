@@ -746,7 +746,6 @@
         </p>
         <include id="$D-Rhetoric"/>
         <h5 class="skill" id="sk-sta">Stamina</h5>
-        <include id="$Stamina"/>
         <p>
           Healing time is given for one injury point.  Subtract the
           number of injury points a wound has twice.  Add a potential
@@ -758,7 +757,6 @@
         </p>
         <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-str">Strength</h5>
-        <include id="$Strength"/>
         <p>
           The listed weight (excluding your own body) can be lifted as
           maximum when you apply the dimension of the table below to
@@ -769,7 +767,6 @@
         </p>
         <include id="$D-Strength"/>
         <h5 class="skill" id="sk-swi">Swimming</h5>
-        <include id="$Swimming"/>
         <p>
           Difficulty of swimming conditions is rated on the Beaufort
           scale.  Test Swimming once for each continuous swim without
@@ -792,40 +789,11 @@
           immediately.
         </p>
         <h5 class="skill" id="sk-thr">Throwing</h5>
-        <include id="$Throwing"/>
-        <p>
-          Throwing for accuracy is covered under Missile Combat.  When
-          throwing for distance, an ideal throwing object is
-          spherical, weighs three ounces and fits comfortably in the
-          hand.  An ideal situation is one where the thrower has room
-          to swing arms, good footing, and no distractions.  Heavier
-          objects reduce ML.  When throwing with little/no attempt at
-          accuracy, the table indicates the distance an ideal object
-          carries.  Aiming is dealt with in the Combat chapter.
-        </p>
-        <include id="$D-Throwing"/>
-        <h5 class="skill" id="sk-tim">Timbercraft</h5>
-        <include id="$Timbercraft"/>
-        <p>
-          The art of selecting timber from a forest, felling trees,
-          and rough-cutting into lumber.  The unit of yield is
-          sufficient wood to build a wagon, or a wooden cottage.  (The
-          wood has to dried and prepared before it can be used by a
-          woodcrafter.  The units are simple trunks or batches
-          thereof.)  Also note that this skill has a different yield
-          dimension than most others.
-        </p>
-        <include id="$D-Timbercraft"/>
-        <h5 class="skill" id="sk-tra">Tracking</h5>
-        <include id="$Tracking"/>
-        <p>
-          Specialties may be creature types.  The ability to detect
-          and follow tracks.  When spores are encountered, Tracking is
-          tested to determine whether the character has detected them.
-          Thereafter, if the tracker tries to follow a trail,
-          additional tests are made periodically.  Use the
-          <em>Regional</em> dimension.
-        </p>
+	<p>
+	  The distance thrown in meters is the n5 roll doubled. E.g. a
+	  character with MLU of 15 and a roll of +4 throws a suitable
+	  object for a distance of 38 meters.
+	</p>
         <h5 class="skill" id="di-tra">Travel</h5>
         <p>
           The <em>Km</em> distance dimensions <em>Sail</em> and
