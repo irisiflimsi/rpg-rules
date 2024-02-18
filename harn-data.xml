@@ -490,6 +490,9 @@
     <tr><td>Frost</td><td>Serious</td><td>Warming</td></tr>
     <tr><td>Frost</td><td>Grievous</td><td>Amputate</td></tr>
     <tr><td>Frost</td><td>Incapacitating</td><td>Amputate</td></tr>
-    <tr><td><em>Bloodloss</em></td><td>Any</td><td>Compress</td></tr>
+    <tr><th colspan="3" style="padding:1px;"/></tr>
+    <tr><td>Bloodloss</td><td>Minor</td><td>Compress</td></tr>
+    <tr><td>Bloodloss</td><td>Serious</td><td>Surgery</td></tr>
+    <tr><td>Bloodloss</td><td>Grievous</td><td>Amputate</td></tr>
   </table>
 </root>
