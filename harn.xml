@@ -868,33 +868,7 @@
         </p>
         <include id="$D-Yield"/>
         <h5/>
-        <h3 id="p3sionics">Psionics</h3>
-        <p>
-          One way to determine how many talent are made for a new
-          character, the GM secretly rolls n5 and adds Aura.  For
-          example, with a n5 roll of 0 and an Aura of 5, a character
-          would get five talents.  Alternative, a character with at
-          least an Aura of 10, may select or roll Psionic talents with
-          total skill points of AUR - 10.  Psionic Talents accrue
-          Fatigue at 1 point per minute.
-        </p>
-        <h3 id="religion">Religion</h3>
-        <p>
-          <em>Sin, Piety, &#0038; Morality</em>: If a character acts
-          in a manner inconsistent with their god&#8217;s morality,
-          the GM should deduct Piety depending on the extent of the
-          sin.  Sin penalties can be imposed directly, but subtle
-          deductions by the GM are better.  The GM may also adjust a
-          character&#8217;s Morality based upon actions over time.
-          Characters with a Piety total that equals or exceeds their
-          Ritual Mastery are said to have Divine Grace.
-        </p>
-        <p>
-          Divine intervention is totally at the GMs discretion and the
-          seemingly high chances are mostly from self-reports of
-          particularly faithful clerics.
-        </p>
-        <h3 id="c3ombat">Combat</h3>
+        <h1 id="combat">Combat</h1>
         <p>
           At the beginning of each combat the players and GM should
           jointly decide which action options they want to allow and
@@ -1161,8 +1135,9 @@
             in a Shock chance.  Use accumulated injury and fatigue as
             difficulty for a Stamina skill roll against 0.  Failure
             results in unconsciousness for a time indiciated in the
-            Shock table.  Someone in Shock for more than 10 days will
-            never wake up again.
+            Shock table.  Unconscious people cannot eat and drink.
+            Someone in Shock for more than 10 days will likely never
+            wake up again.
           </p>
           <p>
             <em>Inanimate Damage:</em> Instead of (autonomous)
@@ -1207,9 +1182,6 @@
           Shock Table
         </p>
         <include id="$Combat-Shock"/>
-      </div>
-      <div class="container">
-        <h1 id="comb">Combat</h1>
         <p>
 	  Any ML additions that are multiples of 10 need to be
 	  downgraded to 40% as MLU modifier and multiples of 5 are
@@ -1276,15 +1248,6 @@
           parts, death is probably imminent due to the side effects.)
           Grievous use effects are at 10 less than the Destroyed wound
           itself.
-        </p>
-        <p>
-          <em>Fumble/Stumble:</em> A wound level &#9733; above
-          (effective) Dexterity on an arm causes any object held to be
-          dropped, a Fumble.  A wound level &#9733; above (effective)
-          Agility on a leg causes the victim to fall down, a Stumble.
-          A combatant is eligible for a Grope action to pick up any
-          object dropped.  A combatant that dropped to a Stumble is
-          likewise able to get back up.
         </p>
         <h3 id="heal-wounds">Healing</h3>
         <p>

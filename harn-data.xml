@@ -396,7 +396,7 @@
       <th>Result</th><th>-1</th><th>-2</th><th>-3</th><th>-4</th><th>-6</th><th>-1</th><th>-7</th><th>-8</th><th>-9</th><th>-10</th><th>-11</th><th>-12</th><th>-13</th><th>-14</th><th>-15</th><th>-16</th><th>-17</th><th>-18</th><th>-19</th><th>-20</th>
     </tr>
     <tr>
-      <td>Time</td><td>1s</td><td>3s</td><td>6s</td><td>10s</td><td>30s</td><td>1min</td><td>3min</td><td>6min</td><td>10min</td><td>30min</td><td>1h</td><td>3h</td><td>6h</td><td>10h</td><td>10h</td><td>1day</td><td>3days</td><td>6days</td><td>10days</td>
+      <td>Time</td><td>1s</td><td>3s</td><td>6s</td><td>10s</td><td>30s</td><td>1min</td><td>3min</td><td>6min</td><td>10min</td><td>30min</td><td>1h</td><td>3h</td><td>6h</td><td>10h</td><td>1day</td><td>3day</td><td>6days</td><td>10days</td><td>30days</td><td>60days</td>
     </tr>
   </table>
   <table id="$Location" class="grid" style="width:90%">
