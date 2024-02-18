@@ -742,7 +742,7 @@
         <p>
           Healing time is given for one injury point.  Subtract the
           number of injury points a wound has twice.  Add a potential
-          physician's bonus once when determining the healing rate for
+          physician&#8217;s bonus once when determining the healing rate for
           the wound. An effective healing rate can be improved with a
           physician present. Note that a reduction in the effective
           wound points does not cause re-evaulation of the effective
@@ -1035,14 +1035,15 @@
             <em>Block/Dodge:</em> For dodging, use Dodge skill.  Dodge
             and Block/Parry are added through 5-Addition, if used
             together.  Dodge/parry is mostly used at the same time an
-            attack is contemlated by the defender himself.  To ease
-            calculation, only every defense beyond one causes a -5
-            penalty in the next 10 seconds. E.g., the first defense is
-            at full MLU, the second at MLU-5 and the third is at
-            MLU-10 and sone on.  Note that that this is in addition to
-            potential 5-addition of potential attackers' MLU. If
-            attackers coordinate in this manner, the defense MLU is
-            not 5-added, but the penalty is averaged.
+            attack is contemplated by the defender himself.  To ease
+            calculation, only every defense beyond one attacker causes
+            a -5 penalty in the next 10 seconds. E.g., the first
+            attacker is defended at full MLU, the second at MLU-5 and
+            the third is at MLU-10 and sone on.  Note that that this
+            is in addition to potential 5-addition of potential
+            attackers&#8217; MLU.  If attackers coordinate in this
+            manner, the defense MLU is not 5-added, but the penalty is
+            averaged.
           </p>
           <p>
             <em>Steed Trample:</em> Use steed ML (and penalties) only.
