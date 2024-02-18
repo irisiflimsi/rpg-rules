@@ -332,12 +332,12 @@
       <td>Reduction</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-3</td><td>-4</td><td>-5</td>
     </tr>
   </table>
-  <table id="$D-Weatherlore" style="width:40%">
+  <table id="$D-Weatherlore" style="width:60%">
     <tr>
       <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
     </tr>
     <tr class="num">
-      <td>Time</td><td>0.25h</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
+      <td>Time</td><td>15min</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
     </tr>
   </table>
   <table id="$D-Yield" style="width:90%">
@@ -357,32 +357,6 @@
       <td>Slow Time</td><td>48h</td><td>36h</td><td>24h</td><td>16h</td><td>12h</td><td>9h</td><td>6h</td><td>4:30h</td><td>3h</td><td>2:15h</td><td>1.5h</td>
     </tr>
   </table>
-  <table id="$Attributemap" style="width:50%;">
-    <tr>
-      <th>3d6</th><th>0-2</th><th>3-5</th><th>6-8</th><th>9-12</th><th>13-15</th><th>16-18</th><th>19-21</th>
-    </tr>
-    <tr>
-      <td>Value</td><td>-5</td><td>-3/-4</td><td>-1/-2</td><td>0</td><td>+1/+2</td><td>+3/+4</td><td>+5</td>
-    </tr>
-    <tr>
-      <td>Star-Rating</td>
-      <td>-</td><td>&#9733;</td><td>&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;</td><td>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;</td>
-    </tr>
-  </table>
-  <table id="$D-Ritual-dim" style="width:60%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Piety Gain</td><td>-3</td><td>-1</td><td>1</td><td>3</td><td>5</td><td>7</td><td>9</td>
-    </tr>
-    <tr class="num">
-      <td>Awe Duration</td><td>0s</td><td>1s</td><td>1s</td><td>2s</td><td>3s</td><td>4s</td><td>6s</td>
-    </tr>
-    <tr class="num">
-      <td>Casting Time</td><td>1.2</td><td>1.1</td><td>1.0</td><td>0.9</td><td>0.8</td><td>0.7</td><td>0.6</td>
-    </tr>
-  </table>
   <table id="$Combat-MA" style="width:70%">
     <tr>
       <th>Additional Targets</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
@@ -390,9 +364,9 @@
       <th>11</th><th>12</th><th>13</th><th>14</th><th>15</th>
     </tr>
     <tr>
-      <td>Bonus</td><td>+2.9</td><td>+5.0</td><td>+6.6</td><td>+7.9</td><td>+9.0</td>
-      <td>+10.0</td><td>+10.8</td><td>+11.6</td><td>+12.3</td><td>12.9</td>
-      <td>13.5</td><td>14.0</td><td>14.5</td><td>15.0</td><td>15.4</td>
+      <td>Bonus</td><td>+3</td><td>+5</td><td>+7</td><td>+8</td><td>+9</td>
+      <td>+10</td><td>+11</td><td>+12</td><td>+13</td><td>13</td>
+      <td>+14</td><td>+14</td><td>+15</td><td>+15</td><td>+15</td>
     </tr>
   </table>
   <table id="$Combat-Size" style="width:70%">
@@ -415,23 +389,6 @@
       <td>Impact (B)</td><td>0</td><td>0</td><td>1</td>
       <td>3</td><td>5</td><td>10</td><td>15</td>
       <td>25</td><td>35</td><td>44</td><td>75</td>
-    </tr>
-  </table>
-  <table id="$Joust" style="width:50%">
-    <tr>
-      <th>Effect</th><th>Unhorsing</th><th>Own Attack ML</th><th>Shield WQ</th><th>Opponent Attack ML</th>
-    </tr>
-    <tr>
-      <td>Block</td><td>+5</td><td>-3</td><td>-2</td><td>-</td>
-    </tr>
-    <tr>
-      <td>Deflect</td><td>-4</td><td>-4</td><td>+1</td><td>-2</td>
-    </tr>
-    <tr>
-      <td>Evade</td><td>-</td><td>-6</td><td>-</td><td>-4</td>
-    </tr>
-    <tr>
-      <td>Lunge</td><td>-2</td><td>+2</td><td>-</td><td>-</td>
     </tr>
   </table>
   <table id="$Sunsigns" style="width:70%">

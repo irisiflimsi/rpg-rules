@@ -157,14 +157,7 @@
           <tr>
             <td><a href="#sk-swi">Swimming</a></td>
             <td><a href="#sk-thr">Throwing</a></td>
-            <td><a href="#sk-tim">Timbercraft</a></td>
-            <td><a href="#sk-tra">Tracking</a></td>
-            <td><a href="#sk-una">Unarmed</a></td>
-            <td><a href="#sk-weap">Weaponcraft</a></td>
-          </tr>
-          <tr>
             <td><a href="#sk-weat">Weatherlore</a></td>
-            <td><a href="#sk-woo">Woodcraft</a></td>
           </tr>
         </table>
         <h4>Attribute Links</h4>
@@ -185,7 +178,7 @@
             <td><a href="#di-co1">Combat/Melee</a></td>
             <td><a href="#di-co2">Combat/Missile</a></td>
             <td><a href="#di-co3">Combat/Grapple</a></td>
-            <td><a href="#di-kno">Knowlegde</a></td>
+            <td><a href="#di-kno">Knowledge</a></td>
             <td><a href="#di-reg">Regional</a></td>
           </tr>
           <tr>
@@ -859,22 +852,6 @@
           changed.
         </p>
         <include id="$D-Hazard-2"/>
-        <h5 class="skill" id="sk-una">Unarmed</h5>
-        <include id="$Unarmed"/>
-        <p>
-          Unarmed Combat is used to punch or kick an opponent,
-          applying hand or foot impact to determine damage.  The
-          impact of an unarmed strike may be enhanced with items such
-          as gauntlets, spurs, etc.  The skill is also used to wrestle
-          an opponent when grappling.  Use the <em>Combat</em>
-          dimensions.
-        </p>
-        <h5 class="skill" id="sk-weap">Weaponcraft</h5>
-        <include id="$Weaponcraft"/>
-        <p>
-          The making/assessing of weapons and armour.  Use the
-          <em>Recipe</em> dimension.
-        </p>
         <h5 class="skill" id="sk-weat">Weatherlore</h5>
         <include id="$Weatherlore"/>
         <p>
@@ -884,21 +861,6 @@
           <em>Accuracy</em> dimension.
         </p>
         <include id="$D-Weatherlore"/>
-        <h5 class="skill" id="sk-whi">Whip</h5>
-        <include id="$Whip"/>
-        <p>
-          The ability to use various types of whips.  Use the
-          <em>Combat</em> dimensions.  The time dimension here is the
-          forecasted time.
-        </p>
-        <h5 class="skill" id="sk-woo">Woodcraft</h5>
-        <include id="$Woodcraft"/>
-        <p>
-          Used to determine the quality of a wooden item made by the
-          character.  Appropriate tools and materials are necessary,
-          and the quality and complexity of an item affects the
-          result.  Use the <em>Recipe</em> dimension.
-        </p>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
           The Time dimension assumes a 12h workday, thus the apparent
@@ -906,42 +868,6 @@
         </p>
         <include id="$D-Yield"/>
         <h5/>
-        <h3 id="p3eople">People</h3>
-        <p>
-          The basic distribution presented in the in-world chapter for
-          attributes can be used to randomly generate them.  They can
-          also be a choice, depending on how the group wants to
-          generate characters.  It can also be anything inbetween,
-          such as partly rolling, partly choosing; first rolling, then
-          modifying; or a point based system, where good attributes
-          are bought and/or bad attributes provide additional points
-          to spend.
-        </p>
-        <div class="explain">
-          <p>
-            <em>Intelligence, Strength, Stamina,
-            Dexterity, Agility, Eyesight, Hearing, Smell, Aura,
-            Will</em> are the numeric attributes.  The following
-            modifiers should be applied to keep the distributions
-            consistent:<br/> <b>Stamina</b> +2 for Khuzdul, +1 for
-            Sindarin.<br/> <b>Dexterity</b> +1 for Khuzdul, +2 for
-            Sindarin.<br/> <b>Agility</b> +2 for Sindarin, +2 for
-            Scant, +1 for Light, -1 for Heavy, -2 for Massive.<br/>
-            <b>Eyesight</b> +2 for Sindarin, +1 for Khuzdul, +1 for
-            Tribesmen.<br/> <b>Hearing</b> +2 for Sindarin, +2 for
-            Khuzdul, +2 for Tribesmen.<br/> <b>Smell</b> +3 for
-            Sindarin, +2 for Khuzdul, +2 for Tribesmen.<br/>
-            <b>Aura</b> +4 for Sindarin, -2 for Khuzdul, +2 for human
-            females.<br/> <b>Will</b> +3 for Khuzdul.<br/>
-          </p>
-        </div>
-        <p>
-          A classic skill value resolves to 10 for each &#9733;, but
-          attributes behave different.  Generally, attributes are
-          added directly to skills or difficulties as do other
-          circumstancial modifiers, while skills 5-add when grouped.
-        </p>
-        <include id="$Attributemap"/>
         <h3 id="p3sionics">Psionics</h3>
         <p>
           One way to determine how many talent are made for a new
@@ -949,72 +875,9 @@
           example, with a n5 roll of 0 and an Aura of 5, a character
           would get five talents.  Alternative, a character with at
           least an Aura of 10, may select or roll Psionic talents with
-          total skill points of AUR - 10.
+          total skill points of AUR - 10.  Psionic Talents accrue
+          Fatigue at 1 point per minute.
         </p>
-        <p>
-          Psionic Talents accrue Fatigue at 1 point per minute.
-          Trance indicates a -20 to any other skills attempted during
-          that period.
-        </p>
-        <div class="explain">
-          <p>
-            <em>Charm:</em> Roll attacker&#8217;s skill plus Will vs
-            defender&#8217;s Will and reduce the defender&#8217;s
-            Agility accordingly.
-          </p>
-          <p>
-            <em>Disembodiment:</em> Each time a disembodiment occurs,
-            Telepathy and Sensitivity MLs increase by 1 point through
-            5-Addition.
-          </p>
-          <p>
-            <em>Healing:</em> <em>Empathy:</em> 5-Add talent skill to
-            physician&#8217;s skill at diagnosis, etc.
-            <em>Restoration:</em> Talent skill replaces
-            subject&#8217;s Stamina in new fatigue rate.
-            <em>Heal:</em> 5-Add skill to Stamina for healing time.
-          </p>
-          <p>
-            <em>Hex:</em> Reduces the victims rolls by this talent
-            skill level (literally).
-          </p>
-          <p>
-            <em>Medium:</em> Knowing the &#8220;true name &#8221;
-            bestows a 5-bonus of +10.
-          </p>
-          <p>
-            <em>Mental Bolt:</em> Turn the skill level (randomize)
-            into Fatigue with the victim.
-          </p>
-          <p>
-            <em>Negation:</em> Creates a field whose radius is this
-            dimension in feet times the invoker&#8217;s
-            0+<sub>5</sub>Will.  Any spell/talent rolls are reduced by
-            the ML of the invoker.  This is a separate dimension and
-            can be combined with the radius.  A field of less than 1
-            foot implodes and fails.
-          </p>
-          <p>
-            <em>Pyrokinesis:</em> No effect on entities with Aura or
-            Ego, including the invoker.  If appropriate, roll a fire
-            attack against combustible materials.
-          </p>
-          <p>
-            <em>Telekinesis:</em> Use ML as Strength skill to lift and
-            carry something without touching it.
-          </p>
-          <p>
-            <em>Telepathy:</em> The intended target must have a
-            minimum Aura of 1, and is usually someone the invoker
-            knows quite well.  ML is reduced if this is not the case.
-            If nothing about the intended target is known, besides
-            tell-tale existence, the penalty is -30.
-          </p>
-          <p>
-            <em>Transmutation:</em> The effect lasts for up to ML
-            hours.
-          </p>
-        </div>
         <h3 id="religion">Religion</h3>
         <p>
           <em>Sin, Piety, &#0038; Morality</em>: If a character acts
@@ -1026,17 +889,6 @@
           Characters with a Piety total that equals or exceeds their
           Ritual Mastery are said to have Divine Grace.
         </p>
-        <p>
-          Some rituals are lay rituals as described in the Religion
-          chapter.  The may be attended by laymen to receive a
-          benefit.  Some need a priest as guidance.  The following is
-          a Piety benefit, if attended and an (individual&#8217;s)
-          Ritual roll succeeds.  The benefit is a 5-Addition to Piety.
-          (Any rituals must be relevant, of course.  Individual
-          donations of 1d for a rich merchant, for instance, do not
-          qualify.)
-        </p>
-        <include id="$D-Ritual-dim"/>
         <p>
           Divine intervention is totally at the GMs discretion and the
           seemingly high chances are mostly from self-reports of
@@ -1054,17 +906,6 @@
           as well dismount already to allow for smoother combat
           resolution.  The main option Melee and Missile should never
           be removed.
-        </p>
-        <p>
-          <em>A/D:</em> Weapons give bonuses to combat skills based on
-          their effectiveness to attack or defend.  A Roundshield, for
-          example, rated as 1/4, is poor for attacking, but excellent
-          for defense.  The ML used in combat when attacking with a
-          weapon adds the first (A) value.  The Attack ML of a Spear
-          (A:4) at ML18 is: 18+4 = 22.  The ML used in combat when
-          defending with a weapon adds the second (D) value.
-          <em>HM</em> is also directly added to ML.  <em>WQ</em> is
-          used as skill, not as attribute.
         </p>
         <p>
           In order to simulate larger combats with many participants,
@@ -1092,10 +933,9 @@
           </p>
           <p>
             <em>Move:</em> Use the Move skill to determine speed.
-            Subtract 2 from Missile ML for being mounted.  Subtract
-            the speed difference in m/s between attacker and defender
-            perpendicular to the shot direction.  To avoid lengthy
-            calculations, subtract 50% of the attacker speed instead.
+            Subtract 2 from Missile ML for being mounted.  To avoid
+            lengthy calculations, subtract 50% of the attacker speed
+            in m/s.
           </p>
           <p>
             <em>Engage:</em> Because the potential exists to
@@ -1147,7 +987,7 @@
             to the forced decelaration minus the maximum allowed
             deceleration.  E.g. 10 m/s end speed with a possible
             allowed decelaration of 3 m/s equals a fall from 7 m.
-            Note that the fall impact also alpplies the targets fallen
+            Note that the fall impact also applies the targets fallen
             into.  This is the charge bonus, where the 3 m/s are not
             deducted.  A rider is not forced to halt his steed, but it
             usually requires a riding maneuver to not cause the steed
@@ -1181,16 +1021,16 @@
             this ignorance is taken into account (out-world) when
             deciding on options, such accidents shall be played out.
             Anybody within the range of the weapon is subject to a
-            skill roll with a penalty of 10. This can be added to the
-            benefit of other attackers as per multiple attacks above
-            or resolved individually with the goal of 0 damage.
+            skill roll with MLU 0. This can be added to the benefit of
+            other attackers as per multiple attacks above or resolved
+            individually with the goal of 0 damage.
           </p>
           <p>
             <em>Missile Attack:</em> For throwing arbitrary objects,
             use Throwing skill.  Since missile attacks are resolved
             with individual shots, a missed attack is applied only if
             the intended attack had no impact.  Count all potential
-            targets completely in an arc of 60 degrees and +/-2 range
+            targets completely in an arc of 30 degrees and +/-2 range
             levels of the intended target.  Use 5-Addition of zeroes,
             but reduce by 5 for the missed, intended opponent.  If a
             hit is scored on the much larger
@@ -1201,12 +1041,12 @@
             discretion, inanimate objects not participating in the
             skirmish may be counted as potential targets,
             particularly, if the actual targets are spread widely
-            across the area.  This increase can be used purposefully
+            across the area.  This increases can be used purposefully
             and can be quite devastating when firing at advancing
             troops. The Missile Attack table below reduces calculation
             for playability.  Penetrating hits are ignored, i.e. no
             shots through multiple targets.  The assumed skills rolls
-            all use 0 damage and no personal, e.g. aiming, modifiers.
+            all use 0 damage and MLU of 0.
           </p>
           <p>
             <em>Grapple/Tangle Attack/Defense:</em> Use Unarmed Combat
@@ -1220,7 +1060,15 @@
           <p>
             <em>Block/Dodge:</em> For dodging, use Dodge skill.  Dodge
             and Block/Parry are added through 5-Addition, if used
-            together.
+            together.  Dodge/parry is mostly used at the same time an
+            attack is contemlated by the defender himself.  To ease
+            calculation, only every defense beyond one causes a -5
+            penalty in the next 10 seconds. E.g., the first defense is
+            at full MLU, the second at MLU-5 and the third is at
+            MLU-10 and sone on.  Note that that this is in addition to
+            potential 5-addition of potential attackers' MLU. If
+            attackers coordinate in this manner, the defense MLU is
+            not 5-added, but the penalty is averaged.
           </p>
           <p>
             <em>Steed Trample:</em> Use steed ML (and penalties) only.
@@ -1235,7 +1083,7 @@
           <p>
             <em>Esoteric Attack/Defense, Dropping Items, Ignore,
             Mount/Dismount, Mounted Move:</em> No further out-world
-            exlpanation is necessary.  If useful, subactions here and
+            explanation is necessary.  If useful, subactions here and
             elsewhere can be extracted that should become possible
             during a specific out-world handling of combat.  Rewrite
             the rules here to accomodate this.  The missing tactical
@@ -1244,7 +1092,7 @@
           </p>
           <p>
             <em>Aiming:</em> The Attacker may declare one Main area as
-            not being hit for a penalty of 1 to ML.  This choice can
+            not being hit for a penalty of 1 to MLU.  This choice can
             be taken multiple times, but the remaining Main locations
             must remain (bodily) connected.  If all but one Main
             location has been eliminated, individual percentage points
@@ -1259,22 +1107,17 @@
             man-sized.  This effect does not cummulate with aiming for
             parts of a target (the main part of this paragraph).
             There is no modification for man-sized creatures, unless
-            the target offers a smaller effective target.  A prone
-            man, for example, presents a target about 2 feet tall, and
-            a crouching man about 4 feet tall.  Similar height
-            adjustments may apply to other targets at GM discretion.
-          </p>
-          <p>
-            <em>Outnumbered:</em> The ML for any defense is decreased
-            by 2 for each engaged enemy above one that is not ignored.
-            (This includes prone enemies.)  That is, a character
-            outnumbered 3:1 subtracts 4 from ML for all defense rolls
-            during that period.
+            the target offers a smaller effective target, but it may
+            be combined with unintentional hitting (see above).  A
+            prone man, for example, presents a target about 2 feet
+            tall, and a crouching man about 4 feet tall.  Similar
+            height adjustments may apply to other targets at GM
+            discretion.
           </p>
           <p>
             <em>Prone:</em> A character who is attacking (or being
-            attacked by) a prone enemy increases Attack/Defense EML
-            with tha character by 4.
+            attacked by) a prone enemy increases Attack/Defense MLU
+            with that character by 4.
           </p>
           <p>
             <em>Stop:</em> A stop from a sprint/charge faster than the
@@ -1291,42 +1134,12 @@
             both parties of a collision.) Also see Charge.
           </p>
           <p>
-            <em>Fall:</em> Acrobatics can be used to moderate a fall,
-            but the &#8220;falling&#8221; character must modify the
-            roll by any Grapple hinderance or if in the saddle, for
-            example.  All successful points on Acrobatics vs 25 can be
-            used by the faller as in Aiming, i.e. the main and
-            detailed body part to land on.  The slope of the surface
-            may cause a falling climber to hit several times on the
-            way down.  When this occurs, reduce damage to what the
-            incline is as part of 90&#176;.  E.g. 30&#176; would
-            reduce the damage to 1/3.  A character may be able to stop
-            falling by grabbing protrusions, bushes, etc.  This rarely
-            stops the fall, but may slow it and reduce landing impact.
-            Randomize an M1 type B wound to the hands and deduct 1 ft
-            from the height.  The wound impact can be increased up to
-            M10 for a corresponding reduction.  If so desired, the
-            fall can be stopped at a random location and the falling
-            damage recalculated.  Damage is then aimed with +20 at the
-            grabbing arm.  This grabbing cannot be used together with
-            Acrobatics.  The character now hangs from the protrusion.
-            Falls use the Fall table.  Various surfaces modify fall
-            impact: <em>Water (up to 10 ft):</em> -1 / ft.  <em>Mud,
-            Bog:</em> -2.  <em>Stone:</em> +3.  <em>Uneven,
-            Rocks:</em> +6.
-          </p>
-          <p>
             <em>Close Mode:</em> Subtract 1 for each significant
             impediment reaching into an engagement zone in the
             direction of the two enemies.  For Multiple impediments
             only choose the greater intrusion.  A blanket counts as
             significant, as does a wooden beam.  A feather bush does
             not.
-          </p>
-          <p>
-            <em>Jousting: </em> Each opponent is attacker and defender
-            at the same time and the result is determined through
-            normal ML rolls.  Use the following tactical modifiers.
           </p>
           <p>
             The chance for the pole to break is equal to the impact it
@@ -1360,10 +1173,6 @@
           Fall table
         </p>
         <include id="$Combat-Fall"/>
-        <p style="text-align:center">
-          Jousting Table
-        </p>
-        <include id="$Joust"/>
         <h4>Special Wounds</h4>
         <p>
           <em>Drowning:</em> While incapacitated, the internal system
