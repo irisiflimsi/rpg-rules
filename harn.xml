@@ -1092,14 +1092,12 @@
             weapons and armor for the purpose of Shock rolls.
           </p>
           <p>
-            <em>Bloodloss:</em> damage taken increases at injury level
-            -10 every 10s.  For example, a 12 point injury causes 2
-            points per 10 seconds, or 1 point of bloodloss every 5
-            seconds.  (A 22 wound causes more than 1 point per second
-            in bloodloss and only very unlikely circumstances will
-            keep the victim alive let alone conscious for long.)  At
-            GM discretion some wounds will not cause bloodloss
-            (e.g. Frost) including to inanimate objects.
+            <em>Bloodloss:</em> damage taken increases with every complete
+            multiple of 5 injury level above 6 every 10s.  For example, a
+	    16-20 point injury causes 2 points per 10 seconds, or 1 point
+	    of bloodloss every 5 seconds.  At GM discretion some wounds
+	    will not cause bloodloss (e.g. Frost) including to inanimate objects
+	    or reduced damage, e.g. blunt trauma.
           </p>
         </div>
         <p style="text-align:center">
