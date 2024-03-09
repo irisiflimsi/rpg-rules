@@ -1279,6 +1279,26 @@
             the rate of 1 per second once air is available again..
           </p>	
         </div>
+        <h1 id="sprules">Specific Rules</h1>
+        <p>
+          In the course of Harn campaigns specific rules become necessary
+          such that our simplifications do not defeat their purpose.
+          We collect them as they come up.
+        </p>
+        <h2 id="Treasure20">Treasure 20</h2>
+        <h3 id="57 Horn of Kergis">57 Horn of Kergis</h3>
+        <p>
+          Roll WILU + n5 against 10. Every time the horn is blown,
+          roll p5. If 0, there is no charge left.
+        </p>
+        <h2 id="Naveh6">Naveh 6</h2>
+        <h3 id="Gekrish's Song">Gekrish's Song</h3>
+        <p>
+          After an short chant of 10 seconds, caster makes an active
+          p5 roll adding RSUI, which anyone hearing must roll WILU + p5
+          or flee until he is no longer aware of the caster's location
+          and he has broken morale.
+        </p>
       </div>
     </div>
   </body>
