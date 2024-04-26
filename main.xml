@@ -547,7 +547,8 @@
           two or take half for the precentile system, why the strange,
           non-linear mapping?  Since we do not intend to simulate
           other rules in this manner, you most certainly can do that
-          conversion.  We provide the above to show that the
+          conversion.  We provide the above to show that these rules
+          do not have the natural chance progression internally we desire.
         </p>
         <p>
           The two-page character sheet is applicable to all rules,
