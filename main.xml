@@ -536,11 +536,15 @@
           succeed.  This approximates our levels 0, 10, 20 and 30 at
           about the classical 5%, 35%, 65%, and 95%.  That means these
           rules have about fourty skill levels, in which all values
-          fall according to our rules.  The same is true for Dungeons
-          and Dragons, Pathfinder, or generally the d20 group of
+          fall according to our rules.  Something similar is true fo
+          Dungeons and Dragons, Pathfinder, or generally the d20 group of
           rules, which use twenty 5% steps, instead of the finer
-          grained 1% step.  These steps are approximations, since none
-          of these rolls are translation-invariant.
+          grained 1% step.  Level 0, 10, ..., 40 are at the classic skill
+          bonusses of +0, +9, +18, +27, and +36.  (This may seem like
+          d20 already provides the scale, but with a stepsize of 9 instead
+          of 10.  However, scalability is not valid in any other stepsize
+          besides 9.)  These steps are approximations, since none of these
+          rolls are translation-invariant.
         </p>
         <p>
           Note that you could just multiply the d20 skill levels by
