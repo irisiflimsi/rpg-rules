@@ -424,4 +424,12 @@
     <tr><td>Bloodloss</td><td>Serious</td><td>Surgery</td></tr>
     <tr><td>Bloodloss</td><td>Grievous</td><td>Amputate</td></tr>
   </table>
+  <table id="$Maritime-Travel" style="width:50%">
+    <tr><th></th><th>R</th><th>H</th><th>B</th></tr>
+    <tr><th>A</th><td>16</td><td>4.5</td><td>3</td></tr>
+    <tr><th>B</th><td>15</td><td>3</td><td>2</td></tr>
+    <tr><th>C</th><td>12</td><td>3.5</td><td>2</td></tr>
+    <tr><th>D</th><td>9</td><td>3</td><td>1.5</td></tr>
+    <tr><th>E</th><td>8</td><td>3</td><td>1.5</td></tr>
+  </table>
 </root>
