@@ -1287,7 +1287,18 @@
           such that our simplifications do not defeat their purpose.
           We collect them as they come up.
         </p>
-        <h3 id="Treasure20">Treasure</h3>
+        <h3 id="Maritime Travel">Maritime Travel</h3>
+	<p>
+	  Steady Wind (2) is optimal, for (1) and (3) half the speed
+	  and for (0) and (4) half it again.  Effects on hazards are
+	  not covered yet.  The table below gives leagues per watch or
+	  km/h.
+	</p>
+        <include id="$Maritime-Travel"/>
+        <p style="text-align:center">
+          Maritime Travel Table
+        </p>
+        <h3 id="Treasure20">Treasure 20</h3>
         <h4 id="Horn of Kergis">Horn of Kergis</h4>
         <p>
           Roll WILU + n5 against 10. Every time the horn is blown,
@@ -1301,19 +1312,6 @@
           or flee until he is no longer aware of the caster's location
           and he has broken morale.
         </p>
-        <h3 id="Maritime Travel">Maritime Travel</h3>
-	<p>
-	  Steady Wind (2) is optimal, for (1) and (3) half the speed
-	  and for (0) and (4) half it again.  Effects on hazards are
-	  not covered yet.  The table below gives leagues per watch or
-	  km/h.
-	</p>
-        <include id="$Maritime-Travel"/>
-        <p style="text-align:center">
-          Maritime Travel Table
-        </p>
-	<table>
-	</table>
       </div>
     </div>
   </body>
