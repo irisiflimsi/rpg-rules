@@ -1301,7 +1301,8 @@
         <p>
           Oar movement is full at calm (0) wind, reduced by 25% for light (1)
           and 50% for steady (2) wind.  No rowing is possible in stronger
-          wind conditions.
+          wind conditions.  Rowing and Sailing may not be combined during a
+          watch.
         </p>
         <include id="$Maritime-Travel-Oar"/>
         <p style="text-align:center">
