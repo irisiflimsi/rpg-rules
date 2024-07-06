@@ -432,4 +432,8 @@
     <tr><th>D</th><td>9</td><td>3</td><td>1.5</td></tr>
     <tr><th>E</th><td>8</td><td>3</td><td>1.5</td></tr>
   </table>
+  <table id="$Maritime-Travel" style="width:30%">
+    <tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th></tr>
+    <tr><td>16</td><td>12</td><td>8</td><td>7</td><td>6</td></tr>
+  </table>
 </root>
