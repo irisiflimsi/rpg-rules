@@ -1312,6 +1312,17 @@
           or flee until he is no longer aware of the caster's location
           and he has broken morale.
         </p>
+        <h3 id="Psionics8">Psionics 8</h3>
+        <h4 id="Telepathy">Telepathy</h4>
+        <p>
+          The talent has three dimensions: Range, Duration, and Language.
+          The range is determined to reach the target and the other dimensions
+          (trajectory) may be chosen by the user.  The range is MLU in kilometers,
+          and the duration is 30 seconds, halved or doubled for every 20 levels
+          difference.  Language is the effectiveness a concept can be shared.  It
+          is capped by a combined skill roll in a common language, if the recipient
+          is willing. Otherwise it is capped by individual skill rolls.
+        </p>
       </div>
     </div>
   </body>
