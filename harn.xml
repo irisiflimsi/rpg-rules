@@ -832,6 +832,35 @@
           don&#8217;t make sense unless explosives, catapults, or
           similar are involved.
         </p>
+        <h3 id="co-links">Combat Links</h3>
+        <table class="links" style="width:90%">
+          <tr>
+            <td><a href="#co-rest">Rest</a></td>
+            <td><a href="#co-move">Move</a></td>
+            <td><a href="#co-engage">Engage</a></td>
+            <td><a href="#co-charge">Charge</a></td>
+            <td><a href="#co-push">Push</a></td>
+            <td><a href="#co-rise">Rise</a></td>
+            <td><a href="#co-grope">Grope</a></td>
+            <td><a href="#co-melee">Melee</a></td>
+            <td><a href="#co-missile">Missile</a></td>
+            <td><a href="#co-grapple">Grapple/Tangle</a></td>
+            <td><a href="#co-block">Block/Dodge</a></td>
+            <td><a href="#co-steed">Trample</a></td>
+            <td><a href="#co-polearm">Polearm</a></td>
+            <td><a href="#co-esoteric">Misc.</a></td>
+            <td><a href="#co-aim">Aiming</a></td>
+            <td><a href="#co-prone">Rest</a></td>
+            <td><a href="#co-stop">Stop</a></td>
+            <td><a href="#co-close">Close mode</a></td>
+            <td><a href="#co-fumble">Fumble</a></td>
+            <td><a href="#co-stumble">Stumble</a></td>
+            <td><a href="#co-shcok">Shock</a></td>
+            <td><a href="#co-inanimate">Inanimate Damage</a></td>
+            <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
+            <td><a href="#co-bloodloss">Bloodloss</a></td>
+          </tr>
+	</table>
         <h5 id="co-rest">Rest</h5>
         <p>
           Fatigue gained by any conflict recovers at one Fatigue Level
@@ -919,11 +948,11 @@
         </p>
         <h5 id="co-rise">Rise</h5>
         <p>
-          <b>Rise:</b> Use Acrobatics skill.
+          Use Acrobatics skill.
         </p>
         <h5 id="co-grope">Grope</h5>
         <p>
-          <b>Grope:</b> Use Dexterity skill.
+          Use Dexterity skill.
         </p>
         <h5 id="co-melee">Melee Attack</h5>
         <p>
@@ -952,12 +981,13 @@
           modifier from the Size table below.  At GM discretion,
           inanimate objects not participating in the skirmish may be
           counted as potential targets, particularly, if the actual
-          targets are spread widely across the area.  This increases
+          targets are spread widely across the area.  This increase
           can be used purposefully and can be quite devastating when
           firing at advancing troops. The Missile Attack table below
           reduces calculation for playability.  Penetrating hits are
           ignored, i.e. no shots through multiple targets.  The
-          assumed skills rolls all use 0 damage and MLU of 0.
+          assumed skills rolls all use 0 damage and MLU of 0. Dodge
+          against missile is reduced by 5.
         </p>
         <h5 id="co-grapple">Grapple/Tangle Attack Defense</h5>
         <p>
@@ -986,7 +1016,7 @@
         </p>
         <h5 id="co-steed">Steed Trample</h5>
         <p>
-          <b>Steed Trample:</b> Use steed ML (and penalties) only.
+          Use steed ML (and penalties) only.
         </p>
         <h5 id="co-polearm">Polearm Defense</h5>
         <p>
@@ -1082,13 +1112,13 @@
           Unconscious people cannot eat and drink.  Someone in Shock
           for more than 10 days will likely never wake up again.
         </p>
-        <h5 id="co-rest">Inanimate Damage</h5>
+        <h5 id="co-inanimate">Inanimate Damage</h5>
         <p>
           Instead of (autonomous) Healing, Repair must be applied
           externally.  Use the appropriate Craft skill instead of
           Physician.
         </p>
-        <h5 id="co-rest">Weapon/Armor Damage</h5>
+        <h5 id="co-weapdam">Weapon/Armor Damage</h5>
         <p>
           Weapon and Armor make a Shock roll for the damage that they
           absorb, respectively deal.  Weapon Quality (WQ) is used
