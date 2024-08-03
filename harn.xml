@@ -802,6 +802,8 @@
         </p>
         <include id="$D-Yield"/>
         <h5/>
+      </div>
+      <div class="container">
         <h1 id="combat">Combat</h1>
         <p>
           At the beginning of each combat the players and GM should
@@ -830,23 +832,22 @@
           don&#8217;t make sense unless explosives, catapults, or
           similar are involved.
         </p>
-        <div class="explain">
+        <h5 id="co-rest">Rest</h5>
+        <p>
+          Fatigue gained by any conflict recovers at one Fatigue Level
+          every minute.  With dissolution, fatigue turns into injury.
+          Note that spirits can take arbitrary injury before being
+          destroyed and may heal forever.  Only in rare cases
+          (e.g. divine intervention) can spirits be destroyed.
+        </p>
+        <h5 id="co-move">Move</h5>
+        <p>
+          Use the Move skill to determine speed.  Subtract 2 from
+          Missile ML for being mounted.  To avoid lengthy
+          calculations, subtract 50% of the attacker speed in m/s.
+        </p>
           <p>
-            <em>Rest:</em> Fatigue gained by any conflict recovers at
-            one Fatigue Level every minute.  With dissolution, fatigue
-            turns into injury.  Note that spirits can take arbitrary
-            injury before being destroyed and may heal forever.  Only
-            in rare cases (e.g. divine intervention) can spirits be
-            destroyed.
-          </p>
-          <p>
-            <em>Move:</em> Use the Move skill to determine speed.
-            Subtract 2 from Missile ML for being mounted.  To avoid
-            lengthy calculations, subtract 50% of the attacker speed
-            in m/s.
-          </p>
-          <p>
-            <em>Engage:</em> Because the potential exists to
+            <b>Engage:</b> Because the potential exists to
             attack/influence entities that come within range, each
             character has an <em>Engagement Zone</em> of 1m plus
             weapon length radius about his center (that does not
@@ -877,7 +878,7 @@
             even when not fighting in three dimensions.
           </p>
           <p>
-            <em>Charge:</em> Requiring a steed to halt may imply
+            <b>Charge:</b> Requiring a steed to halt may imply
             multiple attacks due to deceleration restrictions.  Every
             engagement along the way may attack the steed/rider as
             usual.  If the intent is to cause little damage, use the
@@ -896,14 +897,15 @@
             deceleration.  E.g. 10 m/s end speed with a possible
             allowed decelaration of 3 m/s equals a fall from 7 m.
             Note that the fall impact also applies the targets fallen
-            into.  This is the charge bonus, where the 3 m/s are not
-            deducted.  A rider is not forced to halt his steed, but it
-            usually requires a riding maneuver to not cause the steed
-            to halt on its own, fire or similar incentives
-            notwithstanding.
+            into.  This is the charge bonus, where the deceleration is
+            not deducted.  For opportunistic melee attacks, this is
+            also a direct penalty to the Dodge skill.  A rider is not
+            forced to halt his steed, but it usually requires a riding
+            maneuver to not cause the steed to halt on its own, fire
+            or similar incentives notwithstanding.
           </p>
           <p>
-            <em>Push:</em> The push attempt must be in the direction
+            <b>Push:</b> The push attempt must be in the direction
             the attacker is facing and the attacker must follow.  The
             defender has a choice to evade into a semi-circle of up to
             120 degrees, assuming no obstacles.  Instead of Injury
@@ -916,13 +918,13 @@
             falling of a cliff.  Any remaing distance is forfeit.
           </p>
           <p>
-            <em>Rise:</em> Use Acrobatics skill.
+            <b>Rise:</b> Use Acrobatics skill.
           </p>
           <p>
-            <em>Grope:</em> Use Dexterity skill.
+            <b>Grope:</b> Use Dexterity skill.
           </p>
           <p>
-            <em>Melee Attack:</em> The rider and horse may act in
+            <b>Melee Attack:</b> The rider and horse may act in
             unison and add their combat skill per 5-Addition.  Both
             accrue the same fatigue.  Hitting the wrong target can
             happen in melee combat.  Usually this is ignored, but if
@@ -934,7 +936,7 @@
             individually with the goal of 0 damage.
           </p>
           <p>
-            <em>Missile Attack:</em> For throwing arbitrary objects,
+            <b>Missile Attack:</b> For throwing arbitrary objects,
             use Throwing skill.  Since missile attacks are resolved
             with individual shots, a missed attack is applied only if
             the intended attack had no impact.  Count all potential
@@ -957,7 +959,7 @@
             all use 0 damage and MLU of 0.
           </p>
           <p>
-            <em>Grapple/Tangle Attack/Defense:</em> Use Unarmed Combat
+            <b>Grapple/Tangle Attack/Defense:</b> Use Unarmed Combat
             skill when no weapon is involved.  The basic radius of the
             two characters engaged is 5-added.  Multiple Grapples are
             allowed , but keep track of the grappled weapons of all
@@ -966,7 +968,7 @@
             attempts, e.g. grappling a horse&#8217;s hind leg.
           </p>
           <p>
-            <em>Block/Dodge:</em> For dodging, use Dodge skill.  Dodge
+            <b>Block/Dodge:</b> For dodging, use Dodge skill.  Dodge
             and Block/Parry are added through 5-Addition, if used
             together.  Dodge/parry is mostly used at the same time an
             attack is contemplated by the defender himself.  To ease
@@ -977,21 +979,22 @@
             is in addition to potential 5-addition of potential
             attackers&#8217; MLU.  If attackers coordinate in this
             manner, the defense MLU is not 5-added, but the penalty is
-            averaged.
+            averaged.  Also note that Dodge is at -5 for high velocity
+            missile attacks.
           </p>
           <p>
-            <em>Steed Trample:</em> Use steed ML (and penalties) only.
+            <b>Steed Trample:</b> Use steed ML (and penalties) only.
           </p>
           <p>
-            <em>Polearm Defense:</em> Remember the Reach of Long
+            <b>Polearm Defense:</b> Remember the Reach of Long
             weapons.  Usually Steed Stumble Roll, followed by an
             Unhorsing Roll is necessary to continue a Charge into
             polearms (assuming the Steed Command Check was
             successful).
           </p>
           <p>
-            <em>Esoteric Attack/Defense, Dropping Items, Ignore,
-            Mount/Dismount, Mounted Move:</em> No further out-world
+            <b>Esoteric Attack/Defense, Dropping Items, Ignore,
+            Mount/Dismount, Mounted Move:</b> No further out-world
             explanation is necessary.  If useful, subactions here and
             elsewhere can be extracted that should become possible
             during a specific out-world handling of combat.  Rewrite
@@ -1000,7 +1003,7 @@
             the action is still taken in-world.
           </p>
           <p>
-            <em>Aiming:</em> The Attacker may declare one Main area as
+            <b>Aiming:</b> The Attacker may declare one Main area as
             not being hit for a penalty of 1 to MLU.  This choice can
             be taken multiple times, but the remaining Main locations
             must remain (bodily) connected.  If all but one Main
@@ -1024,12 +1027,12 @@
             discretion.
           </p>
           <p>
-            <em>Prone:</em> A character who is attacking (or being
+            <b>Prone:</b> A character who is attacking (or being
             attacked by) a prone enemy increases Attack/Defense MLU
             with that character by 4.
           </p>
           <p>
-            <em>Stop:</em> A stop from a sprint/charge faster than the
+            <b>Stop:</b> A stop from a sprint/charge faster than the
             maximum natural deceleration rate may be necessary.
             (Running into a wall or head on into another opponent that
             doesn&#8217;t dodge.)  In that case consider the distance
@@ -1043,7 +1046,7 @@
             both parties of a collision.) Also see Charge.
           </p>
           <p>
-            <em>Close Mode:</em> Subtract 1 for each significant
+            <b>Close Mode:</b> Subtract 1 for each significant
             impediment reaching into an engagement zone in the
             direction of the two enemies.  For Multiple impediments
             only choose the greater intrusion.  A blanket counts as
@@ -1051,7 +1054,7 @@
             not.
           </p>
           <p>
-            <em>Fumble:</em> Any new wound of at least 1 point to arms
+            <b>Fumble:</b> Any new wound of at least 1 point to arms
             results in a Fumble chance.  Use accumulated damage to
             that extremity and fatigue as difficulty for a Dexterity
             skill roll against 0.  Failure results in dropping
@@ -1059,14 +1062,14 @@
             hands, 5-add the difficulties and the two Dexterity EMLUs.
           </p>
           <p>
-            <em>Stumble:</em> Any new wound of at least 1 point to
+            <b>Stumble:</b> Any new wound of at least 1 point to
             legs results in a stumble chance.  Use accumulated damage
             to that extremity and fatigue as difficulty for an Agility
             skill roll against 0.  Failure results in dropping
             prone. Each additional leg after the first can be 5-added.
           </p>
           <p>
-            <em>Shock:</em> Any new wound of at least 1 point results
+            <b>Shock:</b> Any new wound of at least 1 point results
             in a Shock chance.  Use accumulated injury and fatigue as
             difficulty for a Stamina skill roll against 0.  Failure
             results in unconsciousness for a time indiciated in the
@@ -1075,12 +1078,12 @@
             wake up again.
           </p>
           <p>
-            <em>Inanimate Damage:</em> Instead of (autonomous)
+            <b>Inanimate Damage:</b> Instead of (autonomous)
             Healing, Repair must be applied externally.  Use the
             appropriate Craft skill instead of Physician.
           </p>
           <p>
-            <em>Weapon/Armor Damage:</em> Weapon and Armor make a
+            <b>Weapon/Armor Damage:</b> Weapon and Armor make a
             Shock roll for the damage that they absorb, respectively
             deal.  Weapon Quality (WQ) is used instead of Stamina
             skill and damage is not accumulated.  Armor works the same
@@ -1091,14 +1094,13 @@
             weapons and armor for the purpose of Shock rolls.
           </p>
           <p>
-            <em>Bloodloss:</em> damage taken increases with every complete
+            <b>Bloodloss:</b> damage taken increases with every complete
             multiple of 5 injury level above 6 every 10s.  For example, a
             16-20 point injury causes 2 points per 10 seconds, or 1 point
             of bloodloss every 5 seconds.  At GM discretion some wounds
             will not cause bloodloss (e.g. Frost) including to inanimate objects
             or reduced damage, e.g. blunt trauma.
           </p>
-        </div>
         <p style="text-align:center">
           Missile Attack Table
         </p>
