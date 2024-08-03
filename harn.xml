@@ -841,18 +841,24 @@
             <td><a href="#co-charge">Charge</a></td>
             <td><a href="#co-push">Push</a></td>
             <td><a href="#co-rise">Rise</a></td>
+          </tr>
+          <tr>
             <td><a href="#co-grope">Grope</a></td>
             <td><a href="#co-melee">Melee</a></td>
             <td><a href="#co-missile">Missile</a></td>
             <td><a href="#co-grapple">Grapple/Tangle</a></td>
             <td><a href="#co-block">Block/Dodge</a></td>
             <td><a href="#co-steed">Trample</a></td>
+          </tr>
+          <tr>
             <td><a href="#co-polearm">Polearm</a></td>
             <td><a href="#co-esoteric">Misc.</a></td>
             <td><a href="#co-aim">Aiming</a></td>
             <td><a href="#co-prone">Rest</a></td>
             <td><a href="#co-stop">Stop</a></td>
             <td><a href="#co-close">Close mode</a></td>
+          </tr>
+          <tr>
             <td><a href="#co-fumble">Fumble</a></td>
             <td><a href="#co-stumble">Stumble</a></td>
             <td><a href="#co-shcok">Shock</a></td>
@@ -1362,8 +1368,16 @@
           or flee until he is no longer aware of the caster's location
           and he has broken morale.
         </p>
+        <h3 id="Psionics6">Psionics 6</h3>
+        <h4 id="psi-heal">Healing</h4>
+        <p>
+	  The duration is 20 seconds at 0, halved or doubled for every
+	  20 levels difference.  [2] reduces n5 fatigue points at 20,
+	  if positive. [3] reduces bloodloss at 20 with slow yield.
+	  [4] improve healing as physician skill, may be 5-added.
+        </p>
         <h3 id="Psionics8">Psionics 8</h3>
-        <h4 id="Telepathy">Telepathy</h4>
+        <h4 id="psi-telepathy">Telepathy</h4>
         <p>
           The talent has three dimensions: Range, Duration, and Language.
           The range is determined to reach the target and the other dimensions
