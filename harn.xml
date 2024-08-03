@@ -846,261 +846,269 @@
           Missile ML for being mounted.  To avoid lengthy
           calculations, subtract 50% of the attacker speed in m/s.
         </p>
-          <p>
-            <b>Engage:</b> Because the potential exists to
-            attack/influence entities that come within range, each
-            character has an <em>Engagement Zone</em> of 1m plus
-            weapon length radius about his center (that does not
-            extend into blocked areas).  The Engagement Zone of a
-            conscious, prone character is only half that around his
-            body.  This means a standing character is often not
-            engaged by an adjacent prone enemy, although the prone
-            character may be engaged by the standing character.
-            Similarly, two adjacent prone characters often do not
-            engage each other.  Unconscious characters have no
-            Engagement Zones (not even the space their own body
-            occupies) but may constitute obstacles.  A character may
-            be (melee) attacked upon entering an enemy&#8217;s
-            Engagement Zone until he leaves that zone.  This entering
-            or leaving may be active or passive.  It is possible to be
-            engaged with an arbitrary number of enemies at a time.  A
-            character with a long reach weapon has an appropriately
-            larger engagement zone and may therefore be eligible to
-            attack before others.  This may be of importance for
-            mounted Charges into a row of Pikemen.  Also note the
-            restriction on using long weapons at short range.  If
-            combat extends into the third dimension, assume the
-            volumetric &#8220;center&#8221; of a character to be a 1m
-            vertical line centered on their true center (when
-            upright).  Horses have a two meter long horizontal line
-            (when upright) centered on their true center.  More
-            bizarre creatures may have more bizarre engagement zones,
-            even when not fighting in three dimensions.
-          </p>
-          <p>
-            <b>Charge:</b> Requiring a steed to halt may imply
-            multiple attacks due to deceleration restrictions.  Every
-            engagement along the way may attack the steed/rider as
-            usual.  If the intent is to cause little damage, use the
-            unintentional hit rules for melee (see below).  Otherwise
-            consider the group passed by to be the target and scale as
-            per wild result in the missile attack section.  Instead of
-            the 60 degrees +/-2 distance, collect all in the path of 5
-            feet width.  Any attacker plunging into defenders with an
-            attack will decelerate at maximum rate, and that
-            automatically determines the length of the path and the
-            duration of the ride.  At the riders discretion this can
-            be broken down into separate attacks.  A forced
-            deceleration beyond what is normally allowed results in a
-            fall impact for the rider and steed as from height equal
-            to the forced decelaration minus the maximum allowed
-            deceleration.  E.g. 10 m/s end speed with a possible
-            allowed decelaration of 3 m/s equals a fall from 7 m.
-            Note that the fall impact also applies the targets fallen
-            into.  This is the charge bonus, where the deceleration is
-            not deducted.  For opportunistic melee attacks, this is
-            also a direct penalty to the Dodge skill.  A rider is not
-            forced to halt his steed, but it usually requires a riding
-            maneuver to not cause the steed to halt on its own, fire
-            or similar incentives notwithstanding.
-          </p>
-          <p>
-            <b>Push:</b> The push attempt must be in the direction
-            the attacker is facing and the attacker must follow.  The
-            defender has a choice to evade into a semi-circle of up to
-            120 degrees, assuming no obstacles.  Instead of Injury
-            points, the number of meters pushed are used.  The
-            defender is forced to deduct the move from his action
-            allowance, regardless of whether he resists or not.  A
-            resist deducts from the distance forced and can even be
-            used as a counter-push.  The pushed character may opt to
-            fall prone instead at any time, for instance to avoid
-            falling of a cliff.  Any remaing distance is forfeit.
-          </p>
-          <p>
-            <b>Rise:</b> Use Acrobatics skill.
-          </p>
-          <p>
-            <b>Grope:</b> Use Dexterity skill.
-          </p>
-          <p>
-            <b>Melee Attack:</b> The rider and horse may act in
-            unison and add their combat skill per 5-Addition.  Both
-            accrue the same fatigue.  Hitting the wrong target can
-            happen in melee combat.  Usually this is ignored, but if
-            this ignorance is taken into account (out-world) when
-            deciding on options, such accidents shall be played out.
-            Anybody within the range of the weapon is subject to a
-            skill roll with MLU 0. This can be added to the benefit of
-            other attackers as per multiple attacks above or resolved
-            individually with the goal of 0 damage.
-          </p>
-          <p>
-            <b>Missile Attack:</b> For throwing arbitrary objects,
-            use Throwing skill.  Since missile attacks are resolved
-            with individual shots, a missed attack is applied only if
-            the intended attack had no impact.  Count all potential
-            targets completely in an arc of 30 degrees and +/-2 range
-            levels of the intended target.  Use 5-Addition of zeroes,
-            but reduce by 5 for the missed, intended opponent.  If a
-            hit is scored on the much larger
-            &#8220;super-target&#8221;, roll which individual target
-            is hit by distributing evenly among all the unintended
-            targets.  When determining hit chances and damage apply
-            the size modifier from the Size table below.  At GM
-            discretion, inanimate objects not participating in the
-            skirmish may be counted as potential targets,
-            particularly, if the actual targets are spread widely
-            across the area.  This increases can be used purposefully
-            and can be quite devastating when firing at advancing
-            troops. The Missile Attack table below reduces calculation
-            for playability.  Penetrating hits are ignored, i.e. no
-            shots through multiple targets.  The assumed skills rolls
-            all use 0 damage and MLU of 0.
-          </p>
-          <p>
-            <b>Grapple/Tangle Attack/Defense:</b> Use Unarmed Combat
-            skill when no weapon is involved.  The basic radius of the
-            two characters engaged is 5-added.  Multiple Grapples are
-            allowed , but keep track of the grappled weapons of all
-            opponents, they can no longer be used to full potential.
-            Also observe any secondary considerations for odd Grapple
-            attempts, e.g. grappling a horse&#8217;s hind leg.
-          </p>
-          <p>
-            <b>Block/Dodge:</b> For dodging, use Dodge skill.  Dodge
-            and Block/Parry are added through 5-Addition, if used
-            together.  Dodge/parry is mostly used at the same time an
-            attack is contemplated by the defender himself.  To ease
-            calculation, only every defense beyond one attacker causes
-            a -5 penalty in the next 10 seconds. E.g., the first
-            attacker is defended at full MLU, the second at MLU-5 and
-            the third is at MLU-10 and sone on.  Note that that this
-            is in addition to potential 5-addition of potential
-            attackers&#8217; MLU.  If attackers coordinate in this
-            manner, the defense MLU is not 5-added, but the penalty is
-            averaged.  Also note that Dodge is at -5 for high velocity
-            missile attacks.
-          </p>
-          <p>
-            <b>Steed Trample:</b> Use steed ML (and penalties) only.
-          </p>
-          <p>
-            <b>Polearm Defense:</b> Remember the Reach of Long
-            weapons.  Usually Steed Stumble Roll, followed by an
-            Unhorsing Roll is necessary to continue a Charge into
-            polearms (assuming the Steed Command Check was
-            successful).
-          </p>
-          <p>
-            <b>Esoteric Attack/Defense, Dropping Items, Ignore,
-            Mount/Dismount, Mounted Move:</b> No further out-world
-            explanation is necessary.  If useful, subactions here and
-            elsewhere can be extracted that should become possible
-            during a specific out-world handling of combat.  Rewrite
-            the rules here to accomodate this.  The missing tactical
-            option is compensated by an appropriate penalty/bonus if
-            the action is still taken in-world.
-          </p>
-          <p>
-            <b>Aiming:</b> The Attacker may declare one Main area as
-            not being hit for a penalty of 1 to MLU.  This choice can
-            be taken multiple times, but the remaining Main locations
-            must remain (bodily) connected.  If all but one Main
-            location has been eliminated, individual percentage points
-            may be reduced for a Detail area.  This penalty can again
-            be taken multiple times but the remaining Detail hit
-            locations must be (bodily) connected.  The GM may restrict
-            or penalize the choice of Aiming Zone if the attacker
-            could only reach certain target zones with the declared
-            attack weapon.  A prone attacker would find it difficult
-            to aim high on a standing opponent with a melee weapon.
-            The Size table can be used, if the target is smaller than
-            man-sized.  This effect does not cummulate with aiming for
-            parts of a target (the main part of this paragraph).
-            There is no modification for man-sized creatures, unless
-            the target offers a smaller effective target, but it may
-            be combined with unintentional hitting (see above).  A
-            prone man, for example, presents a target about 2 feet
-            tall, and a crouching man about 4 feet tall.  Similar
-            height adjustments may apply to other targets at GM
-            discretion.
-          </p>
-          <p>
-            <b>Prone:</b> A character who is attacking (or being
-            attacked by) a prone enemy increases Attack/Defense MLU
-            with that character by 4.
-          </p>
-          <p>
-            <b>Stop:</b> A stop from a sprint/charge faster than the
-            maximum natural deceleration rate may be necessary.
-            (Running into a wall or head on into another opponent that
-            doesn&#8217;t dodge.)  In that case consider the distance
-            that is not available to stopping as fall.  Surface is
-            considered at 30&#176;.  This damage is taken by the steed
-            (or the runner).  An appropriate strike location should be
-            chosen.  If the obstacle is reasonably capable of taking
-            damage apply it there too.  (If desired, use physics of an
-            inelastic collision, i.e. when running into a wagon that
-            starts to roll when run into.  Damage always applies to
-            both parties of a collision.) Also see Charge.
-          </p>
-          <p>
-            <b>Close Mode:</b> Subtract 1 for each significant
-            impediment reaching into an engagement zone in the
-            direction of the two enemies.  For Multiple impediments
-            only choose the greater intrusion.  A blanket counts as
-            significant, as does a wooden beam.  A feather bush does
-            not.
-          </p>
-          <p>
-            <b>Fumble:</b> Any new wound of at least 1 point to arms
-            results in a Fumble chance.  Use accumulated damage to
-            that extremity and fatigue as difficulty for a Dexterity
-            skill roll against 0.  Failure results in dropping
-            anything held on that arm.  If something is held in both
-            hands, 5-add the difficulties and the two Dexterity EMLUs.
-          </p>
-          <p>
-            <b>Stumble:</b> Any new wound of at least 1 point to
-            legs results in a stumble chance.  Use accumulated damage
-            to that extremity and fatigue as difficulty for an Agility
-            skill roll against 0.  Failure results in dropping
-            prone. Each additional leg after the first can be 5-added.
-          </p>
-          <p>
-            <b>Shock:</b> Any new wound of at least 1 point results
-            in a Shock chance.  Use accumulated injury and fatigue as
-            difficulty for a Stamina skill roll against 0.  Failure
-            results in unconsciousness for a time indiciated in the
-            Shock table.  Unconscious people cannot eat and drink.
-            Someone in Shock for more than 10 days will likely never
-            wake up again.
-          </p>
-          <p>
-            <b>Inanimate Damage:</b> Instead of (autonomous)
-            Healing, Repair must be applied externally.  Use the
-            appropriate Craft skill instead of Physician.
-          </p>
-          <p>
-            <b>Weapon/Armor Damage:</b> Weapon and Armor make a
-            Shock roll for the damage that they absorb, respectively
-            deal.  Weapon Quality (WQ) is used instead of Stamina
-            skill and damage is not accumulated.  Armor works the same
-            way, but the instead if Stamina, sum up BEPF.  Failure
-            means a weapon or armor breaks, which may potentially be
-            repaired as above. (Regular maintenance is assumed,
-            otherwise accumlate 1 point per "unrepaired wound" for
-            weapons and armor for the purpose of Shock rolls.
-          </p>
-          <p>
-            <b>Bloodloss:</b> damage taken increases with every complete
-            multiple of 5 injury level above 6 every 10s.  For example, a
-            16-20 point injury causes 2 points per 10 seconds, or 1 point
-            of bloodloss every 5 seconds.  At GM discretion some wounds
-            will not cause bloodloss (e.g. Frost) including to inanimate objects
-            or reduced damage, e.g. blunt trauma.
-          </p>
+        <h5 id="co-engage">Engage</h5>
+        <p>
+          Because the potential exists to attack/influence entities
+          that come within range, each character has an <em>Engagement
+          Zone</em> of 1m plus weapon length radius about his center
+          (that does not extend into blocked areas).  The Engagement
+          Zone of a conscious, prone character is only half that
+          around his body.  This means a standing character is often
+          not engaged by an adjacent prone enemy, although the prone
+          character may be engaged by the standing character.
+          Similarly, two adjacent prone characters often do not engage
+          each other.  Unconscious characters have no Engagement Zones
+          (not even the space their own body occupies) but may
+          constitute obstacles.  A character may be (melee) attacked
+          upon entering an enemy&#8217;s Engagement Zone until he
+          leaves that zone.  This entering or leaving may be active or
+          passive.  It is possible to be engaged with an arbitrary
+          number of enemies at a time.  A character with a long reach
+          weapon has an appropriately larger engagement zone and may
+          therefore be eligible to attack before others.  This may be
+          of importance for mounted Charges into a row of Pikemen.
+          Also note the restriction on using long weapons at short
+          range.  If combat extends into the third dimension, assume
+          the volumetric &#8220;center&#8221; of a character to be a
+          1m vertical line centered on their true center (when
+          upright).  Horses have a two meter long horizontal line
+          (when upright) centered on their true center.  More bizarre
+          creatures may have more bizarre engagement zones, even when
+          not fighting in three dimensions.
+        </p>
+        <h5 id="co-charge">Charge</h5>
+        <p>
+          Requiring a steed to halt may imply multiple attacks due to
+          deceleration restrictions.  Every engagement along the way
+          may attack the steed/rider as usual.  If the intent is to
+          cause little damage, use the unintentional hit rules for
+          melee (see below).  Otherwise consider the group passed by
+          to be the target and scale as per wild result in the missile
+          attack section.  Instead of the 60 degrees +/-2 distance,
+          collect all in the path of 5 feet width.  Any attacker
+          plunging into defenders with an attack will decelerate at
+          maximum rate, and that automatically determines the length
+          of the path and the duration of the ride.  At the riders
+          discretion this can be broken down into separate attacks.  A
+          forced deceleration beyond what is normally allowed results
+          in a fall impact for the rider and steed as from height
+          equal to the forced decelaration minus the maximum allowed
+          deceleration.  E.g. 10 m/s end speed with a possible allowed
+          decelaration of 3 m/s equals a fall from 7 m.  Note that the
+          fall impact also applies the targets fallen into.  This is
+          the charge bonus, where the deceleration is not deducted.
+          For opportunistic melee attacks, this is also a direct
+          penalty to the Dodge skill.  A rider is not forced to halt
+          his steed, but it usually requires a riding maneuver to not
+          cause the steed to halt on its own, fire or similar
+          incentives notwithstanding.
+        </p>
+        <h5 id="co-push">Push</h5>
+        <p>
+          The push attempt must be in the direction the attacker is
+          facing and the attacker must follow.  The defender has a
+          choice to evade into a semi-circle of up to 120 degrees,
+          assuming no obstacles.  Instead of Injury points, the number
+          of meters pushed are used.  The defender is forced to deduct
+          the move from his action allowance, regardless of whether he
+          resists or not.  A resist deducts from the distance forced
+          and can even be used as a counter-push.  The pushed
+          character may opt to fall prone instead at any time, for
+          instance to avoid falling of a cliff.  Any remaing distance
+          is forfeit.
+        </p>
+        <h5 id="co-rise">Rise</h5>
+        <p>
+          <b>Rise:</b> Use Acrobatics skill.
+        </p>
+        <h5 id="co-grope">Grope</h5>
+        <p>
+          <b>Grope:</b> Use Dexterity skill.
+        </p>
+        <h5 id="co-melee">Melee Attack</h5>
+        <p>
+          The rider and horse may act in unison and add their combat
+          skill per 5-Addition.  Both accrue the same fatigue.
+          Hitting the wrong target can happen in melee combat.
+          Usually this is ignored, but if this ignorance is taken into
+          account (out-world) when deciding on options, such accidents
+          shall be played out.  Anybody within the range of the weapon
+          is subject to a skill roll with MLU 0. This can be added to
+          the benefit of other attackers as per multiple attacks above
+          or resolved individually with the goal of 0 damage.
+        </p>
+        <h5 id="co-missile">Missile Attack</h5>
+        <p>
+          For throwing arbitrary objects, use Throwing skill.  Since
+          missile attacks are resolved with individual shots, a missed
+          attack is applied only if the intended attack had no impact.
+          Count all potential targets completely in an arc of 30
+          degrees and +/-2 range levels of the intended target.  Use
+          5-Addition of zeroes, but reduce by 5 for the missed,
+          intended opponent.  If a hit is scored on the much larger
+          &#8220;super-target&#8221;, roll which individual target is
+          hit by distributing evenly among all the unintended targets.
+          When determining hit chances and damage apply the size
+          modifier from the Size table below.  At GM discretion,
+          inanimate objects not participating in the skirmish may be
+          counted as potential targets, particularly, if the actual
+          targets are spread widely across the area.  This increases
+          can be used purposefully and can be quite devastating when
+          firing at advancing troops. The Missile Attack table below
+          reduces calculation for playability.  Penetrating hits are
+          ignored, i.e. no shots through multiple targets.  The
+          assumed skills rolls all use 0 damage and MLU of 0.
+        </p>
+        <h5 id="co-grapple">Grapple/Tangle Attack Defense</h5>
+        <p>
+          Use Unarmed Combat skill when no weapon is involved.  The
+          basic radius of the two characters engaged is 5-added.
+          Multiple Grapples are allowed , but keep track of the
+          grappled weapons of all opponents, they can no longer be
+          used to full potential.  Also observe any secondary
+          considerations for odd Grapple attempts, e.g. grappling a
+          horse&#8217;s hind leg.
+        </p>
+        <h5 id="co-block">Block/Dodge</h5>
+        <p>
+          For dodging, use Dodge skill.  Dodge and Block/Parry are
+          added through 5-Addition, if used together.  Dodge/parry is
+          mostly used at the same time an attack is contemplated by
+          the defender himself.  To ease calculation, only every
+          defense beyond one attacker causes a -5 penalty in the next
+          10 seconds. E.g., the first attacker is defended at full
+          MLU, the second at MLU-5 and the third is at MLU-10 and sone
+          on.  Note that that this is in addition to potential
+          5-addition of potential attackers&#8217; MLU.  If attackers
+          coordinate in this manner, the defense MLU is not 5-added,
+          but the penalty is averaged.  Also note that Dodge is at -5
+          for high velocity missile attacks.
+        </p>
+        <h5 id="co-steed">Steed Trample</h5>
+        <p>
+          <b>Steed Trample:</b> Use steed ML (and penalties) only.
+        </p>
+        <h5 id="co-polearm">Polearm Defense</h5>
+        <p>
+          Remember the Reach of Long weapons.  Usually Steed Stumble
+          Roll, followed by an Unhorsing Roll is necessary to continue
+          a Charge into polearms (assuming the Steed Command Check was
+          successful).
+        </p>
+        <h5 id="co-esoteric">Esoteric Attack/Defense, Dropping Items, Ignore, Mount/Dismount, Mounted Move</h5>
+        <p>
+          No further out-world explanation is necessary.  If useful,
+          subactions here and elsewhere can be extracted that should
+          become possible during a specific out-world handling of
+          combat.  Rewrite the rules here to accomodate this.  The
+          missing tactical option is compensated by an appropriate
+          penalty/bonus if the action is still taken in-world.
+        </p>
+        <h5 id="co-aim">Aiming</h5>
+        <p>
+          The Attacker may declare one Main area as not being hit for
+          a penalty of 1 to MLU.  This choice can be taken multiple
+          times, but the remaining Main locations must remain (bodily)
+          connected.  If all but one Main location has been
+          eliminated, individual percentage points may be reduced for
+          a Detail area.  This penalty can again be taken multiple
+          times but the remaining Detail hit locations must be
+          (bodily) connected.  The GM may restrict or penalize the
+          choice of Aiming Zone if the attacker could only reach
+          certain target zones with the declared attack weapon.  A
+          prone attacker would find it difficult to aim high on a
+          standing opponent with a melee weapon.  The Size table can
+          be used, if the target is smaller than man-sized.  This
+          effect does not cummulate with aiming for parts of a target
+          (the main part of this paragraph).  There is no modification
+          for man-sized creatures, unless the target offers a smaller
+          effective target, but it may be combined with unintentional
+          hitting (see above).  A prone man, for example, presents a
+          target about 2 feet tall, and a crouching man about 4 feet
+          tall.  Similar height adjustments may apply to other targets
+          at GM discretion.
+        </p>
+        <h5 id="co-prone">Prone</h5>
+        <p>
+          A character who is attacking (or being attacked by) a prone
+          enemy increases Attack/Defense MLU with that character by 4.
+        </p>
+        <h5 id="co-stop">Stop</h5>
+        <p>
+          A stop from a sprint/charge faster than the maximum natural
+          deceleration rate may be necessary.  (Running into a wall or
+          head on into another opponent that doesn&#8217;t dodge.)  In
+          that case consider the distance that is not available to
+          stopping as fall.  Surface is considered at 30&#176;.  This
+          damage is taken by the steed (or the runner).  An
+          appropriate strike location should be chosen.  If the
+          obstacle is reasonably capable of taking damage apply it
+          there too.  (If desired, use physics of an inelastic
+          collision, i.e. when running into a wagon that starts to
+          roll when run into.  Damage always applies to both parties
+          of a collision.) Also see Charge.
+        </p>
+        <h5 id="co-close">Close Mode</h5>
+        <p>
+          Subtract 1 for each significant impediment reaching into an
+          engagement zone in the direction of the two enemies.  For
+          Multiple impediments only choose the greater intrusion.  A
+          blanket counts as significant, as does a wooden beam.  A
+          feather bush does not.
+        </p>
+        <h5 id="co-fumble">Fumble</h5>
+        <p>
+          Any new wound of at least 1 point to arms results in a
+          Fumble chance.  Use accumulated damage to that extremity and
+          fatigue as difficulty for a Dexterity skill roll against 0.
+          Failure results in dropping anything held on that arm.  If
+          something is held in both hands, 5-add the difficulties and
+          the two Dexterity EMLUs.
+        </p>
+        <h5 id="co-stumble">Stumble</h5>
+        <p>
+          Any new wound of at least 1 point to legs results in a
+          stumble chance.  Use accumulated damage to that extremity
+          and fatigue as difficulty for an Agility skill roll against
+          0.  Failure results in dropping prone. Each additional leg
+          after the first can be 5-added.
+        </p>
+        <h5 id="co-shock">Shock</h5>
+        <p>
+          Any new wound of at least 1 point results in a Shock chance.
+          Use accumulated injury and fatigue as difficulty for a
+          Stamina skill roll against 0.  Failure results in
+          unconsciousness for a time indiciated in the Shock table.
+          Unconscious people cannot eat and drink.  Someone in Shock
+          for more than 10 days will likely never wake up again.
+        </p>
+        <h5 id="co-rest">Inanimate Damage</h5>
+        <p>
+          Instead of (autonomous) Healing, Repair must be applied
+          externally.  Use the appropriate Craft skill instead of
+          Physician.
+        </p>
+        <h5 id="co-rest">Weapon/Armor Damage</h5>
+        <p>
+          Weapon and Armor make a Shock roll for the damage that they
+          absorb, respectively deal.  Weapon Quality (WQ) is used
+          instead of Stamina skill and damage is not accumulated.
+          Armor works the same way, but the instead if Stamina, sum up
+          BEPF.  Failure means a weapon or armor breaks, which may
+          potentially be repaired as above. (Regular maintenance is
+          assumed, otherwise accumlate 1 point per "unrepaired wound"
+          for weapons and armor for the purpose of Shock rolls.
+        </p>
+        <h5 id="co-blooodloss">Bloodloss</h5>
+        <p>
+          Damage taken increases with every complete multiple of 5
+          injury level above 6 every 10s.  For example, a 16-20 point
+          injury causes 2 points per 10 seconds, or 1 point of
+          bloodloss every 5 seconds.  At GM discretion some wounds
+          will not cause bloodloss (e.g. Frost) including to inanimate
+          objects or reduced damage, e.g. blunt trauma.
+        </p>
+        <h5/>
         <p style="text-align:center">
           Missile Attack Table
         </p>
@@ -1279,7 +1287,7 @@
             roll against 0 is required, with a penalty of 5 for each
             consecutive minute without air.  Points are regained at
             the rate of 1 per second once air is available again..
-          </p>	
+          </p>
         </div>
       </div>
       <div class="container">
