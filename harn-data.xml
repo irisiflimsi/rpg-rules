@@ -261,6 +261,40 @@
       <td>Speed</td><td>-1m/s</td><td>0.0m/s</td><td>0.5m/s</td><td>1m/s</td><td>1.5m/s</td>
     </tr>
   </table>
+  <table id="$D-Travel" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-40</th><th>-30</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
+    </tr>
+    <tr class="num">
+      <td>Distance</td><td>0%</td><td>25%</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td>
+    </tr>
+    <tr class="num">
+      <td>Time</td><td>&#x221e;</td><td>400%</td><td>200%</td><td>150%</td><td>100%</td><td>80%</td><td>60%</td>
+    </tr>
+  </table>
+  <table id="$D-Hazard" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-30</th><th>-25</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th>
+    </tr>
+    <tr class="num">
+      <td>Hazard</td><td>1d</td><td>2d</td><td>3d</td><td>6d</td><td>10d</td><td>20d</td><td>30d</td><td>60d</td><td>100d</td>
+    </tr>
+  </table>
+  <table id="$D-Hazard-2" style="width:40%">
+    <tr>
+      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
+    </tr>
+    <tr>
+      <td>Reduction</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-3</td><td>-4</td><td>-5</td>
+    </tr>
+    </table>  <table id="$D-Travel-Season" style="width:60%">
+    <tr>
+      <th>Weather</th><th>Nuzyael</th><th>Peonu</th><th>Kelen</th><th>Nolus</th><th>Larane</th><th>Agrazhar</th><th>Azura</th><th>Halane</th><th>Savor</th><th>Ilvin</th><th>Navek</th><th>Morgath</th>
+    </tr>
+    <tr>
+      <td>Effect</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+4</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-4</td><td>-2</td>
+    </tr>
+  </table>
   <table id="$D-Weatherlore" style="width:60%">
     <tr>
       <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
