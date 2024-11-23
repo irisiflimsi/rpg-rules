@@ -1390,7 +1390,7 @@
 	  Overland travel is basically 30km a day or 3.5 days per
 	  100km.  The following table applies only to overland travel
 	  only in time and distance dimensions.  The hazard dimension
-	  is affected by 5 times the value given.
+	  is affected by twice the value given.
 	</p>
         <include id="$D-Travel-Season"/>
 	<p>

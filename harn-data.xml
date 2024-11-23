@@ -287,12 +287,13 @@
     <tr>
       <td>Reduction</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-3</td><td>-4</td><td>-5</td>
     </tr>
-    </table>  <table id="$D-Travel-Season" style="width:60%">
+  </table>
+  <table id="$D-Travel-Season" style="width:60%">
     <tr>
       <th>Weather</th><th>Nuzyael</th><th>Peonu</th><th>Kelen</th><th>Nolus</th><th>Larane</th><th>Agrazhar</th><th>Azura</th><th>Halane</th><th>Savor</th><th>Ilvin</th><th>Navek</th><th>Morgath</th>
     </tr>
     <tr>
-      <td>Effect</td><td>-1</td><td>0</td><td>+1</td><td>+2</td><td>+4</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-4</td><td>-2</td>
+      <td>Effect</td><td>-2</td><td>0</td><td>+2</td><td>+2</td><td>+8</td><td>+4</td><td>+2</td><td>0</td><td>-2</td><td>-4</td><td>-8</td><td>-4</td>
     </tr>
   </table>
   <table id="$D-Weatherlore" style="width:60%">
