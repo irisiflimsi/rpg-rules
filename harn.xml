@@ -789,6 +789,7 @@
 	  circumstances, reaching the destination may not be possible.
 	  Turning around is an option, when pressing on may by more
 	  dangerous.
+	</p>
         <include id="$D-Travel"/>
 	<h5 class="skill" id="sk-thr">Throwing</h5>
         <p>
