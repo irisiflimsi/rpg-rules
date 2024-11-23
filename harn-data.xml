@@ -293,7 +293,7 @@
       <th>Weather</th><th>Nuzyael</th><th>Peonu</th><th>Kelen</th><th>Nolus</th><th>Larane</th><th>Agrazhar</th><th>Azura</th><th>Halane</th><th>Savor</th><th>Ilvin</th><th>Navek</th><th>Morgath</th>
     </tr>
     <tr>
-      <td>Effect</td><td>-2</td><td>0</td><td>+2</td><td>+2</td><td>+8</td><td>+4</td><td>+2</td><td>0</td><td>-2</td><td>-4</td><td>-8</td><td>-4</td>
+      <td>Effect</td><td>-2</td><td>0</td><td>+2</td><td>+4</td><td>+8</td><td>+4</td><td>+2</td><td>0</td><td>-2</td><td>-4</td><td>-8</td><td>-4</td>
     </tr>
   </table>
   <table id="$D-Weatherlore" style="width:60%">
