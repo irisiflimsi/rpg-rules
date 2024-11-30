@@ -780,18 +780,18 @@
           reroll may be attempted every second, but fatigue applies
           immediately.
         </p>
-	<h5 class="skill" id="di-tra">Travel</h5>
-	<p>
-	  The distance travelled in a day in km or correspondingly
-	  time needed to travel 100 km is shown.  In order to have a
-	  reasonable travel rate, the desired distance and a maximum
-	  time should be given.  With enough bad luck or
-	  circumstances, reaching the destination may not be possible.
-	  Turning around is an option, when pressing on may by more
-	  dangerous.
-	</p>
+        <h5 class="skill" id="di-tra">Travel</h5>
+        <p>
+          The distance travelled in a day in km or correspondingly
+          time needed to travel 100 km is shown.  In order to have a
+          reasonable travel rate, the desired distance and a maximum
+          time should be given.  With enough bad luck or
+          circumstances, reaching the destination may not be possible.
+          Turning around is an option, when pressing on may by more
+          dangerous.
+        </p>
         <include id="$D-Travel"/>
-	<h5 class="skill" id="sk-thr">Throwing</h5>
+        <h5 class="skill" id="sk-thr">Throwing</h5>
         <p>
           The distance thrown in meters is the n5 roll doubled. E.g. a
           character with MLU of 15 and a roll of +4 throws a suitable
@@ -877,7 +877,7 @@
             <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
             <td><a href="#co-bloodloss">Bloodloss</a></td>
           </tr>
-	</table>
+        </table>
         <h5 id="co-rest">Rest</h5>
         <p>
           Fatigue gained by any conflict recovers at one Fatigue Level
@@ -1345,16 +1345,16 @@
           We collect them as they come up.
         </p>
         <h3 id="Maritime Travel">Travel Tables</h3>
-	<p>
-	  The hazard domain cannot be turned into a trajectory,
-	  i.e. no arbitrary bonus compensated elsewhere may be
-	  assigned to it.  GM disretion applies for explicitly safe
-	  travel.  Hazards include getting lost but not encounters and
-	  give the frequency, e.g. at <em>0</em> once every month.
-	  Modifiers are applied directly.  The <em>0</em> points
-	  implies the difficulty for an average sailing crew or
-	  travelling band with the appropriate skill, usually 20.
-	</p>
+        <p>
+          The hazard domain cannot be turned into a trajectory,
+          i.e. no arbitrary bonus compensated elsewhere may be
+          assigned to it.  GM disretion applies for explicitly safe
+          travel.  Hazards include getting lost but not encounters and
+          give the frequency, e.g. at <em>0</em> once every month.
+          Modifiers are applied directly.  The <em>0</em> points
+          implies the difficulty for an average sailing crew or
+          travelling band with the appropriate skill, usually 20.
+        </p>
         <include id="$D-Hazard"/>
         <p>
           Steady Wind (2) is optimal, for (1) and (3) half the speed
@@ -1376,49 +1376,49 @@
         <p style="text-align:center">
           Maritime Oar Travel Table
         </p>
-	<p>
-	  A <em>Hazard</em> is a randomized injury/penalty that is
-	  applied to a traveller.  If desired, a vessel or horse may
-	  be treated as separate entity.  This penalty would be the
-	  effect of a sprained ankle or frostbite and is healed
-	  normally.  Through familiarity in the terrain, such as the
-	  Survival skill or Seamanship, the Hazard (frequency) may be
-	  changed.
-	</p>
+        <p>
+          A <em>Hazard</em> is a randomized injury/penalty that is
+          applied to a traveller.  If desired, a vessel or horse may
+          be treated as separate entity.  This penalty would be the
+          effect of a sprained ankle or frostbite and is healed
+          normally.  Through familiarity in the terrain, such as the
+          Survival skill or Seamanship, the Hazard (frequency) may be
+          changed.
+        </p>
         <include id="$D-Hazard-2"/>
-	<p>
-	  Overland travel is basically 30km a day or 3.5 days per
-	  100km.  The following table applies only to overland travel
-	  only in time and distance dimensions.  The hazard dimension
-	  is affected by twice the value given.
-	</p>
+        <p>
+          Overland travel is basically 30km a day or 3.5 days per
+          100km.  The following table applies only to overland travel
+          only in time and distance dimensions.  The hazard dimension
+          is affected by twice the value given.
+        </p>
         <include id="$D-Travel-Season"/>
-	<p>
-	  The next modifiers apply only to overland travel in distance
-	  and time domains.  Modifiers are cumulative.  The standard
-	  distance/time assumes a road.  Consider all applicable
-	  modifiers carefully.  Penalties apply double to wagon travel
-	  (the bonus only once).  Roads through swamps are usually on
-	  the solid parts and only during rainy weather are they
-	  subject to penalty.  Roads are not affected by vegetation.
-	</p>
-	<div class="explain">
-	  <p>
-	    <em>-8:</em> Cropland, Heath, Hills
-	  </p>
-	  <p>
-	    <em>-12:</em> Woodland, Needleleaf Forest
-	  </p>
-	  <p>
-	    <em>-16:</em> Mixed Forest, Mountains, Swamp
-	  </p>
-	  <p>
-	    <em>+10:</em> By Wagon
-	  </p>
-	  <p>
-	    <em>+20:</em> By Horse
-	  </p>
-	</div>
+        <p>
+          The next modifiers apply only to overland travel in distance
+          and time domains.  Modifiers are cumulative.  The standard
+          distance/time assumes a road.  Consider all applicable
+          modifiers carefully.  Penalties apply double to wagon travel
+          (the bonus only once).  Roads through swamps are usually on
+          the solid parts and only during rainy weather are they
+          subject to penalty.  Roads are not affected by vegetation.
+        </p>
+        <div class="explain">
+        <p>
+          <em>-8:</em> Cropland, Heath, Hills
+        </p>
+        <p>
+          <em>-12:</em> Woodland, Needleleaf Forest
+        </p>
+        <p>
+          <em>-16:</em> Mixed Forest, Mountains, Swamp
+        </p>
+        <p>
+          <em>+10:</em> By Wagon
+        </p>
+        <p>
+          <em>+20:</em> By Horse
+        </p>
+        </div>
         <h3 id="Treasure20">Treasure 20</h3>
         <h4 id="Horn of Kergis">Horn of Kergis</h4>
         <p>
@@ -1436,10 +1436,26 @@
         <h3 id="Psionics6">Psionics 6</h3>
         <h4 id="psi-heal">Healing</h4>
         <p>
-	  The duration is 20 seconds at 0, halved or doubled for every
-	  20 levels difference.  [2] reduces n5 fatigue points at 20,
-	  if positive. [3] reduces bloodloss at 20 with slow yield.
-	  [4] improve healing as physician skill, may be 5-added.
+          The duration is 20 seconds at 0, halved or doubled for every
+          20 levels difference.  [2] reduces n5 fatigue points at 20,
+          if positive. [3] reduces bloodloss at 20 with slow yield.
+          [4] improve healing as physician skill, may be 5-added.
+        </p>
+        <h4 id="psi-medium">Medium</h4>
+        <p>
+          The duration trajectory of an initiating trance is 20 minutes at
+          0 and halved/doubled every 10 points.  The range for
+          communication is governed by the Knowledge dimension, specific
+          Ethereals are specific concepts, a known name grants a +10
+          bonus.  Control is the third trajectory, which also uses the
+          knowledge dimension.  Any task must be within the ability of the
+          ethereal or it will fail, also depending on the ability of the
+          ethereal to subvert the intent.  Ignoring a mental conflict is
+          not within the ability of any ethereal.  Passive triggering
+          involves a 5 minute daydreaming trance (assumed to happen
+          automatically) with 0 control and 0 communication.  An ethereal
+          may attempt to intiate communication on its end, i.e. 5-add its
+          skill.
         </p>
         <h3 id="Psionics8">Psionics 8</h3>
         <h4 id="psi-telepathy">Telepathy</h4>
