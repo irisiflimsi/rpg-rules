@@ -1066,7 +1066,7 @@
           prone attacker would find it difficult to aim high on a
           standing opponent with a melee weapon.  The Size table can
           be used, if the target is smaller than man-sized.  This
-          effect does not cummulate with aiming for parts of a target
+          effect does not cumulate with aiming for parts of a target
           (the main part of this paragraph).  There is no modification
           for man-sized creatures, unless the target offers a smaller
           effective target, but it may be combined with unintentional
@@ -1352,17 +1352,16 @@
           travel.  The next (significant) encounter happens in as many
           watches as indicated.  When you count down the watches, apply
           the modifiers, e.g. in wilderness daytime, encounters happen
-          2 watches earlier.  Modifiers are cummulative.  Twilight is
-          the is the two hours around dusk and dawn - neither night nor
-          day.
+          2 watches earlier.  Modifiers are cumulative.  Twilight are
+          the two hours around dusk and dawn - neither night nor day.
         </p>
         <include id="$D-Hazard"/>
         <include id="$D-Hazard-2"/>
         <p>
-          The severity of encounter is another dimension, rolles with a
-          <em>p5</em> only.  Some regions add a bonus to severity and might 
+          The severity of the encounter is another dimension, rolled with a
+          <em>p5</em>.  Some regions add a bonus to severity and might 
           also add to the frequency as well.  E.g. a Gargun-infested area
-          would.  Common sense applies. The following table presents a rule
+          would.  The following table presents a rule
           of thumb.  As an abstraction, treat the group affected as being
           wounded by the severity result.  Individuals can be treated
           affected by a reverse 5-addition, e.g. two people getting a 10
@@ -1370,7 +1369,7 @@
         </p>
         <div class="explain">
           <p>
-            <em>0:</em> Plants, Fungus, equipment deterioration, Tracks
+            <em>0:</em> Plants, fungus, equipment deteriorates, tracks
           </p>
           <p>
             <em>5:</em> Small animals, children playing
@@ -1379,11 +1378,11 @@
             <em>10:</em> Average people, Equipment breakage, mild poison
           </p>
           <p>
-            <em>15:</em> Large predator(s), armed people, dangerous fall,
-            contagious disease
+            <em>15:</em> Large predator(s), armed people, a dangerous fall,
+            a contagious disease
           </p>
           <p>
-            <em>20:</em> Monsters (e.g. Ivashu, Gargun), Pirates,
+            <em>20:</em> Monsters (e.g. Ivashu, Gargun), pirates,
             complete equipment failure.
           </p>
         </div>
