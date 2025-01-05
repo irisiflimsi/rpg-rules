@@ -277,16 +277,17 @@
       <th>Hazard</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
-      <td>Next Watch</td>100<td>60</td><td>30</td><td>20</td><td>10</td><td>6</td><td>3</td><td>2</td><td>1</td>
+      <td>Next</td>100<td>60</td><td>30</td><td>20</td><td>10</td><td>6</td><td>3</td><td>2</td><td>1</td>
     </tr>
   </table>
-  <table id="$D-Hazard-2" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
-    </tr>
-    <tr>
-      <td>Reduction</td><td>+2</td><td>+1</td><td>0</td><td>-1</td><td>-2</td><td>-3</td><td>-4</td><td>-5</td>
-    </tr>
+  <table id="$D-Hazard-2" style="width:60%">
+    <tr><th></th><th>Daytime</th><th>Twilight</th><th>Nighttime</th></tr>
+    <tr><th>In civilization</th><td>+4</td><td>+2</td><td>0</td></tr>
+    <tr><th>In the wilderness</th><td>+2</td><td>+4</td><td>0</td></tr>
+    <tr><th>On water</th><td>+2</td><td>+2</td><td>+2</td></tr>
+    <tr><th>In winter</th><td>-2</td><td>-2</td><td>-2</td></tr>
+    <tr><th>Moving</th><td>+4</td><td>+5</td><td>+3</td></tr>
+    <tr><th>Mostly indoors</th><td>-5</td><td>-8</td><td>-10</td></tr>
   </table>
   <table id="$D-Travel-Season" style="width:60%">
     <tr>
