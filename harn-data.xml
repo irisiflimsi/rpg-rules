@@ -277,7 +277,7 @@
       <th>Hazard</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
     </tr>
     <tr class="num">
-      <td>Next</td>100<td>60</td><td>30</td><td>20</td><td>10</td><td>6</td><td>3</td><td>2</td><td>1</td>
+      <td>Next</td><td>60</td><td>30</td><td>20</td><td>10</td><td>6</td><td>3</td><td>2</td><td>1</td>
     </tr>
   </table>
   <table id="$D-Hazard-2" style="width:60%">
