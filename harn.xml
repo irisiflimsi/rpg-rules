@@ -1346,16 +1346,43 @@
         </p>
         <h3 id="Maritime Travel">Travel Tables</h3>
         <p>
-          The hazard domain cannot be turned into a trajectory,
+          The encounter domain cannot be turned into a trajectory,
           i.e. no arbitrary bonus compensated elsewhere may be
           assigned to it.  GM disretion applies for explicitly safe
-          travel.  Hazards include getting lost but not encounters and
-          give the frequency, e.g. at <em>0</em> once every month.
-          Modifiers are applied directly.  The <em>0</em> points
-          implies the difficulty for an average sailing crew or
-          travelling band with the appropriate skill, usually 20.
+          travel.  The next (significant) encounter happens in as many
+          watches as indicated.  When you count down the watches, apply
+          the modifiers, e.g. in wilderness daytime, encounters happen
+          2 watches earlier.  Modifiers are cummulative.  Twilight is
+          the is the two hours around dusk and dawn - neither night nor
+          day.
         </p>
         <include id="$D-Hazard"/>
+        <include id="$D-Hazard-1"/>
+        <p>
+          The severity of encounter is another dimension, rolles with a <em>p5</em>
+          only.  Some regions add a bonus to severity and might also add to the
+          frequency as well.  E.g. a Gargun-infested area would.  Common sense applies.
+          This table presents a rule of thumb.
+        </p>
+        <div class="explain">
+          <p>
+            <em>0:</em> Plants, Fungus, equipment deterioration, Tracks
+          </p>
+          <p>
+            <em>5:</em> Small animals, children playing
+          </p>
+          <p>
+            <em>10:</em> Average people, Equipment breakage, mild poison
+          </p>
+          <p>
+            <em>15:</em> Large predator(s), armed people, dangerous fall,
+            contagious disease
+          </p>
+          <p>
+            <em>20:</em> Monsters (e.g. Ivashu, Gargun), Pirates,
+            complete equipment failure.
+          </p>
+        </div>
         <p>
           Steady Wind (2) is optimal, for (1) and (3) half the speed
           and for (0) and (4) halve it again.  Effects on hazards are
