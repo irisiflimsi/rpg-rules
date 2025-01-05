@@ -1357,12 +1357,16 @@
           day.
         </p>
         <include id="$D-Hazard"/>
-        <include id="$D-Hazard-1"/>
+        <include id="$D-Hazard-2"/>
         <p>
-          The severity of encounter is another dimension, rolles with a <em>p5</em>
-          only.  Some regions add a bonus to severity and might also add to the
-          frequency as well.  E.g. a Gargun-infested area would.  Common sense applies.
-          This table presents a rule of thumb.
+          The severity of encounter is another dimension, rolles with a
+          <em>p5</em> only.  Some regions add a bonus to severity and might 
+          also add to the frequency as well.  E.g. a Gargun-infested area
+          would.  Common sense applies. The following table presents a rule
+          of thumb.  As an abstraction, treat the group affected as being
+          wounded by the severity result.  Individuals can be treated
+          affected by a reverse 5-addition, e.g. two people getting a 10
+          means both having a wound of 5.
         </p>
         <div class="explain">
           <p>
@@ -1403,16 +1407,6 @@
         <p style="text-align:center">
           Maritime Oar Travel Table
         </p>
-        <p>
-          A <em>Hazard</em> is a randomized injury/penalty that is
-          applied to a traveller.  If desired, a vessel or horse may
-          be treated as separate entity.  This penalty would be the
-          effect of a sprained ankle or frostbite and is healed
-          normally.  Through familiarity in the terrain, such as the
-          Survival skill or Seamanship, the Hazard (frequency) may be
-          changed.
-        </p>
-        <include id="$D-Hazard-2"/>
         <p>
           Overland travel is basically 30km a day or 3.5 days per
           100km.  The following table applies only to overland travel
