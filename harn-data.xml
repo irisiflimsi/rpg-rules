@@ -282,12 +282,12 @@
   </table>
   <table id="$D-Hazard-2" style="width:60%">
     <tr><th></th><th>Daytime</th><th>Twilight</th><th>Nighttime</th></tr>
-    <tr><th>Urban/Rural</th>   <td>+8</td><td>+5</td><td>+2</td></tr>
-    <tr><th>Wilderness</th>    <td>+3</td><td>+5</td><td>0</td></tr>
-    <tr><th>In winter</th>     <td>-2</td><td>-2</td><td>-2</td></tr>
-    <tr><th>Moving</th>        <td>+3</td><td>+5</td><td>+1</td></tr>
-    <tr><th>On ways</th>       <td>+5</td><td>+4</td><td>+3</td></tr>
-    <tr><th>Mostly indoors</th><td>-4</td><td>-6</td><td>-8</td></tr>
+    <tr><th>Urban/Rural</th>   <td>-8</td><td>-5</td><td>-2</td></tr>
+    <tr><th>Wilderness</th>    <td>-3</td><td>-5</td><td>0</td></tr>
+    <tr><th>In winter</th>     <td>+2</td><td>+2</td><td>+2</td></tr>
+    <tr><th>Moving</th>        <td>-3</td><td>-5</td><td>-1</td></tr>
+    <tr><th>On ways</th>       <td>-5</td><td>-4</td><td>-3</td></tr>
+    <tr><th>Mostly indoors</th><td>+4</td><td>+6</td><td>+8</td></tr>
   </table>
   <table id="$D-Travel-Season" style="width:60%">
     <tr>
