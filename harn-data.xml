@@ -313,7 +313,7 @@
       <td>Fast Yield</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
     </tr>
     <tr class="num">
-      <td>Fast Time</td><td>64h</td><td>32h</td><td>16h</td><td>8h</td><td>4h</td><td>2h</td><td>1h</td><td>30min</td><td>15min</td><td>7.5min</td><td>3.75min</td>
+      <td>Fast Time</td><td>64h</td><td>32h</td><td>16h</td><td>8h</td><td>4h</td><td>2h</td><td>1:20h</td><td>1h</td><td>48min</td><td>40min</td><td>34min</td>
     </tr>
     <tr class="num">
       <td>Slow Yield</td><td>0</td><td>1/4</td><td>1/2</td><td>3/4</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>6</td><td>8</td>
