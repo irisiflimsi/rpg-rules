@@ -507,7 +507,7 @@
         </p>
         <h5 class="skill" id="sk-for">Foraging</h5>
         <p>
-          Fishing uses the <em>Fast Yield</em> dimension.  The base
+          Foraging uses the <em>Fast Yield</em> dimension.  The base
           yield is one manday of food.  Different climate and terrain
           types may be specialties.  Areas near civilization are
           likely to have a penalty of at least 10.  Excellent
@@ -808,8 +808,10 @@
         <include id="$D-Weatherlore"/>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
-          The Time dimension assumes a 12h workday, thus the apparent
-          jump from 12h to 2 days.
+          For the Fast Yield, 4h with level 5 yields a 1.  For Slow Yield,
+          a working day is assumed 12h, but that may depend on the daylight
+          hours of the season; so when converting to days spent, adjust
+          accordingly.
         </p>
         <include id="$D-Yield"/>
         <h5/>
