@@ -1348,19 +1348,7 @@
         </p>
         <h3 id="Maritime Travel">Travel Tables</h3>
         <p>
-          The encounter domain cannot be turned into a trajectory,
-          i.e. no arbitrary bonus compensated elsewhere may be
-          assigned to it.  GM disretion applies for explicitly safe
-          travel.  The next (significant) encounter happens in as many
-          watches as indicated.  When you count down the watches, apply
-          the modifiers, e.g. in wilderness daytime, encounters happen
-          2 watches earlier.  Modifiers are cumulative.  Twilight are
-          the two hours around dusk and dawn - neither night nor day.
-        </p>
-        <include id="$D-Hazard"/>
-        <include id="$D-Hazard-2"/>
-        <p>
-          The severity of the encounter is another dimension, rolled with a
+          The severity of the encounter is rolled with a
           <em>p5</em>.  Some regions add a bonus to severity and might 
           also add to the frequency as well.  E.g. a Gargun-infested area
           would.  The following table presents a rule
