@@ -1441,13 +1441,27 @@
           <em>+20:</em> By Horse
         </p>
         </div>
-        <h3 id="Treasure20">Treasure 20</h3>
+        <h3 id="Treasure20">Treasure</h3>
+        <p>
+          The power level of artifacts is always twice the depletion roll target.
+          Charge depletion is a p5 roll after use and always obvious to those
+          attuned but not anyone else.
+        </p>
         <h4 id="Horn of Kergis">Horn of Kergis</h4>
         <p>
-          Roll WILU + n5 against 10. Every time the horn is blown,
-          roll p5. If 0, there is no charge left.
+          Roll WILU + n5 against 10.  Depletion target is 10+.
         </p>
-        <h3 id="Naveh6">Naveh 6</h3>
+        <h4 id="Ward of Shonjor">Ward of Shonjor-Kalim</h4>
+        <p>
+          A roll of WILU + n5 against 20 gives distance a target is able to approach. 
+          Depletion target is 20+.
+        </p>
+        <h4 id="Attunement">Attunement</h4>
+        <p>
+          Use n5 plus Aura skill with direct addition of Sensitivity
+          (Psionics) vs. power of the artifact and use Slow Yield dimension.
+        </p>
+        <h3 id="Naveh6">Naveh</h3>
         <h4 id="Gekrish's Song">Gekrish's Song</h4>
         <p>
           After a short chant of 10 seconds, caster makes an active p5
@@ -1455,13 +1469,42 @@
           or flee until he is no longer aware of the caster's location
           and he has broken morale.
         </p>
-        <h3 id="Psionics6">Psionics 6</h3>
+        <h3 id="Psionics6">Psionics</h3>
+        <h4 id="psi-charm">Charm</h4>
+        <p>
+          Effective distance is adding invoker's and target's eyesight
+          (skill) in dm (1/10 m).  Roll n5 Charm skill vs Will skill.
+          The result is a direct penalty the target receives on any active 
+          action (not awareness, healing, passive triggering, etc).
+          This penalty is reduced at 1 per second, but multiple attempts
+          are allowed.  Negative results are treated as severity for
+          psionic episodes, severity as if the invoker was himself 
+          affected, including fade-out..
+        </p>
+        <h4 id="psi-clair">Clairvoyance</h4>
+        <p>
+          Roll n5 Skill.  Dimension is Fast Yield (Time) for a Distance of
+          10 meters.  The vision includes random senses, usually sight
+          and are always informative, but never complete.  They come
+          within seconds at the appropriate time, if 0 is reached.
+          Otherwise not at all.
+        </p>
+        <h4 id="psi-heal">Disembodiement</h4>
+        <p>
+          Duration is Skill + n5 roll in minutes.  Return is always a
+          Mental conflict, the "vacant" opponent is ML 0. Preparation is
+          Will attribute minutes - this is not a dimension.
+        </p>
         <h4 id="psi-heal">Healing</h4>
         <p>
           The duration is 20 seconds at 0, halved or doubled for every
           20 levels difference.  [2] reduces n5 fatigue points at 20,
           if positive. [3] reduces bloodloss at 20 with slow yield.
           [4] improve healing as physician skill, may be 5-added.
+        </p>
+        <h4 id="psi-hex">Hex</h4>
+        <p>
+          ?
         </p>
         <h4 id="psi-medium">Medium</h4>
         <p>
@@ -1479,7 +1522,20 @@
           may attempt to intiate communication on its end, i.e. 5-add its
           skill.
         </p>
-        <h3 id="Psionics8">Psionics 8</h3>
+        <h4 id="psi-mental">Mental Bolt, Negation, Prescience, Psychometry, Pyrokinesis</h4>
+        <p>
+          ?
+        </p>
+        <h4 id="psi-sensitivity">Sensitivity</h4>
+        <p>
+          Detection range and duration are adjusted (as is strength)
+          according to target.  Passive triggering works like <em>Attunement</em>
+          at -20.
+        </p>
+        <h4 id="psi-telekinesis">Telekinesis</h4>
+        <p>
+          ?
+        </p>
         <h4 id="psi-telepathy">Telepathy</h4>
         <p>
           The talent has three dimensions: Range, Duration, and Language.
@@ -1489,6 +1545,10 @@
           difference.  Language is the effectiveness a concept can be shared.  It
           is capped by a combined skill roll in a common language, if the recipient
           is willing. Otherwise it is capped by individual skill rolls.
+        </p>
+        <h4 id="psi-transference">Transference, Transmutation</h4>
+        <p>
+          ?
         </p>
       </div>
     </div>
