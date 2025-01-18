@@ -272,23 +272,6 @@
       <td>Time</td><td>&#x221e;</td><td>400%</td><td>200%</td><td>150%</td><td>100%</td><td>80%</td><td>60%</td>
     </tr>
   </table>
-  <table id="$D-Hazard" style="width:40%">
-    <tr>
-      <th>Hazard</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Next</td><td>0</td><td>20</td><td>40</td><td>60</td><td>80</td><td>100</td>
-    </tr>
-  </table>
-  <table id="$D-Hazard-2" style="width:60%">
-    <tr><th></th><th>Daytime</th><th>Twilight</th><th>Nighttime</th></tr>
-    <tr><th>Urban/Rural</th>   <td>-8</td><td>-5</td><td>-2</td></tr>
-    <tr><th>Wilderness</th>    <td>-3</td><td>-5</td><td>0</td></tr>
-    <tr><th>In winter</th>     <td>+2</td><td>+2</td><td>+2</td></tr>
-    <tr><th>Moving</th>        <td>-3</td><td>-5</td><td>-1</td></tr>
-    <tr><th>On ways</th>       <td>-5</td><td>-4</td><td>-3</td></tr>
-    <tr><th>Mostly indoors</th><td>+4</td><td>+6</td><td>+8</td></tr>
-  </table>
   <table id="$D-Travel-Season" style="width:60%">
     <tr>
       <th>Weather</th><th>Nuzyael</th><th>Peonu</th><th>Kelen</th><th>Nolus</th><th>Larane</th><th>Agrazhar</th><th>Azura</th><th>Halane</th><th>Savor</th><th>Ilvin</th><th>Navek</th><th>Morgath</th>
