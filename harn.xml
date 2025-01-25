@@ -1355,7 +1355,7 @@
         <p>
           Working Conditions have a PEF factor of 1 for 300h/month, with 
           a relative change of 0.1 for every 120h change. LDF remains the same
-          (20 sqft = 1 sqm). Val/R is an effective budget allocation, which 
+          (10 sqft = 1 sqm). Val/R is an effective budget allocation, which 
           means that the three values are calculated at (budget available) x LF.
         </p>
         <p>
