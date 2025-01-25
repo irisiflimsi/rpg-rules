@@ -1346,6 +1346,127 @@
           such that our simplifications do not defeat their purpose.
           We collect them as they come up.
         </p>
+        <h3 id="Household">Household</h3>
+        <p>
+          Housekeeping is a 50% specialty of Mathematics and a 40% specialty
+          of Survival.  PEF is with Skill 15 is 0.8, adding 0.1 for every 
+          5 points above and subtracting 0.15 for every 5 points below that.
+        </p>
+        <p>
+          Working Conditions have a PEF factor of 1 for 300h/month, with 
+          a relative change of 0.1 for every 120h change. LDF remains the same
+          (20 sqft = 1 sqm). Val/R is an effective budget allocation, which 
+          means that the three values are calculated at (budget available) x LF.
+        </p>
+        <p>
+          FDI is 1:1 until 30, any additional effective expenditure is treated
+          as a secondary and separate LXI, which is compounded into FDI. 
+          With CLI, for the first 8 points 2 effective pennies must be spent,
+          for the next 8 points, 8 effective pennies must be spent and the 8 points
+          after that 24 effective pennies.  Anything beyond that is considered
+          part of luxury.  HKI is calculated separately as is CLI.  LXI is
+          calculated by multiplying the allocated budget by 8 then adding 25;
+          of this sum the squareroot is taken and from this result 5 is subtracted
+          and this result is divided by 2. Or, alternatively with the exact same
+          result, but not properly "continuous", the existing table can be used.
+        </p>
+        <p>
+          Overall SLI and interpretation of the numeric results remain the same.
+          Since the complexity of mal-nutrition, sanitatry conditions, weather and 
+          other circumstances cannot be simulated within reasonably playability,
+          GM discretion is advised.  If the above calculations are not desired, 
+          short-cut the result as follow.  All numbers are averages for household
+          members.
+        </p>
+        <p>
+          <em>H = percentage of 12h spent on household (each day)</em>
+        </p>
+        <p>
+          <em>D = percentage of 30d spent on household (in a month)</em>
+        </p>
+        <p>
+          <em>S = percentage of 20 skill points (in one skill) available to
+            the household chores</em>
+        </p>
+        <p>
+          <em>H x D x S</em> less than 1 means the household is <em>Poor</em>,
+          between 1 and 2 it is <em>Low Income</em>, but with 2-3 it is <em>Reasonable</em>,
+          3 through 4 means it is <em>Wealthy</em> and beyond that the household
+          is <em>Luxurious</em>.
+        </p>
+        <h3 id="Naveh">Naveh</h3>
+        <h4 id="Gekrish's Song">Gekrish's Song</h4>
+        <p>
+          After a short chant of 10 seconds, caster makes an active p5
+          roll adding RSUI, which anyone hearing must roll WILU + p5
+          or flee until he is no longer aware of the caster's location
+          and he has broken morale.
+        </p>
+        <h3 id="Psionics6">Psionics</h3>
+        <h4 id="psi-charm">Charm</h4>
+        <p>
+          Effective distance is adding invoker's and target's eyesight
+          (skill) in dm (1/10 m).  Roll n5 Charm skill vs Will skill.
+          The result is a direct penalty the target receives on any active 
+          action (not awareness, healing, passive triggering, etc).
+          This penalty is reduced at 1 per second, but multiple attempts
+          are allowed.  Negative results are treated as severity for
+          psionic episodes, severity as if the invoker was himself 
+          affected, including fade-out..
+        </p>
+        <h4 id="psi-clair">Clairvoyance</h4>
+        <p>
+          Roll n5 Skill.  Dimension is Fast Yield (Time) for a Distance of
+          10 meters.  The vision includes random senses, usually sight
+          and are always informative, but never complete.  They come
+          within seconds at the appropriate time, if 0 is reached.
+          Otherwise not at all.
+        </p>
+        <h4 id="psi-heal">Disembodiement</h4>
+        <p>
+          Duration is Skill + n5 roll in minutes.  Return is always a
+          Mental conflict, the "vacant" opponent is ML 0. Preparation is
+          Will attribute minutes - this is not a dimension.
+        </p>
+        <h4 id="psi-heal">Healing</h4>
+        <p>
+          The duration is 20 seconds at 0, halved or doubled for every
+          20 levels difference.  [2] reduces n5 fatigue points at 20,
+          if positive. [3] reduces bloodloss at 20 with slow yield.
+          [4] improve healing as physician skill, may be 5-added.
+        </p>
+        <h4 id="psi-medium">Medium</h4>
+        <p>
+          The duration trajectory of an initiating trance is 20 minutes at
+          0 and halved/doubled every 10 points.  The range for
+          communication is governed by the Knowledge dimension, specific
+          Ethereals are specific concepts, a known name grants a +10
+          bonus.  Control is the third trajectory, which also uses the
+          knowledge dimension.  Any task must be within the ability of the
+          ethereal or it will fail, also depending on the ability of the
+          ethereal to subvert the intent.  Ignoring a mental conflict is
+          not within the ability of any ethereal.  Passive triggering
+          involves a 5 minute daydreaming trance (assumed to happen
+          automatically) with 0 control and 0 communication.  An ethereal
+          may attempt to intiate communication on its end, i.e. 5-add its
+          skill.
+        </p>
+        <h4 id="psi-sensitivity">Sensitivity</h4>
+        <p>
+          Detection range and duration are adjusted (as is strength)
+          according to target.  Passive triggering works like <em>Attunement</em>
+          at -20.
+        </p>
+        <h4 id="psi-telepathy">Telepathy</h4>
+        <p>
+          The talent has three dimensions: Range, Duration, and Language.
+          The range is determined to reach the target and the other dimensions
+          (trajectory) may be chosen by the user.  The range is MLU in kilometers,
+          and the duration is 30 seconds, halved or doubled for every 20 levels
+          difference.  Language is the effectiveness a concept can be shared.  It
+          is capped by a combined skill roll in a common language, if the recipient
+          is willing. Otherwise it is capped by individual skill rolls.
+        </p>
         <h3 id="Maritime Travel">Travel Tables</h3>
         <p>
           The severity of the encounter is rolled with a
@@ -1413,21 +1534,21 @@
           subject to penalty.  Roads are not affected by vegetation.
         </p>
         <div class="explain">
-        <p>
-          <em>-8:</em> Cropland, Heath, Hills
-        </p>
-        <p>
-          <em>-12:</em> Woodland, Needleleaf Forest
-        </p>
-        <p>
-          <em>-16:</em> Mixed Forest, Mountains, Swamp
-        </p>
-        <p>
-          <em>+10:</em> By Wagon
-        </p>
-        <p>
-          <em>+20:</em> By Horse
-        </p>
+          <p>
+            <em>-8:</em> Cropland, Heath, Hills
+          </p>
+          <p>
+            <em>-12:</em> Woodland, Needleleaf Forest
+          </p>
+          <p>
+            <em>-16:</em> Mixed Forest, Mountains, Swamp
+          </p>
+          <p>
+            <em>+10:</em> By Wagon
+          </p>
+          <p>
+            <em>+20:</em> By Horse
+          </p>
         </div>
         <h3 id="Treasure20">Treasure</h3>
         <p>
@@ -1448,95 +1569,6 @@
         <p>
           Use n5 plus Aura skill with direct addition of Sensitivity
           (Psionics) vs. power of the artifact and use Slow Yield dimension.
-        </p>
-        <h3 id="Naveh6">Naveh</h3>
-        <h4 id="Gekrish's Song">Gekrish's Song</h4>
-        <p>
-          After a short chant of 10 seconds, caster makes an active p5
-          roll adding RSUI, which anyone hearing must roll WILU + p5
-          or flee until he is no longer aware of the caster's location
-          and he has broken morale.
-        </p>
-        <h3 id="Psionics6">Psionics</h3>
-        <h4 id="psi-charm">Charm</h4>
-        <p>
-          Effective distance is adding invoker's and target's eyesight
-          (skill) in dm (1/10 m).  Roll n5 Charm skill vs Will skill.
-          The result is a direct penalty the target receives on any active 
-          action (not awareness, healing, passive triggering, etc).
-          This penalty is reduced at 1 per second, but multiple attempts
-          are allowed.  Negative results are treated as severity for
-          psionic episodes, severity as if the invoker was himself 
-          affected, including fade-out..
-        </p>
-        <h4 id="psi-clair">Clairvoyance</h4>
-        <p>
-          Roll n5 Skill.  Dimension is Fast Yield (Time) for a Distance of
-          10 meters.  The vision includes random senses, usually sight
-          and are always informative, but never complete.  They come
-          within seconds at the appropriate time, if 0 is reached.
-          Otherwise not at all.
-        </p>
-        <h4 id="psi-heal">Disembodiement</h4>
-        <p>
-          Duration is Skill + n5 roll in minutes.  Return is always a
-          Mental conflict, the "vacant" opponent is ML 0. Preparation is
-          Will attribute minutes - this is not a dimension.
-        </p>
-        <h4 id="psi-heal">Healing</h4>
-        <p>
-          The duration is 20 seconds at 0, halved or doubled for every
-          20 levels difference.  [2] reduces n5 fatigue points at 20,
-          if positive. [3] reduces bloodloss at 20 with slow yield.
-          [4] improve healing as physician skill, may be 5-added.
-        </p>
-        <h4 id="psi-hex">Hex</h4>
-        <p>
-          ?
-        </p>
-        <h4 id="psi-medium">Medium</h4>
-        <p>
-          The duration trajectory of an initiating trance is 20 minutes at
-          0 and halved/doubled every 10 points.  The range for
-          communication is governed by the Knowledge dimension, specific
-          Ethereals are specific concepts, a known name grants a +10
-          bonus.  Control is the third trajectory, which also uses the
-          knowledge dimension.  Any task must be within the ability of the
-          ethereal or it will fail, also depending on the ability of the
-          ethereal to subvert the intent.  Ignoring a mental conflict is
-          not within the ability of any ethereal.  Passive triggering
-          involves a 5 minute daydreaming trance (assumed to happen
-          automatically) with 0 control and 0 communication.  An ethereal
-          may attempt to intiate communication on its end, i.e. 5-add its
-          skill.
-        </p>
-        <h4 id="psi-mental">Mental Bolt, Negation, Prescience, Psychometry, Pyrokinesis</h4>
-        <p>
-          ?
-        </p>
-        <h4 id="psi-sensitivity">Sensitivity</h4>
-        <p>
-          Detection range and duration are adjusted (as is strength)
-          according to target.  Passive triggering works like <em>Attunement</em>
-          at -20.
-        </p>
-        <h4 id="psi-telekinesis">Telekinesis</h4>
-        <p>
-          ?
-        </p>
-        <h4 id="psi-telepathy">Telepathy</h4>
-        <p>
-          The talent has three dimensions: Range, Duration, and Language.
-          The range is determined to reach the target and the other dimensions
-          (trajectory) may be chosen by the user.  The range is MLU in kilometers,
-          and the duration is 30 seconds, halved or doubled for every 20 levels
-          difference.  Language is the effectiveness a concept can be shared.  It
-          is capped by a combined skill roll in a common language, if the recipient
-          is willing. Otherwise it is capped by individual skill rolls.
-        </p>
-        <h4 id="psi-transference">Transference, Transmutation</h4>
-        <p>
-          ?
         </p>
       </div>
     </div>
