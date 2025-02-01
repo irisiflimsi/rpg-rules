@@ -1381,19 +1381,19 @@
           members.
         </p>
         <p>
-          <em>H = percentage of 10h spent on household (each day)</em>
+          <em>H = percentage of 8h spent on household (each day)</em>
         </p>
         <p>
-          <em>D = percentage of 30d spent on household (in a month)</em>
+          <em>D = percentage of 24d spent on household (in a month)</em>
         </p>
         <p>
           <em>S = percentage of 20 skill points (in one skill) available to
             the household chores</em>
         </p>
         <p>
-          <em>H x D x S</em> less than 1 means the household is <em>Poor</em>,
-          between 1 and 2 it is <em>Low Income</em>, but with 2-3 it is <em>Reasonable</em>,
-          3 through 4 means it is <em>Wealthy</em> and beyond that the household
+          <em>H x D x S</em> less than 0.5 means the household is <em>Poor</em>,
+          between 0.5 and 1.5 it is <em>Low Income</em>, but with 1.5-2.5 it is <em>Average</em>,
+          2.5 through 3.5 means it is <em>High Income</em> and beyond that the household
           is <em>Luxurious</em>.
         </p>
         <h3 id="Naveh">Naveh</h3>
