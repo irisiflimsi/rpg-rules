@@ -1469,6 +1469,13 @@
           is capped by a combined skill roll in a common language, if the recipient
           is willing. Otherwise it is capped by individual skill rolls.
         </p>
+        <h3 id="Skill-spec">Skills</h3>
+        <p>
+          A list of specialties: <em>Skill/Specialty/Percentage</em>.
+        </p>
+        <p>
+          Sword/Shortsword/40.
+        <p>
         <h3 id="Maritime Travel">Travel Tables</h3>
         <p>
           The severity of the encounter is rolled with a
