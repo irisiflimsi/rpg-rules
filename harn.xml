@@ -1387,7 +1387,7 @@
           <em>D = percentage of 24d spent on household (in a month)</em>
         </p>
         <p>
-          <em>S = percentage of 20 skill points (in one skill) available to
+          <em>S = percentage of 10 skill points (in one skill) available to
             the household chores</em>
         </p>
         <p>
@@ -1475,7 +1475,7 @@
         </p>
         <p>
           Sword/Shortsword/40.
-        <p>
+        </p>
         <h3 id="Maritime Travel">Travel Tables</h3>
         <p>
           The severity of the encounter is rolled with a
