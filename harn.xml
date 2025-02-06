@@ -1529,34 +1529,44 @@
         <p>
           Overland travel is basically 30km a day or 3.5 days per
           100km.  The following table applies only to overland travel
-          only in time and distance dimensions.  The hazard dimension
-          is affected by twice the value given.
+          only in time and distance dimensions.
         </p>
-        <include id="$D-Travel-Season"/>
         <p>
-          The next modifiers apply only to overland travel in distance
+          The modifiers apply only to overland travel in distance
           and time domains.  Modifiers are cumulative.  The standard
-          distance/time assumes a road.  Consider all applicable
-          modifiers carefully.  Penalties apply double to wagon travel
-          (the bonus only once).  Roads through swamps are usually on
-          the solid parts and only during rainy weather are they
-          subject to penalty.  Roads are not affected by vegetation.
+          distance/time assumes a crop- or woodland, clear weather, on foot,
+          and not on a road.
         </p>
         <div class="explain">
           <p>
-            <em>-8:</em> Cropland, Heath, Hills
+            <em>10:</em> Hills (-), Trail (+)
           </p>
           <p>
-            <em>-12:</em> Woodland, Needleleaf Forest
+            <em>15:</em> Cart (-), Rain (-)
           </p>
           <p>
-            <em>-16:</em> Mixed Forest, Mountains, Swamp
+            <em>20:</em> Heath (-)
           </p>
           <p>
-            <em>+10:</em> By Wagon
+            <em>25:</em> Wagon (-)
           </p>
           <p>
-            <em>+20:</em> By Horse
+            <em>30:</em> Mixed Woods (-), Unpaved Road (+)
+          </p>
+          <p>
+            <em>35:</em> Muddy (-)
+          </p>
+          <p>
+            <em>40:</em> Mountains (-), Needleleaf Forest (-)
+          </p>
+          <p>
+            <em>50:</em> Paved Road (+), Mud (-)
+          </p>
+          <p>
+            <em>80:</em> Swamp (-), Storm (-)
+          </p>
+          <p>
+            <em>100:</em> Horse (+)
           </p>
         </div>
         <h3 id="Treasure20">Treasure</h3>
