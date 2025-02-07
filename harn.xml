@@ -1529,13 +1529,12 @@
         <p>
           Overland travel is basically 30km a day or 3.5 days per
           100km.  The following table applies only to overland travel
-          only in time and distance dimensions.
-        </p>
-        <p>
-          The modifiers apply only to overland travel in distance
-          and time domains.  Modifiers are cumulative.  The standard
-          distance/time assumes a crop- or woodland, clear weather, on foot,
-          and not on a road.
+          only in time and distance dimensions.  The modifiers apply
+          only to overland travel in distance and time domains.
+          Modifiers are cumulative.  The standard distance/time assumes
+          a crop- or woodland, clear weather, on foot, and not on a
+          road.  Modifiers are applied individually, e.g. speed is 
+          multiplied by 0.8 for a modifier of -20.  Order is irrelevant.
         </p>
         <div class="explain">
           <p>
