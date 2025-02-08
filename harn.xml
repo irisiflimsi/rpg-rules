@@ -1478,34 +1478,25 @@
         </p>
         <h3 id="Maritime Travel">Travel Tables</h3>
         <p>
-          The severity of the encounter is rolled with a
-          <em>p5</em>.  Some regions add a bonus to severity and might 
-          also add to the frequency as well.  E.g. a Gargun-infested area
-          would.  The following table presents a rule
-          of thumb.  As an abstraction, treat the group affected as being
-          wounded by the severity result.  Individuals can be treated
-          affected by a reverse 5-addition, e.g. two people getting a 10
-          means both having a wound of 5.
+          Encounter severity is rolled with a <em>p5</em>.  The result is 
+          treated as a potential wound average.  I.e. this is the effect
+          it will have on the life if left "untreated".  The roll result
+          is divided by 2 to get the wound level.
         </p>
-        <div class="explain">
-          <p>
-            <em>0:</em> Plants, fungus, equipment deteriorates, tracks
-          </p>
-          <p>
-            <em>5:</em> Small animals, children playing
-          </p>
-          <p>
-            <em>10:</em> Average people, Equipment breakage, mild poison
-          </p>
-          <p>
-            <em>15:</em> Large predator(s), armed people, a dangerous fall,
-            a contagious disease
-          </p>
-          <p>
-            <em>20:</em> Monsters (e.g. Ivashu, Gargun), pirates,
-            complete equipment failure.
-          </p>
-        </div>
+        <p><em>(This allows PCs (and the GM) to ignore minor events for 
+          playability but have an effect at the same time.  Such a potential
+          wound average can be imagined to have been caused by encountering
+          a disease, an accident, such as a sprained ankle while walking,
+          equipment break down, an attack by animals, or a bar room scuffle,
+          and so on. The GM shall use something appropriate for the environment.
+          The existing tables can be used for inspiration, but remember that the
+          severity of the average outcome has been determined first.)
+        </em></p>
+        <p>
+          Individual effects can be broken down by treating them by a reverse
+          5-addition, e.g. two people getting a 10 means both having a wound
+          of 5.
+        </p>
         <p>
           Steady Wind (2) is optimal, for (1) and (3) half the speed
           and for (0) and (4) halve it again.  Effects on hazards are
