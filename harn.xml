@@ -480,9 +480,9 @@
         <include id="$D-Dexterity"/>
         <h5 class="skill" id="sk-end">Endurance</h5>
         <p>
-          Read Endurance as Healingrate for Fatigue, see Stamina.
-          Remember that the fatigue accrued must be used as modifier
-          for the next time interval. Standard healing rate is one
+          Read Endurance as Healingrate for Fatigue, see <em>Stamina</em>
+          dimension.  Remember that the fatigue accrued must be used as
+          modifier for the next time interval. Standard healing rate is one
           point per minute.  Also consider the increased fatigue rate
           for carrying heavy loads, see Strength.
         </p>
