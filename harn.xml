@@ -263,7 +263,8 @@
           The first treats the attribute as a ficticious skill with an
           ML as a multiple of the attribute.  This form is treated as
           any MLU.  Say, Strength is 9 and a roll vs. 2 x Strength is
-          called for.  The MLU is 7 and the task level is 20 (default).
+          called for.  The MLU is 7 and the task level is 20
+          (default).
         </p>
         <p>
           The second version is rolling n number of d6, summing them
@@ -299,8 +300,8 @@
         <h4>Sunsign</h4>
         <p>
           Sunsigns represent an astrological affinity to certain
-          skills in-world, see original rules.  They give a direct bonus
-          to the MLU.
+          skills in-world, see original rules.  They give a direct
+          bonus to the MLU.
         </p>
         <h4>Skill Testing</h4>
         <p>
@@ -453,9 +454,9 @@
           combat are applied immediately to pending progressions, but
           the wound itself is modified by <em>B/E/P</em> of choice
           from the weapon and the appropriate armor.  The offset is
-          along the trajectory chosen.  Note that the same is true
-          for affects on the defender.  If this implies an action to
-          occur in the past, it is resolved immediately.
+          along the trajectory chosen.  Note that the same is true for
+          affects on the defender.  If this implies an action to occur
+          in the past, it is resolved immediately.
         </p>
         <include id="$D-Combat"/>
         <h5 class="skill" id="di-co2">Combat/Missile</h5>
@@ -468,7 +469,8 @@
         <p>
           Wounds are treated as penalty to activity that involves the
           affected body part instead of damage to heal.  Such wounds
-          are reduced to zero, once the grapple is no longer maintained.
+          are reduced to zero, once the grapple is no longer
+          maintained.
         </p>
         <h5 class="skill" id="sk-dex">Dexterity</h5>
         <p>
@@ -741,11 +743,11 @@
         <p>
           Healing time is given for one injury point.  Subtract the
           number of injury points a wound has twice.  Add a potential
-          physician&#8217;s bonus once when determining the healing rate for
-          the wound. An effective healing rate can be improved with a
-          physician present. Note that a reduction in the effective
-          wound points does not cause re-evaulation of the effective
-          healing rate.
+          physician&#8217;s bonus once when determining the healing
+          rate for the wound. An effective healing rate can be
+          improved with a physician present. Note that a reduction in
+          the effective wound points does not cause re-evaulation of
+          the effective healing rate.
         </p>
         <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-str">Strength</h5>
@@ -808,10 +810,10 @@
         <include id="$D-Weatherlore"/>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
-          For the Fast Yield, 4h with level 5 yields a 1.  For Slow Yield,
-          a working day is assumed 12h, but that may depend on the daylight
-          hours of the season; so when converting to days spent, adjust
-          accordingly.
+          For the Fast Yield, 4h with level 5 yields a 1.  For Slow
+          Yield, a working day is assumed 12h, but that may depend on
+          the daylight hours of the season; so when converting to days
+          spent, adjust accordingly.
         </p>
         <include id="$D-Yield"/>
         <h5/>
@@ -1145,8 +1147,9 @@
           Armor works the same way, but the instead if Stamina, sum up
           BEPF.  Failure means a weapon or armor breaks, which may
           potentially be repaired as above. (Regular maintenance is
-          assumed, otherwise accumlate 1 point per "unrepaired wound"
-          for weapons and armor for the purpose of Shock rolls.
+          assumed, otherwise accumlate 1 point per &#8220;unrepaired
+          wound&#8221; for weapons and armor for the purpose of Shock
+          rolls.
         </p>
         <h5 id="co-blooodloss">Bloodloss</h5>
         <p>
@@ -1228,8 +1231,8 @@
         <p>
           <em>11-15:</em> Grievous.  The detailed body part cannot be
           used, serious use effects on neighbouring detailed body
-          parts, and minor on neighboring main parts. (This might
-          only be the including main part.)  These effect wounds do not
+          parts, and minor on neighboring main parts. (This might only
+          be the including main part.)  These effect wounds do not
           heal separately.  Minor effects are at 10 less than the
           Grievous, while serious are 5 less.
         </p>
@@ -1342,19 +1345,20 @@
       <div class="container">
         <h1 id="sprules">Specific Rules</h1>
         <p>
-          In the course of Harn campaigns specific rules become necessary
-          such that our simplifications do not defeat their purpose.
-          We collect them as they come up.
+          In the course of Harn campaigns specific rules become
+          necessary such that our simplifications do not defeat their
+          purpose.  We collect them as they come up.
         </p>
         <h3 id="Household">Household</h3>
         <p>
           PEF equals 0.0 at MLU 0, 1.0 at MLU of 20 and 2.0 at MLU 40.
           All Indices, including Working conditions are treated on a
-          star-scale, i.e. as a skill.  The text is what can be observed.
+          star-scale, i.e. as a skill.  The text is what can be
+          observed.
         </p>
         <p>
-          Working Conditions have a PEF factor of 1 for 300h/month, with 
-          a relative change of 0.1 for every 120h change.
+          Working Conditions have a PEF factor of 1 for 300h/month,
+          with a relative change of 0.1 for every 120h change.
         </p>
         <p>
           <em>FDI</em> is 1d = 1 index point until 30, any additional
@@ -1362,42 +1366,26 @@
           LXI, which is compounded into FDI. 
         </p>
         <p>
-          <em>CLI</em> and <em>HKI</em> use a 1d = 1 index point instead
-          of the table.  After 20d, only half an index point is granted.
+          <em>CLI</em> and <em>HKI</em> use a 1d = 1 index point
+          instead of the table.  After 20d, only half an index point
+          is granted.
         </p>
         <p>
-          <em>LXI</em> is calculated in range brackets as follows: 0-1:0,
-          1-3:1, 4-6:2, 7-10:3, and so forth. (55-66:10, 210-231:20.)
+          <em>LXI</em> is calculated in range brackets as follows:
+          0-1:0, 1-3:1, 4-6:2, 7-10:3, and so forth. (55-66:10,
+          210-231:20.)
         </p>
         <p>
           <em>LSI</em> is calculated as sqm per resident. (3ft = 1m.)
         </p>
         <p>
           Overall SLI is the average of FDI, CLI, HKI, LXI, and LSI.
-          Since the complexity of mal-nutrition, sanitatry conditions, weather and 
-          other circumstances cannot be simulated within reasonably playability,
-          GM discretion is advised.  If the above calculations are not desired, 
-          short-cut the result as follow.  All numbers are averages for household
-          members.
-        </p>
-        <p>
-          <em>H = percentage of 8h spent on household (each day)</em>
-        </p>
-        <p>
-          <em>D = percentage of 24d spent on household (in a month)</em>
-        </p>
-        <p>
-          <em>S = percentage of 10 skill points (in one skill) available to
-            the household chores</em>
-        </p>
-        <p>
-          <em>H x D x S</em> less than 0.5 means the household is <em>Poor</em>,
-          between 0.5 and 1.5 it is <em>Low Income</em>, but with 1.5-2.5 it is <em>Average</em>,
-          2.5 through 3.5 means it is <em>High Income</em> and beyond that the household
-          is <em>Luxurious</em>.
+          Since the complexity of mal-nutrition, sanitatry conditions,
+          weather and other circumstances cannot be simulated within
+          reasonably playability, GM discretion is advised.
         </p>
         <h3 id="Naveh">Naveh</h3>
-        <h4 id="Gekrish's Song">Gekrish's Song</h4>
+        <h4 id="Gekrishs-Song">Gekrish's Song</h4>
         <p>
           After a short chant of 10 seconds, caster makes an active p5
           roll adding RSUI, which anyone hearing must roll WILU + p5
@@ -1409,26 +1397,27 @@
         <p>
           Effective distance is adding invoker's and target's eyesight
           (skill) in dm (1/10 m).  Roll n5 Charm skill vs Will skill.
-          The result is a direct penalty the target receives on any active 
-          action (not awareness, healing, passive triggering, etc).
-          This penalty is reduced at 1 per second, but multiple attempts
-          are allowed.  Negative results are treated as severity for
-          psionic episodes, severity as if the invoker was himself 
-          affected, including fade-out..
+          The result is a direct penalty the target receives on any
+          active action (not awareness, healing, passive triggering,
+          etc).  This penalty is reduced at 1 per second, but multiple
+          attempts are allowed.  Negative results are treated as
+          severity for psionic episodes, severity as if the invoker
+          was himself affected, including fade-out..
         </p>
         <h4 id="psi-clair">Clairvoyance</h4>
         <p>
-          Roll n5 Skill.  Dimension is Fast Yield (Time) for a Distance of
-          10 meters.  The vision includes random senses, usually sight
-          and are always informative, but never complete.  They come
-          within seconds at the appropriate time, if 0 is reached.
-          Otherwise not at all.
+          Roll n5 Skill.  Dimension is Fast Yield (Time) for a
+          Distance of 10 meters.  The vision includes random senses,
+          usually sight and are always informative, but never
+          complete.  They come within seconds at the appropriate time,
+          if 0 is reached.  Otherwise not at all.
         </p>
         <h4 id="psi-heal">Disembodiement</h4>
         <p>
           Duration is Skill + n5 roll in minutes.  Return is always a
-          Mental conflict, the "vacant" opponent is ML 0. Preparation is
-          Will attribute minutes - this is not a dimension.
+          Mental conflict, the &#8220;vacant&#8221; opponent is ML
+          0. Preparation is Will attribute minutes - this is not a
+          dimension.
         </p>
         <h4 id="psi-heal">Healing</h4>
         <p>
@@ -1439,35 +1428,37 @@
         </p>
         <h4 id="psi-medium">Medium</h4>
         <p>
-          The duration trajectory of an initiating trance is 20 minutes at
-          0 and halved/doubled every 10 points.  The range for
-          communication is governed by the Knowledge dimension, specific
-          Ethereals are specific concepts, a known name grants a +10
-          bonus.  Control is the third trajectory, which also uses the
-          knowledge dimension.  Any task must be within the ability of the
-          ethereal or it will fail, also depending on the ability of the
-          ethereal to subvert the intent.  Ignoring a mental conflict is
-          not within the ability of any ethereal.  Passive triggering
-          involves a 5 minute daydreaming trance (assumed to happen
-          automatically) with 0 control and 0 communication.  An ethereal
-          may attempt to intiate communication on its end, i.e. 5-add its
-          skill.
+          The duration trajectory of an initiating trance is 20
+          minutes at 0 and halved/doubled every 10 points.  The range
+          for communication is governed by the Knowledge dimension,
+          specific Ethereals are specific concepts, a known name
+          grants a +10 bonus.  Control is the third trajectory, which
+          also uses the knowledge dimension.  Any task must be within
+          the ability of the ethereal or it will fail, also depending
+          on the ability of the ethereal to subvert the intent.
+          Ignoring a mental conflict is not within the ability of any
+          ethereal.  Passive triggering involves a 5 minute
+          daydreaming trance (assumed to happen automatically) with 0
+          control and 0 communication.  An ethereal may attempt to
+          intiate communication on its end, i.e. 5-add its skill.
         </p>
         <h4 id="psi-sensitivity">Sensitivity</h4>
         <p>
           Detection range and duration are adjusted (as is strength)
-          according to target.  Passive triggering works like <em>Attunement</em>
-          at -20.
+          according to target.  Passive triggering works like
+          <em>Attunement</em> at -20.
         </p>
         <h4 id="psi-telepathy">Telepathy</h4>
         <p>
-          The talent has three dimensions: Range, Duration, and Language.
-          The range is determined to reach the target and the other dimensions
-          (trajectory) may be chosen by the user.  The range is MLU in kilometers,
-          and the duration is 30 seconds, halved or doubled for every 20 levels
-          difference.  Language is the effectiveness a concept can be shared.  It
-          is capped by a combined skill roll in a common language, if the recipient
-          is willing. Otherwise it is capped by individual skill rolls.
+          The talent has three dimensions: Range, Duration, and
+          Language.  The range is determined to reach the target and
+          the other dimensions (trajectory) may be chosen by the user.
+          The range is MLU in kilometers, and the duration is 30
+          seconds, halved or doubled for every 20 levels difference.
+          Language is the effectiveness a concept can be shared.  It
+          is capped by a combined skill roll in a common language, if
+          the recipient is willing. Otherwise it is capped by
+          individual skill rolls.
         </p>
         <h3 id="Skill-spec">Skills</h3>
         <p>
@@ -1477,28 +1468,34 @@
           Sword/Shortsword/40.
         </p>
         <h3 id="Travel">Travel Tables</h3>
-        <h4 id="Encounters">Encounters</h3>
+        <h4 id="Encounters">Encounters</h4>
         <p>
-          Encounter severity is rolled with a <em>p5</em>.  The result is 
-          treated as a potential wound average.  I.e. this is the effect
-          it will have on the life if left "untreated".  The roll result
-          is divided by 2 to get the wound level.
+          Encounter severity is rolled with a <em>p5</em>.  The result
+          is treated as a potential wound average.  I.e. this is the
+          effect it will have on the life if left
+          &#8220;untreated&#8221;.  The roll result is divided by 2 to
+          get the wound level.
         </p>
-        <p><em>(This allows PCs (and the GM) to ignore minor events for 
-          playability but have an effect at the same time.  Such a potential
-          wound average can be imagined to have been caused by encountering
-          a disease, an accident, such as a sprained ankle while walking,
-          equipment break down, an attack by animals, or a bar room scuffle,
-          and so on. The GM shall use something appropriate for the environment.
-          The existing tables can be used for inspiration, but remember that the
-          severity of the average outcome has been determined first.)
-        </em></p>
         <p>
-          Individual effects can be broken down by treating them by a reverse
-          5-addition, e.g. two people getting a 10 means both having a wound
-          of 5.
+          <em>
+            (This allows PCs (and the GM) to ignore minor events for
+            playability but have an effect at the same time.  Such a
+            potential wound average can be imagined to have been
+            caused by encountering a disease, an accident, such as a
+            sprained ankle while walking, equipment break down, an
+            attack by animals, or a bar room scuffle, and so on. The
+            GM shall use something appropriate for the environment.
+            The existing tables can be used for inspiration, but
+            remember that the severity of the average outcome has been
+            determined first.)
+          </em>
         </p>
-        <h4 id="Velocity">Velocity</h3>
+        <p>
+          Individual effects can be broken down by treating them by a
+          reverse 5-addition, e.g. two people getting a 10 means both
+          having a wound of 5.
+        </p>
+        <h4 id="Velocity">Velocity</h4>
         <p>
           Steady Wind (2) is optimal, for (1) and (3) half the speed
           and for (0) and (4) halve it again.  Effects on hazards are
@@ -1510,10 +1507,10 @@
           Maritime Travel Table
         </p>
         <p>
-          Oar movement is full at calm (0) wind, reduced by 25% for light (1)
-          and 50% for steady (2) wind.  No rowing is possible in stronger
-          wind conditions.  Rowing and Sailing may not be combined during a
-          watch.
+          Oar movement is full at calm (0) wind, reduced by 25% for
+          light (1) and 50% for steady (2) wind.  No rowing is
+          possible in stronger wind conditions.  Rowing and Sailing
+          may not be combined during a watch.
         </p>
         <include id="$Maritime-Travel-Oar"/>
         <p style="text-align:center">
@@ -1524,10 +1521,11 @@
           100km.  The following table applies only to overland travel
           only in time and distance dimensions.  The modifiers apply
           only to overland travel in distance and time domains.
-          Modifiers are cumulative.  The standard distance/time assumes
-          a crop- or woodland, clear weather, on foot, and not on a
-          road.  Modifiers are applied individually, e.g. speed is 
-          multiplied by 0.8 for a modifier of -20.  Order is irrelevant.
+          Modifiers are cumulative.  The standard distance/time
+          assumes a crop- or woodland, clear weather, on foot, and not
+          on a road.  Modifiers are applied individually, e.g. speed
+          is multiplied by 0.8 for a modifier of -20.  Order is
+          irrelevant.
         </p>
         <div class="explain">
           <p>
@@ -1563,23 +1561,24 @@
         </div>
         <h3 id="Treasure20">Treasure</h3>
         <p>
-          The power level of artifacts is always twice the depletion roll target.
-          Charge depletion is a p5 roll after use and always obvious to those
-          attuned but not anyone else.
+          The power level of artifacts is always twice the depletion
+          roll target.  Charge depletion is a p5 roll after use and
+          always obvious to those attuned but not anyone else.
         </p>
-        <h4 id="Horn of Kergis">Horn of Kergis</h4>
+        <h4 id="Horn-of-Kergis">Horn of Kergis</h4>
         <p>
           Roll WILU + n5 against 10.  Depletion target is 10+.
         </p>
-        <h4 id="Ward of Shonjor">Ward of Shonjor-Kalim</h4>
+        <h4 id="Ward-of-Shonjor">Ward of Shonjor-Kalim</h4>
         <p>
-          A roll of WILU + n5 against 30 gives distance a target is able to approach. 
-          Depletion target is 20+.
+          A roll of WILU + n5 against 30 gives distance a target is
+          able to approach.  Depletion target is 20+.
         </p>
         <h4 id="Attunement">Attunement</h4>
         <p>
           Use n5 plus Aura skill with direct addition of Sensitivity
-          (Psionics) vs. power of the artifact and use Slow Yield dimension.
+          (Psionics) vs. power of the artifact and use Slow Yield
+          dimension.
         </p>
       </div>
     </div>
