@@ -486,7 +486,6 @@
           point per minute.  Also consider the increased fatigue rate
           for carrying heavy loads, see Strength.
         </p>
-        <include id="$D-Stamina"/>
         <h5 class="skill" id="sk-eye">Eyesight</h5>
         <p>
           The resolution is in mm/m or m/km.  Typical modifications
