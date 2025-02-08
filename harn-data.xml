@@ -107,14 +107,6 @@
       <td>Time</td><td>30s</td><td>20s</td><td>10s</td><td>6s</td><td>3s</td><td>2s</td><td>1s</td>
     </tr>
   </table>
-  <table id="$D-Stamina" style="width:75%">
-    <tr>
-      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Days</td><td>30</td><td>20</td><td>15</td><td>10</td><td>7</td><td>5</td><td>3</td><td>2</td><td>1.5</td><td>1</td><td>0.7</td><td>0.5</td><td>0.3</td>
-    </tr>
-  </table>
   <table id="$D-Eyesight" style="width:40%">
     <tr>
       <th>Dimension</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th>
@@ -240,6 +232,14 @@
     </tr>
     <tr class="num">
       <td>Morale</td><td>-1</td><td>0</td><td>+1</td><td>+3</td><td>+10</td>
+    </tr>
+  </table>
+  <table id="$D-Stamina" style="width:75%">
+    <tr>
+      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th>
+    </tr>
+    <tr class="num">
+      <td>Days</td><td>30</td><td>20</td><td>15</td><td>10</td><td>7</td><td>5</td><td>3</td><td>2</td><td>1.5</td><td>1</td><td>0.7</td><td>0.5</td><td>0.3</td>
     </tr>
   </table>
   <table id="$D-Strength"  style="width:60%">
