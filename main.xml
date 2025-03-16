@@ -14,7 +14,8 @@
         <h1 id="Introduction">Introduction</h1>
         <p>
           In RPGs, most gameplay does not need rules.  During play,
-          players will only recurr to rules in two instances:
+          players will generally only recur to rules in these
+          instances:
         </p>
         <ul>
           <li>
@@ -23,44 +24,33 @@
             spell casting, for instance.
           </li>
           <li>
-            Players and GMs do not want to determine the outcome
-            according to their common understanding but want some
-            undeterministic influence, i.e. chance, to do it for them.
-            This may be used to enhance tension or drama but also to
-            reolve different understanding of the situation by
-            different players, but they can still agree on a chance
-            value.
+            Players and GMs have a common understanding that there is
+            some undeterministic influence, i.e. chance, in resolving
+            a situation.
+          </li>
+          <li>
+            To resolve different understanding of the situation by
+            different players or GMs, but participants can still agree
+            on a probability value for certain outcomes.
           </li>
         </ul>
         <p>
-          Additionally, common rule systems create probabilities that
-          are hard to gauge.  In fact, only for playing a game for an
-          extended period of time, will patterns emerge.  I find this
-          fatiguing, in particular, if the probabilities do not turn
-          out to match expectations and thereby impact enjoyment.
+          Common rule systems create probabilities that are hard to
+          gauge.  In fact, only by playing a game for an extended
+          period of time, will patterns emerge.  If the probabilities
+          do not turn out to match expectations they impact enjoyment.
         </p>
         <p>
-          The following rules are written with these points in mind.
+          The rules are written with these points in mind, which
+          means: keep it comprehensible.  This does not mean "generic
+          simple", but rather that probabilities do not provide
+          surprises when subject matter changes.
         </p>
-        <ul>
-          <li>
-            Keep out rules that explain a setting.  Let&#8217;s call these
-            <em>in-world</em> rules.  Rules are called
-            <em>out-world</em> rules, when they apply only to players
-            and/or the GM.  Sometimes the distinction is not easy, a
-            matter of taste, or how willing you are to distinguish.
-          </li>
-          <li>
-            Keep it comprehensible.  This does not mean generic
-            simple, but rather that probabilities do not provide
-            surprises when subject matter changes.
-          </li>
-        </ul>
         <p>
-          The following section contains a few reasonable assumptions
-          on rules and tries to explain, why certain rules are chosen.
-          If you are only interested in the mechanics, you can skip
-          it.
+          The next section contains a few reasonable assumptions on
+          rules and explains, why our rules are chosen the way they
+          are.  If you are only interested in the mechanics, you can
+          skip it.
         </p>
       </div>
       <div class="container">
@@ -81,34 +71,33 @@
             reasons.
           </li>
           <li>
-            A skill level of <em>k</em> has the same probability of
-            success for a task of difficulty <em>n+1</em>, as
-            <em>p</em> times a skill of <em>k</em> against a task of
-            difficulty <em>n</em>.  I.e. you succeed at the first step
-            and then tackle the remaining.
+            A skill level of <em>k</em> succeeds at a task of
+            difficulty <em>n+1</em> with the same probability as
+            <em>p</em> times a skill of <em>k</em> succeeds at a task
+            of difficulty <em>n</em>.  I.e. you succeed at reducing
+            the difficulty by one as a first step and then tackle the
+            remaining.
           </li>
           <li>
-            A skill level of <em>k</em> has the same chance of success
-            for a task of difficulty <em>0</em> as a skill of level
-            <em>0</em> has of failure against a task of difficulty
-            <em>k</em>
+            A skill level of <em>k</em> succeeds at a task of
+            difficulty <em>0</em> with the same probability as a
+	    skill level <em>0</em> at a task of difficulty <em>-k</em>.
           </li>
         </ul>
         <p>
           The numbers <em>m, n, k</em> are your regular (non-negative
-          integer) numbers.  Assuming we have a failure probability of
-          <em>p/2</em> for a skill of <em>1</em> for a task of
-          <em>0</em>, we will restrict ourselves to <em>p=0.8</em>.
-          Note that we extend the range of skill and task levels to
-          the negative numbers, if we treat a task level as negative
-          skill level, i.e. pitting a (-k)-skill against a 0-task is
-          the same as pitting a 0-skill at a k-task.
+          integer) numbers.  In the above setup, we will restrict
+          ourselves to <em>p=0.8</em>.  Note that the range of skill
+          and task levels includes the negative numbers.  We treat a
+          task level as negative skill level, i.e. a chancing a
+          <em>(-k)<em>-skill at a <em>0</em>-task is the same as using
+          a <em>0</em>-skill at a <em>k</em>-task.
         </p>
         <p>
-          This is in fact all we need, because the following are
-          conclusions.  This paragraph was written to show that we
-          make very few, natural assumptions that already imply the
-          most important rule.
+          This is in fact all we need, the following are conclusions.
+          This section was solely written to show that we make very
+          few, natural assumptions that already imply the most
+          important rule.
         </p>
       </div>
       <div class="container">
@@ -117,42 +106,29 @@
           <em>
             You roll a d5 until you roll a 1 and then count the number
             of dice that did not show up a 1.  That is the same as the
-            number of dice you actually rolled minus one.  The higher
-            you get, the better.  This first number is used for the
-            active character, or more generally, the actor.  It should
-            be clear in almost all situations, who is active - the one
-            with the applicable skill.  We call it the <b>positive
-            (stop) roll</b> roll, even though it is a number of rolls.
-            Of course, there is a <b>negative (stop) roll</b> that is
-            associated with the passive resistance or impediment,
-            which is handled in the same way.  That would be the task
-            in most cases.  The result of the negative stop roll
-            (which is still a positive number!) is subtracted from the
-            result of the positive.  Understanding this rule is
-            crucial, so we elaborate by listing the probabilities
-            involved as well as some examples.
+            number of dice you actually rolled minus one.  This first
+            number is used for the skill roll (of a character).  We
+            also call this the <b>positive (stop) roll</b> roll.  The
+            <b>negative (stop) roll</b> is associated with the task
+            roll (the resistance of the environment or impediment)
+            which is rolled/handled in the same way.  The result of
+            the negative stop roll (which is still a positive number!)
+            is subtracted from the result of the positive.
           </em>
         </p>
         <p>
-          The mechanism is different from most other rules (I
-          haven&#8217;t found any that use it), where you will often
-          roll either a pool of dice and count those that match a
-          certain threshold or single die roll.
+          We elaborate by listing the probabilities involved as well
+          as some examples.  The mechanism is different from other RPG
+          rules (I haven&#8217;t found any that use it), where you
+          will often roll either a pool of dice and count those that
+          match a certain threshold or use a single die roll.
         </p>
         <p>
-          All these methods, ours included, are usually compared
-          against a threshold.  The further away from the threshold
-          you are the more extreme the results will become.  Depending
-          of the sign of the difference, the results is good or bad
-          for the actor.
-        </p>
-        <p>
-          The follwoing two tables are explanatory and not needed,
-          just as the Translation section.  The mechanics have been
-          described completely in the highlighted section.  Everything
-          else can be used to reduce the number of dice thrown or to
-          better understand the implication of the (stop) roll
-          mechanic.
+          The following two tables are explanatory and not needed.
+          The mechanics have been described completely in the
+          highlighted section.  Everything else can be used to reduce
+          the number of dice thrown or to better understand the
+          implication of the (stop) roll mechanic.
         </p>
         <p>
           In Table 1 the first row shows the results you can achieve
@@ -161,29 +137,29 @@
           complete positive stop roll as a series of <em>d5</em> rolls
           as you move right on the first row, starting with 0.  The
           second row shows the chance that you have of moving up one
-          point (i.e. right) at any given point.  Note that this
-          chance is always the same.  The third row gives the
-          percentage chance that you have of achieving the result in
-          the corresponding first row.  These you could achieve by
-          rolling a <em>d100</em> in order to cut down on the number
-          of dice to roll.  All but the first column of this row are
-          approximations.
+          point (i.e. right) at any given point as percentage value.
+          Note that this chance is always the same.  The third row
+          gives the chance that you have of obtaining the result in
+          the corresponding first row in each column.  These are
+          expressed as rolls on a <em>d100</em>.  (This row can be
+          used to reduce the number of rolls but still receive the
+          benefits of the rule.)  All but the first column of this row
+          are approximations.
         </p>
         <p>
-          The last column is somewhat special.  It combines all higher
-          results.  You could expand the table to infinity, if you
-          wanted.  While the extensions of the first and second row
-          are quite obvious, the third is not.  It should be
-          interpreted thus: if you roll 91-100, i.e. the highest 10%,
-          you need to roll again on this table, get the result as
-          before and then add 10 to the result.  (For the
-          mathematically inclined, this is a <em>recursive</em>
-          definition, since it is possible that you roll 91-100 again,
-          which forces you to roll on this table again and add 20 to
-          the net result from the repeated application.  We will see
-          this in the examples.)  Some system have a similar mechanic
-          and call it an &#8220;exploding&#8221; roll or
-          &#8220;open-ended&#8221;.
+          The last column is somewhat special.  It combines all
+          results beyond 9.  Imagine you expand the table to infinity.
+          While the extensions of the first and second row are quite
+          obvious, the third is not.  It should be interpreted thus:
+          if you roll 91-100, i.e. the highest 10%, you need to roll
+          again on this table, get the result as before and then add
+          10 to the result.  (For the mathematically inclined, this is
+          a <em>recursive</em> definition, since it is possible that
+          you roll 91-100 again, which forces you to roll on this
+          table again and add 20 to the net result from the repeated
+          application.  We will see this in the examples.)  Some
+          system have a similar mechanic and call it an
+          &#8220;exploding&#8221; roll or &#8220;open-ended&#8221;.
         </p>
         <table style="width:70%">
           <tr>
@@ -203,28 +179,26 @@
           </tr>
         </table>
         <p>
-          The previous table only considered one stop roll, either the
-          positive or the negative.  (You can also call them the
-          active and the passive (stop) roll; in most instances the
-          obstacle is passive, such as door being lock-picked or a
-          weight being lifted.)  The following table shows the chances
-          for overall results.  Generally, the next table is
-          interpreted as the one above, with only a few key
-          differences.
+          This table only considers one stop roll, either the positive
+          or the negative.  (You can also call them the skill and the
+          task (stop) roll.)  The next table shows the chances for
+          overall results.  The interpretation of the table is similar
+          to the first.
         </p>
         <p>
-          With a roll of 01-06 and 95-100 the extended roll is
-          continued on the previous table with certain consequences.
-          Positive continuation - the one on the right end of the
-          table with 95-100 - is exactly as before, while negative
-          continuation results in negative results to be added.  For
-          instance, rolling 02 and then a 25 gives a result of -11.
-          The second row cell below the 0 result means 4/9 chance to
+          Only the third row needs explanation.  With a roll of 01-06
+          and 95-100 the extended roll is continued on the previous
+          table with correspodnding consequences.  Positive
+          continuation - the one on the right end of the table with
+          95-100 - is exactly as before, while negative continuation
+          results in negative results to be added.  For instance,
+          rolling 02 and then a 25 gives a result of -11.  The second
+          row cell below the 0 result means 4/9 (44%) chance to
           increase the result by 1, the same chance to descrease the
-          result by one and a 1/9 to stay at 0.  The astute reader
-          will see the chance for 0 in the third row is only 8%, while
-          1/9 is approximatly 11%.  Again this is due to rounding; the
-          price for rolling less dice.
+          result by one and a 1/9 (11%) to stay at 0.  The astute
+          reader will see the chance for 0 in the third row is only
+          8%, while 1/9 is approximatly 11%.  This &#8220;error&#8221;
+          is due to rounding; the price for rolling less dice.
         </p>
         <table style="font-size:75%;width:90%">
           <tr>
@@ -254,11 +228,6 @@
             <td>95-100</td>
           </tr>
         </table>
-        <p>
-          In case a more precise outcome needs to be rolled, roll a
-          <em>d10</em> for as many digits after the decimal point as
-          needed.
-        </p>
         <h3 id="Examples">Examples</h3>
         <p>
           The most generic way to roll the dice would be to roll
