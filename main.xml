@@ -133,18 +133,17 @@
         <p>
           In Table 1 the first row shows the results you can achieve
           when making a positive roll.  Since you continue rolling
-          until you get a 1 on your <em>d5</em>, you can interpret the
-          complete positive stop roll as a series of <em>d5</em> rolls
-          as you move right on the first row, starting with 0.  The
-          second row shows the chance that you have of moving up one
-          point (i.e. right) at any given point as percentage value.
-          Note that this chance is always the same.  The third row
-          gives the chance that you have of obtaining the result in
-          the corresponding first row in each column.  These are
-          expressed as rolls on a <em>d100</em>.  (This row can be
-          used to reduce the number of rolls but still receive the
-          benefits of the rule.)  All but the first column of this row
-          are approximations.
+          until you get a 1 on your d5, you can interpret the complete
+          positive stop roll as a series of d5 rolls as you move right
+          on the first row, starting with 0.  The second row shows the
+          chance that you have of moving up one point (i.e. right) at
+          any given point as percentage value.  Note that this chance
+          is always the same.  The third row gives the chance that you
+          have of obtaining the result in the corresponding first row
+          in each column.  These are expressed as rolls on a d100.
+          (This row can be used to reduce the number of rolls but
+          still receive the benefits of the rule.)  All but the first
+          column of this row are approximations.
         </p>
         <p>
           The last column is somewhat special.  It combines all
@@ -230,107 +229,96 @@
         </table>
         <h3 id="Examples">Examples</h3>
         <p>
-          The most generic way to roll the dice would be to roll
-          <em>d5</em> until a 1 is rolled.  To improve speed, several
-          <em>d10</em>s may be rolled in ordered fashion.  Order them
-          according to size or alphabetical color (e.g. black, blue,
-          green, yellow) or in any other way you can remember.  With a
-          <em>d10</em> stop at 1 or 2.  If you lack <em>d5</em>s, you
-          can also roll <em>d6</em>s with only a marginal 3% error on
-          each roll.  But all players (and GM) should roll the same
-          type dice.  Computer applications that make rolling as easy
-          as pressing a button are also easy to program.
+          A stop roll is rolling a d5 until a 1 is rolled.  Physical
+          dice cannot come with five equal faces, so you can use a d10
+          that stops on 1 and 2 instead.  To improve speed, several
+          d10s may be rolled in ordered fashion.  Order them according
+          to size or alphabetical color (e.g. black, blue, green,
+          yellow) or in any other way you can remember.  If you lack
+          d10s, you can also roll d6s with only a marginal 3% error on
+          each roll. Or you can reroll all 6s.  But all players (and
+          GM) should roll the same way.  Computer applications that
+          make rolling as easy as pressing a button are also easy to
+          program.
         </p>
         <div class="explain">
           <p>
-            Assume you decided to use <em>d100</em> and rolled a 24 on
-            the first roll.  This means a result of 1 on the first
-            table.  The second roll (the negative or passive roll)
-            shows a 50, which results in 3 for a net result of -2.
+            Assume you decided to use the third row in Table 1 with a
+            d100 and rolled a 24 on the first roll.  This means a
+            result of 1 on the first table.  The second roll (the
+            negative or passive roll) shows a 50, which results in 3
+            for a net result of -2.
           </p>
           <p>
             Using Table 2, a 28 is rolled, which results in -3.
           </p>
           <p>
             A more exotic roll would be the sequence 96, 99, 93, 61 on
-            the <em>d100</em>.  The result would be 34 for a positive
-            stop roll.  For a combined stop roll, the result would be
-            29 (and the roll of 61 ignored, because it is not needed,
+            the d100.  The result would be 34 for a positive stop
+            roll.  For a combined stop roll, the result would be 29
+            (and the roll of 61 ignored, because it is not needed,
             because the 93 already &#8220;stops&#8221; on Table 2).
           </p>
           <p>
-            Using the standard method, the positive sequence on a
-            <em>d10</em> shows 3, 8, 10, 7, 9, 4, 6, 3, 10, 10, 8, 4,
-            2 and the negative sequence shows 3, 6, 9, 4, 4, 1.  The
-            result is positive 12 and negative 5 with a net result of
-            +7.
-          </p>
-          <p>
-            If you decide that +7 is not precise enough, a roll of 3
-            and 5 on a <em>d10</em> (each) gives are finer result of
-            +7.35.  I.e. you simple roll the decimal places.
+            Using the d10-for-d5-replacement method, the positive
+            sequence on a d10 shows 3, 8, 10, 7, 9, 4, 6, 3, 10, 10,
+            8, 4, 2 and the negative sequence shows 3, 6, 9, 4, 4, 1.
+            The result is positive 12 and negative 5 with a net result
+            of +7.
           </p>
         </div>
         <p>
-          Remember that the second row is technically correct and the
-          third row only provides less rolls.  We will look at some
-          further hints for rolling.
-        </p>
-        <p>
-          Active and passive are symmetrical.  If you imagine one
+          Skill and task (rolls) are symmetrical.  If you imagine one
           character stealthily evading another, the first may
-          interprete the rolls as his actively evading against a
-          passive observation of the surroundings, while the second
-          may interprete the rolls as his actively scrutinzing the
-          vicinity against a passively hiding opponent.  Either way,
-          one roll (or set of rolls) will determine the outcome.
+          interpret the rolls as his skill at evading observation,
+          while the second may interpret the rolls as his skill in
+          successfully observing the vicinity.  Either way, one roll
+          (or set of rolls) will determine the outcome.
         </p>
         <h3 id="Hints">Hints</h3>
         <p>
-          When describing a certain situation, the actor and the
-          obstacle both possess a ceratin <em>level</em>.  The first
-          is usually a skill in the particular act and second a
-          measure of the difficulty of the task.  In the previous
-          example, the observer might have a (skill) level of 5 and
-          finding the clandestine character a (task) level of 3.
-          These levels will be added to the positive and negative stop
-          rolls, respectively.
+          When describing a situation, the actor and the obstacle both
+          possess a certain <em>level</em>.  The first is usually a
+          skill in the particular act and second a measure of the
+          difficulty of the task.  In the previous example, the
+          observer might have a (skill) level of 5 and finding the
+          clandestine character a (task) level of 3.  These levels
+          will be added to the positive and negative stop rolls,
+          respectively.
         </p>
         <p>
           We are adding and subtracting 4 numbers; stop rolls and
           levels.  The calculations result in a level difference
-          between the active and the passive part (or the skill level
+          between the positive and negative part (or the skill level
           and task level) which is relevant for rolling.  If only the
           failure or success is of interest and not the degree of
           success or failure, you can apply the following shortcut.
-          Since the difference must be met by the lower level
+          Since the level difference must be met by the lower level
           contestant, you may roll all the difference dice in one
-          combined ?throw? and check, whether any stop digit appears.
+          combined attempt and check, whether any stop digit appears.
           If it does the lower contestant cannot win, since it is
           irrelevant, where the stop digit appears.  If the stop digit
           does not appear, chances have reduced to 50/50, and you can
           flip a coin in any of a number of ways.
         </p>
         <p>
-          For example, suppose the active climber with a skill level
-          of 57 wants to scale a cliff of difficulty level 49.  The
+          For example, suppose a climber with a skill level of 57
+          wants to scale a cliff of difficulty level 49.  The
           difference is 8.  The GM rolls 8 dice, which show up 3, 5,
           6, 1, 3, 9, 9, and 8.  Since 1 is a stop digit, the cliff is
-          scaled.  If the 1 had been a 7 instead, for instance, the
-          cliff would have had a good chance to drop the character.
-          The GM decides that even is good for the character and odd
-          is bad and rolls a d10.  It comes up a 6 and the character
-          has barely made it.  Any story-telling description of this
-          close encounter is at your option.
+          scaled.  (The cliff has the lowere level!)  Say, the 1 had
+          been a 7 instead, the cliff would have had a good chance to
+          drop the character.  The GM decides that even is good for
+          the character and odd is bad and rolls a d10.  It comes up a
+          6 and thus the character has barely made it.
         </p>
         <p>
           Another pragmatic rule applies to differences of at least
           10.  Rolling 10 non-stop rolls in a row to match a level
           difference of 10 can be shortened to rolling a 1 on a d10.
-          The chance 1/10 is an approximation of 0.1073741824, which
-          is the exact chance.  In fact, the choice of d5 in the
-          initial paragraph was made for the reason that this
-          heuristic holds.
+          (The chance 1/10 is an approximation of the exact chance.)
+          In fact, the choice of 80% (d5) in the initial paragraph was
+          made for the reason that this heuristic holds.
         </p>
       </div>
       <div class="container">
@@ -367,75 +355,74 @@
           </tr>
         </table>
         <p>
-          The rule can be applied multiple times and its application
-          does not depend on the order or sub-grouping of several
-          actors.  In order to keep this rule simple, round results in
-          your tables.  If you use the rule multiple times, always
-          group two actors of similar skill levels together to reduce
-          rounding errors.  (This is normalized skill level, i.e. the
-          task level has already been subtracted.)
+	  If you use the rule multiple times, always group two actors
+	  of similar skill levels together to reduce rounding errors.
+	  (This is normalized skill level, i.e. the task level has
+	  already been subtracted.)  The application of this rule
+	  should not depend on the order or sub-grouping of several
+	  actors, but rounding errors are present in the table.  See
+	  below to avoid them.
         </p>
         <p>
           As a more elaborate example, say you have four characters in
           a room searching for something and you have determined that
           this technically means that either of those characters could
           find it, i.e. all would have to roll against a set
-          diffculty.  But you want just one roll.  These characters
-          have a skill level of 5, 7, 13, and 17.  Taking the first
-          two, because they are closest to each other, we combine them
-          into an actor with 11.  Now we combine 11 and 13 in the same
-          manner to 17.  In the last step, we combine 17 and 17 into
-          22.
+          diffculty.  But you want just one roll; imagine you had a
+          group search skill.  These characters have a skill level of
+          5, 7, 13, and 17.  Taking the first two, because they are
+          closest to each other, we combine them into an actor with
+          11.  Now we combine 11 and 13 in the same manner to 17.  In
+          the last step, we combine 17 and 17 into 22.
         </p>
         <p>
           If you have two actors that both must succeed a test, that
-          is equivalent to using the <em>reverse</em> stop roll, which
+          is equivalent to using the <em>inverse</em> stop roll, which
           means exchanging the role of positive and negative for the
-          purposes of combining.  Logically this means that either
-          obstacle may foil the actor.  Keep in mind that the reversal
-          of <em>positive</em> and <em>negative</em> roll also changes
-          who of the two has the higher skill level.
+          purposes of combining.  Logically, this means that either of
+          the two obstacles (formerly known as actors) may foil the
+          actor (originally the obstacle).  Keep in mind that the
+          reversal of <em>positive</em> and <em>negative</em> roll
+          also changes who of the two has the higher skill level.
+          This may take a bit of getting used to.
         </p>
         <p>
           Imagine in the previous example that the same characters are
-          trying to hide from a guard.  If one is detected, the guard
-          will raise the alarm and the maneuver fails.  As luck will
-          have it, their Hide skill level is exactly as their Search
-          skill level.  But now it is passive: 5 and 7 will turn into
-          1.  13 and 17 (closest together) will turn into 10. The
-          difficulty of the skill &#8220;pairs&#8221; 1 and 10 turns
-          into -1.  Since the guard isn&#8217;t really paying
-          attention, the GM gives the guard a skill level of 0.  That
-          leaves the group with a 60% failure chance.
+          trying to hide from a guard.  If either one is detected, the
+          guard will raise the alarm and the maneuver fails.  As luck
+          will have it, their Hide skill level is exactly their Search
+          skill level.  But in the inverse, the guard is active and he
+          has to succeed at detecting any of the four.  Task (inverse
+          skill) level 5 and 7 will turn into 1.  13 and 17 (closest
+          together) will turn into 10. The combined level of the task
+          (inverse skill) groups 1 and 10 turns into -1.  Since the
+          guard isn&#8217;t really paying attention, the GM gives the
+          guard a skill level of 0.  That still leaves the group with
+          a 60% failure chance.
         </p>
         <p>
-          If you are worried about rounding errors, use the following
+          If you are worried about rounding errors, particularly when
+          adding large numbers of skills or tasks, use the following
           formula, where &#946; is the difference in level you plug in
           and and the addition to the higher value is calculated.
-          Round when done with 5-addition.
+          Round when done with 5-addition - as late as possible.  (I
+          advise you to use this formuly only if you are a rule
+          designer who needs to deal with scaling issues.)  Use it
+          only when players try to &#8220;break the rules&#8221; by
+          exploiting the rounding errors.
         </p>
         <p style="font-weight:bold;text-align:center;">
           5 ln(1+e<sup>-&#946;ln(2)/5</sup>)/ln(2)
         </p>
-        <p>
-          Do not be overwhelmed by this suggestion, you will most
-          likely never ever use it, since role playing is more about
-          an individual&#8217;s actions than a group&#8217;s.  And
-          lengthy calculations just to be correct will reduce
-          enjoyment.  Use it only when players try to &#8220;break the
-          rules&#8221; by misconstrued rounding and then have
-          <em>them</em> do the math! Come to think of it, players
-          never do that, so forget the whole suggestion.
-        </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
           A skill may be decomposed into other skills, if so desired.
-          The decomposition must be such that the combination of
+          The decomposition must be such that the combination of the
           (weighted) averages of the new skill levels results in the
           original skill level.  Additional measures should be in
           place to indicate that the skills actually belong to a
-          group.  A typical restriction is that the individual skills
-          of a goup may not differ by more than 10 points.
+          group.  (A typical restriction is that the individual skills
+          of a goup may not differ by more than 10 points.)
         </p>
         <p>
           If a decomposition results in multiple rolls, make sure that
@@ -449,30 +436,29 @@
           Decomposition and then combining skills is a great tool to
           extend the skill space beyond what rules generally cover.
           Imagine that a PC wants to tie a knot, but his skill sheet
-          says he has level 5 as Sailor and level 3 as Mountaineer.
-          For tasks like knots where the difficulty is the same for a
-          Sailor and a Mountaineer, the GM can allow the PC to use a
-          9.  The reasoning is that the knot skill application works
-          as if two separate actors were trying to tie the knot
-          together.  Be careful, however, with allowing such
-          additions, because if you treat 0 as the value an untrained
-          individual has, then in the above case a sailor that has
-          never seen a mountain would still have a 0 in
-          mountaeineering and adding a 0 would yield an effective knot
-          skill of 8.
+          says he has skill level 5 as Sailor and level 3 as
+          Mountaineer.  For tasks like knots where the difficulty is
+          the same for a Sailor and a Mountaineer, the GM can allow
+          the PC to use a 9.  The reasoning is that the knot skill
+          application works as if two separate skills (actors) were
+          trying to tie the knot in combination.  Be careful, however,
+          with allowing such additions, because if you treat 0 as the
+          value an untrained individual has, then in the above case a
+          sailor that has never seen a mountain would still have a 0
+          in mountaineering and adding a 0 would yield an effective
+          knot skill of 8.
         </p>
         <h3 id="Normalization">Normalization</h3>
         <p>
 	  We suggest to normalize skills and tasks to zero (0).  What
 	  does that mean?  This value should be the skill level of
-	  untrained, uneducated human that has grown up to 20 years
-	  without restriction but also with sufficient care and
-	  nutrients.  This is a fictional person.  For instance, in
-	  order to compare different language skills, we assume this
-	  normal person has none.  When it comes to gender or racial
+	  untrained, uneducated, but otherwise healthy 20 year old
+	  human.  This is a fictional person.  For instance, in order
+	  to compare different language skills, we assume this normal
+	  person has none.  When it comes to gender or racial
 	  differences, we also suggest to create a fictitious average.
         </p>
-        <h3 id="Dimensions">Dimensions</h3>
+        <h2 id="Dimensions">Dimensions</h2>
         <p>
 	  A skill may be applied in multiple <em>dimensions</em>.  It
 	  may be used to evaluate something, to produce something, to
@@ -486,18 +472,19 @@
         </p>
         <p>
 	  If an actor decides to use multiple dimensions at the same
-	  time, this is called trajectory.  For example, assume that
-	  we have two common applications of a skill
-	  <em>Fletching</em>: creating an arrow of standard quality,
-	  where time varies, and creating an arrow during whittling
-	  for an hour, where quality varies.  In preparing for an
-	  upcoming attack on his village, the actor decides to create
-	  more good arrows at speed and wants 50% speed and 50%
-	  quality.  This is a typical trajectory.
+	  time, this is called a <em>trajectory</em>.  For example,
+	  assume that we have two common applications of a skill
+	  called <em>Fletching</em>: creating an arrow of standard
+	  quality, where time varies, and creating an arrow while
+	  whittling for an hour, where quality varies.  In preparing
+	  for an upcoming attack on his village, the character wants
+	  to create good arrows at speed.  The GM rules that this
+	  results in 50% speed and 50% quality.  This is a typical
+	  trajectory.
         </p>
       </div>
       <div class="container">
-        <h1 id="Application">Applications to Existing Rules</h1>
+        <h1 id="Application">Appendix</h1>
         <p>
           Many rulesets rank a skill on a percentile scale 0% through
           100%.  This is the case for Rolemaster, Runequest, or
@@ -544,9 +531,6 @@
         </p>
         <h3 id="harn">
           <a href="harn.xml">Rules for H&#226;rnworld</a>
-        </h3>
-        <h3 id="expanse">
-          <a href="expanse.xml">Rules for Expanse</a>
         </h3>
         <h3 id="char">
           <a href="char.svg">Generic Char Sheet</a>
