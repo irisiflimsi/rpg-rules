@@ -90,7 +90,7 @@
           ourselves to <em>p=0.8</em>.  Note that the range of skill
           and task levels includes the negative numbers.  We treat a
           task level as negative skill level, i.e. a chancing a
-          <em>(-k)<em>-skill at a <em>0</em>-task is the same as using
+          <em>(-k)</em>-skill at a <em>0</em>-task is the same as using
           a <em>0</em>-skill at a <em>k</em>-task.
         </p>
         <p>
