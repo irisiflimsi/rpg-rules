@@ -1563,6 +1563,9 @@
           The power level of artifacts is always twice the depletion
           roll target.  Charge depletion is a p5 roll after use and
           always obvious to those attuned but not anyone else.
+          Individual powers are determined at 10 points access each
+          in a predetermined order.  Later rolls will use the same
+          order, at 0 the depletion target is discovered.
         </p>
         <h4 id="Horn-of-Kergis">Horn of Kergis</h4>
         <p>
