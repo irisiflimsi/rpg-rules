@@ -320,6 +320,22 @@
           In fact, the choice of 80% (d5) in the initial paragraph was
           made for the reason that this heuristic holds.
         </p>
+        <h3 id="Hints">Diet Rules</h3>
+        <p>
+	  Also known as <em>light rules</em>, the above easily scales
+	  into a light version.  Divide the skill values above by 10
+	  and record them as such. This will give a 90% advantage to
+	  someone with one more point.
+        </p>
+        <p>
+	  As an example, we record a skill called <em>Fisticuff</em>
+	  with a 1-5 star rating.  When you have two opponents, either
+	  simply declare the one with more stars the winner, or roll a
+	  d10, and he wins with 1 through 9.  With equal rating, or
+	  with a 10 on the d10 respectively, you have a draw, in case
+	  that it an exceptable outcome. If not, flip a coin to see
+	  who is the winner.
+        </p>
       </div>
       <div class="container">
         <h1 id="Roaming">Roaming the Skill Space</h1>
@@ -484,6 +500,80 @@
           results in 50% speed and 50% quality.  This is a typical
           trajectory.
         </p>
+	<h3 id="Accuracy">Accuracy</h3>
+	<p>
+	  Judging the values of goods produced or performances
+	  delivered works the same for almost all skills, which is why
+	  this dimensions fits into the general frame.  Since the
+	  spread of these values in the concrete environment remains
+	  unknown, let us have a look at how these values are derived
+	  and how they are unterpreted.
+	</p>
+	<p>
+	  Consider that you want to express a <em>certainty</em>
+	  between 100% and 0%.  In a concrete, you might rule, that
+	  someone with a skill level of 20 is 80% certain and that
+	  someone with a 0 has 0% certainty.  The rest is inter and
+	  extrpolated accordingly, e.g. at 10 certainty is 40%.  If
+	  you do not want to have the spread as an independent
+	  dimension, you can calculate this as between
+	</p>
+	<p>
+	  <em>V x C</em> and <em>V / C</em>
+	</p>
+	<p>
+	  where <em>C</em> represents the certainty value between 0
+	  and 1 (the percentage divided by 100) and <em>V</em> the
+	  actual value only known the the GM.
+	</p>
+	<p>
+	  Write down the results of these calculations according to
+	  the skills you are interested in.  (You can see an example
+	  of this for Harnmaster.)  Now assume that you have determined
+	  both <em>C</em> and <em>V</em> for specific instance.  Since
+	  these numbers are usually not easy to operate with, choose
+	  any number by any arbitrary means between (roughly) the
+	  values given in the above formula.  This is the estimate
+	  that the PC is given.  If he is interested in how accurate
+	  he is, for instance to check, whether a merchant is trying
+	  to outsmart him in a trade, he can do the reverse operation
+	  and be sure that the true value is within that range.
+	</p>
+	<p>
+	  As a concrete example, suppose you determine <em>C</em> =
+	  0.60 (60%) and <em>V</em> is $160.  We are picking these
+	  numbers to show that the calculations are not difficult even
+	  if the numbers appear to be so.  Now eyeball <em>C</em>
+	  roughly as two thirds.  Multiplying $160 with 2/3 gives
+	  roughly $100 and dividing by it (multiply by 3/2) gives
+	  roughly a $250, thus an interval between $100 and $250.  If
+	  these calculations still seem excessive, consider any other
+	  way of approximation.  Now pick a random value in that
+	  range, e.g. roll a d100 and say low is at the lower end.
+	  That number comes up a 87 in our example, so we tell the PC
+	  his estimate is $200.  The PC wants to buy that item, so he
+	  wants to gauge the value more accurately in order not be
+	  ripped off but also not to miss out on a good deal.  Being a
+	  number cruncher he will be doing the reverse operation with
+	  rigor.  Because he knows his certainty to be 60%, he
+	  calculates the interval
+	</p>
+	<p>
+	  <em>$220 x (1 - 0.6) = $132</em> and <em>$220 / 0.6 =
+	  $366,67</em>
+	</p>
+	<p>
+	  This interval contains the real value $160 and leaves the PC
+	  a little wiser, but he is not in a very good gargaining
+	  position.  Note that for big values of <em>C</em> (close to
+	  1) you can use <em>V/C = V*(2 - C)</em>, if you'd rather use
+	  multiplication instead of division.
+	</p>
+	<p>
+	  In summary: use the certainty in any way you agree with your
+	  playing group.  The above provides a way to express
+	  uncertainty less ambiguously.
+	</p>
       </div>
       <div class="container">
         <h1 id="Application">Appendix</h1>
