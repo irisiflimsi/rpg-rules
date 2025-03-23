@@ -13,97 +13,20 @@
     <div class="main">
       <div class="title">Rules for H&#226;rnworld</div>
       <div class="container">
-        <h1 id="rules">Basic Rules</h1>
+        <h1 id="rules">Basic Rule</h1>
         <p>
           This is a set of rules, which represent the aspects dealt
-          with in the HM3 rule book.  It is difficult to distinguish
-          between in-world and out-world rules in HM3 as published.
-          Since our aim is to simplify, we will not rewrite all rules
-          accordingly, but rather rather stay with the rules as
-          written.  When appropriate we mention the distinction
-          between in- and out-world.
+          with in the HM3 rule book. Since our aim is to simplify,
+          we will not rewrite all rules, only those that are needed.
+          See <a href="main.xml">Main Rule</a> for the generic details.
         </p>
-        <h4>Justification</h4>
         <p>
           Sometimes people ask, why rewrite the rules, if the way that
           they adjucate situations changes only slightly and this only
           adds another layer of complexity.  In fact, we add a layer
           of simplification.  The benefit of better scaling and other
-          issues that are better addressed warrant the effort.  The
-          previous versions of the rules, however, clouded that,
-          because we attempted to rewrite them so as to look
-          <em>original</em>.  This is no longer attempted, but we only
-          explain how these met-rules are applied.
+          issues that are better addressed warrant the effort.
         </p>
-        <h4>Probabilities</h4>
-        <p>
-          This describes the main out-world rule.  A new type of roll
-          is introduced, the stop roll.  You roll a d5 until you get a
-          1 and then count the number of dice that did not show up a
-          1.  That is the same as the number of dice you actually
-          rolled minus one.  This roll is made by the active
-          character, or more generally, the actor.  It will generate
-          positive numbers (or zero) and is termed the
-          <em>positive</em> roll and abbreviated as <em>p5</em>.
-          Example: Peter rolls 5, 3, 8, 10, 2 (in that order) on a
-          d10.  He simulates the d5 by taking the result of a d10,
-          halving it and rounding up.  He thus rolled 3, 2, 4, 5, 1,
-          on a d5 effectively.  His p5 roll would be a 4.
-        </p>
-        <p>
-          Of course, there is a <em>negative</em> roll that is
-          associated with the passive resistance or the impediment.
-          It is handled in the same way but the negative value is
-          taken instead.  Thus in the above example, we would take -4
-          as result of a negative roll; therefore we can simply denote
-          the roll as -p5.  These two numbers (from different rolls)
-          are added.  The result will be a whole number, called
-          <em>n5</em> (n for neutral).  More examples are provided in
-          the generic ruleset.  We only repeat the main table for
-          convenience.
-        </p>
-        <include id="$Basic"/>
-        <p>
-          The general rules also talk about adding skills.  We repeat
-          the table provided in that ruleset and also have an
-          automated formula here (Html only) when more precise values
-          are requested.
-        </p>
-        <script>
-          function f() {
-            var s11 = document.getElementById("r1-s1").value;
-            var s12 = document.getElementById("r1-s2").value;
-            var m1 = Math.max(s11,s12);
-            var d1 = m1 - Math.min(s11,s12);
-            var re1 = 5  * Math.log(1 + Math.exp(-d1 * Math.LN2 / 5.0)) / Math.LN2;
-            document.getElementById("r1-r5").value = Math.round(10 * (re1 + m1)) / 10;
-            var s21 = document.getElementById("r2-s1").value;
-            var s22 = document.getElementById("r2-s2").value;
-            var m2 = Math.max(s21,s22);
-            var d2 = m2 - Math.min(s21,s22);
-            var re2 = 5  * Math.log(1 + Math.exp(-d2 * Math.LN2 / 5.0)) / Math.LN2;
-            document.getElementById("r2-r5").value = Math.round(10 * (re2 + m2)) / 10;
-            var s31 = document.getElementById("r3-s1").value;
-            var s32 = document.getElementById("r3-s2").value;
-            var m3 = Math.max(s31,s32);
-            var d3 = m3 - Math.min(s31,s32);
-            var re3 = 5  * Math.log(1 + Math.exp(-d3 * Math.LN2 / 5.0)) / Math.LN2;
-            document.getElementById("r3-r5").value = Math.round(10 * (re3 + m3)) / 10;
-          }
-        </script>
-        <include id="$Calculate"/>
-        <p>
-          When using the tables, take the two numbers and use the
-          (positive) difference of the two in the first row, to read
-          off a result in the second, and add this result to the
-          bigger to get the end result.  Looking at the tables, you
-          see the reduction in effectiveness when adding smaller
-          numbers to higher ones.  Sometimes, to ease writing, we
-          denote addition of skill (or task) numbers with
-          +<sub>5</sub>, e.g. <em>1 +<sub>5</sub> 2</em>.  This is
-          called 5-Addition, because <em>0 +<sub>5</sub> 0 = 5</em>.
-        </p>
-        <include id="$Calculate-2"/>
         <h3 id="s3kills">Overview</h3>
         <p>
           Whenever we have ML, SB or other technical terms, we append
@@ -113,15 +36,6 @@
           with an ML of 50%, i.e. an MLU of 20. Thus the most basic
           task difficulty - all other things being equal - should be
           set to 20.
-        </p>
-        <p>
-          Skills govern all activities, from combat to spell-casting.
-          All skills are rated on an open scale starting from zero
-          (0), with only 10% reaching 10 points more.  This general
-          situation is in-world knowledge.  But this is also identical
-          with the p5 system of rolling dice, which is out-world.  The
-          skill scale is open-ended as the p5 roll is, but humans
-          generally do not get scores beyond 50 (out-world).
         </p>
         <p>
           The following is a list of skills that are commonly used by
