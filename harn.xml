@@ -103,38 +103,19 @@
         </table>
         <h4>Skill Development</h4>
         <p>
-          Skill Development is set up such that about 20% of MLU of n
-          have MLU+10.  Since everyone has at least MLU 0, for normal
-          cases, this means that about 3 in 10000 have MLU of 50.
-          Individual may be awarded by the GM at any time, when
-          something was &#8220;learned&#8221; (this is out-world).
-          Remember that you learn most from failures.  Some skills may
-          be developed by practice/study, some require training.  When
-          you need time to learn, read this from the following table.
-          I.e. the better you already are, the harder it is to
-          improve.
-        </p>
-        <include id="$Teaching"/>
-        <p>
-          Some skill require that a teacher is present at the
-          beginning of a skill career, e.g. because a Lnaguags cannot
-          be learned without someone who actually speaks it reasonably
-          well, or &#8220;glass blower trade secret&#8221; are
-          imparted.  This is mentioned with the approproate skill.
+          Skill Development is applicable only to PCs and a
+          narrative rule.  Every game session, award 2 points (SP)
+          that can each be used to increase any skill MLU in the
+          range 0-9 by 1 point, in the range 10-19 by 1/2 points,
+          in the range 20-29 by 1/4 points and so forth.
+          Teachers are also handled narratively.  This narrative 
+          rule can be changed or adapted at any time, it is not
+          bound to in.world simulation.
         </p>
         <p>
-          In all cases, GM discretion is highly advised.  When a
-          mentor, coach, or teacher is available it can improve
-          learning speed.  But materials may be of bad quality or
-          study time is interrupted frequently.  The time to increase
-          an MLU this way should usually be within 20% of the listed
-          number. (A more thorough rule can be devised, but this does
-          not seem to be of general interest.
-        </p>
-        <p>
-          Sometimes forgetting or &#8220;unlearning&#8221; is called
-          for.  If skill has not been used for as many days is stated
-          in the table to <em>learn</em> something, deduct a point.
+          In world MLU improvement happens with the same range costs
+          as above, but 1 SP is gained every month after completing
+          NPC/PC creation.
         </p>
         <p>
           Improving Specialties is a bit more elaborate.  Skills list
