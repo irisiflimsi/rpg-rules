@@ -38,8 +38,14 @@
             <td><a href="#di-eye">Eyesight</a></td>
           </tr>
           <tr>
+            <td><a href="#di-hea">Hearing</a></td>
+            <td><a href="#di-ini">Initiative</a></td>
+            <td><a href="#di-jum">Jumping</a></td>
             <td><a href="#di-kno">Knowledge</a></td>
+            <td><a href="#di-men">Mental Conflict</a></td>
             <td><a href="#di-reg">Regional</a></td>
+          </tr>
+          <tr>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-tra">Travel</a></td>
             <td><a href="#di-yie">Yield</a></td>
@@ -352,83 +358,43 @@
             <td>0.25</td>
           </tr>
         </table>
-        <h5 class="skill" id="sk-fis">Fishing</h5>
+        <h5 class="skill" id="di-hea">Hearing</h5>
         <p>
-          Fishing uses the <em>Fast Yield</em> dimension.  The base
-          yield is one manday of food. Abundance of fish gives a
-          modifier between -20 and +20.
+          At 0, we have understanding normal speech, -10 is subdued
+          speech, -20 a whisper, 10 is the noise vehicles make, 20 are
+          battle noises and 30 is thunder.
         </p>
-        <h5 class="skill" id="sk-fle">Fletching</h5>
-        <p>
-          The ability to make and repair bows and arrows.  Base yield
-          is 1/4 bow or 3 arrows, which assumes tools and materials
-          are available.  Use the <em>Slow Yield</em> dimensions.
-        </p>
-        <h5 class="skill" id="sk-for">Foraging</h5>
-        <p>
-          Foraging uses the <em>Fast Yield</em> dimension.  The base
-          yield is one manday of food.  Different climate and terrain
-          types may be specialties.  Areas near civilization are
-          likely to have a penalty of at least 10.  Excellent
-          conditions exist only in tropical rain-forests and special
-          places like the Shava Forest with 10 bonus.  Season is
-          highly relevant.  To seek specific plants, see Herblore.
-          For hunting, see Tracking.  Use the <em>Fast Yield</em>
-          dimensions.
-        </p>
-        <h5 class="skill" id="sk-hea">Hearing</h5>
-        <div class="explain">
-          <p>
-            <em>-20:</em> Rural Silence
-          </p>
-          <p>
-            <em>-10:</em> Whisper
-          </p>
-          <p>
-            <em>0:</em> Low Speech
-          </p>
-          <p>
-            <em>10:</em> Normal Speech
-          </p>
-          <p>
-            <em>20:</em> Carts, Wagons, Combat
-          </p>
-          <p>
-            <em>30:</em> Smith, Stone Quarry, Skirmish
-          </p>
-          <p>
-            <em>40:</em> Thunder
-          </p>
-        </div>
-        <include id="$D-Hearing"/>
-        <h5 class="skill" id="sk-hera">Heraldry</h5>
-        <p>
-          Different regional/cultural types may be specialties.  The
-          skill uses the <em>Recipe</em> and <em>Accuracy</em>
-          dimensions.  One describes the achievements a character can
-          actively reproduce/draw, the other the recognized
-          achievements, if seen.
-        </p>
-        <h5 class="skill" id="sk-herb">Herblore</h5>
-        <p>
-          Different climate and terrain types may be specialties.  The
-          ability to find and identify individual types of plant.  MLU
-          is modified according to the plant&#8217;s rarity, seeking a
-          plant in an inappropriate locale should also reduce ML.  Use
-          the <em>Recipe</em>, <em>Accuracy</em> and <em>Fast
-          Yield</em> dimensions.  The former dimension describes the
-          recognized herbs, if seen.  Trajectories are commonplace.
-        </p>
-        <h5 class="skill" id="sk-ini">Initiative</h5>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+            <th>50</th>
+          </tr>
+          <tr class="num">
+            <td>Distance</td>
+            <td>0.1m</td>
+            <td>0.3m</td>
+            <td>1m</td>
+            <td>3m</td>
+            <td>10m</td>
+            <td>30m</td>
+            <td>100m</td>
+            <td>300m</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-ini">Initiative</h5>
         <p>
           Initiative reflects battle experience, discipline, and
           morale.  Initiative determines the speed in which characters
-          can assess a stressful situation.  Instead of rolling a
-          general awareness roll, the characters take the time listed
-          before they can act.  An ambush and similar situations can
-          give a bonus (for the ambushing party) as can the general
-          awareness that combat is imminent.  Sleeping and other
-          unawareness situations may incur hefty penalties.
+          can assess a stressful situation.  Characters take the time
+          listed before they can act.  An ambush and similar
+          situations can give a bonus.
         </p>
         <p>
           During the time a character is &#8220;frozen&#8221; this
@@ -445,22 +411,94 @@
           action culminates.  This changes the drama of simultaneous
           activity, which may or may not be appropriate.
         </p>
-        <include id="$D-Initiative"/>
-        <h5 class="skill" id="sk-jum">Jumping</h5>
+        <table style="width:80%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-15</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+            <th>45</th>
+            <th>50</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>60</td>
+            <td>45</td>
+            <td>30</td>
+            <td>20</td>
+            <td>10</td>
+            <td>8</td>
+            <td>6</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0.8</td>
+            <td>0.6</td>
+            <td>0.45</td>
+            <td>0.3</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-jum">Jumping</h5>
         <p>
           Jumping is tested when a character attempts to leap for
           height or distance.  Results assume a running start; for
           standing jumps, halve heights and distances.  Results below
-          0 turn into a Fall.  For each 5 levels of dimension that are
-          also accepted as fall, increase ML by 1 point.
+          0 turn into a Fall.
         </p>
-        <include id="$D-Jumping"/>
+        <table style="width:75%">
+          <tr>
+            <th>Dimension</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+            <th>50</th>
+            <th>60</th>
+            <th>70</th>
+          </tr>
+          <tr class="num">
+            <td>Height</td>
+            <td>0.5m</td>
+            <td>0.75m</td>
+            <td>1m</td>
+            <td>1.25m</td>
+            <td>1.5m</td>
+            <td>1.75m</td>
+            <td>2m</td>
+            <td>2.25m</td>
+            <td>2.5m</td>
+          </tr>
+          <tr class="num">
+            <td>Distance</td>
+            <td>0m</td>
+            <td>1m</td>
+            <td>2m</td>
+            <td>3m</td>
+            <td>4m</td>
+            <td>5m</td>
+            <td>7m</td>
+            <td>9m</td>
+            <td>11m</td>
+          </tr>
+        </table>
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <p>
-          This dimension can be exploited as knowledge and the
-          knowledge about knowledge, i.e. how sure is the character
-          that his reproduction of the knowledge is correct.  Some
-          example task difficulties follow.
+          This dimension can also be used as knowledge about
+          knowledge, i.e. how sure is the character that his
+          reproduction of the knowledge is correct.
         </p>
         <div class="explain">
           <p>
@@ -489,14 +527,34 @@
             substance is possible.
           </p>
         </div>
-        <h5 class="skill" id="sk-men">Mental Conflict</h5>
-        <include id="$PsiConflict"/>
+        <h5 class="skill" id="di-men">Mental Conflict</h5>
         <p>
-          A fatigue rate of 1 fatigue level per minute is multiplied
+          A fatigue rate of 1 fatigue per minute is multiplied
           be the result in the table.  Mental Conflict is resolved
           similar to normal combat.
         </p>
-        <include id="$D-PsiConflict"/>
+        <table width="70%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Fatigue Rate</td>
+            <td>30</td>
+            <td>20</td>
+            <td>10</td>
+            <td>6</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+          </tr>
+        </table>
         <h5 class="skill" id="sk-mov">Move</h5>
         <p>
           Humans can accelerate and decelerate as 3 m/s each second.
@@ -744,12 +802,90 @@
         <include id="$D-Weatherlore"/>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
-          For the Fast Yield, 4h with level 5 yields a 1.  For Slow
-          Yield, a working day is assumed 12h, but that may depend on
-          the daylight hours of the season; so when converting to days
-          spent, adjust accordingly.
+          The <em>Fast Yield</em> is used for Fishing, Foraging, and
+          Hunting with a dimension unit a 1 man-day of food.  The
+          <em>Slow Yield</em> when failure can be compensated by
+          spending more time is used for Fletching, where the unit us
+          1/4 bow or 4 arrows.  For trajectories, a dimension cannot
+          be set to zero.  Note that most activity cannot be extended
+          beyond 8 hours per day.
         </p>
-        <include id="$D-Yield"/>
+        <p>
+          As example 4h with MLU 5 fast yields 1.  For Slow Yield, the
+          same MLU needs 9h to get 1.  spent, adjust accordingly.
+        </p>
+        <table style="width:90%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-15</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+          </tr>
+          <tr class="num">
+            <td>Fast Yield</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr class="num">
+            <td>Fast Time</td>
+            <td>64h</td>
+            <td>32h</td>
+            <td>16h</td>
+            <td>8h</td>
+            <td>4h</td>
+            <td>2h</td>
+            <td>1:20h</td>
+            <td>1h</td>
+            <td>48min</td>
+            <td>40min</td>
+            <td>34min</td>
+          </tr>
+          <tr class="num">
+            <td>Slow Yield</td>
+            <td>0</td>
+            <td>1/4</td>
+            <td>1/2</td>
+            <td>3/4</td>
+            <td>1</td>
+            <td>1.5</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+          </tr>
+          <tr class="num">
+            <td>Slow Time</td>
+            <td>48h</td>
+            <td>36h</td>
+            <td>24h</td>
+            <td>16h</td>
+            <td>12h</td>
+            <td>9h</td>
+            <td>6h</td>
+            <td>4:30h</td>
+            <td>3h</td>
+            <td>2:15h</td>
+            <td>1.5h</td>
+          </tr>
+        </table>
         <h5/>
       </div>
       <div class="container">

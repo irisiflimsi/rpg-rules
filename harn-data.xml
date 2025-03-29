@@ -69,41 +69,6 @@
       <th></th><td>625</td><td>750</td><td>1000</td><td>1250</td><td>1500</td><td>1750</td><td>2000</td><td>2250</td><td>2500</td><td>2750</td>
     </tr>
   </table>
-  <table id="$D-Hearing" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
-    </tr>
-    <tr class="num">
-      <td>Distance</td><td>0.1m</td><td>0.3m</td><td>1m</td><td>3m</td><td>10m</td><td>30m</td><td>100m</td><td>300m</td>
-    </tr>
-  </table>
-  <table id="$D-Initiative" style="width:80%">
-    <tr>
-      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th><th>35</th><th>40</th><th>45</th><th>50</th>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>60</td><td>45</td><td>30</td><td>20</td><td>10</td><td>8</td><td>6</td><td>4</td><td>3</td><td>2</td><td>1</td><td>0.8</td><td>0.6</td><td>0.45</td><td>0.3</td>
-    </tr>
-  </table>
-  <table id="$D-Jumping" style="width:50%">
-    <tr>
-      <th>Dimension</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th><th>80</th><th>90</th><th>100</th>
-    </tr>
-    <tr class="num">
-      <td>Height</td><td>0.5m</td><td>0.75m</td><td>1m</td><td>1.25m</td><td>1.5m</td><td>1.75m</td><td>2m</td><td>2.25m</td><td>2.5m</td><td>2.75m</td><td>3m</td><td>3.25m</td>
-    </tr>
-    <tr class="num">
-      <td>Distance</td><td>0m</td><td>1m</td><td>2m</td><td>3m</td><td>4m</td><td>5m</td><td>7m</td><td>9m</td><td>11m</td><td>13m</td><td>15m</td><td>20m</td>
-    </tr>
-  </table>
-  <table id="$D-PsiConflict" width="70%">
-    <tr>
-      <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Fatigue Rate</td><td>30</td><td>20</td><td>10</td><td>6</td><td>3</td><td>2</td><td>1</td>
-    </tr>
-  </table>
   <table id="$D-Move" style="width:80%">
     <tr>
       <th>Dimension</th><th>-40</th><th>-30</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th><th>70</th><th>80</th><th>90</th><th>100</th>
@@ -213,23 +178,6 @@
     </tr>
     <tr class="num">
       <td>Time</td><td>15min</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
-    </tr>
-  </table>
-  <table id="$D-Yield" style="width:90%">
-    <tr>
-      <th>Dimension</th><th>-20</th><th>-15</th><th>-10</th><th>-5</th><th>0</th><th>5</th><th>10</th><th>15</th><th>20</th><th>25</th><th>30</th>
-    </tr>
-    <tr class="num">
-      <td>Fast Yield</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
-    </tr>
-    <tr class="num">
-      <td>Fast Time</td><td>64h</td><td>32h</td><td>16h</td><td>8h</td><td>4h</td><td>2h</td><td>1:20h</td><td>1h</td><td>48min</td><td>40min</td><td>34min</td>
-    </tr>
-    <tr class="num">
-      <td>Slow Yield</td><td>0</td><td>1/4</td><td>1/2</td><td>3/4</td><td>1</td><td>1.5</td><td>2</td><td>3</td><td>4</td><td>6</td><td>8</td>
-    </tr>
-    <tr class="num">
-      <td>Slow Time</td><td>48h</td><td>36h</td><td>24h</td><td>16h</td><td>12h</td><td>9h</td><td>6h</td><td>4:30h</td><td>3h</td><td>2:15h</td><td>1.5h</td>
     </tr>
   </table>
   <table id="$Combat-MA" style="width:70%">
