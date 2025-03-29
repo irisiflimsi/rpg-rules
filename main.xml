@@ -574,6 +574,29 @@
 	  playing group.  The above provides a way to express
 	  uncertainty less ambiguously.
 	</p>
+	<h3 id="Proportional">Proportional</h3>
+	<p>
+	  This is a very easy dimension often used intuitively.  When
+	  a value result roll is positive (e.g. +3) then the normal
+	  success is beat by the same amount of a <em>constant
+	  percentage</em> (e.g. 10% which would in 30%
+	  overachievement).  To obtain a sensible constant, it is
+	  useful to think of the result roll, that would result in 0%.
+	</p>
+	<p>
+	  Say, that -20 would mean disaster and nothin is achieved at
+	  all.  This implies that from 0% to 100% we have 20 points to
+	  bridge, which put it point at 5%, which is the <em>constant
+	  percentage</em>.  We get (as an example)
+	</p>
+        <table style="width:75%">
+          <tr>
+            <th>Result Roll</th><td>-20</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td>
+          </tr>
+          <tr>
+            <td>Result</td><td>0%</td><td>25%</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td><td>175%</td><td>200%</td>
+          </tr>
+        </table>
       </div>
       <div class="container">
         <h1 id="Application">Appendix</h1>

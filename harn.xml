@@ -27,65 +27,7 @@
           of simplification.  The benefit of better scaling and other
           issues that are better addressed warrant the effort.
         </p>
-        <h3 id="s3kills">Overview</h3>
-        <p>
-          Whenever we have ML, SB or other technical terms, we append
-          an U to distinguish the Universal rules, from the
-          classic. E.g. MLU and SBU.  You can calculate MLU as ML *
-          0.4.  The basic 50/50 chance of success on a skill roll is
-          with an ML of 50%, i.e. an MLU of 20. Thus the most basic
-          task difficulty - all other things being equal - should be
-          set to 20.
-        </p>
-        <p>
-          The following is a list of skills that are commonly used by
-          characters on H&#226;rn.  It is neither complete no without
-          overlap.
-        </p>
-        <h4>Skill Links</h4>
-        <table class="links" style="width:90%">
-          <tr>
-            <td><a href="#sk-agr">Agriculture</a></td>
-            <td><a href="#sk-alc">Alchemy</a></td>
-            <td><a href="#sk-awa">Awareness</a></td>
-            <td><a href="#sk-cli">Climbing</a></td>
-            <td><a href="#sk-end">Endurance</a></td>
-            <td><a href="#sk-fis">Fishing</a></td>
-          </tr>
-          <tr>
-            <td><a href="#sk-fle">Fletching</a></td>
-            <td><a href="#sk-for">Foraging</a></td>
-            <td><a href="#sk-hera">Heraldry</a></td>
-            <td><a href="#sk-herb">Herblore</a></td>
-            <td><a href="#sk-ini">Initiative</a></td>
-            <td><a href="#sk-jum">Jumping</a></td>
-          </tr>
-          <tr>
-            <td><a href="#sk-men">Mental Conflict</a></td>
-            <td><a href="#sk-mov">Move</a></td>
-            <td><a href="#sk-phy">Physician</a></td>
-            <td><a href="#sk-pie">Piety</a></td>
-            <td><a href="#sk-psi">Psi Talents</a></td>
-            <td><a href="#sk-rhe">Rhetoric</a></td>
-          </tr>
-          <tr>
-            <td><a href="#sk-swi">Swimming</a></td>
-            <td><a href="#sk-thr">Throwing</a></td>
-            <td><a href="#sk-weat">Weatherlore</a></td>
-          </tr>
-        </table>
-        <h4>Attribute Links</h4>
-        <table class="links" style="width:75%">
-          <tr>
-            <td><a href="#sk-agi">Agility</a></td>
-            <td><a href="#sk-dex">Dexterity</a></td>
-            <td><a href="#sk-eye">Eyesight</a></td>
-            <td><a href="#sk-hea">Hearing</a></td>
-            <td><a href="#sk-sta">Stamina</a></td>
-            <td><a href="#sk-str">Strength</a></td>
-          </tr>
-        </table>
-        <h4>Dimension Links</h4>
+        <h3 id="dims">Dimension Links</h3>
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
@@ -101,6 +43,20 @@
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
+        <h3 id="s3kills">Overview</h3>
+        <p>
+          Whenever we have ML, SB or other technical terms, we append
+          an U to distinguish the Universal rules, from the
+          classic. E.g. MLU and SBU.  You can calculate MLU as ML *
+          0.4.  The basic 50/50 chance of success on a skill roll is
+          with an ML of 50%, i.e. an MLU of 20. Thus the most basic
+          task difficulty - all other things being equal - should be
+          set to 20.
+        </p>
+        <p>
+          Attributes are treated as Skills with MLU twice their value.
+          It is useful to track them accordingly.
+        </p>
         <h4>Skill Development</h4>
         <p>
           Skill Development is applicable only to PCs and a
@@ -113,84 +69,68 @@
           bound to in.world simulation.
         </p>
         <p>
-          In world MLU improvement happens with the same range costs
+          In-world MLU improvement happens with the same range costs
           as above, but 1 SP is gained every month after completing
           NPC/PC creation.
         </p>
         <p>
-          Improving Specialties is a bit more elaborate.  Skills list
+          Improving Specialties is more elaborate.  Skills list
           specialties with a percentage value.  This percentage value
-          gives the approximate part of the whole group that this
-          specialization comprises.  When the skill is improved (the
-          skill group of all specialties) all improvement may be
-          dedicated to the specialty instead.  As an example, a
-          Specialty/20 could see an improvement of 5 points instead of
-          a 1 for the group and a 40% Specialty an improvement of 2.5
-          points of the specialty instead of 1 for the group.  So,
-          divide 100% by the given percentage to get a multiple
-          <em>m</em>.  The time needed is the average of all the MLU
-          points improved according to the basic law.
+          gives the part of the whole group that this specialization
+          comprises.  When the skill is improved (the skill group of
+          all specialties) all improvement may be dedicated to the
+          specialty instead.
         </p>
         <p>
-          Note: If at any time the skill group itself is developed,
-          specialties are only improved, if they would fall below the
-          MLU of the group otherwise.  It would be prudent to learn
-          the &#8220;opposite&#8221; Specialty.
-        </p>
-        <h4>Dimensions</h4>
-        <p>
-          Dimensions are collected as common reference for the many
-          skills that use them in more or less the same manner.  They
-          determine a frame of reference for the difficulties of
-          tasks.  They can also used in-world, but are more regularly
-          used out-world, when a PC tries to achieve a concrete goal.
-        </p>
-        <h4>Attributes</h4>
-        <p>
-          Attributes come in textual form and a few in numeric form.
-          The numeric attributes are listed above separately.  To have
-          an appropriate scale, and keep the rule, just keep the
-          attribute as-is.  Everything else, including the star-scale
-          follows from there.
+          As an example, a <em>Skill/ASpecialty/20</em> could see an
+          improvement of 5 points if <em>ASpecialty</em> instead of a
+          1 for <em>Skill</em>.  A <em>Skill/BSpecialty/40</em> could
+          see an improvement of 2.5 points if <em>BSpecialty</em>
+          instead of a 1 for <em>Skill</em>.  Divide 100% by the given
+          percentage to get a multiple <em>m</em>.
         </p>
         <p>
-          When an attribute roll is called for, it comes in two forms.
-          The first treats the attribute as a ficticious skill with an
-          ML as a multiple of the attribute.  This form is treated as
-          any MLU.  Say, Strength is 9 and a roll vs. 2 x Strength is
-          called for.  The MLU is 7 and the task level is 20
-          (default).
+          If at any time the skill itself is developed, specialties
+          are only improved, if they would fall below the MLU of the
+          skill otherwise.  It would be prudent to learn the
+          &#8220;opposite&#8221; Specialty.
         </p>
+        <h4>Star Scale</h4>
         <p>
-          The second version is rolling n number of d6, summing them
-          up and stay below an attribute value.  This does not fit
-          well into the scheme, but the spirit is obviously that with
-          each additional die the chances to succeed become sharply
-          worse.  Treat 1d6 as task level 0, 2d6 as task level 5, 3d6
-          as 10, and so on.
+          The star-scale is often used to simplify evaluation.
         </p>
+        <table class="links" style="width:75%">
+          <tr>
+            <th>Stars</th>
+            <td>&#9733;</td>
+            <td>&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+          </tr>
+          <tr>
+            <th>MLU</th>
+            <td>5-15</td>
+            <td>15-25</td>
+            <td>25-35</td>
+            <td>35-45</td>
+            <td>45-55</td>
+          </tr>
+        </table>
         <h4>Specialties</h4>
         <p>
-          Many skills can be divided into sub-skills or specialties;
-          suggestions are given with some skills.  Characters may
-          select specialties at any time.  The skill is then termed a
-          group skill and includes all (potential) specialties, even
-          if unknown.  The specific specialty skill is opened at the
-          current group MLU (note that the ML can be calculated from
-          that, if needed).  Each specialty is developed as a separate
+          Many skills can be divided into sub-skills or specialties.
+          The specific specialty takes the initial MLU from the main
+          skill&#8217;s MLU.  Each specialty is developed as a separate
           skill.
         </p>
         <p>
           Sometimes, only Specialties are given and the question
           arises, what MLU in the Specialty applies to the skill
-          group.  Each specialty has a percentage value associated
-          with it.  (For a new Specialty, this must be decided upon by
-          the GM.)  Take that percentage of Specialty MLU to get the
-          group&#8217;s MLU.  For example, a Mask/20% specialty in
-          Woodcraft of 12 would imply a Woodcraft group score of 2.4,
-          rounded down to 2.  This applies only to MLU.  OML (if
-          specialization is attempted at the outset) is as for the
-          group skill.
+          group.  Apply the specialty rule in reverse.  Take the
+          percentage of Specialty MLU to get the skill&#8217;s MLU.
+          For example, a Mask/20 specialty in Woodcraft of 12 would
+          imply a Woodcraft MLU of 2.4.  This applies only to MLU.
         </p>
         <h4>Sunsign</h4>
         <p>
@@ -200,76 +140,33 @@
         </p>
         <h4>Skill Testing</h4>
         <p>
-          MLU is modified for a concrete test due to various
-          circumstance resulting in an EMLU. Only minor additions or
-          subtractions are considered.  In the odd case, where
-          original rules call for taking half of the ML, subtract 10
-          from the MLU.
-        </p>
-        <p>
           When a character attempts to use a skill, n5 is rolled,
           adding EMLU.  The GM will have decided upon a diffculty
-          level of the task, often called the <em>negative</em> part.
-          Some modfifiers are compounded here, although this makes no
-          difference, whether it were included in the EMLU instead.
-          This value is also subtracted from the roll and if the net
-          result is non-negative, the skill has been successfully
-          employed; if the roll is negative, the attempt has failed.
-          For example, if a PC declares the intent to perform a
-          gymnastic feat, the GM would instruct the player to
-          &#8220;test Acrobatics against difficulty 15.&#8221; In
-          cases where success or failure may not be obvious, the GM
-          should make the roll secretly.
+          level of the task.  This value is also subtracted from the
+          roll and if the net result is non-negative, the skill has
+          been successfully employed; if the roll is negative, the
+          attempt has failed.  For example, if a PC declares the
+          intent to perform a gymnastic feat, the GM would instruct
+          the player to &#8220;test Acrobatics against difficulty
+          15.&#8221; In cases where success or failure may not be
+          obvious, the GM should make the roll secretly.
         </p>
         <p>
-          It is often necessary to know the degree of success or
-          failure.  The skill descriptions provide these so-called
-          dimensions.  For skills, where no appropriate success levels
-          are provided or for newly devised skills, estimate the
-          effects by looking at the skills most closely related.
+          To determine the degree of success or failure, use the
+          dimensions.
         </p>
         <p>
           When two characters use skills against each other, each
           character makes a p5 skill roll appropriate to the skill in
           question and the results are compared to give a net result.
-          The descriptions of the two skills should match this net
-          result (they should obviously be the negative of each
-          other).  The character with the higher result wins the
-          challenge.  If both characters achieve the same success
-          level, the stalemate result of zero (0) applies.  If a tie
-          is not appropriate to the situation, then decimal place may
-          be rolled as explained in the initial section.
-        </p>
-        <h4>Penalties</h4>
-        <p>
-          Penalties are added to the task difficulty and rated at 40%
-          of the original value.  For instance, a S10 wound turns into
-          a -4 IPU.
-        </p>
-        <h4>Special Skill Considerations</h4>
-        <p>
-          Situations or skill applications can either fit to a certain
-          skill fully or only partially.  Sometimes multiple skills
-          may apply.  In any given situation, the GM will state the
-          skills that apply and to what percentage.  Then use a
-          weighted average as skill.  Example: The GM rules that
-          performing a ballet, is 60% Acrobatics and 40% Dancing
-          non-overlapping.  A character with MLU Acrobatics/16 and MLU
-          Dancing/11 has MLU Ballet/14.
-        </p>
-        <p>
-          Multiple attackers can combine their efforts through
-          5-Addition into one.  This is generally a complex topic,
-          because modifiers need to be accommodated as they enter the
-          game, so this is best reserved for NPCs that perform as
-          single units.  Multiple defendants are similarly added.  An
-          exception to this is mounted combat, where PC rider and
-          horse may be acting in unison.
+          The character with the higher result wins the challenge.  If
+          both characters achieve the same success level, this is a
+          stalemate.  If a tie is not appropriate to the situation,
+          toss a coin.
         </p>
         <h3 id="d3im">Dimensions</h3>
         <p>
-          The following shows example dimensions for the various
-          skills, usually only the dominant ones.  Finding the
+          The following shows example dimensions.  Finding the
           appropriate dimension depends on the concrete circumstances.
           Consider what would be appropriate for an untrained
           individual (MLU 0) and what is expected (the average result)
@@ -279,18 +176,18 @@
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
-          delivered works the same for almost all skills.  This is
-          different from the commercial value, which depends on a lot
-          of other factors (market size, etc).  The rare occasion,
-          where the MLU of the actor cannot be judged are at GM
-          discretion.  I.e. someone who successfully evades perception
-          cannot be judged on this &#8220;performance&#8221; by the
-          potentially fooled or only in the most general sense.  The
-          value in parenthesis is the range by which the estimation
-          may be off.  It is calculated from the percentage value x by
-          the range (100% - x) to 1/(100% - x).
+          delivered.  The value in parenthesis is the range by which
+          the estimation may be off.  Also see the <a
+          href="main.xml">Main Rule</a>
         </p>
-        <include id="$D-Accuracy"/>
+        <table style="width:80%">
+          <tr>
+            <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
+          </tr>
+          <tr class="text">
+            <td>Error</td><td>96% (0-25)</td><td>48% (0.5-2)</td><td>24% (0.8-1.3)</td><td>12% (0.9-1.1)</td><td>6% (0.95-1.05)</td><td>3% (0.97-1.03)</td>
+          </tr>
+        </table>
         <h5 class="skill" id="sk-agi">Agility</h5>
         <p>
           The skill is used for multiple purposes; to avoid falling
@@ -1279,24 +1176,25 @@
           reasonably playability, GM discretion is advised.
         </p>
         <h3 id="Naveh">Naveh</h3>
-        <h4 id="Gekrishs-Song">Gekrish's Song</h4>
+        <h4 id="Gekrishs-Song">Gekrish&#8217;s Song</h4>
         <p>
           After a short chant of 10 seconds, caster makes an active p5
           roll adding RSUI, which anyone hearing must roll WILU + p5
-          or flee until he is no longer aware of the caster's location
-          and he has broken morale.
+          or flee until he is no longer aware of the caster&#8217;s
+          location and he has broken morale.
         </p>
         <h3 id="Psionics6">Psionics</h3>
         <h4 id="psi-charm">Charm</h4>
         <p>
-          Effective distance is adding invoker's and target's eyesight
-          (skill) in dm (1/10 m).  Roll n5 Charm skill vs Will skill.
-          The result is a direct penalty the target receives on any
-          active action (not awareness, healing, passive triggering,
-          etc).  This penalty is reduced at 1 per second, but multiple
-          attempts are allowed.  Negative results are treated as
-          severity for psionic episodes, severity as if the invoker
-          was himself affected, including fade-out..
+          Effective distance is adding invoker&#8217;s and
+          target&#8217;s eyesight (skill) in dm (1/10 m).  Roll n5
+          Charm skill vs Will skill.  The result is a direct penalty
+          the target receives on any active action (not awareness,
+          healing, passive triggering, etc).  This penalty is reduced
+          at 1 per second, but multiple attempts are allowed.
+          Negative results are treated as severity for psionic
+          episodes, severity as if the invoker was himself affected,
+          including fade-out..
         </p>
         <h4 id="psi-clair">Clairvoyance</h4>
         <p>

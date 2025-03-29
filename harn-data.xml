@@ -69,14 +69,6 @@
       <th></th><td>625</td><td>750</td><td>1000</td><td>1250</td><td>1500</td><td>1750</td><td>2000</td><td>2250</td><td>2500</td><td>2750</td>
     </tr>
   </table>
-  <table id="$D-Accuracy" style="width:80%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
-    </tr>
-    <tr class="text">
-      <td>Error</td><td>96% (0-25)</td><td>48% (0.5-2)</td><td>24% (0.8-1.3)</td><td>12% (0.9-1.1)</td><td>6% (0.95-1.05)</td><td>3% (0.97-1.03)</td>
-    </tr>
-  </table>
   <table id="$D-Climbing" style="width:60%">
     <tr>
       <th>Dimension</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th><th>60</th>
