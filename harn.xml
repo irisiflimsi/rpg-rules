@@ -31,13 +31,15 @@
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
-            <td><a href="#di-co1">Combat/Melee</a></td>
-            <td><a href="#di-co2">Combat/Missile</a></td>
-            <td><a href="#di-co3">Combat/Grapple</a></td>
-            <td><a href="#di-kno">Knowledge</a></td>
-            <td><a href="#di-reg">Regional</a></td>
+            <td><a href="#di-agr">Agriculture</a></td>
+            <td><a href="#di-cli">Climbing</a></td>
+            <td><a href="#di-co1">Combat</a></td>
+            <td><a href="#di-dex">Dexterity</a></td>
+            <td><a href="#di-eye">Eyesight</a></td>
           </tr>
           <tr>
+            <td><a href="#di-kno">Knowledge</a></td>
+            <td><a href="#di-reg">Regional</a></td>
             <td><a href="#di-rec">Recipes</a></td>
             <td><a href="#di-tra">Travel</a></td>
             <td><a href="#di-yie">Yield</a></td>
@@ -182,52 +184,45 @@
         </p>
         <table style="width:80%">
           <tr>
-            <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th><th>50</th>
+            <th>Dimension</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+            <th>50</th>
           </tr>
           <tr class="text">
-            <td>Error</td><td>96% (0-25)</td><td>48% (0.5-2)</td><td>24% (0.8-1.3)</td><td>12% (0.9-1.1)</td><td>6% (0.95-1.05)</td><td>3% (0.97-1.03)</td>
+            <td>Error</td>
+            <td>96% (0-25)</td>
+            <td>48% (0.5-2)</td>
+            <td>24% (0.8-1.3)</td>
+            <td>12% (0.9-1.1)</td>
+            <td>6% (0.95-1.05)</td>
+            <td>3% (0.97-1.03)</td>
           </tr>
         </table>
-        <h5 class="skill" id="sk-agi">Agility</h5>
+        <h5 class="skill" id="di-agr">Agriculture</h5>
         <p>
-          The skill is used for multiple purposes; to avoid falling
-          objects, weapon and missile attacks, and other situations
-          requiring Agility.  See Combat for a relevant dimension.
+          Assume a standard task level of 20 and adjust the result for
+          any applicable modifiers (such as Hardiness Rating, also
+          multiplied by 0.4), the resulting net value gives double the
+          percentage of the crop yield that is in excess or short of
+          the 100%.  (See H&#226;rn Manor 29.)  For example, if the
+          MLU is 20, (task level is 20) all modifiers are a total of
+          -10 and the roll itself is +5, then the net value is -5,
+          resulting in a crop yield of 97.5% in the given year.
         </p>
-        <h5 class="skill" id="sk-agr">Agriculture</h5>
+        <h5 class="skill" id="di-cli">Climbing</h5>
         <p>
-          H&#226;rn Manor shows that the following dimension is
-          useful: assume a standard task level of 20 and adjust the
-          result for any applicable modifiers (such as Hardiness
-          Rating), the resulting net value gives the percentage of the
-          crop yield that is in excess or short of the 100%.  (See
-          H&#226;rn Manor 29.) For example, if the MLU is 20, all
-          modifiers are a total of -10 and the roll itself + +5, then
-          the net value is -5, resulting in a crop yield of 95% in the
-          given year.
+          Climbing Speed is 1/4 walking speed at success. Speed can be
+          modified 1/4 for a -10 penalty for a trajectory, but
+          negative speeds are not allowed.  E.g. for a +10, one can
+          opt to simply try and cling to a holding to not fall down.
+          A failure results in a fall, usually evenly distributed
+          among the total climb.
         </p>
-        <h5 class="skill" id="sk-alc">Alchemy</h5>
-        <p>
-          The <em>Recipe</em> dimension is commonly used.
-        </p>
-        <h5 class="skill" id="sk-awa">Awareness</h5>
-        <p>
-          Sleeping adds at least 10 to any task difficulty.  Loud
-          noises give a bonus to the Skill roll.
-        </p>
-        <h5 class="skill" id="sk-cli">Climbing</h5>
-        <p>
-          Speed is measured as a factor to normal (walk) move.  A
-          running total of vertical progress is kept to determine when
-          the climb is complete, and the extent of any fall.  A single
-          scale should only be rolled once, but any interruption, such
-          as rest requires a new roll.  Any negative speed result (n5
-          net result below 0) implies a fall.  Climbing speed can be
-          increased at the price of increasing the risk.  A fall is
-          evenly distributed across the attempted climbing height.
-        </p>
-        <include id="$D-Climbing"/>
-        <h5 class="skill" id="di-co1">Combat/Melee</h5>
+        <h5 class="skill" id="di-co1">Combat</h5>
         <p>
           One dimension is the time (in seconds), which it takes to
           achieve the wound level zero on the defender.  The wound
@@ -245,47 +240,118 @@
           Any effects from wounds or other external influences in
           combat are applied immediately to pending progressions, but
           the wound itself is modified by <em>B/E/P</em> of choice
-          from the weapon and the appropriate armor.  The offset is
-          along the trajectory chosen.  Note that the same is true for
-          affects on the defender.  If this implies an action to occur
-          in the past, it is resolved immediately.
+          from the weapon and the appropriate armor.  (These valueas
+          are multiplied by 0.4!)  The offset is along the trajectory
+          chosen.  Note that the same is true for affects on the
+          defender.  If this implies an action to occur in the past,
+          it is resolved immediately.
         </p>
-        <include id="$D-Combat"/>
-        <h5 class="skill" id="di-co2">Combat/Missile</h5>
+        <table style="width:80%">
+          <tr>
+            <th>Dimension</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>40</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>5/2</td>
+            <td>5/4</td>
+            <td>5/8</td>
+            <td>5/16</td>
+            <td>5/32</td>
+          </tr>
+          <tr class="num">
+            <td>Wounds</td>
+            <td>-10</td>
+            <td>-5</td>
+            <td>0</td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+            <td>25</td>
+            <td>30</td>
+          </tr>
+        </table>
         <p>
-          Use the same dimension as the Melee combat, but do not
-          modify the time dimension below 5s.  Reloading a crossbow
-          takes 10s.
+          For missiles and thrown weapons do not modify the time
+          dimension below 5s.  Reloading a crossbow takes 10s.
         </p>
-        <h5 class="skill" id="di-co3">Combat/Grapple</h5>
         <p>
-          Wounds are treated as penalty to activity that involves the
-          affected body part instead of damage to heal.  Such wounds
-          are reduced to zero, once the grapple is no longer
-          maintained.
+          For grappling, wounds are treated as penalty to activity that
+          involves the affected body part instead of damage to heal.
+          Such wounds are reduced to zero, once the grapple is no
+          longer maintained.
         </p>
-        <h5 class="skill" id="sk-dex">Dexterity</h5>
+        <h5 class="skill" id="di-dex">Dexterity</h5>
         <p>
           The time dimension is the time it takes to pick up a dropped
-          item - this is a combat dimension.
+          item.
         </p>
-        <include id="$D-Dexterity"/>
-        <h5 class="skill" id="sk-end">Endurance</h5>
-        <p>
-          Read Endurance as Healingrate for Fatigue, see <em>Stamina</em>
-          dimension.  Remember that the fatigue accrued must be used as
-          modifier for the next time interval. Standard healing rate is one
-          point per minute.  Also consider the increased fatigue rate
-          for carrying heavy loads, see Strength.
-        </p>
-        <h5 class="skill" id="sk-eye">Eyesight</h5>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>30s</td>
+            <td>20s</td>
+            <td>10s</td>
+            <td>6s</td>
+            <td>3s</td>
+            <td>2s</td>
+            <td>1s</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-eye">Eyesight</h5>
         <p>
           The resolution is in mm/m or m/km.  Typical modifications
           are made for contrast (positive), movement (positive),
           distraction (negative), on the border of the visual field
           (negative).
         </p>
-        <include id="$D-Eyesight"/>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+          </tr>
+          <tr class="num">
+            <td>Resolution</td>
+            <td>24</td>
+            <td>12</td>
+            <td>6</td>
+            <td>3</td>
+            <td>1.5</td>
+            <td>0.75</td>
+            <td>0.5</td>
+            <td>0.25</td>
+          </tr>
+        </table>
         <h5 class="skill" id="sk-fis">Fishing</h5>
         <p>
           Fishing uses the <em>Fast Yield</em> dimension.  The base
@@ -517,7 +583,44 @@
           meaning, from classic cooking to tricks the character can
           teach to animals.  It includes ritual or magic invocations.
         </p>
-        <include id="$D-Recipes"/>
+        <table style="width:60%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+            <th>50</th>
+            <th>60</th>
+          </tr>
+          <tr class="num">
+            <td>Recipes</td>
+            <td>0.3</td>
+            <td>0.6</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>6</td>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+          </tr>
+          <tr class="num">
+            <td>Pages</td>
+            <td>1</td>
+            <td>3</td>
+            <td>10</td>
+            <td>30</td>
+            <td>100</td>
+            <td>300</td>
+            <td>1000</td>
+            <td>3000</td>
+            <td>10000</td>
+          </tr>
+        </table>
         <h5 class="skill" id="di-reg">Regional</h5>
         <include id="$D-Regional"/>
         <h5 class="skill" id="sk-rhe">Rhetoric</h5>
@@ -540,7 +643,47 @@
           the effective wound points does not cause re-evaulation of
           the effective healing rate.
         </p>
-        <include id="$D-Stamina"/>
+        <p>
+          Read Endurance as Healingrate for Fatigue, see <em>Stamina</em>
+          dimension.  Remember that the fatigue accrued must be used as
+          modifier for the next time interval. Standard healing rate is one
+          point per minute.  Also consider the increased fatigue rate
+          for carrying heavy loads, see Strength.
+        </p>
+        <table style="width:75%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-15</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Days</td>
+            <td>30</td>
+            <td>20</td>
+            <td>15</td>
+            <td>10</td>
+            <td>7</td>
+            <td>5</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1.5</td>
+            <td>1</td>
+            <td>0.7</td>
+            <td>0.5</td>
+            <td>0.3</td>
+          </tr>
+        </table>
         <h5 class="skill" id="sk-str">Strength</h5>
         <p>
           The listed weight (excluding your own body) can be lifted as
