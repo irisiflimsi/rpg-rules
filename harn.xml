@@ -1089,20 +1089,17 @@
             <td><a href="#co-missile">Missile</a></td>
             <td><a href="#co-grapple">Grapple/Tangle</a></td>
             <td><a href="#co-block">Block/Dodge</a></td>
-            <td><a href="#co-steed">Trample</a></td>
+            <td><a href="#co-aim">Aiming</a></td>
           </tr>
           <tr>
-            <td><a href="#co-polearm">Polearm</a></td>
-            <td><a href="#co-esoteric">Misc.</a></td>
-            <td><a href="#co-aim">Aiming</a></td>
             <td><a href="#co-prone">Rest</a></td>
             <td><a href="#co-stop">Stop</a></td>
             <td><a href="#co-close">Close mode</a></td>
-          </tr>
-          <tr>
             <td><a href="#co-fumble">Fumble</a></td>
             <td><a href="#co-stumble">Stumble</a></td>
             <td><a href="#co-shcok">Shock</a></td>
+          </tr>
+          <tr>
             <td><a href="#co-inanimate">Inanimate Damage</a></td>
             <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
             <td><a href="#co-bloodloss">Bloodloss</a></td>
@@ -1110,83 +1107,56 @@
         </table>
         <h5 id="co-rest">Rest</h5>
         <p>
-          Fatigue gained by any conflict recovers at one Fatigue Level
-          every minute.  With dissolution, fatigue turns into injury.
-          Note that spirits can take arbitrary injury before being
-          destroyed and may heal forever.  Only in rare cases
-          (e.g. divine intervention) can spirits be destroyed.
+          Fatigue recovers 1/10 seconds.  With spirit dissolution,
+          fatigue turns into injury.  Note that spirits can take
+          arbitrary injury before being destroyed and may heal
+          forever.  Only in rare cases (e.g. divine intervention) can
+          spirits be destroyed.
         </p>
         <h5 id="co-move">Move</h5>
         <p>
-          Use the Move skill to determine speed.  Subtract 2 from
-          Missile ML for being mounted.  To avoid lengthy
-          calculations, subtract 50% of the attacker speed in m/s.
+          Subtract 2 from Missile MLU for being mounted.  To avoid
+          lengthy calculations, subtract 50% of the attacker speed in
+          m/s.
         </p>
         <h5 id="co-engage">Engage</h5>
         <p>
-          Because the potential exists to attack/influence entities
-          that come within range, each character has an <em>Engagement
-          Zone</em> of 1m plus weapon length radius about his center
-          (that does not extend into blocked areas).  The Engagement
-          Zone of a conscious, prone character is only half that
-          around his body.  This means a standing character is often
-          not engaged by an adjacent prone enemy, although the prone
-          character may be engaged by the standing character.
-          Similarly, two adjacent prone characters often do not engage
-          each other.  Unconscious characters have no Engagement Zones
-          (not even the space their own body occupies) but may
-          constitute obstacles.  A character may be (melee) attacked
-          upon entering an enemy&#8217;s Engagement Zone until he
-          leaves that zone.  This entering or leaving may be active or
-          passive.  It is possible to be engaged with an arbitrary
-          number of enemies at a time.  A character with a long reach
-          weapon has an appropriately larger engagement zone and may
-          therefore be eligible to attack before others.  This may be
-          of importance for mounted Charges into a row of Pikemen.
-          Also note the restriction on using long weapons at short
-          range.  If combat extends into the third dimension, assume
-          the volumetric &#8220;center&#8221; of a character to be a
-          1m vertical line centered on their true center (when
-          upright).  Horses have a two meter long horizontal line
-          (when upright) centered on their true center.  More bizarre
-          creatures may have more bizarre engagement zones, even when
-          not fighting in three dimensions.
+          Every character has an <em>Engagement Zone</em> of 1m plus
+          weapon length radius about his center (that does not extend
+          into blocked areas).  The Engagement Zone of a conscious,
+          prone character is only half that.  Unconscious characters
+          have no Engagement Zones but may constitute obstacles.  A
+          character may be (melee) attacked upon entering an
+          enemy&#8217;s Engagement Zone until he leaves that zone.
+          This entering or leaving may be active or passive.  It is
+          possible to be engaged with an arbitrary number of enemies
+          at a time.  A character with a long reach weapon has an
+          appropriately larger engagement zone and may therefore be
+          eligible to attack before others.  This may be of importance
+          for mounted Charges into a row of Pikemen.  Also note the
+          restriction on using long weapons at short range.
+          dimensions.
         </p>
         <h5 id="co-charge">Charge</h5>
         <p>
-          Requiring a steed to halt may imply multiple attacks due to
-          deceleration restrictions.  Every engagement along the way
-          may attack the steed/rider as usual.  If the intent is to
-          cause little damage, use the unintentional hit rules for
-          melee (see below).  Otherwise consider the group passed by
-          to be the target and scale as per wild result in the missile
-          attack section.  Instead of the 60 degrees +/-2 distance,
-          collect all in the path of 5 feet width.  Any attacker
-          plunging into defenders with an attack will decelerate at
-          maximum rate, and that automatically determines the length
-          of the path and the duration of the ride.  At the riders
-          discretion this can be broken down into separate attacks.  A
-          forced deceleration beyond what is normally allowed results
-          in a fall impact for the rider and steed as from height
-          equal to the forced decelaration minus the maximum allowed
-          deceleration.  E.g. 10 m/s end speed with a possible allowed
-          decelaration of 3 m/s equals a fall from 7 m.  Note that the
-          fall impact also applies the targets fallen into.  This is
-          the charge bonus, where the deceleration is not deducted.
-          For opportunistic melee attacks, this is also a direct
-          penalty to the Dodge skill.  A rider is not forced to halt
-          his steed, but it usually requires a riding maneuver to not
-          cause the steed to halt on its own, fire or similar
-          incentives notwithstanding.
+          Every engagement along the way may attack a moving character
+          (and vice versa).  Any attacker plunging into defenders with
+          an attack will stop.  Such a forced stop will result in a
+          fall impact for charger as if from height equal to the speed
+          minus 5.  E.g. stopping at 10 m/s speed equals a fall from
+          5m.  Note that the fall impact also applies the targets
+          fallen into.  This is the charge bonus which can be added to
+          the attack.  For opportunistic melee attacks, this is also a
+          direct penalty to the Dodge skill.
         </p>
         <h5 id="co-push">Push</h5>
         <p>
           The push attempt must be in the direction the attacker is
           facing and the attacker must follow.  The defender has a
           choice to evade into a semi-circle of up to 120 degrees,
-          assuming no obstacles.  Instead of Injury points, the number
-          of meters pushed are used.  The defender is forced to deduct
-          the move from his action allowance, regardless of whether he
+          assuming no obstacles.  Instead of Injury points, meters
+          (pushed) are used.  The defender is forced to deduct the
+          move from his action allowance, regardless of whether he
           resists or not.  A resist deducts from the distance forced
           and can even be used as a counter-push.  The pushed
           character may opt to fall prone instead at any time, for
@@ -1203,15 +1173,13 @@
         </p>
         <h5 id="co-melee">Melee Attack</h5>
         <p>
-          The rider and horse may act in unison and add their combat
+          A rider and horse may act in unison and add their combat
           skill per 5-Addition.  Both accrue the same fatigue.
           Hitting the wrong target can happen in melee combat.
-          Usually this is ignored, but if this ignorance is taken into
-          account (out-world) when deciding on options, such accidents
-          shall be played out.  Anybody within the range of the weapon
-          is subject to a skill roll with MLU 0. This can be added to
-          the benefit of other attackers as per multiple attacks above
-          or resolved individually with the goal of 0 damage.
+          Anybody within an engagement zone is subject to an
+          (unintentional) attack with MLU 0. This can be added to the
+          benefit of other attackers as per multiple attacks above or
+          resolved individually with the goal of 0 damage.
         </p>
         <h5 id="co-missile">Missile Attack</h5>
         <p>
@@ -1230,56 +1198,28 @@
           counted as potential targets, particularly, if the actual
           targets are spread widely across the area.  This increase
           can be used purposefully and can be quite devastating when
-          firing at advancing troops. The Missile Attack table below
-          reduces calculation for playability.  Penetrating hits are
-          ignored, i.e. no shots through multiple targets.  The
-          assumed skills rolls all use 0 damage and MLU of 0. Dodge
-          against missile is reduced by 5.
+          firing at advancing troops.  Dodge against missile is
+          reduced by 5.
         </p>
         <h5 id="co-grapple">Grapple/Tangle Attack Defense</h5>
         <p>
-          Use Unarmed Combat skill when no weapon is involved.  The
-          basic radius of the two characters engaged is 5-added.
+          Use Unarmed Combat skill when no weapon is involved.
           Multiple Grapples are allowed , but keep track of the
           grappled weapons of all opponents, they can no longer be
-          used to full potential.  Also observe any secondary
-          considerations for odd Grapple attempts, e.g. grappling a
-          horse&#8217;s hind leg.
+          used to full potential.
         </p>
         <h5 id="co-block">Block/Dodge</h5>
         <p>
           For dodging, use Dodge skill.  Dodge and Block/Parry are
           added through 5-Addition, if used together.  Dodge/parry is
           mostly used at the same time an attack is contemplated by
-          the defender himself.  To ease calculation, only every
-          defense beyond one attacker causes a -5 penalty in the next
-          10 seconds. E.g., the first attacker is defended at full
-          MLU, the second at MLU-5 and the third is at MLU-10 and sone
-          on.  Note that that this is in addition to potential
-          5-addition of potential attackers&#8217; MLU.  If attackers
-          coordinate in this manner, the defense MLU is not 5-added,
-          but the penalty is averaged.  Also note that Dodge is at -5
-          for high velocity missile attacks.
-        </p>
-        <h5 id="co-steed">Steed Trample</h5>
-        <p>
-          Use steed ML (and penalties) only.
-        </p>
-        <h5 id="co-polearm">Polearm Defense</h5>
-        <p>
-          Remember the Reach of Long weapons.  Usually Steed Stumble
-          Roll, followed by an Unhorsing Roll is necessary to continue
-          a Charge into polearms (assuming the Steed Command Check was
-          successful).
-        </p>
-        <h5 id="co-esoteric">Esoteric Attack/Defense, Dropping Items, Ignore, Mount/Dismount, Mounted Move</h5>
-        <p>
-          No further out-world explanation is necessary.  If useful,
-          subactions here and elsewhere can be extracted that should
-          become possible during a specific out-world handling of
-          combat.  Rewrite the rules here to accomodate this.  The
-          missing tactical option is compensated by an appropriate
-          penalty/bonus if the action is still taken in-world.
+          the defender himself.  Every defense causes a -5 penalty to
+          all activity, which phases out within 10 seconds.  E.g., the
+          first attacker is defended at full MLU, the second at MLU-5
+          and the third is at MLU-10 and so on.  Note that multiple
+          attacks can be 5-added instead.  In that case a second
+          attack gets a bonus of 5, etc.  Also note that Dodge is at
+          -5 for high velocity missile attacks.
         </p>
         <h5 id="co-aim">Aiming</h5>
         <p>
