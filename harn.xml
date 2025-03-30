@@ -1073,6 +1073,10 @@
           don&#8217;t make sense unless explosives, catapults, or
           similar are involved.
         </p>
+        <p>
+          Use 40% of any double-digit ML modifiers as MLU modifier.
+          An asterisk (*) indicates that Stumble or Fumbles may apply.
+        </p>
         <h3 id="co-links">Combat Links</h3>
         <table class="links" style="width:90%">
           <tr>
@@ -1092,14 +1096,9 @@
             <td><a href="#co-aim">Aiming</a></td>
           </tr>
           <tr>
-            <td><a href="#co-prone">Rest</a></td>
-            <td><a href="#co-stop">Stop</a></td>
-            <td><a href="#co-close">Close mode</a></td>
             <td><a href="#co-fumble">Fumble</a></td>
             <td><a href="#co-stumble">Stumble</a></td>
             <td><a href="#co-shcok">Shock</a></td>
-          </tr>
-          <tr>
             <td><a href="#co-inanimate">Inanimate Damage</a></td>
             <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
             <td><a href="#co-bloodloss">Bloodloss</a></td>
@@ -1179,7 +1178,9 @@
           Anybody within an engagement zone is subject to an
           (unintentional) attack with MLU 0. This can be added to the
           benefit of other attackers as per multiple attacks above or
-          resolved individually with the goal of 0 damage.
+          resolved individually with the goal of 0 damage.  A
+          character who is attacking (or being attacked by) a prone
+          enemy increases Attack/Defense MLU with that character by 4.
         </p>
         <h5 id="co-missile">Missile Attack</h5>
         <p>
@@ -1245,34 +1246,6 @@
           tall.  Similar height adjustments may apply to other targets
           at GM discretion.
         </p>
-        <h5 id="co-prone">Prone</h5>
-        <p>
-          A character who is attacking (or being attacked by) a prone
-          enemy increases Attack/Defense MLU with that character by 4.
-        </p>
-        <h5 id="co-stop">Stop</h5>
-        <p>
-          A stop from a sprint/charge faster than the maximum natural
-          deceleration rate may be necessary.  (Running into a wall or
-          head on into another opponent that doesn&#8217;t dodge.)  In
-          that case consider the distance that is not available to
-          stopping as fall.  Surface is considered at 30&#176;.  This
-          damage is taken by the steed (or the runner).  An
-          appropriate strike location should be chosen.  If the
-          obstacle is reasonably capable of taking damage apply it
-          there too.  (If desired, use physics of an inelastic
-          collision, i.e. when running into a wagon that starts to
-          roll when run into.  Damage always applies to both parties
-          of a collision.) Also see Charge.
-        </p>
-        <h5 id="co-close">Close Mode</h5>
-        <p>
-          Subtract 1 for each significant impediment reaching into an
-          engagement zone in the direction of the two enemies.  For
-          Multiple impediments only choose the greater intrusion.  A
-          blanket counts as significant, as does a wooden beam.  A
-          feather bush does not.
-        </p>
         <h5 id="co-fumble">Fumble</h5>
         <p>
           Any new wound of at least 1 point to arms results in a
@@ -1296,8 +1269,6 @@
           Use accumulated injury and fatigue as difficulty for a
           Stamina skill roll against 0.  Failure results in
           unconsciousness for a time indiciated in the Shock table.
-          Unconscious people cannot eat and drink.  Someone in Shock
-          for more than 10 days will likely never wake up again.
         </p>
         <h5 id="co-inanimate">Inanimate Damage</h5>
         <p>
@@ -1310,7 +1281,7 @@
           Weapon and Armor make a Shock roll for the damage that they
           absorb, respectively deal.  Weapon Quality (WQ) is used
           instead of Stamina skill and damage is not accumulated.
-          Armor works the same way, but the instead if Stamina, sum up
+          Armor works the same way, but instead if Stamina, sum up
           BEPF.  Failure means a weapon or armor breaks, which may
           potentially be repaired as above. (Regular maintenance is
           assumed, otherwise accumlate 1 point per &#8220;unrepaired
@@ -1322,67 +1293,214 @@
           Damage taken increases with every complete multiple of 5
           injury level above 6 every 10s.  For example, a 16-20 point
           injury causes 2 points per 10 seconds, or 1 point of
-          bloodloss every 5 seconds.  At GM discretion some wounds
-          will not cause bloodloss (e.g. Frost) including to inanimate
-          objects or reduced damage, e.g. blunt trauma.
+          bloodloss every 5 seconds.  Some wounds will not cause
+          bloodloss (e.g. Frost) including to inanimate objects or
+          reduced damage, e.g. blunt trauma.
         </p>
         <h5/>
         <p style="text-align:center">
-          Missile Attack Table
-        </p>
-        <include id="$Combat-MA"/>
-        <p style="text-align:center">
           Size Table
         </p>
-        <include id="$Combat-Size"/>
+        <table style="width:70%">
+          <tr>
+            <th>Modifier</th>
+            <th>-5</th>
+            <th>-4</th>
+            <th>-3</th>
+            <th>-2</th>
+            <th>-1</th>
+            <th>0</th>
+            <th>+1</th>
+            <th>+2</th>
+            <th>+3</th>
+            <th>+4</th>
+            <th>+5</th>
+          </tr>
+          <tr>
+            <td>Size</td>
+            <td>1ft</td>
+            <td>1.5ft</td>
+            <td>2ft</td>
+            <td>3ft</td>
+            <td>4ft</td>
+            <td>6ft</td>
+            <td>8ft</td>
+            <td>12ft</td>
+            <td>16ft</td>
+            <td>24ft</td>
+            <td>32ft</td>
+          </tr>
+        </table>
         <p style="text-align:center">
           Fall Table
         </p>
-        <include id="$Combat-Fall"/>
+        <table style="width:70%">
+          <tr>
+            <th>Height (ft)</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+            <th>45</th>
+            <th>50</th>
+          </tr>
+          <tr>
+            <td>Impact (B)</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>3</td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            <td>25</td>
+            <td>35</td>
+            <td>44</td>
+            <td>75</td>
+          </tr>
+        </table>
         <p style="text-align:center">
           Shock Table
         </p>
-        <include id="$Combat-Shock"/>
-        <p>
-          Any ML additions that are multiples of 10 need to be
-          downgraded to 40% as MLU modifier and multiples of 5 are
-          downgraded to 60%.  Otherwise the combat charts are used as
-          written.
+        <table style="width:90%">
+          <tr>
+            <th>Result</th>
+            <th>-1</th>
+            <th>-2</th>
+            <th>-3</th>
+            <th>-4</th>
+            <th>-5</th>
+            <th>-6</th>
+            <th>-7</th>
+            <th>-8</th>
+            <th>-9</th>
+            <th>-10</th>
+            <th>-11</th>
+            <th>-12</th>
+            <th>-13</th>
+            <th>-14</th>
+            <th>-15</th>
+            <th>-16</th>
+            <th>-17</th>
+            <th>-18</th>
+            <th>-19</th>
+            <th>-20</th>
+          </tr>
+          <tr>
+            <td>Time</td>
+            <td>1s</td>
+            <td>3s</td>
+            <td>6s</td>
+            <td>10s</td>
+            <td>30s</td>
+            <td>1min</td>
+            <td>3min</td>
+            <td>6min</td>
+            <td>10min</td>
+            <td>30min</td>
+            <td>1h</td>
+            <td>3h</td>
+            <td>6h</td>
+            <td>10h</td>
+            <td>1day</td>
+            <td>3day</td>
+            <td>6days</td>
+            <td>10days</td>
+            <td>30days</td>
+            <td>60days</td>
+          </tr>
+        </table>
+        <p style="text-align:center">
+          Strike Location
         </p>
-        <p>
-          Strike location is important for two main reasons.  First,
-          only the armour worn at the location struck is relevant.
-          Second, injury effects vary by location; a blow to the skull
-          is more serious than a blow to the foot.  The percentages
-          allocated to body parts do not reflect the relative size of
-          that part, since the head, arms, or groin are favored
-          targets.  Combatants can influence Strike Location by
-          targeting their aim.  Although combatants instinctively turn
-          to face the most imminent threat, some armour only covers
-          part of a strike location - a breastplate, for example, only
-          covers the front of the thorax and abdomen.  In random
-          situation, where it is hard to determine whether the front
-          or back of a strike location is struck, experience shows
-          there is a 75% chance of being struck on the front side.  An
-          asterisk (*) indicates that Stumble or Fumbles may apply.
-        </p>
-        <include id="$Location"/>
+        <table class="grid" style="width:90%">
+          <tr>
+            <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
+            <th colspan="2">Main Location</th><th colspan="2">Detail Location</th>
+          </tr>
+          <tr>
+            <th colspan="4">Left</th><th colspan="4">Right</th>
+          </tr>
+          <tr>
+            <td rowspan="4">01-10</td><td rowspan="4">Head</td>
+            <td>01-02</td><td>Skull</td>
+            <td rowspan="4">51-60</td><td rowspan="4">Head</td>
+            <td>51-52</td><td>Skull</td>
+          </tr>
+          <tr>
+            <td>03-04</td><td>Face</td><td>53-54</td><td>Face</td>
+          </tr>
+          <tr>
+            <td>05-06</td><td>Neck</td><td>55-56</td><td>Neck</td>
+          </tr>
+          <tr>
+            <td>07-10</td><td>Shoulder</td><td>57-60</td><td>Shoulder</td>
+          </tr>
+          <tr>
+            <td rowspan="4">11-20</td><td rowspan="4">Arm*</td>
+            <td>11-13</td><td>Upper Arm</td>
+            <td rowspan="4">61-70</td><td rowspan="4">Arm*</td>
+            <td>61-63</td><td>Upper Arm</td>
+          </tr>
+          <tr>
+            <td>14-15</td><td>Elbow</td><td>64-65</td><td>Elbow</td>
+          </tr>
+          <tr>
+            <td>16-18</td><td>Forearm</td><td>66-68</td><td>Forearm</td>
+          </tr>
+          <tr>
+            <td>19-20</td><td>Hand</td><td>69-70</td><td>Hand</td>
+          </tr>
+          <tr>
+            <td>21-30</td><td>Thorax</td><td>21-30</td><td>Thorax</td>
+            <td>71-80</td><td>Thorax</td><td>71-80</td><td>Thorax</td>
+          </tr>
+          <tr>
+            <td rowspan="3">31-40</td><td rowspan="3">Lower Body</td>
+            <td>31-35</td><td>Abdomen</td>
+            <td rowspan="3">81-90</td><td rowspan="3">Lower Body</td>
+            <td>81-85</td><td>Abdomen</td>
+          </tr>
+          <tr>
+            <td>36-38</td><td>Hip</td><td>86-88</td><td>Hip</td>
+          </tr>
+          <tr>
+            <td>39-40</td><td>Groin</td><td>89-90</td><td>Groin</td>
+          </tr>
+          <tr>
+            <td rowspan="4">41-50</td><td rowspan="4">Leg*</td>
+            <td>41-44</td><td>Thigh</td>
+            <td rowspan="4">91-100</td><td rowspan="4">Leg*</td>
+            <td>91-94</td><td>Thigh</td>
+          </tr>
+          <tr>
+            <td>45</td><td>Knee</td><td>95</td><td>Knee</td>
+          </tr>
+          <tr>
+            <td>46-48</td><td>Calf</td><td>96-98</td><td>Calf</td>
+          </tr>
+          <tr>
+            <td>49-50</td><td>Foot</td><td>99-100</td><td>Foot</td>
+          </tr>
+        </table>
         <h3 id="wounds">Wounds</h3>
         <p>
           Combatants who sustain Serious or Grievous wounds may die
           during the healing routine.  On the other hand, various
           types of magic, miracles, Psionics, and potions can improve
-          healing.  The following wound types exist and individual
-          wounds are tracked with their location.  Effects on the use
-          of the corresponding part are described below.
+          healing.
         </p>
         <p>
-          When the following text says, adjacent body parts are affected,
-          effects include penalties (which are not cumulative but take
-          the maximum) infection chance and bloodloss (also not cumulative
-          but take the maximum).  They are not recursive, i.e. do not
-          imply secondary effects.  To determine which penalty applies to
-          which activity use common sense and GM discretion.
+          When the following text says, adjacent body parts are
+          affected, effects include penalties (which are not
+          cumulative but take the maximum) infection chance and
+          bloodloss (also not cumulative but take the maximum).  They
+          are not recursive, i.e. do not imply secondary effects.
         </p>
         <p>
           <em>1-5:</em> Minor.  Wounds only have wound penalty.
@@ -1421,24 +1539,18 @@
         </p>
         <h3 id="heal-wounds">Healing</h3>
         <p>
-          Any wound needs to heal its injury points.  This depends on
-          Stamina; medicine may improve the healing rate.  A physician
-          may attempt to find or create the correct medicine. See the
-          appropriate sections.
+          See the Healing dimension. An untreated wound is considered
+          as being treated by a Physician with the negative
+          wound-level.  E.g. a wound with 6 injury points is treated
+          as if diagnosed by Physician with MLU -6.  The standard
+          treatments mostly known by all still need to be applied and
+          detailed, so a physician&#8217;s diagnosis is always
+          necessary.  &#8220;Destroyed&#8221; wounds may be treated as
+          incapacitating, with a Bonus on Diagnosis of 5.  Note that
+          the usage effects on bordering regions needs to be treated
+          as well.  Overtreatment is possible but has no specific
+          negative impact.
         </p>
-        <p>
-          An untreated wound is considered as being treated by a
-          Physician with the negative wound-level.  E.g. a wound with
-          6 injury points is treated as if diagnosed by Physician with
-          MLU -6.  The standard treatments mostly known by all still
-          need to be applied and detailed, so a physician&#8217;s
-          diagnosis is always necessary.  &#8220;Destroyed&#8221;
-          wounds may be treated as incapacitating, with a Bonus on
-          Diagnosis of 5.  Note that the usage effects on bordering
-          regions needs to be treated as well. Overtreatment is
-          possible but has no specific negative impact.
-        </p>
-        <include id="$Wounds"/>
         <p>
           A serious or worse wound may become infected until it turns
           into a minor wound.  An infection is a daily attack on the
