@@ -27,6 +27,39 @@
           of simplification.  The benefit of better scaling and other
           issues that are better addressed warrant the effort.
         </p>
+        <h3 id="five-add">5-Addition</h3>
+        <p>
+          A convenience table for the 5-addition of equal number.
+          Rounding is to one fractional digit only.  Multiples of 2
+          are left out; every doubling means a +5.
+        </p>
+        <table style="width:80%">
+          <tr>
+            <th>Number</th>
+            <td>3</td>
+            <td>5</td>
+            <td>7</td>
+            <td>9</td>
+            <td>11</td>
+            <td>13</td>
+            <td>15</td>
+            <td>17</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <th>Result</th>
+            <td>7.9</td>
+            <td>11.6</td>
+            <td>14</td>
+            <td>15.8</td>
+            <td>16.6</td>
+            <td>17.3</td>
+            <td>18.5</td>
+            <td>19.5</td>
+            <td>20.4</td>
+            <td>21.2</td>
+          </tr>
+        </table>
         <h3 id="dims">Dimension Links</h3>
         <table class="links" style="width:75%">
           <tr>
@@ -38,15 +71,22 @@
             <td><a href="#di-eye">Eyesight</a></td>
           </tr>
           <tr>
+            <td><a href="#di-sta">Healing</a></td>
             <td><a href="#di-hea">Hearing</a></td>
             <td><a href="#di-ini">Initiative</a></td>
             <td><a href="#di-jum">Jumping</a></td>
             <td><a href="#di-kno">Knowledge</a></td>
             <td><a href="#di-men">Mental Conflict</a></td>
-            <td><a href="#di-reg">Regional</a></td>
           </tr>
           <tr>
+            <td><a href="#di-mov">Move</a></td>
+            <td><a href="#di-pie">Piety</a></td>
             <td><a href="#di-rec">Recipes</a></td>
+            <td><a href="#di-reg">Regional</a></td>
+            <td><a href="#di-rhe">Rhetoric</a></td>
+            <td><a href="#di-str">Strength</a></td>
+          </tr>
+          <tr>
             <td><a href="#di-tra">Travel</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
@@ -358,6 +398,80 @@
             <td>0.25</td>
           </tr>
         </table>
+        <h5 class="skill" id="di-sta">Healing</h5>
+        <p>
+          Healing time is given for one point.  Subtract the number of
+          points twice from the roll.  Note that a reduction in the
+          effective wound points causes re-evaulation of the effective
+          healing rate, but should be ignored for playability.
+        </p>
+        <p>
+          Stamina is used for Injury points to heal wounds
+          individually and the time unit is days.  Add a potential
+          physician&#8217;s bonus (see below) once when determining
+          the healing rate.Healing rate can be improved with a
+          physician present during the healing process in the same
+          manner.
+        </p>
+        <p>
+          Endurance is used for Fatigue points in total and the unite
+          is minutes.
+        </p>
+        <p>
+          Injury healing rate improvement for physicians is the second
+          dimension.  The dimension value is added to the Stamina
+          roll.
+        </p>
+        <table style="width:75%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-15</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>30</td>
+            <td>20</td>
+            <td>15</td>
+            <td>10</td>
+            <td>7</td>
+            <td>5</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1.5</td>
+            <td>1</td>
+            <td>0.7</td>
+            <td>0.5</td>
+            <td>0.3</td>
+          </tr>
+          <tr class="num">
+            <td>Healing</td>
+            <td>-8</td>
+            <td>-6</td>
+            <td>-4</td>
+            <td>-2</td>
+            <td>0</td>
+            <td>+2</td>
+            <td>+4</td>
+            <td>+6</td>
+            <td>+8</td>
+            <td>+10</td>
+            <td>+12</td>
+            <td>+14</td>
+            <td>+16</td>
+          </tr>
+        </table>
         <h5 class="skill" id="di-hea">Hearing</h5>
         <p>
           At 0, we have understanding normal speech, -10 is subdued
@@ -555,82 +669,90 @@
             <td>1</td>
           </tr>
         </table>
-        <h5 class="skill" id="sk-mov">Move</h5>
+        <h5 class="skill" id="di-mov">Move</h5>
         <p>
-          Humans can accelerate and decelerate as 3 m/s each second.
-          Turning options are in parts of a full circle (centered
-          around the direction of travel).  E.g. at 3 m/s this means
-          60&#176; off the direction of travel on either side per
-          second.  For the sake of playability variance in this should
-          be suppressed, although a 20% spread (for a 10 level
-          difference) with Agility modification could be appropriate.
+          This table is used for running, Fatigue is at 1 per second.
+          Reducing speed by a factor, reduces the recovery rate by the
+          same factor.  Roll once for the course.  Accumulate Fatigue
+          in the end, unless abused.
         </p>
+        <table style="width:80%">
+          <tr>
+            <th>Dimension</th>
+            <th>-40</th>
+            <th>-30</th>
+            <th>-20</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+            <th>50</th>
+            <th>60</th>
+            <th>70</th>
+            <th>80</th>
+            <th>90</th>
+            <th>100</th>
+          </tr>
+          <tr class="num">
+            <td>Speed (m/s)</td>
+            <td>1/2</td>
+            <td>3/4</td>
+            <td>1</td>
+            <td>3/2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+            <td>12</td>
+            <td>16</td>
+            <td>24</td>
+            <td>32</td>
+            <td>48</td>
+            <td>64</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-pie">Piety</h5>
         <p>
-          Since steeds and (animal-powered) vehicles are important on
-          H&#226;rn, the table is extended beyond the human range.
-          Humans max out at 9m/s at optimum.
+          Piety is not learned as usual but measured by behavior.  It
+          can be imrpoved for each deity separately, but common sense
+          applies for conflicting deities.  For playability, treat
+          Piety as a separate class of skills when learning.
         </p>
-        <include id="$D-Move"/>
-        <p>
-          A steed&#8217;s movement rate must be declared before
-          starting to move.  Effective movement is equal to its Move
-          minus Steed Physical Penalty, then indexed in the Move table
-          to find speed.  Horses have four rates of speed: Walk/40,
-          Trot/60, Canter/80, and Gallop/100.  The number indicates
-          the maximum speed that can be reached.  All speeds are
-          available at all riding skills, although commanding the
-          horse to use it may prove a challenge.  Horses/Steeds
-          accelerate and decelerate at 6 m/s each second, but have the
-          same turning options.
-        </p>
-        <p>
-          <em>Rotation</em> (also while standing) takes 1 second for
-          360 degree revolution (Acrobatic tricks apply) for bipeds,
-          which is modified by physical penalty and rounded off.
-          Horses take 1 second for 90 degrees, modified and rounded in
-          the same way.
-        </p>
-        <h5 class="skill" id="sk-phy">Physician</h5>
-        <p>
-          Use Physician skill to determine an improvement for the
-          healing rate (see Stamina).  Note that the presence of a
-          physician improves the healing rate even further.  The
-          injury points are subtracted as penalty to determine the
-          healing bonus.
-        </p>
-        <include id="$D-Physician"/>
-        <h5 class="skill" id="sk-pie">Piety</h5>
-        <p>
-          This skill is not learned as usual but improved through
-          righteous actions; it can decline just as fast through
-          improper ones.
-        </p>
-        <include id="$D-Piety"/>
-        <h5 class="skill" id="sk-psi">Psi Talents</h5>
-        <p>
-          All Talents are treated as separate skills.
-        </p>
-        <h5 class="quality" id="di-qua">Quality</h5>
-        <p>
-          The Quality dimension can be used when a craftsman attempts
-          to produce an item from raw materials.  The result is an
-          added to the base value to find the new value.  An item with
-          quality less than its base is usually broken.  The results
-          obtained do not necessarily reflect market value.  Just
-          because an item has +5 quality to its base does not mean
-          anyone will pay the difference in pence.  Some finished
-          goods may involve several stages of enhancement.  Uncut gems
-          may be enhanced by cutting and then further enhanced by
-          mounting in a gold-based necklace.  Sometimes an
-          item&#8217;s resistance to damage is more important than how
-          beautiful it looks.  Examples of this are weapon- and
-          armour-crafting.
-        </p>
-        <p>
-          Quality is the net roll divided by 10. I.e. -5 through +4
-          results in 0, +5 through +14 results in 1, -15 through -6
-          results in -1, and do on.
-        </p>
+        <div class="explain">
+          <p>
+            <em>0:</em> Character knows that the religion exists but
+            cannot separate it from other convocations.
+          </p>
+          <p>
+            <em>10:</em> Lip service payed to the religion and ability
+            to separate it from other major faiths.
+          </p>
+          <p>
+            <em>20:</em> The main tenets are known and followed
+            individually.  Sects/heresies are not a topic.
+          </p>
+          <p>
+            <em>30:</em> Religion is quoted often and other faiths
+            routinely treated unfairly.
+          </p>
+          <p>
+            <em>40:</em> Adherent is seeking to further the religion
+            outside of his immediate domain.  Distinction between
+            inner-religion minutiae are important.
+          </p>
+          <p>
+            <em>50:</em> Heresy is abhorred.  Support for the religion
+            takes precedent over other interests.
+          </p>
+          <p>
+            <em>60:</em> Adherent is a prophet and accepts serious
+            consequences for following details of his faith.  May
+            invent rituals and the like.
+          </p>
+        </div>
         <h5 class="skill" id="di-rec">Recipes</h5>
         <p>
           For NPCs the associated table can be used to estimate the
@@ -680,8 +802,29 @@
           </tr>
         </table>
         <h5 class="skill" id="di-reg">Regional</h5>
-        <include id="$D-Regional"/>
-        <h5 class="skill" id="sk-rhe">Rhetoric</h5>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+            <th>50</th>
+          </tr>
+          <tr class="text">
+            <td>Conditions</td>
+            <td>-</td>
+            <td>Local</td>
+            <td>Kingdom</td>
+            <td>Harn</td>
+            <td>Lythia</td>
+            <td>Kethira</td>
+            <td>Any</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="id-rhe">Rhetoric</h5>
         <p>
           Multiple orators may compete for the &#8220;airwaves&#8221;
           and hinder each other more than they realize.  Therefore
@@ -690,31 +833,43 @@
           no competition takes place.  If a competition takes place,
           the difficulty is a 5-Addition instead.
         </p>
-        <include id="$D-Rhetoric"/>
-        <h5 class="skill" id="sk-sta">Stamina</h5>
-        <p>
-          Healing time is given for one injury point.  Subtract the
-          number of injury points a wound has twice.  Add a potential
-          physician&#8217;s bonus once when determining the healing
-          rate for the wound. An effective healing rate can be
-          improved with a physician present. Note that a reduction in
-          the effective wound points does not cause re-evaulation of
-          the effective healing rate.
-        </p>
-        <p>
-          Read Endurance as Healingrate for Fatigue, see <em>Stamina</em>
-          dimension.  Remember that the fatigue accrued must be used as
-          modifier for the next time interval. Standard healing rate is one
-          point per minute.  Also consider the increased fatigue rate
-          for carrying heavy loads, see Strength.
-        </p>
-        <table style="width:75%">
+        <table style="width:50%">
           <tr>
             <th>Dimension</th>
-            <th>-20</th>
-            <th>-15</th>
             <th>-10</th>
-            <th>-5</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+          </tr>
+          <tr class="text">
+            <td>Awareness</td>
+            <td>Noise</td>
+            <td>Comprehension</td>
+            <td>Listening</td>
+            <td>Consideration</td>
+            <td>Agreement</td>
+          </tr>
+          <tr class="num">
+            <td>Morale</td>
+            <td>-1</td>
+            <td>0</td>
+            <td>+1</td>
+            <td>+3</td>
+            <td>+10</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-str">Strength</h5>
+        <p>
+          The listed weight (excluding your own body) can be lifted as
+          maximum.  Fatigue is 10/minute.  Reducing weight by a
+          factor, reduces the fatigue rate by the same factor.  Roll
+          once for the activity.  Accumulate Fatigue, unless abused.
+          Weight carried in kg is a penalty to the move roll.
+        </p>
+        <table style="width:60%">
+          <tr>
+            <th>Dimension</th>
             <th>0</th>
             <th>5</th>
             <th>10</th>
@@ -724,34 +879,22 @@
             <th>30</th>
             <th>35</th>
             <th>40</th>
+            <th>45</th>
           </tr>
           <tr class="num">
-            <td>Days</td>
-            <td>30</td>
-            <td>20</td>
-            <td>15</td>
-            <td>10</td>
-            <td>7</td>
-            <td>5</td>
-            <td>3</td>
-            <td>2</td>
-            <td>1.5</td>
-            <td>1</td>
-            <td>0.7</td>
-            <td>0.5</td>
-            <td>0.3</td>
+            <td>Weight</td>
+            <td>10lbs</td>
+            <td>16lbs</td>
+            <td>25lbs</td>
+            <td>45lbs</td>
+            <td>70lbs</td>
+            <td>100lbs</td>
+            <td>160lbs</td>
+            <td>250lbs</td>
+            <td>450lbs</td>
+            <td>700lbs</td>
           </tr>
         </table>
-        <h5 class="skill" id="sk-str">Strength</h5>
-        <p>
-          The listed weight (excluding your own body) can be lifted as
-          maximum when you apply the dimension of the table below to
-          Strength.  For longer periods of lifting, apply the
-          dimension to Endurance to get a maximum carry load
-          (MCL). Fatigue rate is determined as the precentage of the
-          real load carried divided by MCL multiplied by 10/minute.
-        </p>
-        <include id="$D-Strength"/>
         <h5 class="skill" id="sk-swi">Swimming</h5>
         <p>
           Difficulty of swimming conditions is rated on the Beaufort
@@ -1535,9 +1678,11 @@
         <p>
           A list of specialties: <em>Skill/Specialty/Percentage</em>.
         </p>
-        <p>
-          Sword/Shortsword/40.
-        </p>
+        <div class="explain">
+          <p>
+            Sword/Shortsword/40.
+          </p>
+        </div>
         <h3 id="Travel">Travel Tables</h3>
         <h4 id="Encounters">Encounters</h4>
         <p>
