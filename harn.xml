@@ -52,7 +52,6 @@
             <td>11.6</td>
             <td>14</td>
             <td>15.8</td>
-            <td>16.6</td>
             <td>17.3</td>
             <td>18.5</td>
             <td>19.5</td>
@@ -87,7 +86,9 @@
             <td><a href="#di-str">Strength</a></td>
           </tr>
           <tr>
-            <td><a href="#di-tra">Travel</a></td>
+            <td><a href="#di-str">Swimming</a></td>
+            <td><a href="#di-thr">Throwing</a></td>
+            <td><a href="#di-weat">Weatherlore</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
@@ -824,7 +825,7 @@
             <td>Any</td>
           </tr>
         </table>
-        <h5 class="skill" id="id-rhe">Rhetoric</h5>
+        <h5 class="skill" id="di-rhe">Rhetoric</h5>
         <p>
           Multiple orators may compete for the &#8220;airwaves&#8221;
           and hinder each other more than they realize.  Therefore
@@ -895,54 +896,67 @@
             <td>700lbs</td>
           </tr>
         </table>
-        <h5 class="skill" id="sk-swi">Swimming</h5>
+        <h5 class="skill" id="di-swi">Swimming</h5>
         <p>
-          Difficulty of swimming conditions is rated on the Beaufort
-          scale.  Test Swimming once for each continuous swim without
-          rest.  Any interruption requires a new roll.  With a result
-          below 0 the character starts to sink.  Consider currents for
-          speed determination.  A swimmer accumulates one Fatigue
-          Level for every minute of swimming at speed, but may rest by
-          treading water.  A resting swimmer rolls to see if they
-          sink, but does not move (except with the current).
-          Underwater Swimming is at half speed.  When attempting to
-          convey a conscious swimmer, apply a penalty of 5, for an
-          unconscious person apply a penalty of 10.
+          Difficulty of swimming conditions is 10 times the
+          H&#226;rnic wind number.  With a result below 0 the
+          character starts to sink at the given speed.  Fatigue is
+          1/minute. Reducing speed by a factor, reduces the fatigue
+          rate by the same factor.  A resting swimmer rolls to see if
+          they sink, but does not move (except with the current).
+          Underwater Swimming is at half speed.  This includes
+          drowning.  When attempting to convey a (non-)swimmer, apply
+          a penalty of 5.
         </p>
-        <include id="$D-Swimming"/>
-        <p>
-          If a character is in water deeper than their height, a Sink
-          result implies the character goes down with the speed of the
-          negative result.  (I.e. -5 means going down at 0.5 m/s.)  A
-          reroll may be attempted every second, but fatigue applies
-          immediately.
-        </p>
-        <h5 class="skill" id="di-tra">Travel</h5>
-        <p>
-          The distance travelled in a day in km or correspondingly
-          time needed to travel 100 km is shown.  In order to have a
-          reasonable travel rate, the desired distance and a maximum
-          time should be given.  With enough bad luck or
-          circumstances, reaching the destination may not be possible.
-          Turning around is an option, when pressing on may by more
-          dangerous.
-        </p>
-        <include id="$D-Travel"/>
-        <h5 class="skill" id="sk-thr">Throwing</h5>
+        <table style="width:40%">
+          <tr>
+            <th>Dimension</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Speed</td>
+            <td>-1m/s</td>
+            <td>-0.5m/s</td>
+            <td>0.0m/s</td>
+            <td>0.5m/s</td>
+            <td>1m/s</td>
+            <td>1.5m/s</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-thr">Throwing</h5>
         <p>
           The distance thrown in meters is the n5 roll doubled. E.g. a
           character with MLU of 15 and a roll of +4 throws a suitable
           object for a distance of 38 meters.
         </p>
-        <h5 class="skill" id="sk-weat">Weatherlore</h5>
-        <include id="$Weatherlore"/>
+        <h5 class="skill" id="di-weat">Weatherlore</h5>
         <p>
-          Different climate types may be specialties.  The ability to
-          predict the weather.  Characters with this skill may attempt
-          to predict the weather any time.  Also use the
-          <em>Accuracy</em> dimension.
+          Time into the future.  Also use the <em>Accuracy</em>
+          dimension for trajectories.
         </p>
-        <include id="$D-Weatherlore"/>
+        <table style="width:60%">
+          <tr>
+            <th>Dimension</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>15min</td>
+            <td>1h</td>
+            <td>4h</td>
+            <td>24h</td>
+            <td>96h</td>
+          </tr>
+        </table>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
           The <em>Fast Yield</em> is used for Fishing, Foraging, and
@@ -1042,8 +1056,7 @@
           GM should inform the players of that.  For instance, if
           mounted combat is to tedious today, than the PCs might just
           as well dismount already to allow for smoother combat
-          resolution.  The main option Melee and Missile should never
-          be removed.
+          resolution.
         </p>
         <p>
           In order to simulate larger combats with many participants,
@@ -1775,6 +1788,13 @@
             <em>100:</em> Horse (+)
           </p>
         </div>
+        <p>
+          Speeding up land travel is a matter of dealing with
+          long-term Fatigue.  Rate is 1/watch but healed as a
+          non-spreading, non-infectious Leg Injury Endurance-based.
+          Increase and reduce speed and fatigue rate proportionally.
+        </p>
+        <include id="$D-Travel"/>
         <h3 id="Treasure20">Treasure</h3>
         <p>
           The power level of artifacts is always twice the depletion

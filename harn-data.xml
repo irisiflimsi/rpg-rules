@@ -69,36 +69,6 @@
       <th></th><td>625</td><td>750</td><td>1000</td><td>1250</td><td>1500</td><td>1750</td><td>2000</td><td>2250</td><td>2500</td><td>2750</td>
     </tr>
   </table>
-  <table id="$D-Swimming" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Weather</td><td>Bft 0</td><td>Bft 1</td><td>Bft 3</td><td>Bft 5</td><td>Bft 7</td>
-    </tr>
-    <tr class="num">
-      <td>Speed</td><td>-1m/s</td><td>0.0m/s</td><td>0.5m/s</td><td>1m/s</td><td>1.5m/s</td>
-    </tr>
-  </table>
-  <table id="$D-Travel" style="width:40%">
-    <tr>
-      <th>Dimension</th><th>-40</th><th>-30</th><th>-20</th><th>-10</th><th>0</th><th>10</th><th>20</th>
-    </tr>
-    <tr class="num">
-      <td>Distance</td><td>0%</td><td>25%</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>&#x221e;</td><td>400%</td><td>200%</td><td>150%</td><td>100%</td><td>80%</td><td>60%</td>
-    </tr>
-  </table>
-  <table id="$D-Weatherlore" style="width:60%">
-    <tr>
-      <th>Dimension</th><th>0</th><th>10</th><th>20</th><th>30</th><th>40</th>
-    </tr>
-    <tr class="num">
-      <td>Time</td><td>15min</td><td>1h</td><td>4h</td><td>24h</td><td>96h</td>
-    </tr>
-  </table>
   <table id="$Combat-MA" style="width:70%">
     <tr>
       <th>Additional Targets</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
