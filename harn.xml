@@ -29,9 +29,9 @@
         </p>
         <h3 id="five-add">5-Addition</h3>
         <p>
-          A convenience table for the 5-addition of equal number.
-          Rounding is to one fractional digit only.  Multiples of 2
-          are left out; every doubling means a +5.
+          A convenience table for the 5-addition of zeroes.  Rounding
+          is to one fractional digit only.  Multiples of 2 are left
+          out; every doubling means a +5.
         </p>
         <table style="width:80%">
           <tr>
