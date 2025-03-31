@@ -1552,12 +1552,6 @@
           negative impact.
         </p>
         <p>
-          A serious or worse wound may become infected until it turns
-          into a minor wound.  An infection is a daily attack on the
-          wounded area with a level of the (remaining) injury points,
-          defended against with Stamina.
-        </p>
-        <p>
           Bloodloss is treated as a separate injury.  Note that the
           circulatory system is incapacitated with points in excess of
           15 points as other body parts are.  The circulatory system
@@ -1584,12 +1578,13 @@
           </p>
           <p>
             <em>Infection</em> An open wound with more than 5 injury
-            points is attacked daily with MLU 0 until it has less than
-            5 points or is otherwise closed. The injury points start
-            with 1 and are received 1 per watch until the infection
-            has run its course. The healing rate is modified by all
-            running infections&#8217; points and the injury points of
-            the wound in question.
+            points is attacked daily with MLU of the injury points
+            against Stamina (skill) until it has less than 5 points or
+            is otherwise closed.  The injury points start with 1 and
+            are received 1 per watch until the infection has run its
+            course, i.e. the result rolled.  The healing rate is
+            modified by all running infections&#8217; points and the
+            injury points of the wound in question.
           </p>
           <p>
             <em>Sleep deprivation</em> Every watch after a Stamina
@@ -1783,7 +1778,26 @@
           not covered yet.  The table below gives leagues per watch or
           km/h.
         </p>
-        <include id="$Maritime-Travel"/>
+	<table style="width:30%">
+	  <tr>
+	    <th></th><th>R</th><th>H</th><th>B</th>
+	  </tr>
+	  <tr>
+	    <th>A</th><td>16</td><td>4.5</td><td>3</td>
+	  </tr>
+	  <tr>
+	    <th>B</th><td>15</td><td>3</td><td>2</td>
+	  </tr>
+	  <tr>
+	    <th>C</th><td>12</td><td>3.5</td><td>2</td>
+	  </tr>
+	  <tr>
+	    <th>D</th><td>9</td><td>3</td><td>1.5</td>
+	  </tr>
+	  <tr>
+	    <th>E</th><td>8</td><td>3</td><td>1.5</td>
+	  </tr>
+	</table>
         <p style="text-align:center">
           Maritime Travel Table
         </p>
@@ -1793,7 +1807,14 @@
           possible in stronger wind conditions.  Rowing and Sailing
           may not be combined during a watch.
         </p>
-        <include id="$Maritime-Travel-Oar"/>
+	<table style="width:30%">
+	  <tr>
+	    <th>A</th><th>B</th><th>C</th><th>D</th><th>E</th>
+	  </tr>
+	  <tr>
+	    <td>16</td><td>12</td><td>8</td><td>7</td><td>6</td>
+	  </tr>
+	</table>
         <p style="text-align:center">
           Maritime Oar Travel Table
         </p>
@@ -1846,7 +1867,6 @@
           non-spreading, non-infectious Leg Injury Endurance-based.
           Increase and reduce speed and fatigue rate proportionally.
         </p>
-        <include id="$D-Travel"/>
         <h3 id="Treasure20">Treasure</h3>
         <p>
           The power level of artifacts is always twice the depletion
