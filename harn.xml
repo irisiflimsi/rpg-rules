@@ -985,6 +985,8 @@
             <th>20</th>
             <th>25</th>
             <th>30</th>
+            <th>35</th>
+            <th>40</th>
           </tr>
           <tr class="num">
             <td>Fast Yield</td>
@@ -999,6 +1001,8 @@
             <td>4</td>
             <td>5</td>
             <td>6</td>
+            <td>7</td>
+            <td>8</td>
           </tr>
           <tr class="num">
             <td>Fast Time</td>
@@ -1013,6 +1017,8 @@
             <td>48min</td>
             <td>40min</td>
             <td>34min</td>
+            <td>30min</td>
+            <td>27min</td>
           </tr>
           <tr class="num">
             <td>Slow Yield</td>
@@ -1027,6 +1033,8 @@
             <td>4</td>
             <td>6</td>
             <td>8</td>
+            <td>12</td>
+            <td>16</td>
           </tr>
           <tr class="num">
             <td>Slow Time</td>
@@ -1041,6 +1049,8 @@
             <td>3h</td>
             <td>2:15h</td>
             <td>1.5h</td>
+            <td>68min</td>
+            <td>45min</td>
           </tr>
         </table>
         <h5/>
@@ -1874,7 +1884,8 @@
           always obvious to those attuned but not anyone else.
           Individual powers are determined at 10 point intervals each
           in a predetermined order.  Later rolls will use the same
-          order, at 0 the depletion target is discovered.
+          order, at 0 the depletion target and the number of
+          individual powers is discovered.
         </p>
         <h4 id="Horn-of-Kergis">Horn of Kergis</h4>
         <p>
@@ -1888,8 +1899,8 @@
         <h4 id="Attunement">Attunement</h4>
         <p>
           Use n5 plus Aura skill with direct addition of Sensitivity
-          (Psionics) vs. power of the artifact and use Slow Yield
-          dimension.
+          (Psionics) vs. power level of the artifact and use the Fast
+          Yield time dimension.  See <em>Treasure</em> for power level.
         </p>
       </div>
     </div>
