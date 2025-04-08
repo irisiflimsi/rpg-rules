@@ -68,24 +68,21 @@
             <td><a href="#di-co1">Combat</a></td>
             <td><a href="#di-dex">Dexterity</a></td>
             <td><a href="#di-eye">Eyesight</a></td>
+            <td><a href="#di-sta">Healing</a></td>
           </tr>
           <tr>
-            <td><a href="#di-sta">Healing</a></td>
             <td><a href="#di-hea">Hearing</a></td>
             <td><a href="#di-ini">Initiative</a></td>
             <td><a href="#di-jum">Jumping</a></td>
             <td><a href="#di-kno">Knowledge</a></td>
             <td><a href="#di-men">Mental Conflict</a></td>
-          </tr>
-          <tr>
             <td><a href="#di-mov">Move</a></td>
             <td><a href="#di-pie">Piety</a></td>
-            <td><a href="#di-rec">Recipes</a></td>
-            <td><a href="#di-reg">Regional</a></td>
-            <td><a href="#di-rhe">Rhetoric</a></td>
-            <td><a href="#di-str">Strength</a></td>
           </tr>
           <tr>
+            <td><a href="#di-rec">Recipes</a></td>
+            <td><a href="#di-rhe">Rhetoric</a></td>
+            <td><a href="#di-str">Strength</a></td>
             <td><a href="#di-str">Swimming</a></td>
             <td><a href="#di-thr">Throwing</a></td>
             <td><a href="#di-weat">Weatherlore</a></td>
@@ -100,11 +97,8 @@
           0.4.  The basic 50/50 chance of success on a skill roll is
           with an ML of 50%, i.e. an MLU of 20. Thus the most basic
           task difficulty - all other things being equal - should be
-          set to 20.
-        </p>
-        <p>
-          Attributes are treated as Skills with MLU twice their value.
-          It is useful to track them accordingly.
+          set to 20.  Attributes are treated as Skills with MLU twice
+          their value.
         </p>
         <h4>Skill Development</h4>
         <p>
@@ -113,12 +107,10 @@
           that can each be used to increase any skill MLU in the
           range 0-9 by 1 point, in the range 10-19 by 1/2 points,
           in the range 20-29 by 1/4 points and so forth.
-          Teachers are also handled narratively.  This narrative 
-          rule can be changed or adapted at any time, it is not
-          bound to in.world simulation.
+          Teachers are also handled narratively.
         </p>
         <p>
-          In-world MLU improvement happens with the same range costs
+          <em>In-world</em> improvement happens with the same range costs
           as above, but 1 SP is gained every month after completing
           NPC/PC creation.
         </p>
@@ -126,17 +118,15 @@
           Improving Specialties is more elaborate.  Skills list
           specialties with a percentage value.  This percentage value
           gives the part of the whole group that this specialization
-          comprises.  When the skill is improved (the skill group of
-          all specialties) all improvement may be dedicated to the
-          specialty instead.
+          comprises.  When the base skill is improved all improvements
+          may be dedicated to the specialty instead.
         </p>
         <p>
-          As an example, a <em>Skill/ASpecialty/20</em> could see an
-          improvement of 5 points if <em>ASpecialty</em> instead of a
-          1 for <em>Skill</em>.  A <em>Skill/BSpecialty/40</em> could
-          see an improvement of 2.5 points if <em>BSpecialty</em>
-          instead of a 1 for <em>Skill</em>.  Divide 100% by the given
-          percentage to get a multiple <em>m</em>.
+          As an example, a <em>Sword/Shortsword/40</em> could see an
+          improvement of 5 points for <em>Shortsword</em> instead of a
+          2 for <em>Sword</em>.  Divide 100% by the given
+          percentage to get the specialty SP. (SP effects in the MLU
+          ranges remain unchanged.) 
         </p>
         <p>
           If at any time the skill itself is developed, specialties
@@ -148,7 +138,7 @@
         <p>
           The star-scale is often used to simplify evaluation.
         </p>
-        <table class="links" style="width:75%">
+        <table style="width:75%">
           <tr>
             <th>Stars</th>
             <td>&#9733;</td>
@@ -168,24 +158,25 @@
         </table>
         <h4>Specialties</h4>
         <p>
-          Many skills can be divided into sub-skills or specialties.
+          Many skills can be fanned into specialties.
           The specific specialty takes the initial MLU from the main
-          skill&#8217;s MLU.  Each specialty is developed as a separate
-          skill.
+          skill&#8217;s MLU.  A specialty is a skill.
         </p>
         <p>
-          Sometimes, only Specialties are given and the question
-          arises, what MLU in the Specialty applies to the skill
-          group.  Apply the specialty rule in reverse.  Take the
-          percentage of Specialty MLU to get the skill&#8217;s MLU.
-          For example, a Mask/20 specialty in Woodcraft of 12 would
-          imply a Woodcraft MLU of 2.4.  This applies only to MLU.
+          When only Specialties are given in some context, you may
+          ask, what MLU the base skill has.  Apply the specialty
+          rule in reverse.  Take the percentage of Specialty MLU to
+          get the base skill&#8217;s MLU.
+          For example, a <em>Sword/Shortsword/40</em> MLU of 20
+          implies Sword MLU of 8.
         </p>
         <h4>Sunsign</h4>
         <p>
           Sunsigns represent an astrological affinity to certain
           skills in-world, see original rules.  They give a direct
-          bonus to the MLU.
+          bonus to the MLU. These values are not multiplied by 0.4
+          and such modifiers are not included in the devlopment 
+          ranges (see above).
         </p>
         <h4>Skill Testing</h4>
         <p>
@@ -263,7 +254,7 @@
         <h5 class="skill" id="di-cli">Climbing</h5>
         <p>
           Climbing Speed is 1/4 walking speed at success. Speed can be
-          modified 1/4 for a -10 penalty for a trajectory, but
+          increased by 1/4 for a -10 penalty, or decreased accordingly, but
           negative speeds are not allowed.  E.g. for a +10, one can
           opt to simply try and cling to a holding to not fall down.
           A failure results in a fall, usually evenly distributed
@@ -289,7 +280,7 @@
           the wound itself is modified by <em>B/E/P</em> of choice
           from the weapon and the appropriate armor.  (These valueas
           are multiplied by 0.4!)  The offset is along the trajectory
-          chosen.  Note that the same is true for affects on the
+          chosen.  Note that the same is true for effects on the
           defender.  If this implies an action to occur in the past,
           it is resolved immediately.
         </p>
@@ -346,7 +337,7 @@
           The time dimension is the time it takes to pick up a dropped
           item.
         </p>
-        <table style="width:40%">
+        <table style="width:50%">
           <tr>
             <th>Dimension</th>
             <th>-20</th>
@@ -410,7 +401,7 @@
           Stamina is used for Injury points to heal wounds
           individually and the time unit is days.  Add a potential
           physician&#8217;s bonus (see below) once when determining
-          the healing rate.Healing rate can be improved with a
+          the healing rate.  Healing rate can be improved with a
           physician present during the healing process in the same
           manner.
         </p>
@@ -420,8 +411,8 @@
         </p>
         <p>
           Injury healing rate improvement for physicians is the second
-          dimension.  The dimension value is added to the Stamina
-          roll.
+          dimension listed.  The dimension value is added to the Stamina
+          roll; this is not a trajectory.
         </p>
         <table style="width:75%">
           <tr>
@@ -475,7 +466,7 @@
         </table>
         <h5 class="skill" id="di-hea">Hearing</h5>
         <p>
-          At 0, we have understanding normal speech, -10 is subdued
+          References: at 0 you understand normal speech, -10 is subdued
           speech, -20 a whisper, 10 is the noise vehicles make, 20 are
           battle noises and 30 is thunder.
         </p>
@@ -568,7 +559,7 @@
         <p>
           Jumping is tested when a character attempts to leap for
           height or distance.  Results assume a running start; for
-          standing jumps, halve heights and distances.  Results below
+          standing jumps, use half heights and distances.  Results below
           0 turn into a Fall.
         </p>
         <table style="width:75%">
@@ -673,7 +664,7 @@
         <h5 class="skill" id="di-mov">Move</h5>
         <p>
           This table is used for running, Fatigue is at 1 per second.
-          Reducing speed by a factor, reduces the recovery rate by the
+          Reducing speed by a factor, reduces the fatigue rate by the
           same factor.  Roll once for the course.  Accumulate Fatigue
           in the end, unless abused.
         </p>
@@ -718,7 +709,7 @@
         <h5 class="skill" id="di-pie">Piety</h5>
         <p>
           Piety is not learned as usual but measured by behavior.  It
-          can be imrpoved for each deity separately, but common sense
+          can be kept for each deity separately, but common sense
           applies for conflicting deities.  For playability, treat
           Piety as a separate class of skills when learning.
         </p>
@@ -800,29 +791,6 @@
             <td>1000</td>
             <td>3000</td>
             <td>10000</td>
-          </tr>
-        </table>
-        <h5 class="skill" id="di-reg">Regional</h5>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th>
-            <th>-10</th>
-            <th>0</th>
-            <th>10</th>
-            <th>20</th>
-            <th>30</th>
-            <th>40</th>
-            <th>50</th>
-          </tr>
-          <tr class="text">
-            <td>Conditions</td>
-            <td>-</td>
-            <td>Local</td>
-            <td>Kingdom</td>
-            <td>Harn</td>
-            <td>Lythia</td>
-            <td>Kethira</td>
-            <td>Any</td>
           </tr>
         </table>
         <h5 class="skill" id="di-rhe">Rhetoric</h5>
