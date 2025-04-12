@@ -1561,9 +1561,9 @@
             against Stamina (skill) until it has less than 5 points or
             is otherwise closed.  The injury points start with 1 and
             are received 1 per watch until the infection has run its
-            course, i.e. the result rolled.  The healing rate is
-            modified by all running infections&#8217; points and the
-            injury points of the wound in question.
+            course, i.e. the result value.  These new points are added
+            to the wound as integral part.  Adjust healing rate etc
+            accordingly.
           </p>
           <p>
             <em>Sleep deprivation</em> Every watch after a Stamina
