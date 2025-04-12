@@ -1245,8 +1245,9 @@
         <p>
           Any new wound of at least 1 point results in a Shock chance.
           Use accumulated injury and fatigue as difficulty for a
-          Stamina skill roll against 0.  Failure results in
-          unconsciousness for a time indiciated in the Shock table.
+          Stamina skill roll against 0.  Failure is measured in the Fast
+          Yield Dimension as minutes.  Multiple Shock rolls can be
+          5-added.
         </p>
         <h5 id="co-inanimate">Inanimate Damage</h5>
         <p>
