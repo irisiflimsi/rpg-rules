@@ -93,7 +93,7 @@
         <p>
           Whenever we have ML, SB or other technical terms, we append
           an U to distinguish the Universal rules, from the
-          classic. E.g. MLU and SBU.  You can calculate MLU as ML *
+          classic. E.g. MLU and SBU.  You can calculate MLU as ML x
           0.4.  The basic 50/50 chance of success on a skill roll is
           with an ML of 50%, i.e. an MLU of 20. Thus the most basic
           task difficulty - all other things being equal - should be
@@ -114,7 +114,7 @@
           get the base skill&#8217;s MLU.
           For example, a <em>Sword/Shortsword/40</em> MLU of 20
           only implies <em>Sword/Non-Shortsword/60</em> MLU of 0, averaging 
-          Sword MLU of 0.4*20 + 0.6*0 = 8.
+          Sword MLU of 0.4 x 20 + 0.6 x 0 = 8.
         </p>
         <h4>Skill Development</h4>
         <p>
