@@ -97,8 +97,24 @@
           0.4.  The basic 50/50 chance of success on a skill roll is
           with an ML of 50%, i.e. an MLU of 20. Thus the most basic
           task difficulty - all other things being equal - should be
-          set to 20.  Attributes are treated as Skills with MLU twice
-          their value.
+          set to 20.  Attributes are treated as skills with MLU twice
+          their value that cannot be developed.
+        </p>
+        <h4>Specialties</h4>
+        <p>
+          Many skills can be fanned into specialties.
+          The specific specialty takes the initial MLU from the main
+          skill&#8217;s MLU.  A specialty is otherwise a skill.
+        </p>
+        <p>
+          When only Specialties are given in some context, you may
+          ask, what MLU the base skill has.  Apply the specialty
+          rule in reverse while considering the &#8220;opposite&#8221;
+          specialty.  Take the percentage of Specialty MLU to
+          get the base skill&#8217;s MLU.
+          For example, a <em>Sword/Shortsword/40</em> MLU of 20
+          only implies <em>Sword/Non-Shortsword/60</em> MLU of 0, averaging 
+          Sword MLU of 0.4*20 + 0.6*0 = 8.
         </p>
         <h4>Skill Development</h4>
         <p>
@@ -122,9 +138,9 @@
           may be dedicated to the specialty instead.
         </p>
         <p>
-          As an example, a <em>Sword/Shortsword/40</em> could see an
-          improvement of 5 points for <em>Shortsword</em> instead of a
-          2 for <em>Sword</em>.  Divide 100% by the given
+          As an example, instead of a improving <em>Sword</em> for 2,
+          <em>Sword/Shortsword/40</em> could see an 10 / 4 x 2 = 5 points
+          for <em>Shortsword</em>.  Divide 100% by the given
           percentage to get the specialty SP. (SP effects in the MLU
           ranges remain unchanged.) 
         </p>
@@ -156,20 +172,6 @@
             <td>45-55</td>
           </tr>
         </table>
-        <h4>Specialties</h4>
-        <p>
-          Many skills can be fanned into specialties.
-          The specific specialty takes the initial MLU from the main
-          skill&#8217;s MLU.  A specialty is a skill.
-        </p>
-        <p>
-          When only Specialties are given in some context, you may
-          ask, what MLU the base skill has.  Apply the specialty
-          rule in reverse.  Take the percentage of Specialty MLU to
-          get the base skill&#8217;s MLU.
-          For example, a <em>Sword/Shortsword/40</em> MLU of 20
-          implies Sword MLU of 8.
-        </p>
         <h4>Sunsign</h4>
         <p>
           Sunsigns represent an astrological affinity to certain
