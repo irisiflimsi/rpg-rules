@@ -266,10 +266,10 @@
         <p>
           One dimension is the time (in seconds), which it takes to
           achieve the wound level zero on the defender.  The wound
-          level is a separate dimension.  You should use trajectories.
+          level is a separate dimension; you should use trajectories.
           Once a (rolled) progression has reached its goal, a new
-          skill roll is necessary.  It is therefore possible to play
-          10 second round-based combat.
+          skill roll is made.  It is therefore possible to play
+          10-second round-based combat.
         </p>
         <p>
           The fractional parts for the higher values in the time
@@ -277,10 +277,10 @@
           at the same time.  This is to avoid combat in split seconds.
         </p>
         <p>
-          Any effects from wounds or other external influences in
-          combat are applied immediately to pending progressions, but
-          the wound itself is modified by <em>B/E/P</em> of choice
-          from the weapon and the appropriate armor.  (These valueas
+          Any effects from wounds or other external influences are
+          applied immediately to pending progressions, but
+          the wound itself is modified by <em>B/E/P</em> of attacker
+          choice from weapon and armor.  (These values
           are multiplied by 0.4!)  The offset is along the trajectory
           chosen.  Note that the same is true for effects on the
           defender.  If this implies an action to occur in the past,
@@ -1185,22 +1185,26 @@
         <h5 id="co-grapple">Grapple/Tangle Attack Defense</h5>
         <p>
           Use Unarmed Combat skill when no weapon is involved.
-          Multiple Grapples are allowed , but keep track of the
+          Multiple grapples are allowed , but keep track of the
           grappled weapons of all opponents, they can no longer be
           used to full potential.
         </p>
         <h5 id="co-block">Block/Dodge</h5>
         <p>
-          For dodging, use Dodge skill.  Dodge and Block/Parry are
-          added through 5-Addition, if used together.  Dodge/parry is
-          mostly used at the same time an attack is contemplated by
-          the defender himself.  Every defense causes a -5 penalty to
-          all activity, which phases out within 10 seconds.  E.g., the
-          first attacker is defended at full MLU, the second at MLU-5
-          and the third is at MLU-10 and so on.  Note that multiple
-          attacks can be 5-added instead.  In that case a second
-          attack gets a bonus of 5, etc.  Also note that Dodge is at
-          -5 for high velocity missile attacks.
+          Dodge and Block/Parry are mostly used together through
+          5-Addition.  Dodge/Parry can be used at the same time an
+          attack is contemplated by the defender himself.  Parry
+          is a 10 second Combat activity.  Calculate separate, synchronous
+          parries accordingly, i.e. a second defense causes a -5 penalty to
+          both parries, a third causes a -7.5 to all and so on.  Defenders
+          may split the penalty among different attackers. 
+          Dodge is unmodified for multiple opponents but at -5 for high
+          velocity missile attacks.
+        </p>
+        <p>
+          Not attacking for 10 seconds grants a +5 to (both) Dodge and 
+          Parry.  Forfeiting Parry and Dodge instead grants a +5 to other
+          Combat actions.
         </p>
         <h5 id="co-aim">Aiming</h5>
         <p>
