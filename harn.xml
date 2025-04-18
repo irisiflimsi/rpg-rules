@@ -1078,7 +1078,7 @@
           <tr>
             <td><a href="#co-fumble">Fumble</a></td>
             <td><a href="#co-stumble">Stumble</a></td>
-            <td><a href="#co-shcok">Shock</a></td>
+            <td><a href="#co-shock">Shock</a></td>
             <td><a href="#co-inanimate">Inanimate Damage</a></td>
             <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
             <td><a href="#co-bloodloss">Bloodloss</a></td>
@@ -1273,7 +1273,7 @@
           wound&#8221; for weapons and armor for the purpose of Shock
           rolls.
         </p>
-        <h5 id="co-blooodloss">Bloodloss</h5>
+        <h5 id="co-bloodloss">Bloodloss</h5>
         <p>
           Damage taken increases with every complete multiple of 5
           injury level above 6 every 10s.  For example, a 16-20 point
