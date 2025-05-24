@@ -1554,10 +1554,11 @@
         </p>
         <div class="explain">
           <p>
-            <em>Bloodloss</em> Once a wound in excess of 10 points is
-            received, bloodloss is calculated.  (Some form of damage
-            do not create bloodloss, e.g. diseases.)  This number is
-            lost every 10 seconds until the treatment
+            <em>Bloodloss</em> Damage taken increases with every
+            complete multiple of 5 injury level above 6 every 10s.
+            For example, a 16-20 point injury causes 2 points per 10
+            seconds, or 1 point of bloodloss every 5 seconds.  This
+            number is lost every 10 seconds until the treatment
             <em>Compress</em> is applied.  Thereafter these points
             heal at 1 per day.
           </p>
@@ -1599,6 +1600,20 @@
             the rate of 1 per second once air is available again..
           </p>
         </div>
+        <h3 id="effect-wounds">Effects</h3>
+        <p>
+          Fatigue is fully applied to all skill rolls.
+        </p>
+        <p>
+          Any physical skill receives one half of all the wound points
+          as penalty.  Any non-physical skill receives the full
+          <em>head</em> wound points as penalty.  Moving receives any
+          <em>leg</em> inhury fully but none of the others.
+        </p>
+        <p>
+          Non-skill penalties such as Healing or Stumble are described
+          in the appropriate sections.
+        </p>
       </div>
       <div class="container">
         <h1 id="sprules">Specific Rules</h1>
@@ -1682,8 +1697,8 @@
         <p>
           The duration is 20 seconds at 0, halved or doubled for every
           20 levels difference.  [2] reduces n5 fatigue points at 20,
-          if positive. [3] reduces bloodloss at 20 with slow yield.
-          [4] improve healing as physician skill, may be 5-added.
+          if positive.  [3], [4] improve healing as physician skill,
+          may be 5-added.
         </p>
         <h4 id="psi-medium">Medium</h4>
         <p>
@@ -1719,13 +1734,26 @@
           the recipient is willing. Otherwise it is capped by
           individual skill rolls.
         </p>
-        <h3 id="Skill-spec">Skills</h3>
+        <h3 id="skill-misc">Skills</h3>
+        <h4 id="skill-spec">Specialties:</h4>
         <p>
-          A list of specialties: <em>Skill/Specialty/Percentage</em>.
+          This list of specialties is structured as
+          <em>Skill/Specialty/Percentage</em>.
         </p>
         <div class="explain">
           <p>
-            Sword/Shortsword/40.
+            Sword/Shortsword/80.
+          </p>
+        </div>
+        <h4 id="skill-apps">Applications</h4>
+        <p>
+          Skill applications as non-standard dimensions.
+        </p>
+        <div class="explain">
+          <p>
+            First Aid for bloodloss: Roll against 20 with slow yield
+            dimension.  Use <em>Physician</em> or <em>Survival - 10</em>
+            as applicable skills.
           </p>
         </div>
         <h3 id="Travel">Travel Tables</h3>
@@ -1763,26 +1791,26 @@
           not covered yet.  The table below gives leagues per watch or
           km/h.
         </p>
-	<table style="width:30%">
-	  <tr>
-	    <th></th><th>R</th><th>H</th><th>B</th>
-	  </tr>
-	  <tr>
-	    <th>A</th><td>16</td><td>4.5</td><td>3</td>
-	  </tr>
-	  <tr>
-	    <th>B</th><td>15</td><td>3</td><td>2</td>
-	  </tr>
-	  <tr>
-	    <th>C</th><td>12</td><td>3.5</td><td>2</td>
-	  </tr>
-	  <tr>
-	    <th>D</th><td>9</td><td>3</td><td>1.5</td>
-	  </tr>
-	  <tr>
-	    <th>E</th><td>8</td><td>3</td><td>1.5</td>
-	  </tr>
-	</table>
+        <table style="width:30%">
+          <tr>
+            <th></th><th>R</th><th>H</th><th>B</th>
+          </tr>
+          <tr>
+            <th>A</th><td>16</td><td>4.5</td><td>3</td>
+          </tr>
+          <tr>
+            <th>B</th><td>15</td><td>3</td><td>2</td>
+          </tr>
+          <tr>
+            <th>C</th><td>12</td><td>3.5</td><td>2</td>
+          </tr>
+          <tr>
+            <th>D</th><td>9</td><td>3</td><td>1.5</td>
+          </tr>
+          <tr>
+            <th>E</th><td>8</td><td>3</td><td>1.5</td>
+          </tr>
+        </table>
         <p style="text-align:center">
           Maritime Travel Table
         </p>
@@ -1792,14 +1820,14 @@
           possible in stronger wind conditions.  Rowing and Sailing
           may not be combined during a watch.
         </p>
-	<table style="width:30%">
-	  <tr>
-	    <th>A</th><th>B</th><th>C</th><th>D</th><th>E</th>
-	  </tr>
-	  <tr>
-	    <td>16</td><td>12</td><td>8</td><td>7</td><td>6</td>
-	  </tr>
-	</table>
+        <table style="width:30%">
+          <tr>
+            <th>A</th><th>B</th><th>C</th><th>D</th><th>E</th>
+          </tr>
+          <tr>
+            <td>16</td><td>12</td><td>8</td><td>7</td><td>6</td>
+          </tr>
+        </table>
         <p style="text-align:center">
           Maritime Oar Travel Table
         </p>
