@@ -1809,9 +1809,13 @@
         </p>
         <div class="explain">
           <p>
-            First Aid for bloodloss: Roll against 20 with slow yield
+            First Aid for bloodloss: Roll against 20 with Slow Yield
             dimension.  Use <em>Physician</em> or <em>Survival - 10</em>
             as applicable skills.
+          </p>
+          <p>
+            Finding edible food: Take <em>Foraging</em> or <em>Herbore
+            - 10</em> as applicable skills.
           </p>
         </div>
         <h3 id="Travel">Travel Tables</h3>
