@@ -1034,8 +1034,6 @@
           </tr>
         </table>
         <h5/>
-      </div>
-      <div class="container">
         <h3 id="skills">Skills</h3>
         <p>
           A specialty is treated as a normal skill.  Specialty effects
@@ -1070,6 +1068,30 @@
           skills in-world, see original rules.  They give a direct
           bonus to the MLU. These values are not multiplied by 0.4.
         </p>
+        <h3 id="tasks">Tasks</h3>
+        <p>
+          For a task multiple skills may be applicable.  Usually they
+          can be 5-added but the difficulty may by different for theor
+          application.  The lead skill assumes a 0, which is not
+          noted.
+        </p>
+        <div class="explain">
+          <p>
+            <b>First Aid for bloodloss</b>: Roll against 20 with Slow
+            Yield dimension.  Use <em>Physician</em> or <em>Survival -
+            10</em> as applicable skills.
+          </p>
+          <p>
+            <b>Finding edible food</b>: Take <em>Foraging</em> or
+            <em>Herbore - 10</em> as applicable skills.
+          </p>
+          <p>
+	    <b>Using weapons in Combat</b>: Take a <em>specialty
+	    weapon skill</em> or a <em>base weapon skill</em>
+	    applicable to the used weapon.  Base weapon skills can
+	    only make use of the minimum A/D modifiers in their group.
+          </p>
+        </div>
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
@@ -1780,30 +1802,6 @@
           the recipient is willing. Otherwise it is capped by
           individual skill rolls.
         </p>
-        <h4 id="tasks">Tasks</h4>
-        <p>
-          For a task multiple skills may be applicable.  Usually they
-          can be 5-added but the difficulty may by different for theor
-          application.  The lead skill assumes a 0, which is not
-          noted.
-        </p>
-        <div class="explain">
-          <p>
-            <b>First Aid for bloodloss</b>: Roll against 20 with Slow
-            Yield dimension.  Use <em>Physician</em> or <em>Survival -
-            10</em> as applicable skills.
-          </p>
-          <p>
-            <b>Finding edible food</b>: Take <em>Foraging</em> or
-            <em>Herbore - 10</em> as applicable skills.
-          </p>
-          <p>
-	    <b>Using weapons in Combat</b>: Take a <em>specialty
-	    weapon skill</em> or a <em>base weapon skill</em>
-	    applicable to the used weapon.  Base weapon skills can
-	    only make use of the minimum A/D modifiers in their group.
-          </p>
-        </div>
         <h3 id="Travel">Travel Tables</h3>
         <h4 id="Encounters">Encounters</h4>
         <p>
