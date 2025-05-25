@@ -507,33 +507,39 @@
           During the time a character is &#8220;frozen&#8221; this
           way, he is trying to understand the situation he is in and
           assesses the options he has.  He is <em>cautious</em> during
-          that time.  General awareness issues such as during an
-          ambush are not covered by Initiative.
+          that time.  General awareness issues are not covered by
+          Initiative.
         </p>
         <p>
           Battle-hardened characters may come into the fractional
-          range often.  Fractions can be used to determine who goes
-          first.  The GM determines, whether going first impedes the
-          action of another in the second that the action takes place.
-          This changes the drama of simultaneous activity, which may
-          or may not be appropriate.
+          range.  Fractions can be used to determine who goes first.
+          The GM determines, whether going first impedes the action of
+          another in the second that the action takes place.  This
+          changes the drama of simultaneous activity, which may or may
+          not be appropriate.
         </p>
         <p>
-	  The situation in combat changes constantly, using Initiative
-	  that way does not make sense.  After an action, the next
-	  action is given the penalty of the Penalty dimension, which
-	  is reduced by 1 per second, a penalty indicates taking
-	  premature action.  For round-based combat, this penalty is
-	  reduced by 10 and then halved; acting every second round
-	  only reduces the penalty by 20, which is halved.  These
-	  numbers are only penalties and cannot turned into a bonus.
+	  The situation in combat changes constantly.  After one
+	  action, the next is given the penalty of the Penalty
+	  dimension, which is reduced by 1 per second, a penalty
+	  indicates taking premature action.  For round-based combat,
+	  this penalty is reduced by 10 and then halved.  (Acting every
+	  second round reduces the penalty by 10 once more.)
+        </p>
+        <p>
+	  (The Penalty-formula is derived from assuming a Time penalty
+	  of the value indicated before each round and then acting one
+	  round.  Since such a penalty would be reduced continuously,
+	  the average is taken.)
         </p>
         <p>
 	  For round-based combat, Initiative usually simply determines
 	  the order of activity.  Changing the order or acting twice
 	  by accepting penalties should be avoided, as it can quickly
 	  lead to escalation, the avoidance of which is precisely the
-	  reason round-based combat is used.
+	  reason round-based combat is used. Round-based numbers are
+	  also rounded towards the smaller absolute value, to reduce
+	  speculation on fractional rounding.
         </p>
         <table style="width:80%">
           <tr>
@@ -589,6 +595,24 @@
             <td>-5</td>
             <td>-5</td>
             <td>-5</td>
+          </tr>
+          <tr class="num">
+            <td>Round Penalty</td>
+            <td>-12</td>
+            <td>-8</td>
+            <td>-5</td>
+            <td>-2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>+1</td>
+            <td>+1</td>
+            <td>+1</td>
+            <td>+2</td>
+            <td>+2</td>
+            <td>+2</td>
+            <td>+2</td>
+            <td>+2</td>
+            <td>+2</td>
           </tr>
         </table>
         <h5 class="skill" id="di-jum">Jumping</h5>
