@@ -501,8 +501,7 @@
           Initiative reflects battle experience, discipline, and
           morale.  Initiative determines the speed in which characters
           can assess a stressful situation.  Characters take the time
-          listed before they can act.  An ambush and similar
-          situations can give a bonus.
+          listed before they can act.  An ambush gives a penalty.
         </p>
         <p>
           During the time a character is &#8220;frozen&#8221; this
@@ -513,11 +512,28 @@
         </p>
         <p>
           Battle-hardened characters may come into the fractional
-          range often.  Optionally fractions can be used to determine
-          who goes first.  The GM determines, whether going first
-          impedes the action of another already in the second that
-          action culminates.  This changes the drama of simultaneous
-          activity, which may or may not be appropriate.
+          range often.  Fractions can be used to determine who goes
+          first.  The GM determines, whether going first impedes the
+          action of another in the second that the action takes place.
+          This changes the drama of simultaneous activity, which may
+          or may not be appropriate.
+        </p>
+        <p>
+	  The situation in combat changes constantly, using Initiative
+	  that way does not make sense.  After an action, the next
+	  action is given the penalty of the Penalty dimension, which
+	  is reduced by 1 per second, a penalty indicates taking
+	  premature action.  For round-based combat, this penalty is
+	  reduced by 10 and then halved; acting every second round
+	  only reduces the penalty by 20, which is halved.  These
+	  numbers are only penalties and cannot turned into a bonus.
+        </p>
+        <p>
+	  For round-based combat, Initiative usually simply determines
+	  the order of activity.  Changing the order or acting twice
+	  by accepting penalties should be avoided, as it can quickly
+	  lead to escalation, the avoidance of which is precisely the
+	  reason round-based combat is used.
         </p>
         <table style="width:80%">
           <tr>
@@ -547,7 +563,7 @@
             <td>10</td>
             <td>8</td>
             <td>6</td>
-            <td>4</td>
+            <td>4.5</td>
             <td>3</td>
             <td>2</td>
             <td>1</td>
@@ -555,6 +571,24 @@
             <td>0.6</td>
             <td>0.45</td>
             <td>0.3</td>
+          </tr>
+          <tr class="num">
+            <td>Penalty</td>
+            <td>-35</td>
+            <td>-28</td>
+            <td>-20</td>
+            <td>-15</td>
+            <td>-10</td>
+            <td>-9</td>
+            <td>-8</td>
+            <td>-7</td>
+            <td>-7</td>
+            <td>-6</td>
+            <td>-6</td>
+            <td>-6</td>
+            <td>-5</td>
+            <td>-5</td>
+            <td>-5</td>
           </tr>
         </table>
         <h5 class="skill" id="di-jum">Jumping</h5>
