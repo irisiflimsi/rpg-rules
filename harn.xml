@@ -13,7 +13,7 @@
     <div class="main">
       <div class="title">Rules for H&#226;rnworld</div>
       <div class="container">
-        <h1 id="rules">Basic Rule</h1>
+        <h1 id="rules">Basic Rules</h1>
         <p>
           This is a set of rules, which represent the aspects dealt
           with in the HM3 rule book. Since our aim is to simplify,
@@ -27,6 +27,75 @@
           of simplification.  The benefit of better scaling and other
           issues that are better addressed warrant the effort.
         </p>
+        <h3 id="overview">Overview</h3>
+        <p>
+          Whenever we have ML, SB or other technical terms, we append
+          an U to distinguish the Universal rules, from the
+          classic. E.g. MLU and SBU.  You can calculate MLU as ML x
+          0.4.  The basic 50/50 chance of success on a skill roll is
+          with an ML of 50%, i.e. an MLU of 20. Thus the most basic
+          task difficulty - all other things being equal - should be
+          set to 20.  Attributes are treated as skills with MLU twice
+          their value that cannot be developed.
+        </p>
+	<h4>Skill Testing</h4>
+	<p>
+	  Skill testing is a micro-negotiation.  The GM describes the
+	  task and the dimensions available.  The character in
+	  question names the skills he thinks are most appropriate.
+	  The GM then names the diffculty for each of the skills and
+	  how they can potentially be combined. 
+	</p>
+	<p>
+          Now n5 is rolled, adding EMLU.  The task difficulty value is
+          subtracted from the roll and if the net result is
+          non-negative, the skill has been successfully employed; if
+          the roll is negative, the attempt has failed.
+	</p>
+	<p>
+	  For example, if a PC declares the intent to perform a
+	  gymnastic feat, he would suggest to the GM that &#8220;I
+	  have the Acrobatics skill&#8221;.  The GM would then tell
+	  the player &#8220;this has a difficulty of 15.&#8221; In
+	  cases where success or failure may not be obvious, the GM
+	  should make the roll secretly and record the relevant skill
+	  of the PCs beforehand.
+        </p>
+        <p>
+          To determine the degree of success or failure, use the
+          dimensions.
+        </p>
+        <p>
+          When two characters use skills against each other, each
+          character makes a p5 skill roll appropriate to the skill in
+          question and the results are compared to give a net result.
+          The character with the higher result wins the challenge.  If
+          both characters achieve the same success level, this is a
+          stalemate.  If a tie is not appropriate to the situation,
+          toss a coin.
+        </p>
+        <h4>Star Scale</h4>
+        <p>
+          The star-scale is often used to simplify evaluation.
+        </p>
+        <table style="width:75%">
+          <tr>
+            <th>Stars</th>
+            <td>&#9733;</td>
+            <td>&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+          </tr>
+          <tr>
+            <th>MLU</th>
+            <td>5-15</td>
+            <td>15-25</td>
+            <td>25-35</td>
+            <td>35-45</td>
+            <td>45-55</td>
+          </tr>
+        </table>
         <h3 id="five-add">5-Addition</h3>
         <p>
           A convenience table for the 5-addition of zeroes.  Rounding
@@ -59,7 +128,7 @@
             <td>21.2</td>
           </tr>
         </table>
-        <h3 id="dims">Dimension Links</h3>
+        <h3 id="dim-link">Dimension Links</h3>
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
@@ -89,124 +158,7 @@
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
-        <h3 id="s3kills">Overview</h3>
-        <p>
-          Whenever we have ML, SB or other technical terms, we append
-          an U to distinguish the Universal rules, from the
-          classic. E.g. MLU and SBU.  You can calculate MLU as ML x
-          0.4.  The basic 50/50 chance of success on a skill roll is
-          with an ML of 50%, i.e. an MLU of 20. Thus the most basic
-          task difficulty - all other things being equal - should be
-          set to 20.  Attributes are treated as skills with MLU twice
-          their value that cannot be developed.
-        </p>
-        <h4>Specialties</h4>
-        <p>
-          Many skills can be fanned into specialties.
-          The specific specialty takes the initial MLU from the main
-          skill&#8217;s MLU.  A specialty is otherwise a skill.
-        </p>
-        <p>
-          When only Specialties are given in some context, you may
-          ask, what MLU the base skill has.  Apply the specialty
-          rule in reverse while considering the &#8220;opposite&#8221;
-          specialty.  Take the percentage of Specialty MLU to
-          get the base skill&#8217;s MLU.
-          For example, a <em>Sword/Shortsword/40</em> MLU of 20
-          only implies <em>Sword/Non-Shortsword/60</em> MLU of 0, averaging 
-          Sword MLU of 0.4 x 20 + 0.6 x 0 = 8.
-        </p>
-        <h4>Skill Development</h4>
-        <p>
-          Skill Development is applicable only to PCs and a
-          narrative rule.  Every game session, award 2 points (SP)
-          that can each be used to increase any skill MLU in the
-          range 0-9 by 1 point, in the range 10-19 by 1/2 points,
-          in the range 20-29 by 1/4 points and so forth.
-          Teachers are also handled narratively.
-        </p>
-        <p>
-          <em>In-world</em> improvement happens with the same range costs
-          as above, but 1 SP is gained every month after completing
-          NPC/PC creation.
-        </p>
-        <p>
-          Improving Specialties is more elaborate.  Skills list
-          specialties with a percentage value.  This percentage value
-          gives the part of the whole group that this specialization
-          comprises.  When the base skill is improved all improvements
-          may be dedicated to the specialty instead.
-        </p>
-        <p>
-          As an example, instead of a improving <em>Sword</em> for 2,
-          <em>Sword/Shortsword/40</em> could see an 10 / 4 x 2 = 5 points
-          for <em>Shortsword</em>.  Divide 100% by the given
-          percentage to get the specialty SP. (SP effects in the MLU
-          ranges remain unchanged.) 
-        </p>
-        <p>
-          If at any time the skill itself is developed, specialties
-          are only improved, if they would fall below the MLU of the
-          skill otherwise.  It would be prudent to learn the
-          &#8220;opposite&#8221; Specialty.
-        </p>
-        <h4>Star Scale</h4>
-        <p>
-          The star-scale is often used to simplify evaluation.
-        </p>
-        <table style="width:75%">
-          <tr>
-            <th>Stars</th>
-            <td>&#9733;</td>
-            <td>&#9733;&#9733;</td>
-            <td>&#9733;&#9733;&#9733;</td>
-            <td>&#9733;&#9733;&#9733;&#9733;</td>
-            <td>&#9733;&#9733;&#9733;&#9733;&#9733;</td>
-          </tr>
-          <tr>
-            <th>MLU</th>
-            <td>5-15</td>
-            <td>15-25</td>
-            <td>25-35</td>
-            <td>35-45</td>
-            <td>45-55</td>
-          </tr>
-        </table>
-        <h4>Sunsign</h4>
-        <p>
-          Sunsigns represent an astrological affinity to certain
-          skills in-world, see original rules.  They give a direct
-          bonus to the MLU. These values are not multiplied by 0.4
-          and such modifiers are not included in the devlopment 
-          ranges (see above).
-        </p>
-        <h4>Skill Testing</h4>
-        <p>
-          When a character attempts to use a skill, n5 is rolled,
-          adding EMLU.  The GM will have decided upon a diffculty
-          level of the task.  This value is also subtracted from the
-          roll and if the net result is non-negative, the skill has
-          been successfully employed; if the roll is negative, the
-          attempt has failed.  For example, if a PC declares the
-          intent to perform a gymnastic feat, the GM would instruct
-          the player to &#8220;test Acrobatics against difficulty
-          15.&#8221; In cases where success or failure may not be
-          obvious, the GM should make the roll secretly.
-        </p>
-        <p>
-          To determine the degree of success or failure, use the
-          dimensions.
-        </p>
-        <p>
-          When two characters use skills against each other, each
-          character makes a p5 skill roll appropriate to the skill in
-          question and the results are compared to give a net result.
-          The character with the higher result wins the challenge.  If
-          both characters achieve the same success level, this is a
-          stalemate.  If a tie is not appropriate to the situation,
-          toss a coin.
-        </p>
-        <h3 id="d3im">Dimensions</h3>
+        <h3 id="dim">Dimensions</h3>
         <p>
           The following shows example dimensions.  Finding the
           appropriate dimension depends on the concrete circumstances.
@@ -1084,6 +1036,42 @@
         <h5/>
       </div>
       <div class="container">
+        <h3 id="skills">Skills</h3>
+        <p>
+          A specialty is treated as a normal skill.  Specialty effects
+          are treated according to the tasks.  All skills and
+          specialties from the original can be used as guidance.
+          Don't use 5-addition of base and specialty skills.
+          Decisions will be recorded in the <a href="#tasks">Task
+          chapter</a> to retain consistency.
+        </p>
+        <h4>Skill Development</h4>
+        <p>
+          Skill Development is applicable only to PCs and a narrative
+          rule.  Every game session, award 2 points (SP) that can each
+          be used to increase any skill MLU in the range 0-9 by 1
+          point, in the range 10-19 by 1/2 points, in the range 20-29
+          by 1/4 points and so forth.  Teachers are also handled
+          narratively.
+        </p>
+        <p>
+          <em>In-world</em> improvement happens with the same range
+          costs as above, but 1 SP is gained every month after
+          completing NPC/PC creation.
+        </p>
+        <p>
+	  Specialty development can be preferable over generic Skill
+	  development, when a character aims at tasks, for which the
+	  base skill would receive a higher difficulty rating.
+        </p>
+        <h4>Sunsign</h4>
+        <p>
+          Sunsigns represent an astrological affinity to certain
+          skills in-world, see original rules.  They give a direct
+          bonus to the MLU. These values are not multiplied by 0.4.
+        </p>
+      </div>
+      <div class="container">
         <h1 id="combat">Combat</h1>
         <p>
           At the beginning of each combat the players and GM should
@@ -1792,30 +1780,28 @@
           the recipient is willing. Otherwise it is capped by
           individual skill rolls.
         </p>
-        <h3 id="skill-misc">Skills</h3>
-        <h4 id="skill-spec">Specialties:</h4>
+        <h4 id="tasks">Tasks</h4>
         <p>
-          This list of specialties is structured as
-          <em>Skill/Specialty/Percentage</em>.
+          For a task multiple skills may be applicable.  Usually they
+          can be 5-added but the difficulty may by different for theor
+          application.  The lead skill assumes a 0, which is not
+          noted.
         </p>
         <div class="explain">
           <p>
-            Sword/Shortsword/80.
-          </p>
-        </div>
-        <h4 id="skill-apps">Applications</h4>
-        <p>
-          Skill applications as non-standard dimensions.
-        </p>
-        <div class="explain">
-          <p>
-            First Aid for bloodloss: Roll against 20 with Slow Yield
-            dimension.  Use <em>Physician</em> or <em>Survival - 10</em>
-            as applicable skills.
+            <b>First Aid for bloodloss</b>: Roll against 20 with Slow
+            Yield dimension.  Use <em>Physician</em> or <em>Survival -
+            10</em> as applicable skills.
           </p>
           <p>
-            Finding edible food: Take <em>Foraging</em> or <em>Herbore
-            - 10</em> as applicable skills.
+            <b>Finding edible food</b>: Take <em>Foraging</em> or
+            <em>Herbore - 10</em> as applicable skills.
+          </p>
+          <p>
+	    <b>Using weapons in Combat</b>: Take a <em>specialty
+	    weapon skill</em> or a <em>base weapon skill</em>
+	    applicable to the used weapon.  Base weapon skills can
+	    only make use of the minimum A/D modifiers in their group.
           </p>
         </div>
         <h3 id="Travel">Travel Tables</h3>
