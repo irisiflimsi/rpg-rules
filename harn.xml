@@ -1082,14 +1082,30 @@
             10</em> as applicable skills.
           </p>
           <p>
-            <b>Finding edible food</b>: Take <em>Foraging</em> or
-            <em>Herbore - 10</em> as applicable skills.
+            <b>Finding edible food</b>: Take <em>Foraging</em>,
+            <em>Fishing</em> or <em>Herbore - 10</em> as applicable
+            skills.  Fishing without equipment at sea is <em>-10</em>,
+            inland at <em>-5</em>.
           </p>
           <p>
 	    <b>Using weapons in Combat</b>: Take a <em>specialty
 	    weapon skill</em> or a <em>base weapon skill</em>
 	    applicable to the used weapon.  Base weapon skills can
 	    only make use of the minimum A/D modifiers in their group.
+          </p>
+          <p>
+	    <b>Typical Seamanship</b>: Holding course is <em>10</em>,
+	    Anchor drop/raise is <em>0</em>.  Repairs at sea is
+	    generally <em>Seamanship - 5</em> or specifically
+	    <em>Textilcraft</em>, <em>Carpentry</em>,
+	    <em>Shipbuilding</em>.  Tasklevel is Penalty.  Dimension
+	    is 10% of Penalty not fixed per point at <em>Fast Yield
+	    Time</em>.
+          </p>
+          <p>
+	    <b>Avoiding reefs</b>: <em>Seamanship</em> or
+	    <em>Navigation</em> of helmsman.  <em>5</em> per wind
+	    category and <em>1</em> per ship depth.
           </p>
         </div>
       </div>
