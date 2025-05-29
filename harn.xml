@@ -302,7 +302,7 @@
             <th>40</th>
           </tr>
           <tr class="text">
-            <td>Rhetoric</td<
+            <td>Rhetoric</td>
             <td>Noise</td>
             <td>Comprehension</td>
             <td>Listening</td>
@@ -984,7 +984,7 @@
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
           The <em>Fast Yield</em> is used for Fishing, Foraging, and
-          Hunting with a dimension unit of 1 man-day of food.  The
+          Hunting with a dimension unit of 1 manday of food.  The
           <em>Slow Yield</em> when failure can be compensated by
           spending more time is used for Fletching, where the unit is
           1/4 bow or 4 arrows.  For trajectories, a dimension cannot
