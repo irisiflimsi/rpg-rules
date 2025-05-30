@@ -155,7 +155,7 @@
             <td><a href="#di-str">Strength</a></td>
             <td><a href="#di-str">Swimming</a></td>
             <td><a href="#di-thr">Throwing</a></td>
-            <td><a href="#di-weat">Weatherlore</a></td>
+            <td><a href="#di-wea">Weatherlore</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
@@ -683,8 +683,8 @@
           </p>
           <p>
             <em>20:</em> Almost all concepts of the domain are known
-            and can be applied with confidence.  Only a few topics
-            escape the grasp.
+            and can be applied with reasonable confidence.  Only a few
+            topics escape the grasp.
           </p>
           <p>
             <em>30:</em> All of the domain is understood with ease.
@@ -732,9 +732,11 @@
           same factor.  Roll once for the course.  Accumulate Fatigue
           in the end, unless abused.
         </p>
-        <table style="width:80%">
+        <table style="width:90%">
           <tr>
             <th>Dimension</th>
+            <th>-60</th>
+            <th>-50</th>
             <th>-40</th>
             <th>-30</th>
             <th>-20</th>
@@ -749,10 +751,11 @@
             <th>70</th>
             <th>80</th>
             <th>90</th>
-            <th>100</th>
           </tr>
           <tr class="num">
             <td>Speed (m/s)</td>
+            <th>1/4</th>
+            <th>3/8</th>
             <td>1/2</td>
             <td>3/4</td>
             <td>1</td>
@@ -767,7 +770,6 @@
             <td>24</td>
             <td>32</td>
             <td>48</td>
-            <td>64</td>
           </tr>
         </table>
         <h5 class="skill" id="di-pie">Piety</h5>
@@ -885,39 +887,44 @@
           </tr>
         </table>
         <h5 class="skill" id="di-str">Strength</h5>
+	20 = 100lbs = Move -40 = 
+	30 = 200lbs = Move -20
+	5/3x+5/30x^2
         <p>
-          The listed weight (excluding your own body) can be lifted as
-          maximum.  Fatigue is 10/minute.  Reducing weight by a
-          factor, reduces the fatigue rate by the same factor.  Roll
-          once for the activity.  Accumulate Fatigue, unless abused.
-          Weight carried in lbs is a penalty to the move roll.
+          The listed weight (excluding your own body) or load can be
+          lifted as maximum.  Fatigue is <em>Weight / 1000</em> in
+          seconds and physical penalty is <em>Weight / 5</em>.  Both
+          cannot be made trajectories.  The dimensions in the table
+          are typical for the Strength skill.  The Move trajectory
+          cannot be reduced beyond -10/-50.
         </p>
         <table style="width:60%">
           <tr>
             <th>Dimension</th>
+            <th>-10</th>
             <th>0</th>
-            <th>5</th>
             <th>10</th>
-            <th>15</th>
             <th>20</th>
-            <th>25</th>
             <th>30</th>
-            <th>35</th>
             <th>40</th>
-            <th>45</th>
           </tr>
           <tr class="num">
             <td>Weight</td>
-            <td>10lbs</td>
-            <td>16lbs</td>
-            <td>25lbs</td>
-            <td>45lbs</td>
-            <td>70lbs</td>
-            <td>100lbs</td>
-            <td>160lbs</td>
-            <td>250lbs</td>
-            <td>450lbs</td>
-            <td>700lbs</td>
+            <td>10 lbs</td>
+            <td>20 lbs</td>
+            <td>40 lbs</td>
+            <td>80 lbs</td>
+            <td>160 lbs</td>
+            <td>320 lbs</td>
+          </tr>
+          <tr class="num">
+            <td>Move</td>
+            <td>-50</td>
+            <td>-40</td>
+            <td>-30</td>
+            <td>-20</td>
+            <td>-10</td>
+            <td>0</td>
           </tr>
         </table>
         <h5 class="skill" id="di-swi">Swimming</h5>
@@ -958,7 +965,7 @@
           character with MLU of 15 and a roll of +4 throws a suitable
           object for a distance of 38 meters.
         </p>
-        <h5 class="skill" id="di-weat">Weatherlore</h5>
+        <h5 class="skill" id="di-wea">Weatherlore</h5>
         <p>
           Time into the future.  Also use the <em>Accuracy</em>
           dimension for trajectories.
