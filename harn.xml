@@ -1083,7 +1083,6 @@
           A specialty is treated as a normal skill.  Specialty effects
           are treated according to the tasks.  All skills and
           specialties from the original can be used as guidance.
-          Don't use 5-addition of base and specialty skills.
           Decisions will be recorded in the <a href="#tasks">Task
           chapter</a> to retain consistency.
         </p>
@@ -1115,9 +1114,8 @@
         <h3 id="tasks">Tasks</h3>
         <p>
           For a task multiple skills may be applicable.  Usually they
-          can be 5-added but the difficulty may by different for theor
-          application.  The lead skill assumes a 0, which is not
-          noted.
+          can be 5-added but the difficulty may also be different for
+          their application.
         </p>
         <div class="explain">
           <p>
@@ -1132,10 +1130,9 @@
             inland at <em>-5</em>.
           </p>
           <p>
-	    <b>Using weapons in Combat</b>: Take a <em>specialty
-	    weapon skill</em> or a <em>base weapon skill</em>
-	    applicable to the used weapon.  Base weapon skills can
-	    only make use of the minimum A/D modifiers in their group.
+	    <b>Using weapons in combat</b>: Use <em>specialty weapon
+	    skill</em>, <em>base weapon skill - 5</em>, or <em>wrong
+	    specialty weapon skill - 10</em> when using a weapon.
           </p>
           <p>
 	    <b>Typical Seamanship</b>: Holding course is <em>10</em>,
