@@ -891,9 +891,9 @@
           The listed weight (excluding your own body) or load can be
           lifted as maximum.  Fatigue is <em>Weight / 1000</em> in
           seconds and physical penalty is <em>Weight / 10</em>.  Both
-          cannot be made trajectories.  The dimensions in the table
-          are typical for the Strength skill.  The Move trajectory
-          cannot be reduced beyond -10/-50.
+          cannot be trajectories.  The dimensions in the table are
+          typical for the skill.  The Move cannot be extended beyond
+          -10/-60 and 20/0 via trajectory.
         </p>
         <table style="width:60%">
           <tr>
@@ -916,11 +916,11 @@
           </tr>
           <tr class="num">
             <td>Move</td>
-            <td>-50</td>
+            <td>-60</td>
             <td>-40</td>
-            <td>-30</td>
             <td>-20</td>
-            <td>-10</td>
+            <td>0</td>
+            <td>0</td>
             <td>0</td>
           </tr>
         </table>
