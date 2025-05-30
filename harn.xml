@@ -887,9 +887,6 @@
           </tr>
         </table>
         <h5 class="skill" id="di-str">Strength</h5>
-	20 = 100lbs = Move -40 = 
-	30 = 200lbs = Move -20
-	5/3x+5/30x^2
         <p>
           The listed weight (excluding your own body) or load can be
           lifted as maximum.  Fatigue is <em>Weight / 1000</em> in
