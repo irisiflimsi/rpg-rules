@@ -893,7 +893,7 @@
         <p>
           The listed weight (excluding your own body) or load can be
           lifted as maximum.  Fatigue is <em>Weight / 1000</em> in
-          seconds and physical penalty is <em>Weight / 5</em>.  Both
+          seconds and physical penalty is <em>Weight / 10</em>.  Both
           cannot be made trajectories.  The dimensions in the table
           are typical for the Strength skill.  The Move trajectory
           cannot be reduced beyond -10/-50.
