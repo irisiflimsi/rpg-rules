@@ -40,8 +40,6 @@
 	  Severity will be 5-added, which is why group travel is
 	  generally preferable.  GM will "spread" penalties.
 	</p>
-        <table style="width:75%">
-          <tr>
         <div class="explain">
           <p>
 	    <b>Personal</b>: Food poisoning, Airborn, Carrierbite,
@@ -73,7 +71,7 @@
 	    mercenaries, craftsmen, tracks, other evidence, potential
 	    crime scene, fugitive, working, guard, barbarian
           </p>
-	</table>
+	</div>
       </div>
       <div class="container">
 	<h1 id="rules">Herblore</h1>
