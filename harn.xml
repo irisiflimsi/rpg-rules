@@ -231,13 +231,12 @@
         </p>
         <p>
           Any effects from wounds or other external influences are
-          applied immediately to pending progressions, but
-          the wound itself is modified by <em>B/E/P</em> of attacker
-          choice from weapon and armor.  (These values
-          are multiplied by 0.4!)  The offset is along the trajectory
-          chosen.  Note that the same is true for effects on the
-          defender.  If this implies an action to occur in the past,
-          it is resolved immediately.
+          applied immediately to pending progressions, but the wound
+          itself is modified by <em>B/E/P</em> of attacker choice from
+          weapon and armor.  (These values are not multiplied by 0.4!)
+          The offset is along the trajectory chosen.  Note that the
+          same is true for effects on the defender.  If this implies
+          an action to occur in the past, it is resolved immediately.
         </p>
         <table style="width:80%">
           <tr>
