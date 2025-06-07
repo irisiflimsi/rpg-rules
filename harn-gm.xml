@@ -1,7 +1,7 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <html xmlns:svg="http://www.w3.org/2000/svg">
   <head>
-    <title>Rules for H&#226;rnworld</title>
+    <title>GM Rules for H&#226;rnworld</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
     <link rel="stylesheet" href="main.css"/>
@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="main">
-      <div class="title">Auxillary GM information for H&#226;rnworld</div>
+      <div class="title">GM Rules for H&#226;rnworld</div>
       <div class="container">
 	<h1 id="rules">Encounters</h1>
 	<p>
@@ -94,7 +94,7 @@
 	  give 10% for each day.  I.e. ten days late or early equals
 	  0%/50% potency and ten days in (out) season equals 50%/100%.
 	</p>
-	<table>
+	<table width="90%">
 	  <tr>
 	    <th></th><th>Common</th><th>Uncommon</th><th>Rare</th>
 	  </tr>
