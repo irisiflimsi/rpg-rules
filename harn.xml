@@ -135,7 +135,7 @@
             <td><a href="#di-agr">Agriculture</a></td>
             <td><a href="#di-cli">Climbing</a></td>
             <td><a href="#di-co1">Combat</a></td>
-            <td><a href="#di-des"><b>Descriptive</b></a></td>
+            <td><a href="#di-des">Descriptive</a></td>
             <td><a href="#di-dex">Dexterity</a></td>
             <td><a href="#di-eye">Eyesight</a></td>
             <td><a href="#di-sta">Healing</a></td>
@@ -335,6 +335,15 @@
             <td>*/:</td>
             <td>Geo/%</td>
             <td>Esoterics</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>Exists</td>
+            <td>Basic</td>
+            <td>Fair</td>
+            <td>Fluent</td>
+            <td>Faceted</td>
+            <td>Mastery</td>
           </tr>
         </table>
         <h5 class="skill" id="di-dex">Dexterity</h5>
@@ -672,28 +681,23 @@
         <div class="explain">
           <p>
             <em>0:</em> Character barely knows the domain for such
-            knowledge exists.  With some luck, he can guess whether a
-            general topic belongs to that domain or not.
+            knowledge exists.
           </p>
           <p>
-            <em>10:</em> The basic concepts are known, the more
-            esoteric concepts have been heard of but cannot be
-            applied.
+            <em>10:</em> The basic concepts are known, advanced
+            concepts have been heard of but cannot be applied.
           </p>
           <p>
-            <em>20:</em> Almost all concepts of the domain are known
-            and can be applied with reasonable confidence.  Only a few
-            topics escape the grasp.
+            <em>20:</em> Most concepts of the domain are known and can
+            be applied.  Fringe concept provide less confidence.
           </p>
           <p>
-            <em>30:</em> All of the domain is understood with ease.
-            It is hard to find unknown territory, although it exists.
+            <em>30:</em> The domain is understood with ease.
             Improvement of the art is possible.
           </p>
           <p>
-            <em>40:</em> Mastery of the subject matter as far as
-            humanly possible.  Genuine research or creation of new
-            substance is possible.
+            <em>40:</em> Mastery of the domain as far as humanly
+            possible.  Improvement of the art is not hard.
           </p>
         </div>
         <h5 class="skill" id="di-men">Mental Conflict</h5>
