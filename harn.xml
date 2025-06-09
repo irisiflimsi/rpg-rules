@@ -238,21 +238,21 @@
           same is true for effects on the defender.  If this implies
           an action to occur in the past, it is resolved immediately.
         </p>
-        <table style="width:80%">
+        <table style="width:90%">
           <tr>
             <th>Dimension</th>
+            <th>-30</th>
+            <th>-20</th>
             <th>-10</th>
-            <th>-5</th>
             <th>0</th>
-            <th>5</th>
             <th>10</th>
-            <th>15</th>
             <th>20</th>
-            <th>25</th>
             <th>30</th>
+            <th>40</th>
           </tr>
           <tr class="num">
             <td>Time</td>
+            <td>80</td>
             <td>40</td>
             <td>20</td>
             <td>10</td>
@@ -260,20 +260,18 @@
             <td>5/2</td>
             <td>5/4</td>
             <td>5/8</td>
-            <td>5/16</td>
-            <td>5/32</td>
           </tr>
           <tr class="num">
             <td>Wounds</td>
-            <td>-10</td>
-            <td>-5</td>
+            <td>-8</td>
+            <td>-6</td>
+            <td>-4</td>
+            <td>-2</td>
             <td>0</td>
-            <td>5</td>
-            <td>10</td>
-            <td>15</td>
-            <td>20</td>
-            <td>25</td>
-            <td>30</td>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
           </tr>
         </table>
         <p>
