@@ -230,10 +230,11 @@
           at the same time.  This is to avoid combat in split seconds.
         </p>
         <p>
-          Any effects from wounds or other external influences are
-          applied immediately to pending progressions, but the wound
-          itself is modified by <em>B/E/P</em> of attacker choice from
-          weapon and armor.  (These values are not multiplied by 0.4!)
+          Any effects on the skill action (such as the A/D values) are
+          applied to the skill roll, but effects on wounds (such as
+          weapon B/E/P) is applied to the wound level dimension.
+          (These values are not multiplied by 0.4 either!)  Weapon
+          <em>B/E/P</em> is of attacker choice from weapon and armor.
           The offset is along the trajectory chosen.  Note that the
           same is true for effects on the defender.  If this implies
           an action to occur in the past, it is resolved immediately.
