@@ -988,17 +988,14 @@
         </table>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
-          The <em>Fast Yield</em> is used for Fishing, Foraging, and
-          Hunting with a dimension unit of 1/4 manday of food.  The
-          <em>Slow Yield</em> when failure can be compensated by
-          spending more time is used for Fletching, where the unit is
-          1/4 bow or 4 arrows.  For trajectories, a dimension cannot
-          be set to zero.  Note that most activity cannot be extended
-          beyond 8 hours per day.
+          <em>Yield</em> is used for Fishing, Foraging, and Hunting
+          with a dimension unit of 1/2 manday of food.  <em>Yield</em>
+          can be compensated by spending more time.  For Fletching,
+          the unit is 1/4 bow or 4 arrows.  Note that most activity
+          cannot be extended beyond 8 hours per day.
         </p>
         <p>
-          As example 4h with MLU 5 fast yields 1.  For Slow Yield, the
-          same MLU needs 9h to get 1.
+          As example 4h with MLU 5 yields Yield 1.
         </p>
         <table style="width:90%">
           <tr>
@@ -1018,39 +1015,7 @@
             <th>40</th>
           </tr>
           <tr class="num">
-            <td>Fast Yield</td>
-            <td>1/1000</td>
-            <td>1/250</td>
-            <td>1/50</td>
-            <td>1/16</td>
-            <td>1/4</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>6</td>
-            <td>8</td>
-            <td>12</td>
-            <td>16</td>
-          </tr>
-          <tr class="num">
-            <td>Fast Time</td>
-            <td>64h</td>
-            <td>32h</td>
-            <td>16h</td>
-            <td>8h</td>
-            <td>4h</td>
-            <td>2h</td>
-            <td>1:20h</td>
-            <td>1h</td>
-            <td>48min</td>
-            <td>40min</td>
-            <td>34min</td>
-            <td>30min</td>
-            <td>27min</td>
-          </tr>
-          <tr class="num">
-            <td>Slow Yield</td>
+            <td>Yield</td>
             <td>0</td>
             <td>1/4</td>
             <td>1/2</td>
@@ -1067,19 +1032,19 @@
           </tr>
           <tr class="num">
             <td>Slow Time</td>
-            <td>48h</td>
-            <td>36h</td>
-            <td>24h</td>
             <td>16h</td>
             <td>12h</td>
-            <td>9h</td>
+            <td>8h</td>
             <td>6h</td>
-            <td>4:30h</td>
+            <td>4h</td>
             <td>3h</td>
-            <td>2:15h</td>
-            <td>1.5h</td>
-            <td>68min</td>
+            <td>2h</td>
+            <td>1:30h</td>
+            <td>1h</td>
             <td>45min</td>
+            <td>30min</td>
+            <td>22:30min</td>
+            <td>15min</td>
           </tr>
         </table>
         <h5/>
@@ -1124,8 +1089,8 @@
         </p>
         <div class="explain">
           <p>
-            <b>First Aid for bloodloss</b>: Roll against 20 with Slow
-            Yield dimension.  Use <em>Physician</em> or <em>Survival -
+            <b>First Aid for bloodloss</b>: Roll against 20 with Yield
+            dimension.  Use <em>Physician</em> or <em>Survival -
             10</em> as applicable skills.
           </p>
           <p>
@@ -1145,8 +1110,7 @@
             generally <em>Seamanship - 5</em> or specifically
             <em>Textilcraft</em>, <em>Carpentry</em>,
             <em>Shipbuilding</em>.  Tasklevel is Penalty.  Dimension
-            is 10% of Penalty not fixed per point at <em>Fast Yield
-            Time</em>.
+            is <em>Yield Time</em> per point.
           </p>
           <p>
             <b>Avoiding reefs</b>: <em>Seamanship</em> or
@@ -1162,7 +1126,7 @@
           <p>
             <b>Reading Time</b>: Reading a book takes the 5-addition
             of <em>Script</em> skill and proper <em>Language
-            application</em> - 30 on the Fast Yield dimension.
+            application</em> - 30 on the Yield Time dimension.
           </p>
           <p>
             <b>Teaching Books</b>: The time it takes to teach someone
@@ -1171,7 +1135,7 @@
             of 20 is actually the 5-addition of 20 for all listeners.
           </p>
           <p>
-	    <b>Appraisal</b>: Primary skill against -10 on Accuracy.
+            <b>Appraisal</b>: Primary skill against -10 on Accuracy.
           </p>
         </div>
       </div>
@@ -1401,7 +1365,7 @@
         <p>
           Any new wound of at least 1 point results in a Shock chance.
           Use accumulated injury and fatigue as difficulty for a
-          Stamina skill roll against 0.  Failure is measured in the Fast
+          Stamina skill roll against 0.  Failure is measured in the
           Yield Dimension as minutes.  Multiple Shock rolls can be
           5-added.
         </p>
@@ -1830,11 +1794,11 @@
         </p>
         <h4 id="psi-clair">Clairvoyance</h4>
         <p>
-          Roll n5 Skill.  Dimension is Fast Yield (Time) for a
-          Distance of 10 meters.  The vision includes random senses,
-          usually sight and are always informative, but never
-          complete.  They come within seconds at the appropriate time,
-          if 0 is reached.  Otherwise not at all.
+          Roll n5 Skill.  Dimension is Yield (Time) for a Distance of
+          10 meters.  The vision includes random senses, usually sight
+          and are always informative, but never complete.  They come
+          within seconds at the appropriate time, if 0 is reached.
+          Otherwise not at all.
         </p>
         <h4 id="psi-heal">Disembodiement</h4>
         <p>
@@ -2030,8 +1994,8 @@
         <h4 id="Attunement">Attunement</h4>
         <p>
           Use n5 plus Aura skill with direct addition of Sensitivity
-          (Psionics) vs. power level of the artifact and use the Fast
-          Yield time dimension.  See <em>Treasure</em> for power level.
+          (Psionics) vs. power level of the artifact and use the Yield
+          Time dimension.  See <em>Treasure</em> for power level.
         </p>
       </div>
     </div>
