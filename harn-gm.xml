@@ -12,179 +12,180 @@
     <div class="main">
       <div class="title">GM Rules for H&#226;rnworld</div>
       <div class="container">
-	<h1 id="rules">Encounters</h1>
-	<p>
-	  According to the general rule, <em>p5</em> divided by two
-	  determines <em>severity</em>.  Severity can be taken or
-	  mitigated with appropriate skill at base difficulty 20.
-	  Determine whether it can be worsened, the full effect is 10.
-	  E.g. a severity 5 implies difficulty 25 and only reaching a
-	  result of 15 mean full severity and depending on
-	  circumstances, a 5 result could mean up to twice the
-	  severity effects.
-	</p>
-	<p>
-	  Personal is usually physical penalty.  Equipment is usually
-	  loss as percentage of net value, e.g. -5 is 5% of value
-	  loss.  Value is one traveller's net worth. Transport is time
-	  loss in percentage.  E.g. -5 is 5% time loss until
-	  compensated.  Plant may mean wilderness skill failure, such
-	  as Foraging, with effect equivalent to time or value as
-	  before.  Animal or human encounters are effectively time
-	  loss or wounds.  The first one through rhetorics, discussing
-	  mute points, detainment, etc.. The second one through
-	  exchanging non-lethal blows and being stopped at the right
-	  point.
-	</p>
-	<p>
-	  Severity will be 5-added, which is why group travel is
-	  generally preferable.  GM will "spread" penalties.
-	</p>
-	<p>
-	  To avoid the default penalty, i.e. "play it out", apply this
-	  rule of thumb: roll Awareness vs 20 for the PCs to become
-	  aware of the danger in time.  If aware, the penalty can
-	  usually be avoided with an appropriate skill roll, also
-	  against 20.  Otherwise the effects may be mitigated by skill
-	  rolls similar to the healing pattern.
-	</p>
+        <h1 id="rules">Encounters</h1>
+        <p>
+          According to the general rule, <em>p5</em> divided by two
+          determines <em>severity</em>.  Severity can be taken or
+          mitigated with appropriate skill at base difficulty 20.
+          Determine whether it can be worsened, the full effect is 10.
+          E.g. a severity 5 implies difficulty 25 and only reaching a
+          result of 15 mean full severity and depending on
+          circumstances, a 5 result could mean up to twice the
+          severity effects.
+        </p>
+        <p>
+          Personal is usually physical penalty.  Equipment is usually
+          loss as percentage of net value, e.g. -5 is 5% of value
+          loss.  Value is one traveller's net worth. Transport is time
+          loss in percentage.  E.g. -5 is 5% time loss until
+          compensated.  Plant may mean wilderness skill failure, such
+          as Foraging, with effect equivalent to time or value as
+          before.  Animal or human encounters are effectively time
+          loss or wounds.  The first one through rhetorics, discussing
+          mute points, detainment, etc.. The second one through
+          exchanging non-lethal blows and being stopped at the right
+          point.
+        </p>
+        <p>
+          Severity will be 5-added, which is why group travel is
+          generally preferable.  GM will "spread" penalties.
+        </p>
+        <p>
+          To avoid the default penalty, i.e. "play it out", apply this
+          rule of thumb: roll Awareness vs 20 for the PCs to become
+          aware of the danger in time.  If aware, the penalty can
+          usually be avoided with an appropriate skill roll, also
+          against 20.  Otherwise the effects may be mitigated by skill
+          rolls similar to the healing pattern.
+        </p>
         <div class="explain">
           <p>
-	    <b>1 / Personal / 10</b>: (1) Food poisoning, (2) Airborn,
-	    (3) Carrierbite, (4) Contagion, (5) Sprained joint, (6)
-	    tissue damage, (7) muscle shear, (8) accident, (9) twisted
-	    joint, (10) sun-/frost-burn.
+            <b>1 / Personal / 10</b>: (1) Food poisoning, (2) Airborn,
+            (3) Carrierbite, (4) Contagion, (5) Sprained joint, (6)
+            tissue damage, (7) muscle shear, (8) accident, (9) twisted
+            joint, (10) sun-/frost-burn.
           </p>
           <p>
-	    <b>2 / Equipment / 8</b>: (1) Rust, (2) moisture, (3)
-	    breakage, (4) food spoilage, (5) theft, (6) cloths torn,
-	    (7) simple loss, (8) transformation.
+            <b>2 / Equipment / 8</b>: (1) Rust, (2) moisture, (3)
+            breakage, (4) food spoilage, (5) theft, (6) cloths torn,
+            (7) simple loss, (8) transformation.
           </p>
           <p>
-	    <b>3 / Transport / 10</b>: (1) Broken wheel, (2) wood rot,
-	    (3) shafts, (4) fuel (personal), (5) accident, (6)
-	    ditched, (7) deterioration, (8) spirits, (9) frost, (10)
-	    fire.
+            <b>3 / Transport / 10</b>: (1) Broken wheel, (2) wood rot,
+            (3) shafts, (4) fuel (personal), (5) accident, (6)
+            ditched, (7) deterioration, (8) spirits, (9) frost, (10)
+            fire.
           </p>
           <p>
-	    <b>4 / Plant / 12</b>: (1) mushrooms, (2) spores, (3)
-	    flowers, (4) herbs, (5) rotten, (6) overgrowth, (7) fire,
-	    (8) poisoned, (9) dangerous, (10) spirits, (11) giant,
-	    (12) prepared.
+            <b>4 / Plant / 12</b>: (1) mushrooms, (2) spores, (3)
+            flowers, (4) herbs, (5) rotten, (6) overgrowth, (7) fire,
+            (8) poisoned, (9) dangerous, (10) spirits, (11) giant,
+            (12) prepared.
           </p>
           <p>
-	    <b>5 / Animal / 12</b>: (1) rats, (2) birds, (3) rabbit,
-	    (4) wolves, (5) visible, (6) audible, olfactory, (7)
-	    tracks, (8) interaction, (9) home, (10) group, (11) young,
-	    (12) hunt.
+            <b>5 / Animal / 12</b>: (1) rats, (2) birds, (3) rabbit,
+            (4) wolves, (5) visible, (6) audible, olfactory, (7)
+            tracks, (8) interaction, (9) home, (10) group, (11) young,
+            (12) hunt.
           </p>
           <p>
-	    <b>6 / Human / 12</b>: (1) Officials, (2) bandits, (3)
-	    merchants, (4) caravans, (5) mercenaries, (6) craftsmen,
-	    (7) tracks, (8) other evidence, potential crime scene, (9)
-	    fugitive, (10) working, (11) guard, (12) barbarian
+            <b>6 / Human / 12</b>: (1) Officials, (2) bandits, (3)
+            merchants, (4) caravans, (5) mercenaries, (6) craftsmen,
+            (7) tracks, (8) other evidence, potential crime scene, (9)
+            fugitive, (10) working, (11) guard, (12) barbarian
           </p>
-	</div>
+        </div>
       </div>
       <div class="container">
-	<h1 id="rules">Herblore</h1>
-	<p>
-	  Use 5 point classification for <em>Standard, Common,
-	  Uncommon, Rare</em>, assuming the skill is used to find the
-	  most valuable herb.  Standard herbs are those used for teas,
-	  tasty chewing, etc. and worth little more than maybe a beer
-	  even in large quantities.  They provide a bonus of up to 5
-	  for motivation, supress up to 5 physical penalty for a few
-	  minutes, etc.  Even these small herbs may cause lesser
-	  effects over time or even dependency.  Think tea or raw
-	  coffee.
-	</p>
-	<p>
-	  Add all herbs in one category and randomize.  Ater that
-	  determine season.  Two month out of season reduces potency
-	  by half, because the herb is either not ripe or already
-	  withered.  More than that potency is zero.  In border times
-	  give 10% for each day.  I.e. ten days late or early equals
-	  0%/50% potency and ten days in (out) season equals 50%/100%.
-	</p>
-	<table width="90%">
-	  <tr>
-	    <th></th><th>Common</th><th>Uncommon</th><th>Rare</th>
-	  </tr>
-	  <tr>
-	    <th>Heath</th><td>Alanal</td><td>Arva</td><td>Yulpris</td>
-	  </tr>
-	  <tr>
-	    <th>Woods</th>
-	    <td>Olrui, Tirageyth</td>
-	    <td>Arva, Elprequir, Rasakile</td>
-	    <td>Kargele, Perigwar, Teranya</td>
-	  </tr>
-	  <tr>
-	    <th>Alpine Forest</th>
-	    <td></td>
-	    <td>Baneberry, Hreyochor</td>
-	    <td></td>
-	  </tr>
-	  <tr>
-	    <th>Forest</th>
-	    <td>
-	      Berilik, Doshenkana, Homura, Leortevald, Olrui,
-	      Tirageyth, Uthwyll
-	    </td>
-	    <td>Lavaryctia, Rasakile</td>
-	    <td>Teranya</td>
-	  </tr>
-	  <tr>
-	    <th>Deep Forest</th><td></td><td>Danistor</td><td></td>
-	  </tr>
-	  <tr>
-	    <th>Needle Forest</th><td>Fanosel</td><td></td><td></td>
-	  </tr>
-	  <tr>
-	    <th>Marsh</th>
-	    <td></td>
-	    <td>Fletharane, Metysso, Stiltrassa</td>
-	    <td>Gaethipa, Sethimyael, Yassil</td>
-	  </tr>
-	  <tr>
-	    <th>Highland Forest</th>
-	    <td></td>
-	    <td>Golbahna</td>
-	    <td></td>
-	  </tr>
-	  <tr>
-	    <th>Pasture</th><td>Habsulara</td><td>Wylorafina</td><td></td>
-	  </tr>
-	  <tr>
-	    <th>Alpine Marsh</th><td></td><td></td><td>Jhalasta</td>
-	  </tr>
-	  <tr>
-	    <th>Alpine Meadow</th>
-	    <td></td>
-	    <td>Quessel</td>
-	    <td>Joldraiven</td>
-	  </tr>
-	  <tr>
-	    <th>Seashore</th><td>Kithyl</td><td></td><td></td>
-	  </tr>
-	  <tr>
-	    <th>Lakeshore</th><td>Tasparth</td><td></td><td></td>
-	  </tr>
-	  <tr>
-	    <th>Alpine Lakeshore</th><td></td><td></td><td>Viphra</td>
-	  </tr>
-	  <tr>
-	    <th>Caverns</th><td></td><td>Zahuruk</td><td></td>
-	  </tr>
-	</table>
+        <h1 id="rules">Herblore</h1>
+        <p>
+          Use 5 point classification for <em>Standard, Common,
+          Uncommon, Rare</em>, assuming the skill is used to find the
+          most valuable herb.  Standard herbs are those used for teas,
+          tasty chewing, etc. and worth little more than maybe a beer
+          even in large quantities.  They provide a bonus of up to 5
+          for motivation, supress up to 5 physical penalty for a few
+          minutes, etc.  Even these small herbs may cause lesser
+          effects over time or even dependency.  Think tea or raw
+          coffee.
+        </p>
+        <p>
+          Add all herbs in one category and randomize.  Ater that
+          determine season.  Two month out of season reduces potency
+          by half, because the herb is either not ripe or already
+          withered.  More than that potency is zero.  In border times
+          give 10% for each day.  I.e. ten days late or early equals
+          0%/50% potency and ten days in (out) season equals 50%/100%.
+        </p>
+        <table width="90%">
+          <tr>
+            <th></th><th>Common</th><th>Uncommon</th><th>Rare</th>
+          </tr>
+          <tr>
+            <th>Heath</th><td>Alanal</td><td>Arva</td><td>Yulpris</td>
+          </tr>
+          <tr>
+            <th>Woods</th>
+            <td>Olrui, Tirageyth</td>
+            <td>Arva, Elprequir, Rasakile</td>
+            <td>Kargele, Perigwar, Teranya</td>
+          </tr>
+          <tr>
+            <th>Alpine Forest</th>
+            <td></td>
+            <td>Baneberry, Hreyochor</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Forest</th>
+            <td>
+              Berilik, Doshenkana, Homura, Leortevald, Olrui,
+              Tirageyth, Uthwyll
+            </td>
+            <td>Lavaryctia, Rasakile</td>
+            <td>Teranya</td>
+          </tr>
+          <tr>
+            <th>Deep Forest</th><td></td><td>Danistor</td><td></td>
+          </tr>
+          <tr>
+            <th>Needle Forest</th><td>Fanosel</td><td></td><td></td>
+          </tr>
+          <tr>
+            <th>Marsh</th>
+            <td></td>
+            <td>Fletharane, Metysso, Stiltrassa</td>
+            <td>Gaethipa, Sethimyael, Yassil</td>
+          </tr>
+          <tr>
+            <th>Highland Forest</th>
+            <td></td>
+            <td>Golbahna</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>Pasture</th><td>Habsulara</td><td>Wylorafina</td><td></td>
+          </tr>
+          <tr>
+            <th>Alpine Marsh</th><td></td><td></td><td>Jhalasta</td>
+          </tr>
+          <tr>
+            <th>Alpine Meadow</th>
+            <td></td>
+            <td>Quessel</td>
+            <td>Joldraiven</td>
+          </tr>
+          <tr>
+            <th>Seashore</th><td>Kithyl</td><td></td><td></td>
+          </tr>
+          <tr>
+            <th>Lakeshore</th><td>Tasparth</td><td></td><td></td>
+          </tr>
+          <tr>
+            <th>Alpine Lakeshore</th><td></td><td></td><td>Viphra</td>
+          </tr>
+          <tr>
+            <th>Caverns</th><td></td><td>Zahuruk</td><td></td>
+          </tr>
+        </table>
       </div>
       <div class="container">
-	<h1 id="rules">Herblore</h1>
-	<p>
-	  Foraging, etc. are -10 in Winter, +5 in Summer.  Heath,
-	  Alpine, Marsh, Shores, Cropland -5, Caverns -15, Woodland
-	  +5.
+        <h1 id="rules">Herblore</h1>
+        <p>
+          Foraging, etc. are -10 in Winter, +5 in Summer.  Heath,
+          Alpine, Marsh, Shores, Cropland -5, Caverns -15, Woodland
+          +5.
+        </p>
       </div>
     </div>
   </body>
