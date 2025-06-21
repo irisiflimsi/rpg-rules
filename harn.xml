@@ -38,28 +38,28 @@
           set to 20.  Attributes are treated as skills with MLU twice
           their value that cannot be developed.
         </p>
-	<h4>Skill Testing</h4>
-	<p>
-	  Skill testing is a micro-negotiation.  The GM describes the
-	  task and the dimensions available.  The character in
-	  question names the skills he thinks are most appropriate.
-	  The GM then names the diffculty for each of the skills and
-	  how they can potentially be combined. 
-	</p>
-	<p>
+        <h4>Skill Testing</h4>
+        <p>
+          Skill testing is a micro-negotiation.  The GM describes the
+          task and the dimensions available.  The character in
+          question names the skills he thinks are most appropriate.
+          The GM then names the diffculty for each of the skills and
+          how they can potentially be combined. 
+        </p>
+        <p>
           Now n5 is rolled, adding EMLU.  The task difficulty value is
           subtracted from the roll and if the net result is
           non-negative, the skill has been successfully employed; if
           the roll is negative, the attempt has failed.
-	</p>
-	<p>
-	  For example, if a PC declares the intent to perform a
-	  gymnastic feat, he would suggest to the GM that &#8220;I
-	  have the Acrobatics skill&#8221;.  The GM would then tell
-	  the player &#8220;this has a difficulty of 15.&#8221; In
-	  cases where success or failure may not be obvious, the GM
-	  should make the roll secretly and record the relevant skill
-	  of the PCs beforehand.
+        </p>
+        <p>
+          For example, if a PC declares the intent to perform a
+          gymnastic feat, he would suggest to the GM that &#8220;I
+          have the Acrobatics skill&#8221;.  The GM would then tell
+          the player &#8220;this has a difficulty of 15.&#8221; In
+          cases where success or failure may not be obvious, the GM
+          should make the roll secretly and record the relevant skill
+          of the PCs beforehand.
         </p>
         <p>
           To determine the degree of success or failure, use the
@@ -529,27 +529,27 @@
           not be appropriate.
         </p>
         <p>
-	  The situation in combat changes constantly.  After one
-	  action, the next is given the penalty of the Penalty
-	  dimension, which is reduced by 1 per second, a penalty
-	  indicates taking premature action.  For round-based combat,
-	  this penalty is reduced by 10 and then halved.  (Acting every
-	  second round reduces the penalty by 10 once more.)
+          The situation in combat changes constantly.  After one
+          action, the next is given the penalty of the Penalty
+          dimension, which is reduced by 1 per second, a penalty
+          indicates taking premature action.  For round-based combat,
+          this penalty is reduced by 10 and then halved.  (Acting every
+          second round reduces the penalty by 10 once more.)
         </p>
         <p>
-	  (The Penalty-formula is derived from assuming a Time penalty
-	  of the value indicated before each round and then acting one
-	  round.  Since such a penalty would be reduced continuously,
-	  the average is taken.)
+          (The Penalty-formula is derived from assuming a Time penalty
+          of the value indicated before each round and then acting one
+          round.  Since such a penalty would be reduced continuously,
+          the average is taken.)
         </p>
         <p>
-	  For round-based combat, Initiative usually simply determines
-	  the order of activity.  Changing the order or acting twice
-	  by accepting penalties should be avoided, as it can quickly
-	  lead to escalation, the avoidance of which is precisely the
-	  reason round-based combat is used. Round-based numbers are
-	  also rounded towards the smaller absolute value, to reduce
-	  speculation on fractional rounding.
+          For round-based combat, Initiative usually simply determines
+          the order of activity.  Changing the order or acting twice
+          by accepting penalties should be avoided, as it can quickly
+          lead to escalation, the avoidance of which is precisely the
+          reason round-based combat is used. Round-based numbers are
+          also rounded towards the smaller absolute value, to reduce
+          speculation on fractional rounding.
         </p>
         <table style="width:80%">
           <tr>
@@ -1106,9 +1106,9 @@
           completing NPC/PC creation.
         </p>
         <p>
-	  Specialty development can be preferable over generic Skill
-	  development, when a character aims at tasks, for which the
-	  base skill would receive a higher difficulty rating.
+          Specialty development can be preferable over generic Skill
+          development, when a character aims at tasks, for which the
+          base skill would receive a higher difficulty rating.
         </p>
         <h4>Sunsign</h4>
         <p>
@@ -1135,23 +1135,40 @@
             inland at <em>-5</em>.
           </p>
           <p>
-	    <b>Using weapons in combat</b>: Use <em>specialty weapon
-	    skill</em>, <em>base weapon skill - 5</em>, or <em>wrong
-	    specialty weapon skill - 10</em> when using a weapon.
+            <b>Using weapons in combat</b>: Use <em>specialty weapon
+            skill</em>, <em>base weapon skill - 5</em>, or <em>wrong
+            specialty weapon skill - 10</em> when using a weapon.
           </p>
           <p>
-	    <b>Typical Seamanship</b>: Holding course is <em>10</em>,
-	    Anchor drop/raise is <em>0</em>.  Repairs at sea is
-	    generally <em>Seamanship - 5</em> or specifically
-	    <em>Textilcraft</em>, <em>Carpentry</em>,
-	    <em>Shipbuilding</em>.  Tasklevel is Penalty.  Dimension
-	    is 10% of Penalty not fixed per point at <em>Fast Yield
-	    Time</em>.
+            <b>Typical Seamanship</b>: Holding course is <em>10</em>,
+            Anchor drop/raise is <em>0</em>.  Repairs at sea is
+            generally <em>Seamanship - 5</em> or specifically
+            <em>Textilcraft</em>, <em>Carpentry</em>,
+            <em>Shipbuilding</em>.  Tasklevel is Penalty.  Dimension
+            is 10% of Penalty not fixed per point at <em>Fast Yield
+            Time</em>.
           </p>
           <p>
-	    <b>Avoiding reefs</b>: <em>Seamanship</em> or
-	    <em>Navigation</em> of helmsman.  <em>5</em> per wind
-	    category and <em>1</em> per ship depth.
+            <b>Avoiding reefs</b>: <em>Seamanship</em> or
+            <em>Navigation</em> of helmsman.  <em>5</em> per wind
+            category and <em>1</em> per ship depth.
+          </p>
+          <p>
+            <b>Language Application</b>: A language task uses the
+            5-addition of the primary language and all directly
+            related languages at - 10, all once removed languages at
+            -20 and so on.
+          </p>
+          <p>
+            <b>Reading Time</b>: Reading a book takes the 5-addition
+            of <em>Script</em> skill and proper <em>Language
+            application</em> - 30 on the Fast Yield dimension.
+          </p>
+          <p>
+            <b>Teaching Books</b>: The time it takes to teach someone
+            the contents of a book is <em>Reading Time</em> * 2 *
+            (100% - 2 * (Rhetoric n5 - 20)).  Note that the difficulty
+            of 20 is actually the 5-addition of 20 for all listeners.
           </p>
         </div>
       </div>
