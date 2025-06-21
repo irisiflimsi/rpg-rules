@@ -12,7 +12,7 @@
     <div class="main">
       <div class="title">GM Rules for H&#226;rnworld</div>
       <div class="container">
-        <h1 id="rules">Encounters</h1>
+        <h1 id="enc">Encounters</h1>
         <p>
           According to the general rule, <em>p5</em> divided by two
           determines <em>severity</em>.  Severity can be taken or
@@ -87,7 +87,7 @@
         </div>
       </div>
       <div class="container">
-        <h1 id="rules">Herblore</h1>
+        <h1 id="herb">Herblore</h1>
         <p>
           Use 5 point classification for <em>Standard, Common,
           Uncommon, Rare</em>, assuming the skill is used to find the
@@ -180,7 +180,7 @@
         </table>
       </div>
       <div class="container">
-        <h1 id="rules">Herblore</h1>
+        <h1 id="forag">Forage</h1>
         <p>
           Foraging, etc. are -10 in Winter, +5 in Summer.  Heath,
           Alpine, Marsh, Shores, Cropland -5, Caverns -15, Woodland
