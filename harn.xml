@@ -989,7 +989,7 @@
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
           The <em>Fast Yield</em> is used for Fishing, Foraging, and
-          Hunting with a dimension unit of 1 manday of food.  The
+          Hunting with a dimension unit of 1/4 manday of food.  The
           <em>Slow Yield</em> when failure can be compensated by
           spending more time is used for Fletching, where the unit is
           1/4 bow or 4 arrows.  For trajectories, a dimension cannot
@@ -1019,19 +1019,19 @@
           </tr>
           <tr class="num">
             <td>Fast Yield</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
+            <td>1/1000</td>
+            <td>1/250</td>
+            <td>1/50</td>
+            <td>1/16</td>
+            <td>1/4</td>
             <td>1</td>
             <td>2</td>
             <td>3</td>
             <td>4</td>
-            <td>5</td>
             <td>6</td>
-            <td>7</td>
             <td>8</td>
+            <td>12</td>
+            <td>16</td>
           </tr>
           <tr class="num">
             <td>Fast Time</td>

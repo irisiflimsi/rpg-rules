@@ -179,6 +179,13 @@
 	  </tr>
 	</table>
       </div>
+      <div class="container">
+	<h1 id="rules">Herblore</h1>
+	<p>
+	  Foraging, etc. are -10 in Winter, +5 in Summer.  Heath,
+	  Alpine, Marsh, Shores, Cropland -5, Caverns -15, Woodland
+	  +5.  Not listed is neutral.
+      </div>
     </div>
   </body>
 </html>
