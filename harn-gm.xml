@@ -40,36 +40,49 @@
 	  Severity will be 5-added, which is why group travel is
 	  generally preferable.  GM will "spread" penalties.
 	</p>
+	<p>
+	  To avoid the default penalty, i.e. "play it out", apply this
+	  rule of thumb: roll Awareness vs 20 for the PCs to become
+	  aware of the danger in time.  If aware, the penalty can
+	  usually be avoided with an appropriate skill roll, also
+	  against 20.  Otherwise the effects may be mitigated by skill
+	  rolls similar to the healing pattern.
+	</p>
         <div class="explain">
           <p>
-	    <b>Personal</b>: Food poisoning, Airborn, Carrierbite,
-	    Contagion, Sprained joint, tissue damage, muscle shear,
-	    accident, twisted joint, sunburn, frost.
+	    <b>1 / Personal / 10</b>: (1) Food poisoning, (2) Airborn,
+	    (3) Carrierbite, (4) Contagion, (5) Sprained joint, (6)
+	    tissue damage, (7) muscle shear, (8) accident, (9) twisted
+	    joint, (10) sun-/frost-burn.
           </p>
           <p>
-	    <b>Equipment</b>: Rust, moisture, breakage, food spoilage,
-	    theft, cloths torn, simple loss, transform,
-	    transformation.
+	    <b>2 / Equipment / 8</b>: (1) Rust, (2) moisture, (3)
+	    breakage, (4) food spoilage, (5) theft, (6) cloths torn,
+	    (7) simple loss, (8) transformation.
           </p>
           <p>
-	    <b>Transport</b>: Broken wheel, wood rot, shafts, fuel
-	    (personal), accident, ditched, deterioration, spirits,
-	    frost, fire.
+	    <b>3 / Transport / 10</b>: (1) Broken wheel, (2) wood rot,
+	    (3) shafts, (4) fuel (personal), (5) accident, (6)
+	    ditched, (7) deterioration, (8) spirits, (9) frost, (10)
+	    fire.
           </p>
           <p>
-	    <b>Plant</b>: mushrooms, spores, flowers, herbs, rotten,
-	    overgrowth, fire, poisoned, dangerous, spirits, giant,
-	    prepared.
+	    <b>4 / Plant / 12</b>: (1) mushrooms, (2) spores, (3)
+	    flowers, (4) herbs, (5) rotten, (6) overgrowth, (7) fire,
+	    (8) poisoned, (9) dangerous, (10) spirits, (11) giant,
+	    (12) prepared.
           </p>
           <p>
-	    <b>Animal</b>: rats, bords, rabbit, wolves, visible,
-	    audible, olfactory, tracks, interaction, home, group,
-	    young, hunt.
+	    <b>5 / Animal / 12</b>: (1) rats, (2) birds, (3) rabbit,
+	    (4) wolves, (5) visible, (6) audible, olfactory, (7)
+	    tracks, (8) interaction, (9) home, (10) group, (11) young,
+	    (12) hunt.
           </p>
           <p>
-	    <b>Human</b>: Officials, bandits, merchants, caravans,
-	    mercenaries, craftsmen, tracks, other evidence, potential
-	    crime scene, fugitive, working, guard, barbarian
+	    <b>6 / Human / 12</b>: (1) Officials, (2) bandits, (3)
+	    merchants, (4) caravans, (5) mercenaries, (6) craftsmen,
+	    (7) tracks, (8) other evidence, potential crime scene, (9)
+	    fugitive, (10) working, (11) guard, (12) barbarian
           </p>
 	</div>
       </div>
