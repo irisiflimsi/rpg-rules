@@ -187,6 +187,68 @@
           +5.
         </p>
       </div>
+      <div class="container">
+        <h1 id="armour">Armour Prices</h1>
+        <p>
+	  Armour (base) prices are calculated as follows: From the
+	  equipment name infer the areas covered and the material.
+	  Take the coverage percentage (as number) and multiply by the
+	  base cost and base weight.
+        </p>
+        <p>
+	  Prices are the minimum to obtain the protection bonus,
+	  ornamental features or fashion items can be bought for
+	  considerably less.  Armour can only be bought as physically
+	  connected items and prices can be reduced such that for
+	  every 10% covered 5% of the overall price is reduced.
+	  E.g. at 10% coverage, 95% is paid and at 50% only 75% - up
+	  to 100% coverage and only the same materialq.
+        </p>
+	<table>
+	  <tr>
+	    <th>Buckram</th><td>2d</td><td>0.1lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Kurbul</th><td>5d</td><td>0.4lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Leather</th><td>4d</td><td>0.2lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Linen</th><td>2d</td><td>0.1lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Mail</th><td>15d</td><td>0.5lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Plate</th><td>25d</td><td>0.8lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Quilt</th><td>4d</td><td>0.3lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Ring</th><td>7d</td><td>0.4lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Russet</th><td>3d</td><td>0.1lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Scale</th><td>7.5d</td><td>0.5lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Serge</th><td>2d</td><td>0.1lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Silk</th><td>20d</td><td>0.05lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Wool</th><td>4d</td><td>0.15lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Worsted</th><td>10d</td><td>0.075lbs</td>
+	  </tr>
+	</table>
+      </div>
     </div>
   </body>
 </html>
