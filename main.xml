@@ -584,9 +584,9 @@
 	  useful to think of the result roll, that would result in 0%.
 	</p>
 	<p>
-	  Say, that -20 would mean disaster and nothin is achieved at
+	  Say, that -20 would mean disaster and nothing is achieved at
 	  all.  This implies that from 0% to 100% we have 20 points to
-	  bridge, which put it point at 5%, which is the <em>constant
+	  bridge, which puts a point at 5%, which is the <em>constant
 	  percentage</em>.  We get (as an example)
 	</p>
         <table style="width:75%">
@@ -595,6 +595,51 @@
           </tr>
           <tr>
             <td>Result</td><td>0%</td><td>25%</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td><td>175%</td><td>200%</td>
+          </tr>
+        </table>
+	<h3 id="Exponential">Exponential</h3>
+	<p>
+	  An exponential scale is not as easy to compute.
+	  Unfortunately, it is more natural to our ruleset.  It can be
+	  simplified by using tables where this matters.  The reason,
+	  why this is more natural is the way that differences in the
+	  value behave: 10 more points mean 10 times as likely to
+	  succeed; this is the defining property of an exponential
+	  curve.
+	</p>
+	<p>
+	  A very simple dimension is this: when you say that 4 people
+	  are as likely to succeed as a single person who has 10 more
+	  points.  Because then you can also use 5-addition.
+	</p>
+	<p>
+	  As a concrete simple example, we assume that a person that
+	  is 10 times as good another produces four times the result
+	  of the lesser.  That would be equivalent t simply adding the
+	  results of the aforementioned 4 lesser people.  Maybe think
+	  of adding the weights each individual can lift and in total
+	  they simply add it all up.  That is row <em>Result 4</em> in
+	  the next table.
+	</p>
+	<p>
+	  Another result would be that 4 people cannot simultaneously
+	  address the problem with the same efficiency. They would
+	  stand in each others way, would reserve tools exclusively,
+	  etc.  In row <em>Result 2</em> we assume that these 4 people
+	  are only twice as effective as one person.  Since there is
+	  some rounding taking place, the number in paranthesis gives
+	  a factor that is often easier to work with than the more
+	  exact percentage.
+	</p>
+        <table style="width:75%">
+          <tr>
+            <th>Result Roll</th><td>-20</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td>
+          </tr>
+          <tr>
+            <td>Result 4</td><td>6.75%</td><td>12.5%</td><td>25%</td><td>50%</td><td>100%</td><td>200%</td><td>400%</td><td>800%</td><td>1600%</td>
+          </tr>
+          <tr>
+            <td>Result 2</td><td>25%</td><td>35%(3/8)</td><td>50%</td><td>70%(3/4)</td><td>100%</td><td>141%(3/2)</td><td>200%</td><td>283%(3)</td><td>400%</td>
           </tr>
         </table>
       </div>
