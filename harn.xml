@@ -171,9 +171,7 @@
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
-          delivered.  The value in parenthesis is the range by which
-          the estimation may be off.  Also see the <a
-          href="main.xml">Main Rule</a>
+          delivered.  Also see the <a href="main.xml">Main Rule</a>
         </p>
         <table style="width:80%">
           <tr>
@@ -183,16 +181,14 @@
             <th>20</th>
             <th>30</th>
             <th>40</th>
-            <th>50</th>
           </tr>
           <tr class="text">
             <td>Error</td>
-            <td>96% (0-25)</td>
-            <td>48% (0.5-2)</td>
-            <td>24% (0.8-1.3)</td>
-            <td>12% (0.9-1.1)</td>
-            <td>6% (0.95-1.05)</td>
-            <td>3% (0.97-1.03)</td>
+            <td>50% - 200%</td>
+            <td>80% - 125%</td>
+            <td>90% - 110%</td>
+            <td>95% - 105%</td>
+            <td>97% - 103%</td>
           </tr>
         </table>
         <h5 class="skill" id="di-agr">Agriculture</h5>
@@ -219,10 +215,14 @@
         <p>
           One dimension is the time (in seconds), which it takes to
           achieve the wound level zero on the defender.  The wound
-          level is a separate dimension; you should use trajectories.
+          level is a separate dimension; you can use trajectories.
           Once a (rolled) progression has reached its goal, a new
           skill roll is made.  It is therefore possible to play
           10-second round-based combat.
+        </p>
+        <p>
+	  The wound level is the result divided by 5, e.g. a 35 net
+	  result is 7 wound points through skill.
         </p>
         <p>
           The fractional parts for the higher values in the time
@@ -262,17 +262,6 @@
             <td>5/4</td>
             <td>5/8</td>
           </tr>
-          <tr class="num">
-            <td>Wounds</td>
-            <td>-6</td>
-            <td>-4</td>
-            <td>-2</td>
-            <td>0</td>
-            <td>2</td>
-            <td>4</td>
-            <td>6</td>
-            <td>8</td>
-          </tr>
         </table>
         <p>
           For missiles and thrown weapons do not modify the time
@@ -288,7 +277,7 @@
         <p>
           Description for various default skill applications that are not quantitative.
         </p>
-        <table style="width:50%">
+        <table style="width:70%">
           <tr>
             <th>Dimension</th>
             <th>-10</th>
@@ -378,7 +367,7 @@
           distraction (negative), on the border of the visual field
           (negative).
         </p>
-        <table style="width:40%">
+        <table style="width:60%">
           <tr>
             <th>Dimension</th>
             <th>-10</th>
@@ -404,10 +393,11 @@
         </table>
         <h5 class="skill" id="di-sta">Healing</h5>
         <p>
-          Healing time is given for one point.  Subtract the number of
-          points twice from the roll.  Note that a reduction in the
-          effective wound points causes re-evaulation of the effective
-          healing rate, but should be ignored for playability.
+          Healing time is given for one wound point.  Subtract the
+          number of wound points twice from the roll.  Note that a
+          reduction in the effective wound points causes re-evaluation
+          of the effective healing rate, but should be ignored for
+          playability.
         </p>
         <p>
           Stamina is used for Injury points to heal wounds
@@ -418,13 +408,14 @@
           manner.
         </p>
         <p>
-          Endurance is used for Fatigue points in total and the unite
+          Endurance is used for Fatigue points in total and the unit
           is minutes.
         </p>
         <p>
-          Injury healing rate improvement for physicians is the second
-          dimension listed.  The dimension value is added to the Stamina
-          roll; this is not a trajectory.
+          Injury healing rate improvement for physicians is 2/5 of
+          their MLU.  The dimension value is added to the
+          Stamina roll; this is not a trajectory and does not apply to
+          Fatigue.
         </p>
         <table style="width:75%">
           <tr>
@@ -445,47 +436,35 @@
           </tr>
           <tr class="num">
             <td>Time</td>
-            <td>30</td>
-            <td>20</td>
-            <td>15</td>
-            <td>10</td>
-            <td>7</td>
-            <td>5</td>
+            <td>24</td>
+            <td>16</td>
+            <td>12</td>
+            <td>8</td>
+            <td>6</td>
+            <td>4</td>
             <td>3</td>
             <td>2</td>
-            <td>1.5</td>
+            <td>3/2</td>
             <td>1</td>
-            <td>0.7</td>
-            <td>0.5</td>
-            <td>0.3</td>
-          </tr>
-          <tr class="num">
-            <td>Healing</td>
-            <td>-8</td>
-            <td>-6</td>
-            <td>-4</td>
-            <td>-2</td>
-            <td>0</td>
-            <td>+2</td>
-            <td>+4</td>
-            <td>+6</td>
-            <td>+8</td>
-            <td>+10</td>
-            <td>+12</td>
-            <td>+14</td>
-            <td>+16</td>
+            <td>3/4</td>
+            <td>1/2</td>
+            <td>3/8</td>
           </tr>
         </table>
         <h5 class="skill" id="di-hea">Hearing</h5>
         <p>
-          References: at 0 you understand normal speech, -10 is subdued
-          speech, -20 a whisper, 10 is the noise vehicles make, 20 are
-          battle noises and 30 is thunder.
+          References: at difficulty 0 you understand normal speech, 10
+          is subdued speech, 20 at a whisper.  Normal speech
+          difficulty is +10 through the noise a vehicles make, +20 in
+          battle and +50 during a thunder clap.  Speech or noise
+          recognition is -10 difficulty, the different noises add
+          their negative "speech understanding" value.  E.g. a skill
+          roll of 20 allows a thunder to be recognized at 3km
+          distance.
         </p>
-        <table style="width:40%">
+        <table style="width:60%">
           <tr>
             <th>Dimension</th>
-            <th>-20</th>
             <th>-10</th>
             <th>0</th>
             <th>10</th>
@@ -493,6 +472,9 @@
             <th>30</th>
             <th>40</th>
             <th>50</th>
+            <th>60</th>
+            <th>70</th>
+            <th>80</th>
           </tr>
           <tr class="num">
             <td>Distance</td>
@@ -504,6 +486,8 @@
             <td>30m</td>
             <td>100m</td>
             <td>300m</td>
+            <td>1km</td>
+            <td>3km</td>
           </tr>
         </table>
         <h5 class="skill" id="di-ini">Initiative</h5>
@@ -534,13 +518,14 @@
           dimension, which is reduced by 1 per second, a penalty
           indicates taking premature action.  For round-based combat,
           this penalty is reduced by 10 and then halved.  (Acting every
-          second round reduces the penalty by 10 once more.)
+          other round reduces the penalty by 10 once more.)
         </p>
         <p>
           (The Penalty-formula is derived from assuming a Time penalty
           of the value indicated before each round and then acting one
-          round.  Since such a penalty would be reduced continuously,
-          the average is taken.)
+          round.  E.g. at value 20 this gives 13.  Since such a
+          penalty would be reduced continuously, the average is
+          taken.)
         </p>
         <p>
           For round-based combat, Initiative usually simply determines
@@ -551,7 +536,7 @@
           also rounded towards the smaller absolute value, to reduce
           speculation on fractional rounding.
         </p>
-        <table style="width:80%">
+        <table style="width:90%">
           <tr>
             <th>Dimension</th>
             <th>-20</th>
@@ -567,8 +552,6 @@
             <th>30</th>
             <th>35</th>
             <th>40</th>
-            <th>45</th>
-            <th>50</th>
           </tr>
           <tr class="num">
             <td>Time</td>
@@ -585,8 +568,6 @@
             <td>1</td>
             <td>0.8</td>
             <td>0.6</td>
-            <td>0.45</td>
-            <td>0.3</td>
           </tr>
           <tr class="num">
             <td>Penalty</td>
@@ -607,7 +588,7 @@
             <td>-5</td>
           </tr>
           <tr class="num">
-            <td>Round Penalty</td>
+            <td>Rd Penalty</td>
             <td>-12</td>
             <td>-8</td>
             <td>-5</td>
@@ -632,44 +613,11 @@
           standing jumps, use half heights and distances.  Results below
           0 turn into a Fall.
         </p>
-        <table style="width:75%">
-          <tr>
-            <th>Dimension</th>
-            <th>-10</th>
-            <th>0</th>
-            <th>10</th>
-            <th>20</th>
-            <th>30</th>
-            <th>40</th>
-            <th>50</th>
-            <th>60</th>
-            <th>70</th>
-          </tr>
-          <tr class="num">
-            <td>Height</td>
-            <td>0.5m</td>
-            <td>0.75m</td>
-            <td>1m</td>
-            <td>1.25m</td>
-            <td>1.5m</td>
-            <td>1.75m</td>
-            <td>2m</td>
-            <td>2.25m</td>
-            <td>2.5m</td>
-          </tr>
-          <tr class="num">
-            <td>Distance</td>
-            <td>0m</td>
-            <td>1m</td>
-            <td>2m</td>
-            <td>3m</td>
-            <td>4m</td>
-            <td>5m</td>
-            <td>7m</td>
-            <td>9m</td>
-            <td>11m</td>
-          </tr>
-        </table>
+        <p>
+	  Height is 70cm plus three times the MLU in
+	  centimeters.  At 20 this is 1.30m.  Distance is one meter
+	  plus skill roll in decimeters.  At 20 this is 3m.
+        </p>
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <p>
           This dimension can also be used as knowledge about
@@ -678,8 +626,12 @@
         </p>
         <div class="explain">
           <p>
-            <em>0:</em> Character barely knows the domain for such
-            knowledge exists.
+            <em>-10:</em> Knowing that the domain can provide
+            knowledge is shaky.
+          </p>
+          <p>
+            <em>0:</em> Character knows the domain for such knowledge
+            exists and can separate it from different domains.
           </p>
           <p>
             <em>10:</em> The basic concepts are known, advanced
@@ -687,7 +639,8 @@
           </p>
           <p>
             <em>20:</em> Most concepts of the domain are known and can
-            be applied.  Fringe concept provide less confidence.
+            be applied.  The character is less confident with fringe
+            concepts.
           </p>
           <p>
             <em>30:</em> The domain is understood with ease.
@@ -695,7 +648,7 @@
           </p>
           <p>
             <em>40:</em> Mastery of the domain as far as humanly
-            possible.  Improvement of the art is not hard.
+            possible.  Improvement of the art is a normal task.
           </p>
         </div>
         <h5 class="skill" id="di-men">Mental Conflict</h5>
@@ -704,7 +657,7 @@
           be the result in the table.  Mental Conflict is resolved
           similar to normal combat.
         </p>
-        <table width="70%">
+        <table width="60%">
           <tr>
             <th>Dimension</th>
             <th>-20</th>
@@ -865,9 +818,7 @@
           Multiple orators may compete for the &#8220;airwaves&#8221;
           and hinder each other more than they realize.  Therefore
           only two actors may combine their skills through 5-Addition
-          if working in concert, thereafter it is only the maximum, if
-          no competition takes place.  If a competition takes place,
-          the difficulty is a 5-Addition instead.
+          if working in concert, thereafter it is only the maximum.
         </p>
         <table style="width:50%">
           <tr>
@@ -892,9 +843,7 @@
           The listed weight (excluding your own body) or load can be
           lifted as maximum.  Fatigue is <em>Weight / 1000</em> in
           seconds and physical penalty is <em>Weight / 10</em>.  Both
-          cannot be trajectories.  The dimensions in the table are
-          typical for the skill.  The Move cannot be extended beyond
-          -10/-60 and 20/0 via trajectory.
+          cannot be trajectories.
         </p>
         <table style="width:60%">
           <tr>
@@ -937,26 +886,10 @@
           drowning.  When attempting to convey a (non-)swimmer, apply
           a penalty of 5.
         </p>
-        <table style="width:40%">
-          <tr>
-            <th>Dimension</th>
-            <th>-10</th>
-            <th>0</th>
-            <th>10</th>
-            <th>20</th>
-            <th>30</th>
-            <th>40</th>
-          </tr>
-          <tr class="num">
-            <td>Speed</td>
-            <td>-1m/s</td>
-            <td>-0.5m/s</td>
-            <td>0.0m/s</td>
-            <td>0.5m/s</td>
-            <td>1m/s</td>
-            <td>1.5m/s</td>
-          </tr>
-        </table>
+        <p>
+	  The dimension is <em>1/2 (EMLU - 10) dm/s</em>.
+	  E.g. a 10 is 0m/s and a 30 is 1m/s.
+        </p>
         <h5 class="skill" id="di-thr">Throwing</h5>
         <p>
           The distance thrown in meters is the n5 roll doubled. E.g. a
@@ -1135,7 +1068,7 @@
             of 20 is actually the 5-addition of 20 for all listeners.
           </p>
           <p>
-            <b>Appraisal</b>: Primary skill against -10 on Accuracy.
+            <b>Appraisal</b>: Primary skill against 0 on Accuracy.
           </p>
         </div>
       </div>

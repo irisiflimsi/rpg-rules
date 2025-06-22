@@ -511,12 +511,12 @@
 	</p>
 	<p>
 	  Consider that you want to express a <em>certainty</em>
-	  between 100% and 0%.  In a concrete, you might rule, that
-	  someone with a skill level of 20 is 80% certain and that
-	  someone with a 0 has 0% certainty.  The rest is inter and
-	  extrpolated accordingly, e.g. at 10 certainty is 40%.  If
-	  you do not want to have the spread as an independent
-	  dimension, you can calculate this as between
+	  between 100% and 0%.  In an example scenario, you might
+	  rule, that someone with a skill level of 20 is 80% certain
+	  and that someone with a 0 has 0% certainty.  The rest is
+	  inter- and extrapolated accordingly, e.g. at 10 certainty is
+	  40%.  If you do not want to have the spread as an
+	  independent dimension, you can calculate this as between
 	</p>
 	<p>
 	  <em>V x C</em> and <em>V / C</em>
@@ -564,7 +564,7 @@
 	</p>
 	<p>
 	  This interval contains the real value $160 and leaves the PC
-	  a little wiser, but he is not in a very good gargaining
+	  a little wiser, but he is not in a very good bargaining
 	  position.  Note that for big values of <em>C</em> (close to
 	  1) you can use <em>V/C = V*(2 - C)</em>, if you'd rather use
 	  multiplication instead of division.
