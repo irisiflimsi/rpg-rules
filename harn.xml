@@ -221,8 +221,8 @@
           10-second round-based combat.
         </p>
         <p>
-	  The wound level is the result divided by 5, e.g. a 35 net
-	  result is 7 wound points through skill.
+          The wound level is the result divided by 5, e.g. a 35 net
+          result is 7 wound points through skill.
         </p>
         <p>
           The fractional parts for the higher values in the time
@@ -610,9 +610,9 @@
           0 turn into a Fall.
         </p>
         <p>
-	  Height is 70cm plus three times the MLU in
-	  centimeters.  At 20 this is 1.30m.  Distance is one meter
-	  plus skill roll in decimeters.  At 20 this is 3m.
+          Height is 70cm plus three times the MLU in
+          centimeters.  At 20 this is 1.30m.  Distance is one meter
+          plus skill roll in decimeters.  At 20 this is 3m.
         </p>
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <p>
@@ -704,22 +704,22 @@
           </tr>
           <tr class="num">
             <td>Speed (m/s)</td>
-            <td>1/4</td>
-            <td>3/8</td>
-            <td>1/2</td>
-            <td>3/4</td>
-            <td>1</td>
-            <td>3/2</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>6</td>
-            <td>8</td>
-            <td>12</td>
-            <td>16</td>
-            <td>24</td>
-            <td>32</td>
-            <td>48</td>
+            <td>5/16</td>
+            <td>7/16</td>
+            <td>5/8</td>
+            <td>7/8</td>
+            <td>5/4</td>
+            <td>7/4</td>
+            <td>5/2</td>
+            <td>7/2</td>
+            <td>5</td>
+            <td>7</td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+            <td>30</td>
+            <td>40</td>
+            <td>60</td>
           </tr>
         </table>
         <h5 class="skill" id="di-pie">Piety</h5>
@@ -883,8 +883,8 @@
           a penalty of 5.
         </p>
         <p>
-	  The dimension is <em>1/2 (EMLU - 10) dm/s</em>.
-	  E.g. a 10 is 0m/s and a 30 is 1m/s.
+          The dimension is <em>1/2 (EMLU - 10) dm/s</em>.
+          E.g. a 10 is 0m/s and a 30 is 1m/s.
         </p>
         <h5 class="skill" id="di-thr">Throwing</h5>
         <p>
@@ -1805,7 +1805,7 @@
           reverse 5-addition, e.g. two people getting a 10 means both
           having a wound of 5.
         </p>
-        <h4 id="Velocity">Velocity</h4>
+        <h4 id="Sail-Velocity">Sail Velocity</h4>
         <p>
           Steady Wind (2) is optimal, for (1) and (3) half the speed
           and for (0) and (4) halve it again.  Effects on hazards are
@@ -1832,9 +1832,7 @@
             <th>E</th><td>8</td><td>3</td><td>1.5</td>
           </tr>
         </table>
-        <p style="text-align:center">
-          Maritime Travel Table
-        </p>
+        <h4 id="Oar-Velocity">Oar Velocity</h4>
         <p>
           Oar movement is full at calm (0) wind, reduced by 25% for
           light (1) and 50% for steady (2) wind.  No rowing is
@@ -1849,57 +1847,80 @@
             <td>16</td><td>12</td><td>8</td><td>7</td><td>6</td>
           </tr>
         </table>
-        <p style="text-align:center">
-          Maritime Oar Travel Table
+        <p>
+          Overland travel base is at Move dimension value in km per
+          hour or leagues per watch, e.g. 4 m/s = 4 km/h.  Long-term
+          fatigue is not acrued at this rate for 8 hours a day.
+          Wagons and carts have a base move "skill" of 20.  This rate
+          is only achieved on flat roads or trails.
         </p>
         <p>
-          Overland travel is basically 30km a day or 3.5 days per
-          100km.  The following table applies only to overland travel
-          only in time and distance dimensions.  The modifiers apply
-          only to overland travel in distance and time domains.
-          Modifiers are cumulative.  The standard distance/time
-          assumes a crop- or woodland, clear weather, on foot, and not
-          on a road.  Modifiers are applied individually, e.g. speed
-          is multiplied by 0.8 for a modifier of -20.  Order is
-          irrelevant.
+          The percentage modifiers for terrain and vegetation are
+          (simple) added, trail, roads are treated as vegetation.
+          Only apply the most appropriate absolute number.
         </p>
-        <div class="explain">
-          <p>
-            <em>10:</em> Hills (-), Trail (+)
-          </p>
-          <p>
-            <em>15:</em> Cart (-), Rain (-)
-          </p>
-          <p>
-            <em>20:</em> Heath (-)
-          </p>
-          <p>
-            <em>25:</em> Wagon (-)
-          </p>
-          <p>
-            <em>30:</em> Mixed Woods (-), Unpaved Road (+)
-          </p>
-          <p>
-            <em>35:</em> Muddy (-)
-          </p>
-          <p>
-            <em>40:</em> Mountains (-), Needleleaf Forest (-)
-          </p>
-          <p>
-            <em>50:</em> Paved Road (+), Mud (-)
-          </p>
-          <p>
-            <em>80:</em> Swamp (-), Storm (-)
-          </p>
-          <p>
-            <em>100:</em> Horse (+)
-          </p>
-        </div>
+        <table style="width:30%">
+          <tr>
+            <th>Mode</th>
+            <th>Paved</th>
+            <th>Unpaved</th>
+            <th>Trail</th>
+            <th>Low Growth</th>
+            <th>High Growth</th>
+            <th>Hills</th>
+            <th>Mountains</th>
+            <th>Swamp</th>
+          </tr>
+          <tr>
+            <td>Foot</td>
+            <td>100%</td>
+            <td>-0%</td>
+            <td>-0%</td>
+            <td>-20%</td>
+            <td>-40%</td>
+            <td>-20%</td>
+            <td>-40%</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>Horse</td>
+            <td>100%</td>
+            <td>-10%</td>
+            <td>-10%</td>
+            <td>-40%</td>
+            <td>-60%</td>
+            <td>-10%</td>
+            <td>-50%</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Cart</td>
+            <td>100%</td>
+            <td>-0%</td>
+            <td>-10%</td>
+            <td>-60%</td>
+            <td>-90%</td>
+            <td>-20%</td>
+            <td>-80%</td>
+            <td>0%</td>
+          </tr>
+          <tr>
+            <td>Wagon</td>
+            <td>100%</td>
+            <td>-20%</td>
+            <td>-40%</td>
+            <td>-70%</td>
+            <td>-90%</td>
+            <td>-20%</td>
+            <td>-50%</td>
+            <td>0%</td>
+          </tr>
+        </table>
         <p>
           Speeding up land travel is a matter of dealing with
-          long-term Fatigue.  Rate is 1/watch but healed as a
-          non-spreading, non-infectious Leg Injury Endurance-based.
-          Increase and reduce speed and fatigue rate proportionally.
+          long-term fatigue.  Assume every percentage above the base
+          speed yields 1/watch that is healed at the same rate.  (Note
+          the effects of fatigue itself on Speed.)
         </p>
         <h3 id="Treasure20">Treasure</h3>
         <p>
