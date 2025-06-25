@@ -1859,7 +1859,7 @@
           (simple) added, trail, roads are treated as vegetation.
           Only apply the most appropriate absolute number.
         </p>
-        <table style="width:30%">
+        <table style="width:60%">
           <tr>
             <th>Mode</th>
             <th>Paved</th>
