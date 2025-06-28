@@ -1050,7 +1050,8 @@
             <b>Language Application</b>: A language task uses the
             5-addition of the primary language and all directly
             related languages at - 10, all once removed languages at
-            -20 and so on.
+            -20 and so on.  Pidgin languages only count directly
+            either way.
           </p>
           <p>
             <b>Reading Time</b>: Reading a book takes the 5-addition
