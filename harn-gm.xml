@@ -197,55 +197,52 @@
         </p>
         <p>
 	  Prices are the minimum to obtain the protection bonus,
-	  ornamental features or fashion items can be bought for
-	  considerably less.  Armour can only be bought as physically
-	  connected items and prices can be reduced such that for
-	  every 10% covered 5% of the overall price is reduced.
-	  E.g. at 10% coverage, 95% is paid and at 50% only 75% - up
-	  to 100% coverage and only the same material.
+	  ornamental features or fashion items can be bought for less.
+	  Armour can only be bought as physically connected items.  If
+	  not in the table add 20%-50% to cost (not weight).
         </p>
 	<table>
 	  <tr>
-	    <th>Buckram</th><td>2d</td><td>0.1lbs</td>
+	    <th>Kurbul</th><td>4d</td><td>0.25lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Kurbul</th><td>5d</td><td>0.4lbs</td>
+	    <th>Leather</th><td>3.5d</td><td>0.16lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Leather</th><td>4d</td><td>0.2lbs</td>
-	  </tr>
-	  <tr>
-	    <th>Linen</th><td>2d</td><td>0.1lbs</td>
-	  </tr>
-	  <tr>
-	    <th>Mail</th><td>15d</td><td>0.5lbs</td>
+	    <th>Mail</th><td>13d</td><td>0.45lbs</td>
 	  </tr>
 	  <tr>
 	    <th>Plate</th><td>25d</td><td>0.8lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Quilt</th><td>4d</td><td>0.3lbs</td>
+	    <th>Quilt</th><td>3.5d</td><td>0.24lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Ring</th><td>7d</td><td>0.4lbs</td>
+	    <th>Ring</th><td>6d</td><td>0.32lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Russet</th><td>3d</td><td>0.1lbs</td>
+	    <th>Scale</th><td>8d</td><td>0.6lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Scale</th><td>7.5d</td><td>0.5lbs</td>
+	    <th>Linen</th><td>1.75d</td><td>0.08lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Serge</th><td>2d</td><td>0.1lbs</td>
+	    <th>Russet</th><td>3d</td><td>0.08lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Silk</th><td>20d</td><td>0.05lbs</td>
+	    <th>Buckram</th><td>1.75d</td><td>0.08lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Wool</th><td>4d</td><td>0.15lbs</td>
+	    <th>Serge</th><td>1.75d</td><td>0.08lbs</td>
 	  </tr>
 	  <tr>
-	    <th>Worsted</th><td>10d</td><td>0.075lbs</td>
+	    <th>Silk</th><td>20d</td><td>0.04lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Wool</th><td>4d</td><td>0.12lbs</td>
+	  </tr>
+	  <tr>
+	    <th>Worsted</th><td>10d</td><td>0.06lbs</td>
 	  </tr>
 	</table>
       </div>
