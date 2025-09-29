@@ -70,10 +70,10 @@
             This “half” is for technical reasons.
           </li>
           <li>
-            A skill level of <em>k</em> succeeds at a task of 
+            A skill level of <em>k</em> succeeds at a task of
             difficulty <em>n+1</em> with the same probability as
             <em>p</em> times the probability that a skill of <em>k</em> succeeds at a task
-            of difficulty <em>n</em>; i.e., you succeed at reducing 
+            of difficulty <em>n</em>; i.e., you succeed at reducing
             the difficulty by one as a first step and then tackle the
             remaining portion.
           </li>
