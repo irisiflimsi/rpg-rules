@@ -13,13 +13,13 @@
       <div class="container">
         <h1 id="Introduction">Introduction</h1>
         <p>
-          In RPGs, most gameplay does not require rules.  During play, 
+          In RPGs, most gameplay does not require rules.  During play,
           players will generally refer to rules only in the following
           instances:
         </p>
         <ul>
           <li>
-            The game world is alien enough that common sense cannot be 
+            The game world is alien enough that common sense cannot be
             used to resolve a situation.  This is the case for magic
             spellcasting, for example.
           </li>
@@ -35,7 +35,7 @@
           </li>
         </ul>
         <p>
-          Common rule systems create probabilities that are hard to 
+          Common rule systems create probabilities that are hard to
           gauge.  In fact, only after playing a game for an extended
           period of time do patterns emerge. If the probabilities
           do not match expectations, they impact enjoyment.
@@ -84,12 +84,13 @@
           </li>
         </ul>
         <p>
-          The numbers <em>m</em>, <em>n</em>, and <em>k</em> are your regular (non-negative 
+          The numbers <em>m</em>, <em>n</em>, and <em>k</em> are your regular (non-negative
           integer) numbers.  In the above setup, we will restrict
           ourselves to <em>p=0.8</em>.  Note that the range of skill
           and task levels includes negative numbers.  We treat a
           task level as a negative skill level; i.e., a <em>(-k)</em>-skill
-          at a <em>0</em>-task is the same as using a <em>0</em>-skill at a <em>k</em>-task.
+          at a <em>0</em>-task is the same as using a <em>0</em>-skill
+          at a <em>k</em>-task.
         </p>
         <p>
           This is, in fact, all we need.  The following are conclusions.
