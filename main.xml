@@ -13,42 +13,42 @@
       <div class="container">
         <h1 id="Introduction">Introduction</h1>
         <p>
-          In RPGs, most gameplay does not need rules.  During play,
-          players will generally only recur to rules in these
+          In RPGs, most gameplay does not require rules.  During play, 
+          players will generally refer to rules only in the following
           instances:
         </p>
         <ul>
           <li>
-            The gameworld is alien enough that common sense cannot be
+            The game world is alien enough that common sense cannot be 
             used to resolve a situation.  This is the case for magic
-            spell casting, for instance.
+            spellcasting, for example.
           </li>
           <li>
             Players and GMs have a common understanding that there is
-            some undeterministic influence, i.e. chance, in resolving
+            some nondeterministic influence—i.e., chance—in resolving
             a situation.
           </li>
           <li>
-            To resolve different understanding of the situation by
+            To resolve different understandings of a situation among
             different players or GMs, but participants can still agree
             on a probability value for certain outcomes.
           </li>
         </ul>
         <p>
-          Common rule systems create probabilities that are hard to
-          gauge.  In fact, only by playing a game for an extended
-          period of time, will patterns emerge.  If the probabilities
-          do not turn out to match expectations they impact enjoyment.
+          Common rule systems create probabilities that are hard to 
+          gauge.  In fact, only after playing a game for an extended
+          period of time do patterns emerge. If the probabilities
+          do not match expectations, they impact enjoyment.
         </p>
         <p>
           The rules are written with these points in mind, which
-          means: keep it comprehensible.  This does not mean "generic
-          simple", but rather that probabilities do not provide
-          surprises when subject matter changes.
+          means: keep them comprehensible.  This does not mean "generically
+          simple," but rather that probabilities should not provide
+          surprises when the subject matter changes.
         </p>
         <p>
-          The next section contains a few reasonable assumptions on
-          rules and explains, why our rules are chosen the way they
+          The next section contains a few reasonable assumptions about
+          rules and explains why our rules are chosen the way they
           are.  If you are only interested in the mechanics, you can
           skip it.
         </p>
