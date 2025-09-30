@@ -13,42 +13,42 @@
       <div class="container">
         <h1 id="Introduction">Introduction</h1>
         <p>
-          In RPGs, most gameplay does not need rules.  During play,
-          players will generally only recur to rules in these
+          In RPGs, most gameplay does not require rules.  During play,
+          players will generally refer to rules only in the following
           instances:
         </p>
         <ul>
           <li>
-            The gameworld is alien enough that common sense cannot be
+            The game world is alien enough that common sense cannot be
             used to resolve a situation.  This is the case for magic
-            spell casting, for instance.
+            spellcasting, for example.
           </li>
           <li>
             Players and GMs have a common understanding that there is
-            some undeterministic influence, i.e. chance, in resolving
+            some nondeterministic influence - i.e., chance—in resolving
             a situation.
           </li>
           <li>
-            To resolve different understanding of the situation by
+            To resolve different understandings of a situation among
             different players or GMs, but participants can still agree
             on a probability value for certain outcomes.
           </li>
         </ul>
         <p>
           Common rule systems create probabilities that are hard to
-          gauge.  In fact, only by playing a game for an extended
-          period of time, will patterns emerge.  If the probabilities
-          do not turn out to match expectations they impact enjoyment.
+          gauge.  In fact, only after playing a game for an extended
+          period of time do patterns emerge. If the probabilities
+          do not match expectations, they impact enjoyment.
         </p>
         <p>
           The rules are written with these points in mind, which
-          means: keep it comprehensible.  This does not mean "generic
-          simple", but rather that probabilities do not provide
-          surprises when subject matter changes.
+          means: keep them comprehensible.  This does not mean "generically
+          simple," but rather that probabilities should not provide
+          surprises when the subject matter changes.
         </p>
         <p>
-          The next section contains a few reasonable assumptions on
-          rules and explains, why our rules are chosen the way they
+          The next section contains a few reasonable assumptions about
+          rules and explains why our rules are chosen the way they
           are.  If you are only interested in the mechanics, you can
           skip it.
         </p>
@@ -56,47 +56,46 @@
       <div class="container">
         <h1 id="Axioms">Assumptions</h1>
         <p>
-          Most rules intend to resolve skill application.  Whether it
+          Most rules are intended to resolve skill application, whether it
           be fighting, hiding, finding, lifting, or something else.  A
-          character can have different skill levels but tasks at hand
-          can also also have different difficulty levels.  We make the
+          character can have different skill levels, but tasks at hand
+          can also have different difficulty levels.  We make the
           following assumptions.
         </p>
         <ul>
           <li>
             A skill proficiency and a task difficulty can be expressed
-            as numbers.  We call half of the probability for a skill
-            of <em>0</em> to succeed at a task of level <em>1</em> as
-            <em>p</em>.  This &#8220;half&#8221; is for technical
-            reasons.
+            as numbers.  We define <em>p</em> as half of the probability for a skill
+            of <em>0</em> to succeed at a task of level <em>1</em>.
+            This “half” is for technical reasons.
           </li>
           <li>
             A skill level of <em>k</em> succeeds at a task of
             difficulty <em>n+1</em> with the same probability as
-            <em>p</em> times a skill of <em>k</em> succeeds at a task
-            of difficulty <em>n</em>.  I.e. you succeed at reducing
+            <em>p</em> times the probability that a skill of <em>k</em> succeeds at a task
+            of difficulty <em>n</em>; i.e., you succeed at reducing
             the difficulty by one as a first step and then tackle the
-            remaining.
+            remaining portion.
           </li>
           <li>
             A skill level of <em>k</em> succeeds at a task of
             difficulty <em>0</em> with the same probability as a
-            skill level <em>0</em> at a task of difficulty <em>-k</em>.
+            skill level of <em>0</em> succeeds at a task of difficulty <em>-k</em>.
           </li>
         </ul>
         <p>
-          The numbers <em>m, n, k</em> are your regular (non-negative
+          The numbers <em>m</em>, <em>n</em>, and <em>k</em> are your regular (non-negative
           integer) numbers.  In the above setup, we will restrict
           ourselves to <em>p=0.8</em>.  Note that the range of skill
-          and task levels includes the negative numbers.  We treat a
-          task level as negative skill level, i.e. a chancing a
-          <em>(-k)</em>-skill at a <em>0</em>-task is the same as using
-          a <em>0</em>-skill at a <em>k</em>-task.
+          and task levels includes negative numbers.  We treat a
+          task level as a negative skill level; i.e., a <em>(-k)</em>-skill
+          at a <em>0</em>-task is the same as using a <em>0</em>-skill
+          at a <em>k</em>-task.
         </p>
         <p>
-          This is in fact all we need, the following are conclusions.
-          This section was solely written to show that we make very
-          few, natural assumptions that already imply the most
+          This is, in fact, all we need.  The following are conclusions.
+          This section was written solely to show that we make very
+          few natural assumptions, which already imply the most
           important rule.
         </p>
       </div>
@@ -105,14 +104,14 @@
         <p>
           <em>
             You roll a d5 until you roll a 1 and then count the number
-            of dice that did not show up a 1.  That is the same as the
+            of dice that did not show a 1. That is the same as the
             number of dice you actually rolled minus one.  This first
             number is used for the skill roll (of a character).  We
-            also call this the <b>positive (stop) roll</b> roll.  The
+            also call this the <b>positive (stop) roll</b>.  The
             <b>negative (stop) roll</b> is associated with the task
-            roll (the resistance of the environment or impediment)
+            roll (the resistance of the environment or impediment),
             which is rolled/handled in the same way.  The result of
-            the negative stop roll (which is still a positive number!)
+            the negative stop roll (which is still a positive number)
             is subtracted from the result of the positive.
           </em>
         </p>
@@ -121,14 +120,14 @@
           as some examples.  The mechanism is different from other RPG
           rules (I haven&#8217;t found any that use it), where you
           will often roll either a pool of dice and count those that
-          match a certain threshold or use a single die roll.
+          meet a certain threshold or use a single die roll.
         </p>
         <p>
-          The following two tables are explanatory and not needed.
+          The following two tables are explanatory and not necessary.
           The mechanics have been described completely in the
           highlighted section.  Everything else can be used to reduce
-          the number of dice thrown or to better understand the
-          implication of the (stop) roll mechanic.
+          the number of dice rolled or to better understand the
+          implications of the (stop) roll mechanic.
         </p>
         <p>
           In Table 1 the first row shows the results you can achieve
@@ -136,28 +135,28 @@
           until you get a 1 on your d5, you can interpret the complete
           positive stop roll as a series of d5 rolls as you move right
           on the first row, starting with 0.  The second row shows the
-          chance that you have of moving up one point (i.e. right) at
-          any given point as percentage value.  Note that this chance
-          is always the same.  The third row gives the chance that you
-          have of obtaining the result in the corresponding first row
+          chance of moving up one point (i.e., right) at
+          any given step as a percentage value.  Note that this chance
+          is always the same.  The third row gives the chance of obtaining
+          the result in the corresponding first row
           in each column.  These are expressed as rolls on a d100.
           (This row can be used to reduce the number of rolls but
-          still receive the benefits of the rule.)  All but the first
+          still retain the benefits of the rule.)  All but the first
           column of this row are approximations.
         </p>
         <p>
           The last column is somewhat special.  It combines all
           results beyond 9.  Imagine you expand the table to infinity.
-          While the extensions of the first and second row are quite
+          While the extensions of the first and second rows are quite
           obvious, the third is not.  It should be interpreted thus:
-          if you roll 91-100, i.e. the highest 10%, you need to roll
-          again on this table, get the result as before and then add
+          if you roll 91-100, i.e., the highest 10%, you need to roll
+          again on this table, get the result as before, and then add
           10 to the result.  (For the mathematically inclined, this is
           a <em>recursive</em> definition, since it is possible that
           you roll 91-100 again, which forces you to roll on this
           table again and add 20 to the net result from the repeated
-          application.  We will see this in the examples.)  Some
-          system have a similar mechanic and call it an
+          application. We will see this in the examples.)  Some
+          systems have a similar mechanic and call it an
           &#8220;exploding&#8221; roll or &#8220;open-ended&#8221;.
         </p>
         <table style="width:70%">
@@ -186,18 +185,18 @@
         </p>
         <p>
           Only the third row needs explanation.  With a roll of 01-06
-          and 95-100 the extended roll is continued on the previous
-          table with correspodnding consequences.  Positive
+          and 95-100 the extended roll continues on the previous
+          table with corresponding consequences. Positive
           continuation - the one on the right end of the table with
           95-100 - is exactly as before, while negative continuation
-          results in negative results to be added.  For instance,
+          results in negative values being added.  For instance,
           rolling 02 and then a 25 gives a result of -11.  The second
-          row cell below the 0 result means 4/9 (44%) chance to
-          increase the result by 1, the same chance to descrease the
-          result by one and a 1/9 (11%) to stay at 0.  The astute
+          row cell below the 0 result means a 4/9 (44%) chance to
+          increase the result by 1, the same chance to decrease the
+          result by 1, and a 1/9 (11%) chance to stay at 0.  The astute
           reader will see the chance for 0 in the third row is only
-          8%, while 1/9 is approximatly 11%.  This &#8220;error&#8221;
-          is due to rounding; the price for rolling less dice.
+          8%, while 1/9 is approximately 11%.  This &#8220;error&#8221;
+          is due to rounding - the price for rolling fewer dice.
         </p>
         <table style="font-size:75%;width:90%">
           <tr>
@@ -230,14 +229,14 @@
         <h3 id="Examples">Examples</h3>
         <p>
           A stop roll is rolling a d5 until a 1 is rolled.  Physical
-          dice cannot come with five equal faces, so you can use a d10
+          dice cannot have five equal faces, so you can use a d10
           that stops on 1 and 2 instead.  To improve speed, several
-          d10s may be rolled in ordered fashion.  Order them according
-          to size or alphabetical color (e.g. black, blue, green,
+          d10s may be rolled in an ordered fashion.  Order them according
+          to size or alphabetical color (e.g., black, blue, green,
           yellow) or in any other way you can remember.  If you lack
           d10s, you can also roll d6s with only a marginal 3% error on
-          each roll. Or you can reroll all 6s.  But all players (and
-          GM) should roll the same way.  Computer applications that
+          each roll, or you can reroll all 6s.  But all players (and
+          the GM) should roll the same way.  Computer applications that
           make rolling as easy as pressing a button are also easy to
           program.
         </p>
@@ -254,13 +253,13 @@
           </p>
           <p>
             A more exotic roll would be the sequence 96, 99, 93, 61 on
-            the d100.  The result would be 34 for a positive stop
+            the d100. The result would be 34 for a positive stop
             roll.  For a combined stop roll, the result would be 29
             (and the roll of 61 ignored, because it is not needed,
-            because the 93 already &#8220;stops&#8221; on Table 2).
+            since the 93 already &#8220;stops&#8221; on Table 2).
           </p>
           <p>
-            Using the d10-for-d5-replacement method, the positive
+            Using the d10-for-d5 replacement method, the positive
             sequence on a d10 shows 3, 8, 10, 7, 9, 4, 6, 3, 10, 10,
             8, 4, 2 and the negative sequence shows 3, 6, 9, 4, 4, 1.
             The result is positive 12 and negative 5 with a net result
@@ -268,18 +267,18 @@
           </p>
         </div>
         <p>
-          Skill and task (rolls) are symmetrical.  If you imagine one
+          Skill and task rolls are symmetrical.  If you imagine one
           character stealthily evading another, the first may
           interpret the rolls as his skill at evading observation,
           while the second may interpret the rolls as his skill in
-          successfully observing the vicinity.  Either way, one roll
+          successfully observing the vicinity. Either way, one roll
           (or set of rolls) will determine the outcome.
         </p>
         <h3 id="Hints">Hints</h3>
         <p>
           When describing a situation, the actor and the obstacle both
           possess a certain <em>level</em>.  The first is usually a
-          skill in the particular act and second a measure of the
+          skill in the particular act and the second a measure of the
           difficulty of the task.  In the previous example, the
           observer might have a (skill) level of 5 and finding the
           clandestine character a (task) level of 3.  These levels
@@ -287,54 +286,54 @@
           respectively.
         </p>
         <p>
-          We are adding and subtracting 4 numbers; stop rolls and
+          We are adding and subtracting four numbers: stop rolls and
           levels.  The calculations result in a level difference
           between the positive and negative part (or the skill level
-          and task level) which is relevant for rolling.  If only the
+          and task level), which is relevant for rolling.  If only the
           failure or success is of interest and not the degree of
           success or failure, you can apply the following shortcut.
-          Since the level difference must be met by the lower level
+          Since the level difference must be met by the lower-level
           contestant, you may roll all the difference dice in one
-          combined attempt and check, whether any stop digit appears.
-          If it does the lower contestant cannot win, since it is
-          irrelevant, where the stop digit appears.  If the stop digit
-          does not appear, chances have reduced to 50/50, and you can
+          combined attempt and check whether any stop digit appears.
+          If it does, the lower contestant cannot win, since it is
+          irrelevant where the stop digit appears.  If the stop digit
+          does not appear, chances are reduced to 50/50, and you can
           flip a coin in any of a number of ways.
         </p>
         <p>
           For example, suppose a climber with a skill level of 57
           wants to scale a cliff of difficulty level 49.  The
-          difference is 8.  The GM rolls 8 dice, which show up 3, 5,
+          difference is 8.  The GM rolls 8 dice, which show 3, 5,
           6, 1, 3, 9, 9, and 8.  Since 1 is a stop digit, the cliff is
-          scaled.  (The cliff has the lowere level!)  Say, the 1 had
-          been a 7 instead, the cliff would have had a good chance to
+          scaled.  (The cliff has the lower level!)  Suppose the 1 had
+          been a 7 instead - the cliff would have had a good chance to
           drop the character.  The GM decides that even is good for
-          the character and odd is bad and rolls a d10.  It comes up a
-          6 and thus the character has barely made it.
+          the character and odd is bad, and rolls a d10.  It comes up a
+          6, and thus the character has barely made it.
         </p>
         <p>
           Another pragmatic rule applies to differences of at least
           10.  Rolling 10 non-stop rolls in a row to match a level
           difference of 10 can be shortened to rolling a 1 on a d10.
-          (The chance 1/10 is an approximation of the exact chance.)
+          (The chance, 1/10, is an approximation of the exact chance.)
           In fact, the choice of 80% (d5) in the initial paragraph was
           made for the reason that this heuristic holds.
         </p>
         <h3 id="Hints">Diet Rules</h3>
         <p>
-	  Also known as <em>light rules</em>, the above easily scales
-	  into a light version.  Divide the skill values above by 10
-	  and record them as such. This will give a 90% advantage to
-	  someone with one more point.
+          Also known as <em>light rules</em>, the above easily scales
+          into a lighter version.  Divide the skill values above by 10
+          and record them as such. This will give a 90% advantage to
+          someone with one more point.
         </p>
         <p>
-	  As an example, we record a skill called <em>Fisticuff</em>
-	  with a 1-5 star rating.  When you have two opponents, either
-	  simply declare the one with more stars the winner, or roll a
-	  d10, and he wins with 1 through 9.  With equal rating, or
-	  with a 10 on the d10 respectively, you have a draw, in case
-	  that is an acceptable outcome. If not, flip a coin to see
-	  who the winner is.
+          As an example, we record a skill called <em>Fisticuff</em>
+          with a 1-5 star rating. When you have two opponents, either
+          simply declare the one with more stars the winner, or roll a
+          d10, and he wins with 1 through 9.  With equal rating, or
+          with a 10 on the d10, you have a draw - if that is an
+          acceptable outcome.  If not, flip a coin to see
+          who the winner is.
         </p>
       </div>
       <div class="container">
@@ -342,8 +341,8 @@
         <p>
           The following rules address common situations.  How do you
           combine a group of actors that support each other?  How do
-          you apply two skills to a task that fits both?  You should
-          never indiscriminately add values.  Remember that a
+          you apply two different skills to a task that involves both?
+          You should never indiscriminately add skill values.  Remember that a
           difference of 10 means a 90% winning difference by design.
         </p>
         <h3 id="Combinations">Combinations</h3>
@@ -353,13 +352,13 @@
           using the table below.
         </p>
         <p>
-          Say you want to add the skills <em>n</em> and <em>m</em> of
+          Suppose you want to combine the skills <em>n</em> and <em>m</em> of
           two actors, where the respective task difficulties have
           already been subtracted.  In the first row, you index the
           positive difference between <em>n</em> and <em>m</em>.  The
           second row will then give you the bonus to add to the higher
           of the two skills - which is then the only one you need to
-          roll.  Say the skills are 5 and 9.  Then the net skill level
+          roll.  For example, if the skills are 5 and 9.  Then the net skill level
           of the two actors together is 12.
         </p>
         <table style="width:75%">
@@ -373,7 +372,7 @@
         <p>
           If you use the rule multiple times, always group two actors
           of similar skill levels together to reduce rounding errors.
-          (This is normalized skill level, i.e. the task level has
+          (This is normalized skill level, i.e., the task level has
           already been subtracted.)  The application of this rule
           should not depend on the order or sub-grouping of several
           actors, but rounding errors are present in the table.  See
@@ -382,17 +381,17 @@
         <p>
           As a more elaborate example, say you have four characters in
           a room searching for something and you have determined that
-          this technically means that either of those characters could
-          find it, i.e. all would have to roll against a set
-          diffculty.  But you want just one roll; imagine you had a
-          group search skill.  These characters have a skill level of
+          this technically means that any of those characters could
+          find it, i.e., all would have to roll against a set
+          difficulty.  But you want just one roll; imagine you had a
+          group search skill.  These characters have skill levels of
           5, 7, 13, and 17.  Taking the first two, because they are
           closest to each other, we combine them into an actor with
           11.  Now we combine 11 and 13 in the same manner to 17.  In
           the last step, we combine 17 and 17 into 22.
         </p>
         <p>
-          If you have two actors that both must succeed a test, that
+          If you have two actors that both must succeed at a test, that
           is equivalent to using the <em>inverse</em> stop roll, which
           means exchanging the role of positive and negative for the
           purposes of combining.  Logically, this means that either of
@@ -400,31 +399,31 @@
           actor (originally the obstacle).  Keep in mind that the
           reversal of <em>positive</em> and <em>negative</em> roll
           also changes who of the two has the higher skill level.
-          This may take a bit of getting used to.
+          This may require a bit of getting used to.
         </p>
         <p>
           Imagine in the previous example that the same characters are
-          trying to hide from a guard.  If either one is detected, the
+          trying to hide from a guard. If either one is detected, the
           guard will raise the alarm and the maneuver fails.  As luck
-          will have it, their Hide skill level is exactly their Search
-          skill level.  But in the inverse, the guard is active and he
-          has to succeed at detecting any of the four.  Task (inverse
-          skill) level 5 and 7 will turn into 1.  13 and 17 (closest
-          together) will turn into 10. The combined level of the task
+          would have it, their Hide skill level is exactly their Search
+          skill level. But in the inverse, the guard is active and he
+          has to succeed at detecting any of the four. Task (inverse
+          skill) levels 5 and 7 will turn into 1.  Then 13 and 17 (closest
+          together) will turn into 10.  The combined level of the task
           (inverse skill) groups 1 and 10 turns into -1.  Since the
           guard isn&#8217;t really paying attention, the GM gives the
-          guard a skill level of 0.  That still leaves the group with
+          guard a skill level of 0. That still leaves the group with
           a 60% failure chance.
         </p>
         <p>
           If you are worried about rounding errors, particularly when
           adding large numbers of skills or tasks, use the following
           formula, where &#946; is the difference in level you plug in
-          and and the addition to the higher value is calculated.
-          Round when done with 5-addition - as late as possible.  (I
-          advise you to use this formuly only if you are a rule
-          designer who needs to deal with scaling issues.)  Use it
-          only when players try to &#8220;break the rules&#8221; by
+          and the addition to the higher value is calculated.
+          Round only when done with the 5-addition - as late as
+          possible.  (I advise you to use this formula only if you are a rule
+          designer who needs to deal with scaling issues.)  Reserve this
+          for situations where players attempt to &#8220;break the rules&#8221; by
           exploiting the rounding errors.
         </p>
         <p style="font-weight:bold;text-align:center;">
@@ -432,163 +431,163 @@
         </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
-          A skill may be decomposed into other skills, if so desired.
+          A skill may be broken down into related skills, if so desired.
           The decomposition must be such that the combination of the
           (weighted) averages of the new skill levels results in the
           original skill level.  Additional measures should be in
           place to indicate that the skills actually belong to a
           group.  (A typical restriction is that the individual skills
-          of a goup may not differ by more than 10 points.)
+          of a group may not differ by more than 10 points.)
         </p>
         <p>
           If a decomposition results in multiple rolls, make sure that
           the rules of <em>Combinations</em> remain valid.  A typical
           example would be to turn a roll that would usually apply
           every 10 days into a roll that applies every day.  This
-          implies that all of the daily rolls have a difficulty
+          implies that each of the daily rolls has its difficulty
           increased by 10.
         </p>
         <p>
-          Decomposition and then combining skills is a great tool to
+          Breaking down and then recombining skills is a useful tool to
           extend the skill space beyond what rules generally cover.
           Imagine that a PC wants to tie a knot, but his skill sheet
-          says he has skill level 5 as Sailor and level 3 as
+          says he has skill level 5 as a Sailor and level 3 as a
           Mountaineer.  For tasks like knots where the difficulty is
           the same for a Sailor and a Mountaineer, the GM can allow
-          the PC to use a 9.  The reasoning is that the knot skill
+          the PC to use a 9. The reasoning is that the knot skill
           application works as if two separate skills (actors) were
           trying to tie the knot in combination.  Be careful, however,
           with allowing such additions, because if you treat 0 as the
           value an untrained individual has, then in the above case a
-          sailor that has never seen a mountain would still have a 0
-          in mountaineering and adding a 0 would yield an effective
+          sailor who has never seen a mountain would still have a 0
+          in mountaineering, and adding a 0 would yield an effective
           knot skill of 8.
         </p>
         <h3 id="Normalization">Normalization</h3>
         <p>
-          We suggest to normalize skills and tasks to zero (0).  What
-          does that mean?  This value should be the skill level of
-          untrained, uneducated, but otherwise healthy 20 year old
+          We suggest normalizing skills and tasks to zero (0).  What
+          does that mean?  This value should represent the skill level
+          of an untrained, uneducated, but otherwise healthy 20-year-old
           human.  This is a fictional person.  For instance, in order
           to compare different language skills, we assume this normal
           person has none.  When it comes to gender or racial
-          differences, we also suggest to create a fictitious average.
+          differences, we also suggest creating a fictitious average.
         </p>
       </div>
       <div class="container">
         <h1 id="Dimensions">Dimensions</h1>
         <p>
-          A skill may be applied in multiple <em>dimensions</em>.  It
-          may be used to evaluate something, to produce something, to
-          use something, and more in the appropriate domain.  It can
-          happen under time pressure or at ones leisure.  These
-          different variable results are called dimensions.  A typical
-          dimension is the time it takes to apply a skill.  Another
-          typical dimension would be the quality of the result.  It is
-          useful to prepare common dimensions for skill application.
-          Both to be prepared and be consistent over time.
+      		A skill may be applied in multiple <em>dimensions</em>.  It
+      		may be used to evaluate something, to produce something, to
+      		use something, and more within the appropriate domain.  It can
+      		happen under time pressure or at one’s leisure.  These
+      		different variable results are called dimensions.  A typical
+      		dimension is the time it takes to apply a skill.  Another
+      		typical dimension is the quality of the result.  It is useful
+      		to prepare common dimensions for skill application, both to
+      		be prepared and to remain consistent over time.
+   	    </p>
+   	    <p>
+      		If an actor decides to use multiple dimensions at the same
+      		time, this is called a <em>trajectory</em>.  For example,
+      		assume that we have two common applications of a skill
+      		called <em>Fletching</em>: creating an arrow of standard
+      		quality, where time varies, and creating an arrow while
+      		whittling for an hour, where quality varies.  In preparing
+      		for an upcoming attack on his village, the character wants
+      		to create good arrows quickly.  The GM rules that this
+      		results in 50% speed and 50% quality.  This is a typical
+      		trajectory.
+        </p>
+        <h3 id="Accuracy">Accuracy</h3>
+        <p>
+      		Judging the value of goods produced or performances
+      		delivered works the same for almost all skills, which is why
+      		this dimension fits into the general framework.  Since the
+      		spread of these values in the concrete environment remains
+      		unknown, let us look at how these values are derived
+      		and how they are interpreted.
+    	  </p>
+        <p>
+          Consider that you want to express a <em>certainty</em>
+          between 100% and 0%.  In an example scenario, you might
+          rule that someone with a skill level of 20 is 80% certain,
+          and that someone with a 0 has 0% certainty.  The rest is
+          interpolated and extrapolated accordingly, e.g., at 10 the
+          certainty is 40%.  If you do not want to have the spread as an
+          independent dimension, you can calculate this as between
         </p>
         <p>
-          If an actor decides to use multiple dimensions at the same
-          time, this is called a <em>trajectory</em>.  For example,
-          assume that we have two common applications of a skill
-          called <em>Fletching</em>: creating an arrow of standard
-          quality, where time varies, and creating an arrow while
-          whittling for an hour, where quality varies.  In preparing
-          for an upcoming attack on his village, the character wants
-          to create good arrows at speed.  The GM rules that this
-          results in 50% speed and 50% quality.  This is a typical
-          trajectory.
+          <em>V x C</em> and <em>V / C</em>
         </p>
-	<h3 id="Accuracy">Accuracy</h3>
-	<p>
-	  Judging the values of goods produced or performances
-	  delivered works the same for almost all skills, which is why
-	  this dimensions fits into the general frame.  Since the
-	  spread of these values in the concrete environment remains
-	  unknown, let us have a look at how these values are derived
-	  and how they are unterpreted.
-	</p>
-	<p>
-	  Consider that you want to express a <em>certainty</em>
-	  between 100% and 0%.  In an example scenario, you might
-	  rule, that someone with a skill level of 20 is 80% certain
-	  and that someone with a 0 has 0% certainty.  The rest is
-	  inter- and extrapolated accordingly, e.g. at 10 certainty is
-	  40%.  If you do not want to have the spread as an
-	  independent dimension, you can calculate this as between
-	</p>
-	<p>
-	  <em>V x C</em> and <em>V / C</em>
-	</p>
-	<p>
-	  where <em>C</em> represents the certainty value between 0
-	  and 1 (the percentage divided by 100) and <em>V</em> the
-	  actual value only known the the GM.
-	</p>
-	<p>
-	  Write down the results of these calculations according to
-	  the skills you are interested in.  (You can see an example
-	  of this for Harnmaster.)  Now assume that you have determined
-	  both <em>C</em> and <em>V</em> for specific instance.  Since
-	  these numbers are usually not easy to operate with, choose
-	  any number by any arbitrary means between (roughly) the
-	  values given in the above formula.  This is the estimate
-	  that the PC is given.  If he is interested in how accurate
-	  he is, for instance to check, whether a merchant is trying
-	  to outsmart him in a trade, he can do the reverse operation
-	  and be sure that the true value is within that range.
-	</p>
-	<p>
-	  As a concrete example, suppose you determine <em>C</em> =
-	  0.60 (60%) and <em>V</em> is $160.  We are picking these
-	  numbers to show that the calculations are not difficult even
-	  if the numbers appear to be so.  Now eyeball <em>C</em>
-	  roughly as two thirds.  Multiplying $160 with 2/3 gives
-	  roughly $100 and dividing by it (multiply by 3/2) gives
-	  roughly a $250, thus an interval between $100 and $250.  If
-	  these calculations still seem excessive, consider any other
-	  way of approximation.  Now pick a random value in that
-	  range, e.g. roll a d100 and say low is at the lower end.
-	  That number comes up a 87 in our example, so we tell the PC
-	  his estimate is $200.  The PC wants to buy that item, so he
-	  wants to gauge the value more accurately in order not be
-	  ripped off but also not to miss out on a good deal.  Being a
-	  number cruncher he will be doing the reverse operation with
-	  rigor.  Because he knows his certainty to be 60%, he
-	  calculates the interval
-	</p>
-	<p>
-	  <em>$220 x (1 - 0.6) = $132</em> and <em>$220 / 0.6 =
-	  $366,67</em>
-	</p>
-	<p>
-	  This interval contains the real value $160 and leaves the PC
-	  a little wiser, but he is not in a very good bargaining
-	  position.  Note that for big values of <em>C</em> (close to
-	  1) you can use <em>V/C = V*(2 - C)</em>, if you'd rather use
-	  multiplication instead of division.
-	</p>
-	<p>
-	  In summary: use the certainty in any way you agree with your
-	  playing group.  The above provides a way to express
-	  uncertainty less ambiguously.
-	</p>
-	<h3 id="Proportional">Proportional</h3>
-	<p>
-	  This is a very easy dimension often used intuitively.  When
-	  a value result roll is positive (e.g. +3) then the normal
-	  success is beat by the same amount of a <em>constant
-	  percentage</em> (e.g. 10% which would in 30%
-	  overachievement).  To obtain a sensible constant, it is
-	  useful to think of the result roll, that would result in 0%.
-	</p>
-	<p>
-	  Say, that -20 would mean disaster and nothing is achieved at
-	  all.  This implies that from 0% to 100% we have 20 points to
-	  bridge, which puts a point at 5%, which is the <em>constant
-	  percentage</em>.  We get (as an example)
-	</p>
+        <p>
+          where <em>C</em> represents the certainty value between 0
+          and 1 (the percentage divided by 100) and <em>V</em> the
+          actual value known only to the GM.
+        </p>
+        <p>
+          Write down the results of these calculations according to
+          the skills you are interested in.  (You can see an example
+          of this in Harnmaster.)  Now assume that you have determined
+          both <em>C</em> and <em>V</em> for a specific instance.  Since
+          these numbers are usually not easy to work with, choose
+          any number by any arbitrary means between (roughly) the
+          values given in the above formula.  This is the estimate
+          that the PC is given.  If he is interested in how accurate
+          he is - for instance, to check whether a merchant is trying
+          to outsmart him in a trade - he can do the reverse operation
+          and be sure that the true value is within that range.
+        </p>
+        <p>
+          As a concrete example, suppose you determine <em>C</em> =
+          0.60 (60%) and <em>V</em> is $160.  We are picking these
+          numbers to show that the calculations are not difficult even
+          if the numbers appear to be so.  Now eyeball <em>C</em>
+          roughly as two thirds.  Multiplying $160 by 2/3 gives
+          roughly $100, and dividing by it (multiplying by 3/2) gives
+          roughly $250, thus an interval between $100 and $250.  If
+          these calculations still seem excessive, consider any other
+          method of approximation.  Now pick a random value in that
+          range, e.g., roll a d100 and say low is at the lower end.
+          That number comes up 87 in our example, so we tell the PC
+          his estimate is $200.  The PC wants to buy that item, so he
+          wants to gauge the value more accurately in order not to be
+          ripped off but also not to miss out on a good deal.  Being a
+          number cruncher, he will do the reverse operation with
+          rigor.  Because he knows his certainty to be 60%, he
+          calculates the interval:
+        </p>
+        <p>
+          <em>$220 x (1 - 0.6) = $132</em> and <em>$220 / 0.6 =
+          $366.67</em>
+        </p>
+        <p>
+          This interval contains the real value $160 and leaves the PC
+          a little wiser, but he is not in a very good bargaining
+          position.  Note that for large values of <em>C</em> (close to
+          1) you can use <em>V/C = V x (2 - C)</em> if you’d rather use
+          multiplication instead of division.
+        </p>
+        <p>
+          In summary: use certainty in any way you agree with your
+          playing group.  The above provides a way to express
+          uncertainty less ambiguously.
+        </p>
+        <h3 id="Proportional">Proportional</h3>
+        <p>
+          This is a very simple dimension often used intuitively.  When
+          a result roll is positive (e.g., +3) then the normal
+          success is exceeded by the same amount as a <em>constant
+          percentage</em> (e.g., 10%, which would mean 30%
+          overachievement).  To obtain a sensible constant, it is
+          useful to think of the result roll that would yield 0%.
+        </p>
+        <p>
+          Say that -20 would mean disaster and nothing is achieved at
+          all.  This implies that from 0% to 100% we have 20 points to
+          bridge, which puts each point at 5%, which is the <em>constant
+          percentage</em>. We get (as an example):
+        </p>
         <table style="width:75%">
           <tr>
             <th>Result Roll</th><td>-20</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td>
@@ -597,40 +596,40 @@
             <td>Result</td><td>0%</td><td>25%</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td><td>175%</td><td>200%</td>
           </tr>
         </table>
-	<h3 id="Exponential">Exponential</h3>
-	<p>
-	  An exponential scale is not as easy to compute.
-	  Unfortunately, it is more natural to our ruleset.  It can be
-	  simplified by using tables where this matters.  The reason,
-	  why this is more natural is the way that differences in the
-	  value behave: 10 more points mean 10 times as likely to
-	  succeed; this is the defining property of an exponential
-	  curve.
-	</p>
-	<p>
-	  A very simple dimension is this: when you say that 4 people
-	  are as likely to succeed as a single person who has 10 more
-	  points.  Because then you can also use 5-addition.
-	</p>
-	<p>
-	  As a concrete simple example, we assume that a person that
-	  is 10 times as good another produces four times the result
-	  of the lesser.  That would be equivalent t simply adding the
-	  results of the aforementioned 4 lesser people.  Maybe think
-	  of adding the weights each individual can lift and in total
-	  they simply add it all up.  That is row <em>Result 4</em> in
-	  the next table.
-	</p>
-	<p>
-	  Another result would be that 4 people cannot simultaneously
-	  address the problem with the same efficiency. They would
-	  stand in each others way, would reserve tools exclusively,
-	  etc.  In row <em>Result 2</em> we assume that these 4 people
-	  are only twice as effective as one person.  Since there is
-	  some rounding taking place, the number in paranthesis gives
-	  a factor that is often easier to work with than the more
-	  exact percentage.
-	</p>
+        <h3 id="Exponential">Exponential</h3>
+        <p>
+          An exponential scale is not as easy to compute.
+          Unfortunately, it is more natural to our ruleset.  It can be
+          simplified by using tables where necessary.  The reason
+          this is more natural is the way differences in the
+          value behave: 10 more points mean 10 times as likely to
+          succeed; this is the defining property of an exponential
+          curve.
+        </p>
+        <p>
+          A very simple dimension is this: when you say that 4 people
+          are as likely to succeed as a single person who has 10 more
+          points.  In that case, you can also use 5-addition.
+        </p>
+        <p>
+          As a concrete simple example, assume that a person who is
+          10 times as skilled as another produces four times the result
+          of the lesser.  That would be equivalent to simply adding the
+          results of the aforementioned 4 lesser people.  Maybe think
+          of adding the weights each individual can lift so that in total
+          they simply add up.  That is row <em>Result 4</em> in
+          the next table.
+        </p>
+        <p>
+          Another result would be that 4 people cannot simultaneously
+          address the problem with the same efficiency.  They would
+          stand in each other&#8217;s way, reserve tools exclusively,
+          etc.  In row <em>Result 2</em> we assume that these 4 people
+          are only twice as effective as one person.  Since there is
+          some rounding taking place, the number in parentheses gives
+          a factor that is often easier to work with than the more
+          exact percentage.
+        </p>
         <table style="width:75%">
           <tr>
             <th>Result Roll</th><td>-20</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td>
@@ -639,43 +638,43 @@
             <td>Result 4</td><td>6.75%</td><td>12.5%</td><td>25%</td><td>50%</td><td>100%</td><td>200%</td><td>400%</td><td>800%</td><td>1600%</td>
           </tr>
           <tr>
-            <td>Result 2</td><td>25%</td><td>35%(3/8)</td><td>50%</td><td>70%(3/4)</td><td>100%</td><td>141%(3/2)</td><td>200%</td><td>283%(3)</td><td>400%</td>
+            <td>Result 2</td><td>25%</td><td>35% (3/8)</td><td>50%</td><td>70% (3/4)</td><td>100%</td><td>141% (3/2)</td><td>200%</td><td>283% (3)</td><td>400%</td>
           </tr>
         </table>
       </div>
       <div class="container">
         <h1 id="Application">Appendix</h1>
         <p>
-          Note that you could just multiply the d20 skill levels by
-          two or take half for the precentile system, why use a
+          Note that you could simply multiply the d20 skill levels by
+          two or take half for the percentile system - why use a
           strange mapping?  Since we do not intend to simulate other
-          rules in this manner, you most certainly can do that
+          rules in this manner, you can certainly do that
           conversion.  We provide the details to show that these rules
           do not have the natural chance progression we desire.  But a
-          simple mapping is also added.
+          simple mapping is also included.
         </p>
         <p>
-          Many rulesets rank a skill on a percentile scale 0% through
-          100%.  This is the case for Rolemaster, Runequest, or
-          Harnmaster.  Rolling below your skill value makes you
+          Many rulesets rank a skill on a percentile scale, 0% through
+          100%.  This is the case for Rolemaster, RuneQuest, or
+          Harnmaster.  Rolling below your skill value means you
           succeed (or formulated equivalently).  The skill levels (in
-          our rules) are 0, 10, 20, and 30 and can be found in the
-          classical skill values 5%, 35%, 65%, and 95%.  That means
-          these rules have about forty skill levels, in which all
-          values fall according to our rules.  To keep things simple,
-          use
+          our rules) are 0, 10, 20, and 30, and they can be mapped to
+          the classical skill values of 5%, 35%, 65%, and 95%.  That means
+          these rules have about forty skill levels, into which all
+          values fall according to our system.  To keep things simple,
+          use:
         </p>
         <p style="font-weight:bold;text-align:center;">
           skill level = 4/10 x classic value
         </p>
         <p>
-          Something similar is true fo Dungeons and Dragons,
-          Pathfinder, or generally the d20 group of rules, which use
-          twenty 5% steps, instead of the finer grained 1% step.  Our
-          levels 0, 10, ..., 40 are at the classic skill bonusses of
+          Something similar is true for Dungeons &#38; Dragons,
+          Pathfinder, or generally the d20 family of rules, which use
+          twenty 5% steps instead of the finer-grained 1% steps.  Our
+          levels 0, 10, ..., 40 correspond to the classic skill bonuses of
           +0, +9, +18, +27, and +36.  These steps are approximations,
           since none of these rolls are translation-invariant.  To
-          keep things simple, use
+          keep things simple, use:
         </p>
         <p style="font-weight:bold;text-align:center;">
           skill level = classic bonus
@@ -685,12 +684,12 @@
           You need to fill in the relevant skills and tasks for a
           character.  Since the possible combinations are virtually
           limitless, list only the most common ones or add another
-          sheet, if you do not find a suitable decomposition of skills
+          sheet if you do not find a suitable decomposition of skills
           and tasks.
         </p>
         <p>
           All following headings are links to the corresponding
-          sub-pages.
+          subpages.
         </p>
         <h3 id="harn">
           <a href="harn.xml">Rules for H&#226;rnworld</a>
