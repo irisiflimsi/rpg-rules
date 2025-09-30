@@ -477,117 +477,117 @@
       <div class="container">
         <h1 id="Dimensions">Dimensions</h1>
         <p>
-          A skill may be applied in multiple <em>dimensions</em>.  It
-          may be used to evaluate something, to produce something, to
-          use something, and more in the appropriate domain.  It can
-          happen under time pressure or at ones leisure.  These
-          different variable results are called dimensions.  A typical
-          dimension is the time it takes to apply a skill.  Another
-          typical dimension would be the quality of the result.  It is
-          useful to prepare common dimensions for skill application.
-          Both to be prepared and be consistent over time.
+      		A skill may be applied in multiple <em>dimensions</em>.  It
+      		may be used to evaluate something, to produce something, to
+      		use something, and more within the appropriate domain.  It can
+      		happen under time pressure or at one’s leisure.  These
+      		different variable results are called dimensions.  A typical
+      		dimension is the time it takes to apply a skill.  Another
+      		typical dimension is the quality of the result.  It is useful
+      		to prepare common dimensions for skill application, both to
+      		be prepared and to remain consistent over time.
+   	    </p>
+   	    <p>
+      		If an actor decides to use multiple dimensions at the same
+      		time, this is called a <em>trajectory</em>.  For example,
+      		assume that we have two common applications of a skill
+      		called <em>Fletching</em>: creating an arrow of standard
+      		quality, where time varies, and creating an arrow while
+      		whittling for an hour, where quality varies.  In preparing
+      		for an upcoming attack on his village, the character wants
+      		to create good arrows quickly.  The GM rules that this
+      		results in 50% speed and 50% quality.  This is a typical
+      		trajectory.
+        </p>
+        <h3 id="Accuracy">Accuracy</h3>
+        <p>
+      		Judging the value of goods produced or performances
+      		delivered works the same for almost all skills, which is why
+      		this dimension fits into the general framework.  Since the
+      		spread of these values in the concrete environment remains
+      		unknown, let us look at how these values are derived
+      		and how they are interpreted.
+    	  </p>
+        <p>
+          Consider that you want to express a <em>certainty</em>
+          between 100% and 0%.  In an example scenario, you might
+          rule that someone with a skill level of 20 is 80% certain,
+          and that someone with a 0 has 0% certainty.  The rest is
+          interpolated and extrapolated accordingly, e.g., at 10 the
+          certainty is 40%.  If you do not want to have the spread as an
+          independent dimension, you can calculate this as between
         </p>
         <p>
-          If an actor decides to use multiple dimensions at the same
-          time, this is called a <em>trajectory</em>.  For example,
-          assume that we have two common applications of a skill
-          called <em>Fletching</em>: creating an arrow of standard
-          quality, where time varies, and creating an arrow while
-          whittling for an hour, where quality varies.  In preparing
-          for an upcoming attack on his village, the character wants
-          to create good arrows at speed.  The GM rules that this
-          results in 50% speed and 50% quality.  This is a typical
-          trajectory.
+          <em>V × C</em> and <em>V / C</em>
         </p>
-	<h3 id="Accuracy">Accuracy</h3>
-	<p>
-	  Judging the values of goods produced or performances
-	  delivered works the same for almost all skills, which is why
-	  this dimensions fits into the general frame.  Since the
-	  spread of these values in the concrete environment remains
-	  unknown, let us have a look at how these values are derived
-	  and how they are unterpreted.
-	</p>
-	<p>
-	  Consider that you want to express a <em>certainty</em>
-	  between 100% and 0%.  In an example scenario, you might
-	  rule, that someone with a skill level of 20 is 80% certain
-	  and that someone with a 0 has 0% certainty.  The rest is
-	  inter- and extrapolated accordingly, e.g. at 10 certainty is
-	  40%.  If you do not want to have the spread as an
-	  independent dimension, you can calculate this as between
-	</p>
-	<p>
-	  <em>V x C</em> and <em>V / C</em>
-	</p>
-	<p>
-	  where <em>C</em> represents the certainty value between 0
-	  and 1 (the percentage divided by 100) and <em>V</em> the
-	  actual value only known the the GM.
-	</p>
-	<p>
-	  Write down the results of these calculations according to
-	  the skills you are interested in.  (You can see an example
-	  of this for Harnmaster.)  Now assume that you have determined
-	  both <em>C</em> and <em>V</em> for specific instance.  Since
-	  these numbers are usually not easy to operate with, choose
-	  any number by any arbitrary means between (roughly) the
-	  values given in the above formula.  This is the estimate
-	  that the PC is given.  If he is interested in how accurate
-	  he is, for instance to check, whether a merchant is trying
-	  to outsmart him in a trade, he can do the reverse operation
-	  and be sure that the true value is within that range.
-	</p>
-	<p>
-	  As a concrete example, suppose you determine <em>C</em> =
-	  0.60 (60%) and <em>V</em> is $160.  We are picking these
-	  numbers to show that the calculations are not difficult even
-	  if the numbers appear to be so.  Now eyeball <em>C</em>
-	  roughly as two thirds.  Multiplying $160 with 2/3 gives
-	  roughly $100 and dividing by it (multiply by 3/2) gives
-	  roughly a $250, thus an interval between $100 and $250.  If
-	  these calculations still seem excessive, consider any other
-	  way of approximation.  Now pick a random value in that
-	  range, e.g. roll a d100 and say low is at the lower end.
-	  That number comes up a 87 in our example, so we tell the PC
-	  his estimate is $200.  The PC wants to buy that item, so he
-	  wants to gauge the value more accurately in order not be
-	  ripped off but also not to miss out on a good deal.  Being a
-	  number cruncher he will be doing the reverse operation with
-	  rigor.  Because he knows his certainty to be 60%, he
-	  calculates the interval
-	</p>
-	<p>
-	  <em>$220 x (1 - 0.6) = $132</em> and <em>$220 / 0.6 =
-	  $366,67</em>
-	</p>
-	<p>
-	  This interval contains the real value $160 and leaves the PC
-	  a little wiser, but he is not in a very good bargaining
-	  position.  Note that for big values of <em>C</em> (close to
-	  1) you can use <em>V/C = V*(2 - C)</em>, if you'd rather use
-	  multiplication instead of division.
-	</p>
-	<p>
-	  In summary: use the certainty in any way you agree with your
-	  playing group.  The above provides a way to express
-	  uncertainty less ambiguously.
-	</p>
-	<h3 id="Proportional">Proportional</h3>
-	<p>
-	  This is a very easy dimension often used intuitively.  When
-	  a value result roll is positive (e.g. +3) then the normal
-	  success is beat by the same amount of a <em>constant
-	  percentage</em> (e.g. 10% which would in 30%
-	  overachievement).  To obtain a sensible constant, it is
-	  useful to think of the result roll, that would result in 0%.
-	</p>
-	<p>
-	  Say, that -20 would mean disaster and nothing is achieved at
-	  all.  This implies that from 0% to 100% we have 20 points to
-	  bridge, which puts a point at 5%, which is the <em>constant
-	  percentage</em>.  We get (as an example)
-	</p>
+        <p>
+          where <em>C</em> represents the certainty value between 0
+          and 1 (the percentage divided by 100) and <em>V</em> the
+          actual value known only to the GM.
+        </p>
+        <p>
+          Write down the results of these calculations according to
+          the skills you are interested in.  (You can see an example
+          of this in Harnmaster.)  Now assume that you have determined
+          both <em>C</em> and <em>V</em> for a specific instance.  Since
+          these numbers are usually not easy to work with, choose
+          any number by any arbitrary means between (roughly) the
+          values given in the above formula.  This is the estimate
+          that the PC is given.  If he is interested in how accurate
+          he is—for instance, to check whether a merchant is trying
+          to outsmart him in a trade—he can do the reverse operation
+          and be sure that the true value is within that range.
+        </p>
+        <p>
+          As a concrete example, suppose you determine <em>C</em> =
+          0.60 (60%) and <em>V</em> is $160.  We are picking these
+          numbers to show that the calculations are not difficult even
+          if the numbers appear to be so.  Now eyeball <em>C</em>
+          roughly as two thirds.  Multiplying $160 by 2/3 gives
+          roughly $100, and dividing by it (multiplying by 3/2) gives
+          roughly $250, thus an interval between $100 and $250.  If
+          these calculations still seem excessive, consider any other
+          method of approximation.  Now pick a random value in that
+          range, e.g., roll a d100 and say low is at the lower end.
+          That number comes up 87 in our example, so we tell the PC
+          his estimate is $200.  The PC wants to buy that item, so he
+          wants to gauge the value more accurately in order not to be
+          ripped off but also not to miss out on a good deal.  Being a
+          number cruncher, he will do the reverse operation with
+          rigor.  Because he knows his certainty to be 60%, he
+          calculates the interval:
+        </p>
+        <p>
+          <em>$220 × (1 - 0.6) = $132</em> and <em>$220 / 0.6 =
+          $366.67</em>
+        </p>
+        <p>
+          This interval contains the real value $160 and leaves the PC
+          a little wiser, but he is not in a very good bargaining
+          position.  Note that for large values of <em>C</em> (close to
+          1) you can use <em>V/C = V × (2 - C)</em> if you’d rather use
+          multiplication instead of division.
+        </p>
+        <p>
+          In summary: use certainty in any way you agree with your
+          playing group.  The above provides a way to express
+          uncertainty less ambiguously.
+        </p>
+        <h3 id="Proportional">Proportional</h3>
+        <p>
+          This is a very simple dimension often used intuitively.  When
+          a result roll is positive (e.g., +3) then the normal
+          success is exceeded by the same amount as a <em>constant
+          percentage</em> (e.g., 10%, which would mean 30%
+          overachievement).  To obtain a sensible constant, it is
+          useful to think of the result roll that would yield 0%.
+        </p>
+        <p>
+          Say that -20 would mean disaster and nothing is achieved at
+          all.  This implies that from 0% to 100% we have 20 points to
+          bridge, which puts each point at 5%, which is the <em>constant
+          percentage</em>. We get (as an example):
+        </p>
         <table style="width:75%">
           <tr>
             <th>Result Roll</th><td>-20</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td>
@@ -596,40 +596,40 @@
             <td>Result</td><td>0%</td><td>25%</td><td>50%</td><td>75%</td><td>100%</td><td>125%</td><td>150%</td><td>175%</td><td>200%</td>
           </tr>
         </table>
-	<h3 id="Exponential">Exponential</h3>
-	<p>
-	  An exponential scale is not as easy to compute.
-	  Unfortunately, it is more natural to our ruleset.  It can be
-	  simplified by using tables where this matters.  The reason,
-	  why this is more natural is the way that differences in the
-	  value behave: 10 more points mean 10 times as likely to
-	  succeed; this is the defining property of an exponential
-	  curve.
-	</p>
-	<p>
-	  A very simple dimension is this: when you say that 4 people
-	  are as likely to succeed as a single person who has 10 more
-	  points.  Because then you can also use 5-addition.
-	</p>
-	<p>
-	  As a concrete simple example, we assume that a person that
-	  is 10 times as good another produces four times the result
-	  of the lesser.  That would be equivalent t simply adding the
-	  results of the aforementioned 4 lesser people.  Maybe think
-	  of adding the weights each individual can lift and in total
-	  they simply add it all up.  That is row <em>Result 4</em> in
-	  the next table.
-	</p>
-	<p>
-	  Another result would be that 4 people cannot simultaneously
-	  address the problem with the same efficiency. They would
-	  stand in each others way, would reserve tools exclusively,
-	  etc.  In row <em>Result 2</em> we assume that these 4 people
-	  are only twice as effective as one person.  Since there is
-	  some rounding taking place, the number in paranthesis gives
-	  a factor that is often easier to work with than the more
-	  exact percentage.
-	</p>
+        <h3 id="Exponential">Exponential</h3>
+        <p>
+          An exponential scale is not as easy to compute.
+          Unfortunately, it is more natural to our ruleset.  It can be
+          simplified by using tables where necessary.  The reason
+          this is more natural is the way differences in the
+          value behave: 10 more points mean 10 times as likely to
+          succeed; this is the defining property of an exponential
+          curve.
+        </p>
+        <p>
+          A very simple dimension is this: when you say that 4 people
+          are as likely to succeed as a single person who has 10 more
+          points.  In that case, you can also use 5-addition.
+        </p>
+        <p>
+          As a concrete simple example, assume that a person who is
+          10 times as skilled as another produces four times the result
+          of the lesser.  That would be equivalent to simply adding the
+          results of the aforementioned 4 lesser people.  Maybe think
+          of adding the weights each individual can lift so that in total
+          they simply add up.  That is row <em>Result 4</em> in
+          the next table.
+        </p>
+        <p>
+          Another result would be that 4 people cannot simultaneously
+          address the problem with the same efficiency.  They would
+          stand in each other’s way, reserve tools exclusively,
+          etc.  In row <em>Result 2</em> we assume that these 4 people
+          are only twice as effective as one person.  Since there is
+          some rounding taking place, the number in parentheses gives
+          a factor that is often easier to work with than the more
+          exact percentage.
+        </p>
         <table style="width:75%">
           <tr>
             <th>Result Roll</th><td>-20</td><td>-15</td><td>-10</td><td>-5</td><td>0</td><td>5</td><td>10</td><td>15</td><td>20</td>
@@ -638,7 +638,7 @@
             <td>Result 4</td><td>6.75%</td><td>12.5%</td><td>25%</td><td>50%</td><td>100%</td><td>200%</td><td>400%</td><td>800%</td><td>1600%</td>
           </tr>
           <tr>
-            <td>Result 2</td><td>25%</td><td>35%(3/8)</td><td>50%</td><td>70%(3/4)</td><td>100%</td><td>141%(3/2)</td><td>200%</td><td>283%(3)</td><td>400%</td>
+            <td>Result 2</td><td>25%</td><td>35% (3/8)</td><td>50%</td><td>70% (3/4)</td><td>100%</td><td>141% (3/2)</td><td>200%</td><td>283% (3)</td><td>400%</td>
           </tr>
         </table>
       </div>
