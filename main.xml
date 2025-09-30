@@ -645,36 +645,36 @@
       <div class="container">
         <h1 id="Application">Appendix</h1>
         <p>
-          Note that you could just multiply the d20 skill levels by
-          two or take half for the precentile system, why use a
+          Note that you could simply multiply the d20 skill levels by
+          two or take half for the percentile system—why use a
           strange mapping?  Since we do not intend to simulate other
-          rules in this manner, you most certainly can do that
+          rules in this manner, you can certainly do that
           conversion.  We provide the details to show that these rules
           do not have the natural chance progression we desire.  But a
-          simple mapping is also added.
+          simple mapping is also included.
         </p>
         <p>
-          Many rulesets rank a skill on a percentile scale 0% through
-          100%.  This is the case for Rolemaster, Runequest, or
-          Harnmaster.  Rolling below your skill value makes you
+          Many rulesets rank a skill on a percentile scale, 0% through
+          100%.  This is the case for Rolemaster, RuneQuest, or
+          Harnmaster.  Rolling below your skill value means you
           succeed (or formulated equivalently).  The skill levels (in
-          our rules) are 0, 10, 20, and 30 and can be found in the
-          classical skill values 5%, 35%, 65%, and 95%.  That means
-          these rules have about forty skill levels, in which all
-          values fall according to our rules.  To keep things simple,
-          use
+          our rules) are 0, 10, 20, and 30, and they can be mapped to
+          the classical skill values of 5%, 35%, 65%, and 95%.  That means
+          these rules have about forty skill levels, into which all
+          values fall according to our system.  To keep things simple,
+          use:
         </p>
         <p style="font-weight:bold;text-align:center;">
-          skill level = 4/10 x classic value
+          skill level = 4/10 × classic value
         </p>
         <p>
-          Something similar is true fo Dungeons and Dragons,
-          Pathfinder, or generally the d20 group of rules, which use
-          twenty 5% steps, instead of the finer grained 1% step.  Our
-          levels 0, 10, ..., 40 are at the classic skill bonusses of
+          Something similar is true for Dungeons &#38; Dragons,
+          Pathfinder, or generally the d20 family of rules, which use
+          twenty 5% steps instead of the finer-grained 1% steps.  Our
+          levels 0, 10, ..., 40 correspond to the classic skill bonuses of
           +0, +9, +18, +27, and +36.  These steps are approximations,
           since none of these rolls are translation-invariant.  To
-          keep things simple, use
+          keep things simple, use:
         </p>
         <p style="font-weight:bold;text-align:center;">
           skill level = classic bonus
@@ -684,12 +684,12 @@
           You need to fill in the relevant skills and tasks for a
           character.  Since the possible combinations are virtually
           limitless, list only the most common ones or add another
-          sheet, if you do not find a suitable decomposition of skills
+          sheet if you do not find a suitable decomposition of skills
           and tasks.
         </p>
         <p>
           All following headings are links to the corresponding
-          sub-pages.
+          subpages.
         </p>
         <h3 id="harn">
           <a href="harn.xml">Rules for H&#226;rnworld</a>
