@@ -372,7 +372,7 @@
         <p>
           If you use the rule multiple times, always group two actors
           of similar skill levels together to reduce rounding errors.
-          (This is normalized skill level, i.e. the task level has
+          (This is normalized skill level, i.e., the task level has
           already been subtracted.)  The application of this rule
           should not depend on the order or sub-grouping of several
           actors, but rounding errors are present in the table.  See
@@ -381,17 +381,17 @@
         <p>
           As a more elaborate example, say you have four characters in
           a room searching for something and you have determined that
-          this technically means that either of those characters could
-          find it, i.e. all would have to roll against a set
-          diffculty.  But you want just one roll; imagine you had a
-          group search skill.  These characters have a skill level of
+          this technically means that any of those characters could
+          find it, i.e., all would have to roll against a set
+          difficulty.  But you want just one roll; imagine you had a
+          group search skill.  These characters have skill levels of
           5, 7, 13, and 17.  Taking the first two, because they are
           closest to each other, we combine them into an actor with
           11.  Now we combine 11 and 13 in the same manner to 17.  In
           the last step, we combine 17 and 17 into 22.
         </p>
         <p>
-          If you have two actors that both must succeed a test, that
+          If you have two actors that both must succeed at a test, that
           is equivalent to using the <em>inverse</em> stop roll, which
           means exchanging the role of positive and negative for the
           purposes of combining.  Logically, this means that either of
@@ -403,25 +403,25 @@
         </p>
         <p>
           Imagine in the previous example that the same characters are
-          trying to hide from a guard.  If either one is detected, the
+          trying to hide from a guard. If either one is detected, the
           guard will raise the alarm and the maneuver fails.  As luck
-          will have it, their Hide skill level is exactly their Search
-          skill level.  But in the inverse, the guard is active and he
-          has to succeed at detecting any of the four.  Task (inverse
-          skill) level 5 and 7 will turn into 1.  13 and 17 (closest
-          together) will turn into 10. The combined level of the task
+          would have it, their Hide skill level is exactly their Search
+          skill level. But in the inverse, the guard is active and he
+          has to succeed at detecting any of the four. Task (inverse
+          skill) levels 5 and 7 will turn into 1.  Then 13 and 17 (closest
+          together) will turn into 10.  The combined level of the task
           (inverse skill) groups 1 and 10 turns into -1.  Since the
           guard isn&#8217;t really paying attention, the GM gives the
-          guard a skill level of 0.  That still leaves the group with
+          guard a skill level of 0. That still leaves the group with
           a 60% failure chance.
         </p>
         <p>
           If you are worried about rounding errors, particularly when
           adding large numbers of skills or tasks, use the following
           formula, where &#946; is the difference in level you plug in
-          and and the addition to the higher value is calculated.
-          Round when done with 5-addition - as late as possible.  (I
-          advise you to use this formuly only if you are a rule
+          and the addition to the higher value is calculated.
+          Round only when done with the 5-addition - as late as
+          possible.  (I advise you to use this formula only if you are a rule
           designer who needs to deal with scaling issues.)  Use it
           only when players try to &#8220;break the rules&#8221; by
           exploiting the rounding errors.
@@ -437,7 +437,7 @@
           original skill level.  Additional measures should be in
           place to indicate that the skills actually belong to a
           group.  (A typical restriction is that the individual skills
-          of a goup may not differ by more than 10 points.)
+          of a group may not differ by more than 10 points.)
         </p>
         <p>
           If a decomposition results in multiple rolls, make sure that
@@ -451,27 +451,27 @@
           Decomposition and then combining skills is a great tool to
           extend the skill space beyond what rules generally cover.
           Imagine that a PC wants to tie a knot, but his skill sheet
-          says he has skill level 5 as Sailor and level 3 as
+          says he has skill level 5 as a Sailor and level 3 as a
           Mountaineer.  For tasks like knots where the difficulty is
           the same for a Sailor and a Mountaineer, the GM can allow
-          the PC to use a 9.  The reasoning is that the knot skill
+          the PC to use a 9. The reasoning is that the knot skill
           application works as if two separate skills (actors) were
           trying to tie the knot in combination.  Be careful, however,
           with allowing such additions, because if you treat 0 as the
           value an untrained individual has, then in the above case a
-          sailor that has never seen a mountain would still have a 0
-          in mountaineering and adding a 0 would yield an effective
+          sailor who has never seen a mountain would still have a 0
+          in mountaineering, and adding a 0 would yield an effective
           knot skill of 8.
         </p>
         <h3 id="Normalization">Normalization</h3>
         <p>
-          We suggest to normalize skills and tasks to zero (0).  What
-          does that mean?  This value should be the skill level of
-          untrained, uneducated, but otherwise healthy 20 year old
+          We suggest normalizing skills and tasks to zero (0).  What
+          does that mean?  This value should be the skill level of an
+          untrained, uneducated, but otherwise healthy 20-year-old
           human.  This is a fictional person.  For instance, in order
           to compare different language skills, we assume this normal
           person has none.  When it comes to gender or racial
-          differences, we also suggest to create a fictitious average.
+          differences, we also suggest creating a fictitious average.
         </p>
       </div>
       <div class="container">
