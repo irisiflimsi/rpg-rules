@@ -518,7 +518,7 @@
           independent dimension, you can calculate this as between
         </p>
         <p>
-          <em>V × C</em> and <em>V / C</em>
+          <em>V x C</em> and <em>V / C</em>
         </p>
         <p>
           where <em>C</em> represents the certainty value between 0
@@ -534,8 +534,8 @@
           any number by any arbitrary means between (roughly) the
           values given in the above formula.  This is the estimate
           that the PC is given.  If he is interested in how accurate
-          he is—for instance, to check whether a merchant is trying
-          to outsmart him in a trade—he can do the reverse operation
+          he is - for instance, to check whether a merchant is trying
+          to outsmart him in a trade - he can do the reverse operation
           and be sure that the true value is within that range.
         </p>
         <p>
@@ -558,14 +558,14 @@
           calculates the interval:
         </p>
         <p>
-          <em>$220 × (1 - 0.6) = $132</em> and <em>$220 / 0.6 =
+          <em>$220 x (1 - 0.6) = $132</em> and <em>$220 / 0.6 =
           $366.67</em>
         </p>
         <p>
           This interval contains the real value $160 and leaves the PC
           a little wiser, but he is not in a very good bargaining
           position.  Note that for large values of <em>C</em> (close to
-          1) you can use <em>V/C = V × (2 - C)</em> if you’d rather use
+          1) you can use <em>V/C = V x (2 - C)</em> if you’d rather use
           multiplication instead of division.
         </p>
         <p>
@@ -623,7 +623,7 @@
         <p>
           Another result would be that 4 people cannot simultaneously
           address the problem with the same efficiency.  They would
-          stand in each other’s way, reserve tools exclusively,
+          stand in each other&#8217;s way, reserve tools exclusively,
           etc.  In row <em>Result 2</em> we assume that these 4 people
           are only twice as effective as one person.  Since there is
           some rounding taking place, the number in parentheses gives
@@ -646,7 +646,7 @@
         <h1 id="Application">Appendix</h1>
         <p>
           Note that you could simply multiply the d20 skill levels by
-          two or take half for the percentile system—why use a
+          two or take half for the percentile system - why use a
           strange mapping?  Since we do not intend to simulate other
           rules in this manner, you can certainly do that
           conversion.  We provide the details to show that these rules
@@ -665,7 +665,7 @@
           use:
         </p>
         <p style="font-weight:bold;text-align:center;">
-          skill level = 4/10 × classic value
+          skill level = 4/10 x classic value
         </p>
         <p>
           Something similar is true for Dungeons &#38; Dragons,
