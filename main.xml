@@ -25,7 +25,7 @@
           </li>
           <li>
             Players and GMs have a common understanding that there is
-            some nondeterministic influence—i.e., chance—in resolving
+            some nondeterministic influence - i.e., chance—in resolving
             a situation.
           </li>
           <li>
@@ -104,14 +104,14 @@
         <p>
           <em>
             You roll a d5 until you roll a 1 and then count the number
-            of dice that did not show up a 1.  That is the same as the
+            of dice that did not show a 1. That is the same as the
             number of dice you actually rolled minus one.  This first
             number is used for the skill roll (of a character).  We
-            also call this the <b>positive (stop) roll</b> roll.  The
+            also call this the <b>positive (stop) roll</b>.  The
             <b>negative (stop) roll</b> is associated with the task
-            roll (the resistance of the environment or impediment)
+            roll (the resistance of the environment or impediment),
             which is rolled/handled in the same way.  The result of
-            the negative stop roll (which is still a positive number!)
+            the negative stop roll (which is still a positive number)
             is subtracted from the result of the positive.
           </em>
         </p>
@@ -120,14 +120,14 @@
           as some examples.  The mechanism is different from other RPG
           rules (I haven&#8217;t found any that use it), where you
           will often roll either a pool of dice and count those that
-          match a certain threshold or use a single die roll.
+          meet a certain threshold or use a single die roll.
         </p>
         <p>
-          The following two tables are explanatory and not needed.
+          The following two tables are explanatory and not necessary.
           The mechanics have been described completely in the
           highlighted section.  Everything else can be used to reduce
-          the number of dice thrown or to better understand the
-          implication of the (stop) roll mechanic.
+          the number of dice rolled or to better understand the
+          implications of the (stop) roll mechanic.
         </p>
         <p>
           In Table 1 the first row shows the results you can achieve
@@ -135,28 +135,28 @@
           until you get a 1 on your d5, you can interpret the complete
           positive stop roll as a series of d5 rolls as you move right
           on the first row, starting with 0.  The second row shows the
-          chance that you have of moving up one point (i.e. right) at
-          any given point as percentage value.  Note that this chance
-          is always the same.  The third row gives the chance that you
-          have of obtaining the result in the corresponding first row
+          chance of moving up one point (i.e., right) at
+          any given step as a percentage value.  Note that this chance
+          is always the same.  The third row gives the chance of obtaining
+          the result in the corresponding first row
           in each column.  These are expressed as rolls on a d100.
           (This row can be used to reduce the number of rolls but
-          still receive the benefits of the rule.)  All but the first
+          still retain the benefits of the rule.)  All but the first
           column of this row are approximations.
         </p>
         <p>
           The last column is somewhat special.  It combines all
           results beyond 9.  Imagine you expand the table to infinity.
-          While the extensions of the first and second row are quite
+          While the extensions of the first and second rows are quite
           obvious, the third is not.  It should be interpreted thus:
-          if you roll 91-100, i.e. the highest 10%, you need to roll
-          again on this table, get the result as before and then add
+          if you roll 91-100, i.e., the highest 10%, you need to roll
+          again on this table, get the result as before, and then add
           10 to the result.  (For the mathematically inclined, this is
           a <em>recursive</em> definition, since it is possible that
           you roll 91-100 again, which forces you to roll on this
           table again and add 20 to the net result from the repeated
-          application.  We will see this in the examples.)  Some
-          system have a similar mechanic and call it an
+          application. We will see this in the examples.)  Some
+          systems have a similar mechanic and call it an
           &#8220;exploding&#8221; roll or &#8220;open-ended&#8221;.
         </p>
         <table style="width:70%">
@@ -185,18 +185,18 @@
         </p>
         <p>
           Only the third row needs explanation.  With a roll of 01-06
-          and 95-100 the extended roll is continued on the previous
-          table with correspodnding consequences.  Positive
+          and 95-100 the extended roll continues on the previous
+          table with corresponding consequences. Positive
           continuation - the one on the right end of the table with
           95-100 - is exactly as before, while negative continuation
-          results in negative results to be added.  For instance,
+          results in negative values being added.  For instance,
           rolling 02 and then a 25 gives a result of -11.  The second
-          row cell below the 0 result means 4/9 (44%) chance to
-          increase the result by 1, the same chance to descrease the
-          result by one and a 1/9 (11%) to stay at 0.  The astute
+          row cell below the 0 result means a 4/9 (44%) chance to
+          increase the result by 1, the same chance to decrease the
+          result by 1, and a 1/9 (11%) chance to stay at 0.  The astute
           reader will see the chance for 0 in the third row is only
-          8%, while 1/9 is approximatly 11%.  This &#8220;error&#8221;
-          is due to rounding; the price for rolling less dice.
+          8%, while 1/9 is approximately 11%.  This &#8220;error&#8221;
+          is due to rounding - the price for rolling fewer dice.
         </p>
         <table style="font-size:75%;width:90%">
           <tr>
@@ -229,14 +229,14 @@
         <h3 id="Examples">Examples</h3>
         <p>
           A stop roll is rolling a d5 until a 1 is rolled.  Physical
-          dice cannot come with five equal faces, so you can use a d10
+          dice cannot have five equal faces, so you can use a d10
           that stops on 1 and 2 instead.  To improve speed, several
-          d10s may be rolled in ordered fashion.  Order them according
-          to size or alphabetical color (e.g. black, blue, green,
+          d10s may be rolled in an ordered fashion.  Order them according
+          to size or alphabetical color (e.g., black, blue, green,
           yellow) or in any other way you can remember.  If you lack
           d10s, you can also roll d6s with only a marginal 3% error on
-          each roll. Or you can reroll all 6s.  But all players (and
-          GM) should roll the same way.  Computer applications that
+          each roll, or you can reroll all 6s.  But all players (and
+          the GM) should roll the same way.  Computer applications that
           make rolling as easy as pressing a button are also easy to
           program.
         </p>
@@ -253,13 +253,13 @@
           </p>
           <p>
             A more exotic roll would be the sequence 96, 99, 93, 61 on
-            the d100.  The result would be 34 for a positive stop
+            the d100. The result would be 34 for a positive stop
             roll.  For a combined stop roll, the result would be 29
             (and the roll of 61 ignored, because it is not needed,
-            because the 93 already &#8220;stops&#8221; on Table 2).
+            since the 93 already &#8220;stops&#8221; on Table 2).
           </p>
           <p>
-            Using the d10-for-d5-replacement method, the positive
+            Using the d10-for-d5 replacement method, the positive
             sequence on a d10 shows 3, 8, 10, 7, 9, 4, 6, 3, 10, 10,
             8, 4, 2 and the negative sequence shows 3, 6, 9, 4, 4, 1.
             The result is positive 12 and negative 5 with a net result
@@ -267,18 +267,18 @@
           </p>
         </div>
         <p>
-          Skill and task (rolls) are symmetrical.  If you imagine one
+          Skill and task rolls are symmetrical.  If you imagine one
           character stealthily evading another, the first may
           interpret the rolls as his skill at evading observation,
           while the second may interpret the rolls as his skill in
-          successfully observing the vicinity.  Either way, one roll
+          successfully observing the vicinity. Either way, one roll
           (or set of rolls) will determine the outcome.
         </p>
         <h3 id="Hints">Hints</h3>
         <p>
           When describing a situation, the actor and the obstacle both
           possess a certain <em>level</em>.  The first is usually a
-          skill in the particular act and second a measure of the
+          skill in the particular act and the second a measure of the
           difficulty of the task.  In the previous example, the
           observer might have a (skill) level of 5 and finding the
           clandestine character a (task) level of 3.  These levels
@@ -286,54 +286,54 @@
           respectively.
         </p>
         <p>
-          We are adding and subtracting 4 numbers; stop rolls and
+          We are adding and subtracting four numbers: stop rolls and
           levels.  The calculations result in a level difference
           between the positive and negative part (or the skill level
-          and task level) which is relevant for rolling.  If only the
+          and task level), which is relevant for rolling.  If only the
           failure or success is of interest and not the degree of
           success or failure, you can apply the following shortcut.
-          Since the level difference must be met by the lower level
+          Since the level difference must be met by the lower-level
           contestant, you may roll all the difference dice in one
-          combined attempt and check, whether any stop digit appears.
-          If it does the lower contestant cannot win, since it is
-          irrelevant, where the stop digit appears.  If the stop digit
-          does not appear, chances have reduced to 50/50, and you can
+          combined attempt and check whether any stop digit appears.
+          If it does, the lower contestant cannot win, since it is
+          irrelevant where the stop digit appears.  If the stop digit
+          does not appear, chances are reduced to 50/50, and you can
           flip a coin in any of a number of ways.
         </p>
         <p>
           For example, suppose a climber with a skill level of 57
           wants to scale a cliff of difficulty level 49.  The
-          difference is 8.  The GM rolls 8 dice, which show up 3, 5,
+          difference is 8.  The GM rolls 8 dice, which show 3, 5,
           6, 1, 3, 9, 9, and 8.  Since 1 is a stop digit, the cliff is
-          scaled.  (The cliff has the lowere level!)  Say, the 1 had
-          been a 7 instead, the cliff would have had a good chance to
+          scaled.  (The cliff has the lower level!)  Suppose the 1 had
+          been a 7 instead - the cliff would have had a good chance to
           drop the character.  The GM decides that even is good for
-          the character and odd is bad and rolls a d10.  It comes up a
-          6 and thus the character has barely made it.
+          the character and odd is bad, and rolls a d10.  It comes up a
+          6, and thus the character has barely made it.
         </p>
         <p>
           Another pragmatic rule applies to differences of at least
-          10.  Rolling 10 non-stop rolls in a row to match a level
+          10. Rolling 10 non-stop rolls in a row to match a level
           difference of 10 can be shortened to rolling a 1 on a d10.
-          (The chance 1/10 is an approximation of the exact chance.)
+          (The chance, 1/10, is an approximation of the exact chance.)
           In fact, the choice of 80% (d5) in the initial paragraph was
           made for the reason that this heuristic holds.
         </p>
         <h3 id="Hints">Diet Rules</h3>
         <p>
-	  Also known as <em>light rules</em>, the above easily scales
-	  into a light version.  Divide the skill values above by 10
-	  and record them as such. This will give a 90% advantage to
-	  someone with one more point.
+          Also known as <em>light rules</em>, the above easily scales
+          into a lighter version.  Divide the skill values above by 10
+          and record them as such. This will give a 90% advantage to
+          someone with one more point.
         </p>
         <p>
-	  As an example, we record a skill called <em>Fisticuff</em>
-	  with a 1-5 star rating.  When you have two opponents, either
-	  simply declare the one with more stars the winner, or roll a
-	  d10, and he wins with 1 through 9.  With equal rating, or
-	  with a 10 on the d10 respectively, you have a draw, in case
-	  that is an acceptable outcome. If not, flip a coin to see
-	  who the winner is.
+          As an example, we record a skill called <em>Fisticuff</em>
+          with a 1-5 star rating. When you have two opponents, either
+          simply declare the one with more stars the winner, or roll a
+          d10, and he wins with 1 through 9.  With equal rating, or
+          with a 10 on the d10, you have a draw - if that is an
+          acceptable outcome.  If not, flip a coin to see
+          who the winner is.
         </p>
       </div>
       <div class="container">
