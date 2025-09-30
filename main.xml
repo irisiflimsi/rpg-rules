@@ -341,8 +341,8 @@
         <p>
           The following rules address common situations.  How do you
           combine a group of actors that support each other?  How do
-          you apply two skills to a task that fits both?  You should
-          never indiscriminately add values.  Remember that a
+          you apply two different skills to a task that involves both?
+          You should never indiscriminately add skill values.  Remember that a
           difference of 10 means a 90% winning difference by design.
         </p>
         <h3 id="Combinations">Combinations</h3>
@@ -352,13 +352,13 @@
           using the table below.
         </p>
         <p>
-          Say you want to add the skills <em>n</em> and <em>m</em> of
+          Suppose you want to combine the skills <em>n</em> and <em>m</em> of
           two actors, where the respective task difficulties have
           already been subtracted.  In the first row, you index the
           positive difference between <em>n</em> and <em>m</em>.  The
           second row will then give you the bonus to add to the higher
           of the two skills - which is then the only one you need to
-          roll.  Say the skills are 5 and 9.  Then the net skill level
+          roll.  For example, if the skills are 5 and 9.  Then the net skill level
           of the two actors together is 12.
         </p>
         <table style="width:75%">
@@ -399,7 +399,7 @@
           actor (originally the obstacle).  Keep in mind that the
           reversal of <em>positive</em> and <em>negative</em> roll
           also changes who of the two has the higher skill level.
-          This may take a bit of getting used to.
+          This may require a bit of getting used to.
         </p>
         <p>
           Imagine in the previous example that the same characters are
@@ -422,8 +422,8 @@
           and the addition to the higher value is calculated.
           Round only when done with the 5-addition - as late as
           possible.  (I advise you to use this formula only if you are a rule
-          designer who needs to deal with scaling issues.)  Use it
-          only when players try to &#8220;break the rules&#8221; by
+          designer who needs to deal with scaling issues.)  Reserve this
+          for situations where players attempt to &#8220;break the rules&#8221; by
           exploiting the rounding errors.
         </p>
         <p style="font-weight:bold;text-align:center;">
@@ -431,7 +431,7 @@
         </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
-          A skill may be decomposed into other skills, if so desired.
+          A skill may be broken down into related skills, if so desired.
           The decomposition must be such that the combination of the
           (weighted) averages of the new skill levels results in the
           original skill level.  Additional measures should be in
@@ -444,11 +444,11 @@
           the rules of <em>Combinations</em> remain valid.  A typical
           example would be to turn a roll that would usually apply
           every 10 days into a roll that applies every day.  This
-          implies that all of the daily rolls have a difficulty
+          implies that each of the daily rolls has its difficulty
           increased by 10.
         </p>
         <p>
-          Decomposition and then combining skills is a great tool to
+          Breaking down and then recombining skills is a useful tool to
           extend the skill space beyond what rules generally cover.
           Imagine that a PC wants to tie a knot, but his skill sheet
           says he has skill level 5 as a Sailor and level 3 as a
@@ -466,8 +466,8 @@
         <h3 id="Normalization">Normalization</h3>
         <p>
           We suggest normalizing skills and tasks to zero (0).  What
-          does that mean?  This value should be the skill level of an
-          untrained, uneducated, but otherwise healthy 20-year-old
+          does that mean?  This value should represent the skill level
+          of an untrained, uneducated, but otherwise healthy 20-year-old
           human.  This is a fictional person.  For instance, in order
           to compare different language skills, we assume this normal
           person has none.  When it comes to gender or racial
