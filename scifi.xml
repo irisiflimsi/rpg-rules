@@ -223,7 +223,7 @@
           </tr>
         </table>
         <p>
-	  Weapons list the minimal recovery time, i.e. relaod time.
+	  Weapons list the minimal recovery time, i.e. reload time.
         </p>
         <p>
           For grappling, wounds are treated as penalty to any physical
@@ -629,6 +629,7 @@
             <td><a href="#co-inanimate">Inanimate Damage</a></td>
             <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
             <td><a href="#co-bloodloss">Bloodloss</a></td>
+            <td><a href="#co-wounds">Wounds</a></td>
           </tr>
         </table>
         <h5 id="co-move">Move</h5>
@@ -820,172 +821,23 @@
           bloodloss (e.g. Frost) including to inanimate objects or
           reduced damage, e.g. blunt trauma.
         </p>
-        <h5/>
-        <p style="text-align:center">
-          Size Table
-        </p>
-        <table style="width:70%">
-          <tr>
-            <th>Modifier</th>
-            <th>-5</th>
-            <th>-4</th>
-            <th>-3</th>
-            <th>-2</th>
-            <th>-1</th>
-            <th>0</th>
-            <th>+1</th>
-            <th>+2</th>
-            <th>+3</th>
-            <th>+4</th>
-            <th>+5</th>
-          </tr>
-          <tr>
-            <td>Size</td>
-            <td>1ft</td>
-            <td>1.5ft</td>
-            <td>2ft</td>
-            <td>3ft</td>
-            <td>4ft</td>
-            <td>6ft</td>
-            <td>8ft</td>
-            <td>12ft</td>
-            <td>16ft</td>
-            <td>24ft</td>
-            <td>32ft</td>
-          </tr>
-        </table>
-        <p style="text-align:center">
-          Fall Table
-        </p>
-        <table style="width:70%">
-          <tr>
-            <th>Height (ft)</th>
-            <th>0</th>
-            <th>5</th>
-            <th>10</th>
-            <th>15</th>
-            <th>20</th>
-            <th>25</th>
-            <th>30</th>
-            <th>35</th>
-            <th>40</th>
-            <th>45</th>
-            <th>50</th>
-          </tr>
-          <tr>
-            <td>Impact (B)</td>
-            <td>0</td>
-            <td>0</td>
-            <td>1</td>
-            <td>3</td>
-            <td>5</td>
-            <td>10</td>
-            <td>15</td>
-            <td>25</td>
-            <td>35</td>
-            <td>44</td>
-            <td>75</td>
-          </tr>
-        </table>
-        <p style="text-align:center">
-          Shock Table
-        </p>
-        <table style="width:90%">
-          <tr>
-            <th>Result</th>
-            <th>-1</th>
-            <th>-2</th>
-            <th>-3</th>
-            <th>-4</th>
-            <th>-5</th>
-            <th>-6</th>
-            <th>-7</th>
-            <th>-8</th>
-            <th>-9</th>
-            <th>-10</th>
-            <th>-11</th>
-            <th>-12</th>
-            <th>-13</th>
-            <th>-14</th>
-            <th>-15</th>
-            <th>-16</th>
-            <th>-17</th>
-            <th>-18</th>
-            <th>-19</th>
-            <th>-20</th>
-          </tr>
-          <tr>
-            <td>Time</td>
-            <td>1s</td>
-            <td>3s</td>
-            <td>6s</td>
-            <td>10s</td>
-            <td>30s</td>
-            <td>1min</td>
-            <td>3min</td>
-            <td>6min</td>
-            <td>10min</td>
-            <td>30min</td>
-            <td>1h</td>
-            <td>3h</td>
-            <td>6h</td>
-            <td>10h</td>
-            <td>1day</td>
-            <td>3day</td>
-            <td>6days</td>
-            <td>10days</td>
-            <td>30days</td>
-            <td>60days</td>
-          </tr>
-        </table>
-        <h3 id="wounds">Wounds</h3>
+        <h5 id="co-wounds">Wounds</h5>
         <p>
           Combatants who sustain Serious or Grievous wounds may die
           during the healing routine.  On the other hand, various
-          types of magic, miracles, Psionics, and potions can improve
-          healing.
+          types of medicine or prosthetics can improve healing
+          greatly.  For descriptive purposes, wounds are called
+          <em>Minor</em>, <em>Serious</em>, <em>Grievous</em>,
+          <em>Incapacitating</em>, and <em>Destroyed</em> in steps of
+          5.
         </p>
         <p>
-          When the following text says, adjacent body parts are
-          affected, effects include penalties (which are not
-          cumulative but take the maximum) infection chance and
-          bloodloss (also not cumulative but take the maximum).  They
-          are not recursive, i.e. do not imply secondary effects.
-        </p>
-        <p>
-          <em>1-5:</em> Minor.  Wounds only have wound penalty.
-        </p>
-        <p>
-          <em>5-10:</em> Serious. Wounds of this type also have minor
-          effects on neighbouring detailed body parts at 5 points
-          less.  Any activity involving these body parts are at the
-          appropriate penalty.  These effect wounds do not heal
-          separately.
-        </p>
-        <p>
-          <em>11-15:</em> Grievous.  The detailed body part cannot be
-          used, serious use effects on neighbouring detailed body
-          parts, and minor on neighboring main parts. (This might only
-          be the including main part.)  These effect wounds do not
-          heal separately.  Minor effects are at 10 less than the
-          Grievous, while serious are 5 less.
-        </p>
-        <p>
-          <em>16-20:</em> Incapacitating, the main body part cannot be
-          used, serious use effects on neighbouring main body parts.
-          (For head this means unconsciousness and for thorax imminent
-          death.)  Serious effects are at 10 less than the
-          incapacitating wound itself.
-        </p>
-        <p>
-          <em>21+:</em> Destroyed, the main body part lost its
-          integrity, Grievous use effects on neighbouring main body
-          parts.  (For limbs this means at least severed.  Thorax is
-          split open or spinal cord severed.  For all but the
-          extremities this means instant death.  For all other body
-          parts, death is probably imminent due to the side effects.)
-          Grievous use effects are at 10 less than the Destroyed wound
-          itself.
+          <em>Destroyed:</em> Usually this means that the main body
+          part has lost its integrity.  For limbs this means at least
+          severed.  Thorax is split open or spinal cord severed.  For
+          all but the extremities this means instant death.  For all
+          other body parts, death is probably imminent due to the side
+          effects.
         </p>
         <h3 id="heal-wounds">Healing</h3>
         <p>
@@ -1065,20 +917,7 @@
             the rate of 1 per second once air is available again..
           </p>
         </div>
-        <h3 id="effect-wounds">Effects</h3>
-        <p>
-          Fatigue is fully applied to all skill rolls.
-        </p>
-        <p>
-          Any physical skill receives one half of all the wound points
-          as penalty.  Any non-physical skill receives the full
-          <em>head</em> wound points as penalty.  Moving receives any
-          <em>leg</em> inhury fully but none of the others.
-        </p>
-        <p>
-          Non-skill penalties such as Healing or Stumble are described
-          in the appropriate sections.
-        </p>
+        <h5/>
       </div>
     </div>
   </body>
