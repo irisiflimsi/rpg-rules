@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="main.xsl"?>
+<html xmlns:svg="http://www.w3.org/2000/svg">
+  <head>
+    <title>Rules for Science Fiction</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" media="print" href="mainp.css"/>
+    <link rel="stylesheet" href="harn.css"/>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">Rules for Science Fiction</div>
+      <div class="container">
+        <h1 id="rules">Basic Rules</h1>
+        <p>
+          This is a set of rules, which represent the aspects
+          typically encountered in a SciFi generic setting.  Akin to
+          Star Trek, Dark Matter, or Firefly.  It is not intended for
+          very realistic setting such as Expanse nor for Space Fantasy
+          like Star Wars.  Also see <a href="main.xml">Main Rule</a>
+          for the generic details.
+        </p>
+        <h3 id="overview">Overview</h3>
+        <p>
+	  Many values are taken from Harnmaster (various versions) and
+	  fan publication such as Gunmaster from Bill Gant (various
+	  versions but adapted to these rules.  The intention was to
+	  benefit from the relationship of the values.  For example,
+	  when comparing firearms with melee weapons.
+        </p>
+        <h4>Skill Testing</h4>
+        <p>
+          Skill testing is a micro-negotiation.  The GM describes the
+          task and the dimensions available.  The character in
+          question names the skills he thinks are most appropriate.
+          The GM then names the diffculty for each of the skills and
+          how they can potentially be combined. 
+        </p>
+        <p>
+          Now n5 is rolled, adding skill value (SV).  The task
+          difficulty value is subtracted from the roll and if the net
+          result is non-negative, the skill has been successfully
+          employed; if the roll is negative, the attempt has failed.
+        </p>
+        <p>
+          For example, if a PC declares the intent to perform a
+          gymnastic feat, he would suggest to the GM that &#8220;I
+          have the Acrobatics skill&#8221;.  The GM would then tell
+          the player &#8220;this has a difficulty of 15.&#8221; In
+          cases where success or failure may not be obvious, the GM
+          should make the roll secretly and record the relevant skill
+          of the PCs beforehand.
+        </p>
+        <p>
+          To determine the degree of success or failure, use the
+          dimensions.
+        </p>
+        <p>
+          When two characters use skills against each other, each
+          character makes a p5 skill roll appropriate to the skill in
+          question and the results are compared to give a net result.
+          The character with the higher result wins the challenge.  If
+          both characters achieve the same success level, this is a
+          stalemate.  If a tie is not appropriate to the situation,
+          toss a coin.
+        </p>
+        <h4>Star Scale</h4>
+        <p>
+          The star-scale is often used to simplify evaluation.
+        </p>
+        <table style="width:75%">
+          <tr>
+            <th>Stars</th>
+            <td>&#9733;</td>
+            <td>&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;&#9733;</td>
+            <td>&#9733;&#9733;&#9733;&#9733;&#9733;</td>
+          </tr>
+          <tr>
+            <th>SV</th>
+            <td>5-15</td>
+            <td>15-25</td>
+            <td>25-35</td>
+            <td>35-45</td>
+            <td>45-55</td>
+          </tr>
+        </table>
+        <h3 id="five-add">5-Addition</h3>
+        <p>
+          A convenience table for the 5-addition of zeroes.  Rounding
+          is to one fractional digit only.  Multiples of 2 are left
+          out; every doubling means a +5.
+        </p>
+        <table style="width:80%">
+          <tr>
+            <th>Number</th>
+            <td>3</td>
+            <td>5</td>
+            <td>7</td>
+            <td>9</td>
+            <td>11</td>
+            <td>13</td>
+            <td>15</td>
+            <td>17</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <th>Result</th>
+            <td>7.9</td>
+            <td>11.6</td>
+            <td>14</td>
+            <td>15.8</td>
+            <td>17.3</td>
+            <td>18.5</td>
+            <td>19.5</td>
+            <td>20.4</td>
+            <td>21.2</td>
+          </tr>
+        </table>
+        <h3 id="dim-link">Dimension Links</h3>
+        <table class="links" style="width:75%">
+          <tr>
+            <td><a href="#di-acc">Accuracy</a></td>
+            <td><a href="#di-co1">Climbing</a></td>
+            <td><a href="#di-co1">Combat</a></td>
+          </tr>
+          <tr>
+            <td><a href="#di-des">Descriptive</a></td>
+            <td><a href="#di-sta">Healing</a></td>
+            <td><a href="#di-ini">Initiative</a></td>
+          </tr>
+          <tr>
+            <td><a href="#di-kno">Knowledge</a></td>
+            <td><a href="#di-mov">Move</a></td>
+            <td><a href="#di-yie">Yield</a></td>
+          </tr>
+        </table>
+        <h3 id="dim">Dimensions</h3>
+        <p>
+          The following shows example dimensions.  Finding the
+          appropriate dimension depends on the concrete circumstances.
+          Consider what would be appropriate for an untrained
+          individual (SV 0) and what is expected (the average result)
+          for a sufficiently educated persion (SV 20).  Interpret the
+          results inbetween and outside of the bounds accordingly.
+        </p>
+        <h5 id="di-acc">Accuracy</h5>
+        <p>
+          Judging the values of goods produced or performances
+          delivered.  Also see the <a href="main.xml">Main Rule</a>
+        </p>
+        <table style="width:80%">
+          <tr>
+            <th>Dimension</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+          </tr>
+          <tr class="text">
+            <td>Error</td>
+            <td>50% - 200%</td>
+            <td>80% - 125%</td>
+            <td>90% - 110%</td>
+            <td>95% - 105%</td>
+            <td>97% - 103%</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-cli">Climbing</h5>
+        <p>
+          Climbing Speed is 1/4 walking speed at success. Speed can be
+          increased by 1/4 for a -10 penalty, or decreased accordingly, but
+          negative speeds are not allowed.  E.g. for a +10, one can
+          opt to simply try and cling to a holding to not fall down.
+          A failure results in a fall, usually evenly distributed
+          among the total climb.
+        </p>
+        <h5 class="skill" id="di-co1">Combat</h5>
+        <p>
+          One dimension is the time (in seconds), which it takes to
+          achieve the wound level zero on the defender.  The wound
+          level is a separate dimension; you can use trajectories.
+          Once a (rolled) progression has reached its goal, a new
+          skill roll is made.  It is therefore possible to play
+          10-second round-based combat.
+        </p>
+        <p>
+          The <em>wounds</em> are the result of the <em>value</em>
+          calculation divided by 5, e.g. a 35 value result is 7
+          wounds.
+        </p>
+        <p>
+          The fractional parts for the higher values in the time
+          dimension mean that multiple attacks &#8220;connect&#8221;
+          at the same time.  This is to avoid combat in split seconds.
+        </p>
+        <table style="width:90%">
+          <tr>
+            <th>Dimension</th>
+            <th>-30</th>
+            <th>-20</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>80</td>
+            <td>40</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>5/2</td>
+            <td>5/4</td>
+            <td>5/8</td>
+          </tr>
+        </table>
+        <p>
+	  Weapons list the minimal recovery time, i.e. relaod time.
+        </p>
+        <p>
+          For grappling, wounds are treated as penalty to any physical
+          activity that instead of damage to heal.  Such wounds are
+          immediately reduced to zero, once the grapple is no longer
+          maintained.
+        </p>
+        <h5 class="skill" id="di-des">Descriptive</h5>
+        <p>
+          Description for various default skill applications that are not quantitative.
+        </p>
+        <table style="width:70%">
+          <tr>
+            <th>Dimension</th>
+            <th>-10</th>
+            <th>-0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+          </tr>
+          <tr class="text">
+            <td>Rhetoric</td>
+            <td>Noise</td>
+            <td>Comprehension</td>
+            <td>Listening</td>
+            <td>Consideration</td>
+            <td>Agreement</td>
+            <td>Agreement</td>
+          </tr>
+          <tr class="text">
+            <td>Singing</td>
+            <td>Imperceptible</td>
+            <td>Childlike</td>
+            <td>Folk</td>
+            <td>Artist</td>
+            <td>Original</td>
+            <td>Unique</td>
+          </tr>
+          <tr>
+            <td>Awareness</td>
+            <td>Immediate</td>
+            <td>General</td>
+            <td>Movement</td>
+            <td>Strangeness</td>
+            <td>Distance</td>
+            <td>6th sense</td>
+          </tr>
+          <tr>
+            <td>Language</td>
+            <td>Exists</td>
+            <td>Basic</td>
+            <td>Fair</td>
+            <td>Fluent</td>
+            <td>Faceted</td>
+            <td>Mastery</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-sta">Healing</h5>
+        <p>
+          Healing time is given for one wound point.  Note that a
+          reduction in the effective wound points causes re-evaluation
+          of the effective healing rate, but should be ignored for
+          playability.
+        </p>
+        <p>
+          Wounds are the (individual) task levels, but the wounds
+          themselves adverse effect healing.  individually and the
+          time unit is days.  Add a potential physician&#8217;s bonus
+          (see below) once when determining the healing rate.  Healing
+          rate can be improved with a physician present during the
+          healing process in the same manner.
+        </p>
+        <p>
+          Physicians modify with half their skill result against the
+          same wound level during tending and diagnosing a patient.
+          (For particularly severe cases it may be better for a doctor
+          to abstain.)  This is not a trajectory.
+        </p>
+        <table style="width:75%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-15</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3/2</td>
+            <td>1</td>
+            <td>3/4</td>
+            <td>1/2</td>
+            <td>3/8</td>
+            <td>1/4</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-ini">Initiative</h5>
+        <p>
+          Initiative reflects battle experience, discipline, and
+          morale.  Initiative determines the speed in which characters
+          can assess a stressful situation.  Characters take the time
+          listed before they can act.  An ambush gives a penalty.
+        </p>
+        <p>
+          During the time a character is &#8220;frozen&#8221; this
+          way, he is trying to understand the situation he is in and
+          assesses the options he has.  He is <em>cautious</em> during
+          that time.  General awareness issues are not covered by
+          Initiative.
+        </p>
+        <p>
+          Battle-hardened characters may come into the fractional
+          range.  Fractions can be used to determine who goes first.
+          The GM determines, whether going first impedes the action of
+          another in the second that the action takes place.  This
+          changes the drama of simultaneous activity, which may or may
+          not be appropriate.
+        </p>
+        <p>
+          The situation in combat changes constantly.  After one
+          action, the next is given the penalty of the Penalty
+          dimension, which is reduced by 1 per second, a penalty
+          indicates taking premature action.  For round-based combat,
+          this penalty is reduced by 10 and then halved.  (Acting every
+          other round reduces the penalty by 10 once more.)
+        </p>
+        <p>
+          (The Penalty-formula is derived from assuming a Time penalty
+          of the value indicated before each round and then acting one
+          round.  E.g. at value 20 this gives 13.  Since such a
+          penalty would be reduced continuously, the average is
+          taken.)
+        </p>
+        <p>
+          For round-based combat, Initiative usually simply determines
+          the order of activity.  Changing the order or acting twice
+          by accepting penalties should be avoided, as it can quickly
+          lead to escalation, the avoidance of which is precisely the
+          reason round-based combat is used. Round-based numbers are
+          also rounded towards the smaller absolute value, to reduce
+          speculation on fractional rounding.
+        </p>
+        <table style="width:90%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-15</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>60</td>
+            <td>45</td>
+            <td>30</td>
+            <td>20</td>
+            <td>10</td>
+            <td>8</td>
+            <td>6</td>
+            <td>4.5</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0.8</td>
+            <td>0.6</td>
+          </tr>
+          <tr class="num">
+            <td>Penalty</td>
+            <td>-35</td>
+            <td>-28</td>
+            <td>-20</td>
+            <td>-15</td>
+            <td>-10</td>
+            <td>-9</td>
+            <td>-8</td>
+            <td>-7</td>
+            <td>-7</td>
+            <td>-6</td>
+            <td>-6</td>
+            <td>-6</td>
+            <td>-5</td>
+          </tr>
+          <tr class="num">
+            <td>Rd Penalty</td>
+            <td>-12</td>
+            <td>-8</td>
+            <td>-5</td>
+            <td>-2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>+1</td>
+            <td>+1</td>
+            <td>+1</td>
+            <td>+2</td>
+            <td>+2</td>
+            <td>+2</td>
+            <td>+2</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-kno">Knowledge</h5>
+        <p>
+          This dimension can also be used as knowledge about
+          knowledge, i.e. how sure is the character that his
+          reproduction of the knowledge is correct.
+        </p>
+        <div class="explain">
+          <p>
+            <em>-10:</em> Knowing that the domain can provide
+            knowledge is shaky.
+          </p>
+          <p>
+            <em>0:</em> Character knows the domain for such knowledge
+            exists and can separate it from different domains.
+          </p>
+          <p>
+            <em>10:</em> The basic concepts are known, advanced
+            concepts have been heard of but cannot be applied.
+          </p>
+          <p>
+            <em>20:</em> Most concepts of the domain are known and can
+            be applied.  The character is less confident with fringe
+            concepts.
+          </p>
+          <p>
+            <em>30:</em> The domain is understood with ease.
+            Improvement of the art is possible.
+          </p>
+          <p>
+            <em>40:</em> Mastery of the domain as far as humanly
+            possible.  Improvement of the art is a normal task.
+          </p>
+        </div>
+        <h5 class="skill" id="di-mov">Move</h5>
+        <p>
+          Consider load and acceleration for unusually fast movers (or
+          abusers).
+        </p>
+        <table style="width:90%">
+          <tr>
+            <th>Dimension</th>
+            <th>-60</th>
+            <th>-50</th>
+            <th>-40</th>
+            <th>-30</th>
+            <th>-20</th>
+            <th>-10</th>
+            <th>0</th>
+            <th>10</th>
+            <th>20</th>
+            <th>30</th>
+            <th>40</th>
+            <th>50</th>
+            <th>60</th>
+          </tr>
+          <tr class="num">
+            <td>Speed (m/s)</td>
+            <td>5/16</td>
+            <td>7/16</td>
+            <td>5/8</td>
+            <td>7/8</td>
+            <td>5/4</td>
+            <td>7/4</td>
+            <td>5/2</td>
+            <td>7/2</td>
+            <td>5</td>
+            <td>7</td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+          </tr>
+        </table>
+        <h5 class="skill" id="di-yie">Yield</h5>
+        <p>
+          <em>Yield</em> is used for various creation or harvesting
+          tasks.  <em>Yield</em> can usually be compensated by
+          spending more time but in some cases a minimum result must
+          be achieved or time cannot be consecutively be spent,
+          &#8220;ruining&#8221; the result.
+        </p>
+        <p>
+          As example: 2 time units with with SV 5 yields 3.
+        </p>
+        <table style="width:80%">
+          <tr>
+            <th>Dimension</th>
+            <th>-20</th>
+            <th>-15</th>
+            <th>-10</th>
+            <th>-5</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+          </tr>
+          <tr class="num">
+            <td>Yield</td>
+            <td>1/4</td>
+            <td>3/8</td>
+            <td>1/2</td>
+            <td>3/4</td>
+            <td>1</td>
+            <td>3/2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+          </tr>
+          <tr class="num">
+            <td>Time</td>
+            <td>4</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3/2</td>
+            <td>1</td>
+            <td>3/4</td>
+            <td>1/2</td>
+            <td>3/8</td>
+            <td>1/4</td>
+          </tr>
+        </table>
+        <h5/>
+        <h3 id="skills">Skills</h3>
+        <p>
+	  Skills can be specialized.  Specialization has the advantage
+	  of reducing the task level in a specific domain, which
+	  general skill would not do.  For example specializing in a
+	  specific melee weapon such as a sword, would reduce the task
+	  of fighting against an opponent more susceptible to such
+	  attacks compared to general melee weapons.
+        </p>
+        <h3 id="tasks">Tasks</h3>
+        <p>
+          For a task multiple skills may be applicable.  Usually they
+          can be 5-added but the difficulty may also be different for
+          their application.
+        </p>
+      </div>
+      <div class="container">
+        <h1 id="combat">Combat</h1>
+        <p>
+          At the beginning of each combat the players and GM should
+          jointly decide which action options they want to allow and
+          which will simply be abstracted by a set penalty/bonus by
+          the GM.  This can speed up combat tremendously.  If tactical
+          options outside of combat are affected by the decision, the
+          GM should inform the players of that.  For instance, if
+          vehicle combat is too tedious today, than the PCs might just
+          as well disembark already to allow for smoother combat
+          resolution.
+        </p>
+        <p>
+          In order to simulate larger combats with many participants,
+          the usual 5-Addition can be used.  It does not provide as
+          many tactical options as individual combat does, but greatly
+          reduces time spent.  Both time and wound dimension should be
+          scaled linearly with the number of particpipants.  E.g. a
+          wound of 5 after 30 seconds would scale to a total of 50
+          points after 5 minutes for 10 people or to 500 points after
+          50 minutes for 100 people.  The points should be distributed
+          in reasonable batches on the participants on each side, the
+          smallest batch size being the wounds rolled.  People can be
+          hit multiple times.
+        </p>
+        <h3 id="co-links">Combat Links</h3>
+        <table class="links" style="width:90%">
+          <tr>
+            <td><a href="#co-move">Move</a></td>
+            <td><a href="#co-engage">Engage</a></td>
+            <td><a href="#co-charge">Charge</a></td>
+            <td><a href="#co-push">Push</a></td>
+            <td><a href="#co-rise">Rise</a></td>
+          </tr>
+          <tr>
+            <td><a href="#co-grope">Grope</a></td>
+            <td><a href="#co-melee">Melee</a></td>
+            <td><a href="#co-missile">Missile</a></td>
+            <td><a href="#co-grapple">Grapple/Tangle</a></td>
+            <td><a href="#co-block">Block/Dodge</a></td>
+            <td><a href="#co-aim">Aiming</a></td>
+          </tr>
+          <tr>
+            <td><a href="#co-fumble">Fumble</a></td>
+            <td><a href="#co-stumble">Stumble</a></td>
+            <td><a href="#co-shock">Shock</a></td>
+            <td><a href="#co-inanimate">Inanimate Damage</a></td>
+            <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
+            <td><a href="#co-bloodloss">Bloodloss</a></td>
+          </tr>
+        </table>
+        <h5 id="co-move">Move</h5>
+        <p>
+          To avoid lengthy calculations, subtract 50% of the attacker
+          speed in m/s, when attacking during a move.
+        </p>
+        <h5 id="co-engage">Engage</h5>
+        <p>
+          Every character has an <em>Engagement Zone</em> of 1m plus
+          weapon length radius about his center (that does not extend
+          into blocked areas).  The Engagement Zone of a conscious,
+          prone character is only half that.  Unconscious characters
+          have no Engagement Zones but may constitute obstacles.  A
+          character may be (melee) attacked upon entering an
+          enemy&#8217;s Engagement Zone until he leaves that zone.
+          This entering or leaving may be active or passive.  It is
+          possible to be engaged with an arbitrary number of enemies
+          at a time.  A character with a long reach weapon has an
+          appropriately larger engagement zone and may therefore be
+          eligible to attack before others.  This may be of importance
+          for mounted Charges into a row of Pikemen.  Also note the
+          restriction on using long weapons at short range.
+          dimensions.
+        </p>
+        <h5 id="co-charge">Charge</h5>
+        <p>
+          Every engagement along the way may attack a moving character
+          (and vice versa).  Any attacker plunging into defenders with
+          an attack will stop.  Such a forced stop will result in a
+          fall impact for charger as if from height equal to the speed
+          minus 5.  E.g. stopping at 10 m/s speed equals a fall from
+          5m.  Note that the fall impact also applies the targets
+          fallen into.  This is the charge bonus which can be added to
+          the attack.  For opportunistic melee attacks, this is also a
+          direct penalty to the Dodge skill.
+        </p>
+        <h5 id="co-push">Push</h5>
+        <p>
+          The push attempt must be in the direction the attacker is
+          facing and the attacker must follow.  The defender has a
+          choice to evade into a semi-circle of up to 120 degrees,
+          assuming no obstacles.  Instead of Injury points, meters
+          (pushed) are used.  The defender is forced to deduct the
+          move from his action allowance, regardless of whether he
+          resists or not.  A resist deducts from the distance forced
+          and can even be used as a counter-push.  The pushed
+          character may opt to fall prone instead at any time, for
+          instance to avoid falling of a cliff.  Any remaing distance
+          is forfeit.
+        </p>
+        <h5 id="co-rise">Rise</h5>
+        <p>
+          Use Acrobatics skill.
+        </p>
+        <h5 id="co-grope">Grope</h5>
+        <p>
+          Use Dexterity skill.
+        </p>
+        <h5 id="co-melee">Melee Attack</h5>
+        <p>
+          A rider and horse may act in unison and add their combat
+          skill per 5-Addition.  Both accrue the same fatigue.
+          Hitting the wrong target can happen in melee combat.
+          Anybody within an engagement zone is subject to an
+          (unintentional) attack with MLU 0. This can be added to the
+          benefit of other attackers as per multiple attacks above or
+          resolved individually with the goal of 0 damage.  A
+          character who is attacking (or being attacked by) a prone
+          enemy increases Attack/Defense MLU with that character by 4.
+        </p>
+        <h5 id="co-missile">Missile Attack</h5>
+        <p>
+          For throwing arbitrary objects, use Throwing skill.  Since
+          missile attacks are resolved with individual shots, a missed
+          attack is applied only if the intended attack had no impact.
+          Count all potential targets completely in an arc of 30
+          degrees and +/-2 range levels of the intended target.  Use
+          5-Addition of zeroes, but reduce by 5 for the missed,
+          intended opponent.  If a hit is scored on the much larger
+          &#8220;super-target&#8221;, roll which individual target is
+          hit by distributing evenly among all the unintended targets.
+          When determining hit chances and damage apply the size
+          modifier from the Size table below.  At GM discretion,
+          inanimate objects not participating in the skirmish may be
+          counted as potential targets, particularly, if the actual
+          targets are spread widely across the area.  This increase
+          can be used purposefully and can be quite devastating when
+          firing at advancing troops.  Dodge against missile is
+          reduced by 5.
+        </p>
+        <h5 id="co-grapple">Grapple/Tangle Attack Defense</h5>
+        <p>
+          Use Unarmed Combat skill when no weapon is involved.
+          Multiple grapples are allowed , but keep track of the
+          grappled weapons of all opponents, they can no longer be
+          used to full potential.
+        </p>
+        <h5 id="co-block">Block/Dodge</h5>
+        <p>
+          Dodge and Block/Parry are mostly used together through
+          5-Addition.  Dodge/Parry can be used at the same time an
+          attack is contemplated by the defender himself.  Parry
+          is a 10 second Combat activity.  Calculate separate, synchronous
+          parries accordingly, i.e. a second defense causes a -5 penalty to
+          both parries, a third causes a -7.5 to all and so on.  Defenders
+          may split the penalty among different attackers. 
+          Dodge is unmodified for multiple opponents but at -5 for high
+          velocity missile attacks.
+        </p>
+        <p>
+          Not attacking for 10 seconds grants a +5 to (both) Dodge and 
+          Parry.  Forfeiting Parry and Dodge instead grants a +5 to other
+          Combat actions.
+        </p>
+        <h5 id="co-aim">Aiming</h5>
+        <p>
+          The Attacker may declare one Main area as not being hit for
+          a penalty of 1 to MLU.  This choice can be taken multiple
+          times, but the remaining Main locations must remain (bodily)
+          connected.  If all but one Main location has been
+          eliminated, individual percentage points may be reduced for
+          a Detail area.  This penalty can again be taken multiple
+          times but the remaining Detail hit locations must be
+          (bodily) connected.  The GM may restrict or penalize the
+          choice of Aiming Zone if the attacker could only reach
+          certain target zones with the declared attack weapon.  A
+          prone attacker would find it difficult to aim high on a
+          standing opponent with a melee weapon.  The Size table can
+          be used, if the target is smaller than man-sized.  This
+          effect does not cumulate with aiming for parts of a target
+          (the main part of this paragraph).  There is no modification
+          for man-sized creatures, unless the target offers a smaller
+          effective target, but it may be combined with unintentional
+          hitting (see above).  A prone man, for example, presents a
+          target about 2 feet tall, and a crouching man about 4 feet
+          tall.  Similar height adjustments may apply to other targets
+          at GM discretion.
+        </p>
+        <h5 id="co-fumble">Fumble</h5>
+        <p>
+          Any new wound of at least 1 point to arms results in a
+          Fumble chance.  Use accumulated damage to that extremity and
+          fatigue as difficulty for a Dexterity skill roll against 0.
+          Failure results in dropping anything held on that arm.  If
+          something is held in both hands, 5-add the difficulties and
+          the two Dexterity EMLUs.
+        </p>
+        <h5 id="co-stumble">Stumble</h5>
+        <p>
+          Any new wound of at least 1 point to legs results in a
+          stumble chance.  Use accumulated damage to that extremity
+          and fatigue as difficulty for an Agility skill roll against
+          0.  Failure results in dropping prone. Each additional leg
+          after the first can be 5-added.
+        </p>
+        <h5 id="co-shock">Shock</h5>
+        <p>
+          Any new wound of at least 1 point results in a Shock chance.
+          Use accumulated injury and fatigue as difficulty for a
+          Stamina skill roll against 0.  Failure is measured in the
+          Yield Dimension as minutes.  Multiple Shock rolls can be
+          5-added.
+        </p>
+        <h5 id="co-inanimate">Inanimate Damage</h5>
+        <p>
+          Instead of (autonomous) Healing, Repair must be applied
+          externally.  Use the appropriate Craft skill instead of
+          Physician.
+        </p>
+        <h5 id="co-weapdam">Weapon/Armor Damage</h5>
+        <p>
+          Weapon and Armor make a Shock roll for the damage that they
+          absorb, respectively deal.  Weapon Quality (WQ) is used
+          instead of Stamina skill and damage is not accumulated.
+          Armor works the same way, but instead if Stamina, sum up
+          BEPF.  Failure means a weapon or armor breaks, which may
+          potentially be repaired as above. (Regular maintenance is
+          assumed, otherwise accumlate 1 point per &#8220;unrepaired
+          wound&#8221; for weapons and armor for the purpose of Shock
+          rolls.
+        </p>
+        <h5 id="co-bloodloss">Bloodloss</h5>
+        <p>
+          Damage taken increases with every complete multiple of 5
+          injury level above 6 every 10s.  For example, a 16-20 point
+          injury causes 2 points per 10 seconds, or 1 point of
+          bloodloss every 5 seconds.  Some wounds will not cause
+          bloodloss (e.g. Frost) including to inanimate objects or
+          reduced damage, e.g. blunt trauma.
+        </p>
+        <h5/>
+        <p style="text-align:center">
+          Size Table
+        </p>
+        <table style="width:70%">
+          <tr>
+            <th>Modifier</th>
+            <th>-5</th>
+            <th>-4</th>
+            <th>-3</th>
+            <th>-2</th>
+            <th>-1</th>
+            <th>0</th>
+            <th>+1</th>
+            <th>+2</th>
+            <th>+3</th>
+            <th>+4</th>
+            <th>+5</th>
+          </tr>
+          <tr>
+            <td>Size</td>
+            <td>1ft</td>
+            <td>1.5ft</td>
+            <td>2ft</td>
+            <td>3ft</td>
+            <td>4ft</td>
+            <td>6ft</td>
+            <td>8ft</td>
+            <td>12ft</td>
+            <td>16ft</td>
+            <td>24ft</td>
+            <td>32ft</td>
+          </tr>
+        </table>
+        <p style="text-align:center">
+          Fall Table
+        </p>
+        <table style="width:70%">
+          <tr>
+            <th>Height (ft)</th>
+            <th>0</th>
+            <th>5</th>
+            <th>10</th>
+            <th>15</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+            <th>45</th>
+            <th>50</th>
+          </tr>
+          <tr>
+            <td>Impact (B)</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>3</td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            <td>25</td>
+            <td>35</td>
+            <td>44</td>
+            <td>75</td>
+          </tr>
+        </table>
+        <p style="text-align:center">
+          Shock Table
+        </p>
+        <table style="width:90%">
+          <tr>
+            <th>Result</th>
+            <th>-1</th>
+            <th>-2</th>
+            <th>-3</th>
+            <th>-4</th>
+            <th>-5</th>
+            <th>-6</th>
+            <th>-7</th>
+            <th>-8</th>
+            <th>-9</th>
+            <th>-10</th>
+            <th>-11</th>
+            <th>-12</th>
+            <th>-13</th>
+            <th>-14</th>
+            <th>-15</th>
+            <th>-16</th>
+            <th>-17</th>
+            <th>-18</th>
+            <th>-19</th>
+            <th>-20</th>
+          </tr>
+          <tr>
+            <td>Time</td>
+            <td>1s</td>
+            <td>3s</td>
+            <td>6s</td>
+            <td>10s</td>
+            <td>30s</td>
+            <td>1min</td>
+            <td>3min</td>
+            <td>6min</td>
+            <td>10min</td>
+            <td>30min</td>
+            <td>1h</td>
+            <td>3h</td>
+            <td>6h</td>
+            <td>10h</td>
+            <td>1day</td>
+            <td>3day</td>
+            <td>6days</td>
+            <td>10days</td>
+            <td>30days</td>
+            <td>60days</td>
+          </tr>
+        </table>
+        <h3 id="wounds">Wounds</h3>
+        <p>
+          Combatants who sustain Serious or Grievous wounds may die
+          during the healing routine.  On the other hand, various
+          types of magic, miracles, Psionics, and potions can improve
+          healing.
+        </p>
+        <p>
+          When the following text says, adjacent body parts are
+          affected, effects include penalties (which are not
+          cumulative but take the maximum) infection chance and
+          bloodloss (also not cumulative but take the maximum).  They
+          are not recursive, i.e. do not imply secondary effects.
+        </p>
+        <p>
+          <em>1-5:</em> Minor.  Wounds only have wound penalty.
+        </p>
+        <p>
+          <em>5-10:</em> Serious. Wounds of this type also have minor
+          effects on neighbouring detailed body parts at 5 points
+          less.  Any activity involving these body parts are at the
+          appropriate penalty.  These effect wounds do not heal
+          separately.
+        </p>
+        <p>
+          <em>11-15:</em> Grievous.  The detailed body part cannot be
+          used, serious use effects on neighbouring detailed body
+          parts, and minor on neighboring main parts. (This might only
+          be the including main part.)  These effect wounds do not
+          heal separately.  Minor effects are at 10 less than the
+          Grievous, while serious are 5 less.
+        </p>
+        <p>
+          <em>16-20:</em> Incapacitating, the main body part cannot be
+          used, serious use effects on neighbouring main body parts.
+          (For head this means unconsciousness and for thorax imminent
+          death.)  Serious effects are at 10 less than the
+          incapacitating wound itself.
+        </p>
+        <p>
+          <em>21+:</em> Destroyed, the main body part lost its
+          integrity, Grievous use effects on neighbouring main body
+          parts.  (For limbs this means at least severed.  Thorax is
+          split open or spinal cord severed.  For all but the
+          extremities this means instant death.  For all other body
+          parts, death is probably imminent due to the side effects.)
+          Grievous use effects are at 10 less than the Destroyed wound
+          itself.
+        </p>
+        <h3 id="heal-wounds">Healing</h3>
+        <p>
+          See the Healing dimension. An untreated wound is considered
+          as being treated by a Physician with the negative
+          wound-level.  E.g. a wound with 6 injury points is treated
+          as if diagnosed by Physician with MLU -6.  The standard
+          treatments mostly known by all still need to be applied and
+          detailed, so a physician&#8217;s diagnosis is always
+          necessary.  &#8220;Destroyed&#8221; wounds may be treated as
+          incapacitating, with a Bonus on Diagnosis of 5.  Note that
+          the usage effects on bordering regions needs to be treated
+          as well.  Overtreatment is possible but has no specific
+          negative impact.
+        </p>
+        <p>
+          Bloodloss is treated as a separate injury.  Note that the
+          circulatory system is incapacitated with points in excess of
+          15 points as other body parts are.  The circulatory system
+          itself will not turn infectious.  Treatment by physicians
+          depend on the location.  Some locations are incurable by
+          H&#226;rnic physicians.  For multiple bleeders only take the
+          maximum in the same extremity, but add those for different
+          extremities.  Incapacitating and destroying wounds have no
+          additional effects over the bleeder and infection dangers.
+        </p>
+        <p>
+          Infections, diseases, toxins, and other come in various
+          forms.  Bloodloss is already explained elsewhere, but
+          repeated here for reference.
+        </p>
+        <div class="explain">
+          <p>
+            <em>Bloodloss</em> Damage taken increases with every
+            complete multiple of 5 injury level above 6 every 10s.
+            For example, a 16-20 point injury causes 2 points per 10
+            seconds, or 1 point of bloodloss every 5 seconds.  This
+            number is lost every 10 seconds until the treatment
+            <em>Compress</em> is applied.  Thereafter these points
+            heal at 1 per day.
+          </p>
+          <p>
+            <em>Infection</em> An open wound with more than 5 injury
+            points is attacked daily with MLU of the injury points
+            against Stamina (skill) until it has less than 5 points or
+            is otherwise closed.  The injury points start with 1 and
+            are received 1 per watch until the infection has run its
+            course, i.e. the result value.  These new points are added
+            to the wound as integral part.  Adjust healing rate etc
+            accordingly.
+          </p>
+          <p>
+            <em>Sleep deprivation</em> Every watch after a Stamina
+            roll against -20 in hours, with a penalty of 1 per hour of
+            not having slept.  For playability start rolling after 24h
+            and the injury points are always 5.  The points are
+            regained at the rate of 1 per hour of sleep.
+          </p>
+          <p>
+            <em>Thirst</em> Every watch after a Stamina roll against
+            -20, with a penalty of 1 for each liter of water that has
+            not been drunk per day on average.  For playability start
+            rolling after 3 days without water have passed.  Points
+            are regained at the rate of 1 per hour.
+          </p>
+          <p>
+            <em>Hunger</em> Every day after a Stamina roll against
+            -20, with a penalty of 1 for each two pounds of food that
+            have not been eaten per day on average.  For playability
+            start rolling after 10 days without food have passed.
+            Points are regained at the rate of 1 per hour.
+          </p>
+          <p>
+            <em>Suffocation</em> Every minute without air a Stamina
+            roll against 0 is required, with a penalty of 5 for each
+            consecutive minute without air.  Points are regained at
+            the rate of 1 per second once air is available again..
+          </p>
+        </div>
+        <h3 id="effect-wounds">Effects</h3>
+        <p>
+          Fatigue is fully applied to all skill rolls.
+        </p>
+        <p>
+          Any physical skill receives one half of all the wound points
+          as penalty.  Any non-physical skill receives the full
+          <em>head</em> wound points as penalty.  Moving receives any
+          <em>leg</em> inhury fully but none of the others.
+        </p>
+        <p>
+          Non-skill penalties such as Healing or Stumble are described
+          in the appropriate sections.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
