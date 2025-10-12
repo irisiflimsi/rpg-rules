@@ -589,6 +589,10 @@
           applied repeatedly to either understand how wildly off a
           shot was or when firing at an wall of enemies.
         </p>
+        <p>
+	  For the purpose of attitude to an attacker, normal humans
+	  are considered a &#8220;block&#8221; of 100% by 50% by 25%.
+        </p>
         <h5 id="co-block">Block/Dodge/Parry</h5>
         <p>
           Dodge and Block/Parry are mostly used together through
