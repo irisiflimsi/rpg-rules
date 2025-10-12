@@ -36,7 +36,7 @@
           task and the dimensions available.  The character in
           question names the skills he thinks are most appropriate.
           The GM then names the diffculty for each of the skills and
-          how they can potentially be combined. 
+          how they can potentially be combined.
         </p>
         <p>
           Now n5 is rolled, adding skill value (SV).  The task
@@ -173,11 +173,11 @@
         <h5 class="skill" id="di-cli">Climbing</h5>
         <p>
           Climbing Speed is 1/4 walking speed at success. Speed can be
-          increased by 1/4 for a -10 penalty, or decreased accordingly, but
-          negative speeds are not allowed.  E.g. for a +10, one can
-          opt to simply try and cling to a holding to not fall down.
-          A failure results in a fall, usually evenly distributed
-          among the total climb.
+          increased by 1/4 for a -10 penalty, or decreased
+          accordingly, but negative speeds are not allowed.  E.g. for
+          a +10, one can opt to simply try and cling to a holding to
+          not fall down.  A failure results in a fall, usually evenly
+          distributed among the total climb.
         </p>
         <h5 class="skill" id="di-co1">Combat</h5>
         <p>
@@ -186,7 +186,7 @@
           level is a separate dimension; you can use trajectories.
           Once a (rolled) progression has reached its goal, a new
           skill roll is made.  It is therefore possible to play
-          10-second round-based combat.
+          4-second round-based combat.
         </p>
         <p>
           The <em>wounds</em> are the result of the <em>value</em>
@@ -233,7 +233,8 @@
         </p>
         <h5 class="skill" id="di-des">Descriptive</h5>
         <p>
-          Description for various default skill applications that are not quantitative.
+          Description for various default skill applications that are
+          not quantitative.
         </p>
         <table style="width:70%">
           <tr>
@@ -298,9 +299,9 @@
           healing process in the same manner.
         </p>
         <p>
-          Physicians modify with half their skill result against the
+          Medics modify with half their skill result against the
           same wound level during tending and diagnosing a patient.
-          (For particularly severe cases it may be better for a doctor
+          (For particularly severe cases it may be better for a medic
           to abstain.)  This is not a trajectory.
         </p>
         <table style="width:75%">
@@ -335,45 +336,26 @@
           morale.  Initiative determines the speed in which characters
           can assess a stressful situation.  Characters take the time
           listed before they can act.  An ambush gives a penalty.
-        </p>
-        <p>
           During the time a character is &#8220;frozen&#8221; this
           way, he is trying to understand the situation he is in and
           assesses the options he has.  He is <em>cautious</em> during
           that time.  General awareness issues are not covered by
-          Initiative.
+          Initiative.  Battle-hardened characters may come into the
+          fractional range.  Fractions can be used to determine who
+          goes first.
         </p>
         <p>
-          Battle-hardened characters may come into the fractional
-          range.  Fractions can be used to determine who goes first.
-          The GM determines, whether going first impedes the action of
-          another in the second that the action takes place.  This
-          changes the drama of simultaneous activity, which may or may
-          not be appropriate.
-        </p>
-        <p>
-          The situation in combat changes constantly.  After one
-          action, the next is given the penalty of the Penalty
-          dimension, which is reduced by 1 per second, a penalty
-          indicates taking premature action.  For round-based combat,
-          this penalty is reduced by 10 and then halved.  (Acting every
-          other round reduces the penalty by 10 once more.)
-        </p>
-        <p>
-          (The Penalty-formula is derived from assuming a Time penalty
-          of the value indicated before each round and then acting one
-          round.  E.g. at value 20 this gives 13.  Since such a
-          penalty would be reduced continuously, the average is
-          taken.)
+          The situation in combat changes constantly.  One action is
+          assumed to take 4 seconds, going prematurely incurs the
+          usual 5-subtraction penalty.  (Acting every 8 seconds can
+          occasionally lend a bonus.)
         </p>
         <p>
           For round-based combat, Initiative usually simply determines
           the order of activity.  Changing the order or acting twice
           by accepting penalties should be avoided, as it can quickly
           lead to escalation, the avoidance of which is precisely the
-          reason round-based combat is used. Round-based numbers are
-          also rounded towards the smaller absolute value, to reduce
-          speculation on fractional rounding.
+          reason round-based combat is used.
         </p>
         <table style="width:90%">
           <tr>
@@ -394,51 +376,19 @@
           </tr>
           <tr class="num">
             <td>Time</td>
-            <td>60</td>
-            <td>45</td>
-            <td>30</td>
             <td>20</td>
+            <td>15</td>
             <td>10</td>
-            <td>8</td>
             <td>6</td>
-            <td>4.5</td>
+            <td>4</td>
             <td>3</td>
             <td>2</td>
+            <td>1.5</td>
             <td>1</td>
-            <td>0.8</td>
             <td>0.6</td>
-          </tr>
-          <tr class="num">
-            <td>Penalty</td>
-            <td>-35</td>
-            <td>-28</td>
-            <td>-20</td>
-            <td>-15</td>
-            <td>-10</td>
-            <td>-9</td>
-            <td>-8</td>
-            <td>-7</td>
-            <td>-7</td>
-            <td>-6</td>
-            <td>-6</td>
-            <td>-6</td>
-            <td>-5</td>
-          </tr>
-          <tr class="num">
-            <td>Rd Penalty</td>
-            <td>-12</td>
-            <td>-8</td>
-            <td>-5</td>
-            <td>-2</td>
-            <td>0</td>
-            <td>0</td>
-            <td>+1</td>
-            <td>+1</td>
-            <td>+1</td>
-            <td>+2</td>
-            <td>+2</td>
-            <td>+2</td>
-            <td>+2</td>
+            <td>0.4</td>
+            <td>0.3</td>
+            <td>0.2</td>
           </tr>
         </table>
         <h5 class="skill" id="di-kno">Knowledge</h5>
@@ -610,7 +560,6 @@
           <tr>
             <td><a href="#co-move">Move</a></td>
             <td><a href="#co-engage">Engage</a></td>
-            <td><a href="#co-charge">Charge</a></td>
             <td><a href="#co-push">Push</a></td>
             <td><a href="#co-rise">Rise</a></td>
           </tr>
@@ -619,17 +568,18 @@
             <td><a href="#co-melee">Melee</a></td>
             <td><a href="#co-missile">Missile</a></td>
             <td><a href="#co-grapple">Grapple/Tangle</a></td>
-            <td><a href="#co-block">Block/Dodge</a></td>
-            <td><a href="#co-aim">Aiming</a></td>
           </tr>
           <tr>
-            <td><a href="#co-fumble">Fumble</a></td>
-            <td><a href="#co-stumble">Stumble</a></td>
+            <td><a href="#co-block">Block/Dodge/Parry</a></td>
+            <td><a href="#co-aim">Aiming</a></td>
             <td><a href="#co-shock">Shock</a></td>
             <td><a href="#co-inanimate">Inanimate Damage</a></td>
-            <td><a href="#co-weapdam">Weapon/Armor Damage</a></td>
-            <td><a href="#co-bloodloss">Bloodloss</a></td>
+          </tr>
+          <tr>
             <td><a href="#co-wounds">Wounds</a></td>
+            <td><a href="#co-blood">Bloodloss</a></td>
+            <td><a href="#co-sleep">Deprivation</a></td>
+            <td><a href="#co-prep">Preparation</a></td>
           </tr>
         </table>
         <h5 id="co-move">Move</h5>
@@ -639,33 +589,15 @@
         </p>
         <h5 id="co-engage">Engage</h5>
         <p>
-          Every character has an <em>Engagement Zone</em> of 1m plus
-          weapon length radius about his center (that does not extend
-          into blocked areas).  The Engagement Zone of a conscious,
-          prone character is only half that.  Unconscious characters
-          have no Engagement Zones but may constitute obstacles.  A
-          character may be (melee) attacked upon entering an
-          enemy&#8217;s Engagement Zone until he leaves that zone.
-          This entering or leaving may be active or passive.  It is
-          possible to be engaged with an arbitrary number of enemies
-          at a time.  A character with a long reach weapon has an
-          appropriately larger engagement zone and may therefore be
-          eligible to attack before others.  This may be of importance
-          for mounted Charges into a row of Pikemen.  Also note the
-          restriction on using long weapons at short range.
-          dimensions.
-        </p>
-        <h5 id="co-charge">Charge</h5>
-        <p>
-          Every engagement along the way may attack a moving character
-          (and vice versa).  Any attacker plunging into defenders with
-          an attack will stop.  Such a forced stop will result in a
-          fall impact for charger as if from height equal to the speed
-          minus 5.  E.g. stopping at 10 m/s speed equals a fall from
-          5m.  Note that the fall impact also applies the targets
-          fallen into.  This is the charge bonus which can be added to
-          the attack.  For opportunistic melee attacks, this is also a
-          direct penalty to the Dodge skill.
+          Every character has an <em>Engagement Zone</em> of 3m about
+          his center (that does not extend into blocked areas).  The
+          Engagement Zone of a conscious, prone character is only half
+          that.  Unconscious characters have no Engagement Zones but
+          may constitute obstacles.  A character may be (melee)
+          attacked upon entering an enemy&#8217;s Engagement Zone
+          until he leaves that zone.  This entering or leaving may be
+          active or passive.  It is possible to be engaged with an
+          arbitrary number of enemies at a time.
         </p>
         <h5 id="co-push">Push</h5>
         <p>
@@ -687,139 +619,73 @@
         </p>
         <h5 id="co-grope">Grope</h5>
         <p>
-          Use Dexterity skill.
+          Use Fine motor skill.
         </p>
         <h5 id="co-melee">Melee Attack</h5>
         <p>
-          A rider and horse may act in unison and add their combat
-          skill per 5-Addition.  Both accrue the same fatigue.
           Hitting the wrong target can happen in melee combat.
           Anybody within an engagement zone is subject to an
-          (unintentional) attack with MLU 0. This can be added to the
+          (unintentional) attack with SV 0.  This can be added to the
           benefit of other attackers as per multiple attacks above or
           resolved individually with the goal of 0 damage.  A
           character who is attacking (or being attacked by) a prone
-          enemy increases Attack/Defense MLU with that character by 4.
+          enemy increases Attack/Defense SV with that character by 5.
         </p>
         <h5 id="co-missile">Missile Attack</h5>
         <p>
-          For throwing arbitrary objects, use Throwing skill.  Since
-          missile attacks are resolved with individual shots, a missed
-          attack is applied only if the intended attack had no impact.
-          Count all potential targets completely in an arc of 30
-          degrees and +/-2 range levels of the intended target.  Use
-          5-Addition of zeroes, but reduce by 5 for the missed,
-          intended opponent.  If a hit is scored on the much larger
-          &#8220;super-target&#8221;, roll which individual target is
-          hit by distributing evenly among all the unintended targets.
-          When determining hit chances and damage apply the size
-          modifier from the Size table below.  At GM discretion,
-          inanimate objects not participating in the skirmish may be
-          counted as potential targets, particularly, if the actual
-          targets are spread widely across the area.  This increase
-          can be used purposefully and can be quite devastating when
-          firing at advancing troops.  Dodge against missile is
-          reduced by 5.
+	  Count everything within 30 degrees firing arc as a single
+	  target with task level 0.  To simplify calculations, weapons
+	  list range categories to hit single humans sized targets and
+	  Block/Dodge/Parry is allowed for them.  However, firing into
+	  a group uses Aiming and 5-addition.  This increase can be
+	  used purposefully and can be quite devastating when firing
+	  at advancing troops.  On the other hand, a miss is
+	  calculated before the damage calculation applies and even a
+	  group hit allows the individual hit to used
+	  Block/Dodge/Parry - but against the &#8220;spread&#8221;
+	  roll.
         </p>
-        <h5 id="co-grapple">Grapple/Tangle Attack Defense</h5>
+        <h5 id="co-grapple">Grapple/Tangle</h5>
         <p>
-          Use Unarmed Combat skill when no weapon is involved.
-          Multiple grapples are allowed , but keep track of the
-          grappled weapons of all opponents, they can no longer be
-          used to full potential.
+          Use Unarmed skill when no weapon is involved.  Multiple
+          grapples are allowed , but keep track of the grappled
+          weapons of all opponents, they can no longer be used to full
+          potential.
         </p>
-        <h5 id="co-block">Block/Dodge</h5>
+        <h5 id="co-block">Block/Dodge/Parry</h5>
         <p>
           Dodge and Block/Parry are mostly used together through
-          5-Addition.  Dodge/Parry can be used at the same time an
-          attack is contemplated by the defender himself.  Parry
-          is a 10 second Combat activity.  Calculate separate, synchronous
-          parries accordingly, i.e. a second defense causes a -5 penalty to
-          both parries, a third causes a -7.5 to all and so on.  Defenders
-          may split the penalty among different attackers. 
-          Dodge is unmodified for multiple opponents but at -5 for high
-          velocity missile attacks.
-        </p>
-        <p>
-          Not attacking for 10 seconds grants a +5 to (both) Dodge and 
-          Parry.  Forfeiting Parry and Dodge instead grants a +5 to other
-          Combat actions.
+          5-Addition.  Block/Dodge/Parry can be used at the same time
+          an attack is contemplated by the defender himself.
+          Block/Dodge/Parry is a 4 second Combat activity.  Calculate
+          separate, synchronous applications accordingly, i.e. a
+          second defense causes a -5 penalty to both parries, a third
+          causes a -7.9 to all and so on.  Defenders may split the
+          penalty among different attackers.  Block/Dodge/Parry is at
+          -1 per 10*m/s for missiles and bullets.
         </p>
         <h5 id="co-aim">Aiming</h5>
         <p>
-          The Attacker may declare one Main area as not being hit for
-          a penalty of 1 to MLU.  This choice can be taken multiple
-          times, but the remaining Main locations must remain (bodily)
-          connected.  If all but one Main location has been
-          eliminated, individual percentage points may be reduced for
-          a Detail area.  This penalty can again be taken multiple
-          times but the remaining Detail hit locations must be
-          (bodily) connected.  The GM may restrict or penalize the
-          choice of Aiming Zone if the attacker could only reach
-          certain target zones with the declared attack weapon.  A
-          prone attacker would find it difficult to aim high on a
-          standing opponent with a melee weapon.  The Size table can
-          be used, if the target is smaller than man-sized.  This
-          effect does not cumulate with aiming for parts of a target
-          (the main part of this paragraph).  There is no modification
-          for man-sized creatures, unless the target offers a smaller
-          effective target, but it may be combined with unintentional
-          hitting (see above).  A prone man, for example, presents a
-          target about 2 feet tall, and a crouching man about 4 feet
-          tall.  Similar height adjustments may apply to other targets
-          at GM discretion.
-        </p>
-        <h5 id="co-fumble">Fumble</h5>
-        <p>
-          Any new wound of at least 1 point to arms results in a
-          Fumble chance.  Use accumulated damage to that extremity and
-          fatigue as difficulty for a Dexterity skill roll against 0.
-          Failure results in dropping anything held on that arm.  If
-          something is held in both hands, 5-add the difficulties and
-          the two Dexterity EMLUs.
-        </p>
-        <h5 id="co-stumble">Stumble</h5>
-        <p>
-          Any new wound of at least 1 point to legs results in a
-          stumble chance.  Use accumulated damage to that extremity
-          and fatigue as difficulty for an Agility skill roll against
-          0.  Failure results in dropping prone. Each additional leg
-          after the first can be 5-added.
+	  For every reduction of the target zone by 50%
+	  (exponentially) shoot at -5.  A miss by 5 points randomly
+	  assigned to the five equally sized surrounding fields of the
+	  <em>aim plane</em>.  Note that this gives a 20% chance of
+	  hitting the other 50% of the target zone.  This can be
+	  applied repeatedly to either understand how wildly off a
+	  shot was or when firing at an wall of enemies.
         </p>
         <h5 id="co-shock">Shock</h5>
         <p>
           Any new wound of at least 1 point results in a Shock chance.
-          Use accumulated injury and fatigue as difficulty for a
-          Stamina skill roll against 0.  Failure is measured in the
-          Yield Dimension as minutes.  Multiple Shock rolls can be
-          5-added.
+          Use accumulated injury and fatigue as difficulty for a roll
+          against 20.  Failure is measured in the Yield Dimension as
+          minutes.  Multiple Shock rolls per round can be 5-added.
         </p>
         <h5 id="co-inanimate">Inanimate Damage</h5>
         <p>
           Instead of (autonomous) Healing, Repair must be applied
-          externally.  Use the appropriate Craft skill instead of
-          Physician.
-        </p>
-        <h5 id="co-weapdam">Weapon/Armor Damage</h5>
-        <p>
-          Weapon and Armor make a Shock roll for the damage that they
-          absorb, respectively deal.  Weapon Quality (WQ) is used
-          instead of Stamina skill and damage is not accumulated.
-          Armor works the same way, but instead if Stamina, sum up
-          BEPF.  Failure means a weapon or armor breaks, which may
-          potentially be repaired as above. (Regular maintenance is
-          assumed, otherwise accumlate 1 point per &#8220;unrepaired
-          wound&#8221; for weapons and armor for the purpose of Shock
-          rolls.
-        </p>
-        <h5 id="co-bloodloss">Bloodloss</h5>
-        <p>
-          Damage taken increases with every complete multiple of 5
-          injury level above 6 every 10s.  For example, a 16-20 point
-          injury causes 2 points per 10 seconds, or 1 point of
-          bloodloss every 5 seconds.  Some wounds will not cause
-          bloodloss (e.g. Frost) including to inanimate objects or
-          reduced damage, e.g. blunt trauma.
+          externally.  Use the appropriate skill instead of
+          Medicine.
         </p>
         <h5 id="co-wounds">Wounds</h5>
         <p>
@@ -832,92 +698,43 @@
           5.
         </p>
         <p>
-          <em>Destroyed:</em> Usually this means that the main body
-          part has lost its integrity.  For limbs this means at least
-          severed.  Thorax is split open or spinal cord severed.  For
-          all but the extremities this means instant death.  For all
-          other body parts, death is probably imminent due to the side
-          effects.
-        </p>
-        <h3 id="heal-wounds">Healing</h3>
-        <p>
-          See the Healing dimension. An untreated wound is considered
-          as being treated by a Physician with the negative
-          wound-level.  E.g. a wound with 6 injury points is treated
-          as if diagnosed by Physician with MLU -6.  The standard
-          treatments mostly known by all still need to be applied and
-          detailed, so a physician&#8217;s diagnosis is always
-          necessary.  &#8220;Destroyed&#8221; wounds may be treated as
-          incapacitating, with a Bonus on Diagnosis of 5.  Note that
-          the usage effects on bordering regions needs to be treated
-          as well.  Overtreatment is possible but has no specific
-          negative impact.
+	  <em>Incapacitating:</em>. The system affected cannot be used
+	  but still be healed.
         </p>
         <p>
-          Bloodloss is treated as a separate injury.  Note that the
-          circulatory system is incapacitated with points in excess of
-          15 points as other body parts are.  The circulatory system
-          itself will not turn infectious.  Treatment by physicians
-          depend on the location.  Some locations are incurable by
-          H&#226;rnic physicians.  For multiple bleeders only take the
-          maximum in the same extremity, but add those for different
-          extremities.  Incapacitating and destroying wounds have no
-          additional effects over the bleeder and infection dangers.
+	  <em>Destroyed:</em> The system affected lost its integrity
+	  and cannot be healed.  For living beings this means instant
+	  death.
+        </p>
+        <h5 id="co-blood">Bloodloss</h5>
+        <p>
+          Damage taken increases with every complete multiple of 5
+          injury level above 10 every 4s.  For example, a 16-20 point
+          injury causes 2 points per 4 seconds, or 1 point of
+          bloodloss every 1 second.  This number is lost until
+          treatment is applied. Treat the final sum as a separate
+          injury.  Some wounds will not cause bloodloss (e.g. Frost)
+          including wounds to inanimate objects.
+        </p>
+        <h5 id="co-sleep">Deprivation</h5>
+        <p>
+          <em>Sleep</em>: Every 24 hours without sleep take 5 wounds,
+          which cummulate into a single wound.  Observe Incapacitating
+          and Destroyed.  These heal at 1 per hour of sleep.
         </p>
         <p>
-          Infections, diseases, toxins, and other come in various
-          forms.  Bloodloss is already explained elsewhere, but
-          repeated here for reference.
+          <em>Air</em> Every minute without air take 5 wounds, which
+          cummulate into a single wound.  Observe Incapacitating and
+          Destroyed.  These heal at 1 per second of fresh air.
         </p>
-        <div class="explain">
-          <p>
-            <em>Bloodloss</em> Damage taken increases with every
-            complete multiple of 5 injury level above 6 every 10s.
-            For example, a 16-20 point injury causes 2 points per 10
-            seconds, or 1 point of bloodloss every 5 seconds.  This
-            number is lost every 10 seconds until the treatment
-            <em>Compress</em> is applied.  Thereafter these points
-            heal at 1 per day.
-          </p>
-          <p>
-            <em>Infection</em> An open wound with more than 5 injury
-            points is attacked daily with MLU of the injury points
-            against Stamina (skill) until it has less than 5 points or
-            is otherwise closed.  The injury points start with 1 and
-            are received 1 per watch until the infection has run its
-            course, i.e. the result value.  These new points are added
-            to the wound as integral part.  Adjust healing rate etc
-            accordingly.
-          </p>
-          <p>
-            <em>Sleep deprivation</em> Every watch after a Stamina
-            roll against -20 in hours, with a penalty of 1 per hour of
-            not having slept.  For playability start rolling after 24h
-            and the injury points are always 5.  The points are
-            regained at the rate of 1 per hour of sleep.
-          </p>
-          <p>
-            <em>Thirst</em> Every watch after a Stamina roll against
-            -20, with a penalty of 1 for each liter of water that has
-            not been drunk per day on average.  For playability start
-            rolling after 3 days without water have passed.  Points
-            are regained at the rate of 1 per hour.
-          </p>
-          <p>
-            <em>Hunger</em> Every day after a Stamina roll against
-            -20, with a penalty of 1 for each two pounds of food that
-            have not been eaten per day on average.  For playability
-            start rolling after 10 days without food have passed.
-            Points are regained at the rate of 1 per hour.
-          </p>
-          <p>
-            <em>Suffocation</em> Every minute without air a Stamina
-            roll against 0 is required, with a penalty of 5 for each
-            consecutive minute without air.  Points are regained at
-            the rate of 1 per second once air is available again..
-          </p>
-        </div>
-        <h5/>
+        <h5 id="co-prep">Preparation</h5>
+        <p>
+	  A 4 second round can be spent to prepare an activity, which
+	  shall happen at a dedicated instance.  The conditions must
+	  be as simple.  Use Initiative at +20 or alternativly the
+	  activity at +5.  Active conditions such as suppressive fire
+	  are notwithstanding.
+	</p>
       </div>
     </div>
   </body>
