@@ -730,6 +730,7 @@
       </div>
       <div class="container">
         <h1 id="tables">Tables</h1>
+        <h3 id="weapons">Weapons</h3>
         <table>
           <tr>
             <th>Weapon</th>
