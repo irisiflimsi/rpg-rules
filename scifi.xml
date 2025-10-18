@@ -857,16 +857,26 @@
             <td>120</td>
           </tr>
           <tr>
-            <td>Sniperrifle</td>
-            <td>Precision</td>
+            <td>Grenade Launcher</td>
+            <td>Carried</td>
             <td>6</td>
             <td>2</td>
-            <td>16</td>
-            <td>50m</td>
-            <td>8s</td>
-            <td>5</td>
+            <td>20</td>
+            <td>25m</td>
+            <td>12s</td>
+            <td>1</td>
           </tr>
-        </table>
+           <tr>
+            <td>Energy Weapon</td>
+            <td>Gun, Carried, Mounted</td>
+            <td>2/Mw</td>
+            <td>2</td>
+            <td>10/Mw</td>
+            <td>50m</td>
+            <td>2s</td>
+            <td>n/a</td>
+          </tr>
+       </table>
         <h3 id="protection">Protection</h3>
         <table>
           <tr>
@@ -904,6 +914,49 @@
             <td>2</td>
             <td>4</td>
           </tr>
+        </table>
+        <h3 id="equipment">Other Equipment</h3>
+        <table>
+	  <tr>
+	    <th>Name</th>
+	    <th>Usage</th>
+	  </tr>
+	  <tr>
+	    <td>Scope</td>
+	    <td>+5 Aiming</td>
+	  </tr>
+	  <tr>
+	    <td>Grenade</td>
+	    <td>30 &#38; -1/m</td>
+	  </tr>
+	  <tr>
+	    <td>Aimlock</td>
+	    <td>Targetlock at 20/4s</td>
+	  </tr>
+	  <tr>
+	    <td>Teargas</td>
+	    <td>As Grenade but Fatigue only</td>
+	  </tr>
+	  <tr>
+	    <td>Flashbang</td>
+	    <td>Blind/-20 &#38; +1/s</td>
+	  </tr>
+	  <tr>
+	    <td>Silencer</td>
+	    <td>-10 Noise</td>
+	  </tr>
+	  <tr>
+	    <td>Vision Enhancer</td>
+	    <td>Reduce darkness or fog penalties</td>
+	  </tr>
+	  <tr>
+	    <td>Earbeads</td>
+	    <td>Comms, range 1kwh/km<sup>2</sup></td>
+	  </tr>
+	  <tr>
+	    <td>Energy</td>
+	    <td>1kwh/kg = 3.6MWs/kg</td>
+	  </tr>
 	</table>
       </div>
     </div>
