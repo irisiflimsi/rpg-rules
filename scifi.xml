@@ -869,9 +869,9 @@
            <tr>
             <td>Energy Weapon</td>
             <td>Gun, Carried, Mounted</td>
-            <td>2/Mw</td>
+            <td>2/MW</td>
             <td>2</td>
-            <td>10/Mw</td>
+            <td>10/MW</td>
             <td>50m</td>
             <td>2s</td>
             <td>n/a</td>
@@ -951,11 +951,11 @@
 	  </tr>
 	  <tr>
 	    <td>Earbeads</td>
-	    <td>Comms, range 1kwh/km<sup>2</sup></td>
+	    <td>Comms, range 1kWh/km<sup>2</sup></td>
 	  </tr>
 	  <tr>
 	    <td>Energy</td>
-	    <td>1kwh/kg = 3.6MWs/kg</td>
+	    <td>1kWh/kg = 3.6MWs/kg</td>
 	  </tr>
 	</table>
       </div>
