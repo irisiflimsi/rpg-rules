@@ -16,7 +16,7 @@
         <h1 id="rules">Basic Rules</h1>
         <p>
           This is a set of rules, which represent the aspects
-          typically encountered in a SciFi generic setting.  Akin to
+          typically encountered in a SciFi generic setting akin to
           Star Trek, Dark Matter, or Firefly.  It is not intended for
           very realistic setting such as Expanse nor for Space Fantasy
           like Star Wars.  Also see <a href="main.xml">Main Rule</a>
@@ -26,9 +26,10 @@
         <p>
           Many values are taken from Harnmaster (various versions) and
           fan publication such as Gunmaster from Bill Gant (various
-          versions but adapted to these rules.  The intention was to
-          benefit from the relationship of the values.  For example,
-          when comparing firearms with melee weapons.
+          versions) but adapted to the setting.  The intention was to
+          benefit from predetermined, balanced values.  For example,
+          when comparing firearms with melee weapons, balanced effects
+          are possibly play-tested.
         </p>
         <h4>Skill Testing</h4>
         <p>
@@ -39,7 +40,7 @@
           how they can potentially be combined.
         </p>
         <p>
-          Now n5 is rolled, adding skill value (SV).  The task
+          Then n5 is rolled, adding skill value (SV).  The task
           difficulty value is subtracted from the roll and if the net
           result is non-negative, the skill has been successfully
           employed; if the roll is negative, the attempt has failed.
@@ -128,13 +129,13 @@
             <td><a href="#di-co1">Combat</a></td>
           </tr>
           <tr>
-            <td><a href="#di-des">Descriptive</a></td>
             <td><a href="#di-sta">Healing</a></td>
             <td><a href="#di-ini">Initiative</a></td>
+            <td><a href="#di-kno">Knowledge</a></td>
           </tr>
           <tr>
-            <td><a href="#di-kno">Knowledge</a></td>
             <td><a href="#di-mov">Move</a></td>
+            <td><a href="#di-spe">Speed</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
@@ -144,7 +145,7 @@
           appropriate dimension depends on the concrete circumstances.
           Consider what would be appropriate for an untrained
           individual (SV 0) and what is expected (the average result)
-          for a sufficiently educated persion (SV 20).  Interpret the
+          for a sufficiently educated person (SV 20).  Interpret the
           results inbetween and outside of the bounds accordingly.
         </p>
         <h5 id="di-acc">Accuracy</h5>
@@ -212,14 +213,14 @@
           </tr>
           <tr class="num">
             <td>Time</td>
-            <td>80</td>
-            <td>40</td>
-            <td>20</td>
-            <td>10</td>
-            <td>5</td>
-            <td>5/2</td>
-            <td>5/4</td>
-            <td>5/8</td>
+            <td>32</td>
+            <td>16</td>
+            <td>8</td>
+            <td>4</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1/2</td>
+            <td>1/4</td>
           </tr>
         </table>
         <p>
@@ -231,58 +232,6 @@
           immediately reduced to zero, once the grapple is no longer
           maintained.
         </p>
-        <h5 class="skill" id="di-des">Descriptive</h5>
-        <p>
-          Description for various default skill applications that are
-          not quantitative.
-        </p>
-        <table style="width:70%">
-          <tr>
-            <th>Dimension</th>
-            <th>-10</th>
-            <th>-0</th>
-            <th>10</th>
-            <th>20</th>
-            <th>30</th>
-            <th>40</th>
-          </tr>
-          <tr class="text">
-            <td>Rhetoric</td>
-            <td>Noise</td>
-            <td>Comprehension</td>
-            <td>Listening</td>
-            <td>Consideration</td>
-            <td>Agreement</td>
-            <td>Agreement</td>
-          </tr>
-          <tr class="text">
-            <td>Singing</td>
-            <td>Imperceptible</td>
-            <td>Childlike</td>
-            <td>Folk</td>
-            <td>Artist</td>
-            <td>Original</td>
-            <td>Unique</td>
-          </tr>
-          <tr>
-            <td>Awareness</td>
-            <td>Immediate</td>
-            <td>General</td>
-            <td>Movement</td>
-            <td>Strangeness</td>
-            <td>Distance</td>
-            <td>6th sense</td>
-          </tr>
-          <tr>
-            <td>Language</td>
-            <td>Exists</td>
-            <td>Basic</td>
-            <td>Fair</td>
-            <td>Fluent</td>
-            <td>Faceted</td>
-            <td>Mastery</td>
-          </tr>
-        </table>
         <h5 class="skill" id="di-sta">Healing</h5>
         <p>
           Healing time is given for one wound point.  Note that a
@@ -292,17 +241,11 @@
         </p>
         <p>
           Wounds are the (individual) task levels, but the wounds
-          themselves adverse effect healing.  individually and the
-          time unit is days.  Add a potential physician&#8217;s bonus
-          (see below) once when determining the healing rate.  Healing
-          rate can be improved with a physician present during the
-          healing process in the same manner.
-        </p>
-        <p>
-          Medics modify with half their skill result against the
-          same wound level during tending and diagnosing a patient.
-          (For particularly severe cases it may be better for a medic
-          to abstain.)  This is not a trajectory.
+          themselves adversely affect healing individually and the
+          time unit is days.  Add half the skill value of a medic
+          present when determining the healing rate.  Healing rate can
+          be improved with during the healing process in the same
+          manner.
         </p>
         <table style="width:75%">
           <tr>
@@ -463,6 +406,32 @@
             <td>20</td>
           </tr>
         </table>
+        <h5 class="skill" id="di-spe">Speed</h5>
+        <p>
+          This is used to determine how quick short reactive actions
+          are made.  Those are actions that need to be completed
+          within a few seconds, usually in combat.  If an action
+          extends beyond 100% duration when attempting to be quick, it
+          fails.
+        </p>
+        <table style="width:90%">
+          <tr>
+            <th>Dimension</th>
+            <th>20</th>
+            <th>25</th>
+            <th>30</th>
+            <th>35</th>
+            <th>40</th>
+          </tr>
+          <tr class="num">
+            <td>Speed</td>
+            <td>1</td>
+            <td>3/4</td>
+            <td>1/2</td>
+            <td>3/8</td>
+            <td>1/4</td>
+          </tr>
+        </table>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
           <em>Yield</em> is used for various creation or harvesting
@@ -587,7 +556,7 @@
           <em>aim plane</em>.  Note that this gives a 20% chance of
           hitting the other 50% of the target zone.  This can be
           applied repeatedly to either understand how wildly off a
-          shot was or when firing at an wall of enemies.
+          shot was or when firing at a wall of enemies.
         </p>
         <p>
           For the purpose of attitude to an attacker, normal humans
@@ -603,7 +572,7 @@
           second defense causes a -5 penalty to both parries, a third
           causes a -7.9 to all and so on.  Defenders may split the
           penalty among different attackers.  Block/Dodge/Parry is at
-          -1 per 10*m/s for missiles and bullets.
+          -1 per 10m/s for missiles and bullets.
         </p>
         <h5 id="co-blood">Bloodloss</h5>
         <p>
@@ -683,9 +652,9 @@
         <p>
           A 4 second round can be spent to prepare an activity, which
           shall happen at a dedicated instance.  The conditions must
-          be as simple.  Use Initiative at +20 or alternativly the
-          activity at +5.  Active conditions such as suppressive fire
-          are notwithstanding.
+          be evaluated in less than a second.  Use Initiative at +20
+          or alternativly the activity at +5.  Active conditions such
+          as suppressive fire are notwithstanding.
         </p>
         <h5 id="co-push">Push</h5>
         <p>
@@ -698,8 +667,8 @@
           resists or not.  A resist deducts from the distance forced
           and can even be used as a counter-push.  The pushed
           character may opt to fall prone instead at any time, for
-          instance to avoid falling of a cliff.  Any remaing distance
-          is forfeit.
+          instance to avoid falling of a cliff.  Any remaining
+          distance is forfeit.
         </p>
         <h5 id="co-rise">Rise</h5>
         <p>
@@ -917,47 +886,47 @@
         </table>
         <h3 id="equipment">Other Equipment</h3>
         <table>
-	  <tr>
-	    <th>Name</th>
-	    <th>Usage</th>
-	  </tr>
-	  <tr>
-	    <td>Scope</td>
-	    <td>+5 Aiming</td>
-	  </tr>
-	  <tr>
-	    <td>Grenade</td>
-	    <td>30 &#38; -1/m</td>
-	  </tr>
-	  <tr>
-	    <td>Aimlock</td>
-	    <td>Targetlock at 20/4s</td>
-	  </tr>
-	  <tr>
-	    <td>Teargas</td>
-	    <td>As Grenade but Fatigue only</td>
-	  </tr>
-	  <tr>
-	    <td>Flashbang</td>
-	    <td>Blind/-20 &#38; +1/s</td>
-	  </tr>
-	  <tr>
-	    <td>Silencer</td>
-	    <td>-10 Noise</td>
-	  </tr>
-	  <tr>
-	    <td>Vision Enhancer</td>
-	    <td>Reduce darkness or fog penalties</td>
-	  </tr>
-	  <tr>
-	    <td>Earbeads</td>
-	    <td>Comms, range 1kWh/km<sup>2</sup></td>
-	  </tr>
-	  <tr>
-	    <td>Energy</td>
-	    <td>1kWh/kg = 3.6MWs/kg</td>
-	  </tr>
-	</table>
+          <tr>
+            <th>Name</th>
+            <th>Usage</th>
+          </tr>
+          <tr>
+            <td>Scope</td>
+            <td>+5 Aiming</td>
+          </tr>
+          <tr>
+            <td>Grenade</td>
+            <td>30 &#38; -1/m</td>
+          </tr>
+          <tr>
+            <td>Aimlock</td>
+            <td>Targetlock at 20/4s</td>
+          </tr>
+          <tr>
+            <td>Teargas</td>
+            <td>As Grenade but Fatigue only</td>
+          </tr>
+          <tr>
+            <td>Flashbang</td>
+            <td>Blind/-20 &#38; +1/s</td>
+          </tr>
+          <tr>
+            <td>Silencer</td>
+            <td>-10 Noise</td>
+          </tr>
+          <tr>
+            <td>Vision Enhancer</td>
+            <td>Reduce darkness or fog penalties</td>
+          </tr>
+          <tr>
+            <td>Earbeads</td>
+            <td>Comms, range 1kWh/km<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>Energy</td>
+            <td>1kWh/kg = 3.6MWs/kg</td>
+          </tr>
+        </table>
       </div>
     </div>
   </body>
