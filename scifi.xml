@@ -182,17 +182,21 @@
         </p>
         <h5 class="skill" id="di-co1">Combat</h5>
         <p>
-          One dimension is the time (in seconds), which it takes to
-          achieve the wound level zero on the defender.  The wound
-          level is a separate dimension; you can use trajectories.
-          Once a (rolled) progression has reached its goal, a new
-          skill roll is made.  It is therefore possible to play
-          4-second round-based combat.
+          One dimension is the time, which it takes to achieve the
+          wound level zero on the defender.  The wound level is a
+          separate dimension; you can use trajectories.  Once a
+          (rolled) progression has reached its goal, a new skill roll
+          is made.  It is therefore possible to play 4-second
+          round-based combat.  The weapon table show the base time it
+          takes to attack once.  This is multiplied by the number in
+          the table.
         </p>
         <p>
           The <em>wounds</em> are the result of the <em>value</em>
           calculation divided by 5, e.g. a 35 value result is 7
-          wounds.
+          wounds.  Wounds only apply, if the attack/defense + n5
+          result is positive.  Negative wounds may result from cover
+          and other circumstances but are not applied.
         </p>
         <p>
           The fractional parts for the higher values in the time
@@ -213,14 +217,14 @@
           </tr>
           <tr class="num">
             <td>Time</td>
-            <td>32</td>
-            <td>16</td>
             <td>8</td>
             <td>4</td>
             <td>2</td>
             <td>1</td>
             <td>1/2</td>
             <td>1/4</td>
+            <td>1/8</td>
+            <td>1/16</td>
           </tr>
         </table>
         <p>
@@ -564,15 +568,15 @@
         </p>
         <h5 id="co-block">Block/Dodge/Parry</h5>
         <p>
-          Dodge and Block/Parry are mostly used together through
-          5-Addition.  Block/Dodge/Parry can be used at the same time
-          an attack is contemplated by the defender himself.
-          Block/Dodge/Parry is a 4 second Combat activity.  Calculate
-          separate, synchronous applications accordingly, i.e. a
-          second defense causes a -5 penalty to both parries, a third
-          causes a -7.9 to all and so on.  Defenders may split the
-          penalty among different attackers.  Block/Dodge/Parry is at
-          -1 per 10m/s for missiles and bullets.
+          Dodge/Block/Parry is a single action.  Block/Dodge/Parry is
+          not not assumed at the same time an attack is contemplated
+          by the defender himself.  Block/Dodge/Parry is a 4 second
+          Combat activity.  Calculate separate, synchronous
+          applications accordingly, i.e. a second defense causes a -5
+          penalty to both parries, a third causes a -7.9 to all and so
+          on.  The same is true for combining attacks and defenses at
+          the same time.  Block/Dodge/Parry is at -1 per 10m/s for
+          missiles and bullets.
         </p>
         <h5 id="co-blood">Bloodloss</h5>
         <p>
@@ -822,7 +826,7 @@
             <td>2</td>
             <td>24</td>
             <td>40m</td>
-            <td>1.5s</td>
+            <td>1s</td>
             <td>120</td>
           </tr>
           <tr>
