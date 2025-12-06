@@ -778,7 +778,7 @@
           <tr>
             <td>Light Pistol</td>
             <td>Gun</td>
-            <td>1.5</td>
+            <td>0.8</td>
             <td>1</td>
             <td>8</td>
             <td>20m</td>
@@ -788,7 +788,7 @@
           <tr>
             <td>Heavy Pistol</td>
             <td>Gun</td>
-            <td>3</td>
+            <td>1.5</td>
             <td>1</td>
             <td>12</td>
             <td>20m</td>
@@ -798,7 +798,7 @@
           <tr>
             <td>Light Rifle</td>
             <td>Gun</td>
-            <td>8</td>
+            <td>5</td>
             <td>2</td>
             <td>16</td>
             <td>40m</td>
@@ -808,7 +808,7 @@
           <tr>
             <td>Heavy Rifle</td>
             <td>Gun</td>
-            <td>10</td>
+            <td>6</td>
             <td>2</td>
             <td>20</td>
             <td>40m</td>
@@ -838,11 +838,11 @@
            <tr>
             <td>Energy Weapon</td>
             <td>Gun, Carried, Mounted</td>
-            <td>2/MW</td>
+            <td>3/MW</td>
             <td>2</td>
             <td>10/MW</td>
             <td>50m</td>
-            <td>2s</td>
+            <td>1s</td>
             <td>n/a</td>
           </tr>
        </table>
