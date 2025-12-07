@@ -707,6 +707,14 @@
       </div>
       <div class="container">
         <h1 id="tables">Tables</h1>
+        <p>
+	  The weight of a standard clip is included in the weapon
+	  weight.  Weight is linear with the magazine size, range and
+	  damage are 5-added with the weapon against a 5-added
+	  difficulty, so there is no need to calculate in the standard
+	  case.  Energy weapons scale arbitrarily, while guns use only
+	  whole numbers, i.e. individual projectiles.
+        </p>
         <h3 id="weapons">Weapons</h3>
         <table>
           <tr>
@@ -772,12 +780,12 @@
           <tr>
             <td>Bow</td>
             <td>Bow</td>
-            <td>0.8</td>
+            <td>1</td>
             <td>2</td>
             <td>8</td>
             <td>40m</td>
             <td>6s</td>
-            <td>(20)</td>
+            <td>20</td>
           </tr>
           <tr>
             <td>Light Pistol</td>
@@ -787,47 +795,47 @@
             <td>8</td>
             <td>20m</td>
             <td>2s</td>
-            <td>10</td>
+            <td>20 (0.2)</td>
           </tr>
           <tr>
             <td>Heavy Pistol</td>
             <td>Gun</td>
-            <td>1.5</td>
+            <td>1.6</td>
             <td>1</td>
-            <td>12</td>
+            <td>16</td>
             <td>20m</td>
             <td>4s</td>
-            <td>20</td>
+            <td>10 (0.4)</td>
           </tr>
           <tr>
             <td>Light Rifle</td>
             <td>Gun</td>
             <td>5</td>
             <td>2</td>
-            <td>16</td>
+            <td>20</td>
             <td>40m</td>
             <td>2s</td>
-            <td>30</td>
+            <td>30 (1.2)</td>
           </tr>
           <tr>
             <td>Heavy Rifle</td>
             <td>Gun</td>
             <td>6</td>
             <td>2</td>
-            <td>20</td>
+            <td>24</td>
             <td>40m</td>
             <td>2s</td>
-            <td>20</td>
+            <td>20 (1.2)</td>
           </tr>
           <tr>
             <td>Mounted Machine Gun</td>
             <td>Mounted</td>
             <td>40</td>
             <td>2</td>
-            <td>24</td>
+            <td>30</td>
             <td>40m</td>
             <td>1s</td>
-            <td>120</td>
+            <td>120 (8.0)</td>
           </tr>
           <tr>
             <td>Grenade Launcher</td>
@@ -837,7 +845,7 @@
             <td>20</td>
             <td>25m</td>
             <td>12s</td>
-            <td>1</td>
+            <td>1 (1.0)</td>
           </tr>
            <tr>
             <td>Energy Weapon</td>
@@ -847,7 +855,7 @@
             <td>10/MW</td>
             <td>50m</td>
             <td>1s</td>
-            <td>n/a</td>
+            <td>see below</td>
           </tr>
        </table>
         <h3 id="protection">Protection</h3>
