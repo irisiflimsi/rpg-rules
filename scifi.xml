@@ -709,11 +709,10 @@
         <h1 id="tables">Tables</h1>
         <p>
 	  The weight of a standard clip is included in the weapon
-	  weight.  Weight is linear with the magazine size, range and
-	  damage are 5-added with the weapon against a 5-added
-	  difficulty, so there is no need to calculate in the standard
-	  case.  Energy weapons scale arbitrarily, while guns use only
-	  whole numbers, i.e. individual projectiles.
+	  weight.  Weight is limear with the magazine size.a Damage is
+	  linear with weight and averaged between munition and firing
+	  weapon.  Energy weapons scale arbitrarily, while guns use
+	  only whole numbers, i.e. individual projectiles.
         </p>
         <h3 id="weapons">Weapons</h3>
         <table>
