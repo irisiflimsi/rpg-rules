@@ -547,7 +547,7 @@
           <tr>
             <td><a href="#co-prep">Preparation</a></td>
             <td><a href="#co-push">Push</a></td>
-            <td><a href="#co-rise">Rise</a></td>
+            <td><a href="#co-rise">Rise/Fumble/Stumble</a></td>
             <td><a href="#co-shock">Shock</a></td>
             <td><a href="#co-wounds">Wounds</a></td>
           </tr>
@@ -674,9 +674,12 @@
           instance to avoid falling of a cliff.  Any remaining
           distance is forfeit.
         </p>
-        <h5 id="co-rise">Rise</h5>
+        <h5 id="co-rise">Rise/Fumble/Stumble</h5>
         <p>
-          Use Acrobatics skill.
+          Use <em>Gross motor</em> skill for any of these situations.
+          The result of the latter two is a stumble or a fumble, while
+          the first is the <em>Combat</em> dimension time it takes to
+          escape the prone condition. 
         </p>
         <h5 id="co-shock">Shock</h5>
         <p>
@@ -708,11 +711,18 @@
       <div class="container">
         <h1 id="tables">Tables</h1>
         <p>
-	  The weight of a standard clip is included in the weapon
-	  weight.  Weight is limear with the magazine size.a Damage is
-	  linear with weight and averaged between munition and firing
-	  weapon.  Energy weapons scale arbitrarily, while guns use
-	  only whole numbers, i.e. individual projectiles.
+          The weight of a standard clip is included in the weapon
+          weight.  Weight is limear with the magazine size.  Damage is
+          linear with weight.  Energy weapons scale arbitrarily, while
+          guns use only whole numbers, i.e. individual projectiles.  Also note
+          that armor and BEP are applied after skill damage (and only
+          if the net skill application is positive).
+          Energy weapons do not include ammunition
+        </p>
+        <p>
+          Grenades lose 1point of damge per meter squared away  from ground zero,
+          i.e. a BEP 50 grenade is effectively harmless at 7m distance.  Skill
+          cannot increase damage, only precision.
         </p>
         <h3 id="weapons">Weapons</h3>
         <table>
@@ -803,28 +813,28 @@
             <td>1</td>
             <td>16</td>
             <td>20m</td>
-            <td>4s</td>
-            <td>10 (0.4)</td>
+            <td>3s</td>
+            <td>10 (0.2)</td>
           </tr>
           <tr>
             <td>Light Rifle</td>
             <td>Gun</td>
-            <td>5</td>
+            <td>4</td>
             <td>2</td>
-            <td>20</td>
+            <td>12</td>
             <td>40m</td>
             <td>2s</td>
-            <td>30 (1.2)</td>
+            <td>30 (0.5)</td>
           </tr>
           <tr>
             <td>Heavy Rifle</td>
             <td>Gun</td>
-            <td>6</td>
+            <td>5</td>
             <td>2</td>
             <td>24</td>
             <td>40m</td>
             <td>2s</td>
-            <td>20 (1.2)</td>
+            <td>20 (0.8)</td>
           </tr>
           <tr>
             <td>Mounted Machine Gun</td>
@@ -839,19 +849,19 @@
           <tr>
             <td>Grenade Launcher</td>
             <td>Carried</td>
-            <td>6</td>
+            <td>3</td>
             <td>2</td>
-            <td>20</td>
+            <td>50</td>
             <td>25m</td>
             <td>12s</td>
-            <td>1 (1.0)</td>
+            <td>1 (0.5)</td>
           </tr>
            <tr>
             <td>Energy Weapon</td>
             <td>Gun, Carried, Mounted</td>
-            <td>3/MW</td>
+            <td>2.5/(kW/s)</td>
             <td>2</td>
-            <td>10/MW</td>
+            <td>10/kW</td>
             <td>50m</td>
             <td>1s</td>
             <td>see below</td>
@@ -906,10 +916,6 @@
             <td>+5 Aiming</td>
           </tr>
           <tr>
-            <td>Grenade</td>
-            <td>30 &#38; -1/m</td>
-          </tr>
-          <tr>
             <td>Aimlock</td>
             <td>Targetlock at 20/4s</td>
           </tr>
@@ -935,7 +941,7 @@
           </tr>
           <tr>
             <td>Energy</td>
-            <td>1kWh/kg = 3.6MWs/kg</td>
+            <td>4MWs/1kg</td>
           </tr>
         </table>
       </div>
