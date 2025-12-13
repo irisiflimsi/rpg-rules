@@ -601,9 +601,9 @@
         </p>
         <h5 id="co-engage">Engagement</h5>
         <p>
-          Every character has an <em>Engagement Zone</em> of 3m about
-          his center (that does not extend into blocked areas).  The
-          Engagement Zone of a conscious, prone character is only half
+          Every character has an <em>Engagement Zone</em> of 1.5m radius
+          about his center (that does not extend into blocked areas).
+          The Engagement Zone of a conscious, prone character is only half
           that.  Unconscious characters have no Engagement Zones but
           may constitute obstacles.  A character may be (melee)
           attacked upon entering an enemy&#8217;s Engagement Zone
