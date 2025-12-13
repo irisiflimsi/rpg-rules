@@ -714,15 +714,24 @@
           The weight of a standard clip is included in the weapon
           weight.  Weight is limear with the magazine size.  Damage is
           linear with weight.  Energy weapons scale arbitrarily, while
-          guns use only whole numbers, i.e. individual projectiles.  Also note
-          that armor and BEP are applied after skill damage (and only
-          if the net skill application is positive).
-          Energy weapons do not include ammunition
+          guns use only whole numbers, i.e. individual projectiles.
+          Also note that armor and BEP are applied after skill damage (and
+          only if the net skill application is positive).
         </p>
         <p>
-          Grenades lose 1point of damge per meter squared away  from ground zero,
-          i.e. a BEP 50 grenade is effectively harmless at 7m distance.  Skill
-          cannot increase damage, only precision.
+          Energy weapons do not include ammunition weight.  Restricted
+          energy weapons can be used with other, appropriate skills.
+          Unlisted artillerie generally does not distinguish between energy
+          or projectile.
+        </p>
+        <p>
+          Explosives such as grenades lose 1 point of damge per meter
+          squared away  from ground zero, e.g. a BEP 50 grenade is effectively
+          harmless at 7m distance.  Skill cannot increase damage, only precision.
+          Energy weapons may be used with an explosive cone, assuming a
+          &#188;m<sup>2</sup> ground zero at aim distance.  For example,
+          firing at 4m<sup>2</sup> gives -16 BEP.  Using eccentric cones
+          requires configuration time. 
         </p>
         <h3 id="weapons">Weapons</h3>
         <table>
@@ -748,7 +757,7 @@
           </tr>
           <tr>
             <td>Dagger</td>
-            <td>Point, Throw</td>
+            <td>Short Weapon</td>
             <td>0.4</td>
             <td>1</td>
             <td>5</td>
@@ -758,7 +767,7 @@
           </tr>
           <tr>
             <td>Sword</td>
-            <td>Point, Edge</td>
+            <td>Long Weapon</td>
             <td>1.3</td>
             <td>1</td>
             <td>7</td>
@@ -768,7 +777,7 @@
           </tr>
           <tr>
             <td>Club</td>
-            <td>Blunt</td>
+            <td>Short Weapon</td>
             <td>1.5</td>
             <td>1</td>
             <td>4</td>
@@ -778,7 +787,7 @@
           </tr>
           <tr>
             <td>Axe</td>
-            <td>Edge, Thrown</td>
+            <td>Short Weapon</td>
             <td>1</td>
             <td>1</td>
             <td>6</td>
@@ -788,7 +797,7 @@
           </tr>
           <tr>
             <td>Bow</td>
-            <td>Bow</td>
+            <td>Bows</td>
             <td>1</td>
             <td>2</td>
             <td>8</td>
@@ -837,7 +846,7 @@
             <td>20 (0.8)</td>
           </tr>
           <tr>
-            <td>Mounted Machine Gun</td>
+            <td>Machine Gun</td>
             <td>Mounted</td>
             <td>40</td>
             <td>2</td>
@@ -852,13 +861,13 @@
             <td>3</td>
             <td>2</td>
             <td>50</td>
-            <td>25m</td>
+            <td>40m</td>
             <td>12s</td>
             <td>1 (0.5)</td>
           </tr>
            <tr>
             <td>Energy Weapon</td>
-            <td>Gun, Carried, Mounted</td>
+            <td>Energy weapon</td>
             <td>2.5/(kW/s)</td>
             <td>2</td>
             <td>10/kW</td>
