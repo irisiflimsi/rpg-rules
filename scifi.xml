@@ -125,7 +125,7 @@
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
-            <td><a href="#di-co1">Climbing</a></td>
+            <td><a href="#di-c1i">Climbing</a></td>
             <td><a href="#di-co1">Combat</a></td>
           </tr>
           <tr>
@@ -532,7 +532,7 @@
         <table class="links" style="width:90%">
           <tr>
             <td><a href="#co-aim">Aiming</a></td>
-            <td><a href="#co-block">Block/Dodge/Parry</a></td>
+            <td><a href="#co-block">Evade</a></td>
             <td><a href="#co-blood">Bloodloss</a></td>
             <td><a href="#co-sleep">Deprivation</a></td>
             <td><a href="#co-engage">Engagement</a></td>
@@ -566,17 +566,24 @@
           For the purpose of attitude to an attacker, normal humans
           are considered a &#8220;block&#8221; of 100% by 50% by 25%.
         </p>
-        <h5 id="co-block">Block/Dodge/Parry</h5>
+        <h5 id="co-block">Evade</h5>
         <p>
-          Dodge/Block/Parry is a single action.  Block/Dodge/Parry is
-          not not assumed at the same time an attack is contemplated
-          by the defender himself.  Block/Dodge/Parry is a 4 second
-          Combat activity.  Calculate separate, synchronous
-          applications accordingly, i.e. a second defense causes a -5
-          penalty to both parries, a third causes a -7.9 to all and so
-          on.  The same is true for combining attacks and defenses at
-          the same time.  Block/Dodge/Parry is at -1 per 10m/s for
-          missiles and bullets.
+          Any combination of Dodging, Blocking, and Parrying an attack
+          is a single action and called <em>Evade</em>.  Evade is not
+          assumed at the same time an attack is contemplated by the
+          defender himself.  Evade is a 4 second Combat activity.
+          Calculate separate, synchronous applications accordingly,
+          i.e. a second defense causes a -5 penalty to both parries, a
+          third causes a -7.9 to all and so on.  The same is true for
+          combining attacks and defenses at the same time.
+	</p>
+	<p>
+	  Evade is at a penalty of Initiative divided by the travel
+	  time of a missile.  Example: An arrow shot at a distance of
+	  100m travels one second.  If the Initiative is 1s, that is a
+	  -1 to Evade, an Initiative of 5s has a -5.  A bullet flying
+	  at 600m/s puts Evade at -6 and -30 respectively.  This
+	  penalty cannot reduce Evade to less than 0.
         </p>
         <h5 id="co-blood">Bloodloss</h5>
         <p>
@@ -637,20 +644,23 @@
           Count everything within 30 degrees firing arc as a single
           target with task level 0.  To simplify calculations, weapons
           list range categories to hit single humans sized targets and
-          Block/Dodge/Parry is allowed for them.  However, firing into
-          a group uses Aiming and 5-addition.  This increase can be
-          used purposefully and can be quite devastating when firing
-          at advancing troops.  On the other hand, a miss is
-          calculated before the damage calculation applies and even a
-          group hit allows the individual hit to used
-          Block/Dodge/Parry - but against the &#8220;spread&#8221;
-          roll.
+          Evade is allowed for them.  However, firing into a group
+          uses Aiming and 5-addition.  This increase can be used
+          purposefully and can be quite devastating when firing at
+          advancing troops.  On the other hand, a miss is calculated
+          before the damage calculation applies and even a group hit
+          allows the individual hit to use Evade - but against the
+          &#8220;spread&#8221; roll. It also follows that for a single
+          target, at double the listed weapon range, the attacker
+          receives a -5.
         </p>
         <h5 id="co-move">Move</h5>
         <p>
-          To avoid lengthy calculations, subtract 50% of the attacker
-          speed in m/s, when attacking during a move (or the second
-          before and after).
+          To avoid lengthy calculations, subtract attacker speed in
+          m/s, when attacking during a move (or the second before and
+          after).  If attacking <em>during</em> a move subtract a
+          percentage of 20 correspording to the percentage of a
+          maximal move during the period.
         </p>
         <h5 id="co-prep">Preparation</h5>
         <p>
@@ -711,18 +721,50 @@
       <div class="container">
         <h1 id="tables">Tables</h1>
         <p>
-          The weight of a standard clip is included in the weapon
-          weight.  Weight is limear with the magazine size.  Damage is
-          linear with weight.  Energy weapons scale arbitrarily, while
-          guns use only whole numbers, i.e. individual projectiles.
-          Also note that armor and BEP are applied after skill damage (and
-          only if the net skill application is positive).
+          The following table contains examples for the for formulas
+          given here and signal the readily available variants.
+        </p>
+        <div class="explain">
+          <p>
+            <em>Skill:</em> A short weapon is any weapon smaller than
+            50cm x 20cm x 10cm in every direction. A weapon smaller
+            than 1/4 of that in every direction can be used as
+            Unarmed.  Any object used as weapon but not built for the
+            purpose will give penalties, typically -5.
+          </p>
+          <p>
+            <em>Weight/BEP:</em> A melee weapon will have 8 BEP for a
+            weight of 2.5 kg.  Every decrease of 1 BEP leads to half
+            of the original weight, the corresponding is true for
+            increases.  Remember that a weapon stills to be controlled
+            during combat.  This is uncommon for weapons beyond 2kg,
+            as the skill is usually not trained on those extreme
+            weapons.  Weapons that are easier to manufacture generally
+            (or are dual purposed, e.g. can also be thrown) deal less
+            damage.
+          </p>
+          <p>
+	    <em>Guns</em> Remember that only 1 or two handed weapons
+	    are allowed.  The units used are found in the table.  BEP
+	    shall equal nozzle velocity times Amunition weight, while
+	    BEP times the number of hands used shall equal 8 times the
+	    gun weight.  Range shall always be 10m for (single) hand
+	    guns and 20m for rifles.  Ammunition weight shall be 10
+	    times the difference of the firing rate and the number of
+	    free hands (0 or 1).
+          </p>
+        </div>
+        <p>
+          The weight of one clip case is included in the weapon
+          weight.  Energy weapons scale arbitrarily, while guns use
+          only whole numbers, i.e. individual projectiles.  Also note
+          that armor and BEP are applied after skill damage (and only
+          if the net skill application is positive).
         </p>
         <p>
-          Energy weapons do not include ammunition weight.  Restricted
-          energy weapons can be used with other, appropriate skills.
-          Unlisted artillerie generally does not distinguish between energy
-          or projectile.
+          Restricted energy weapons can be used with other,
+          appropriate skills.  Unlisted artillerie generally does not
+          distinguish between energy or projectile.
         </p>
         <p>
           Explosives such as grenades lose 1 point of damge per meter
@@ -738,12 +780,14 @@
           <tr>
             <th>Weapon</th>
             <th>Skill</th>
-            <th>Kg</th>
+            <th>Weight</th>
             <th>Hand</th>
             <th>BEP</th>
             <th>Range</th>
             <th>Rate</th>
             <th>Clip</th>
+            <th>Ammo/th>
+            <th>Nozzle/th>
           </tr>
           <tr>
             <td>Unarmed</td>
@@ -753,16 +797,20 @@
             <td>2</td>
             <td>-</td>
             <td>4s</td>
+            <td>-</td>
+            <td>-</td>
             <td>-</td>
           </tr>
           <tr>
             <td>Dagger</td>
             <td>Short Weapon</td>
-            <td>0.4</td>
+            <td>0.3</td>
             <td>1</td>
             <td>5</td>
-            <td>6m</td>
+            <td>5m</td>
             <td>4s</td>
+            <td>-</td>
+            <td>-</td>
             <td>-</td>
           </tr>
           <tr>
@@ -774,76 +822,92 @@
             <td>-</td>
             <td>4s</td>
             <td>-</td>
+            <td>-</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>Club</td>
-            <td>Short Weapon</td>
-            <td>1.5</td>
+            <td>Long Weapon</td>
+            <td>1.2</td>
             <td>1</td>
-            <td>4</td>
+            <td>6</td>
             <td>-</td>
             <td>4s</td>
+            <td>-</td>
+            <td>-</td>
             <td>-</td>
           </tr>
           <tr>
             <td>Axe</td>
-            <td>Short Weapon</td>
-            <td>1</td>
+            <td>Long Weapon</td>
+            <td>1.1</td>
             <td>1</td>
             <td>6</td>
-            <td>6m</td>
+            <td>5m</td>
             <td>4s</td>
             <td>-</td>
+            <td>1kg</td>
+            <td>6m/s</td>
           </tr>
           <tr>
             <td>Bow</td>
             <td>Bows</td>
-            <td>1</td>
+            <td>1.5kg</td>
             <td>2</td>
             <td>8</td>
-            <td>40m</td>
+            <td>20m</td>
             <td>6s</td>
-            <td>20 (0.2)</td>
+            <td>20</td>
+            <td>80g</td>
+            <td>100m/s</td>
           </tr>
           <tr>
             <td>Light Pistol</td>
             <td>Gun</td>
-            <td>0.8</td>
+            <td>1kg</td>
             <td>1</td>
-            <td>8</td>
-            <td>20m</td>
+            <td>6</td>
+            <td>10m</td>
             <td>2s</td>
-            <td>20 (0.2)</td>
+            <td>20</td>
+	    <td>10g</td>
+	    <td>600m/s</td>
           </tr>
           <tr>
             <td>Heavy Pistol</td>
             <td>Gun</td>
-            <td>1.6</td>
+            <td>2kg</td>
             <td>1</td>
-            <td>16</td>
-            <td>20m</td>
+            <td>18</td>
+            <td>10m</td>
             <td>3s</td>
-            <td>10 (0.2)</td>
+            <td>10</td>
+	    <td>20g</td>
+	    <td>900m/s</td>
           </tr>
           <tr>
             <td>Light Rifle</td>
             <td>Gun</td>
-            <td>4</td>
+            <td>4kg</td>
             <td>2</td>
             <td>12</td>
-            <td>40m</td>
+            <td>20m</td>
             <td>2s</td>
-            <td>30 (0.5)</td>
+            <td>30</td>
+	    <td>20g</td>
+	    <td>600m/s</td>
           </tr>
           <tr>
             <td>Heavy Rifle</td>
             <td>Gun</td>
-            <td>5</td>
+            <td>6kg</td>
             <td>2</td>
             <td>24</td>
-            <td>40m</td>
-            <td>2s</td>
-            <td>20 (0.8)</td>
+            <td>20m</td>
+            <td>4s</td>
+            <td>20</td>
+	    <td>40g</td>
+	    <td>600m/s</td>
           </tr>
           <tr>
             <td>Machine Gun</td>
@@ -854,6 +918,8 @@
             <td>40m</td>
             <td>1s</td>
             <td>120 (8.0)</td>
+            <td>-</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>Grenade Launcher</td>
@@ -864,6 +930,8 @@
             <td>40m</td>
             <td>12s</td>
             <td>1 (0.5)</td>
+            <td>-</td>
+            <td>-</td>
           </tr>
            <tr>
             <td>Energy Weapon</td>
@@ -874,6 +942,8 @@
             <td>50m</td>
             <td>1s</td>
             <td>see below</td>
+            <td>-</td>
+            <td>-</td>
           </tr>
        </table>
         <h3 id="protection">Protection</h3>
