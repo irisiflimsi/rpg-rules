@@ -656,11 +656,13 @@
         </p>
         <h5 id="co-move">Move</h5>
         <p>
-          To avoid lengthy calculations, subtract attacker speed in
-          m/s, when attacking during a move (or the second before and
-          after).  If attacking <em>during</em> a move subtract a
+          Subtract attacker vs defender speed in m/s, when attacking
+          during a move (or the second before and after).  For missile
+          attacks use speed perpendicular to the direction of the
+          attack.  If attacking <em>during</em> a move subtract a
           percentage of 20 correspording to the percentage of a
-          maximal move during the period.
+          maximal move during the period.  The same is valid for Evade
+          during a Move.
         </p>
         <h5 id="co-prep">Preparation</h5>
         <p>
@@ -748,8 +750,8 @@
             are allowed.  The units used are found in the table.  BEP
             shall equal nozzle velocity times Amunition weight, while
             BEP times the number of hands used shall equal 8 times the
-            gun weight.  Range shall always be 10m for (single) hand
-            guns and 20m for rifles.  Ammunition weight shall be 10
+            gun weight.  Range shall always be 20m for (single) hand
+            guns and 40m for rifles.  Ammunition weight shall be 10
             times the difference of the firing rate and the number of
             free hands (0 or 1).
           </p>
@@ -804,7 +806,7 @@
           <tr>
             <td>Dagger</td>
             <td>Short Weapon</td>
-            <td>0.3</td>
+            <td>300g</td>
             <td>1</td>
             <td>5</td>
             <td>5m</td>
@@ -816,7 +818,7 @@
           <tr>
             <td>Sword</td>
             <td>Long Weapon</td>
-            <td>1.3</td>
+            <td>1.3kg</td>
             <td>1</td>
             <td>7</td>
             <td>-</td>
@@ -828,7 +830,7 @@
           <tr>
             <td>Club</td>
             <td>Long Weapon</td>
-            <td>1.2</td>
+            <td>1.2kg</td>
             <td>1</td>
             <td>6</td>
             <td>-</td>
@@ -840,7 +842,7 @@
           <tr>
             <td>Axe</td>
             <td>Long Weapon</td>
-            <td>1.1</td>
+            <td>1.1kg</td>
             <td>1</td>
             <td>6</td>
             <td>5m</td>
@@ -867,7 +869,7 @@
             <td>1kg</td>
             <td>1</td>
             <td>6</td>
-            <td>10m</td>
+            <td>20m</td>
             <td>2s</td>
             <td>20</td>
             <td>10g</td>
@@ -879,7 +881,7 @@
             <td>2kg</td>
             <td>1</td>
             <td>18</td>
-            <td>10m</td>
+            <td>20m</td>
             <td>3s</td>
             <td>10</td>
             <td>20g</td>
@@ -891,7 +893,7 @@
             <td>4kg</td>
             <td>2</td>
             <td>12</td>
-            <td>20m</td>
+            <td>40m</td>
             <td>2s</td>
             <td>30</td>
             <td>20g</td>
@@ -903,7 +905,7 @@
             <td>6kg</td>
             <td>2</td>
             <td>24</td>
-            <td>20m</td>
+            <td>40m</td>
             <td>4s</td>
             <td>20</td>
             <td>40g</td>
@@ -912,26 +914,26 @@
           <tr>
             <td>Machine Gun</td>
             <td>Mounted</td>
-            <td>40</td>
+            <td>25kg</td>
             <td>2</td>
-            <td>30</td>
+            <td>36</td>
             <td>40m</td>
             <td>1s</td>
-            <td>120 (8.0)</td>
-            <td>-</td>
-            <td>-</td>
+            <td>120</td>
+            <td>40g</td>
+            <td>900m/s</td>
           </tr>
           <tr>
             <td>Grenade Launcher</td>
             <td>Carried</td>
-            <td>3</td>
+            <td>3kg</td>
             <td>2</td>
             <td>50</td>
             <td>40m</td>
             <td>12s</td>
-            <td>1 (0.5)</td>
-            <td>-</td>
-            <td>-</td>
+            <td>1</td>
+            <td>500g</td>
+            <td>100m/s</td>
           </tr>
           <tr>
             <td>Energy Weapon</td>
@@ -941,9 +943,9 @@
             <td>10/kW</td>
             <td>50m</td>
             <td>1s</td>
-            <td>see above</td>
-            <td>-</td>
-            <td>-</td>
+            <td>see below</td>
+            <td>see below</td>
+            <td>Light</td>
           </tr>
         </table>
         <h3 id="protection">Protection</h3>
