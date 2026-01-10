@@ -576,14 +576,14 @@
           i.e. a second defense causes a -5 penalty to both parries, a
           third causes a -7.9 to all and so on.  The same is true for
           combining attacks and defenses at the same time.
-	</p>
-	<p>
-	  Evade is at a penalty of Initiative divided by the travel
-	  time of a missile.  Example: An arrow shot at a distance of
-	  100m travels one second.  If the Initiative is 1s, that is a
-	  -1 to Evade, an Initiative of 5s has a -5.  A bullet flying
-	  at 600m/s puts Evade at -6 and -30 respectively.  This
-	  penalty cannot reduce Evade to less than 0.
+        </p>
+        <p>
+          Evade is at a penalty of Initiative divided by the travel
+          time of a missile.  Example: An arrow shot at a distance of
+          100m travels one second.  If the Initiative is 1s, that is a
+          -1 to Evade, an Initiative of 5s has a -5.  A bullet flying
+          at 600m/s puts Evade at -6 and -30 respectively.  This
+          penalty cannot reduce Evade to less than 0.
         </p>
         <h5 id="co-blood">Bloodloss</h5>
         <p>
@@ -744,14 +744,14 @@
             damage.
           </p>
           <p>
-	    <em>Guns</em> Remember that only 1 or two handed weapons
-	    are allowed.  The units used are found in the table.  BEP
-	    shall equal nozzle velocity times Amunition weight, while
-	    BEP times the number of hands used shall equal 8 times the
-	    gun weight.  Range shall always be 10m for (single) hand
-	    guns and 20m for rifles.  Ammunition weight shall be 10
-	    times the difference of the firing rate and the number of
-	    free hands (0 or 1).
+            <em>Guns</em> Remember that only 1 or two handed weapons
+            are allowed.  The units used are found in the table.  BEP
+            shall equal nozzle velocity times Amunition weight, while
+            BEP times the number of hands used shall equal 8 times the
+            gun weight.  Range shall always be 10m for (single) hand
+            guns and 20m for rifles.  Ammunition weight shall be 10
+            times the difference of the firing rate and the number of
+            free hands (0 or 1).
           </p>
         </div>
         <p>
@@ -787,7 +787,7 @@
             <th>Rate</th>
             <th>Clip</th>
             <th>Ammo/th>
-            <th>Nozzle/th>
+            <th>Nozzle</th>
           </tr>
           <tr>
             <td>Unarmed</td>
@@ -870,8 +870,8 @@
             <td>10m</td>
             <td>2s</td>
             <td>20</td>
-	    <td>10g</td>
-	    <td>600m/s</td>
+            <td>10g</td>
+            <td>600m/s</td>
           </tr>
           <tr>
             <td>Heavy Pistol</td>
@@ -882,8 +882,8 @@
             <td>10m</td>
             <td>3s</td>
             <td>10</td>
-	    <td>20g</td>
-	    <td>900m/s</td>
+            <td>20g</td>
+            <td>900m/s</td>
           </tr>
           <tr>
             <td>Light Rifle</td>
@@ -894,8 +894,8 @@
             <td>20m</td>
             <td>2s</td>
             <td>30</td>
-	    <td>20g</td>
-	    <td>600m/s</td>
+            <td>20g</td>
+            <td>600m/s</td>
           </tr>
           <tr>
             <td>Heavy Rifle</td>
@@ -906,8 +906,8 @@
             <td>20m</td>
             <td>4s</td>
             <td>20</td>
-	    <td>40g</td>
-	    <td>600m/s</td>
+            <td>40g</td>
+            <td>600m/s</td>
           </tr>
           <tr>
             <td>Machine Gun</td>
@@ -933,7 +933,7 @@
             <td>-</td>
             <td>-</td>
           </tr>
-           <tr>
+          <tr>
             <td>Energy Weapon</td>
             <td>Energy weapon</td>
             <td>2.5/(kW/s)</td>
@@ -941,11 +941,11 @@
             <td>10/kW</td>
             <td>50m</td>
             <td>1s</td>
-            <td>see below</td>
+            <td>see above</td>
             <td>-</td>
             <td>-</td>
           </tr>
-       </table>
+        </table>
         <h3 id="protection">Protection</h3>
         <table>
           <tr>
