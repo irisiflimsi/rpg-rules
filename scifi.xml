@@ -956,41 +956,61 @@
           </tr>
         </table>
         <h3 id="protection">Protection</h3>
+        <p>
+          The following table contains examples for the for formulas
+          given here and signal some readily available variants.
+        </p>
+        <div class="explain">
+          <p>
+	    The three columns show density, damage reduction and loss
+	    of damage reduction.  The last is measured by summing up
+	    the points reduced until repairs are made.  Loss of damage
+	    reduction is equal to the difference of damage reduction
+	    and weight, divided by damage reduction and weight.
+	  </p>
+        </div>
         <table>
           <tr>
             <th>Material</th>
             <th>Kg (1x1x0.01)</th>
             <th>BEP</th>
+            <th>Loss</th>
           </tr>
           <tr>
             <td>Rock</td>
             <td>3</td>
-            <td>25</td>
+            <td>15</td>
+            <td>2/5</td>
           </tr>
           <tr>
             <td>Wood</td>
             <td>1</td>
-            <td>8</td>
+            <td>5</td>
+            <td>4/5</td>
           </tr>
           <tr>
             <td>Water</td>
             <td>1</td>
             <td>1</td>
+            <td>0/5</td>
           </tr>
           <tr>
             <td>Plaststeel</td>
             <td>3</td>
-            <td>25</td>
+            <td>12</td>
+            <td>1/5</td>
           </tr>
           <tr>
             <td>Glas</td>
             <td>1.5</td>
-            <td>10</td>
+            <td>8</td>
+            <td>3/5</td>
           </tr>
           <tr>
             <td>Metal</td>
             <td>2</td>
-            <td>4</td>
+            <td>5</td>
+            <td>1/5</td>
           </tr>
         </table>
         <h3 id="equipment">Other Equipment</h3>
