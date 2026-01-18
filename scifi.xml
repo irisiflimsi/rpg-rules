@@ -962,13 +962,21 @@
         </p>
         <div class="explain">
           <p>
-	    The three columns show density, damage reduction and loss
-	    of damage reduction.  The last is measured by summing up
-	    the points reduced until repairs are made.  Loss of damage
-	    reduction is equal to the difference of damage reduction
-	    and weight, divided by damage reduction and weight.
-	  </p>
+            The three columns show density, damage reduction and loss
+            of damage reduction.  The last is measured by summing up
+            the points reduced until repairs are made.  Loss of damage
+            reduction is equal to the difference of damage reduction
+            and weight, divided by damage reduction and weight.
+          </p>
         </div>
+        <p>
+          Loss of protection only affects the area covered.  The size
+          depends on various characteristics of the cover and the kinetic
+          type.  Using a normal missile, assume 5% or 6.25% of normal human
+          armor is affected and 10% or 12.5% for a normal short weapon and
+          25% for a normal long weapon and 50% for an explosive, i.e. the  
+          exposed side.
+        </p>
         <table>
           <tr>
             <th>Material</th>
@@ -980,7 +988,7 @@
             <td>Rock</td>
             <td>3</td>
             <td>15</td>
-            <td>2/5</td>
+            <td>4/15</td>
           </tr>
           <tr>
             <td>Wood</td>
@@ -992,25 +1000,31 @@
             <td>Water</td>
             <td>1</td>
             <td>1</td>
-            <td>0/5</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Leather</td>
+            <td>1</td>
+            <td>3</td>
+            <td>2/3</td>
           </tr>
           <tr>
             <td>Plaststeel</td>
             <td>3</td>
             <td>12</td>
-            <td>1/5</td>
+            <td>3/12</td>
           </tr>
           <tr>
             <td>Glas</td>
             <td>1.5</td>
             <td>8</td>
-            <td>3/5</td>
+            <td>2/8</td>
           </tr>
           <tr>
             <td>Metal</td>
             <td>2</td>
             <td>5</td>
-            <td>1/5</td>
+            <td>3/10</td>
           </tr>
         </table>
         <h3 id="equipment">Other Equipment</h3>
