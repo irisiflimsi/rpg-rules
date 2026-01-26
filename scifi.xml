@@ -568,11 +568,11 @@
         </p>
         <h5 id="co-block">Evade</h5>
         <p>
-	  Skills to evade do not include any mental skills or missile
-	  skills.  Unarmed, melee weapons, strength are all applicable.
-	  If the same skill is used for multiple, simultaneous
-	  actions, it is at +5, compensating some of the penalty
-	  for multiple actions.
+          Skills to evade do not include any mental skills or missile
+          skills.  Unarmed, melee weapons, strength are all applicable.
+          If the same skill is used for multiple, simultaneous
+          actions, it is at +5, compensating some of the penalty
+          for multiple actions.
         </p>
         <p>
           Any combination of Dodging, Blocking, and Parrying an attack
@@ -591,6 +591,10 @@
           -1 to Evade, an Initiative of 5s has a -5.  A bullet flying
           at 600m/s puts Evade at -6 and -30 respectively.  This
           penalty cannot reduce Evade to less than 0.
+        </p>
+        <p>
+          If the firing weapon itself is within reach of a parry or
+          block, it turns into a (improvised) melee weapon.
         </p>
         <h5 id="co-blood">Bloodloss</h5>
         <p>
