@@ -951,7 +951,7 @@
             <td>Energy weapon</td>
             <td>2.5/(kW/s)</td>
             <td>2</td>
-            <td>10/kW</td>
+            <td>10/(kW/s)</td>
             <td>50m</td>
             <td>1s</td>
             <td>see below</td>
