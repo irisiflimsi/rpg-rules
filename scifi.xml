@@ -781,12 +781,26 @@
         </p>
         <p>
           Explosives such as grenades lose 1 point of damge per meter
-          squared away  from ground zero, e.g. a BEP 50 grenade is effectively
-          harmless at 7m distance.  Skill cannot increase damage, only precision.
+          squared away from <em>ground zero</em>, e.g. a BEP 50 grenade
+          is effectively harmless at 7m distance.  Skill cannot
+          increase damage, only precision. <em>Ground zero</em> has
+          zero area (and volume).
+        </p>
+        <p>
           Energy weapons may be used with an explosive cone, assuming a
-          &#188;m<sup>2</sup> ground zero at aim distance.  For example,
-          firing at 4m<sup>2</sup> gives -16 BEP.  Using eccentric cones
-          requires configuration time. 
+          <em>ground zero</em> at aim distance.  For example,
+          firing at 4m<sup>2</sup> gives -16 BEP.  Using non-square cones
+          requires configuration time.  Another example: A
+          fan-like cone of 30 degrees for a weapon at 50m range, means
+          that 25m<sup>2</sup> are covered, which means the damage penalty
+          is 625 BEP.  If the target area is at 20m instead, the area is
+          only 10m<sup>2</sup> and the damage penalty only 100 BEP.
+        </p>
+        <p>
+          Space battles are almost exclusively handled with energy weapons.
+          The speed of light of the &#8220;projectile&#8221; is essential.
+          Weapons will weigh in the tons and consequently cause multiples
+          of 1000 BEP damage.
         </p>
         <h3 id="weapons">Weapons</h3>
         <table>
@@ -981,6 +995,15 @@
           25% for a normal long weapon and 50% for an explosive, i.e. the  
           exposed side.
         </p>
+        <p>
+          Ship combat is mostly automated and governed by extremely high-accuracy.
+          This means that at distances below a light second or on a stationary
+          target such weapons will usually never miss.  <em>Shields</em> only
+          work against energy weapons.  (In the context of these rules, shields 
+          are always these energy shields.)  They can dissipate 
+          the same amount of energy that they operate with.  Rules otherwise
+          apply to shields as they do to any other protection.
+        </p>
         <table>
           <tr>
             <th>Material</th>
@@ -1029,6 +1052,12 @@
             <td>2</td>
             <td>5</td>
             <td>3/10</td>
+          </tr>
+          <tr>
+            <td>Shields</td>
+            <td>200</td>
+            <td>200</td>
+            <td>0</td>
           </tr>
         </table>
         <h3 id="equipment">Other Equipment</h3>
