@@ -757,10 +757,11 @@
         </p>
         <p>
           Shields are noticed as dim fog, beause energy is not only
-          dissipated among the shield but also reflected, although
+          dissipated among the shield but also reflected, although to
           a much smaller degree.  This is also true when in a shield.
           Standard energy weapons have a safety that stops them from
-          firing in a shield, otherwise they would turn into a grenade.
+          firing in a shield, otherwise they would turn into a grenade
+          instantly.
         </p>
       </div>
       <div class="container">
