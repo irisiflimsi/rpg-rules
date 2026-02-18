@@ -730,6 +730,38 @@
           and cannot be healed.  For living beings this means instant
           death.
         </p>
+        <h3 id="co-links">Space Combat</h3>
+        <p>
+          Ship combat is mostly automated and governed by extremely
+          high accuracy.  This means that at distances below a light
+          second or on a target with predictable trajectory at
+          distances of a light year, such weapons will usually never
+          miss.
+        </p>
+        <p>
+          Energy <em>Shields</em> will only work against energy
+          weapons, because they react to speed of impact.  (In the
+          context of these rules, shields are always energy shields.)
+          They can dissipate the same amount of energy that they
+          operate with across all connected shields.  This energy is
+          only needed at the time (1s) and point of impact.  Connected
+          shields drain connected supplies equally.
+        </p>
+        <p>
+          An energy-depleted shield can still protect through
+          dissipation.  Assume a shield of 1m thickness and 100m
+          radius circle.  This will cause a 180 degree spherical
+          spread as described in the energy weapon section, causing a
+          reduction of approximately 1500 BEP, but anything that
+          passes through will do damage everywhere on the circle.
+        </p>
+        <p>
+          Shields are noticed as dim fog, beause energy is not only
+          dissipated among the shield but also reflected, although
+          a much smaller degree.  This is also true when in a shield.
+          Standard energy weapons have a safety that stops them from
+          firing in a shield, otherwise they would turn into a grenade.
+        </p>
       </div>
       <div class="container">
         <h1 id="tables">Tables</h1>
@@ -996,13 +1028,8 @@
           exposed side.
         </p>
         <p>
-          Ship combat is mostly automated and governed by extremely high-accuracy.
-          This means that at distances below a light second or on a stationary
-          target such weapons will usually never miss.  <em>Shields</em> only
-          work against energy weapons.  (In the context of these rules, shields 
-          are always these energy shields.)  They can dissipate 
-          the same amount of energy that they operate with.  Rules otherwise
-          apply to shields as they do to any other protection.
+          The weight of a shield only applies at the time of impact.  Otherwise
+          it is neglible (1kg/m<sup>3</sup>.
         </p>
         <table>
           <tr>
@@ -1055,8 +1082,8 @@
           </tr>
           <tr>
             <td>Shields</td>
-            <td>200</td>
-            <td>200</td>
+            <td>100*</td>
+            <td>100</td>
             <td>0</td>
           </tr>
         </table>
