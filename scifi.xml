@@ -24,12 +24,12 @@
         </p>
         <h3 id="overview">Overview</h3>
         <p>
-          Many values are taken from Harnmaster (various versions) and
-          fan publication such as Gunmaster from Bill Gant (various
-          versions) but adapted to the setting.  The intention was to
-          benefit from predetermined, balanced values.  For example,
-          when comparing firearms with melee weapons, balanced effects
-          are possibly play-tested.
+          Inspiration was gained from Harnmaster (various versions)
+          and fan publications such as Gunmaster from Bill Gant
+          (various versions) but adapted to the setting.  The
+          intention was to benefit from predetermined, balanced
+          values, however the mechanics changed most values beyond
+          recognition.
         </p>
         <h4>Skill Testing</h4>
         <p>
@@ -173,8 +173,8 @@
         </table>
         <h5 class="skill" id="di-cli">Climbing</h5>
         <p>
-          Climbing Speed is 1/4 walking speed at success. Speed can be
-          increased by 1/4 for a -10 penalty, or decreased
+          Climbing Speed is 1/4 walking speed at success.  Speed can
+          be increased by 1/4 for a -10 penalty, or decreased
           accordingly, but negative speeds are not allowed.  E.g. for
           a +10, one can opt to simply try and cling to a holding to
           not fall down.  A failure results in a fall, usually evenly
@@ -569,10 +569,10 @@
         <h5 id="co-block">Evade</h5>
         <p>
           Skills to evade do not include any mental skills or missile
-          skills.  Unarmed, melee weapons, strength are all applicable.
-          If the same skill is used for multiple, simultaneous
-          actions, it is at +5, compensating some of the penalty
-          for multiple actions.
+          skills.  Unarmed, melee weapons, strength are all
+          applicable.  If the same skill is used for multiple,
+          simultaneous actions, it is at +5, compensating some of the
+          penalty for multiple actions.
         </p>
         <p>
           Any combination of Dodging, Blocking, and Parrying an attack
@@ -602,7 +602,7 @@
           injury level above 10 every 4s.  For example, a 16-20 point
           injury causes 2 points per 4 seconds, or 1 point of
           bloodloss every 1 second.  This number is lost until
-          treatment is applied. Treat the final sum as a separate
+          treatment is applied.  Treat the final sum as a separate
           injury.  Some wounds will not cause bloodloss (e.g. Frost)
           including wounds to inanimate objects.
         </p>
@@ -619,15 +619,15 @@
         </p>
         <h5 id="co-engage">Engagement</h5>
         <p>
-          Every character has an <em>Engagement Zone</em> of 1.5m radius
-          about his center (that does not extend into blocked areas).
-          The Engagement Zone of a conscious, prone character is only half
-          that.  Unconscious characters have no Engagement Zones but
-          may constitute obstacles.  A character may be (melee)
-          attacked upon entering an enemy&#8217;s Engagement Zone
-          until he leaves that zone.  This entering or leaving may be
-          active or passive.  It is possible to be engaged with an
-          arbitrary number of enemies at a time.
+          Every character has an <em>Engagement Zone</em> of 1.5m
+          radius about his center (that does not extend into blocked
+          areas).  The Engagement Zone of a conscious, prone character
+          is only half that.  Unconscious characters have no
+          Engagement Zones but may constitute obstacles.  A character
+          may be (melee) attacked upon entering an enemy&#8217;s
+          Engagement Zone until he leaves that zone.  This entering or
+          leaving may be active or passive.  It is possible to be
+          engaged with an arbitrary number of enemies at a time.
         </p>
         <h5 id="co-grapple">Grapple/Tangle</h5>
         <p>
@@ -661,9 +661,9 @@
           advancing troops.  On the other hand, a miss is calculated
           before the damage calculation applies and even a group hit
           allows the individual hit to use Evade - but against the
-          &#8220;spread&#8221; roll. It also follows that for a single
-          target, at double the listed weapon range, the attacker
-          receives a -5.
+          &#8220;spread&#8221; roll.  It also follows that for a
+          single target, at double the listed weapon range, the
+          attacker receives a -5.
         </p>
         <h5 id="co-move">Move</h5>
         <p>
@@ -702,7 +702,7 @@
           Use <em>Gross motor</em> skill for any of these situations.
           The result of the latter two is a stumble or a fumble, while
           the first is the <em>Combat</em> dimension time it takes to
-          escape the prone condition. 
+          escape the prone condition.
         </p>
         <h5 id="co-shock">Shock</h5>
         <p>
@@ -722,7 +722,7 @@
           5.
         </p>
         <p>
-          <em>Incapacitating:</em>. The system affected cannot be used
+          <em>Incapacitating:</em> The system affected cannot be used
           but still be healed.
         </p>
         <p>
@@ -773,7 +773,7 @@
         <div class="explain">
           <p>
             <em>Skill:</em> A short weapon is any weapon smaller than
-            50cm x 20cm x 10cm in every direction. A weapon smaller
+            50cm x 20cm x 10cm in every direction.  A weapon smaller
             than 1/4 of that in every direction can be used as
             Unarmed.  Any object used as weapon but not built for the
             purpose will give penalties, typically -5.
@@ -814,26 +814,26 @@
         </p>
         <p>
           Explosives such as grenades lose 1 point of damge per meter
-          squared away from <em>ground zero</em>, e.g. a BEP 50 grenade
-          is effectively harmless at 7m distance.  Skill cannot
-          increase damage, only precision. <em>Ground zero</em> has
-          zero area (and volume).
+          squared away from <em>ground zero</em>, e.g. a BEP 50
+          grenade is effectively harmless at 7m distance.  Skill
+          cannot increase damage, only precision.  <em>Ground
+          zero</em> has zero area (and volume).
         </p>
         <p>
-          Energy weapons may be used with an explosive cone, assuming a
-          <em>ground zero</em> at aim distance.  For example,
-          firing at 4m<sup>2</sup> gives -16 BEP.  Using non-square cones
-          requires configuration time.  Another example: A
-          fan-like cone of 30 degrees for a weapon at 50m range, means
-          that 25m<sup>2</sup> are covered, which means the damage penalty
-          is 625 BEP.  If the target area is at 20m instead, the area is
-          only 10m<sup>2</sup> and the damage penalty only 100 BEP.
+          Energy weapons may be used with an explosive cone, assuming
+          a <em>ground zero</em> at aim distance.  For example, firing
+          at 4m<sup>2</sup> gives -16 BEP.  Using non-square cones
+          requires configuration time.  Another example: A fan-like
+          cone of 30 degrees for a weapon at 50m range, means that
+          25m<sup>2</sup> are covered, which means the damage penalty
+          is 625 BEP.  If the target area is at 20m instead, the area
+          is only 10m<sup>2</sup> and the damage penalty only 100 BEP.
         </p>
         <p>
-          Space battles are almost exclusively handled with energy weapons.
-          The speed of light of the &#8220;projectile&#8221; is essential.
-          Weapons will weigh in the tons and consequently cause multiples
-          of 1000 BEP damage.
+          Space battles are almost exclusively handled with energy
+          weapons.  The speed of light of the &#8220;projectile&#8221;
+          is essential.  Weapons will weigh in the tons and
+          consequently cause multiples of 1000 BEP damage.
         </p>
         <h3 id="weapons">Weapons</h3>
         <table>
@@ -1022,20 +1022,29 @@
         </div>
         <p>
           Loss of protection only affects the area covered.  The size
-          depends on various characteristics of the cover and the kinetic
-          type.  Using a normal missile, assume 5% or 6.25% of normal human
-          armor is affected and 10% or 12.5% for a normal short weapon and
-          25% for a normal long weapon and 50% for an explosive, i.e. the  
-          exposed side.
+          depends on various characteristics of the cover and the
+          kinetic type.  Using a normal missile, assume 5% or 6.25% of
+          normal human armor is affected, 10% or 12.5% for a normal
+          short weapon and 25% for a normal long weapon and 50% for an
+          explosive, i.e. the exposed side.
         </p>
         <p>
-          The weight of a shield only applies at the time of impact.  Otherwise
-          it is neglible (1kg/m<sup>3</sup>).
+          When trying to destroy material directly, use the same
+          principle.  For example, assume a shot at a wall of
+          plaststeel with 10cm thickness with an energy beam spread of
+          1m<sup>2</sup>, causing 100 BEP.  That volume has 300 BEP,
+          the first burst will not penetrate, but causes 25 BEP to
+          melt away.  The next burst will only be resisted with 275
+          BEP.
+        </p>
+        <p>
+          The weight of a shield only applies at the time of impact.
+          Otherwise it is neglible (1kg/m<sup>3</sup>).
         </p>
         <table>
           <tr>
             <th>Material</th>
-            <th>Kg (1x1x0.01)</th>
+            <th>Kg (1x1x0.001)</th>
             <th>BEP</th>
             <th>Loss</th>
           </tr>
