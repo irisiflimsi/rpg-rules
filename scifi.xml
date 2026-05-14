@@ -20,7 +20,7 @@
           Star Trek, Dark Matter, or Firefly.  It is not intended for
           very realistic setting such as Expanse nor for Space Fantasy
           like Star Wars.  Also see <a href="main.xml">Main Rule</a>
-          for the generic details.
+          for a generic understanding.
         </p>
         <h3 id="overview">Overview</h3>
         <p>
@@ -44,6 +44,8 @@
           difficulty value is subtracted from the roll and if the net
           result is non-negative, the skill has been successfully
           employed; if the roll is negative, the attempt has failed.
+          However, usually the dimensions are more complex then
+          Success/Failure.
         </p>
         <p>
           For example, if a PC declares the intent to perform a
@@ -55,10 +57,6 @@
           of the PCs beforehand.
         </p>
         <p>
-          To determine the degree of success or failure, use the
-          dimensions.
-        </p>
-        <p>
           When two characters use skills against each other, each
           character makes a p5 skill roll appropriate to the skill in
           question and the results are compared to give a net result.
@@ -67,28 +65,6 @@
           stalemate.  If a tie is not appropriate to the situation,
           toss a coin.
         </p>
-        <h4>Star Scale</h4>
-        <p>
-          The star-scale is often used to simplify evaluation.
-        </p>
-        <table style="width:75%">
-          <tr>
-            <th>Stars</th>
-            <td>&#9733;</td>
-            <td>&#9733;&#9733;</td>
-            <td>&#9733;&#9733;&#9733;</td>
-            <td>&#9733;&#9733;&#9733;&#9733;</td>
-            <td>&#9733;&#9733;&#9733;&#9733;&#9733;</td>
-          </tr>
-          <tr>
-            <th>SV</th>
-            <td>5-15</td>
-            <td>15-25</td>
-            <td>25-35</td>
-            <td>35-45</td>
-            <td>45-55</td>
-          </tr>
-        </table>
         <h3 id="five-add">5-Addition</h3>
         <p>
           A convenience table for the 5-addition of zeroes.  Rounding
@@ -151,7 +127,7 @@
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
-          delivered.  Also see the <a href="main.xml">Main Rule</a>
+          delivered.  Also see the <a href="main.xml">Main Rule</a>.
         </p>
         <table style="width:80%">
           <tr>

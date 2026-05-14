@@ -15,28 +15,27 @@
       <div class="container">
         <h1 id="rules">Basic Rules</h1>
         <p>
-          This is a set of rules, which represent the aspects dealt
-          with in the HM3 rule book. Since our aim is to simplify,
-          we will not rewrite all rules, only those that are needed.
-          See <a href="main.xml">Main Rule</a> for the generic details.
-        </p>
-        <p>
-          Sometimes people ask, why rewrite the rules, if the way that
-          they adjucate situations changes only slightly and this only
-          adds another layer of complexity.  In fact, we add a layer
-          of simplification.  The benefit of better scaling and other
-          issues that are better addressed warrant the effort.
+          This is a set of rules, which represent the aspects
+          typically encountered in a H&#226;rnworld setting.  Since
+          our aim is to simplify, we will only adapt those rules that
+          deal with resolving conflict; confict in a generic sense.
+          See <a href="main.xml">Main Rule</a> for a generic
+          understanding.
         </p>
         <h3 id="overview">Overview</h3>
         <p>
+          Much of the usual rules remain in effect, for example, the
+          character generation section.  Effectively, the rules found
+          here supersede the H&#226;rnmaster rules (whichever version
+          is otherwise in effect).
+        </p>
+        <p>
           Whenever we have ML, SB or other technical terms, we append
-          an U to distinguish the Universal rules, from the
-          classic. E.g. MLU and SBU.  You can calculate MLU as ML x
-          0.4.  The basic 50/50 chance of success on a skill roll is
-          with an ML of 50%, i.e. an MLU of 20. Thus the most basic
-          task difficulty - all other things being equal - should be
-          set to 20.  Attributes are treated as skills with MLU twice
-          their value that cannot be developed.
+          an U to distinguish the Universal rules from the classic.
+          E.g. MLU and SBU.  You can calculate (E)MLU as (E)ML x 0.4.
+          The most basic task difficulty - all other things being
+          equal - should be set to 20.  Attributes are treated as
+          skills with MLU twice their value.
         </p>
         <h4>Skill Testing</h4>
         <p>
@@ -44,13 +43,16 @@
           task and the dimensions available.  The character in
           question names the skills he thinks are most appropriate.
           The GM then names the diffculty for each of the skills and
-          how they can potentially be combined. 
+          how they can potentially be combined, as well as any
+          dimensions.
         </p>
         <p>
-          Now n5 is rolled, adding EMLU.  The task difficulty value is
-          subtracted from the roll and if the net result is
+          Then n5 is rolled, adding EMLU.  The task difficulty value
+          is subtracted from the roll and if the net result is
           non-negative, the skill has been successfully employed; if
-          the roll is negative, the attempt has failed.
+          the roll is negative, the attempt has failed.  However,
+          usually the dimensions are more complex then
+          Success/Failure.
         </p>
         <p>
           For example, if a PC declares the intent to perform a
@@ -59,11 +61,7 @@
           the player &#8220;this has a difficulty of 15.&#8221; In
           cases where success or failure may not be obvious, the GM
           should make the roll secretly and record the relevant skill
-          of the PCs beforehand.
-        </p>
-        <p>
-          To determine the degree of success or failure, use the
-          dimensions.
+          value of the PCs beforehand.
         </p>
         <p>
           When two characters use skills against each other, each
@@ -171,7 +169,7 @@
         <h5 id="di-acc">Accuracy</h5>
         <p>
           Judging the values of goods produced or performances
-          delivered.  Also see the <a href="main.xml">Main Rule</a>
+          delivered.  Also see the <a href="main.xml">Main Rule</a>.
         </p>
         <table style="width:80%">
           <tr>
