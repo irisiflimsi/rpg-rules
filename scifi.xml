@@ -1017,6 +1017,39 @@
           The weight of a shield only applies at the time of impact.
           Otherwise it is neglible (1kg/m<sup>3</sup>).
         </p>
+        <h4 id="pprotection">Personal Protection</h4>
+        <p>
+          Three instructive examples how personal protection works.
+          Body distribution is ruled as 10% Head, 5% Face
+          (non-disjoint), 5% Hands, and 50% Torso (rounded values
+          taken from <a href="harn.xml">H&#226;rn</a>).  Every 1kg
+          reduces Move by 1.
+        </p>
+        <div class="explain">
+          <p>
+            <b>Vest</b>: so-called bullet-proof vest, this plaststeel
+            implement is 1mm thick and protects the torso, meaning 50%
+            of the body.  When aiming elsewhere, remember the
+            contingency requirement.  Abstraction of a human has a
+            surface of 4.5m<sup>2</sup> meaning a load of 6.25kg and a
+            -6 on Move.
+          </p>
+          <p>
+            <b>Helmet</b>: A protective skull protection without face
+            shield.  As always, 1mm thick, weighting 5% x 3 x 4.5kg =
+            0.625kg, with a -1 to move and because of the reduced
+            side-vision and movement capability, a -5 to
+            <em>Awareness</em> skills should be applied.
+          </p>
+          <p>
+            <b>Leather Garb</b>: A standard tough covering worn by the
+            &#8220;rough crowd&#8221;.  It doesn't protect the hands
+            and head.  When aiming elsewhere, remember the contingency
+            requirement.  Covering 85%, it gives a -4 to move.  Since
+            the cover passes over joints, a similar reduction should
+            be given to <em>Agility/em> feats.
+          </p>
+        </div>
         <table>
           <tr>
             <th>Material</th>
