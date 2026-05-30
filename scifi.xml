@@ -685,9 +685,9 @@
         </p>
         <h5 id="co-sound">Sound</h5>
 	<p>
-	  Projektiles have 100 + 1/BEP dB, Energy blasts 50 + 1/BEP dB
+	  Projektiles have 100 + 1/BEP dB, energy blasts 50 + 1/BEP dB
 	  at the nozzle.  Assume impact sound (melee, projectile and
-	  energie) to vary between 25 and 100 dB.  This means sound is
+	  energy) to vary between 25 and 100 dB.  This means sound is
 	  highly dependent on circumstances.
 	</p>
         <h5 id="co-shock">Shock</h5>
