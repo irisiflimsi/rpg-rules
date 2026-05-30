@@ -511,19 +511,22 @@
             <td><a href="#co-block">Evade</a></td>
             <td><a href="#co-blood">Bloodloss</a></td>
             <td><a href="#co-sleep">Deprivation</a></td>
-            <td><a href="#co-engage">Engagement</a></td>
           </tr>
           <tr>
+            <td><a href="#co-engage">Engagement</a></td>
             <td><a href="#co-grapple">Grapple/Tangle</a></td>
             <td><a href="#co-grope">Grope</a></td>
             <td><a href="#co-melee">Melee</a></td>
-            <td><a href="#co-missile">Missile</a></td>
-            <td><a href="#co-move">Move</a></td>
           </tr>
           <tr>
+            <td><a href="#co-missile">Missile</a></td>
+            <td><a href="#co-move">Move</a></td>
             <td><a href="#co-prep">Preparation</a></td>
             <td><a href="#co-push">Push</a></td>
+          </tr>
+          <tr>
             <td><a href="#co-rise">Rise/Fumble/Stumble</a></td>
+            <td><a href="#co-sound">Sound</a></td>
             <td><a href="#co-shock">Shock</a></td>
             <td><a href="#co-wounds">Wounds</a></td>
           </tr>
@@ -680,6 +683,13 @@
           the first is the <em>Combat</em> dimension time it takes to
           escape the prone condition.
         </p>
+        <h5 id="co-sound">Sound</h5>
+	<p>
+	  Projektiles have 100 + 1/BEP dB, Energy blasts 50 + 1/BEP dB
+	  at the nozzle.  Assume impact sound (melee, projectile and
+	  energie) to vary between 25 and 100 dB.  This means sound is
+	  highly dependent on circumstances.
+	</p>
         <h5 id="co-shock">Shock</h5>
         <p>
           Any new wound of at least 1 point results in a Shock chance.
@@ -706,7 +716,7 @@
           and cannot be healed.  For living beings this means instant
           death.
         </p>
-        <h3 id="co-links">Space Combat</h3>
+        <h3 id="spco">Space Combat</h3>
         <p>
           Ship combat is mostly automated and governed by extremely
           high accuracy.  This means that at distances below a light
@@ -1130,7 +1140,7 @@
           </tr>
           <tr>
             <td>Silencer</td>
-            <td>-10 Noise</td>
+            <td>-1/10g with values -10,-20,-30,-40</td>
           </tr>
           <tr>
             <td>Vision Enhancer</td>
