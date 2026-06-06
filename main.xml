@@ -348,7 +348,13 @@
           Remember that a difference of 10 means a 90% winning
           difference by design.
         </p>
-        <h3 id="Combinations">Combinations</h3>
+        <p>
+          The <em>Maximum</em> rule is used where two skills
+          supplement each other.  The <em>Minimum</em> rule is used
+          where two skills are required.  The <em>Average</em> rule is
+          used when two or more skills must complement each other.
+        </p>
+        <h3 id="Minmax">Minimum/Maximum</h3>
         <p>
           Taking the best skill roll of two (this is the same as
           requiring at least one of the two to succeed) can be done by
@@ -444,6 +450,35 @@
           or potential racial differences, we also suggest creating a
           fictitious average.
         </p>
+        <h3 id="Average">Average</h3>
+        <p>
+          Taking the weighted average of two skill rolls yields the
+          same as rolling the weighted average of the two skills.
+          Averaging is often used where a good skill in one area can
+          compensate a bad skill in another.  Just as with the other
+          rules, this can be applied to multiple skills not just two.
+        </p>
+        <p>
+          As an example, hiking up a mountain trail is considered 70%
+          of a Running skill and 30% of a Climbing skill.  Assume the
+          former to have a value of 16 and the latter of 26.  You now
+          roll which ends in 4.  You could now apply the roll to both
+          skills (resulting in 20 and 30) and average that to get
+        </p>
+        <p style="text-align:center;">
+          70% x 20 + 30% x 30 = 14 + 9 = 23.
+        </p>
+        <p>
+          Or you could average the skill values
+        </p>
+        <p style="text-align:center;">
+          70% x 16 + 30% x 26 = 11.2 + 7.8 = 19
+        </p>
+        <p>
+          and apply the roll of 4 to get 23.  The important part is
+          that either calculation can be chosen, which ever promises
+          to be more convenient.
+        </p>
         <h3 id="decomp">Decomposition</h3>
         <p>
           A skill may be broken down into related skills, if so
@@ -456,11 +491,11 @@
         </p>
         <p>
           If a decomposition results in multiple rolls, make sure that
-          the rules of <em>Combinations</em> remain valid.  A typical
-          example would be to turn a roll that would usually apply
-          every 10 days into a roll that applies every day.  This
-          implies that each of the daily rolls has its difficulty
-          increased by 10.
+          the rules of <em>Minimum</em>, <em>Maximum</em>, and
+          <em>Average</em> remain valid.  A typical example would be
+          to turn a roll that would usually apply every 10 days into a
+          roll that applies every day.  This implies that each of the
+          daily rolls has its difficulty increased by 10.
         </p>
         <p>
           Breaking down and then recombining skills is a powerful tool
@@ -479,31 +514,30 @@
           skill of 8.
         </p>
         <p>
-	  Decomposing tasks and skills is not easy and highly
-	  dependent on the game context.  Here are some general
-	  guidelines:
-	  <ul>
-	    <li>
-	      When breaking down skills also break down the
-	      corresponding tasks.  Using multiple skills through
-	      5-addition on the same task (level) will skew the odds
-	      in favor of the skill applicant.
-	    </li>
-	    <li>
-	      When 5-adding skills, simply 5-adding the respective
-	      tasks and then rolling is effectively averaging the
-	      chances of the two applications.  This is different from
-	      5-adding the multiple skill-task-differences.
-	    </li>
-	    <li>
-	      If a more (less) effective addition of skills is
-	      desired, take half (twice) the skill values, 5-add them
-	      and then double (half) the result.  Similarly dimensions
-	      can be scaled, but be sure to have the correct
-	      normalization.
-	    </li>
-	  </ul>
-	</p>
+          Decomposing tasks and skills is not easy and highly
+          dependent on the game context.  Here are some general
+          guidelines:
+        </p>
+        <ul>
+          <li>
+            When breaking down skills also break down the
+            corresponding tasks.  Using multiple skills through
+            5-addition on the same task (level) will skew the odds in
+            favor of the skill applicant.
+          </li>
+          <li>
+            When 5-adding skills, simply 5-adding the respective tasks
+            and then rolling is effectively averaging the chances of
+            the two applications.  This is different from 5-adding the
+            multiple skill-task-differences.
+          </li>
+          <li>
+            If a more (less) effective addition of skills is desired,
+            take half (twice) the skill values, 5-add them and then
+            double (half) the result.  Similarly dimensions can be
+            scaled, but be sure to have the correct normalization.
+          </li>
+        </ul>
       </div>
       <div class="container">
         <h1 id="Dimensions">Dimensions</h1>
