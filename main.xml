@@ -109,12 +109,14 @@
             of dice that did not show a 1.  That is the same as the
             number of dice you actually rolled minus one.  This first
             number is used for the skill roll (of a character).  We
-            also call this the <b>positive (stop) roll</b>.  The
-            <b>negative (stop) roll</b> is associated with the task
-            roll (the resistance of the environment or impediment),
-            which is rolled/handled in the same way.  The result of
-            the negative stop roll (which is still a positive number)
-            is subtracted from the result of the positive.
+            also call this the <b>positive (stop) roll</b> or
+            <b>p5</b> for short.  The <b>negative (stop) roll</b> is
+            associated with the task roll (the resistance of the
+            environment or impediment), which is rolled/handled in the
+            same way.  The result of the negative stop roll (which is
+            still a positive number) is subtracted from the result of
+            the positive.  This result is called the <b>n5</n> die or
+            roll.
           </em>
         </p>
         <p>
@@ -349,10 +351,11 @@
           difference by design.
         </p>
         <p>
-          The <em>Maximum</em> rule is used where two skills
-          supplement each other.  The <em>Minimum</em> rule is used
-          where two skills are required.  The <em>Average</em> rule is
-          used when two or more skills must complement each other.
+          The <em>Maximum</em> rule calculates the effect of taking
+          the better of two rolls.  The <em>Minimum</em> rule
+          calculates the worse of two rolls.  The <em>Average</em>
+          rule eases calculations for the average of skills.  The
+          <em>Mean</em> rule is used to reduce the spread of results.
         </p>
         <h3 id="Minmax">Minimum/Maximum</h3>
         <p>
@@ -450,7 +453,7 @@
           or potential racial differences, we also suggest creating a
           fictitious average.
         </p>
-        <h3 id="Average">Average</h3>
+        <h3 id="Average">Average/Mean</h3>
         <p>
           Taking the weighted average of two skill rolls yields the
           same as rolling the weighted average of the two skills.
@@ -478,6 +481,31 @@
           and apply the roll of 4 to get 23.  The important part is
           that either calculation can be chosen, which ever promises
           to be more convenient.
+        </p>
+        <p>
+          While it might look trivial, it is not.  Make sure the
+          dimensions of the averaged skills are the same, otherwise
+          the averge has no meaning.  Sameness does not only mean the
+          units, but the complete dimension table.  Not many other
+          rule systems support this &#8220;dimension warp&#8221;.
+        </p>
+        <p>
+          Something different happens when taking the average of two
+          rolls.  In this case, we reduce the spread in the dimension.
+          As in the case above, we make sure that the dimension table
+          looks the same for both skill applications.  Instead of
+          rolling twice, we can read of the dimension of one roll at
+          half its value. This is effectivly equivalent.
+        </p>
+        <p>
+          For example, assume skill values 20 and 10 are supposed to
+          use the mean rule.  The dimension table is SV mapped to
+          (SV+10)/2.  Instead of rolling twice (example: 4 and -2)
+          calculating this (example: 24 and 8) reading this off the
+          table (example: 17 and 9) and averaging (example: 13), we
+          can average the skill value (15), add half the roll
+          (example: 6 becomes 3 added to get 18) and read this off the
+          table (example: 14).
         </p>
         <h3 id="decomp">Decomposition</h3>
         <p>

@@ -15,21 +15,21 @@
       <div class="container">
         <h1 id="rules">Basic Rules</h1>
         <p>
-          This is a set of rules, which represent the aspects
-          typically encountered in a SciFi generic setting akin to
-          Star Trek, Dark Matter, or Firefly.  It is not intended for
-          very realistic setting such as Expanse nor for Space Fantasy
-          like Star Wars.  Also see <a href="main.xml">Main Rule</a>
-          for a generic understanding.
+          This is a set of rules representing the aspects typically
+          encountered in a SciFi setting akin to <em>Star Trek</em>,
+          <em>Dark Matter</em>, or <em>Firefly</em>.  It is not
+          intended for very realistic setting such as <em>Expanse</em>
+          nor for Space Fantasy like <em>Star Wars</em>.  Also see <a
+          href="main.xml">Main Rule</a> for a general understanding.
         </p>
         <h3 id="overview">Overview</h3>
         <p>
-          Inspiration was gained from Harnmaster (various versions)
-          and fan publications such as Gunmaster from Bill Gant
-          (various versions) but adapted to the setting.  The
-          intention was to benefit from predetermined, balanced
-          values, however the mechanics changed most values beyond
-          recognition.
+          Inspiration was gained from <em>Harnmaster</em> (various
+          versions) and fan publications such as <em>Gunmaster</em>
+          from Bill Gant (various versions) but adapted to the
+          setting.  The intention was to benefit from predetermined,
+          balanced values, however the mechanics changed most values
+          beyond recognition.
         </p>
         <h4>Skill Testing</h4>
         <p>
@@ -44,8 +44,9 @@
           difficulty value is subtracted from the roll and if the net
           result is non-negative, the skill has been successfully
           employed; if the roll is negative, the attempt has failed.
-          However, usually the dimensions are more complex then
-          Success/Failure.
+          The dimensions may be more complex then Success/Failure.
+          Also consider the combination of multiple skills; this is
+          done before the n5 is rolled.
         </p>
         <p>
           For example, if a PC declares the intent to perform a
@@ -208,7 +209,7 @@
         </p>
         <p>
           For grappling, wounds are treated as penalty to any physical
-          activity that instead of damage to heal.  Such wounds are
+          activity instead of damage to heal.  Such wounds are
           immediately reduced to zero, once the grapple is no longer
           maintained.
         </p>
