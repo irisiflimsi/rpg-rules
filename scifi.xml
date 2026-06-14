@@ -1087,34 +1087,33 @@
         <h4 id="pprotection">Personal Protection</h4>
         <p>
           See the three instructive examples how personal protection
-          works.  Body distribution is ruled as 10% Head, 5% Face
-          (non-disjoint), 5% Hands, and 50% Torso (rounded values
-          taken from <a href="harn.xml">H&#226;rn</a>).  Every 1kg
-          reduces Move by 1.
+          works.  Body distribution is ruled as 10% Head, 20% Arms 30%
+          Legs, and 40% Torso.  Legs are considered connected for the
+          purpose of aiming.  Every 1kg reduces Move by 1.  An
+          abstract human has a surface of 4.5m<sup>2</sup>.
         </p>
         <div class="explain">
           <p>
             <b>Vest</b>: a so-called bullet-proof vest, this plasteel
-            implement is 1mm thick and protects the torso, meaning 50%
+            implement is 1mm thick and protects the torso, meaning 40%
             of the body.  When aiming elsewhere, remember the
-            contingency requirement.  Abstraction of a human has a
-            surface of 4.5m<sup>2</sup> meaning a load of 6.25kg and a
-            -6 on Move.
+            contingency requirement.  Human &#8220;surface&#8221;
+            means a load of 5.4kg and a -5 on Move.
           </p>
           <p>
-            <b>Helmet</b>: A protective skull protection without face
-            shield.  As always, 1mm thick, weighting 5% x 3 x 4.5kg =
-            0.625kg, with a -1 to move and because of the reduced
+            <b>Helmet</b>: A protective skull protection with face
+            shield.  As always, 1mm thick, weighting 10% x 3 x 4.5kg =
+            1.35kg, with a -1 to Move and because of the reduced
             side-vision, ear-covering, and head-rotation capability, a
             -5 to <em>Awareness</em> skills should be applied.
           </p>
           <p>
             <b>Leather Garb</b>: A standard tough covering worn by the
-            &#8220;rough crowd&#8221;.  It doesn't protect the hands
-            and head.  When aiming elsewhere, remember the contingency
-            requirement.  Covering 85%, it gives a -4 to move.  Since
-            the cover passes over joints, a similar reduction should
-            be given to <em>Agility</em> feats.
+            &#8220;rough crowd&#8221;.  It doesn't protect the head.
+            When aiming elsewhere, remember the contingency
+            requirement.  Covering 90%, it gives a -4 to move.  A
+            similar reduction should be given to <em>Agility</em>
+            feats.
           </p>
         </div>
         <h3 id="equipment">Other Equipment</h3>
