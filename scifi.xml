@@ -564,15 +564,6 @@
           person can thus still be quite devastating.  Evasion and
           damage is rolled only once, but calculated individually.
         </p>
-        <p>
-          The same is true for protection loss, i.e. it only applies
-          to the (first level) aiming zones hit.  However, the
-          percentage pertains to the original 100% human coverage,
-          regardless of aiming.  This implies that a bullet will
-          damage half of a helmet, whether firing at the head of an
-          opponent or aimlessly firing into a crowd of people with
-          helmets.
-        </p>
         <h5 id="co-block">Evade</h5>
         <p>
           Skills to evade do not include any mental skills or missile
@@ -712,12 +703,12 @@
           escape the prone condition.
         </p>
         <h5 id="co-sound">Sound</h5>
-	<p>
-	  Projektiles have 100 + 1/BEP dB, energy blasts 50 + 1/BEP dB
-	  at the nozzle.  Assume impact sound (melee, projectile and
-	  energy) to vary between 25 and 100 dB.  This means sound is
-	  highly dependent on circumstances.
-	</p>
+        <p>
+          Projektiles have 100 + 1/BEP dB, energy blasts 50 + 1/BEP dB
+          at the nozzle.  Assume impact sound (melee, projectile and
+          energy) to vary between 25 and 100 dB.  This means sound is
+          highly dependent on circumstances.
+        </p>
         <h5 id="co-shock">Shock</h5>
         <p>
           Any new wound of at least 1 point results in a Shock chance.
@@ -1077,6 +1068,16 @@
           normal human armor is affected, 10% or 12.5% for a normal
           short weapon and 25% for a normal long weapon and 50% for an
           explosive, i.e. the exposed side.
+        </p>
+        <p>
+          The percentage pertains to a 100% human not the aiming zone.
+          This implies that a bullet will damage half of a helmet
+          whether firing at the head of an opponent or aimlessly firing
+          into a crowd of people with helmets. Excess percentage are 
+          ignored, for example a long weapon against an helmet.
+        </p>
+        <p>
+          For simplicity, protective materials may not be layered.
         </p>
         <p>
           When trying to destroy material directly, use the same
