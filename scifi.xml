@@ -546,6 +546,33 @@
           For the purpose of attitude to an attacker, normal humans
           are considered a &#8220;block&#8221; of 100% by 50% by 25%.
         </p>
+        <p>
+          Aiming is restricted to <em>first level compound</em> aiming
+          only.  For example, it is possible to aim at an officer's
+          head in a group of soldiers, but not all all the torsos of
+          all the soldiers even if they can be considered contiguous.
+          This also implies that you cannot aim at parts of an aiming
+          zone, e.g. the neck, consisting of the upper part of the
+          torso and the lower part of the head.  Damage is applied
+          accordingly only to the zones hit.
+        </p>
+        <p>
+          Area affecting hits apply to all <em>first level</em>
+          targets in the zone covered.  For example, firing into a
+          group of soldiers, all soldiers are affected, not all heads,
+          arms, etc., individually.  A single area strike aimed at one
+          person can thus still be quite devastating.  Evasion and
+          damage is rolled only once, but calculated individually.
+        </p>
+        <p>
+          The same is true for protection loss, i.e. it only applies
+          to the (first level) aiming zones hit.  However, the
+          percentage pertains to the original 100% human coverage,
+          regardless of aiming.  This implies that a bullet will
+          damage half of a helmet, whether firing at the head of an
+          opponent or aimlessly firing into a crowd of people with
+          helmets.
+        </p>
         <h5 id="co-block">Evade</h5>
         <p>
           Skills to evade do not include any mental skills or missile
