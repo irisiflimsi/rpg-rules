@@ -1008,18 +1008,54 @@
             <td>100m/s</td>
           </tr>
           <tr>
-            <td>Energy Weapon</td>
+            <td>Blaster Mk I</td>
             <td>Energy weapon</td>
-            <td>2.5/(kWs)</td>
+            <td>2.5kg</td>
             <td>2</td>
             <td>10/(kWs)</td>
             <td>50m</td>
             <td>1s</td>
-            <td>see below</td>
-            <td>see below</td>
+            <td>250</td>
+            <td>250g</td>
+            <td>Light</td>
+          </tr>
+          <tr>
+            <td>Blaster Mk II</td>
+            <td>Energy weapon</td>
+            <td>5kg</td>
+            <td>2</td>
+            <td>20</td>
+            <td>50m</td>
+            <td>1s</td>
+            <td>1000</td>
+            <td>1kg</td>
+            <td>Light</td>
+          </tr>
+          <tr>
+            <td>Blaster Mk III</td>
+            <td>Carried, Mounted</td>
+            <td>10kg</td>
+            <td>2</td>
+            <td>40</td>
+            <td>50m</td>
+            <td>1s</td>
+            <td>2000</td>
+            <td>2kg</td>
             <td>Light</td>
           </tr>
         </table>
+        <h4 id="cweapons">Customizing Energy weapons</h4>
+        <p>
+          Energy weapons called <em>Blasters</em> can be customized
+          with 2.5/kWs weight, 10/kWs BEP, relatively arbitrary clip
+          and ammo and a fixed set of spreads for area affect.  The
+          customizer is responsible for providing a specification.
+        </p>
+        <p>
+          The spreads of the Mk I are 1x1 (queare meters) only, Mk II
+          has 2x2, 4x1, 1x4, and Mk III has 1x12, 2x6, 3x4, 4x3, 6x2,
+          12x1.
+        </p>
         <h3 id="protection">Protection</h3>
         <p>
           The following table contains examples for the for formulas
@@ -1179,7 +1215,7 @@
           </tr>
           <tr>
             <td>Energy</td>
-            <td>4MWs/1kg</td>
+            <td>1MWs/1kg</td>
           </tr>
         </table>
       </div>
