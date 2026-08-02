@@ -339,6 +339,27 @@
           acceptable outcome.  If not, flip a coin to see who the
           winner is.
         </p>
+        <p>
+          The next rule can be used, when only &#8220;standard&#8221;
+          dice should be rolled.  This allows for statements like
+          &#8220;beat 3 with a roll of 1d6&#8221;.  Rolls like 3d6 can
+          also be an option, but here we only look at rolls with a
+          single die.  Read <em>d6/2</em> to mean that to beat a
+          difficulty of the indicated level, you must at least roll a
+          2 on a d6.
+        </p>
+        <table style="width:70%">
+          <tr>
+            <th>1</th><th>2</th><th>3</th>
+            <th>4</th><th>5</th><th>6</th><th>7</th>
+            <th>8</th><th>9</th><th>10</th><th>11</th>
+          </tr>
+          <tr>
+            <td>d10/2</td><td>d20/7</td><td>d2/2</td><td>d12/7</td>
+            <td>d6/4</td><td>d4/3</td><td>d10/8</td><td>d6/5</td>
+            <td>d20/17</td><td>d10/9</td><td>d12/1</td>
+          </tr>
+        </table>
       </div>
       <div class="container">
         <h1 id="Roaming">Roaming the Skill Space</h1>
