@@ -102,15 +102,12 @@
         <table class="links" style="width:75%">
           <tr>
             <td><a href="#di-acc">Accuracy</a></td>
-            <td><a href="#di-c1i">Climbing</a></td>
             <td><a href="#di-co1">Combat</a></td>
-          </tr>
-          <tr>
             <td><a href="#di-sta">Healing</a></td>
             <td><a href="#di-ini">Initiative</a></td>
-            <td><a href="#di-kno">Knowledge</a></td>
           </tr>
           <tr>
+            <td><a href="#di-kno">Knowledge</a></td>
             <td><a href="#di-mov">Move</a></td>
             <td><a href="#di-spe">Speed</a></td>
             <td><a href="#di-yie">Yield</a></td>
@@ -133,6 +130,7 @@
         <table style="width:80%">
           <tr>
             <th>Dimension</th>
+            <th>-10</th>
             <th>0</th>
             <th>10</th>
             <th>20</th>
@@ -140,23 +138,24 @@
             <th>40</th>
           </tr>
           <tr class="text">
-            <td>Error</td>
-            <td>50% - 200%</td>
-            <td>80% - 125%</td>
-            <td>90% - 110%</td>
-            <td>95% - 105%</td>
-            <td>97% - 103%</td>
+            <td>Low Error</td>
+            <td>0%</td>
+            <td>50%</td>
+            <td>75%</td>
+            <td>87.5%</td>
+            <td>93.8%</td>
+            <td>96.9%</td>
+          </tr>
+          <tr class="text">
+            <td>High Error</td>
+            <td>(arbitrary)</td>
+            <td>200%</td>
+            <td>133.3%</td>
+            <td>114.3%</td>
+            <td>106.7%</td>
+            <td>103.2%</td>
           </tr>
         </table>
-        <h5 class="skill" id="di-cli">Climbing</h5>
-        <p>
-          Climbing Speed is 1/4 walking speed at success.  Speed can
-          be increased by 1/4 for a -10 penalty, or decreased
-          accordingly, but negative speeds are not allowed.  E.g. for
-          a +10, one can opt to simply try and cling to a holding to
-          not fall down.  A failure results in a fall, usually evenly
-          distributed among the total climb.
-        </p>
         <h5 class="skill" id="di-co1">Combat</h5>
         <p>
           One dimension is the time, which it takes to achieve the
@@ -386,7 +385,30 @@
             <td>15</td>
             <td>20</td>
           </tr>
+          <tr class="num">
+            <td>Accident</td>
+            <td>100%</td>
+            <td>100%</td>
+            <td>80%</td>
+            <td>60%</td>
+            <td>40%</td>
+            <td>20%</td>
+            <td>0%</td>
+            <td>0%</td>
+            <td>0%</td>
+            <td>0%</td>
+            <td>0%</td>
+            <td>0%</td>
+            <td>0%</td>
+          </tr>
         </table>
+        <p>
+          Climbing is at -20 and Swimming at -10.  Movement is a
+          combination of the Speed and Accident dimensions.  An
+          accident is a fall (or going under) at some random instant
+          of the travel.  The dimension indices may not differ by more
+          than 20 points.
+        </p>
         <h5 class="skill" id="di-spe">Speed</h5>
         <p>
           This is used to determine how quick short reactive actions
@@ -422,7 +444,7 @@
           &#8220;ruining&#8221; the result.
         </p>
         <p>
-          As example: 2 time units with with SV 5 yields 3.
+          As example: 2 time units with SV 5 yields 3.
         </p>
         <table style="width:80%">
           <tr>
