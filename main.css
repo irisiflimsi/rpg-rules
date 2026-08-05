@@ -144,7 +144,7 @@ tr:nth-child(3n+4) {
     border-top: 2px solid var(--tde);
 }
 
-.explain p {
+.explain p, .rule {
     margin: 5px 20px;
     padding: 5px 20px;
 }
@@ -183,6 +183,5 @@ a {
 }
 
 .rule {
-    border: 2px solid var(--tde);
-    padding: 25px 50px;
+    border: 2px solid var(--tdo);
 }
