@@ -25,8 +25,7 @@
           </li>
           <li>
             Players and GMs have a common understanding that there is
-            some nondeterministic influence-i.e., chance—in
-            resolving a situation.
+            some nondeterministic influence in resolving a situation.
           </li>
           <li>
             To resolve different understandings of a situation among
@@ -268,19 +267,23 @@
           character stealthily evading another, the first may
           interpret the rolls as his skill at evading observation,
           while the second may interpret the rolls as his skill in
-          successfully observing the vicinity.  Either way, one roll
-          (or set of rolls) will determine the outcome.
+          successfully observing the vicinity.  Either way, one <em>n5</em> roll
+          will determine the outcome.
         </p>
         <h3 id="Hints">Hints</h3>
+        <p class="rule">
+          The <em>actor</em> and the <em>obstacle</em> both
+          possess a certain <em>level</em>.  Subtract the first 
+          from the second.  That is the overall difficulty of the task.
+        </p>
         <p>
-          When describing a situation, the actor and the obstacle both
-          possess a certain <em>level</em>.  The first is usually a
-          skill in the particular act and the second a measure of the
-          difficulty of the task.  In the previous example, the
+          The first is usually a skill in the particular activity
+          and the second a measure of the resistance against the
+          activity.  In the previous example, the
           observer might have a (skill) level of 5 and finding the
           clandestine character a (task) level of 3.  These levels
-          will be added to the positive and negative stop rolls,
-          respectively.
+          will be added to the <em>n5</em> stop roll to find success
+          or failure.
         </p>
         <p>
           We are adding and subtracting four numbers: stop rolls and
@@ -370,6 +373,13 @@
           calculates the worse of two rolls.  The <em>Average</em>
           rule eases calculations for the average of skills.  The
           <em>Mean</em> rule is used to reduce the spread of results.
+        </p>
+        <p>
+          Any of these rules are optional.  If you want to roll
+          individually and then calculate the maximum, minimum, or
+          average, you can do so.  THhe rules are there to reduce
+          rolling or prepare situations encountered a lot during game
+          play.
         </p>
         <h3 id="Minmax">Minimum/Maximum</h3>
         <p>
