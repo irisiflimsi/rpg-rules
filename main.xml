@@ -367,6 +367,20 @@
           Remember that a difference of 10 means a 90% winning
           difference by design.
         </p>
+        <svg width="350" height="260" xmlns="http://www.w3.org/2000/svg">
+          <defs/>
+          <rect x="5" y="5" width="340" height="250" stroke-width="3" style="fill:none;stroke:#84cf96"/>
+          <text x="10" y="22" font-family="Merriweather">Tasks</text>
+        
+          <rect x="20" y="40" width="200" height="160" stroke-width="3" style="fill:none;stroke:#ceffce"/>
+          <text x="25" y="57" font-family="Merriweather">Skill</text>
+        
+          <rect x="120" y="15" width="200" height="160" stroke-width="3" style="fill:none;stroke:#ceffce"/>
+          <text x="315" y="32" font-family="Merriweather" text-anchor="end">Skill</text>
+        
+          <rect x="80" y="80" width="200" height="160" stroke-width="3" style="fill:none;stroke:#ceffce"/>
+          <text x="275" y="235" font-family="Merriweather" text-anchor="end">Skill</text>
+        </svg>
         <p>
           The <em>Maximum</em> rule calculates the effect of taking
           the better of two rolls.  The <em>Minimum</em> rule
