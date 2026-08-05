@@ -67,7 +67,7 @@
             A skill proficiency and a task difficulty can be expressed
             as numbers.  We define <em>p</em> as half of the
             probability for a skill of <em>0</em> to succeed at a task
-            of level <em>1</em>.  This &#8220;half&8221; is for technical
+            of level <em>1</em>.  This &#8220;half&#8221; is for technical
             reasons.
           </li>
           <li>
