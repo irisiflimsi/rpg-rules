@@ -25,7 +25,7 @@
           </li>
           <li>
             Players and GMs have a common understanding that there is
-            some nondeterministic influence - i.e., chance—in
+            some nondeterministic influence-i.e., chance—in
             resolving a situation.
           </li>
           <li>
@@ -36,30 +36,30 @@
         </ul>
         <p>
           Common rule systems create probabilities that are hard to
-          gauge.  In fact, only after playing a game for an extended
+          estimmate.  In fact, only after playing a game for an extended
           period of time do patterns emerge. If the probabilities do
           not match expectations, they impact enjoyment.
         </p>
         <p>
-          The rules are written with these points in mind, which
-          means: keep them comprehensible.  This does not mean
-          "generically simple," but rather that probabilities should
-          not provide surprises when the subject matter changes.
+          The rules here are written with these points in mind, which
+          means: always comprehensible.  This does not mean
+          &#8220;generically simple,&#8221; but rather that probabilities 
+          should not be surprising.
         </p>
         <p>
           The next section contains a few reasonable assumptions about
           rules and explains why our rules are chosen the way they
           are.  If you are only interested in the mechanics, you can
-          skip it.
+          skip it.  Actual gameplay rules are typeset in boxes.
         </p>
       </div>
       <div class="container">
         <h1 id="Axioms">Assumptions</h1>
         <p>
-          Most rules are intended to resolve skill application,
-          whether it be fighting, hiding, finding, lifting, or
+          Most rules are intended to resolve a skill application,
+          whether it is fighting, hiding, finding, lifting, or
           something else.  A character can have different skill
-          levels, but tasks at hand can also have different difficulty
+          levels, but tasks can also have different difficulty
           levels.  We make the following assumptions.
         </p>
         <ul>
@@ -67,7 +67,7 @@
             A skill proficiency and a task difficulty can be expressed
             as numbers.  We define <em>p</em> as half of the
             probability for a skill of <em>0</em> to succeed at a task
-            of level <em>1</em>.  This “half” is for technical
+            of level <em>1</em>.  This &#8220;half&8221; is for technical
             reasons.
           </li>
           <li>
@@ -91,8 +91,8 @@
           we will restrict ourselves to <em>p=0.8</em>.  Note that the
           range of skill and task levels includes negative numbers.
           We treat a task level as a negative skill level; i.e., a
-          <em>(-k)</em>-skill at a <em>0</em>-task is the same as
-          using a <em>0</em>-skill at a <em>k</em>-task.
+          <em>(-k)</em>-skill applied on a <em>0</em>-task is the same as
+          using a <em>0</em>-skill on a <em>k</em>-task.
         </p>
         <p>
           This is, in fact, all we need.  The following are
@@ -103,35 +103,28 @@
       </div>
       <div class="container">
         <h1 id="Basic">One Rule to Rule Them</h1>
-        <p>
-          <em>
-            You roll a d5 until you roll a 1 and then count the number
-            of dice that did not show a 1.  That is the same as the
-            number of dice you actually rolled minus one.  This first
-            number is used for the skill roll (of a character).  We
-            also call this the <b>positive (stop) roll</b> or
-            <b>p5</b> for short.  The <b>negative (stop) roll</b> is
-            associated with the task roll (the resistance of the
-            environment or impediment), which is rolled/handled in the
-            same way.  The result of the negative stop roll (which is
-            still a positive number) is subtracted from the result of
-            the positive.  This result is called the <b>n5</b> die or
-            roll.
-          </em>
+        <p class="rule">
+          You roll a d5 until you roll a 1 and then count the number
+          of dice.  This first number is used for the skill roll
+          (of a character).  We also call this the <em>positive (stop) roll</em>
+          or <em>p5</em> for short.  The <em>negative (stop) roll</em> is
+          associated with the task roll (the resistance of the
+          environment or impediment), which is rolled/handled in the
+          same way.  The result of the negative stop roll (which is
+          still a non-negative number) is subtracted from the result of
+          the positive.  This result is called the <b>n5</b> &#8220;die&#8221; or
+          roll.
         </p>
         <p>
-          We elaborate by listing the probabilities involved as well
-          as some examples.  The mechanism is different from other RPG
-          rules (I haven&#8217;t found any that use it), where you
-          will often roll either a pool of dice and count those that
-          meet a certain threshold or use a single die roll.
+          Note that the negative roll does not have its own name, it can be
+          denoted as <em>-p5</em>. Thus, <em>n5 = p5 - p5</em>.
         </p>
         <p>
-          The following two tables are explanatory and not necessary.
-          The mechanics have been described completely in the
-          highlighted section.  Everything else can be used to reduce
+          The following two tables are explanatory only,
+          the mechanics were described completely in the
+          highlighted section.  Everything following can be used to reduce
           the number of dice rolled or to better understand the
-          implications of the (stop) roll mechanic.
+          implications of the (stop) roll mechanics.
         </p>
         <p>
           In Table 1 the first row shows the results you can achieve
@@ -143,9 +136,9 @@
           step as a percentage value.  Note that this chance is always
           the same.  The third row gives the chance of obtaining the
           result in the corresponding first row in each column.  These
-          are expressed as rolls on a d100.  (This row can be used to
-          reduce the number of rolls but still retain the benefits of
-          the rule.)  All but the first column of this row are
+          are expressed as rolls on a d100 or percentages.  (This row
+          can be used to reduce the number of rolls but still retain the 
+          benefits of the rule.)  All but the first column of this row are
           approximations.
         </p>
         <p>
