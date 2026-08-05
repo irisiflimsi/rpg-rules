@@ -183,5 +183,6 @@ a {
 }
 
 .rule {
+    border: 2px solid var(--tde);
     padding: 25px 50px;
 }
