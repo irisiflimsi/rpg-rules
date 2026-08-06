@@ -104,10 +104,10 @@
         <h1 id="Basic">One Rule to Rule Them</h1>
         <p class="rule">
           You roll a d5 until you roll a 1 and then count the number
-          of dice.  This first number is used for the skill roll
+          of dice.  This first number is used for the <em>skill</em> roll
           (of a character).  We also call this the <em>positive (stop) roll</em>
           or <em>p5</em> for short.  The <em>negative (stop) roll</em> is
-          associated with the task roll (the resistance of the
+          associated with the <em>task</em> roll (the resistance of the
           environment or impediment), which is rolled/handled in the
           same way.  The result of the negative stop roll (which is
           still a non-negative number) is subtracted from the result of
@@ -272,18 +272,19 @@
         </p>
         <h3 id="Hints">Hints</h3>
         <p class="rule">
-          The <em>actor</em> and the <em>obstacle</em> both
-          possess a certain <em>level</em>.  Subtract the first 
-          from the second.  That is the overall difficulty of the task.
+          The <em>skill</em> and <em>task level</em> are often related.
+          A task can have different levels for different skills.
         </p>
         <p>
-          The first is usually a skill in the particular activity
-          and the second a measure of the resistance against the
-          activity.  In the previous example, the
-          observer might have a (skill) level of 5 and finding the
-          clandestine character a (task) level of 3.  These levels
-          will be added to the <em>n5</em> stop roll to find success
-          or failure.
+          The skill is usually applied to certain activities only
+          and the task level is a measure of the resistance against these
+          activities.  In the previous example, the
+          observer might have a skill level 5 for &#8220;Searching&#8221;
+          (meaning actively screening an area in this context) and
+          finding the clandestine character is a task level of 3.
+          Another observer may have a skill level 8 in &#8220;Spotting&#8221;
+          (meaning passivly scanning an area in this context) and 
+          finding the clandestine character is a task level of 7.
         </p>
         <p>
           We are adding and subtracting four numbers: stop rolls and
@@ -358,7 +359,7 @@
         </table>
       </div>
       <div class="container">
-        <h1 id="Roaming">Roaming the Skill Space</h1>
+        <h1 id="Roaming">Roaming the Resolution Space</h1>
         <p>
           The following suggestions address common situations.  How do you
           combine a group of actors that support each other?  How do
@@ -374,19 +375,23 @@
           situations.
         </p>
         <center>
-          <svg width="350" height="260" xmlns="http://www.w3.org/2000/svg">
+          <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg">
             <defs/>
-            <rect x="5" y="5" width="340" height="250" stroke-width="3" style="fill:none;stroke:#ceffce"/>
-            <text x="10" y="22" font-family="Merriweather">Tasks</text>
-            <rect x="20" y="40" width="200" height="160" stroke-width="3" style="fill:none;stroke:#84cf96"/>
-            <text x="25" y="57" font-family="Merriweather">Skill</text>
-            <rect x="120" y="15" width="200" height="160" stroke-width="3" style="fill:none;stroke:#84cf96"/>
-            <text x="315" y="32" font-family="Merriweather" text-anchor="end">Skill</text>
-            <rect x="80" y="80" width="200" height="160" stroke-width="3" style="fill:none;stroke:#84cf96"/>
-            <text x="275" y="235" font-family="Merriweather" text-anchor="end">Skill</text>
+            <rect x="5" y="5" width="360" height="180" stroke-width="3" style="fill:#84cf9680;stroke:#84cf96"/>
+            <text x="10" y="22" font-family="Merriweather">Task 1</text>
+            <rect x="305" y="95" width="360" height="180" stroke-width="3" style="fill:#84cf9680;stroke:#84cf96"/>
+            <text x="660" y="270" font-family="Merriweather" text-anchor="end">Task 2</text>
+            <rect x="125" y="155" width="360" height="180" stroke-width="3" style="fill:#84cf9680;stroke:#84cf96"/>
+            <text x="130" y="330" font-family="Merriweather">Task 3</text>
+            <rect x="65" y="65" width="360" height="180" stroke-width="3" style="fill:#ceffce80;stroke:#ceffce"/>
+            <text x="70" y="82" font-family="Merriweather">Skill 1</text>
+            <rect x="245" y="35" width="360" height="180" stroke-width="3" style="fill:#ceffec80;stroke:#ceffce"/>
+            <text x="600" y="52" font-family="Merriweather" text-anchor="end">Skill 2</text>
+            <rect x="185" y="125" width="360" height="180" stroke-width="3" style="fill:#ceffec80;stroke:#ceffce"/>
+            <text x="540" y="300" font-family="Merriweather" text-anchor="end">Skill 3</text>
           </svg>
         </center>
-        <ul>
+        <ul class="rule">
           <li>
             The <em>Maximum</em> rule replaces the higher of two (or more) rolls mechanism.
             This is the case where multiple people of a group search for something or
@@ -403,6 +408,9 @@
             summarize repeated applications of a skill to more or less identical subtasks.
             It can be reversed to extract critical subtasks with a higher range of likely 
             results. 
+          </li>
+          <li>
+            The <em>Decomposition</em> rule is used, when Specializations or Talents are needed.
           </li>
         </ul>
         <p>
