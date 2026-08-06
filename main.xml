@@ -363,42 +363,46 @@
           The following suggestions address common situations.  How do you
           combine a group of actors that support each other?  How do
           you apply two different skills to a task that involves both?
-          You should never indiscriminately add skill values.
           Remember that a difference of 10 means a 90% winning
-          difference by design.
+          difference by design.  Also look at how the dimensions (see below)
+          are affected.
+        </p>
+        <p>
+          All of the following rules can be applied as often or as little
+          as desired.  Since the whole ruleset is designed around resolving
+          a situation with one roll, they allow precalculation of common
+          situations.
         </p>
         <center>
           <svg width="350" height="260" xmlns="http://www.w3.org/2000/svg">
             <defs/>
             <rect x="5" y="5" width="340" height="250" stroke-width="3" style="fill:none;stroke:#ceffce"/>
             <text x="10" y="22" font-family="Merriweather">Tasks</text>
-          
             <rect x="20" y="40" width="200" height="160" stroke-width="3" style="fill:none;stroke:#84cf96"/>
             <text x="25" y="57" font-family="Merriweather">Skill</text>
-          
             <rect x="120" y="15" width="200" height="160" stroke-width="3" style="fill:none;stroke:#84cf96"/>
             <text x="315" y="32" font-family="Merriweather" text-anchor="end">Skill</text>
-          
             <rect x="80" y="80" width="200" height="160" stroke-width="3" style="fill:none;stroke:#84cf96"/>
             <text x="275" y="235" font-family="Merriweather" text-anchor="end">Skill</text>
           </svg>
         </center>
         <ul>
           <li>
-            The <em>Maximum</em> rule calculates the effect of taking
-            the better of two rolls.
+            The em>Maximum</em> rule replaces the higher of two (or more) rolls mechanism.
+            This is the case where multiple people of a group search for something or
+            a character has multiple skills, which are equally applicable to a task.
           </li>
           <li>
-            The <em>Minimum</em> rule
-            calculates the worse of two rolls.
+            The <em>Minimum</em> rule is used for the lower of two (or more) rolls mechanism.
+            This is for instance applicable when multiple people try to avoid being detected, 
+            or a task is decomposed into two subtasks, both of which have to be resolved
+            successfully.  It is symmetric to the <em>Maximum</em> rule.
           </li>
           <li>
-            The <em>Average</em>
-            rule eases calculations for the average of skills.
-          </li>
-          <li>
-            The
-            <em>Mean</em> rule is used to reduce the spread of results.
+            The <em>Mean</em> rule is used to reduce the spread of results.  Use it to 
+            summarize repeated applications of a skill to more or less identical subtasks.
+            It can be reversed to extract critical subtasks with a higher range of likely 
+            results. 
           </li>
         </ul>
         <p>
@@ -423,7 +427,7 @@
           to add to the higher of the two skills - which is then the
           only one you need to roll.  For example, if the skills are 5
           and 9.  Then the net skill level of the two actors together
-          is 12.
+          is 12.  This is called the <b>5-addition</b>.
         </p>
         <table style="width:75%">
           <tr>
