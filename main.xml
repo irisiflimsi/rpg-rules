@@ -540,7 +540,7 @@
         <p>
           While it might look trivial, it is not.  Make sure the
           dimensions of the averaged skills are the same, otherwise
-          the averge has no meaning.  Sameness does not only mean the
+          the average has no meaning.  Sameness does not only mean the
           units, but the complete dimension table.  Not many other
           rule systems support this &#8220;dimension warp&#8221;.
         </p>
