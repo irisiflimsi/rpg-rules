@@ -302,7 +302,7 @@
       dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
       dimtim.textContent = Math.round(100 * 2 ** -v) + " %";
       dimyie.textContent = Math.round(8 * 2 ** v) / 8;
-      dimdan.textContent = Math.max(0, Math.min(100, - 2 * v));
+      dimdan.textContent = Math.max(0, Math.min(100, - 20 * v)) + " %";
     }
 
     roll.oninput = updateValues;
