@@ -31,8 +31,8 @@
           how they can potentially be combined.
         </p>
         <p>
-          Then <em>n5</em> is rolled, adding the difference in skill value (SV).  The task
-          difficulty value is subtracted from the roll and if the net
+          Then <em>n5</em> is rolled, adding the skill value (SV).  The task
+          difficulty value is subtracted, and if the net
           result is non-negative, the skill has been successfully
           employed; if the roll is negative, the attempt has failed.
           The dimensions may be more complex than Success/Failure.
@@ -56,6 +56,16 @@
           both characters achieve the same success level, this is a
           stalemate.  If a tie is not appropriate to the situation,
           toss a coin.
+        </p>
+        <p>
+          Skills can be specialized.  Specialization has the advantage
+          of increasing the skill level in a specific domain, which
+          general skill would not do.
+        </p>
+        <p>
+          For a task multiple skills may be applicable.  Usually they
+          can be 5-added but the task difficulty may also be different for
+          their application.
         </p>
         <h3 id="five-add">5-Addition</h3>
         <p>
@@ -92,7 +102,7 @@
         <p>
           Some often used dimensions are listed on a
           <a href="scifi-dimensions.html">separate page</a>.
-          The formulas, if neededm, can be extracted from
+          The formulas, if needed, can be extracted from
           the enclosed javascript.
         </p>
         <p>
@@ -101,6 +111,9 @@
           untrained individual (SV 0) and what is expected (the average result)
           for a sufficiently educated person (SV 20).  Interpret the
           results inbetween and outside of the bounds accordingly.
+          50 should be an intrisic limit for a human, even when a talented
+          individual has dedicating most of his life to a skill.  Technical
+          aids or cyberimplants may give another picture.
         </p>
         <h5 class="skill" id="di-co1">Combat</h5>
         <p>
@@ -110,8 +123,8 @@
           (rolled) progression has reached its goal, a new skill roll
           is made.  It is therefore possible to play 4-second
           round-based combat.  The weapon table show the base time it
-          takes to attack once.  This is multiplied by the number in
-          the table.
+          takes to attack once.  This is multiplied by the number from
+          the dimension.
         </p>
         <p>
           The <em>Wounds</em> are the result of the dimension
@@ -219,22 +232,6 @@
           accident is a fall (or going under) at some random instant
           of the travel.  The dimension indices may not differ by more
           than 20 points.
-        </p>
-        <h5/>
-        <h3 id="skills">Skills</h3>
-        <p>
-          Skills can be specialized.  Specialization has the advantage
-          of reducing the task level in a specific domain, which
-          general skill would not do.  For example specializing in a
-          specific melee weapon such as a sword, would reduce the task
-          of fighting against an opponent more susceptible to such
-          attacks compared to general melee weapons.
-        </p>
-        <h3 id="tasks">Tasks</h3>
-        <p>
-          For a task multiple skills may be applicable.  Usually they
-          can be 5-added but the difficulty may also be different for
-          their application.
         </p>
       </div>
       <div class="container">
