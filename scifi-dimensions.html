@@ -224,7 +224,7 @@
     <div class="slider-container">
       <div class="value-display">
         <div class="value-label">RESULT</div>
-        <div class="value-number" id="dim0">0</div>
+        <div class="value-number" id="dim-num">0</div>
       </div>
 
       <div class="slider-controls">
@@ -250,27 +250,31 @@
       <tbody>
         <tr>
           <td>Accuracy</td>
-          <td id="dim1">—</td>
+          <td id="dim-acc">—</td>
         </tr>
         <tr>
           <td>Healing</td>
-          <td id="dim3">—</td>
+          <td id="dim-hea">—</td>
         </tr>
         <tr>
           <td>Initiative</td>
-          <td id="dim4">—</td>
+          <td id="dim-ini">—</td>
         </tr>
         <tr>
           <td>Move</td>
-          <td id="dim5">—</td>
+          <td id="dim-mov">—</td>
         </tr>
         <tr>
           <td>Time/Speed</td>
-          <td id="dim6">—</td>
+          <td id="dim-tim">—</td>
         </tr>
         <tr>
           <td>Yield</td>
-          <td id="dim7">—</td>
+          <td id="dim-yie">—</td>
+        </tr>
+        <tr>
+          <td>Danger</td>
+          <td id="dim-dan">—</td>
         </tr>
       </tbody>
     </table>
@@ -280,26 +284,25 @@
     const roll = document.getElementById("roll");
     const decreaseBtn = document.getElementById("decreaseBtn");
     const increaseBtn = document.getElementById("increaseBtn");
-    const dim0 = document.getElementById("dim0");
-    const dim1 = document.getElementById("dim1");
-    const dim3 = document.getElementById("dim3");
-    const dim4 = document.getElementById("dim4");
-    const dim5 = document.getElementById("dim5");
-    const dim6 = document.getElementById("dim6");
-    const dim7 = document.getElementById("dim7");
+    const dimnum = document.getElementById("dim-num");
+    const dimacc = document.getElementById("dim-acc");
+    const dimhea = document.getElementById("dim-hea");
+    const dimini = document.getElementById("dim-ini");
+    const dimmov = document.getElementById("dim-mov");
+    const dimtim = document.getElementById("dim-tim");
+    const dimyie = document.getElementById("dim-yie");
+    const dimdan = document.getElementById("dim-dan");
 
     function updateValues() {
       const v = roll.value / 10;
-      dim0.textContent = roll.value;
-      dim1.textContent = Math.round(100 * (1 - 1 / (2 * 2 ** v))) +
-        " % – " +
-        Math.round(100 / (1 - 1 / (2 * 2 ** v))) + " %";
-      dim3.textContent = Math.round(8 * 2 ** -v) / 8 + " day/pt";
-      dim4.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
-      dim5.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " +
-        Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
-      dim6.textContent = Math.round(100 * 2 ** -v) + " %";
-      dim7.textContent = Math.round(8 * 2 ** v) / 8;
+      dimnum.textContent = roll.value;
+      dimacc.textContent = Math.round(100 * (1 - 1 / (2 * 2 ** v))) + " % – " + Math.round(100 / (1 - 1 / (2 * 2 ** v))) + " %";
+      dimhea.textContent = Math.round(8 * 2 ** -v) / 8 + " day/pt";
+      dimini.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
+      dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
+      dimtim.textContent = Math.round(100 * 2 ** -v) + " %";
+      dimyie.textContent = Math.round(8 * 2 ** v) / 8;
+      dimdan.textContent = Math.max(0, Math.min(100, - 2 * v));
     }
 
     roll.oninput = updateValues;
