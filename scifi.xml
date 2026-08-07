@@ -88,31 +88,24 @@
             <td>16.6</td>
           </tr>
         </table>
-        <h3 id="dim-link">Dimension Links</h3>
+        <h3 id="dim">Dimensions</h3>
         <p>
           Some often used dimensions are listed on a
           <a href="scifi-dimensions.html">separate page</a>.
-          The formulas can be extracted from the enclosed javascript.
+          The formulas, if neededm, can be extracted from
+          the enclosed javascript.
         </p>
-        <table class="links" style="width:75%">
-          <tr>
-            <td><a href="#di-co1">Combat</a></td>
-            <td><a href="#di-kno">Knowledge</a></td>
-          </tr>
-        </table>
-        <h3 id="dim">Dimensions</h3>
         <p>
-          The following shows example dimensions.  Finding the
-          appropriate dimension depends on the concrete circumstances.
-          Consider what would be appropriate for an untrained
-          individual (SV 0) and what is expected (the average result)
+          Finding the appropriate dimension depends on the concrete
+          circumstances.  Consider what would be appropriate for an
+          untrained individual (SV 0) and what is expected (the average result)
           for a sufficiently educated person (SV 20).  Interpret the
           results inbetween and outside of the bounds accordingly.
         </p>
         <h5 class="skill" id="di-co1">Combat</h5>
         <p>
-          One dimension is the time, which it takes to achieve the
-          wound level zero on the defender.  The wound level is a
+          One dimension is the <em>Time/Speed</em>, which it takes to
+          achieve the wound level zero on the defender.  The wound level is a
           separate dimension; you can use trajectories.  Once a
           (rolled) progression has reached its goal, a new skill roll
           is made.  It is therefore possible to play 4-second
@@ -121,41 +114,16 @@
           the table.
         </p>
         <p>
-          The <em>wounds</em> are the result of the <em>value</em>
+          The <em>Wounds</em> are the result of the dimension
           calculation divided by 5, e.g. a 35 value result is 7
-          wounds.  Wounds only apply, if the attack/defense + n5
-          result is positive.  Negative wounds may result from cover
-          and other circumstances but are not applied.
+          wounds.  Wounds only apply, if the attack/defense roll
+          result is positive.  Negative wounds are ignored.
         </p>
         <p>
           The fractional parts for the higher values in the time
           dimension mean that multiple attacks &#8220;connect&#8221;
           at the same time.  This is to avoid combat in split seconds.
         </p>
-        <table style="width:90%">
-          <tr>
-            <th>Dimension</th>
-            <th>-30</th>
-            <th>-20</th>
-            <th>-10</th>
-            <th>0</th>
-            <th>10</th>
-            <th>20</th>
-            <th>30</th>
-            <th>40</th>
-          </tr>
-          <tr class="num">
-            <td>Time</td>
-            <td>8</td>
-            <td>4</td>
-            <td>2</td>
-            <td>1</td>
-            <td>1/2</td>
-            <td>1/4</td>
-            <td>1/8</td>
-            <td>1/16</td>
-          </tr>
-        </table>
         <p>
           Weapons list the minimal recovery time, i.e. reload time.
         </p>
