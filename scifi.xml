@@ -310,24 +310,6 @@
           extends beyond 100% duration when attempting to be quick, it
           fails.
         </p>
-        <table style="width:90%">
-          <tr>
-            <th>Dimension</th>
-            <th>20</th>
-            <th>25</th>
-            <th>30</th>
-            <th>35</th>
-            <th>40</th>
-          </tr>
-          <tr class="num">
-            <td>Speed</td>
-            <td>1</td>
-            <td>3/4</td>
-            <td>1/2</td>
-            <td>3/8</td>
-            <td>1/4</td>
-          </tr>
-        </table>
         <h5 class="skill" id="di-yie">Yield</h5>
         <p>
           <em>Yield</em> is used for various creation or harvesting
@@ -339,44 +321,6 @@
         <p>
           As example: 2 time units with SV 5 yields 3.
         </p>
-        <table style="width:80%">
-          <tr>
-            <th>Dimension</th>
-            <th>-20</th>
-            <th>-15</th>
-            <th>-10</th>
-            <th>-5</th>
-            <th>0</th>
-            <th>5</th>
-            <th>10</th>
-            <th>15</th>
-            <th>20</th>
-          </tr>
-          <tr class="num">
-            <td>Yield</td>
-            <td>1/4</td>
-            <td>3/8</td>
-            <td>1/2</td>
-            <td>3/4</td>
-            <td>1</td>
-            <td>3/2</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-          </tr>
-          <tr class="num">
-            <td>Time</td>
-            <td>4</td>
-            <td>3</td>
-            <td>2</td>
-            <td>3/2</td>
-            <td>1</td>
-            <td>3/4</td>
-            <td>1/2</td>
-            <td>3/8</td>
-            <td>1/4</td>
-          </tr>
-        </table>
         <h5/>
         <h3 id="skills">Skills</h3>
         <p>
