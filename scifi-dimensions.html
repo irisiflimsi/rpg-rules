@@ -272,10 +272,6 @@
           <td>Yield</td>
           <td id="dim7">—</td>
         </tr>
-        <tr>
-          <td>Yield (T)</td>
-          <td id="dim8">—</td>
-        </tr>
       </tbody>
     </table>
   </div>
@@ -291,7 +287,6 @@
     const dim5 = document.getElementById("dim5");
     const dim6 = document.getElementById("dim6");
     const dim7 = document.getElementById("dim7");
-    const dim8 = document.getElementById("dim8");
 
     function updateValues() {
       const v = roll.value / 10;
@@ -303,9 +298,8 @@
       dim4.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
       dim5.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " +
         Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
-      dim6.textContent = Math.round(400 * 2 ** -v) + " %";
+      dim6.textContent = Math.round(100 * 2 ** -v) + " %";
       dim7.textContent = Math.round(8 * 2 ** v) / 8;
-      dim8.textContent = Math.round(8 * 2 ** -v) / 8;
     }
 
     roll.oninput = updateValues;
