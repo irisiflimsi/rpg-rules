@@ -17,21 +17,12 @@
         <p>
           This is a set of rules representing the aspects typically
           encountered in a SciFi setting akin to <em>Star Trek</em>,
-          <em>Dark Matter</em>, or <em>Firefly</em>.  It is not
+          <em>Dark Matter</em>, or <em>Firefly</em>.  It is neither
           intended for very realistic setting such as <em>Expanse</em>
           nor for Space Fantasy like <em>Star Wars</em>.  Also see <a
           href="main.xml">Main Rule</a> for a general understanding.
         </p>
         <h3 id="overview">Overview</h3>
-        <p>
-          Inspiration was gained from <em>Harnmaster</em> (various
-          versions) and fan publications such as <em>Gunmaster</em>
-          from Bill Gant (various versions) but adapted to the
-          setting.  The intention was to benefit from predetermined,
-          balanced values, however the mechanics changed most values
-          beyond recognition.
-        </p>
-        <h4>Skill Testing</h4>
         <p>
           Skill testing is a micro-negotiation.  The GM describes the
           task and the dimensions available.  The character in
@@ -40,11 +31,11 @@
           how they can potentially be combined.
         </p>
         <p>
-          Then n5 is rolled, adding skill value (SV).  The task
+          Then <em>n5</em> is rolled, adding the difference in skill value (SV).  The task
           difficulty value is subtracted from the roll and if the net
           result is non-negative, the skill has been successfully
           employed; if the roll is negative, the attempt has failed.
-          The dimensions may be more complex then Success/Failure.
+          The dimensions may be more complex than Success/Failure.
           Also consider the combination of multiple skills; this is
           done before the n5 is rolled.
         </p>
@@ -69,33 +60,32 @@
         <h3 id="five-add">5-Addition</h3>
         <p>
           A convenience table for the 5-addition of zeroes.  Rounding
-          is to one fractional digit only.  Multiples of 2 are left
-          out; every doubling means a +5.
+          is to one fractional digit only.
         </p>
         <table style="width:80%">
           <tr>
             <th>Number</th>
+            <td>2</td>
             <td>3</td>
+            <td>4</td>
             <td>5</td>
+            <td>6</td>
             <td>7</td>
+            <td>8</td>
             <td>9</td>
-            <td>11</td>
-            <td>13</td>
-            <td>15</td>
-            <td>17</td>
-            <td>19</td>
+            <td>10</td>
           </tr>
           <tr>
             <th>Result</th>
+            <td>5</td>
             <td>7.9</td>
+            <td>10</td>
             <td>11.6</td>
+            <td>12.9</td>
             <td>14</td>
+            <td>15</td>
             <td>15.8</td>
-            <td>17.3</td>
-            <td>18.5</td>
-            <td>19.5</td>
-            <td>20.4</td>
-            <td>21.2</td>
+            <td>16.6</td>
           </tr>
         </table>
         <h3 id="dim-link">Dimension Links</h3>
