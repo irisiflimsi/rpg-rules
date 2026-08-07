@@ -89,17 +89,17 @@
           </tr>
         </table>
         <h3 id="dim-link">Dimension Links</h3>
+        <p>
+          Some often used dimensions are listed on a
+          <a href="scifi-dimensions.html">separate page</a>.
+          The formulas can be extracted from the enclosed javascript.
         <table class="links" style="width:75%">
           <tr>
-            <td><a href="#di-acc">Accuracy</a></td>
             <td><a href="#di-co1">Combat</a></td>
-            <td><a href="#di-sta">Healing</a></td>
             <td><a href="#di-ini">Initiative</a></td>
           </tr>
           <tr>
             <td><a href="#di-kno">Knowledge</a></td>
-            <td><a href="#di-mov">Move</a></td>
-            <td><a href="#di-spe">Speed</a></td>
             <td><a href="#di-yie">Yield</a></td>
           </tr>
         </table>
