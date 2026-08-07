@@ -213,56 +213,6 @@
           Consider load and acceleration for unusually fast movers (or
           abusers).
         </p>
-        <table style="width:90%">
-          <tr>
-            <th>Dimension</th>
-            <th>-60</th>
-            <th>-50</th>
-            <th>-40</th>
-            <th>-30</th>
-            <th>-20</th>
-            <th>-10</th>
-            <th>0</th>
-            <th>10</th>
-            <th>20</th>
-            <th>30</th>
-            <th>40</th>
-            <th>50</th>
-            <th>60</th>
-          </tr>
-          <tr class="num">
-            <td>Speed (m/s)</td>
-            <td>5/16</td>
-            <td>7/16</td>
-            <td>5/8</td>
-            <td>7/8</td>
-            <td>5/4</td>
-            <td>7/4</td>
-            <td>5/2</td>
-            <td>7/2</td>
-            <td>5</td>
-            <td>7</td>
-            <td>10</td>
-            <td>15</td>
-            <td>20</td>
-          </tr>
-          <tr class="num">
-            <td>Accident</td>
-            <td>100%</td>
-            <td>100%</td>
-            <td>80%</td>
-            <td>60%</td>
-            <td>40%</td>
-            <td>20%</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-            <td>0%</td>
-          </tr>
-        </table>
         <p>
           Climbing is at -20 and Swimming at -10.  Movement is a
           combination of the Speed and Accident dimensions.  An
