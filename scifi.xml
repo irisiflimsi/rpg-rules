@@ -302,25 +302,6 @@
           of the travel.  The dimension indices may not differ by more
           than 20 points.
         </p>
-        <h5 class="skill" id="di-spe">Speed</h5>
-        <p>
-          This is used to determine how quick short reactive actions
-          are made.  Those are actions that need to be completed
-          within a few seconds, usually in combat.  If an action
-          extends beyond 100% duration when attempting to be quick, it
-          fails.
-        </p>
-        <h5 class="skill" id="di-yie">Yield</h5>
-        <p>
-          <em>Yield</em> is used for various creation or harvesting
-          tasks.  <em>Yield</em> can usually be compensated by
-          spending more time but in some cases a minimum result must
-          be achieved or time cannot be consecutively be spent,
-          &#8220;ruining&#8221; the result.
-        </p>
-        <p>
-          As example: 2 time units with SV 5 yields 3.
-        </p>
         <h5/>
         <h3 id="skills">Skills</h3>
         <p>
