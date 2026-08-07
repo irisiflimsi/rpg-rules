@@ -138,9 +138,6 @@
           at the same time.  This is to avoid combat in split seconds.
         </p>
         <p>
-          Weapons list the minimal recovery time, i.e. reload time.
-        </p>
-        <p>
           For grappling, wounds are treated as penalty to any physical
           activity instead of damage to heal.  Such wounds are
           immediately reduced to zero, once the grapple is no longer
