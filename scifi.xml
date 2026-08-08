@@ -115,21 +115,6 @@
           individual has dedicating most of his life to a skill.  Technical
           aids or cyberimplants may give another picture.
         </p>
-        <h5 class="skill" id="di-sta">Healing</h5>
-        <p>
-          Healing time is given for one wound point.  Note that a
-          reduction in the effective wound points causes re-evaluation
-          of the effective healing rate, but should be ignored for
-          playability.
-        </p>
-        <p>
-          Wounds are the (individual) task levels, but the wounds
-          themselves adversely affect healing individually and the
-          time unit is days.  Add half the skill value of a medic
-          present when determining the healing rate.  Healing rate can
-          be improved with during the healing process in the same
-          manner.
-        </p>
         <h5 class="skill" id="di-ini">Initiative</h5>
         <p>
           Initiative reflects battle experience, discipline, and
@@ -254,7 +239,8 @@
           achieve the wound level zero on the defender.
           The <em>wound level</em> is a separate dimension, where 5 points on
           the value range equate to 1 on the wound dimension.  Wounds only
-          apply if positive.  You can use trajectories.
+          apply if positive.  Wounds are penalties for the receipient
+          on all of his tasks.  The attacker can use trajectories.
         </p>
         <h5 class="co-turn">Turns or Duration</h5>
         <p>
@@ -440,22 +426,15 @@
           cummulate into a single wound type.  Observe Incapacitating and
           Destroyed.  These heal at 1 per second of fresh air.
         </p>
-        <h5 id="co-shock">Shock</h5>
+        <h5 id="co-wounds">Hit Location</h5>
         <p>
-          Any new wound of at least 1 point results in a Shock chance.
-          Use accumulated injury and fatigue as difficulty for a roll
-          against 20.  Failure is measured in the Yield Dimension as
-          minutes.  Multiple Shock rolls per round can be 5-added.
-        </p>
-        <h5 id="co-wounds">Wounds</h5>
-        <p>
-          Combatants who sustain Serious or Grievous wounds may die
-          during the healing routine.  On the other hand, various
-          types of medicine or prosthetics can improve healing
-          greatly.  For descriptive purposes, wounds are called
+          Body distribution is ruled as 10% Head, 20% Arms 30% Legs,
+          and 40% Torso. Legs are considered &#8220;star-shaped&#8221; for
+          the purpose of aiming. For descriptive purposes, wounds are called
           <em>Minor</em>, <em>Serious</em>, <em>Grievous</em>,
           <em>Incapacitating</em>, and <em>Destroyed</em> in steps of
-          5.
+          5 wound points.  Also see <em>Bloodloss</em> and
+          <em>Rise/Fumble/Stumble</em>.  Bloodloss affects the whole system.
         </p>
         <p>
           <em>Incapacitating:</em> The system affected cannot be used
@@ -466,8 +445,38 @@
           and cannot be healed.  For living beings this means instant
           death.
         </p>
+        <h5 id="di-sta">Healing</h5>
         <p>
-          Consider different types of wounds, e.g. grappling
+          Wounds are the (individual) task levels, and the wounds
+          themselves adversely affect healing individually and the
+          time unit is days.  Add half the skill value of a medic
+          present when determining the healing rate.  Healing rate can
+          be improved during the healing process.
+        </p>
+        <p>
+          Every location should be considered a separate wound, including
+          system, with separate healing rates.  Also different wound types
+          with individual healing rates exist.
+        </p>
+        <p>
+          <em>Grappling</em>.  Heal immediately, when grappling is not maintained.
+        </p>
+        <p>
+          <em>Suffocation</em>.  See <em>Deprivation</em>.
+        </p>
+        <p>
+          <em>Sleep Deprevation</em>.  See <em>Deprivation</em>.
+        </p>
+        <p>
+          <em>Hunger/Thirst</em>.  Affects the system location with 5 wound point
+          for every day/week without water/food.
+        </p>
+        <h5 id="co-shock">Shock</h5>
+        <p>
+          Any new wound of at least 1 point results in a Shock chance.
+          Use accumulated injury and fatigue as difficulty for a roll
+          against 20.  Failure is measured in the Yield Dimension as
+          minutes.  Multiple Shock rolls per round can be 5-added.
         </p>
         <h3 id="spco">Space Combat</h3>
         <p>
