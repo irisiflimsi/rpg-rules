@@ -115,33 +115,6 @@
           individual has dedicating most of his life to a skill.  Technical
           aids or cyberimplants may give another picture.
         </p>
-        <h5 class="skill" id="di-ini">Initiative</h5>
-        <p>
-          Initiative reflects battle experience, discipline, and
-          morale.  Initiative determines the speed in which characters
-          can assess a stressful situation.  Characters take the time
-          listed before they can act.  An ambush gives a penalty.
-          During the time a character is &#8220;frozen&#8221; this
-          way, he is trying to understand the situation he is in and
-          assesses the options he has.  He is <em>cautious</em> during
-          that time.  General awareness issues are not covered by
-          Initiative.  Battle-hardened characters may come into the
-          fractional range.  Fractions can be used to determine who
-          goes first.
-        </p>
-        <p>
-          The situation in combat changes constantly.  One action is
-          assumed to take 4 seconds, going prematurely incurs the
-          usual 5-subtraction penalty.  (Acting every 8 seconds can
-          occasionally lend a bonus.)
-        </p>
-        <p>
-          For round-based combat, Initiative usually simply determines
-          the order of activity.  Changing the order or acting twice
-          by accepting penalties should be avoided, as it can quickly
-          lead to escalation, the avoidance of which is precisely the
-          reason round-based combat is used.
-        </p>
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <p>
           This dimension can also be used as knowledge about
@@ -224,12 +197,13 @@
           </tr>
           <tr>
             <td><a href="#co-loc">Hit Location</a></td>
+            <td><a href="#co-ini">Initiative</a></td>
             <td><a href="#co-missile">Missiles</a></td>
             <td><a href="#co-move">Move</a></td>
             <td><a href="#co-prep">Preparation</a></td>
-            <td><a href="#co-push">Push</a></td>
           </tr>
           <tr>
+            <td><a href="#co-push">Push</a></td>
             <td><a href="#co-rise">Rise/Fumble/Stumble</a></td>
             <td><a href="#co-shock">Shock</a></td>
             <td><a href="#co-turn">Turns or Duration</a></td>
@@ -257,6 +231,32 @@
           The fractional parts for the higher values in the time
           dimension mean that multiple attacks &#8220;connect&#8221;
           at the same time.  This is to avoid combat in split seconds.
+        </p>
+        <h5 id="co-ini">Initiative</h5>
+        <p>
+          Initiative reflects battle experience, discipline, and
+          morale and determines the speed in which characters
+          can assess a stressful situation.  Characters take the time
+          listed before they can act.  An ambush gives a penalty.
+          During the time a character is &#8220;frozen&#8221; this
+          way, he is trying to understand the situation he is in and
+          assesses the options he has.  He can defend with an Initiative + 10
+          during that time.  General awareness issues are not covered by
+          Initiative.  Battle-hardened characters may come into the
+          fractional range.  Fractions determine who goes first.
+        </p>
+        <p>
+          The situation in combat changes constantly.  One action is
+          assumed to take 4 seconds, going prematurely incurs the
+          usual 5-subtraction penalty.  (Acting every 8 seconds can
+          lend a bonus.)
+        </p>
+        <p>
+          For round-based combat, Initiative usually simply determines
+          the order of activity.  Changing the order or acting twice
+          by accepting penalties should be avoided, as it can quickly
+          lead to escalation, the avoidance of which is precisely the
+          reason round-based combat would be used.
         </p>
         <h5 id="co-grap">Grapple/Tangle</h5>
         <p>
