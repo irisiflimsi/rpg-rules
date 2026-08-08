@@ -100,7 +100,7 @@
         </table>
         <h3 id="dim">Dimensions</h3>
         <p>
-          Some often used dimensions are listed on a
+          Some dimensions often used are listed on a
           <a href="scifi-dimensions.html">separate page</a>.
           The formulas, if needed, can be extracted from
           the enclosed javascript.
@@ -114,34 +114,6 @@
           50 should be an intrisic limit for a human, even when a talented
           individual has dedicating most of his life to a skill.  Technical
           aids or cyberimplants may give another picture.
-        </p>
-        <h5 class="skill" id="di-co1">Combat</h5>
-        <p>
-          One dimension is the <em>Time/Speed</em>, which it takes to
-          achieve the wound level zero on the defender.  The wound level is a
-          separate dimension; you can use trajectories.  Once a
-          (rolled) progression has reached its goal, a new skill roll
-          is made.  It is therefore possible to play 4-second
-          round-based combat.  The weapon table show the base time it
-          takes to attack once.  This is multiplied by the number from
-          the dimension.
-        </p>
-        <p>
-          The <em>Wounds</em> are the result of the dimension
-          calculation divided by 5, e.g. a 35 value result is 7
-          wounds.  Wounds only apply, if the attack/defense roll
-          result is positive.  Negative wounds are ignored.
-        </p>
-        <p>
-          The fractional parts for the higher values in the time
-          dimension mean that multiple attacks &#8220;connect&#8221;
-          at the same time.  This is to avoid combat in split seconds.
-        </p>
-        <p>
-          For grappling, wounds are treated as penalty to any physical
-          activity instead of damage to heal.  Such wounds are
-          immediately reduced to zero, once the grapple is no longer
-          maintained.
         </p>
         <h5 class="skill" id="di-sta">Healing</h5>
         <p>
@@ -233,6 +205,7 @@
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
+        <h3 id="co-links">Combat Links</h3>
         <p>
           At the beginning of each combat the players and GM should
           jointly decide which action options they want to allow and
@@ -245,19 +218,10 @@
           resolution.
         </p>
         <p>
-          In order to simulate larger combats with many participants,
-          the usual 5-Addition can be used.  It does not provide as
-          many tactical options as individual combat does, but greatly
-          reduces time spent.  Both time and wound dimension should be
-          scaled linearly with the number of particpipants.  E.g. a
-          wound of 5 after 30 seconds would scale to a total of 50
-          points after 5 minutes for 10 people or to 500 points after
-          50 minutes for 100 people.  The points should be distributed
-          in reasonable batches on the participants on each side, the
-          smallest batch size being the wounds rolled.  People can be
-          hit multiple times.
+          It is possible to quickly resolve a 1:1 combat by an opposing 
+          roll as explained in the basic rules.  All of the below rules
+          are optional in that sense.
         </p>
-        <h3 id="co-links">Combat Links</h3>
         <table class="links" style="width:90%">
           <tr>
             <td><a href="#co-aim">Aiming</a></td>
@@ -284,6 +248,48 @@
             <td><a href="#co-wounds">Wounds</a></td>
           </tr>
         </table>
+        <h5 id="co-dim">Dimensions</h5>
+        <p>
+          One dimension is the <em>Time/Speed</em>, which it takes to
+          achieve the wound level zero on the defender.
+          The <em>wound level</em> is a separate dimension, where 5 points on
+          the value range equate to 1 on the wound dimension.  Wounds only
+          apply if positive.  You can use trajectories.
+        </p>
+        <h5 class="co-turn">Turns or Duration</h5>
+        <p>
+          Once a (rolled) time has elapsed a new skill roll
+          is made.  It is therefore possible to play 4-second
+          round-based combat.  The weapon table show the base time it
+          takes to attack once.  This is multiplied by the number from
+          the time dimension.
+        </p>
+        <p>
+          The fractional parts for the higher values in the time
+          dimension mean that multiple attacks &#8220;connect&#8221;
+          at the same time.  This is to avoid combat in split seconds.
+        </p>
+        <h5 id="co-grap">Grappling</h5>
+        <p>
+          Grappling wounds are treated as penalty to any physical
+          activity instead of normal wounds.  Such wounds are
+          immediately reduced to zero, once the grapple is no longer
+          maintained.
+        </p>
+        <h5 class="co-group">Group Combat</h5>
+        <p>
+          In order to simulate larger combats with many participants,
+          the usual 5-Addition can be used.  It does not provide as
+          many tactical options as individual combat does, but greatly
+          reduces time spent.  Both time and wound dimension should be
+          scaled linearly with the number of particpipants.  E.g. a
+          wound of 5 after 30 seconds would scale to a total of 50
+          points after 5 minutes for 10 people or to 500 points after
+          50 minutes for 100 people.  The points should be distributed
+          in reasonable batches on the participants on each side, the
+          smallest batch size being the wounds rolled.  People can be
+          hit multiple times.
+        </p>
         <h5 id="co-aim">Aiming</h5>
         <p>
           For every reduction of the target zone by 50%
@@ -292,22 +298,14 @@
           <em>aim plane</em>.  Note that this gives a 20% chance of
           hitting the other 50% of the target zone.  This can be
           applied repeatedly to either understand how wildly off a
-          shot was or when firing at a wall of enemies.
+          shot was or when firing at a wall of enemies.  Aiming is
+          restricted to reasonably connected areas (&#8820;star-shaped&#8821;)
         </p>
         <p>
           For the purpose of attitude to an attacker, normal humans
           are considered a &#8220;block&#8221; of 100% by 50% by 25%.
         </p>
-        <p>
-          Aiming is restricted to <em>first level compound</em> aiming
-          only.  For example, it is possible to aim at an officer's
-          head in a group of soldiers, but not all all the torsos of
-          all the soldiers even if they can be considered contiguous.
-          This also implies that you cannot aim at parts of an aiming
-          zone, e.g. the neck, consisting of the upper part of the
-          torso and the lower part of the head.  Damage is applied
-          accordingly only to the zones hit.
-        </p>
+        <h5 id="co-area">Area/Volume effects</h5>
         <p>
           Area affecting hits apply to all <em>first level</em>
           targets in the zone covered.  For example, firing into a
@@ -318,21 +316,18 @@
         </p>
         <h5 id="co-block">Evade</h5>
         <p>
-          Skills to evade do not include any mental skills or missile
-          skills.  Unarmed, melee weapons, strength are all
-          applicable.  If the same skill is used for multiple,
-          simultaneous actions, it is at +5, compensating some of the
-          penalty for multiple actions.
-        </p>
-        <p>
           Any combination of Dodging, Blocking, and Parrying an attack
-          is a single action and called <em>Evade</em>.  Evade is not
+          is a single action and called <em>Evade</em>.  Evasion is
           assumed at the same time an attack is contemplated by the
           defender himself.  Evade is a 4 second Combat activity.
           Calculate separate, synchronous applications accordingly,
           i.e. a second defense causes a -5 penalty to both parries, a
           third causes a -7.9 to all and so on.  The same is true for
           combining attacks and defenses at the same time.
+        </p>
+        <p>
+          Using a skill for evasion is at +5 compared to a more
+          aggressive use.
         </p>
         <p>
           Evade is at a penalty of Initiative divided by the travel
@@ -343,29 +338,19 @@
           penalty cannot reduce Evade to less than 0.
         </p>
         <p>
-          If the firing weapon itself is within reach of a parry or
-          block, it turns into a (improvised) melee weapon.
+          If a firing weapon is within reach of a parry or block, it
+          can be evaded as a melee weapon not as a missile.  Consider
+          wildly discharged shots. 
         </p>
         <h5 id="co-blood">Bloodloss</h5>
         <p>
-          Damage taken increases with every complete multiple of 5
-          injury level above 10 every 4s.  For example, a 16-20 point
+          Wounds taken increases with every complete multiple of 5
+          wounds above 10 every 4s.  For example, a 16-20 wound point
           injury causes 2 points per 4 seconds, or 1 point of
           bloodloss every 1 second.  This number is lost until
           treatment is applied.  Treat the final sum as a separate
           injury.  Some wounds will not cause bloodloss (e.g. Frost)
           including wounds to inanimate objects.
-        </p>
-        <h5 id="co-sleep">Deprivation</h5>
-        <p>
-          <em>Sleep</em>: Every 24 hours without sleep take 5 wounds,
-          which cummulate into a single wound.  Observe Incapacitating
-          and Destroyed.  These heal at 1 per hour of sleep.
-        </p>
-        <p>
-          <em>Air</em> Every minute without air take 5 wounds, which
-          cummulate into a single wound.  Observe Incapacitating and
-          Destroyed.  These heal at 1 per second of fresh air.
         </p>
         <h5 id="co-engage">Engagement</h5>
         <p>
@@ -379,18 +364,7 @@
           leaving may be active or passive.  It is possible to be
           engaged with an arbitrary number of enemies at a time.
         </p>
-        <h5 id="co-grapple">Grapple/Tangle</h5>
-        <p>
-          Use Unarmed skill when no weapon is involved.  Multiple
-          grapples are allowed , but keep track of the grappled
-          weapons of all opponents, they can no longer be used to full
-          potential.
-        </p>
-        <h5 id="co-grope">Grope</h5>
-        <p>
-          Use Fine motor skill.
-        </p>
-        <h5 id="co-melee">Melee Attack</h5>
+        <h5 id="co-melee">Accidental Attacks</h5>
         <p>
           Hitting the wrong target can happen in melee combat.
           Anybody within an engagement zone is subject to an
@@ -400,7 +374,7 @@
           character who is attacking (or being attacked by) a prone
           enemy increases Attack/Defense SV with that character by 5.
         </p>
-        <h5 id="co-missile">Missile Attack</h5>
+        <h5 id="co-missile">Missile Attacks</h5>
         <p>
           Count everything within 30 degrees firing arc as a single
           target with task level 0.  To simplify calculations, weapons
@@ -429,8 +403,8 @@
         <p>
           A 4 second round can be spent to prepare an activity, which
           shall happen at a dedicated instance.  The conditions must
-          be evaluated in less than a second.  Use Initiative at +20
-          or alternativly the activity at +5.  Active conditions such
+          be evaluated in less than a second.  Use the skill for the
+          activity +10 with speed dimension.  Active conditions such
           as suppressive fire are notwithstanding.
         </p>
         <h5 id="co-push">Push</h5>
@@ -438,7 +412,7 @@
           The push attempt must be in the direction the attacker is
           facing and the attacker must follow.  The defender has a
           choice to evade into a semi-circle of up to 120 degrees,
-          assuming no obstacles.  Instead of Injury points, meters
+          assuming no obstacles.  Instead of wound points, meters
           (pushed) are used.  The defender is forced to deduct the
           move from his action allowance, regardless of whether he
           resists or not.  A resist deducts from the distance forced
@@ -449,10 +423,11 @@
         </p>
         <h5 id="co-rise">Rise/Fumble/Stumble</h5>
         <p>
-          Use <em>Gross motor</em> skill for any of these situations.
-          The result of the latter two is a stumble or a fumble, while
-          the first is the <em>Combat</em> dimension time it takes to
-          escape the prone condition.
+          Stumbles or a fumbles occur, when an injury to legs
+          or arms, respectively, deals injury beyond 10 points.
+          Use the <em>Speed</em> dimension to escape the condition.
+          Any attack is cancelled.  Unarmed attacks are not 
+          affected by fumbles.
         </p>
         <h5 id="co-sound">Sound</h5>
         <p>
@@ -486,6 +461,20 @@
           <em>Destroyed:</em> The system affected lost its integrity
           and cannot be healed.  For living beings this means instant
           death.
+        </p>
+        <p>
+          Consider different types of wounds, e.g. grappling
+        </p>
+        <h5 id="co-sleep">Deprivation</h5>
+        <p>
+          <em>Sleep</em>: Every 24 hours without sleep take 5 wounds,
+          which cummulate into a single wound.  Observe Incapacitating
+          and Destroyed.  These heal at 1 per hour of sleep.
+        </p>
+        <p>
+          <em>Air</em> Every minute without air take 5 wounds, which
+          cummulate into a single wound.  Observe Incapacitating and
+          Destroyed.  These heal at 1 per second of fresh air.
         </p>
         <h3 id="spco">Space Combat</h3>
         <p>
