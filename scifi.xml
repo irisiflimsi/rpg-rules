@@ -157,7 +157,7 @@
           Climbing is at -20 and Swimming at -10.  Movement is a
           combination of the Speed and Accident dimensions.  An
           accident is a fall (or going under) at some random instant
-          of the travel.  The dimension indices may not differ by more
+          of the travel.  The dimension values may not differ by more
           than 20 points.
         </p>
       </div>
