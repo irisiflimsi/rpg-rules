@@ -474,8 +474,8 @@
         <h5 id="co-shock">Shock</h5>
         <p>
           Any new wound of at least 1 point results in a Shock chance.
-          Use accumulated injury and fatigue as difficulty for a roll
-          against 20.  Failure is measured in the Yield Dimension as
+          Use accumulated wounds as difficulty for a roll with &#8220;skill&#8221;
+          against 20 or Stamina.  Failure is measured in the Yield Dimension as
           minutes.  Multiple Shock rolls per round can be 5-added.
         </p>
         <h3 id="spco">Space Combat</h3>
