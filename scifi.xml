@@ -299,19 +299,19 @@
           hitting the other 50% of the target zone.  This can be
           applied repeatedly to either understand how wildly off a
           shot was or when firing at a wall of enemies.  Aiming is
-          restricted to reasonably connected areas (&#8820;star-shaped&#8821;)
+          restricted to reasonably connected areas (&#8220;star-shaped&#8221;)
         </p>
         <p>
           For the purpose of attitude to an attacker, normal humans
           are considered a &#8220;block&#8221; of 100% by 50% by 25%.
         </p>
-        <h5 id="co-area">Area/Volume effects</h5>
+        <h5 id="co-area">Volume effects</h5>
         <p>
-          Area affecting hits apply to all <em>first level</em>
+          Area or volume affecting hits apply to all <em>first level</em>
           targets in the zone covered.  For example, firing into a
           group of soldiers, all soldiers are affected, not all heads,
           arms, etc., individually.  A single area strike aimed at one
-          person can thus still be quite devastating.  Evasion and
+          person will still be quite devastating.  Evasion and
           damage is rolled only once, but calculated individually.
         </p>
         <h5 id="co-block">Evade</h5>
@@ -429,12 +429,16 @@
           Any attack is cancelled.  Unarmed attacks are not 
           affected by fumbles.
         </p>
-        <h5 id="co-sound">Sound</h5>
+        <h5 id="co-sleep">Deprivation</h5>
         <p>
-          Projektiles have 100 + 1/BEP dB, energy blasts 50 + 1/BEP dB
-          at the nozzle.  Assume impact sound (melee, projectile and
-          energy) to vary between 25 and 100 dB.  This means sound is
-          highly dependent on circumstances.
+          <em>Sleep</em>: Every 24 hours without sleep cause 5 wounds,
+          which cummulate into a single wound type.  Observe Incapacitating
+          and Destroyed.  These heal at 1 per hour of sleep.
+        </p>
+        <p>
+          <em>Air</em> Every minute without air cause 5 wounds, which
+          cummulate into a single wound type.  Observe Incapacitating and
+          Destroyed.  These heal at 1 per second of fresh air.
         </p>
         <h5 id="co-shock">Shock</h5>
         <p>
@@ -464,17 +468,6 @@
         </p>
         <p>
           Consider different types of wounds, e.g. grappling
-        </p>
-        <h5 id="co-sleep">Deprivation</h5>
-        <p>
-          <em>Sleep</em>: Every 24 hours without sleep take 5 wounds,
-          which cummulate into a single wound.  Observe Incapacitating
-          and Destroyed.  These heal at 1 per hour of sleep.
-        </p>
-        <p>
-          <em>Air</em> Every minute without air take 5 wounds, which
-          cummulate into a single wound.  Observe Incapacitating and
-          Destroyed.  These heal at 1 per second of fresh air.
         </p>
         <h3 id="spco">Space Combat</h3>
         <p>
