@@ -245,7 +245,7 @@
           apply if positive.  Wounds are penalties for the receipient
           on all of his tasks.  The attacker can use trajectories.
         </p>
-        <h5 class="co-turn">Turns or Duration</h5>
+        <h5 id="co-turn">Turns or Duration</h5>
         <p>
           Once a (rolled) time has elapsed a new skill roll
           is made.  It is therefore possible to play 4-second
@@ -265,7 +265,7 @@
           immediately reduced to zero, once the grapple is no longer
           maintained.
         </p>
-        <h5 class="co-group">Groups</h5>
+        <h5 id="co-group">Groups</h5>
         <p>
           In order to simulate larger combats with many participants,
           the usual 5-Addition can be used.  It does not provide as
@@ -448,7 +448,7 @@
           and cannot be healed.  For living beings this means instant
           death.
         </p>
-        <h5 id="co-sta">Healing</h5>
+        <h5 id="co-heal">Healing</h5>
         <p>
           Wounds are the (individual) task levels.  These tasks are
           also affected b the overall wounds.  Add half the skill value of a medic
