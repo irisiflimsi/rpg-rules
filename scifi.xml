@@ -517,8 +517,8 @@
       <div class="container">
         <h1 id="tables">Tables</h1>
         <p>
-          The following table contains examples for the for formulas
-          given here and signal the readily available variants.
+          The following table contains examples for the formulas
+          given and signal the readily available variants.
         </p>
         <div class="explain">
           <p>
@@ -559,7 +559,7 @@
         </p>
         <p>
           Restricted energy weapons can be used with other,
-          appropriate skills.  Unlisted artillerie generally does not
+          appropriate skills.  Unlisted artillery generally does not
           distinguish between energy or projectile.
         </p>
         <p>
@@ -567,7 +567,7 @@
           squared away from <em>ground zero</em>, e.g. a BEP 50
           grenade is effectively harmless at 7m distance.  Skill
           cannot increase damage, only precision.  <em>Ground
-          zero</em> has zero area (and volume).
+          zero</em> has 1 cubic meter volume.
         </p>
         <p>
           Energy weapons may be used with an explosive cone, assuming
