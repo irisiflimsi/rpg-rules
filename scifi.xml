@@ -209,28 +209,31 @@
         </p>
         <table class="links" style="width:90%">
           <tr>
+            <td><a href="#co-melee">Accidental Hits</a></td>
             <td><a href="#co-aim">Aiming</a></td>
-            <td><a href="#co-block">Evade</a></td>
             <td><a href="#co-blood">Bloodloss</a></td>
             <td><a href="#co-sleep">Deprivation</a></td>
+            <td><a href="#co-dim">Dimensions</a></td>
           </tr>
           <tr>
             <td><a href="#co-engage">Engagement</a></td>
-            <td><a href="#co-grapple">Grapple/Tangle</a></td>
-            <td><a href="#co-grope">Grope</a></td>
-            <td><a href="#co-melee">Melee</a></td>
+            <td><a href="#co-block">Evade</a></td>
+            <td><a href="#co-grap">Grapple/Tangle</a></td>
+            <td><a href="#co-group">Groups</a></td>
+            <td><a href="#co-heal">Healing</a></td>
           </tr>
           <tr>
-            <td><a href="#co-missile">Missile</a></td>
+            <td><a href="#co-loc">Hit Location</a></td>
+            <td><a href="#co-missile">Missiles</a></td>
             <td><a href="#co-move">Move</a></td>
             <td><a href="#co-prep">Preparation</a></td>
             <td><a href="#co-push">Push</a></td>
           </tr>
           <tr>
             <td><a href="#co-rise">Rise/Fumble/Stumble</a></td>
-            <td><a href="#co-sound">Sound</a></td>
             <td><a href="#co-shock">Shock</a></td>
-            <td><a href="#co-wounds">Wounds</a></td>
+            <td><a href="#co-turn">Turns or Duration</a></td>
+            <td><a href="#co-area">Volume Effects</a></td>
           </tr>
         </table>
         <h5 id="co-dim">Dimensions</h5>
@@ -255,14 +258,14 @@
           dimension mean that multiple attacks &#8220;connect&#8221;
           at the same time.  This is to avoid combat in split seconds.
         </p>
-        <h5 id="co-grap">Grappling</h5>
+        <h5 id="co-grap">Grapple/Tangle</h5>
         <p>
           Grappling wounds are treated as penalty to any physical
           activity instead of normal wounds.  Such wounds are
           immediately reduced to zero, once the grapple is no longer
           maintained.
         </p>
-        <h5 class="co-group">Group Combat</h5>
+        <h5 class="co-group">Groups</h5>
         <p>
           In order to simulate larger combats with many participants,
           the usual 5-Addition can be used.  It does not provide as
@@ -291,7 +294,7 @@
           For the purpose of attitude to an attacker, normal humans
           are considered a &#8220;block&#8221; of 100% by 50% by 25%.
         </p>
-        <h5 id="co-area">Volume effects</h5>
+        <h5 id="co-area">Volume Effects</h5>
         <p>
           Area or volume affecting hits apply to all <em>first level</em>
           targets in the zone covered.  For example, firing into a
@@ -350,7 +353,7 @@
           leaving may be active or passive.  It is possible to be
           engaged with an arbitrary number of enemies at a time.
         </p>
-        <h5 id="co-melee">Accidental Attacks</h5>
+        <h5 id="co-melee">Accidental Hits</h5>
         <p>
           Hitting the wrong target can happen in melee combat.
           Anybody within an engagement zone is subject to an
@@ -360,7 +363,7 @@
           character who is attacking (or being attacked by) a prone
           enemy increases Attack/Defense SV with that character by 5.
         </p>
-        <h5 id="co-missile">Missile Attacks</h5>
+        <h5 id="co-missile">Missiles</h5>
         <p>
           Count everything within 30 degrees firing arc as a single
           target with task level 0.  To simplify calculations, weapons
@@ -426,7 +429,7 @@
           cummulate into a single wound type.  Observe Incapacitating and
           Destroyed.  These heal at 1 per second of fresh air.
         </p>
-        <h5 id="co-wounds">Hit Location</h5>
+        <h5 id="co-loc">Hit Location</h5>
         <p>
           Body distribution is ruled as 10% Head, 20% Arms 30% Legs,
           and 40% Torso. Legs are considered &#8220;star-shaped&#8221; for
@@ -445,11 +448,10 @@
           and cannot be healed.  For living beings this means instant
           death.
         </p>
-        <h5 id="di-sta">Healing</h5>
+        <h5 id="co-sta">Healing</h5>
         <p>
-          Wounds are the (individual) task levels, and the wounds
-          themselves adversely affect healing individually and the
-          time unit is days.  Add half the skill value of a medic
+          Wounds are the (individual) task levels.  These tasks are
+          also affected b the overall wounds.  Add half the skill value of a medic
           present when determining the healing rate.  Healing rate can
           be improved during the healing process.
         </p>
@@ -475,8 +477,8 @@
         <p>
           Any new wound of at least 1 point results in a Shock chance.
           Use accumulated wounds as difficulty for a roll with &#8220;skill&#8221;
-          against 20 or Stamina.  Failure is measured in the Yield Dimension as
-          minutes.  Multiple Shock rolls per round can be 5-added.
+          against 20 or Stamina.  Failure (positive) is measured in the Yield
+          dimension as minutes.  Multiple shock rolls per 4s can be 5-added.
         </p>
         <h3 id="spco">Space Combat</h3>
         <p>
