@@ -15,13 +15,17 @@
       <div class="container">
         <h1 id="rules">Basic Rules</h1>
         <p>
-          This is a set of rules representing the aspects typically
-          encountered in a SciFi setting akin to <em>Star Trek</em>,
-          <em>Dark Matter</em>, or <em>Firefly</em>.  It is neither
-          intended for very realistic setting such as <em>Expanse</em>
-          nor for Space Fantasy like <em>Star Wars</em>.  Also see <a
-          href="main.xml">Main Rule</a> for a general understanding.
+          See <a href="main.xml">Main Rule</a> for a general
+          understanding.  This is a set of rules representing
+          the aspects typically encountered in a SciFi setting.
         </p>
+        <ul>
+          <li>FTL and space travel in general is possible.</li>
+          <li>Energy weapons exist but projectiles are still used.</li>
+          <li>Artificial gravity is almost taken for granted.</li>
+          <li>Aliens or alien technologies have not been discovered.</li>
+          <li>Energy shields exist.</li>
+        </ul>
         <h3 id="overview">Overview</h3>
         <p>
           Skill testing is a micro-negotiation.  The GM describes the
