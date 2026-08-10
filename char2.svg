@@ -107,10 +107,7 @@
       <text style="font-size:15px;font-weight:700;fill:#fff" x="565" y="210">$Sk-20N</text>
       <text style="font-size:15px;text-anchor:middle" x="705" y="210">$Sk-20T</text>
     </g>
-    <rect style="stroke:#9a3100;stroke-width:1px" width="1" height="770" x="215" y="340" />
-    <rect style="stroke:#9a3100;stroke-width:1px" width="1" height="770" x="200" y="340" />
     <g transform="translate(0,160)">
-    <g>
       <text style="font-weight:700;font-size:15px;text-anchor:middle" x="90" y="185">Task</text>
       <text style="font-weight:700;font-size:15px;text-anchor:middle" x="175" y="185">Level</text>
       <text style="font-weight:700;font-size:15px;text-anchor:middle" x="245" y="185">Value</text>
@@ -120,339 +117,329 @@
       <text style="font-weight:700;font-size:15px;text-anchor:middle" x="585" y="185">Value</text>
       <text style="font-weight:700;font-size:15px;text-anchor:middle" x="670" y="185">Dimension</text>
     </g>
-    <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="190" />
-    <g>
+    <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="350" />
+    <g transform="translate(0,160)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-1N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-1N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-1T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-1T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-1T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-1X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-1T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-1X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-1T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-1X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-1N</text>
+      <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-1R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-1T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-1T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-1X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-1T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-1X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-1T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-1X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,50)">
+    <g transform="translate(0,213)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-2N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-2N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-2T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-2T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-2T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-2X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-2T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-2X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-2T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-2X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-2N</text>
+      <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-2R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-2T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-2T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-2X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-2T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-2X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-2T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-2X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,100)">
+    <g transform="translate(0,266)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-3N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-3N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-3T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-3T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-3T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-3X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-3T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-3X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-3T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-3X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-3N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-3R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-3T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-3T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-3X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-3T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-3X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-3T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-3X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,150)">
+    <g transform="translate(0,319)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-4N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-4N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-4T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-4T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-4T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-4X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-4T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-4X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-4T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-4X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-4N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-4R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-4T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-4T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-4X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-4T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-4X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-4T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-4X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,200)">
+    <g transform="translate(0,372)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-5N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-5N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-5T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-5T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-5T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-5X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-5T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-5X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-5T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-5X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-5N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-5R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-5T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-5T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-5X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-5T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-5X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-5T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-5X3</text>
     </g>
-    <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="445" />
-    <g transform="translate(0,255)">
+    <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="619" />
+    <g transform="translate(0,430)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-6N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-6N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-6T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-6T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-6T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-6X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-6T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-6X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-6T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-6X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-6N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-6R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-6T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-6T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-6X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-6T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-6X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-6T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-6X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,305)">
+    <g transform="translate(0,483)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-7N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-7N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-7T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-7T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-7T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-7X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-7T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-7X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-7T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-7X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-7N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-7R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-7T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-7T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-7X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-7T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-7X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-7T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-7X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,355)">
+    <g transform="translate(0,536)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-8N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-8N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-8T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-8T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-8T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-8X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-8T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-8X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-8T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-8X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">$Ta-8N</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-8N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-8R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-8T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-8T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-8X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-8T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-8X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-8T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-8X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,405)">
+    <g transform="translate(0,589)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-9N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-9N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-9T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-9T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-9T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-9X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-9T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-9X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-9T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-9X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-9N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-9R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-9T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-9T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-9X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-9T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-9X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-9T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-9X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,455)">
+    <g transform="translate(0,642)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-10N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-10N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-10T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-10T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-10T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-10X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-10T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-10X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-10T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-10X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-10N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-10R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-10T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-10T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-10X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-10T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-10X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-10T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-10X3</text>
     </g>
-    <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="700" />
-    <g transform="translate(0,510)">
+    <rect style="stroke:#9a3100;stroke-width:1px" width="695" height="1" x="30" y="887" />
+    <g transform="translate(0,700)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-11N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-11N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-11T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-11T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-11T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-11X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-11T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-11X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-11T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-11X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-11N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-11R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-11T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-11T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-11X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-11T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-11X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-11T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-11X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,560)">
+    <g transform="translate(0,753)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-12N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-12N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-12T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-12T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-12T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-12X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-12T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-12X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-12T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-12X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-12N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-12R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-12T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-12T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-12X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-12T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-12X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-12T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-12X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,610)">
+    <g transform="translate(0,806)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-13N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-13N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-13T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-13T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-13T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-13X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-13T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-13X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-13T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-13X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-13N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-13R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-13T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-13T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-13X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-13T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-13X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-13T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-13X3</text>
+      <rect style="stroke:#e5b39a;stroke-width:1px" width="695" height="1" x="30" y="244" />
     </g>
-    <g transform="translate(0,660)">
+    <g transform="translate(0,859)">
+      <rect height="20" x="75" y="220" width="120" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="220" y="220" width="505" style="fill:#ffdece;stroke-width:0" />
       <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-14N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-14N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-14T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-14T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-14T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-14X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-14T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-14X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-14T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-14X3</text>
+      <rect height="20" x="220" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="275" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="390" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="445" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+      <rect height="20" x="560" y="195" width="50" style="fill:#ffdece;stroke-width:0" />
+      <rect height="20" x="615" y="195" width="110" style="fill:#e5b39a;stroke-width:0" />
+       <text style="font-size:15px;text-anchor:middle" x="135" y="235">Rule</text>
+      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Ta-14N</text>
+      <text style="font-size:15px;text-anchor:middle" x="470" y="235">$Ta-14R</text>
+      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Ta-14T</text>
+      <text style="font-size:15px;text-anchor:middle" x="245" y="210">$Ta-14T1</text>
+      <text style="font-size:15px;text-anchor:middle" x="330" y="210">$Ta-14X1</text>
+      <text style="font-size:15px;text-anchor:middle" x="415" y="210">$Ta-14T2</text>
+      <text style="font-size:15px;text-anchor:middle" x="510" y="210">$Ta-14X2</text>
+      <text style="font-size:15px;text-anchor:middle" x="585" y="210">$Ta-14T3</text>
+      <text style="font-size:15px;text-anchor:middle" x="670" y="210">$Ta-14X3</text>
     </g>
-    <g transform="translate(0,710)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#9a3300;stroke-width:0" />
-      <rect height="20" x="155" y="195" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="155" y="220" width="40" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="220" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="275" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="390" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="445" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <rect height="20" x="560" y="220" width="50" style="fill:#ffdece;stroke-width:0" />
-      <rect height="20" x="615" y="220" width="110" style="fill:#e5b39a;stroke-width:0" />
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="210">$Sk-15N</text>
-      <text style="font-size:15px;font-weight:700;fill:#fff" x="035" y="235">$Ta-15N</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="210">$Sk-15T</text>
-      <text style="font-size:15px;text-anchor:middle" x="175" y="235">$Ta-15T</text>
-      <text style="font-size:15px;text-anchor:middle" x="245" y="235">$Sk-15T1</text>
-      <text style="font-size:15px;text-anchor:middle" x="330" y="235">$Sk-15X1</text>
-      <text style="font-size:15px;text-anchor:middle" x="415" y="235">$Sk-15T2</text>
-      <text style="font-size:15px;text-anchor:middle" x="510" y="235">$Sk-15X2</text>
-      <text style="font-size:15px;text-anchor:middle" x="585" y="235">$Sk-15T3</text>
-      <text style="font-size:15px;text-anchor:middle" x="670" y="235">$Sk-15X3</text>
-    </g>
-  </g>
+    <rect style="stroke:#9a3100;stroke-width:1px" width="1" height="763" x="215" y="340" />
+    <rect style="stroke:#9a3100;stroke-width:1px" width="1" height="763" x="200" y="340" />
   </g>
 </svg>
