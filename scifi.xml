@@ -16,8 +16,8 @@
         <h1 id="rules">Basic Rules</h1>
         <p>
           See <a href="main.xml">Main Rule</a> for a general
-          understanding.  This is a set of rules representing
-          the aspects typically encountered in a SciFi setting.
+          understanding.  This is a set of rules representing the
+          aspects typically encountered in a SciFi setting.
         </p>
         <ul>
           <li>FTL and space travel in general is possible.</li>
@@ -35,8 +35,8 @@
           how they can potentially be combined.
         </p>
         <p>
-          Then <em>n5</em> is rolled, adding the skill value (SV).  The task
-          difficulty value is subtracted, and if the net
+          Then <em>n5</em> is rolled, adding the skill value (SV).
+          The task difficulty value is subtracted, and if the net
           result is non-negative, the skill has been successfully
           employed; if the roll is negative, the attempt has failed.
           The dimensions may be more complex than Success/Failure.
@@ -68,8 +68,8 @@
         </p>
         <p>
           For a task multiple skills may be applicable.  Usually they
-          can be 5-added but the task difficulty may also be different for
-          their application.
+          can be 5-added but the task difficulty may also be different
+          for their application.
         </p>
         <h3 id="five-add">5-Addition</h3>
         <p>
@@ -104,20 +104,21 @@
         </table>
         <h3 id="dim">Dimensions</h3>
         <p>
-          Some dimensions often used are listed on a
-          <a href="scifi-dimensions.html">separate page</a>.
-          The formulas, if needed, can be extracted from
-          the enclosed javascript.
+          Some dimensions often used are listed on a <a
+          href="scifi-dimensions.html">separate page</a>.  The
+          formulas, if needed, can be extracted from the enclosed
+          javascript.
         </p>
         <p>
           Finding the appropriate dimension depends on the concrete
           circumstances.  Consider what would be appropriate for an
-          untrained individual (SV 0) and what is expected (the average result)
-          for a sufficiently educated person (SV 20).  Interpret the
-          results inbetween and outside of the bounds accordingly.
-          50 should be an intrisic limit for a human, even when a talented
-          individual has dedicating most of his life to a skill.  Technical
-          aids or cyberimplants may give another picture.
+          untrained individual (SV 0) and what is expected (the
+          average result) for a sufficiently educated person (SV 20).
+          Interpret the results inbetween and outside of the bounds
+          accordingly.  50 should be an intrisic limit for a human,
+          even when a talented individual has dedicating most of his
+          life to a skill.  Technical aids or cyberimplants may give
+          another picture.
         </p>
         <h5 class="skill" id="di-kno">Knowledge</h5>
         <p>
@@ -180,9 +181,9 @@
           resolution.
         </p>
         <p>
-          It is possible to quickly resolve a 1:1 combat by an opposing 
-          roll as explained in the basic rules.  All of the below rules
-          are optional in that sense.
+          It is possible to quickly resolve a 1:1 combat by an
+          opposing roll as explained in the basic rules.  All of the
+          below rules are optional in that sense.
         </p>
         <table class="links" style="width:90%">
           <tr>
@@ -217,19 +218,19 @@
         <h5 id="co-dim">Dimensions</h5>
         <p>
           One dimension is the <em>Time/Speed</em>, which it takes to
-          achieve the wound level zero on the defender.
-          The <em>wound level</em> is a separate dimension, where 5 points on
-          the value range equate to 1 on the wound dimension.  Wounds only
+          achieve the wound level zero on the defender.  The <em>wound
+          level</em> is a separate dimension, where 5 points on the
+          value range equate to 1 on the wound dimension.  Wounds only
           apply if positive.  Wounds are penalties for the receipient
           on all of his tasks.  The attacker can use trajectories.
         </p>
         <h5 id="co-turn">Turns or Duration</h5>
         <p>
-          Once a (rolled) time has elapsed a new skill roll
-          is made.  It is therefore possible to play 4-second
-          round-based combat.  The weapon table show the base time it
-          takes to attack once.  This is multiplied by the number from
-          the time dimension.
+          Once a (rolled) time has elapsed a new skill roll is made.
+          It is therefore possible to play 4-second round-based
+          combat.  The weapon table show the base time it takes to
+          attack once.  This is multiplied by the number from the time
+          dimension.
         </p>
         <p>
           The fractional parts for the higher values in the time
@@ -239,15 +240,16 @@
         <h5 id="co-ini">Initiative</h5>
         <p>
           Initiative reflects battle experience, discipline, and
-          morale and determines the speed in which characters
-          can assess a stressful situation.  Characters take the time
+          morale and determines the speed in which characters can
+          assess a stressful situation.  Characters take the time
           listed before they can act.  An ambush gives a penalty.
           During the time a character is &#8220;frozen&#8221; this
           way, he is trying to understand the situation he is in and
-          assesses the options he has.  He can defend with an Initiative + 10
-          during that time.  General awareness issues are not covered by
-          Initiative.  Battle-hardened characters may come into the
-          fractional range.  Fractions determine who goes first.
+          assesses the options he has.  He can defend with an
+          Initiative + 10 during that time.  General awareness issues
+          are not covered by Initiative.  Battle-hardened characters
+          may come into the fractional range.  Fractions determine who
+          goes first.
         </p>
         <p>
           The situation in combat changes constantly.  One action is
@@ -292,7 +294,8 @@
           hitting the other 50% of the target zone.  This can be
           applied repeatedly to either understand how wildly off a
           shot was or when firing at a wall of enemies.  Aiming is
-          restricted to reasonably connected areas (&#8220;star-shaped&#8221;)
+          restricted to reasonably connected areas
+          (&#8220;star-shaped&#8221;)
         </p>
         <p>
           For the purpose of attitude to an attacker, normal humans
@@ -300,11 +303,11 @@
         </p>
         <h5 id="co-area">Volume Effects</h5>
         <p>
-          Area or volume affecting hits apply to all <em>first level</em>
-          targets in the zone covered.  For example, firing into a
-          group of soldiers, all soldiers are affected, not all heads,
-          arms, etc., individually.  A single area strike aimed at one
-          person will still be quite devastating.  Evasion and
+          Area or volume affecting hits apply to all <em>first
+          level</em> targets in the zone covered.  For example, firing
+          into a group of soldiers, all soldiers are affected, not all
+          heads, arms, etc., individually.  A single area strike aimed
+          at one person will still be quite devastating.  Evasion and
           damage is rolled only once, but calculated individually.
         </p>
         <h5 id="co-block">Evade</h5>
@@ -333,7 +336,7 @@
         <p>
           If a firing weapon is within reach of a parry or block, it
           can be evaded as a melee weapon not as a missile.  Consider
-          wildly discharged shots. 
+          wildly discharged shots.
         </p>
         <h5 id="co-blood">Bloodloss</h5>
         <p>
@@ -416,32 +419,34 @@
         </p>
         <h5 id="co-rise">Rise/Fumble/Stumble</h5>
         <p>
-          Stumbles or a fumbles occur, when an injury to legs
-          or arms, respectively, deals injury beyond 10 points.
-          Use the <em>Speed</em> dimension to escape the condition.
-          Any attack is cancelled.  Unarmed attacks are not 
-          affected by fumbles.
+          Stumbles or a fumbles occur, when an injury to legs or arms,
+          respectively, deals injury beyond 10 points.  Use the
+          <em>Speed</em> dimension to escape the condition.  Any
+          attack is cancelled.  Unarmed attacks are not affected by
+          fumbles.
         </p>
         <h5 id="co-sleep">Deprivation</h5>
         <p>
           <em>Sleep</em>: Every 24 hours without sleep cause 5 wounds,
-          which cummulate into a single wound type.  Observe Incapacitating
-          and Destroyed.  These heal at 1 per hour of sleep.
+          which cummulate into a single wound type.  Observe
+          Incapacitating and Destroyed.  These heal at 1 per hour of
+          sleep.
         </p>
         <p>
           <em>Air</em> Every minute without air cause 5 wounds, which
-          cummulate into a single wound type.  Observe Incapacitating and
-          Destroyed.  These heal at 1 per second of fresh air.
+          cummulate into a single wound type.  Observe Incapacitating
+          and Destroyed.  These heal at 1 per second of fresh air.
         </p>
         <h5 id="co-loc">Hit Location</h5>
         <p>
           Body distribution is ruled as 10% Head, 20% Arms 30% Legs,
-          and 40% Torso. Legs are considered &#8220;star-shaped&#8221; for
-          the purpose of aiming. For descriptive purposes, wounds are called
-          <em>Minor</em>, <em>Serious</em>, <em>Grievous</em>,
-          <em>Incapacitating</em>, and <em>Destroyed</em> in steps of
-          5 wound points.  Also see <em>Bloodloss</em> and
-          <em>Rise/Fumble/Stumble</em>.  Bloodloss affects the whole system.
+          and 40% Torso. Legs are considered &#8220;star-shaped&#8221;
+          for the purpose of aiming. For descriptive purposes, wounds
+          are called <em>Minor</em>, <em>Serious</em>,
+          <em>Grievous</em>, <em>Incapacitating</em>, and
+          <em>Destroyed</em> in steps of 5 wound points.  Also see
+          <em>Bloodloss</em> and <em>Rise/Fumble/Stumble</em>.
+          Bloodloss affects the whole system.
         </p>
         <p>
           <em>Incapacitating:</em> The system affected cannot be used
@@ -455,17 +460,18 @@
         <h5 id="co-heal">Healing</h5>
         <p>
           Wounds are the (individual) task levels.  These tasks are
-          also affected b the overall wounds.  Add half the skill value of a medic
-          present when determining the healing rate.  Healing rate can
-          be improved during the healing process.
+          also affected b the overall wounds.  Add half the skill
+          value of a medic present when determining the healing rate.
+          Healing rate can be improved during the healing process.
         </p>
         <p>
-          Every location should be considered a separate wound, including
-          system, with separate healing rates.  Also different wound types
-          with individual healing rates exist.
+          Every location should be considered a separate wound,
+          including system, with separate healing rates.  Also
+          different wound types with individual healing rates exist.
         </p>
         <p>
-          <em>Grappling</em>.  Heal immediately, when grappling is not maintained.
+          <em>Grappling</em>.  Heal immediately, when grappling is not
+          maintained.
         </p>
         <p>
           <em>Suffocation</em>.  See <em>Deprivation</em>.
@@ -474,15 +480,16 @@
           <em>Sleep Deprevation</em>.  See <em>Deprivation</em>.
         </p>
         <p>
-          <em>Hunger/Thirst</em>.  Affects the system location with 5 wound point
-          for every day/week without water/food.
+          <em>Hunger/Thirst</em>.  Affects the system location with 5
+          wound point for every day/week without water/food.
         </p>
         <h5 id="co-shock">Shock</h5>
         <p>
           Any new wound of at least 1 point results in a Shock chance.
-          Use accumulated wounds as difficulty for a roll with &#8220;skill&#8221;
-          against 20 or Stamina.  Failure (positive) is measured in the Yield
-          dimension as minutes.  Multiple shock rolls per 4s can be 5-added.
+          Use accumulated wounds as difficulty for a roll with
+          &#8220;skill&#8221; against 20 or Stamina.  Failure
+          (positive) is measured in the Yield dimension as minutes.
+          Multiple shock rolls per 4s can be 5-added.
         </p>
         <h3 id="spco">Space Combat</h3>
         <p>
@@ -521,8 +528,8 @@
       <div class="container">
         <h1 id="tables">Tables</h1>
         <p>
-          The following table contains examples for the formulas
-          given and signal the readily available variants.
+          The following table contains examples for the formulas given
+          and signal the readily available variants.
         </p>
         <div class="explain">
           <p>
@@ -821,9 +828,10 @@
         <p>
           The percentage pertains to a 100% human not the aiming zone.
           This implies that a bullet will damage half of a helmet
-          whether firing at the head of an opponent or aimlessly firing
-          into a crowd of people with helmets. Excess percentage are 
-          ignored, for example a long weapon against an helmet.
+          whether firing at the head of an opponent or aimlessly
+          firing into a crowd of people with helmets. Excess
+          percentage are ignored, for example a long weapon against an
+          helmet.
         </p>
         <p>
           For simplicity, protective materials may not be layered.

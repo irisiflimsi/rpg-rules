@@ -35,15 +35,16 @@
         </ul>
         <p>
           Common rule systems create probabilities that are hard to
-          estimmate.  In fact, only after playing a game for an extended
-          period of time do patterns emerge. If the probabilities do
-          not match expectations, they impact enjoyment.
+          estimmate.  In fact, only after playing a game for an
+          extended period of time do patterns emerge. If the
+          probabilities do not match expectations, they impact
+          enjoyment.
         </p>
         <p>
           The rules here are written with these points in mind, which
           means: always comprehensible.  This does not mean
-          &#8220;generically simple,&#8221; but rather that probabilities 
-          should not be surprising.
+          &#8220;generically simple,&#8221; but rather that
+          probabilities should not be surprising.
         </p>
         <p>
           The next section contains a few reasonable assumptions about
@@ -58,16 +59,16 @@
           Most rules are intended to resolve a skill application,
           whether it is fighting, hiding, finding, lifting, or
           something else.  A character can have different skill
-          levels, but tasks can also have different difficulty
-          levels.  We make the following assumptions.
+          levels, but tasks can also have different difficulty levels.
+          We make the following assumptions.
         </p>
         <ul>
           <li>
             A skill proficiency and a task difficulty can be expressed
             as numbers.  We define <em>p</em> as half of the
             probability for a skill of <em>0</em> to succeed at a task
-            of level <em>1</em>.  This &#8220;half&#8221; is for technical
-            reasons.
+            of level <em>1</em>.  This &#8220;half&#8221; is for
+            technical reasons.
           </li>
           <li>
             A skill level of <em>k</em> succeeds at a task of
@@ -90,8 +91,8 @@
           we will restrict ourselves to <em>p=0.8</em>.  Note that the
           range of skill and task levels includes negative numbers.
           We treat a task level as a negative skill level; i.e., a
-          <em>(-k)</em>-skill applied on a <em>0</em>-task is the same as
-          using a <em>0</em>-skill on a <em>k</em>-task.
+          <em>(-k)</em>-skill applied on a <em>0</em>-task is the same
+          as using a <em>0</em>-skill on a <em>k</em>-task.
         </p>
         <p>
           This is, in fact, all we need.  The following are
@@ -104,26 +105,26 @@
         <h1 id="Basic">One Rule to Rule Them</h1>
         <p class="rule">
           You roll a d5 until you roll a 1 and then count the number
-          of dice.  This first number is used for the <em>skill</em> roll
-          (of a character).  We also call this the <em>positive (stop) roll</em>
-          or <em>p5</em> for short.  The <em>negative (stop) roll</em> is
-          associated with the <em>task</em> roll (the resistance of the
-          environment or impediment), which is rolled/handled in the
-          same way.  The result of the negative stop roll (which is
-          still a non-negative number) is subtracted from the result of
-          the positive.  This result is called the <b>n5</b> &#8220;die&#8221; or
-          roll.
+          of dice.  This first number is used for the <em>skill</em>
+          roll (of a character).  We also call this the <em>positive
+          (stop) roll</em> or <em>p5</em> for short.  The <em>negative
+          (stop) roll</em> is associated with the <em>task</em> roll
+          (the resistance of the environment or impediment), which is
+          rolled/handled in the same way.  The result of the negative
+          stop roll (which is still a non-negative number) is
+          subtracted from the result of the positive.  This result is
+          called the <b>n5</b> &#8220;die&#8221; or roll.
         </p>
         <p>
-          Note that the negative roll does not have its own name, it can be
-          denoted as <em>-p5</em>. Thus, <em>n5 = p5 - p5</em>.
+          Note that the negative roll does not have its own name, it
+          can be denoted as <em>-p5</em>. Thus, <em>n5 = p5 - p5</em>.
         </p>
         <p>
-          The following two tables are explanatory only,
-          the mechanics were described completely in the
-          highlighted section.  Everything following can be used to reduce
-          the number of dice rolled or to better understand the
-          implications of the (stop) roll mechanics.
+          The following two tables are explanatory only, the mechanics
+          were described completely in the highlighted section.
+          Everything following can be used to reduce the number of
+          dice rolled or to better understand the implications of the
+          (stop) roll mechanics.
         </p>
         <p>
           In Table 1 the first row shows the results you can achieve
@@ -136,9 +137,9 @@
           the same.  The third row gives the chance of obtaining the
           result in the corresponding first row in each column.  These
           are expressed as rolls on a d100 or percentages.  (This row
-          can be used to reduce the number of rolls but still retain the 
-          benefits of the rule.)  All but the first column of this row are
-          approximations.
+          can be used to reduce the number of rolls but still retain
+          the benefits of the rule.)  All but the first column of this
+          row are approximations.
         </p>
         <p>
           The last column is somewhat special.  It combines all
@@ -267,23 +268,24 @@
           character stealthily evading another, the first may
           interpret the rolls as his skill at evading observation,
           while the second may interpret the rolls as his skill in
-          successfully observing the vicinity.  Either way, one <em>n5</em> roll
-          will determine the outcome.
+          successfully observing the vicinity.  Either way, one
+          <em>n5</em> roll will determine the outcome.
         </p>
         <h3 id="Hints">Hints</h3>
         <p class="rule">
-          The <em>skill</em> and <em>task level</em> are often related.
-          A task can have different levels for different skills.
+          The <em>skill</em> and <em>task level</em> are often
+          related.  A task can have different levels for different
+          skills.
         </p>
         <p>
-          The skill is usually applied to certain activities only
-          and the task level is a measure of the resistance against these
-          activities.  In the previous example, the
-          observer might have a skill level 5 for &#8220;Searching&#8221;
-          (meaning actively screening an area in this context) and
-          finding the clandestine character is a task level of 3.
-          Another observer may have a skill level 8 in &#8220;Spotting&#8221;
-          (meaning passivly scanning an area in this context) and 
+          The skill is usually applied to certain activities only and
+          the task level is a measure of the resistance against these
+          activities.  In the previous example, the observer might
+          have a skill level 5 for &#8220;Searching&#8221; (meaning
+          actively screening an area in this context) and finding the
+          clandestine character is a task level of 3.  Another
+          observer may have a skill level 8 in &#8220;Spotting&#8221;
+          (meaning passivly scanning an area in this context) and
           finding the clandestine character is a task level of 7.
         </p>
         <p>
@@ -361,18 +363,18 @@
       <div class="container">
         <h1 id="Roaming">Roaming the Resolution Space</h1>
         <p>
-          The following suggestions address common situations.  How do you
-          combine a group of actors that support each other?  How do
-          you apply two different skills to a task that involves both?
-          Remember that a difference of 10 means a 90% winning
-          difference by design.  Also look at how the dimensions (see below)
-          are affected.
+          The following suggestions address common situations.  How do
+          you combine a group of actors that support each other?  How
+          do you apply two different skills to a task that involves
+          both?  Remember that a difference of 10 means a 90% winning
+          difference by design.  Also look at how the dimensions (see
+          below) are affected.
         </p>
         <p>
-          All of the following rules can be applied as often or as little
-          as desired.  Since the whole ruleset is designed around resolving
-          a situation with one roll, they allow precalculation of common
-          situations.
+          All of the following rules can be applied as often or as
+          little as desired.  Since the whole ruleset is designed
+          around resolving a situation with one roll, they allow
+          precalculation of common situations.
         </p>
         <center>
           <svg width="800" height="350" xmlns="http://www.w3.org/2000/svg">
@@ -393,24 +395,29 @@
         </center>
         <ul class="rule">
           <li>
-            The <em>Maximum</em> rule replaces the higher of two (or more) rolls mechanism.
-            This is the case where multiple people of a group search for something or
-            a character has multiple skills, which are equally applicable to a task.
+            The <em>Maximum</em> rule replaces the higher of two (or
+            more) rolls mechanism.  This is the case where multiple
+            people of a group search for something or a character has
+            multiple skills, which are equally applicable to a task.
           </li>
           <li>
-            The <em>Minimum</em> rule is used for the lower of two (or more) rolls mechanism.
-            This is for instance applicable when multiple people try to avoid being detected, 
-            or a task is decomposed into two subtasks, both of which have to be resolved
-            successfully.  It is symmetric to the <em>Maximum</em> rule.
+            The <em>Minimum</em> rule is used for the lower of two (or
+            more) rolls mechanism.  This is for instance applicable
+            when multiple people try to avoid being detected, or a
+            task is decomposed into two subtasks, both of which have
+            to be resolved successfully.  It is symmetric to the
+            <em>Maximum</em> rule.
           </li>
           <li>
-            The <em>Mean</em> rule is used to reduce the spread of results.  Use it to 
-            summarize repeated applications of a skill to more or less identical subtasks.
-            It can be reversed to extract critical subtasks with a higher range of likely 
-            results. 
+            The <em>Mean</em> rule is used to reduce the spread of
+            results.  Use it to summarize repeated applications of a
+            skill to more or less identical subtasks.  It can be
+            reversed to extract critical subtasks with a higher range
+            of likely results.
           </li>
           <li>
-            The <em>Decomposition</em> rule is used, when Specializations or Talents are needed.
+            The <em>Decomposition</em> rule is used, when
+            Specializations or Talents are needed.
           </li>
         </ul>
         <p>
@@ -811,8 +818,8 @@
         </p>
         <p>
           Many rulesets rank a skill on a percentile scale, 0% through
-          100%.  This is the case for Rolemaster, RuneQuest, or
-          Harnmaster.  Rolling below your skill value means you
+          100%.  This is the case for *Rolemaster*, *RuneQuest*, or
+          *Harnmaster*.  Rolling below your skill value means you
           succeed (or formulated equivalently).  The skill levels (in
           our rules) are 0, 10, 20, and 30, and they can be mapped to
           the classical skill values of 5%, 35%, 65%, and 95%.  That
@@ -824,10 +831,10 @@
           skill level = 4/10 x classic value
         </p>
         <p>
-          Something similar is true for Dungeons &#38; Dragons,
-          Pathfinder, or generally the d20 family of rules, which use
-          twenty 5% steps instead of the finer-grained 1% steps.  Our
-          levels 0, 10, ..., 40 correspond to the classic skill
+          Something similar is true for *Dungeons &#38; Dragons*,
+          *Pathfinder*, or generally the d20 family of rules, which
+          use twenty 5% steps instead of the finer-grained 1% steps.
+          Our levels 0, 10, ..., 40 correspond to the classic skill
           bonuses of +0, +9, +18, +27, and +36.  These steps are
           approximations, since none of these rolls are
           translation-invariant.  To keep things simple, use:
@@ -852,6 +859,9 @@
         </h3>
         <h3 id="char">
           <a href="char.svg">Generic Char Sheet</a>
+        </h3>
+        <h3 id="char2">
+          <a href="char2.svg">Second Generic Char Sheet</a>
         </h3>
       </div>
     </div>
