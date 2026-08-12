@@ -156,7 +156,7 @@
         <h5 class="skill" id="di-mov">Move</h5>
         <p>
           Consider load and acceleration for unusually fast movers (or
-          abusers).
+          abusers). Every 1kg carried reduces Move by 1.
         </p>
         <p>
           Climbing is at -20 and Swimming at -10.  Movement is a
@@ -187,32 +187,30 @@
         </p>
         <table class="links" style="width:90%">
           <tr>
-            <td><a href="#co-melee">Accidental Hits</a></td>
             <td><a href="#co-aim">Aiming</a></td>
             <td><a href="#co-blood">Bloodloss</a></td>
+            <td><a href="#co-melee">Collateral</a></td>
             <td><a href="#co-sleep">Deprivation</a></td>
             <td><a href="#co-dim">Dimensions</a></td>
-          </tr>
-          <tr>
             <td><a href="#co-engage">Engagement</a></td>
             <td><a href="#co-block">Evade</a></td>
+          </tr>
+          <tr>
             <td><a href="#co-grap">Grapple/Tangle</a></td>
             <td><a href="#co-group">Groups</a></td>
             <td><a href="#co-heal">Healing</a></td>
-          </tr>
-          <tr>
             <td><a href="#co-loc">Hit Location</a></td>
             <td><a href="#co-ini">Initiative</a></td>
-            <td><a href="#co-loss">Loss of Protection</a></td>
+            <td><a href="#co-loss">Protection Loss</a></td>
             <td><a href="#co-missile">Missiles</a></td>
-            <td><a href="#co-move">Move</a></td>
-            <td><a href="#co-prep">Preparation</a></td>
           </tr>
           <tr>
+            <td><a href="#co-move">Move</a></td>
+            <td><a href="#co-prep">Preparation</a></td>
             <td><a href="#co-push">Push</a></td>
-            <td><a href="#co-rise">Rise/Fumble/Stumble</a></td>
             <td><a href="#co-shock">Shock</a></td>
-            <td><a href="#co-turn">Turns or Duration</a></td>
+            <td><a href="#co-rise">Side Effectse</a></td>
+            <td><a href="#co-turn">Turns/Duration</a></td>
             <td><a href="#co-area">Volume Effects</a></td>
           </tr>
         </table>
@@ -226,7 +224,7 @@
           are penalties for the receipient on all of his tasks.  The
           attacker can use trajectories.
         </p>
-        <h5 id="co-turn">Turns or Duration</h5>
+        <h5 id="co-turn">Turns/Duration</h5>
         <p>
           Once a (rolled) time has elapsed a new skill roll is made.
           It is therefore possible to play 4-second round-based
@@ -271,7 +269,7 @@
           Grappling wounds are treated as penalty to any physical
           activity instead of normal wounds.  Such wounds are
           immediately reduced to zero, once the grapple is no longer
-          maintained.
+          maintained.  Not all unarmed attacks are grapples. 
         </p>
         <h5 id="co-group">Groups</h5>
         <p>
@@ -302,6 +300,8 @@
         <p>
           For the purpose of attitude to an attacker, normal humans
           are considered a &#8220;block&#8221; of 100% by 50% by 25%.
+          An abstract human has a surface of 2 x (2 + 1 + 0.5) = 7.5
+          m<sup>2</sup>.
         </p>
         <h5 id="co-area">Volume Effects</h5>
         <p>
@@ -362,7 +362,7 @@
           leaving may be active or passive.  It is possible to be
           engaged with an arbitrary number of enemies at a time.
         </p>
-        <h5 id="co-melee">Accidental Hits</h5>
+        <h5 id="co-melee">Collateral</h5>
         <p>
           Hitting the wrong target can happen in melee combat.
           Anybody within an engagement zone is subject to an
@@ -385,7 +385,7 @@
           allows the individual hit to use Evade - but against the
           &#8220;spread&#8221; roll.  It also follows that for a
           single target, at double the listed weapon range, the
-          attacker receives a -5.
+          attacker receives a -10.
         </p>
         <h5 id="co-move">Move</h5>
         <p>
@@ -419,28 +419,39 @@
           instance to avoid falling of a cliff.  Any remaining
           distance is forfeit.
         </p>
-        <h5 id="co-rise">Rise/Fumble/Stumble</h5>
+        <h5 id="co-rise">Side Effects</h5>
         <p>
-          Stumbles or a fumbles occur, when an injury to legs or arms,
+          Stumbles or a Fumbles occur, when an injury to legs or arms,
           respectively, deals injury beyond 10 points.  Use the
           <em>Speed</em> dimension to escape the condition.  Any
           attack is cancelled.  Unarmed attacks are not affected by
           fumbles.
         </p>
         <h5 id="co-sleep">Deprivation</h5>
+	<p>
+	  Physical Activity decreases the deprivation intervals. All
+	  deprivations do not have a location and are healed summarily
+	  for each type.
+	</p>
         <p>
-          <em>Sleep</em>: Every 24 hours without sleep cause 5 wounds,
-          which cummulate into a single wound type.  Observe
-          Incapacitating and Destroyed.  These heal at 1 per hour of
-          sleep.
+          <em>Sleep Deprivation</em>: Every 24 hours without sleep
+          cause 5 wounds, which cummulate into a single wound type.
+          Observe Incapacitating and Destroyed.  These heal at 1 per
+          hour of sleep.
         </p>
         <p>
-          <em>Air</em> Every minute without air cause 5 wounds, which
-          cummulate into a single wound type.  Observe Incapacitating
-          and Destroyed.  These heal at 1 per second of fresh air.
+          <em>Air/Suffocation</em> Every minute without air cause 5
+          wounds, which cummulate into a single wound type.
+	  Observe Incapacitating and Destroyed.
+          These heal at 1 per second of fresh air.
         </p>
-        <h5 id="co-loc">Hit Location</h5>
-        <p>
+	<p>
+	  <em>Hunger/Thirst</em> Affects the system location with 5
+	  wound point for every day/week without water/food.  These
+	  heal with 1 pont per hour/day with proper sustenance.
+        </p>
+	<h5 id="co-loc">Hit Location</h5>
+	<p>
           Body distribution is ruled as 10% Head, 20% Arms 30% Legs,
           and 40% Torso. Legs are considered &#8220;star-shaped&#8221;
           for the purpose of aiming. For descriptive purposes, wounds
@@ -463,7 +474,7 @@
           and cannot be healed.  For living beings this means instant
           death.
         </p>
-        <h5 id="co-loss">Loss of Protection</h5>
+        <h5 id="co-loss">Protection Loss</h5>
         <p>
           Loss of protection only affects the area covered.  The size
           depends on various characteristics of the cover and the
@@ -502,18 +513,9 @@
           different wound types with individual healing rates exist.
         </p>
         <p>
-          <em>Grappling</em>.  Heal immediately, when grappling is not
-          maintained.
-        </p>
-        <p>
-          <em>Suffocation</em>.  See <em>Deprivation</em>.
-        </p>
-        <p>
-          <em>Sleep Deprevation</em>.  See <em>Deprivation</em>.
-        </p>
-        <p>
-          <em>Hunger/Thirst</em>.  Affects the system location with 5
-          wound point for every day/week without water/food.
+	  See the appropriate sections on <em>Grapple/Tangle</em>,
+	  <em>Air/Suffocation</em>, <em>Sleep Deprivation</em>, and
+          <em>Hunger/Thirst</em>.
         </p>
         <h5 id="co-shock">Shock</h5>
         <p>
@@ -865,14 +867,10 @@
             <td>0</td>
           </tr>
         </table>
-        <h4 id="pprotection">Personal Protection</h4>
         <p>
           See the three instructive examples how personal protection
           works.  Body distribution is ruled as 10% Head, 20% Arms 30%
-          Legs, and 40% Torso.  Legs are considered connected for the
-          purpose of aiming.  Every 1kg reduces Move by 1.  An
-          abstract human has a surface of 4.5m<sup>2</sup>.  (Applies
-          if the <em>Hit Location</em> rule is used.)
+          Legs, and 40% Torso.
         </p>
         <div class="explain">
           <p>
@@ -897,29 +895,33 @@
             similar reduction should be given to <em>Agility</em>
             feats.
           </p>
+          <p>
+            <b>Scope</b>: This item can be applied (interchangeably)
+            to any gun and gives a +1 bonus for firing at distances
+            for each 20% of range the target is at.  This effectively
+            halfs the range penalty to shooting.
+          </p>
+          <p>
+            <b>Aimlock</b>: Waiting 1s for automation to acquire a
+            lock grants a +5 bonus when shooting at targets where the
+            missile travels for at least 1s.  This can be repeated for
+            up to 4s.  This is especially useful for moving targets
+            but requires a the aimlock in the missile.
+          </p>
+          <p>
+            <b>Teargas Grenade</b>: As a grenade (generally 50 BEP)
+            but deals <em>Air/Suffocation</em> damage.  The volume
+            usually continues to be affected, remains stationary, and
+            dissipates at 1BEP/s.
+          </p>
+          <p>
+            <b>Flashbang Grenade</b>: As a grenade (generally 50 BEP)
+            but deals <em>Air/Suffocation</em> damage.  The volume is
+            only affected for 1s.  Effects on technical eyes vary.
+          </p>
         </div>
         <h3 id="equipment">Other Equipment</h3>
         <table>
-          <tr>
-            <th>Name</th>
-            <th>Usage</th>
-          </tr>
-          <tr>
-            <td>Scope</td>
-            <td>+5 Aiming</td>
-          </tr>
-          <tr>
-            <td>Aimlock</td>
-            <td>Targetlock at 20/4s</td>
-          </tr>
-          <tr>
-            <td>Teargas</td>
-            <td>As Grenade but Fatigue only</td>
-          </tr>
-          <tr>
-            <td>Flashbang</td>
-            <td>Blind/-20 &#38; +1/s</td>
-          </tr>
           <tr>
             <td>Silencer</td>
             <td>-1/10g with values -10,-20,-30,-40</td>
