@@ -203,6 +203,7 @@
           <tr>
             <td><a href="#co-loc">Hit Location</a></td>
             <td><a href="#co-ini">Initiative</a></td>
+            <td><a href="#co-loss">Loss of Protection</a></td>
             <td><a href="#co-missile">Missiles</a></td>
             <td><a href="#co-move">Move</a></td>
             <td><a href="#co-prep">Preparation</a></td>
@@ -219,10 +220,11 @@
         <p>
           One dimension is the <em>Time/Speed</em>, which it takes to
           achieve the wound level zero on the defender.  The <em>wound
-          level</em> is a separate dimension, where 5 points on the
-          value range equate to 1 on the wound dimension.  Wounds only
-          apply if positive.  Wounds are penalties for the receipient
-          on all of his tasks.  The attacker can use trajectories.
+          level</em>, or equivalently <em>BEP</em> is a separate
+          dimension, where 5 points on the value range equate to 1 on
+          the wound dimension.  Wounds only apply if positive.  Wounds
+          are penalties for the receipient on all of his tasks.  The
+          attacker can use trajectories.
         </p>
         <h5 id="co-turn">Turns or Duration</h5>
         <p>
@@ -449,6 +451,10 @@
           Bloodloss affects the whole system.
         </p>
         <p>
+	  Depending on application treat 5% = 1/16 = 6.25%, 10% = 1/8
+	  = 12.5%, 20% = 1/4 = 25%, 30% = 3/8 = 32.5%, and 50% = 1/2.
+        </p>
+        <p>
           <em>Incapacitating:</em> The system affected cannot be used
           but still be healed.
         </p>
@@ -456,6 +462,32 @@
           <em>Destroyed:</em> The system affected lost its integrity
           and cannot be healed.  For living beings this means instant
           death.
+        </p>
+        <h5 id="co-loss">Loss of Protection</h5>
+        <p>
+          Loss of protection only affects the area covered.  The size
+          depends on various characteristics of the cover and the
+          kinetic type.  Using a normal missile, assume 5% or 6.25% of
+          normal human armor is affected, 10% or 12.5% for a normal
+          short weapon and 25% for a normal long weapon and 1/3 for an
+          explosive as default exposed sides.
+        </p>
+        <p>
+          The percentage pertains to a 100% human not the aiming zone.
+          This implies that a bullet will damage half of a helmet
+          whether firing at the head of an opponent or aimlessly
+          firing into a crowd of people with helmets. Excess
+          percentage are ignored, for example a long weapon against an
+          helmet.
+        </p>
+        <p>
+          When trying to destroy material directly, use the same
+          principle.  For example, assume a shot at a wall of plasteel
+          with 10cm thickness with an energy beam spread of
+          1m<sup>2</sup>, causing 100 BEP.  That volume has 300 BEP,
+          the first burst will not penetrate, but causes 25 BEP to
+          melt away.  The next burst will only be resisted with 275
+          BEP.  See the Tables chapter.
         </p>
         <h5 id="co-heal">Healing</h5>
         <p>
@@ -599,7 +631,7 @@
         <h3 id="weapons">Weapons</h3>
         <table>
           <tr>
-            <th>Weapon and Skill</th>
+            <th style="width:20%">Weapon and Skill</th>
             <th>Weight</th>
             <th>Hand</th>
             <th>BEP</th>
@@ -742,7 +774,7 @@
             <td>Light</td>
           </tr>
           <tr>
-            <td>Energy Blaster Mk III*</td>
+            <td>Energy Blaster Mk III</td>
             <td>10kg</td>
             <td>2</td>
             <td>40</td>
@@ -754,14 +786,15 @@
           </tr>
         </table>
         <p>
-          The spreads of the Mk I are 1m x 1m only, Mk II
-          has 2x2, 4x1, 1x4, and Mk III has 1x12, 2x6, 3x4, 4x3, 6x2,
-          12x1.
+          The possible spread of the Mk I is 1m x 1m only, Mk II has
+          2x2, 4x1, 1x4, and Mk III has 1x12, 2x6, 3x4, 4x3, 6x2, 12x1
+          spreads.
         </p>
         <h3 id="protection">Protection</h3>
         <p>
           The following table contains examples for the for formulas
-          given here and signal some readily available variants.
+          given here and signal some readily available variants.  For
+          simplicity, protective materials may not be layered.
         </p>
         <div class="explain">
           <p>
@@ -772,34 +805,6 @@
             and weight, divided by damage reduction and weight.
           </p>
         </div>
-        <p>
-          Loss of protection only affects the area covered.  The size
-          depends on various characteristics of the cover and the
-          kinetic type.  Using a normal missile, assume 5% or 6.25% of
-          normal human armor is affected, 10% or 12.5% for a normal
-          short weapon and 25% for a normal long weapon and 50% for an
-          explosive, i.e. the exposed side.
-        </p>
-        <p>
-          The percentage pertains to a 100% human not the aiming zone.
-          This implies that a bullet will damage half of a helmet
-          whether firing at the head of an opponent or aimlessly
-          firing into a crowd of people with helmets. Excess
-          percentage are ignored, for example a long weapon against an
-          helmet.
-        </p>
-        <p>
-          For simplicity, protective materials may not be layered.
-        </p>
-        <p>
-          When trying to destroy material directly, use the same
-          principle.  For example, assume a shot at a wall of plasteel
-          with 10cm thickness with an energy beam spread of
-          1m<sup>2</sup>, causing 100 BEP.  That volume has 300 BEP,
-          the first burst will not penetrate, but causes 25 BEP to
-          melt away.  The next burst will only be resisted with 275
-          BEP.
-        </p>
         <p>
           The weight of a shield only applies at the time of impact.
           Otherwise it is neglible (1kg/m<sup>3</sup>).
@@ -866,7 +871,8 @@
           works.  Body distribution is ruled as 10% Head, 20% Arms 30%
           Legs, and 40% Torso.  Legs are considered connected for the
           purpose of aiming.  Every 1kg reduces Move by 1.  An
-          abstract human has a surface of 4.5m<sup>2</sup>.
+          abstract human has a surface of 4.5m<sup>2</sup>.  (Applies
+          if the <em>Hit Location</em> rule is used.)
         </p>
         <div class="explain">
           <p>
