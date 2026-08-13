@@ -428,11 +428,11 @@
           fumbles.
         </p>
         <h5 id="co-sleep">Deprivation</h5>
-	<p>
-	  Physical Activity decreases the deprivation intervals. All
-	  deprivations do not have a location and are healed summarily
-	  for each type.
-	</p>
+        <p>
+          Physical Activity decreases the deprivation intervals. All
+          deprivations do not have a location and are healed summarily
+          for each type.
+        </p>
         <p>
           <em>Sleep Deprivation</em>: Every 24 hours without sleep
           cause 5 wounds, which cummulate into a single wound type.
@@ -442,16 +442,16 @@
         <p>
           <em>Air/Suffocation</em> Every minute without air cause 5
           wounds, which cummulate into a single wound type.
-	  Observe Incapacitating and Destroyed.
+          Observe Incapacitating and Destroyed.
           These heal at 1 per second of fresh air.
         </p>
-	<p>
-	  <em>Hunger/Thirst</em> Affects the system location with 5
-	  wound point for every day/week without water/food.  These
-	  heal with 1 pont per hour/day with proper sustenance.
+        <p>
+          <em>Hunger/Thirst</em> Affects the system location with 5
+          wound point for every day/week without water/food.  These
+          heal with 1 pont per hour/day with proper sustenance.
         </p>
-	<h5 id="co-loc">Hit Location</h5>
-	<p>
+        <h5 id="co-loc">Hit Location</h5>
+        <p>
           Body distribution is ruled as 10% Head, 20% Arms 30% Legs,
           and 40% Torso. Legs are considered &#8220;star-shaped&#8221;
           for the purpose of aiming. For descriptive purposes, wounds
@@ -462,8 +462,8 @@
           Bloodloss affects the whole system.
         </p>
         <p>
-	  Depending on application treat 5% = 1/16 = 6.25%, 10% = 1/8
-	  = 12.5%, 20% = 1/4 = 25%, 30% = 3/8 = 32.5%, and 50% = 1/2.
+          Depending on application treat 5% = 1/16 = 6.25%, 10% = 1/8
+          = 12.5%, 20% = 1/4 = 25%, 30% = 3/8 = 32.5%, and 50% = 1/2.
         </p>
         <p>
           <em>Incapacitating:</em> The system affected cannot be used
@@ -513,8 +513,8 @@
           different wound types with individual healing rates exist.
         </p>
         <p>
-	  See the appropriate sections on <em>Grapple/Tangle</em>,
-	  <em>Air/Suffocation</em>, <em>Sleep Deprivation</em>, and
+          See the appropriate sections on <em>Grapple/Tangle</em>,
+          <em>Air/Suffocation</em>, <em>Sleep Deprivation</em>, and
           <em>Hunger/Thirst</em>.
         </p>
         <h5 id="co-shock">Shock</h5>
@@ -868,17 +868,33 @@
           </tr>
         </table>
         <p>
-          See the three instructive examples how personal protection
-          works.  Body distribution is ruled as 10% Head, 20% Arms 30%
-          Legs, and 40% Torso.
+          Some equipment examples including some personal protection items.
         </p>
         <div class="explain">
           <p>
-            <b>Vest</b>: a so-called bullet-proof vest, this plasteel
-            implement is 1mm thick and protects the torso, meaning 40%
-            of the body.  When aiming elsewhere, remember the
-            contingency requirement.  Human &#8220;surface&#8221;
-            means a load of 5.4kg and a -5 on Move.
+            <b>Aimlock</b>: Waiting 1s for automation to acquire a
+            lock grants a +5 bonus when shooting at targets where the
+            missile travels for at least 1s.  This can be repeated for
+            up to 4s.  This is especially useful for moving targets
+            but requires a the aimlock in the missile.
+          </p>
+          <p>
+            <b>Earbuds</b>: Electric communication with a (spherical)
+            range of 1Wh/m.  Note the energy storage requirements
+            for longer distances.  Can be integrated in helmets.
+            Often not called earbuds for long range.
+          </p>
+          <p>
+            <b>Energy</b>: Energy storage comes at 1MWs/kg.  It is
+            used in many sizes, equivalent relations are 1kWs/g or
+            1GWs/T.  With 10% rounding error, use 1kWh/4g, 1MWh/4kg,
+            1GWh/4T.
+          </p>
+          <p>
+            <b>Flashbang Grenade</b>: As a grenade (generally 50 BEP)
+            but deals <em>Air/Suffocation</em> damage.  The volume is
+            only affected for 1s.  Effects on technical eyes vary.
+            Mostly thrown by hand at 6m/s.
           </p>
           <p>
             <b>Helmet</b>: A protective skull protection with face
@@ -902,43 +918,19 @@
             halfs the range penalty to shooting.
           </p>
           <p>
-            <b>Aimlock</b>: Waiting 1s for automation to acquire a
-            lock grants a +5 bonus when shooting at targets where the
-            missile travels for at least 1s.  This can be repeated for
-            up to 4s.  This is especially useful for moving targets
-            but requires a the aimlock in the missile.
-          </p>
-          <p>
             <b>Teargas Grenade</b>: As a grenade (generally 50 BEP)
             but deals <em>Air/Suffocation</em> damage.  The volume
             usually continues to be affected, remains stationary, and
-            dissipates at 1BEP/s.
+            dissipates at 1BEP/s.  Often thrown by hand at 6m/s.
           </p>
           <p>
-            <b>Flashbang Grenade</b>: As a grenade (generally 50 BEP)
-            but deals <em>Air/Suffocation</em> damage.  The volume is
-            only affected for 1s.  Effects on technical eyes vary.
+            <b>Vest</b>: a so-called bullet-proof vest, this plasteel
+            implement is 1mm thick and protects the torso, meaning 40%
+            of the body.  When aiming elsewhere, remember the
+            contingency requirement.  Human &#8220;surface&#8221;
+            means a load of 5.4kg and a -5 on Move.
           </p>
         </div>
-        <h3 id="equipment">Other Equipment</h3>
-        <table>
-          <tr>
-            <td>Silencer</td>
-            <td>-1/10g with values -10,-20,-30,-40</td>
-          </tr>
-          <tr>
-            <td>Vision Enhancer</td>
-            <td>Reduce darkness or fog penalties</td>
-          </tr>
-          <tr>
-            <td>Earbeads</td>
-            <td>Comms, range 1kWh/km<sup>2</sup></td>
-          </tr>
-          <tr>
-            <td>Energy</td>
-            <td>1MWs/1kg</td>
-          </tr>
-        </table>
       </div>
     </div>
   </body>
