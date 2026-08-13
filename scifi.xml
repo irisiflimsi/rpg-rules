@@ -201,12 +201,12 @@
             <td><a href="#co-heal">Healing</a></td>
             <td><a href="#co-loc">Hit Location</a></td>
             <td><a href="#co-ini">Initiative</a></td>
-            <td><a href="#co-loss">Protection Loss</a></td>
             <td><a href="#co-missile">Missiles</a></td>
+            <td><a href="#co-move">Move</a></td>
           </tr>
           <tr>
-            <td><a href="#co-move">Move</a></td>
             <td><a href="#co-prep">Preparation</a></td>
+            <td><a href="#co-loss">Protection Loss</a></td>
             <td><a href="#co-push">Push</a></td>
             <td><a href="#co-shock">Shock</a></td>
             <td><a href="#co-rise">Side Effectse</a></td>
@@ -214,77 +214,6 @@
             <td><a href="#co-area">Volume Effects</a></td>
           </tr>
         </table>
-        <h5 id="co-dim">Dimensions</h5>
-        <p>
-          One dimension is the <em>Time/Speed</em>, which it takes to
-          achieve the wound level zero on the defender.  The <em>wound
-          level</em>, or equivalently <em>BEP</em> is a separate
-          dimension, where 5 points on the value range equate to 1 on
-          the wound dimension.  Wounds only apply if positive.  Wounds
-          are penalties for the receipient on all of his tasks.  The
-          attacker can use trajectories.
-        </p>
-        <h5 id="co-turn">Turns/Duration</h5>
-        <p>
-          Once a (rolled) time has elapsed a new skill roll is made.
-          It is therefore possible to play 4-second round-based
-          combat.  The weapon table show the base time it takes to
-          attack once.  This is multiplied by the number from the time
-          dimension.
-        </p>
-        <p>
-          The fractional parts for the higher values in the time
-          dimension mean that multiple attacks &#8220;connect&#8221;
-          at the same time.  This is to avoid combat in split seconds.
-        </p>
-        <h5 id="co-ini">Initiative</h5>
-        <p>
-          Initiative reflects battle experience, discipline, and
-          morale and determines the speed in which characters can
-          assess a stressful situation.  Characters take the time
-          listed before they can act.  An ambush gives a penalty.
-          During the time a character is &#8220;frozen&#8221; this
-          way, he is trying to understand the situation he is in and
-          assesses the options he has.  He can defend with an
-          Initiative + 10 during that time.  General awareness issues
-          are not covered by Initiative.  Battle-hardened characters
-          may come into the fractional range.  Fractions determine who
-          goes first.
-        </p>
-        <p>
-          The situation in combat changes constantly.  One action is
-          assumed to take 4 seconds, going prematurely incurs the
-          usual 5-subtraction penalty.  (Acting every 8 seconds can
-          lend a bonus.)
-        </p>
-        <p>
-          For round-based combat, Initiative usually simply determines
-          the order of activity.  Changing the order or acting twice
-          by accepting penalties should be avoided, as it can quickly
-          lead to escalation, the avoidance of which is precisely the
-          reason round-based combat would be used.
-        </p>
-        <h5 id="co-grap">Grapple/Tangle</h5>
-        <p>
-          Grappling wounds are treated as penalty to any physical
-          activity instead of normal wounds.  Such wounds are
-          immediately reduced to zero, once the grapple is no longer
-          maintained.  Not all unarmed attacks are grapples. 
-        </p>
-        <h5 id="co-group">Groups</h5>
-        <p>
-          In order to simulate larger combats with many participants,
-          the usual 5-Addition can be used.  It does not provide as
-          many tactical options as individual combat does, but greatly
-          reduces time spent.  Both time and wound dimension should be
-          scaled linearly with the number of particpipants.  E.g. a
-          wound of 5 after 30 seconds would scale to a total of 50
-          points after 5 minutes for 10 people or to 500 points after
-          50 minutes for 100 people.  The points should be distributed
-          in reasonable batches on the participants on each side, the
-          smallest batch size being the wounds rolled.  People can be
-          hit multiple times.
-        </p>
         <h5 id="co-aim">Aiming</h5>
         <p>
           For every reduction of the target zone by 50%
@@ -303,14 +232,70 @@
           An abstract human has a surface of 2 x (2 + 1 + 0.5) = 7.5
           m<sup>2</sup>.
         </p>
-        <h5 id="co-area">Volume Effects</h5>
+        <h5 id="co-blood">Bloodloss</h5>
         <p>
-          Area or volume affecting hits apply to all <em>first
-          level</em> targets in the zone covered.  For example, firing
-          into a group of soldiers, all soldiers are affected, not all
-          heads, arms, etc., individually.  A single area strike aimed
-          at one person will still be quite devastating.  Evasion and
-          damage is rolled only once, but calculated individually.
+          Wounds taken increases with every complete multiple of 5
+          wounds above 10 every 4s.  For example, a 16-20 wound point
+          injury causes 2 points per 4 seconds, or 1 point of
+          bloodloss every 1 second.  This number is lost until
+          treatment is applied.  Treat the final sum as a separate
+          injury.  Some wounds will not cause bloodloss (e.g. Frost)
+          including wounds to inanimate objects.
+        </p>
+        <h5 id="co-melee">Collateral</h5>
+        <p>
+          Hitting the wrong target can happen in melee combat.
+          Anybody within an engagement zone is subject to an
+          (unintentional) attack with SV 0.  This can be added to the
+          benefit of other attackers as per multiple attacks above or
+          resolved individually with the goal of 0 damage.  A
+          character who is attacking (or being attacked by) a prone
+          enemy increases Attack/Defense SV with that character by 5.
+        </p>
+        <h5 id="co-sleep">Deprivation</h5>
+        <p>
+          Physical Activity decreases the deprivation intervals. All
+          deprivations do not have a location and are healed summarily
+          for each type.
+        </p>
+        <p>
+          <em>Sleep Deprivation</em>: Every 24 hours without sleep
+          cause 5 wounds, which cummulate into a single wound type.
+          Observe Incapacitating and Destroyed.  These heal at 1 per
+          hour of sleep.
+        </p>
+        <p>
+          <em>Air/Suffocation</em> Every minute without air cause 5
+          wounds, which cummulate into a single wound type.
+          Observe Incapacitating and Destroyed.
+          These heal at 1 per second of fresh air.
+        </p>
+        <p>
+          <em>Hunger/Thirst</em> Affects the system location with 5
+          wound point for every day/week without water/food.  These
+          heal with 1 pont per hour/day with proper sustenance.
+        </p>
+        <h5 id="co-dim">Dimensions</h5>
+        <p>
+          One dimension is the <em>Time/Speed</em>, which it takes to
+          achieve the wound level zero on the defender.  The <em>wound
+          level</em>, or equivalently <em>BEP</em> is a separate
+          dimension, where 5 points on the value range equate to 1 on
+          the wound dimension.  Wounds only apply if positive.  Wounds
+          are penalties for the receipient on all of his tasks.  The
+          attacker can use trajectories.
+        </p>
+        <h5 id="co-engage">Engagement</h5>
+        <p>
+          Every character has an <em>Engagement Zone</em> of 1.5m
+          radius about his center (that does not extend into blocked
+          areas).  The Engagement Zone of a conscious, prone character
+          is only half that.  Unconscious characters have no
+          Engagement Zones but may constitute obstacles.  A character
+          may be (melee) attacked upon entering an enemy&#8217;s
+          Engagement Zone until he leaves that zone.  This entering or
+          leaving may be active or passive.  It is possible to be
+          engaged with an arbitrary number of enemies at a time.
         </p>
         <h5 id="co-block">Evade</h5>
         <p>
@@ -340,37 +325,94 @@
           can be evaded as a melee weapon not as a missile.  Consider
           wildly discharged shots.
         </p>
-        <h5 id="co-blood">Bloodloss</h5>
+        <h5 id="co-grap">Grapple/Tangle</h5>
         <p>
-          Wounds taken increases with every complete multiple of 5
-          wounds above 10 every 4s.  For example, a 16-20 wound point
-          injury causes 2 points per 4 seconds, or 1 point of
-          bloodloss every 1 second.  This number is lost until
-          treatment is applied.  Treat the final sum as a separate
-          injury.  Some wounds will not cause bloodloss (e.g. Frost)
-          including wounds to inanimate objects.
+          Grappling wounds are treated as penalty to any physical
+          activity instead of normal wounds.  Such wounds are
+          immediately reduced to zero, once the grapple is no longer
+          maintained.  Not all unarmed attacks are grapples. 
         </p>
-        <h5 id="co-engage">Engagement</h5>
+        <h5 id="co-group">Groups</h5>
         <p>
-          Every character has an <em>Engagement Zone</em> of 1.5m
-          radius about his center (that does not extend into blocked
-          areas).  The Engagement Zone of a conscious, prone character
-          is only half that.  Unconscious characters have no
-          Engagement Zones but may constitute obstacles.  A character
-          may be (melee) attacked upon entering an enemy&#8217;s
-          Engagement Zone until he leaves that zone.  This entering or
-          leaving may be active or passive.  It is possible to be
-          engaged with an arbitrary number of enemies at a time.
+          In order to simulate larger combats with many participants,
+          the usual 5-Addition can be used.  It does not provide as
+          many tactical options as individual combat does, but greatly
+          reduces time spent.  Both time and wound dimension should be
+          scaled linearly with the number of particpipants.  E.g. a
+          wound of 5 after 30 seconds would scale to a total of 50
+          points after 5 minutes for 10 people or to 500 points after
+          50 minutes for 100 people.  The points should be distributed
+          in reasonable batches on the participants on each side, the
+          smallest batch size being the wounds rolled.  People can be
+          hit multiple times.
         </p>
-        <h5 id="co-melee">Collateral</h5>
+        <h5 id="co-heal">Healing</h5>
         <p>
-          Hitting the wrong target can happen in melee combat.
-          Anybody within an engagement zone is subject to an
-          (unintentional) attack with SV 0.  This can be added to the
-          benefit of other attackers as per multiple attacks above or
-          resolved individually with the goal of 0 damage.  A
-          character who is attacking (or being attacked by) a prone
-          enemy increases Attack/Defense SV with that character by 5.
+          Wounds are the (individual) task levels.  These tasks are
+          also affected b the overall wounds.  Add half the skill
+          value of a medic present when determining the healing rate.
+          Healing rate can be improved during the healing process.
+        </p>
+        <p>
+          Every location should be considered a separate wound,
+          including system, with separate healing rates.  Also
+          different wound types with individual healing rates exist.
+        </p>
+        <p>
+          See the appropriate sections on <em>Grapple/Tangle</em>,
+          <em>Air/Suffocation</em>, <em>Sleep Deprivation</em>, and
+          <em>Hunger/Thirst</em>.
+        </p>
+        <h5 id="co-loc">Hit Location</h5>
+        <p>
+          Body distribution is ruled as 10% Head, 20% Arms 30% Legs,
+          and 40% Torso. Legs are considered &#8220;star-shaped&#8221;
+          for the purpose of aiming. For descriptive purposes, wounds
+          are called <em>Minor</em>, <em>Serious</em>,
+          <em>Grievous</em>, <em>Incapacitating</em>, and
+          <em>Destroyed</em> in steps of 5 wound points.  Also see
+          <em>Bloodloss</em> and <em>Rise/Fumble/Stumble</em>.
+          Bloodloss affects the whole system.
+        </p>
+        <p>
+          Depending on application treat 5% = 1/16 = 6.25%, 10% = 1/8
+          = 12.5%, 20% = 1/4 = 25%, 30% = 3/8 = 32.5%, and 50% = 1/2.
+        </p>
+        <p>
+          <em>Incapacitating:</em> The system affected cannot be used
+          but still be healed.
+        </p>
+        <p>
+          <em>Destroyed:</em> The system affected lost its integrity
+          and cannot be healed.  For living beings this means instant
+          death.
+        </p>
+        <h5 id="co-ini">Initiative</h5>
+        <p>
+          Initiative reflects battle experience, discipline, and
+          morale and determines the speed in which characters can
+          assess a stressful situation.  Characters take the time
+          listed before they can act.  An ambush gives a penalty.
+          During the time a character is &#8220;frozen&#8221; this
+          way, he is trying to understand the situation he is in and
+          assesses the options he has.  He can defend with an
+          Initiative + 10 during that time.  General awareness issues
+          are not covered by Initiative.  Battle-hardened characters
+          may come into the fractional range.  Fractions determine who
+          goes first.
+        </p>
+        <p>
+          The situation in combat changes constantly.  One action is
+          assumed to take 4 seconds, going prematurely incurs the
+          usual 5-subtraction penalty.  (Acting every 8 seconds can
+          lend a bonus.)
+        </p>
+        <p>
+          For round-based combat, Initiative usually simply determines
+          the order of activity.  Changing the order or acting twice
+          by accepting penalties should be avoided, as it can quickly
+          lead to escalation, the avoidance of which is precisely the
+          reason round-based combat would be used.
         </p>
         <h5 id="co-missile">Missiles</h5>
         <p>
@@ -405,75 +447,6 @@
           activity +10 with speed dimension.  Active conditions such
           as suppressive fire are notwithstanding.
         </p>
-        <h5 id="co-push">Push</h5>
-        <p>
-          The push attempt must be in the direction the attacker is
-          facing and the attacker must follow.  The defender has a
-          choice to evade into a semi-circle of up to 120 degrees,
-          assuming no obstacles.  Instead of wound points, meters
-          (pushed) are used.  The defender is forced to deduct the
-          move from his action allowance, regardless of whether he
-          resists or not.  A resist deducts from the distance forced
-          and can even be used as a counter-push.  The pushed
-          character may opt to fall prone instead at any time, for
-          instance to avoid falling of a cliff.  Any remaining
-          distance is forfeit.
-        </p>
-        <h5 id="co-rise">Side Effects</h5>
-        <p>
-          Stumbles or a Fumbles occur, when an injury to legs or arms,
-          respectively, deals injury beyond 10 points.  Use the
-          <em>Speed</em> dimension to escape the condition.  Any
-          attack is cancelled.  Unarmed attacks are not affected by
-          fumbles.
-        </p>
-        <h5 id="co-sleep">Deprivation</h5>
-        <p>
-          Physical Activity decreases the deprivation intervals. All
-          deprivations do not have a location and are healed summarily
-          for each type.
-        </p>
-        <p>
-          <em>Sleep Deprivation</em>: Every 24 hours without sleep
-          cause 5 wounds, which cummulate into a single wound type.
-          Observe Incapacitating and Destroyed.  These heal at 1 per
-          hour of sleep.
-        </p>
-        <p>
-          <em>Air/Suffocation</em> Every minute without air cause 5
-          wounds, which cummulate into a single wound type.
-          Observe Incapacitating and Destroyed.
-          These heal at 1 per second of fresh air.
-        </p>
-        <p>
-          <em>Hunger/Thirst</em> Affects the system location with 5
-          wound point for every day/week without water/food.  These
-          heal with 1 pont per hour/day with proper sustenance.
-        </p>
-        <h5 id="co-loc">Hit Location</h5>
-        <p>
-          Body distribution is ruled as 10% Head, 20% Arms 30% Legs,
-          and 40% Torso. Legs are considered &#8220;star-shaped&#8221;
-          for the purpose of aiming. For descriptive purposes, wounds
-          are called <em>Minor</em>, <em>Serious</em>,
-          <em>Grievous</em>, <em>Incapacitating</em>, and
-          <em>Destroyed</em> in steps of 5 wound points.  Also see
-          <em>Bloodloss</em> and <em>Rise/Fumble/Stumble</em>.
-          Bloodloss affects the whole system.
-        </p>
-        <p>
-          Depending on application treat 5% = 1/16 = 6.25%, 10% = 1/8
-          = 12.5%, 20% = 1/4 = 25%, 30% = 3/8 = 32.5%, and 50% = 1/2.
-        </p>
-        <p>
-          <em>Incapacitating:</em> The system affected cannot be used
-          but still be healed.
-        </p>
-        <p>
-          <em>Destroyed:</em> The system affected lost its integrity
-          and cannot be healed.  For living beings this means instant
-          death.
-        </p>
         <h5 id="co-loss">Protection Loss</h5>
         <p>
           Loss of protection only affects the area covered.  The size
@@ -500,22 +473,19 @@
           melt away.  The next burst will only be resisted with 275
           BEP.  See the Tables chapter.
         </p>
-        <h5 id="co-heal">Healing</h5>
+        <h5 id="co-push">Push</h5>
         <p>
-          Wounds are the (individual) task levels.  These tasks are
-          also affected b the overall wounds.  Add half the skill
-          value of a medic present when determining the healing rate.
-          Healing rate can be improved during the healing process.
-        </p>
-        <p>
-          Every location should be considered a separate wound,
-          including system, with separate healing rates.  Also
-          different wound types with individual healing rates exist.
-        </p>
-        <p>
-          See the appropriate sections on <em>Grapple/Tangle</em>,
-          <em>Air/Suffocation</em>, <em>Sleep Deprivation</em>, and
-          <em>Hunger/Thirst</em>.
+          The push attempt must be in the direction the attacker is
+          facing and the attacker must follow.  The defender has a
+          choice to evade into a semi-circle of up to 120 degrees,
+          assuming no obstacles.  Instead of wound points, meters
+          (pushed) are used.  The defender is forced to deduct the
+          move from his action allowance, regardless of whether he
+          resists or not.  A resist deducts from the distance forced
+          and can even be used as a counter-push.  The pushed
+          character may opt to fall prone instead at any time, for
+          instance to avoid falling of a cliff.  Any remaining
+          distance is forfeit.
         </p>
         <h5 id="co-shock">Shock</h5>
         <p>
@@ -524,6 +494,36 @@
           &#8220;skill&#8221; against 20 or Stamina.  Failure
           (positive) is measured in the Yield dimension as minutes.
           Multiple shock rolls per 4s can be 5-added.
+        </p>
+        <h5 id="co-rise">Side Effects</h5>
+        <p>
+          Stumbles or a Fumbles occur, when an injury to legs or arms,
+          respectively, deals injury beyond 10 points.  Use the
+          <em>Speed</em> dimension to escape the condition.  Any
+          attack is cancelled.  Unarmed attacks are not affected by
+          fumbles.
+        </p>
+        <h5 id="co-turn">Turns/Duration</h5>
+        <p>
+          Once a (rolled) time has elapsed a new skill roll is made.
+          It is therefore possible to play 4-second round-based
+          combat.  The weapon table show the base time it takes to
+          attack once.  This is multiplied by the number from the time
+          dimension.
+        </p>
+        <p>
+          The fractional parts for the higher values in the time
+          dimension mean that multiple attacks &#8220;connect&#8221;
+          at the same time.  This is to avoid combat in split seconds.
+        </p>
+        <h5 id="co-area">Volume Effects</h5>
+        <p>
+          Area or volume affecting hits apply to all <em>first
+          level</em> targets in the zone covered.  For example, firing
+          into a group of soldiers, all soldiers are affected, not all
+          heads, arms, etc., individually.  A single area strike aimed
+          at one person will still be quite devastating.  Evasion and
+          damage is rolled only once, but calculated individually.
         </p>
         <h3 id="spco">Space Combat</h3>
         <p>
