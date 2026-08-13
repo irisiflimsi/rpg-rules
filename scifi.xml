@@ -359,9 +359,10 @@
           different wound types with individual healing rates exist.
         </p>
         <p>
-          See the appropriate sections on <em>Grapple/Tangle</em>,
-          <em>Air/Suffocation</em>, <em>Sleep Deprivation</em>, and
-          <em>Hunger/Thirst</em>.
+          See the appropriate sections on <a
+          href="#co-grap"><em>Grapple/Tangle</em></a>, <a
+          href="#co-sleep"><em>Air/Suffocation</em>, <em>Sleep
+          Deprivation</em>, and <em>Hunger/Thirst</em></a>.
         </p>
         <h5 id="co-loc">Hit Location</h5>
         <p>
@@ -370,9 +371,10 @@
           for the purpose of aiming. For descriptive purposes, wounds
           are called <em>Minor</em>, <em>Serious</em>,
           <em>Grievous</em>, <em>Incapacitating</em>, and
-          <em>Destroyed</em> in steps of 5 wound points.  Also see
-          <em>Bloodloss</em> and <em>Rise/Fumble/Stumble</em>.
-          Bloodloss affects the whole system.
+          <em>Destroyed</em> in steps of 5 wound points.  Also see <a
+          href="#co-blood"><em>Bloodloss</em></a> and <a
+          href="#co-rise"><em>Side Effects</em></a>.  Bloodloss
+          affects the whole system.
         </p>
         <p>
           Depending on application treat 5% = 1/16 = 6.25%, 10% = 1/8
@@ -471,7 +473,7 @@
           1m<sup>2</sup>, causing 100 BEP.  That volume has 300 BEP,
           the first burst will not penetrate, but causes 25 BEP to
           melt away.  The next burst will only be resisted with 275
-          BEP.  See the Tables chapter.
+          BEP.  See the <a href="#tables">Tables chapter</a>.
         </p>
         <h5 id="co-push">Push</h5>
         <p>
