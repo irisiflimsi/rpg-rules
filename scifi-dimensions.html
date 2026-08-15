@@ -1,330 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dimensions Calculator</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%);
-      color: #e0e0e0;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
-    }
-
-    .container {
-      background: rgba(40, 40, 60, 0.8);
-      border-radius: 16px;
-      padding: 40px;
-      max-width: 700px;
-      width: 100%;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-      font-size: 28px;
-      font-weight: 300;
-      letter-spacing: 2px;
-      color: #00d4ff;
-      text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
-    }
-
-    .slider-container {
-      margin-bottom: 40px;
-      background: rgba(30, 30, 50, 0.6);
-      padding: 30px;
-      border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    .value-display {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .value-label {
-      font-size: 14px;
-      color: #999;
-      margin-bottom: 8px;
-      letter-spacing: 1px;
-    }
-
-    .value-number {
-      font-size: 48px;
-      font-weight: 300;
-      color: #00d4ff;
-      text-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
-    }
-
-    .slider-controls {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin-bottom: 10px;
-    }
-
-    .control-btn {
-      background: linear-gradient(135deg, #00a8cc 0%, #0077b6 100%);
-      border: none;
-      color: white;
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-      font-size: 20px;
-      cursor: pointer;
-      transition: all 0.2s;
-      box-shadow: 0 4px 12px rgba(0, 168, 204, 0.3);
-    }
-
-    .control-btn:hover {
-      background: linear-gradient(135deg, #00d4ff 0%, #00a8cc 100%);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(0, 212, 255, 0.4);
-    }
-
-    .control-btn:active {
-      transform: translateY(0);
-    }
-
-    input[type="range"] {
-      flex: 1;
-      height: 8px;
-      border-radius: 4px;
-      background: linear-gradient(to right, 
-        #0077b6 0%, 
-        #00a8cc 50%, 
-        #00d4ff 100%);
-      outline: none;
-      -webkit-appearance: none;
-    }
-
-    input[type="range"]::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      background: #00d4ff;
-      cursor: pointer;
-      box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
-      transition: all 0.2s;
-    }
-
-    input[type="range"]::-webkit-slider-thumb:hover {
-      transform: scale(1.2);
-      box-shadow: 0 0 30px rgba(0, 212, 255, 0.8);
-    }
-
-    input[type="range"]::-moz-range-thumb {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      background: #00d4ff;
-      cursor: pointer;
-      border: none;
-      box-shadow: 0 0 20px rgba(0, 212, 255, 0.6);
-    }
-
-    .range-labels {
-      display: flex;
-      justify-content: space-between;
-      font-size: 12px;
-      color: #666;
-      margin-top: 8px;
-      padding: 0 5px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      background: rgba(30, 30, 50, 0.4);
-      border-radius: 12px;
-      overflow: hidden;
-    }
-
-    th, td {
-      padding: 16px 20px;
-      text-align: left;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    th {
-      background: rgba(0, 212, 255, 0.1);
-      color: #00d4ff;
-      font-weight: 500;
-      font-size: 14px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-
-    th:last-child {
-      text-align: right;
-      min-width: 200px;
-    }
-
-    tr:last-child td {
-      border-bottom: none;
-    }
-
-    tr:hover {
-      background: rgba(0, 212, 255, 0.05);
-    }
-
-    td:first-child {
-      color: #aaa;
-      font-weight: 500;
-    }
-
-    td:last-child {
-      color: #00d4ff;
-      font-weight: 300;
-      font-family: 'Courier New', monospace;
-      text-align: right;
-      min-width: 200px;
-    }
-
-    @media (max-width: 600px) {
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
+    <link rel="stylesheet" href="scifi.css"/>
+    <title>Dimensions Calculator</title>
+    <style>
+      *, *:before, *:after {
+	  box-sizing: inherit;
+      }
+      body, h1, h2, h3, h4 {
+	  margin: 10px 0;
+	  font-family: "Merriweather";
+      }
+      body {
+	  box-sizing: border-box;
+	  line-height: 1.5;
+	  font-size: 18px;
+	  text-align: justify;
+	  justify-content: center;
+	  display: flex;
+      }
       .container {
-        padding: 20px;
+	  background: var(--navbg);
+	  padding: 40px;
+	  margin: 40px;
+	  width: 100%;
+	  max-width: 800px;
       }
-
       h1 {
-        font-size: 22px;
+	  text-align: center;
+	  font-size: 24px;
+	  margin-bottom: 30px;
+	  color: var(--head);
       }
-
+      .slider-container {
+	  margin-bottom: 40px;
+	  padding: 30px;
+	  background: white;
+      }
+      .value-display {
+	  text-align: center;
+	  margin-bottom: 20px;
+      }
       .value-number {
-        font-size: 36px;
+	  font-size: 24px;
+	  color: var(--h1);
       }
-
-      th, td {
-        padding: 12px 15px;
-        font-size: 14px;
+      .slider-controls {
+	  display: flex;
+	  gap: 15px;
+	  align-items: center;
       }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>DIMENSIONS</h1>
-    
-    <div class="slider-container">
-      <div class="value-display">
-        <div class="value-label">RESULT</div>
-        <div class="value-number" id="dim-num">0</div>
+      .control-btn {
+	  background: var(--navbg);
+	  border: none;
+	  color: white;
+	  width: 40px;
+	  height: 40px;
+	  font-size: 20px;
+	  cursor: pointer;
+      }
+      .control-btn:hover {
+	  background: white;
+	  border: 1px solid var(--navbg);
+	  color: var(--navbg);
+      }
+      input[type="range"] {
+	  flex: 1;
+	  height: 10px;
+	  background: var(--navbg);
+	  -webkit-appearance: none;
+      }
+      input[type="range"]::-webkit-slider-thumb,
+      input[type="range"]::-moz-range-thumb {
+	  -webkit-appearance: none;
+	  appearance: none;
+	  width: 30px;
+	  height: 30px;
+	  border-radius: 50%;
+	  background: var(--navbg);
+	  box-shadow: 0 0 10px #0008;
+	  cursor: pointer;
+      }
+      table {
+	  width: 100%;
+	  font-size:80%;
+	  border-collapse: separate;
+	  border-spacing: 0;
+	  background: white;
+	  padding: 0px 30px 10px;
+      }
+      th {
+	  border-top: none;
+	  padding: 8px;
+	  text-align: left;
+	  color: var(--h1);
+	  width: 70%;
+      }
+      td {
+	  border-top: 1px solid var(--tdo);
+	  padding: 8px;
+	  text-align: left;
+	  color: var(--tdo);
+      }
+      th:last-child, td:last-child {
+	  width: 30%;
+	  text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dimensions</h1>
+      <div class="slider-container">
+	<div class="value-display">
+          <div class="value-number" id="dim-num">0</div>
+	</div>
+	<div class="slider-controls">
+          <button class="control-btn" id="decreaseBtn">−</button>
+          <input type="range" min="-50" max="50" value="0" id="roll">
+          <button class="control-btn" id="increaseBtn">+</button>
+	</div>
       </div>
-
-      <div class="slider-controls">
-        <button class="control-btn" id="decreaseBtn">−</button>
-        <input type="range" min="-50" max="50" value="0" id="roll">
-        <button class="control-btn" id="increaseBtn">+</button>
-      </div>
-
-      <div class="range-labels">
-        <span>-50</span>
-        <span>0</span>
-        <span>+50</span>
-      </div>
+      <table>
+	<thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Value</th>
+          </tr>
+	</thead>
+	<tbody>
+          <tr>
+            <td>Accuracy</td>
+            <td id="dim-acc">—</td>
+          </tr>
+          <tr>
+            <td>Healing</td>
+            <td id="dim-hea">—</td>
+          </tr>
+          <tr>
+            <td>Initiative</td>
+            <td id="dim-ini">—</td>
+          </tr>
+          <tr>
+            <td>Move</td>
+            <td id="dim-mov">—</td>
+          </tr>
+          <tr>
+            <td>Time/Speed</td>
+            <td id="dim-tim">—</td>
+          </tr>
+          <tr>
+            <td>Yield</td>
+            <td id="dim-yie">—</td>
+          </tr>
+          <tr>
+            <td>Accident</td>
+            <td id="dim-dan">—</td>
+          </tr>
+	</tbody>
+      </table>
     </div>
+    <script>
+      const roll = document.getElementById("roll");
+      const decreaseBtn = document.getElementById("decreaseBtn");
+      const increaseBtn = document.getElementById("increaseBtn");
+      const dimnum = document.getElementById("dim-num");
+      const dimacc = document.getElementById("dim-acc");
+      const dimhea = document.getElementById("dim-hea");
+      const dimini = document.getElementById("dim-ini");
+      const dimmov = document.getElementById("dim-mov");
+      const dimtim = document.getElementById("dim-tim");
+      const dimyie = document.getElementById("dim-yie");
+      const dimdan = document.getElementById("dim-dan");
 
-    <table>
-      <thead>
-        <tr>
-          <th>Parameter</th>
-          <th>Value</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Accuracy</td>
-          <td id="dim-acc">—</td>
-        </tr>
-        <tr>
-          <td>Healing</td>
-          <td id="dim-hea">—</td>
-        </tr>
-        <tr>
-          <td>Initiative</td>
-          <td id="dim-ini">—</td>
-        </tr>
-        <tr>
-          <td>Move</td>
-          <td id="dim-mov">—</td>
-        </tr>
-        <tr>
-          <td>Time/Speed</td>
-          <td id="dim-tim">—</td>
-        </tr>
-        <tr>
-          <td>Yield</td>
-          <td id="dim-yie">—</td>
-        </tr>
-        <tr>
-          <td>Accident</td>
-          <td id="dim-dan">—</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <script>
-    const roll = document.getElementById("roll");
-    const decreaseBtn = document.getElementById("decreaseBtn");
-    const increaseBtn = document.getElementById("increaseBtn");
-    const dimnum = document.getElementById("dim-num");
-    const dimacc = document.getElementById("dim-acc");
-    const dimhea = document.getElementById("dim-hea");
-    const dimini = document.getElementById("dim-ini");
-    const dimmov = document.getElementById("dim-mov");
-    const dimtim = document.getElementById("dim-tim");
-    const dimyie = document.getElementById("dim-yie");
-    const dimdan = document.getElementById("dim-dan");
-
-    function updateValues() {
-      const v = roll.value / 10;
-      dimnum.textContent = roll.value;
-      dimacc.textContent = Math.round(100 * (1 - 1 / (2 * 2 ** v))) + " % – " + Math.round(100 / (1 - 1 / (2 * 2 ** v))) + " %";
-      dimhea.textContent = Math.round(8 * 2 ** -v) / 8 + " day/pt";
-      dimini.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
-      dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
-      dimtim.textContent = Math.round(100 * 2 ** -v) + " %";
-      dimyie.textContent = Math.round(8 * 2 ** v) / 8;
-      dimdan.textContent = Math.max(0, Math.min(100, - 20 * v)) + " %";
-    }
-
-    roll.oninput = updateValues;
-
-    decreaseBtn.onclick = function() {
-      const currentValue = parseInt(roll.value);
-      if (currentValue > parseInt(roll.min)) {
-        roll.value = currentValue - 1;
-        updateValues();
+      function updateValues() {
+	  const v = roll.value / 10;
+	  dimnum.textContent = roll.value;
+	  dimacc.textContent = Math.round(100 * (1 - 1 / (2 * 2 ** v))) + " % – " + Math.round(100 / (1 - 1 / (2 * 2 ** v))) + " %";
+	  dimhea.textContent = Math.round(8 * 2 ** -v) / 8 + " day/pt";
+	  dimini.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
+	  dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
+	  dimtim.textContent = Math.round(100 * 2 ** -v) + " %";
+	  dimyie.textContent = Math.round(8 * 2 ** v) / 8;
+	  dimdan.textContent = Math.max(0, Math.min(100, - 20 * v)) + " %";
       }
-    };
 
-    increaseBtn.onclick = function() {
-      const currentValue = parseInt(roll.value);
-      if (currentValue < parseInt(roll.max)) {
-        roll.value = currentValue + 1;
-        updateValues();
-      }
-    };
-
-    // Initialize values on page load
-    updateValues();
-  </script>
-</body>
+      roll.oninput = updateValues;
+      decreaseBtn.onclick = function() {
+	  const currentValue = parseInt(roll.value);
+	  if (currentValue > parseInt(roll.min)) {
+              roll.value = currentValue - 1;
+              updateValues();
+	  }
+      };
+      increaseBtn.onclick = function() {
+	  const currentValue = parseInt(roll.value);
+	  if (currentValue < parseInt(roll.max)) {
+              roll.value = currentValue + 1;
+              updateValues();
+	  }
+      };
+      updateValues();
+    </script>
+  </body>
 </html>
