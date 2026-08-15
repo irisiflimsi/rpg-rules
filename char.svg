@@ -4,11 +4,11 @@
     @import url("https://fonts.googleapis.com/css?family=Merriweather");
   </style>
   <g transform="scale(1,.95)">
-    <rect style="fill:#fff;stroke:#009a31;;stroke-width:2px" width="695" height="60" x="30" y="65" />
-    <rect style="fill:#fff;stroke:#009a31;;stroke-width:2px" width="100" height="130" x="590" y="30" />
+    <rect style="fill:#fff;stroke:#009a31;stroke-width:2px" width="695" height="60" x="30" y="65" />
+    <rect style="fill:#fff;stroke:#009a31;stroke-width:2px" width="100" height="130" x="590" y="30" />
     <text style="font-family:Merriweather;font-family:Merriweather;font-weight:700;font-size:30px;font-style:italic" x="50" y="108">$Name</text>
-    <rect style="stroke:#009a31;;stroke-width:1px" width="1" height="930" x="215" y="180" />
-    <rect style="stroke:#009a31;;stroke-width:1px" width="1" height="930" x="200" y="180" />
+    <rect style="stroke:#009a31;stroke-width:1px" width="1" height="930" x="215" y="180" />
+    <rect style="stroke:#009a31;stroke-width:1px" width="1" height="930" x="200" y="180" />
     <g>
       <text style="font-family:Merriweather;font-weight:700;font-size:15px;text-anchor:middle" x="90" y="185">Skill/Task</text>
       <text style="font-family:Merriweather;font-weight:700;font-size:15px;text-anchor:middle" x="175" y="185">Level</text>
@@ -19,10 +19,10 @@
       <text style="font-family:Merriweather;font-weight:700;font-size:15px;text-anchor:middle" x="585" y="185">Value</text>
       <text style="font-family:Merriweather;font-weight:700;font-size:15px;text-anchor:middle" x="670" y="185">Dimension</text>
     </g>
-    <rect style="stroke:#009a31;;stroke-width:1px" width="695" height="1" x="30" y="190" />
+    <rect style="stroke:#009a31;stroke-width:1px" width="695" height="1" x="30" y="190" />
     <g>
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -43,8 +43,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-1X3</text>
     </g>
     <g transform="translate(0,50)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -65,8 +65,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-2X3</text>
     </g>
     <g transform="translate(0,100)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -87,8 +87,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-3X3</text>
     </g>
     <g transform="translate(0,150)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -109,8 +109,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-4X3</text>
     </g>
     <g transform="translate(0,200)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -130,10 +130,10 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="585" y="235">$Sk-5T3</text>
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-5X3</text>
     </g>
-    <rect style="stroke:#009a31;;stroke-width:1px" width="695" height="1" x="30" y="445" />
+    <rect style="stroke:#009a31;stroke-width:1px" width="695" height="1" x="30" y="445" />
     <g transform="translate(0,255)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -154,8 +154,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-6X3</text>
     </g>
     <g transform="translate(0,305)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -176,8 +176,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-7X3</text>
     </g>
     <g transform="translate(0,355)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -198,8 +198,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-8X3</text>
     </g>
     <g transform="translate(0,405)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -220,8 +220,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-9X3</text>
     </g>
     <g transform="translate(0,455)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -241,10 +241,10 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="585" y="235">$Sk-10T3</text>
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-10X3</text>
     </g>
-    <rect style="stroke:#009a31;;stroke-width:1px" width="695" height="1" x="30" y="700" />
+    <rect style="stroke:#009a31;stroke-width:1px" width="695" height="1" x="30" y="700" />
     <g transform="translate(0,510)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -265,8 +265,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-11X3</text>
     </g>
     <g transform="translate(0,560)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -287,8 +287,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-12X3</text>
     </g>
     <g transform="translate(0,610)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -309,8 +309,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-13X3</text>
     </g>
     <g transform="translate(0,660)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -331,8 +331,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-14X3</text>
     </g>
     <g transform="translate(0,710)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -352,10 +352,10 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="585" y="235">$Sk-15T3</text>
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-15X3</text>
     </g>
-    <rect style="stroke:#009a31;;stroke-width:1px" width="695" height="1" x="30" y="955" />
+    <rect style="stroke:#009a31;stroke-width:1px" width="695" height="1" x="30" y="955" />
     <g transform="translate(0,765)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -376,8 +376,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-16X3</text>
     </g>
     <g transform="translate(0,815)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />
@@ -398,8 +398,8 @@
       <text style="font-family:Merriweather;font-size:15px;text-anchor:middle" x="670" y="235">$Sk-17X3</text>
     </g>
     <g transform="translate(0,865)">
-      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;;stroke-width:0" />
-      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;;stroke-width:0" />
+      <rect height="20" x="030" y="195" width="120" style="fill:#009a31;stroke-width:0" />
+      <rect height="20" x="030" y="220" width="120" style="fill:#009a31;stroke-width:0" />
       <rect height="20" x="155" y="195" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="155" y="220" width="40" style="fill:#ceffce;stroke-width:0" />
       <rect height="20" x="220" y="220" width="50" style="fill:#ceffce;stroke-width:0" />

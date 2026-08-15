@@ -934,6 +934,22 @@
           </p>
         </div>
       </div>
+      <div class="container">
+        <h1 id="Application">Appendix</h1>
+        <p>
+          All following headings are links to the corresponding
+          subpages.
+        </p>
+        <h3 id="main">
+          <a href="main.xml">Main Rule</a>
+        </h3>
+        <h3 id="sf-dim">
+          <a href="scifi-dimensions.html">SciFi Dimensions</a>
+        </h3>
+        <h3 id="char-sheet">
+          <a href="scifi-char.svg">Generic SciFi Char Sheet</a>
+        </h3>
+      </div>
     </div>
   </body>
 </html>
