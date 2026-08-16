@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather"/>
+    <link rel="stylesheet" href="scifi.css"/>
+    <title>5-Addition Calculator</title>
+    <style>
+      *, *:before, *:after {
+          box-sizing: inherit;
+      }
+      body, h1, h2, h3, h4 {
+          margin: 10px 0;
+          font-family: "Merriweather";
+      }
+      body {
+          box-sizing: border-box;
+          line-height: 1.5;
+          font-size: 18px;
+          text-align: justify;
+          justify-content: center;
+          display: flex;
+      }
+      .container {
+          background: var(--navbg);
+          padding: 40px;
+          margin: 40px;
+          width: 100%;
+          max-width: 800px;
+      }
+      h1 {
+          text-align: center;
+          font-size: 24px;
+          margin-bottom: 30px;
+          color: var(--head);
+      }
+      .value-display {
+          padding: 30px;
+          background: white;
+          text-align: center;
+          margin-bottom: 20px;
+      }
+      .value-number {
+          font-size: 24px;
+          color: var(--h1);
+      }
+      .slider-controls {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+      }
+      .control-btn {
+          background: var(--navbg);
+          border: none;
+          color: white;
+          width: 20px;
+          height: 20px;
+          font-size: 10px;
+          cursor: pointer;
+      }
+      .control-btn:hover {
+          background: white;
+          border: 1px solid var(--navbg);
+          color: var(--navbg);
+      }
+      input[type="range"] {
+          height: 4px;
+          background: var(--navbg);
+          -webkit-appearance: none;
+      }
+      input[type="range"]::-webkit-slider-thumb,
+      input[type="range"]::-moz-range-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: var(--navbg);
+          box-shadow: 0 0 10px #0008;
+          cursor: pointer;
+      }
+      table {
+          width: 100%;
+          font-size:80%;
+          border-collapse: separate;
+          border-spacing: 0;
+          background: white;
+          padding: 0px 30px 10px;
+      }
+      th {
+          border-top: none;
+          padding: 8px;
+          text-align: left;
+          color: var(--h1);
+          width: 70%;
+      }
+      td {
+          border-top: 1px solid var(--tdo);
+          padding: 8px;
+          text-align: left;
+          color: var(--tdo);
+      }
+      th:last-child {
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>5-Addition</h1>
+      <div class="value-display">
+        <div class="value-number" id="dim-sum">-50</div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Value</th>
+            <th>Slider</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Character 1</td>
+            <td id="dim-1">-50</td>
+            <td class="slider-controls">
+              <button class="control-btn" id="decr-1">−</button>
+              <input type="range" min="-50" max="50" value="-50" id="slid-1">
+              <button class="control-btn" id="incr-1">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Character 2</td>
+            <td id="dim-2">-50</td>
+            <td class="slider-controls">
+              <button class="control-btn" id="decr-2">−</button>
+              <input type="range" min="-50" max="50" value="-50" id="slid-2">
+              <button class="control-btn" id="incr-2">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Character 3</td>
+            <td id="dim-3">-50</td>
+            <td class="slider-controls">
+              <button class="control-btn" id="decr-3">−</button>
+              <input type="range" min="-50" max="50" value="-50" id="slid-3">
+              <button class="control-btn" id="incr-3">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Character 4</td>
+            <td id="dim-4">-50</td>
+            <td class="slider-controls">
+              <button class="control-btn" id="decr-4">−</button>
+              <input type="range" min="-50" max="50" value="-50" id="slid-4">
+              <button class="control-btn" id="incr-4">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Character 5</td>
+            <td id="dim-5">-50</td>
+            <td class="slider-controls">
+              <button class="control-btn" id="decr-5">−</button>
+              <input type="range" min="-50" max="50" value="-50" id="slid-5">
+              <button class="control-btn" id="incr-5">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Character 6</td>
+            <td id="dim-6">-50</td>
+            <td class="slider-controls">
+              <button class="control-btn" id="decr-6">−</button>
+              <input type="range" min="-50" max="50" value="-50" id="slid-6">
+              <button class="control-btn" id="incr-6">+</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script>
+      for (i = 1; i < 7; i++) {
+          const n = i;
+          const slid = document.getElementById("slid-" + n);
+          const decr = document.getElementById("decr-" + n);
+          const incr = document.getElementById("incr-" + n);
+          slid.oninput = function() {
+              document.getElementById("dim-" + n).textContent =
+                  document.getElementById("slid-" + n).value;
+              update();
+          }
+          decr.onclick = function() {
+              elem = document.getElementById("slid-" + n)
+              val = parseInt(elem.value);
+              if (val > parseInt(elem.min)) {
+                  elem.value = val - 1;
+                  slid.oninput();
+              }
+          }
+          incr.onclick = function() {
+              elem = document.getElementById("slid-" + n)
+              val = parseInt(elem.value);
+              if (val < parseInt(elem.max)) {
+                  elem.value = val + 1;
+                  slid.oninput();
+              }
+          }
+          slid.oninput();
+      }
+      function update() {
+          var sum = 0;
+          // Can't be i
+          for (j = 1; j < 7; j++) {
+              sum += 2 ** (parseInt(document.getElementById("slid-" + j).value)/5);
+          }
+          elem = document.getElementById("dim-sum");
+          elem.textContent = parseInt(5 * Math.log(sum) / Math.log(2));
+      }
+    </script>
+  </body>
+</html>
