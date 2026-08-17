@@ -101,49 +101,50 @@
         </p>
         <div class="explain">
           <p>
-            <b>-20:</b> Move penalty for human swimming.  Distinguish
-            two unrelated domains.  A severly impaired or oblivious
-            person can drop to this level.
+            <span class="th">-20:</span> Move penalty for human
+            swimming.  Distinguish two unrelated domains.  A severly
+            impaired or oblivious person can drop to this level.
           </p>
           <p>
-            <b>-10:</b> Move penalty for human climbing.  Knowing that
-            a certain domain exists is dubious.  A sick or
-            uninterested person can drop to this level.
-          </p>
-          <p>
-            <b>0:</b> Knowing a domain for such knowledge exists and
-            separate it from different domains.  Uneducated default.
-            Usually everyone has this level.
-          </p>
-          <p>
-            <b>10:</b> Basic concepts of domain are known, advanced
-            concepts have been heard of but cannot be applied. 1 year
-            of training or learning in a domain.  One in ten has this
+            <span class="th">-10:</span> Move penalty for human
+            climbing.  Knowing that a certain domain exists is
+            dubious.  A sick or uninterested person can drop to this
             level.
           </p>
           <p>
-            <b>20:</b> Most concepts of the domain are known and can
-            be applied.  The character is less confident with fringe
-            concepts.  3 years of training or learning in a domain.
-            One in a hundred has this level.
+            <span class="th">0:</span> Knowing a domain for such
+            knowledge exists and separate it from different domains.
+            Uneducated default.  Usually everyone has this level.
           </p>
           <p>
-            <b>30:</b> The domain is understood with ease.
-            Improvement of the art is possible.  6 years of training
-            or learning in a domain.  One in a thousand has this
-            level.
+            <span class="th">10:</span> Basic concepts of domain are
+            known, advanced concepts have been heard of but cannot be
+            applied. 1 year of training or learning in a domain.  One
+            in ten has this level.
           </p>
           <p>
-            <b>40:</b> Mastery of the domain at top level.
-            Improvement is a normal task, e.g. scientific research.
-            10 years of learning and training in a domain.  One in a
-            million has this level.
+            <span class="th">20:</span> Most concepts of the domain
+            are known and can be applied.  The character is less
+            confident with fringe concepts.  3 years of training or
+            learning in a domain.  One in a hundred has this level.
           </p>
           <p>
-            <b>50:</b> Gifted individuals with fully developed talent.
-            Major improvements are a normal task or winning reknown
-            prizes.  15 years of learning and training in a domain.
-            One in a billion has this level.
+            <span class="th">30:</span> The domain is understood with
+            ease.  Improvement of the art is possible.  6 years of
+            training or learning in a domain.  One in a thousand has
+            this level.
+          </p>
+          <p>
+            <span class="th">40:</span> Mastery of the domain at top
+            level.  Improvement is a normal task, e.g. scientific
+            research.  10 years of learning and training in a domain.
+            One in a million has this level.
+          </p>
+          <p>
+            <span class="th">50:</span> Gifted individuals with fully
+            developed talent.  Major improvements are a normal task or
+            winning reknown prizes.  15 years of learning and training
+            in a domain.  One in a billion has this level.
           </p>
         </div>
         <h5 class="skill" id="di-mov">Trajectory Restrictions</h5>

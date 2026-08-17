@@ -154,6 +154,13 @@ tr:nth-child(3n+4) {
     padding: 1px 20px;
 }
 
+span.th {
+    display: inline-block;
+    text-align: right;
+    width: 5em;
+    font-weight: bold;    
+}
+
 a {
     text-decoration: none;
     color: var(--h1);
