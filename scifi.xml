@@ -120,50 +120,66 @@
           life to a skill.  Technical aids or cyberimplants may give
           another picture.
         </p>
-        <h5 class="skill" id="di-kno">Knowledge</h5>
+        <h5 class="skill" id="di-kno">Non-numeric Examples</h5>
         <p>
-          This dimension can also be used as knowledge about
-          knowledge, i.e. how sure is the character that his
-          reproduction of the knowledge is correct.
+          Some dimensions or modifiers are not easily measured
+          numerically.  Knowledge is one, movement modes are another.
+          Some can be treated as separate dimensions.  The following
+          serve as reference points.
         </p>
         <div class="explain">
           <p>
-            <em>-10:</em> Knowing that the domain can provide
-            knowledge is shaky.
+            <b>-20:</b> Penalty on movement for swimming.
+            Distinguish two unrelated languages.
           </p>
           <p>
-            <em>0:</em> Character knows the domain for such knowledge
+            <b>-10:</b> Penalty on movement for climbing.  Knowing
+            that a domain can provide knowledge is shaky.  Distinguish
+            two related languages.
+          </p>
+          <p>
+            <b>0:</b> Character knows the domain for such knowledge
             exists and can separate it from different domains.
+            Uneducated default.  Identify related languages. 1:1
+            chance of success at trivial task (0) for the untrained.
           </p>
           <p>
             <em>10:</em> The basic concepts are known, advanced
             concepts have been heard of but cannot be applied.
+            Distinguish related languages, also in simple words or
+            phrases. 1 in 100 chance of success for the untrained.
           </p>
           <p>
             <em>20:</em> Most concepts of the domain are known and can
             be applied.  The character is less confident with fringe
-            concepts.
+            concepts.  1-2 years of learning a topic.  Communication
+            in a language. 1 in 1,000 chance of success for the
+            untrained.
           </p>
           <p>
             <em>30:</em> The domain is understood with ease.
-            Improvement of the art is possible.
+            Improvement of the art is possible.  Professional writing.
+            Higher education. 1 in 10,000 chance of success for the
+            untrained.
           </p>
           <p>
-            <em>40:</em> Mastery of the domain as far as humanly
-            possible.  Improvement of the art is a normal task.
+            <em>40:</em> Mastery of the domain at top level.
+            Improvement of the art is a normal task.  Scientific
+            research. 1 in 100,00 chance of success for the untrained.
+          </p>
+          <p>
+            <em>50:</em> Human Genius or extremely gifted individuals
+            with fully developed talent.  Rarely seen in a lifetime. 1
+            in 1,000,000 chance of success for the untrained.
           </p>
         </div>
-        <h5 class="skill" id="di-mov">Move</h5>
+        <h5 class="skill" id="di-mov">Trajectory Restrictions</h5>
         <p>
-          Consider load and acceleration for unusually fast movers (or
-          abusers). Every 1kg carried reduces Move by 1.
-        </p>
-        <p>
-          Climbing is at -20 and Swimming at -10.  Movement is a
-          combination of the Speed and Accident dimensions.  An
-          accident is a fall (or going under) at some random instant
-          of the travel.  The dimension values may not differ by more
-          than 20 points.
+          <em>Movement:</em> Consider load and acceleration for
+          unusually fast movers (or abusers). Every 1kg carried
+          reduces Move by 1.  An accident is a fall (or going under)
+          at some random instant of the travel.  The dimension values
+          may not differ by more than 20 points.
         </p>
       </div>
       <div class="container">
