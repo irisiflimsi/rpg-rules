@@ -71,37 +71,6 @@
           can be 5-added but the task difficulty may also be different
           for their application.
         </p>
-        <h3 id="five-add">5-Addition</h3>
-        <p>
-          A convenience table for the 5-addition of zeroes.  Rounding
-          is to one fractional digit only.
-        </p>
-        <table style="width:80%">
-          <tr>
-            <th>Number</th>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <th>Result</th>
-            <td>5</td>
-            <td>7.9</td>
-            <td>10</td>
-            <td>11.6</td>
-            <td>12.9</td>
-            <td>14</td>
-            <td>15</td>
-            <td>15.8</td>
-            <td>16.6</td>
-          </tr>
-        </table>
         <h3 id="dim">Dimensions</h3>
         <p>
           Some dimensions often used are listed on a <a
@@ -113,12 +82,11 @@
           Finding the appropriate dimension depends on the concrete
           circumstances.  Consider what would be appropriate for an
           untrained individual (SV 0) and what is expected (the
-          average result) for a sufficiently educated person (SV 20).
+          average result) for a reasonably educated person (SV 20).
           Interpret the results inbetween and outside of the bounds
-          accordingly.  50 should be an intrisic limit for a human,
-          even when a talented individual has dedicating most of his
-          life to a skill.  Technical aids or cyberimplants may give
-          another picture.
+          accordingly.  50 should be a limit for a human, even for a
+          talented individual.  Technical aids or cyberimplants may
+          give another picture.
         </p>
         <h5 class="skill" id="di-kno">Non-numeric Examples</h5>
         <p>
@@ -127,60 +95,67 @@
           Some can be treated as separate dimensions.  The following
           serve as reference points.
         </p>
+        <p>
+	  In the example, <em>domains of knowledge</em> are languages,
+	  sciences, engineering disciplines, and so on.
+        </p>
         <div class="explain">
           <p>
-            <b>-20:</b> Penalty on movement for swimming.
-            Distinguish two unrelated languages.
+            <b>-20:</b> Move penalty for human swimming.  Distinguish
+            two unrelated domains.  A severly impaired or oblivious
+            person can drop to this level.
           </p>
           <p>
-            <b>-10:</b> Penalty on movement for climbing.  Knowing
-            that a domain can provide knowledge is shaky.  Distinguish
-            two related languages.
+            <b>-10:</b> Move penalty for human climbing.  Knowing that
+            a certain domain exists is dubious.  A sick or
+            uninterested person can drop to this level.
           </p>
           <p>
-            <b>0:</b> Character knows the domain for such knowledge
-            exists and can separate it from different domains.
-            Uneducated default.  Identify related languages. 1:1
-            chance of success at trivial task (0) for the untrained.
+            <b>0:</b> Knowing a domain for such knowledge exists and
+            separate it from different domains.  Uneducated default.
+            Usually everyone has this level.
           </p>
           <p>
-            <em>10:</em> The basic concepts are known, advanced
-            concepts have been heard of but cannot be applied.
-            Distinguish related languages, also in simple words or
-            phrases. 1 in 100 chance of success for the untrained.
+            <b>10:</b> Basic concepts of domain are known, advanced
+            concepts have been heard of but cannot be applied. 1 year
+            of training or learning in a domain.  One in ten has this
+            level.
           </p>
           <p>
-            <em>20:</em> Most concepts of the domain are known and can
+            <b>20:</b> Most concepts of the domain are known and can
             be applied.  The character is less confident with fringe
-            concepts.  1-2 years of learning a topic.  Communication
-            in a language. 1 in 1,000 chance of success for the
-            untrained.
+            concepts.  3 years of training or learning in a domain.
+            One in a hundred has this level.
           </p>
           <p>
-            <em>30:</em> The domain is understood with ease.
-            Improvement of the art is possible.  Professional writing.
-            Higher education. 1 in 10,000 chance of success for the
-            untrained.
+            <b>30:</b> The domain is understood with ease.
+            Improvement of the art is possible.  6 years of training
+            or learning in a domain.  One in a thousand has this
+            level.
           </p>
           <p>
-            <em>40:</em> Mastery of the domain at top level.
-            Improvement of the art is a normal task.  Scientific
-            research. 1 in 100,00 chance of success for the untrained.
+            <b>40:</b> Mastery of the domain at top level.
+            Improvement is a normal task, e.g. scientific research.
+            10 years of learning and training in a domain.  One in a
+            million has this level.
           </p>
           <p>
-            <em>50:</em> Human Genius or extremely gifted individuals
-            with fully developed talent.  Rarely seen in a lifetime. 1
-            in 1,000,000 chance of success for the untrained.
+            <b>50:</b> Gifted individuals with fully developed talent.
+            Major improvements are a normal task or winning reknown
+            prizes.  15 years of learning and training in a domain.
+            One in a billion has this level.
           </p>
         </div>
         <h5 class="skill" id="di-mov">Trajectory Restrictions</h5>
-        <p>
-          <em>Movement:</em> Consider load and acceleration for
-          unusually fast movers (or abusers). Every 1kg carried
-          reduces Move by 1.  An accident is a fall (or going under)
-          at some random instant of the travel.  The dimension values
-          may not differ by more than 20 points.
-        </p>
+        <div class="explain">
+          <p>
+            <b>Movement:</b> Consider load and acceleration for
+            unusually fast movers (or abusers). Every 1kg carried
+            reduces Move by 1.  An accident is a fall (or going under)
+            at some random instant of the travel.  The dimension
+            values may not differ by more than 20 points.
+          </p>
+	</div>
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
@@ -886,7 +861,7 @@
           </tr>
         </table>
         <p>
-          Some equipment examples including some personal protection items.
+          Some equipment examples including personal protection items.
         </p>
         <div class="explain">
           <p>
