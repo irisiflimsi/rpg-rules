@@ -213,7 +213,7 @@
               sum += 2 ** (parseInt(document.getElementById("slid-" + j).value)/5);
           }
           elem = document.getElementById("dim-sum");
-          elem.textContent = parseInt(5 * Math.log(sum) / Math.log(2));
+          elem.textContent = Math.round(5 * Math.log(sum) / Math.log(2));
       }
     </script>
   </body>
