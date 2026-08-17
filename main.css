@@ -157,7 +157,7 @@ tr:nth-child(3n+4) {
 span.th {
     display: inline-block;
     text-align: right;
-    width: 5em;
+    width: 2em;
     font-weight: bold;    
 }
 
