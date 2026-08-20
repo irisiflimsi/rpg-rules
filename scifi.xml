@@ -101,9 +101,13 @@
         </p>
         <div class="explain">
           <p>
-            <span class="th">-20:</span> Move penalty for human
-            swimming.  Distinguish two unrelated domains.  A severly
-            impaired or oblivious person can drop to this level.
+            <span class="th">-40:</span> Move penalty for humans
+            swimming or climbing.
+          </p>
+          <p>
+            <span class="th">-20:</span> Distinguish two unrelated
+            domains.  A severly impaired or oblivious person can drop
+            to this level.
           </p>
           <p>
             <span class="th">-10:</span> Move penalty for human
