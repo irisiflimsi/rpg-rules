@@ -660,8 +660,8 @@
             <td>5m</td>
             <td>4s</td>
             <td>-</td>
-            <td>-</td>
-            <td>-</td>
+            <td>300g</td>
+            <td>6m/s</td>
           </tr>
           <tr>
             <td>Long Weapon</td>
@@ -872,6 +872,12 @@
             <td>1</td>
             <td>3</td>
             <td>2/3</td>
+          </tr>
+          <tr>
+            <td>Cloth</td>
+            <td>0.5</td>
+            <td>1</td>
+            <td>1</td>
           </tr>
           <tr>
             <td>Plasteel</td>
