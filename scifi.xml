@@ -573,7 +573,7 @@
             A melee weapon will have 8 BEP for a weight of 2.5 kg.
             Every decrease of 1 BEP leads to half of the original
             weight, the corresponding is true for increases.  Remember
-            that a weapon still needss to be controlled during combat.
+            that a weapon still needs to be controlled during combat.
             This is uncommon for weapons beyond 2kg, as the skill is
             usually not trained on those extreme weapons.  Weapons
             that are easier to manufacture generally (or are dual
@@ -708,6 +708,17 @@
             <td>900m/s</td>
           </tr>
           <tr>
+            <td>Heavy Gun, redux</td>
+            <td>1.5kg</td>
+            <td>1</td>
+            <td>10</td>
+            <td>20m</td>
+            <td>3s</td>
+            <td>10</td>
+            <td>11g</td>
+            <td>900m/s</td>
+          </tr>
+          <tr>
             <td>Light Rifle</td>
             <td>4kg</td>
             <td>2</td>
@@ -716,6 +727,17 @@
             <td>2s</td>
             <td>30</td>
             <td>20g</td>
+            <td>600m/s</td>
+          </tr>
+          <tr>
+            <td>Light Rifle, redux</td>
+            <td>3.5kg</td>
+            <td>2</td>
+            <td>10</td>
+            <td>30m</td>
+            <td>2s</td>
+            <td>30</td>
+            <td>17g</td>
             <td>600m/s</td>
           </tr>
           <tr>
@@ -752,10 +774,21 @@
             <td>100m/s</td>
           </tr>
           <tr>
+            <td>Energy Blaster Mk I, redux</td>
+            <td>1.3kg</td>
+            <td>2</td>
+            <td>5</td>
+            <td>30m</td>
+            <td>1s</td>
+            <td>50</td>
+            <td>125g</td>
+            <td>Light</td>
+          </tr>
+          <tr>
             <td>Energy Blaster Mk I</td>
             <td>2.5kg</td>
             <td>2</td>
-            <td>10/(kWs)</td>
+            <td>10</td>
             <td>50m</td>
             <td>1s</td>
             <td>250</td>
