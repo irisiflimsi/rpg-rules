@@ -190,6 +190,7 @@
             <td><a href="#co-dim">Dimensions</a></td>
             <td><a href="#co-engage">Engagement</a></td>
             <td><a href="#co-block">Evade</a></td>
+            <td><a href="#co-fast">Fast Action</a></td>
           </tr>
           <tr>
             <td><a href="#co-grap">Grapple/Tangle</a></td>
@@ -199,9 +200,9 @@
             <td><a href="#co-ini">Initiative</a></td>
             <td><a href="#co-missile">Missiles</a></td>
             <td><a href="#co-move">Move</a></td>
+            <td><a href="#co-prep">Preparation</a></td>
           </tr>
           <tr>
-            <td><a href="#co-prep">Preparation</a></td>
             <td><a href="#co-loss">Protection Loss</a></td>
             <td><a href="#co-push">Push</a></td>
             <td><a href="#co-shock">Shock</a></td>
@@ -328,6 +329,29 @@
           immediately reduced to zero, once the grapple is no longer
           maintained.  Not all unarmed attacks are grapples. 
         </p>
+        <h5 id="co-fast">Fast Action</h5>
+        <p>
+	  Speeding up activity for whatever reason incurs a penalty.
+	  A penalty is applied to the damage dimension as an
+	  equivalent bonus is taken to the time dimension, such that
+	  when attacking, a -5 is applied for halfing the necessary
+	  time.  For example, if a gun is fired once per second the
+	  reduction is -10, if the normal firing rate is once per 4
+	  seconds.  Remind yourself that firing a weapon can also
+	  imply aiming as a separate task, which can bring more
+	  penalties.  It is not possible to reduce the firing time and
+	  fire at totally different targets.
+        </p>
+        <p>
+	  When the firing rate does not divide 4s as a whole number,
+	  for example a 3s rate, use the least-common-multiple
+	  principle.  In the example, this gives 12, so firing only
+	  once every 12s grants a bonus of +10, but firing 3 times per
+	  standard rate yields a -8. Firing such a 3s-rate weapon
+	  every 4s means a net bonus of +2 per shot.  Firing that
+	  weapon every second gives a -8 penalty. Firing every other
+	  second is a -3 to each shot.
+        </p>
         <h5 id="co-group">Groups</h5>
         <p>
           In order to simulate larger combats with many participants,
@@ -401,9 +425,8 @@
         </p>
         <p>
           The situation in combat changes constantly.  One action is
-          assumed to take 4 seconds, going prematurely incurs the
-          usual 5-subtraction penalty.  (Acting every 8 seconds can
-          lend a bonus.)
+          assumed to take 4 seconds, going prematurely incurs a
+          penalty.  See <em>Fast Action</em>
         </p>
         <p>
           For round-based combat, Initiative usually simply determines
