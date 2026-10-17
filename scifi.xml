@@ -96,8 +96,8 @@
           serve as reference points.
         </p>
         <p>
-	  In the example, <em>domains of knowledge</em> are languages,
-	  sciences, engineering disciplines, and so on.
+          In the example, <em>domains of knowledge</em> are languages,
+          sciences, engineering disciplines, and so on.
         </p>
         <div class="explain">
           <p>
@@ -160,7 +160,7 @@
             at some random instant of the travel.  The dimension
             values may not differ by more than 20 points.
           </p>
-	</div>
+        </div>
       </div>
       <div class="container">
         <h1 id="combat">Combat</h1>
@@ -331,26 +331,26 @@
         </p>
         <h5 id="co-fast">Fast Action</h5>
         <p>
-	  Speeding up activity for whatever reason incurs a penalty.
-	  A penalty is applied to the damage dimension as an
-	  equivalent bonus is taken to the time dimension, such that
-	  when attacking, a -5 is applied for halfing the necessary
-	  time.  For example, if a gun is fired once per second the
-	  reduction is -10, if the normal firing rate is once per 4
-	  seconds.  Remind yourself that firing a weapon can also
-	  imply aiming as a separate task, which can bring more
-	  penalties.  It is not possible to reduce the firing time and
-	  fire at totally different targets.
+          Speeding up activity for whatever reason incurs a penalty.
+          A penalty is applied to the damage dimension as an
+          equivalent bonus is taken to the time dimension, such that
+          when attacking, a -5 is applied for halfing the necessary
+          time.  For example, if a gun is fired once per second the
+          reduction is -10, if the normal firing rate is once per 4
+          seconds.  Remind yourself that firing a weapon can also
+          imply aiming as a separate task, which can bring more
+          penalties.  It is not possible to reduce the firing time and
+          fire at totally different targets.
         </p>
         <p>
-	  When the firing rate does not divide 4s as a whole number,
-	  for example a 3s rate, use the least-common-multiple
-	  principle.  In the example, this gives 12, so firing only
-	  once every 12s grants a bonus of +10, but firing 3 times per
-	  standard rate yields a -8. Firing such a 3s-rate weapon
-	  every 4s means a net bonus of +2 per shot.  Firing that
-	  weapon every second gives a -8 penalty. Firing every other
-	  second is a -3 to each shot.
+          When the firing rate does not divide 4s as a whole number,
+          for example a 3s rate, use the least-common-multiple
+          principle.  In the example, this gives 12, so firing only
+          once every 12s grants a bonus of +10, but firing 3 times per
+          standard rate yields a -8. Firing such a 3s-rate weapon
+          every 4s means a net bonus of +2 per shot.  Firing that
+          weapon every second gives a -8 penalty. Firing every other
+          second is a -3 to each shot.
         </p>
         <h5 id="co-group">Groups</h5>
         <p>
@@ -633,6 +633,13 @@
             zero</em> has zero cubic meter volume.
           </p>
           <p>
+            All primarily ranged weapons grant a +10 bonus to their
+            attack rolls.  On the other hand, a range penalty of
+            distance between shooter and target divided by listed
+            range is applied.  Multiple targets must be calculated
+            individually.
+          </p>
+          <p>
             Energy weapons that are restricted to 1-3 configured
             discharge types can be used with other appropriate skills.
             Artillery does not distinguish between energy or
@@ -696,17 +703,6 @@
             <td>-</td>
             <td>1.3kg</td>
             <td>6m/s</td>
-          </tr>
-          <tr>
-            <td>Bow</td>
-            <td>1.5kg</td>
-            <td>2</td>
-            <td>8</td>
-            <td>20m</td>
-            <td>6s</td>
-            <td>20</td>
-            <td>80g</td>
-            <td>100m/s</td>
           </tr>
           <tr>
             <td>Light Gun</td>
