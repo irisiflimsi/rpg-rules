@@ -156,6 +156,10 @@
             <td id="dim-yie">—</td>
           </tr>
           <tr>
+            <td>Range</td>
+            <td id="dim-ran">—</td>
+          </tr>
+          <tr>
             <td>Accident</td>
             <td id="dim-dan">—</td>
           </tr>
@@ -173,6 +177,7 @@
       const dimmov = document.getElementById("dim-mov");
       const dimtim = document.getElementById("dim-tim");
       const dimyie = document.getElementById("dim-yie");
+      const dimran = document.getElementById("dim-ran");
       const dimdan = document.getElementById("dim-dan");
 
       function updateValues() {
@@ -184,9 +189,9 @@
 	  dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
 	  dimtim.textContent = Math.round(100 * 2 ** -v) + " %";
 	  dimyie.textContent = Math.round(8 * 2 ** v) / 8;
+	  dimran.textContent = Math.max(5, Math.round(5 * 2 ** -(10 / 6 * v))) + " m";
 	  dimdan.textContent = Math.max(0, Math.min(100, - 20 * v)) + " %";
       }
-
       roll.oninput = updateValues;
       decreaseBtn.onclick = function() {
 	  const currentValue = parseInt(roll.value);

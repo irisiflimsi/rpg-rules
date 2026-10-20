@@ -624,6 +624,18 @@
           that armor and BEP are applied after skill damage (and only
           if the net skill application is positive).
         </p>
+        <p>
+          The range of all guns and energyblasters is assumed to be
+          10m for the purpose of determining range modifiers.
+          Additionally the fire rate is normalized to once per 4s.
+          Weapons are easily customizable to fire at any other rate
+          with the corresponding 5-addition bonus or penalty.
+        </p>
+        <p>
+	  Penalties for distance are in the Range dimension.  That
+	  means you take the penalty according to dimension range
+	  values the distance to a target falls into.
+        </p>
         <div class="explain">
           <p>
             Explosives such as grenades lose 1 point of damge per
@@ -665,7 +677,7 @@
             <th>Weight</th>
             <th>Hand</th>
             <th>BEP</th>
-            <th>Range</th>
+            <th>Range Mod.</th>
             <th>Rate</th>
             <th>Clip</th>
             <th>Ammo</th>
@@ -677,7 +689,6 @@
             <td>2</td>
             <td>2</td>
             <td>-</td>
-            <td>4s</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -687,8 +698,7 @@
             <td>300g</td>
             <td>1</td>
             <td>5</td>
-            <td>5m</td>
-            <td>4s</td>
+            <td>-5</td>
             <td>-</td>
             <td>300g</td>
             <td>6m/s</td>
@@ -698,8 +708,7 @@
             <td>1.3kg</td>
             <td>1</td>
             <td>7</td>
-            <td>5m</td>
-            <td>4s</td>
+            <td>-5</td>
             <td>-</td>
             <td>1.3kg</td>
             <td>6m/s</td>
@@ -709,8 +718,7 @@
             <td>1kg</td>
             <td>1</td>
             <td>6</td>
-            <td>20m</td>
-            <td>2s</td>
+            <td>+5</td>
             <td>20</td>
             <td>10g</td>
             <td>600m/s</td>
@@ -720,8 +728,7 @@
             <td>2kg</td>
             <td>1</td>
             <td>18</td>
-            <td>20m</td>
-            <td>3s</td>
+            <td>+8</td>
             <td>10</td>
             <td>20g</td>
             <td>900m/s</td>
@@ -731,8 +738,7 @@
             <td>1.5kg</td>
             <td>1</td>
             <td>10</td>
-            <td>20m</td>
-            <td>3s</td>
+            <td>+8</td>
             <td>10</td>
             <td>11g</td>
             <td>900m/s</td>
@@ -742,8 +748,7 @@
             <td>4kg</td>
             <td>2</td>
             <td>12</td>
-            <td>40m</td>
-            <td>2s</td>
+            <td>+15</td>
             <td>30</td>
             <td>20g</td>
             <td>600m/s</td>
@@ -753,8 +758,7 @@
             <td>3.5kg</td>
             <td>2</td>
             <td>10</td>
-            <td>30m</td>
-            <td>2s</td>
+            <td>+13</td>
             <td>30</td>
             <td>17g</td>
             <td>600m/s</td>
@@ -764,8 +768,7 @@
             <td>6kg</td>
             <td>2</td>
             <td>24</td>
-            <td>40m</td>
-            <td>4s</td>
+            <td>+10</td>
             <td>20</td>
             <td>40g</td>
             <td>600m/s</td>
@@ -775,8 +778,7 @@
             <td>25kg</td>
             <td>2</td>
             <td>36</td>
-            <td>40m</td>
-            <td>1s</td>
+            <td>+20</td>
             <td>120</td>
             <td>40g</td>
             <td>900m/s</td>
@@ -786,8 +788,7 @@
             <td>3kg</td>
             <td>2</td>
             <td>50</td>
-            <td>40m</td>
-            <td>12s</td>
+            <td>+2</td>
             <td>1</td>
             <td>500g</td>
             <td>100m/s</td>
@@ -797,8 +798,7 @@
             <td>1.3kg</td>
             <td>2</td>
             <td>5</td>
-            <td>30m</td>
-            <td>1s</td>
+            <td>+12</td>
             <td>50</td>
             <td>125g</td>
             <td>Light</td>
@@ -808,8 +808,7 @@
             <td>2.5kg</td>
             <td>2</td>
             <td>10</td>
-            <td>50m</td>
-            <td>1s</td>
+            <td>+18</td>
             <td>250</td>
             <td>250g</td>
             <td>Light</td>
@@ -819,8 +818,7 @@
             <td>5kg</td>
             <td>2</td>
             <td>20</td>
-            <td>50m</td>
-            <td>1s</td>
+            <td>+18</td>
             <td>1000</td>
             <td>1kg</td>
             <td>Light</td>
@@ -830,8 +828,7 @@
             <td>10kg</td>
             <td>2</td>
             <td>40</td>
-            <td>50m</td>
-            <td>1s</td>
+            <td>+18</td>
             <td>2000</td>
             <td>2kg</td>
             <td>Light</td>
@@ -840,7 +837,7 @@
         <p>
           The possible spread of the Mk I is 1m x 1m only, Mk II has
           2x2, 4x1, 1x4, and Mk III has 1x12, 2x6, 3x4, 4x3, 6x2, 12x1
-          spreads.
+          spreads. All at 10m.
         </p>
         <h3 id="protection">Protection</h3>
         <p>
