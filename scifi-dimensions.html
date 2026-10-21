@@ -183,7 +183,7 @@
       function updateValues() {
 	  const v = roll.value / 10;
 	  dimnum.textContent = roll.value;
-	  dimacc.textContent = Math.round(100 * (1 - 1 / (2 * 2 ** v))) + " % – " + Math.round(100 / (1 - 1 / (2 * 2 ** v))) + " %";
+	  dimacc.textContent = Math.max(0, Math.round(100 * (1 - 1 / (2 ** v)))) + " % – " + (v > 0 ? Math.round(100 / (1 - 1 / (2 ** v))) : "∞") + " %";
 	  dimhea.textContent = Math.round(8 * 2 ** -v) / 8 + " day/pt";
 	  dimini.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
 	  dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
