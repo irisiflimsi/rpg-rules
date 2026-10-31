@@ -603,7 +603,7 @@
             purposed, e.g. can also be thrown) deal less damage.
           </p>
           <p>
-            Only 1- or 2-handed guns are possible.  BEP equals nozzle
+            Only 1- or 2-handed guns are possible.  BEP equals muzzle
             velocity times Amunition weight, while BEP times the
             number of hands used equals 8 times the gun weight.  Range
             is always 20m for (single) hand guns and 40m for rifles.
@@ -678,10 +678,9 @@
             <th>Hand</th>
             <th>BEP</th>
             <th>Range Mod.</th>
-            <th>Rate</th>
+            <th>Clip Size</th>
             <th>Clip</th>
-            <th>Ammo</th>
-            <th>Nozzle</th>
+            <th>Muzzle</th>
           </tr>
           <tr>
             <td>Unarmed</td>
