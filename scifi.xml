@@ -456,7 +456,7 @@
           during a move (or the second before and after).  For missile
           attacks use speed perpendicular to the direction of the
           attack.  If attacking <em>during</em> a move subtract a
-          percentage of 20 correspording to the percentage of a
+          percentage of 20 corresponding to the percentage of a
           maximal move during the period.  The same is valid for Evade
           during a Move.
         </p>
@@ -632,9 +632,9 @@
           with the corresponding 5-addition bonus or penalty.
         </p>
         <p>
-	  Penalties for distance are in the Range dimension.  That
-	  means you take the penalty according to dimension range
-	  values the distance to a target falls into.
+          Penalties for distance are in the Range dimension.  That
+          means you take the penalty according to dimension range
+          values the distance to a target falls into.
         </p>
         <div class="explain">
           <p>
@@ -925,11 +925,11 @@
         </p>
         <div class="explain">
           <p>
-            <b>Aimlock</b>: Waiting 1s for automation to acquire a
-            lock grants a +5 bonus when shooting at targets where the
-            missile travels for at least 1s.  This can be repeated for
-            up to 4s.  This is especially useful for moving targets
-            but requires a the aimlock in the missile.
+            <b>Aimlock</b>: Used against moving target. Waiting 1s for
+            automation to acquire a lock reduces the target move
+            penalty by 10.  This cannot be repeated for a stationary
+            aimlock but for those on missiles.  In that case the move
+            penalty can be reduced to 0.
           </p>
           <p>
             <b>Earbuds</b>: Electric communication with a (spherical)
@@ -942,12 +942,6 @@
             used in many sizes, equivalent relations are 1kWs/g or
             1GWs/T.  With 10% rounding error, use 1kWh/4g, 1MWh/4kg,
             1GWh/4T.
-          </p>
-          <p>
-            <b>Flashbang Grenade</b>: As a grenade (generally 50 BEP)
-            but deals <em>Air/Suffocation</em> damage.  The volume is
-            only affected for 1s.  Effects on technical eyes vary.
-            Mostly thrown by hand at 6m/s.
           </p>
           <p>
             <b>Helmet</b>: A protective skull protection with face
@@ -966,15 +960,14 @@
           </p>
           <p>
             <b>Scope</b>: This item can be applied (interchangeably)
-            to any gun and gives a +1 bonus for firing at distances
-            for each 20% of range the target is at.  This effectively
-            halfs the range penalty to shooting.
+            to any gun and reduces the range penalty from -6 to -3.
           </p>
           <p>
-            <b>Teargas Grenade</b>: As a grenade (generally 50 BEP)
-            but deals <em>Air/Suffocation</em> damage.  The volume
-            usually continues to be affected, remains stationary, and
-            dissipates at 1BEP/s.  Often thrown by hand at 6m/s.
+            <b>Teargas/Flashbang Grenade</b>: As a grenade (generally
+            50 BEP) but deals <em>Air/Suffocation</em> damage.  The
+            volume usually continues to be affected, remains
+            stationary, and dissipates at 1BEP/s.  Often thrown by
+            hand at 6m/s.
           </p>
           <p>
             <b>Vest</b>: a so-called bullet-proof vest, this plasteel
