@@ -605,10 +605,7 @@
           <p>
             Only 1- or 2-handed guns are possible.  BEP equals muzzle
             velocity times Amunition weight, while BEP times the
-            number of hands used equals 8 times the gun weight.  Range
-            is always 20m for (single) hand guns and 40m for rifles.
-            Ammunition weight is 10 times the difference of the firing
-            rate and the number of free hands (0 or 1).
+            number of hands used equals 8 times the gun weight.
           </p>
           <p>
             Energy weapons called <em>Blasters</em> can be customized
@@ -625,16 +622,12 @@
           if the net skill application is positive).
         </p>
         <p>
-          The range of all guns and energyblasters is assumed to be
-          10m for the purpose of determining range modifiers.
-          Additionally the fire rate is normalized to once per 4s.
-          Weapons are easily customizable to fire at any other rate
-          with the corresponding 5-addition bonus or penalty.
-        </p>
-        <p>
-          Penalties for distance are in the Range dimension.  That
-          means you take the penalty according to dimension range
-          values the distance to a target falls into.
+          The fire rate is normalized to once per 4s.  Weapons are
+          easily customizable to fire at any other rate with the
+          corresponding 5-addition bonus or penalty.  Penalties for
+          distance are in the Range dimension.  That means you take
+          the penalty according to dimension range values the distance
+          to a target falls into.
         </p>
         <div class="explain">
           <p>
@@ -645,10 +638,8 @@
             zero</em> has zero cubic meter volume.
           </p>
           <p>
-            All primarily ranged weapons grant a +10 bonus to their
-            attack rolls.  On the other hand, a range penalty of
-            distance between shooter and target divided by listed
-            range is applied.  Multiple targets must be calculated
+            All ranged weapons apply the range modifier to their
+            attack rolls.  Multiple targets must be calculated
             individually.
           </p>
           <p>
