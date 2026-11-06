@@ -609,7 +609,7 @@
           </p>
           <p>
             Energy weapons called <em>Blasters</em> can be customized
-            with 2.5/kWs weight, 10/kWs BEP, relatively arbitrary clip
+            with 2.5 kg/kWs, 1 BEP/kWs, relatively arbitrary clip
             and ammo and a fixed set of spreads for area affect.  The
             customizer is responsible for providing a specification.
           </p>
@@ -789,7 +789,7 @@
             <td>2</td>
             <td>5</td>
             <td>+12</td>
-            <td>60</td>
+            <td>25</td>
             <td>250g</td>
             <td>Light</td>
           </tr>
@@ -799,7 +799,7 @@
             <td>2</td>
             <td>10</td>
             <td>+18</td>
-            <td>125</td>
+            <td>50</td>
             <td>500g</td>
             <td>Light</td>
           </tr>
@@ -809,7 +809,7 @@
             <td>2</td>
             <td>20</td>
             <td>+18</td>
-            <td>250</td>
+            <td>50</td>
             <td>1kg</td>
             <td>Light</td>
           </tr>
@@ -819,7 +819,7 @@
             <td>2</td>
             <td>40</td>
             <td>+18</td>
-            <td>500</td>
+            <td>50</td>
             <td>2kg</td>
             <td>Light</td>
           </tr>
