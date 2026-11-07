@@ -609,9 +609,11 @@
           </p>
           <p>
             Energy weapons called <em>Blasters</em> can be customized
-            with 2.5 kg/kWs, 1 BEP/kWs, relatively arbitrary clip
-            and ammo and a fixed set of spreads for area affect.  The
-            customizer is responsible for providing a specification.
+            with 2.5 kg/kWs for the weapon, 10 BEP/kWs for the
+            munition - weight according to battery storage -
+            relatively arbitrary clip and ammo and a fixed set of
+            spreads for area affect.  The customizer is responsible
+            for providing a specification.
           </p>
         </div>
         <p>
