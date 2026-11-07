@@ -604,8 +604,9 @@
           </p>
           <p>
             Only 1- or 2-handed guns are possible.  BEP equals muzzle
-            velocity times Amunition weight, while BEP times the
-            number of hands used equals 8 times the gun weight.
+            velocity (m/s) times Amunition weight (kg), while BEP
+            times the number of hands used equals 6 times the gun
+            weight.
           </p>
           <p>
             Energy weapons called <em>Blasters</em> can be customized
@@ -672,7 +673,7 @@
             <th>BEP</th>
             <th>Range Mod.</th>
             <th>Clip Size</th>
-            <th>Clip</th>
+            <th>Clip Weight</th>
             <th>Muzzle</th>
           </tr>
           <tr>
@@ -712,28 +713,28 @@
             <td>6</td>
             <td>+5</td>
             <td>20</td>
-            <td>10g</td>
+            <td>200g</td>
             <td>600m/s</td>
           </tr>
           <tr>
             <td>Heavy Gun</td>
-            <td>2kg</td>
+            <td>3kg</td>
             <td>1</td>
             <td>18</td>
             <td>+8</td>
             <td>10</td>
-            <td>20g</td>
+            <td>200g</td>
             <td>900m/s</td>
           </tr>
           <tr>
             <td>Heavy Gun, redux</td>
-            <td>1.5kg</td>
+            <td>2kg</td>
             <td>1</td>
-            <td>10</td>
+            <td>12</td>
             <td>+8</td>
             <td>10</td>
-            <td>11g</td>
-            <td>900m/s</td>
+            <td>200g</td>
+            <td>600m/s</td>
           </tr>
           <tr>
             <td>Light Rifle</td>
@@ -742,38 +743,38 @@
             <td>12</td>
             <td>+15</td>
             <td>30</td>
-            <td>20g</td>
-            <td>600m/s</td>
+            <td>500g</td>
+            <td>720m/s</td>
           </tr>
           <tr>
             <td>Light Rifle, redux</td>
-            <td>3.5kg</td>
+            <td>3kg</td>
             <td>2</td>
-            <td>10</td>
+            <td>9</td>
             <td>+13</td>
             <td>30</td>
-            <td>17g</td>
-            <td>600m/s</td>
+            <td>500g</td>
+            <td>540m/s</td>
           </tr>
           <tr>
             <td>Heavy Rifle</td>
             <td>6kg</td>
             <td>2</td>
-            <td>24</td>
+            <td>18</td>
             <td>+10</td>
             <td>20</td>
-            <td>40g</td>
+            <td>600g</td>
             <td>600m/s</td>
           </tr>
           <tr>
             <td>Mounted Machine Gun</td>
             <td>25kg</td>
             <td>2</td>
-            <td>36</td>
+            <td>72</td>
             <td>+20</td>
             <td>120</td>
-            <td>40g</td>
-            <td>900m/s</td>
+            <td>12kg</td>
+            <td>720m/s</td>
           </tr>
           <tr>
             <td>Carried Grenade Launcher</td>
