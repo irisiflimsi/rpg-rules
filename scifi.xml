@@ -604,7 +604,7 @@
           </p>
           <p>
             Only 1- or 2-handed guns are possible.  BEP equals muzzle
-            velocity (m/s) times Amunition weight (kg), while BEP
+            velocity (m/s) times slug weight (kg), while BEP
             equals 6 times the gun weight.
           </p>
           <p>
@@ -672,7 +672,7 @@
             <th>BEP</th>
             <th>Range Mod.</th>
             <th>Clip Size</th>
-            <th>Clip Weight</th>
+            <th>Slug Weight</th>
             <th>Muzzle</th>
           </tr>
           <tr>
@@ -712,7 +712,7 @@
             <td>6</td>
             <td>+5</td>
             <td>20</td>
-            <td>200g</td>
+            <td>10g</td>
             <td>600m/s</td>
           </tr>
           <tr>
@@ -722,7 +722,7 @@
             <td>18</td>
             <td>+8</td>
             <td>10</td>
-            <td>200g</td>
+            <td>20g</td>
             <td>900m/s</td>
           </tr>
           <tr>
@@ -732,7 +732,7 @@
             <td>12</td>
             <td>+8</td>
             <td>10</td>
-            <td>200g</td>
+            <td>20g</td>
             <td>600m/s</td>
           </tr>
           <tr>
@@ -742,7 +742,7 @@
             <td>24</td>
             <td>+15</td>
             <td>30</td>
-            <td>500g</td>
+            <td>17g</td>
             <td>1440m/s</td>
           </tr>
           <tr>
@@ -750,9 +750,9 @@
             <td>2.5kg</td>
             <td>2</td>
             <td>16</td>
-            <td>+13</td>
+            <td>+15</td>
             <td>30</td>
-            <td>500g</td>
+            <td>17g</td>
             <td>960m/s</td>
           </tr>
           <tr>
@@ -760,9 +760,9 @@
             <td>6.5kg</td>
             <td>2</td>
             <td>40</td>
-            <td>+10</td>
+            <td>+18</td>
             <td>20</td>
-            <td>600g</td>
+            <td>30g</td>
             <td>1330m/s</td>
           </tr>
           <tr>
@@ -770,9 +770,9 @@
             <td>25kg</td>
             <td>2</td>
             <td>150</td>
-            <td>+20</td>
+            <td>+18</td>
             <td>120</td>
-            <td>12kg</td>
+            <td>100g</td>
             <td>1500m/s</td>
           </tr>
           <tr>
@@ -792,7 +792,7 @@
             <td>5</td>
             <td>+12</td>
             <td>25</td>
-            <td>250g</td>
+            <td>10g</td>
             <td>Light</td>
           </tr>
           <tr>
@@ -802,7 +802,7 @@
             <td>10</td>
             <td>+18</td>
             <td>50</td>
-            <td>500g</td>
+            <td>10g</td>
             <td>Light</td>
           </tr>
           <tr>
@@ -812,7 +812,7 @@
             <td>20</td>
             <td>+18</td>
             <td>50</td>
-            <td>1kg</td>
+            <td>20g</td>
             <td>Light</td>
           </tr>
           <tr>
@@ -822,7 +822,7 @@
             <td>40</td>
             <td>+18</td>
             <td>50</td>
-            <td>2kg</td>
+            <td>40g</td>
             <td>Light</td>
           </tr>
         </table>
