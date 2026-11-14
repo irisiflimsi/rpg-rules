@@ -7,106 +7,106 @@
     <title>Dimensions Calculator</title>
     <style>
       *, *:before, *:after {
-	  box-sizing: inherit;
+          box-sizing: inherit;
       }
       body, h1, h2, h3, h4 {
-	  margin: 10px 0;
-	  font-family: "Merriweather";
+          margin: 10px 0;
+          font-family: "Merriweather";
       }
       body {
-	  box-sizing: border-box;
-	  line-height: 1.5;
-	  font-size: 18px;
-	  text-align: justify;
-	  justify-content: center;
-	  display: flex;
+          box-sizing: border-box;
+          line-height: 1.5;
+          font-size: 18px;
+          text-align: justify;
+          justify-content: center;
+          display: flex;
       }
       .container {
-	  background: var(--navbg);
-	  padding: 40px;
-	  margin: 40px;
-	  width: 100%;
-	  max-width: 800px;
+          background: var(--navbg);
+          padding: 40px;
+          margin: 40px;
+          width: 100%;
+          max-width: 800px;
       }
       h1 {
-	  text-align: center;
-	  font-size: 24px;
-	  margin-bottom: 30px;
-	  color: var(--head);
+          text-align: center;
+          font-size: 24px;
+          margin-bottom: 30px;
+          color: var(--head);
       }
       .slider-container {
-	  margin-bottom: 40px;
-	  padding: 30px;
-	  background: white;
+          margin-bottom: 40px;
+          padding: 30px;
+          background: white;
       }
       .value-display {
-	  text-align: center;
-	  margin-bottom: 20px;
+          text-align: center;
+          margin-bottom: 20px;
       }
       .value-number {
-	  font-size: 24px;
-	  color: var(--h1);
+          font-size: 24px;
+          color: var(--h1);
       }
       .slider-controls {
-	  display: flex;
-	  gap: 15px;
-	  align-items: center;
+          display: flex;
+          gap: 15px;
+          align-items: center;
       }
       .control-btn {
-	  background: var(--navbg);
-	  border: none;
-	  color: white;
-	  width: 40px;
-	  height: 40px;
-	  font-size: 20px;
-	  cursor: pointer;
+          background: var(--navbg);
+          border: none;
+          color: white;
+          width: 40px;
+          height: 40px;
+          font-size: 20px;
+          cursor: pointer;
       }
       .control-btn:hover {
-	  background: white;
-	  border: 1px solid var(--navbg);
-	  color: var(--navbg);
+          background: white;
+          border: 1px solid var(--navbg);
+          color: var(--navbg);
       }
       input[type="range"] {
-	  flex: 1;
-	  height: 10px;
-	  background: var(--navbg);
-	  -webkit-appearance: none;
+          flex: 1;
+          height: 10px;
+          background: var(--navbg);
+          -webkit-appearance: none;
       }
       input[type="range"]::-webkit-slider-thumb,
       input[type="range"]::-moz-range-thumb {
-	  -webkit-appearance: none;
-	  appearance: none;
-	  width: 30px;
-	  height: 30px;
-	  border-radius: 50%;
-	  background: var(--navbg);
-	  box-shadow: 0 0 10px #0008;
-	  cursor: pointer;
+          -webkit-appearance: none;
+          appearance: none;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background: var(--navbg);
+          box-shadow: 0 0 10px #0008;
+          cursor: pointer;
       }
       table {
-	  width: 100%;
-	  font-size:80%;
-	  border-collapse: separate;
-	  border-spacing: 0;
-	  background: white;
-	  padding: 0px 30px 10px;
+          width: 100%;
+          font-size:80%;
+          border-collapse: separate;
+          border-spacing: 0;
+          background: white;
+          padding: 0px 30px 10px;
       }
       th {
-	  border-top: none;
-	  padding: 8px;
-	  text-align: left;
-	  color: var(--h1);
-	  width: 70%;
+          border-top: none;
+          padding: 8px;
+          text-align: left;
+          color: var(--h1);
+          width: 70%;
       }
       td {
-	  border-top: 1px solid var(--tdo);
-	  padding: 8px;
-	  text-align: left;
-	  color: var(--tdo);
+          border-top: 1px solid var(--tdo);
+          padding: 8px;
+          text-align: left;
+          color: var(--tdo);
       }
       th:last-child, td:last-child {
-	  width: 30%;
-	  text-align: center;
+          width: 30%;
+          text-align: center;
       }
     </style>
   </head>
@@ -114,23 +114,23 @@
     <div class="container">
       <h1>Dimensions</h1>
       <div class="slider-container">
-	<div class="value-display">
+        <div class="value-display">
           <div class="value-number" id="dim-num">0</div>
-	</div>
-	<div class="slider-controls">
+        </div>
+        <div class="slider-controls">
           <button class="control-btn" id="decreaseBtn">−</button>
           <input type="range" min="-50" max="50" value="0" id="roll">
           <button class="control-btn" id="increaseBtn">+</button>
-	</div>
+        </div>
       </div>
       <table>
-	<thead>
+        <thead>
           <tr>
             <th>Parameter</th>
             <th>Value</th>
           </tr>
-	</thead>
-	<tbody>
+        </thead>
+        <tbody>
           <tr>
             <td>Accuracy</td>
             <td id="dim-acc">—</td>
@@ -163,7 +163,11 @@
             <td>Accident</td>
             <td id="dim-dan">—</td>
           </tr>
-	</tbody>
+          <tr>
+            <td>Damage</td>
+            <td id="dim-dam">—</td>
+          </tr>
+        </tbody>
       </table>
     </div>
     <script>
@@ -179,33 +183,35 @@
       const dimyie = document.getElementById("dim-yie");
       const dimran = document.getElementById("dim-ran");
       const dimdan = document.getElementById("dim-dan");
+      const dimdam = document.getElementById("dim-dam");
 
       function updateValues() {
-	  const v = roll.value / 10;
-	  dimnum.textContent = roll.value;
-	  dimacc.textContent = Math.max(0, Math.round(100 * (1 - 1 / (2 ** v)))) + " % – " + (v > 0 ? Math.round(100 / (1 - 1 / (2 ** v))) : "∞") + " %";
-	  dimhea.textContent = Math.round(8 * 2 ** -v) / 8 + " day/pt";
-	  dimini.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
-	  dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
-	  dimtim.textContent = Math.round(100 * 2 ** -v) + " %";
-	  dimyie.textContent = Math.round(8 * 2 ** v) / 8;
-	  dimran.textContent = Math.max(5, Math.round(5 * 2 ** -(10 / 6 * v))) + " m";
-	  dimdan.textContent = Math.max(0, Math.min(100, - 20 * v)) + " %";
+          const v = roll.value / 10;
+          dimnum.textContent = roll.value;
+          dimacc.textContent = Math.max(0, Math.round(100 * (1 - 1 / (2 ** v)))) + " % – " + (v > 0 ? Math.round(100 / (1 - 1 / (2 ** v))) : "∞") + " %";
+          dimhea.textContent = Math.round(8 * 2 ** -v) / 8 + " day/pt";
+          dimini.textContent = Math.round(32 * 2 ** -v) / 8 + " s";
+          dimmov.textContent = Math.round(20 * 2 ** (v / 2)) / 8 + " m/s = " + Math.round(72 * 2 ** (v / 2)) / 8 + " km/h";
+          dimtim.textContent = Math.round(100 * 2 ** -v) + " %";
+          dimyie.textContent = Math.round(8 * 2 ** v) / 8;
+          dimran.textContent = Math.max(5, Math.round(5 * 2 ** -(10 / 6 * v))) + " m";
+          dimdan.textContent = Math.max(0, Math.min(100, - 20 * v)) + " %";
+          dimdam.textContent = Math.round((8/5) ** (2*v) * 10) / 10;
       }
       roll.oninput = updateValues;
       decreaseBtn.onclick = function() {
-	  const currentValue = parseInt(roll.value);
-	  if (currentValue > parseInt(roll.min)) {
+          const currentValue = parseInt(roll.value);
+          if (currentValue > parseInt(roll.min)) {
               roll.value = currentValue - 1;
               updateValues();
-	  }
+          }
       };
       increaseBtn.onclick = function() {
-	  const currentValue = parseInt(roll.value);
-	  if (currentValue < parseInt(roll.max)) {
+          const currentValue = parseInt(roll.value);
+          if (currentValue < parseInt(roll.max)) {
               roll.value = currentValue + 1;
               updateValues();
-	  }
+          }
       };
       updateValues();
     </script>
